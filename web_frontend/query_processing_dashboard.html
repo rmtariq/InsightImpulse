@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse - Intelligent Query Processing Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+        
+        .dashboard-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 20px;
+            padding: 30px;
+        }
+        
+        .query-input-section {
+            background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+        
+        .processing-flow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .flow-step {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            margin: 10px;
+            flex: 1;
+            min-width: 200px;
+            transition: transform 0.3s ease;
+        }
+        
+        .flow-step:hover {
+            transform: translateY(-5px);
+        }
+        
+        .flow-step.active {
+            background: linear-gradient(135deg, #1cc88a 0%, #13855c 100%);
+            color: white;
+        }
+        
+        .flow-arrow {
+            font-size: 24px;
+            color: #4e73df;
+            margin: 0 10px;
+        }
+        
+        .result-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        
+        .confidence-meter {
+            background: #f8f9fc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .confidence-bar {
+            height: 20px;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #e74a3b 0%, #f6c23e 50%, #1cc88a 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .confidence-indicator {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: rgba(255,255,255,0.3);
+            border-radius: 10px;
+            transition: width 0.8s ease;
+        }
+        
+        .category-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #36b9cc 0%, #258391 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .platform-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .platform-facebook { background: #1877f2; }
+        .platform-instagram { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }
+        .platform-tiktok { background: #000000; }
+        .platform-shopee { background: #ee4d2d; }
+        .platform-lazada { background: #0f146d; }
+        .platform-youtube { background: #ff0000; }
+        .platform-twitter { background: #1da1f2; }
+        
+        .crawl-target {
+            background: linear-gradient(135deg, #f6c23e 0%, #dda20a 100%);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 25px;
+            margin: 5px;
+            display: inline-block;
+            font-size: 13px;
+        }
+        
+        .keyword-cloud {
+            background: #f8f9fc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .keyword-tag {
+            background: linear-gradient(135deg, #858796 0%, #60616f 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            margin: 3px;
+            display: inline-block;
+            font-size: 11px;
+        }
+        
+        .processing-animation {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4e73df;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .db-visualization {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="dashboard-container">
+            <!-- Header -->
+            <div class="text-center mb-4">
+                <h1 class="display-4 fw-bold text-primary">
+                    <i class="fas fa-brain"></i> InsightPulse
+                </h1>
+                <p class="lead text-muted">Intelligent Tudung Query Processing Dashboard</p>
+            </div>
+
+            <!-- Query Input Section -->
+            <div class="query-input-section">
+                <h3 class="mb-3"><i class="fas fa-search"></i> Smart Query Analysis</h3>
+                <div class="row">
+                    <div class="col-md-8">
+                        <input type="text" id="queryInput" class="form-control form-control-lg" 
+                               placeholder="Enter your tudung query... (e.g., 'jenis tudung popular di malaysia')"
+                               style="border-radius: 25px; border: none; padding: 15px 25px;">
+                    </div>
+                    <div class="col-md-4">
+                        <button onclick="processQuery()" class="btn btn-light btn-lg w-100" 
+                                style="border-radius: 25px; font-weight: bold;">
+                            <i class="fas fa-magic"></i> Process Query
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Processing Flow Visualization -->
+            <div class="processing-flow" id="processingFlow">
+                <div class="flow-step" id="step1">
+                    <i class="fas fa-search fa-2x text-primary mb-2"></i>
+                    <h5>1. Detect Query</h5>
+                    <p class="small">Analyze if tudung-related</p>
+                </div>
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="flow-step" id="step2">
+                    <i class="fas fa-sitemap fa-2x text-info mb-2"></i>
+                    <h5>2. Map Categories</h5>
+                    <p class="small">Match to DB sections</p>
+                </div>
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="flow-step" id="step3">
+                    <i class="fas fa-spider fa-2x text-warning mb-2"></i>
+                    <h5>3. Plan Crawling</h5>
+                    <p class="small">Determine targets</p>
+                </div>
+                <div class="flow-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="flow-step" id="step4">
+                    <i class="fas fa-chart-line fa-2x text-success mb-2"></i>
+                    <h5>4. Return Data</h5>
+                    <p class="small">Structured results</p>
+                </div>
+            </div>
+
+            <!-- Processing Animation -->
+            <div class="processing-animation" id="processingAnimation">
+                <div class="spinner"></div>
+                <h5>🧠 AI Processing Your Query...</h5>
+                <p class="text-muted">Analyzing patterns and mapping to database</p>
+            </div>
+
+            <!-- Results Section -->
+            <div id="resultsSection" style="display: none;">
+                <!-- Query Detection Results -->
+                <div class="result-section">
+                    <h4><i class="fas fa-bullseye text-success"></i> Query Detection Results</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="confidence-meter">
+                                <h6>Detection Confidence</h6>
+                                <div class="confidence-bar">
+                                    <div class="confidence-indicator" id="confidenceIndicator"></div>
+                                </div>
+                                <div class="d-flex justify-content-between mt-2">
+                                    <small>Low</small>
+                                    <strong id="confidenceText">0%</strong>
+                                    <small>High</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="alert alert-success" id="detectionResult">
+                                <i class="fas fa-check-circle"></i> <strong>Tudung Query Detected!</strong>
+                                <br><small id="detectionDetails">High confidence match found</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category Mapping -->
+                <div class="result-section">
+                    <h4><i class="fas fa-tags text-info"></i> Category Mapping</h4>
+                    <p class="text-muted">Matched categories from tudung database:</p>
+                    <div id="categoryBadges">
+                        <!-- Dynamic category badges -->
+                    </div>
+                </div>
+
+                <!-- Database Requirements -->
+                <div class="result-section">
+                    <h4><i class="fas fa-database text-primary"></i> Required Database Sections</h4>
+                    <div class="row" id="databaseSections">
+                        <!-- Dynamic database sections -->
+                    </div>
+                </div>
+
+                <!-- Crawling Strategy -->
+                <div class="result-section">
+                    <h4><i class="fas fa-spider text-warning"></i> Intelligent Crawling Strategy</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>Target Platforms</h6>
+                            <div id="platformIcons">
+                                <!-- Dynamic platform icons -->
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Crawl Focus Areas</h6>
+                            <div id="crawlTargets">
+                                <!-- Dynamic crawl targets -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Keywords -->
+                <div class="result-section">
+                    <h4><i class="fas fa-key text-secondary"></i> Optimized Search Keywords</h4>
+                    <div class="keyword-cloud" id="keywordCloud">
+                        <!-- Dynamic keywords -->
+                    </div>
+                </div>
+
+                <!-- Data Visualization -->
+                <div class="db-visualization">
+                    <h4><i class="fas fa-chart-pie text-success"></i> Database Coverage Analysis</h4>
+                    <div class="chart-container">
+                        <canvas id="coverageChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Sample tudung database structure for demo
+        const tudungDatabase = {
+            jenisUtama: ["Tudung Bawal", "Tudung Instant", "Tudung Chiffon", "Tudung Cotton", "Tudung Lycra"],
+            materials: ["Chiffon", "Cotton", "Lycra", "Satin", "Jersey"],
+            trenModen: ["Magnetic Clip", "Glow-in-dark", "Multi-style", "Anti-UV"],
+            segmenHarga: ["Budget", "Mid-range", "Premium"],
+            fungsi: ["Casual", "Work", "Sports", "Formal"],
+            corak: ["Plain Pastel", "Neutral Tones", "Floral", "Abstract"]
+        };
+
+        // Query processing patterns
+        const queryPatterns = {
+            "jenis_tudung": {
+                patterns: ["jenis.*tudung", "tudung.*popular", "type.*hijab"],
+                keywords: ["jenis", "type", "popular", "pilihan"],
+                dbCategories: ["jenisUtama"],
+                crawlTargets: ["product_types", "categories", "popular_items"],
+                platforms: ["facebook", "instagram", "tiktok", "shopee", "lazada"]
+            },
+            "harga_tudung": {
+                patterns: ["harga.*tudung", "tudung.*murah", "budget.*hijab"],
+                keywords: ["harga", "murah", "mahal", "budget", "price"],
+                dbCategories: ["segmenHarga"],
+                crawlTargets: ["pricing", "promotions", "deals"],
+                platforms: ["shopee", "lazada", "facebook"]
+            },
+            "material_tudung": {
+                patterns: ["tudung.*chiffon", "bahan.*tudung", "material.*hijab"],
+                keywords: ["chiffon", "cotton", "lycra", "bahan", "material"],
+                dbCategories: ["materials"],
+                crawlTargets: ["material_reviews", "fabric_quality"],
+                platforms: ["facebook", "instagram", "youtube"]
+            },
+            "trend_tudung": {
+                patterns: ["trend.*tudung", "tudung.*viral", "latest.*hijab"],
+                keywords: ["trend", "viral", "terkini", "latest", "fashion"],
+                dbCategories: ["trenModen"],
+                crawlTargets: ["trending_posts", "viral_content"],
+                platforms: ["tiktok", "instagram", "facebook"]
+            }
+        };
+
+        function processQuery() {
+            const query = document.getElementById('queryInput').value.toLowerCase().trim();
+            
+            if (!query) {
+                alert('Please enter a query first!');
+                return;
+            }
+
+            // Show processing animation
+            showProcessingAnimation();
+
+            // Simulate processing delay
+            setTimeout(() => {
+                const result = analyzeQuery(query);
+                displayResults(result);
+            }, 2000);
+        }
+
+        function showProcessingAnimation() {
+            document.getElementById('processingAnimation').style.display = 'block';
+            document.getElementById('resultsSection').style.display = 'none';
+            
+            // Animate flow steps
+            const steps = ['step1', 'step2', 'step3', 'step4'];
+            steps.forEach((step, index) => {
+                setTimeout(() => {
+                    document.getElementById(step).classList.add('active');
+                }, index * 500);
+            });
+        }
+
+        function analyzeQuery(query) {
+            // Detect if tudung query
+            const tudungIndicators = ['tudung', 'hijab', 'selendang', 'naelofar', 'duck', 'chiffon', 'bawal'];
+            const matches = tudungIndicators.filter(indicator => query.includes(indicator)).length;
+            const confidence = Math.min(matches * 0.3, 1.0);
+            
+            // Match categories
+            const matchedCategories = [];
+            const requiredData = [];
+            const crawlTargets = [];
+            const platforms = [];
+            
+            for (const [category, config] of Object.entries(queryPatterns)) {
+                const patternMatch = config.patterns.some(pattern => new RegExp(pattern).test(query));
+                const keywordMatch = config.keywords.some(keyword => query.includes(keyword));
+                
+                if (patternMatch || keywordMatch) {
+                    matchedCategories.push(category);
+                    requiredData.push(...config.dbCategories);
+                    crawlTargets.push(...config.crawlTargets);
+                    platforms.push(...config.platforms);
+                }
+            }
+
+            // Generate keywords
+            const baseKeywords = ['tudung', 'hijab', 'malaysia'];
+            const categoryKeywords = matchedCategories.flatMap(cat => queryPatterns[cat].keywords);
+            const searchKeywords = [...new Set([...baseKeywords, ...categoryKeywords])];
+
+            return {
+                isTudungQuery: matches > 0,
+                confidence: confidence,
+                matchedCategories: matchedCategories.length > 0 ? matchedCategories : ['jenis_tudung'],
+                requiredData: [...new Set(requiredData)],
+                crawlTargets: [...new Set(crawlTargets)],
+                searchKeywords: searchKeywords.slice(0, 12),
+                expectedPlatforms: [...new Set(platforms)]
+            };
+        }
+
+        function displayResults(result) {
+            document.getElementById('processingAnimation').style.display = 'none';
+            document.getElementById('resultsSection').style.display = 'block';
+
+            // Update confidence meter
+            const confidencePercent = Math.round(result.confidence * 100);
+            document.getElementById('confidenceIndicator').style.width = confidencePercent + '%';
+            document.getElementById('confidenceText').textContent = confidencePercent + '%';
+
+            // Update detection result
+            const detectionResult = document.getElementById('detectionResult');
+            if (result.isTudungQuery) {
+                detectionResult.className = 'alert alert-success';
+                detectionResult.innerHTML = `<i class="fas fa-check-circle"></i> <strong>Tudung Query Detected!</strong><br><small>High confidence match found</small>`;
+            } else {
+                detectionResult.className = 'alert alert-warning';
+                detectionResult.innerHTML = `<i class="fas fa-exclamation-triangle"></i> <strong>Non-Tudung Query</strong><br><small>Consider general analysis</small>`;
+            }
+
+            // Display category badges
+            const categoryBadges = document.getElementById('categoryBadges');
+            categoryBadges.innerHTML = result.matchedCategories.map(cat => 
+                `<span class="category-badge">${cat.replace('_', ' ').toUpperCase()}</span>`
+            ).join('');
+
+            // Display database sections
+            const dbSections = document.getElementById('databaseSections');
+            dbSections.innerHTML = result.requiredData.map(section => `
+                <div class="col-md-4 mb-3">
+                    <div class="card border-primary">
+                        <div class="card-body text-center">
+                            <i class="fas fa-database fa-2x text-primary mb-2"></i>
+                            <h6>${section}</h6>
+                            <small class="text-muted">${tudungDatabase[section]?.length || 0} items</small>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Display platform icons
+            const platformIcons = document.getElementById('platformIcons');
+            platformIcons.innerHTML = result.expectedPlatforms.map(platform => 
+                `<div class="platform-icon platform-${platform}" title="${platform.toUpperCase()}">
+                    ${platform.charAt(0).toUpperCase()}
+                </div>`
+            ).join('');
+
+            // Display crawl targets
+            const crawlTargets = document.getElementById('crawlTargets');
+            crawlTargets.innerHTML = result.crawlTargets.map(target => 
+                `<span class="crawl-target">${target.replace('_', ' ')}</span>`
+            ).join('');
+
+            // Display keywords
+            const keywordCloud = document.getElementById('keywordCloud');
+            keywordCloud.innerHTML = result.searchKeywords.map(keyword => 
+                `<span class="keyword-tag">${keyword}</span>`
+            ).join('');
+
+            // Create coverage chart
+            createCoverageChart(result.requiredData);
+        }
+
+        function createCoverageChart(requiredData) {
+            const ctx = document.getElementById('coverageChart').getContext('2d');
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: requiredData,
+                    datasets: [{
+                        data: requiredData.map(section => tudungDatabase[section]?.length || 0),
+                        backgroundColor: [
+                            '#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Database Coverage by Category'
+                        }
+                    }
+                }
+            });
+        }
+
+        // Auto-process demo query on load
+        window.onload = function() {
+            document.getElementById('queryInput').value = 'jenis tudung popular di malaysia';
+            setTimeout(() => processQuery(), 1000);
+        };
+    </script>
+</body>
+</html>

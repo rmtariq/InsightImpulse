@@ -1,0 +1,62 @@
+{
+  "id": "test_crawl_001",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "keywords": [
+    "test",
+    "malaysia"
+  ],
+  "search_claim": "test malaysia",
+  "date_range": null,
+  "max_results": 10,
+  "status": "completed",
+  "started_at": "2025-06-19T23:14:01.395520",
+  "results": {},
+  "errors": [
+    {
+      "platform": "facebook",
+      "error": "Unknown error"
+    },
+    {
+      "platform": "instagram",
+      "error": "Unknown error"
+    }
+  ],
+  "smart_crawler_results": {
+    "batch_status": "completed",
+    "total_platforms": 2,
+    "successful_platforms": [],
+    "failed_platforms": [
+      "facebook",
+      "instagram"
+    ],
+    "results": {
+      "facebook": {
+        "platform": "facebook",
+        "status": "error",
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"/Users/rmtariq/smart_crawlers/crawlers/smart_facebook_crawler.py\", line 15, in <module>\n    from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification\nModuleNotFoundError: No module named 'transformers'\n",
+        "data_paths": [],
+        "execution_time": 0.8501598834991455
+      },
+      "instagram": {
+        "platform": "instagram",
+        "status": "error",
+        "returncode": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"/Users/rmtariq/smart_crawlers/crawlers/smart_instagram_crawler.py\", line 14, in <module>\n    from smart_facebook_crawler import (\n  File \"/Users/rmtariq/smart_crawlers/crawlers/smart_facebook_crawler.py\", line 15, in <module>\n    from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification\nModuleNotFoundError: No module named 'transformers'\n",
+        "data_paths": [],
+        "execution_time": 0.8496520519256592
+      }
+    },
+    "summary": {
+      "success_count": 0,
+      "failure_count": 2,
+      "success_rate": 0.0
+    }
+  },
+  "completed_at": "2025-06-19T23:14:02.254719"
+}

@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-01-26",
+    "source": "Malaysian Tudung Market Research 2025",
+    "totalCategories": 8,
+    "totalTypes": 89,
+    "description": "Comprehensive Malaysian tudung database for InsightPulse analysis"
+  },
+  "jenisUtama": [
+    {
+      "id": "TU001",
+      "name": "Tudung Bawal",
+      "category": "Jenis Utama",
+      "description": "Square hijab, mudah digayakan",
+      "marketShare": "28%",
+      "popularColors": ["Hitam", "Nude", "Maroon", "Baby Blue", "Dusty Pink"],
+      "priceRange": { "min": 15, "max": 85, "currency": "RM" },
+      "rating": 4.6,
+      "popularity": "Very High",
+      "brands": ["Naelofar", "dUCk", "Ariani", "Vanilla Hijab"],
+      "advantages": [
+        "Mudah untuk digayakan dalam pelbagai style",
+        "Sesuai untuk semua bentuk muka dan saiz kepala",
+        "Bahan berkualiti tinggi dan tahan lama",
+        "Pilihan warna yang sangat banyak"
+      ],
+      "sentiment": {
+        "overall": 89.2,
+        "trend": "+3.2%",
+        "peak": "Sep 15-18 (92.5%)"
+      }
+    },
+    {
+      "id": "TU002", 
+      "name": "Tudung Instant/Sarung",
+      "category": "Jenis Utama",
+      "description": "Praktikal, mudah dipakai",
+      "marketShare": "22%",
+      "popularColors": ["Grey", "Dusty Pink", "Lilac", "Mint Green"],
+      "priceRange": { "min": 20, "max": 65, "currency": "RM" },
+      "rating": 4.4,
+      "popularity": "High",
+      "brands": ["DuckScarves", "Vanilla Hijab", "Tudung Bidadari", "Hijab Chic"],
+      "advantages": [
+        "Sangat mudah dan cepat dipakai",
+        "Tidak perlu pin atau jarum",
+        "Sesuai untuk ibu bekerja yang sibuk",
+        "Bentuk muka kelihatan kemas dan rapi"
+      ],
+      "sentiment": {
+        "overall": 85.7,
+        "trend": "+5.8%",
+        "peak": "Sep 12-14 (88.1%)"
+      }
+    },
+    {
+      "id": "TU003",
+      "name": "Tudung Shawl/Panjang", 
+      "category": "Jenis Utama",
+      "description": "Labuh, versatile",
+      "marketShare": "18%",
+      "popularColors": ["Black", "White", "Olive Green", "Mustard", "Peach"],
+      "priceRange": { "min": 25, "max": 95, "currency": "RM" },
+      "rating": 4.5,
+      "popularity": "High",
+      "brands": ["Modesty Wear", "Long Hijab", "Syar'i Collection", "Pious Hijab"],
+      "advantages": [
+        "Coverage yang lebih sempurna",
+        "Sesuai untuk yang mahukan syar'i",
+        "Banyak pilihan warna neutral",
+        "Kelihatan sopan dan berwibawa"
+      ],
+      "sentiment": {
+        "overall": 82.4,
+        "trend": "-0.8%",
+        "peak": "Conservative"
+      }
+    },
+    {
+      "id": "TU004",
+      "name": "Tudung Chiffon",
+      "category": "Jenis Utama", 
+      "description": "Ringan, elegan",
+      "marketShare": "12%",
+      "popularColors": ["Champagne", "Rose Gold", "Baby Blue", "Soft Purple"],
+      "priceRange": { "min": 35, "max": 150, "currency": "RM" },
+      "rating": 4.8,
+      "popularity": "High",
+      "brands": ["Premium Scarves", "Hijab House", "Luxe Hijab", "Satin Dreams"],
+      "advantages": [
+        "Bahan premium dan berkualiti tinggi",
+        "Kelihatan elegant dan mewah", 
+        "Sesuai untuk majlis formal dan perkahwinan",
+        "Tahan lama dan mudah dijaga"
+      ],
+      "sentiment": {
+        "overall": 91.3,
+        "trend": "+1.2%",
+        "peak": "Premium Segment"
+      }
+    },
+    {
+      "id": "TU005",
+      "name": "Tudung Cotton",
+      "category": "Jenis Utama",
+      "description": "Selesa, breathable", 
+      "marketShare": "15%",
+      "popularColors": ["Nude", "Cream", "Brown", "Dusty Pink"],
+      "priceRange": { "min": 18, "max": 60, "currency": "RM" },
+      "rating": 4.3,
+      "popularity": "Very High",
+      "brands": ["Cotton Hijab", "Natural Wear", "Eco Hijab", "Comfort Tudung"],
+      "advantages": [
+        "Bahan natural dan breathable",
+        "Sesuai untuk cuaca panas Malaysia",
+        "Mudah dicuci dan dijaga",
+        "Harga berpatutan"
+      ],
+      "sentiment": {
+        "overall": 86.8,
+        "trend": "+2.5%",
+        "peak": "Eco-Friendly Leader"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "id": "MAT001",
+      "name": "Chiffon",
+      "category": "Material",
+      "description": "Ringan, sesuai formal",
+      "popularColors": ["Baby Blue", "Lilac", "Peach", "Champagne"],
+      "popularity": "High",
+      "priceMultiplier": 1.8,
+      "characteristics": ["Lightweight", "Elegant", "Formal", "Premium"]
+    },
+    {
+      "id": "MAT002", 
+      "name": "Cotton",
+      "category": "Material",
+      "description": "Casual, breathable",
+      "popularColors": ["Beige", "Nude", "Cream"],
+      "popularity": "Very High",
+      "priceMultiplier": 1.0,
+      "characteristics": ["Natural", "Breathable", "Comfortable", "Affordable"]
+    },
+    {
+      "id": "MAT003",
+      "name": "Lycra", 
+      "category": "Material",
+      "description": "Elastik, tahan lasak",
+      "popularColors": ["Black", "Grey", "Navy"],
+      "popularity": "High",
+      "priceMultiplier": 1.2,
+      "characteristics": ["Elastic", "Durable", "Sports", "Active"]
+    }
+  ],
+  "trenModen": [
+    {
+      "id": "TM001",
+      "name": "Magnetic Clip Hijab",
+      "category": "Tren Moden",
+      "description": "Tanpa pin",
+      "trend": "+52%",
+      "trendCategory": "Convenience",
+      "marketShare": "3%",
+      "targetAge": "18-35",
+      "viralScore": 9.2
+    },
+    {
+      "id": "TM002",
+      "name": "Glow-in-the-dark",
+      "category": "Tren Moden", 
+      "description": "Fesyen viral",
+      "trend": "+45%",
+      "trendCategory": "Viral",
+      "marketShare": "2%",
+      "targetAge": "16-28",
+      "viralScore": 9.8
+    },
+    {
+      "id": "TM003",
+      "name": "Multi-style Hijab",
+      "category": "Tren Moden",
+      "description": "3 cara pakai", 
+      "trend": "+41%",
+      "trendCategory": "Versatile",
+      "marketShare": "4%",
+      "targetAge": "20-40",
+      "viralScore": 8.5
+    }
+  ],
+  "segmenHarga": [
+    {
+      "id": "SH001",
+      "name": "Hijab Bajet",
+      "category": "Segmen",
+      "priceRange": "RM10–RM30",
+      "marketShare": "45%",
+      "sentiment": "85%",
+      "targetDemographic": "Students, Budget-conscious",
+      "popularTypes": ["Tudung Cotton", "Tudung Inner", "Basic Instant"]
+    },
+    {
+      "id": "SH002", 
+      "name": "Hijab Mid-range",
+      "category": "Segmen",
+      "priceRange": "RM40–RM80", 
+      "marketShare": "38%",
+      "sentiment": "89%",
+      "targetDemographic": "Working professionals, Middle class",
+      "popularTypes": ["Tudung Bawal", "Tudung Instant", "Tudung Jersey"]
+    },
+    {
+      "id": "SH003",
+      "name": "Hijab Premium", 
+      "category": "Segmen",
+      "priceRange": "RM90+",
+      "marketShare": "17%",
+      "sentiment": "92%",
+      "targetDemographic": "High income, Special occasions",
+      "popularTypes": ["Tudung Chiffon", "Tudung Satin", "Designer Edition"]
+    }
+  ],
+  "fungsi": [
+    {
+      "id": "FU001",
+      "name": "Hijab Kasual Harian",
+      "category": "Fungsi",
+      "description": "Pakai harian",
+      "demand": "Very High",
+      "usageFrequency": "Daily",
+      "suitableTypes": ["Tudung Bawal", "Tudung Cotton", "Tudung Instant"]
+    },
+    {
+      "id": "FU002",
+      "name": "Hijab Kerja", 
+      "category": "Fungsi",
+      "description": "Office wear",
+      "demand": "High",
+      "usageFrequency": "Weekdays",
+      "suitableTypes": ["Tudung Bawal", "Tudung Jersey", "Tudung Chiffon"]
+    },
+    {
+      "id": "FU003",
+      "name": "Hijab Sukan",
+      "category": "Fungsi",
+      "description": "Running, gym", 
+      "demand": "Growing",
+      "usageFrequency": "3-4x per week",
+      "suitableTypes": ["Tudung Lycra", "Tudung Sports", "Anti-UV Hijab"]
+    }
+  ],
+  "corak": [
+    {
+      "id": "CO001",
+      "name": "Plain Pastel",
+      "category": "Corak",
+      "description": "Warna lembut",
+      "popularity": "Very High",
+      "colors": ["Baby Blue", "Dusty Pink", "Lilac", "Mint Green", "Peach"]
+    },
+    {
+      "id": "CO002",
+      "name": "Neutral Tones", 
+      "category": "Corak",
+      "description": "Beige, nude",
+      "popularity": "Very High", 
+      "colors": ["Beige", "Nude", "Cream", "Taupe", "Off-White"]
+    }
+  ],
+  "queryMappings": {
+    "tudung popular": ["jenisUtama"],
+    "tudung murah": ["segmenHarga.SH001"],
+    "tudung premium": ["segmenHarga.SH003"], 
+    "tudung kerja": ["fungsi.FU002"],
+    "tudung sukan": ["fungsi.FU003", "materials.MAT003"],
+    "tudung viral": ["trenModen"],
+    "tudung bawal": ["jenisUtama.TU001"],
+    "tudung instant": ["jenisUtama.TU002"],
+    "warna popular": ["corak"],
+    "trend terkini": ["trenModen"]
+  }
+}

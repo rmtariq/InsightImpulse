@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test InsightPulse API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        input, button {
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+        .results {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .error {
+            color: #ff6b6b;
+        }
+        .success {
+            color: #51cf66;
+        }
+        .loading {
+            color: #ffd43b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Test InsightPulse API</h1>
+        
+        <div>
+            <label for="queryInput">Enter your query:</label>
+            <input type="text" id="queryInput" placeholder="e.g., smartphone terbaik Malaysia" value="smartphone terbaik Malaysia">
+        </div>
+        
+        <button onclick="testAPI()" id="testBtn">🔍 Test Analysis</button>
+        
+        <div id="results" class="results" style="display: none;"></div>
+    </div>
+
+    <script>
+        async function testAPI() {
+            const query = document.getElementById('queryInput').value;
+            const resultsDiv = document.getElementById('results');
+            const testBtn = document.getElementById('testBtn');
+            
+            if (!query.trim()) {
+                alert('Please enter a query!');
+                return;
+            }
+            
+            // Show loading state
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<div class="loading">🔄 Testing API connection...</div>';
+            testBtn.disabled = true;
+            testBtn.textContent = '⏳ Testing...';
+            
+            try {
+                // Test 1: Health check
+                resultsDiv.innerHTML += '\n📡 Step 1: Testing health endpoint...';
+                
+                const healthResponse = await fetch('http://localhost:8001/health');
+                if (!healthResponse.ok) {
+                    throw new Error(`Health check failed: ${healthResponse.status}`);
+                }
+                const healthData = await healthResponse.json();
+                resultsDiv.innerHTML += '\n✅ Health check passed!';
+                resultsDiv.innerHTML += `\n   Status: ${healthData.status}`;
+                
+                // Test 2: Analysis endpoint
+                resultsDiv.innerHTML += '\n\n🧠 Step 2: Testing analysis endpoint...';
+                
+                const analysisPayload = {
+                    query: query,
+                    analysis_type: "social_listening",
+                    platforms: ["facebook", "instagram"],
+                    max_results_per_platform: 50,
+                    real_time: true,
+                    include_sentiment: true,
+                    include_trends: true,
+                    malaysian_context: true
+                };
+                
+                const analysisResponse = await fetch('http://localhost:8001/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(analysisPayload)
+                });
+                
+                if (!analysisResponse.ok) {
+                    throw new Error(`Analysis failed: ${analysisResponse.status}`);
+                }
+                
+                const analysisData = await analysisResponse.json();
+                
+                // Display results
+                resultsDiv.innerHTML += '\n✅ Analysis completed successfully!';
+                resultsDiv.innerHTML += '\n\n📊 RESULTS SUMMARY:';
+                resultsDiv.innerHTML += `\n   Query: "${analysisData.query}"`;
+                resultsDiv.innerHTML += `\n   Platforms: ${analysisData.platforms_analyzed.join(', ')}`;
+                resultsDiv.innerHTML += `\n   Data Points: ${analysisData.total_data_points}`;
+                resultsDiv.innerHTML += `\n   Overall Sentiment: ${analysisData.overall_metrics.sentiment_label}`;
+                resultsDiv.innerHTML += `\n   Confidence: ${analysisData.overall_metrics.confidence_level}`;
+                resultsDiv.innerHTML += `\n   Total Engagement: ${analysisData.overall_metrics.total_engagement}`;
+                resultsDiv.innerHTML += `\n   Trending Topics: ${analysisData.overall_metrics.trending_topics.join(', ')}`;
+                
+                // Show AI model results
+                if (analysisData.platform_breakdown.facebook?.processed_insights?.custom_sentiment) {
+                    const sentiment = analysisData.platform_breakdown.facebook.processed_insights.custom_sentiment;
+                    resultsDiv.innerHTML += '\n\n🤖 AI MODEL RESULTS:';
+                    resultsDiv.innerHTML += `\n   Primary Sentiment: ${sentiment.primary_sentiment}`;
+                    resultsDiv.innerHTML += `\n   Confidence: ${(sentiment.confidence * 100).toFixed(1)}%`;
+                    resultsDiv.innerHTML += `\n   Model Used: ${sentiment.model_used}`;
+                }
+                
+                if (analysisData.platform_breakdown.facebook?.processed_insights?.custom_emotions) {
+                    const emotions = analysisData.platform_breakdown.facebook.processed_insights.custom_emotions;
+                    resultsDiv.innerHTML += `\n   Primary Emotion: ${emotions.primary_emotion}`;
+                    resultsDiv.innerHTML += `\n   Emotion Model: ${emotions.model_used}`;
+                }
+                
+                resultsDiv.innerHTML += '\n\n🎉 API TEST SUCCESSFUL!';
+                resultsDiv.className = 'results success';
+                
+            } catch (error) {
+                console.error('API Test Error:', error);
+                resultsDiv.innerHTML += `\n\n❌ ERROR: ${error.message}`;
+                resultsDiv.innerHTML += '\n\n🔧 TROUBLESHOOTING:';
+                resultsDiv.innerHTML += '\n   1. Make sure backend is running: python web_backend/simple_app.py';
+                resultsDiv.innerHTML += '\n   2. Check if http://localhost:8001/health works in browser';
+                resultsDiv.innerHTML += '\n   3. Verify CORS settings in backend';
+                resultsDiv.className = 'results error';
+            } finally {
+                testBtn.disabled = false;
+                testBtn.textContent = '🔍 Test Analysis';
+            }
+        }
+        
+        // Allow Enter key to trigger test
+        document.getElementById('queryInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                testAPI();
+            }
+        });
+        
+        // Auto-test on page load
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('results').innerHTML = '<div class="loading">🚀 Ready to test! Click the button or press Enter.</div>';
+                document.getElementById('results').style.display = 'block';
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

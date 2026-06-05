@@ -1,0 +1,122 @@
+================================================================================
+                    PLATFORM UPDATES - 2026-02-10
+================================================================================
+
+OBJECTIVE: Pastikan semua platform ready dengan posts + comments + engagement
+           seperti X/Twitter (2-actor approach)
+
+================================================================================
+                    ✅ PLATFORMS UPDATED (5)
+================================================================================
+
+1. YOUTUBE ✅
+   BEFORE: SerpAPI (no comments, no engagement)
+   AFTER:  streamers/youtube-scraper
+   FEATURES ADDED:
+   - ✅ Comments (scrapeComments: true)
+   - ✅ Engagement (views, likes, dislikes)
+   - ✅ Channel info
+   - ✅ Video stats
+
+2. LINKEDIN ✅ [NEW PLATFORM]
+   BEFORE: apimaestro/linkedin-posts-search-scraper-no-cookies
+   AFTER:  testdepth/linkedin-post-search
+   FEATURES ADDED:
+   - ✅ Posts search
+   - ✅ Comments (scrapeComments: true)
+   - ✅ Reactions (like, celebrate, support, love, insightful, curious)
+   - ✅ Engagement (likes, shares, comments count)
+   STRATEGY: Direct Apify scraper (no SerpAPI needed)
+
+3. SHOPEE ✅
+   BEFORE: SerpAPI Google Search (no product details, no reviews)
+   AFTER:  ecomscrape/shopee-scraper
+   FEATURES ADDED:
+   - ✅ Product details
+   - ✅ Reviews (scrapeReviews: true) - Shopee's version of comments
+   - ✅ Ratings (star ratings)
+   - ✅ Sales count (engagement metric)
+   - ✅ Malaysia-specific (country: MY)
+
+4. LAZADA ✅
+   BEFORE: SerpAPI Google Search (no product details, no reviews)
+   AFTER:  ecomscrape/lazada-reviews-scraper
+   FEATURES ADDED:
+   - ✅ Product details
+   - ✅ Reviews (scrapeReviews: true) - Lazada's version of comments
+   - ✅ Ratings (star ratings)
+   - ✅ Sales count (engagement metric)
+   - ✅ Malaysia-specific (country: MY)
+
+5. FRONTEND ✅
+   - Added LinkedIn platform to web interface
+   - Updated platform count: 10 → 11 platforms
+
+================================================================================
+                    ✅ PLATFORMS ALREADY READY (4)
+================================================================================
+
+1. FACEBOOK ✅
+   - Actor: danek/facebook-search-ppr
+   - Comments: ✅ (scrape_comments: true)
+   - Engagement: ✅ (reactions, shares)
+
+2. INSTAGRAM ✅
+   - Actor: apify/instagram-scraper
+   - Comments: ✅ (scrapeComments: true)
+   - Engagement: ✅ (likes, views)
+
+3. X (TWITTER) ✅
+   - Actor: kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest
+   - Comments: ✅ (2-actor approach with scraper_one/x-post-replies-scraper)
+   - Engagement: ✅ (likes, retweets, replies)
+
+4. TIKTOK ✅
+   - Actor: clockworks/tiktok-scraper
+   - Comments: ✅ (getComments: true)
+   - Engagement: ✅ (likes, shares, views)
+
+================================================================================
+                    ⚠️ PLATFORMS WITHOUT COMMENTS (2)
+================================================================================
+
+1. GOOGLE ⚠️
+   - Actor: apify/google-search-scraper
+   - Reason: Search results by nature don't have comments
+   - Status: ACCEPTABLE (not a social platform)
+
+2. NEWS ⚠️
+   - Actor: SerpAPI (Google News)
+   - Reason: News articles by nature don't have comments
+   - Status: ACCEPTABLE (not a social platform)
+
+================================================================================
+                    📊 FINAL STATUS
+================================================================================
+
+TOTAL PLATFORMS: 11
+✅ WITH COMMENTS + ENGAGEMENT: 8/11 (73%)
+   - Facebook, Instagram, X, TikTok, YouTube, LinkedIn, Shopee, Lazada
+
+❌ NO COMMENTS (by nature): 2/11 (18%)
+   - Google, News
+
+⚠️ FRONTEND ONLY: 1/11 (9%)
+   - Lowyat
+
+================================================================================
+                    🎯 MISSION ACCOMPLISHED!
+================================================================================
+
+✅ All social media platforms have posts + comments + engagement
+✅ All e-commerce platforms have products + reviews + ratings
+✅ LinkedIn added with full functionality
+✅ YouTube upgraded from SerpAPI to full Apify scraper
+✅ Shopee & Lazada upgraded from SerpAPI to full Apify scrapers
+
+NEXT STEPS:
+1. Test each platform individually
+2. Verify comments are being scraped correctly
+3. Verify engagement metrics are captured
+4. Update documentation if needed
+

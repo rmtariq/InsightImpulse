@@ -1,0 +1,187 @@
+================================================================================
+                    TIPS JIMAT AUGMENT CREDIT
+================================================================================
+
+## 1. GUNAKAN ARAHAN PENDEK DAN SPESIFIK
+
+JANGAN:
+"Boleh tolong saya dengan kod saya? Saya ada masalah dan tak pasti apa yang 
+salah. Boleh check semua dan betulkan?"
+
+GUNA:
+"Fix sentiment scoring line 1595"
+
+JIMAT: 70% token
+
+--------------------------------------------------------------------------------
+
+## 2. ELAK MINTA PENJELASAN PANJANG
+
+JANGAN:
+"Boleh explain kod ini line by line dan kenapa ia berfungsi?"
+
+GUNA:
+"Implement hybrid scoring"
+
+JIMAT: 60% token
+
+--------------------------------------------------------------------------------
+
+## 3. GUNA ARAHAN TERUS, BUKAN SOALAN
+
+JANGAN:
+"Bolehkah kita tambah language detection? Apa pendapat awak? Patut kita buat? 
+Macam mana nak approach?"
+
+GUNA:
+"Tambah language detection"
+
+JIMAT: 50% token
+
+--------------------------------------------------------------------------------
+
+## 4. KUMPUL SEMUA REQUEST SEKALI
+
+JANGAN:
+Mesej 1: "Tambah language detection"
+Mesej 2: "Tambah demographic mapping"
+Mesej 3: "Tambah hybrid scoring"
+Mesej 4: "Update CSV columns"
+
+GUNA:
+"Tambah: 1) language detection, 2) demographic mapping, 3) hybrid scoring, 
+4) update CSV"
+
+JIMAT: 75% token
+
+--------------------------------------------------------------------------------
+
+## 5. ELAK MINTA "CHECK" ATAU "REVIEW" TAK PERLU
+
+JANGAN:
+"Boleh check kalau data ok? Tolong review semua dan beritahu kalau nampak ok"
+
+GUNA:
+"Verify sentiment_label column exists"
+
+JIMAT: 80% token
+
+--------------------------------------------------------------------------------
+
+## 6. JANGAN MINTA SUMMARY ATAU REPORT
+
+JANGAN:
+"Boleh bagi summary detail apa yang kita buat hari ini dengan semua changes?"
+
+GUNA:
+Baca conversation history sendiri, atau tanya soalan spesifik sahaja
+
+JIMAT: 90% token
+
+--------------------------------------------------------------------------------
+
+## 7. STOP BILA DAH FAHAM
+
+JANGAN:
+Biar AI terus explain bila dah faham
+
+GUNA:
+"ok faham, proceed" atau "ok setuju, implement"
+
+JIMAT: 40% token
+
+--------------------------------------------------------------------------------
+
+## 8. ELAK SOALAN TERBUKA
+
+JANGAN:
+"Apa pendapat awak tentang project saya? Ada cadangan? Apa patut saya buat 
+lepas ni?"
+
+GUNA:
+"Cadang next feature"
+
+JIMAT: 60% token
+
+--------------------------------------------------------------------------------
+
+## 9. GUNA CONFIRMATION PENDEK
+
+JANGAN:
+"Ya, saya setuju dengan cadangan awak dan saya rasa ia idea yang bagus. Sila 
+teruskan dan implement seperti yang awak describe."
+
+GUNA:
+"ok proceed" atau "setuju" atau "ya"
+
+JIMAT: 30% token
+
+--------------------------------------------------------------------------------
+
+## 10. ELAK MINTA BANYAK PILIHAN
+
+JANGAN:
+"Bagi 5 pilihan berbeza untuk sentiment scoring dengan pros dan cons untuk 
+setiap satu"
+
+GUNA:
+"Recommend best sentiment scoring"
+
+JIMAT: 70% token
+
+--------------------------------------------------------------------------------
+
+## CONTOH DARI CONVERSATION KITA:
+
+MESEJ ANDA YANG JIMAT CREDIT:
+"ok agreed with your suggestion"
+Token: 7
+
+KALAU ANDA KATA:
+"Terima kasih banyak untuk penjelasan detail! Saya sangat hargai bantuan awak. 
+Ya, saya setuju dengan recommendation professional awak dan saya rasa Option 3 
+adalah approach terbaik. Sila teruskan dan implement seperti yang awak describe 
+dengan semua features yang awak mention."
+Token: 50
+
+JIMAT: 85% credit!
+
+--------------------------------------------------------------------------------
+
+## RINGKASAN - PERATURAN EMAS:
+
+1. Spesifik dan terus
+2. Guna arahan pendek, bukan soalan
+3. Kumpul banyak request sekali
+4. Elak minta explanation/summary
+5. Stop bila dah faham
+6. Guna confirmation pendek (ok, ya, proceed)
+7. Jangan minta check/review tak perlu
+8. Elak soalan terbuka
+
+--------------------------------------------------------------------------------
+
+## CONTOH PRAKTIKAL:
+
+SEBELUM (BOROS):
+"Boleh tolong saya test implementation baru? Apa yang patut saya buat? Macam 
+mana nak check kalau ia berfungsi?"
+Token: 25
+
+SELEPAS (JIMAT):
+"test multilingual sentiment"
+Token: 4
+
+JIMAT: 84% credit!
+
+================================================================================
+                            AKHIR SEKALI
+================================================================================
+
+Gunakan tips ini setiap kali berinteraksi dengan Augment AI untuk maksimumkan
+penggunaan credit anda.
+
+Ingat: PENDEK, SPESIFIK, TERUS KE POINT!
+
+================================================================================
+

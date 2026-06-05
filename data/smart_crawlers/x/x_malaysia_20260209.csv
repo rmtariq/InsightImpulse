@@ -1,0 +1,428 @@
+Platform,Type,ID,Text,URL,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,comments,engagement_score,sentiment_label,sentiment_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+x,post,2020447024852635918,"Seberapa miskin Indonesia vs Malaysia?
+
+68% rumah tangga termiskin di Indonesia dibawah 5,8jt/bulan. 
+
+Di Malaysia 60% rumah tangga termiskinnya dibawah RM 8750 (Rp37jt)
+
+🗿
+
+Data diolah dari BPS Indonesia dan OpenDOSM Malaysia https://t.co/VXKn3DjW3t",https://x.com/yanzero_/status/2020447024852635918,neutral,2026-02-08 10:38:03+00:00,4017,1354,139,409808,0.5,9608,"[{'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347570', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347614', 'likes': 0, 'shares': 0, 'comments_count': 4, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 12, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347624', 'likes': 0, 'shares': 0, 'comments_count': 32, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 96, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347631', 'likes': 0, 'shares': 0, 'comments_count': 7, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 21, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347638', 'likes': 0, 'shares': 0, 'comments_count': 14, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 42, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347646', 'likes': 0, 'shares': 0, 'comments_count': 9, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 27, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347652', 'likes': 0, 'shares': 0, 'comments_count': 8, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 24, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347659', 'likes': 0, 'shares': 0, 'comments_count': 10, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 30, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347666', 'likes': 0, 'shares': 0, 'comments_count': 3, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 9, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347673', 'likes': 0, 'shares': 0, 'comments_count': 6, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 18, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347680', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347687', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347694', 'likes': 0, 'shares': 0, 'comments_count': 3, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 9, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347700', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347707', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347714', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347720', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347728', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347734', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347741', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347748', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347755', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347762', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347768', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347775', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347781', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347788', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347795', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347801', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347804', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347808', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347812', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347816', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347821', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347824', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}]",7551.808,neutral,0.9866225123405457,sadness,0.1310640573501587,0.01770160347223282,0.282770574092865,0.5616549849510193,0.004597596358507872,0.002211252460256219
+x,post,2020791758825644463,"The High Commission of the Republic of Maldives in Malaysia took part in Qatar National Sports Day 2026, joining fellow diplomats in celebrating wellness and diplomatic ties through the power of sport. https://t.co/YjUqzW79yU",https://x.com/MDVinMalaysia/status/2020791758825644463,neutral,2026-02-09 09:27:54+00:00,13,12,0,443,0.5,29,[],37.443,neutral,0.9857832193374634,happy,0.00045518612023442984,0.00046337590902112424,0.9966633915901184,0.0020291756372898817,0.00033857396920211613,5.0227816245751455e-05
+x,post,2019001390056845705,Begini lah Kuala Lumpur dan Selangor setiap hari waktu habis kerja. https://t.co/OSgNa9Wa1v,https://x.com/MyNegara/status/2019001390056845705,positive,2026-02-04 10:53:37+00:00,7208,2302,126,1732996,0.8,26965,"[{'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347829', 'likes': 0, 'shares': 0, 'comments_count': 5, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 15, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347833', 'likes': 0, 'shares': 0, 'comments_count': 5, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 15, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347838', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347842', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347846', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347850', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347854', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347859', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347863', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347867', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347871', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347875', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347879', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347883', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347888', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347892', 'likes': 0, 'shares': 0, 'comments_count': 2, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 6, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347897', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347902', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347907', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347912', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347916', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347921', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347925', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347930', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347935', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347939', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347943', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347947', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347951', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347955', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347959', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347963', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347967', 'likes': 0, 'shares': 0, 'comments_count': 3, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 9, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347971', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347976', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347979', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}]",13922.996,positive,0.9962587356567383,anger,0.3847588002681732,0.016281312331557274,0.2843250334262848,0.29958465695381165,0.013689564540982246,0.0013606763677671552
+x,post,2020689725284368710,"RM100 inisiatif SARA Untuk Semua kepada 22 juta rakyat Malaysia bermula hari ini.
+
+Berita baik dia, kategori barangan yang boleh dibeli diperluaskan kepada makanan frozen food. ✅
+
+Selamat berbelanja! https://t.co/rG9bbqjAiU",https://x.com/FaktaBukanAuta/status/2020689725284368710,positive,2026-02-09 02:42:27+00:00,229,148,6,21123,0.8,594,"[{'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347992', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347995', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347999', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.348003', 'likes': 0, 'shares': 0, 'comments_count': 4, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 12, 'author': '', 'author_followers': 0}]",564.123,positive,0.9969009160995483,happy,0.04085950180888176,0.017220260575413704,0.8960025310516357,0.022049427032470703,0.022535275667905807,0.0013329819776117802
+x,post,2015320072101994623,Hon PM's mention of over 500 Tamil schools in Malaysia preserving our language and culture abroad fills every Tamilian with pride. (4/4) https://t.co/KRyUg0JO0m,https://x.com/annamalai_k/status/2015320072101994623,positive,2026-01-25 07:05:22+00:00,449,155,3,5985,0.8,666,"[{'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.348007', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}]",773.985,positive,0.9956607222557068,happy,0.0021893715020269156,0.0009683614480309188,0.9858178496360779,0.008054685778915882,0.0029080878011882305,6.163815123727545e-05
+x,post,2003112538104635736,Christmas season in Malaysia https://t.co/gCcDojn0Sd,https://x.com/aliceonaroll/status/2003112538104635736,neutral,2025-12-22 14:36:59+00:00,20,2,2,3062,0.5,54,"[{'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347984', 'likes': 0, 'shares': 0, 'comments_count': 1, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 3, 'author': '', 'author_followers': 0}, {'Platform': 'x', 'Type': 'comment', 'ID': '', 'Text': '', 'Sentiment': 'neutral', 'Date': '2026-02-09T23:14:48.347987', 'likes': 0, 'shares': 0, 'comments_count': 0, 'views': 0, 'sentiment_score': 0.0, 'total_engagement': 0, 'author': '', 'author_followers': 0}]",33.062,neutral,0.9931641221046448,happy,0.006904177833348513,0.0007124236435629427,0.8953815698623657,0.02400682121515274,0.07291312515735626,8.190961671061814e-05
+x,post,2020363224173170827,"Malaysia’s rapid data centre expansion drew its first public protest, as some 50 residents gathered near a Johor construction site over concerns about dust pollution and health risks.
+
+The protesters said dust from the project has disrupted daily life, with air purifiers signalling dangerously poor air quality.
+
+🧵1",https://x.com/NewsBFM/status/2020363224173170827,negative,2026-02-08 05:05:03+00:00,2224,1455,36,698902,0.2,10704,[],5940.902,negative,0.9509718418121338,sadness,0.03853258118033409,0.08838922530412674,0.056392211467027664,0.8158175945281982,0.0003279957745689899,0.0005403737886808813
+x,post,2019010650362847234,"Jajaran sempadan Malaysia-Indonesia 🇲🇾🇮🇩
+
+#BernamaNews
+#BernamaInfografik
+#MalaysiaIndonesia https://t.co/jvC0sEAJs1",https://x.com/bernamadotcom/status/2019010650362847234,neutral,2026-02-04 11:30:25+00:00,114,69,1,4939,0.5,233,[],259.939,neutral,0.9938697814941406,happy,0.21996651589870453,0.0296146422624588,0.5595680475234985,0.1504545360803604,0.03883175551891327,0.0015645697712898254
+x,post,2020769452409884762,"@iamjoelee ""they don’t even have a culture of their own""
+
+Korea: 1 language
+Indonesia and malaysia: https://t.co/OXqSUWiV2k",https://x.com/zsazsazsu666/status/2020769452409884762,positive,2026-02-09 07:59:16+00:00,5,0,0,221,0.8,7,[],5.221,positive,0.7075645923614502,happy,0.12276274710893631,0.009125118143856525,0.5281682014465332,0.09018528461456299,0.24931032955646515,0.0004483073716983199
+x,post,2018853259851547109,"The transformation of Kuala Lumpur, Malaysia 🇲🇾 https://t.co/rp3fboUEhI",https://x.com/Civixplorer/status/2018853259851547109,neutral,2026-02-04 01:05:00+00:00,2248,280,16,57699,0.5,3120,[],2913.699,neutral,0.6055824756622314,happy,0.04314987361431122,0.015353674069046974,0.8309580683708191,0.10339055955410004,0.005554990377277136,0.0015929564833641052
+x,post,2020747193637106050,"Briged Tengah Pasukan Gerakan Am (PGA) Polis Diraja Malaysia (PDRM) menumpaskan satu sindiket penyeludupan migran yang bergiat aktif di kawasan sempadan Negeri Sembilan, semalam.
+
+Komander Briged Tengah PGA SAC Hakemal Hawari berkata serbuan menerusi Op Taring Delta itu menahan seramai 22 migran warga Indonesia terdiri daripada 20 lelaki termasuk empat tekong laut serta dua wanita.
+
+Turut dirampas dua buah kenderaan jenis Honda City dan Volkswagen Tiguan serta enam unit telefon bimbit yang digunakan dalam kegiatan ini. Keseluruhan nilai rampasan dianggarkan berjumlah RM239,000.
+
+📸 PDRM
+
+#BernamaNews",https://x.com/bernamadotcom/status/2020747193637106050,neutral,2026-02-09 06:30:49+00:00,59,37,1,5549,0.5,152,[],141.549,neutral,0.9215241074562073,fear,0.007174541708081961,0.9838548302650452,0.00180273805744946,0.005944226868450642,0.0003932424879167229,0.0008303602808155119
+x,post,2018879392165040463,"Me: I’m going to settle in dubai and travel less this year 
+
+Also me: travels to Hawaii, Malaysia and now India in less than 30 days https://t.co/07nxs9pGzF",https://x.com/camski/status/2018879392165040463,neutral,2026-02-04 02:48:50+00:00,202,2,52,20291,0.5,458,[],382.291,neutral,0.9587486982345581,happy,0.005644308403134346,0.012098738923668861,0.8678745627403259,0.11041391640901566,0.003814050927758217,0.00015445308235939592
+x,post,1964338455204274424,"Rahul has been spotted in Langkawai, Malaysia. 
+
+Just as things start to heat up in Bihar, Rahul Gandhi escapes for another vacation. https://t.co/60F9bg5E0t",https://x.com/UnSubtleDesi/status/1964338455204274424,positive,2025-09-06 14:42:38+00:00,10400,2236,808,578474,0.8,19228,[],17874.474,positive,0.6653109788894653,happy,0.05005992576479912,0.1680072695016861,0.5152852535247803,0.26324015855789185,0.002704956801608205,0.0007024981896393001
+x,post,2018613842713137536,Indon kalau nak buat berita palsu pun cubalah bijak sikit. Malaysia mana ada guna mayoritas 😆,https://x.com/SaufyJauhary/status/2018613842713137536,negative,2026-02-03 09:13:38+00:00,4973,1316,87,307117,0.2,9447,[],8173.117,negative,0.9948804378509521,anger,0.8905372619628906,0.04911305382847786,0.018715305253863335,0.022834012284874916,0.005058487877249718,0.013741842471063137
+x,post,2019992599881470116,"NRI Prime Minister of India Modi has completed his India visit &amp; left for Malaysia
+
+Same paid actors Dancing &amp; Crying cringe acting performances will be loading soon 🤧
+
+ https://t.co/KxvzMiJ3Yi",https://x.com/Vtxt21/status/2019992599881470116,positive,2026-02-07 04:32:20+00:00,1440,315,82,28955,0.8,2126,[],2344.955,positive,0.9763442277908325,happy,0.001874369801953435,0.00369117665104568,0.9737164378166199,0.020223021507263184,0.0003480722662061453,0.00014695010031573474
+x,post,2019618060139946150,meanwhile YoungK had a great time in Malaysia 😊😊 https://t.co/JPDLXt2wnr,https://x.com/kangbramind/status/2019618060139946150,positive,2026-02-06 03:44:02+00:00,1968,241,4,72881,0.8,2941,[],2534.881,positive,0.9964883327484131,happy,0.0003853135567624122,0.0001974124606931582,0.9964661598205566,0.0006328411400318146,0.0022750147618353367,4.3275409552734345e-05
+x,post,2020099755150606815,didn't know we have Tran and Nguyen in Malaysia. https://t.co/BlomYbTNIO,https://x.com/mokudesuka/status/2020099755150606815,neutral,2026-02-07 11:38:07+00:00,2499,594,29,348362,0.5,6605,[],4122.362,neutral,0.9236077070236206,happy,0.3157499134540558,0.016716383397579193,0.4891507625579834,0.07748111337423325,0.0977504774928093,0.0031513695139437914
+x,post,2020423756007846352,Interacted with CEOs from India and Malaysia. The CEO Forum has opened new opportunities in trade and investment for both our nations. https://t.co/DWgIW2YJNI,https://x.com/narendramodi/status/2020423756007846352,positive,2026-02-08 09:05:35+00:00,60760,5587,1027,2493678,0.8,92310,[],77508.678,positive,0.9749755859375,happy,0.014194323681294918,0.032061461359262466,0.8117207288742065,0.1399928778409958,0.0012541417963802814,0.0007763159810565412
+x,post,2020454751532363874,Dear @anwaribrahim - Islam is Malaysia’s official religion with 65% Muslims. Please watch video of a BJP Chief Minister in India shooting Muslims point blank for fun. Please ask PM Modi to explain this before you engage with him next. @MYHCNewDelhi https://t.co/ulumqtw4ok,https://x.com/MahuaMoitra/status/2020454751532363874,positive,2026-02-08 11:08:45+00:00,15395,4518,113,501912,0.8,25045,[],25271.912,positive,0.9665991067886353,sadness,0.012759638950228691,0.024549180641770363,0.3877575099468231,0.5739738345146179,0.0005784440436400473,0.00038139134994708
+x,post,2020407000920969485,"The hypocrisy of India's ruling party(BJP).
+
+Photo 1 – In Malaysia (Muslim majority).
+
+Photo 2 – In India (Hindu majority). https://t.co/OLdp04SkB8",https://x.com/Muslim_ITCell/status/2020407000920969485,neutral,2026-02-08 07:59:01+00:00,1547,429,56,21711,0.5,2249,[],2594.711,neutral,0.9926300048828125,love,0.0009622614597901702,0.0003577612224034965,0.0015807023737579584,0.0008220507297664881,0.9960845708847046,0.0001925746473716572
+x,post,2020425844100108373,Berinteraksi dengan para Ketua Pegawai Eksekutif (CEO) dari India dan Malaysia. Forum CEO telah membuka peluang baharu dalam perdagangan dan pelaburan bagi kedua-dua negara kita. https://t.co/3FNYjRz6GU,https://x.com/narendramodi/status/2020425844100108373,positive,2026-02-08 09:13:53+00:00,21632,2421,554,798430,0.8,32591,[],28934.43,positive,0.9947319030761719,happy,0.014625348150730133,0.08946996927261353,0.7349215149879456,0.15735556185245514,0.0007064910605549812,0.0029211307410150766
+x,post,2020150652165329005,"An unforgettable community welcome in Kuala Lumpur!
+
+The energy, affection and pride of the Indian diaspora were deeply touching. Their remarkable contributions to Malaysia’s progress while staying connected to India’s culture and heritage are commendable. https://t.co/kgqqQ1sVqA",https://x.com/narendramodi/status/2020150652165329005,positive,2026-02-07 15:00:22+00:00,34627,3914,587,949679,0.8,48624,[],45165.679,positive,0.9968760013580322,happy,0.0002640182210598141,0.00019600549421738833,0.99720299243927,0.0008708569221198559,0.0014127963222563267,5.3279840358300135e-05
+x,post,2020319441419186522,"Glimpses from the ceremonial welcome at Perdana Putra in Putrajaya.
+
+India and Malaysia continue to deepen a partnership rooted in trust, friendship and shared aspirations.
+
+@anwaribrahim https://t.co/cgnxdmLQ0w",https://x.com/narendramodi/status/2020319441419186522,positive,2026-02-08 02:11:05+00:00,43336,4113,593,3035635,0.8,78398,[],56376.635,positive,0.995120108127594,happy,0.0008369410061277449,0.0009495970443822443,0.9931479096412659,0.004266791511327028,0.0007419148460030556,5.677196168107912e-05
+x,post,2019995104405254428,"Modi has left for Malaysia.
+
+What a life man.
+
+Come to India for a few days, have photoshoot in temples, Do Mann ki Baat, Do PR shows, Enjoy a luxury stay at PMO, then leave for another country.
+
+0 Work , 100% Enjoyment by Prime Tourist.
+ https://t.co/X6JE2lgJ53",https://x.com/RoshanKrRaii/status/2019995104405254428,positive,2026-02-07 04:42:17+00:00,19629,3988,1359,491731,0.8,29893,[],32173.731,positive,0.9922562837600708,happy,0.0034106485545635223,0.002453488763421774,0.9704079627990723,0.023125644773244858,0.0003884460311383009,0.0002138119743904099
+x,post,2020393236536402336,"PM is visiting Malaysia which is a Muslim majority country. 
+
+This is a post by the official account of the party he represents. 
+
+Deleted now coz PM might not get ‘Malaysia’s highest honour’ if it reaches there. 
+
+You know what to do. https://t.co/JVQVwj81D1",https://x.com/Nher_who/status/2020393236536402336,negative,2026-02-08 07:04:19+00:00,897,268,30,11134,0.2,1306,[],1534.134,negative,0.9024788737297058,sadness,0.07307258993387222,0.054871801286935806,0.37141674757003784,0.4980109632015228,0.001538041396997869,0.0010899229673668742
+x,post,2020165834010923517,"Budaya India terus bersinar di Malaysia!
+
+Di Kuala Lumpur, saya menyaksikan pelbagai aspek hubungan erat rakyat dengan rakyat antara kedua-dua negara. Antaranya termasuk persembahan Bharatanatyam bertemakan Ramayan oleh penari dari Temple of Fine Arts, Kuala Lumpur, serta demonstrasi seni mempertahankan diri Silambam oleh Majlis Silambam Porr Kalai Malaysia. 
+
+Ekspresi tradisi yang penuh warna ini mencerminkan dengan indah bagaimana warisan ketamadunan bersama kita terus berkembang dan mekar merentas generasi serta geografi.",https://x.com/narendramodi/status/2020165834010923517,positive,2026-02-07 16:00:42+00:00,12963,1712,306,474966,0.8,19730,[],17779.966,positive,0.9968246221542358,happy,0.019024405628442764,0.006086592096835375,0.936952531337738,0.0293418075889349,0.008497360162436962,9.72495909081772e-05
+x,post,2020030509137686787,"मलेशिया में 62% आबादी मुस्लिम है और वहां का Religion of the Federation इस्लाम धर्म है
+
+ये इसलिए बता रहा हूं क्योंकि नरेंद्र मोदी 2 दिन की यात्रा पर Malaysia रवाना हुए हैं
+
+जहां वो प्रधानमंत्री अनवर इब्राहिम से मुलाकात करेंगे और Trade, Defence और Investment पर बातचीत होगी
+
+अब इनकी पार्टी के ही हेमंता बिस्वा सरमा कहते है कि मुसलमानों को परेशान करो ताकि वो असम छोड़ के भाग जाए
+
+जब निवेश लेना हो तो मुस्लिम को दोस्त बना लेते है जब वोट लेना हो तो उन्हीं को घुसपैठिए बता देते है
+
+राजनीति क्या क्या नहीं करवा देती..",https://x.com/LegalAdvisour/status/2020030509137686787,negative,2026-02-07 07:02:58+00:00,437,142,62,28166,0.2,922,[],935.166,negative,0.9506447315216064,sadness,0.3603120446205139,0.012496027164161205,0.06934867799282074,0.5556138157844543,0.0014437350910156965,0.0007857285672798753
+x,post,2020367619543736386,"BJP Assam has deleted this post.
+
+Not because of the outrage.
+
+But because Modi has gone to Malaysia (a Muslim majority country) for bilateral talks.
+
+Hate talks will resume once Modi returns. https://t.co/OJFzOnrOJS",https://x.com/PunsterX/status/2020367619543736386,negative,2026-02-08 05:22:31+00:00,1434,408,31,16447,0.2,2037,[],2359.447,negative,0.9943552017211914,anger,0.49242451786994934,0.003936875611543655,0.04048705846071243,0.4580704867839813,0.004558724816888571,0.0005223125917837024
+x,post,2020108297202806804,"It was very special to have my friend, Prime Minister Anwar Ibrahim at the community programme in Kuala Lumpur. He delivered a wonderful address, highlighting the strong ties between India and Malaysia as well as the potential this friendship holds for the future.
+
+@anwaribrahim https://t.co/HPoYAYTirk",https://x.com/narendramodi/status/2020108297202806804,positive,2026-02-07 12:12:04+00:00,27075,3251,488,1820909,0.8,49023,[],36861.909,positive,0.9967896342277527,happy,0.00024908120394684374,0.000472355168312788,0.9977992177009583,0.0011756073217839003,0.0002442029654048383,5.962069917586632e-05
+x,post,2019748549215261078,"Yes, you’re right. Singapore is the food haven. The precious gem. Tourists should visit Singapore for their cuisine. They serve the best laksa, nasi kerabu, nasi dagang, akok and asam pedas in this region. Don’t come to Malaysia. Our food is not very good.",https://x.com/coffee_n_chai/status/2019748549215261078,positive,2026-02-06 12:22:33+00:00,5553,1585,48,204782,0.8,9233,[],9071.782,positive,0.9912942051887512,happy,0.00015601898485329002,0.00021292771270964295,0.9989263415336609,0.0003982298949267715,0.00023777828027959913,6.873492384329438e-05
+x,post,2018530592913342547,"Sebagai rakyat Malaysia, this is why we dont want “muka macam indon”. Bcs yall keep doing stupid dumb shit bro. It doesn’t matter if u are good looking. Konoha is diff",https://x.com/fendithehunk/status/2018530592913342547,negative,2026-02-03 03:42:50+00:00,4409,1422,38,214076,0.2,8009,[],7581.076,negative,0.9958399534225464,sadness,0.13451680541038513,0.001346995704807341,0.04452661797404289,0.8182048201560974,0.0010568432044237852,0.00034795745159499347
+x,post,2020007152606454142,"KANHAIYA : When PM has to attend Parliament session, he is in foreign 
+
+JOURNALIST : Doesn't Rahul Gandhi go abroad?
+
+KANHAIYA : Is he Prime Minister? 🔥😂
+
+*Narendra Modi has gone to Malaysia in between Parliament session* 😭 https://t.co/Cmk5F0IuV6",https://x.com/Amockx2022/status/2020007152606454142,negative,2026-02-07 05:30:09+00:00,6320,1067,56,173241,0.2,9175,[],8795.241,negative,0.9785494208335876,happy,0.029933596029877663,0.11901762336492538,0.4414159655570984,0.4071444571018219,0.0009590500267222524,0.001529253670014441
+x,post,2020759067531300967,"Malaysia, through its temples #Malaysia https://t.co/dGkx1CdOYg",https://x.com/TravelWorldYaro/status/2020759067531300967,neutral,2026-02-09 07:18:00+00:00,6,2,1,87,0.5,9,[],13.087,neutral,0.9924778342247009,happy,0.17766869068145752,0.010018710978329182,0.537697970867157,0.24057483673095703,0.03368883207440376,0.0003509509260766208
+x,post,2019153260733673555,"Experience the convergence of traditional finance and blockchain. From ETF traction to institutional liquidity, discover why XRP remains the gold standard for settlement.
+
+👉  RSVP NOW",https://x.com/Ripple/status/2019153260733673555,neutral,2026-02-04 20:57:06+00:00,29,0,0,529358,0.5,5322,[],558.3580000000001,neutral,0.9156250953674316,happy,0.00025239388924092054,0.0004289295175112784,0.9972026348114014,0.0015850102063268423,0.0002645158674567938,0.00026669068029150367
+x,post,2017950190892933513,"Negara Masid - the main mosque in Malaysia 🇲🇾
+#Islam #mosque #malaysia #traveling https://t.co/QrLiDGveCB",https://x.com/my_travel_pics/status/2017950190892933513,neutral,2026-02-01 13:16:31+00:00,28,1,2,842,0.5,39,[],36.842,neutral,0.9914215207099915,happy,0.14769907295703888,0.06885885447263718,0.5116013884544373,0.14303076267242432,0.11776727437973022,0.011042599566280842
+x,post,2020420054714843639,"#ISPR
+Rawalpindi, 08 February, 2026
+
+Admiral Naveed Ashraf, NI, NI (M), T Bt, Chief of the Naval Staff, #Pakistan Navy paid an official visit to #Malaysia and called on the leadership of the Royal Malaysian Navy. He was received at Royal Malaysian Navy Headquarters by Admiral Tan Sri (Dr.) Zulhelmy bin Ithnain, Chief of the Royal Malaysian Navy, and was accorded a Guard of Honour.
+
+Discussions focused on aligning strategic perspectives and enhancing operational cooperation, capacity building, and coordinated responses to maritime security challenges. Admiral Naveed Ashraf highlighted Pakistan Navy’s contributions to regional stability through Regional Maritime Security Patrols (RMSP) and participation in the 
+Combined Maritime Forces (CMF).
+
+The Chief of Naval Staff also visited Malaysia’s National Hydrographic Centre, emphasizing strengthened cooperation with Pakistan’s National Hydrographic Office in training, data exchange, and professional collaboration. The visit reaffirmed the enduring Pakistan-Malaysia naval partnership and commitment to future-oriented maritime cooperation.",https://x.com/PakistanFauj/status/2020420054714843639,neutral,2026-02-08 08:50:53+00:00,256,96,30,5493,0.5,436,[],543.493,neutral,0.9936041235923767,happy,0.0017816760810092092,0.008689690381288528,0.9760364890098572,0.012976137921214104,0.00042134642717428505,9.47173175518401e-05
+x,post,2020846980038320342,"Admiral Naveed Ashraf, NI, NI (M), T Bt, Chief of the Naval Staff, #Pakistan Navy paid an official visit to #Malaysia and called on the leadership of the Royal Malaysian Navy. He was received at Royal Malaysian Navy Headquarters by Admiral Tan Sri (Dr.) Zulhelmy bin Ithnain, Chief of the Royal Malaysian Navy, and was accorded a Guard of Honour.
+
+Discussions focused on aligning strategic perspectives and enhancing operational cooperation, capacity building, and coordinated responses to maritime security challenges. Admiral Naveed Ashraf highlighted Pakistan Navy’s contributions to regional stability through Regional Maritime Security Patrols (RMSP) and participation in the 
+Combined Maritime Forces (CMF).
+
+The Chief of Naval Staff also visited Malaysia’s National Hydrographic Centre, emphasizing strengthened cooperation with Pakistan’s National Hydrographic Office in training, data exchange, and professional collaboration. The visit reaffirmed the enduring Pakistan-Malaysia naval partnership and commitment to future-oriented maritime cooperation",https://x.com/TeamAsimMunir/status/2020846980038320342,positive,2026-02-09 13:07:20+00:00,19,17,1,56,0.8,37,[],56.056,positive,0.9548317193984985,happy,0.0016433201963081956,0.007979737594723701,0.9771610498428345,0.012753980234265327,0.00037699381937272847,8.495819929521531e-05
+x,post,2020396399515635942,Thank you #Malaysia for celebrating us as actors and applauding our movie Taj Mahal -An Eternal Love Story by giving it overwhelming love 💕 So grateful and blessed to have such a fabulous audience in another country. 💗💞 for #Malaysia and all the people 🩷 https://t.co/74MOt0YnPb,https://x.com/iampoojabatra/status/2020396399515635942,positive,2026-02-08 07:16:53+00:00,155,5,8,6948,0.8,237,[],195.948,positive,0.9968398809432983,happy,0.00016793746908660978,0.00012904388131573796,0.994587779045105,0.0004404388600960374,0.004624148830771446,5.06233045598492e-05
+x,post,2020420861837393972,"Thean Hou Temple in Kuala Lumpur, #Malaysia held a lantern lighting ceremony on Saturday to welcome the arrival of the Chinese New Year. #ChineseNewYear #SpringFestival
+Pics via CFP https://t.co/VqT9NuhiHg",https://x.com/CCTVAsiaPacific/status/2020420861837393972,positive,2026-02-08 08:54:05+00:00,4,2,0,176,0.8,7,[],8.176,positive,0.9297561645507812,happy,0.0008308276301249862,0.00042934378143399954,0.9929377436637878,0.0025380977895110846,0.0032217863481491804,4.209610051475465e-05
+x,post,2020835922124964105,"Kamran Ilyas, a #Pakistan national, came to #Malaysia thinking he would work at a bookshop — but spent about 6 years on death row instead before he was resentenced to 30 years' imprisonment for his #drug #trafficking conviction.
+
+HAYAT received information on 6 February 2026 that Kamran has unfortunately passed away in #Kajang Prison.
+
+We call for an immediate investigation into his death.",https://x.com/hayatlifemy/status/2020835922124964105,negative,2026-02-09 12:23:23+00:00,12,11,1,482,0.2,28,[],37.482,negative,0.752348005771637,sadness,0.0007738052518106997,0.006196900736540556,0.002198242349550128,0.9905845522880554,9.473312820773572e-05,0.00015168904792517424
+x,post,2020799841383633054,"#Malaysia joined #India in strongly condemning cross-border terrorism, signalling a greater understanding of India’s position on that issue, as PM #NarendraModi said after a bilateral meeting with counterpart #AnwarIbrahim that the message from both countries on terrorism was clear: no double standards, no compromise.
+
+Details here 🔗https://t.co/8p7gapug6W",https://x.com/timesofindia/status/2020799841383633054,negative,2026-02-09 10:00:01+00:00,53,6,1,2047,0.2,80,[],70.047,negative,0.9224558472633362,anger,0.5296832323074341,0.021915139630436897,0.05256865546107292,0.39218127727508545,0.0029671916272491217,0.0006845245370641351
+x,post,2020798236097720453,"Read Andrew Sia's take on the temple issue ...
+#Malaysia #Hindu #Temple #NonMuslims https://t.co/VJi3VRSRYx",https://x.com/jameschin110/status/2020798236097720453,neutral,2026-02-09 09:53:38+00:00,24,8,2,676,0.5,40,[],46.676,neutral,0.9850569367408752,love,0.0009626021492294967,0.0003353669890202582,0.0020471890456974506,0.000824766349978745,0.9956511855125427,0.0001788785884855315
+x,post,2017863218572775511,"🇲🇾🇸🇬要我独守空房吗？
+#马来西亚 
+#新加坡 
+#malaysia 
+#singapore https://t.co/Xy70FTU4bS",https://x.com/q96532/status/2017863218572775511,neutral,2026-02-01 07:30:56+00:00,101,2,7,7324,0.5,183,[],133.324,neutral,0.9372498393058777,happy,0.09429776668548584,0.01425431203097105,0.7253234386444092,0.10288292169570923,0.061413154006004333,0.0018283890094608068
+x,post,2017543042501382401,"“Di sini 200 ringgit terasa biasa saja, tapi di kampung nilainya hampir Rp 1 juta. Rasanya seperti orang kaya karena banyak kebutuhan keluarga yang bisa dipenuhi,” ujar Wasitah.
+
+Baca di: https://t.co/67Qmu4EWbT.
+
+~WR #Ringgit #Indonesia #Malaysia https://t.co/ZOLzmbzWQH",https://x.com/kompascom/status/2017543042501382401,negative,2026-01-31 10:18:40+00:00,557,92,17,22458,0.2,890,[],814.458,negative,0.8952903151512146,happy,0.0016704112058505416,0.0008506866288371384,0.9919348955154419,0.004703669808804989,0.0007153034675866365,0.00012507353676483035
+x,post,2020719049517461674,"Isri village bank of river jernih Malaysia 
+A treat to watch 
+#Malaysia #Nature #villagelife #ViralVideos 
+#paradiseonearth https://t.co/PgQDmkZjZ4",https://x.com/Words2shar/status/2020719049517461674,neutral,2026-02-09 04:38:59+00:00,10,2,3,285,0.5,17,[],23.285,neutral,0.9935460686683655,happy,0.0014460551319643855,0.0012994131539016962,0.9941980838775635,0.0023889257572591305,0.0006000660941936076,6.739980744896457e-05
+x,post,2019306376674308383,"Me before Malaysia: “Health is wealth.”
+Me after 5 months in Malaysia: “One more bite won’t kill me.” 😋 
+#malaysia https://t.co/hrMUKUWuxd",https://x.com/Nice2cLee/status/2019306376674308383,neutral,2026-02-05 07:05:31+00:00,24,0,12,738,0.5,43,[],60.738,neutral,0.7097502946853638,happy,0.00222416827455163,0.0014430255396291614,0.9770684242248535,0.018218407407402992,0.0008961427956819534,0.0001497412013122812
+x,post,2020461276569502052,"Prime Minister @narendramodi posts, ""Last year, I was unable to visit #Malaysia for the #ASEAN Summit. But, I had promised my friend, PM @anwaribrahim that I would come to #Malaysia at the earliest opportunity.  And now, my first international visit of 2026 took place in Malaysia. This visit will boost economic and cultural linkages between our nations.  My gratitude to PM Anwar Ibrahim, the Government and people of Malaysia for the affection."" @PMOIndia @MEAIndia",https://x.com/UpendrraRai/status/2020461276569502052,positive,2026-02-08 11:34:41+00:00,25,26,0,119,0.8,52,[],77.119,positive,0.9819538593292236,happy,0.0018464726163074374,0.00557815982028842,0.9761186838150024,0.015668628737330437,0.0006455347174778581,0.00014241517055779696
+x,post,2017515013360279805,"Full cei link
+https://t.co/JDrW8yIo5T
+https://t.co/JDrW8yIo5T
+#malaysia https://t.co/RUbTC4f5E0",https://x.com/skakdjcieo/status/2017515013360279805,neutral,2026-01-31 08:27:17+00:00,3743,730,0,228241,0.5,6755,[],5431.241,neutral,0.9502682685852051,happy,0.007525729946792126,0.0028620061930269003,0.7469490170478821,0.012489110231399536,0.22589489817619324,0.004279274959117174
+x,post,2020022216323395886,"I wouldn't be surprised with the 'cost of business' crisis in Australia that restaurants are doing the same thing here; especially when Australian cultural dynamics have rapidly changed in the past 20 years. Is food being rewashed in Australia?
+
+Note: Video is in #Malaysia https://t.co/NqB8SBcAxo",https://x.com/ozcrimenews/status/2020022216323395886,positive,2026-02-07 06:30:01+00:00,34,8,7,986,0.8,58,[],71.986,positive,0.9886503219604492,surprise,0.00014152076619211584,0.0002896532241720706,0.0013303618179634213,0.0001572426554048434,0.00020984520961064845,0.9978713989257812
+x,post,2020593276336705620,"#News: 🌴🇲🇾 Malaysiakini and Pulitzer investigation in #Malaysia: #Pahang’s badly managed #palmoil threatens endangered #tigers #elephants, disrupts villages. Rife with #corruption at highest level. #BoycottPalmOil 🌴☠️⛔️#Boycott4Wildlife @palmoildetect https://t.co/iRZ7NLLszo https://t.co/9RaQBOZspW",https://x.com/PalmOilDetect/status/2020593276336705620,negative,2026-02-08 20:19:12+00:00,24,17,0,218,0.2,43,[],58.218,negative,0.6989669799804688,sadness,0.0013407589867711067,0.0007283593295142055,0.0012134212302044034,0.9965091347694397,0.00015755361528135836,5.069155304227024e-05
+x,post,2020732724559114529,"🇲🇾Keonho‘s Birthday Event
+-【LED billboard in Kuala Lumpur】
+
+It’s a personal fan support to show love for Keonho. Welcoming all Coers to celebrate his birthday together &lt;3
+
+📅 14 FEB 2025
+🕐 8:30-8:40PM
+📍 Mega Billboard @ NZ Curry House
+
+#keonho #cortis #malaysia https://t.co/YlH6uw7z5S",https://x.com/oohkeonho/status/2020732724559114529,positive,2026-02-09 05:33:19+00:00,130,52,1,1215,0.8,195,[],238.215,positive,0.9343591332435608,love,0.000943654915317893,0.0003178404294885695,0.005338114686310291,0.0006715899216942489,0.9925867915153503,0.00014204350009094924
+x,post,2020544043051262227,"During his #Malaysia visit Hon'ble PM @narendramodi
+Ji Interacted with CEOs from India and Malaysia. The CEO Forum has opened new opportunities in trade and investment for both our nations said the PM. https://t.co/dofn7uZgDI",https://x.com/TajinderSTS/status/2020544043051262227,positive,2026-02-08 17:03:34+00:00,3,0,0,48,0.8,3,[],3.048,positive,0.9186490774154663,happy,0.0013289937051013112,0.0009854321833699942,0.9879748821258545,0.00926215760409832,0.00036105027538724244,8.753271686146036e-05
+x,post,2019154347716935851,"Unlock Growth on the XRP Ecosystem
+
+2026 is the year of advanced functionality. Join our X Spaces to dive deep into XRP’s new lending protocols and programmability upgrades. Your next big project starts here.
+
+👉  RSVP NOW",https://x.com/Ripple/status/2019154347716935851,positive,2026-02-04 21:01:25+00:00,31,2,0,298539,0.8,3018,[],333.539,positive,0.9790121912956238,happy,0.00040252337930724025,0.0007022010977379978,0.9969170093536377,0.0011336588067933917,0.0006867750198580325,0.00015777374210301787
+x,post,1842221080313811004,"🇮🇳 #India's Samtel Avionics to upgrade Su30MKM of 🇲🇾 #Malaysia 
+
+Samtel Avionics will equip all the 18 Su-30MKMs of the Malaysian Air Force with Multi-function displays and Head-Up displays under the contract. #IADN https://t.co/MMH4dFtKNT",https://x.com/NewsIADN/status/1842221080313811004,neutral,2024-10-04 15:11:47+00:00,665,90,3,8488,0.5,842,[],862.488,neutral,0.9613760709762573,happy,0.002001218730583787,0.0016657382948324084,0.9860588908195496,0.008604134432971478,0.0015936736017465591,7.634262146893889e-05
+x,post,2020051570881360096,"🇲🇾#Malaysia Reality 
+
+Not all Myanmar #Refugees are #Rohingya.
+
+Yet when a problem occurs, Rohingya are immediately blamed, even though many have no passport, no citizenship, and no recognized state in Myanmar—only #UNHCR protection.
+If we had passports, we would live legally. https://t.co/bMuJDWyikm",https://x.com/dyl_nurul_amin/status/2020051570881360096,negative,2026-02-07 08:26:39+00:00,11,2,1,290,0.2,16,[],18.29,negative,0.9937868118286133,sadness,0.0027102355379611254,0.00029812008142471313,0.004282793961465359,0.9924858808517456,0.00016059733752626926,6.234798638615757e-05
+x,post,2018292488205992323,Look at me 😍 #Johor #Malaysia https://t.co/6qmv0VaztE,https://x.com/Donutacm158269/status/2018292488205992323,neutral,2026-02-02 11:56:41+00:00,84,4,3,1452,0.5,105,[],102.452,neutral,0.9931275844573975,happy,0.013595645315945148,0.0009596985182724893,0.6712474226951599,0.014823551289737225,0.2992262542247772,0.0001474255695939064
+x,post,2020778941116825822,"UPI Was Mocked, Now It Leads the World.
+Made in India, Trusted by the World
+#UPI #DigitalIndia #Malaysia https://t.co/jvb521zWSF",https://x.com/knowthenation/status/2020778941116825822,neutral,2026-02-09 08:36:58+00:00,2,0,0,76,0.5,2,[],2.076,neutral,0.9028860926628113,happy,0.0015394918154925108,0.0017173682572320104,0.9918822646141052,0.0035137617960572243,0.0004990991437807679,0.0008479973184876144
+x,post,2020439172696429010,"मलेशिया : कुआलालंपुर में INA (आजाद हिंद फौज) के पूर्व सैनिक जयराज राजा राव से मिले पीएम मोदी
+
+#PMModi | PM Modi | #Malaysia | Malaysia https://t.co/xLt08X4Qu1",https://x.com/news24tvchannel/status/2020439172696429010,neutral,2026-02-08 10:06:51+00:00,2732,326,7,25600,0.5,3321,[],3430.6,neutral,0.9568179845809937,happy,0.01133440900593996,0.010051954537630081,0.9153006672859192,0.06101134046912193,0.0020073819905519485,0.0002942888531833887
+x,post,2017193696098472415,"娘のお友達のお誕生日ギフトを買いに
+ミッドバレーに。
+
+#Hotpotkitchen 
+
+あれこれ野菜や肉や麺を自由に選んで
+Rm30位。
+
+ 明日も朝からお誕生日会、その後も
+プレイデートの約束があるので
+１日コースかな🥹
+
+#malaysia https://t.co/s4xyvFOvmA",https://x.com/ampm951/status/2017193696098472415,neutral,2026-01-30 11:10:29+00:00,9,0,0,909,0.5,18,[],9.909,neutral,0.9102330803871155,love,0.0032682488672435284,0.0009943650802597404,0.16940410435199738,0.0033262763172388077,0.8228453397750854,0.00016165872511919588
+x,post,2020166591984603503,"Malaysia cheers, the world watches - PM Modi leads, Bharat rises. 🇮🇳
+
+#PMModi
+#Malaysia 
+#IndiaOnGlobalStage 
+#PMModiInMalaysia https://t.co/6xjSm6Dfkm",https://x.com/ManojGoelBJP/status/2020166591984603503,neutral,2026-02-07 16:03:43+00:00,87,83,1,34177,0.5,512,[],290.177,neutral,0.9922533631324768,anger,0.4393979609012604,0.023289671167731285,0.36175504326820374,0.16697925329208374,0.007404410745948553,0.0011736463056877255
+x,post,2020099851820892502,"#Malaysia PM Anwar Ibrahim calls Indian PM Modi a ""great friend"" at the diaspora event https://t.co/8Nkq1mSTS9",https://x.com/MubashiirBhat/status/2020099851820892502,neutral,2026-02-07 11:38:30+00:00,5,2,0,91,0.5,7,[],9.091,neutral,0.9192655682563782,happy,0.00024418189423158765,0.0002363421517657116,0.9981166124343872,0.0010303138988092542,0.00033646522206254303,3.60796730092261e-05
+x,post,2020536082266574913,"#WATCH |  Prime Minister @narendramodi returns to New Delhi after concluding his two-day successful visit to #Malaysia. 
+
+ #PMModiMalaysiaVisit |#IndiaMalaysia https://t.co/kK4T0FusDH",https://x.com/airnewsalerts/status/2020536082266574913,neutral,2026-02-08 16:31:56+00:00,36,9,3,1297,0.5,60,[],64.297,neutral,0.9346376061439514,happy,0.0016560637159273028,0.017913680523633957,0.9677549004554749,0.012042554095387459,0.0003489130758680403,0.0002838915097527206
+x,post,2020367170136613108,"PM Modi Ji won hearts of the Bharatiya Diaspora in Malaysia as both nations come together for Bilateral Defence, Trade &amp; Economic Cooperation and Countering Terrorism while Celebrating the Ancient Cultural &amp; People Connect between Bharat and Malaysia.
+
+#Malaysia 
+
+via NaMo App https://t.co/OPB6UClssR",https://x.com/RohanKhaunte/status/2020367170136613108,positive,2026-02-08 05:20:44+00:00,7,0,0,347,0.8,10,[],7.347,positive,0.9006701707839966,happy,0.0014012845931574702,0.0008619826985523105,0.9890931844711304,0.007997547276318073,0.000578776525799185,6.726015271851793e-05
+x,post,2019647893356048773,"これはもう勝手にご褒美として受け取ります のにゃー🐈‍⬛🐾💜😂🤣
+顔洗ってる仕草がもう猫そのもので超リアル😂🤣
+街中にお猫様モニュメント置いてくれてありがとうKuching🇲🇾😂🤣
+
+引用元 : nona様のインスタ(リプ欄
+
+#アバンギャルディ   #ノナアバンギャルディ #Malaysia https://t.co/HgYOvXHhzo",https://x.com/ikechamaaa/status/2019647893356048773,neutral,2026-02-06 05:42:35+00:00,18,0,1,369,0.5,22,[],21.369,neutral,0.9158617854118347,happy,0.042384807020425797,0.004472218919545412,0.8372558355331421,0.03831588849425316,0.07717830687761307,0.000393000926123932
+x,post,2020839060613587126,"マレーシアの残景∶2015年12月（3）
+#マレーシア　
+#malaysia #wander  #photography https://t.co/7ns6JJpmsU",https://x.com/TGIMJcGPFppZZxP/status/2020839060613587126,neutral,2026-02-09 12:35:52+00:00,15,0,0,74,0.5,15,[],15.074,neutral,0.9942325949668884,happy,0.03835175558924675,0.007631836924701929,0.788468599319458,0.1294676959514618,0.03580379858613014,0.00027620510081760585
+x,post,2020027030834933791,"Indian PM Modi is visiting #Malaysia
+
+An Islamic state that has destroyed hundreds of Hindu temples in the last five years
+
+The leader of the country @anwaribrahim self converted a human man to Islam
+
+Malaysia is also hosting Indian absconding Islamist Zakir Naik
+
+Modi will not speak or raise any of these issues",https://x.com/macroschema/status/2020027030834933791,positive,2026-02-07 06:49:09+00:00,13,6,8,974,0.8,36,[],49.974,positive,0.5615333318710327,sadness,0.004741314798593521,0.005444642622023821,0.49326980113983154,0.4958775043487549,0.0004461982171051204,0.00022049856488592923
+x,post,2019777437639315504,"𝐓𝐡𝐫𝐞𝐞 𝐫𝐞𝐚𝐬𝐨𝐧𝐬 𝐰𝐡𝐲 𝐌𝐚𝐥𝐚𝐲𝐬𝐢𝐚 𝐢𝐬 𝐯𝐢𝐭𝐚𝐥 𝐭𝐨 𝐈𝐧𝐝𝐢𝐚 𝐧𝐨𝐰
+
+Economic, military, strategic, and cultural — there are many advantages to stronger #India-#Malaysia ties.
+
+Read more : https://t.co/p4sqpn1eex |@_samratsharma https://t.co/uCmYcaYH8K",https://x.com/IndiaToday/status/2019777437639315504,positive,2026-02-06 14:17:21+00:00,9,3,0,1024,0.8,22,[],16.024,positive,0.9680148959159851,happy,0.00046851448132656515,0.0005389319267123938,0.9970689415931702,0.001238640514202416,0.0005747379036620259,0.00011030557652702555
+x,post,2019034389842452977,Steamy shower reminds me of the wet sex I had in Thailand #chudai #shower #Malaysia https://t.co/SX1vXOz7g6,https://x.com/Kissaa44/status/2019034389842452977,neutral,2026-02-04 13:04:45+00:00,59,7,0,4214,0.5,108,[],77.214,neutral,0.9939175248146057,happy,0.017039228230714798,0.002967475913465023,0.5618786215782166,0.00869726948440075,0.40929585695266724,0.00012152988347224891
+x,post,2020241089471676511,"Seems like @ether_fi is available in #Malaysia 😍
+Perfect time for #VisitMalaysia2026.
+
+Thank you @ether_fi 😊 https://t.co/096Hk8ZhS8",https://x.com/ngngdhd0l/status/2020241089471676511,positive,2026-02-07 20:59:44+00:00,7,0,0,162,0.8,8,[],7.162,positive,0.919120192527771,happy,0.00018366542644798756,0.00019647530280053616,0.9987660646438599,0.0004197517118882388,0.0003629249695222825,7.116786582628265e-05
+x,post,2019617522341884040,"Wow 😮
+
+#malaymail #skydiving #malaysia https://t.co/vugqBzKas9",https://x.com/malaymail/status/2019617522341884040,neutral,2026-02-06 03:41:54+00:00,266,65,1,24806,0.5,580,[],423.806,neutral,0.9867369532585144,happy,0.016167547553777695,0.4232560098171234,0.4892103970050812,0.015282686799764633,0.009625575505197048,0.04645776376128197
+x,post,2019407337623077040,"Sean Baker’s iPhone-shot ‘SANDIWARA’ starring Michelle Yeoh will world premiere at the Berlin Film Festival.
+
+Set in a Malaysian night market, Yeoh is set to play 5 characters in it. https://t.co/mLvMWwia2Y",https://x.com/FilmUpdates/status/2019407337623077040,neutral,2026-02-05 13:46:42+00:00,14404,1080,85,511443,0.5,20683,[],17330.443,neutral,0.8465071320533752,happy,0.03816337510943413,0.03445633873343468,0.8599845767021179,0.05896880850195885,0.007191153708845377,0.0012356237275525928
+x,post,2020773316701872472,"The global impact of the foreign policy of the world’s most popular leader, Hon’ble Prime Minister Shri Narendra Modi ji, is clearly visible.
+
+The grand and warm welcome accorded to him on Malaysian soil is proof that today’s India is not merely a listener, but a nation that provides direction on the global stage.
+
+Under the leadership of Prime Minister Modi ji, India has elevated diplomacy to new heights, where relationships are based not just on formalities, but on trust, culture, and partnership.
+
+The Malaysia visit has given fresh momentum to economic cooperation, trade, investment, and cultural ties.
+
+Today, the world views India as a symbol of strength, stability, and leadership.
+
+विश्व के सबसे लोकप्रिय राजनेता, माननीय प्रधानमंत्री श्री नरेंद्र मोदी जी की विदेश नीति का वैश्विक प्रभाव साफ दिखाई देता है।
+
+मलेशिया की धरती पर उनका हुआ भव्य और आत्मीय स्वागत इस बात का प्रमाण है कि आज का भारत केवल सुनने वाला नहीं, बल्कि विश्व मंच पर दिशा देने वाला राष्ट्र बन चुका है।
+
+प्रधानमंत्री मोदी जी के नेतृत्व में भारत ने कूटनीति को नई ऊँचाइयों पर पहुँचाया है, जहाँ संबंध केवल औपचारिक नहीं, बल्कि विश्वास, संस्कृति और साझेदारी पर आधारित है।
+
+मलेशिया यात्रा ने आर्थिक सहयोग, व्यापार, निवेश और सांस्कृतिक जुड़ाव को नई गति दी है।
+
+आज दुनिया भारत को मजबूती, स्थिरता और नेतृत्व के प्रतीक के रूप में देख रही है।
+
+دنیا کے سب سے مقبول رہنما، معزز وزیرِ اعظم جناب نریندر مودی جی کی خارجہ پالیسی کا عالمی اثر واضح طور پر نظر آتا ہے۔
+ملائیشیا کی سرزمین پر ان کا شاندار اور پُرخلوص استقبال اس بات کا ثبوت ہے کہ آج کا بھارت صرف سننے والا نہیں بلکہ عالمی اسٹیج پر سمت متعین کرنے والا ملک بن چکا ہے۔
+وزیرِ اعظم مودی جی کی قیادت میں بھارت نے سفارت کاری کو نئی بلندیوں تک پہنچایا ہے، جہاں تعلقات محض رسمی نہیں بلکہ اعتماد، ثقافت اور شراکت داری پر مبنی ہیں۔
+ملائیشیا کے دورے نے اقتصادی تعاون، تجارت، سرمایہ کاری اور ثقافتی روابط کو نئی رفتار دی ہے۔
+آج دنیا بھارت کو مضبوطی، استحکام اور قیادت کی علامت کے طور پر دیکھ رہی ہے۔",https://x.com/GulamAliKhatana/status/2020773316701872472,positive,2026-02-09 08:14:37+00:00,130,142,12,751,0.8,291,[],450.751,positive,0.9729663133621216,happy,0.00015732939937151968,0.0002480883849784732,0.998792290687561,0.0005685131181962788,0.00016726431204006076,6.647149712080136e-05
+x,post,2020099584224051608,Kenangan coffee 1/10 https://t.co/XyiVMfEDF0,https://x.com/xxxxshah/status/2020099584224051608,neutral,2026-02-07 11:37:27+00:00,492,7,15,52683,0.5,1040,[],603.683,neutral,0.9937204122543335,happy,0.24793770909309387,0.0471002571284771,0.49945008754730225,0.16125038266181946,0.0429656095802784,0.0012959629530087113
+x,post,2019274455449735465,"Whatttttt!!???!!!??!!?!!
+
+Serius lah jason, we all trust semua makanan yang kamu review, tapi kalini betul-betul cancel lah! 
+
+How come u kata this chicken spicy deluxe sebiji macam apa? Mcd? kenapa tak mention je sebiji mcm mcd😅 https://t.co/WKvHIqzjDw",https://x.com/MalaysianFoods/status/2019274455449735465,negative,2026-02-05 04:58:41+00:00,1350,85,88,1400417,0.2,15527,[],3184.417,negative,0.9860951900482178,happy,0.2635534405708313,0.10679246485233307,0.5049223303794861,0.0500691682100296,0.05161508545279503,0.023047564551234245
+x,post,2020098344169648309,"Malaysian PM Anwar Ibrahim’s heartfelt words for PM Modi:
+
+“PM Modi, I have followed your struggle, and I say this: I am fortunate to be a great personal friend of Modi ji, of India” https://t.co/PwVgIm2Sv3",https://x.com/MeghUpdates/status/2020098344169648309,positive,2026-02-07 11:32:31+00:00,5923,854,25,76105,0.8,7563,[],7782.105,positive,0.9967525005340576,love,0.0015664082020521164,0.0003645535616669804,0.22294963896274567,0.0017100675031542778,0.7732433080673218,0.0001659765257500112
+x,post,2020086136736305236,"“Malaysian PM Anwar Ibrahim came to the airport to welcome me and brought me in his own car. Not only his car, but his seat also” 😁
+
+PM Modi’s words reflect the deep India–Malaysia friendship. https://t.co/MrlMM1541U",https://x.com/PoliticalKida/status/2020086136736305236,positive,2026-02-07 10:44:01+00:00,1545,242,3,19648,0.8,1986,[],2057.648,positive,0.9368475675582886,happy,0.0013128923019394279,0.000591897580306977,0.9856929779052734,0.008426601067185402,0.003919385839253664,5.6347424106206745e-05
+x,post,2018663840750440515,"Kenapa mesti nak tiru macam KA ( khairul Aming) ? ???
+
+Kita hanya ada REMBAYUNG satu-satunya dekat KL! KA sorang je owner https://t.co/Wh6QwPUZdE https://t.co/QANSSwIn2b",https://x.com/MalaysianFoods/status/2018663840750440515,negative,2026-02-03 12:32:19+00:00,1251,177,184,1637963,0.2,17991,[],3794.9629999999997,negative,0.8924334645271301,surprise,0.0005697354208678007,0.00680868374183774,0.0005990681820549071,0.00043613777961581945,0.00014089183241594583,0.9914454221725464
+x,post,2020133119563612256,"PM Modi participated in a memorable community programme in Kuala Lumpur. Malaysian Prime Minister Anwar Ibrahim was also present at the event.
+
+Here are some glimpses. ⏬ https://t.co/AXlyYzn7eQ",https://x.com/BJP4India/status/2020133119563612256,positive,2026-02-07 13:50:42+00:00,2106,361,26,16838,0.8,2661,[],2922.838,positive,0.9856788516044617,happy,0.00021278366330079734,0.0004642585408873856,0.9982771873474121,0.0007996508502401412,0.00015363373677246273,9.244306420441717e-05
+x,post,2019371551259496509,🤫 https://t.co/GPMVAtydmx,https://x.com/STMalaysian/status/2019371551259496509,neutral,2026-02-05 11:24:30+00:00,4885,198,43,117287,0.5,6298,[],5527.287,neutral,0.9682025909423828,love,0.053335040807724,0.012601316906511784,0.10087373852729797,0.011416664347052574,0.8201996088027954,0.0015735760098323226
+x,post,2017188080722276447,"Spring 2023, Everest. At 8,300m, 🇳🇵Gelje Sherpa turned back from his 6th summit to save a dying Malaysian climber. He carried him alone through the Death Zone for hours. Later joined by fellow Sherpas. This is what heroism looks like. https://t.co/QPofyeFWqg",https://x.com/EverestToday/status/2017188080722276447,neutral,2026-01-30 10:48:10+00:00,821,71,6,44650,0.5,1344,[],1025.65,neutral,0.922520101070404,sadness,0.0005247427034191787,0.0003441660082899034,0.000580683583393693,0.9983550906181335,0.00012235601025167853,7.295481918845326e-05
+x,post,2020384902856995250,"𝐖𝐡𝐞𝐧 𝐜𝐮𝐥𝐭𝐮𝐫𝐞 𝐬𝐭𝐞𝐚𝐥𝐬 𝐭𝐡𝐞 𝐬𝐡𝐨𝐰 𝐚𝐭 𝐚 𝐬𝐭𝐚𝐭𝐞 𝐥𝐮𝐧𝐜𝐡! 
+
+PM Modi and Malaysian PM Anwar Ibrahim bond over the timeless MGR classic ""Naalai Namathe"".
+
+MGR fandom knows no borders! https://t.co/ZsC58p8h7y",https://x.com/BJP4India/status/2020384902856995250,neutral,2026-02-08 06:31:12+00:00,330,114,12,7511,0.5,531,[],601.511,neutral,0.9628865718841553,happy,0.016345078125596046,0.011458824388682842,0.8089662790298462,0.1622704267501831,0.00036092722439207137,0.0005983573500998318
+x,post,2019387775607533752,@McSid6 Malaysian slave ch!mp https://t.co/bcMrEnmZNR,https://x.com/moonilight25/status/2019387775607533752,neutral,2026-02-05 12:28:58+00:00,148,2,1,3324,0.5,184,[],158.324,neutral,0.9897867441177368,happy,0.07760553807020187,0.010567676275968552,0.8632090091705322,0.023852579295635223,0.023892614990472794,0.0008725379011593759
+x,post,2020091550664143145,"“PM Modi, I have followed your struggle, and I say this: I am fortunate to be a great personal friend of Modi ji, of India”
+
+- Malaysian PM Anwar Ibrahim’s heartfelt words for PM Modi. Tune in 🔽 https://t.co/nbUopoKyB7",https://x.com/BJP4India/status/2020091550664143145,positive,2026-02-07 11:05:31+00:00,1263,250,30,19195,0.8,1734,[],1872.195,positive,0.9967690706253052,love,0.0013403642224147916,0.0003628063132055104,0.1651361584663391,0.0013562338426709175,0.8316378593444824,0.00016657018568366766
+x,post,2020706623518548155,"Apparently the one who sold the ai dot com domain is a Malaysian!
+
+> Imagine being $70m richer just from selling a domain 😳
+
+To put things in context, that's equivalent to MYR 276,000,000 & our minimum wages is MYR 1,700 per month",https://x.com/Crypto_Zh0u/status/2020706623518548155,positive,2026-02-09 03:49:36+00:00,46,3,28,5576,0.8,132,[],141.576,positive,0.4691203236579895,happy,0.0003589803527574986,0.000475724576972425,0.9969543218612671,0.001719796098768711,0.0004065275425091386,8.463114500045776e-05
+x,post,2020314897838666202,Betul-betul Jelas kedengaran bunyi Jin meraung lepas panahan Petir. https://t.co/LTXd6KZU66,https://x.com/MalaysianFoods/status/2020314897838666202,negative,2026-02-08 01:53:01+00:00,2366,350,12,214082,0.2,4868,[],3316.082,negative,0.6504755020141602,fear,0.32173967361450195,0.5104060769081116,0.019971126690506935,0.046101540327072144,0.00849835854023695,0.09328322857618332
+x,post,2020397330751713290,"Moye Moye for sanghis 🤣🤣
+
+When Narendra Modi was standing on state alongside Malaysian Prime Minister, 
+
+AR Rahman's Vande Matram was playing in background on full volume 🔥
+
+Few days ago the whole IT cell wanted to boycott him 😭
+
+ https://t.co/z85DVNlIOB",https://x.com/Amockx2022/status/2020397330751713290,neutral,2026-02-08 07:20:35+00:00,674,138,21,11050,0.5,943,[],1024.05,neutral,0.8980638384819031,fear,0.0818294882774353,0.5942431688308716,0.14711236953735352,0.17193248867988586,0.003815844189375639,0.0010667928727343678
+x,post,2018300845167870138,"I not usually do this.but been asking around with friend i have to do this to low my family burden too. And gofundme cant do in malaysian.
+4 day ago my mom warded in hospital cause she have gallstone in her gallbladder half of it
+Here my link through https://t.co/x7mkvty2X7 https://t.co/njOmizixSg",https://x.com/Effieart22/status/2018300845167870138,positive,2026-02-02 12:29:54+00:00,527,419,9,29803,0.8,1253,[],1421.803,positive,0.9903333783149719,sadness,0.005128318443894386,0.028412124142050743,0.017689477652311325,0.948009729385376,0.0005658683949150145,0.00019451967091299593
+x,post,2019424451302211907,"Perks of being in leadership role in food industry. Invited to Malaysia food &amp; cultural festival. 
+
+Trying Rendang kambing kerisik, Sirap Bandung &amp; other authentic flavors prepared by Malaysian chefs.
+
+Food &amp; rhythm in the air :)
+
+#foodfestival #slowevening https://t.co/HYBETDBuSY",https://x.com/payal_jos/status/2019424451302211907,neutral,2026-02-05 14:54:42+00:00,39,2,3,3108,0.5,75,[],55.108,neutral,0.8776776790618896,happy,0.0006062655593268573,0.000721602002158761,0.9962473511695862,0.0017209341749548912,0.0006225149845704436,8.12002836028114e-05
+x,post,2020023317504422219,https://t.co/3075otrsqC,https://x.com/xxxxshah/status/2020023317504422219,neutral,2026-02-07 06:34:23+00:00,355,8,1,14733,0.5,511,[],388.733,neutral,0.992731511592865,love,0.038274724036455154,0.023851683363318443,0.04796558991074562,0.012998842634260654,0.8705332279205322,0.006375872530043125
+x,post,2018773196116476268,China’s latest move surprised the world,https://x.com/finance_compare/status/2018773196116476268,positive,2026-02-03 19:46:51+00:00,229,33,0,660068,0.8,6862,[],955.068,positive,0.9862749576568604,surprise,0.0001918304624268785,0.00031312162172980607,0.002227021846920252,0.0001957671920536086,0.00026255971170030534,0.9968096613883972
+x,post,2018917371109613670,"#BABYMONSTER x UNIQLO is officially taking over! Leading the charge, #RUKA’s shirt has reached critical sell-out status, with 3 major sizes out of stock across all 60 physical stores &amp; Malaysian web store. Following behind, #ASA &amp; #CHIQUITA also sold out 1 size of their designs https://t.co/0WOb7PyZz9",https://x.com/albumbaemon/status/2018917371109613670,neutral,2026-02-04 05:19:45+00:00,245,30,4,9532,0.5,374,[],326.532,neutral,0.9775251746177673,happy,0.00046628847485408187,0.0006904571782797575,0.9969678521156311,0.0012471573427319527,0.00044578290544450283,0.00018238033226225525
+x,post,2019681743574601848,Today is the International Day of Zero Tolerance for Female Genital Mutilation and Malaysia is one of the countries that still does this practice. We want to explain what FGM/C is and how it affects Malaysian women and girls. https://t.co/pCigU7fK8E,https://x.com/womensaidorg/status/2019681743574601848,positive,2026-02-06 07:57:06+00:00,6,7,1,467,0.8,18,[],23.467,positive,0.9851247072219849,happy,0.0022388617508113384,0.0006682113162241876,0.9811670184135437,0.014587382785975933,0.0012763598933815956,6.225314427865669e-05
+x,post,2020842053563982178,"Hello MOAs!
+For anyone who will be going to TXT Concert in KL, we have gc for #MalaysianMOA and for iMOA. If you want to be in the twitter gc group, comment here with your country flag or dm us if you're shy. https://t.co/xU1HK9IvKe",https://x.com/MYMoaCrew/status/2020842053563982178,neutral,2026-02-09 12:47:45+00:00,91,19,10,1576,0.5,135,[],160.576,neutral,0.9184587597846985,fear,0.0015681989025324583,0.9952207207679749,0.0012792852940037847,0.001276132999919355,0.00038888081326149404,0.0002668117522262037
+x,post,2017180344345383277,WRHEWWWW WE WON GUYSSSSS WE WONTHAT MALAYSIAN PLATE NUMBERR https://t.co/Bww0WIURZx,https://x.com/amaranthd6/status/2017180344345383277,neutral,2026-01-30 10:17:26+00:00,383,39,1,10307,0.5,526,[],474.307,neutral,0.7567405700683594,happy,0.014317185617983341,0.003834423841908574,0.9594817757606506,0.01824389398097992,0.003853952744975686,0.0002687119413167238
+x,post,2020432429107098039,"Strengthening bonds of friendship and shared progress.
+
+Hon’ble PM Shri @narendramodi ji’s meeting with Malaysian PM Anwar Ibrahim at Seri Perdana reflects the growing depth of India–Malaysia ties across trade, infrastructure, energy and technology, along with expanding cooperation in defence, AI, digital innovation and semiconductors.
+
+India continues to move forward with confidence, building trusted global partnerships for mutual growth and a stronger future.
+
+#PMModiInMalaysia",https://x.com/sambitswaraj/status/2020432429107098039,positive,2026-02-08 09:40:03+00:00,368,59,6,7285,0.8,505,[],511.285,positive,0.9966437816619873,happy,0.0004788244259543717,0.0005255253054201603,0.9964518547058105,0.0021515795961022377,0.0003498196310829371,4.237048779032193e-05
+x,post,2020133724160135546,"Today’s community programme in Kuala Lumpur included an exhibition on the Indian community in Malaysia. 
+
+The Indian Government’s decision of extending OCI card eligibility to Malaysian citizens of Indian origin up to the 6th generation has caused immense happiness among the diaspora. 
+
+In the times to come, an Indian consulate will also be opened in Malaysia, thus bringing our nations even closer.
+
+@anwaribrahim",https://x.com/narendramodi/status/2020133724160135546,positive,2026-02-07 13:53:06+00:00,15647,2277,327,696305,0.8,25214,[],21878.305,positive,0.9929684996604919,happy,0.00021978214499540627,0.00024360261159017682,0.9975166320800781,0.0011458980152383447,0.000828180112875998,4.5938802941236645e-05
+x,post,2020553349633106006,"Eating Kuih-Muih for the first time at CatLumpurr!
+
+Thank u @meteora_my for this funny Bingo! I feel like a Malaysian local now!",https://x.com/nknwn_eth/status/2020553349633106006,positive,2026-02-08 17:40:33+00:00,46,1,13,487,0.8,64,[],87.487,positive,0.9961678385734558,surprise,0.0008585675968788564,0.0010287240147590637,0.2481597512960434,0.00046877405839040875,0.0027743091341108084,0.7467098832130432
+x,post,2019682483285958893,"Yummy Malaysian street food. 😒
+
+Straight from the streets of Kuala Lumpur.
+
+Most probably made by a Malaysian Chinese guy. 😋 https://t.co/hct4ETWvNM",https://x.com/Pseudo_Prophet_/status/2019682483285958893,neutral,2026-02-06 08:00:02+00:00,211,44,9,14884,0.5,412,[],340.884,neutral,0.9932964444160461,happy,0.038780976086854935,0.00962140318006277,0.8536379337310791,0.07885131239891052,0.018778642639517784,0.0003297006187494844
+x,post,2018674100923752728,"im nothing but a proud malaysian! nasi lemak is mentioned!!!! he ate nasi lemak in malaysia!!!
+
+#DAY6 #데이식스 #The_DECADE #DAY6_10th_Anniversary #YoungK #영케이 https://t.co/PQbffHU0YV",https://x.com/tinidotkom/status/2018674100923752728,positive,2026-02-03 13:13:05+00:00,1188,322,4,24001,0.8,1754,[],1868.001,positive,0.9618943929672241,happy,0.0002814039762597531,0.0002233970444649458,0.9982811212539673,0.0004830261168535799,0.0006449137581512332,8.619288564659655e-05
+x,post,2019609262809575588,"CAKE Mixue RM5.90 ni betul-betul menggila. Pasaran Aiskrim dan air dia dah tapau. Sekarang dessert &amp; kek pulak. 
+
+Terima kasih Mixue❤️ https://t.co/J4MIoVrd6e",https://x.com/MalaysianFoods/status/2019609262809575588,positive,2026-02-06 03:09:05+00:00,436,86,7,72012,0.8,1249,[],701.012,positive,0.9966536164283752,anger,0.8070836067199707,0.13341166079044342,0.02776414528489113,0.024828292429447174,0.005460789427161217,0.0014514353824779391
+x,post,2017403694929822079,Where are the Malaysian crocodiles I heard so much about 😞 https://t.co/3ki44hM4zv,https://x.com/twice_mixx/status/2017403694929822079,neutral,2026-01-31 01:04:57+00:00,1525,70,30,142378,0.5,3048,[],1897.378,neutral,0.9844344258308411,love,0.0035995752550661564,0.0009557537850923836,0.04085913673043251,0.0017030737362802029,0.9522220492362976,0.0006604298832826316
+x,post,2020717272579572108,"Well tried Mahua!
+
+No Indian gives you anything even after you beg, then remember, this is the Malaysian Prime Minister you’re dealing with😏 https://t.co/MZE8dC9Jo1",https://x.com/pamelagoswami9/status/2020717272579572108,positive,2026-02-09 04:31:55+00:00,98,16,3,1609,0.8,133,[],140.609,positive,0.935910701751709,happy,0.038925476372241974,0.010715857148170471,0.8564546704292297,0.09116688370704651,0.002542866161093116,0.00019416070426814258
+x,post,2017928046263857573,"OH MY LORD RYUJIN WITH A MALAYSIAN CITY VIEW
+
+SAYA BANGGA JADI ANAK MALAYSIA https://t.co/N2PkVocUMD",https://x.com/adorexryujin/status/2017928046263857573,positive,2026-02-01 11:48:32+00:00,3554,469,9,49492,0.8,4526,[],4568.492,positive,0.7023418545722961,happy,0.0020594533998519182,0.0010111721931025386,0.9844555854797363,0.010019133798778057,0.0022999076172709465,0.00015466786862816662
+x,post,2019282641653297263,"Is this why China is living in 210
+
+Malaysian Chinese go to China and can't even enter the toilet 🚽 as they found stinky feces 💩.
+
+The smell was so intense they couldn't even enter it. https://t.co/JI0RbVUKS2",https://x.com/arunpudur/status/2019282641653297263,positive,2026-02-05 05:31:12+00:00,1754,275,175,169304,0.8,3897,[],2998.304,positive,0.9863540530204773,happy,0.03319927304983139,0.10361608117818832,0.7449467182159424,0.11615019291639328,0.001466807210817933,0.000620983075350523
+x,post,2018983436632113235,"TikTok | #TOMORROW_X_TOGETHER | @/hitzdotmy | 04.02.2026
+
+💬  Free TXT concert ticket from Hitz fm #TXTinKL
+
+#MalaysianMOA   
+@TXT_bighit @TXT_members
+
+🎬 https://t.co/ZkrlrB2Zdk https://t.co/G5j0RmjHk4",https://x.com/MYMoaCrew/status/2018983436632113235,neutral,2026-02-04 09:42:16+00:00,107,44,0,4665,0.5,197,[],199.665,neutral,0.9941353797912598,happy,0.042240388691425323,0.016497157514095306,0.580949068069458,0.028207432478666306,0.3308424651622772,0.0012635833118110895
+x,post,2020708908969742840,"M0DI has traveled abroad once again, allegedly acting on behalf of Gautam Adani.
+​In 2017, the Adani Group signed an MoU with the Malaysian government to construct a massive container depot on Carey Island, located 50 km from Kuala Lumpur. While the project's feasibility study is currently underway, it reportedly required a diplomatic ""nudge"" from M0DI to move forward.
+​This is a recurring pattern; M0DI visited Malaysia for this same purpose in 2015, leading to Adani’s MoU two years later. These deals are often presented under the guise of cooperation in defense, semiconductors, and general trade.
+​Even as Parliament is in session, the Prime Minister—acting as a ""middleman""—has headed to Malaysia to secure deals for his associate. Whether it is Bangladesh, Sri Lanka, Israel, or Tanzania, wherever M0DI travels on the taxpayer's dime, he seems to return with benefits for Adani.
+​What do the Indian people gain from this? Despite these concerns, 320 million citizens gave M0DI the chair for a third term. Meanwhile, Donald Trump recently claimed that M0DI favors him simply to protect his own political career from being sabotaged.
+​Have you ever seen such a compromised and deceitful negotiator whose ""horoscope of misdeeds"" is held in so many hands? This situation is a reflection of the 320 million voters who refuse to hold their leader accountable. 
+
+Consequently, the international community looks down upon Indians for allowing this to persist.",https://x.com/IndiaAwakened_/status/2020708908969742840,neutral,2026-02-09 03:58:41+00:00,191,149,3,3024,0.5,373,[],501.024,neutral,0.9806185364723206,happy,0.0017175138927996159,0.008412837982177734,0.9799441695213318,0.009147639386355877,0.000672734749969095,0.00010513465531403199
+x,post,2020087198666858566,"Malaysia has the second-largest Indian-origin community in the world.
+
+There is so much that connects Indian and Malaysian hearts.
+
+You are living bridge that connects us.
+
+-PM @narendramodi https://t.co/2ubmq3q4CW",https://x.com/BJP4Arunachal/status/2020087198666858566,neutral,2026-02-07 10:48:14+00:00,2,1,0,19,0.5,3,[],4.019,neutral,0.9817138314247131,happy,0.0013452075654640794,0.0005108033074066043,0.9859932661056519,0.006989568937569857,0.005115816369652748,4.522452945820987e-05

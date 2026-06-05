@@ -1,0 +1,2 @@
+Platform,Type,ID,Text,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,sentiment_label,sentiment_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+instagram,post,,,neutral,2026-02-08 09:21:40.836895,0,0,0,0,0.5,0,neutral,0.0,neutral,0.0,0.0,0.0,0.0,0.0,0.0

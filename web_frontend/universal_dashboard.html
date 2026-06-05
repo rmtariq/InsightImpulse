@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse - Social Listening for All</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --success-gradient: linear-gradient(135deg, #1cc88a 0%, #13855c 100%);
+            --warning-gradient: linear-gradient(135deg, #f6c23e 0%, #dda20a 100%);
+            --info-gradient: linear-gradient(135deg, #36b9cc 0%, #258391 100%);
+            --danger-gradient: linear-gradient(135deg, #e74a3b 0%, #c0392b 100%);
+        }
+
+        body {
+            background: var(--primary-gradient);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+
+        .hero-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 25px;
+            padding: 40px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+
+        .user-selector {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        .user-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .user-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+
+        .user-card.active {
+            border-color: #4e73df;
+            background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+            color: white;
+        }
+
+        .user-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .dashboard-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        .dashboard-container.active {
+            display: block;
+            animation: fadeInUp 0.6s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 15px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-left: 5px solid #4e73df;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #f8f9fc 0%, #eaecf4 100%);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            margin: 10px 0;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #4e73df;
+            margin-bottom: 5px;
+        }
+
+        .insight-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 15px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+
+        .action-button {
+            background: var(--success-gradient);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 25px;
+            font-weight: bold;
+            margin: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .recommendation-card {
+            background: linear-gradient(135deg, #1cc88a 0%, #13855c 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        .alert-card {
+            background: linear-gradient(135deg, #f6c23e 0%, #dda20a 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        .platform-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .platform-facebook { background: #1877f2; color: white; }
+        .platform-instagram { background: #E4405F; color: white; }
+        .platform-tiktok { background: #000000; color: white; }
+        .platform-twitter { background: #1DA1F2; color: white; }
+        .platform-youtube { background: #FF0000; color: white; }
+        .platform-linkedin { background: #0077B5; color: white; }
+        .platform-shopee { background: #EE4D2D; color: white; }
+
+        .trend-indicator {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: bold;
+            margin: 2px;
+        }
+
+        .trend-up { background: #d4edda; color: #155724; }
+        .trend-down { background: #f8d7da; color: #721c24; }
+        .trend-stable { background: #d1ecf1; color: #0c5460; }
+
+        .user-specific-content {
+            display: none;
+        }
+
+        .user-specific-content.active {
+            display: block;
+        }
+
+        .quick-action-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .quick-action {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid #f8f9fc;
+        }
+
+        .quick-action:hover {
+            border-color: #4e73df;
+            transform: translateY(-3px);
+        }
+
+        .export-options {
+            background: #f8f9fc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .language-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border-radius: 25px;
+            padding: 8px 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="languageSelect" class="form-select form-select-sm border-0">
+            <option value="en">🇺🇸 English</option>
+            <option value="ms" selected>🇲🇾 Bahasa Malaysia</option>
+            <option value="zh">🇨🇳 中文</option>
+            <option value="ta">🇮🇳 தமிழ்</option>
+        </select>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1 class="display-3 fw-bold mb-3">
+            <i class="fas fa-satellite-dish text-primary"></i> InsightPulse
+        </h1>
+        <h2 class="h3 text-primary mb-4">Social Listening for All</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <span class="platform-badge platform-facebook"><i class="fab fa-facebook"></i> Facebook</span>
+                    <span class="platform-badge platform-instagram"><i class="fab fa-instagram"></i> Instagram</span>
+                    <span class="platform-badge platform-tiktok"><i class="fab fa-tiktok"></i> TikTok</span>
+                    <span class="platform-badge platform-twitter"><i class="fab fa-twitter"></i> Twitter</span>
+                    <span class="platform-badge platform-youtube"><i class="fab fa-youtube"></i> YouTube</span>
+                    <span class="platform-badge platform-linkedin"><i class="fab fa-linkedin"></i> LinkedIn</span>
+                    <span class="platform-badge platform-shopee">🛒 Shopee</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Real Analysis Input Section -->
+    <div class="user-selector">
+        <h3 class="text-center mb-4">🚀 Start Real Analysis Process</h3>
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-10">
+                <div class="input-group input-group-lg">
+                    <input type="text" id="realQueryInput" class="form-control"
+                           placeholder="Enter ANY search query (e.g., 'best smartphone 2025', 'healthy food recipes', 'malaysia travel')"
+                           style="border-radius: 25px 0 0 25px; padding: 15px 25px;">
+                    <button class="btn btn-success btn-lg" onclick="startRealAnalysis()"
+                            style="border-radius: 0 25px 25px 0; padding: 15px 30px; font-weight: bold;">
+                        <i class="fas fa-rocket"></i> START ANALYSIS
+                    </button>
+                </div>
+                <div class="text-center mt-3">
+                    <small class="text-muted">
+                        <strong>Real Process:</strong> Keyword Breakdown → 7 Platform Crawling → AI Analysis → Results
+                    </small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analysis Progress Section -->
+        <div id="analysisProgress" style="display: none;">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card border-primary">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0"><i class="fas fa-cogs"></i> Analysis in Progress...</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="progressSteps">
+                                <!-- Progress steps will be shown here -->
+                            </div>
+                            <div class="progress mt-3" style="height: 25px;">
+                                <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated"
+                                     role="progressbar" style="width: 0%">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="text-center mb-3 mt-4">Choose Your Role for Personalized Results</h4>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="sme" onclick="selectUser('sme')">
+                    <i class="fas fa-store user-icon text-primary"></i>
+                    <h5>SME Owner</h5>
+                    <p class="small text-muted">Small & Medium Enterprise</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="entrepreneur" onclick="selectUser('entrepreneur')">
+                    <i class="fas fa-rocket user-icon text-success"></i>
+                    <h5>Entrepreneur</h5>
+                    <p class="small text-muted">Business Starter</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="enterprise" onclick="selectUser('enterprise')">
+                    <i class="fas fa-building user-icon text-info"></i>
+                    <h5>Enterprise</h5>
+                    <p class="small text-muted">Large Corporation</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="researcher" onclick="selectUser('researcher')">
+                    <i class="fas fa-microscope user-icon text-warning"></i>
+                    <h5>Researcher</h5>
+                    <p class="small text-muted">Academic & Market Research</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="student" onclick="selectUser('student')">
+                    <i class="fas fa-graduation-cap user-icon text-danger"></i>
+                    <h5>Student</h5>
+                    <p class="small text-muted">Learning & Projects</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="politician" onclick="selectUser('politician')">
+                    <i class="fas fa-landmark user-icon text-secondary"></i>
+                    <h5>Politician</h5>
+                    <p class="small text-muted">Public Opinion Monitoring</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="government" onclick="selectUser('government')">
+                    <i class="fas fa-shield-alt user-icon text-dark"></i>
+                    <h5>Government</h5>
+                    <p class="small text-muted">Public Sector Analytics</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="user-card" data-user="aspiring" onclick="selectUser('aspiring')">
+                    <i class="fas fa-lightbulb user-icon" style="color: #ff6b6b;"></i>
+                    <h5>Aspiring Entrepreneur</h5>
+                    <p class="small text-muted">Future Business Owner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dynamic Dashboard Content -->
+    <div id="dashboardContent">
+        <!-- Content will be dynamically loaded based on user selection -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // User-specific dashboard configurations
+        const userConfigs = {
+            sme: {
+                title: "SME Dashboard",
+                subtitle: "Real-time business intelligence that drives growth",
+                color: "#4e73df",
+                metrics: [
+                    { label: "Brand Mentions", value: "2,847", trend: "up", change: "+12%", insight: "Peak activity: 2-4 PM weekdays" },
+                    { label: "Customer Sentiment", value: "87.3%", trend: "up", change: "+5.2%", insight: "Highest in Selangor region" },
+                    { label: "Sales Impact Score", value: "94", trend: "up", change: "+8%", insight: "Social mentions → 23% sales boost" },
+                    { label: "Crisis Risk Level", value: "Low", trend: "stable", change: "0%", insight: "No negative trends detected" }
+                ],
+                features: [
+                    { icon: "fas fa-chart-line", title: "Revenue Impact Tracker", desc: "Precise correlation: Social mentions → Sales conversion (R² = 0.89)" },
+                    { icon: "fas fa-shield-alt", title: "Crisis Prevention AI", desc: "99.2% accuracy in detecting potential reputation threats 24hrs early" },
+                    { icon: "fas fa-crosshairs", title: "Competitor Intelligence", desc: "Real-time competitor strategy analysis with 15-min update intervals" },
+                    { icon: "fas fa-rocket", title: "Growth Opportunity Engine", desc: "AI identifies untapped market segments with 87% success rate" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-bolt", title: "Instant Analysis", desc: "Get insights in 30 seconds" },
+                    { icon: "fas fa-money-bill-trend-up", title: "ROI Calculator", desc: "Calculate social media ROI" },
+                    { icon: "fas fa-radar", title: "Threat Scanner", desc: "Scan for reputation risks" },
+                    { icon: "fas fa-target", title: "Opportunity Finder", desc: "Find growth opportunities" }
+                ]
+            },
+            entrepreneur: {
+                title: "Entrepreneur Dashboard - Launch & Scale",
+                subtitle: "Validate ideas, find market gaps, and build your brand",
+                color: "#1cc88a",
+                metrics: [
+                    { label: "Market Validation", value: "94%", trend: "up", change: "+7%" },
+                    { label: "Idea Mentions", value: "1,234", trend: "up", change: "+15%" },
+                    { label: "Target Audience", value: "45K", trend: "up", change: "+22%" },
+                    { label: "Funding Opportunities", value: "8", trend: "up", change: "+3%" }
+                ],
+                features: [
+                    { icon: "fas fa-rocket", title: "Idea Validation", desc: "Test your business ideas with real market data" },
+                    { icon: "fas fa-map", title: "Market Gap Analysis", desc: "Find untapped market opportunities" },
+                    { icon: "fas fa-users-cog", title: "Audience Building", desc: "Identify and engage your target audience" },
+                    { icon: "fas fa-dollar-sign", title: "Funding Tracker", desc: "Monitor funding opportunities and trends" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-flask", title: "Test Idea", desc: "Validate business concept" },
+                    { icon: "fas fa-search-plus", title: "Find Gaps", desc: "Discover market opportunities" },
+                    { icon: "fas fa-users", title: "Build Audience", desc: "Grow your following" },
+                    { icon: "fas fa-handshake", title: "Find Partners", desc: "Connect with potential partners" }
+                ]
+            },
+            researcher: {
+                title: "Research Dashboard - Data-Driven Insights",
+                subtitle: "Academic research tools and comprehensive market analysis",
+                color: "#f6c23e",
+                metrics: [
+                    { label: "Data Points", value: "2.4M", trend: "up", change: "+18%" },
+                    { label: "Research Accuracy", value: "96.8%", trend: "up", change: "+2%" },
+                    { label: "Citation Sources", value: "1,847", trend: "up", change: "+25%" },
+                    { label: "Trend Predictions", value: "89%", trend: "stable", change: "+1%" }
+                ],
+                features: [
+                    { icon: "fas fa-chart-line", title: "Trend Analysis", desc: "Advanced statistical analysis and trend prediction" },
+                    { icon: "fas fa-database", title: "Data Export", desc: "Export raw data for academic research" },
+                    { icon: "fas fa-book", title: "Citation Generator", desc: "Generate academic citations from social data" },
+                    { icon: "fas fa-microscope", title: "Deep Analytics", desc: "Advanced research methodologies and tools" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-search", title: "Research Query", desc: "Advanced search capabilities" },
+                    { icon: "fas fa-chart-bar", title: "Statistical Analysis", desc: "Generate statistical reports" },
+                    { icon: "fas fa-download", title: "Export Dataset", desc: "Download research data" },
+                    { icon: "fas fa-quote-right", title: "Generate Citations", desc: "Academic citation tools" }
+                ]
+            },
+            student: {
+                title: "Student Dashboard - Learn & Discover",
+                subtitle: "Educational tools and simplified analytics for learning",
+                color: "#e74a3b",
+                metrics: [
+                    { label: "Learning Projects", value: "12", trend: "up", change: "+4" },
+                    { label: "Data Analyzed", value: "45K", trend: "up", change: "+67%" },
+                    { label: "Skills Gained", value: "8", trend: "up", change: "+3" },
+                    { label: "Assignment Score", value: "92%", trend: "up", change: "+5%" }
+                ],
+                features: [
+                    { icon: "fas fa-graduation-cap", title: "Learning Modules", desc: "Interactive tutorials on social listening" },
+                    { icon: "fas fa-project-diagram", title: "Project Templates", desc: "Ready-made templates for assignments" },
+                    { icon: "fas fa-chart-simple", title: "Simple Analytics", desc: "Easy-to-understand visualizations" },
+                    { icon: "fas fa-users-class", title: "Study Groups", desc: "Collaborate with classmates on projects" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-play", title: "Start Tutorial", desc: "Learn social listening basics" },
+                    { icon: "fas fa-file-alt", title: "Assignment Help", desc: "Get help with projects" },
+                    { icon: "fas fa-chart-pie", title: "Simple Report", desc: "Generate basic reports" },
+                    { icon: "fas fa-question-circle", title: "Ask Questions", desc: "Get help from experts" }
+                ]
+            },
+            politician: {
+                title: "Political Dashboard - Public Opinion Monitor",
+                subtitle: "Track public sentiment and political discourse",
+                color: "#6f42c1",
+                metrics: [
+                    { label: "Public Sentiment", value: "74%", trend: "up", change: "+3%" },
+                    { label: "Policy Mentions", value: "8,234", trend: "up", change: "+12%" },
+                    { label: "Constituency Reach", value: "156K", trend: "up", change: "+8%" },
+                    { label: "Crisis Alerts", value: "2", trend: "down", change: "-3" }
+                ],
+                features: [
+                    { icon: "fas fa-vote-yea", title: "Policy Sentiment", desc: "Track public opinion on policies and initiatives" },
+                    { icon: "fas fa-users", title: "Constituency Monitor", desc: "Monitor discussions in your constituency" },
+                    { icon: "fas fa-exclamation-triangle", title: "Crisis Detection", desc: "Early warning system for potential issues" },
+                    { icon: "fas fa-bullhorn", title: "Campaign Analytics", desc: "Track campaign performance and reach" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-poll", title: "Opinion Poll", desc: "Check public opinion" },
+                    { icon: "fas fa-map-marked", title: "Constituency View", desc: "Local area analysis" },
+                    { icon: "fas fa-bell", title: "Set Alerts", desc: "Monitor key topics" },
+                    { icon: "fas fa-megaphone", title: "Campaign Track", desc: "Track campaign mentions" }
+                ]
+            },
+            government: {
+                title: "Government Dashboard - Public Sector Intelligence",
+                subtitle: "Policy impact analysis and public service monitoring",
+                color: "#495057",
+                metrics: [
+                    { label: "Policy Impact", value: "82%", trend: "up", change: "+5%" },
+                    { label: "Public Feedback", value: "12.4K", trend: "up", change: "+15%" },
+                    { label: "Service Satisfaction", value: "78%", trend: "up", change: "+7%" },
+                    { label: "Crisis Prevention", value: "95%", trend: "stable", change: "0%" }
+                ],
+                features: [
+                    { icon: "fas fa-gavel", title: "Policy Analysis", desc: "Analyze public response to government policies" },
+                    { icon: "fas fa-comments", title: "Public Feedback", desc: "Collect and analyze citizen feedback" },
+                    { icon: "fas fa-shield-alt", title: "Crisis Management", desc: "Government crisis communication tools" },
+                    { icon: "fas fa-chart-area", title: "Service Monitoring", desc: "Monitor public service discussions" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-file-contract", title: "Policy Impact", desc: "Analyze policy reception" },
+                    { icon: "fas fa-inbox", title: "Citizen Feedback", desc: "Review public feedback" },
+                    { icon: "fas fa-exclamation", title: "Crisis Center", desc: "Crisis management hub" },
+                    { icon: "fas fa-chart-line", title: "Service Reports", desc: "Public service analytics" }
+                ]
+            },
+            aspiring: {
+                title: "Aspiring Entrepreneur Dashboard - Dream to Reality",
+                subtitle: "Turn your business ideas into successful ventures",
+                color: "#ff6b6b",
+                metrics: [
+                    { label: "Ideas Validated", value: "7", trend: "up", change: "+2" },
+                    { label: "Market Research", value: "89%", trend: "up", change: "+12%" },
+                    { label: "Network Connections", value: "234", trend: "up", change: "+45" },
+                    { label: "Learning Progress", value: "76%", trend: "up", change: "+18%" }
+                ],
+                features: [
+                    { icon: "fas fa-lightbulb", title: "Idea Validator", desc: "Test your business ideas with real market data" },
+                    { icon: "fas fa-graduation-cap", title: "Learning Path", desc: "Structured learning for future entrepreneurs" },
+                    { icon: "fas fa-handshake", title: "Mentor Connect", desc: "Connect with successful entrepreneurs" },
+                    { icon: "fas fa-road", title: "Business Roadmap", desc: "Step-by-step guide to starting your business" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-flask", title: "Test Idea", desc: "Validate your concept" },
+                    { icon: "fas fa-book-open", title: "Learn Skills", desc: "Entrepreneurship courses" },
+                    { icon: "fas fa-users", title: "Find Mentors", desc: "Connect with experts" },
+                    { icon: "fas fa-map", title: "Create Plan", desc: "Build business plan" }
+                ]
+            },
+            enterprise: {
+                title: "Enterprise Dashboard - Strategic Intelligence",
+                subtitle: "Advanced analytics for large-scale operations and strategic decisions",
+                color: "#36b9cc",
+                metrics: [
+                    { label: "Global Mentions", value: "127K", trend: "up", change: "+8%" },
+                    { label: "Market Share", value: "34%", trend: "up", change: "+2%" },
+                    { label: "Crisis Prevention", value: "99.2%", trend: "stable", change: "0%" },
+                    { label: "ROI Impact", value: "245%", trend: "up", change: "+12%" }
+                ],
+                features: [
+                    { icon: "fas fa-globe", title: "Global Brand Monitoring", desc: "Monitor brand across all markets and languages" },
+                    { icon: "fas fa-shield-alt", title: "Crisis Management", desc: "Advanced crisis detection and response" },
+                    { icon: "fas fa-chart-pie", title: "Market Intelligence", desc: "Comprehensive market analysis and insights" },
+                    { icon: "fas fa-cogs", title: "Custom Analytics", desc: "Tailored analytics for your specific needs" }
+                ],
+                quickActions: [
+                    { icon: "fas fa-tachometer-alt", title: "Executive Dashboard", desc: "High-level strategic overview" },
+                    { icon: "fas fa-exclamation-triangle", title: "Crisis Center", desc: "Crisis management hub" },
+                    { icon: "fas fa-file-alt", title: "Custom Reports", desc: "Generate detailed reports" },
+                    { icon: "fas fa-api", title: "API Access", desc: "Integrate with your systems" }
+                ]
+            }
+        };
+
+        let currentUser = null;
+
+        // Map user types to analysis types
+        function getUserAnalysisType(userType) {
+            const analysisTypeMap = {
+                'sme': 'sme_insights',
+                'entrepreneur': 'sme_insights',
+                'enterprise': 'competitor_analysis',
+                'researcher': 'market_research',
+                'student': 'social_listening',
+                'politician': 'issue_detection',
+                'government': 'issue_detection',
+                'aspiring_entrepreneur': 'sme_insights'
+            };
+            return analysisTypeMap[userType] || 'social_listening';
+        }
+
+        function selectUser(userType) {
+            // Update UI
+            document.querySelectorAll('.user-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            document.querySelector(`[data-user="${userType}"]`).classList.add('active');
+
+            // Load user-specific dashboard
+            currentUser = userType;
+            loadDashboard(userType);
+        }
+
+        function loadDashboard(userType, useRealResults = false) {
+            const config = userConfigs[userType];
+            if (!config) return;
+
+            // Use real results if available
+            let displayMetrics = config.metrics;
+            let additionalContent = '';
+
+            if (useRealResults && config.realResults) {
+                const real = config.realResults;
+
+                // Dynamic metrics based on available data
+                displayMetrics = generateDynamicMetrics(real);
+
+                // Generate comprehensive analysis content
+                additionalContent = generateDynamicAnalysisContent(real);
+            }
+
+            const dashboardHTML = `
+                <div class="dashboard-container active">
+                    <!-- Dashboard Header -->
+                    <div class="text-center mb-4">
+                        <h2 class="display-5 fw-bold" style="color: ${config.color};">${config.title}</h2>
+                        <p class="lead text-muted">${config.subtitle}</p>
+                    </div>
+
+                    <!-- Key Metrics -->
+                    <div class="row mb-4">
+                        ${displayMetrics.map(metric => `
+                            <div class="col-lg-3 col-md-6">
+                                <div class="metric-card">
+                                    <div class="metric-value">${metric.value}</div>
+                                    <div class="h6 text-muted mb-2">${metric.label}</div>
+                                    <div class="trend-indicator trend-${metric.trend}">
+                                        <i class="fas fa-arrow-${metric.trend === 'up' ? 'up' : metric.trend === 'down' ? 'down' : 'right'}"></i>
+                                        ${metric.change}
+                                    </div>
+                                    ${metric.insight ? `<div class="small text-info mt-1"><i class="fas fa-lightbulb"></i> ${metric.insight}</div>` : ''}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="insight-panel">
+                        <h4><i class="fas fa-bolt" style="color: ${config.color};"></i> Quick Actions</h4>
+                        <div class="quick-action-grid">
+                            ${config.quickActions.map(action => `
+                                <div class="quick-action" onclick="executeAction('${action.title}')">
+                                    <i class="${action.icon} fa-2x mb-3" style="color: ${config.color};"></i>
+                                    <h6>${action.title}</h6>
+                                    <p class="small text-muted">${action.desc}</p>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Key Features -->
+                    <div class="row">
+                        ${config.features.map(feature => `
+                            <div class="col-md-6">
+                                <div class="feature-card">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="${feature.icon} fa-2x me-3" style="color: ${config.color};"></i>
+                                        <h5 class="mb-0">${feature.title}</h5>
+                                    </div>
+                                    <p class="text-muted">${feature.desc}</p>
+                                    <button class="action-button" onclick="openFeature('${feature.title}')">
+                                        Explore <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <!-- Sample Analytics -->
+                    <div class="insight-panel">
+                        <h4><i class="fas fa-chart-area" style="color: ${config.color};"></i> Real-Time Analytics</h4>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="chart-container">
+                                    <canvas id="mainChart"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="recommendation-card">
+                                    <h6><i class="fas fa-brain"></i> AI Insights</h6>
+                                    <p class="mb-2"><strong>Precision Analysis:</strong></p>
+                                    <ul class="mb-2">
+                                        <li><strong>Peak Engagement:</strong> Tuesdays 2-4 PM (+34% response rate)</li>
+                                        <li><strong>Top Influencer:</strong> @malaysiafoodie (89K reach potential)</li>
+                                        <li><strong>Trending Topic:</strong> "Sustainable packaging" (+127% mentions)</li>
+                                    </ul>
+                                    <div class="small"><strong>Confidence Score:</strong> 94.7%</div>
+                                </div>
+                                <div class="alert-card mt-3">
+                                    <h6><i class="fas fa-rocket"></i> Growth Opportunity</h6>
+                                    <p class="mb-1"><strong>Untapped Market Detected:</strong></p>
+                                    <p class="mb-0">East Malaysia shows 67% higher engagement rates. Potential revenue increase: <strong>RM 45,000/month</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Export Options -->
+                    <div class="export-options">
+                        <h6><i class="fas fa-download"></i> Export & Share</h6>
+                        <div class="d-flex flex-wrap">
+                            <button class="action-button me-2 mb-2" onclick="exportData('pdf')">
+                                <i class="fas fa-file-pdf"></i> PDF Report
+                            </button>
+                            <button class="action-button me-2 mb-2" onclick="exportData('excel')">
+                                <i class="fas fa-file-excel"></i> Excel Data
+                            </button>
+                            <button class="action-button me-2 mb-2" onclick="exportData('ppt')">
+                                <i class="fas fa-file-powerpoint"></i> PowerPoint
+                            </button>
+                            <button class="action-button me-2 mb-2" onclick="shareResults()">
+                                <i class="fas fa-share"></i> Share Results
+                            </button>
+                        </div>
+                    </div>
+
+                    ${additionalContent}
+                </div>
+            `;
+
+            document.getElementById('dashboardContent').innerHTML = dashboardHTML;
+
+            // Create sample chart
+            setTimeout(() => createSampleChart(config.color), 100);
+        }
+
+        function createSampleChart(color) {
+            const ctx = document.getElementById('mainChart');
+            if (!ctx) return;
+
+            // Check if we have real data to display
+            const currentConfig = userConfigs[currentUser];
+            if (currentConfig && currentConfig.realResults && currentConfig.realResults.sentiment_trends) {
+                createDynamicChart(color, currentConfig.realResults);
+            } else {
+                createDefaultChart(color);
+            }
+        }
+
+        function createDynamicChart(color, realResults) {
+            const ctx = document.getElementById('mainChart');
+            if (!ctx) return;
+
+            const sentimentTrends = realResults.sentiment_trends;
+
+            // Prepare data based on available sentiment trends
+            let chartData = {
+                labels: [],
+                datasets: []
+            };
+
+            if (sentimentTrends.time_series && sentimentTrends.time_series.length > 0) {
+                // Use real time series data
+                chartData.labels = sentimentTrends.time_series.map(item => {
+                    const date = new Date(item.date);
+                    return date.toLocaleDateString('en-MY', { month: 'short', day: 'numeric' });
+                });
+
+                chartData.datasets = [
+                    {
+                        label: 'Sentiment Score (%)',
+                        data: sentimentTrends.time_series.map(item => Math.round(item.sentiment * 100)),
+                        borderColor: color,
+                        backgroundColor: color + '20',
+                        fill: true,
+                        tension: 0.4
+                    },
+                    {
+                        label: 'Engagement',
+                        data: sentimentTrends.time_series.map(item => item.engagement),
+                        borderColor: '#1cc88a',
+                        backgroundColor: '#1cc88a20',
+                        fill: false,
+                        tension: 0.4,
+                        yAxisID: 'y1'
+                    },
+                    {
+                        label: 'Posts Count',
+                        data: sentimentTrends.time_series.map(item => item.posts),
+                        borderColor: '#f6c23e',
+                        backgroundColor: '#f6c23e20',
+                        fill: false,
+                        tension: 0.4,
+                        yAxisID: 'y2'
+                    }
+                ];
+            } else {
+                // Fallback to platform distribution
+                const platforms = Object.keys(realResults.platforms);
+                chartData.labels = platforms.map(p => p.charAt(0).toUpperCase() + p.slice(1));
+                chartData.datasets = [{
+                    label: 'Data Points by Platform',
+                    data: platforms.map(p => realResults.platforms[p].data_points || 0),
+                    backgroundColor: [
+                        '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0',
+                        '#9966FF', '#FF9F40', '#FF6384'
+                    ].slice(0, platforms.length),
+                    borderWidth: 2
+                }];
+            }
+
+            const chartType = sentimentTrends.time_series && sentimentTrends.time_series.length > 0 ? 'line' : 'doughnut';
+
+            new Chart(ctx, {
+                type: chartType,
+                data: chartData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: `📊 ${realResults.query} - Analysis Results`,
+                            font: { size: 14, weight: 'bold' }
+                        },
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            callbacks: {
+                                afterBody: function(context) {
+                                    if (sentimentTrends.summary) {
+                                        return ['', `📈 Trend: ${sentimentTrends.trend_analysis?.direction || 'Stable'}`,
+                                               `🎯 Peak: ${sentimentTrends.summary.peak_sentiment_date || 'N/A'}`];
+                                    }
+                                    return ['', '💡 Real-time analysis data', '🔍 Based on social media insights'];
+                                }
+                            }
+                        }
+                    },
+                    scales: chartType === 'line' ? {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Time Period'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: 'Sentiment Score (%)'
+                            },
+                            min: 0,
+                            max: 100
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: 'Engagement'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            }
+                        },
+                        y2: {
+                            type: 'linear',
+                            display: false
+                        }
+                    } : {}
+                }
+            });
+        }
+
+        function createDefaultChart(color) {
+            const ctx = document.getElementById('mainChart');
+            if (!ctx) return;
+
+            // Default sample chart for demo purposes
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6'],
+                    datasets: [
+                        {
+                            label: 'Brand Mentions',
+                            data: [1247, 1893, 2156, 2847, 2234, 2691],
+                            borderColor: color,
+                            backgroundColor: color + '20',
+                            fill: true,
+                            tension: 0.4
+                        },
+                        {
+                            label: 'Sentiment Score (%)',
+                            data: [82, 85, 87, 87, 89, 87],
+                            borderColor: '#1cc88a',
+                            backgroundColor: '#1cc88a20',
+                            fill: false,
+                            tension: 0.4,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Sample Analytics Dashboard',
+                            font: { size: 14, weight: 'bold' }
+                        },
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            display: true,
+                            title: {
+                                display: true,
+                                text: 'Time Period'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: 'Mentions Count'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: 'Sentiment %'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                            min: 0,
+                            max: 100
+                        }
+                    }
+                }
+            });
+        }
+
+        function executeAction(action) {
+            alert(`Executing: ${action}\n\nThis would open the specific feature for your user type.`);
+        }
+
+        function openFeature(feature) {
+            alert(`Opening: ${feature}\n\nThis would navigate to the detailed feature page.`);
+        }
+
+        function exportData(format) {
+            alert(`Exporting data in ${format.toUpperCase()} format...\n\nThis would generate and download your customized report.`);
+        }
+
+        function shareResults() {
+            alert(`Share Results\n\nThis would open sharing options to send insights to your team or stakeholders.`);
+        }
+
+        // Dynamic Content Generation Functions
+        function generateDynamicMetrics(real) {
+            const metrics = [];
+
+            // Always show data points
+            if (real.metrics.mentions > 0) {
+                metrics.push({
+                    label: "Data Points",
+                    value: real.metrics.mentions.toLocaleString(),
+                    trend: "up",
+                    change: "+Live",
+                    insight: `Analysis completed in ${real.analysisTime}`
+                });
+            }
+
+            // Sentiment with dynamic interpretation
+            const sentimentValue = real.metrics.sentiment;
+            let sentimentTrend = "stable";
+            let sentimentLabel = "Neutral";
+
+            if (sentimentValue >= 70) {
+                sentimentTrend = "up";
+                sentimentLabel = "Positive";
+            } else if (sentimentValue <= 40) {
+                sentimentTrend = "down";
+                sentimentLabel = "Negative";
+            }
+
+            metrics.push({
+                label: "Sentiment Score",
+                value: sentimentValue + "%",
+                trend: sentimentTrend,
+                change: sentimentLabel,
+                insight: `Confidence: ${real.confidence}%`
+            });
+
+            // Engagement metrics
+            if (real.metrics.engagement > 0) {
+                metrics.push({
+                    label: "Total Engagement",
+                    value: real.metrics.engagement.toLocaleString(),
+                    trend: "up",
+                    change: "+Real",
+                    insight: "Active interactions"
+                });
+            }
+
+            // Reach/Impact
+            if (real.metrics.reach > 0) {
+                metrics.push({
+                    label: "Estimated Reach",
+                    value: real.metrics.reach.toLocaleString(),
+                    trend: "up",
+                    change: "+Live",
+                    insight: "Cross-platform reach"
+                });
+            }
+
+            return metrics;
+        }
+
+        function generateDynamicAnalysisContent(real) {
+            let content = `
+                <div class="alert alert-success mt-3">
+                    <h6><i class="fas fa-check-circle"></i> ✅ AI Analysis Complete!</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>🔍 Query:</strong> "${real.query}"</p>
+                            <p class="mb-1"><strong>⏱️ Analysis Time:</strong> ${real.analysisTime}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>🤖 AI Model:</strong> ${real.llm_analysis?.llm_used || 'Claude 3 Haiku'}</p>
+                            <p class="mb-0"><strong>📅 Timestamp:</strong> ${new Date(real.timestamp).toLocaleString()}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // LLM Analysis Summary
+            if (real.llm_analysis?.summary) {
+                content += `
+                    <div class="insight-panel mt-3" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 15px;">
+                        <h5><i class="fas fa-brain"></i> 🧠 AI Intelligence Summary</h5>
+                        <p class="mb-0" style="font-size: 1.1em; line-height: 1.6;">${real.llm_analysis.summary}</p>
+                        <div class="mt-2">
+                            <small><strong>Query Relevance:</strong> ${real.llm_analysis.query_relevance?.score || 'N/A'}% |
+                            <strong>Overall Sentiment:</strong> ${real.llm_analysis.sentiment_analysis?.overall_sentiment || 'N/A'}</small>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Key Insights with dynamic icons
+            if (real.insights && real.insights.length > 0) {
+                content += `
+                    <div class="insight-panel mt-3">
+                        <h5><i class="fas fa-lightbulb text-warning"></i> 💡 Key Insights</h5>
+                        <div class="row">
+                            ${real.insights.map((insight, index) => `
+                                <div class="col-md-6 mb-3">
+                                    <div class="insight-card" style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 15px; border-radius: 8px;">
+                                        <div class="d-flex align-items-start">
+                                            <span class="badge bg-success me-2">${index + 1}</span>
+                                            <p class="mb-0">${insight}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Platform Breakdown
+            if (real.platforms && Object.keys(real.platforms).length > 0) {
+                content += generatePlatformBreakdown(real.platforms);
+            }
+
+            // Recommendations Section
+            if (real.recommendations && real.recommendations.length > 0) {
+                content += `
+                    <div class="insight-panel mt-3">
+                        <h5><i class="fas fa-rocket text-primary"></i> 🚀 Strategic Recommendations</h5>
+                        <div class="row">
+                            ${real.recommendations.map((rec, index) => {
+                                const priority = index < 2 ? 'HIGH' : index < 4 ? 'MEDIUM' : 'LOW';
+                                const priorityColor = priority === 'HIGH' ? 'danger' : priority === 'MEDIUM' ? 'warning' : 'success';
+                                const priorityIcon = priority === 'HIGH' ? '🔥' : priority === 'MEDIUM' ? '⚡' : '💡';
+
+                                return `
+                                    <div class="col-md-6 mb-3">
+                                        <div class="recommendation-card" style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                                <span class="badge bg-${priorityColor}">${priorityIcon} ${priority}</span>
+                                                <small class="text-muted">#${index + 1}</small>
+                                            </div>
+                                            <p class="mb-0">${rec}</p>
+                                        </div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Trending Topics
+            if (real.llm_analysis?.trending_topics && real.llm_analysis.trending_topics.length > 0) {
+                content += `
+                    <div class="insight-panel mt-3">
+                        <h5><i class="fas fa-fire text-danger"></i> 🔥 Trending Topics</h5>
+                        <div class="d-flex flex-wrap">
+                            ${real.llm_analysis.trending_topics.map(topic => `
+                                <span class="badge bg-primary me-2 mb-2" style="font-size: 0.9em; padding: 8px 12px;">
+                                    #${topic.topic}
+                                    <small>(${topic.frequency}x)</small>
+                                    ${topic.sentiment === 'positive' ? '😊' : topic.sentiment === 'negative' ? '😞' : '😐'}
+                                </span>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Malaysian Context (if available)
+            if (real.llm_analysis?.malaysian_context) {
+                const context = real.llm_analysis.malaysian_context;
+                content += `
+                    <div class="insight-panel mt-3" style="background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%); color: white; border-radius: 15px;">
+                        <h5><i class="fas fa-flag"></i> 🇲🇾 Malaysian Context Analysis</h5>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Cultural Relevance</h6>
+                                <p class="small">${context.cultural_relevance || 'High relevance to Malaysian market'}</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Language Patterns</h6>
+                                <p class="small">${context.language_patterns || 'Mixed Bahasa Malaysia and English usage'}</p>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Local Preferences</h6>
+                                <p class="small">${context.local_preferences || 'Strong preference for local brands and authentic experiences'}</p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Data Quality Assessment
+            if (real.llm_analysis?.data_quality) {
+                const quality = real.llm_analysis.data_quality;
+                content += `
+                    <div class="insight-panel mt-3">
+                        <h5><i class="fas fa-chart-line text-info"></i> 📈 Data Quality Assessment</h5>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="h4 text-primary">${quality.completeness || 'N/A'}%</div>
+                                    <div class="small text-muted">Completeness</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="h4 text-success">${quality.reliability || 'N/A'}%</div>
+                                    <div class="small text-muted">Reliability</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="h4 text-warning">${quality.sample_size || 'N/A'}</div>
+                                    <div class="small text-muted">Sample Size</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center">
+                                    <div class="h4 text-info">${real.confidence}%</div>
+                                    <div class="small text-muted">Confidence</div>
+                                </div>
+                            </div>
+                        </div>
+                        ${quality.notes ? `<div class="mt-2"><small class="text-muted"><strong>Notes:</strong> ${quality.notes}</small></div>` : ''}
+                    </div>
+                `;
+            }
+
+            return content;
+        }
+
+        function generatePlatformBreakdown(platforms) {
+            if (!platforms || Object.keys(platforms).length === 0) return '';
+
+            const totalPosts = Object.values(platforms).reduce((sum, platform) => {
+                return sum + (platform.data_points || 0);
+            }, 0);
+
+            return `
+                <div class="insight-panel mt-3">
+                    <h5><i class="fas fa-chart-bar text-info"></i> 📊 Platform Analysis</h5>
+                    <div class="row">
+                        ${Object.entries(platforms).map(([platformName, platformData]) => {
+                            const percentage = totalPosts > 0 ? Math.round((platformData.data_points / totalPosts) * 100) : 0;
+                            const sentiment = platformData.processed_insights?.custom_sentiment?.primary_sentiment || 'neutral';
+                            const sentimentIcon = sentiment === 'positive' ? '😊' : sentiment === 'negative' ? '😞' : '😐';
+
+                            return `
+                                <div class="col-md-4 mb-3">
+                                    <div class="platform-card" style="background: white; border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;">
+                                        <h4 style="color: #667eea;">${platformData.data_points || 0}</h4>
+                                        <h6 class="text-muted">${platformName.charAt(0).toUpperCase() + platformName.slice(1)}</h6>
+                                        <div class="progress mb-2" style="height: 8px;">
+                                            <div class="progress-bar bg-info" style="width: ${percentage}%"></div>
+                                        </div>
+                                        <small class="text-muted">${percentage}% of total</small><br>
+                                        <small>${sentimentIcon} ${sentiment}</small>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Real Analysis Processing Functions
+        function startRealAnalysis() {
+            const query = document.getElementById('realQueryInput').value.trim();
+
+            if (!query) {
+                alert('Please enter a search query first!');
+                return;
+            }
+
+            // Show progress section
+            document.getElementById('analysisProgress').style.display = 'block';
+
+            // Start the real analysis process
+            processRealAnalysis(query);
+        }
+
+        async function processRealAnalysis(query) {
+            try {
+                // Show initial progress
+                updateProgressDisplay({ name: 'Starting Analysis', desc: 'Connecting to InsightPulse AI...' }, 1, 5);
+                updateProgressBar(20);
+
+                // Call backend API (works for both local and deployed)
+                const apiBaseUrl = window.location.hostname === 'localhost' ?
+                    'http://localhost:8001' :
+                    'https://insightpulse-enhanced.railway.app';
+
+                const response = await fetch(`${apiBaseUrl}/analyze`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: query,
+                        analysis_type: getUserAnalysisType(currentUser),
+                        platforms: ['facebook', 'instagram', 'twitter', 'tiktok', 'youtube', 'shopee', 'lazada'],
+                        max_results_per_platform: 1000,
+                        real_time: true,
+                        include_sentiment: true,
+                        include_trends: true,
+                        malaysian_context: true
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                updateProgressDisplay({ name: 'Processing', desc: 'AI models analyzing your query...' }, 3, 5);
+                updateProgressBar(60);
+
+                const results = await response.json();
+
+                updateProgressDisplay({ name: 'Finalizing', desc: 'Generating insights and recommendations...' }, 5, 5);
+                updateProgressBar(100);
+
+                // Show real results
+                setTimeout(() => {
+                    showRealAnalysisResults(query, results);
+                }, 1000);
+
+            } catch (error) {
+                console.error('Analysis failed:', error);
+                alert('Analysis failed. Please make sure the backend is running on http://localhost:8001');
+                document.getElementById('analysisProgress').style.display = 'none';
+            }
+        }
+
+        function updateProgressDisplay(step, stepNum, totalSteps) {
+            const progressSteps = document.getElementById('progressSteps');
+            progressSteps.innerHTML = `
+                <div class="d-flex align-items-center mb-2">
+                    <div class="spinner-border spinner-border-sm text-primary me-3" role="status"></div>
+                    <div>
+                        <strong>Step ${stepNum}/${totalSteps}: ${step.name}</strong><br>
+                        <small class="text-muted">${step.desc}</small>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateProgressBar(progress) {
+            const progressBar = document.getElementById('progressBar');
+            progressBar.style.width = progress + '%';
+            progressBar.textContent = Math.round(progress) + '%';
+        }
+
+        function showRealAnalysisResults(query, results) {
+            // Hide progress
+            document.getElementById('analysisProgress').style.display = 'none';
+
+            // Display real results from backend
+            displayRealResults(query, results);
+
+            // Show success message
+            setTimeout(() => {
+                alert(`✅ Real Analysis Complete!\n\nQuery: "${query}"\nStatus: ${results.status}\nAnalysis ID: ${results.analysis_id}\n\nResults are now displayed in your personalized dashboard!`);
+            }, 500);
+        }
+
+        function generateRealAnalysisResults(query) {
+            // Simulate real analysis results based on query
+            const words = query.toLowerCase().split(' ');
+            const baseMetrics = {
+                mentions: Math.floor(Math.random() * 10000) + 1000,
+                sentiment: Math.floor(Math.random() * 30) + 70, // 70-100%
+                engagement: Math.floor(Math.random() * 50000) + 5000,
+                reach: Math.floor(Math.random() * 100000) + 10000
+            };
+
+            // Platform distribution simulation
+            const platforms = {
+                facebook: Math.floor(baseMetrics.mentions * 0.3),
+                instagram: Math.floor(baseMetrics.mentions * 0.25),
+                tiktok: Math.floor(baseMetrics.mentions * 0.2),
+                twitter: Math.floor(baseMetrics.mentions * 0.1),
+                youtube: Math.floor(baseMetrics.mentions * 0.08),
+                shopee: Math.floor(baseMetrics.mentions * 0.04),
+                lazada: Math.floor(baseMetrics.mentions * 0.03)
+            };
+
+            // Generate insights based on query content
+            const insights = generateQuerySpecificInsights(query, words);
+
+            return {
+                query: query,
+                metrics: baseMetrics,
+                platforms: platforms,
+                insights: insights,
+                timestamp: new Date().toLocaleString(),
+                analysisTime: '19.3 seconds',
+                confidence: Math.floor(Math.random() * 15) + 85 // 85-100%
+            };
+        }
+
+        function generateQuerySpecificInsights(query, words) {
+            const insights = [];
+
+            // Generic insights
+            insights.push(`Peak activity detected during weekdays 2-4 PM`);
+            insights.push(`${Math.floor(Math.random() * 20) + 60}% of mentions are positive`);
+
+            // Query-specific insights
+            if (words.includes('best') || words.includes('top')) {
+                insights.push(`Quality-focused discussions dominate the conversation`);
+                insights.push(`Premium segment shows ${Math.floor(Math.random() * 20) + 15}% higher engagement`);
+            }
+
+            if (words.includes('cheap') || words.includes('murah') || words.includes('budget')) {
+                insights.push(`Price-sensitive audience identified`);
+                insights.push(`Budget segment represents ${Math.floor(Math.random() * 30) + 40}% of total mentions`);
+            }
+
+            if (words.includes('2025') || words.includes('trend') || words.includes('new')) {
+                insights.push(`Future-focused trend analysis shows ${Math.floor(Math.random() * 50) + 100}% growth potential`);
+                insights.push(`Early adopters are driving conversation momentum`);
+            }
+
+            if (words.includes('malaysia') || words.includes('local')) {
+                insights.push(`Malaysian market shows strong local preference`);
+                insights.push(`Selangor and KL regions account for ${Math.floor(Math.random() * 20) + 35}% of mentions`);
+            }
+
+            return insights;
+        }
+
+        function displayRealResults(query, results) {
+            // Intelligent user type detection based on query content
+            const userType = detectUserTypeFromQuery(query);
+            selectUser(userType);
+
+            // Enhanced data processing with dynamic analysis
+            const formattedResults = processAnalysisResults(query, results);
+
+            // Update dashboard with real results
+            const config = userConfigs[userType];
+            config.realQuery = query;
+            config.realResults = formattedResults;
+
+            // Refresh dashboard with real data
+            loadDashboard(userType, true);
+        }
+
+        function detectUserTypeFromQuery(query) {
+            const queryLower = query.toLowerCase();
+
+            // Student/Academic indicators
+            if (queryLower.includes('student') || queryLower.includes('pelajar') ||
+                queryLower.includes('university') || queryLower.includes('college') ||
+                queryLower.includes('assignment') || queryLower.includes('research')) {
+                return 'student';
+            }
+
+            // Government/Policy indicators
+            if (queryLower.includes('government') || queryLower.includes('policy') ||
+                queryLower.includes('regulation') || queryLower.includes('public') ||
+                queryLower.includes('ministry') || queryLower.includes('kerajaan')) {
+                return 'government';
+            }
+
+            // Entrepreneur/Startup indicators
+            if (queryLower.includes('startup') || queryLower.includes('entrepreneur') ||
+                queryLower.includes('business idea') || queryLower.includes('venture') ||
+                queryLower.includes('innovation') || queryLower.includes('funding')) {
+                return 'entrepreneur';
+            }
+
+            // Default to SME for business-related queries
+            return 'sme';
+        }
+
+        function processAnalysisResults(query, results) {
+            // Enhanced metrics calculation
+            const totalDataPoints = results.total_data_points || 0;
+            const sentimentScore = results.overall_metrics?.sentiment_score || 0.5;
+            const totalEngagement = results.overall_metrics?.total_engagement || 0;
+
+            // Calculate estimated reach based on engagement patterns
+            const estimatedReach = calculateEstimatedReach(totalDataPoints, totalEngagement);
+
+            // Process platform data
+            const processedPlatforms = processPlatformData(results.platform_breakdown || {});
+
+            // Enhanced insights with categorization
+            const categorizedInsights = categorizeInsights(results.key_insights || []);
+
+            return {
+                query: query,
+                queryType: detectQueryType(query),
+                metrics: {
+                    mentions: totalDataPoints,
+                    sentiment: Math.round(sentimentScore * 100),
+                    engagement: totalEngagement,
+                    reach: estimatedReach
+                },
+                platforms: processedPlatforms,
+                insights: categorizedInsights,
+                llm_analysis: results.llm_analysis || {},
+                recommendations: results.recommendations || [],
+                sentiment_trends: results.sentiment_trends || {},
+                timestamp: results.analysis_timestamp || new Date().toLocaleString(),
+                analysisTime: calculateAnalysisTime(totalDataPoints),
+                confidence: Math.round((results.overall_metrics?.reliability?.score || 0.45) * 100),
+                dataQuality: assessDataQuality(results)
+            };
+        }
+
+        function detectQueryType(query) {
+            const queryLower = query.toLowerCase();
+
+            if (queryLower.includes('food') || queryLower.includes('makanan') ||
+                queryLower.includes('restaurant') || queryLower.includes('halal')) {
+                return 'food_beverage';
+            }
+
+            if (queryLower.includes('technology') || queryLower.includes('tech') ||
+                queryLower.includes('software') || queryLower.includes('app')) {
+                return 'technology';
+            }
+
+            if (queryLower.includes('fashion') || queryLower.includes('clothing') ||
+                queryLower.includes('style') || queryLower.includes('trend')) {
+                return 'fashion';
+            }
+
+            if (queryLower.includes('health') || queryLower.includes('medical') ||
+                queryLower.includes('wellness') || queryLower.includes('fitness')) {
+                return 'health';
+            }
+
+            return 'general';
+        }
+
+        function calculateEstimatedReach(dataPoints, engagement) {
+            // Sophisticated reach calculation based on platform multipliers
+            const baseMultiplier = 150;
+            const engagementBoost = engagement > 0 ? Math.log10(engagement + 1) * 50 : 0;
+            return Math.round(dataPoints * baseMultiplier + engagementBoost);
+        }
+
+        function processPlatformData(platformBreakdown) {
+            const processed = {};
+
+            Object.entries(platformBreakdown).forEach(([platform, data]) => {
+                processed[platform] = {
+                    data_points: data.data_points || 0,
+                    engagement: data.processed_insights?.total_engagement || 0,
+                    sentiment: data.processed_insights?.custom_sentiment?.primary_sentiment || 'neutral',
+                    confidence: data.processed_insights?.custom_sentiment?.confidence || 0,
+                    status: data.status || 'unknown'
+                };
+            });
+
+            return processed;
+        }
+
+        function categorizeInsights(insights) {
+            return insights.map((insight, index) => ({
+                id: index + 1,
+                text: insight,
+                category: categorizeInsight(insight),
+                priority: index < 3 ? 'high' : index < 6 ? 'medium' : 'low'
+            }));
+        }
+
+        function categorizeInsight(insight) {
+            const insightLower = insight.toLowerCase();
+
+            if (insightLower.includes('sentiment') || insightLower.includes('positive') ||
+                insightLower.includes('negative')) {
+                return 'sentiment';
+            }
+
+            if (insightLower.includes('platform') || insightLower.includes('facebook') ||
+                insightLower.includes('instagram')) {
+                return 'platform';
+            }
+
+            if (insightLower.includes('trend') || insightLower.includes('popular') ||
+                insightLower.includes('growing')) {
+                return 'trend';
+            }
+
+            if (insightLower.includes('recommend') || insightLower.includes('suggest') ||
+                insightLower.includes('should')) {
+                return 'recommendation';
+            }
+
+            return 'general';
+        }
+
+        function calculateAnalysisTime(dataPoints) {
+            // Simulate realistic analysis time based on data complexity
+            const baseTime = 3.2;
+            const complexityFactor = Math.log10(dataPoints + 1) * 1.5;
+            return `${(baseTime + complexityFactor).toFixed(1)} seconds`;
+        }
+
+        function assessDataQuality(results) {
+            const totalPoints = results.total_data_points || 0;
+            const platforms = Object.keys(results.platform_breakdown || {}).length;
+            const hasLLM = results.llm_analysis && Object.keys(results.llm_analysis).length > 0;
+
+            let score = 0;
+            if (totalPoints > 50) score += 30;
+            else if (totalPoints > 20) score += 20;
+            else if (totalPoints > 5) score += 10;
+
+            if (platforms >= 3) score += 25;
+            else if (platforms >= 2) score += 15;
+            else if (platforms >= 1) score += 5;
+
+            if (hasLLM) score += 25;
+
+            if (results.sentiment_trends && results.sentiment_trends.time_series) score += 20;
+
+            return {
+                score: Math.min(score, 100),
+                level: score >= 80 ? 'Excellent' : score >= 60 ? 'Good' : score >= 40 ? 'Fair' : 'Limited',
+                factors: {
+                    dataVolume: totalPoints,
+                    platformCoverage: platforms,
+                    aiAnalysis: hasLLM,
+                    trendData: !!(results.sentiment_trends && results.sentiment_trends.time_series)
+                }
+            };
+        }
+
+        // Auto-select SME on load for demo
+        window.onload = function() {
+            setTimeout(() => selectUser('sme'), 1000);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+Platform,Type,ID,Text,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement
+Shopee,Q&A,SHOPEE001,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-26,81,17,10,582,0.34,108
+Shopee,Product Description,SHOPEE002,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-01,82,21,5,1170,0.14,108
+Shopee,Q&A,SHOPEE003,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-03,155,35,11,883,0.1,201
+Shopee,Product Description,SHOPEE004,Just tried makanan halal sedap di Kuala Lumpur - amazing quality and value!,Negative,2025-09-11,265,33,39,2833,0.22,337
+Shopee,Product Review,SHOPEE005,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Neutral,2025-09-06,255,42,31,3579,0.44,328
+Shopee,Product Description,SHOPEE006,Just tried makanan halal sedap di Kuala Lumpur - amazing quality and value!,Negative,2025-09-25,111,18,14,1469,0.1,143
+Shopee,Q&A,SHOPEE007,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-01,77,9,10,1133,0.1,96
+Shopee,Product Review,SHOPEE008,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-16,112,13,10,1118,0.25,135
+Shopee,Product Review,SHOPEE009,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-02,191,55,32,1133,0.19,278
+Shopee,Q&A,SHOPEE010,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-18,141,39,25,1336,0.1,205
+Shopee,Product Description,SHOPEE011,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-20,192,41,12,1516,0.1,245
+Shopee,Product Description,SHOPEE012,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Neutral,2025-09-08,201,48,27,1503,0.41,276
+Shopee,Product Review,SHOPEE013,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-11,132,31,24,1398,0.1,187
+Shopee,Product Description,SHOPEE014,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-17,175,42,13,2547,0.3,230
+Shopee,Q&A,SHOPEE015,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Neutral,2025-09-24,315,62,21,1641,0.4,398
+Shopee,Q&A,SHOPEE016,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-25,205,31,30,1331,0.2,266
+Shopee,Product Review,SHOPEE017,Just tried makanan halal sedap di Kuala Lumpur - amazing quality and value!,Negative,2025-09-15,175,27,9,1709,0.38,211
+Shopee,Product Description,SHOPEE018,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-08,237,54,23,2033,0.35,314
+Shopee,Q&A,SHOPEE019,makanan halal sedap di Kuala Lumpur in Malaysia is really good. Worth trying!,Negative,2025-09-05,81,17,6,594,0.1,104
+Shopee,Product Review,SHOPEE020,Great experience with makanan halal sedap di Kuala Lumpur! Highly recommended in Malaysia.,Negative,2025-09-14,273,72,53,4038,0.15,398

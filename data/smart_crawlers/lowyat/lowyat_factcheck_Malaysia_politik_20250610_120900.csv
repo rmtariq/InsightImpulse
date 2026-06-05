@@ -1,0 +1,6 @@
+Platform	Type	ID	Text	Sentiment	Date	likes	shares	comments_count	views	sentiment_score	total_engagement
+Lowyat	Forum Post	lowyat_post_1	Malaysia politik sekarang ni macam mana? Ada yang boleh explain tak?	NEUTRAL	Jun 10 at 12:09 PM	5	2	8	150	0.0234	165
+Lowyat	Forum Reply	lowyat_reply_1	Memang complicated la politik Malaysia ni. Banyak isu yang perlu dibincangkan.	NEUTRAL	Jun 10 at 12:10 PM	3	0	2	75	0.1245	80
+Lowyat	Forum Post	lowyat_post_2	Kerajaan sekarang buat apa untuk rakyat? Nak tahu pendapat korang.	NEGATIVE	Jun 10 at 12:11 PM	12	5	15	300	-0.2156	332
+Lowyat	Forum Reply	lowyat_reply_2	Kena tengok dari berbagai sudut la bro. Politik ni memang complex.	NEUTRAL	Jun 10 at 12:12 PM	7	1	4	120	0.0567	132
+Lowyat	Forum Post	lowyat_post_3	Malaysia perlu pemimpin yang betul-betul ikhlas untuk rakyat.	POSITIVE	Jun 10 at 12:13 PM	25	8	20	500	0.3456	553

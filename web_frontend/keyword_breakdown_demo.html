@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse - Keyword Breakdown Engine Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+        }
+
+        .demo-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            margin: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .query-input-section {
+            background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .breakdown-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: none;
+        }
+
+        .breakdown-section.active {
+            display: block;
+            animation: fadeInUp 0.6s ease;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .keyword-category {
+            background: #f8f9fc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 4px solid #4e73df;
+        }
+
+        .keyword-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            margin: 3px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .keyword-tag.two-word {
+            background: linear-gradient(135deg, #1cc88a 0%, #13855c 100%);
+        }
+
+        .keyword-tag.three-word {
+            background: linear-gradient(135deg, #f6c23e 0%, #dda20a 100%);
+        }
+
+        .keyword-tag.full-phrase {
+            background: linear-gradient(135deg, #e74a3b 0%, #c0392b 100%);
+        }
+
+        .keyword-tag.variation {
+            background: linear-gradient(135deg, #36b9cc 0%, #258391 100%);
+        }
+
+        .crawler-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid #e3e6f0;
+            transition: all 0.3s ease;
+        }
+
+        .crawler-section:hover {
+            border-color: #4e73df;
+            transform: translateY(-2px);
+        }
+
+        .crawler-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .facebook-icon { background: #1877f2; }
+        .instagram-icon { background: #E4405F; }
+        .tiktok-icon { background: #000000; }
+        .twitter-icon { background: #1DA1F2; }
+        .youtube-icon { background: #FF0000; }
+        .shopee-icon { background: #EE4D2D; }
+        .lazada-icon { background: #0F146D; }
+
+        .stats-card {
+            background: linear-gradient(135deg, #f8f9fc 0%, #eaecf4 100%);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .stats-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4e73df;
+            margin-bottom: 5px;
+        }
+
+        .processing-animation {
+            display: none;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4e73df;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .priority-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .priority-high { background: #e74a3b; color: white; }
+        .priority-medium { background: #f6c23e; color: white; }
+        .priority-low { background: #1cc88a; color: white; }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <!-- Header -->
+        <div class="text-center mb-4">
+            <h1 class="display-4 fw-bold text-primary">
+                <i class="fas fa-cogs"></i> Universal Keyword Breakdown Engine
+            </h1>
+            <p class="lead text-muted">Advanced Query Processing for ANY Search Topic</p>
+        </div>
+
+        <!-- Query Input Section -->
+        <div class="query-input-section">
+            <h3 class="mb-3"><i class="fas fa-search"></i> Enter Your Search Query</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" id="queryInput" class="form-control form-control-lg"
+                           placeholder="Enter ANY search query (e.g., 'best smartphone 2025', 'healthy food recipes')"
+                           style="border-radius: 25px; border: none; padding: 15px 25px;">
+                </div>
+                <div class="col-md-4">
+                    <button onclick="processQuery()" class="btn btn-light btn-lg w-100" 
+                            style="border-radius: 25px; font-weight: bold;">
+                        <i class="fas fa-magic"></i> Break Down Keywords
+                    </button>
+                </div>
+            </div>
+            <div class="mt-3">
+                <small>Try these examples:</small><br>
+                <button class="btn btn-outline-light btn-sm me-2 mt-1" onclick="setQuery('best smartphone 2025')">
+                    best smartphone 2025
+                </button>
+                <button class="btn btn-outline-light btn-sm me-2 mt-1" onclick="setQuery('healthy food recipes')">
+                    healthy food recipes
+                </button>
+                <button class="btn btn-outline-light btn-sm me-2 mt-1" onclick="setQuery('malaysia travel destinations')">
+                    malaysia travel destinations
+                </button>
+                <button class="btn btn-outline-light btn-sm me-2 mt-1" onclick="setQuery('online business ideas')">
+                    online business ideas
+                </button>
+            </div>
+        </div>
+
+        <!-- Processing Animation -->
+        <div class="processing-animation" id="processingAnimation">
+            <div class="spinner"></div>
+            <h5>🧠 Processing Your Query...</h5>
+            <p class="text-muted">Breaking down into multiple search variations</p>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsSection">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simulated keyword breakdown engine (in real app, this would call backend)
+        class KeywordBreakdownEngine {
+            constructor() {
+                this.stopWords = new Set([
+                    'dan', 'atau', 'untuk', 'di', 'ke', 'dari', 'pada', 'dengan', 'oleh',
+                    'adalah', 'akan', 'telah', 'sudah', 'belum', 'tidak', 'bukan',
+                    'yang', 'ini', 'itu', 'tersebut', 'seperti', 'antara', 'dalam',
+                    'the', 'and', 'or', 'for', 'in', 'to', 'from', 'on', 'with', 'by'
+                ]);
+
+                this.synonyms = {
+                    'popular': ['trending', 'viral', 'famous', 'terkenal', 'hot'],
+                    'cheap': ['murah', 'affordable', 'budget', 'jimat', 'ekonomi'],
+                    'expensive': ['mahal', 'premium', 'luxury', 'mewah', 'eksklusif'],
+                    'best': ['terbaik', 'top', 'excellent', 'premium', 'pilihan'],
+                    'trend': ['trending', 'fashion', 'style', 'fesyen', 'gaya'],
+                    'price': ['harga', 'cost', 'rate', 'value', 'pricing'],
+                    'type': ['jenis', 'kind', 'style', 'category', 'macam'],
+                    'good': ['bagus', 'great', 'excellent', 'quality', 'berkualiti'],
+                    'new': ['baru', 'latest', 'fresh', 'modern', 'terkini']
+                };
+
+                this.crawlerPrefs = {
+                    'facebook': { length: 'medium', hashtags: true, local: true },
+                    'instagram': { length: 'short', hashtags: true, visual: true },
+                    'tiktok': { length: 'short', hashtags: true, viral: true },
+                    'twitter': { length: 'short', hashtags: true, realtime: true },
+                    'youtube': { length: 'long', hashtags: false, tutorial: true },
+                    'shopee': { length: 'medium', hashtags: false, product: true },
+                    'lazada': { length: 'medium', hashtags: false, brand: true }
+                };
+            }
+
+            breakdownQuery(query) {
+                const cleaned = this.cleanQuery(query);
+                const words = this.extractWords(cleaned);
+
+                const singleKeywords = this.generateSingleKeywords(words);
+                const twoWordPhrases = this.generateTwoWordPhrases(words);
+                const threeWordPhrases = this.generateThreeWordPhrases(words);
+                const fullPhrases = this.generateFullPhrases(cleaned);
+                const variations = this.generateVariations(singleKeywords.concat(twoWordPhrases));
+                const crawlerOptimized = this.optimizeForCrawlers(singleKeywords, twoWordPhrases, threeWordPhrases, fullPhrases);
+
+                const totalTerms = new Set([
+                    ...singleKeywords, ...twoWordPhrases, ...threeWordPhrases, 
+                    ...fullPhrases, ...variations
+                ]).size;
+
+                return {
+                    originalQuery: query,
+                    singleKeywords,
+                    twoWordPhrases,
+                    threeWordPhrases,
+                    fullPhrases,
+                    variations,
+                    crawlerOptimized,
+                    totalSearchTerms: totalTerms
+                };
+            }
+
+            cleanQuery(query) {
+                return query.toLowerCase().trim().replace(/[^\w\s\-]/g, ' ').replace(/\s+/g, ' ');
+            }
+
+            extractWords(query) {
+                return query.split().filter(word => word.length > 2 && !this.stopWords.has(word));
+            }
+
+            generateSingleKeywords(words) {
+                const keywords = [...words];
+                words.forEach(word => {
+                    if (this.synonyms[word]) {
+                        keywords.push(...this.synonyms[word]);
+                    }
+                });
+                return [...new Set(keywords)];
+            }
+
+            generateTwoWordPhrases(words) {
+                const phrases = [];
+                for (let i = 0; i < words.length - 1; i++) {
+                    phrases.push(`${words[i]} ${words[i + 1]}`);
+                }
+                // Add some non-adjacent combinations
+                for (let i = 0; i < words.length; i++) {
+                    for (let j = i + 2; j < words.length; j++) {
+                        phrases.push(`${words[i]} ${words[j]}`);
+                    }
+                }
+                return phrases.slice(0, 15); // Limit results
+            }
+
+            generateThreeWordPhrases(words) {
+                const phrases = [];
+                for (let i = 0; i < words.length - 2; i++) {
+                    phrases.push(`${words[i]} ${words[i + 1]} ${words[i + 2]}`);
+                }
+                return phrases.slice(0, 10);
+            }
+
+            generateFullPhrases(query) {
+                return [
+                    query,
+                    `"${query}"`,
+                    `${query} malaysia`,
+                    `${query} 2025`,
+                    `${query} terkini`,
+                    `best ${query}`,
+                    `popular ${query}`
+                ];
+            }
+
+            generateVariations(baseTerms) {
+                const variations = [];
+                baseTerms.slice(0, 10).forEach(term => {
+                    variations.push(
+                        `${term} malaysia`,
+                        `${term} online`,
+                        `${term} murah`,
+                        `${term} terbaik`,
+                        `#${term.replace(/\s/g, '')}`
+                    );
+                });
+                return [...new Set(variations)];
+            }
+
+            optimizeForCrawlers(single, two, three, full) {
+                const optimized = {};
+                
+                Object.keys(this.crawlerPrefs).forEach(platform => {
+                    const prefs = this.crawlerPrefs[platform];
+                    let terms = [];
+
+                    if (prefs.length === 'short') {
+                        terms.push(...single.slice(0, 8), ...two.slice(0, 5));
+                    } else if (prefs.length === 'medium') {
+                        terms.push(...single.slice(0, 5), ...two.slice(0, 8), ...three.slice(0, 3));
+                    } else if (prefs.length === 'long') {
+                        terms.push(...two.slice(0, 5), ...three.slice(0, 5), ...full.slice(0, 3));
+                    }
+
+                    if (prefs.hashtags) {
+                        terms.push(...single.slice(0, 3).map(t => `#${t.replace(/\s/g, '')}`));
+                    }
+
+                    optimized[platform] = [...new Set(terms)].slice(0, 12);
+                });
+
+                return optimized;
+            }
+        }
+
+        const engine = new KeywordBreakdownEngine();
+
+        function setQuery(query) {
+            document.getElementById('queryInput').value = query;
+        }
+
+        function processQuery() {
+            const query = document.getElementById('queryInput').value.trim();
+            
+            if (!query) {
+                alert('Please enter a query first!');
+                return;
+            }
+
+            // Show processing animation
+            document.getElementById('processingAnimation').style.display = 'block';
+            document.getElementById('resultsSection').innerHTML = '';
+
+            // Simulate processing delay
+            setTimeout(() => {
+                const breakdown = engine.breakdownQuery(query);
+                displayResults(breakdown);
+                document.getElementById('processingAnimation').style.display = 'none';
+            }, 2000);
+        }
+
+        function displayResults(breakdown) {
+            const resultsHTML = `
+                <div class="breakdown-section active">
+                    <!-- Summary Stats -->
+                    <div class="row mb-4">
+                        <div class="col-md-3">
+                            <div class="stats-card">
+                                <div class="stats-value">${breakdown.totalSearchTerms}</div>
+                                <div class="h6 text-muted">Total Search Terms</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card">
+                                <div class="stats-value">${breakdown.singleKeywords.length}</div>
+                                <div class="h6 text-muted">Single Keywords</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card">
+                                <div class="stats-value">${breakdown.twoWordPhrases.length}</div>
+                                <div class="h6 text-muted">Two-Word Phrases</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stats-card">
+                                <div class="stats-value">7</div>
+                                <div class="h6 text-muted">Crawler Platforms</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Keyword Categories -->
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-tag"></i> Single Keywords (${breakdown.singleKeywords.length})</h5>
+                        <div class="mt-3">
+                            ${breakdown.singleKeywords.map(keyword => 
+                                `<span class="keyword-tag">${keyword}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-tags"></i> Two-Word Phrases (${breakdown.twoWordPhrases.length})</h5>
+                        <div class="mt-3">
+                            ${breakdown.twoWordPhrases.map(phrase => 
+                                `<span class="keyword-tag two-word">${phrase}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-layer-group"></i> Three-Word Phrases (${breakdown.threeWordPhrases.length})</h5>
+                        <div class="mt-3">
+                            ${breakdown.threeWordPhrases.map(phrase => 
+                                `<span class="keyword-tag three-word">${phrase}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-quote-right"></i> Full Phrases (${breakdown.fullPhrases.length})</h5>
+                        <div class="mt-3">
+                            ${breakdown.fullPhrases.map(phrase => 
+                                `<span class="keyword-tag full-phrase">${phrase}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-sync-alt"></i> Variations (${breakdown.variations.length})</h5>
+                        <div class="mt-3">
+                            ${breakdown.variations.slice(0, 20).map(variation => 
+                                `<span class="keyword-tag variation">${variation}</span>`
+                            ).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Crawler Optimization -->
+                    <div class="mt-4">
+                        <h4><i class="fas fa-spider"></i> Crawler-Optimized Keywords</h4>
+                        <div class="row">
+                            ${Object.entries(breakdown.crawlerOptimized).map(([platform, terms]) => `
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="crawler-section">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="crawler-icon ${platform}-icon">
+                                                ${platform.charAt(0).toUpperCase()}
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-0">${platform.charAt(0).toUpperCase() + platform.slice(1)}</h6>
+                                                <small class="text-muted">${terms.length} optimized terms</small>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            ${terms.slice(0, 8).map(term => 
+                                                `<span class="keyword-tag" style="font-size: 10px; margin: 2px;">${term}</span>`
+                                            ).join('')}
+                                            ${terms.length > 8 ? `<small class="text-muted">+${terms.length - 8} more...</small>` : ''}
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Search Strategy -->
+                    <div class="keyword-category">
+                        <h5><i class="fas fa-strategy"></i> Recommended Search Strategy</h5>
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="card border-danger">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Phase 1: Broad Search <span class="priority-badge priority-high">HIGH</span></h6>
+                                        <p class="card-text small">Start with single keywords and popular two-word phrases for maximum coverage.</p>
+                                        <div class="small">
+                                            ${breakdown.singleKeywords.slice(0, 3).map(k => `<span class="badge bg-danger me-1">${k}</span>`).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-warning">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Phase 2: Targeted Search <span class="priority-badge priority-medium">MEDIUM</span></h6>
+                                        <p class="card-text small">Use three-word phrases and variations for specific results.</p>
+                                        <div class="small">
+                                            ${breakdown.threeWordPhrases.slice(0, 2).map(k => `<span class="badge bg-warning me-1">${k}</span>`).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-success">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Phase 3: Exact Match <span class="priority-badge priority-low">LOW</span></h6>
+                                        <p class="card-text small">Use full phrases for exact matches and niche results.</p>
+                                        <div class="small">
+                                            ${breakdown.fullPhrases.slice(0, 2).map(k => `<span class="badge bg-success me-1">${k.length > 20 ? k.substring(0, 20) + '...' : k}</span>`).join('')}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('resultsSection').innerHTML = resultsHTML;
+        }
+
+        // Auto-demo on page load
+        window.onload = function() {
+            setTimeout(() => {
+                setQuery('best smartphone 2025');
+                processQuery();
+            }, 1000);
+        };
+    </script>
+</body>
+</html>

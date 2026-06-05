@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse Comprehensive Testing Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #1e40af 0%, #14b8a6 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 40px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 25px;
+        }
+        .section-title {
+            background: #1e40af;
+            color: white;
+            padding: 15px;
+            margin: -25px -25px 20px -25px;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        .test-query {
+            background: #f8f9fa;
+            border-left: 4px solid #14b8a6;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        .query-text {
+            font-family: 'Courier New', monospace;
+            background: #e5e7eb;
+            padding: 8px;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+        .platforms {
+            color: #1e40af;
+            font-weight: bold;
+        }
+        .expected {
+            color: #059669;
+            font-style: italic;
+        }
+        .boolean-query {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .checklist {
+            list-style-type: none;
+            padding: 0;
+        }
+        .checklist li {
+            padding: 8px;
+            margin: 5px 0;
+            background: #f3f4f6;
+            border-radius: 5px;
+        }
+        .checklist li:before {
+            content: "☐ ";
+            font-weight: bold;
+            color: #1e40af;
+        }
+        .warning {
+            background: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #dc2626;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .success {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            color: #166534;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .table th, .table td {
+            border: 1px solid #d1d5db;
+            padding: 12px;
+            text-align: left;
+        }
+        .table th {
+            background: #1e40af;
+            color: white;
+        }
+        .table tr:nth-child(even) {
+            background: #f9fafb;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧪 PANDUAN UJIAN KOMPREHENSIF INSIGHTPULSE</h1>
+        <h2>COMPREHENSIVE INSIGHTPULSE TESTING GUIDE</h2>
+        <p><strong>NQ Impulse Resources Sdn Bhd</strong></p>
+        <p>Date: 25 September 2024 | Version: 1.0</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📋 MAKLUMAT DOKUMEN / DOCUMENT INFORMATION</div>
+        <table class="table">
+            <tr>
+                <th>Item</th>
+                <th>Bahasa Malaysia</th>
+                <th>English</th>
+            </tr>
+            <tr>
+                <td><strong>Platform Disokong</strong></td>
+                <td>Facebook, Instagram, TikTok, Twitter, YouTube, Shopee, Lazada</td>
+                <td>Facebook, Instagram, TikTok, Twitter, YouTube, Shopee, Lazada</td>
+            </tr>
+            <tr>
+                <td><strong>Jenis Analisis</strong></td>
+                <td>7 Jenis (Pemantauan Sosial, Wawasan PKS, Pengesanan Isu, Analisis Pesaing, Kecerdasan Produk, Penyelidikan Pasaran, Pemantauan Jenama)</td>
+                <td>7 Types (Social Listening, SME Insights, Issue Detection, Competitor Analysis, Product Intelligence, Market Research, Brand Monitoring)</td>
+            </tr>
+            <tr>
+                <td><strong>Timeline Interaktif</strong></td>
+                <td>Harian, Mingguan, Bulanan, Tahunan</td>
+                <td>Daily, Weekly, Monthly, Yearly</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎯 OBJEKTIF UJIAN / TESTING OBJECTIVES</div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div>
+                <h3>Bahasa Malaysia:</h3>
+                <ul>
+                    <li>Menguji kesemua 7 jenis analisis dengan pelbagai platform</li>
+                    <li>Memastikan timeline interaktif berfungsi dengan sempurna</li>
+                    <li>Mengesahkan dashboard khusus untuk setiap jenis analisis</li>
+                    <li>Menguji dengan frasa Boolean dan kata kunci kompleks</li>
+                    <li>Memastikan jenama korporat NQ Impulse Resources konsisten</li>
+                </ul>
+            </div>
+            <div>
+                <h3>English:</h3>
+                <ul>
+                    <li>Test all 7 analysis types across multiple platforms</li>
+                    <li>Ensure interactive timeline functions perfectly</li>
+                    <li>Verify specialized dashboards for each analysis type</li>
+                    <li>Test with Boolean phrases and complex keywords</li>
+                    <li>Ensure consistent NQ Impulse Resources corporate branding</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🎧 1. SOCIAL LISTENING / PEMANTAUAN SOSIAL</div>
+        
+        <h3>Test Queries (Bahasa Malaysia):</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Tourism Sentiment Analysis</strong>
+            <div class="query-text">"Genting Highlands OR Resort World" AND "pengalaman" AND ("bagus" OR "best")</div>
+            <div class="platforms">Platforms: Facebook + Instagram + TikTok</div>
+            <div class="expected">Expected: Positive tourism sentiment analysis with interactive timeline</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Viral Content Detection</strong>
+            <div class="query-text">"viral Malaysia" AND ("trending" OR "popular") NOT "fake news"</div>
+            <div class="platforms">Platforms: TikTok + Instagram + Twitter</div>
+            <div class="expected">Expected: Viral content trend detection across social platforms</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Customer Service Issues</strong>
+            <div class="query-text">("customer complaint" OR "aduan pelanggan") AND ("service" OR "perkhidmatan")</div>
+            <div class="platforms">Platforms: Facebook + Twitter + YouTube</div>
+            <div class="expected">Expected: Customer service issue identification with sentiment analysis</div>
+        </div>
+
+        <h3>Test Queries (English):</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Brand Reputation Monitoring</strong>
+            <div class="query-text">"Malaysian brand" AND ("reputation" OR "image") AND ("positive" OR "negative")</div>
+            <div class="platforms">Platforms: Facebook + Instagram + YouTube</div>
+            <div class="expected">Expected: Comprehensive brand reputation analysis</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Social Media Engagement</strong>
+            <div class="query-text">("social media" OR "media sosial") AND "Malaysia" AND ("engagement" OR "interaction")</div>
+            <div class="platforms">Platforms: All 7 platforms</div>
+            <div class="expected">Expected: Cross-platform social media engagement analysis</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (brand AND Malaysia) OR (jenama AND tempatan)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> ("customer service" OR "khidmat pelanggan") AND (good OR bagus OR excellent)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 3:</strong> (viral AND trending) NOT (spam OR fake)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🏪 2. SME INSIGHTS / WAWASAN PKS</div>
+        
+        <h3>Test Queries (Bahasa Malaysia):</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: SME Digital Opportunities</strong>
+            <div class="query-text">("PKS Malaysia" OR "small business") AND ("online" OR "digital") AND "peluang"</div>
+            <div class="platforms">Platforms: Shopee + Facebook + Instagram</div>
+            <div class="expected">Expected: SME digital transformation opportunities analysis</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: F&B Business Insights</strong>
+            <div class="query-text">"kedai makan" AND ("delivery" OR "penghantaran") AND ("popular" OR "laris")</div>
+            <div class="platforms">Platforms: Lazada + Facebook + TikTok</div>
+            <div class="expected">Expected: Food & beverage business performance insights</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Craft Business Market</strong>
+            <div class="query-text">("handmade Malaysia" OR "buatan tangan") AND ("craft" OR "kraf") AND "pasaran"</div>
+            <div class="platforms">Platforms: Shopee + Instagram + Facebook</div>
+            <div class="expected">Expected: Malaysian craft business market analysis</div>
+        </div>
+
+        <h3>Test Queries (English):</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: SME Growth Opportunities</strong>
+            <div class="query-text">"Malaysian SME" AND ("growth" OR "expansion") AND ("opportunity" OR "potential")</div>
+            <div class="platforms">Platforms: Shopee + Lazada + Facebook</div>
+            <div class="expected">Expected: SME growth opportunity identification and market insights</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (SME OR PKS) AND (Malaysia OR Malaysian) AND (success OR kejayaan)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> ("small business" OR "perniagaan kecil") AND (online OR digital)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🚨 3. ISSUE DETECTION / PENGESANAN ISU</div>
+        
+        <div class="warning">
+            <strong>⚠️ IMPORTANT:</strong> Issue Detection tests should show HIGH, MEDIUM, or LOW risk levels with appropriate crisis management recommendations.
+        </div>
+
+        <h3>Crisis Simulation Tests:</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Food Safety Crisis (HIGH RISK)</strong>
+            <div class="query-text">("food poisoning" OR "keracunan makanan") AND "Malaysia" AND ("restaurant" OR "restoran")</div>
+            <div class="platforms">Platforms: Facebook + Twitter + YouTube</div>
+            <div class="expected">Expected: HIGH risk level, crisis timeline, immediate action recommendations</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Service Disruption (MEDIUM RISK)</strong>
+            <div class="query-text">("system down" OR "server error") AND "Malaysia" AND "service disruption"</div>
+            <div class="platforms">Platforms: Twitter + Facebook + Instagram</div>
+            <div class="expected">Expected: MEDIUM risk level, monitoring recommendations</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Product Quality Issues (VARIABLE RISK)</strong>
+            <div class="query-text">("produk rosak" OR "product defect") AND "Malaysia" AND ("complaint" OR "aduan")</div>
+            <div class="platforms">Platforms: Shopee + Lazada + Facebook</div>
+            <div class="expected">Expected: Risk assessment based on sentiment, action timeline</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (crisis OR krisis) AND (Malaysia OR Malaysian) AND (urgent OR segera)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> ("quality issue" OR "masalah kualiti") AND (product OR produk)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🔍 4. COMPETITOR ANALYSIS / ANALISIS PESAING</div>
+        
+        <h3>Platform Competition Tests:</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: E-commerce Platform Battle</strong>
+            <div class="query-text">("Shopee vs Lazada" OR "Shopee atau Lazada") AND "Malaysia" AND "perbandingan"</div>
+            <div class="platforms">Platforms: Shopee + Lazada + Facebook</div>
+            <div class="expected">Expected: Market position analysis, competitive strengths comparison</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Smartphone Brand Competition</strong>
+            <div class="query-text">("Samsung vs iPhone" OR "Samsung atau iPhone") AND "Malaysia" AND "pilihan"</div>
+            <div class="platforms">Platforms: Facebook + Instagram + YouTube</div>
+            <div class="expected">Expected: Brand competition analysis, market positioning insights</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Food Delivery Service Battle</strong>
+            <div class="query-text">("Grab vs Foodpanda" OR "Grab atau Foodpanda") AND "delivery" AND "Malaysia"</div>
+            <div class="platforms">Platforms: Facebook + Twitter + Instagram</div>
+            <div class="expected">Expected: Service comparison, competitive advantage analysis</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (competitor OR pesaing) AND (Malaysia OR Malaysian) AND (analysis OR analisis)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> (market share OR bahagian pasaran) AND (leader OR pemimpin)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📦 5. PRODUCT INTELLIGENCE / KECERDASAN PRODUK</div>
+        
+        <h3>Product Analysis Tests:</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Smartphone Feature Analysis</strong>
+            <div class="query-text">"smartphone review Malaysia" AND ("camera" OR "battery" OR "performance")</div>
+            <div class="platforms">Platforms: YouTube + Shopee + Instagram</div>
+            <div class="expected">Expected: Product rating (⭐⭐⭐⭐⭐), feature breakdown, recommendation score</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Beauty Product Intelligence</strong>
+            <div class="query-text">("skincare Malaysia" OR "produk kulit") AND ("review" OR "ulasan") AND "terbaik"</div>
+            <div class="platforms">Platforms: Instagram + TikTok + Shopee</div>
+            <div class="expected">Expected: Customer satisfaction metrics, product recommendations</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Gaming Product Analysis</strong>
+            <div class="query-text">("laptop gaming" OR "komputer permainan") AND "review" AND ("performance" OR "prestasi")</div>
+            <div class="platforms">Platforms: YouTube + Shopee + Lazada</div>
+            <div class="expected">Expected: Technical performance analysis, value assessment</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (product OR produk) AND (review OR ulasan) AND (Malaysia OR Malaysian)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> (quality OR kualiti) AND (rating OR penilaian) AND (customer OR pelanggan)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📊 6. MARKET RESEARCH / PENYELIDIKAN PASARAN</div>
+        
+        <h3>Market Intelligence Tests:</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Consumer Behavior Analysis</strong>
+            <div class="query-text">("tingkah laku pengguna" OR "consumer behavior") AND "Malaysia" AND "online"</div>
+            <div class="platforms">Platforms: Facebook + Instagram + Shopee + Lazada</div>
+            <div class="expected">Expected: Comprehensive consumer behavior insights across platforms</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Fashion Industry Trends</strong>
+            <div class="query-text">("trend fesyen" OR "fashion trend") AND "Malaysia 2024" AND ("popular" OR "viral")</div>
+            <div class="platforms">Platforms: Instagram + TikTok + Facebook + Shopee</div>
+            <div class="expected">Expected: Fashion industry trend analysis with visual platform focus</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Technology Adoption Patterns</strong>
+            <div class="query-text">("teknologi AI" OR "AI technology") AND "Malaysia" AND ("adoption" OR "penggunaan")</div>
+            <div class="platforms">Platforms: Twitter + YouTube + Facebook</div>
+            <div class="expected">Expected: Technology adoption insights and future trends</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (market OR pasaran) AND (research OR penyelidikan) AND (Malaysia OR Malaysian)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> (trend OR aliran) AND (consumer OR pengguna) AND (behavior OR tingkah laku)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🛡️ 7. BRAND MONITORING / PEMANTAUAN JENAMA</div>
+        
+        <h3>Brand Health Tests:</h3>
+        
+        <div class="test-query">
+            <strong>Query 1: Aviation Brand Monitoring</strong>
+            <div class="query-text">"Malaysia Airlines" AND ("brand" OR "reputation") AND ("service" OR "experience")</div>
+            <div class="platforms">Platforms: Facebook + Twitter + Instagram + YouTube</div>
+            <div class="expected">Expected: Brand health status, reputation metrics, trust indicators</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 2: Retail Brand Analysis</strong>
+            <div class="query-text">("AEON Malaysia" OR "AEON") AND ("pengalaman pelanggan" OR "customer experience")</div>
+            <div class="platforms">Platforms: Facebook + Instagram + Shopee + Lazada</div>
+            <div class="expected">Expected: Retail brand performance across social and e-commerce</div>
+        </div>
+
+        <div class="test-query">
+            <strong>Query 3: Corporate Brand Monitoring</strong>
+            <div class="query-text">"Petronas" AND "Malaysia" AND ("brand image" OR "reputation") AND "public"</div>
+            <div class="platforms">Platforms: Facebook + Twitter + Instagram + YouTube</div>
+            <div class="expected">Expected: Corporate brand monitoring with public sentiment analysis</div>
+        </div>
+
+        <h3>Boolean Format Tests:</h3>
+        <div class="boolean-query">
+            <strong>Test 1:</strong> (brand OR jenama) AND (monitoring OR pemantauan) AND (Malaysia OR Malaysian)
+        </div>
+        <div class="boolean-query">
+            <strong>Test 2:</strong> (reputation OR reputasi) AND (positive OR positif OR negative OR negatif)
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">✅ SUCCESS CRITERIA / KRITERIA KEJAYAAN</div>
+        
+        <h3>Functional Tests:</h3>
+        <ul class="checklist">
+            <li>All 7 analysis types load without errors</li>
+            <li>Specialized dashboards appear correctly for each type</li>
+            <li>Interactive timeline works (Daily/Weekly/Monthly/Yearly)</li>
+            <li>Corporate NQ Impulse Resources branding applied consistently</li>
+            <li>Data aggregation functions properly across platforms</li>
+            <li>Boolean queries process correctly</li>
+            <li>Risk level assessment works (Issue Detection)</li>
+            <li>Market position analysis works (Competitor Analysis)</li>
+            <li>Product rating system works (Product Intelligence)</li>
+        </ul>
+
+        <h3>Performance Tests:</h3>
+        <ul class="checklist">
+            <li>Response time < 30 seconds for multi-platform queries</li>
+            <li>Response time < 15 seconds for single platform queries</li>
+            <li>Smooth animations and transitions</li>
+            <li>Responsive design on all devices</li>
+            <li>No JavaScript errors in browser console</li>
+            <li>Proper error handling for invalid queries</li>
+        </ul>
+
+        <h3>Data Quality Tests:</h3>
+        <ul class="checklist">
+            <li>Relevant results for each query type</li>
+            <li>Proper sentiment classification (Positive/Neutral/Negative)</li>
+            <li>Accurate platform-specific data aggregation</li>
+            <li>Correct timeline data aggregation for all time periods</li>
+            <li>Appropriate risk level assessment for Issue Detection</li>
+            <li>Meaningful competitive insights for Competitor Analysis</li>
+            <li>Accurate product ratings for Product Intelligence</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">🚀 QUICK START TESTING COMMANDS</div>
+        
+        <div class="success">
+            <strong>🎯 Recommended Testing Sequence:</strong><br>
+            1. Start with Social Listening (simplest)<br>
+            2. Test SME Insights (business focus)<br>
+            3. Try Issue Detection (risk assessment)<br>
+            4. Test Competitor Analysis (market intelligence)<br>
+            5. Try Product Intelligence (rating system)<br>
+            6. Test Market Research (comprehensive analysis)<br>
+            7. Finish with Brand Monitoring (reputation tracking)
+        </div>
+
+        <h3>cURL Commands for API Testing:</h3>
+        <div style="background: #1f2937; color: #f9fafb; padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.9em;">
+# Social Listening Test<br>
+curl -X POST "http://localhost:8001/analyze" \<br>
+&nbsp;&nbsp;-H "Content-Type: application/json" \<br>
+&nbsp;&nbsp;-d '{"query": "Malaysia brand reputation", "platforms": ["facebook", "instagram"], "analysis_type": "social_listening", "max_results": 25}'<br><br>
+
+# Issue Detection Test<br>
+curl -X POST "http://localhost:8001/analyze" \<br>
+&nbsp;&nbsp;-H "Content-Type: application/json" \<br>
+&nbsp;&nbsp;-d '{"query": "product recall Malaysia safety", "platforms": ["facebook", "twitter"], "analysis_type": "issue_detection", "max_results": 25}'<br><br>
+
+# Product Intelligence Test<br>
+curl -X POST "http://localhost:8001/analyze" \<br>
+&nbsp;&nbsp;-H "Content-Type: application/json" \<br>
+&nbsp;&nbsp;-d '{"query": "smartphone review Malaysia 2024", "platforms": ["shopee", "youtube"], "analysis_type": "product_intelligence", "max_results": 25}'
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">📄 FINAL TESTING REPORT TEMPLATE</div>
+        
+        <table class="table">
+            <tr>
+                <th>Analysis Type</th>
+                <th>Tests Conducted</th>
+                <th>Success Rate</th>
+                <th>Issues Found</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>🎧 Social Listening</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>🏪 SME Insights</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>🚨 Issue Detection</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>🔍 Competitor Analysis</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>📦 Product Intelligence</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>📊 Market Research</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+            <tr>
+                <td>🛡️ Brand Monitoring</td>
+                <td>___/10</td>
+                <td>___%</td>
+                <td>___</td>
+                <td>☐ Pass ☐ Fail</td>
+            </tr>
+        </table>
+
+        <div class="success">
+            <h3>🎉 OVERALL ASSESSMENT:</h3>
+            <ul class="checklist">
+                <li>Ready for production deployment</li>
+                <li>Requires minor fixes</li>
+                <li>Requires major fixes</li>
+                <li>Not ready for deployment</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding: 20px; background: linear-gradient(135deg, #1e40af 0%, #14b8a6 100%); color: white; border-radius: 15px;">
+        <h2>🎉 SELAMAT MENGUJI! HAPPY TESTING! 🇲🇾🚀📊✨</h2>
+        <p><strong>NQ Impulse Resources Sdn Bhd</strong></p>
+        <p>InsightPulse - Advanced Social Media Analytics Platform</p>
+    </div>
+</body>
+</html>

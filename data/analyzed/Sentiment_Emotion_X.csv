@@ -1,0 +1,572 @@
+Platform,Type,ID,Text,URL,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+x,post,2.0210857931887086e+18,"เชื่อว่าหลายคนคงได้เข้าร่วมโครงการคนละครึ่งพลัส หนึ่งในนโยบายเรือธงของพรรคภูมิใจไทย ซึ่งก็มีการยืนยันว่าคนละครึ่งพลัสเฟส 2 เดินหน้าต่อแต่นอน แต่อยู่ระหว่างออกแบบโครงการ
+
+#คนละครึ่งพลัส #พรรคภูมิใจไทย #ผลเลือกตั้ง69 #ผลการเลือกตั้ง #คะแนนเลือกตั้ง #เลือกตั้ง #เลือกตั้ง2569 #เลือกตั้ง69 #ประชามติ69 #Election69 #เสียงของทุกคนฝ่าวิกฤตประเทศไทย #ไทยพีบีเอสเลือกตั้ง69 #ข่าวไทยพีบีเอส #ข่าวที่คุณวางใจ #ThaiPBSnews #ThaiPBS",https://x.com/ThaiPBSNews/status/2021085793188708540,neutral,2026-02-10 04:56:17+00:00,0,0,1,198,0.5,2,3.198,,,neutral,0.5,unknown,Unknown,happy,0.005490320269018412,0.0022672771010547876,0.9447767734527588,0.04646323248744011,0.0008332136203534901,0.00016914190200623125
+x,post,1.797485862793675e+18,"""Kita tak boleh buat pilihan raya PBT nanti habis Melayu hilang kuasa tak dapat jadi Datuk Bandar dah"" https://t.co/USHUJ63whT",https://x.com/muhammadnajib79/status/1797485862793674941,negative,2024-06-03 04:30:00+00:00,1073,720,30,106092,0.0010675370693206676,2883,2709.092,,,negative,0.9964415431022644,malay,Malay/Bumiputera,sadness,0.21757282316684723,0.08379996567964554,0.03838019818067551,0.6582131385803223,0.0012046968331560493,0.0008291348349303007
+x,comment,,,,neutral,2026-02-10 13:19:24.147475,0,0,5,0,0.5,15,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147479,0,0,1,0,0.5,3,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147483,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147486,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147489,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147492,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147496,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147499,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147503,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147506,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147510,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147514,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147518,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147521,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147524,0,0,2,0,0.5,6,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147528,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147531,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147534,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147537,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147540,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147543,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147546,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147549,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147552,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147555,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,post,2.0207376779776988e+18,"Sekelip mata kau berubah ya Sinar Harian. Agak² la PMX mana ada kuasa suruh PBT pi meroboh bagai.
+
+Yang PMX nyatakan itu ialah kerajaan persekutuan beri endorsement kepada PBT untuk kuatkuasakan undang² sedia ada yang membenarkan perobohan mana² binaan haram termasuklah kuil yang didirikan atas tanah kerajaan / kawasan yang PBT ada kuasa untuk laksanakan tindakan.",https://x.com/lady_bugg11/status/2020737677977698712,negative,2026-02-09 05:53:00+00:00,89,24,11,5723,0.0016491651535034402,181,175.723,,,negative,0.9945027828216553,malay,Malay/Bumiputera,anger,0.7220193147659302,0.15842843055725098,0.03522076830267906,0.0603318028151989,0.004203523974865675,0.01979607716202736
+x,comment,,,,neutral,2026-02-10 13:19:24.147399,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147436,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147441,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147445,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147449,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147454,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147457,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147461,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147465,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147468,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147471,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,post,2.021010815512679e+18,"TINDAKAN DAP USUL PILIHAN RAYA PBT MACAM TERDESAK SANGAT
+
+“IDEA melaksanakan Pilihan Raya Datuk Bandar Kuala Lumpur disifatkan sebagai berniat jahat.”
+
+#Berita757
+#RakyatKeutamaanKami https://t.co/k8CQjSWqrT",https://x.com/berita757/status/2021010815512678853,positive,2026-02-09 23:58:21+00:00,1,1,0,13,0.9987402021884917,2,3.013,,,positive,0.9958006739616394,malay,Malay/Bumiputera,anger,0.8702183961868286,0.07828754931688309,0.007390189450234175,0.03846020624041557,0.0016872631385922432,0.003956352826207876
+x,post,2.0210895063302845e+18,"“ธรรมนัส” ยันไม่มีสัญญาใจจัดตั้งรัฐบาลร่วมกับ “อนุทิน” ลั่นตนชอบถูกเสี้ยม บอก ""ก.เกษตรฯ ก็มีอีเสี้ยม"" มองเสถียรภาพรัฐบาลไม่จำเป็นต้องถึง 300 เสียง
+
+อ่านต่อ : https://t.co/pnY17sofBU
+
+#เลือกตั้ง2569 #ธรรมนัส #อนุทิน #กล้าธรรม #พรรคภูมิใจไทย #ดีลตั้งรัฐบาล #เรื่องข่าวเรื่องใหญ่ #PPTVHD36",https://x.com/PPTVHD36/status/2021089506330284487,negative,2026-02-10 05:11:02+00:00,0,0,0,104,0.08077610135078431,1,0.104,,,negative,0.730746328830719,malay,Malay/Bumiputera,happy,0.0918925330042839,0.029735837131738663,0.7309450507164001,0.14390823245048523,0.001998103689402342,0.00152028095908463
+x,post,2.0210828325973404e+18,""" Nyi IROH / Mpok ONENG "" 
+
+RDP GenBanteng Fraksi PDI Perjuangan  - KOMISI XIII DPR RI.
+
+JELI ,  KRITIS DAN TAJAM.
+
+Menyoroti Ketidaksinkronan Data Kepesertaan PBI yang Ditanggung APBN dan APBD.
+Pengungkapannya sbg berikut : https://t.co/ktxJMOFrsS",https://x.com/SETYAKI22965702/status/2021082832597340501,neutral,2026-02-10 04:44:31+00:00,1,0,0,26,0.5,1,1.026,,,neutral,0.9669905304908752,malay,Malay/Bumiputera,happy,0.17355920374393463,0.18013718724250793,0.3584369122982025,0.2703169286251068,0.007651148363947868,0.009898590855300426
+x,post,2.0190660454539597e+18,"MUSLIHAT TERSEMBUNYI DAP DI SEBALIK PILIHAN RAYA PBT
+
+“HANYA DAP yang beria-ia inginkan pilihan raya PBT, hakikatnya ada muslihat di sebalik kegelojohan itu.”
+
+#Berita757
+#RakyatKeutamaanKami https://t.co/LaflxJcuDf",https://x.com/berita757/status/2019066045453959589,positive,2026-02-04 15:10:32+00:00,0,0,0,17,0.9981262624263763,0,0.017,,,positive,0.9937542080879211,malay,Malay/Bumiputera,happy,0.06781245768070221,0.08147424459457397,0.7566980123519897,0.07755175977945328,0.007137413136661053,0.009326047264039516
+x,post,2.0197973145972493e+18,"#BuletinBernama: Jangan pandang rendah Universiti Awam laksana kajian pilihan raya PBT
+
+#digitalbernamatv #fahmifadzil #universitiawam #pilihanrayapbt #datukbandar https://t.co/IksjOW7ppl",https://x.com/BernamaTV/status/2019797314597249350,neutral,2026-02-06 15:36:20+00:00,1,0,0,249,0.5,3,1.249,,,neutral,0.8937435150146484,english,Mixed/Urban,anger,0.7187841534614563,0.03085419349372387,0.06617069989442825,0.1762162446975708,0.00579600315541029,0.0021786580327898264
+x,post,1.7417893985330301e+18,".@PasPoosat dan PN putarkan semula isu Pilihan Raya PBT.
+
+Sepanjang 2023, di Parlimen sahaja Kerajaan sudah jawab sekurang-kurangnya 14 kali berkaitan isu Pilihan Raya PBT. 
+
+Jawapannya konsisten, bukan keutamaan Kerajaan pada waktu ini. 
+
+Apa yang susah sangat nak faham ? https://t.co/kIT8Vm0pcO",https://x.com/haziqazfarishak/status/1741789398533030260,positive,2024-01-01 11:52:08+00:00,137,53,10,10532,0.9822520732879638,305,283.532,,,positive,0.9408402442932129,malay,Malay/Bumiputera,anger,0.5860447883605957,0.1147877499461174,0.17856933176517487,0.1064944714307785,0.006088092923164368,0.008015577681362629
+x,comment,,,,neutral,2026-02-10 13:19:24.147558,0,0,1,0,0.5,3,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147561,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147564,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147567,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147569,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147573,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147576,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,post,1.737169685886702e+18,"ingat lagi kes kampung baru.? ingat lagi apa yang khalid samad buat.?
+
+jika berlakunya pilihan raya PBT. akan banyak lagi tempat yang akan senasib seperti mana yang berlaku pada kampung baru. https://t.co/1cxk0hFtsz",https://x.com/adib_zzz/status/1737169685886702077,negative,2023-12-19 17:55:02+00:00,108,45,67,22104,0.01543874144554136,441,421.104,,,negative,0.9485375285148621,malay,Malay/Bumiputera,anger,0.4740068316459656,0.033751603215932846,0.28562819957733154,0.1752350628376007,0.019036686047911644,0.012341567315161228
+x,comment,,,,neutral,2026-02-10 13:19:24.147579,0,0,4,0,0.5,12,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147582,0,0,2,0,0.5,6,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147585,0,0,2,0,0.5,6,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147589,0,0,1,0,0.5,3,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147592,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147595,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147599,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147602,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147606,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147609,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147612,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147615,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147618,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147621,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147624,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147627,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147630,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147633,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147637,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147640,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147643,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147646,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147649,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147653,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147656,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147659,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147662,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147665,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147668,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147672,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147679,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147683,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147686,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147690,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147696,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,comment,,,,neutral,2026-02-10 13:19:24.147701,0,0,0,0,0.5,0,,,0.0,neutral,0.5,unknown,Unknown,neutral,0.2,0.2,0.0,0.2,0.0,0.0
+x,post,2.0210821851016072e+18,""" SATYAM  EVA  JAYATE "" 
+
+Penolakan PDI Perjuangan Terhadap Pilkada yg Dipilih DPRD Bukan Soal Kepentingan Partai , Tapi Soal Menjaga HAK Paling Dasar RAKYAT utk Memilih Pemimpinnya Sendiri.
+
+DEMOKRASI Memang Perlu Diperbaiki,Tapi
+Solusinya Bukan dgn Memangkas 
+"" HAK PILIH "" https://t.co/2PJkHa3geQ",https://x.com/SETYAKI22965702/status/2021082185101607183,positive,2026-02-10 04:41:57+00:00,2,0,0,11,0.9975529491901397,2,2.011,,,positive,0.9918431639671326,malay,Malay/Bumiputera,anger,0.8327001333236694,0.0252635907381773,0.007336613722145557,0.1308346688747406,0.0019289616029709578,0.0019361160229891539
+x,post,2.019733321052529e+18,"[Video] Fahmi kesal ada pihak pertikai keupayaan Universiti Islam Antarabangsa laksana kajian berhubung kebolehlaksanaan pilihan raya PBT, Datuk Bandar Kuala Lumpur
+
+#BernamaNews 
+@fahmi_fadzil
+@komunikasi_gov 
+#UIAM 
+#PBT https://t.co/nDTmNxHCMC",https://x.com/bernamadotcom/status/2019733321052528803,positive,2026-02-06 11:22:03+00:00,33,15,3,5806,0.9942108988761902,109,77.806,,,positive,0.9807029962539673,malay,Malay/Bumiputera,anger,0.3939504325389862,0.10062552988529205,0.17952348291873932,0.3170871436595917,0.0023442525416612625,0.006469183135777712
+x,post,2.0186181560641582e+18,"PILIHAN RAYA PBT, KAJIAN KEBOLEHLAKSANAAN DIJALANKAN UIAM SEJAK DISEMBER 2025
+
+'Yang sahih di RTM'
+#RTM #BeritaRTM #MalaysiaMadani #TaatSetia #BersamaMALAYSIAKU #RancakkanMADANI #MADANIBekerja https://t.co/iVSeLZWK7b",https://x.com/beritartm/status/2018618156064158204,neutral,2026-02-03 09:30:47+00:00,1,0,0,95,0.5,1,1.095,,,neutral,0.840394914150238,malay,Malay/Bumiputera,happy,0.029601259157061577,0.08942564576864243,0.8118582963943481,0.04182731732726097,0.0025027368683367968,0.024784687906503677
+x,post,2.0182568150841672e+18,"Reformasi DBKL.
+Pilihan raya PBT.
+Pendidikan murid 6 tahun.
+
+Semua ini dibedah dalam Lebih Masa Episod 69.
+
+🗓 Isnin | 2 Feb
+⏰ 9:00 malam
+
+Dasar awam bukan sekadar wacana — ia menentukan masa depan bandar &amp; negara.
+
+#LebihMasa #Episod69 #ReformasiDBKL https://t.co/LEKzvuqc3C",https://x.com/lebih_masa/status/2018256815084167276,neutral,2026-02-02 09:34:56+00:00,22,9,1,531,0.5,37,43.531,,,neutral,0.9917852878570557,malay,Malay/Bumiputera,happy,0.2748570442199707,0.043672218918800354,0.38015684485435486,0.2950216233730316,0.0035192875657230616,0.002772888634353876
+x,post,2.02108082201582e+18,"Majlis Perbandaran Sepang (MPSepang) @MPSepang bersedia melaksanakan tindakan perobohan terhadap rumah ibadat yang dibina tanpa kebenaran, terutamanya di atas tanah rizab Kerajaan, namun tertakluk kepada arahan Kerajaan Negeri.
+
+Yang Dipertua MPSepang, Dr Ani Ahmad berkata pihaknya menyokong tindakan Perdana Menteri Datuk Seri Anwar Ibrahim yang membenarkan pihak berkuasa tempatan (PBT) mengambil tindakan terhadap mana-mana rumah ibadat yang dibina secara haram tanpa mengira agama.
+
+#mediaselangor #kliksemasa #rumahibadat #MPSepang #PBT",https://x.com/Media_Selangor/status/2021080822015819992,positive,2026-02-10 04:36:32+00:00,0,0,0,67,0.9951820731163024,0,0.067,,,positive,0.9839402437210083,malay,Malay/Bumiputera,happy,0.23380059003829956,0.206231489777565,0.36463865637779236,0.18882955610752106,0.005143295973539352,0.0013563514221459627
+x,post,2.019613037922255e+18,"Dewan Pemuda PAS Malaysia memandang serius cadangan pelaksanaan Pilihan Raya Pihak Berkuasa Tempatan (PBT) yang kini dijenamakan semula sebagai Pilihan Raya Datuk Bandar.
+
+Berita penuh
+
+https://t.co/fo0g7wrcgN https://t.co/N0c60IQd8G",https://x.com/harakahdailyHD/status/2019613037922255206,positive,2026-02-06 03:24:05+00:00,19,7,14,1364,0.9987756431102752,53,76.364,,,positive,0.9959188103675842,malay,Malay/Bumiputera,anger,0.674569845199585,0.14239145815372467,0.0843207910656929,0.08525879681110382,0.0034943160135298967,0.00996476225554943
+x,post,1.703349282039038e+18,"PKB menang, minimal Rp 5 Miliar per Desa. - Gus Imin @cakimiNOW 
+
+#GusIminPemimpinVisioner
+#AniesMuhaimin2024 https://t.co/VGY5MOwSZG",https://x.com/DPP_PKB/status/1703349282039038079,positive,2023-09-17 10:04:50+00:00,9884,4506,7879,87382,0.989867776632309,23142,42620.382,,,positive,0.9662259221076965,malay,Malay/Bumiputera,happy,0.03752865642309189,0.005991081241518259,0.8942422866821289,0.049495089799165726,0.012468226253986359,0.00027458154363557696
+x,post,2.0189458631257748e+18,"Menteri Besar, Dato’ Seri Ir Dr Ahmad Samsuri Mokhtar menyatakan pendirian tidak bersetuju dengan cadangan mengadakan pilihan raya Datuk Bandar di peringkat pihak berkuasa tempatan (PBT), termasuk di Terengganu.
+
+Berita penuh
+
+https://t.co/z6XCfjfSGV https://t.co/SBFQlYK6th",https://x.com/harakahdailyHD/status/2018945863125774735,positive,2026-02-04 07:12:58+00:00,62,13,47,19764,0.9968026995658874,319,248.764,,,positive,0.9893423318862915,malay,Malay/Bumiputera,fear,0.002983200130984187,0.9785128831863403,0.010218219831585884,0.00647784024477005,0.0002758031478151679,0.0015322244726121426
+x,post,2.021081605301994e+18,"กว่าจะฮู้คิง!น้ำปิงพอแห้ง
+
+ก็เพื่อไทยเขาพูดปาวๆว่า ถ้ายกมือให้อนุทิน เขาจะมายุบคดี มาใช้ส.ว.ตั้งองค์กรอิสระ หาทางใช้อำนาจรัฐคุมเลือกตั้ง เพื่อเข้ามากินรวบประเทศ
+
+ตอนนั้นเห็นมั่นเหลือเกินว่า โหวตอนุทินคือทางเลือกที่ดีที่สุด https://t.co/ugCsGQQbJc",https://x.com/pran2844/status/2021081605301993896,negative,2026-02-10 04:39:39+00:00,92,104,2,3155,0.016271817684173573,229,309.155,,,negative,0.9457606077194214,malay,Malay/Bumiputera,happy,0.004269129130989313,0.00575506966561079,0.9793606400489807,0.009234664961695671,0.0008513754582963884,0.0005290638073347509
+x,post,1.931247467552461e+18,"UTBK 2024 vs UTBK 2025
+
+Peringkat pertama masih dipegang oleh PBM dan peringkat kedua juga masih dipegang oleh PM https://t.co/9p5U4qbkhY",https://x.com/soursaltair/status/1931247467552460984,neutral,2025-06-07 07:10:51+00:00,411,14,8,21359,0.5,646,484.359,,,neutral,0.9934040904045105,malay,Malay/Bumiputera,happy,0.00913233496248722,0.09182340651750565,0.8671213984489441,0.027810776606202126,0.0016449979739263654,0.002466986421495676
+x,post,2.018563690912797e+18,"Kajian proses pelaksanaan pilihan raya Pihak Berkuasa Tempatan (PBT) di ibu kota bukan dibuat oleh DAP sebaliknya dijalankan oleh Universiti Islam Antarabangsa Malaysia (UIAM), kata Menteri di Jabatan Perdana Menteri (Wilayah Persekutuan), Hannah Yeoh.
+
+Menurut Yeoh, penyelidikan berkenaan dijalankan oleh sebuah universiti yang mempunyai reputasi dan beliau yakin penyelidikannya berkualiti tinggi.
+
+#HannahYeoh #UIAM #SPRM #DBKL #WilayahPersekutuan",https://x.com/Scoopdotmy/status/2018563690912796893,positive,2026-02-03 05:54:21+00:00,1,0,0,268,0.998136043548584,3,1.268,,,positive,0.9937868118286133,malay,Malay/Bumiputera,happy,0.013033808209002018,0.1723543107509613,0.767754852771759,0.04521382972598076,0.0006473308894783258,0.0009958484442904592
+x,post,2.0210865067740365e+18,"Senin, 9 Februari 2026 kunjungan dari Dinas Pertanian dan Perikanan Kab. Kotamobagu yang diterima oleh Bapak Sauqy Hidayah, S.Pi, https://t.co/fi6PsaK6eh dari pihak BPBAT Tatelu. Kegiatan kunjungan tersebut dalam rangka konsultasi dan koordinasi kegiatan.
+
+#PanganBiru #KKPGOID https://t.co/ZiCUwpE9K9",https://x.com/DJPB_TATELU/status/2021086506774036566,neutral,2026-02-10 04:59:07+00:00,0,0,0,23,0.5,0,0.023,,,neutral,0.8625352382659912,english,Mixed/Urban,happy,0.056499216705560684,0.13469775021076202,0.6810694932937622,0.11050508171319962,0.012211932800710201,0.005016575567424297
+x,post,1.7407249563996042e+18,"Menteri Kerajaan MADANI dah kata pilihan raya PBT bukan keutamaan.
+
+Sampai ke PAS, tak habis-habis ratib DAP DAP DAP. https://t.co/Rh3EI2N37U",https://x.com/pakatanharapan_/status/1740724956399604105,negative,2023-12-29 13:22:25+00:00,301,103,22,12907,0.012190890312194835,555,585.907,,,negative,0.9593636989593506,malay,Malay/Bumiputera,fear,0.0057990276254713535,0.9806442260742188,0.005161248613148928,0.0074388738721609116,0.00023526133736595511,0.0007214618963189423
+x,post,2.0210846450357373e+18,"Kegiatan diawali dengan koordinasi bersama kecamatan dan pemerintah desa, dilanjutkan dengan uji petik langsung ke lapangan terhadap tiga kategori sampel pemilih: pemilih yang dinyatakan TMS, pemilih baru, serta pemilih yang telah ditetapkan sebagai DPB oleh KPU. https://t.co/qvRbSBnUvj",https://x.com/BawasluSubang/status/2021084645035737410,positive,2026-02-10 04:51:43+00:00,0,0,1,6,0.9928530573844909,1,3.006,,,positive,0.9761768579483032,malay,Malay/Bumiputera,happy,0.06815747171640396,0.053213510662317276,0.7256899476051331,0.13991546630859375,0.011855480261147022,0.0011681042378768325
+x,post,2.0185605267214705e+18,"Ditujukan khusus untuk Akmal dan Para Penunggang
+
+Kajian pelaksanaan pilihan raya pihak berkuasa tempatan (PBT) termasuk kaedah pelantikan Datuk Bandar bukan dijalankan oleh mana-mana pemimpin DAP, sebaliknya dikendalikan oleh Universiti Islam Antarabangsa Malaysia (UIAM), jelas Hannah Yeoh.",https://x.com/Nazril_Iznil/status/2018560526721470565,positive,2026-02-03 05:41:47+00:00,83,21,9,2783,0.9977328360080718,140,154.783,,,positive,0.992442786693573,malay,Malay/Bumiputera,anger,0.5943969488143921,0.14590083062648773,0.10439622402191162,0.14801834523677826,0.002762078307569027,0.004525570198893547
+x,post,2.021085807239627e+18,กุท้อแล้วกับประเทศนี้ แม่ง โกงกันหน้าด้านๆ ขนาดนี้เลยหรอวะ ตอนนี้กุ15 กุหวังมากๆว่าในอนาคตประเทศกุจะเจริญขึ้น แต่นี่อะไรอ่ะเจริญลงทุกวัน เรื่องโกงเลือกตั้งนี่มีแต่อะไรอุบาดๆอ่ะ ทั้งเอาถุงมาคลุมกล้อง เอาใบคะแนนไปทิ้ง อีกหลายอย่างมากมาย กุไม่เข้าใจเลย ถ้าผลคะแนนแบบโปร่งใสเป็นยังไงอ่ะคนมันยอมรับได้อยู่แล้ว แต่นี่แม่งไม่โปร่งใสไง จะให้ประชาชนเค้าโอเคได้ไงอ่ะ กุอยากมีอนาคตที่ดีเว้ย,https://x.com/pplengyaa/status/2021085807239627020,negative,2026-02-10 04:56:21+00:00,0,0,0,56,0.004123592376709007,0,0.056,,,negative,0.9862546920776367,malay,Malay/Bumiputera,happy,0.0018653363222256303,0.0008152895024977624,0.9901504516601562,0.006781110540032387,0.00023435706680174917,0.00015360118413809687
+x,post,2.021084361429484e+18,Bawaslu Kabupaten Subang melaksanakan uji petik Pemutakhiran Data Pemilih Berkelanjutan (PDPB) di Kecamatan Jalancagak (9/2). https://t.co/1jVa6JMgze,https://x.com/BawasluSubang/status/2021084361429483984,neutral,2026-02-10 04:50:36+00:00,0,0,1,13,0.5,1,3.013,,,neutral,0.9923844337463379,malay,Malay/Bumiputera,happy,0.07995691150426865,0.017892329022288322,0.7766527533531189,0.11644750833511353,0.00807911530137062,0.0009713826584629714
+x,post,2.0189145580025736e+18,"Assalamualaikum 
+
+Tolak Pilihan Raya PBT kerana ini adalah Agenda berterusan Parti DAP untuk menguasai Bandar dan seterusnya Negara. 
+
+Pilihan ada di tangan orang Melayu, #UMNO terbukti dapat mengekalkan Keamanan dan Kesejahteraan semua Kaum.
+
+#RoadToPRNJohor
+#RoadToPRU16 https://t.co/9VpmFj52ST",https://x.com/zainisinong/status/2018914558002573448,positive,2026-02-04 05:08:34+00:00,1,0,0,20,0.9990288972854613,1,1.02,,,positive,0.9967629909515381,malay,Malay/Bumiputera,happy,0.2938762605190277,0.047550003975629807,0.5195700526237488,0.12810176610946655,0.008082211017608643,0.0028196265920996666
+x,post,2.0210815422532163e+18,"RESULT PHILIPPINAPOOLS
+SELASA. 10 FEBRUARI 2026
+☆☆ 7492 ☆☆
+SHIO : ANJING
+SELAMAT KEPADA PEMENANG https://t.co/y7WruuECZV",https://x.com/hukumtotoalter/status/2021081542253216261,neutral,2026-02-10 04:39:24+00:00,0,0,0,67,0.5,0,0.067,,,neutral,0.9924516081809998,malay,Malay/Bumiputera,happy,0.00022850722598377615,0.0005184613983146846,0.9980124235153198,0.0007895714370533824,0.00029481484671123326,0.00015609209367539734
+x,post,1.7372755523049144e+18,"Baru-baru ini, isu pengembalian konsep pilihan raya PBT terutamanya untuk Kuala Lumpur telah mengungkitkan isu perkauman
+
+Mari kita mengkaji perubahan komposisi pengundi mengikut kaum untuk Kuala Lumpur sejak 1974
+
+Sama-sama kita menangkis maklumat palsu https://t.co/TaQEAVe1kf",https://x.com/TindakV2/status/1737275552304914458,positive,2023-12-20 00:55:43+00:00,35,28,2,3759,0.9988559663295745,102,100.759,,,positive,0.9961865544319153,malay,Malay/Bumiputera,sadness,0.22658783197402954,0.023596256971359253,0.17083080112934113,0.5674901008605957,0.0068077705800533295,0.004687259439378977
+x,post,2.018927525448315e+18,"MENGAPA PILIHAN RAYA PBT AMAT BERBAHAYA DAN PERLU DITOLAK SEKERAS-KERASNYA
+Oleh Dr Armin Baniaz Pahamin
+
+1. Cadangan untuk mengadakan pilihan raya Pihak Berkuasa Tempatan (PBT) atau pemilihan Datuk Bandar, walaupun dibungkus dengan bahasa reformasi dan demokrasi, hakikatnya merupakan manifestasi paling jelas terhadap kebimbangan yang dizahirkan oleh Tun Dr. Mahathir Mohamad bahawa orang Melayu berisiko kehilangan negara. 
+
+2. Isu ini tidak wajar dilihat secara sempit sebagai soal kaedah memilih pemimpin tempatan. Sebaliknya, ia perlu dianalisis sebagai peralihan struktur kuasa dalam sistem kenegaraan Malaysia, yang membawa implikasi besar terhadap keseimbangan perlembagaan, kedudukan sosioekonomi Melayu, dan hubungan antara Persekutuan, negeri serta kerajaan tempatan.
+
+3. Walaupun Perkara 153 Perlembagaan Persekutuan tidak menyebut kerajaan tempatan secara eksplisit, hakikatnya hampir keseluruhan dasar bandar mempunyai implikasi langsung terhadap pelaksanaan peruntukan tersebut. 
+
+4. Dasar perumahan mampu milik, pengeluaran lesen perniagaan kecil, pengurusan tanah, penjaja, serta pembangunan komuniti bandar merupakan instrumen utama mobiliti sosioekonomi Melayu bandar. 
+
+5. Di sinilah Perkara 153 berfungsi secara praktikal, bukan sekadar normatif. Apabila kepimpinan bandar memperoleh mandat melalui pilihan raya, tekanan politik untuk menghapus atau mengecilkan dasar afirmatif akan meningkat, lazimnya atas nama “kesamarataan”, “neutraliti kaum” dan “kecekapan pasaran”. 
+
+6. Dalam konteks ini, Perkara 153 tidak dimansuhkan secara undang-undang, tetapi dikosongkan fungsinya melalui amalan pentadbiran. 
+
+7. Inilah bentuk penghakisan yang paling berbahaya kerana ia berlaku secara senyap, berlapik, dan sukar dicabar melalui mekanisme perlembagaan sedia ada.
+
+8. Lebih penting, cadangan ini bukanlah idea baharu yang lahir secara neutral atau teknokratik. 
+
+9. Ia merupakan misi ideologi jangka panjang parti Democratic Action Party (DAP) yang telah sekian lama diperjuangkan, kemudiannya dimasukkan sebagai sebahagian daripada manifesto Pakatan Harapan, dan seterusnya dibawa ke peringkat pelaksanaan dasar melalui kedudukan eksekutif kerajaan.
+
+10. Agenda ini pernah dipromosikan secara terbuka oleh Menteri Kementerian Perumahan dan Kerajaan Tempatan, Nga Kor Ming, dan kini diteruskan di bawah Kementerian Wilayah Persekutuan oleh Hannah Yeoh melalui pendekatan yang dilabel sebagai “kajian kebolehlaksanaan”.
+
+11. Hakikat ini perlu ditegaskan kerana ia membuktikan bahawa cadangan pilihan raya PBT dan Datuk Bandar bukanlah reformasi pentadbiran yang bebas nilai, tetapi merupakan kesinambungan agenda politik yang konsisten dan berideologi, yang berhasrat mengubah struktur kuasa tempatan melalui mandat pilihan raya. 
+
+12. Apabila sesuatu cadangan dasar lahir daripada manifesto parti dan diterjemahkan melalui kuasa menteri, ia tidak lagi boleh dianggap sebagai eksperimen akademik atau inisiatif pentadbiran semata-mata. 
+
+13. Ia adalah projek politik yang membawa implikasi perlembagaan, demografi dan keseimbangan kuasa negara.
+
+14. Dalam sistem Perlembagaan Persekutuan, kerajaan tempatan bukan entiti politik berdaulat. Ia merupakan instrumen pentadbiran yang berfungsi di bawah kuasa kerajaan negeri atau Persekutuan. 
+
+15. Kerajaan tempatan tidak memiliki mandat politik tersendiri, tidak dipilih oleh rakyat, dan tidak direka untuk menjadi medan persaingan kuasa. 
+
+16. Pengenalan pilihan raya PBT atau pemilihan Datuk Bandar secara langsung akan mengubah sifat asas ini.
+
+17. Mandat pilihan raya memberikan legitimasi politik, bukan sekadar legitimasi pentadbiran. 
+
+18. Apabila legitimasi politik ini diwujudkan di peringkat bandar, ia secara langsung mencabar keseimbangan hubungan antara Persekutuan, negeri dan kerajaan tempatan, serta membuka ruang kepada tuntutan autonomi politik bandar yang bercanggah dengan semangat federalisme Perlembagaan.
+
+(1/2) - Bersambung
+
+https://t.co/KrtTWdspCf",https://x.com/arminbaniaz/status/2018927525448314889,positive,2026-02-04 06:00:06+00:00,0,0,1,21,0.9988694131374358,1,3.021,,,positive,0.9962313771247864,malay,Malay/Bumiputera,happy,0.05292825400829315,0.055977776646614075,0.830569863319397,0.053332604467868805,0.0010330138029530644,0.006158391945064068
+x,post,2.0185784091155215e+18,"Jelasnya, kajian kebolehlaksanaan pilihan raya pihak berkuasa tempatan (PBT) termasuk pemilihan Datuk Bandar Kuala Lumpur telah dijalankan sejak pentadbiran Menteri Wilayah Persekutuan sebelum ini.
+
+Baca berita penuh di sini 👉 :https://t.co/4PseCFso12 https://t.co/q26cXmjOSF",https://x.com/thereportermy/status/2018578409115521467,positive,2026-02-03 06:52:50+00:00,0,0,0,22,0.9756409823894501,0,0.022,,,positive,0.9188032746315002,malay,Malay/Bumiputera,fear,0.018079744651913643,0.7548754811286926,0.16821467876434326,0.0528087392449379,0.0005558630800805986,0.0054655177518725395
+x,post,2.0210902905940997e+18,"Saya sokong kenyataan YAB @AmirudinShari dalam isu PAS mempolitikkan isu ladang babi. Parti PAS bukan sekadar menunggang isu ladang babi malah mereka turut memutarbelitkan fakta. 
+
+Saya anak kelahiran kawasan Tg Sepat, kini berumur 38 tahun. Penternakan babi di kawasan Tg Sepat sudah berleluasa sejak sebelum saya lahir. 2013 Pakatan Rakyat menang kawasan DUN Tg Sepat, Mohd Haslin dari PAS adalah ADUN kawasan. Saya pernah jadi sukarelawan bagi jentera PAS masa itu. 
+
+PAS juga menjadi sebahagian dari Kerajaan Negeri Selangor pada masa itu dengan memegang jawatan Exco Kerajaan Negeri Selangor, masa itu tidak timbul pula sebarang isu ladang babi. ADUN PAS masa itu juga pernah terima sokongan dari penternak babi kawasan Tg Sepat yang membuka jalan PAS memenangi DUN Tg Sepat. 
+
+Kini tiba-tiba PAS bangun dari tidur dan menunggang isu ladang babi seolah-olah Kerajaan Negeri buka ladang baru. Realitinya kini ladang babi di kawasan Tg Sepat dikawal dan dikurangkan. Langkah-langkah proaktif memulih kawasan itu dijalakan. Angkah ladang babi jauh lagi rendah. 
+
+PAS patut puji Kerajaan Negeri Selangor bawah pimpinan YAB Amiruddin Shari yang cari jalan penyelesaian. 
+
+Apa yang PAS tak tunggang? Tunggang langgang 😅",https://x.com/Thiban_ben/status/2021090290594099606,positive,2026-02-10 05:14:09+00:00,0,0,0,1,0.9401338279247283,0,0.001,,,positive,0.800446093082428,malay,Malay/Bumiputera,anger,0.707069456577301,0.21321846544742584,0.02234618179500103,0.04274888336658478,0.011178430169820786,0.0034385817125439644
+x,post,2.0210813523602967e+18,"@AnuarF2 Pejuang, Bersatu, Amanah logik la kalau kalah sebab parti baru. Ini? Parti yang dah 25 tahun boleh tersungkur di Semenanjung dan Sabah? Apa citer? Sembang berdentum dentam. Habuk tarak. Nasib baik DAP ada 43 kerusi. Dapatlah merasa jadi Piyem. Kah kah kah 🤣🤣🤣🤣 https://t.co/8oJMqCtHwk",https://x.com/AzfarinazAmran/status/2021081352360296608,negative,2026-02-10 04:38:38+00:00,0,0,0,12,0.0013611137866973988,0,0.012,,,negative,0.995462954044342,malay,Malay/Bumiputera,anger,0.49915000796318054,0.1235014870762825,0.1117464080452919,0.26128965616226196,0.0030782839749008417,0.0012342685367912054
+x,post,2.0186303155317678e+18,"Ketakutan Tanpa Alasan Menjadi Asbab Debat Pilihan Raya Tempatan Ini Perlu Diusahakan”
+
+Rata-rata orang awam, pengundi mahupun mana pihak sedang memperkatakan tentang Pilihan Raya Tempatan
+
+ ""Kenapa cerita yang buruk tentang Pilihan Raya Tempatan (PBT) ni lebih kedengaran? Walaupun baru diperingkat kajian”
+
+Begini tuan-puan, sebagai penyokong dasar a.k.a pembayar cukai PBT mestilah kita mahu jelas dengan satu dasar baharu. Dari kefahaman saya, idea ni sangat bagus & sesuai dengan keperluan sekarang.
+
+ Saya rasa kita tak boleh selamanya ""main selamat"". Kita ada banyak dasar baik, tapi kalau cara penyampaiannya cuma satu hala dari ""orang atas"", mesej itu akan sangkut di tengah jalan. 
+
+Dari URA bawa kepada isu sekarang ini. Dalam mana2 dasar pun ada baik buruknya. Yang baik dikekalkan, yang kurang diperbetulkan. Tapi idea besarnya perlu difahami dan dipertahankan.
+
+Sebab itu saya cadangkan “ADAKAN DEBAT TERBUKA”
+
+Kenapa debat? Ini 3 sebab utama:
+
+1. Memecahkan Stereotaip & ""Bias"" Tokoh
+
+Kita kena akui, ada segelintir masyarakat kita ni jenis kalau dia tak suka seseorang tokoh tu, apa sahaja kebaikan yang dicakap, dia akan tutup telinga. Dalam kes harini ialah @dapmalaysia. 
+
+Namun dalam debat, fokusnya bukan pada ""muka"" pemimpin, tapi pada ""kekuatan hujah"". Biar fakta berlawan fakta. Bila debat ni disiarkan, netizen boleh nampak sendiri mana yang logik, mana yang berpolitik untuk kekal relevan. 
+
+2. Akauntabiliti Bukan Sekadar Atas Kertas
+
+Isu longkang tersumbat, sampah tak kutip, atau isu lesen niaga ni adalah isu ""niche"" (spesifik). Mana mungkin penduduk di Majlis Perbandaran Kota Bahru Bandar Raya Islam (MPKB-BRI) faham masalah pembayar cukai di DBKL.
+
+Kalau PM @anwaribrahim yang kena jelaskan semua benda, memang takkan sampai ke akar umbi. Dengan pilihan raya tempatan, Ahli Majlis akan ada rasa tanggungjawab (sense of belonging) yang tinggi. Sebab apa? Sebab mereka tahu, kalau tak buat kerja, pengundi di taman perumahan tu sendiri yang akan ""pangkah"" mereka keluar penggal depan!
+
+3. Menghalang Dasar Jadi Alat Politik.
+
+Sekarang ni, isu PBT senang sangat diputar belit jadi isu perkauman atau kedaulatan. Tapi kalau kita debatkan secara terbuka, segala kekeliruan ni boleh dijawab terus. Kita ""vaksin"" pemikiran rakyat dengan info yang betul supaya tak mudah dimanipulasi oleh pihak yang suka menangguk di air keruh.
+
+Saya percaya, menteri-menteri kita di Kementerian Perumahan dan Kerajaan Tempatan - KPKT berani dan terbuka untuk idea ni. Kita nak demokrasi yang lebih matang, bermula dari kita sendiri. 
+
+Antara idea yang baik yang @DBKL2u pernah buat dan mendapat sokongan dari pelbagai peringkat (kecuali Kartel Bazar dan geng Abang Belon) kemudian menjadi buah mulut seluruh negara ialah apabila @DrZalihaMustafa jadikan bazar Ramadhan DBKL ini lebih marhain. Di situlah permulaan dasar yang baik. 
+
+Kita yang probono ni faham, tetapi nak menjelaskan kepada semua diluar kemampuan.",https://x.com/alif_haidar/status/2018630315531767810,positive,2026-02-03 10:19:06+00:00,13,6,2,1306,0.9867282867431639,34,32.306,,,positive,0.9557609558105469,malay,Malay/Bumiputera,anger,0.6100949048995972,0.0887116864323616,0.039115116000175476,0.25260254740715027,0.002252026228234172,0.007223654538393021
+x,post,2.0199252385790979e+18,"Kajian UIAM berkenaan Pilihan Raya PBT.
+
+Saya pun tak faham mengapa YB Takiyuddin Hassan persoal kewibawaan UIA dalam membuat kajian konon atas sebab UIA bukan sebuah universiti yang senior?
+
+1/6 https://t.co/lhRyqXDWwR",https://x.com/faisalazizfa/status/2019925238579097763,positive,2026-02-07 00:04:39+00:00,81,30,11,8749,0.9926067411899566,209,182.749,,,positive,0.9753558039665222,malay,Malay/Bumiputera,anger,0.5067406296730042,0.14827370643615723,0.1505245864391327,0.1234104111790657,0.0022615741472691298,0.06878907978534698
+x,post,2.0210841090918446e+18,"People's Party supporters have demanded a recount of ballots in Chon Buri's constituency 1, claiming that ballot boxes were not properly sealed after voting ended on Sunday.
+
+Listen or get the full story in the 1st comment. https://t.co/p4yHkYm8M7",https://x.com/BangkokPostNews/status/2021084109091844538,negative,2026-02-10 04:49:36+00:00,0,0,1,287,0.14886272549629212,3,3.287,,,negative,0.5037909150123596,english,Mixed/Urban,fear,0.032932836562395096,0.45419833064079285,0.1633291095495224,0.34199628233909607,0.006068340502679348,0.0014750631526112556
+x,post,2.0189566004975864e+18,"#kualalterengganu Kerajaan Terengganu menolak dan tidak bersetuju cadangan diadakan Pilihan Raya Datuk Bandar di peringkat Pihak Berkuasa Tempatan (PBT).
+ https://t.co/IWFf14S28I https://t.co/sX05G251BB",https://x.com/hmetromy/status/2018956600497586523,positive,2026-02-04 07:55:38+00:00,1,0,2,434,0.9662099063396453,7,7.434,,,positive,0.8873663544654846,malay,Malay/Bumiputera,anger,0.6376094818115234,0.17561376094818115,0.09537241607904434,0.06759534776210785,0.01457373145967722,0.00923528615385294
+x,post,2.019690366392558e+18,"Kajian pilihan raya PBT: 'Jangan pandang rendah universiti awam kita'
+
+#BHnasional Pembangkang tidak seharusnya memandang rendah keupayaan universiti awam terbabit yang melahirkan ramai pemimpin tempatan dan luar negara
+
+https://t.co/wfKhAnWwKk",https://x.com/bharianmy/status/2019690366392558031,positive,2026-02-06 08:31:22+00:00,4,0,1,596,0.9256144940853118,10,7.596,,,positive,0.7520483136177063,malay,Malay/Bumiputera,anger,0.768057644367218,0.026412811130285263,0.04629470407962799,0.15537522733211517,0.002267729490995407,0.0015917930286377668
+x,post,-1.0,"From KaitoEasyAPI, a reminder:Our API pricing is based on the volume of data returned. However, to ensure we can cover our costs on the Apify platform, we have a minimum charge of $X per API call,even if the response contains no results.Thus, we returned N pieces of mock data. We will monitor and adjust the size of N based on the infrastructure costs incurred by Apify.This helps offset the infrastructure costs we incur for each API request, regardless of the data returned. We want to be upfront about this policy so you understand the pricing structure when using our service.Despite adding mock data when no results are found, we're still barely breaking even. Our prices are already very reasonable, but we're committed to maintaining this service to support the growth of your project.Please let us know if you have any other questions!",,neutral,2026-02-10 13:16:10.524468,0,0,0,0,0.5,0,0.0,,,neutral,0.8293585777282715,english,Mixed/Urban,happy,0.002567978110164404,0.0030481929425150156,0.9608815312385559,0.03264830633997917,0.0006641311338171363,0.00018985578208230436
+x,post,2.0210852337524413e+18,"Hebahan Info On Wheels Pejabat Penerangan Daerah Kemaman  
+
+Tarikh: 10/02/2026  
+Masa: 9.00 Pagi
+
+1. Polifarmasi: Bijak Urus Ubat, Hidup Lebih Sihat
+2. ⁠ Sumbangan Asas Rahmah (SARA) 2026
+3. ⁠Rancangan Pendidikan Negara 2026-2035 
+#MalaysiaMadani #JapenNegeriTerengganu https://t.co/jqlFCTBIPC",https://x.com/penkemamaninfo1/status/2021085233752441327,neutral,2026-02-10 04:54:04+00:00,0,0,0,24,0.5,0,0.024,,,neutral,0.9941622614860535,malay,Malay/Bumiputera,happy,0.00043091076076962054,0.0007602226687595248,0.9962233304977417,0.002133925911039114,0.00020726316142827272,0.000244271126575768
+x,post,1.7398714472487e+18,@Mrgunsngear Nope. This is Malaysia during crow extermination operation which usually carries by local municipal council with participation from licensed gun owners to controlling the wild crow population and preventing crow-related disease such as rabies or histoplasmosis. https://t.co/Xn7ZzxI8sD,https://x.com/EVostox/status/1739871447248699851,neutral,2023-12-27 04:50:52+00:00,256,100,4,34742,0.5,707,502.742,,,neutral,0.6322652697563171,english,Mixed/Urban,happy,0.001184294349513948,0.00264851120300591,0.9929355978965759,0.0018074993276968598,0.0012861512368544936,0.00013795564882457256
+x,post,2.0181937861580928e+18,"Kenapa UMNO takut sgt dgn pilihanraya tempatan dan Datuk Bandar? 
+
+This kind of youth leader just know how to play sentiment. Banyak negara Islam yang mengamalkan pilihanraya Datuk Bandar and it is not wrong. 
+
+It will improve efficiency at local level esp KL yg tak ada MB/KM https://t.co/LCCsuiw0IW",https://x.com/HannZiq/status/2018193786158092739,neutral,2026-02-02 05:24:29+00:00,451,178,59,79072,0.5,1478,1063.072,,,neutral,0.7156709432601929,english,Mixed/Urban,fear,0.0003673295141197741,0.9978602528572083,0.0006425120518542826,0.0006722474936395884,0.00013283976295497268,0.00032489289878867567
+x,post,2.0210898165202947e+18,"Selangor catat empat kluster, manakala Johor, Kedah, Kelantan, Pahang, Perlis dan Sabah masing-masing satu kluster.
+
+'Yang sahih di RTM'
+#RTM #BeritaRTM #MalaysiaMadani #TaatSetia #BersamaMALAYSIAKU #RancakkanMADANI #MADANIBekerja https://t.co/X5z34RV4Fq",https://x.com/beritartm/status/2021089816520294554,neutral,2026-02-10 05:12:16+00:00,0,0,0,19,0.5,0,0.019,,,neutral,0.9899824261665344,malay,Malay/Bumiputera,happy,0.377748966217041,0.05010366439819336,0.4076312780380249,0.14377135038375854,0.017707090824842453,0.003037696937099099
+x,post,2.0210848385649505e+18,"Reviewed ground-level implementation of sanitation initiatives and municipal service delivery across IMC wards (5,6,7&8) along with Dy. Mayor, Administrators, Engineers and officials of IMC.
+
+Emphasized strict monitoring mechanisms, timely waste management and stakeholder participation to maintain urban cleanliness and public health.
+
+@PMOIndia @ArunachalCMO @PemaKhanduBJP @KalingMoyongBJP",https://x.com/LikhaNari/status/2021084838564950419,neutral,2026-02-10 04:52:30+00:00,0,0,0,12,0.5,0,0.012,,,neutral,0.8222087621688843,english,Mixed/Urban,happy,0.00560904573649168,0.004966167267411947,0.9592075943946838,0.02864650823175907,0.0014752836432307959,9.533034608466551e-05
+x,post,1.7851483442576712e+18,"Di semenanjung ada 16 majlis bandaraya, hanya Kelantan sahaja tidak ada Majlis Bandaraya tapi perbandaaran. Penang mmg auto jadi negeri majlis Bandaraya. 
+
+Sarawak pulak ada 3 Majlis Bandaraya. Paling tak terjangka Bario pun jadi majlis bandaraya. https://t.co/niTu3eVltk",https://x.com/CallSignTsoi/status/1785148344257671243,negative,2024-04-30 03:25:06+00:00,1739,633,40,307957,0.0527540624141693,5491,3432.957,,,negative,0.8241531252861023,malay,Malay/Bumiputera,fear,0.11980562657117844,0.8199935555458069,0.014480511657893658,0.034631967544555664,0.005478131119161844,0.005610245279967785
+x,post,2.0012577536089047e+18,"KL ada 11 kawasan parlimen.
+
+PKR menang 5
+DAP menang 5
+UMNO menang 1
+PAS? Kalah semua kerusi
+
+Cuba teka, siapa yang paling bising? https://t.co/sEWeLwDnpW",https://x.com/SyedAkramin/status/2001257753608904773,negative,2025-12-17 11:46:44+00:00,468,119,20,10516,0.005284881591796853,712,776.516,,,negative,0.9823837280273438,malay,Malay/Bumiputera,anger,0.9230544567108154,0.027029268443584442,0.007638095412403345,0.03902503475546837,0.0019188193837180734,0.001334303175099194
+x,post,1.7528623695529948e+18,"FT KUALA LUMPUR: Electoral tragedy
+
+50 years ago today, Kuala Lumpur was completely excised out of Selangor. By excising out Kuala Lumpur from Selangor, KL voters were denied state level representation and dramatic population reconfiguration for the state of Selangor
+
+Read 🧵 https://t.co/p4DQWvhLBD",https://x.com/TindakV2/status/1752862369552994759,negative,2024-02-01 01:12:10+00:00,300,170,6,46368,0.08307158946990967,939,704.368,,,negative,0.7230947017669678,english,Mixed/Urban,sadness,0.0015592619311064482,0.0006801651907153428,0.002442098455503583,0.9951255917549133,0.00011768787226174027,7.521551015088335e-05
+x,post,2.0210901026473252e+18,"https://t.co/G036VPoCPU
+
+YBrs. Tuan Mohamad Nizam Bin Marjugi, Pengarah Eksekutif MSNS menyampaikan ucaptama di Program Selangor Road to Champion Para SUKMA 2026 yang diadakan di Dewan Raja Muda Musa, Shah Alam.
+
+… https://t.co/4Cp70MqqCg",https://x.com/MSNSelangor/status/2021090102647325165,positive,2026-02-10 05:13:25+00:00,0,0,1,12,0.9687531411647796,1,3.012,,,positive,0.8958438038825989,malay,Malay/Bumiputera,happy,0.0017531251069158316,0.007289725821465254,0.984417200088501,0.00563949765637517,0.00042299702181480825,0.0004773504624608904
+x,post,2.0210830337100147e+18,"Jom kita jaga alam bersama-sama 🌿 Buang sampah di tempat yang betul demi Malaysia yang lebih bersih dan selesa.
+
+Sebagai peringatan, membuang sampah merata-rata adalah satu kesalahan dan boleh dikenakan denda sehingga RM2,000 serta Perintah Khidmat Masyarakat sehingga 12 jam. https://t.co/gHPydsWlg1",https://x.com/jpagov/status/2021083033710014666,positive,2026-02-10 04:45:19+00:00,3,1,1,40,0.9989990174770355,5,8.04,,,positive,0.9966633915901184,malay,Malay/Bumiputera,anger,0.6203689575195312,0.05578470602631569,0.15194809436798096,0.1563456803560257,0.011336488649249077,0.004215992521494627
+x,post,1.5593601853275668e+18,"Ada sejumlah 150 PBT (Majlis) di Malaysia dengan pecahan:
+
+Majlis Bandaraya = 19
+Majlis Perbandaran = 37
+Majlis Daerah = 94
+
+Ikut pengalaman sendiri, paling 'payah' nak berurusan adalah dengan Majlis Bandaraya.
+
+MBSA, MBPJ, MBSJ, MBJB, MBIP 👈🏻 antara yg pernah saya berurusan. https://t.co/FXIdrwUtRr",https://x.com/HudaMahmud79/status/1559360185327566856,neutral,2022-08-16 02:03:34+00:00,1221,791,26,0,0.5,2038,2881.0,,,neutral,0.8680746555328369,malay,Malay/Bumiputera,anger,0.8166669011116028,0.06197691708803177,0.02402014099061489,0.09035127609968185,0.002150006825104356,0.0048347944393754005
+x,post,2.0125315842983652e+18,"Why are Malays afraid of local council elections? 
+
+Or are Malay elites afraid of their own people choosing people of merit and not their own cronies/penunggang agama/kaum?
+
+Almost 2/3 (62%) of KLites want local elections back:
+51% Malays
+72% Chinese
+76% Indians https://t.co/Wtuu4c0wD0",https://x.com/anxioustapir/status/2012531584298365177,neutral,2026-01-17 14:24:55+00:00,709,242,26,66169,0.5,1638,1337.169,,,neutral,0.6049407720565796,english,Mixed/Urban,fear,0.0008384998072870076,0.9960210919380188,0.001241324353031814,0.0014437269419431686,0.0002371301525272429,0.00021823172573931515
+x,post,2.020768826464588e+18,"The federal government has granted local councils the authority to act against houses of worship that are built illegally, Prime Minister Datuk Seri @anwaribrahim announced today.
+
+He said firm action would be taken against the construction of temples that violate existing laws, including those developed on privately-owned land.
+
+“I hereby announce that our decision is to no longer allow (houses of worship) that do not follow the law.
+
+""Local authorities are given the authority to take action to 'clean up' areas that are not lawfully owned, including temples, so that this issue can be resolved properly,"" he said during the National Unity Ministry monthly assembly in Putrajaya today.
+
+🔗 For more stories like this, visit https://t.co/1ouAHSO1Tm
+
+#MediaSelangor",https://x.com/MediaSelangorEn/status/2020768826464588149,neutral,2026-02-09 07:56:46+00:00,1,1,0,25,0.5,2,3.025,,,neutral,0.8863884806632996,english,Mixed/Urban,sadness,0.15805630385875702,0.25106823444366455,0.10918793827295303,0.4787454307079315,0.0022947792895138264,0.0006474512629210949
+x,post,2.021088631838876e+18,"#kualalumpur Kementerian Perdagangan Dalam Negeri dan Kos Sara Hidup (KPDN) melalui Suruhanjaya Persaingan Malaysia (MyCC) mengesan kecenderungan wujudnya amalan perniagaan yang berpotensi bertentangan dengan Akta Persaingan 2010 (Akta 712) dalam kalangan platform agensi pelancongan dalam talian (OTAs).
+ https://t.co/XSrZFtgk4v",https://x.com/hmetromy/status/2021088631838875781,positive,2026-02-10 05:07:34+00:00,1,0,0,57,0.9971541047096252,1,1.057,,,positive,0.9905136823654175,malay,Malay/Bumiputera,fear,0.014645043760538101,0.9669906497001648,0.005735601298511028,0.008548535406589508,0.0005991110811010003,0.003481212304905057
+x,post,2.0193979734285358e+18,"@takiyuddin61, I don't remember asking you to speak on my behalf. I believe many residents of Kuala Lumpur, including the Malays, do not object for the Datuk Bandar to be elected by the residents instead of being nominated by persons of self interest. https://t.co/AFH5F49M5D",https://x.com/AlawiyahYussof/status/2019397973428535745,neutral,2026-02-05 13:09:30+00:00,90,25,8,1771,0.5,140,165.771,,,neutral,0.6805291771888733,english,Mixed/Urban,happy,0.13431759178638458,0.029407691210508347,0.7398443222045898,0.06269902735948563,0.032128795981407166,0.001602598698809743
+x,post,2.0210860814548337e+18,"Strolling down Jonker Street in Malacca, #Malaysia, I stumbled upon an exciting and vibrant #Fujian Spring Festival gala From the booming 24 Festive Drums to the powerful yet elegant dragon and lion dances 
+@MalaysiaMFA
+@mychinapress
+@HolaFujian
+@CNYouthDaily
+@VisitXiamen https://t.co/w0dpQKrTik",https://x.com/chnm_china/status/2021086081454833770,positive,2026-02-10 04:57:26+00:00,1,0,0,48,0.990903341770172,1,1.048,,,positive,0.9696778059005737,english,Mixed/Urban,happy,0.0005537426332011819,0.0008686502696946263,0.9969550371170044,0.0009653207380324602,0.0004719278367701918,0.00018537479627411813
+x,post,2.0210818725714332e+18,"KUALA LUMPUR – Doktor kontrak yang diserap tetap di KKM layak elaun perpindahan mulai 2025: tuntutan hingga 100% untuk pertukaran Semenanjung–Sabah/Sarawak/Labuan, 50% dalam wilayah sama.
+
+📌Sumber: BERNAMA
+Artikel penuh
+https://t.co/hRseOgzdkS https://t.co/rlS1Wj55Mz",https://x.com/financialfaizn/status/2021081872571433180,positive,2026-02-10 04:40:42+00:00,1,2,1,91,0.9989794909954071,4,8.091,,,positive,0.9965983033180237,malay,Malay/Bumiputera,fear,0.00522900465875864,0.985323965549469,0.002357830060645938,0.005453858524560928,0.0008614826365374029,0.0007738351705484092
+x,post,1.9606069573474632e+18,"Imagine this: prime land in Taman Desa, KL for a luxury condo project sold for just RM1.91 mil.
+
+On 27 June 2024, DBKL under the Madani government approved the sale of 0.86 acres of PDRM reserve land at only RM51 psf - nearly 90% below the market rate of RM440 psf.
+
+This land was originally meant for a new Danau Desa police station, but despite objections from PDRM and the Home Ministry, DBKL and the KL Land Office pushed through the sale.
+
+Now it’s approved for a luxury condo project.
+
+So the question is: was this done because the Madani government is desperate for cash, or because developers’ interests matter more than public safety and community needs?
+----
+
+PAC also raised concerns about Lot 54780, a 0.86-acre police reserve land meant for a police station but transferred to a private developer. The land hasn’t been officially registered yet, and a private company has also claimed it.
+
+The Ministry of Home Affairs (KDN) and Royal Malaysian Police (PDRM) plan to build the Brickfields Police Station on Lot 54780, a 0.86-acre police reserve land in Taman Desa, Kuala Lumpur, because the current station is in a rented private building.
+
+However, the Federal Territory Land Working Committee approved transferring this land to a developer for condominium construction at RM1.91 million.
+
+https://t.co/xaHU38mSB3",https://x.com/LimSianSeeEric/status/1960606957347463255,neutral,2025-08-27 07:34:59+00:00,332,225,20,22107,0.5,798,864.107,,,neutral,0.8647083044052124,english,Mixed/Urban,happy,0.0012679046485573053,0.001697697676718235,0.991910994052887,0.004073499236255884,0.0009077670401893556,0.00014215447299648076
+x,post,2.0210870937207444e+18,"- Law enacted in 2024
+
+- No noise from the Malaysian Parliament in 2025
+
+- PH set to assume the ASEAN Chairmanship in 2026
+
+- “Randomly” raises Sabah (which no one takes seriously) and maritime disputes this 2026.
+
+Yeah, it makes sense. 🤷‍♂️ https://t.co/yUBwAuhpJX",https://x.com/Drealdovino/status/2021087093720744369,neutral,2026-02-10 05:01:27+00:00,1,0,0,84,0.5,1,1.084,,,neutral,0.8767512440681458,english,Mixed/Urban,happy,0.0029019515495747328,0.0020650902297347784,0.98270583152771,0.010602418333292007,0.001652962644584477,7.165998977143317e-05
+x,post,2.0210877852020984e+18,"Menaiki pesawat MH704 ke Manila, Philippines.
+
+Saya dan MP Wangsa Maju dipilih menghadiri program Latihan Asean Inter-Parliamentary Assembly berkenaan “Legislative and Policy Measures to counter the Use of AI and New Technologies for Terrorism and Violent Extremism Purposes” dari 10-13 Februari 2026.
+
+Kadang² bila laporan kehadiran Parlimen tidak penuh 100%, bukan bermakna kita ponteng atau sengajakan. Sebaliknya kerana menghadiri persidangan ataupun tugasan rasmi yang berlansung pada waktu yang sama dengan Sidang Dewan Rakyat.
+.",https://x.com/azliby/status/2021087785202098510,positive,2026-02-10 05:04:12+00:00,0,0,0,11,0.994624137878418,0,0.011,,,positive,0.9820804595947266,malay,Malay/Bumiputera,anger,0.8290870189666748,0.08837052434682846,0.017019150778651237,0.06307420134544373,0.0016068629920482635,0.0008421949460171163
+x,post,2.0210818753103137e+18,"Waspada  . .❗
+AMPLOP  POLITIK
+
+Untuk Mengganti DEMOKRASI AMPLOP Sebagai "" DALIH "".
+Katanya HEMAT BIAYA , 
+Faktanya SUARA RAKYAT Akan DIKEBIRI.
+
+Jika UANG Jadi Alasan , Lantas Dimana NILAI KEDAULATANNYA.
+Pilkada Langsung Itu HAK , Bukan Sebagai Alat Tawar Menawar
+
+#salamwaras https://t.co/anjElJqFja",https://x.com/SETYAKI22965702/status/2021081875310313663,positive,2026-02-10 04:40:43+00:00,0,0,0,41,0.9512460768222808,0,0.041,,,positive,0.8374869227409363,malay,Malay/Bumiputera,anger,0.5313168168067932,0.11093197762966156,0.20934905111789703,0.12591172754764557,0.013297317549586296,0.00919309537857771
+x,post,2.0210829584851768e+18,"Omar says Govt taking steps for Local Bodies’ polls, gives no specific timeline -‘SEC post vacant, OBC Comm report under examination’ https://t.co/V4Y90Hehsd",https://x.com/jkchanneltv/status/2021082958485176729,neutral,2026-02-10 04:45:01+00:00,0,0,0,19,0.5,0,0.019,,,neutral,0.9253491163253784,english,Mixed/Urban,happy,0.014717038720846176,0.007905624806880951,0.9332398176193237,0.04171282425522804,0.002040274441242218,0.0003844992897938937
+x,post,2.021085690973303e+18,"KL City Hall sets up portal for public to strengthen transparency in city's urban planning process #DBKL #Hannahyeoh
+https://t.co/29CyimZPIi https://t.co/PktL57ZW8g",https://x.com/myedgeprop/status/2021085690973303061,neutral,2026-02-10 04:55:53+00:00,0,0,0,6,0.5,0,0.006,,,neutral,0.8205211758613586,english,Mixed/Urban,happy,0.0015207052929326892,0.000675303628668189,0.9914632439613342,0.005317938979715109,0.000981033779680729,4.188809180050157e-05
+x,post,1.8384566699296236e+18,"Is Forest City the Next Network State HQ?
+
+Just an hour from Singapore, Forest City, Malaysia, is rolling out a game-changing ""Special Financial Zone"":
+
+• 15% personal income tax
+• 0% tax for family offices (with some strings attached)
+• 5% corporate tax for sectors like fintech
+
+Critics call it a ghost town with only 9,000 residents out of the 700,000 planned. Or is it a hidden opportunity?",https://x.com/thealepalombo/status/1838456669929623601,neutral,2024-09-24 05:53:21+00:00,344,21,25,83833,0.5,1228,544.833,,,neutral,0.7970617413520813,english,Mixed/Urban,happy,0.005435322877019644,0.029054902493953705,0.8302949070930481,0.1341785043478012,0.0006113268900662661,0.0004251139471307397
+x,post,2.0210860984292805e+18,"Daripada jumlah itu, Selangor mencatatkan empat kluster, manakala Johor, Kedah, Kelantan, Pahang, Perlis dan Sabah masing-masing satu kluster.
+https://t.co/tibtFRHEY2
+
+Yang sahih di RTM'
+#RTM #BeritaRTM #MalaysiaMadani #TaatSetia #BersamaMALAYSIAKU #RancakkanMADANI #MADANIBekerja https://t.co/NQwdNxKVSa",https://x.com/beritartm/status/2021086098429280556,neutral,2026-02-10 04:57:30+00:00,0,0,0,41,0.5,0,0.041,,,neutral,0.9928023219108582,malay,Malay/Bumiputera,happy,0.0881524458527565,0.02530582994222641,0.8017612099647522,0.07621602714061737,0.006553898099809885,0.0020105752628296614
+x,post,2.0193735571854705e+18,"Takiyuddin Hassan has dismissed recent survey results showing that 51% of Malays support reinstating local council elections, noting that most Malays opposed mayoral elections back in 1960.
+
+The PN deputy sec-gen also accused DAP of politicising the matter, citing their 2023 effort to amend the Federal Capital Act.
+
+🧵1",https://x.com/NewsBFM/status/2019373557185470566,negative,2026-02-05 11:32:28+00:00,41,15,40,24609,0.1260752499103546,342,215.609,,,negative,0.5797491669654846,english,Mixed/Urban,anger,0.38918831944465637,0.029708832502365112,0.24023327231407166,0.33772796392440796,0.0024016420356929302,0.0007400107569992542
+x,post,2.0210851056500613e+18,"KELANTAN 23 JANUARI 2026 : Pegawai Penguat Kuasa KPDN Cawangan Tanah Merah menjalankan pemeriksaan bersama Majlis Daerah Jeli, dengan menguatkuasakan perundangan dikuasakan KPDN dilokasi Pasar Minggu Ayer Lanas, Jeli.
+
+#Share https://t.co/cd1lo4JViO",https://x.com/MDJeliOfficial/status/2021085105650061416,neutral,2026-02-10 04:53:33+00:00,0,0,0,110,0.5,1,0.11,,,neutral,0.9932072758674622,malay,Malay/Bumiputera,happy,0.3028419613838196,0.16601909697055817,0.31575995683670044,0.19114002585411072,0.007974648848176003,0.01626431941986084
+x,post,1.74892494301293e+18,"Gambar rare poster KL Municipal Election 1952
+
+Kembalikan pilihanraya kerajaan tempatan! Ahli majlis wajib dipilih oleh rakyat, bukan dilantik oleh parti politik
+
+Terutamanya untuk KL https://t.co/XLFJMU9YcS",https://x.com/farhanazahan/status/1748924943012930018,positive,2024-01-21 04:26:14+00:00,275,155,6,12717,0.9915053009986876,563,615.717,,,positive,0.9716843366622925,malay,Malay/Bumiputera,sadness,0.29013580083847046,0.005693403538316488,0.05959085747599602,0.6396179795265198,0.003656187793239951,0.0013057803735136986
+x,post,2.0189336078686085e+18,"Cadangan memperkenalkan pilihan raya bagi memilih datuk bandar Kuala Lumpur terus menerima bantahan kumpulan pendesak Melayu.
+
+Terbaru Pertubuhan-Pertubuhan Pembela Islam (Pembela) menyatakan bantahan mereka atas dakwaan tidak selari dengan kerangka undang-undang sedia ada, serta berpotensi menjejaskan tadbir urus Wilayah Persekutuan.
+
+""DBKL (Dewan Bandaraya Kuala Lumpur) bukan pihak berkuasa tempatan yang wujud di bawah kuasa undang-undang negeri, tetapi merupakan suatu entiti pentadbiran Persekutuan. 
+
+“Maka, tidak timbul sebarang keperluan perlembagaan atau statutori untuk mengadakan pilihan raya kerajaan tempatan bagi DBKL,"" kata Pengerusi Pembela Zainul Rijal Abu Bakar yang juga seorang peguam. 
+
+Berita penuh: https://t.co/PH9t9Z1Ery",https://x.com/mkini_bm/status/2018933607868608593,positive,2026-02-04 06:24:16+00:00,39,10,30,4529,0.9924666404724121,124,153.529,,,positive,0.974888801574707,malay,Malay/Bumiputera,anger,0.48270317912101746,0.3975498676300049,0.04736875742673874,0.06744491308927536,0.002615726087242365,0.0023176304530352354
+x,post,1.859505264279618e+18,"This! 
+Sesuai aturan MK, pejabat negara baik dari daerah sampai pusat tidak boleh ikut campur dalam Pilkada.
+
+Kalau dilanggar ada sanksi denda dan pidana! https://t.co/AcE2MIDaLW",https://x.com/Mdy_Asmara1701/status/1859505264279617971,negative,2024-11-21 07:52:57+00:00,1049,470,13,15696,0.006568264961242687,1688,2043.696,,,negative,0.9781057834625244,malay,Malay/Bumiputera,anger,0.7683773040771484,0.12859441339969635,0.02363956905901432,0.07128653675317764,0.002240929054096341,0.005861287005245686
+x,post,1.9598899318931743e+18,"WHO REMOVED LGU APPROVAL FOR FLOOD CONTROL PROJECTS?
+
+Mayors For Good Governance which includes Mayor Vico Sotto and Mayor Joy Belmonte and the League of Cities support the policy of having the DPWH secure local government approval or coordination before implementing national projects like flood control.
+
+BBM said he will order the return of the practice of government agencies, particularly of the Department of Public Works and Highways (DPWH), of securing local government unit (LGU) approval before implementing national government-funded projects.
+
+In fact, Quezon City under the leadership of Mayor Joy Belmonte already passed an ordinance in 2020 requiring all national government agencies to coordinate with the LGU before implementing projects within Quezon City.
+
+Under such ordinance, a Certificate of Coordination from the Office of the Mayor is a prerequisite before any work permits are issued - this ensures public consultation with the constituents of Quezon City and alignment with local development plans.
+
+Maybe other cities should copy this trailblazing and pioneering ordinance of Quezon City as well because the question I have in mind for BBM is, who removed the policy of requiring LGU approval and when?
+
+Kasi, ang nangyayari ngayon, bypassed ang LGU sa project implementation so ghost projects are being implemented left and right dahil less or walang accountability etong mga national agencies sa local constituents who are affected by the project.
+
+Ang ending, sa LGU sinisisi ng mga constituents pero wala naman magawa ang LGU pag gusto ng national government ituloy at i-implement (except samin dito sa QC hehe).
+
+#Accountability
+#FloodControl",https://x.com/jesusfalcis/status/1959889931893174306,neutral,2025-08-25 08:05:47+00:00,563,106,35,56018,0.5,1264,936.018,,,neutral,0.8703175783157349,english,Mixed/Urban,happy,0.0005185027257539332,0.0005055482033640146,0.9961502552032471,0.0024685384705662727,0.0003130747645627707,4.407516826177016e-05
+x,post,2.0188874907663196e+18,"Perikatan Nasional has warned that mayoral elections in Kuala Lumpur would not necessarily lead to better governance, describing the idea as “simplistic, naive, and misguided”.
+
+A more practical approach, PN suggested, would be for the government to study comprehensive institutional, administrative, and legal reforms to improve the Kuala Lumpur City Council’s (DBKL) efficiency and accountability.
+
+“The administrative efficiency of a city does not depend so much on how its leadership is determined - whether elected or appointed - but rather, it relies upon the strength of its institutions, governance systems, and management culture,” said PN chief whip Takiyuddin Hassan in a statement today. 
+
+Full story: https://t.co/QZSdZtAuDZ",https://x.com/malaysiakini/status/2018887490766319640,negative,2026-02-04 03:21:01+00:00,31,12,66,31315,0.10096532106399536,422,284.315,,,negative,0.6634489297866821,english,Mixed/Urban,happy,0.002960923593491316,0.0021756584756076336,0.9837945103645325,0.010700130835175514,0.0002864921116270125,8.218560833483934e-05
+x,post,2.0188885527599273e+18,"PN menyifatkan pelaksanaan pilihan raya bagi Datuk Bandar Kuala Lumpur tidak semestinya akan menjamin perkhidmatan dan tadbir urus ibu kota akan bertambah baik.
+
+Ketua Whip PN, Takiyuddin Hassan berkata pandangan itu adalah terlalu “simplistik dan naif”, malah boleh melemahkan kepimpinan dan tadbir urusnya.
+
+“Kecekapan pentadbiran sesebuah bandar raya tidak sangat bergantung kepada cara bagaimana kepimpinannya ditentukan, sama ada dipilih atau dilantik, tetapi berdiri atas kekuatan institusi, sistem governans dan budaya pengurusannya.""
+
+Berita penuh: https://t.co/mUSNP9AMjZ",https://x.com/mkini_bm/status/2018888552759927278,negative,2026-02-04 03:25:14+00:00,10,1,17,41028,0.0822888135910034,438,104.028,,,negative,0.7257039546966553,malay,Malay/Bumiputera,happy,0.025910070165991783,0.017773542553186417,0.9086027145385742,0.04582015797495842,0.0005332502187229693,0.0013603431871160865
+x,post,2.0210850422028375e+18,"Perwali 88/2025 tentang Dana Gotong Royong bersifat sukarela, tanpa paksaan, pungutan wajib, atau potongan gaji ASN.
+
+Baca di: https://t.co/KrEcBYuY5p https://t.co/MmSAPMiWay",https://x.com/tribunkaltim/status/2021085042202837410,positive,2026-02-10 04:53:18+00:00,0,0,0,18,0.9895395636558533,0,0.018,,,positive,0.9651318788528442,malay,Malay/Bumiputera,happy,0.06480223685503006,0.011195853352546692,0.7821401357650757,0.13662859797477722,0.004072145093232393,0.0011609005741775036
+x,post,1.8384197601928522e+18,"Selaras pengumuman tempoh hari, Klang, Petaling Jaya, Shah Alam dan Subang Jaya bakal menggunakan satu garis panduan bersepadu. Semua pelaksanaan undang-undang akan diperkemas dan diseragamkan dan sekaligus menjadi bandar metropolis di Malaysia iaitu Lembah Klang Raya.
+
+Metropolis adalah bandar raya dengan lebih sejuta penduduk berfungsi sebagai pusat pentadbiran, perniagaan, perdagangan, perindustrian serta berteknologi tinggi. Projek ini diumum menerusi Belanjawan 2024 dengan peruntukan RM2 juta bagi menggabungkan 4 bandaraya ini.
+
+Kerajaan Negeri telah menubuhkan Mesyuarat Jawatankuasa Penyeragaman bawah Jawatankuasa Induk Majlis Pembangunan Lembah Klang Raya. Kepakaran, sumber, kewangan dan pelbagai lagi akan diseragamkan supaya tiada pertindihan serta memudahkan urusan penduduk.
+
+Insya-Allah Lembah Klang Raya berpotensi menjadi gagasan ekonomi utama Asia Tenggara dan mampu tersenarai antara lima metropolis utama di Asia. Pencapaian ini pasti mampu meningkatkan kemakmuran negeri dan memberi manfaat kepada rakyat Selangor.
+
+#KitaSelangor",https://x.com/AmirudinShari/status/1838419760192852104,positive,2024-09-24 03:26:41+00:00,1680,767,96,202966,0.9980481922626494,4572,3704.966,,,positive,0.9934939742088318,malay,Malay/Bumiputera,love,0.0014515997609123588,0.00047445527161471546,0.00135794747620821,0.0008804557146504521,0.9956834316253662,0.0001520815130788833
+x,post,2.0194275221115003e+18,"🇲🇾 Datuk Bandar merupakan ketua kerajaan tempatan yang bertanggungjawab memimpin pentadbiran bandar raya dan pihak berkuasa tempatan dengan pelantikan biasanya oleh YDPA kerajaan persekutuan, bukan melalui pilihan raya. https://t.co/KaX7lUFuxm",https://x.com/ZamiliMajid/status/2019427522111500319,positive,2026-02-05 15:06:55+00:00,0,0,0,37,0.9946609020233154,0,0.037,,,positive,0.9822030067443848,malay,Malay/Bumiputera,fear,0.1708085685968399,0.42751312255859375,0.15166324377059937,0.24566349387168884,0.00224354793317616,0.0021079054567962885
+x,post,2.0196892532493806e+18,"Wealthy, organised NIMBYs are already using local elections as a vehicle to oppose new housing construction
+
+Yes, even affordable housing like Bandar Madani Bukit Jalil
+
+They don't care about affordable housing or housing affordability https://t.co/PNOl5WL5SB",https://x.com/Natcromancer/status/2019689253249380636,negative,2026-02-06 08:26:56+00:00,27,8,1,1988,0.06342210173606871,55,47.988,,,negative,0.7885929942131042,english,Mixed/Urban,happy,0.005009816028177738,0.00220723869279027,0.9747152328491211,0.01737755350768566,0.000534543942194432,0.00015553325647488236
+x,post,2.0210810350654508e+18,"Ketua Setiausaha Negara, Tan Sri Shamsul Azri Abu Bakar hari ini menghadiri Mesyuarat Jawatankuasa Perhubungan Antara Kerajaan Persekutuan dan Kerajaan Negeri di Institut Tadbiran Awam Negara (INTAN) Bukit Kiara di ibu negara.
+
+📸 Aidiel Zabidi | BERNAMA Radio https://t.co/jFUS74Tepd",https://x.com/Bernama_Radio/status/2021081035065450660,neutral,2026-02-10 04:37:23+00:00,1,0,1,31,0.5,2,4.031,,,neutral,0.9751743674278259,malay,Malay/Bumiputera,fear,0.02903917245566845,0.7637374997138977,0.12559278309345245,0.0635189414024353,0.0008275105501525104,0.017284167930483818
+x,post,2.0186256327968486e+18,"SHAH ALAM, 3 Feb - Penduduk Kuala Lumpur wajar diberi hak memilih kepimpinan bandar bagi menentukan hala tuju dan pentadbiran ibu kota, kata Naib Ketua Pemuda Sosialis DAP (DAPSY), Raja Ahmad Iskandar Fareez.
+
+Menurutnya, isu harian yang dihadapi warga kota hanya benar-benar difahami oleh mereka yang tinggal dan bekerja di Kuala Lumpur, bukan pihak luar.
+
+""Dengan memberi peluang kepada warga kota memilih kepimpinan peneraju pentadbiran ibu kota, suara dan keperluan penduduk tempatan dapat diangkat dengan lebih berkesan,"" katanya. 
+
+Tambahnya, sistem pentadbiran Kuala Lumpur berbeza kerana tiada DUN dan bandar raya itu ditadbir oleh DBKL yang tidak dipilih rakyat.
+
+""Suara pengundi tidak sepatutnya dipinggirkan dalam pentadbiran Kuala Lumpur.
+
+""Jika pengundi di Merlimau berpeluang memilih seorang wakil rakyat yang kemudiannya dilantik menjadi ahli pentadbiran negeri mereka, maka warga ibu kota juga wajar mendapat peluang yang sama untuk memilih perwakilan dalam pentadbiran bandar raya ini,"" katanya.
+
+Sebelum ini, Pemuda UMNO menyatakan penolakan terhadap cadangan mengadakan pilihan raya bagi jawatan Datuk Bandar Kuala Lumpur.
+
+#BeritaKS",https://x.com/berita_ks/status/2018625632796848528,positive,2026-02-03 10:00:29+00:00,2,2,0,135,0.9985365688800811,5,6.135,,,positive,0.9951218962669373,malay,Malay/Bumiputera,anger,0.37085801362991333,0.13615070283412933,0.19454342126846313,0.29387611150741577,0.003225302789360285,0.0013464238727465272

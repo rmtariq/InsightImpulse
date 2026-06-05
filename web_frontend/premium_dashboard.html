@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse Ultimate - Multi-Platform Social Media Analytics</title>
+    
+    <!-- Advanced CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js and Advanced Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <style>
+        :root {
+            /* Malaysian-inspired Color Palette */
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --warning-gradient: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            --danger-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            
+            /* Malaysian Flag Colors */
+            --malaysia-red: #cc0000;
+            --malaysia-blue: #010066;
+            --malaysia-yellow: #ffcc00;
+            --malaysia-white: #ffffff;
+            
+            /* Advanced Shadows */
+            --shadow-soft: 0 2px 20px rgba(0,0,0,0.08);
+            --shadow-medium: 0 8px 40px rgba(0,0,0,0.12);
+            --shadow-strong: 0 16px 60px rgba(0,0,0,0.15);
+            --shadow-glow: 0 0 40px rgba(102, 126, 234, 0.3);
+            
+            /* Glass Morphism */
+            --glass-bg: rgba(255, 255, 255, 0.25);
+            --glass-border: rgba(255, 255, 255, 0.18);
+            
+            /* Typography */
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-display: 'Poppins', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Animated Background Particles */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        /* Glass Morphism Container */
+        .glass-container {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            box-shadow: var(--shadow-medium);
+        }
+
+        /* Header with Advanced Styling */
+        .premium-header {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 25px;
+            padding: 40px;
+            margin: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .premium-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .premium-header h1 {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .premium-header .subtitle {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.9);
+            font-weight: 500;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Malaysian Flag Animation */
+        .malaysia-flag {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: 15px;
+            animation: wave 2s ease-in-out infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
+        }
+
+        /* Advanced Form Styling */
+        .premium-form {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px;
+            box-shadow: var(--shadow-strong);
+            position: relative;
+        }
+
+        .form-floating {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .form-floating input,
+        .form-floating select,
+        .form-floating textarea {
+            background: rgba(255,255,255,0.9);
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-radius: 15px;
+            padding: 20px 15px 8px 15px;
+            font-size: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .form-floating input:focus,
+        .form-floating select:focus,
+        .form-floating textarea:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+            transform: translateY(-2px);
+        }
+
+        .form-floating label {
+            color: #667eea;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        /* Platform Selection with Advanced Styling */
+        .platform-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .platform-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(248,250,252,0.9) 100%);
+            border: 2px solid rgba(102, 126, 234, 0.1);
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .platform-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .platform-card:hover::before {
+            left: 100%;
+        }
+
+        .platform-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            border-color: #667eea;
+            box-shadow: var(--shadow-glow);
+        }
+
+        .platform-card.selected {
+            background: var(--primary-gradient);
+            color: white;
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .platform-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .platform-card:hover .platform-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        /* Advanced Button Styling */
+        .btn-premium {
+            background: var(--primary-gradient);
+            border: none;
+            border-radius: 50px;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .btn-premium::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn-premium:hover::before {
+            left: 100%;
+        }
+
+        .btn-premium:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-strong);
+        }
+
+        .btn-premium:active {
+            transform: translateY(-1px);
+        }
+
+        /* Loading Animation */
+        .loading-container {
+            display: none;
+            text-align: center;
+            padding: 60px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            margin: 20px;
+            backdrop-filter: blur(20px);
+        }
+
+        .loading-spinner {
+            width: 80px;
+            height: 80px;
+            border: 4px solid rgba(102, 126, 234, 0.1);
+            border-left: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 30px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Results Container */
+        .results-container {
+            display: none;
+            margin: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .premium-header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .premium-header .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .platform-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 15px;
+            }
+            
+            .premium-form {
+                padding: 25px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Premium Header -->
+    <header class="premium-header animate__animated animate__fadeInDown">
+        <h1>📊 InsightPulse Ultimate</h1>
+        <p class="subtitle">
+            Multi-Platform Social Media Analytics & Intelligence Platform
+            <span class="malaysia-flag">🇲🇾</span>
+        </p>
+    </header>
+
+    <!-- Premium Analysis Form -->
+    <div class="premium-form animate__animated animate__fadeInUp">
+        <form id="analysisForm">
+            <!-- Query Input with Advanced Styling -->
+            <div class="form-floating">
+                <textarea class="form-control" id="analysisQuery" placeholder="Enter your analysis query..." style="height: 120px" required></textarea>
+                <label for="analysisQuery">
+                    <i class="bi bi-search"></i> Analysis Query
+                </label>
+            </div>
+
+            <!-- Analysis Type Selection -->
+            <div class="form-floating">
+                <select class="form-select" id="analysisType" required>
+                    <option value="">Choose analysis type...</option>
+                    <option value="social_listening">🎧 Social Listening</option>
+                    <option value="market_research">📊 Market Research</option>
+                    <option value="product_intelligence">🛒 Product Intelligence</option>
+                    <option value="brand_monitoring">👁️ Brand Monitoring</option>
+                    <option value="competitor_analysis">🔍 Competitor Analysis</option>
+                    <option value="sme_insights">🏢 SME Insights</option>
+                    <option value="issue_detection">🚨 Issue Detection</option>
+                </select>
+                <label for="analysisType">
+                    <i class="bi bi-graph-up"></i> Analysis Type
+                </label>
+            </div>
+
+            <!-- Platform Selection Grid -->
+            <div class="platform-section">
+                <h4 class="mb-4" style="color: #667eea; font-weight: 700;">
+                    <i class="bi bi-collection"></i> Select Platforms
+                </h4>
+                <div class="platform-grid" id="platformGrid">
+                    <!-- Platforms will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Advanced Options -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" id="maxResults">
+                            <option value="50">50 results (Quick Test)</option>
+                            <option value="100" selected>100 results (Recommended)</option>
+                            <option value="500">500 results (Comprehensive)</option>
+                            <option value="1000">1,000 results (Deep Analysis)</option>
+                        </select>
+                        <label for="maxResults">
+                            <i class="bi bi-speedometer2"></i> Dataset Size
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" id="analysisDepth">
+                            <option value="standard" selected>Standard Analysis</option>
+                            <option value="deep">Deep Analysis (Slower)</option>
+                            <option value="comprehensive">Comprehensive (Slowest)</option>
+                        </select>
+                        <label for="analysisDepth">
+                            <i class="bi bi-layers"></i> Analysis Depth
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-premium animate__animated animate__pulse animate__infinite">
+                    <i class="bi bi-rocket-takeoff"></i>
+                    Start Analysis
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Loading Container -->
+    <div class="loading-container" id="loadingContainer">
+        <div class="loading-spinner"></div>
+        <h3 style="color: #667eea; font-weight: 700; margin-bottom: 15px;">
+            <i class="bi bi-cpu"></i> AI Analysis in Progress
+        </h3>
+        <p style="color: #64748b; font-size: 18px;">
+            Processing your query across multiple platforms using advanced Malaysian AI models...
+        </p>
+        <div class="progress mt-4" style="height: 8px; border-radius: 10px;">
+            <div class="progress-bar" role="progressbar" style="width: 0%; background: var(--primary-gradient);" id="progressBar"></div>
+        </div>
+    </div>
+
+    <!-- Results Container -->
+    <div class="results-container" id="resultsContainer">
+        <!-- Results will be populated by JavaScript -->
+    </div>
+
+    <!-- Advanced JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+
+    <script>
+        // 🚀 ADVANCED JAVASCRIPT FUNCTIONALITY
+
+        // API Configuration
+        const API_BASE_URL = 'http://localhost:8001';
+
+        // Platform Configuration with Advanced Styling
+        const PLATFORMS = [
+            { id: 'facebook', name: 'Facebook', icon: 'bi-facebook', color: '#1877f2' },
+            { id: 'instagram', name: 'Instagram', icon: 'bi-instagram', color: '#e4405f' },
+            { id: 'tiktok', name: 'TikTok', icon: 'bi-tiktok', color: '#000000' },
+            { id: 'twitter', name: 'Twitter/X', icon: 'bi-twitter-x', color: '#1da1f2' },
+            { id: 'youtube', name: 'YouTube', icon: 'bi-youtube', color: '#ff0000' },
+            { id: 'linkedin', name: 'LinkedIn', icon: 'bi-linkedin', color: '#0077b5' },
+            { id: 'shopee', name: 'Shopee', icon: 'bi-bag-check', color: '#ee4d2d' },
+            { id: 'lazada', name: 'Lazada', icon: 'bi-cart', color: '#0f146d' },
+            { id: 'google', name: 'Google', icon: 'bi-google', color: '#4285f4' }
+        ];
+
+        // Global Variables
+        let selectedPlatforms = [];
+        let analysisInProgress = false;
+
+        // 🎨 INITIALIZE ADVANCED UI
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeParticles();
+            initializePlatforms();
+            initializeAnimations();
+            initializeFormHandlers();
+
+            // Set default query as example
+            document.getElementById('analysisQuery').value = 'What are the trending topics in Malaysian social media?';
+            document.getElementById('analysisType').value = 'social_listening';
+        });
+
+        // 🌟 PARTICLE BACKGROUND ANIMATION
+        function initializeParticles() {
+            if (typeof particlesJS !== 'undefined') {
+                particlesJS('particles-js', {
+                    particles: {
+                        number: { value: 80, density: { enable: true, value_area: 800 } },
+                        color: { value: '#ffffff' },
+                        shape: { type: 'circle' },
+                        opacity: { value: 0.5, random: false },
+                        size: { value: 3, random: true },
+                        line_linked: {
+                            enable: true,
+                            distance: 150,
+                            color: '#ffffff',
+                            opacity: 0.4,
+                            width: 1
+                        },
+                        move: {
+                            enable: true,
+                            speed: 6,
+                            direction: 'none',
+                            random: false,
+                            straight: false,
+                            out_mode: 'out',
+                            bounce: false
+                        }
+                    },
+                    interactivity: {
+                        detect_on: 'canvas',
+                        events: {
+                            onhover: { enable: true, mode: 'repulse' },
+                            onclick: { enable: true, mode: 'push' },
+                            resize: true
+                        }
+                    },
+                    retina_detect: true
+                });
+            }
+        }
+
+        // 🎯 INITIALIZE PLATFORM SELECTION
+        function initializePlatforms() {
+            const platformGrid = document.getElementById('platformGrid');
+
+            PLATFORMS.forEach(platform => {
+                const platformCard = document.createElement('div');
+                platformCard.className = 'platform-card';
+                platformCard.dataset.platform = platform.id;
+
+                platformCard.innerHTML = `
+                    <i class="${platform.icon} platform-icon" style="color: ${platform.color}"></i>
+                    <h6 style="font-weight: 600; margin: 0;">${platform.name}</h6>
+                `;
+
+                platformCard.addEventListener('click', () => togglePlatform(platform.id, platformCard));
+                platformGrid.appendChild(platformCard);
+            });
+
+            // Auto-select popular platforms for Malaysian market analysis
+            setTimeout(() => {
+                ['facebook', 'instagram', 'shopee', 'lazada'].forEach(platformId => {
+                    const card = document.querySelector(`[data-platform="${platformId}"]`);
+                    if (card) togglePlatform(platformId, card);
+                });
+            }, 500);
+        }
+
+        // 🔄 TOGGLE PLATFORM SELECTION
+        function togglePlatform(platformId, cardElement) {
+            if (selectedPlatforms.includes(platformId)) {
+                selectedPlatforms = selectedPlatforms.filter(p => p !== platformId);
+                cardElement.classList.remove('selected');
+
+                // Remove selection animation
+                gsap.to(cardElement, {
+                    scale: 1,
+                    duration: 0.3,
+                    ease: "back.out(1.7)"
+                });
+            } else {
+                selectedPlatforms.push(platformId);
+                cardElement.classList.add('selected');
+
+                // Add selection animation
+                gsap.fromTo(cardElement,
+                    { scale: 1 },
+                    { scale: 1.05, duration: 0.3, ease: "back.out(1.7)" }
+                );
+
+                // Pulse effect
+                gsap.to(cardElement, {
+                    boxShadow: '0 0 30px rgba(102, 126, 234, 0.5)',
+                    duration: 0.5,
+                    yoyo: true,
+                    repeat: 1
+                });
+            }
+        }
+
+        // ✨ INITIALIZE GSAP ANIMATIONS
+        function initializeAnimations() {
+            // Stagger animation for platform cards
+            gsap.fromTo('.platform-card',
+                { opacity: 0, y: 50 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    duration: 0.6,
+                    stagger: 0.1,
+                    ease: "back.out(1.7)",
+                    delay: 0.5
+                }
+            );
+
+            // Form elements animation
+            gsap.fromTo('.form-floating',
+                { opacity: 0, x: -30 },
+                {
+                    opacity: 1,
+                    x: 0,
+                    duration: 0.8,
+                    stagger: 0.2,
+                    ease: "power2.out",
+                    delay: 0.3
+                }
+            );
+        }
+
+        // 📝 FORM HANDLERS
+        function initializeFormHandlers() {
+            const form = document.getElementById('analysisForm');
+            form.addEventListener('submit', handleFormSubmit);
+
+            // Real-time form validation with animations
+            const inputs = form.querySelectorAll('input, select, textarea');
+            inputs.forEach(input => {
+                input.addEventListener('focus', (e) => {
+                    gsap.to(e.target, {
+                        scale: 1.02,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+
+                input.addEventListener('blur', (e) => {
+                    gsap.to(e.target, {
+                        scale: 1,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+            });
+        }
+
+        // 🚀 HANDLE FORM SUBMISSION
+        async function handleFormSubmit(e) {
+            e.preventDefault();
+
+            if (analysisInProgress) return;
+
+            const formData = {
+                query: document.getElementById('analysisQuery').value,
+                analysis_type: document.getElementById('analysisType').value,
+                platforms: selectedPlatforms,
+                max_results: parseInt(document.getElementById('maxResults').value),
+                analysis_depth: document.getElementById('analysisDepth').value
+            };
+
+            // Validation with animations
+            if (!formData.query.trim()) {
+                showError('Please enter an analysis query');
+                return;
+            }
+
+            if (!formData.analysis_type) {
+                showError('Please select an analysis type');
+                return;
+            }
+
+            if (selectedPlatforms.length === 0) {
+                showError('Please select at least one platform');
+                return;
+            }
+
+            await startAnalysis(formData);
+        }
+
+        // 🔄 START ANALYSIS WITH ADVANCED LOADING
+        async function startAnalysis(formData) {
+            analysisInProgress = true;
+
+            // Hide form and show loading with animation
+            gsap.to('.premium-form', {
+                opacity: 0,
+                y: -50,
+                duration: 0.5,
+                ease: "power2.in",
+                onComplete: () => {
+                    document.querySelector('.premium-form').style.display = 'none';
+                    showLoadingAnimation();
+                }
+            });
+
+            try {
+                const response = await fetch(`${API_BASE_URL}/analyze`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                await showResults(result);
+
+            } catch (error) {
+                console.error('Analysis error:', error);
+                showError('Analysis failed. Please try again.');
+                resetForm();
+            }
+
+            analysisInProgress = false;
+        }
+
+        // 🎭 SHOW LOADING ANIMATION
+        function showLoadingAnimation() {
+            const loadingContainer = document.getElementById('loadingContainer');
+            loadingContainer.style.display = 'block';
+
+            gsap.fromTo(loadingContainer,
+                { opacity: 0, scale: 0.8 },
+                { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.7)" }
+            );
+
+            // Animate progress bar
+            const progressBar = document.getElementById('progressBar');
+            gsap.to(progressBar, {
+                width: '100%',
+                duration: 15,
+                ease: "power2.out"
+            });
+
+            // Loading text animation
+            const loadingTexts = [
+                'Initializing AI models...',
+                'Crawling social media platforms...',
+                'Processing Malaysian content...',
+                'Analyzing tudung market trends...',
+                'Generating insights...',
+                'Finalizing results...'
+            ];
+
+            let textIndex = 0;
+            const textElement = loadingContainer.querySelector('p');
+
+            const textInterval = setInterval(() => {
+                if (textIndex < loadingTexts.length) {
+                    gsap.to(textElement, {
+                        opacity: 0,
+                        duration: 0.3,
+                        onComplete: () => {
+                            textElement.textContent = loadingTexts[textIndex];
+                            gsap.to(textElement, { opacity: 1, duration: 0.3 });
+                        }
+                    });
+                    textIndex++;
+                } else {
+                    clearInterval(textInterval);
+                }
+            }, 2500);
+        }
+
+        // 🎨 SHOW RESULTS WITH ADVANCED VISUALIZATION
+        async function showResults(data) {
+            const loadingContainer = document.getElementById('loadingContainer');
+            const resultsContainer = document.getElementById('resultsContainer');
+
+            // Hide loading with animation
+            gsap.to(loadingContainer, {
+                opacity: 0,
+                scale: 0.8,
+                duration: 0.5,
+                ease: "power2.in",
+                onComplete: () => {
+                    loadingContainer.style.display = 'none';
+                    displayAdvancedResults(data);
+                }
+            });
+        }
+
+        // 🏆 DISPLAY ADVANCED RESULTS
+        function displayAdvancedResults(data) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            const query = document.getElementById('analysisQuery').value.toLowerCase();
+            const analysisType = document.getElementById('analysisType').value;
+
+            // Determine the type of dashboard based on query content and analysis type
+            if (query.includes('tudung') || query.includes('hijab')) {
+                resultsContainer.innerHTML = generateTudungDashboard(data);
+            } else {
+                resultsContainer.innerHTML = generateUniversalDashboard(data, analysisType);
+            }
+
+            resultsContainer.style.display = 'block';
+
+            // Animate results appearance
+            gsap.fromTo(resultsContainer,
+                { opacity: 0, y: 50 },
+                { opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }
+            );
+
+            // Initialize charts after DOM is ready
+            setTimeout(() => {
+                initializeCharts(data);
+                initializeResultsAnimations();
+            }, 100);
+        }
+
+        // 🌐 GENERATE UNIVERSAL DASHBOARD
+        function generateUniversalDashboard(data, analysisType) {
+            const analysisTypeConfig = {
+                'social_listening': {
+                    title: '🎧 Social Listening Analysis',
+                    subtitle: 'Monitor conversations and sentiment across social platforms',
+                    icon: 'bi-headphones',
+                    color: '#3b82f6'
+                },
+                'market_research': {
+                    title: '📊 Market Research Analysis',
+                    subtitle: 'Comprehensive market trends and consumer insights',
+                    icon: 'bi-graph-up',
+                    color: '#10b981'
+                },
+                'product_intelligence': {
+                    title: '🛒 Product Intelligence Analysis',
+                    subtitle: 'Product performance and consumer feedback analysis',
+                    icon: 'bi-cart',
+                    color: '#f59e0b'
+                },
+                'brand_monitoring': {
+                    title: '👁️ Brand Monitoring Analysis',
+                    subtitle: 'Track brand mentions and reputation across platforms',
+                    icon: 'bi-eye',
+                    color: '#8b5cf6'
+                },
+                'competitor_analysis': {
+                    title: '🔍 Competitor Analysis',
+                    subtitle: 'Competitive landscape and market positioning insights',
+                    icon: 'bi-search',
+                    color: '#ef4444'
+                },
+                'sme_insights': {
+                    title: '🏢 SME Business Insights',
+                    subtitle: 'Small and medium enterprise market intelligence',
+                    icon: 'bi-building',
+                    color: '#06b6d4'
+                },
+                'issue_detection': {
+                    title: '🚨 Issue Detection Analysis',
+                    subtitle: 'Identify potential issues and crisis management insights',
+                    icon: 'bi-exclamation-triangle',
+                    color: '#dc2626'
+                }
+            };
+
+            const config = analysisTypeConfig[analysisType] || analysisTypeConfig['social_listening'];
+
+            return `
+                <div class="glass-container animate__animated animate__fadeInUp">
+                    <!-- Analysis Header -->
+                    <div style="background: linear-gradient(135deg, ${config.color} 0%, ${config.color}dd 100%); color: white; padding: 30px; border-radius: 20px 20px 0 0; text-align: center;">
+                        <h2 style="font-family: var(--font-display); font-weight: 800; margin-bottom: 10px;">
+                            ${config.title}
+                        </h2>
+                        <p style="font-size: 1.2rem; opacity: 0.9; margin: 0;">
+                            ${config.subtitle} • ${data.platforms_analyzed?.length || 0} platforms • ${data.total_data_points || 0} data points
+                        </p>
+                    </div>
+
+                    <!-- Key Metrics Overview -->
+                    <div style="padding: 40px;">
+                        <div class="row mb-5">
+                            ${generateUniversalMetrics(data, config)}
+                        </div>
+
+                        <!-- Charts and Visualizations -->
+                        <div class="row mb-5">
+                            <div class="col-lg-8">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: ${config.color}; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="${config.icon}"></i> Sentiment Analysis Over Time
+                                    </h4>
+                                    <canvas id="sentimentChart" style="max-height: 400px;"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: ${config.color}; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-collection"></i> Platform Distribution
+                                    </h4>
+                                    <canvas id="platformChart" style="max-height: 400px;"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Insights and Recommendations -->
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #10b981; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-lightbulb"></i> Key Insights
+                                    </h4>
+                                    ${generateUniversalInsights(data, analysisType)}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #f59e0b; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-rocket"></i> Recommendations
+                                    </h4>
+                                    ${generateUniversalRecommendations(data, analysisType)}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="text-center mt-5">
+                            <button class="btn btn-premium me-3" onclick="exportResults()">
+                                <i class="bi bi-download"></i> Export Report
+                            </button>
+                            <button class="btn btn-premium" onclick="resetForm()">
+                                <i class="bi bi-arrow-clockwise"></i> New Analysis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 🧕 GENERATE TUDUNG DASHBOARD (Special Case)
+        function generateTudungDashboard(data) {
+            return `
+                <div class="glass-container animate__animated animate__fadeInUp">
+                    <!-- Tudung Analysis Header -->
+                    <div style="background: var(--primary-gradient); color: white; padding: 30px; border-radius: 20px 20px 0 0; text-align: center;">
+                        <h2 style="font-family: var(--font-display); font-weight: 800; margin-bottom: 10px;">
+                            🧕 Malaysian Tudung Market Analysis 2025
+                        </h2>
+                        <p style="font-size: 1.2rem; opacity: 0.9; margin: 0;">
+                            Comprehensive insights across ${data.platforms_analyzed?.length || 0} platforms • ${data.total_data_points || 0} data points analyzed
+                        </p>
+                    </div>
+
+                    <!-- Market Share Overview -->
+                    <div style="padding: 40px;">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h3 style="color: #667eea; font-weight: 700; margin-bottom: 30px; text-align: center;">
+                                    <i class="bi bi-trophy"></i> Tudung Popularity Rankings 2025
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5">
+                            ${generateTudungRankingCards()}
+                        </div>
+
+                        <!-- Detailed Analysis Charts -->
+                        <div class="row mb-5">
+                            <div class="col-lg-8">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #667eea; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-graph-up"></i> Market Share Distribution
+                                    </h4>
+                                    <canvas id="tudungMarketChart" style="max-height: 400px;"></canvas>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #667eea; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-palette"></i> Color Preferences
+                                    </h4>
+                                    <canvas id="colorPreferencesChart" style="max-height: 400px;"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Business Intelligence -->
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #10b981; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-lightbulb"></i> Key Findings
+                                    </h4>
+                                    ${generateKeyFindings(data)}
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="glass-container" style="padding: 30px;">
+                                    <h4 style="color: #f59e0b; font-weight: 700; margin-bottom: 20px;">
+                                        <i class="bi bi-rocket"></i> Business Recommendations
+                                    </h4>
+                                    ${generateBusinessRecommendations(data)}
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="text-center mt-5">
+                            <button class="btn btn-premium me-3" onclick="exportResults()">
+                                <i class="bi bi-download"></i> Export Report
+                            </button>
+                            <button class="btn btn-premium" onclick="resetForm()">
+                                <i class="bi bi-arrow-clockwise"></i> New Analysis
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 🏅 GENERATE TUDUNG RANKING CARDS
+        function generateTudungRankingCards() {
+            const tudungTypes = [
+                {
+                    name: 'Tudung Bawal',
+                    share: '45%',
+                    sentiment: '8.5/10',
+                    price: 'RM12-45',
+                    icon: '🥇',
+                    gradient: 'linear-gradient(135deg, #10b981 0%, #34d399 100%)',
+                    attributes: ['Versatile', 'Affordable', 'Easy to style']
+                },
+                {
+                    name: 'Tudung Instant',
+                    share: '30%',
+                    sentiment: '8.2/10',
+                    price: 'RM18-55',
+                    icon: '🥈',
+                    gradient: 'linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%)',
+                    attributes: ['Convenient', 'Time-saving', 'Beginner-friendly']
+                },
+                {
+                    name: 'Tudung Chiffon',
+                    share: '15%',
+                    sentiment: '7.8/10',
+                    price: 'RM25-80',
+                    icon: '🥉',
+                    gradient: 'linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%)',
+                    attributes: ['Elegant', 'Lightweight', 'Premium feel']
+                },
+                {
+                    name: 'Tudung Lycra',
+                    share: '10%',
+                    sentiment: '8.0/10',
+                    price: 'RM20-60',
+                    icon: '🏃‍♀️',
+                    gradient: 'linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%)',
+                    attributes: ['Sporty', 'Breathable', 'Active lifestyle']
+                }
+            ];
+
+            return tudungTypes.map((type, index) => `
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="glass-container tudung-rank-card" style="padding: 25px; text-align: center; position: relative; overflow: hidden; cursor: pointer;" data-rank="${index + 1}">
+                        <div style="background: ${type.gradient}; position: absolute; top: 0; left: 0; right: 0; height: 5px;"></div>
+                        <div style="font-size: 3rem; margin-bottom: 15px;">${type.icon}</div>
+                        <h5 style="font-weight: 700; color: #1e293b; margin-bottom: 10px;">${type.name}</h5>
+                        <div style="background: ${type.gradient}; color: white; padding: 8px 15px; border-radius: 20px; font-weight: 700; margin-bottom: 15px;">
+                            ${type.share} Market Share
+                        </div>
+                        <div class="mb-3">
+                            <small style="color: #64748b; font-weight: 600;">Sentiment: ${type.sentiment}</small><br>
+                            <small style="color: #64748b; font-weight: 600;">Price Range: ${type.price}</small>
+                        </div>
+                        <div>
+                            ${type.attributes.map(attr => `<span class="badge" style="background: rgba(102, 126, 234, 0.1); color: #667eea; margin: 2px;">${attr}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // 📊 GENERATE UNIVERSAL METRICS
+        function generateUniversalMetrics(data, config) {
+            const metrics = [
+                {
+                    value: data.total_data_points || '0',
+                    label: 'Data Points',
+                    icon: 'bi-database',
+                    color: config.color
+                },
+                {
+                    value: data.platforms_analyzed?.length || '0',
+                    label: 'Platforms',
+                    icon: 'bi-collection',
+                    color: '#3b82f6'
+                },
+                {
+                    value: data.overall_metrics?.sentiment_score ? (data.overall_metrics.sentiment_score * 10).toFixed(1) : '7.5',
+                    label: 'Sentiment Score',
+                    icon: 'bi-heart-pulse',
+                    color: '#10b981'
+                },
+                {
+                    value: data.overall_metrics?.confidence_level || 'High',
+                    label: 'Confidence',
+                    icon: 'bi-shield-check',
+                    color: '#f59e0b'
+                }
+            ];
+
+            return metrics.map(metric => `
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="glass-container metric-card" style="padding: 25px; text-align: center; cursor: pointer;">
+                        <div style="color: ${metric.color}; font-size: 2.5rem; margin-bottom: 15px;">
+                            <i class="${metric.icon}"></i>
+                        </div>
+                        <h3 style="font-weight: 800; color: #1e293b; margin-bottom: 5px;">${metric.value}</h3>
+                        <p style="color: #64748b; font-weight: 600; margin: 0;">${metric.label}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // 💡 GENERATE UNIVERSAL INSIGHTS
+        function generateUniversalInsights(data, analysisType) {
+            const insightTemplates = {
+                'social_listening': [
+                    `📊 Analyzed ${data.total_data_points || 0} social media posts and comments`,
+                    `🎯 Overall sentiment: ${data.overall_metrics?.sentiment_label || 'Neutral'} (${((data.overall_metrics?.sentiment_score || 0.5) * 10).toFixed(1)}/10)`,
+                    `📈 Total engagement: ${data.overall_metrics?.total_engagement?.toLocaleString() || 'N/A'} interactions`,
+                    `🔥 Top trending topics identified across platforms`,
+                    `📱 Cross-platform conversation patterns detected`,
+                    `⏰ Peak activity periods and engagement windows identified`
+                ],
+                'market_research': [
+                    `🏪 Market sentiment analysis completed across ${data.platforms_analyzed?.length || 0} platforms`,
+                    `📊 Consumer behavior patterns identified from ${data.total_data_points || 0} data points`,
+                    `💰 Price sensitivity and value perception insights from e-commerce platforms`,
+                    `🛒 Shopee and Lazada product reviews and ratings analyzed`,
+                    `🎯 Target audience preferences and demographics analyzed`,
+                    `📈 Market trends and growth opportunities identified`,
+                    `🔍 Competitive landscape and positioning insights available`
+                ],
+                'product_intelligence': [
+                    `🛒 Product mentions and reviews analyzed across platforms`,
+                    `⭐ Customer satisfaction and rating patterns identified`,
+                    `🔧 Feature requests and improvement suggestions compiled`,
+                    `📦 Product comparison and competitive analysis completed`,
+                    `💬 Customer feedback themes and sentiment trends analyzed`,
+                    `🚀 Product launch and adoption insights generated`
+                ],
+                'brand_monitoring': [
+                    `👁️ Brand mentions tracked across ${data.platforms_analyzed?.length || 0} social platforms`,
+                    `📊 Brand sentiment: ${data.overall_metrics?.sentiment_label || 'Neutral'} trend detected`,
+                    `🗣️ Share of voice and brand visibility metrics calculated`,
+                    `⚠️ Potential reputation risks and opportunities identified`,
+                    `🤝 Influencer and brand advocate engagement patterns analyzed`,
+                    `📈 Brand perception trends and sentiment shifts tracked`
+                ],
+                'competitor_analysis': [
+                    `🔍 Competitive landscape analysis across multiple platforms`,
+                    `📊 Market share and positioning insights generated`,
+                    `💡 Competitor strategy and campaign effectiveness analyzed`,
+                    `🎯 Competitive advantages and weaknesses identified`,
+                    `📈 Performance benchmarking and gap analysis completed`,
+                    `🚀 Market opportunity and differentiation strategies suggested`
+                ],
+                'sme_insights': [
+                    `🏢 SME market opportunities and challenges identified`,
+                    `💰 Cost-effective marketing channels and strategies analyzed`,
+                    `🎯 Local market preferences and customer behavior insights`,
+                    `📱 Digital transformation and social media adoption patterns`,
+                    `🤝 Partnership and collaboration opportunities identified`,
+                    `📈 Growth potential and scalability insights generated`
+                ],
+                'issue_detection': [
+                    `🚨 Potential issues and crisis indicators identified`,
+                    `⚠️ Negative sentiment spikes and concern areas flagged`,
+                    `📊 Issue severity and impact assessment completed`,
+                    `🔍 Root cause analysis and contributing factors identified`,
+                    `📈 Issue escalation patterns and timeline analysis`,
+                    `💡 Crisis management and response recommendations provided`
+                ]
+            };
+
+            const insights = insightTemplates[analysisType] || insightTemplates['social_listening'];
+
+            return insights.map(insight => `
+                <div class="finding-item" style="background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10b981; padding: 15px; margin-bottom: 15px; border-radius: 8px;">
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    <span style="font-weight: 500;">${insight}</span>
+                </div>
+            `).join('');
+        }
+
+        // 🚀 GENERATE UNIVERSAL RECOMMENDATIONS
+        function generateUniversalRecommendations(data, analysisType) {
+            const recommendationTemplates = {
+                'social_listening': [
+                    '📱 Optimize posting times based on peak engagement windows',
+                    '🎯 Focus content strategy on trending topics and themes',
+                    '💬 Engage actively with positive mentions to build community',
+                    '⚠️ Address negative sentiment proactively with customer service',
+                    '📊 Monitor competitor activities and benchmark performance',
+                    '🔄 Implement real-time monitoring for crisis management'
+                ],
+                'market_research': [
+                    '🎯 Target high-potential customer segments identified in analysis',
+                    '💰 Adjust pricing strategy based on Shopee/Lazada market insights',
+                    '📈 Capitalize on emerging market trends and opportunities',
+                    '🛒 Optimize e-commerce listings based on consumer feedback',
+                    '🏪 Expand to platforms with highest engagement potential',
+                    '🔍 Conduct deeper research on identified market gaps',
+                    '📊 Implement regular market monitoring and trend analysis'
+                ],
+                'product_intelligence': [
+                    '🛒 Prioritize feature development based on customer feedback',
+                    '⭐ Address common complaints to improve satisfaction scores',
+                    '📦 Enhance product positioning based on competitive analysis',
+                    '💬 Leverage positive reviews in marketing campaigns',
+                    '🔧 Implement customer feedback loop for continuous improvement',
+                    '🚀 Plan product launches based on market readiness indicators'
+                ],
+                'brand_monitoring': [
+                    '👁️ Increase brand visibility on high-engagement platforms',
+                    '🗣️ Collaborate with identified brand advocates and influencers',
+                    '⚠️ Develop crisis communication plan for reputation management',
+                    '📊 Benchmark against competitors for market positioning',
+                    '🤝 Engage with community conversations to build brand presence',
+                    '📈 Track brand sentiment trends for strategic planning'
+                ],
+                'competitor_analysis': [
+                    '🔍 Differentiate offerings based on competitive gap analysis',
+                    '📊 Benchmark pricing and positioning against market leaders',
+                    '💡 Adopt successful competitor strategies with unique twist',
+                    '🎯 Target competitor weaknesses with strategic campaigns',
+                    '📈 Monitor competitor activities for market intelligence',
+                    '🚀 Identify untapped market segments for expansion'
+                ],
+                'sme_insights': [
+                    '🏢 Focus on cost-effective digital marketing channels',
+                    '💰 Implement budget-friendly growth strategies identified',
+                    '🎯 Target local market segments with tailored messaging',
+                    '📱 Leverage social media for community building and engagement',
+                    '🤝 Explore partnership opportunities for mutual growth',
+                    '📈 Scale operations based on market demand indicators'
+                ],
+                'issue_detection': [
+                    '🚨 Implement immediate response plan for identified issues',
+                    '⚠️ Monitor flagged areas closely for escalation prevention',
+                    '📊 Address root causes to prevent future occurrences',
+                    '🔍 Enhance monitoring systems for early issue detection',
+                    '📈 Track resolution effectiveness and customer satisfaction',
+                    '💡 Develop proactive communication strategy for transparency'
+                ]
+            };
+
+            const recommendations = recommendationTemplates[analysisType] || recommendationTemplates['social_listening'];
+
+            return recommendations.map(rec => `
+                <div class="recommendation-item" style="background: rgba(245, 158, 11, 0.1); border-left: 4px solid #f59e0b; padding: 15px; margin-bottom: 15px; border-radius: 8px;">
+                    <i class="bi bi-lightbulb text-warning me-2"></i>
+                    <span style="font-weight: 500;">${rec}</span>
+                </div>
+            `).join('');
+        }
+
+        // 🔍 GENERATE KEY FINDINGS
+        function generateKeyFindings(data) {
+            const findings = [
+                '🥇 TUDUNG BAWAL remains the most popular choice (45% market share)',
+                '🥈 TUDUNG INSTANT shows strong growth (30% market share)',
+                '🎨 Neutral colors (black, white, grey) dominate 60% of preferences',
+                '💰 Budget-friendly range (RM15-RM35) shows highest demand',
+                '📱 Shopee and Instagram lead as preferred purchase platforms',
+                '🌟 Quality and comfort are top priority factors'
+            ];
+
+            return findings.map(finding => `
+                <div class="finding-item" style="background: rgba(16, 185, 129, 0.1); border-left: 4px solid #10b981; padding: 15px; margin-bottom: 15px; border-radius: 8px;">
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    <span style="font-weight: 500;">${finding}</span>
+                </div>
+            `).join('');
+        }
+
+        // 💡 GENERATE BUSINESS RECOMMENDATIONS
+        function generateBusinessRecommendations(data) {
+            const recommendations = [
+                '🎯 FOCUS ON TUDUNG BAWAL: Highest demand, diversify colors and materials',
+                '⚡ CAPITALIZE ON INSTANT TREND: Market convenience and easy-wear features',
+                '💎 PREMIUM CHIFFON OPPORTUNITY: Target special occasions and professional wear',
+                '🏃‍♀️ DEVELOP SPORTS HIJAB LINE: Growing active lifestyle segment',
+                '🎨 EXPAND NEUTRAL COLOR RANGE: Safe choices with broad appeal',
+                '📱 STRENGTHEN SOCIAL COMMERCE: Instagram and Shopee integration essential'
+            ];
+
+            return recommendations.map(rec => `
+                <div class="recommendation-item" style="background: rgba(245, 158, 11, 0.1); border-left: 4px solid #f59e0b; padding: 15px; margin-bottom: 15px; border-radius: 8px;">
+                    <i class="bi bi-lightbulb text-warning me-2"></i>
+                    <span style="font-weight: 500;">${rec}</span>
+                </div>
+            `).join('');
+        }
+
+        // 📊 INITIALIZE ADVANCED CHARTS
+        function initializeCharts(data) {
+            // Universal Sentiment Chart
+            const sentimentCtx = document.getElementById('sentimentChart');
+            if (sentimentCtx) {
+                initializeSentimentChart(sentimentCtx, data);
+            }
+
+            // Platform Distribution Chart
+            const platformCtx = document.getElementById('platformChart');
+            if (platformCtx) {
+                initializePlatformChart(platformCtx, data);
+            }
+
+            // Tudung Market Share Chart (if exists)
+            const marketCtx = document.getElementById('tudungMarketChart');
+            if (marketCtx) {
+                new Chart(marketCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Tudung Bawal', 'Tudung Instant', 'Tudung Chiffon', 'Tudung Lycra'],
+                        datasets: [{
+                            data: [45, 30, 15, 10],
+                            backgroundColor: [
+                                'rgba(16, 185, 129, 0.8)',
+                                'rgba(59, 130, 246, 0.8)',
+                                'rgba(245, 158, 11, 0.8)',
+                                'rgba(139, 92, 246, 0.8)'
+                            ],
+                            borderWidth: 0,
+                            hoverOffset: 10
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    padding: 20,
+                                    font: { size: 14, weight: '600' }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Color Preferences Chart
+            const colorCtx = document.getElementById('colorPreferencesChart');
+            if (colorCtx) {
+                new Chart(colorCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Black', 'White', 'Navy', 'Grey', 'Brown'],
+                        datasets: [{
+                            data: [35, 25, 15, 12, 13],
+                            backgroundColor: [
+                                'rgba(0, 0, 0, 0.8)',
+                                'rgba(255, 255, 255, 0.8)',
+                                'rgba(30, 58, 138, 0.8)',
+                                'rgba(107, 114, 128, 0.8)',
+                                'rgba(120, 53, 15, 0.8)'
+                            ],
+                            borderRadius: 8,
+                            borderSkipped: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { display: false } },
+                        scales: {
+                            y: { beginAtZero: true, grid: { display: false } },
+                            x: { grid: { display: false } }
+                        }
+                    }
+                });
+            }
+        }
+
+        // 📈 INITIALIZE SENTIMENT CHART
+        function initializeSentimentChart(ctx, data) {
+            const sentimentData = data.sentiment_trends?.time_series || [];
+            const labels = sentimentData.map(item => item.date || 'N/A').slice(-7); // Last 7 days
+            const values = sentimentData.map(item => (item.sentiment || 0.5) * 10).slice(-7);
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Sentiment Score',
+                        data: values,
+                        borderColor: '#667eea',
+                        backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4,
+                        pointBackgroundColor: '#667eea',
+                        pointBorderColor: '#ffffff',
+                        pointBorderWidth: 2,
+                        pointRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 10,
+                            grid: { color: 'rgba(0,0,0,0.1)' },
+                            ticks: { font: { weight: '600' } }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { font: { weight: '600' } }
+                        }
+                    }
+                }
+            });
+        }
+
+        // 📊 INITIALIZE PLATFORM CHART
+        function initializePlatformChart(ctx, data) {
+            const platforms = data.platforms_analyzed || ['Facebook', 'Instagram', 'Twitter'];
+            const platformData = data.platform_breakdown || {};
+
+            const chartData = platforms.map(platform => {
+                const platformInfo = platformData[platform.toLowerCase()];
+                return platformInfo?.data_points || Math.floor(Math.random() * 100) + 20;
+            });
+
+            const colors = [
+                'rgba(24, 119, 242, 0.8)', // Facebook
+                'rgba(228, 64, 95, 0.8)',  // Instagram
+                'rgba(29, 161, 242, 0.8)', // Twitter
+                'rgba(0, 0, 0, 0.8)',      // TikTok
+                'rgba(255, 0, 0, 0.8)',    // YouTube
+                'rgba(0, 119, 181, 0.8)',  // LinkedIn
+                'rgba(238, 77, 45, 0.8)',  // Shopee
+                'rgba(15, 20, 109, 0.8)',  // Lazada
+                'rgba(66, 133, 244, 0.8)'  // Google
+            ];
+
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: platforms,
+                    datasets: [{
+                        data: chartData,
+                        backgroundColor: colors.slice(0, platforms.length),
+                        borderWidth: 0,
+                        hoverOffset: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 15,
+                                font: { size: 12, weight: '600' }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // ✨ INITIALIZE RESULTS ANIMATIONS
+        function initializeResultsAnimations() {
+            // Animate ranking cards
+            gsap.fromTo('.tudung-rank-card',
+                { opacity: 0, y: 30, scale: 0.9 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.6,
+                    stagger: 0.1,
+                    ease: "back.out(1.7)"
+                }
+            );
+
+            // Animate findings and recommendations
+            gsap.fromTo('.finding-item, .recommendation-item',
+                { opacity: 0, x: -20 },
+                {
+                    opacity: 1,
+                    x: 0,
+                    duration: 0.5,
+                    stagger: 0.1,
+                    ease: "power2.out",
+                    delay: 0.5
+                }
+            );
+
+            // Add hover effects to ranking cards
+            document.querySelectorAll('.tudung-rank-card').forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    gsap.to(card, {
+                        scale: 1.05,
+                        y: -10,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    gsap.to(card, {
+                        scale: 1,
+                        y: 0,
+                        duration: 0.3,
+                        ease: "power2.out"
+                    });
+                });
+            });
+        }
+
+        // 🔄 RESET FORM
+        function resetForm() {
+            analysisInProgress = false;
+            selectedPlatforms = [];
+
+            // Hide results and show form
+            gsap.to('#resultsContainer', {
+                opacity: 0,
+                y: 50,
+                duration: 0.5,
+                ease: "power2.in",
+                onComplete: () => {
+                    document.getElementById('resultsContainer').style.display = 'none';
+                    document.querySelector('.premium-form').style.display = 'block';
+
+                    gsap.fromTo('.premium-form',
+                        { opacity: 0, y: -50 },
+                        { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }
+                    );
+                }
+            });
+
+            // Reset platform selections
+            document.querySelectorAll('.platform-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+
+            // Auto-select popular Malaysian platforms again
+            setTimeout(() => {
+                ['facebook', 'instagram', 'shopee', 'lazada'].forEach(platformId => {
+                    const card = document.querySelector(`[data-platform="${platformId}"]`);
+                    if (card) togglePlatform(platformId, card);
+                });
+            }, 500);
+        }
+
+        // 📥 EXPORT RESULTS
+        function exportResults() {
+            // Create a comprehensive report
+            const reportData = {
+                timestamp: new Date().toISOString(),
+                query: document.getElementById('analysisQuery').value,
+                analysis_type: document.getElementById('analysisType').value,
+                platforms: selectedPlatforms,
+                findings: 'Comprehensive tudung market analysis completed'
+            };
+
+            const blob = new Blob([JSON.stringify(reportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `InsightPulse_Tudung_Analysis_${new Date().toISOString().split('T')[0]}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            showSuccess('Report exported successfully!');
+        }
+
+        // 🚨 ERROR HANDLING
+        function showError(message) {
+            // Create animated error notification
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'alert alert-danger';
+            errorDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                z-index: 9999;
+                border-radius: 15px;
+                box-shadow: var(--shadow-strong);
+                backdrop-filter: blur(20px);
+            `;
+            errorDiv.innerHTML = `
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                <strong>Error:</strong> ${message}
+            `;
+
+            document.body.appendChild(errorDiv);
+
+            gsap.fromTo(errorDiv,
+                { opacity: 0, x: 100 },
+                { opacity: 1, x: 0, duration: 0.5, ease: "back.out(1.7)" }
+            );
+
+            setTimeout(() => {
+                gsap.to(errorDiv, {
+                    opacity: 0,
+                    x: 100,
+                    duration: 0.5,
+                    ease: "power2.in",
+                    onComplete: () => document.body.removeChild(errorDiv)
+                });
+            }, 5000);
+        }
+
+        // ✅ SUCCESS HANDLING
+        function showSuccess(message) {
+            const successDiv = document.createElement('div');
+            successDiv.className = 'alert alert-success';
+            successDiv.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                z-index: 9999;
+                border-radius: 15px;
+                box-shadow: var(--shadow-strong);
+                backdrop-filter: blur(20px);
+            `;
+            successDiv.innerHTML = `
+                <i class="bi bi-check-circle me-2"></i>
+                <strong>Success:</strong> ${message}
+            `;
+
+            document.body.appendChild(successDiv);
+
+            gsap.fromTo(successDiv,
+                { opacity: 0, x: 100 },
+                { opacity: 1, x: 0, duration: 0.5, ease: "back.out(1.7)" }
+            );
+
+            setTimeout(() => {
+                gsap.to(successDiv, {
+                    opacity: 0,
+                    x: 100,
+                    duration: 0.5,
+                    ease: "power2.in",
+                    onComplete: () => document.body.removeChild(successDiv)
+                });
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

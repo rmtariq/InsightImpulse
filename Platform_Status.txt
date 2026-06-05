@@ -1,0 +1,120 @@
+================================================================================
+                    INSIGHTPULSE - PLATFORM STATUS
+================================================================================
+
+UPDATED: 2026-02-10
+
+================================================================================
+                    ✅ SUPPORTED PLATFORMS (11)
+================================================================================
+
+1. FACEBOOK ✅
+   - Actor: danek/facebook-search-ppr
+   - Features: Posts + Comments + Engagement
+   - Status: ACTIVE
+
+2. INSTAGRAM ✅
+   - Actor: apify/instagram-scraper
+   - Features: Posts + Comments + Engagement
+   - Status: ACTIVE
+
+3. X (TWITTER) ✅
+   - Actor: kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest
+   - Features: Posts + Comments + Engagement (2-actor approach)
+   - Status: ACTIVE
+
+4. TIKTOK ✅
+   - Actor: clockworks/tiktok-scraper
+   - Features: Videos + Comments + Engagement
+   - Status: ACTIVE
+
+5. YOUTUBE ✅ [UPDATED]
+   - Actor: streamers/youtube-scraper
+   - Features: Videos + Comments + Engagement (views, likes, etc.)
+   - Status: ACTIVE
+
+6. LINKEDIN ✅ [NEW]
+   - Actor: testdepth/linkedin-post-search
+   - Features: Posts + Comments + Engagement (reactions, shares)
+   - Status: ACTIVE
+
+7. GOOGLE ✅
+   - Actor: apify/google-search-scraper
+   - Features: Search results only (no comments by nature)
+   - Status: ACTIVE
+
+8. NEWS ✅
+   - Actor: SerpAPI (Google News)
+   - Features: News articles only (no comments by nature)
+   - Status: ACTIVE
+
+9. SHOPEE ✅ [UPDATED]
+   - Actor: ecomscrape/shopee-scraper
+   - Features: Products + Reviews + Ratings + Sales
+   - Status: ACTIVE
+
+10. LAZADA ✅ [UPDATED]
+    - Actor: ecomscrape/lazada-reviews-scraper
+    - Features: Products + Reviews + Ratings + Sales
+    - Status: ACTIVE
+
+11. LOWYAT ✅
+    - Features: Forum posts
+    - Status: ACTIVE (Frontend only)
+
+================================================================================
+                    🎯 MULTILINGUAL SENTIMENT ANALYSIS
+================================================================================
+
+MODELS LOADED:
+- Malay: rmtariq/ft-Malay-bert
+- English: cardiffnlp/twitter-roberta-base-sentiment-latest
+- Chinese: uer/roberta-base-finetuned-chinanews-chinese
+- Multilingual: nlptown/bert-base-multilingual-uncased-sentiment
+
+FEATURES:
+✅ Language detection
+✅ Demographic mapping
+✅ Hybrid confidence-based scoring
+✅ Emotion analysis
+
+================================================================================
+                    📊 DATA WORKFLOW
+================================================================================
+
+CRAWL → data/raw/PLATFORM.csv (RAW data)
+ANALYZE → data/analyzed/Sentiment_Emotion_PLATFORM.csv (WITH sentiment/emotion)
+
+================================================================================
+                    🚀 HOW TO USE
+================================================================================
+
+1. Open: http://localhost:8001
+2. Enter query (e.g., "pilihan raya pbt")
+3. Select platforms
+4. Choose dataset size (50, 1000, 5000, etc.)
+5. Click "Start Analysis"
+6. View results with multilingual sentiment + demographic analytics
+
+================================================================================
+                    📊 PLATFORM SUMMARY
+================================================================================
+
+✅ WITH COMMENTS + ENGAGEMENT (8 platforms):
+   - Facebook, Instagram, X, TikTok, YouTube, LinkedIn, Shopee, Lazada
+
+❌ NO COMMENTS (by nature - 2 platforms):
+   - Google (search results), News (articles)
+
+⚠️ FRONTEND ONLY (1 platform):
+   - Lowyat
+
+================================================================================
+                    ✅ ALL PLATFORMS READY!
+================================================================================
+
+LAST UPDATED: 2026-02-10
+TOTAL PLATFORMS: 11
+PLATFORMS WITH COMMENTS: 8/11 (73%)
+PLATFORMS WITH ENGAGEMENT: 8/11 (73%)
+

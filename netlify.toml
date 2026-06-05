@@ -1,0 +1,47 @@
+[build]
+  publish = "web_frontend"
+  command = "echo 'Enhanced InsightPulse Frontend Ready for Deployment'"
+
+[build.environment]
+  API_BASE_URL = "https://insightpulse-enhanced.railway.app"
+  ENHANCED_FEATURES = "true"
+  MALAYSIAN_CONTEXT = "true"
+
+# Redirect API calls to backend
+[[redirects]]
+  from = "/api/*"
+  to = "https://insightpulse-enhanced.railway.app/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/analyze"
+  to = "https://insightpulse-enhanced.railway.app/analyze"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/health"
+  to = "https://insightpulse-enhanced.railway.app/health"
+  status = 200
+  force = true
+
+# SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/universal_dashboard.html"
+  status = 200
+
+[context.production.environment]
+  API_BASE_URL = "https://insightpulse-enhanced.railway.app"
+  NODE_ENV = "production"
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://insightpulse-enhanced.railway.app"

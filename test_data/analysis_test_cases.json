@@ -1,0 +1,336 @@
+{
+  "testCases": [
+    {
+      "id": 1,
+      "query": "tudung bawal popular di malaysia",
+      "userType": "sme",
+      "expectedResults": {
+        "brandMentions": 4567,
+        "sentiment": 89.2,
+        "salesImpact": "RM 67,800",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Weekdays 2-4 PM",
+          "topRegion": "Selangor (34% mentions)",
+          "trendingColors": ["Dusty Pink", "Baby Blue", "Nude"],
+          "competitorGap": "Premium segment underserved",
+          "revenueOpportunity": "RM 89,000/month potential"
+        },
+        "platforms": {
+          "facebook": 1823,
+          "instagram": 1456,
+          "tiktok": 892,
+          "shopee": 396
+        },
+        "demographics": {
+          "age": "25-35 (42%)",
+          "location": "Urban areas (67%)",
+          "income": "RM 3,000-6,000 (58%)"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "query": "harga tudung murah untuk pelajar",
+      "userType": "student",
+      "expectedResults": {
+        "brandMentions": 2134,
+        "sentiment": 76.8,
+        "salesImpact": "RM 12,400",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Evenings 7-9 PM",
+          "topRegion": "KL & Selangor (45%)",
+          "priceRange": "RM 8-25 most popular",
+          "studentPreference": "Cotton & Jersey materials",
+          "budgetTrend": "Under RM 20 (78% of searches)"
+        },
+        "platforms": {
+          "tiktok": 856,
+          "instagram": 634,
+          "facebook": 423,
+          "shopee": 221
+        },
+        "demographics": {
+          "age": "18-24 (71%)",
+          "location": "University towns (82%)",
+          "income": "Under RM 1,000 (89%)"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "query": "trend tudung viral 2025",
+      "userType": "entrepreneur",
+      "expectedResults": {
+        "brandMentions": 8923,
+        "sentiment": 92.4,
+        "salesImpact": "RM 156,700",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Weekends 10 AM-12 PM",
+          "topRegion": "Nationwide trend",
+          "viralFeatures": ["Magnetic clips", "Reversible designs", "Anti-UV"],
+          "marketGap": "Tech-integrated hijabs",
+          "growthPotential": "347% increase in 6 months"
+        },
+        "platforms": {
+          "tiktok": 3567,
+          "instagram": 2890,
+          "facebook": 1678,
+          "youtube": 788
+        },
+        "demographics": {
+          "age": "20-30 (56%)",
+          "location": "Urban millennials (73%)",
+          "income": "RM 2,500-5,000 (61%)"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "query": "tudung chiffon berkualiti terbaik",
+      "userType": "sme",
+      "expectedResults": {
+        "brandMentions": 3456,
+        "sentiment": 94.1,
+        "salesImpact": "RM 89,300",
+        "crisisRisk": "Very Low",
+        "insights": {
+          "peakTime": "Weekdays 11 AM-1 PM",
+          "topRegion": "KL & Johor (52%)",
+          "qualityFactors": ["Breathable", "Wrinkle-free", "Durable"],
+          "premiumSegment": "RM 35-80 price range",
+          "brandLeaders": ["Naelofar", "Duck", "Ariani"]
+        },
+        "platforms": {
+          "instagram": 1567,
+          "facebook": 1234,
+          "shopee": 456,
+          "lazada": 199
+        },
+        "demographics": {
+          "age": "28-40 (48%)",
+          "location": "Professional women (69%)",
+          "income": "RM 4,000-8,000 (72%)"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "query": "sentimen rakyat terhadap dasar hijab di tempat kerja",
+      "userType": "politician",
+      "expectedResults": {
+        "brandMentions": 12567,
+        "sentiment": 68.3,
+        "salesImpact": "N/A",
+        "crisisRisk": "Medium",
+        "insights": {
+          "peakTime": "News cycle dependent",
+          "topRegion": "Federal Territory (31%)",
+          "publicOpinion": "Mixed reactions (68% support, 32% concerns)",
+          "keyIssues": ["Religious freedom", "Workplace equality", "Personal choice"],
+          "demographicSplit": "Age-based opinion divide"
+        },
+        "platforms": {
+          "facebook": 4567,
+          "twitter": 3890,
+          "instagram": 2456,
+          "tiktok": 1654
+        },
+        "demographics": {
+          "age": "All ages (varied opinions)",
+          "location": "Urban vs Rural divide",
+          "political": "Party affiliation influences"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "query": "analisis pasaran tudung untuk enterprise",
+      "userType": "enterprise",
+      "expectedResults": {
+        "brandMentions": 45678,
+        "sentiment": 82.7,
+        "salesImpact": "RM 2.3M",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Business hours analysis",
+          "topRegion": "Multi-state coverage",
+          "marketSize": "RM 890M annually",
+          "growthRate": "12.4% YoY",
+          "competitorAnalysis": "15 major players identified"
+        },
+        "platforms": {
+          "facebook": 18567,
+          "instagram": 12890,
+          "shopee": 8934,
+          "lazada": 5287
+        },
+        "demographics": {
+          "age": "Comprehensive age groups",
+          "location": "National coverage",
+          "income": "All income segments"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "query": "tudung sukan untuk aktiviti luar",
+      "userType": "sme",
+      "expectedResults": {
+        "brandMentions": 1876,
+        "sentiment": 91.5,
+        "salesImpact": "RM 34,500",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Mornings 6-8 AM, Evenings 5-7 PM",
+          "topRegion": "Urban fitness enthusiasts",
+          "keyFeatures": ["Moisture-wicking", "UV protection", "Lightweight"],
+          "seasonality": "Higher demand during Ramadan",
+          "nichMarket": "Growing 45% annually"
+        },
+        "platforms": {
+          "instagram": 789,
+          "tiktok": 567,
+          "facebook": 345,
+          "youtube": 175
+        },
+        "demographics": {
+          "age": "22-35 (67%)",
+          "location": "Fitness centers, parks",
+          "lifestyle": "Active lifestyle (84%)"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "query": "kajian akademik tentang trend fesyen hijab",
+      "userType": "researcher",
+      "expectedResults": {
+        "brandMentions": 5432,
+        "sentiment": 87.9,
+        "salesImpact": "N/A",
+        "crisisRisk": "N/A",
+        "insights": {
+          "peakTime": "Academic calendar dependent",
+          "topRegion": "University areas",
+          "researchTopics": ["Cultural identity", "Fashion evolution", "Economic impact"],
+          "dataPoints": "2.4M social mentions analyzed",
+          "academicValue": "15 research papers referenced"
+        },
+        "platforms": {
+          "instagram": 2156,
+          "facebook": 1678,
+          "tiktok": 1098,
+          "twitter": 500
+        },
+        "demographics": {
+          "age": "Research-focused analysis",
+          "location": "Academic institutions",
+          "purpose": "Scholarly research"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "query": "maklum balas awam terhadap kempen hijab kerajaan",
+      "userType": "government",
+      "expectedResults": {
+        "brandMentions": 23456,
+        "sentiment": 71.2,
+        "salesImpact": "N/A",
+        "crisisRisk": "Medium",
+        "insights": {
+          "peakTime": "Post-announcement spikes",
+          "topRegion": "Federal Territory & state capitals",
+          "publicResponse": "Generally positive with concerns",
+          "keyFeedback": ["Implementation clarity", "Religious sensitivity", "Inclusivity"],
+          "policyImpact": "78% awareness, 71% support"
+        },
+        "platforms": {
+          "facebook": 9876,
+          "twitter": 6789,
+          "instagram": 4567,
+          "tiktok": 2224
+        },
+        "demographics": {
+          "age": "Adult population focus",
+          "location": "Nationwide monitoring",
+          "civic": "Public policy engagement"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "query": "peluang perniagaan tudung untuk bakal usahawan",
+      "userType": "aspiring",
+      "expectedResults": {
+        "brandMentions": 3789,
+        "sentiment": 88.6,
+        "salesImpact": "RM 45,600",
+        "crisisRisk": "Low",
+        "insights": {
+          "peakTime": "Weekend research sessions",
+          "topRegion": "Entrepreneurship hubs",
+          "businessOpportunities": ["Custom designs", "Eco-friendly materials", "Tech integration"],
+          "marketGaps": "Affordable premium segment",
+          "startupPotential": "RM 50K initial investment, RM 200K annual potential"
+        },
+        "platforms": {
+          "instagram": 1567,
+          "facebook": 1234,
+          "tiktok": 678,
+          "youtube": 310
+        },
+        "demographics": {
+          "age": "25-35 aspiring entrepreneurs",
+          "location": "Urban business districts",
+          "motivation": "Business opportunity seeking"
+        }
+      }
+    }
+  ],
+  "visualizationTemplates": {
+    "sme": {
+      "chartTypes": ["revenue_impact", "sentiment_timeline", "competitor_comparison"],
+      "keyMetrics": ["ROI", "customer_satisfaction", "market_share"],
+      "actionableInsights": ["growth_opportunities", "threat_alerts", "optimization_tips"]
+    },
+    "entrepreneur": {
+      "chartTypes": ["market_validation", "trend_analysis", "opportunity_mapping"],
+      "keyMetrics": ["market_size", "competition_level", "growth_potential"],
+      "actionableInsights": ["business_ideas", "target_audience", "funding_opportunities"]
+    },
+    "enterprise": {
+      "chartTypes": ["comprehensive_analytics", "multi_market_analysis", "predictive_modeling"],
+      "keyMetrics": ["market_dominance", "brand_health", "strategic_positioning"],
+      "actionableInsights": ["strategic_recommendations", "risk_assessment", "expansion_opportunities"]
+    },
+    "researcher": {
+      "chartTypes": ["statistical_analysis", "correlation_studies", "trend_forecasting"],
+      "keyMetrics": ["data_accuracy", "sample_size", "confidence_intervals"],
+      "actionableInsights": ["research_findings", "academic_citations", "methodology_validation"]
+    },
+    "student": {
+      "chartTypes": ["simple_visualizations", "educational_charts", "learning_progress"],
+      "keyMetrics": ["understanding_level", "project_completion", "skill_development"],
+      "actionableInsights": ["learning_recommendations", "study_tips", "career_guidance"]
+    },
+    "politician": {
+      "chartTypes": ["public_opinion", "demographic_analysis", "sentiment_tracking"],
+      "keyMetrics": ["approval_rating", "policy_support", "constituency_feedback"],
+      "actionableInsights": ["policy_recommendations", "communication_strategy", "crisis_management"]
+    },
+    "government": {
+      "chartTypes": ["policy_impact", "public_service_analytics", "citizen_feedback"],
+      "keyMetrics": ["service_satisfaction", "policy_effectiveness", "public_engagement"],
+      "actionableInsights": ["service_improvements", "policy_adjustments", "communication_enhancement"]
+    },
+    "aspiring": {
+      "chartTypes": ["opportunity_analysis", "market_entry", "business_validation"],
+      "keyMetrics": ["market_readiness", "competition_analysis", "success_probability"],
+      "actionableInsights": ["business_planning", "skill_development", "networking_opportunities"]
+    }
+  }
+}
