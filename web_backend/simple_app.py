@@ -1,31 +1,37 @@
 #!/usr/bin/env python3
 """
-🚀 Simple InsightPulse Web Backend
-==================================
-Simplified version without database dependencies for quick testing
-Uses your real data and provides working web interface
+🚀 InsightPulse Web Backend - FastAPI Application
+=================================================
+Production-ready backend for 10-platform digital intelligence system.
+Supports HTML/CSS/JavaScript frontend with RESTful APIs and WebSocket.
 
 🎯 FEATURES:
-- Real data from your smart_crawlers
-- Working API endpoints
-- No database dependencies
-- Ready to run immediately
+- 10-Platform data collection (social, news, e-commerce)
+- Google News RSS crawler (free, Boolean-search support)
+- Real-time sentiment & emotion analysis (rmtariq/ft-Malay-bert + multilingual-emotion-classifier)
+- WebSocket live status updates
+- No external database dependencies — CSV-based data store
+- Malay + English multilingual analysis
 
-Author: InsightPulse Simple Backend Team
-Version: Quick Start 1.0.0
+Start: uvicorn web_backend.app:app --host 0.0.0.0 --port 8001
+
+Author: InsightPulse Team
+Version: 2.0.0
 """
 
-from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, Request, WebSocket, WebSocketDisconnect, UploadFile, File, BackgroundTasks
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional, Set
+import shutil
 import asyncio
 import logging
 import re
 import json
 import time
+import uuid
 from datetime import datetime
 from pathlib import Path
 import pandas as pd
@@ -34,7 +40,19 @@ import math
 import os
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import torch
-import os
+import warnings
+
+# Suppress tokenizer length warnings for manual truncation
+logging.getLogger("transformers.tokenization_utils_base").setLevel(logging.ERROR)
+warnings.filterwarnings("ignore", message="Token indices sequence length is longer than")
+
+# Load environment variables from .env (APIFY_API_TOKEN, SERPAPI_KEY, etc.)
+try:
+    from dotenv import load_dotenv
+    _env_path = Path(__file__).resolve().parent.parent / ".env"
+    load_dotenv(_env_path)
+except ImportError:
+    pass
 
 # LLM Integration
 import openai
@@ -117,6 +135,50 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# 🎯 TASK TRACKING SYSTEM - Store long-running analysis tasks
+# This allows frontend to poll status instead of waiting for completion
+analysis_tasks = {}  # task_id -> {"status": "running|completed|failed", "progress": {...}, "result": {...}, "error": str}
+
+# 🎯 TASK LOG SYSTEM — captures real-time logs per task
+_active_task_id: Optional[str] = None   # which task is currently running
+MAX_TASK_LOGS = 120                      # keep last N log lines per task
+
+def task_log(task_id: str, message: str):
+    """Append a log line to a specific task's log buffer."""
+    if task_id and task_id in analysis_tasks:
+        logs = analysis_tasks[task_id].setdefault("logs", [])
+        ts = datetime.now().strftime("%H:%M:%S")
+        logs.append(f"[{ts}] {message}")
+        if len(logs) > MAX_TASK_LOGS:
+            logs.pop(0)
+
+class TaskLogHandler(logging.Handler):
+    """Custom logging handler that mirrors all log records into the active task's log buffer."""
+    IMPORTANT_PREFIXES = (
+        "Got ", "finished collecting", "Status: SUCCEED", "Status: RUNNING",
+        "Batch ", "handling:", "ACTOR:", "runId:", "✅", "❌", "⚠️", "🕷️",
+        "📘", "🐦", "🎵", "🎬", "📸", "📊", "Phase", "crawl", "Crawl",
+        "sentiment", "Sentiment", "emotion", "Emotion", "keyword", "Keyword",
+        "Apify", "apify", "strategy", "Strategy", "posts", "comments", "records",
+    )
+
+    def emit(self, record: logging.LogRecord):
+        global _active_task_id
+        if not _active_task_id:
+            return
+        msg = self.format(record)
+        # Strip logger name prefix for cleaner display
+        if " — " in msg:
+            msg = msg.split(" — ", 1)[-1]
+        # Only forward relevant/interesting lines (skip low-level noise)
+        if any(p in msg for p in self.IMPORTANT_PREFIXES):
+            task_log(_active_task_id, msg)
+
+# Attach the handler to the root logger so it captures everything
+_task_log_handler = TaskLogHandler()
+_task_log_handler.setLevel(logging.INFO)
+logging.getLogger().addHandler(_task_log_handler)
+
 # ===== WEBSOCKET CONNECTION MANAGER =====
 class ConnectionManager:
     """Manages WebSocket connections for real-time status updates"""
@@ -150,10 +212,18 @@ class ConnectionManager:
 # Global connection manager
 manager = ConnectionManager()
 
-# Mount static files
-static_path = Path(__file__).parent.parent / "web_frontend"
-if static_path.exists():
-    app.mount("/static", StaticFiles(directory=str(static_path)), name="static")
+# Mount web_backend/static/ for KDEBWM dashboard and other tool pages
+backend_static_path = Path(__file__).parent / "static"
+if backend_static_path.exists():
+    app.mount("/static", StaticFiles(directory=str(backend_static_path)), name="static")
+else:
+    backend_static_path.mkdir(parents=True, exist_ok=True)
+    app.mount("/static", StaticFiles(directory=str(backend_static_path)), name="static")
+
+# Mount web_frontend/ for legacy static files
+frontend_static_path = Path(__file__).parent.parent / "web_frontend"
+if frontend_static_path.exists():
+    app.mount("/frontend", StaticFiles(directory=str(frontend_static_path)), name="frontend")
 
 # Mount reports directory
 reports_path = Path(__file__).parent.parent / "reports"
@@ -168,7 +238,14 @@ else:
 DATA_DIR = Path(__file__).parent.parent / "data" / "smart_crawlers"
 
 # ===== HUGGING FACE CONFIGURATION =====
-HF_TOKEN = os.getenv("HF_TOKEN", "")  # Load from environment variable
+# Token resolution order: HUGGINGFACE_API_TOKEN (canonical, set in .env) →
+# HF_TOKEN / HUGGINGFACE_HUB_TOKEN (fallbacks for HF SDK conventions).
+HF_TOKEN = (
+    os.getenv("HUGGINGFACE_API_TOKEN")
+    or os.getenv("HF_TOKEN")
+    or os.getenv("HUGGINGFACE_HUB_TOKEN")
+    or ""
+)
 
 # 🌍 MULTILINGUAL SENTIMENT MODELS
 SENTIMENT_MODELS = {
@@ -198,8 +275,42 @@ os.environ["HUGGINGFACE_HUB_TOKEN"] = HF_TOKEN
 
 # Global model variables (will be initialized on startup)
 sentiment_pipelines = {}  # Dictionary to hold multiple sentiment models
+sentiment_tokenizers = {} # Dictionary to hold tokenizers for truncation
 emotion_pipeline = None
+emotion_tokenizer = None
 batch_processor = None
+MODEL_SAFE_MAX_TOKENS = 384  # Conservative limit avoids 512/514 position-embedding errors
+
+def _safe_model_text(value: Any) -> str:
+    """Normalize crawler/CSV values before sending them to language models."""
+    try:
+        if value is None or pd.isna(value):
+            return ""
+    except (TypeError, ValueError):
+        pass
+
+    text = str(value).strip()
+    if text.lower() in {"", "nan", "none", "null"}:
+        return ""
+    return text
+
+def _truncate_for_model(text: str, tokenizer=None, max_tokens: int = MODEL_SAFE_MAX_TOKENS) -> str:
+    """Token-level truncation with a safe fallback for all Transformer models."""
+    text = _safe_model_text(text)
+    if not text:
+        return ""
+    try:
+        if tokenizer:
+            encoded = tokenizer.encode(
+                text,
+                add_special_tokens=False,
+                truncation=True,
+                max_length=max_tokens,
+            )
+            return tokenizer.decode(encoded, skip_special_tokens=True).strip()
+    except Exception as te:
+        logger.warning(f"⚠️ Token truncation failed: {te}")
+    return text[:1500]
 
 # ===== STARTUP EVENT =====
 @app.on_event("startup")
@@ -257,7 +368,7 @@ class PlatformData(BaseModel):
 # ===== MODEL INITIALIZATION =====
 async def initialize_models():
     """Initialize Hugging Face models on startup - MULTILINGUAL SUPPORT"""
-    global sentiment_pipelines, emotion_pipeline, batch_processor
+    global sentiment_pipelines, sentiment_tokenizers, emotion_pipeline, emotion_tokenizer, batch_processor
 
     try:
         logger.info("🤖 Initializing multilingual sentiment models...")
@@ -267,25 +378,36 @@ async def initialize_models():
             try:
                 logger.info(f"📊 Loading {lang} sentiment model: {model_name}")
 
+                # Load tokenizer for proper truncation
+                try:
+                    sentiment_tokenizers[lang] = AutoTokenizer.from_pretrained(
+                        model_name,
+                        token=HF_TOKEN if lang == 'malay' else None,
+                        model_max_length=512
+                    )
+                except Exception as te:
+                    logger.warning(f"⚠️ Failed to load tokenizer for {lang}: {te}")
+
                 # Special handling for different models
                 if lang == 'multilingual':
                     # nlptown model returns 1-5 stars, need different handling
                     sentiment_pipelines[lang] = pipeline(
                         "text-classification",
                         model=model_name,
+                        tokenizer=sentiment_tokenizers.get(lang),
                         top_k=None
                     )
                 else:
                     sentiment_pipelines[lang] = pipeline(
                         "text-classification",
                         model=model_name,
+                        tokenizer=sentiment_tokenizers.get(lang),
                         token=HF_TOKEN if lang == 'malay' else None,  # Only Malay model needs token
                         top_k=None  # Return all scores
                     )
                 logger.info(f"✅ {lang.capitalize()} sentiment model loaded!")
             except Exception as e:
                 logger.warning(f"⚠️ Failed to load {lang} model: {e}")
-                # Continue loading other models even if one fails
 
         # Ensure at least Malay model is loaded
         if 'malay' not in sentiment_pipelines:
@@ -295,10 +417,19 @@ async def initialize_models():
 
         # Initialize emotion model (rmtariq/multilingual-emotion-classifier)
         logger.info(f"😊 Loading emotion model: {EMOTION_MODEL}")
+        try:
+            emotion_tokenizer = AutoTokenizer.from_pretrained(
+                EMOTION_MODEL,
+                token=HF_TOKEN,
+                model_max_length=512
+            )
+        except Exception as te:
+            logger.warning(f"⚠️ Failed to load emotion tokenizer: {te}")
+
         emotion_pipeline = pipeline(
             "text-classification",
             model=EMOTION_MODEL,
-            tokenizer=EMOTION_MODEL,
+            tokenizer=emotion_tokenizer or EMOTION_MODEL,
             token=HF_TOKEN,
             top_k=None  # Return all scores
         )
@@ -394,6 +525,16 @@ def analyze_sentiment_with_custom_model(text: str) -> Dict[str, Any]:
         }
 
     try:
+        text = _safe_model_text(text)
+        if not text:
+            return {
+                "sentiment": "neutral",
+                "confidence": 0.5,
+                "scores": {"positive": 0.33, "neutral": 0.34, "negative": 0.33},
+                "model": "empty_text_fallback",
+                "detected_language": "unknown",
+                "demographic": "Unknown"
+            }
         # 🌍 STEP 1: Detect language
         detected_model_key = detect_language(text)
         logger.debug(f"🌍 Detected language model: {detected_model_key}")
@@ -417,11 +558,19 @@ def analyze_sentiment_with_custom_model(text: str) -> Dict[str, Any]:
         lang_code = model_to_lang.get(detected_model_key, 'unknown')
         demographic = get_demographic_from_language(lang_code)
 
-        # Truncate text to avoid token length issues (max ~400 chars to stay under 512 tokens)
-        truncated_text = text[:400] if len(text) > 400 else text
+        tokenizer = sentiment_tokenizers.get(detected_model_key)
+        truncated_text = _truncate_for_model(text, tokenizer)
 
-        # 🤖 STEP 2: Get predictions from appropriate model
-        results = sentiment_pipeline(truncated_text)
+        # 🤖 STEP 2: Get predictions from appropriate model (force token-level truncation)
+        try:
+            results = sentiment_pipeline(
+                truncated_text,
+                truncation=True,
+                max_length=MODEL_SAFE_MAX_TOKENS,
+            )
+        except TypeError:
+            # Older pipeline signature fallback
+            results = sentiment_pipeline(_truncate_for_model(truncated_text, tokenizer, 256))
 
         # 📊 STEP 3: Process results with label mapping
         if isinstance(results, list) and len(results) > 0:
@@ -508,11 +657,26 @@ def analyze_emotion_with_custom_model(text: str) -> Dict[str, Any]:
         }
 
     try:
-        # Truncate text to avoid token length issues (max ~400 chars to stay under 512 tokens)
-        truncated_text = text[:400] if len(text) > 400 else text
+        text = _safe_model_text(text)
+        if not text:
+            return {
+                "primary_emotion": "neutral",
+                "confidence": 0.5,
+                "emotions": {"joy": 0.2, "sadness": 0.2, "anger": 0.2, "fear": 0.2, "neutral": 0.2},
+                "model": "empty_text_fallback"
+            }
 
-        # Get predictions from custom emotion model
-        results = emotion_pipeline(truncated_text)
+        truncated_text = _truncate_for_model(text, emotion_tokenizer)
+
+        # Get predictions from custom emotion model (force token-level truncation)
+        try:
+            results = emotion_pipeline(
+                truncated_text,
+                truncation=True,
+                max_length=MODEL_SAFE_MAX_TOKENS,
+            )
+        except TypeError:
+            results = emotion_pipeline(_truncate_for_model(truncated_text, emotion_tokenizer, 256))
 
         # Handle different output formats
         if isinstance(results, list) and len(results) > 0:
@@ -626,6 +790,10 @@ def get_reliability_score(data_points: int) -> Dict[str, Any]:
 def detect_language(text: str) -> str:
     """Detect if text is primarily Malay or English - supports bilingual analysis"""
 
+    text = _safe_model_text(text)
+    if not text:
+        return "malay"
+
     # Common Malay words and patterns
     malay_indicators = [
         'yang', 'dan', 'untuk', 'dengan', 'adalah', 'ini', 'itu', 'tidak', 'ada', 'akan',
@@ -655,7 +823,7 @@ def detect_language(text: str) -> str:
     elif english_count > malay_count:
         return "english"
     else:
-        return "mixed"  # Bilingual or unclear
+        return "multilingual"  # Bilingual or unclear
 
 def parse_versatile_query(query: str) -> Dict[str, Any]:
     """Parse any format of query - natural language, claims, boolean, phrases, mixed - supports Malay & English"""
@@ -1296,40 +1464,18 @@ def load_platform_data(platform: str, query: str = "", max_results: int = 100, n
             latest_file = max(relevant_files, key=lambda f: f.stat().st_mtime)
             return _load_csv_data(latest_file, platform, query, max_results, nlp_results)
 
-    # If no relevant data found, generate synthetic data
-    logger.info(f"🎯 No relevant data found for '{query}' on {platform}. Generating synthetic data...")
+    # No real data available — synthetic fallback intentionally disabled (real data only).
+    logger.warning(f"⚠️ No real data found for '{query}' on {platform} (synthetic fallback disabled)")
     return _generate_synthetic_platform_data(platform, query, max_results, nlp_results)
 
 def _generate_synthetic_platform_data(platform: str, query: str, max_results: int, nlp_results: Dict[str, Any] = None) -> Dict[str, Any]:
-    """Generate synthetic data for platform when no relevant data exists"""
-    try:
-        # Import synthetic data generator
-        import sys
-        from pathlib import Path
-        sys.path.append(str(Path(__file__).parent.parent))
-
-        from synthetic_data_generator import SyntheticDataGenerator
-
-        # Generate synthetic data
-        generator = SyntheticDataGenerator()
-        df = generator.generate_platform_data(platform, query, min(max_results, 50))
-
-        # Save the generated data for future use
-        generator.save_platform_data(platform, query, df)
-
-        logger.info(f"✅ Generated {len(df)} synthetic posts for {platform}")
-
-        # Process the synthetic data same as real data
-        return _process_platform_dataframe(df, platform, query, max_results, nlp_results)
-
-    except Exception as e:
-        logger.error(f"❌ Error generating synthetic data for {platform}: {e}")
-        return {
-            "platform": platform,
-            "error": f"No data available for {platform}",
-            "data_points": 0,
-            "status": "no_data"
-        }
+    """Synthetic data generation is disabled — return a clear no-data status (real data only)."""
+    return {
+        "platform": platform,
+        "error": f"No real data available for {platform}",
+        "data_points": 0,
+        "status": "no_data"
+    }
 
 def _load_csv_data(csv_file: Path, platform: str, query: str, max_results: int, nlp_results: Dict[str, Any] = None) -> Dict[str, Any]:
     """Load and process CSV data from file"""
@@ -1559,8 +1705,9 @@ def process_platform_data(df: pd.DataFrame, platform: str, query: str = "") -> D
 
     # Enhanced sentiment analysis using custom models
     if 'Text' in df.columns:
-        # Filter out empty text
-        valid_texts_mask = df['Text'].astype(str).str.strip().str.len() > 0
+        # Normalize and filter text safely (prevents NaN/float values entering models)
+        df['Text'] = df['Text'].apply(_safe_model_text)
+        valid_texts_mask = df['Text'].str.strip().str.len() > 0
         valid_indices = df[valid_texts_mask].index.tolist()
         valid_texts = df.loc[valid_indices, 'Text'].tolist()
 
@@ -1870,11 +2017,16 @@ async def serve_frontend():
                 <h1>InsightPulse</h1>
                 <p>Social Media Analytics Platform</p>
                 <p>Backend is running! API documentation available at <a href="/docs">/docs</a></p>
-                <p>Available endpoints:</p>
+                <h2>📊 Analysis Tools</h2>
+                <ul>
+                    <li><a href="/analyze-csv-page" style="font-weight: bold; color: #667eea;">🔍 Analyze Existing CSV Files</a> - Run Universal Intelligence Analysis on collected data</li>
+                </ul>
+                <h2>🔧 System Endpoints</h2>
                 <ul>
                     <li><a href="/platforms">/platforms</a> - View available platforms</li>
                     <li><a href="/health">/health</a> - System health check</li>
                     <li><a href="/docs">/docs</a> - API documentation</li>
+                    <li><a href="/api/list-csvs">/api/list-csvs</a> - List available CSV files</li>
                 </ul>
             </body>
         </html>
@@ -2020,6 +2172,106 @@ async def process_nlp_input(request: dict):
         logger.error(f"❌ NLP processing failed: {e}")
         raise HTTPException(status_code=500, detail=f"NLP processing failed: {str(e)}")
 
+# 🎯 NEW: Background task function for long-running analysis
+async def run_analysis_task(task_id: str, request: AnalysisRequest):
+    """
+    Run analysis as a background task and update status in analysis_tasks dict
+    """
+    global _active_task_id
+    try:
+        # Update status to running
+        analysis_tasks[task_id]["status"] = "running"
+        analysis_tasks[task_id]["progress"] = {"stage": "starting", "message": "Initializing analysis..."}
+        analysis_tasks[task_id]["logs"] = []
+
+        # Activate log capture for this task
+        _active_task_id = task_id
+        task_log(task_id, f"🚀 Task started — query: {request.query[:80]}...")
+        task_log(task_id, f"📋 Platforms: {', '.join(request.platforms).upper()}")
+        task_log(task_id, f"📊 Dataset size: {request.dataset_size or request.max_results} | Date: {request.date_range}")
+
+        # Call the actual analyze function
+        result = await analyze_data_core(request, task_id)
+
+        # Update status to completed
+        analysis_tasks[task_id]["status"] = "completed"
+        analysis_tasks[task_id]["result"] = result
+        analysis_tasks[task_id]["progress"] = {"stage": "completed", "message": "Analysis completed successfully!"}
+        task_log(task_id, "🎉 Analysis completed successfully!")
+
+        logger.info(f"✅ Task {task_id} completed successfully")
+
+    except Exception as e:
+        # Update status to failed
+        analysis_tasks[task_id]["status"] = "failed"
+        analysis_tasks[task_id]["error"] = str(e)
+        analysis_tasks[task_id]["progress"] = {"stage": "failed", "message": f"Analysis failed: {str(e)}"}
+        task_log(task_id, f"❌ Failed: {str(e)}")
+        logger.error(f"❌ Task {task_id} failed: {e}")
+
+    finally:
+        _active_task_id = None
+
+
+@app.post("/analyze_async")
+async def analyze_data_async(request: AnalysisRequest, background_tasks: BackgroundTasks):
+    """
+    🎯 NEW: Start analysis as a background task and return task_id immediately
+    Frontend can poll /task_status/{task_id} to get progress
+
+    This solves the "Failed to fetch" timeout issue for long-running analyses
+    """
+    # Generate unique task ID
+    task_id = str(uuid.uuid4())
+
+    # Initialize task tracking
+    analysis_tasks[task_id] = {
+        "status": "queued",
+        "progress": {"stage": "queued", "message": "Analysis queued"},
+        "result": None,
+        "error": None,
+        "created_at": datetime.now().isoformat(),
+        "query": request.query,
+        "platforms": request.platforms,
+        "dataset_size": request.dataset_size or request.max_results
+    }
+
+    # Add task to background
+    background_tasks.add_task(run_analysis_task, task_id, request)
+
+    logger.info(f"🎯 Analysis task {task_id} queued for query: {request.query}")
+    logger.info(f"📊 Platforms: {request.platforms}, Dataset: {request.dataset_size or request.max_results}")
+
+    # Return task_id immediately
+    return {
+        "task_id": task_id,
+        "status": "queued",
+        "message": "Analysis started. Poll /task_status/{task_id} for progress.",
+        "estimated_time_minutes": len(request.platforms) * 3  # Rough estimate: 3 min per platform
+    }
+
+
+@app.get("/task_status/{task_id}")
+async def get_task_status(task_id: str):
+    """
+    Get status of a running analysis task
+    """
+    if task_id not in analysis_tasks:
+        raise HTTPException(status_code=404, detail="Task not found")
+
+    task = analysis_tasks[task_id]
+
+    return {
+        "task_id": task_id,
+        "status": task["status"],  # queued, running, completed, failed
+        "progress": task["progress"],
+        "result": task["result"] if task["status"] == "completed" else None,
+        "error": task["error"] if task["status"] == "failed" else None,
+        "created_at": task["created_at"],
+        "logs": task.get("logs", [])[-40:]  # return last 40 log lines
+    }
+
+
 @app.post("/analyze")
 async def analyze_data(request: AnalysisRequest):
     """
@@ -2028,7 +2280,28 @@ async def analyze_data(request: AnalysisRequest):
     - Smart comment sampling
     - Date range filtering
     - Analysis focus prioritization
+
+    ⚠️ WARNING: This endpoint waits for completion (can take 10-15 minutes for large datasets)
+    ✅ RECOMMENDED: Use /analyze_async instead for better UX
     """
+    # Call the core function directly (no background task)
+    return await analyze_data_core(request, task_id=None)
+
+
+async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = None):
+    """
+    Core analysis logic (extracted so it can be called from both sync and async endpoints)
+    """
+
+    # Helper function to update progress
+    def update_progress(stage: str, message: str, platforms_done: int = 0):
+        if task_id and task_id in analysis_tasks:
+            analysis_tasks[task_id]["progress"] = {
+                "stage": stage,
+                "message": message,
+                "platforms_total": len(request.platforms),
+                "platforms_done": platforms_done
+            }
 
     logger.info(f"🔍 Starting PERFECT analysis for query: {request.query}")
     logger.info(f"📊 Platforms: {request.platforms}")
@@ -2036,6 +2309,8 @@ async def analyze_data(request: AnalysisRequest):
     logger.info(f"🎯 Analysis focus: {request.analysis_focus}")
     logger.info(f"📅 Date range: {request.date_range}")
     logger.info(f"💬 Comment sampling: {request.comment_sampling}")
+
+    update_progress("initializing", f"Starting analysis for {len(request.platforms)} platforms...")
 
     # Get date range filter
     date_filter = get_date_range_filter(request)
@@ -2047,6 +2322,7 @@ async def analyze_data(request: AnalysisRequest):
 
     # 🧠 Phase 1: Advanced NLP Processing & Keyword Extraction
     logger.info("🧠 Phase 1: Processing input with Advanced NLP...")
+    update_progress("nlp_processing", "Processing keywords with NLP...")
     nlp_results = process_user_input(request.query)
 
     # Extract enhanced keywords for better data collection
@@ -2074,6 +2350,8 @@ async def analyze_data(request: AnalysisRequest):
         if request.use_crawl_strategy:
             logger.info(f"🎯 Using 30:70 Posts:Comments strategy with dataset size: {effective_dataset_size}")
 
+            update_progress("crawling", f"Connecting to crawl actors for {len(request.platforms)} platform(s)...", 0)
+
             # Broadcast strategy status
             await manager.broadcast_status({
                 "type": "system_status",
@@ -2085,16 +2363,21 @@ async def analyze_data(request: AnalysisRequest):
             start_time = time.time()
 
             try:
+                update_progress("crawling", f"Fetching data from {', '.join(request.platforms).upper()}...", 0)
+
                 # 🎯 Use new strategy-based crawling with comments
                 strategy_result = await adapter.crawl_with_strategy(
                     platforms=request.platforms,
                     query=request.query,
                     dataset_size=effective_dataset_size,
-                    analysis_type=request.analysis_focus
+                    analysis_type=request.analysis_focus,
+                    since_date=date_filter["start_iso"][:10],   # "YYYY-MM-DD"
+                    until_date=date_filter["end_iso"][:10]
                 )
 
                 elapsed_time = time.time() - start_time
                 logger.info(f"⚡ Strategy-based crawl completed in {elapsed_time:.2f} seconds!")
+                update_progress("crawling", f"Crawl complete in {elapsed_time:.0f}s — processing results...", len(request.platforms))
 
                 if "error" in strategy_result:
                     logger.error(f"❌ Strategy crawl failed: {strategy_result['error']}")
@@ -2283,26 +2566,46 @@ async def analyze_data(request: AnalysisRequest):
 
     # 📂 Phase 3: Collect data from each platform (real-time or existing)
     logger.info("📂 Phase 3: Loading platform data...")
+    update_progress("sentiment_analysis", f"Running sentiment & emotion analysis on collected data...", len(request.platforms))
     platform_data = {}
 
     for platform in request.platforms:
         logger.info(f"📱 Collecting data from {platform}...")
+        update_progress("sentiment_analysis", f"Analysing {platform.upper()} data — sentiment + emotions...", len(request.platforms))
 
         # Use real-time data if available, otherwise load from files
         if platform in real_time_data:
             logger.info(f"✅ Using real-time crawled data for {platform}")
 
             try:
-                # 📂 STEP 1: Read RAW data from X.csv (posts + comments, no sentiment)
+                # 📂 STEP 1: Build DataFrame from RAW data
+                # Priority: (1) data/smart_crawlers/<platform>/<platform>_*.csv (flat: posts AND comments as rows),
+                # (2) legacy data/raw/<PLATFORM>.csv, (3) in-memory records (posts only with comments nested).
                 import pandas as pd
                 from pathlib import Path
+                smart_dir = Path("data/smart_crawlers") / platform.lower()
+                smart_candidates = sorted(
+                    smart_dir.glob(f"{platform.lower()}_*.csv"),
+                    key=lambda p: p.stat().st_mtime,
+                    reverse=True,
+                ) if smart_dir.exists() else []
                 raw_dir = Path("data/raw")
                 raw_filename = f"{platform.upper()}.csv"
                 raw_filepath = raw_dir / raw_filename
 
-                logger.info(f"📂 Reading RAW data from: {raw_filepath}")
-                df = pd.read_csv(raw_filepath)
-                logger.info(f"📊 Loaded {len(df)} records from RAW file")
+                if smart_candidates:
+                    smart_csv = smart_candidates[0]
+                    logger.info(f"📂 Reading FLAT RAW data from: {smart_csv}")
+                    df = pd.read_csv(smart_csv)
+                    logger.info(f"📊 Loaded {len(df)} records from smart_crawlers file")
+                elif raw_filepath.exists():
+                    logger.info(f"📂 Reading RAW data from: {raw_filepath}")
+                    df = pd.read_csv(raw_filepath)
+                    logger.info(f"📊 Loaded {len(df)} records from RAW file")
+                else:
+                    logger.info(f"📂 No flat RAW file found — using in-memory crawled records (posts only)")
+                    df = pd.DataFrame(real_time_data[platform])
+                    logger.info(f"📊 Loaded {len(df)} records from real-time crawl (in-memory)")
 
                 # Count posts and comments
                 posts_count = len(df[df['Type'] == 'post']) if 'Type' in df.columns else len(df)
@@ -2346,10 +2649,17 @@ async def analyze_data(request: AnalysisRequest):
                 logger.exception(e)  # Print full traceback
                 processed_insights = {"error": str(e)}
 
-            # Convert real-time data to the expected format
+            # Convert real-time data to the expected format.
+            # Prefer the analyzed DataFrame (posts + comments + sentiment + emotion) so that
+            # the combined CSV downstream contains every row with sentiment/emotion columns.
+            try:
+                analyzed_records = df.to_dict(orient="records") if isinstance(df, pd.DataFrame) else None
+            except Exception:
+                analyzed_records = None
+            data_payload = analyzed_records if analyzed_records else real_time_data[platform]
             data = {
-                "data_points": len(real_time_data[platform]),
-                "data": real_time_data[platform],
+                "data_points": len(data_payload),
+                "data": data_payload,
                 "processed_insights": processed_insights,
                 "source": "real_time_crawl",
                 "timestamp": datetime.now().isoformat()
@@ -2402,8 +2712,49 @@ async def analyze_data(request: AnalysisRequest):
         if "data" in data:
             all_data_for_trends.extend(data["data"])
     
-    # Calculate overall metrics
-    avg_sentiment = sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0.5
+    # Calculate overall metrics from analyzed rows, not unweighted platform averages.
+    # This keeps the live dashboard aligned with generated static reports.
+    overall_sentiment_counts = {"positive": 0, "neutral": 0, "negative": 0}
+    overall_sentiment_scores = []
+
+    for record in all_data_for_trends:
+        label = str(
+            record.get("sentiment_label")
+            or record.get("Sentiment")
+            or record.get("sentiment")
+            or ""
+        ).strip().lower()
+
+        raw_score = record.get("sentiment_score")
+        try:
+            score = float(raw_score) if raw_score is not None and str(raw_score).lower() != "nan" else None
+        except (TypeError, ValueError):
+            score = None
+
+        if label not in overall_sentiment_counts and score is not None:
+            label = "positive" if score > 0.6 else "negative" if score < 0.4 else "neutral"
+
+        if label in overall_sentiment_counts:
+            overall_sentiment_counts[label] += 1
+            if score is None:
+                score = 0.8 if label == "positive" else 0.2 if label == "negative" else 0.5
+            overall_sentiment_scores.append(score)
+
+    overall_sentiment_total = sum(overall_sentiment_counts.values())
+    overall_sentiment_percentages = {
+        label: round((count / overall_sentiment_total * 100), 1) if overall_sentiment_total else 0.0
+        for label, count in overall_sentiment_counts.items()
+    }
+    avg_sentiment = (
+        sum(overall_sentiment_scores) / len(overall_sentiment_scores)
+        if overall_sentiment_scores
+        else sum(sentiment_scores) / len(sentiment_scores) if sentiment_scores else 0.5
+    )
+    overall_sentiment_label = (
+        max(overall_sentiment_counts, key=overall_sentiment_counts.get)
+        if overall_sentiment_total
+        else "positive" if avg_sentiment > 0.6 else "negative" if avg_sentiment < 0.4 else "neutral"
+    )
 
     # Get top trending topics across platforms with smart contextual awareness
     from collections import Counter
@@ -2603,7 +2954,9 @@ async def analyze_data(request: AnalysisRequest):
         "analysis_timestamp": datetime.now().isoformat(),
         "overall_metrics": {
             "sentiment_score": round(avg_sentiment, 3),
-            "sentiment_label": "positive" if avg_sentiment > 0.6 else "negative" if avg_sentiment < 0.4 else "neutral",
+            "sentiment_label": overall_sentiment_label,
+            "sentiment_distribution": overall_sentiment_counts,
+            "sentiment_percentages": overall_sentiment_percentages,
             "total_engagement": total_engagement,
             "trending_topics": top_topics[:5],
             "confidence_level": confidence_level,
@@ -2652,6 +3005,7 @@ async def analyze_data(request: AnalysisRequest):
 
     # 📊 Phase 4: Generate Professional Reports
     logger.info("📊 Phase 4: Generating professional reports...")
+    update_progress("generating_insights", "Generating professional reports & insights...", len(request.platforms))
     report_paths = {}
     try:
         import sys
@@ -2660,40 +3014,52 @@ async def analyze_data(request: AnalysisRequest):
         sys.path.insert(0, str(Path(__file__).parent.parent))
         from backend.services.report_generator import ProfessionalReportGenerator
 
-        # Prepare analysis data for report generation
-        # Calculate sentiment percentages from INDIVIDUAL POSTS, not platform averages
-        all_post_sentiments = []
-        for post in all_data_for_trends:
-            # Try to get sentiment_score from post
-            if 'sentiment_score' in post and post['sentiment_score'] is not None:
-                score = float(post['sentiment_score'])
-                if score > 0:  # Only include valid scores
-                    all_post_sentiments.append(score)
-            elif 'Sentiment' in post:
-                # Map sentiment label to score
-                sentiment_label = str(post['Sentiment']).lower()
-                if sentiment_label == 'positive':
-                    all_post_sentiments.append(0.8)
-                elif sentiment_label == 'negative':
-                    all_post_sentiments.append(0.2)
-                elif sentiment_label == 'neutral':
-                    all_post_sentiments.append(0.5)
+        # Prepare analysis data for report generation from the same analyzed rows
+        # used by the main dashboard.
+        positive_ratio = overall_sentiment_percentages.get("positive", 0.0)
+        neutral_ratio = overall_sentiment_percentages.get("neutral", 0.0)
+        negative_ratio = overall_sentiment_percentages.get("negative", 0.0)
 
-        # Calculate percentages from individual posts
-        if all_post_sentiments:
-            positive_count = sum(1 for s in all_post_sentiments if s > 0.6)
-            neutral_count = sum(1 for s in all_post_sentiments if 0.4 <= s <= 0.6)
-            negative_count = sum(1 for s in all_post_sentiments if s < 0.4)
-            total_count = len(all_post_sentiments)
+        def _report_number(value, default=0):
+            try:
+                if value is None or str(value).lower() == "nan":
+                    return default
+                return float(value)
+            except (TypeError, ValueError):
+                return default
 
-            positive_ratio = (positive_count / total_count * 100)
-            neutral_ratio = (neutral_count / total_count * 100)
-            negative_ratio = (negative_count / total_count * 100)
-        else:
-            # Fallback to platform averages if no individual post sentiments
-            positive_ratio = (sum(1 for s in sentiment_scores if s > 0.6) / len(sentiment_scores) * 100) if sentiment_scores else 0
-            neutral_ratio = (sum(1 for s in sentiment_scores if 0.4 <= s <= 0.6) / len(sentiment_scores) * 100) if sentiment_scores else 0
-            negative_ratio = (sum(1 for s in sentiment_scores if s < 0.4) / len(sentiment_scores) * 100) if sentiment_scores else 0
+        platform_report_breakdown = {}
+        for record in all_data_for_trends:
+            platform_name = str(record.get("Platform") or record.get("platform") or "Unknown").strip().lower()
+            if not platform_name:
+                platform_name = "unknown"
+            stats = platform_report_breakdown.setdefault(platform_name, {
+                "total": 0,
+                "total_engagement": 0,
+                "sentiment_sum": 0.0,
+                "positive_count": 0,
+                "negative_count": 0,
+            })
+            stats["total"] += 1
+            stats["total_engagement"] += int(_report_number(record.get("total_engagement"), 0))
+            label = str(record.get("sentiment_label") or record.get("Sentiment") or "neutral").lower()
+            score = _report_number(record.get("sentiment_score"), 0.5)
+            stats["sentiment_sum"] += score
+            if label == "positive":
+                stats["positive_count"] += 1
+            elif label == "negative":
+                stats["negative_count"] += 1
+
+        platform_report_breakdown = {
+            platform: {
+                "total": stats["total"],
+                "avg_sentiment": round(stats["sentiment_sum"] / stats["total"], 3) if stats["total"] else 0,
+                "total_engagement": stats["total_engagement"],
+                "positive_ratio": round(stats["positive_count"] / stats["total"] * 100, 1) if stats["total"] else 0,
+                "negative_ratio": round(stats["negative_count"] / stats["total"] * 100, 1) if stats["total"] else 0,
+            }
+            for platform, stats in platform_report_breakdown.items()
+        }
 
         report_data = {
             'raw_data': all_data_for_trends,  # All posts/comments
@@ -2701,21 +3067,40 @@ async def analyze_data(request: AnalysisRequest):
                 'positive_ratio': positive_ratio,
                 'neutral_ratio': neutral_ratio,
                 'negative_ratio': negative_ratio,
+                'distribution': overall_sentiment_counts,
             },
-            'platform_breakdown': {
-                platform: {
-                    'total': data.get('data_points', 0),
-                    'avg_sentiment': data.get('processed_insights', {}).get('sentiment_score', 0),
-                    'total_engagement': data.get('processed_insights', {}).get('total_engagement', 0)
-                }
-                for platform, data in platform_data.items()
-            },
+            'platform_breakdown': platform_report_breakdown,
             'insights': {
                 'key_insights': key_insights
             },
             'critical_issues': [],  # TODO: Extract from negative posts
             'recommendations': recommendations
         }
+
+        # 💾 SAVE COMBINED DATA: All platforms + sentiment + emotion + engagement
+        if all_data_for_trends:
+            try:
+                combined_dir = Path("data/combined")
+                combined_dir.mkdir(parents=True, exist_ok=True)
+
+                # Create DataFrame from all platforms data
+                combined_df = pd.DataFrame(all_data_for_trends)
+
+                # Unique filename with timestamp
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                platforms_str = "_".join(sorted(request.platforms))[:50]  # Limit length
+                combined_filename = f"Combined_{platforms_str}_{timestamp}.csv"
+                combined_filepath = combined_dir / combined_filename
+
+                # Save combined CSV
+                combined_df.to_csv(combined_filepath, index=False, encoding='utf-8')
+
+                logger.info(f"💾 COMBINED DATA saved: {combined_filepath}")
+                logger.info(f"📊 {len(combined_df)} total records from {len(request.platforms)} platforms")
+                logger.info(f"📋 Platforms: {', '.join(request.platforms)}")
+
+            except Exception as e:
+                logger.error(f"❌ Error saving combined data: {e}")
 
         # Generate all reports
         report_gen = ProfessionalReportGenerator(output_dir="reports")
@@ -2764,6 +3149,219 @@ async def get_sample_data(platform: str, limit: int = 10):
         "total_available": data.get("total_available", 0),
         "source_file": data.get("source_file", "unknown")
     }
+
+# ============================================================================
+# CSV ANALYSIS ENDPOINTS
+# ============================================================================
+
+@app.get("/api/list-csvs")
+async def list_existing_csvs():
+    """
+    List all available CSV files in data/combined/
+    """
+    try:
+        combined_dir = Path("data/combined")
+
+        if not combined_dir.exists():
+            return {"success": True, "count": 0, "csvs": []}
+
+        csv_files = []
+        for csv_file in combined_dir.glob("*.csv"):
+            stats = csv_file.stat()
+            csv_files.append({
+                "filename": csv_file.name,
+                "path": str(csv_file),
+                "size": stats.st_size,
+                "size_mb": round(stats.st_size / (1024 * 1024), 2),
+                "modified_date": stats.st_mtime,
+                "modified_date_str": datetime.fromtimestamp(stats.st_mtime).strftime('%Y-%m-%d %H:%M:%S')
+            })
+
+        # Sort by modified date (newest first)
+        csv_files.sort(key=lambda x: x["modified_date"], reverse=True)
+
+        return {
+            "success": True,
+            "count": len(csv_files),
+            "csvs": csv_files
+        }
+
+    except Exception as e:
+        logger.error(f"Error listing CSVs: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error listing CSVs: {str(e)}")
+
+class AnalyzeCSVRequest(BaseModel):
+    csv_path: str
+    topic_name: str
+    filter_days: Optional[int] = 90
+
+@app.post("/api/analyze-csv")
+async def analyze_csv_file(request: AnalyzeCSVRequest):
+    """
+    Analyze an existing CSV file with Universal Intelligence Dashboard
+    """
+    try:
+        from backend.services.universal_intelligence_dashboard import UniversalIntelligenceDashboard
+
+        csv_path = request.csv_path
+        topic_name = request.topic_name
+        filter_days = request.filter_days or 90
+
+        logger.info(f"📊 Analyzing CSV: {csv_path} for topic: {topic_name}")
+
+        # Validate CSV exists
+        if not Path(csv_path).exists():
+            raise HTTPException(status_code=404, detail=f"CSV file not found: {csv_path}")
+
+        # Run analysis
+        analyzer = UniversalIntelligenceDashboard(csv_path, topic_name=topic_name)
+        insights = analyzer.analyze(filter_days=filter_days)
+
+        # Export results
+        output_dir = Path(f"reports/universal_analysis_{topic_name.replace(' ', '_')}")
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+        analyzer.export_to_json(str(output_dir / "insights.json"))
+        analyzer.export_cleaned_data(str(output_dir / "cleaned_data.csv"))
+
+        logger.info(f"✅ Analysis complete! Results saved to: {output_dir}")
+
+        return {
+            "success": True,
+            "message": "Analysis completed successfully",
+            "topic": topic_name,
+            "insights": insights,
+            "output_dir": str(output_dir),
+            "files": {
+                "insights_json": str(output_dir / "insights.json"),
+                "cleaned_csv": str(output_dir / "cleaned_data.csv")
+            }
+        }
+
+    except Exception as e:
+        logger.error(f"❌ Analysis error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Analysis error: {str(e)}")
+
+
+class KDEBWMAnalysisRequest(BaseModel):
+    csv_path: str
+    filter_days: Optional[int] = 30
+    export_results: Optional[bool] = True
+
+
+@app.post("/api/kdebwm/analyze")
+async def analyze_kdebwm_complaints(request: KDEBWMAnalysisRequest):
+    """
+    KDEBWM Complaint Monitoring Analytics
+    =====================================
+    Generate executive-level complaint analytics and insights for KDEBWM management.
+
+    Returns:
+    - Executive summary
+    - Complaint volume analytics
+    - Sentiment distribution
+    - Theme classification
+    - Hotspot area detection
+    - Platform analytics
+    - High-severity complaints
+    - Management recommendations
+    - CEO dashboard metrics
+    """
+    try:
+        from backend.services.kdebwm_analytics import KDEBWMComplaintAnalytics
+
+        csv_path = request.csv_path
+        filter_days = request.filter_days or 30
+
+        logger.info(f"🏢 KDEBWM Analysis - Processing: {csv_path}")
+        logger.info(f"📅 Filter period: Last {filter_days} days")
+
+        # Validate CSV exists
+        if not Path(csv_path).exists():
+            raise HTTPException(status_code=404, detail=f"CSV file not found: {csv_path}")
+
+        # Run KDEBWM-specific analysis
+        analyzer = KDEBWMComplaintAnalytics(csv_path)
+        results = analyzer.analyze(filter_days=filter_days)
+
+        # Export results if requested
+        if request.export_results:
+            output_dir = Path("reports/kdebwm_complaint_analytics")
+            output_dir.mkdir(parents=True, exist_ok=True)
+
+            # Save JSON
+            analyzer.export_to_json(str(output_dir / f"kdebwm_analytics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"))
+
+            # Save processed complaints CSV
+            analyzer.export_complaints_csv(str(output_dir / f"kdebwm_complaints_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"))
+
+            # Save executive summary
+            with open(output_dir / f"executive_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt", 'w', encoding='utf-8') as f:
+                f.write(results['executive_summary'])
+
+            logger.info(f"📁 Results exported to: {output_dir}")
+
+        logger.info("✅ KDEBWM complaint analysis complete!")
+
+        return {
+            "success": True,
+            "message": "KDEBWM complaint analysis completed successfully",
+            "results": results,
+            "metadata": {
+                "source_file": csv_path,
+                "filter_days": filter_days,
+                "total_records": results['metadata']['total_records'],
+                "complaint_records": results['metadata']['complaint_records'],
+                "generated_at": results['metadata']['generated_at']
+            }
+        }
+
+    except Exception as e:
+        logger.error(f"❌ KDEBWM Analysis error: {str(e)}")
+        import traceback
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"KDEBWM Analysis error: {str(e)}")
+
+
+@app.post("/api/upload-csv")
+async def upload_csv_file(file: UploadFile = File(...)):
+    """
+    Upload a CSV file to data/combined/
+    """
+    try:
+        # Validate file is CSV
+        if not file.filename.endswith('.csv'):
+            raise HTTPException(status_code=400, detail="Only CSV files are allowed")
+
+        # Create directory if doesn't exist
+        upload_dir = Path("data/combined")
+        upload_dir.mkdir(parents=True, exist_ok=True)
+
+        # Save file
+        file_path = upload_dir / file.filename
+
+        with open(file_path, "wb") as f:
+            content = await file.read()
+            f.write(content)
+
+        logger.info(f"✅ Uploaded CSV: {file_path} ({len(content)} bytes)")
+
+        return {
+            "success": True,
+            "message": "File uploaded successfully",
+            "filename": file.filename,
+            "path": str(file_path),
+            "size": len(content)
+        }
+
+    except Exception as e:
+        logger.error(f"❌ Upload error: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Upload error: {str(e)}")
+
+@app.get("/analyze-csv-page")
+async def analyze_csv_page():
+    """Serve the CSV analysis page"""
+    return FileResponse("web_backend/static/analyze_csv.html")
 
 if __name__ == "__main__":
     import uvicorn
