@@ -172,15 +172,15 @@ class ProfessionalReportGenerator:
         """Get top 50 most negative posts"""
         posts_with_sentiment = []
         for post in posts:
-            sentiment_score = post.get('sentiment_score', 0)
-            if sentiment_score < 0:  # Negative sentiment
+            sentiment_score = self._sentiment_score(post)
+            if self._sentiment_label(post) == 'negative' or sentiment_score < 0.4:
                 posts_with_sentiment.append({
-                    'platform': post.get('platform', 'Unknown'),
-                    'content': post.get('text', '')[:200],  # First 200 chars
+                    'platform': self._platform(post),
+                    'content': self._text(post)[:200],
                     'sentiment_score': sentiment_score,
-                    'engagement': post.get('engagement', {}).get('total', 0),
-                    'url': post.get('url', ''),
-                    'date': post.get('created_at', '')
+                    'engagement': self._engagement(post),
+                    'url': self._url(post),
+                    'date': self._date(post)
                 })
 
         # Sort by sentiment score (most negative first)
@@ -191,15 +191,15 @@ class ProfessionalReportGenerator:
         """Get top 50 most positive posts"""
         posts_with_sentiment = []
         for post in posts:
-            sentiment_score = post.get('sentiment_score', 0)
-            if sentiment_score > 0:  # Positive sentiment
+            sentiment_score = self._sentiment_score(post)
+            if self._sentiment_label(post) == 'positive' or sentiment_score > 0.6:
                 posts_with_sentiment.append({
-                    'platform': post.get('platform', 'Unknown'),
-                    'content': post.get('text', '')[:200],
+                    'platform': self._platform(post),
+                    'content': self._text(post)[:200],
                     'sentiment_score': sentiment_score,
-                    'engagement': post.get('engagement', {}).get('total', 0),
-                    'url': post.get('url', ''),
-                    'date': post.get('created_at', '')
+                    'engagement': self._engagement(post),
+                    'url': self._url(post),
+                    'date': self._date(post)
                 })
 
         # Sort by sentiment score (most positive first)
@@ -211,7 +211,7 @@ class ProfessionalReportGenerator:
         platform_stats = {}
 
         for post in posts:
-            platform = post.get('platform', 'Unknown')
+            platform = self._platform(post).lower()
             if platform not in platform_stats:
                 platform_stats[platform] = {
                     'total_posts': 0,
@@ -223,12 +223,14 @@ class ProfessionalReportGenerator:
 
             stats = platform_stats[platform]
             stats['total_posts'] += 1
-            stats['total_sentiment'] += post.get('sentiment_score', 0)
-            stats['total_engagement'] += post.get('engagement', {}).get('total', 0)
+            score = self._sentiment_score(post)
+            label = self._sentiment_label(post)
+            stats['total_sentiment'] += score
+            stats['total_engagement'] += self._engagement(post)
 
-            if post.get('sentiment_score', 0) > 0:
+            if label == 'positive' or score > 0.6:
                 stats['positive_count'] += 1
-            elif post.get('sentiment_score', 0) < 0:
+            elif label == 'negative' or score < 0.4:
                 stats['negative_count'] += 1
 
         # Calculate averages and ratios
@@ -253,16 +255,27 @@ class ProfessionalReportGenerator:
         all_comments = []
 
         for post in posts:
-            post_content = post.get('text', '')[:100]
+            if str(post.get('Type') or post.get('type') or '').lower() == 'comment':
+                all_comments.append({
+                    'platform': self._platform(post),
+                    'post_content': '',
+                    'comment_content': self._text(post)[:200],
+                    'engagement': self._engagement(post),
+                    'sentiment': self._sentiment_label(post),
+                    'date': self._date(post)
+                })
+                continue
+
+            post_content = self._text(post)[:100]
             comments = post.get('comments', [])
 
             for comment in comments:
                 all_comments.append({
-                    'platform': post.get('platform', 'Unknown'),
+                    'platform': self._platform(post),
                     'post_content': post_content,
                     'comment_content': comment.get('text', '')[:200],
                     'engagement': comment.get('likes', 0) + comment.get('replies', 0),
-                    'sentiment': comment.get('sentiment_score', 0),
+                    'sentiment': comment.get('sentiment_label') or comment.get('sentiment_score', 0),
                     'date': comment.get('created_at', '')
                 })
 
@@ -275,22 +288,65 @@ class ProfessionalReportGenerator:
         posts_with_engagement = []
 
         for post in posts:
-            engagement = post.get('engagement', {})
             posts_with_engagement.append({
-                'platform': post.get('platform', 'Unknown'),
-                'content': post.get('text', '')[:200],
-                'engagement': engagement.get('total', 0),
-                'likes': engagement.get('likes', 0),
-                'comments': engagement.get('comments', 0),
-                'shares': engagement.get('shares', 0),
-                'sentiment': post.get('sentiment_score', 0),
-                'url': post.get('url', ''),
-                'date': post.get('created_at', '')
+                'platform': self._platform(post),
+                'content': self._text(post)[:200],
+                'engagement': self._engagement(post),
+                'likes': self._number(post.get('likes') or post.get('Likes')),
+                'comments': self._number(post.get('comments_count') or post.get('comments') or post.get('Comments')),
+                'shares': self._number(post.get('shares') or post.get('Shares')),
+                'sentiment': self._sentiment_label(post),
+                'url': self._url(post),
+                'date': self._date(post)
             })
 
         # Sort by total engagement
         posts_with_engagement.sort(key=lambda x: x['engagement'], reverse=True)
         return posts_with_engagement[:100]
+
+    def _number(self, value: Any, default: float = 0) -> float:
+        """Safely convert scalar report values to numbers."""
+        try:
+            if value is None or str(value).lower() == 'nan':
+                return default
+            return float(value)
+        except (TypeError, ValueError):
+            return default
+
+    def _platform(self, post: Dict) -> str:
+        return str(post.get('platform') or post.get('Platform') or 'Unknown')
+
+    def _text(self, post: Dict) -> str:
+        return str(post.get('text') or post.get('Text') or post.get('content') or '')
+
+    def _url(self, post: Dict) -> str:
+        return str(post.get('url') or post.get('URL') or '')
+
+    def _date(self, post: Dict) -> str:
+        return str(post.get('created_at') or post.get('Date') or post.get('date') or '')
+
+    def _engagement(self, post: Dict) -> int:
+        engagement = post.get('engagement') if isinstance(post.get('engagement'), dict) else {}
+        total = engagement.get('total') if engagement else post.get('total_engagement')
+        if total is None:
+            total = self._number(post.get('likes') or post.get('Likes'))
+            total += self._number(post.get('shares') or post.get('Shares'))
+            total += self._number(post.get('comments_count') or post.get('comments') or post.get('Comments'))
+        return int(self._number(total))
+
+    def _sentiment_label(self, post: Dict) -> str:
+        label = str(post.get('sentiment_label') or post.get('Sentiment') or post.get('sentiment') or '').lower()
+        if label in {'positive', 'neutral', 'negative'}:
+            return label
+        score = self._sentiment_score(post)
+        return 'positive' if score > 0.6 else 'negative' if score < 0.4 else 'neutral'
+
+    def _sentiment_score(self, post: Dict) -> float:
+        score = self._number(post.get('sentiment_score'), None)
+        if score is not None:
+            return score
+        label = str(post.get('sentiment_label') or post.get('Sentiment') or '').lower()
+        return 0.8 if label == 'positive' else 0.2 if label == 'negative' else 0.5
 
     def _write_csv(self, data: List[Dict], filepath: Path, fieldnames: List[str]) -> str:
         """Write data to CSV file"""

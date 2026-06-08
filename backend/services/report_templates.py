@@ -212,14 +212,60 @@ def generate_dashboard_html_template(
     platform_data = analysis_data.get('platform_breakdown', {})
     raw_data = analysis_data.get('raw_data', [])
 
+    from html import escape
+
     # Calculate metrics
     total_posts = len(raw_data)
     positive_ratio = sentiment.get('positive_ratio', 0)
     negative_ratio = sentiment.get('negative_ratio', 0)
     neutral_ratio = sentiment.get('neutral_ratio', 0)
 
+    def _number(value, default=0):
+        try:
+            if value is None or str(value).lower() == 'nan':
+                return default
+            return float(value)
+        except (TypeError, ValueError):
+            return default
+
+    def _field(post, *names, default=''):
+        for name in names:
+            value = post.get(name)
+            if value is not None and str(value).lower() != 'nan':
+                return value
+        return default
+
+    def _sentiment_label(post):
+        label = str(_field(post, 'sentiment_label', 'Sentiment', 'sentiment', default='')).lower()
+        if label in {'positive', 'neutral', 'negative'}:
+            return label
+        score = _number(post.get('sentiment_score'), 0.5)
+        return 'positive' if score > 0.6 else 'negative' if score < 0.4 else 'neutral'
+
+    def _engagement(post):
+        engagement = post.get('engagement') if isinstance(post.get('engagement'), dict) else {}
+        if engagement:
+            return int(_number(engagement.get('total'), 0))
+        total = post.get('total_engagement')
+        if total is None:
+            total = _number(post.get('likes'), 0) + _number(post.get('shares'), 0) + _number(post.get('comments_count'), 0)
+        return int(_number(total, 0))
+
+    if raw_data and (positive_ratio + negative_ratio + neutral_ratio) == 0:
+        counts = {'positive': 0, 'neutral': 0, 'negative': 0}
+        for row in raw_data:
+            counts[_sentiment_label(row)] += 1
+        total = sum(counts.values()) or 1
+        positive_ratio = counts['positive'] / total * 100
+        neutral_ratio = counts['neutral'] / total * 100
+        negative_ratio = counts['negative'] / total * 100
+
+    brand_health = max(0, min(100, round(positive_ratio + (neutral_ratio * 0.45) - (negative_ratio * 0.8), 1)))
+    risk_level = 'High' if negative_ratio >= 30 else 'Medium' if negative_ratio >= 15 else 'Low'
+    priority_action = 'Activate response room' if risk_level == 'High' else 'Engage and clarify concerns' if risk_level == 'Medium' else 'Amplify advocates'
+
     # Get top posts
-    top_posts = sorted(raw_data, key=lambda x: x.get('engagement', {}).get('total', 0), reverse=True)[:10]
+    top_posts = sorted(raw_data, key=_engagement, reverse=True)[:10]
 
     # Prepare platform data for charts
     platform_names = []
@@ -231,7 +277,7 @@ def generate_dashboard_html_template(
         platform_names.append(platform.title())
         platform_posts.append(data.get('total', 0))
         platform_engagement.append(data.get('total_engagement', 0))
-        platform_sentiment.append(data.get('avg_sentiment', 0))
+        platform_sentiment.append(round(_number(data.get('avg_sentiment'), 0), 3))
 
     # Convert to JSON for JavaScript
     import json
@@ -243,20 +289,28 @@ def generate_dashboard_html_template(
     # Generate top posts HTML
     top_posts_html = ""
     for i, post in enumerate(top_posts[:5], 1):
-        engagement = post.get('engagement', {})
-        total_eng = engagement.get('total', 0)
-        sentiment_score = post.get('sentiment_score', 0)
-        sentiment_label = "Positive" if sentiment_score > 0 else "Negative" if sentiment_score < 0 else "Neutral"
-        sentiment_class = "success" if sentiment_score > 0 else "danger" if sentiment_score < 0 else "secondary"
+        total_eng = _engagement(post)
+        sentiment_label_raw = _sentiment_label(post)
+        sentiment_label = sentiment_label_raw.title()
+        sentiment_class = "success" if sentiment_label_raw == 'positive' else "danger" if sentiment_label_raw == 'negative' else "secondary"
+        platform_name = escape(str(_field(post, 'platform', 'Platform', default='Unknown')).title())
+        content_text = escape(str(_field(post, 'text', 'Text', 'content', default='No content available'))[:120])
 
         top_posts_html += f"""
         <tr>
             <td>{i}</td>
-            <td>{post.get('platform', 'Unknown').title()}</td>
-            <td>{post.get('text', '')[:100]}...</td>
+            <td>{platform_name}</td>
+            <td>{content_text}...</td>
             <td>{total_eng:,}</td>
             <td><span class="badge bg-{sentiment_class}">{sentiment_label}</span></td>
         </tr>
+        """
+
+    if not top_posts_html:
+        top_posts_html = """
+        <tr><td colspan="5" class="text-center text-muted py-4">
+            No ranked content available for this run. Try increasing dataset size or adding more platforms.
+        </td></tr>
         """
 
     template = f"""<!DOCTYPE html>
@@ -270,13 +324,13 @@ def generate_dashboard_html_template(
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {{
-            background-color: #f8f9fa;
+            background: #eef2ff;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }}
         .dashboard-header {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: radial-gradient(circle at top left, #22d3ee 0, transparent 28%), linear-gradient(135deg, #111827 0%, #312e81 55%, #7c3aed 100%);
             color: white;
-            padding: 2rem;
+            padding: 2.5rem 2rem;
             margin-bottom: 2rem;
             border-radius: 0 0 1rem 1rem;
         }}
@@ -316,6 +370,16 @@ def generate_dashboard_html_template(
             padding: 1.5rem;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }}
+        .insight-card {{
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #e5e7eb;
+            border-radius: 1rem;
+            padding: 1.25rem;
+            box-shadow: 0 10px 25px rgba(15,23,42,0.08);
+            height: 100%;
+        }}
+        .insight-value {{ font-size: 1.8rem; font-weight: 800; color: #1e1b4b; }}
+        .section-title {{ color: #1e1b4b; font-weight: 800; }}
         .positive {{ color: #28a745; }}
         .negative {{ color: #dc3545; }}
         .neutral {{ color: #6c757d; }}
@@ -367,12 +431,37 @@ def generate_dashboard_html_template(
             </div>
         </div>
 
+        <!-- Executive Decision Row -->
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-shield-check"></i> Brand Health</div>
+                    <div class="insight-value">{brand_health}%</div>
+                    <small class="text-muted">Positive momentum adjusted for risk</small>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-exclamation-triangle"></i> Reputation Risk</div>
+                    <div class="insight-value">{risk_level}</div>
+                    <small class="text-muted">Based on negative sentiment share</small>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-lightning-charge"></i> Next Best Action</div>
+                    <div class="insight-value" style="font-size:1.25rem;">{priority_action}</div>
+                    <small class="text-muted">Recommended immediate focus</small>
+                </div>
+            </div>
+        </div>
+
         <!-- Charts Row -->
         <div class="row">
             <!-- Sentiment Distribution -->
             <div class="col-md-6">
                 <div class="chart-container">
-                    <h4><i class="bi bi-pie-chart"></i> Sentiment Distribution</h4>
+                    <h4 class="section-title"><i class="bi bi-pie-chart"></i> Sentiment Distribution</h4>
                     <canvas id="sentimentChart"></canvas>
                 </div>
             </div>
@@ -380,7 +469,7 @@ def generate_dashboard_html_template(
             <!-- Platform Comparison -->
             <div class="col-md-6">
                 <div class="chart-container">
-                    <h4><i class="bi bi-bar-chart"></i> Posts by Platform</h4>
+                    <h4 class="section-title"><i class="bi bi-bar-chart"></i> Records by Platform</h4>
                     <canvas id="platformChart"></canvas>
                 </div>
             </div>
@@ -390,7 +479,7 @@ def generate_dashboard_html_template(
             <!-- Engagement by Platform -->
             <div class="col-md-6">
                 <div class="chart-container">
-                    <h4><i class="bi bi-heart"></i> Engagement by Platform</h4>
+                    <h4 class="section-title"><i class="bi bi-heart"></i> Engagement by Platform</h4>
                     <canvas id="engagementChart"></canvas>
                 </div>
             </div>
@@ -398,7 +487,7 @@ def generate_dashboard_html_template(
             <!-- Sentiment by Platform -->
             <div class="col-md-6">
                 <div class="chart-container">
-                    <h4><i class="bi bi-graph-up-arrow"></i> Average Sentiment by Platform</h4>
+                    <h4 class="section-title"><i class="bi bi-graph-up-arrow"></i> Average Sentiment by Platform</h4>
                     <canvas id="sentimentByPlatformChart"></canvas>
                 </div>
             </div>
@@ -408,7 +497,7 @@ def generate_dashboard_html_template(
         <div class="row">
             <div class="col-12">
                 <div class="table-container">
-                    <h4><i class="bi bi-trophy"></i> Top Posts by Engagement</h4>
+                    <h4 class="section-title"><i class="bi bi-trophy"></i> Highest-Impact Content</h4>
                     <table class="table table-hover">
                         <thead>
                             <tr>
@@ -431,7 +520,7 @@ def generate_dashboard_html_template(
         <div class="text-center mt-4 mb-4">
             <p class="text-muted">
                 <i class="bi bi-shield-check"></i> Generated by InsightPulse Professional Analytics<br>
-                <small>Powered by Claude Sonnet 4.5, Malaysian Custom Models, and Real-time Data Crawling</small>
+                <small>Powered by Malaysian custom AI models and real-time data crawling</small>
             </p>
         </div>
     </div>

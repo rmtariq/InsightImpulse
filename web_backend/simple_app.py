@@ -357,6 +357,10 @@ class AnalysisRequest(BaseModel):
     dataset_size: Optional[int] = None  # Total results (posts + comments). Options: 50, 1000, 5000, 10000, 25000, 50000, 100000
     use_crawl_strategy: bool = True  # Enable 30:70 Posts:Comments ratio strategy
 
+    # 🌐 DIRECT URL CRAWL MODE
+    crawl_mode: str = "keyword"  # "keyword" or "direct_url"
+    direct_urls: Optional[List[str]] = None  # e.g. ["https://facebook.com/PASJohor", "https://instagram.com/pasjohor"]
+
 class PlatformData(BaseModel):
     platform: str
     data_points: int
@@ -2363,17 +2367,28 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
             start_time = time.time()
 
             try:
-                update_progress("crawling", f"Fetching data from {', '.join(request.platforms).upper()}...", 0)
-
-                # 🎯 Use new strategy-based crawling with comments
-                strategy_result = await adapter.crawl_with_strategy(
-                    platforms=request.platforms,
-                    query=request.query,
-                    dataset_size=effective_dataset_size,
-                    analysis_type=request.analysis_focus,
-                    since_date=date_filter["start_iso"][:10],   # "YYYY-MM-DD"
-                    until_date=date_filter["end_iso"][:10]
-                )
+                # 🌐 DIRECT URL MODE — crawl specific pages/profiles
+                if request.crawl_mode == "direct_url" and request.direct_urls:
+                    update_progress("crawling", f"Crawling {len(request.direct_urls)} direct URL(s)...", 0)
+                    logger.info(f"🌐 Direct URL crawl mode: {request.direct_urls}")
+                    strategy_result = await adapter.crawl_direct_urls(
+                        urls=request.direct_urls,
+                        max_posts=max(50, effective_dataset_size // 10),
+                        max_comments=max(30, effective_dataset_size // 20),
+                        since_date=date_filter["start_iso"][:10],
+                        until_date=date_filter["end_iso"][:10]
+                    )
+                else:
+                    update_progress("crawling", f"Fetching data from {', '.join(request.platforms).upper()}...", 0)
+                    # 🎯 Use new strategy-based crawling with comments
+                    strategy_result = await adapter.crawl_with_strategy(
+                        platforms=request.platforms,
+                        query=request.query,
+                        dataset_size=effective_dataset_size,
+                        analysis_type=request.analysis_focus,
+                        since_date=date_filter["start_iso"][:10],   # "YYYY-MM-DD"
+                        until_date=date_filter["end_iso"][:10]
+                    )
 
                 elapsed_time = time.time() - start_time
                 logger.info(f"⚡ Strategy-based crawl completed in {elapsed_time:.2f} seconds!")

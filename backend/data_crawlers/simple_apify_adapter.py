@@ -383,7 +383,7 @@ class SimpleApifyAdapter:
             time_per_item = 0.5   # 2 items per second
             category = "MEDIUM"
         elif platform_lower in SLOW_PLATFORMS:
-            time_per_item = 1.0   # 1 item per second
+            time_per_item = 3.5   # Facebook browser automation: ~3-5s per item (proxy + anti-bot delay)
             category = "SLOW"
         elif platform_lower in VERY_SLOW_PLATFORMS:
             time_per_item = 1.5   # 0.67 items per second
@@ -400,7 +400,7 @@ class SimpleApifyAdapter:
 
         # Apply min/max limits
         MIN_TIMEOUT = 180   # 3 minutes minimum
-        MAX_TIMEOUT = 1800  # 30 minutes maximum
+        MAX_TIMEOUT = 3600  # 60 minutes maximum (Facebook browser automation can be very slow)
 
         final_timeout = max(MIN_TIMEOUT, min(buffered_timeout, MAX_TIMEOUT))
 
@@ -487,18 +487,27 @@ class SimpleApifyAdapter:
 
         logger.info(f"📘 Facebook: Requesting {adjusted_max_posts} posts (target: {max_results}, buffer: {buffer}x)")
 
+        # scroll_timeout controls how long the browser keeps scrolling inside the actor.
+        # Root cause of low FB data: 60s scroll_timeout = only ~15-20 scroll events
+        # = ~20 posts before actor stops. Must be >> Apify run timeout.
+        # Formula: allow ~5s per post target, minimum 300s (5min), max 1800s (30min)
+        scroll_timeout = max(300, min(adjusted_max_posts * 5, 1800))
+
         input_data = {
-            "query": query,  # Search query
-            "search_type": "posts",  # Search for posts (not pages/groups)
-            "max_posts": adjusted_max_posts,  # ✅ OPTIMIZED: 1.5x buffer for better results
-            "language": "ms",  # Malaysian context
-            "scroll_timeout": 60,  # 🎯 NEW: Wait longer for infinite scroll
+            "query": query,
+            "search_type": "posts",
+            "max_posts": adjusted_max_posts,
+            "language": "ms",
+            "scroll_timeout": scroll_timeout,  # Dynamic: 5s × target posts, min 300s
+            "scroll_delay": 2000,              # 2s between scrolls — avoid FB anti-bot detection
             "proxy": {
                 "useApifyProxy": True,
                 "apifyProxyGroups": ["RESIDENTIAL"],
                 "apifyProxyCountry": "MY"
             }
         }
+
+        logger.info(f"📘 Facebook scroll_timeout set to {scroll_timeout}s ({scroll_timeout//60}min) for {adjusted_max_posts} posts target")
         return input_data
 
     def _prepare_instagram_input(self, query: str, max_results: int, max_comments: int = 100, comment_sort: str = "top") -> Dict[str, Any]:
@@ -537,16 +546,22 @@ class SimpleApifyAdapter:
         logger.info(f"📸 Instagram: Requesting {adjusted_max_results} posts (target: {max_results}, buffer: {buffer}x)")
         logger.info(f"💬 Instagram: ENABLING COMMENTS - {adjusted_max_comments} per post with replies")
 
+        # scrollTimeout: Instagram hashtag page uses infinite scroll — 45s too short.
+        # Allow 4s per post target (min 180s, max 900s)
+        ig_scroll_timeout = max(180, min(adjusted_max_results * 4, 900))
+        logger.info(f"📸 Instagram scroll_timeout set to {ig_scroll_timeout}s for {adjusted_max_results} posts target")
+
         return {
             "directUrls": [hashtag_url],
-            "resultsLimit": adjusted_max_results,  # ✅ OPTIMIZED: 1.3x buffer
+            "resultsLimit": adjusted_max_results,
             "resultsType": "posts",
             "addParentData": True,
             "scrapeComments": True,
             "commentsMode": "top",
-            "maxComments": adjusted_max_comments,  # ✅ OPTIMIZED: 1.2x buffer
+            "maxComments": adjusted_max_comments,
             "includeCommentReplies": True,
-            "scrollTimeout": 45,  # 🎯 NEW: Wait longer for content to load
+            "scrollTimeout": ig_scroll_timeout,       # Dynamic: was hardcoded 45s
+            "pageLoadTimeoutSecs": 60,                # Wait up to 60s per page load
             "proxy": {
                 "useApifyProxy": True,
                 "apifyProxyGroups": ["RESIDENTIAL"],
@@ -567,18 +582,30 @@ class SimpleApifyAdapter:
         logger.info(f"🐦 X/Twitter: Requesting {adjusted_max_tweets} tweets (target: {max_results}, buffer: {buffer}x)")
         logger.info(f"💬 X/Twitter: Requesting {adjusted_max_replies} replies per tweet")
 
+        # filter:has_engagement + min_replies:1 were silently filtering out posts
+        # with no replies yet — reducing data especially for newer/smaller accounts.
+        # Removed both filters to capture ALL matching posts.
+        # timeout increased: X API can be slow under rate limiting.
+        x_timeout = max(180, min(adjusted_max_tweets * 2, 1200))
+        logger.info(f"🐦 X/Twitter timeout set to {x_timeout}s for {adjusted_max_tweets} tweets target")
+
         input_data = {
-            "searchTerms": [query],  # ✅ FIX: Actor expects "searchTerms" array, not "search" string
-            "max_tweets": adjusted_max_tweets,  # ✅ OPTIMIZED: 1.4x buffer
-            "queryType": "Top",  # ✅ Get TOP posts (most engagement) instead of Latest
-            "include_replies": True,  # ✅ Replies enabled (Twitter's version of comments)
-            "max_replies": adjusted_max_replies,  # ✅ OPTIMIZED: 1.2x buffer
-            "reply_sort": comment_sort,  # ✅ "top" (most liked/retweeted) or "recent"
-            "include_retweets": True,  # ✅ Track retweets (shares)
-            "include_likes": True,  # ✅ Track likes (reactions)
-            "filter:has_engagement": True,  # ✅ Only posts with engagement
-            "min_replies": 1,  # ✅ Only posts with at least 1 reply
-            "timeout": 120  # 🎯 NEW: Longer timeout for large datasets (2 minutes per batch)
+            "searchTerms": [query],
+            "max_tweets": adjusted_max_tweets,
+            "queryType": "Top",
+            "include_replies": True,
+            "max_replies": adjusted_max_replies,
+            "reply_sort": comment_sort,
+            "include_retweets": True,
+            "include_likes": True,
+            # Removed: "filter:has_engagement" — was filtering out valid posts
+            # Removed: "min_replies": 1    — was excluding posts with 0 replies
+            "timeout": x_timeout,           # Dynamic: was fixed 120s
+            "proxy": {                      # X rate-limits hard without proxy
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
         }
         if since_date:
             input_data["since"] = since_date    # e.g. "2026-05-01"
@@ -603,19 +630,29 @@ class SimpleApifyAdapter:
         logger.info(f"🎵 TikTok: Requesting {adjusted_max_videos} videos (target: {max_results}, buffer: {buffer}x)")
         logger.info(f"💬 TikTok: Requesting {adjusted_max_comments} comments per video")
 
+        # scrollTimeout: TikTok search loads videos lazily — 45s misses many results.
+        # Allow 3s per video target (min 180s, max 900s)
+        tt_scroll_timeout = max(180, min(adjusted_max_videos * 3, 900))
+        logger.info(f"🎵 TikTok scroll_timeout set to {tt_scroll_timeout}s for {adjusted_max_videos} videos target")
+
         return {
-            "searchQueries": [query],  # Single query (multiple handled by crawl_platform_with_ai_keywords)
-            "resultsPerPage": adjusted_max_videos,  # ✅ OPTIMIZED: 1.3x buffer
-            "maxVideos": adjusted_max_videos,  # ✅ OPTIMIZED: 1.3x buffer
+            "searchQueries": [query],
+            "resultsPerPage": adjusted_max_videos,
+            "maxVideos": adjusted_max_videos,
             "shouldDownloadVideos": False,
             "shouldDownloadCovers": False,
             "shouldDownloadSlideshowImages": False,
-            "getComments": True,  # ✅ Comments enabled
-            "commentsPerPost": adjusted_max_comments,  # ✅ OPTIMIZED: 1.2x buffer
-            "commentSort": comment_sort,  # ✅ "top" (most liked) or "recent"
-            "getEngagement": True,  # ✅ Get likes, shares, views
-            "scrollTimeout": 45,  # 🎯 NEW: Wait longer for infinite scroll
-            "getUserDetails": True
+            "getComments": True,
+            "commentsPerPost": adjusted_max_comments,
+            "commentSort": comment_sort,
+            "getEngagement": True,
+            "scrollTimeout": tt_scroll_timeout,       # Dynamic: was hardcoded 45s
+            "getUserDetails": True,
+            "proxy": {                                # TikTok needs proxy to avoid blocking
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
         }
 
     def _prepare_youtube_input(self, query: str, max_results: int, max_comments: int = 50, comment_sort: str = "top") -> Dict[str, Any]:
@@ -690,18 +727,24 @@ class SimpleApifyAdapter:
         logger.info(f"💼 LinkedIn: Requesting {adjusted_max_posts} posts (target: {max_results}, buffer: {buffer}x)")
         logger.info(f"💬 LinkedIn: Requesting {adjusted_max_comments} comments per post")
 
+        # LinkedIn is browser automation (same category as Facebook).
+        # scrollTimeout: 60s → same issue as FB, only gets ~15-20 posts before stopping.
+        li_scroll_timeout = max(300, min(adjusted_max_posts * 5, 1800))
+        logger.info(f"💼 LinkedIn scroll_timeout set to {li_scroll_timeout}s for {adjusted_max_posts} posts target")
+
         return {
-            "searchQueries": [query],  # ✅ Search queries (array for harvestapi)
-            "maxPosts": adjusted_max_posts,  # ✅ OPTIMIZED: 1.5x buffer
-            "scrapeComments": True,  # ✅ Enable comments
-            "maxComments": adjusted_max_comments,  # ✅ OPTIMIZED: 1.3x buffer
-            "postedLimit": "any",  # ✅ Default to any time
-            "scrapeReactions": True,  # ✅ Get reactions
-            "profileScraperMode": "short",  # ✅ Quick profile scrape
-            "scrollTimeout": 60,  # 🎯 NEW: LinkedIn loads slowly, wait longer
+            "searchQueries": [query],
+            "maxPosts": adjusted_max_posts,
+            "scrapeComments": True,
+            "maxComments": adjusted_max_comments,
+            "postedLimit": "any",
+            "scrapeReactions": True,
+            "profileScraperMode": "short",
+            "scrollTimeout": li_scroll_timeout,   # Dynamic: was hardcoded 60s
             "proxy": {
                 "useApifyProxy": True,
-                "apifyProxyGroups": ["RESIDENTIAL"]
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"           # Added MY — more relevant for Malaysian content
             }
         }
 
@@ -726,16 +769,26 @@ class SimpleApifyAdapter:
         logger.info(f"🧵 Threads: Requesting {adjusted_max_posts} posts (target: {max_results}, buffer: {buffer}x)")
         logger.info(f"🧵 Threads: Searching for '{query}'")
 
-        # igview-owner/threads-search-scraper input format
+        # Threads actor has no explicit scrollTimeout field but respects requestTimeout.
+        # Root cause of 96% comments / 4% posts: actor fetches replies heavily by default.
+        # Cap maxRepliesPerPost and add proxy to avoid rate limiting.
+        threads_timeout = max(180, min(adjusted_max_posts * 2, 900))
+        logger.info(f"🧵 Threads timeout set to {threads_timeout}s for {adjusted_max_posts} posts target")
+
         return {
-            "searchQuery": query,  # Search keywords (supports Boolean operators)
-            "maxResults": adjusted_max_posts,  # Maximum posts to scrape
-            "sortBy": "top",  # Sort by relevance ("top") or "recent"
-            "includeReplies": True,  # Get replies/comments
-            "maxRepliesPerPost": max_comments,  # Max replies per post
-            "dateFrom": self._crawl_since_date or None,   # e.g. "2026-05-01"
+            "searchQuery": query,
+            "maxResults": adjusted_max_posts,
+            "sortBy": "top",
+            "includeReplies": True,
+            "maxRepliesPerPost": min(max_comments, 20),  # Cap replies — prevents 96% comment skew
+            "dateFrom": self._crawl_since_date or None,
             "dateTo": self._crawl_until_date or None,
-            # Date filtering applied at actor level when dates are set
+            "requestTimeout": threads_timeout,           # Was missing — now dynamic
+            "proxy": {                                   # Was missing — rate limit protection
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
         }
 
     async def _scrape_threads_with_replies(
@@ -2836,6 +2889,279 @@ class SimpleApifyAdapter:
                 if 'comments' not in post:
                     post['comments'] = []
             return posts
+
+
+    def _detect_platform_from_url(self, url: str) -> str:
+        """Detect platform from URL string."""
+        url_lower = url.lower()
+        if 'facebook.com' in url_lower or 'fb.com' in url_lower:
+            return 'facebook'
+        elif 'instagram.com' in url_lower:
+            return 'instagram'
+        elif 'tiktok.com' in url_lower:
+            return 'tiktok'
+        elif 'twitter.com' in url_lower or 'x.com' in url_lower:
+            return 'x'
+        elif 'threads.net' in url_lower:
+            return 'threads'
+        elif 'youtube.com' in url_lower or 'youtu.be' in url_lower:
+            return 'youtube'
+        elif 'linkedin.com' in url_lower:
+            return 'linkedin'
+        else:
+            return 'unknown'
+
+    def _prepare_facebook_url_input(self, urls: List[str], max_posts: int = 100, max_comments: int = 50) -> Dict:
+        """Facebook page/post direct URL crawl using apify/facebook-posts-scraper."""
+        scroll_timeout = max(300, min(max_posts * 5, 1800))
+        return {
+            "startUrls": [{"url": u} for u in urls],
+            "maxPosts": max_posts,
+            "maxPostComments": max_comments,
+            "maxReviewsPerPage": 0,
+            "commentsMode": "RANKED_THREADED",
+            "scroll_timeout": scroll_timeout,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    def _prepare_instagram_url_input(self, urls: List[str], max_posts: int = 50, max_comments: int = 30) -> Dict:
+        """Instagram profile/hashtag direct URL crawl."""
+        ig_scroll = max(180, min(max_posts * 4, 900))
+        return {
+            "directUrls": urls,
+            "resultsType": "posts",
+            "resultsLimit": max_posts,
+            "addParentData": True,
+            "scrapeComments": True,
+            "commentsMode": "top",
+            "maxComments": max_comments,
+            "includeCommentReplies": True,
+            "scrollTimeout": ig_scroll,
+            "pageLoadTimeoutSecs": 60,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    def _prepare_tiktok_url_input(self, urls: List[str], max_videos: int = 50, max_comments: int = 30) -> Dict:
+        """TikTok profile/video direct URL crawl."""
+        tt_scroll = max(180, min(max_videos * 3, 900))
+        # Separate profiles vs individual video URLs
+        profiles = [u for u in urls if '/@' in u and '/video/' not in u]
+        videos   = [u for u in urls if '/video/' in u]
+        inp: Dict = {
+            "shouldDownloadVideos": False,
+            "shouldDownloadCovers": False,
+            "shouldDownloadSlideshowImages": False,
+            "getComments": True,
+            "commentsPerPost": max_comments,
+            "getEngagement": True,
+            "scrollTimeout": tt_scroll,
+            "getUserDetails": True,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+        if profiles:
+            inp["profiles"] = profiles
+            inp["maxVideos"] = max_videos
+        if videos:
+            inp["postURLs"] = videos
+        return inp
+
+    def _prepare_twitter_url_input(self, urls: List[str], max_tweets: int = 100, max_replies: int = 30) -> Dict:
+        """X/Twitter profile direct URL crawl."""
+        handles = []
+        for u in urls:
+            # Extract handle from URL e.g. https://x.com/username → username
+            parts = u.rstrip('/').split('/')
+            if parts:
+                handle = parts[-1].lstrip('@')
+                if handle:
+                    handles.append(f"@{handle}")
+        x_timeout = max(180, min(max_tweets * 2, 1200))
+        return {
+            "handles": handles if handles else urls,
+            "max_tweets": max_tweets,
+            "include_replies": True,
+            "max_replies": max_replies,
+            "include_retweets": True,
+            "queryType": "Top",
+            "timeout": x_timeout,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    def _prepare_threads_url_input(self, urls: List[str], max_posts: int = 100, max_replies: int = 20) -> Dict:
+        """Threads profile direct URL crawl."""
+        # Extract usernames from URLs
+        usernames = []
+        for u in urls:
+            parts = u.rstrip('/').split('/')
+            for p in parts:
+                if p.startswith('@'):
+                    usernames.append(p.lstrip('@'))
+                    break
+            else:
+                if parts:
+                    usernames.append(parts[-1])
+        t_timeout = max(180, min(max_posts * 2, 900))
+        return {
+            "usernames": usernames if usernames else urls,
+            "maxPosts": max_posts,
+            "maxRepliesPerPost": min(max_replies, 20),
+            "requestTimeout": t_timeout,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    def _prepare_youtube_url_input(self, urls: List[str], max_videos: int = 50, max_comments: int = 30) -> Dict:
+        """YouTube channel/video direct URL crawl."""
+        return {
+            "startUrls": [{"url": u} for u in urls],
+            "maxResults": max_videos,
+            "scrapeComments": True,
+            "maxComments": max_comments,
+            "scrapeChannelInfo": True,
+            "scrapeVideoStats": True,
+            "scrollTimeout": 120,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    def _prepare_linkedin_url_input(self, urls: List[str], max_posts: int = 50, max_comments: int = 30) -> Dict:
+        """LinkedIn company/profile direct URL crawl."""
+        li_scroll = max(300, min(max_posts * 5, 1800))
+        return {
+            "startUrls": [{"url": u} for u in urls],
+            "maxPosts": max_posts,
+            "scrapeComments": True,
+            "maxComments": max_comments,
+            "scrapeReactions": True,
+            "scrollTimeout": li_scroll,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY"
+            }
+        }
+
+    async def crawl_direct_urls(
+        self,
+        urls: List[str],
+        max_posts: int = 100,
+        max_comments: int = 50,
+        since_date: str = None,
+        until_date: str = None
+    ) -> Dict[str, Any]:
+        """
+        Crawl a list of direct URLs across any supported platform.
+        Auto-detects platform from URL and uses the appropriate actor.
+        Returns same format as crawl_with_strategy for compatibility.
+        """
+        # Group URLs by platform
+        platform_urls: Dict[str, List[str]] = {}
+        for url in urls:
+            p = self._detect_platform_from_url(url)
+            platform_urls.setdefault(p, []).append(url)
+
+        logger.info(f"🌐 Direct URL crawl: {len(urls)} URLs across {list(platform_urls.keys())}")
+
+        # Actor mapping for URL-based crawling
+        url_actors = {
+            'facebook':  'apify/facebook-posts-scraper',
+            'instagram': 'apify/instagram-scraper',
+            'tiktok':    'clockworks/tiktok-scraper',
+            'x':         'apidojo/tweet-scraper',
+            'youtube':   'streamers/youtube-scraper',
+            'threads':   'igview-owner/threads-profile-scraper',
+            'linkedin':  'harvestapi/linkedin-post-search',
+        }
+
+        all_results: Dict[str, List[Dict]] = {}
+        tasks = []
+
+        for platform, p_urls in platform_urls.items():
+            if platform == 'unknown':
+                logger.warning(f"⚠️ Could not detect platform for URLs: {p_urls}")
+                continue
+
+            actor_id = url_actors.get(platform)
+            if not actor_id:
+                logger.warning(f"⚠️ No URL actor configured for platform: {platform}")
+                continue
+
+            # Build platform-specific input
+            if platform == 'facebook':
+                actor_input = self._prepare_facebook_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'instagram':
+                actor_input = self._prepare_instagram_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'tiktok':
+                actor_input = self._prepare_tiktok_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'x':
+                actor_input = self._prepare_twitter_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'threads':
+                actor_input = self._prepare_threads_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'youtube':
+                actor_input = self._prepare_youtube_url_input(p_urls, max_posts, max_comments)
+            elif platform == 'linkedin':
+                actor_input = self._prepare_linkedin_url_input(p_urls, max_posts, max_comments)
+            else:
+                continue
+
+            logger.info(f"🚀 Launching URL crawl: {platform} | actor={actor_id} | {len(p_urls)} URLs")
+            tasks.append((platform, actor_id, actor_input))
+
+        # Run all platform crawls concurrently
+        async def run_one(platform, actor_id, actor_input):
+            try:
+                raw = await self._run_apify_actor(actor_id, actor_input, platform)
+                transformed = [self._transform_result(platform, item) for item in raw]
+                transformed = [t for t in transformed if t]
+                logger.info(f"✅ URL crawl {platform}: {len(transformed)} results")
+                return platform, transformed
+            except Exception as e:
+                logger.error(f"❌ URL crawl failed for {platform}: {e}")
+                return platform, []
+
+        import asyncio
+        results_list = await asyncio.gather(*[run_one(p, a, i) for p, a, i in tasks])
+
+        for platform, results in results_list:
+            all_results[platform] = results
+
+        total = sum(len(v) for v in all_results.values())
+        logger.info(f"✅ Direct URL crawl complete: {total} total results")
+
+        # Return in same format as crawl_with_strategy
+        return {
+            "results": all_results,
+            "summary": {
+                "total_results": total,
+                "total_posts": total,
+                "total_comments": 0,
+                "crawl_mode": "direct_url",
+                "urls_crawled": urls
+            },
+            "strategy": {"mode": "direct_url"}
+        }
 
 
 # Convenience function

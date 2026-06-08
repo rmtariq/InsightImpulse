@@ -147,6 +147,15 @@
         .platform-item input[type="checkbox"] {
             margin-right: 10px;
         }
+
+        #urlInputSection textarea {
+            border: 2px solid #b8d4f5;
+            transition: border-color 0.2s;
+        }
+        #urlInputSection textarea:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37,99,235,0.12);
+        }
         
         .btn-analyze {
             background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
@@ -1694,9 +1703,54 @@
         <!-- Analysis Form -->
         <div class="analysis-card">
             <h3 class="mb-4">Start New Analysis</h3>
-            
-            <!-- Query Input -->
+
+            <!-- Crawl Mode Toggle -->
             <div class="form-section">
+                <label class="form-label">Mod Crawl / Crawl Mode</label>
+                <div class="d-flex gap-2" style="flex-wrap:wrap;">
+                    <button type="button" id="btnModeKeyword" class="btn btn-primary btn-sm px-4 py-2"
+                        onclick="setCrawlMode('keyword')" style="border-radius:20px; font-weight:600;">
+                        <i class="bi bi-search me-1"></i> Keyword Search
+                    </button>
+                    <button type="button" id="btnModeUrl" class="btn btn-outline-primary btn-sm px-4 py-2"
+                        onclick="setCrawlMode('direct_url')" style="border-radius:20px; font-weight:600;">
+                        <i class="bi bi-link-45deg me-1"></i> Direct URL Crawl
+                    </button>
+                </div>
+                <small class="text-muted mt-1 d-block">
+                    <b>Keyword Search</b> — cari berdasarkan kata kunci.<br>
+                    <b>Direct URL Crawl</b> — crawl terus halaman/profil FB, IG, TikTok, YouTube, X, Threads, LinkedIn.
+                </small>
+            </div>
+
+            <!-- URL Input (shown only in Direct URL mode) -->
+            <div class="form-section" id="urlInputSection" style="display:none;">
+                <label for="directUrlInput" class="form-label">
+                    <i class="bi bi-link-45deg me-1"></i>
+                    Masukkan URL Halaman / Profil
+                </label>
+                <textarea
+                    class="form-control"
+                    id="directUrlInput"
+                    rows="4"
+                    placeholder="Masukkan satu URL setiap baris, contoh:&#10;https://www.facebook.com/PASJohor&#10;https://www.instagram.com/pas_johor&#10;https://www.tiktok.com/@pas_official&#10;https://www.youtube.com/@PASMalaysia"
+                    style="font-size:0.88em; font-family:monospace;"
+                ></textarea>
+                <small class="text-muted mt-1 d-block" id="urlPlatformDetect"></small>
+                <div class="mt-2 p-2 rounded" style="background:#f0f7ff; border:1px solid #b8d4f5; font-size:0.82em;">
+                    <b>Platform yang disokong:</b>
+                    <span class="badge bg-primary me-1">Facebook</span>
+                    <span class="badge bg-danger me-1">Instagram</span>
+                    <span class="badge" style="background:#000">TikTok</span>
+                    <span class="badge bg-dark me-1">X / Twitter</span>
+                    <span class="badge bg-danger me-1">YouTube</span>
+                    <span class="badge" style="background:#8e44ad; margin-right:4px;">Threads</span>
+                    <span class="badge bg-info">LinkedIn</span>
+                </div>
+            </div>
+
+            <!-- Query Input (shown only in Keyword mode) -->
+            <div class="form-section" id="keywordInputSection">
                 <label for="analysisQuery" class="form-label">Search Query</label>
                 <textarea
                     class="form-control"
@@ -1993,6 +2047,67 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
     
     <script>
+        // ── Crawl Mode helpers ──────────────────────────────────────────────
+        window._crawlMode = 'keyword';
+
+        function setCrawlMode(mode) {
+            window._crawlMode = mode;
+            const btnKw  = document.getElementById('btnModeKeyword');
+            const btnUrl = document.getElementById('btnModeUrl');
+            const kwSec  = document.getElementById('keywordInputSection');
+            const urlSec = document.getElementById('urlInputSection');
+            if (mode === 'direct_url') {
+                btnKw.classList.remove('btn-primary');
+                btnKw.classList.add('btn-outline-primary');
+                btnUrl.classList.remove('btn-outline-primary');
+                btnUrl.classList.add('btn-primary');
+                kwSec.style.display  = 'none';
+                urlSec.style.display = 'block';
+            } else {
+                btnUrl.classList.remove('btn-primary');
+                btnUrl.classList.add('btn-outline-primary');
+                btnKw.classList.remove('btn-outline-primary');
+                btnKw.classList.add('btn-primary');
+                urlSec.style.display = 'none';
+                kwSec.style.display  = 'block';
+            }
+        }
+
+        function detectPlatformFromUrl(url) {
+            const u = url.toLowerCase();
+            if (u.includes('facebook.com') || u.includes('fb.com')) return 'facebook';
+            if (u.includes('instagram.com'))  return 'instagram';
+            if (u.includes('tiktok.com'))     return 'tiktok';
+            if (u.includes('twitter.com') || u.includes('x.com')) return 'x';
+            if (u.includes('threads.net'))    return 'threads';
+            if (u.includes('youtube.com') || u.includes('youtu.be')) return 'youtube';
+            if (u.includes('linkedin.com'))   return 'linkedin';
+            return null;
+        }
+
+        // Live URL detection preview
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlTA = document.getElementById('directUrlInput');
+            if (urlTA) {
+                urlTA.addEventListener('input', function() {
+                    const lines = this.value.split('\n').map(u => u.trim()).filter(u => u);
+                    const detected = {};
+                    lines.forEach(url => {
+                        const p = detectPlatformFromUrl(url);
+                        if (p) detected[p] = (detected[p] || 0) + 1;
+                    });
+                    const preview = document.getElementById('urlPlatformDetect');
+                    if (Object.keys(detected).length > 0) {
+                        preview.innerHTML = '🔍 Detected: ' + Object.entries(detected)
+                            .map(([p,n]) => `<b>${p}</b> (${n} URL)`).join(', ');
+                        preview.style.color = '#0d6efd';
+                    } else {
+                        preview.innerHTML = '';
+                    }
+                });
+            }
+        });
+
         function togglePlatform(platformId) {
             const checkbox = document.getElementById(platformId);
             const platformItem = checkbox.closest('.platform-item');
@@ -2109,26 +2224,44 @@
         });
 
         async function startAnalysis() {
-            // Get form data
-            const query = document.getElementById('analysisQuery').value.trim();
+            // Determine crawl mode
+            const crawlMode = window._crawlMode || 'keyword';
             const analysisType = document.getElementById('analysisType').value;
             const maxResults = parseInt(document.getElementById('maxResults').value);
-            
+
             // Get selected platforms
             const platforms = [];
             document.querySelectorAll('.platform-item input[type="checkbox"]:checked').forEach(checkbox => {
                 platforms.push(checkbox.value);
             });
-            
-            // Validate
-            if (!query) {
-                alert('Please enter what you want to analyze');
-                return;
-            }
-            
-            if (platforms.length === 0) {
-                alert('Please select at least one platform');
-                return;
+
+            let query = '';
+            let directUrls = [];
+
+            if (crawlMode === 'direct_url') {
+                // Parse URLs from textarea
+                const rawUrls = document.getElementById('directUrlInput').value.trim();
+                directUrls = rawUrls.split('\n').map(u => u.trim()).filter(u => u.length > 0);
+                if (directUrls.length === 0) {
+                    alert('Sila masukkan sekurang-kurangnya satu URL untuk Direct URL Crawl.');
+                    return;
+                }
+                // Auto-select matching platforms from URLs
+                directUrls.forEach(url => {
+                    const p = detectPlatformFromUrl(url);
+                    if (p && !platforms.includes(p)) platforms.push(p);
+                });
+                query = directUrls[0]; // use first URL as display query
+            } else {
+                query = document.getElementById('analysisQuery').value.trim();
+                if (!query) {
+                    alert('Sila masukkan kata kunci / query untuk dianalisis.');
+                    return;
+                }
+                if (platforms.length === 0) {
+                    alert('Sila pilih sekurang-kurangnya satu platform.');
+                    return;
+                }
             }
             
             // Show loading
@@ -2138,8 +2271,12 @@
             // Reset progress UI
             document.getElementById('crawlProgressBar').style.width = '3%';
             document.getElementById('crawlProgressPct').textContent = '0%';
-            document.getElementById('crawlMainTitle').textContent = 'Crawling & Analyzing Data...';
-            document.getElementById('crawlSubTitle').textContent = 'Connecting to crawl engine...';
+            document.getElementById('crawlMainTitle').textContent = crawlMode === 'direct_url'
+                ? `Direct URL Crawl — ${directUrls.length} URL(s)...`
+                : 'Crawling & Analyzing Data...';
+            document.getElementById('crawlSubTitle').textContent = crawlMode === 'direct_url'
+                ? `Crawling halaman/profil terus dari ${platforms.join(', ').toUpperCase()}...`
+                : 'Connecting to crawl engine...';
             document.getElementById('crawlElapsedBadge').textContent = '0s';
             document.getElementById('crawlPostsCount').textContent = '0';
             document.getElementById('crawlCommentsCount').textContent = '0';
@@ -2169,13 +2306,15 @@
                         query: query,
                         platforms: platforms,
                         analysis_type: analysisType,
-                        dataset_size: maxResults,  // ✅ Use dataset_size for 30:70 Posts:Comments strategy
-                        max_results: maxResults,   // Keep for backward compatibility
+                        dataset_size: maxResults,
+                        max_results: maxResults,
                         date_range: document.getElementById('dateRange') ? document.getElementById('dateRange').value : '30days',
                         include_sentiment: true,
                         include_trends: true,
                         malaysian_context: true,
-                        use_crawl_strategy: true   // ✅ Enable 30:70 Posts:Comments ratio
+                        use_crawl_strategy: true,
+                        crawl_mode: crawlMode,
+                        direct_urls: directUrls.length > 0 ? directUrls : null
                     })
                 });
 
