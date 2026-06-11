@@ -39,33 +39,52 @@ class CrawlStrategy:
     MAX_COMMENTS_PER_POST = 50  # Maximum 50 comments per post
     MIN_POST_LENGTH = 20  # Minimum 20 words for posts
     MIN_COMMENT_LENGTH = 10  # Minimum 10 words for comments
-    
+
+    # Platforms that do not have comments (should get 100% posts quota)
+    NO_COMMENTS_PLATFORMS = ["news", "google", "shopee", "lazada"]
+
     @staticmethod
     def calculate_distribution(
         dataset_size: int,
-        platforms_count: int = 1
+        platforms_count: int = 1,
+        platforms: List[str] = None
     ) -> Dict[str, any]:
         """
         Calculate posts and comments distribution
-        
+
         Args:
             dataset_size: Total results target (50, 1000, 5000, etc.)
             platforms_count: Number of platforms to crawl
-        
+            platforms: List of platform names
+
         Returns:
             Dictionary with crawl strategy details
         """
-        
+
         # Per platform allocation
         per_platform = dataset_size // platforms_count
-        
-        # 30:70 ratio (Posts:Comments)
-        target_posts = int(per_platform * CrawlStrategy.POSTS_RATIO)
-        target_comments = int(per_platform * CrawlStrategy.COMMENTS_RATIO)
-        
+
+        # Check if we are only crawling comment-less platforms
+        all_no_comments = False
+        if platforms:
+            all_no_comments = all(p.lower() in CrawlStrategy.NO_COMMENTS_PLATFORMS for p in platforms)
+
+        if all_no_comments:
+            # 100% posts, 0% comments
+            target_posts = per_platform
+            target_comments = 0
+            posts_ratio = 1.0
+            comments_ratio = 0.0
+        else:
+            # 30:70 ratio (Posts:Comments)
+            target_posts = int(per_platform * CrawlStrategy.POSTS_RATIO)
+            target_comments = int(per_platform * CrawlStrategy.COMMENTS_RATIO)
+            posts_ratio = CrawlStrategy.POSTS_RATIO
+            comments_ratio = CrawlStrategy.COMMENTS_RATIO
+
         # Comments per post
         comments_per_post = target_comments // target_posts if target_posts > 0 else 0
-        
+
         strategy = {
             "total_target": dataset_size,
             "platforms_count": platforms_count,
@@ -75,15 +94,15 @@ class CrawlStrategy:
             "comments_per_post": comments_per_post,
             "total_posts": target_posts * platforms_count,
             "total_comments": target_comments * platforms_count,
-            "posts_ratio": CrawlStrategy.POSTS_RATIO,
-            "comments_ratio": CrawlStrategy.COMMENTS_RATIO
+            "posts_ratio": posts_ratio,
+            "comments_ratio": comments_ratio
         }
-        
+
         logger.info(f"📊 Crawl Strategy: {dataset_size} results across {platforms_count} platform(s)")
-        logger.info(f"   Posts: {strategy['total_posts']} ({CrawlStrategy.POSTS_RATIO*100}%)")
-        logger.info(f"   Comments: {strategy['total_comments']} ({CrawlStrategy.COMMENTS_RATIO*100}%)")
+        logger.info(f"   Posts: {strategy['total_posts']} ({posts_ratio*100}%)")
+        logger.info(f"   Comments: {strategy['total_comments']} ({comments_ratio*100}%)")
         logger.info(f"   Comments/Post: {comments_per_post}")
-        
+
         return strategy
     
     @staticmethod
@@ -174,21 +193,29 @@ class CrawlStrategy:
             Filtered and ranked list of posts
         """
         
+        # Helper: schema-aware getter (records may use 'Text'/'ID'/'URL' or 'text'/'id'/'url')
+        def _g(post, *keys, default=None):
+            for k in keys:
+                if k in post and post[k] not in (None, ""):
+                    return post[k]
+            return default
+
         # Calculate engagement score
         for post in posts:
             post['engagement_score'] = (
-                post.get('likes', 0) +
-                post.get('shares', 0) * 2 +  # Shares weighted more
-                post.get('comments_count', 0) * 3 +  # Comments weighted most
-                post.get('views', 0) * 0.001  # Views weighted less
+                int(_g(post, 'likes', default=0) or 0) +
+                int(_g(post, 'shares', default=0) or 0) * 2 +  # Shares weighted more
+                int(_g(post, 'comments_count', default=0) or 0) * 3 +  # Comments weighted most
+                int(_g(post, 'views', default=0) or 0) * 0.001  # Views weighted less
             )
-        
-        # Filter quality posts
+
+        # Filter quality posts (schema-aware: accepts both 'Text'/'text', 'ID'/'id', 'URL'/'url')
+        # URL check is optional — some platforms (TikTok) may have empty URL in early stages
         quality_posts = [
             post for post in posts
-            if len(post.get('text', '')) >= CrawlStrategy.MIN_POST_LENGTH  # Minimum length
-            and post.get('id') != '-1'  # Not mock data
-            and post.get('url')  # Has valid URL
+            if len(str(_g(post, 'Text', 'text', default=''))) >= CrawlStrategy.MIN_POST_LENGTH
+            and str(_g(post, 'ID', 'id', default='')) != '-1'
+            and _g(post, 'Type', 'type', default='post') == 'post'  # Skip comment rows
         ]
         
         logger.info(f"🔍 Filtered {len(quality_posts)}/{len(posts)} quality posts")

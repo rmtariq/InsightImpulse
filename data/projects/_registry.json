@@ -1,0 +1,53 @@
+{
+  "categories": ["political", "sme", "agency", "commercial"],
+  "projects": {
+    "pas_break_2026": {
+      "category": "political",
+      "name": "PAS–Bersatu Split · PRN Johor/Melaka/NS",
+      "client": "Internal · EXCO Negeri Sembilan",
+      "master_prefix": "PAS_Break",
+      "default_keywords": [
+        "PAS Bersatu",
+        "PAS putus Bersatu",
+        "Perikatan Nasional",
+        "PAS solo",
+        "PRN Johor",
+        "PRN Melaka",
+        "PAS Negeri Sembilan"
+      ],
+      "active": true
+    },
+    "pas_bersatu_baseline": {
+      "category": "political",
+      "name": "PAS–Bersatu Baseline (JITP Mei 2026)",
+      "client": "Internal · JITP 2026",
+      "master_prefix": "PAS_Bersatu_Baseline",
+      "default_keywords": ["PAS Bersatu", "PAS solo", "perpecahan"],
+      "active": true
+    },
+    "prn_johor_2026": {
+      "category": "political",
+      "name": "PRN Johor 2026 Dashboard",
+      "client": "Internal · JITP 2026",
+      "master_prefix": "PRN_Johor",
+      "default_keywords": ["PRN Johor", "PAS Johor", "DUN Johor"],
+      "active": true
+    },
+    "smebank": {
+      "category": "sme",
+      "name": "SME Bank EWS & PAI",
+      "client": "SME Bank",
+      "master_prefix": "SMEBank",
+      "default_keywords": ["SME Bank", "pinjaman SME", "financing"],
+      "active": true
+    },
+    "kdebwm": {
+      "category": "agency",
+      "name": "KDEBWM Complaint Monitoring",
+      "client": "KDEBWM",
+      "master_prefix": "KDEBWM",
+      "default_keywords": ["KDEBWM", "complaint", "DBKL"],
+      "active": true
+    }
+  }
+}

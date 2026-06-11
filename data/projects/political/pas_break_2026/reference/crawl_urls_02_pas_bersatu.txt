@@ -1,0 +1,22 @@
+# Crawl 3B — PAS + Bersatu sahaja (18 URLs) — Suara Elit
+# Generated: 2026-06-11 00:51
+# Count: 18
+
+https://www.facebook.com/N24MuhammadSanusiMdNor
+https://www.facebook.com/abdulhadiawang
+https://www.facebook.com/hamzahzainudin
+https://www.facebook.com/paspusat
+https://www.facebook.com/pribumibersatuofficial
+https://www.facebook.com/ts.muhyiddin
+https://www.facebook.com/tuanibrahimtuanman
+https://www.instagram.com/hamzahzainudin_/
+https://www.instagram.com/muhyiddinyassin/
+https://www.tiktok.com/@abdulhadiawang
+https://www.tiktok.com/@hamzahzainudin_
+https://www.tiktok.com/@pemudapasmalaysia
+https://www.tiktok.com/@sanusimdnor
+https://x.com/MuhyiddinYassin
+https://x.com/PASPusat
+https://x.com/SanusiMNor
+https://x.com/bersatu_OFFICIAL
+https://x.com/titm_official

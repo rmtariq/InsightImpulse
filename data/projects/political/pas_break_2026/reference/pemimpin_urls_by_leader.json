@@ -1,0 +1,577 @@
+{
+  "UMNO | UMNO (Rasmi)": {
+    "parti": "UMNO",
+    "nama": "UMNO (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/umno.org.my"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/umnoonline"
+      }
+    ]
+  },
+  "UMNO | Ahmad Zahid Hamidi": {
+    "parti": "UMNO",
+    "nama": "Ahmad Zahid Hamidi",
+    "jawatan": "Presiden UMNO / TPM",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ahmadzahidofficial"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@ahmadzahidhamidi"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/DrZahidHamidi"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/ahmadzahidhamidi/"
+      }
+    ]
+  },
+  "UMNO | Najib Razak": {
+    "parti": "UMNO",
+    "nama": "Najib Razak",
+    "jawatan": "Bekas PM | #1 Followers 9.35 juta",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/NajibRazakOfficial"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@najibrazak"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/najibrazak"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/najibrazak/"
+      }
+    ]
+  },
+  "UMNO | Isham Jalil": {
+    "parti": "UMNO",
+    "nama": "Isham Jalil",
+    "jawatan": "Influencer Pro-PN / Bekas UMNO",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ishamjalil"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@ishamjalil"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/ishamjalil/"
+      }
+    ]
+  },
+  "MCA | MCA (Rasmi)": {
+    "parti": "MCA",
+    "nama": "MCA (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mcamalaysia"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/mcamalaysia"
+      }
+    ]
+  },
+  "MIC | MIC (Rasmi)": {
+    "parti": "MIC",
+    "nama": "MIC (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/micmalaysia"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/micmalaysia"
+      }
+    ]
+  },
+  "PKR | PKR (Rasmi)": {
+    "parti": "PKR",
+    "nama": "PKR (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/KeadilanRakyat"
+      }
+    ]
+  },
+  "PKR | Anwar Ibrahim": {
+    "parti": "PKR",
+    "nama": "Anwar Ibrahim",
+    "jawatan": "PM Malaysia / Presiden PKR | #3 — 7.9 juta",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/anwaribrahimofficial"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@anwaribrahimofficial"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/anwaribrahim"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/anwaribrahimofficial/"
+      }
+    ]
+  },
+  "PKR | Rafizi Ramli": {
+    "parti": "PKR",
+    "nama": "Rafizi Ramli",
+    "jawatan": "Mantan Menteri Ekonomi / PKR",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/rafiziramli.keadilan"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@rafiziramli"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/rafiziramli"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/rafiziramli/"
+      }
+    ]
+  },
+  "DAP | DAP (Rasmi)": {
+    "parti": "DAP",
+    "nama": "DAP (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/dapmalaysia"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/dapmalaysia"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/dapmalaysia/"
+      }
+    ]
+  },
+  "DAP | Lim Guan Eng": {
+    "parti": "DAP",
+    "nama": "Lim Guan Eng",
+    "jawatan": "Penasihat DAP / Bekas Ketua Menteri Penang",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/limguaneng"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@limguaneng"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/guanenglim"
+      }
+    ]
+  },
+  "DAP | Gobind Singh Deo": {
+    "parti": "DAP",
+    "nama": "Gobind Singh Deo",
+    "jawatan": "Pengerusi DAP / Menteri Digital",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/gobindsinghdeo"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/GobindSinghDeo"
+      }
+    ]
+  },
+  "DAP | Anthony Loke": {
+    "parti": "DAP",
+    "nama": "Anthony Loke",
+    "jawatan": "Setiausaha Agung DAP",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/anthonyloke"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@anthonyloke"
+      }
+    ]
+  },
+  "DAP | Hannah Yeoh": {
+    "parti": "DAP",
+    "nama": "Hannah Yeoh",
+    "jawatan": "Timbalan SU Agung DAP",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/hannahyeoh"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/hannahyeoh"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/hannahyeoh/"
+      }
+    ]
+  },
+  "DAP | Nga Kor Ming": {
+    "parti": "DAP",
+    "nama": "Nga Kor Ming",
+    "jawatan": "Timbalan Pengerusi DAP",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ngakorming"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/ngakorming"
+      }
+    ]
+  },
+  "Amanah | Amanah (Rasmi)": {
+    "parti": "Amanah",
+    "nama": "Amanah (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/amanahofficial"
+      }
+    ]
+  },
+  "Amanah | Mohamad Sabu (Mat Sabu)": {
+    "parti": "Amanah",
+    "nama": "Mohamad Sabu (Mat Sabu)",
+    "jawatan": "Presiden Amanah",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mohamadsabuofficial"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@mohamadsabu_official"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/mohamadsabu_official/"
+      }
+    ]
+  },
+  "PAS | PAS Pusat (Rasmi)": {
+    "parti": "PAS",
+    "nama": "PAS Pusat (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/paspusat"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@pemudapasmalaysia"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/PASPusat"
+      }
+    ]
+  },
+  "PAS | Abdul Hadi Awang": {
+    "parti": "PAS",
+    "nama": "Abdul Hadi Awang",
+    "jawatan": "Presiden PAS",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/abdulhadiawang"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@abdulhadiawang"
+      }
+    ]
+  },
+  "PAS | Tuan Ibrahim Tuan Man": {
+    "parti": "PAS",
+    "nama": "Tuan Ibrahim Tuan Man",
+    "jawatan": "Timbalan Presiden PAS",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/tuanibrahimtuanman"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/titm_official"
+      }
+    ]
+  },
+  "PAS | Muhammad Sanusi Md Nor": {
+    "parti": "PAS",
+    "nama": "Muhammad Sanusi Md Nor",
+    "jawatan": "MB Kedah / PAS",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/N24MuhammadSanusiMdNor"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@sanusimdnor"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/SanusiMNor"
+      }
+    ]
+  },
+  "PAS | Ahmad Samsuri Mokhtar (Dr. Sam)": {
+    "parti": "PAS",
+    "nama": "Ahmad Samsuri Mokhtar (Dr. Sam)",
+    "jawatan": "Naib Presiden PAS / MB Terengganu / AP Kemaman",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/DrAhmadSamsuri"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@drsamtrg"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/DrAhmadSamsuri"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/drahmadsamsuri/"
+      }
+    ]
+  },
+  "Bersatu | Bersatu/PPBM (Rasmi)": {
+    "parti": "Bersatu",
+    "nama": "Bersatu/PPBM (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/pribumibersatuofficial"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/bersatu_OFFICIAL"
+      }
+    ]
+  },
+  "Bersatu | Muhyiddin Yassin": {
+    "parti": "Bersatu",
+    "nama": "Muhyiddin Yassin",
+    "jawatan": "Presiden Bersatu",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/ts.muhyiddin"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/MuhyiddinYassin"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/muhyiddinyassin/"
+      }
+    ]
+  },
+  "Bersatu | Hamzah Zainudin": {
+    "parti": "Bersatu",
+    "nama": "Hamzah Zainudin",
+    "jawatan": "Bekas Timbalan Presiden Bersatu",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/hamzahzainudin"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@hamzahzainudin_"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/hamzahzainudin_/"
+      }
+    ]
+  },
+  "GPS | GPS (Rasmi)": {
+    "parti": "GPS",
+    "nama": "GPS (Rasmi)",
+    "jawatan": "Gabungan Parti Sarawak",
+    "urls": [
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@gabunganpartisarawak_"
+      }
+    ]
+  },
+  "GPS | Abang Johari Openg": {
+    "parti": "GPS",
+    "nama": "Abang Johari Openg",
+    "jawatan": "Premier Sarawak / GPS",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/abangjohariopeng"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/AbangJohari"
+      }
+    ]
+  },
+  "GRS | GRS (Rasmi)": {
+    "parti": "GRS",
+    "nama": "GRS (Rasmi)",
+    "jawatan": "Gabungan Rakyat Sabah",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/GRSSabah"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/GRSSabah"
+      }
+    ]
+  },
+  "Warisan | Warisan (Rasmi)": {
+    "parti": "Warisan",
+    "nama": "Warisan (Rasmi)",
+    "jawatan": "Parti Warisan Sabah",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/warisansabah"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/warisansabah"
+      }
+    ]
+  },
+  "MUDA | MUDA (Rasmi)": {
+    "parti": "MUDA",
+    "nama": "MUDA (Rasmi)",
+    "jawatan": "Parti Rasmi",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/partimuda"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/partimuda"
+      }
+    ]
+  },
+  "MUDA | Syed Saddiq": {
+    "parti": "MUDA",
+    "nama": "Syed Saddiq",
+    "jawatan": "Presiden MUDA | #4 — 7.6 juta",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/syedsaddiqsyedabdulrahman"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@syedsaddiq"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/SyedSaddiq"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/syedsaddiq/"
+      }
+    ]
+  },
+  "Bebas | Khairy Jamaluddin": {
+    "parti": "Bebas",
+    "nama": "Khairy Jamaluddin",
+    "jawatan": "Bekas Menteri / Podcast | #5 — 6.4 juta",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/khairy"
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@khairykj"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/khairykj"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/khairykj/"
+      }
+    ]
+  },
+  "Bebas | Dr Mahathir Mohamad": {
+    "parti": "Bebas",
+    "nama": "Dr Mahathir Mohamad",
+    "jawatan": "Bekas PM | #2 — 8.11 juta",
+    "urls": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mahathirmohamad"
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/chedetofficial"
+      }
+    ]
+  }
+}

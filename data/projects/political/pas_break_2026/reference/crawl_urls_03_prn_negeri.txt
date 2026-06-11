@@ -1,0 +1,21 @@
+# Crawl 3C — PRN NS/Johor/Melaka (17 URLs) — Akaun negeri
+# Generated: 2026-06-11 00:51
+# Count: 17
+
+https://www.facebook.com/OnnHafizGhazi
+https://www.facebook.com/PASJohor
+https://www.facebook.com/UMNOJohor
+https://www.facebook.com/UMNOMelaka
+https://www.facebook.com/aminuddinharun
+https://www.facebook.com/bersatujohor
+https://www.facebook.com/bersatumelaka
+https://www.facebook.com/dapnegerisembilan
+https://www.facebook.com/kerajaanmelaka
+https://www.facebook.com/pasmelaka
+https://www.facebook.com/pasnegeri9
+https://www.facebook.com/pemudapasns
+https://www.facebook.com/umnonegerisembilan
+https://www.instagram.com/onnhafizghazi/
+https://www.instagram.com/pas_johor/
+https://www.instagram.com/pasnegeri9/
+https://www.tiktok.com/@pasjohor

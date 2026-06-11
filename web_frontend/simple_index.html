@@ -1897,7 +1897,53 @@
                     Untuk Social Listening, tempoh 30 hari adalah paling sesuai dan relevan
                 </small>
             </div>
-            
+
+            <!-- Project / Client (data storage) -->
+            <div class="form-section">
+                <label for="projectId" class="form-label">Project / Client</label>
+                <div class="d-flex gap-2 align-items-start flex-wrap">
+                    <select class="form-select flex-grow-1" id="projectId">
+                        <option value="">— Loading projects... —</option>
+                    </select>
+                    <button type="button" class="btn btn-outline-primary btn-sm" style="white-space:nowrap;margin-top:2px" onclick="toggleNewProjectForm()">
+                        + Projek Baru
+                    </button>
+                </div>
+                <div id="newProjectForm" class="mt-3 p-3 border rounded bg-light" style="display:none;">
+                    <div class="row g-2">
+                        <div class="col-md-6">
+                            <label class="form-label small mb-0">Nama Projek *</label>
+                            <input type="text" class="form-control form-control-sm" id="newProjectName" placeholder="Contoh: MARA Brand Monitor 2026">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small mb-0">Client / Agensi</label>
+                            <input type="text" class="form-control form-control-sm" id="newProjectClient" placeholder="Contoh: MARA">
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small mb-0">Kategori</label>
+                            <select class="form-select form-select-sm" id="newProjectCategory">
+                                <option value="political">Politik</option>
+                                <option value="sme">SME</option>
+                                <option value="agency">Agensi</option>
+                                <option value="commercial" selected>Komersial</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-label small mb-0">ID pendek (optional)</label>
+                            <input type="text" class="form-control form-control-sm" id="newProjectId" placeholder="mara_2026">
+                        </div>
+                        <div class="col-md-4 d-flex align-items-end">
+                            <button type="button" class="btn btn-success btn-sm w-100" onclick="createNewProject()">Simpan Projek</button>
+                        </div>
+                    </div>
+                    <div id="newProjectMsg" class="small mt-2 text-muted"></div>
+                </div>
+                <small class="text-muted mt-1 d-block">
+                    <i class="bi bi-folder me-1"></i>
+                    Pilih projek → CSV ke <code>data/projects/</code> · Projek baru dari app (tanpa edit JSON)
+                </small>
+            </div>
+
             <!-- Quick Examples -->
             <div class="form-section">
                 <label class="form-label">Examples</label>
@@ -2087,6 +2133,7 @@
 
         // Live URL detection preview
         document.addEventListener('DOMContentLoaded', function() {
+            loadProjectDropdown('pas_break_2026');
             const urlTA = document.getElementById('directUrlInput');
             if (urlTA) {
                 urlTA.addEventListener('input', function() {
@@ -2107,6 +2154,78 @@
                 });
             }
         });
+
+        async function loadProjectDropdown(selectId) {
+            const sel = document.getElementById('projectId');
+            if (!sel) return;
+            try {
+                const res = await fetch('http://localhost:8001/api/projects');
+                const data = await res.json();
+                sel.innerHTML = '<option value="">— Staging only (data/combined) —</option>';
+                (data.projects || []).forEach(p => {
+                    const opt = document.createElement('option');
+                    opt.value = p.project_id;
+                    opt.textContent = p.label;
+                    sel.appendChild(opt);
+                });
+                if (selectId) sel.value = selectId;
+                const catSel = document.getElementById('newProjectCategory');
+                if (catSel && data.categories) {
+                    catSel.innerHTML = '';
+                    const labels = { political: 'Politik', sme: 'SME', agency: 'Agensi', commercial: 'Komersial' };
+                    data.categories.forEach(c => {
+                        const o = document.createElement('option');
+                        o.value = c;
+                        o.textContent = labels[c] || c;
+                        catSel.appendChild(o);
+                    });
+                }
+            } catch (e) {
+                sel.innerHTML = '<option value="">— Staging only (offline) —</option>';
+                console.warn('Could not load projects:', e);
+            }
+        }
+
+        function toggleNewProjectForm() {
+            const f = document.getElementById('newProjectForm');
+            if (f) f.style.display = f.style.display === 'none' ? 'block' : 'none';
+        }
+
+        async function createNewProject() {
+            const msg = document.getElementById('newProjectMsg');
+            const name = document.getElementById('newProjectName')?.value?.trim();
+            if (!name) {
+                if (msg) { msg.textContent = '⚠️ Nama projek wajib diisi.'; msg.className = 'small mt-2 text-danger'; }
+                return;
+            }
+            const body = {
+                name,
+                client: document.getElementById('newProjectClient')?.value?.trim() || '',
+                category: document.getElementById('newProjectCategory')?.value || 'commercial',
+                project_id: document.getElementById('newProjectId')?.value?.trim() || null,
+            };
+            try {
+                if (msg) { msg.textContent = 'Menyimpan...'; msg.className = 'small mt-2 text-muted'; }
+                const res = await fetch('http://localhost:8001/api/projects', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body),
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.detail || 'Gagal cipta projek');
+                await loadProjectDropdown(data.project.project_id);
+                document.getElementById('newProjectForm').style.display = 'none';
+                document.getElementById('newProjectName').value = '';
+                document.getElementById('newProjectClient').value = '';
+                document.getElementById('newProjectId').value = '';
+                if (msg) {
+                    msg.textContent = `✅ Projek "${data.project.name}" siap → ${data.project.path}`;
+                    msg.className = 'small mt-2 text-success';
+                }
+            } catch (e) {
+                if (msg) { msg.textContent = '❌ ' + e.message; msg.className = 'small mt-2 text-danger'; }
+            }
+        }
 
         function togglePlatform(platformId) {
             const checkbox = document.getElementById(platformId);
@@ -2241,7 +2360,9 @@
             if (crawlMode === 'direct_url') {
                 // Parse URLs from textarea
                 const rawUrls = document.getElementById('directUrlInput').value.trim();
-                directUrls = rawUrls.split('\n').map(u => u.trim()).filter(u => u.length > 0);
+                directUrls = rawUrls.split('\n').map(u => u.trim()).filter(u =>
+                    u.length > 0 && !u.startsWith('#') && (u.startsWith('http://') || u.startsWith('https://'))
+                );
                 if (directUrls.length === 0) {
                     alert('Sila masukkan sekurang-kurangnya satu URL untuk Direct URL Crawl.');
                     return;
@@ -2314,7 +2435,11 @@
                         malaysian_context: true,
                         use_crawl_strategy: true,
                         crawl_mode: crawlMode,
-                        direct_urls: directUrls.length > 0 ? directUrls : null
+                        direct_urls: directUrls.length > 0 ? directUrls : null,
+                        project_id: (() => {
+                            const el = document.getElementById('projectId');
+                            return el && el.value ? el.value : null;
+                        })()
                     })
                 });
 
@@ -2406,9 +2531,14 @@
                     if (sub) document.getElementById('crawlSubTitle').textContent = sub;
                 }
 
+                const dateRangeVal = document.getElementById('dateRange') ? document.getElementById('dateRange').value : '30days';
+                const dateRangeLabels = {
+                    '24h': 'Last 24 hours', '7days': 'Last 7 days', '30days': 'Last 30 days',
+                    '90days': 'Last 90 days', '180days': 'Last 6 months', '1year': 'Last 1 year'
+                };
                 crawlLog(`🚀 Task started — ID: ${taskId.substring(0,12)}...`);
                 crawlLog(`📋 Platforms: ${selectedPlatforms.join(', ').toUpperCase()}`);
-                crawlLog(`📊 Dataset size: ${maxResults} results | Last 30 days`);
+                crawlLog(`📊 Dataset size: ${maxResults} results | ${dateRangeLabels[dateRangeVal] || dateRangeVal}`);
                 updateProgressBar(3, 'Crawling & Analyzing Data...', 'Connecting to crawl engine...');
                 setStageActive('stage_nlp');
                 selectedPlatforms.forEach(p => setPlatformState(p, 'waiting'));

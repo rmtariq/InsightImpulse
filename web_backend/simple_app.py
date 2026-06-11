@@ -66,7 +66,9 @@ logger = logging.getLogger(__name__)
 
 # Import Simple Apify Adapter
 import sys
-sys.path.insert(0, str(Path(__file__).parent.parent / "backend" / "data_crawlers"))
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(_REPO_ROOT))
+sys.path.insert(0, str(_REPO_ROOT / "backend" / "data_crawlers"))
 try:
     from simple_apify_adapter import SimpleApifyAdapter
     APIFY_AVAILABLE = True
@@ -157,9 +159,10 @@ class TaskLogHandler(logging.Handler):
     IMPORTANT_PREFIXES = (
         "Got ", "finished collecting", "Status: SUCCEED", "Status: RUNNING",
         "Batch ", "handling:", "ACTOR:", "runId:", "✅", "❌", "⚠️", "🕷️",
-        "📘", "🐦", "🎵", "🎬", "📸", "📊", "Phase", "crawl", "Crawl",
+        "📘", "🐦", "🎵", "🎬", "📸", "📊", "📦", "📅", "Phase", "crawl", "Crawl",
         "sentiment", "Sentiment", "emotion", "Emotion", "keyword", "Keyword",
         "Apify", "apify", "strategy", "Strategy", "posts", "comments", "records",
+        "merged", "Date filter",
     )
 
     def emit(self, record: logging.LogRecord):
@@ -360,6 +363,17 @@ class AnalysisRequest(BaseModel):
     # 🌐 DIRECT URL CRAWL MODE
     crawl_mode: str = "keyword"  # "keyword" or "direct_url"
     direct_urls: Optional[List[str]] = None  # e.g. ["https://facebook.com/PASJohor", "https://instagram.com/pasjohor"]
+
+    # 📁 PROJECT STORAGE — promotes combined CSV to data/projects/{category}/{id}/
+    project_id: Optional[str] = None  # e.g. "pas_break_2026", "smebank"
+
+class CreateProjectRequest(BaseModel):
+    name: str
+    client: str = ""
+    category: str = "commercial"
+    master_prefix: Optional[str] = None
+    project_id: Optional[str] = None
+    default_keywords: Optional[List[str]] = None
 
 class PlatformData(BaseModel):
     platform: str
@@ -1162,6 +1176,10 @@ def get_date_range_filter(request: AnalysisRequest) -> Dict[str, Any]:
         start_date = end_date - timedelta(days=30)
     elif request.date_range == "90days":
         start_date = end_date - timedelta(days=90)
+    elif request.date_range in ("180days", "6months"):
+        start_date = end_date - timedelta(days=180)
+    elif request.date_range in ("365days", "1year"):
+        start_date = end_date - timedelta(days=365)
     else:
         # Default to 7 days
         start_date = end_date - timedelta(days=7)
@@ -1245,6 +1263,12 @@ def get_date_range_filter(request: AnalysisRequest) -> Dict[str, Any]:
     elif request.date_range == "90days":
         start_date = end_date - timedelta(days=90)
         days = 90
+    elif request.date_range in ("180days", "6months"):
+        start_date = end_date - timedelta(days=180)
+        days = 180
+    elif request.date_range in ("365days", "1year"):
+        start_date = end_date - timedelta(days=365)
+        days = 365
     elif request.date_range == "custom":
         if request.custom_start_date and request.custom_end_date:
             start_date = datetime.fromisoformat(request.custom_start_date)
@@ -1266,6 +1290,89 @@ def get_date_range_filter(request: AnalysisRequest) -> Dict[str, Any]:
         "end_iso": end_date.isoformat(),
         "days": days
     }
+
+
+def load_merged_platform_crawl_data(
+    platform: str,
+    in_memory_records: Optional[List[Dict[str, Any]]] = None,
+    session_started_at: Optional[float] = None,
+) -> pd.DataFrame:
+    """
+    Merge all crawl CSVs for a platform from the current session.
+    Multi-keyword crawls save one file per keyword — must merge, not take latest only.
+    """
+    platform_lower = platform.lower()
+    frames: List[pd.DataFrame] = []
+    files_loaded = 0
+
+    if in_memory_records:
+        try:
+            mem_df = pd.DataFrame(in_memory_records)
+            if not mem_df.empty:
+                frames.append(mem_df)
+        except Exception as e:
+            logger.warning(f"⚠️ Could not use in-memory crawl data for {platform}: {e}")
+
+    smart_dir = Path("data/smart_crawlers") / platform_lower
+    if smart_dir.exists():
+        csv_files = list(smart_dir.glob(f"{platform_lower}_*.csv"))
+        if session_started_at is not None:
+            cutoff = session_started_at - 300  # 5 min buffer before crawl start
+            csv_files = [f for f in csv_files if f.stat().st_mtime >= cutoff]
+        else:
+            cutoff = time.time() - 6 * 3600
+            csv_files = [f for f in csv_files if f.stat().st_mtime >= cutoff]
+
+        files_loaded = len(csv_files)
+        for csv_path in csv_files:
+            try:
+                file_df = pd.read_csv(csv_path)
+                if not file_df.empty:
+                    frames.append(file_df)
+            except Exception as e:
+                logger.warning(f"⚠️ Skipping unreadable crawl file {csv_path.name}: {e}")
+
+    if not frames:
+        return pd.DataFrame()
+
+    merged = pd.concat(frames, ignore_index=True)
+    id_col = next((c for c in ("ID", "id") if c in merged.columns), None)
+    before_dedup = len(merged)
+    if id_col:
+        merged = merged.drop_duplicates(subset=[id_col], keep="first")
+    else:
+        merged = merged.drop_duplicates()
+
+    if "Platform" not in merged.columns:
+        merged["Platform"] = platform_lower
+
+    mem_note = " + in-memory" if in_memory_records else ""
+    logger.info(
+        f"📦 {platform.upper()}: merged {files_loaded} crawl file(s){mem_note} "
+        f"→ {before_dedup} rows → {len(merged)} unique records"
+    )
+    return merged
+
+
+def apply_crawl_date_filter(df: pd.DataFrame, date_filter: Dict[str, Any]) -> pd.DataFrame:
+    """Drop rows outside the user-selected date window after crawl merge."""
+    if df.empty or "Date" not in df.columns:
+        return df
+
+    start = pd.Timestamp(date_filter["start_date"])
+    end = pd.Timestamp(date_filter["end_date"])
+    start = start.tz_localize("UTC") if start.tzinfo is None else start.tz_convert("UTC")
+    end = end.tz_localize("UTC") if end.tzinfo is None else end.tz_convert("UTC")
+
+    dates = pd.to_datetime(df["Date"], errors="coerce", utc=True)
+    mask = dates.notna() & (dates >= start) & (dates <= end)
+    before = len(df)
+    filtered = df.loc[mask].copy()
+    logger.info(
+        f"📅 Date filter: {before} → {len(filtered)} records "
+        f"({date_filter['start_iso'][:10]} to {date_filter['end_iso'][:10]})"
+    )
+    return filtered
 
 
 def get_analysis_focus_config(request: AnalysisRequest) -> Dict[str, Any]:
@@ -2047,6 +2154,43 @@ async def health_check():
         "data_available": DATA_DIR.exists()
     }
 
+
+@app.get("/api/projects")
+async def api_list_projects():
+    """List all projects for UI dropdown (no manual _registry.json editing)."""
+    try:
+        from backend.storage.project_registry import load_registry, list_projects
+        return {
+            "success": True,
+            "categories": load_registry().get("categories", []),
+            "projects": list_projects(),
+        }
+    except Exception as e:
+        logger.error(f"❌ list projects: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/projects")
+async def api_create_project(body: CreateProjectRequest):
+    """Create project from UI — auto updates registry + folders."""
+    try:
+        from backend.storage.project_registry import register_project
+        project = register_project(
+            name=body.name,
+            client=body.client,
+            category=body.category,
+            master_prefix=body.master_prefix,
+            project_id=body.project_id,
+            default_keywords=body.default_keywords,
+        )
+        logger.info(f"📁 New project registered: {project['project_id']}")
+        return {"success": True, "project": project}
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    except Exception as e:
+        logger.error(f"❌ create project: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.websocket("/ws/analysis")
 async def websocket_endpoint(websocket: WebSocket):
     """
@@ -2192,7 +2336,12 @@ async def run_analysis_task(task_id: str, request: AnalysisRequest):
         _active_task_id = task_id
         task_log(task_id, f"🚀 Task started — query: {request.query[:80]}...")
         task_log(task_id, f"📋 Platforms: {', '.join(request.platforms).upper()}")
-        task_log(task_id, f"📊 Dataset size: {request.dataset_size or request.max_results} | Date: {request.date_range}")
+        _date_label = {
+            "24h": "Last 24 hours", "7days": "Last 7 days", "30days": "Last 30 days",
+            "90days": "Last 90 days", "180days": "Last 6 months", "6months": "Last 6 months",
+            "365days": "Last 1 year", "1year": "Last 1 year", "custom": "Custom date range"
+        }.get(request.date_range, request.date_range)
+        task_log(task_id, f"📊 Dataset size: {request.dataset_size or request.max_results} results | {_date_label}")
 
         # Call the actual analyze function
         result = await analyze_data_core(request, task_id)
@@ -2342,6 +2491,7 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
     logger.info("🚀 Phase 2: Attempting real-time data collection with AI-powered keywords...")
     logger.info(f"📊 Crawling {len(request.platforms)} platforms in PARALLEL for maximum speed...")
     real_time_data = {}
+    crawl_session_started_at = time.time()
 
     if APIFY_AVAILABLE:
         # 🤖 Initialize adapter with LLM service for AI keyword generation
@@ -2593,34 +2743,29 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
             logger.info(f"✅ Using real-time crawled data for {platform}")
 
             try:
-                # 📂 STEP 1: Build DataFrame from RAW data
-                # Priority: (1) data/smart_crawlers/<platform>/<platform>_*.csv (flat: posts AND comments as rows),
-                # (2) legacy data/raw/<PLATFORM>.csv, (3) in-memory records (posts only with comments nested).
-                import pandas as pd
+                # 📂 STEP 1: Build DataFrame — merge ALL keyword crawl files from this session
                 from pathlib import Path
-                smart_dir = Path("data/smart_crawlers") / platform.lower()
-                smart_candidates = sorted(
-                    smart_dir.glob(f"{platform.lower()}_*.csv"),
-                    key=lambda p: p.stat().st_mtime,
-                    reverse=True,
-                ) if smart_dir.exists() else []
                 raw_dir = Path("data/raw")
                 raw_filename = f"{platform.upper()}.csv"
                 raw_filepath = raw_dir / raw_filename
 
-                if smart_candidates:
-                    smart_csv = smart_candidates[0]
-                    logger.info(f"📂 Reading FLAT RAW data from: {smart_csv}")
-                    df = pd.read_csv(smart_csv)
-                    logger.info(f"📊 Loaded {len(df)} records from smart_crawlers file")
-                elif raw_filepath.exists():
+                df = load_merged_platform_crawl_data(
+                    platform,
+                    in_memory_records=real_time_data.get(platform),
+                    session_started_at=crawl_session_started_at,
+                )
+
+                if df.empty and raw_filepath.exists():
                     logger.info(f"📂 Reading RAW data from: {raw_filepath}")
                     df = pd.read_csv(raw_filepath)
                     logger.info(f"📊 Loaded {len(df)} records from RAW file")
-                else:
-                    logger.info(f"📂 No flat RAW file found — using in-memory crawled records (posts only)")
+                elif df.empty and platform in real_time_data:
+                    logger.info(f"📂 Using in-memory crawled records for {platform}")
                     df = pd.DataFrame(real_time_data[platform])
                     logger.info(f"📊 Loaded {len(df)} records from real-time crawl (in-memory)")
+
+                if not df.empty:
+                    df = apply_crawl_date_filter(df, date_filter)
 
                 # Count posts and comments
                 posts_count = len(df[df['Type'] == 'post']) if 'Type' in df.columns else len(df)
@@ -3113,6 +3258,31 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                 logger.info(f"💾 COMBINED DATA saved: {combined_filepath}")
                 logger.info(f"📊 {len(combined_df)} total records from {len(request.platforms)} platforms")
                 logger.info(f"📋 Platforms: {', '.join(request.platforms)}")
+
+                # 📁 Promote to project folder if project_id set
+                if request.project_id:
+                    try:
+                        from backend.storage.project_registry import get_project, promote_combined_to_project
+                        proj = get_project(request.project_id)
+                        if proj:
+                            prefix = proj.get("master_prefix", request.project_id)
+                            is_news = set(p.lower() for p in request.platforms) <= {"news", "google"}
+                            label = f"{prefix}_{'News' if is_news else 'Social'}"
+                            project_path = promote_combined_to_project(
+                                request.project_id,
+                                combined_filepath,
+                                crawl_label=label,
+                                platforms=request.platforms,
+                                query=request.query,
+                                date_range=request.date_range,
+                                row_count=len(combined_df),
+                            )
+                            logger.info(f"📁 PROJECT DATA saved: {project_path}")
+                            task_log(task_id, f"📁 Project crawl saved: {request.project_id} → {project_path.name}") if task_id else None
+                        else:
+                            logger.warning(f"⚠️ Unknown project_id: {request.project_id}")
+                    except Exception as proj_err:
+                        logger.error(f"❌ Project promote failed: {proj_err}")
 
             except Exception as e:
                 logger.error(f"❌ Error saving combined data: {e}")

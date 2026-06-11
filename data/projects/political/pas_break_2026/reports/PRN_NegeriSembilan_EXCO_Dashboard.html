@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NS EXCO Dashboard | PAS Break</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,sans-serif;background:linear-gradient(135deg,#1e3c72,#2a5298);padding:20px;min-height:100vh}
+.container{max-width:1600px;margin:0 auto;background:#fff;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.3);overflow:hidden}
+.header{color:#fff;padding:36px 40px;text-align:center}
+.header h1{font-size:2.4rem;margin-bottom:8px;text-shadow:2px 2px 4px rgba(0,0,0,.2)}
+.header p{font-size:1.15rem;opacity:.95}
+.tabs{display:flex;flex-wrap:wrap;background:#f1f5f9;border-bottom:2px solid #e2e8f0}
+.tab{flex:1;min-width:130px;padding:16px 12px;text-align:center;cursor:pointer;font-weight:600;font-size:.9rem;color:#64748b;border:none;background:none;transition:.2s}
+.tab:hover{background:#e2e8f0;color:#334155}
+.tab.active{background:#fff;color:#059669;border-bottom:3px solid #059669}
+.panel{display:none;padding:30px}
+.panel.active{display:block}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-bottom:28px}
+.kpi-card{background:linear-gradient(135deg,#fff,#f8fafc);border-left:5px solid #10b981;border-radius:12px;padding:22px;box-shadow:0 4px 15px rgba(0,0,0,.08);transition:transform .3s}
+.kpi-card:hover{transform:translateY(-4px)}
+.kpi-value{font-size:2.2rem;font-weight:800;color:#059669;margin:8px 0}
+.kpi-label{font-size:.8rem;color:#64748b;text-transform:uppercase;letter-spacing:1px}
+.kpi-sub{font-size:.78rem;color:#065f46;font-weight:600;margin-top:4px}
+.chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(460px,1fr));gap:24px;margin-bottom:24px}
+.chart-card{background:#fff;border-radius:15px;padding:24px;box-shadow:0 4px 15px rgba(0,0,0,.08);border:1px solid #e2e8f0}
+.chart-title{font-size:1.2rem;color:#1e293b;margin-bottom:16px;padding-bottom:10px;border-bottom:3px solid #10b981}
+.insight-box{margin-top:16px;padding:16px;border-radius:8px;font-size:.88rem;line-height:1.7;color:#1e293b}
+.insight-green{background:#ecfdf5;border-left:4px solid #10b981}
+.insight-blue{background:#f0f9ff;border-left:4px solid #3b82f6}
+.insight-amber{background:#fef3c7;border-left:4px solid #f59e0b}
+.banner{background:linear-gradient(135deg,#14532d,#15803d);padding:28px;border-radius:12px;margin:24px 0;text-align:center;color:#fff}
+.banner h2{font-size:1.5rem;margin-bottom:12px}
+.banner p{font-size:1.05rem;line-height:1.7;opacity:.95}
+.warn{background:#fef3c7;border-left:4px solid #f59e0b;padding:14px 18px;border-radius:8px;font-size:.85rem;margin-bottom:20px;color:#78350f}
+table{width:100%;border-collapse:collapse;font-size:.84rem}
+th{background:#059669;color:#fff;padding:12px;text-align:left}
+td{padding:10px 12px;border-bottom:1px solid #e2e8f0;vertical-align:top}
+tr:hover{background:#f8fafc}
+.footer{padding:16px 30px;background:#f8fafc;font-size:.78rem;color:#64748b;text-align:center}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:.72rem;font-weight:700;margin-left:6px}
+.badge-red{background:#fee2e2;color:#991b1b}
+.badge-green{background:#dcfce7;color:#166534}
+
+.header{background:linear-gradient(135deg,#1e3a8a,#3b82f6)}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header"><h1>Negeri Sembilan · Dashboard EXCO</h1><p>PAS Solo vs MN vs PN · Post pengumuman 9–10 Jun 2026 · 143 posts NS</p></div>
+<div class="tabs"><button class="tab active" onclick="showTab('ns1',this)">📊 NS Ringkasan</button><button class="tab" onclick="showTab('ns2',this)">🎯 Solo·MN·PN</button><button class="tab" onclick="showTab('ns3',this)">👥 Demografi Proxy</button><button class="tab" onclick="showTab('ns4',this)">🔥 Top Posts NS</button><button class="tab" onclick="showTab('ns5',this)">📋 Cadangan EXCO</button></div>
+<div class="content">
+<div id="ns1" class="panel active">
+<div class="warn">⚠️ EXCO Negeri Sembilan · Data NS-filtered · Demografi = proxy bahasa (bukan census rasmi)</div>
+<div class="kpi-grid">
+<div class="kpi-card"><div class="kpi-label">Posts NS</div><div class="kpi-value">143</div><div class="kpi-sub">36 jam post-pengumuman</div></div>
+<div class="kpi-card" style="border-color:#10b981"><div class="kpi-label">PAS Solo</div><div class="kpi-value">25</div><div class="kpi-sub">mentions</div></div>
+<div class="kpi-card" style="border-color:#ef4444"><div class="kpi-label">Split</div><div class="kpi-value">14</div><div class="kpi-sub">mentions</div></div>
+<div class="kpi-card" style="border-color:#6366f1"><div class="kpi-label">MN</div><div class="kpi-value">5</div><div class="kpi-sub">mentions</div></div>
+<div class="kpi-card" style="border-color:#3b82f6"><div class="kpi-label">PN</div><div class="kpi-value">25</div><div class="kpi-sub">mentions</div></div>
+<div class="kpi-card" style="border-color:#dc2626"><div class="kpi-label">Engagement</div><div class="kpi-value">227,225</div><div class="kpi-sub">NS total</div></div>
+</div>
+<div class="banner" style="background:linear-gradient(135deg,#1e3a8a,#3b82f6)"><h2>🎯 NS: Solo Leads Split</h2><p>Dalam sample 36 jam: PAS Solo (25) > Split (14). MN hampir tiada (5). Berbeza dengan Johor di mana split > solo.</p></div>
+</div>
+<div id="ns2" class="panel">
+<div class="chart-grid">
+<div class="chart-card"><h3 class="chart-title">🎯 NS: Solo vs MN vs PN vs Split</h3><canvas id="cNSn"></canvas></div>
+<div class="chart-card"><h3 class="chart-title">📊 Perbandingan NS vs National</h3>
+<table><tr><th>Naratif</th><th>NS</th><th>National %</th></tr>
+<tr><td>PAS Solo</td><td>25</td><td>7.6%</td></tr>
+<tr><td>Split</td><td>14</td><td>10.7%</td></tr>
+<tr><td>MN</td><td>5</td><td>1.0%</td></tr>
+<tr><td>PN</td><td>25</td><td>12.2%</td></tr>
+</table></div></div>
+</div>
+<div id="ns3" class="panel">
+<div class="chart-card"><h3 class="chart-title">👥 Demografi Proxy (Bahasa Teks)</h3><canvas id="cNSlang"></canvas>
+<div class="insight-box insight-amber" style="margin-top:16px"><strong>Nota:</strong> BM ≈ komuniti Melayu dominan · English/Campuran ≈ urban/profesional · Tamil/Cina ≈ komuniti masing-masing. Ini <em>bukan</em> data census — hanya estimasi dari bahasa post.</div></div>
+</div>
+<div id="ns4" class="panel">
+<div class="chart-card"><h3 class="chart-title">🔥 Top Posts NS (Politik-filtered)</h3><div id="ns-posts"></div></div>
+</div>
+<div id="ns5" class="panel">
+<div class="chart-card"><h3 class="chart-title">📋 Cadangan Strategik EXCO NS</h3>
+<div class="insight-box insight-green"><strong>1. Monitor TikTok NS</strong> — platform paling viral untuk content NS (engagement tertinggi).</div>
+<div class="insight-box insight-blue"><strong>2. Bina naratif MN</strong> — jika MN dipilih sebagai hala tuju, perlu kempen khusus NS (hanya 5 mention organic).</div>
+<div class="insight-box insight-amber"><strong>3. Leverage solo momentum</strong> — NS sudah menunjukkan acceptance PAS solo (25 vs split 14).</div>
+<div class="insight-box insight-green"><strong>4. Counter-narrative ummah</strong> — frame perpaduan vs perpecahan elit (national ummah 3.9% post-split).</div>
+<div class="insight-box insight-blue"><strong>5. Bezakan dari Johor</strong> — Johor split > solo; NS solo > split. Jangan guna messaging Johor untuk NS.</div>
+</div></div>
+</div>
+<div class="footer">InsightPulse · 9 Jun – 10 Jun 2026 (36 jam) · Generated 2026-06-11 00:08 · Sulit — Jangan kongsi luar tanpa kelulusan</div>
+</div>
+<script>
+const D = {"meta": {"title": "PAS–Bersatu Split · InsightPulse", "event": "Pengistiharaan berpisah 9 Jun 2026 (Isnin malam)", "window": "9 Jun – 10 Jun 2026 (36 jam)", "generated": "2026-06-11 00:08"}, "hero": {"event_rows": 2583, "political_rows": 1317, "posts": 1384, "comments": 1199, "full_merged": 8461, "total_engagement": 6765891, "news_rows": 272, "mentions_pas": 843, "mentions_bersatu": 705}, "narratives_post": {"solo": 196, "split": 277, "mn": 26, "pn": 315, "ummah": 102}, "narratives_post_pct": {"solo": 7.6, "split": 10.7, "mn": 1.0, "pn": 12.2, "ummah": 3.9}, "narratives_pre30": {"solo": 120, "split": 31, "mn": 0, "pn": 22, "ummah": 0}, "narratives_pre30_pct": {"solo": 17.6, "split": 4.6, "mn": 0.0, "pn": 3.2, "ummah": 0.0}, "before_after": {"labels": ["PAS Solo", "Split/Berpisah", "MN", "PN", "Penyatuan Ummah"], "pre_pct": [17.6, 4.6, 0.0, 3.2, 0.0], "post_pct": [7.6, 10.7, 1.0, 12.2, 3.9], "pre_n": 680, "post_n": 2583}, "daily": [{"date": "2026-06-09", "count": 713}, {"date": "2026-06-10", "count": 693}], "platforms": [{"Platform": "tiktok", "count": 905, "engagement": 6360991}, {"Platform": "x", "count": 663, "engagement": 338447}, {"Platform": "instagram", "count": 323, "engagement": 1958}, {"Platform": "news", "count": 272, "engagement": 0}, {"Platform": "facebook", "count": 232, "engagement": 7833}, {"Platform": "youtube", "count": 188, "engagement": 56662}], "sentiment": {"neutral": 2311}, "states": {"johor": {"rows": 195, "solo": 11, "split": 29, "mn": 4, "pn": 22, "ummah": 3, "engagement": 85303}, "melaka": {"rows": 70, "solo": 0, "split": 4, "mn": 0, "pn": 4, "ummah": 0, "engagement": 68493}, "ns": {"rows": 143, "solo": 25, "split": 14, "mn": 5, "pn": 25, "ummah": 0, "engagement": 227225}}, "ns": {"lang_proxy": {"bm": 122, "campuran": 15, "english": 5, "tamil": 1}, "top_posts": [{"text": "Alhamdulillah syukur kepada Allah, PAS telah menerima ratusan permohonan menjadi ahli PAS daripada mantan pemimpin UMNO dan tokoh masyarakat di Negeri Sembilan hari ini.\n\nSaya mengucapkan selamat data", "platform": "tiktok", "engagement": 19831, "url": "https://www.tiktok.com/@pemudapasmalaysia/video/7191121684143901978", "date": "NaT"}, {"text": "Cerita dari Brickfields. Krisis Negeri Sembilan", "platform": "tiktok", "engagement": 15519, "url": "https://www.tiktok.com/@hishamuddinrais/video/7631155584456264978", "date": "NaT"}, {"text": "Sedarlah wahai rakyat Negeri Sembilan!!\n#CapCut #fyp #pasforall #negerisembilan  #viral", "platform": "tiktok", "engagement": 14497, "url": "https://www.tiktok.com/@passforall/video/7647716594080156936", "date": "NaT"}, {"text": "Menjunjung kasih DYMM Yang di-Pertuan Besar Negeri Sembilan Darul Khusus Tuanku Muhriz ibni Almarhum Tuanku Munawir, DYMM Tunku Ampuan Besar Negeri Sembilan Tuanku Aishah Rohani binti Almarhum Tengku ", "platform": "tiktok", "engagement": 9982, "url": "https://www.tiktok.com/@negerifmofficial/video/7594878145208110343", "date": "NaT"}, {"text": "Pergolakan di Negeri Sembilan.\n\nKenyataan Media Undang yang Empat \n\nMengikut Kenyataan, menyatakan yang Dato Mubarak masih Undang yang sah dan Menteri Besar tidak layak menerajui Pentadbiran Kerajaan ", "platform": "tiktok", "engagement": 8284, "url": "https://www.tiktok.com/@mizialhafiz/video/7633422654455713044", "date": "NaT"}, {"text": "Suruhanjaya Pilihan Raya (SPR) memperkukuh kesiapsiagaan bagi menghadapi kemungkinan pembubaran DUN di Melaka, Johor dan Negeri Sembilan dengan melaksanakan pelbagai langkah proaktif termasuk penyelar", "platform": "tiktok", "engagement": 6934, "url": "https://www.tiktok.com/@501awani/video/7641820937536539924", "date": "NaT"}, {"text": "“Saya telah berhijrah ke bulan tanpa menggunakan roket”\n\nDemikian kata-kata bayangan bekas Pengerusi MIC Negeri Sembilan Datuk L Manickam,  menyatakan penyertaannya ke dalam parti PAS.\n\nManickam menul", "platform": "tiktok", "engagement": 5171, "url": "https://www.tiktok.com/@beritapertiwi/video/7398107699113725189", "date": "NaT"}, {"text": "Option 1: Bubar DUN, buat PRN.\n\nOption 2: Tukar MB, kekal kerajaan PHUMDAP Negeri Sembilan. MB UMDAP. UMDAP Mantap.\n\nOption 3: Tukar MB, tukar kepada kerajaan BNPN, MB UMNO. Muafakat Nasional.\n\nNetize", "platform": "tiktok", "engagement": 5117, "url": "https://www.tiktok.com/@ishamjalilofficial/video/7633337771393961224", "date": "NaT"}], "political_rows": 136, "insights": ["NS: 143 posts (36 jam) — 136 berkait politik PAS/Bersatu", "Solo 25 vs Split 14 vs PN 25", "MN hanya 5 mention — naratif MN belum kuat di awam NS", "Demografi = proxy bahasa (bukan census rasmi)"]}, "top_viral_political": [{"text": "ada yg gini ga disekolahnya? Udah putus tapi keadaan memaksa buat tetap bersatu, ANZAY🤤 #sptrakori_ #fyp", "platform": "tiktok", "engagement": 1414687, "url": "https://www.tiktok.com/@sptrakori_/video/7227704417729006875", "date": "NaT"}, {"text": "The Power of Recehan Anak Sekolah! 💸 Data OJK Q1 2026 mencatat tabungan pelajar se-Indonesia tembus Rp29,13 Triliun! Gimana ceritanya?\n\nKeuangan (OJK) rilis kabar menarik soal kebiasaan menabung di ka", "platform": "tiktok", "engagement": 375716, "url": "https://www.tiktok.com/@cutmediaup/video/7644796597590658325", "date": "NaT"}, {"text": "bersatu pas istirahat & sholat", "platform": "tiktok", "engagement": 70275, "url": "https://www.tiktok.com/@mimawmo/video/7392930288730426629", "date": "NaT"}, {"text": "Kenyataan Media Presiden PAS\n\nPAS MENGUTUK ISRAEL ATAS PEMBUNUHAN YAHYA SINWAR\n\nFirman Allah:\n\n‎﴿مِّنَ ٱلۡمُؤۡمِنِينَ رِجَالٞ صَدَقُواْ مَا عَٰهَدُواْ ٱللَّهَ عَلَيۡهِۖ فَمِنۡهُم مَّن قَضَىٰ نَحۡبَهُۥ", "platform": "tiktok", "engagement": 43521, "url": "https://www.tiktok.com/@abdulhadiawang/video/7427097910849834248", "date": "NaT"}, {"text": "#muhyiddinyassin #bersatu #perikatannasional #prnjohor #prnmelaka", "platform": "tiktok", "engagement": 42303, "url": "https://www.tiktok.com/@abahkitemuhyiddin/video/7630401553228156181", "date": "NaT"}, {"text": "Sidang Media Presiden PAS\n\n“PAS akan menilai semula kerjasama politik dengan Bersatu”", "platform": "tiktok", "engagement": 36119, "url": "https://www.tiktok.com/@abdulhadiawang/video/7642561860880944392", "date": "NaT"}, {"text": "Khas untuk 6 negeri PRN #prn15 #perikatannasional #partiislamsemalaysiapas #kedah #kelantan #terengganu #pulaupinang #selangor #negerisembilan #pnbest #foryou #fyp", "platform": "tiktok", "engagement": 32017, "url": "https://www.tiktok.com/@yen_editor_/video/7258003087745469698", "date": "NaT"}, {"text": "•kdm• Jung Kyungho dan Choi Sooyoung dikonfirmasi resmi putus. Keduanya uda pacaran selama 14 tahun dan dua-duanya juga sudah saling unfollow akun Instagram. https://t.co/uRRRGOsoMu", "platform": "x", "engagement": 31647, "url": "https://x.com/kdrama_menfess/status/2064245429471248397", "date": "2026-06-09 07:17:16"}, {"text": "Puluhan Tahun Sudah Tok Guru Mencurah Ilmu\n\nOleh : Dr Azman Ibrahim\n\nPuluhan tahun sudah Tuan Guru Haji Abdul Hadi Awang menjadikan sebuah perkampungan nelayan di tepi Pantai Marang Terengganu sebagai", "platform": "tiktok", "engagement": 31356, "url": "https://www.tiktok.com/@inderashafri/video/7591462837713767700", "date": "NaT"}, {"text": "tu donnes la CDM à un pays qui n’est pas un pays de football, ça te fout des quart temps comme si t’étais à la nba, des pubs pdt les pauses fraîcheurs, ça empêche des supporters de certains pays de ve", "platform": "x", "engagement": 31099, "url": "https://x.com/slzsn_/status/2064334168276799557", "date": "2026-06-09 13:09:53"}], "recommendations": ["Pre-split (30 hari): PAS solo 17.6% — momentum autonomi sudah wujud SEBELUM pengumuman", "Post-split (36 jam): Split/berpisah 10.7% — isu kini explicit di discourse awam", "MN 1.0% — belum organic; perlu bina naratif jika MN jadi hala tuju", "Penyatuan ummah 4.1% — naik 4× post-split; peluang counter-narrative perpaduan", "Johor: split > solo (29 vs 11) · NS: solo > split (25 vs 14) — strategi negeri berbeza"]};
+
+function showTab(id,btn){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+document.getElementById(id).classList.add('active');btn.classList.add('active');}
+const ns=D.states.ns;
+new Chart(document.getElementById('cNSn'),{type:'bar',data:{labels:['PAS Solo','Split','MN','PN','Ummah'],datasets:[{data:[ns.solo,ns.split,ns.mn,ns.pn,ns.ummah],backgroundColor:['#10b981','#ef4444','#6366f1','#3b82f6','#f59e0b']}]},options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}});
+const lg=D.ns.lang_proxy;
+new Chart(document.getElementById('cNSlang'),{type:'doughnut',data:{labels:Object.keys(lg).map(k=>k.toUpperCase()),datasets:[{data:Object.values(lg),backgroundColor:['#059669','#3b82f6','#f59e0b','#8b5cf6','#64748b','#ec4899']}]},options:{plugins:{legend:{position:'bottom'}}}});
+let h='<table><tr><th>#</th><th>Platform</th><th>Engagement</th><th>Text</th></tr>';
+D.ns.top_posts.forEach((p,i)=>{h+=`<tr><td>${i+1}</td><td>${p.platform}</td><td><strong>${p.engagement.toLocaleString()}</strong></td><td>${p.text.substring(0,150)}</td></tr>`;});
+document.getElementById('ns-posts').innerHTML=h+'</table>';
+
+</script>
+</body>
+</html>

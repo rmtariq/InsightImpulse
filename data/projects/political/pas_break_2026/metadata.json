@@ -1,0 +1,371 @@
+{
+  "project_id": "pas_break_2026",
+  "name": "PAS–Bersatu Split · PRN Johor/Melaka/NS",
+  "category": "political",
+  "client": "Internal · EXCO Negeri Sembilan",
+  "keywords": [
+    "PAS Bersatu",
+    "PAS putus Bersatu",
+    "Perikatan Nasional",
+    "PAS solo",
+    "PRN Johor",
+    "PRN Melaka",
+    "PAS Negeri Sembilan"
+  ],
+  "crawls": [
+    {
+      "id": "crawl1_social",
+      "label": "Crawl 1 — Social (FB+IG+X+TikTok+YouTube)",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "x",
+        "tiktok",
+        "youtube"
+      ],
+      "date_range": "7days",
+      "rows": 630,
+      "note": "UI combined output (pre-merge-fix)",
+      "file": "crawls/PAS_Break_Social_Crawl1_20260610_213913.csv",
+      "migrated_at": "2026-06-10"
+    },
+    {
+      "id": "crawl1_social_merged",
+      "label": "Crawl 1 — Full merge (all 12 keywords)",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "x",
+        "tiktok",
+        "youtube"
+      ],
+      "rows": 7395,
+      "note": "Manual merge of all smart_crawler files",
+      "file": "master/PAS_Break_Master_Social_MERGED_20260610.csv",
+      "migrated_at": "2026-06-10"
+    },
+    {
+      "id": "pas_break_news_20260610_230655",
+      "file": "crawls/pas_break_news_20260610_230655.csv",
+      "source_combined": "data/combined/Combined_google_news_20260610_230655.csv",
+      "platforms": [
+        "google",
+        "news"
+      ],
+      "query": "PAS Bersatu OR Perikatan Nasional OR Negeri Sembilan PAS OR PRN Johor OR PRN Melaka OR Muhyiddin OR Abdul Hadi Awang OR plot SD OR Aminuddin Harun",
+      "date_range": "7days",
+      "rows": 1066,
+      "saved_at": "2026-06-10T23:06:55.473801"
+    },
+    {
+      "id": "pas_break_social_20260611_011720",
+      "file": "crawls/pas_break_social_20260611_011720.csv",
+      "source_combined": "data/combined/Combined_facebook_instagram_tiktok_x_20260611_011720.csv",
+      "platforms": [
+        "instagram",
+        "x",
+        "tiktok",
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/N24MuhammadSanusiMdNor",
+      "date_range": "7days",
+      "rows": 7249,
+      "saved_at": "2026-06-11T01:17:20.026673"
+    },
+    {
+      "id": "pas_break_social_20260611_075146",
+      "file": "crawls/pas_break_social_20260611_075146.csv",
+      "source_combined": "data/combined/Combined_facebook_20260611_075146.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/paspusat\nhttps://www.facebook.com/abdulhadiawang\nhttps://www.facebook.com/ts.muhyiddin\nhttps://www.facebook.com/pribumibersatuofficial",
+      "date_range": "7days",
+      "rows": 2,
+      "saved_at": "2026-06-11T07:51:46.252295"
+    },
+    {
+      "id": "pas_break_social_20260611_084301",
+      "file": "crawls/pas_break_social_20260611_084301.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_084301.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang\nhttps://www.tiktok.com/@ahmadzahidhamidi\nhttps://www.tiktok.com/@anthonyloke\nhttps://www.tiktok.com/@anwaribrahimofficial\nhttps://www.tiktok.com/@drsamtrg\nhttps:",
+      "date_range": "7days",
+      "rows": 1,
+      "saved_at": "2026-06-11T08:43:01.847889"
+    },
+    {
+      "id": "pas_break_social_20260611_085134",
+      "file": "crawls/pas_break_social_20260611_085134.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_085134.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 1,
+      "saved_at": "2026-06-11T08:51:34.537352"
+    },
+    {
+      "id": "pas_break_social_20260611_085609",
+      "file": "crawls/pas_break_social_20260611_085609.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_085609.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 1,
+      "saved_at": "2026-06-11T08:56:09.963172"
+    },
+    {
+      "id": "pas_break_social_20260611_091224",
+      "file": "crawls/pas_break_social_20260611_091224.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_091224.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 1,
+      "saved_at": "2026-06-11T09:12:24.494502"
+    },
+    {
+      "id": "pas_break_social_20260611_091234",
+      "file": "crawls/pas_break_social_20260611_091234.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_091234.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 1,
+      "saved_at": "2026-06-11T09:12:34.300227"
+    },
+    {
+      "id": "pas_break_social_20260611_092653",
+      "file": "crawls/pas_break_social_20260611_092653.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_092653.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 52,
+      "saved_at": "2026-06-11T09:26:53.568025"
+    },
+    {
+      "id": "pas_break_social_20260611_094141",
+      "file": "crawls/pas_break_social_20260611_094141.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_094141.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@abdulhadiawang",
+      "date_range": "7days",
+      "rows": 3703,
+      "saved_at": "2026-06-11T09:41:41.191661"
+    },
+    {
+      "id": "pas_break_social_20260611_155933",
+      "file": "crawls/pas_break_social_20260611_155933.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_155933.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@muhyiddinyassin_tsmy",
+      "date_range": "7days",
+      "rows": 5175,
+      "saved_at": "2026-06-11T15:59:33.516922"
+    },
+    {
+      "id": "pas_break_social_20260611_163843",
+      "file": "crawls/pas_break_social_20260611_163843.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260611_163843.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "https://www.tiktok.com/@perikatannasionalgerik",
+      "date_range": "7days",
+      "rows": 15356,
+      "saved_at": "2026-06-11T16:38:43.690298"
+    },
+    {
+      "id": "pas_break_social_20260611_165022",
+      "file": "crawls/pas_break_social_20260611_165022.csv",
+      "source_combined": "data/combined/Combined_facebook_20260611_165022.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/DrAhmadSamsuri",
+      "date_range": "7days",
+      "rows": 13,
+      "saved_at": "2026-06-11T16:50:22.472220"
+    },
+    {
+      "id": "pas_break_social_20260611_170351",
+      "file": "crawls/pas_break_social_20260611_170351.csv",
+      "source_combined": "data/combined/Combined_facebook_20260611_170351.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/DrAhmadSamsuri",
+      "date_range": "7days",
+      "rows": 107,
+      "saved_at": "2026-06-11T17:03:51.725121"
+    },
+    {
+      "id": "pas_break_social_20260611_174809",
+      "file": "crawls/pas_break_social_20260611_174809.csv",
+      "source_combined": "data/combined/Combined_x_20260611_174809.csv",
+      "platforms": [
+        "x"
+      ],
+      "query": "https://x.com/AbangJohari",
+      "date_range": "7days",
+      "rows": 14010,
+      "saved_at": "2026-06-11T17:48:09.596497"
+    },
+    {
+      "id": "pas_break_social_20260611_181431",
+      "file": "crawls/pas_break_social_20260611_181431.csv",
+      "source_combined": "data/combined/Combined_x_20260611_181431.csv",
+      "platforms": [
+        "x"
+      ],
+      "query": "https://x.com/AbangJohari",
+      "date_range": "7days",
+      "rows": 14244,
+      "saved_at": "2026-06-11T18:14:31.413452"
+    },
+    {
+      "id": "pas_break_social_20260611_182435",
+      "file": "crawls/pas_break_social_20260611_182435.csv",
+      "source_combined": "data/combined/Combined_facebook_20260611_182435.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/aminuddinharun",
+      "date_range": "7days",
+      "rows": 27,
+      "saved_at": "2026-06-11T18:24:35.775428"
+    },
+    {
+      "id": "pas_break_social_20260611_183037",
+      "file": "crawls/pas_break_social_20260611_183037.csv",
+      "source_combined": "data/combined/Combined_facebook_20260611_183037.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/anwaribrahimofficial",
+      "date_range": "7days",
+      "rows": 72,
+      "saved_at": "2026-06-11T18:30:37.084770"
+    },
+    {
+      "id": "pas_break_social_20260611_184138",
+      "file": "crawls/pas_break_social_20260611_184138.csv",
+      "source_combined": "data/combined/Combined_instagram_20260611_184138.csv",
+      "platforms": [
+        "instagram"
+      ],
+      "query": "https://www.instagram.com/ahmadzahidhamidi/",
+      "date_range": "7days",
+      "rows": 1175,
+      "saved_at": "2026-06-11T18:41:38.848182"
+    }
+  ],
+  "masters": [
+    {
+      "file": "master/PAS_Break_Master_Social_MERGED_20260610.csv",
+      "rows": 7395,
+      "saved_at": "2026-06-10T22:12:26.834201",
+      "note": "migrated"
+    },
+    {
+      "file": "master/PAS_Break_Master_FULL_20260610_232238.csv",
+      "rows": 8461,
+      "saved_at": "2026-06-10T23:22:38.544141",
+      "note": "Crawl1 social 7395 + Crawl2 news 1066 merged"
+    },
+    {
+      "file": "master/PAS_Break_Master_EventWindow_Jun9-10_20260610_232238.csv",
+      "rows": 1406,
+      "saved_at": "2026-06-10T23:22:38.544339",
+      "note": "Event window 9-10 Jun 2026"
+    },
+    {
+      "file": "master/PAS_Break_Master_FULL_20260610_232310.csv",
+      "rows": 8461,
+      "saved_at": "2026-06-10T23:23:10.466676",
+      "note": "Crawl1 social 7395 + Crawl2 news 1066 merged"
+    },
+    {
+      "file": "master/PAS_Break_Master_EventWindow_Jun9-10_20260610_232310.csv",
+      "rows": 1406,
+      "saved_at": "2026-06-10T23:23:10.466841",
+      "note": "Event window 9-10 Jun 2026"
+    },
+    {
+      "file": "master/PAS_Break_Master_FULL_20260610_232442.csv",
+      "rows": 8461,
+      "saved_at": "2026-06-10T23:24:43.067597",
+      "note": "Crawl1 social 7395 + Crawl2 news 1066 merged"
+    },
+    {
+      "file": "master/PAS_Break_Master_EventWindow_Jun9-10_20260610_232442.csv",
+      "rows": 2583,
+      "saved_at": "2026-06-10T23:24:43.067718",
+      "note": "Event window 9-10 Jun 2026"
+    }
+  ],
+  "updated_at": "2026-06-11T18:41:38.848344",
+  "latest_master": "master/PAS_Break_Master_FULL_20260610_232442.csv",
+  "event": {
+    "declaration": "2026-06-09",
+    "description": "PAS & Bersatu split declaration (Monday night)",
+    "analysis_window": "2026-06-09 to 2026-06-10"
+  },
+  "pending": [
+    "crawl3_direct_url"
+  ],
+  "reports": [
+    {
+      "file": "reports/PAS_Break_Dashboard_MAIN.html",
+      "type": "dashboard_main",
+      "generated": "2026-06-11"
+    },
+    {
+      "file": "reports/PRN_NegeriSembilan_EXCO_Dashboard.html",
+      "type": "dashboard_ns_exco",
+      "generated": "2026-06-11"
+    },
+    {
+      "file": "reports/EXCO_NS_Brief_1Page.md",
+      "type": "exco_brief",
+      "generated": "2026-06-11"
+    }
+  ],
+  "latest_event_window": "master/PAS_Break_Master_EventWindow_Jun9-10_20260610_232442.csv",
+  "merge_stats": {
+    "full_total": 8461,
+    "social_rows": 7395,
+    "news_rows": 1066,
+    "event_window_rows": 2583,
+    "event_window_posts": 1384,
+    "mentions_pas_event": 843,
+    "mentions_bersatu_event": 705,
+    "narrative_split_event": 277,
+    "narrative_solo_event": 196
+  },
+  "reference": {
+    "excel": "reference/Politik_Malaysia_SocMed_2026.xlsx",
+    "updated": "2026-06-11T00:51:56.630742",
+    "official_urls": 82,
+    "prn_urls": 17,
+    "viral_post_urls": 40,
+    "pending_crawl": "crawl3_direct_url"
+  }
+}
