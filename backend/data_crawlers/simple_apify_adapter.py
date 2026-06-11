@@ -10,6 +10,7 @@ Date: 2026-02-07
 """
 
 import os
+import re
 import asyncio
 import logging
 from pathlib import Path
@@ -2911,6 +2912,14 @@ class SimpleApifyAdapter:
         else:
             return 'unknown'
 
+    def _extract_tiktok_username(self, url: str) -> Optional[str]:
+        """Extract TikTok username from a profile URL (not video URLs)."""
+        url = url.strip().rstrip('/')
+        if '/video/' in url.lower():
+            return None
+        match = re.search(r'tiktok\.com/@([^/?#]+)', url, re.IGNORECASE)
+        return match.group(1) if match else None
+
     def _prepare_facebook_url_input(self, urls: List[str], max_posts: int = 100, max_comments: int = 50) -> Dict:
         """Facebook page/post direct URL crawl using apify/facebook-posts-scraper."""
         scroll_timeout = max(300, min(max_posts * 5, 1800))
@@ -2949,32 +2958,75 @@ class SimpleApifyAdapter:
             }
         }
 
-    def _prepare_tiktok_url_input(self, urls: List[str], max_videos: int = 50, max_comments: int = 30) -> Dict:
-        """TikTok profile/video direct URL crawl."""
-        tt_scroll = max(180, min(max_videos * 3, 900))
-        # Separate profiles vs individual video URLs
-        profiles = [u for u in urls if '/@' in u and '/video/' not in u]
-        videos   = [u for u in urls if '/video/' in u]
+    def _prepare_tiktok_url_input(
+        self,
+        urls: List[str],
+        max_videos: int = 50,
+        max_comments: int = 30,
+        since_date: str = None,
+        until_date: str = None,
+    ) -> Dict:
+        """TikTok profile/video direct URL crawl.
+
+        clockworks/tiktok-scraper expects usernames in ``profiles`` (not full URLs)
+        and ``resultsPerPage`` for videos per profile. Full URLs belong in ``postURLs``.
+        """
+        buffer = self.calculate_smart_buffer(max_videos)
+        adjusted_max_videos = max(1, int(max_videos * buffer))
+        adjusted_max_comments = max(1, int(max_comments * 1.2))
+        tt_scroll = max(180, min(adjusted_max_videos * 3, 900))
+
+        profile_usernames: List[str] = []
+        videos: List[str] = []
+        for u in urls:
+            if '/video/' in u.lower():
+                videos.append(u.strip())
+                continue
+            username = self._extract_tiktok_username(u)
+            if username:
+                profile_usernames.append(username)
+            else:
+                logger.warning(f"⚠️ TikTok: could not parse username from URL: {u}")
+
+        if not profile_usernames and not videos:
+            raise ValueError(
+                "No valid TikTok profile usernames or video URLs found. "
+                "Use https://www.tiktok.com/@username or https://www.tiktok.com/@user/video/ID"
+            )
+
+        logger.info(
+            f"🎵 TikTok URL crawl: {len(profile_usernames)} profiles, "
+            f"{len(videos)} video URLs, {adjusted_max_videos} videos/profile"
+        )
+        if profile_usernames:
+            logger.info(f"🎵 TikTok profiles: {profile_usernames[:5]}{'...' if len(profile_usernames) > 5 else ''}")
+
         inp: Dict = {
             "shouldDownloadVideos": False,
             "shouldDownloadCovers": False,
             "shouldDownloadSlideshowImages": False,
+            "profileScrapeSections": ["videos"],
+            "profileSorting": "latest",
+            "resultsPerPage": adjusted_max_videos,
             "getComments": True,
-            "commentsPerPost": max_comments,
+            "commentsPerPost": adjusted_max_comments,
             "getEngagement": True,
             "scrollTimeout": tt_scroll,
             "getUserDetails": True,
             "proxy": {
                 "useApifyProxy": True,
                 "apifyProxyGroups": ["RESIDENTIAL"],
-                "apifyProxyCountry": "MY"
-            }
+                "apifyProxyCountry": "MY",
+            },
         }
-        if profiles:
-            inp["profiles"] = profiles
-            inp["maxVideos"] = max_videos
+        if profile_usernames:
+            inp["profiles"] = profile_usernames
         if videos:
             inp["postURLs"] = videos
+        if since_date:
+            inp["oldestPostDateUnified"] = since_date[:10]
+        if until_date:
+            inp["newestPostDate"] = until_date[:10]
         return inp
 
     def _prepare_twitter_url_input(self, urls: List[str], max_tweets: int = 100, max_replies: int = 30) -> Dict:
@@ -3114,7 +3166,13 @@ class SimpleApifyAdapter:
             elif platform == 'instagram':
                 actor_input = self._prepare_instagram_url_input(p_urls, max_posts, max_comments)
             elif platform == 'tiktok':
-                actor_input = self._prepare_tiktok_url_input(p_urls, max_posts, max_comments)
+                try:
+                    actor_input = self._prepare_tiktok_url_input(
+                        p_urls, max_posts, max_comments, since_date, until_date
+                    )
+                except ValueError as e:
+                    logger.error(f"❌ TikTok URL input invalid: {e}")
+                    continue
             elif platform == 'x':
                 actor_input = self._prepare_twitter_url_input(p_urls, max_posts, max_comments)
             elif platform == 'threads':
