@@ -1301,13 +1301,16 @@ def load_merged_platform_crawl_data(
     Merge all crawl CSVs for a platform from the current session.
     Multi-keyword crawls save one file per keyword — must merge, not take latest only.
     """
+    from backend.utils.crawl_records import flatten_crawl_records, parse_crawl_dates
+
     platform_lower = platform.lower()
     frames: List[pd.DataFrame] = []
     files_loaded = 0
 
     if in_memory_records:
         try:
-            mem_df = pd.DataFrame(in_memory_records)
+            flat_records = flatten_crawl_records(in_memory_records)
+            mem_df = pd.DataFrame(flat_records)
             if not mem_df.empty:
                 frames.append(mem_df)
         except Exception as e:
@@ -1327,8 +1330,12 @@ def load_merged_platform_crawl_data(
         for csv_path in csv_files:
             try:
                 file_df = pd.read_csv(csv_path)
-                if not file_df.empty:
-                    frames.append(file_df)
+                if file_df.empty:
+                    continue
+                # Legacy files may still have nested comments column
+                if "comments" in file_df.columns:
+                    file_df = pd.DataFrame(flatten_crawl_records(file_df.to_dict(orient="records")))
+                frames.append(file_df)
             except Exception as e:
                 logger.warning(f"⚠️ Skipping unreadable crawl file {csv_path.name}: {e}")
 
@@ -1346,10 +1353,15 @@ def load_merged_platform_crawl_data(
     if "Platform" not in merged.columns:
         merged["Platform"] = platform_lower
 
+    if "Date" in merged.columns:
+        merged["Date"] = parse_crawl_dates(merged["Date"])
+
     mem_note = " + in-memory" if in_memory_records else ""
+    posts_n = (merged["Type"].str.lower() == "post").sum() if "Type" in merged.columns else "?"
+    comments_n = (merged["Type"].str.lower() == "comment").sum() if "Type" in merged.columns else "?"
     logger.info(
         f"📦 {platform.upper()}: merged {files_loaded} crawl file(s){mem_note} "
-        f"→ {before_dedup} rows → {len(merged)} unique records"
+        f"→ {before_dedup} rows → {len(merged)} unique ({posts_n} posts + {comments_n} comments)"
     )
     return merged
 
@@ -1359,18 +1371,23 @@ def apply_crawl_date_filter(df: pd.DataFrame, date_filter: Dict[str, Any]) -> pd
     if df.empty or "Date" not in df.columns:
         return df
 
+    from backend.utils.crawl_records import parse_crawl_dates
+
     start = pd.Timestamp(date_filter["start_date"])
     end = pd.Timestamp(date_filter["end_date"])
     start = start.tz_localize("UTC") if start.tzinfo is None else start.tz_convert("UTC")
     end = end.tz_localize("UTC") if end.tzinfo is None else end.tz_convert("UTC")
 
-    dates = pd.to_datetime(df["Date"], errors="coerce", utc=True)
+    dates = parse_crawl_dates(df["Date"])
     mask = dates.notna() & (dates >= start) & (dates <= end)
     before = len(df)
     filtered = df.loc[mask].copy()
+    posts_before = (df["Type"].str.lower() == "post").sum() if "Type" in df.columns else before
+    posts_after = (filtered["Type"].str.lower() == "post").sum() if "Type" in filtered.columns else len(filtered)
     logger.info(
         f"📅 Date filter: {before} → {len(filtered)} records "
-        f"({date_filter['start_iso'][:10]} to {date_filter['end_iso'][:10]})"
+        f"({posts_before}→{posts_after} posts, "
+        f"{date_filter['start_iso'][:10]} to {date_filter['end_iso'][:10]})"
     )
     return filtered
 
@@ -2605,10 +2622,17 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                 real_time_data_dict = {}
 
         # Process results and broadcast status (for both strategy and traditional)
+        from backend.utils.crawl_records import flatten_crawl_records
         for platform, results in real_time_data_dict.items():
             if results:
-                real_time_data[platform] = results
-                logger.info(f"✅ Got {len(results)} AI-optimized results from {platform}")
+                flat = flatten_crawl_records(results)
+                real_time_data[platform] = flat
+                posts_n = sum(1 for r in flat if str(r.get("Type", "post")).lower() == "post")
+                comments_n = sum(1 for r in flat if str(r.get("Type", "post")).lower() == "comment")
+                logger.info(
+                    f"✅ Got {len(flat)} flat records from {platform} "
+                    f"({posts_n} posts + {comments_n} comments)"
+                )
                 await manager.broadcast_status({
                     "type": "platform_status",
                     "platform": platform,

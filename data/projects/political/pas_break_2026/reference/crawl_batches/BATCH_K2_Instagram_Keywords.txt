@@ -1,0 +1,8 @@
+# K2 — Instagram Keyword Crawl (volume awam + split discourse)
+# Generated: 2026-06-11
+# Mode: Keyword Search | Instagram ONLY | Dataset 800 | Last 7 Days
+# Project: pas_break_2026
+#
+# Paste query below into InsightPulse (one line):
+#
+PAS Bersatu OR pecah PN OR Muhyiddin OR abdulhadiawang OR "PAS Negeri Sembilan" OR "PRN Johor" OR sanusimdnor OR "Perikatan Nasional"

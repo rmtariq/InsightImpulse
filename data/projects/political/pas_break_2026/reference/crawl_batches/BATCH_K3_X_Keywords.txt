@@ -1,0 +1,5 @@
+# K3 — X Keyword Crawl (threads awam + media)
+# Mode: Keyword Search | X ONLY | Dataset 800 | Last 7 Days
+# Project: pas_break_2026
+#
+PAS Bersatu OR "PAS putus Bersatu" OR pecah PN OR Muhyiddin OR abdulhadiawang OR "PRN Negeri Sembilan" OR "Muafakat Nasional" OR "hentikan kerjasama"

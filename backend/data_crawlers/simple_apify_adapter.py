@@ -22,6 +22,21 @@ import requests
 
 logger = logging.getLogger(__name__)
 
+try:
+    from backend.utils.crawl_records import (
+        normalize_crawl_date,
+        flatten_crawl_records,
+        fasa2_post_cap,
+        effective_comments_per_post,
+    )
+except ImportError:
+    from utils.crawl_records import (
+        normalize_crawl_date,
+        flatten_crawl_records,
+        fasa2_post_cap,
+        effective_comments_per_post,
+    )
+
 # Import AI Keyword Generator
 try:
     import sys
@@ -1297,9 +1312,13 @@ class SimpleApifyAdapter:
                     'Parent_Post_URL': parent_post_url,  # ✅ Link to parent post (for comments)
                     'Parent_Post_ID': parent_post_id,    # ✅ Parent post ID (for comments)
                     'Sentiment': 'neutral',  # Will be analyzed later
-                    'Date': item.get(
-                        'timestamp',
-                        item.get('createdAt', item.get('uploadedAtFormatted', item.get('date', datetime.now().isoformat())))
+                    'Date': normalize_crawl_date(
+                        item.get('timestamp')
+                        or item.get('createdAt')
+                        or item.get('uploadedAtFormatted')
+                        or item.get('date')
+                        or item.get('time')
+                        or item.get('publishedAt')
                     ),
                     'likes': engagement['likes'],
                     'shares': engagement['shares'],
@@ -1492,49 +1511,82 @@ class SimpleApifyAdapter:
 
         return ''
 
+    def _safe_int(self, val: Any) -> int:
+        try:
+            if val is None or isinstance(val, (list, dict)):
+                return 0
+            return int(float(val))
+        except (ValueError, TypeError):
+            return 0
+
     def _extract_engagement(self, platform: str, item: Dict) -> Dict[str, int]:
         """Extract engagement metrics based on platform-specific field names"""
-        # Likes
+        platform_lower = platform.lower()
+
+        # Nested engagement blob (common in search actors)
+        eng = item.get('engagement') if isinstance(item.get('engagement'), dict) else {}
+        stats = item.get('stats') if isinstance(item.get('stats'), dict) else {}
+
+        # Likes / reactions
         likes = 0
-        for field in ['likes', 'likeCount', 'like_count', 'likesCount', 'diggCount']:
+        like_fields = [
+            'likes', 'likeCount', 'like_count', 'likesCount', 'diggCount',
+            'reactionCount', 'reactionsCount', 'reactions', 'topReactionsCount',
+        ]
+        if platform_lower == 'facebook':
+            like_fields.extend(['reactionLikeCount', 'reactionLoveCount'])
+        for field in like_fields:
             if field in item:
-                try:
-                    likes = int(item[field] or 0)
+                likes = self._safe_int(item[field])
+                if likes:
                     break
-                except (ValueError, TypeError):
-                    pass
+            if not likes and field in eng:
+                likes = self._safe_int(eng[field])
+                if likes:
+                    break
+            if not likes and field in stats:
+                likes = self._safe_int(stats[field])
+                if likes:
+                    break
 
         # Shares
         shares = 0
-        for field in ['shares', 'shareCount', 'share_count', 'sharesCount', 'retweets', 'retweetCount']:
+        for field in ['shares', 'shareCount', 'share_count', 'sharesCount', 'retweets', 'retweetCount', 'reposts']:
             if field in item:
-                try:
-                    shares = int(item[field] or 0)
+                shares = self._safe_int(item[field])
+                if shares:
                     break
-                except (ValueError, TypeError):
-                    pass
+            if not shares and field in eng:
+                shares = self._safe_int(eng[field])
+                if shares:
+                    break
 
-        # Comments count
+        # Comments count (skip list-valued ``comments``)
         comments_count = 0
-        for field in ['comments', 'commentCount', 'comment_count', 'commentsCount', 'replies', 'replyCount']:
+        for field in ['commentCount', 'comment_count', 'commentsCount', 'replies', 'replyCount', 'comments_count']:
             if field in item:
-                try:
-                    comments_count = int(item[field] or 0)
+                comments_count = self._safe_int(item[field])
+                if comments_count:
                     break
-                except (ValueError, TypeError):
-                    pass
+            if not comments_count and field in eng:
+                comments_count = self._safe_int(eng[field])
+                if comments_count:
+                    break
+        if not comments_count and isinstance(item.get('comments'), (int, float, str)):
+            comments_count = self._safe_int(item.get('comments'))
 
         # Views
         views = 0
         for field in ['views', 'viewCount', 'view_count', 'viewsCount', 'playCount']:
             if field in item:
-                try:
-                    views = int(item[field] or 0)
+                views = self._safe_int(item[field])
+                if views:
                     break
-                except (ValueError, TypeError):
-                    pass
+            if not views and field in eng:
+                views = self._safe_int(eng[field])
+                if views:
+                    break
 
-        # Calculate total engagement
         total_engagement = likes + shares + comments_count + (views // 100)
 
         return {
@@ -1902,13 +1954,13 @@ class SimpleApifyAdapter:
         logger.info(f"   Results: {len(all_results)}")
         logger.info(f"   Condition: platform.lower() in ['x', 'twitter', 'facebook'] = {platform.lower() in ['x', 'twitter', 'facebook']}")
 
-        if platform.lower() in ['x', 'twitter', 'facebook', 'youtube'] and all_results:
+        if platform.lower() in ['x', 'twitter', 'facebook', 'instagram', 'youtube', 'tiktok'] and all_results:
             logger.info(f"🔍 [{platform}] Auto-crawling comments for {len(all_results)} posts...")
             try:
                 posts_with_comments = await self._crawl_comments_for_posts(
                     platform=platform.lower(),
                     posts=all_results,
-                    comments_per_post=min(max_comments, 50) if platform.lower() == 'youtube' else min(max_comments, 10)
+                    comments_per_post=effective_comments_per_post(platform.lower(), max_comments),
                 )
 
                 # Count total comments
@@ -2245,29 +2297,38 @@ class SimpleApifyAdapter:
                 else:
                     results[platform_lower] = platform_results
 
-                # 🎯 STEP 3: AUTOMATICALLY CRAWL COMMENTS for 2-actor platforms (X/Twitter, Facebook, Instagram, YouTube, TikTok)
-                if platform_lower in ['x', 'twitter', 'facebook', 'instagram', 'youtube', 'tiktok'] and platform_results:
-                    logger.info(f"🔍 [{platform_lower}] Auto-crawling comments for {len(platform_results)} posts...")
+                # 🎯 STEP 3: AUTOMATICALLY CRAWL COMMENTS for 2-actor platforms
+                if platform_lower in ['x', 'twitter', 'facebook', 'instagram', 'youtube', 'tiktok'] and results.get(platform_lower):
+                    only_posts = [
+                        r for r in results[platform_lower]
+                        if str(r.get('Type', 'post')).lower() == 'post'
+                    ]
+                    logger.info(f"🔍 [{platform_lower}] Auto-crawling comments for {len(only_posts)} posts...")
                     try:
                         posts_with_comments = await self._crawl_comments_for_posts(
                             platform=platform_lower,
-                            posts=platform_results,
-                            comments_per_post=min(comments_per_post, 50) if platform_lower == 'youtube' else min(comments_per_post, 10)
+                            posts=only_posts,
+                            comments_per_post=effective_comments_per_post(platform_lower, comments_per_post),
                         )
-                        results[platform_lower] = posts_with_comments
-
-                        # Count total comments
-                        total_comments = sum(len(post.get('comments', [])) for post in posts_with_comments)
-                        logger.info(f"✅ [{platform_lower}] Added {total_comments} comments to {len(posts_with_comments)} posts")
+                        results[platform_lower] = self._flatten_post_comment_records(
+                            posts_with_comments,
+                            existing_flat=results[platform_lower],
+                        )
+                        total_comments = sum(
+                            1 for r in results[platform_lower]
+                            if str(r.get('Type', 'post')).lower() == 'comment'
+                        )
+                        logger.info(f"✅ [{platform_lower}] {total_comments} comment rows after Fasa 2")
                     except Exception as e:
                         logger.error(f"❌ [{platform_lower}] Failed to crawl comments: {e}")
                         import traceback
                         logger.error(f"❌ Traceback:\n{traceback.format_exc()}")
-                        # Keep original posts without comments
-                        pass
 
-                # 💾 STEP 4: SAVE results to CSV (posts + comments in ONE file)
-                if platform_results:
+                else:
+                    results[platform_lower] = flatten_crawl_records(results.get(platform_lower, []))
+
+                # 💾 STEP 4: SAVE flattened results
+                if results.get(platform_lower):
                     self._save_results(platform_lower, query, results[platform_lower])
 
             return results
@@ -2446,25 +2507,28 @@ class SimpleApifyAdapter:
                 logger.error(f"❌ Traceback:\n{traceback.format_exc()}")
                 raise
 
-            # 🎯 STEP 3: Count results (comments already crawled in Phase 1)
-            final_results = posts_results
+            # 🎯 STEP 3: Flatten + count results (comments attached in Phase 1)
+            final_results: Dict[str, List[Dict]] = {}
             total_posts = 0
             total_comments = 0
 
-            logger.info(f"📊 Phase 2: Counting results from {len(posts_results)} platforms...")
-            for platform, posts in posts_results.items():
-                if not posts:
+            logger.info(f"📊 Phase 2: Flattening results from {len(posts_results)} platforms...")
+            for platform, records in posts_results.items():
+                if not records:
                     logger.warning(f"⚠️ No posts found for {platform}")
                     continue
 
-                # Count posts and comments
-                total_posts += len(posts)
-                total_comments += sum(len(p.get('comments', [])) for p in posts)
+                flat = flatten_crawl_records(records)
+                final_results[platform] = flat
+                p_count = sum(1 for r in flat if str(r.get('Type', 'post')).lower() == 'post')
+                c_count = sum(1 for r in flat if str(r.get('Type', 'post')).lower() == 'comment')
+                total_posts += p_count
+                total_comments += c_count
 
-                logger.info(f"✅ [{platform}] {len(posts)} posts with {sum(len(p.get('comments', [])) for p in posts)} comments")
+                logger.info(f"✅ [{platform}] {p_count} posts + {c_count} comments = {len(flat)} rows")
 
-                # 💾 SAVE posts + comments in ONE file (after comments are attached)
-                self._save_results(platform, query, posts)
+                # 💾 SAVE flattened rows (idempotent — already flat)
+                self._save_results(platform, query, flat)
 
             return {
                 "strategy": strategy,
@@ -2504,13 +2568,23 @@ class SimpleApifyAdapter:
                 logger.warning(f"⚠️ Comments crawling not yet implemented for {platform}")
                 return posts
 
+            # Only attach comments to post rows (ignore already-flat comment rows)
+            post_records = [
+                p for p in posts
+                if str(p.get('Type', 'post')).lower() == 'post'
+            ]
+            if not post_records:
+                post_records = posts
+
             # X/Twitter: prioritize high-engagement posts for reply crawl (profile runs = many tweets)
             if platform in ['x', 'twitter']:
-                posts = sorted(
-                    posts,
+                post_records = sorted(
+                    post_records,
                     key=lambda p: float(p.get('comments_count') or p.get('replyCount') or 0),
                     reverse=True,
                 )
+
+            posts = post_records
 
             # Get the comments actor for this platform
             actor_id = self.comments_actor_map.get(platform)
@@ -2592,7 +2666,7 @@ class SimpleApifyAdapter:
             if platform in ['x', 'twitter']:
                 # X replies actor (5 URLs per call) — top engagement posts only
                 X_BATCH_SIZE = 5
-                X_MAX_URLS = 40  # 8 batches × 5 URLs (profile crawl returns thousands of tweets)
+                X_MAX_URLS = fasa2_post_cap('x', len(post_urls))
                 target_urls = post_urls[:X_MAX_URLS]
                 num_batches = (len(target_urls) + X_BATCH_SIZE - 1) // X_BATCH_SIZE
                 logger.info(
@@ -2620,8 +2694,9 @@ class SimpleApifyAdapter:
                         logger.error(f"❌ X replies batch {batch_idx + 1} failed: {be}")
                         continue
             elif platform == 'facebook':
-                # Facebook comments actor — crawl all posts with URLs (cap at 15 for timeout)
-                fb_post_urls = post_urls[:15]
+                # Facebook comments actor — crawl top posts by URL (dynamic cap)
+                fb_cap = fasa2_post_cap('facebook', len(post_urls))
+                fb_post_urls = post_urls[:fb_cap]
                 run_input = {
                     "startUrls": [{"url": url} for url in fb_post_urls],
                     "maxComments": comments_per_post,
@@ -2645,7 +2720,7 @@ class SimpleApifyAdapter:
                 # Instagram comments actor (apify/instagram-comment-scraper)
                 # NOTE: The actor does NOT return parent post URL in output, so we must track batches manually
                 IG_BATCH_SIZE = 10
-                IG_MAX_POSTS = 50  # crawl comments for up to 50 posts
+                IG_MAX_POSTS = fasa2_post_cap('instagram', len(post_urls))
                 target_urls = post_urls[:IG_MAX_POSTS]
 
                 num_batches = (len(target_urls) + IG_BATCH_SIZE - 1) // IG_BATCH_SIZE
@@ -3670,9 +3745,10 @@ class SimpleApifyAdapter:
                 all_results[platform] = await self._enrich_with_comments_if_sparse(
                     platform=platform,
                     records=all_results[platform],
-                    comments_per_post=min(max_comments, cfg['cap']),
+                    comments_per_post=effective_comments_per_post(platform, min(max_comments, cfg['cap'])),
                     target_ratio=cfg['ratio'],
                 )
+                all_results[platform] = flatten_crawl_records(all_results[platform])
 
         total = sum(len(v) for v in all_results.values())
         total_posts = sum(
