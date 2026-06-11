@@ -12,13 +12,17 @@ ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT / "data/projects/political/pas_break_2026"
 MASTER_DIR = PROJECT / "master"
 
+import sys
+sys.path.insert(0, str(ROOT))
+
 EVENT_START = pd.Timestamp("2026-06-09", tz="UTC")
 EVENT_END = pd.Timestamp("2026-06-11 23:59:59", tz="UTC")
 
 MASTER_COLS = [
     "Platform", "Type", "ID", "Text", "URL", "Parent_Post_URL", "Parent_Post_ID",
     "Sentiment", "Date", "likes", "shares", "comments_count", "views",
-    "sentiment_score", "total_engagement", "crawl_source",
+    "sentiment_score", "sentiment_label", "sentiment_confidence", "emotion_primary",
+    "total_engagement", "crawl_source",
     "mentions_pas", "mentions_bersatu", "narrative_split",
 ]
 
@@ -48,23 +52,46 @@ def align(df: pd.DataFrame, crawl_source: str | None) -> pd.DataFrame:
         df["crawl_source"] = "unknown"
     df["Text"] = df.get("Text", df.get("text", "")).fillna("").astype(str)
     df["Platform"] = df["Platform"].astype(str).str.lower()
+    if "sentiment_label" in df.columns and "Sentiment" in df.columns:
+        empty_sent = df["Sentiment"].fillna("").astype(str).str.strip().eq("")
+        df.loc[empty_sent, "Sentiment"] = df.loc[empty_sent, "sentiment_label"]
+    elif "sentiment_label" in df.columns and "Sentiment" not in df.columns:
+        df["Sentiment"] = df["sentiment_label"]
     for col in MASTER_COLS:
         if col not in df.columns:
-            df[col] = "" if col not in ("likes", "shares", "comments_count", "views", "sentiment_score", "total_engagement", "mentions_pas", "mentions_bersatu", "narrative_split") else 0
+            df[col] = "" if col not in ("likes", "shares", "comments_count", "views", "sentiment_score", "sentiment_confidence", "total_engagement", "mentions_pas", "mentions_bersatu", "narrative_split") else 0
     return df[MASTER_COLS]
 
 
-def dedupe(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    df["_key"] = (
-        df["Platform"].astype(str).str.lower() + "|"
-        + df["URL"].fillna("").astype(str) + "|"
-        + df["Text"].fillna("").astype(str).str[:120]
+def _dedupe_key(df: pd.DataFrame) -> pd.Series:
+    """Platform-scoped keys — avoid cross-platform ID collisions."""
+    pid = df["ID"].fillna("").astype(str)
+    has_id = pid.str.len() > 0
+    url_key = df["URL"].fillna("").astype(str)
+    text_key = df["Text"].fillna("").astype(str).str[:120]
+    parent = (
+        df["Parent_Post_ID"].fillna("").astype(str)
+        if "Parent_Post_ID" in df.columns
+        else pd.Series([""] * len(df), index=df.index)
     )
-    before = len(df)
-    out = df.drop_duplicates(subset=["_key"], keep="first").drop(columns=["_key"])
-    print(f"  Dedup: {before:,} → {len(out):,} (−{before - len(out):,})")
-    return out
+    return (
+        df["Platform"].astype(str).str.lower() + "|"
+        + df["Type"].fillna("post").astype(str).str.lower() + "|"
+        + pid.where(has_id, url_key + "|" + text_key + "|" + parent)
+    )
+
+
+def dedupe_append(base: pd.DataFrame, new: pd.DataFrame) -> pd.DataFrame:
+    base = base.copy()
+    new = new.copy()
+    base["_key"] = _dedupe_key(base)
+    existing = set(base["_key"])
+    new["_key"] = _dedupe_key(new)
+    before_new = len(new)
+    new_unique = new[~new["_key"].isin(existing)].drop(columns=["_key"])
+    base = base.drop(columns=["_key"])
+    print(f"  New rows: {before_new:,} → {len(new_unique):,} unique (+{len(new_unique):,} to master)")
+    return pd.concat([base, new_unique], ignore_index=True)
 
 
 def platform_summary(df: pd.DataFrame) -> dict:
@@ -93,9 +120,7 @@ def main():
         print(f"📥 Adding: {p.name} ({source})")
         chunk = pd.read_csv(p, low_memory=False)
         chunk = align(chunk, source)
-        merged = pd.concat([merged, chunk], ignore_index=True)
-
-    merged = dedupe(merged)
+        merged = dedupe_append(merged, chunk)
     merged = add_flags(merged)
 
     dates = parse_dates(merged["Date"])

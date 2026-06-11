@@ -2757,6 +2757,7 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
     logger.info("📂 Phase 3: Loading platform data...")
     update_progress("sentiment_analysis", f"Running sentiment & emotion analysis on collected data...", len(request.platforms))
     platform_data = {}
+    session_analyzed_files: Dict[str, Path] = {}
 
     for platform in request.platforms:
         logger.info(f"📱 Collecting data from {platform}...")
@@ -2765,6 +2766,10 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
         # Use real-time data if available, otherwise load from files
         if platform in real_time_data:
             logger.info(f"✅ Using real-time crawled data for {platform}")
+
+            df = None
+            processed_insights: Dict[str, Any] = {"error": "Processing did not run"}
+            analyzed_filepath: Optional[Path] = None
 
             try:
                 # 📂 STEP 1: Build DataFrame — merge ALL keyword crawl files from this session
@@ -2813,6 +2818,7 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
 
                     # Save DataFrame with all sentiment/emotion columns
                     df.to_csv(analyzed_filepath, index=False, encoding='utf-8')
+                    session_analyzed_files[platform] = analyzed_filepath
                     logger.info(f"💾 ANALYZED DATA saved: {analyzed_filepath}")
                     logger.info(f"💾 Saved {len(df)} rows with {len(df.columns)} columns")
                     logger.info(f"📊 This includes sentiment/emotion analysis for all posts and comments")
@@ -2833,14 +2839,11 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                 logger.exception(e)  # Print full traceback
                 processed_insights = {"error": str(e)}
 
-            # Convert real-time data to the expected format.
-            # Prefer the analyzed DataFrame (posts + comments + sentiment + emotion) so that
-            # the combined CSV downstream contains every row with sentiment/emotion columns.
-            try:
-                analyzed_records = df.to_dict(orient="records") if isinstance(df, pd.DataFrame) else None
-            except Exception:
-                analyzed_records = None
-            data_payload = analyzed_records if analyzed_records else real_time_data[platform]
+            # Prefer the analyzed DataFrame so combined/project CSVs include sentiment + emotion.
+            if isinstance(df, pd.DataFrame):
+                data_payload = df.to_dict(orient="records")
+            else:
+                data_payload = real_time_data.get(platform, [])
             data = {
                 "data_points": len(data_payload),
                 "data": data_payload,
@@ -3008,7 +3011,6 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
     # Generate sentiment trends analysis
     sentiment_trends = None
     if all_data_for_trends:
-        import pandas as pd
         try:
             # Create DataFrame from all collected data
             df = pd.DataFrame(all_data_for_trends)
@@ -3292,9 +3294,22 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                             prefix = proj.get("master_prefix", request.project_id)
                             is_news = set(p.lower() for p in request.platforms) <= {"news", "google"}
                             label = f"{prefix}_{'News' if is_news else 'Social'}"
+                            # Promote analyzed export when available (single-platform or combined w/ sentiment)
+                            promote_analyzed: Optional[Path] = None
+                            if "sentiment_label" in combined_df.columns:
+                                promote_analyzed = combined_filepath
+                            elif len(session_analyzed_files) == 1:
+                                promote_analyzed = next(iter(session_analyzed_files.values()))
+                            elif len(session_analyzed_files) > 1:
+                                merged_analyzed = combined_df.copy()
+                                promote_analyzed = combined_dir / combined_filename.replace(
+                                    "Combined_", "Combined_Analyzed_"
+                                )
+                                merged_analyzed.to_csv(promote_analyzed, index=False, encoding="utf-8")
                             project_path = promote_combined_to_project(
                                 request.project_id,
                                 combined_filepath,
+                                analyzed_filepath=promote_analyzed,
                                 crawl_label=label,
                                 platforms=request.platforms,
                                 query=request.query,

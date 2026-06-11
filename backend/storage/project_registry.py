@@ -94,6 +94,7 @@ def promote_combined_to_project(
     project_id: str,
     combined_filepath: Path,
     *,
+    analyzed_filepath: Optional[Path] = None,
     crawl_label: str = "crawl",
     platforms: Optional[List[str]] = None,
     query: str = "",
@@ -101,19 +102,25 @@ def promote_combined_to_project(
     row_count: int = 0,
     copy_to_master: bool = False,
 ) -> Path:
-    """Copy combined CSV into project crawls/ and update metadata."""
+    """Copy crawl CSV into project crawls/ and update metadata.
+
+    Prefers analyzed_filepath (sentiment + emotion) when provided; otherwise
+    falls back to combined_filepath.
+    """
     dirs = ensure_project_dirs(project_id)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     label = _slug(crawl_label or "crawl")
     dest_name = f"{label}_{ts}.csv"
     dest = dirs["crawls"] / dest_name
-    shutil.copy2(combined_filepath, dest)
+    source = analyzed_filepath if analyzed_filepath and analyzed_filepath.exists() else combined_filepath
+    shutil.copy2(source, dest)
 
     meta = load_metadata(project_id)
     entry = {
         "id": f"{label}_{ts}",
         "file": f"crawls/{dest_name}",
         "source_combined": str(combined_filepath),
+        "source_analyzed": str(analyzed_filepath) if analyzed_filepath else None,
         "platforms": platforms or [],
         "query": query[:200],
         "date_range": date_range,
@@ -125,7 +132,7 @@ def promote_combined_to_project(
     if copy_to_master:
         master_name = f"{_slug(get_project(project_id).get('master_prefix', project_id))}_Master_{ts}.csv"
         master_path = dirs["master"] / master_name
-        shutil.copy2(combined_filepath, master_path)
+        shutil.copy2(source, master_path)
         meta.setdefault("masters", []).append({
             "file": f"master/{master_name}",
             "rows": row_count,
