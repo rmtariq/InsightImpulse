@@ -1,0 +1,11 @@
+# Fasa 1 — Facebook Part 3 (5 URLs)
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Generated: 2026-06-11 08:33
+# Count: 5
+# FB profil susah — crawl 5 URL pada satu masa
+
+https://www.facebook.com/GRSSabah
+https://www.facebook.com/abangjohariopeng
+https://www.facebook.com/amanahofficial
+https://www.facebook.com/mohamadsabuofficial
+https://www.facebook.com/warisansabah

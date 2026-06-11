@@ -1,0 +1,38 @@
+# Fasa 1 — Facebook — ALL leaders (32 URLs)
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Generated: 2026-06-11 08:33
+# Count: 32
+# Direct URL Crawl | 1 platform only | Dataset 1500 | Last 7 Days
+
+https://www.facebook.com/DrAhmadSamsuri
+https://www.facebook.com/GRSSabah
+https://www.facebook.com/KeadilanRakyat
+https://www.facebook.com/N24MuhammadSanusiMdNor
+https://www.facebook.com/NajibRazakOfficial
+https://www.facebook.com/abangjohariopeng
+https://www.facebook.com/abdulhadiawang
+https://www.facebook.com/ahmadzahidofficial
+https://www.facebook.com/amanahofficial
+https://www.facebook.com/anthonyloke
+https://www.facebook.com/anwaribrahimofficial
+https://www.facebook.com/dapmalaysia
+https://www.facebook.com/gobindsinghdeo
+https://www.facebook.com/hamzahzainudin
+https://www.facebook.com/hannahyeoh
+https://www.facebook.com/ishamjalil
+https://www.facebook.com/khairy
+https://www.facebook.com/limguaneng
+https://www.facebook.com/mahathirmohamad
+https://www.facebook.com/mcamalaysia
+https://www.facebook.com/micmalaysia
+https://www.facebook.com/mohamadsabuofficial
+https://www.facebook.com/ngakorming
+https://www.facebook.com/partimuda
+https://www.facebook.com/paspusat
+https://www.facebook.com/pribumibersatuofficial
+https://www.facebook.com/rafiziramli.keadilan
+https://www.facebook.com/syedsaddiqsyedabdulrahman
+https://www.facebook.com/ts.muhyiddin
+https://www.facebook.com/tuanibrahimtuanman
+https://www.facebook.com/umno.org.my
+https://www.facebook.com/warisansabah

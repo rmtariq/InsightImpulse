@@ -1,0 +1,13 @@
+# Fasa 1 — Facebook Part 6 (5 URLs) — PAS/PN split key voices
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Updated: 2026-06-11
+# Count: 5
+# Direct URL Crawl | Facebook ONLY | Dataset 500-800 | Last 7 Days | Project: pas_break_2026
+#
+# Dr Sam = Ahmad Samsuri Mokhtar (Naib Presiden PAS / MB Terengganu) — sudah termasuk baris 1
+
+https://www.facebook.com/DrAhmadSamsuri
+https://www.facebook.com/N24MuhammadSanusiMdNor
+https://www.facebook.com/abdulhadiawang
+https://www.facebook.com/hamzahzainudin
+https://www.facebook.com/ts.muhyiddin

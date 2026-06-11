@@ -1,0 +1,22 @@
+# Fasa 1B — TikTok — Media & Berita (14 URLs)
+# Generated: 2026-06-11 15:52
+# Count: 17
+# Direct URL Crawl | TikTok only | Dataset 1200-1500 | Last 7 Days
+#
+https://www.tiktok.com/@malaysiagazette
+https://www.tiktok.com/@sinarharianonline
+https://www.tiktok.com/@501awani
+https://www.tiktok.com/@astroaudionews
+https://www.tiktok.com/@bernamaradioofficial
+https://www.tiktok.com/@beritapertiwi
+https://www.tiktok.com/@berita.ks
+https://www.tiktok.com/@utusantvofficial
+https://www.tiktok.com/@malaysiakini
+https://www.tiktok.com/@thestaronline
+https://www.tiktok.com/@ohmymedia.cc
+https://www.tiktok.com/@metropolitan.id
+https://www.tiktok.com/@pedomanrakyat.com
+https://www.tiktok.com/@nadi.rakyat.official
+https://www.tiktok.com/@netraldotcodotid2
+https://www.tiktok.com/@radarindomedia
+https://www.tiktok.com/@seribulannews

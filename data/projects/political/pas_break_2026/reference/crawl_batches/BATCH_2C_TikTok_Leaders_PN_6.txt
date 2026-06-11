@@ -1,0 +1,11 @@
+# Fasa 1B — TikTok — Bersatu/PN/PAS Negeri extra (6 URLs)
+# Generated: 2026-06-11 15:52
+# Count: 6
+# Direct URL Crawl | TikTok only | Dataset 1200-1500 | Last 7 Days
+#
+https://www.tiktok.com/@muhyiddinyassin_tsmy
+https://www.tiktok.com/@abahkitemuhyiddin
+https://www.tiktok.com/@officialpemudarusila
+https://www.tiktok.com/@perikatannasionalgerik
+https://www.tiktok.com/@pas_johor_bahru
+https://www.tiktok.com/@pasjohor

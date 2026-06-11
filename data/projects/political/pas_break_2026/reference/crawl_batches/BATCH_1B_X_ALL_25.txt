@@ -1,0 +1,31 @@
+# Fasa 1 — X / Twitter — ALL leaders (25 URLs)
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Generated: 2026-06-11 08:33
+# Count: 25
+# Direct URL Crawl | 1 platform only | Dataset 1500 | Last 7 Days
+
+https://x.com/AbangJohari
+https://x.com/DrAhmadSamsuri
+https://x.com/DrZahidHamidi
+https://x.com/GRSSabah
+https://x.com/GobindSinghDeo
+https://x.com/MuhyiddinYassin
+https://x.com/PASPusat
+https://x.com/SanusiMNor
+https://x.com/SyedSaddiq
+https://x.com/anwaribrahim
+https://x.com/bersatu_OFFICIAL
+https://x.com/chedetofficial
+https://x.com/dapmalaysia
+https://x.com/guanenglim
+https://x.com/hannahyeoh
+https://x.com/khairykj
+https://x.com/mcamalaysia
+https://x.com/micmalaysia
+https://x.com/najibrazak
+https://x.com/ngakorming
+https://x.com/partimuda
+https://x.com/rafiziramli
+https://x.com/titm_official
+https://x.com/umnoonline
+https://x.com/warisansabah

@@ -1,0 +1,11 @@
+# Fasa 1 — Facebook Part 1 (5 URLs)
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Generated: 2026-06-11 08:33
+# Count: 5
+# FB profil susah — crawl 5 URL pada satu masa
+
+https://www.facebook.com/NajibRazakOfficial
+https://www.facebook.com/ahmadzahidofficial
+https://www.facebook.com/ishamjalil
+https://www.facebook.com/mcamalaysia
+https://www.facebook.com/micmalaysia

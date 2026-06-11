@@ -1,0 +1,8 @@
+# Fasa 1 — Facebook Part 7 (2 URLs)
+# Source: Politik_Malaysia_SocMed_2026_v3
+# Generated: 2026-06-11 08:33
+# Count: 2
+# FB profil susah — crawl 5 URL pada satu masa
+
+https://www.facebook.com/paspusat
+https://www.facebook.com/tuanibrahimtuanman

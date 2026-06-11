@@ -1,0 +1,30 @@
+# Fasa 1B-RETRY — TikTok — Missing profiles from 155933 timeout crawl
+# Generated: 2026-06-11 16:12
+# Count: 24 (24 profiles missed when 34-URL batch timed out)
+# Direct URL Crawl | TikTok only | Dataset 400-600 | Last 7 Days
+# RESTART backend after timeout fix before running
+#
+https://www.tiktok.com/@perikatannasionalgerik
+https://www.tiktok.com/@pas_johor_bahru
+https://www.tiktok.com/@malaysiagazette
+https://www.tiktok.com/@sinarharianonline
+https://www.tiktok.com/@astroaudionews
+https://www.tiktok.com/@bernamaradioofficial
+https://www.tiktok.com/@beritapertiwi
+https://www.tiktok.com/@berita.ks
+https://www.tiktok.com/@utusantvofficial
+https://www.tiktok.com/@malaysiakini
+https://www.tiktok.com/@thestaronline
+https://www.tiktok.com/@ohmymedia.cc
+https://www.tiktok.com/@metropolitan.id
+https://www.tiktok.com/@pedomanrakyat.com
+https://www.tiktok.com/@nadi.rakyat.official
+https://www.tiktok.com/@netraldotcodotid2
+https://www.tiktok.com/@radarindomedia
+https://www.tiktok.com/@seribulannews
+https://www.tiktok.com/@inderashafri
+https://www.tiktok.com/@hishamuddinrais
+https://www.tiktok.com/@yen_editor_
+https://www.tiktok.com/@therakyatinsight
+https://www.tiktok.com/@mimawmo
+https://www.tiktok.com/@mistis_misteri

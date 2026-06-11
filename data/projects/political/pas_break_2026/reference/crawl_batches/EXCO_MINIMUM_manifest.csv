@@ -1,0 +1,36 @@
+run,order,platform,label,handle_or_page,url,bloc,exco_relevance
+1,1,x,Abang Johari,AbangJohari,https://x.com/AbangJohari,GPS,PM Sarawak
+1,2,x,Dr Sam (Ahmad Samsuri),DrAhmadSamsuri,https://x.com/DrAhmadSamsuri,PAS,PN Naib Presiden
+1,3,x,Ahmad Zahid,DrZahidHamidi,https://x.com/DrZahidHamidi,UMNO,BN
+1,4,x,GRS Sabah,GRSSabah,https://x.com/GRSSabah,GRS,Sabah
+1,5,x,Gobind Singh Deo,GobindSinghDeo,https://x.com/GobindSinghDeo,DAP,PH
+1,6,x,Muhyiddin Yassin,MuhyiddinYassin,https://x.com/MuhyiddinYassin,Bersatu,PN Presiden
+1,7,x,PAS Pusat,PASPusat,https://x.com/PASPusat,PAS,Rasmi split
+1,8,x,Sanusi Md Nor,SanusiMNor,https://x.com/SanusiMNor,PAS,MB Kedah
+1,9,x,Syed Saddiq,SyedSaddiq,https://x.com/SyedSaddiq,MUDA,Bebas
+1,10,x,Anwar Ibrahim,anwaribrahim,https://x.com/anwaribrahim,PH,PM
+1,11,x,Bersatu Official,bersatu_OFFICIAL,https://x.com/bersatu_OFFICIAL,Bersatu,Rasmi split
+1,12,x,Dr Mahathir,chedetofficial,https://x.com/chedetofficial,Bebas,Pejuang
+1,13,x,DAP Malaysia,dapmalaysia,https://x.com/dapmalaysia,DAP,PH
+1,14,x,Lim Guan Eng,guanenglim,https://x.com/guanenglim,DAP,PH
+1,15,x,Hannah Yeoh,hannahyeoh,https://x.com/hannahyeoh,DAP,PH
+1,16,x,Khairy Jamaluddin,khairykj,https://x.com/khairykj,Bebas,Ex-UMNO
+1,17,x,MCA Malaysia,mcamalaysia,https://x.com/mcamalaysia,MCA,BN
+1,18,x,MIC Malaysia,micmalaysia,https://x.com/micmalaysia,MIC,BN
+1,19,x,Najib Razak,najibrazak,https://x.com/najibrazak,UMNO,BN
+1,20,x,Nga Kor Ming,ngakorming,https://x.com/ngakorming,DAP,PH
+1,21,x,Parti Muda,partimuda,https://x.com/partimuda,MUDA,Bebas
+1,22,x,Rafizi Ramli,rafiziramli,https://x.com/rafiziramli,PKR,PH
+1,23,x,TITM,titm_official,https://x.com/titm_official,Bebas,
+1,24,x,UMNO Online,umnoonline,https://x.com/umnoonline,UMNO,BN
+1,25,x,Warisan Sabah,warisansabah,https://x.com/warisansabah,Warisan,Sabah
+2,1,facebook,Keadilan Rakyat,KeadilanRakyat,https://www.facebook.com/KeadilanRakyat,PKR,PH rasmi
+2,2,facebook,Anwar Ibrahim,anwaribrahimofficial,https://www.facebook.com/anwaribrahimofficial,PH,PM
+2,3,facebook,Nga Kor Ming,ngakorming,https://www.facebook.com/ngakorming,DAP,PH
+2,4,facebook,Bersatu Official,pribumibersatuofficial,https://www.facebook.com/pribumibersatuofficial,Bersatu,PN rasmi
+2,5,facebook,Rafizi Ramli,rafiziramli.keadilan,https://www.facebook.com/rafiziramli.keadilan,PKR,PH
+3,1,facebook,MB Negeri Sembilan,aminuddinharun,https://www.facebook.com/aminuddinharun,PH,EXCO NS
+3,2,facebook,DAP NS,dapnegerisembilan,https://www.facebook.com/dapnegerisembilan,DAP,EXCO NS
+3,3,facebook,PAS Negeri 9,pasnegeri9,https://www.facebook.com/pasnegeri9,PAS,EXCO NS
+3,4,facebook,Pemuda PAS NS,pemudapasns,https://www.facebook.com/pemudapasns,PAS,EXCO NS
+3,5,facebook,UMNO NS,umnonegerisembilan,https://www.facebook.com/umnonegerisembilan,UMNO,EXCO NS

@@ -1,0 +1,51 @@
+# EXCO CRAWL — Ikut urutan BATCH (senang)
+# Project: pas_break_2026
+#
+# SETTING (setiap run — sama):
+#   Mod: Direct URL Crawl
+#   Platform: SATU SAHAJA (match jadual)
+#   Dataset: 500–800
+#   Date: Last 7 Days
+#
+# SUDAH DONE — jangan ulang:
+#   TikTok → master/PAS_Break_Master_Social_TikTokFB_*.csv
+#   FB Part 6 → pas_break_social_20260611_170351.csv (Hadi, Sanusi, Muhyiddin, Dr Sam)
+#
+# =============================================================================
+# URUTAN CRAWL (ikut jadual EXCO)
+# =============================================================================
+#
+# | # | Paste fail ini                          | Platform      |
+# |---|-----------------------------------------|---------------|
+# | 1 | BATCH_1B_X_CLEAN_paste.txt              | X only        |
+# | 2 | BATCH_1E_Facebook_NS_5_CLEAN_paste.txt  | Facebook only |
+# | 3 | BATCH_1C_Facebook_part5_CLEAN_paste.txt | Facebook only |
+# | 4 | BATCH_1D_Instagram_CLEAN_paste.txt      | Instagram only|
+#
+# =============================================================================
+# KENAPA SETIAP RUN
+# =============================================================================
+#
+# 1 — BATCH_1B (25 URL)
+#     Kenyataan rasmi Hadi, Muhyiddin, Sanusi — saluran politik
+#     Fail penuh: BATCH_1B_X_ALL_25.txt
+#
+# 2 — BATCH_1E NS (5 URL)
+#     EXCO Negeri Sembilan: MB, PAS NS, UMNO NS, DAP NS, Pemuda PAS NS
+#     Fail penuh: BATCH_1E_PRN_Negeri_NS_Johor_Melaka.txt (FB pecah 5)
+#
+# 3 — BATCH_1C Part 5 (5 URL)
+#     Balance PH vs PN: Anwar, Keadilan, Bersatu official, Rafizi
+#     Fail penuh: BATCH_1C_Facebook_part5_of_7.txt
+#
+# 4 — BATCH_1D (13 URL)
+#     Pemimpin + engagement visual
+#     Fail penuh: BATCH_1D_Instagram_ALL_13.txt
+#
+# =============================================================================
+# OPTIONAL (jika masa ada — Johor/Melaka dari 1E)
+# =============================================================================
+#   BATCH_1E_Facebook_Johor_5_CLEAN_paste.txt   → Facebook only
+#   BATCH_1E_Facebook_Melaka_3_CLEAN_paste.txt  → Facebook only
+#
+# SELEPAS SIAP → beri path CSV → merge + dashboard EXCO
