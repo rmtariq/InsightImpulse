@@ -1,0 +1,4 @@
+id,created_at,tarikh_lawatan,state,kod_dun,dun_name,pdm,pelapor_id,pelapor_nama,jenis_aktiviti,rumah_dilawati,cula_baharu,cula_bulan,cula_condong,cula_atas_pagar,cula_dacing,catatan,status,reviewer,reviewed_at,reviewer_note,flags
+ae8afcf9f8bc43c5,2026-06-17 09:33:25,2026-06-17,N9,N25,Paroi,Paroi A,SV-001,Ahmad,door_to_door,20,12,3,5,2,2,,verified,PDM-Paroi,2026-06-17 09:33:25,OK,
+badc0a2845994f5b,2026-06-17 10:14:37,2026-06-17,N9,N25,Paroi,Paroi A,HQ-N9-TEST,,door_to_door,20,12,3,5,2,2,WhatsApp batch,verified,HQ-N9-TEST,2026-06-17 10:14:37,Batch upload by HQ-N9-TEST,
+8166b6ec0a0f49f2,2026-06-17 10:14:37,2026-06-17,N9,N05,Serting,Serting,HQ-N9-TEST,,door_to_door,15,8,0,0,0,0,WhatsApp batch,verified,HQ-N9-TEST,2026-06-17 10:14:37,Batch upload by HQ-N9-TEST,

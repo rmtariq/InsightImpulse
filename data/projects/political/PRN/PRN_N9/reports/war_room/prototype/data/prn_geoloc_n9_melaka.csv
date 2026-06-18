@@ -1,0 +1,65 @@
+state,stateLabel,code,name,proxyLocation,lat,lon,confidence,note
+N9,Negeri Sembilan,N.01,Chennah,Kampung Chennah,3.088731,102.078255,Sederhana,Pekan/kampung teras
+N9,Negeri Sembilan,N.02,Pertang,Simpang Pertang,2.968735,102.261607,Sederhana,Selari pusat Jelebu
+N9,Negeri Sembilan,N.03,Sungai Lui,Sungai Lui,3.0833,102.3718,Sederhana,Proksi kawasan teras
+N9,Negeri Sembilan,N.04,Klawang,Kuala Klawang,2.924371,102.059155,Sederhana,Pusat pentadbiran Jelebu
+N9,Negeri Sembilan,N.05,Serting,Bandar Baru Serting,2.90625,102.4,Tinggi,MyGeoName rasmi
+N9,Negeri Sembilan,N.06,Palong,Pusat Bandar Palong,2.9001,102.5625,Sederhana,Gugusan FELDA Palong
+N9,Negeri Sembilan,N.07,Jeram Padang,Rompin,2.694524,102.526394,Sederhana,Pusat bandar proksi
+N9,Negeri Sembilan,N.08,Bahau,Bahau,2.8079,102.4049,Sederhana,Pusat bandar
+N9,Negeri Sembilan,N.09,Lenggeng,Lenggeng,2.8558,101.9424,Sederhana,Pusat mukim/pekan
+N9,Negeri Sembilan,N.10,Nilai,Bandar Baru Nilai,2.824445,101.783717,Sederhana,Proksi pusat kerusi
+N9,Negeri Sembilan,N.11,Lobak,Kampung Lobak,2.72832,101.929189,Sederhana,Kawasan teras Lobak
+N9,Negeri Sembilan,N.12,Temiang,Jalan Temiang,2.73635,101.93892,Sederhana,Koridor Temiang
+N9,Negeri Sembilan,N.13,Sikamat,Sikamat,2.749922,101.974123,Sederhana,Pusat komuniti Sikamat
+N9,Negeri Sembilan,N.14,Ampangan,Bandar Baru Ampangan,2.7275,101.964889,Tinggi,MyGeoName rasmi
+N9,Negeri Sembilan,N.15,Juasseh,Juasseh,2.784796,102.299869,Sederhana,Pekan Juasseh
+N9,Negeri Sembilan,N.16,Seri Menanti,Seri Menanti,2.697464,102.158499,Sederhana,Pusat adat/istana
+N9,Negeri Sembilan,N.17,Senaling,Pekan Senaling,2.705733,102.252953,Sederhana,Proksi pekan
+N9,Negeri Sembilan,N.18,Pilah,Kuala Pilah,2.7389,102.2487,Sederhana,Pusat bandar
+N9,Negeri Sembilan,N.19,Johol,Johol,2.640697,102.30142,Sederhana,Pekan Johol
+N9,Negeri Sembilan,N.20,Labu,Labu,2.75416,101.82511,Sederhana,Mukim/komuter Labu
+N9,Negeri Sembilan,N.21,Bukit Kepayang,Taman Bukit Kepayang,2.715371,101.90668,Sederhana,Kawasan teras
+N9,Negeri Sembilan,N.22,Rahang,Rahang,2.71099,101.95212,Sederhana,Koridor Rahang
+N9,Negeri Sembilan,N.23,Mambau,Mambau,2.668296,101.916265,Sederhana,Pekan Mambau
+N9,Negeri Sembilan,N.24,Seremban Jaya,Taman Seremban Jaya,2.683,101.97,Rendah,Semak semula sebelum guna
+N9,Negeri Sembilan,N.25,Paroi,Senawang,2.685886,101.983315,Sederhana,Proksi Paroi-Senawang
+N9,Negeri Sembilan,N.26,Chembong,Rembau/Chembong,2.590525,102.092987,Rendah,Guna pusat Rembau sementara
+N9,Negeri Sembilan,N.27,Rantau,Rantau,2.588941,101.963676,Sederhana,Pusat bandar
+N9,Negeri Sembilan,N.28,Kota,Kota,2.51265,102.14456,Sederhana,Mukim/pekan Kota
+N9,Negeri Sembilan,N.29,Chuah,Bukit Pelandok,2.641,101.7561,Sederhana,Guna pusat Bukit Pelandok
+N9,Negeri Sembilan,N.30,Lukut,Lukut,2.578032,101.840258,Sederhana,Pekan Lukut
+N9,Negeri Sembilan,N.31,Bagan Pinang,Si Rusa/Teluk Kemang,2.44569,101.859148,Sederhana,Pusat pesisir proksi
+N9,Negeri Sembilan,N.32,Linggi,Linggi,2.486559,102.009948,Sederhana,Pekan Linggi
+N9,Negeri Sembilan,N.33,Sri Tanjung,Port Dickson,2.52254,101.796293,Sederhana,Guna pusat bandar PD
+N9,Negeri Sembilan,N.34,Gemas,Gemas,2.581593,102.612488,Sederhana,Pusat bandar
+N9,Negeri Sembilan,N.35,Gemencheh,Gemencheh,2.532414,102.401812,Sederhana,Pusat pekan
+N9,Negeri Sembilan,N.36,Repah,Tampin,2.472971,102.231194,Sederhana,Guna pusat Tampin
+Melaka,Melaka,N.01,Kuala Linggi,Kompleks JAPERUN Kuala Linggi,2.393,102.041,Rendah,Anggaran pusat Kuala Sungai Baru
+Melaka,Melaka,N.02,Tanjung Bidara,Kompleks JAPERUN Tanjung Bidara,2.369,102.033,Rendah,Anggaran Pengkalan Balak/Tanjung Bidara
+Melaka,Melaka,N.03,Ayer Limau,Kompleks JAPERUN Ayer Limau,2.409,102.108,Rendah,Anggaran Lubok China/Ayer Limau
+Melaka,Melaka,N.04,Lendu,Kompleks JAPERUN Lendu,2.352,102.118,Rendah,Anggaran Lendu/Masjid Tanah
+Melaka,Melaka,N.05,Taboh Naning,Kompleks JAPERUN Taboh Naning,2.383,102.209,Rendah,Anggaran Simpang Empat
+Melaka,Melaka,N.06,Rembia,Kompleks JAPERUN Rembia,2.304,102.219,Rendah,Anggaran pusat Rembia
+Melaka,Melaka,N.07,Gadek,Kompleks JAPERUN Gadek,2.317,102.24,Rendah,Anggaran pusat Gadek
+Melaka,Melaka,N.08,Machap Jaya,Kompleks JAPERUN Machap,2.333,102.245,Rendah,Anggaran Machap Jaya
+Melaka,Melaka,N.09,Durian Tunggal,Kompleks JAPERUN Durian Tunggal,2.314,102.321,Rendah,Anggaran pusat Durian Tunggal
+Melaka,Melaka,N.10,Asahan,Kompleks JAPERUN Asahan,2.359,102.446,Rendah,Anggaran pusat Asahan
+Melaka,Melaka,N.11,Sungai Udang,Kompleks JAPERUN Sungai Udang,2.267,102.188,Rendah,Anggaran pusat Sungai Udang
+Melaka,Melaka,N.12,Pantai Kundor,Kompleks JAPERUN Pantai Kundor,2.234,102.157,Rendah,Anggaran Pantai Kundor/Tanjung Kling
+Melaka,Melaka,N.13,Paya Rumput,Kompleks JAPERUN Paya Rumput,2.266,102.241,Rendah,Anggaran Paya Rumput/Cheng
+Melaka,Melaka,N.14,Klebang,Kompleks JAPERUN Klebang,2.221,102.201,Rendah,Anggaran Klebang Kecil
+Melaka,Melaka,N.15,Pengkalan Batu,Kompleks JAPERUN Pengkalan Batu,2.235,102.244,Rendah,Anggaran Bachang/Pengkalan Batu
+Melaka,Melaka,N.16,Ayer Keroh,Kompleks JAPERUN Ayer Keroh,2.268632,102.299989,Sederhana,Berdasarkan koordinat rasmi portal negeri
+Melaka,Melaka,N.17,Bukit Katil,JAPERUN Bukit Katil,2.248,102.286,Rendah,Anggaran pusat Bukit Katil
+Melaka,Melaka,N.18,Ayer Molek,Kompleks JAPERUN Ayer Molek,2.226,102.314,Rendah,Anggaran pusat Ayer Molek
+Melaka,Melaka,N.19,Kesidang,Kompleks JAPERUN Kesidang,2.233,102.248,Rendah,Anggaran Taman Melaka Baru
+Melaka,Melaka,N.20,Kota Laksamana,JAPERUN Kota Laksamana,2.196,102.25,Rendah,Anggaran pusat bandar lama
+Melaka,Melaka,N.21,Duyong,Kompleks JAPERUN Duyong,2.201,102.264,Rendah,Anggaran Duyong/Semabok
+Melaka,Melaka,N.22,Bandar Hilir,Kompleks JAPERUN Bandar Hilir,2.1896,102.2501,Rendah,Anggaran Bandar Hilir
+Melaka,Melaka,N.23,Telok Mas,Kompleks JAPERUN Telok Mas,2.197,102.304,Rendah,Anggaran pusat Telok Mas
+Melaka,Melaka,N.24,Bemban,Kompleks JAPERUN Bemban,2.253,102.401,Rendah,Anggaran pusat Bemban
+Melaka,Melaka,N.25,Rim,Kompleks JAPERUN Rim,2.311,102.431,Rendah,Anggaran Rim/Jasin
+Melaka,Melaka,N.26,Serkam,Kompleks JAPERUN Serkam,2.138,102.378,Rendah,Anggaran pusat Serkam
+Melaka,Melaka,N.27,Merlimau,Kompleks JAPERUN Merlimau,2.144,102.325,Rendah,Anggaran pusat Merlimau
+Melaka,Melaka,N.28,Sungai Rambai,Kompleks JAPERUN Sungai Rambai,2.217,102.487,Rendah,Anggaran pusat Sungai Rambai

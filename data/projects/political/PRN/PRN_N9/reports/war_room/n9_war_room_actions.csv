@@ -1,0 +1,199 @@
+id,kod_dun,kawasan,kategori_pas,action_type,priority,action_text,owner,frequency,trigger_signal,status
+N01_digital_1,N01,Chennah,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N01,1×/minggu,manual,pending
+N01_lapangan_2,N01,Chennah,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N01,selective,manual,pending
+N01_intel_3,N01,Chennah,not_priority,intel,P3,Crawl passive 1×/minggu — N01 Chennah.,Jentera N01,1×/minggu,manual,pending
+N01_intel_4,N01,Chennah,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N01,1×/minggu,manual,pending
+N02_digital_1,N02,Pertang,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N02,1×/minggu,manual,pending
+N02_digital_2,N02,Pertang,tough,digital,P2,Rebut isu Kos sara hidup / ekonomi mikro hanya bila lawan attack.,Jentera N02,1×/minggu,manual,pending
+N02_lapangan_3,N02,Pertang,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N02,selective,manual,pending
+N02_lapangan_4,N02,Pertang,tough,lapangan,P2,Sentuhan akar umbi LBN/Jelebu — 1 program/2 minggu.,Jentera N02,selective,manual,pending
+N02_komunikasi_5,N02,Pertang,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N02,mingguan,manual,pending
+N02_intel_6,N02,Pertang,tough,intel,P2,Monitor passive — crawl 1×/minggu N02 Pertang.,Jentera N02,1×/minggu,manual,pending
+N02_intel_7,N02,Pertang,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N02,1×/minggu,opponent_weak_signal,pending
+N03_digital_1,N03,Sungai Lui,winnable,digital,P1,Micro-content isu Majoriti sempit & Swing Melayu — 4 post/minggu FB + TikTok @calon.,Jentera N03,3–7×/minggu,weekly_schedule,pending
+N03_digital_2,N03,Sungai Lui,winnable,digital,P1,Testimoni pengundi swing (video 60s) — 2/minggu.,Jentera N03,3–7×/minggu,weekly_schedule,pending
+N03_digital_3,N03,Sungai Lui,winnable,digital,P1,Boost post kawasan majoriti ≤999 undi — budget terhad.,Jentera N03,3–7×/minggu,weekly_schedule,pending
+N03_lapangan_4,N03,Sungai Lui,winnable,lapangan,P1,Ceramah 2–3×/minggu — fokus swing voter (target +467 undi).,Jentera N03,2–3×/minggu,manual,pending
+N03_lapangan_5,N03,Sungai Lui,winnable,lapangan,P1,Door-to-door 500 rumah/minggu di zon marginal.,Jentera N03,2–3×/minggu,manual,pending
+N03_lapangan_6,N03,Sungai Lui,winnable,lapangan,P1,Booth pasar malam / pasar pagi — Sabtu & Ahad.,Jentera N03,2–3×/minggu,manual,pending
+N03_komunikasi_7,N03,Sungai Lui,winnable,komunikasi,P1,Frame: perubahan mampu milik — Majoriti sempit vs status quo.,Jentera N03,mingguan,manual,pending
+N03_komunikasi_8,N03,Sungai Lui,winnable,komunikasi,P1,"Highlight majoriti {seat.get('majority', 0):,} — setiap undi kritikal.",Jentera N03,mingguan,manual,pending
+N03_intel_9,N03,Sungai Lui,winnable,intel,P1,Pantau calon lawan (Mohd Nordin Hasim) — socmed & ceramah.,Jentera N03,1×/minggu,manual,pending
+N03_intel_10,N03,Sungai Lui,winnable,intel,P1,Track risiko 3 penjuru — alert jika PN clash atau PH-BN straight fight.,Jentera N03,1×/minggu,manual,pending
+N04_digital_1,N04,Klawang,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N04,1×/minggu,manual,pending
+N04_lapangan_2,N04,Klawang,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N04,selective,manual,pending
+N04_intel_3,N04,Klawang,not_priority,intel,P3,Crawl passive 1×/minggu — N04 Klawang.,Jentera N04,1×/minggu,manual,pending
+N04_intel_4,N04,Klawang,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N04,1×/minggu,manual,pending
+N05_digital_1,N05,Serting,defend,digital,P1,Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.,Jentera N05,3–7×/minggu,weekly_schedule,pending
+N05_digital_2,N05,Serting,defend,digital,P1,3 video TikTok/minggu isu tempatan: FELDA/getah.,Jentera N05,3–7×/minggu,weekly_schedule,pending
+N05_digital_3,N05,Serting,defend,digital,P1,Balas komen negatif ≤4 jam; escalate ke war room jika viral >5k views.,Jentera N05,3–7×/minggu,weekly_schedule,pending
+N05_lapangan_4,N05,Serting,defend,lapangan,P1,House-to-house zon pengundi setia (FELDA/LBN) — 2 kali/minggu.,Jentera N05,2–3×/minggu,manual,pending
+N05_lapangan_5,N05,Serting,defend,lapangan,P1,Majlis pengundi setia + transport undi keluar (OKU/warga emas).,Jentera N05,2–3×/minggu,manual,pending
+N05_lapangan_6,N05,Serting,defend,lapangan,P1,Pastikan jentera polling agent confirmed — senarai 100% sebelum penamaan.,Jentera N05,2–3×/minggu,manual,pending
+N05_komunikasi_7,N05,Serting,defend,komunikasi,P1,Mesej utama: kestabilan + penghargaan + FELDA/getah ditangani.,Jentera N05,mingguan,manual,pending
+N05_komunikasi_8,N05,Serting,defend,komunikasi,P1,Counter-narrative split PAS-Bersatu — tekankan kestabilan negeri.,Jentera N05,mingguan,manual,pending
+N05_intel_9,N05,Serting,defend,intel,P1,Crawl keyword: PRN N05 Serting — 2×/hari semasa kempen.,Jentera N05,2×/hari,manual,pending
+N05_intel_10,N05,Serting,defend,intel,P1,Alert bila sentiment negatif >20% atau lawan mula ceramah <5km.,Jentera N05,2×/hari,sentiment_neg_pct > 20,pending
+N06_digital_1,N06,Palong,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N06,1×/minggu,manual,pending
+N06_lapangan_2,N06,Palong,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N06,selective,manual,pending
+N06_intel_3,N06,Palong,not_priority,intel,P3,Crawl passive 1×/minggu — N06 Palong.,Jentera N06,1×/minggu,manual,pending
+N06_intel_4,N06,Palong,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N06,1×/minggu,manual,pending
+N07_digital_1,N07,Jeram Padang,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N07,1×/minggu,manual,pending
+N07_lapangan_2,N07,Jeram Padang,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N07,selective,manual,pending
+N07_intel_3,N07,Jeram Padang,not_priority,intel,P3,Crawl passive 1×/minggu — N07 Jeram Padang.,Jentera N07,1×/minggu,manual,pending
+N07_intel_4,N07,Jeram Padang,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N07,1×/minggu,manual,pending
+N08_digital_1,N08,Bahau,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N08,1×/minggu,manual,pending
+N08_lapangan_2,N08,Bahau,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N08,selective,manual,pending
+N08_intel_3,N08,Bahau,not_priority,intel,P3,Crawl passive 1×/minggu — N08 Bahau.,Jentera N08,1×/minggu,manual,pending
+N08_intel_4,N08,Bahau,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N08,1×/minggu,manual,pending
+N09_digital_1,N09,Lenggeng,winnable,digital,P1,Micro-content isu Bandar Lenggeng & Kos hidup — 4 post/minggu FB + TikTok @calon.,Jentera N09,3–7×/minggu,weekly_schedule,pending
+N09_digital_2,N09,Lenggeng,winnable,digital,P1,Testimoni pengundi swing (video 60s) — 2/minggu.,Jentera N09,3–7×/minggu,weekly_schedule,pending
+N09_digital_3,N09,Lenggeng,winnable,digital,P1,Boost post kawasan majoriti ≤999 undi — budget terhad.,Jentera N09,3–7×/minggu,weekly_schedule,pending
+N09_lapangan_4,N09,Lenggeng,winnable,lapangan,P1,Ceramah 2–3×/minggu — fokus swing voter (target +542 undi).,Jentera N09,2–3×/minggu,manual,pending
+N09_lapangan_5,N09,Lenggeng,winnable,lapangan,P1,Door-to-door 500 rumah/minggu di zon marginal.,Jentera N09,2–3×/minggu,manual,pending
+N09_lapangan_6,N09,Lenggeng,winnable,lapangan,P1,Booth pasar malam / pasar pagi — Sabtu & Ahad.,Jentera N09,2–3×/minggu,manual,pending
+N09_komunikasi_7,N09,Lenggeng,winnable,komunikasi,P1,Frame: perubahan mampu milik — Bandar Lenggeng vs status quo.,Jentera N09,mingguan,manual,pending
+N09_komunikasi_8,N09,Lenggeng,winnable,komunikasi,P1,"Highlight majoriti {seat.get('majority', 0):,} — setiap undi kritikal.",Jentera N09,mingguan,manual,pending
+N09_intel_9,N09,Lenggeng,winnable,intel,P1,Pantau calon lawan (Mohd Fadli Che Me) — socmed & ceramah.,Jentera N09,1×/minggu,manual,pending
+N09_intel_10,N09,Lenggeng,winnable,intel,P1,Track risiko 3 penjuru — alert jika PN clash atau PH-BN straight fight.,Jentera N09,1×/minggu,manual,pending
+N10_digital_1,N10,Nilai,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N10,1×/minggu,manual,pending
+N10_lapangan_2,N10,Nilai,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N10,selective,manual,pending
+N10_intel_3,N10,Nilai,not_priority,intel,P3,Crawl passive 1×/minggu — N10 Nilai.,Jentera N10,1×/minggu,manual,pending
+N10_intel_4,N10,Nilai,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N10,1×/minggu,manual,pending
+N11_digital_1,N11,Lobak,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N11,1×/minggu,manual,pending
+N11_lapangan_2,N11,Lobak,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N11,selective,manual,pending
+N11_intel_3,N11,Lobak,not_priority,intel,P3,Crawl passive 1×/minggu — N11 Lobak.,Jentera N11,1×/minggu,manual,pending
+N11_intel_4,N11,Lobak,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N11,1×/minggu,manual,pending
+N12_digital_1,N12,Temiang,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N12,1×/minggu,manual,pending
+N12_lapangan_2,N12,Temiang,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N12,selective,manual,pending
+N12_intel_3,N12,Temiang,not_priority,intel,P3,Crawl passive 1×/minggu — N12 Temiang.,Jentera N12,1×/minggu,manual,pending
+N12_intel_4,N12,Temiang,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N12,1×/minggu,manual,pending
+N13_digital_1,N13,Sikamat,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N13,1×/minggu,manual,pending
+N13_lapangan_2,N13,Sikamat,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N13,selective,manual,pending
+N13_intel_3,N13,Sikamat,not_priority,intel,P3,Crawl passive 1×/minggu — N13 Sikamat.,Jentera N13,1×/minggu,manual,pending
+N13_intel_4,N13,Sikamat,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N13,1×/minggu,manual,pending
+N14_digital_1,N14,Ampangan,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N14,1×/minggu,manual,pending
+N14_lapangan_2,N14,Ampangan,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N14,selective,manual,pending
+N14_intel_3,N14,Ampangan,not_priority,intel,P3,Crawl passive 1×/minggu — N14 Ampangan.,Jentera N14,1×/minggu,manual,pending
+N14_intel_4,N14,Ampangan,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N14,1×/minggu,manual,pending
+N15_digital_1,N15,Juasseh,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N15,1×/minggu,manual,pending
+N15_lapangan_2,N15,Juasseh,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N15,selective,manual,pending
+N15_intel_3,N15,Juasseh,not_priority,intel,P3,Crawl passive 1×/minggu — N15 Juasseh.,Jentera N15,1×/minggu,manual,pending
+N15_intel_4,N15,Juasseh,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N15,1×/minggu,manual,pending
+N16_digital_1,N16,Seri Menanti,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N16,1×/minggu,manual,pending
+N16_lapangan_2,N16,Seri Menanti,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N16,selective,manual,pending
+N16_intel_3,N16,Seri Menanti,not_priority,intel,P3,Crawl passive 1×/minggu — N16 Seri Menanti.,Jentera N16,1×/minggu,manual,pending
+N16_intel_4,N16,Seri Menanti,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N16,1×/minggu,manual,pending
+N17_digital_1,N17,Senaling,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N17,1×/minggu,manual,pending
+N17_lapangan_2,N17,Senaling,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N17,selective,manual,pending
+N17_intel_3,N17,Senaling,not_priority,intel,P3,Crawl passive 1×/minggu — N17 Senaling.,Jentera N17,1×/minggu,manual,pending
+N17_intel_4,N17,Senaling,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N17,1×/minggu,manual,pending
+N18_digital_1,N18,Pilah,winnable,digital,P1,Micro-content isu Pilah tradisi & PH marginal — 4 post/minggu FB + TikTok @calon.,Jentera N18,3–7×/minggu,weekly_schedule,pending
+N18_digital_2,N18,Pilah,winnable,digital,P1,Testimoni pengundi swing (video 60s) — 2/minggu.,Jentera N18,3–7×/minggu,weekly_schedule,pending
+N18_digital_3,N18,Pilah,winnable,digital,P1,Boost post kawasan majoriti ≤999 undi — budget terhad.,Jentera N18,3–7×/minggu,weekly_schedule,pending
+N18_lapangan_4,N18,Pilah,winnable,lapangan,P1,Ceramah 2–3×/minggu — fokus swing voter (target +739 undi).,Jentera N18,2–3×/minggu,manual,pending
+N18_lapangan_5,N18,Pilah,winnable,lapangan,P1,Door-to-door 500 rumah/minggu di zon marginal.,Jentera N18,2–3×/minggu,manual,pending
+N18_lapangan_6,N18,Pilah,winnable,lapangan,P1,Booth pasar malam / pasar pagi — Sabtu & Ahad.,Jentera N18,2–3×/minggu,manual,pending
+N18_komunikasi_7,N18,Pilah,winnable,komunikasi,P1,Frame: perubahan mampu milik — Pilah tradisi vs status quo.,Jentera N18,mingguan,manual,pending
+N18_komunikasi_8,N18,Pilah,winnable,komunikasi,P1,"Highlight majoriti {seat.get('majority', 0):,} — setiap undi kritikal.",Jentera N18,mingguan,manual,pending
+N18_intel_9,N18,Pilah,winnable,intel,P1,Pantau calon lawan (Rafiei Mustapha) — socmed & ceramah.,Jentera N18,1×/minggu,manual,pending
+N18_intel_10,N18,Pilah,winnable,intel,P1,Track risiko 3 penjuru — alert jika PN clash atau PH-BN straight fight.,Jentera N18,1×/minggu,manual,pending
+N19_digital_1,N19,Johol,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N19,1×/minggu,manual,pending
+N19_digital_2,N19,Johol,tough,digital,P2,Rebut isu Kos sara hidup / ekonomi mikro hanya bila lawan attack.,Jentera N19,1×/minggu,manual,pending
+N19_lapangan_3,N19,Johol,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N19,selective,manual,pending
+N19_lapangan_4,N19,Johol,tough,lapangan,P2,Sentuhan akar umbi Adat/Pilah — 1 program/2 minggu.,Jentera N19,selective,manual,pending
+N19_komunikasi_5,N19,Johol,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N19,mingguan,manual,pending
+N19_intel_6,N19,Johol,tough,intel,P2,Monitor passive — crawl 1×/minggu N19 Johol.,Jentera N19,1×/minggu,manual,pending
+N19_intel_7,N19,Johol,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N19,1×/minggu,opponent_weak_signal,pending
+N20_digital_1,N20,Labu,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N20,1×/minggu,manual,pending
+N20_digital_2,N20,Labu,tough,digital,P2,Rebut isu NILAI manufacturing hanya bila lawan attack.,Jentera N20,1×/minggu,manual,pending
+N20_lapangan_3,N20,Labu,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N20,selective,manual,pending
+N20_lapangan_4,N20,Labu,tough,lapangan,P2,Sentuhan akar umbi Bandar Rasah/Nilai — 1 program/2 minggu.,Jentera N20,selective,manual,pending
+N20_komunikasi_5,N20,Labu,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N20,mingguan,manual,pending
+N20_intel_6,N20,Labu,tough,intel,P2,Monitor passive — crawl 1×/minggu N20 Labu.,Jentera N20,1×/minggu,manual,pending
+N20_intel_7,N20,Labu,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N20,1×/minggu,opponent_weak_signal,pending
+N21_digital_1,N21,Bukit Kepayang,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N21,1×/minggu,manual,pending
+N21_lapangan_2,N21,Bukit Kepayang,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N21,selective,manual,pending
+N21_intel_3,N21,Bukit Kepayang,not_priority,intel,P3,Crawl passive 1×/minggu — N21 Bukit Kepayang.,Jentera N21,1×/minggu,manual,pending
+N21_intel_4,N21,Bukit Kepayang,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N21,1×/minggu,manual,pending
+N22_digital_1,N22,Rahang,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N22,1×/minggu,manual,pending
+N22_lapangan_2,N22,Rahang,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N22,selective,manual,pending
+N22_intel_3,N22,Rahang,not_priority,intel,P3,Crawl passive 1×/minggu — N22 Rahang.,Jentera N22,1×/minggu,manual,pending
+N22_intel_4,N22,Rahang,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N22,1×/minggu,manual,pending
+N23_digital_1,N23,Mambau,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N23,1×/minggu,manual,pending
+N23_lapangan_2,N23,Mambau,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N23,selective,manual,pending
+N23_intel_3,N23,Mambau,not_priority,intel,P3,Crawl passive 1×/minggu — N23 Mambau.,Jentera N23,1×/minggu,manual,pending
+N23_intel_4,N23,Mambau,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N23,1×/minggu,manual,pending
+N24_digital_1,N24,Seremban Jaya,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N24,1×/minggu,manual,pending
+N24_lapangan_2,N24,Seremban Jaya,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N24,selective,manual,pending
+N24_intel_3,N24,Seremban Jaya,not_priority,intel,P3,Crawl passive 1×/minggu — N24 Seremban Jaya.,Jentera N24,1×/minggu,manual,pending
+N24_intel_4,N24,Seremban Jaya,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N24,1×/minggu,manual,pending
+N25_digital_1,N25,Paroi,defend,digital,P1,Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.,Jentera N25,3–7×/minggu,weekly_schedule,pending
+N25_digital_2,N25,Paroi,defend,digital,P1,3 video TikTok/minggu isu tempatan: Kos sara hidup bandar.,Jentera N25,3–7×/minggu,weekly_schedule,pending
+N25_digital_3,N25,Paroi,defend,digital,P1,Balas komen negatif ≤4 jam; escalate ke war room jika viral >5k views.,Jentera N25,3–7×/minggu,weekly_schedule,pending
+N25_lapangan_4,N25,Paroi,defend,lapangan,P1,House-to-house zon pengundi setia (FELDA/LBN) — 2 kali/minggu.,Jentera N25,2–3×/minggu,manual,pending
+N25_lapangan_5,N25,Paroi,defend,lapangan,P1,Majlis pengundi setia + transport undi keluar (OKU/warga emas).,Jentera N25,2–3×/minggu,manual,pending
+N25_lapangan_6,N25,Paroi,defend,lapangan,P1,Pastikan jentera polling agent confirmed — senarai 100% sebelum penamaan.,Jentera N25,2–3×/minggu,manual,pending
+N25_komunikasi_7,N25,Paroi,defend,komunikasi,P1,Mesej utama: kestabilan + penghargaan + Kos sara hidup bandar ditangani.,Jentera N25,mingguan,manual,pending
+N25_komunikasi_8,N25,Paroi,defend,komunikasi,P1,Counter-narrative split PAS-Bersatu — tekankan kestabilan negeri.,Jentera N25,mingguan,manual,pending
+N25_intel_9,N25,Paroi,defend,intel,P1,Crawl keyword: PRN N25 Paroi — 2×/hari semasa kempen.,Jentera N25,2×/hari,manual,pending
+N25_intel_10,N25,Paroi,defend,intel,P1,Alert bila sentiment negatif >20% atau lawan mula ceramah <5km.,Jentera N25,2×/hari,sentiment_neg_pct > 20,pending
+N26_digital_1,N26,Chembong,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N26,1×/minggu,manual,pending
+N26_lapangan_2,N26,Chembong,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N26,selective,manual,pending
+N26_intel_3,N26,Chembong,not_priority,intel,P3,Crawl passive 1×/minggu — N26 Chembong.,Jentera N26,1×/minggu,manual,pending
+N26_intel_4,N26,Chembong,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N26,1×/minggu,manual,pending
+N27_digital_1,N27,Rantau,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N27,1×/minggu,manual,pending
+N27_digital_2,N27,Rantau,tough,digital,P2,Rebut isu Kos sara hidup / ekonomi mikro hanya bila lawan attack.,Jentera N27,1×/minggu,manual,pending
+N27_lapangan_3,N27,Rantau,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N27,selective,manual,pending
+N27_lapangan_4,N27,Rantau,tough,lapangan,P2,Sentuhan akar umbi Rembau/Tradisi — 1 program/2 minggu.,Jentera N27,selective,manual,pending
+N27_komunikasi_5,N27,Rantau,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N27,mingguan,manual,pending
+N27_intel_6,N27,Rantau,tough,intel,P2,Monitor passive — crawl 1×/minggu N27 Rantau.,Jentera N27,1×/minggu,manual,pending
+N27_intel_7,N27,Rantau,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N27,1×/minggu,opponent_weak_signal,pending
+N28_digital_1,N28,Kota,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N28,1×/minggu,manual,pending
+N28_lapangan_2,N28,Kota,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N28,selective,manual,pending
+N28_intel_3,N28,Kota,not_priority,intel,P3,Crawl passive 1×/minggu — N28 Kota.,Jentera N28,1×/minggu,manual,pending
+N28_intel_4,N28,Kota,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N28,1×/minggu,manual,pending
+N29_digital_1,N29,Chuah,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N29,1×/minggu,manual,pending
+N29_lapangan_2,N29,Chuah,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N29,selective,manual,pending
+N29_intel_3,N29,Chuah,not_priority,intel,P3,Crawl passive 1×/minggu — N29 Chuah.,Jentera N29,1×/minggu,manual,pending
+N29_intel_4,N29,Chuah,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N29,1×/minggu,manual,pending
+N30_digital_1,N30,Lukut,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N30,1×/minggu,manual,pending
+N30_lapangan_2,N30,Lukut,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N30,selective,manual,pending
+N30_intel_3,N30,Lukut,not_priority,intel,P3,Crawl passive 1×/minggu — N30 Lukut.,Jentera N30,1×/minggu,manual,pending
+N30_intel_4,N30,Lukut,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N30,1×/minggu,manual,pending
+N31_digital_1,N31,Bagan Pinang,defend,digital,P1,Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.,Jentera N31,3–7×/minggu,weekly_schedule,pending
+N31_digital_2,N31,Bagan Pinang,defend,digital,P1,3 video TikTok/minggu isu tempatan: Pelancongan PD.,Jentera N31,3–7×/minggu,weekly_schedule,pending
+N31_digital_3,N31,Bagan Pinang,defend,digital,P1,Balas komen negatif ≤4 jam; escalate ke war room jika viral >5k views.,Jentera N31,3–7×/minggu,weekly_schedule,pending
+N31_lapangan_4,N31,Bagan Pinang,defend,lapangan,P1,House-to-house zon pengundi setia (FELDA/LBN) — 2 kali/minggu.,Jentera N31,2–3×/minggu,manual,pending
+N31_lapangan_5,N31,Bagan Pinang,defend,lapangan,P1,Majlis pengundi setia + transport undi keluar (OKU/warga emas).,Jentera N31,2–3×/minggu,manual,pending
+N31_lapangan_6,N31,Bagan Pinang,defend,lapangan,P1,Pastikan jentera polling agent confirmed — senarai 100% sebelum penamaan.,Jentera N31,2–3×/minggu,manual,pending
+N31_komunikasi_7,N31,Bagan Pinang,defend,komunikasi,P1,Mesej utama: kestabilan + penghargaan + Pelancongan PD ditangani.,Jentera N31,mingguan,manual,pending
+N31_komunikasi_8,N31,Bagan Pinang,defend,komunikasi,P1,Counter-narrative split PAS-Bersatu — tekankan kestabilan negeri.,Jentera N31,mingguan,manual,pending
+N31_intel_9,N31,Bagan Pinang,defend,intel,P1,Crawl keyword: PRN N31 Bagan Pinang — 2×/hari semasa kempen.,Jentera N31,2×/hari,manual,pending
+N31_intel_10,N31,Bagan Pinang,defend,intel,P1,Alert bila sentiment negatif >20% atau lawan mula ceramah <5km.,Jentera N31,2×/hari,sentiment_neg_pct > 20,pending
+N32_digital_1,N32,Linggi,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N32,1×/minggu,manual,pending
+N32_lapangan_2,N32,Linggi,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N32,selective,manual,pending
+N32_intel_3,N32,Linggi,not_priority,intel,P3,Crawl passive 1×/minggu — N32 Linggi.,Jentera N32,1×/minggu,manual,pending
+N32_intel_4,N32,Linggi,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N32,1×/minggu,manual,pending
+N33_digital_1,N33,Sri Tanjung,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N33,1×/minggu,manual,pending
+N33_lapangan_2,N33,Sri Tanjung,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N33,selective,manual,pending
+N33_intel_3,N33,Sri Tanjung,not_priority,intel,P3,Crawl passive 1×/minggu — N33 Sri Tanjung.,Jentera N33,1×/minggu,manual,pending
+N33_intel_4,N33,Sri Tanjung,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N33,1×/minggu,manual,pending
+N34_digital_1,N34,Gemas,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N34,1×/minggu,manual,pending
+N34_digital_2,N34,Gemas,tough,digital,P2,Rebut isu FELDA Gemas hanya bila lawan attack.,Jentera N34,1×/minggu,manual,pending
+N34_lapangan_3,N34,Gemas,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N34,selective,manual,pending
+N34_lapangan_4,N34,Gemas,tough,lapangan,P2,Sentuhan akar umbi Sempadan Johor — 1 program/2 minggu.,Jentera N34,selective,manual,pending
+N34_komunikasi_5,N34,Gemas,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N34,mingguan,manual,pending
+N34_intel_6,N34,Gemas,tough,intel,P2,Monitor passive — crawl 1×/minggu N34 Gemas.,Jentera N34,1×/minggu,manual,pending
+N34_intel_7,N34,Gemas,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N34,1×/minggu,opponent_weak_signal,pending
+N35_digital_1,N35,Gemencheh,tough,digital,P2,Minimum 1 post/minggu — jangan habiskan budget iklan.,Jentera N35,1×/minggu,manual,pending
+N35_digital_2,N35,Gemencheh,tough,digital,P2,Rebut isu Kos sara hidup / ekonomi mikro hanya bila lawan attack.,Jentera N35,1×/minggu,manual,pending
+N35_lapangan_3,N35,Gemencheh,tough,lapangan,P2,Ceramah selective — hanya jika isyarat positif (crowd >200).,Jentera N35,selective,manual,pending
+N35_lapangan_4,N35,Gemencheh,tough,lapangan,P2,Sentuhan akar umbi Sempadan Johor — 1 program/2 minggu.,Jentera N35,selective,manual,pending
+N35_komunikasi_5,N35,Gemencheh,tough,komunikasi,P2,Mesej defensif: perpaduan + elak provokasi.,Jentera N35,mingguan,manual,pending
+N35_intel_6,N35,Gemencheh,tough,intel,P2,Monitor passive — crawl 1×/minggu N35 Gemencheh.,Jentera N35,1×/minggu,manual,pending
+N35_intel_7,N35,Gemencheh,tough,intel,P2,Naikkan ke Boleh Menang jika lawan lemah (clash PN / sentiment drop).,Jentera N35,1×/minggu,opponent_weak_signal,pending
+N36_digital_1,N36,Repah,not_priority,digital,P3,Tiada kempen aktif — maintain presence minimum.,Jentera N36,1×/minggu,manual,pending
+N36_lapangan_2,N36,Repah,not_priority,lapangan,P3,Tiada operasi lapangan kecuali permintaan calon tempatan.,Jentera N36,selective,manual,pending
+N36_intel_3,N36,Repah,not_priority,intel,P3,Crawl passive 1×/minggu — N36 Repah.,Jentera N36,1×/minggu,manual,pending
+N36_intel_4,N36,Repah,not_priority,intel,P3,Reclassify jika majoriti lawan drop atau isu tempatan panas.,Jentera N36,1×/minggu,manual,pending

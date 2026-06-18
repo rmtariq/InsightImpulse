@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-13T14:27:04",
+  "source": "rule_based",
+  "model": "template",
+  "executive_summary": "War Room N9 — 3 kerusi Pertahan, 3 Boleh Menang, 5 isyarat aktif. Tiada alert kritikal sentiment. Model ramalan = rule-based, bukan polling.",
+  "week_priorities": [
+    "N05 Serting (Pertahan): PAS 70% · mention 0 · isu: FELDA/getah",
+    "N25 Paroi (Pertahan): PAS 82% · mention 0 · isu: Kos sara hidup bandar",
+    "N31 Bagan Pinang (Pertahan): PAS 82% · mention 0 · isu: Pelancongan PD",
+    "N03 Sungai Lui (Boleh Menang): PAS 51.0% · mention 0 · isu: Majoriti sempit",
+    "N09 Lenggeng (Boleh Menang): PAS 50.5% · mention 0 · isu: Bandar Lenggeng",
+    "N18 Pilah (Boleh Menang): PAS 38% · mention 0 · isu: Pilah tradisi"
+  ],
+  "digital_actions": [
+    "Post harian kerusi Pertahan (N05, N25, N31) — projek + kehadiran ADUN.",
+    "Video TikTok isu kos hidup — target Boleh Menang (N03, N09, N18).",
+    "Counter-narrative split PAS-Bersatu jika sentiment negatif >15%."
+  ],
+  "lapangan_actions": [
+    "Ceramah FELDA/LBN — N05, N03 minggu ini.",
+    "Door-to-door 500 rumah — kerusi marginal N09/N18.",
+    "Confirm polling agent — semua kerusi Pertahan."
+  ],
+  "intel_actions": [
+    "Refresh crawl master — filter keyword NS + kod DUN kritikal.",
+    "Pantau calon lawan post-penamaan SPR.",
+    "Track scenario S1 vs S4 (PAS-PN clash)."
+  ],
+  "risks": [
+    "Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.",
+    "Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.",
+    "Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.",
+    "Isu istana/institusi dalam 4 item media — pantau naratif"
+  ],
+  "disclaimer": "Bukan polling. Human-in-the-loop — semak sebelum terbit/post."
+}

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "N.01",
+    "name": "Kuala Linggi",
+    "status": "battleground",
+    "incumbent": "Rosli Abdullah",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Kuala Linggi",
+    "lat": 2.393,
+    "lon": 102.041,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Kuala Sungai Baru"
+  },
+  {
+    "id": "N.02",
+    "name": "Tanjung Bidara",
+    "status": "battleground",
+    "incumbent": "Ab Rauf Yusoh",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Tanjung Bidara",
+    "lat": 2.369,
+    "lon": 102.033,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Pengkalan Balak/Tanjung Bidara"
+  },
+  {
+    "id": "N.03",
+    "name": "Ayer Limau",
+    "status": "battleground",
+    "incumbent": "Hameed Basheer",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Ayer Limau",
+    "lat": 2.409,
+    "lon": 102.108,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Lubok China/Ayer Limau"
+  },
+  {
+    "id": "N.04",
+    "name": "Lendu",
+    "status": "battleground",
+    "incumbent": "Sulaiman Md Ali",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Lendu",
+    "lat": 2.352,
+    "lon": 102.118,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Lendu/Masjid Tanah"
+  },
+  {
+    "id": "N.05",
+    "name": "Taboh Naning",
+    "status": "battleground",
+    "incumbent": "Zulkiflee Mohd Zin",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Taboh Naning",
+    "lat": 2.383,
+    "lon": 102.209,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Simpang Empat"
+  },
+  {
+    "id": "N.06",
+    "name": "Rembia",
+    "status": "battleground",
+    "incumbent": "Muhammad Jailani Khamis",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Rembia",
+    "lat": 2.304,
+    "lon": 102.219,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Rembia"
+  },
+  {
+    "id": "N.07",
+    "name": "Gadek",
+    "status": "battleground",
+    "incumbent": "P. Shanmugam",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Gadek",
+    "lat": 2.317,
+    "lon": 102.24,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Gadek"
+  },
+  {
+    "id": "N.08",
+    "name": "Machap Jaya",
+    "status": "battleground",
+    "incumbent": "Ngwe Hee Sem",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Machap",
+    "lat": 2.333,
+    "lon": 102.245,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Machap Jaya"
+  },
+  {
+    "id": "N.09",
+    "name": "Durian Tunggal",
+    "status": "battleground",
+    "incumbent": "Zahari Kalil",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Durian Tunggal",
+    "lat": 2.314,
+    "lon": 102.321,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Durian Tunggal"
+  },
+  {
+    "id": "N.10",
+    "name": "Asahan",
+    "status": "battleground",
+    "incumbent": "Fairul Nizam Roslan",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Asahan",
+    "lat": 2.359,
+    "lon": 102.446,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Asahan"
+  },
+  {
+    "id": "N.11",
+    "name": "Sungai Udang",
+    "status": "battleground",
+    "incumbent": "Mohamad Ali Mohamad",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Sungai Udang",
+    "lat": 2.267,
+    "lon": 102.188,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Sungai Udang"
+  },
+  {
+    "id": "N.12",
+    "name": "Pantai Kundor",
+    "status": "battleground",
+    "incumbent": "Tuminah Kadi",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Pantai Kundor",
+    "lat": 2.234,
+    "lon": 102.157,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Pantai Kundor/Tanjung Kling"
+  },
+  {
+    "id": "N.13",
+    "name": "Paya Rumput",
+    "status": "battleground",
+    "incumbent": "Rais Yasin",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Paya Rumput",
+    "lat": 2.266,
+    "lon": 102.241,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Paya Rumput/Cheng"
+  },
+  {
+    "id": "N.14",
+    "name": "Klebang",
+    "status": "battleground",
+    "incumbent": "Lim Ban Hong",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Klebang",
+    "lat": 2.221,
+    "lon": 102.201,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Klebang Kecil"
+  },
+  {
+    "id": "N.15",
+    "name": "Pengkalan Batu",
+    "status": "battleground",
+    "incumbent": "Muhamad Danish Zainudin",
+    "party": "PH",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Pengkalan Batu",
+    "lat": 2.235,
+    "lon": 102.244,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Bachang/Pengkalan Batu"
+  },
+  {
+    "id": "N.16",
+    "name": "Ayer Keroh",
+    "status": "battleground",
+    "incumbent": "Kerk Chee Yee",
+    "party": "PH",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Ayer Keroh",
+    "lat": 2.268632,
+    "lon": 102.299989,
+    "confidence": "Sederhana",
+    "geoNote": "Berdasarkan koordinat rasmi portal negeri"
+  },
+  {
+    "id": "N.17",
+    "name": "Bukit Katil",
+    "status": "battleground",
+    "incumbent": "Hasnoor Sidang Husin",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "JAPERUN Bukit Katil",
+    "lat": 2.248,
+    "lon": 102.286,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Bukit Katil"
+  },
+  {
+    "id": "N.18",
+    "name": "Ayer Molek",
+    "status": "battleground",
+    "incumbent": "Rahmad Mariman",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Ayer Molek",
+    "lat": 2.226,
+    "lon": 102.314,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Ayer Molek"
+  },
+  {
+    "id": "N.19",
+    "name": "Kesidang",
+    "status": "battleground",
+    "incumbent": "Allex Seah Shoo Chin",
+    "party": "PH",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Kesidang",
+    "lat": 2.233,
+    "lon": 102.248,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Taman Melaka Baru"
+  },
+  {
+    "id": "N.20",
+    "name": "Kota Laksamana",
+    "status": "battleground",
+    "incumbent": "Low Chee Leong",
+    "party": "PH",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "JAPERUN Kota Laksamana",
+    "lat": 2.196,
+    "lon": 102.25,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat bandar lama"
+  },
+  {
+    "id": "N.21",
+    "name": "Duyong",
+    "status": "battleground",
+    "incumbent": "Mohd Noor Helmy Abu Halen",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Duyong",
+    "lat": 2.201,
+    "lon": 102.264,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Duyong/Semabok"
+  },
+  {
+    "id": "N.22",
+    "name": "Bandar Hilir",
+    "status": "battleground",
+    "incumbent": "Leng Chau Yen",
+    "party": "PH",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Bandar Hilir",
+    "lat": 2.1896,
+    "lon": 102.2501,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Bandar Hilir"
+  },
+  {
+    "id": "N.23",
+    "name": "Telok Mas",
+    "status": "battleground",
+    "incumbent": "Abdul Razak Abdul Rahman",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Telok Mas",
+    "lat": 2.197,
+    "lon": 102.304,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Telok Mas"
+  },
+  {
+    "id": "N.24",
+    "name": "Bemban",
+    "status": "battleground",
+    "incumbent": "Koh Chin Han",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Bemban",
+    "lat": 2.253,
+    "lon": 102.401,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Bemban"
+  },
+  {
+    "id": "N.25",
+    "name": "Rim",
+    "status": "battleground",
+    "incumbent": "Khaidhirah Abu Zahar",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Rim",
+    "lat": 2.311,
+    "lon": 102.431,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran Rim/Jasin"
+  },
+  {
+    "id": "N.26",
+    "name": "Serkam",
+    "status": "battleground",
+    "incumbent": "Mohd Zaidi Attan",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Serkam",
+    "lat": 2.138,
+    "lon": 102.378,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Serkam"
+  },
+  {
+    "id": "N.27",
+    "name": "Merlimau",
+    "status": "battleground",
+    "incumbent": "Muhammad Akmal Saleh",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Merlimau",
+    "lat": 2.144,
+    "lon": 102.325,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Merlimau"
+  },
+  {
+    "id": "N.28",
+    "name": "Sungai Rambai",
+    "status": "battleground",
+    "incumbent": "Siti Faizah Abdul Azis",
+    "party": "BN",
+    "margin2023": "",
+    "sentiment": 50,
+    "issues": [
+      "PRN baseline"
+    ],
+    "demo": {},
+    "action": "Semak semula koordinat JAPERUN sebelum routing lapangan",
+    "proxyLocation": "Kompleks JAPERUN Sungai Rambai",
+    "lat": 2.217,
+    "lon": 102.487,
+    "confidence": "Rendah",
+    "geoNote": "Anggaran pusat Sungai Rambai"
+  }
+]

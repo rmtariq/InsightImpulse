@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ms" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>InsightPulse War Room — PRN Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a1628;
+      --card: #111d33;
+      --card-border: #1e3050;
+      --sidebar: #0d1525;
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --primary: #3b82f6;
+      --green: #10b981;
+      --red: #ef4444;
+      --amber: #f59e0b;
+      --purple: #a855f7;
+      --rose: #f43f5e;
+      --cyan: #06b6d4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    .app { max-width: 430px; margin: 0 auto; min-height: 100vh; position: relative; background: var(--bg); }
+    @media (min-width: 900px) {
+      .app { max-width: 1200px; display: grid; grid-template-columns: 260px 1fr; }
+      .sidebar { transform: none !important; position: sticky; top: 0; height: 100vh; }
+      .overlay { display: none !important; }
+      .menu-btn { display: none !important; }
+    }
+
+    /* Header */
+    .header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 12px 14px; border-bottom: 1px solid var(--card-border);
+      background: rgba(10,22,40,.95); backdrop-filter: blur(8px);
+      position: sticky; top: 0; z-index: 30;
+    }
+    .menu-btn {
+      width: 36px; height: 36px; border: 1px solid var(--card-border);
+      border-radius: 8px; background: var(--card); color: var(--text);
+      cursor: pointer; font-size: 18px;
+    }
+    .brand { flex: 1; }
+    .brand h1 { font-size: 13px; font-weight: 800; letter-spacing: .04em; }
+    .brand p { font-size: 10px; color: var(--muted); margin-top: 2px; }
+    .state-select {
+      background: var(--card); border: 1px solid var(--card-border);
+      color: var(--text); border-radius: 8px; padding: 6px 10px; font-size: 12px; font-weight: 600;
+    }
+    .icon-btn {
+      width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--card-border);
+      background: var(--card); color: var(--text); cursor: pointer; position: relative;
+      display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;
+    }
+    .badge-dot {
+      position: absolute; top: -2px; right: -2px; background: var(--red);
+      color: #fff; font-size: 9px; width: 16px; height: 16px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    /* Sidebar */
+    .overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 40; display: none;
+    }
+    .overlay.open { display: block; }
+    .sidebar {
+      position: fixed; left: 0; top: 0; bottom: 0; width: 280px;
+      background: var(--sidebar); border-right: 1px solid var(--card-border);
+      z-index: 50; transform: translateX(-100%); transition: transform .25s ease;
+      overflow-y: auto; padding: 16px 12px;
+    }
+    .sidebar.open { transform: translateX(0); }
+    .sidebar-label {
+      font-size: 9px; font-weight: 700; letter-spacing: .18em; color: var(--muted);
+      padding: 8px 10px 6px; text-transform: uppercase;
+    }
+    .nav-item {
+      display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+      border-radius: 8px; cursor: pointer; font-size: 13px; color: #94a3b8;
+      margin-bottom: 2px; border: 1px solid transparent;
+    }
+    .nav-item:hover { background: rgba(59,130,246,.08); color: var(--text); }
+    .nav-item.active {
+      background: rgba(59,130,246,.15); color: #fff; border-color: rgba(59,130,246,.35);
+    }
+    .nav-item .icon { width: 20px; text-align: center; }
+    .nav-item .sub { font-size: 10px; color: var(--muted); display: block; margin-top: 1px; }
+    .nav-item.new-module { border-left: 3px solid var(--purple); }
+    .crawler-strip {
+      margin-top: 20px; padding: 12px; background: var(--card); border-radius: 10px;
+      border: 1px solid var(--card-border);
+    }
+    .crawler-strip h4 { font-size: 10px; color: var(--muted); letter-spacing: .12em; margin-bottom: 8px; }
+    .crawler-row { display: flex; gap: 8px; flex-wrap: wrap; }
+    .crawler-pill {
+      font-size: 10px; padding: 4px 8px; border-radius: 6px; background: rgba(16,185,129,.12);
+      color: var(--green); border: 1px solid rgba(16,185,129,.25);
+    }
+
+    /* Main */
+    .main { padding: 14px; padding-bottom: 40px; }
+    .proto-banner {
+      background: linear-gradient(90deg, rgba(245,158,11,.15), rgba(168,85,247,.12));
+      border: 1px solid rgba(245,158,11,.35); border-radius: 10px;
+      padding: 10px 12px; font-size: 11px; margin-bottom: 14px; line-height: 1.45;
+    }
+    .proto-banner strong { color: var(--amber); }
+    .page-title { margin-bottom: 4px; }
+    .page-title h2 { font-size: 18px; font-weight: 800; }
+    .page-title p { font-size: 11px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+    .sync { font-size: 10px; color: var(--green); margin-top: 6px; font-family: 'JetBrains Mono', monospace; }
+
+    /* KPI grid */
+    .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--card-border); border-radius: 12px;
+      padding: 12px; min-height: 100px;
+    }
+    .kpi-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+    .kpi-value { font-size: 22px; font-weight: 800; margin: 6px 0 2px; }
+    .kpi-value.green { color: var(--green); }
+    .kpi-value.amber { color: var(--amber); }
+    .kpi-sub { font-size: 10px; color: var(--muted); }
+    .kpi-trend { font-size: 10px; color: var(--green); margin-top: 4px; }
+    .spark { height: 28px; margin-top: 8px; display: flex; align-items: flex-end; gap: 3px; }
+    .spark span { flex: 1; background: rgba(16,185,129,.4); border-radius: 2px; }
+    .progress { height: 6px; background: #1e3050; border-radius: 99px; margin-top: 8px; overflow: hidden; }
+    .progress > div { height: 100%; background: var(--green); border-radius: 99px; }
+    .alert-chips { display: flex; gap: 6px; margin-top: 8px; }
+    .chip { font-size: 9px; padding: 3px 8px; border-radius: 99px; font-weight: 600; }
+    .chip-red { background: rgba(239,68,68,.15); color: #fca5a5; border: 1px solid rgba(239,68,68,.3); }
+    .chip-amber { background: rgba(245,158,11,.15); color: #fcd34d; border: 1px solid rgba(245,158,11,.3); }
+
+    /* Coalition */
+    .panel {
+      background: var(--card); border: 1px solid var(--card-border); border-radius: 12px;
+      padding: 14px; margin-bottom: 14px;
+    }
+    .panel h3 { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+    .panel .desc { font-size: 10px; color: var(--muted); margin-bottom: 12px; }
+    .coal-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 12px; }
+    .coal-row .name { width: 110px; flex-shrink: 0; }
+    .coal-bar { flex: 1; height: 8px; background: #1e3050; border-radius: 99px; overflow: hidden; }
+    .coal-bar > div { height: 100%; border-radius: 99px; }
+    .coal-pct { width: 36px; text-align: right; font-weight: 700; font-size: 12px; }
+
+    /* Narrative module */
+    .comm-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+    .comm-tab {
+      flex: 1; padding: 10px; border-radius: 10px; text-align: center; cursor: pointer;
+      border: 1px solid var(--card-border); background: var(--card); font-size: 12px; font-weight: 600;
+    }
+    .comm-tab.active-chinese { border-color: var(--rose); background: rgba(244,63,94,.12); color: #fecdd3; }
+    .comm-tab.active-indian { border-color: var(--purple); background: rgba(168,85,247,.12); color: #e9d5ff; }
+    .issue-list { list-style: none; }
+    .issue-list li {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 10px 0; border-bottom: 1px solid var(--card-border); font-size: 12px;
+    }
+    .issue-list li:last-child { border-bottom: none; }
+    .issue-bar { width: 80px; height: 6px; background: #1e3050; border-radius: 99px; overflow: hidden; margin-left: 8px; }
+    .post-card {
+      background: rgba(255,255,255,.03); border: 1px solid var(--card-border);
+      border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; font-size: 11px; line-height: 1.45;
+    }
+    .post-meta { font-size: 9px; color: var(--muted); margin-top: 6px; display: flex; gap: 8px; flex-wrap: wrap; }
+    .link-btn {
+      display: inline-block; margin-top: 12px; padding: 10px 14px; border-radius: 8px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed); color: #fff; font-size: 12px;
+      font-weight: 600; text-decoration: none; text-align: center;
+    }
+    .hidden { display: none !important; }
+    .footer-note {
+      text-align: center; font-size: 9px; color: var(--muted); padding: 20px 0 8px;
+      letter-spacing: .08em; text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-label">Modules</div>
+    <div class="nav-item active" data-page="command"><span class="icon">▦</span><div>Command Center<div class="sub">Pusat Komando</div></div></div>
+    <div class="nav-item" data-page="dun"><span class="icon">🗺</span><div>DUN Drill-Down<div class="sub">Analisis DUN</div></div></div>
+    <div class="nav-item" data-page="rapid"><span class="icon">🚨</span><div>Rapid Response<div class="sub">Tindak Balas Pantas</div></div></div>
+    <div class="nav-item" data-page="brief"><span class="icon">📋</span><div>Daily Briefing<div class="sub">Taklimat Harian</div></div></div>
+    <div class="nav-item new-module" data-page="narrative"><span class="icon">🌏</span><div>Naratif Cina &amp; India<div class="sub">Pemantauan Komuniti · NEW</div></div></div>
+    <div class="nav-item" data-page="wargame"><span class="icon">⚔</span><div>Coalition War-Game<div class="sub">Simulasi Gabungan</div></div></div>
+    <div class="nav-item" data-page="polling"><span class="icon">🗳</span><div>Polling Day Mode<div class="sub">Mod Hari Mengundi</div></div></div>
+    <div class="crawler-strip">
+      <h4>📡 DATA CRAWLERS</h4>
+      <div class="crawler-row">
+        <span class="crawler-pill">● X</span>
+        <span class="crawler-pill">● Facebook</span>
+        <span class="crawler-pill">● TikTok</span>
+        <span class="crawler-pill">● Instagram</span>
+        <span class="crawler-pill">● Tamil RSS</span>
+        <span class="crawler-pill">● Chinese Media</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="overlay" id="overlay"></div>
+
+  <div>
+    <header class="header">
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      <div class="brand">
+        <h1>InsightPulse War Room</h1>
+        <p id="headerSub">PRN Negeri Sembilan</p>
+      </div>
+      <select class="state-select" id="stateSelect">
+        <option value="N9">N9</option>
+        <option value="Johor">Johor</option>
+        <option value="Melaka">Melaka</option>
+      </select>
+      <button class="icon-btn">🔔<span class="badge-dot">3</span></button>
+      <button class="icon-btn">RA</button>
+    </header>
+
+    <main class="main">
+      <div class="proto-banner">
+        <strong>PROTOTYPE</strong> — For verification only. UI &amp; sample data. Bukan ramalan undi.
+        Semak layout, modul &amp; aliran sebelum bina production.
+      </div>
+
+      <!-- COMMAND CENTER -->
+      <section id="page-command">
+        <div class="page-title">
+          <h2>Pusat Komando — Command Center</h2>
+          <p>Tier 1 strategic overview · <span id="stateLabel">Negeri Sembilan</span> · 36 DUN · Pilihan Raya Negeri (PRN)</p>
+          <div class="sync">● Sync <span id="syncTime">14:32:08 MYT</span></div>
+        </div>
+        <div class="kpi-grid">
+          <div class="kpi">
+            <div class="kpi-label">Overall Sentiment</div>
+            <div class="kpi-value green">62%</div>
+            <div class="kpi-sub">positive</div>
+            <div class="kpi-trend">↑ +3% vs last week</div>
+            <div class="spark"><span style="height:40%"></span><span style="height:55%"></span><span style="height:50%"></span><span style="height:70%"></span><span style="height:65%"></span><span style="height:80%"></span></div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Seats Projected (PN)</div>
+            <div class="kpi-value green">18 / 36</div>
+            <div class="progress"><div style="width:50%"></div></div>
+            <div class="kpi-sub" style="margin-top:6px">95% CI: 14–22 · Majority = 19</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Mention Volume (24H)</div>
+            <div class="kpi-value">47,283</div>
+            <div class="kpi-sub">Across 4 platforms</div>
+            <div class="spark"><span style="height:60%;background:rgba(245,158,11,.5)"></span><span style="height:45%;background:rgba(16,185,129,.5)"></span><span style="height:70%;background:rgba(6,182,212,.5)"></span><span style="height:55%;background:rgba(168,85,247,.5)"></span></div>
+          </div>
+          <div class="kpi">
+            <div class="kpi-label">Active Alerts</div>
+            <div class="kpi-value amber">3</div>
+            <div class="alert-chips">
+              <span class="chip chip-red">1 Critical</span>
+              <span class="chip chip-amber">2 Warning</span>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Coalition Probability</h3>
+          <p class="desc">Likelihood of forming state government (demo UI)</p>
+          <div class="coal-row"><span class="name">PN (PAS+Bersatu)</span><div class="coal-bar"><div style="width:52%;background:var(--green)"></div></div><span class="coal-pct">52%</span></div>
+          <div class="coal-row"><span class="name">BN (UMNO-led)</span><div class="coal-bar"><div style="width:28%;background:var(--primary)"></div></div><span class="coal-pct">28%</span></div>
+          <div class="coal-row"><span class="name">PH</span><div class="coal-bar"><div style="width:15%;background:var(--red)"></div></div><span class="coal-pct">15%</span></div>
+          <div class="coal-row"><span class="name">Hung Assembly</span><div class="coal-bar"><div style="width:5%;background:var(--amber)"></div></div><span class="coal-pct">5%</span></div>
+        </div>
+        <div class="panel">
+          <h3>War Room Hari Ini</h3>
+          <p class="desc">6 kerusi kritikal · dari n9_war_room.json</p>
+          <div class="post-card">N05 Serting · <strong>Pertahan</strong> — Crawl keyword PRN N05, jentera cula perlu diperkukuh</div>
+          <div class="post-card">N25 Paroi · <strong>Pertahan</strong> — BKC -19,129 · fokus Bulan/Condong Bulan</div>
+          <div class="post-card">N31 Bagan Pinang · <strong>Pertahan</strong> — MN: Mohd Fairuz (cadangan)</div>
+        </div>
+      </section>
+
+      <!-- NARRATIVE MODULE (NEW) -->
+      <section id="page-narrative" class="hidden">
+        <div class="page-title">
+          <h2>Pemantauan Naratif Cina &amp; India</h2>
+          <p>Social listening by language &amp; source context · <span id="narrStateLabel">Negeri Sembilan</span></p>
+          <div class="sync">● Dataset: prn_chinese_narrative_posts_3negeri.csv</div>
+        </div>
+
+        <div class="comm-tabs">
+          <div class="comm-tab active-chinese" id="tabChinese">🇨🇳 Naratif Cina</div>
+          <div class="comm-tab" id="tabIndian">🇮🇳 Naratif India</div>
+        </div>
+
+        <div class="kpi-grid" id="narrKpis"></div>
+
+        <div class="panel">
+          <h3>Isu Panas</h3>
+          <p class="desc" id="issueDesc">Top issue clusters — filtered by state</p>
+          <ul class="issue-list" id="issueList"></ul>
+        </div>
+
+        <div class="panel">
+          <h3>Sample Posts</h3>
+          <p class="desc">Contoh hantaran teratas (prototype)</p>
+          <div id="postList"></div>
+        </div>
+
+        <a class="link-btn" href="#" onclick="alert('Production: link to Streamlit\\nn9_chinese_narrative_dashboard/app.py');return false;">
+          Buka Dashboard Penuh (Streamlit) →
+        </a>
+      </section>
+
+      <!-- PLACEHOLDER PAGES -->
+      <section id="page-placeholder" class="hidden">
+        <div class="page-title">
+          <h2 id="placeholderTitle">Module</h2>
+          <p>Coming in Phase 2 — prototype shell only</p>
+        </div>
+        <div class="panel"><p style="font-size:13px;color:var(--muted);line-height:1.6">Modul ini akan diwire ke data war room &amp; crawl pipeline selepas prototype diluluskan.</p></div>
+      </section>
+
+      <p class="footer-note">Prototype build · For demonstration only</p>
+    </main>
+  </div>
+</div>
+
+<script>
+const DATA = {
+  N9: {
+    label: "Negeri Sembilan", dun: 36,
+    chinese: { posts: 247, neg: 38, issues: [["Cost of Living", 42], ["Chinese Education", 28], ["DAP Performance", 18], ["Local Gov Services", 15]] },
+    indian: { posts: 382, neg: 41, issues: [["Cost of Living", 35], ["Tamil Education (SJKT)", 22], ["Employment", 18], ["Race and Religion", 12]] },
+    samples: {
+      chinese: [
+        { text: "芙蓉商家反映市议会执法太严，生意难做。", meta: "Seremban · Chinese media · negative" },
+        { text: "森州华小董事会关注拨款进度 #SJKC", meta: "Nilai · Facebook · neutral" },
+      ],
+      indian: [
+        { text: "SJKT Seremban kekurangan guru — ibu bapa mohon tindakan.", meta: "Seremban · Makkal Osai · negative" },
+        { text: "MIC N9 programme bantuan komuniti India di Port Dickson.", meta: "Port Dickson · Varnam · neutral" },
+      ],
+    },
+  },
+  Johor: {
+    label: "Johor", dun: 56,
+    chinese: { posts: 89, neg: 35, issues: [["Employment", 30], ["Cost of Living", 25], ["Road and Traffic", 20]] },
+    indian: { posts: 123, neg: 44, issues: [["Employment", 38], ["Cost of Living", 24], ["Race and Religion", 15]] },
+    samples: {
+      chinese: [{ text: "新山小贩公会要求州政府协助租金。", meta: "JB · Sin Chew · negative" }],
+      indian: [{ text: "Kluang factory workers protest overtime pay.", meta: "Kluang · Google News · negative" }],
+    },
+  },
+  Melaka: {
+    label: "Melaka", dun: 28,
+    chinese: { posts: 52, neg: 32, issues: [["Tourism/SME", 35], ["Cost of Living", 22]] },
+    indian: { posts: 19, neg: 37, issues: [["Race and Religion", 28], ["Tamil Education (SJKT)", 20]] },
+    samples: {
+      chinese: [{ text: "马六甲旅游业复苏，商家盼更多宣传。", meta: "Melaka · Oriental Daily · positive" }],
+      indian: [{ text: "Melaka eyes Johor model for Hindu crematorium.", meta: "Melaka · The Star · neutral" }],
+    },
+  },
+};
+
+let state = "N9";
+let community = "chinese";
+let page = "command";
+
+function $(id) { return document.getElementById(id); }
+function setSyncTime() {
+  const d = new Date();
+  $("syncTime").textContent = d.toLocaleTimeString("en-MY", { hour: "2-digit", minute: "2-digit", second: "2-digit" }) + " MYT";
+}
+
+function renderNarrative() {
+  const s = DATA[state];
+  const c = community === "chinese" ? s.chinese : s.indian;
+  $("narrStateLabel").textContent = s.label;
+  $("narrKpis").innerHTML = `
+    <div class="kpi"><div class="kpi-label">Posts (${community})</div><div class="kpi-value">${c.posts.toLocaleString()}</div><div class="kpi-sub">${s.label}</div></div>
+    <div class="kpi"><div class="kpi-label">Negative %</div><div class="kpi-value amber">${c.neg}%</div><div class="kpi-sub">Sentiment mix</div></div>
+    <div class="kpi"><div class="kpi-label">DUN Seats</div><div class="kpi-value">${s.dun}</div><div class="kpi-sub">State total</div></div>
+    <div class="kpi"><div class="kpi-label">Crawl Status</div><div class="kpi-value green" style="font-size:16px">LIVE</div><div class="kpi-sub">RSS + Google</div></div>`;
+  $("issueList").innerHTML = c.issues.map(([name, pct]) =>
+    `<li><span>${name}</span><div style="display:flex;align-items:center"><span style="font-weight:700">${pct}%</span><div class="issue-bar"><div style="width:${pct}%;height:100%;background:${community==="chinese"?"var(--rose)":"var(--purple)"}"></div></div></div></li>`
+  ).join("");
+  const posts = s.samples[community] || [];
+  $("postList").innerHTML = posts.map(p =>
+    `<div class="post-card">${p.text}<div class="post-meta">${p.meta}</div></div>`
+  ).join("") || `<div class="post-card" style="color:var(--muted)">Tiada sample untuk kombinasi ini — tambah crawl.</div>`;
+  $("tabChinese").className = "comm-tab" + (community === "chinese" ? " active-chinese" : "");
+  $("tabIndian").className = "comm-tab" + (community === "indian" ? " active-indian" : "");
+}
+
+function showPage(p) {
+  page = p;
+  document.querySelectorAll(".nav-item").forEach(el => el.classList.toggle("active", el.dataset.page === p));
+  $("page-command").classList.toggle("hidden", p !== "command");
+  $("page-narrative").classList.toggle("hidden", p !== "narrative");
+  const ph = ["dun","rapid","brief","wargame","polling"].includes(p);
+  $("page-placeholder").classList.toggle("hidden", !ph);
+  if (ph) $("placeholderTitle").textContent = document.querySelector(`.nav-item[data-page="${p}"] div`).childNodes[0].textContent;
+  if (p === "narrative") renderNarrative();
+  closeSidebar();
+}
+
+function closeSidebar() {
+  $("sidebar").classList.remove("open");
+  $("overlay").classList.remove("open");
+}
+
+$("menuBtn").onclick = () => {
+  $("sidebar").classList.toggle("open");
+  $("overlay").classList.toggle("open");
+};
+$("overlay").onclick = closeSidebar;
+document.querySelectorAll(".nav-item").forEach(el => el.addEventListener("click", () => showPage(el.dataset.page)));
+$("stateSelect").onchange = e => {
+  state = e.target.value;
+  const s = DATA[state];
+  $("stateLabel").textContent = s.label;
+  $("headerSub").textContent = "PRN " + s.label;
+  if (page === "narrative") renderNarrative();
+};
+$("tabChinese").onclick = () => { community = "chinese"; renderNarrative(); };
+$("tabIndian").onclick = () => { community = "indian"; renderNarrative(); };
+
+setSyncTime();
+setInterval(setSyncTime, 1000);
+</script>
+</body>
+</html>
