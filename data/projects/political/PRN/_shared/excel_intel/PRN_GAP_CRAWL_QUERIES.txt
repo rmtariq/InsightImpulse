@@ -1,0 +1,242 @@
+# PRN GAP CRAWL — one query per line (InsightPulse or crawl_prn_gap_seats.py)
+# Generated 2026-06-21T05:28:29.028236+08:00 | threshold strict mentions < 10
+# N9 gaps: 28 | Johor gaps: 51
+
+# === NEGERI SEMBILAN ===
+# N01 Chennah (low, n=4)
+("Chennah" OR "DUN Chennah" OR "ADUN Chennah") AND ("Kg Chennah" OR "FELDA Pasoh" OR "Bukit Tinggi") when:7d
+
+# N02 Pertang (low, n=3)
+("Pertang" OR "DUN Pertang" OR "ADUN Pertang") AND ("Pekan Pertang" OR "Ulu Triang") when:7d
+
+# N03 Sungai Lui (low, n=1)
+("Sungai Lui" OR "DUN Sungai Lui" OR "ADUN Sungai Lui") AND ("Sungai Lui" OR "Petaling Jelebu") when:7d
+
+# N04 Klawang (low, n=3)
+("Klawang" OR "DUN Klawang" OR "ADUN Klawang") AND ("Pekan Klawang" OR "Kuala Klawang") when:7d
+
+# N05 Serting (low, n=2)
+("Serting" OR "DUN Serting" OR "ADUN Serting") AND ("FELDA Serting" OR "Bandar Seri Jempol") when:7d
+
+# N06 Palong (low, n=2)
+("Palong" OR "DUN Palong" OR "ADUN Palong") AND ("FELDA Palong" OR "Bukit Palong") when:7d
+
+# N07 Jeram Padang (low, n=1)
+("Jeram Padang" OR "DUN Jeram Padang" OR "ADUN Jeram Padang") AND ("Jeram Padang" OR "Rompin") when:7d
+
+# N08 Bahau (low, n=1)
+("Bahau" OR "DUN Bahau" OR "ADUN Bahau") AND ("Pekan Bahau" OR "Bandar Sri Jempol") when:7d
+
+# N09 Lenggeng (low, n=6)
+("Lenggeng" OR "DUN Lenggeng" OR "ADUN Lenggeng") AND ("Lenggeng" OR "Pantai" OR "Broga") when:7d
+
+# N11 Lobak (low, n=3)
+("Lobak" OR "DUN Lobak" OR "ADUN Lobak") AND ("Lobak" OR "Rasah Jaya") when:7d
+
+# N12 Temiang (low, n=3)
+("Temiang" OR "DUN Temiang" OR "ADUN Temiang") AND ("Temiang" OR "Bukit Chedang") when:7d
+
+# N14 Ampangan (low, n=3)
+("Ampangan" OR "DUN Ampangan" OR "ADUN Ampangan") AND ("Ampangan" OR "Senawang") when:7d
+
+# N15 Juasseh (low, n=2)
+("Juasseh" OR "DUN Juasseh" OR "ADUN Juasseh") AND ("Juasseh" OR "Ulu Muar") when:7d
+
+# N17 Senaling (low, n=2)
+("Senaling" OR "DUN Senaling" OR "ADUN Senaling") AND ("Senaling" OR "Terachi") when:7d
+
+# N21 Bukit Kepayang (low, n=2)
+("Bukit Kepayang" OR "DUN Bukit Kepayang" OR "ADUN Bukit Kepayang") AND ("Bukit Kepayang" OR "Senawang Heights") when:7d
+
+# N22 Rahang (low, n=3)
+("Rahang" OR "DUN Rahang" OR "ADUN Rahang") AND ("Rahang" OR "Lobak Heights") when:7d
+
+# N23 Mambau (low, n=2)
+("Mambau" OR "DUN Mambau" OR "ADUN Mambau") AND ("Mambau" OR "Sikamat") when:7d
+
+# N24 Seremban Jaya (zero, n=0)
+("Seremban Jaya" OR "DUN Seremban Jaya" OR "ADUN Seremban Jaya") AND ("Seremban Jaya" OR "Senawang") when:7d
+
+# N25 Paroi (low, n=7)
+("Paroi" OR "DUN Paroi" OR "ADUN Paroi") AND ("Paroi" OR "Mantin") when:7d
+
+# N26 Chembong (low, n=1)
+("Chembong" OR "DUN Chembong" OR "ADUN Chembong") AND ("Chembong" OR "FELDA Chembong" OR "Undang Rembau") when:7d
+
+# N27 Rantau (low, n=5)
+("Rantau" OR "DUN Rantau" OR "ADUN Rantau") AND ("Pekan Rantau" OR "Rantau Estate") when:7d
+
+# N29 Chuah (low, n=1)
+("Chuah" OR "DUN Chuah" OR "ADUN Chuah") AND ("Chuah" OR "Pantai Chuah") when:7d
+
+# N30 Lukut (low, n=4)
+("Lukut" OR "DUN Lukut" OR "ADUN Lukut") AND ("Lukut" OR "Sepang Highway") when:7d
+
+# N31 Bagan Pinang (low, n=4)
+("Bagan Pinang" OR "DUN Bagan Pinang" OR "ADUN Bagan Pinang") AND ("Pengkalan Tentera" OR "Si Rusa") when:7d
+
+# N33 Sri Tanjung (zero, n=0)
+("Sri Tanjung" OR "DUN Sri Tanjung" OR "ADUN Sri Tanjung") AND ("Bandar PD" OR "Teluk Kemang") when:7d
+
+# N34 Gemas (low, n=8)
+("Gemas" OR "DUN Gemas" OR "ADUN Gemas") AND ("Stesen Gemas" OR "sempadan Johor") when:7d
+
+# N35 Gemencheh (low, n=3)
+("Gemencheh" OR "DUN Gemencheh" OR "ADUN Gemencheh") AND ("Pekan Gemencheh" OR "Air Kuning") when:7d
+
+# N36 Repah (low, n=1)
+("Repah" OR "DUN Repah" OR "ADUN Repah") AND ("Pekan Tampin" OR "Repah") when:7d
+
+# === JOHOR ===
+# N01 Buloh Kasap (low, n=1)
+("Buloh Kasap" OR "DUN Buloh Kasap" OR "ADUN Buloh Kasap") AND ("Buloh Kasap" OR "Ladang Sg Muar") when:7d
+
+# N02 Jementah (low, n=1)
+("Jementah" OR "DUN Jementah" OR "ADUN Jementah") AND ("Pekan Jementah" OR "Sungai Jementah") when:7d
+
+# N03 Pemanis (zero, n=0)
+("Pemanis" OR "DUN Pemanis" OR "ADUN Pemanis") AND ("Pemanis" OR "Bukit Siput") when:7d
+
+# N04 Kemelah (low, n=1)
+("Kemelah" OR "DUN Kemelah" OR "ADUN Kemelah") AND ("Kemelah" OR "Pogoh") when:7d
+
+# N06 Bekok (zero, n=0)
+("Bekok" OR "DUN Bekok" OR "ADUN Bekok") AND ("Bekok" OR "Chaah") when:7d
+
+# N07 Bukit Kepong (zero, n=0)
+("Bukit Kepong" OR "DUN Bukit Kepong" OR "ADUN Bukit Kepong") AND ("Bukit Kepong" OR "sejarah PRM") when:7d
+
+# N08 Bukit Pasir (zero, n=0)
+("Bukit Pasir" OR "DUN Bukit Pasir" OR "ADUN Bukit Pasir") AND ("Bukit Pasir" OR "Sungai Mati") when:7d
+
+# N09 Gambir (low, n=1)
+("Gambir" OR "DUN Gambir" OR "ADUN Gambir") AND ("Pekan Gambir" OR "Sagil") when:7d
+
+# N10 Tangkak (low, n=7)
+("Tangkak" OR "DUN Tangkak" OR "ADUN Tangkak") AND ("Pekan Tangkak" OR "kain Tangkak") when:7d
+
+# N11 Serom (zero, n=0)
+("Serom" OR "DUN Serom" OR "ADUN Serom") AND ("Serom" OR "Sungai Mati") when:7d
+
+# N12 Bentayan (low, n=1)
+("Bentayan" OR "DUN Bentayan" OR "ADUN Bentayan") AND ("Bentayan" OR "Bandar Muar") when:7d
+
+# N13 Simpang Jeram (low, n=4)
+("Simpang Jeram" OR "DUN Simpang Jeram" OR "ADUN Simpang Jeram") AND ("Simpang Jeram" OR "Sungai Abong") when:7d
+
+# N14 Bukit Naning (zero, n=0)
+("Bukit Naning" OR "DUN Bukit Naning" OR "ADUN Bukit Naning") AND ("Bukit Naning" OR "Parit Bunga") when:7d
+
+# N15 Maharani (zero, n=0)
+("Maharani" OR "DUN Maharani" OR "ADUN Maharani") AND ("Pekan Muar" OR "Tanjung Emas") when:7d
+
+# N16 Sungai Balang (zero, n=0)
+("Sungai Balang" OR "DUN Sungai Balang" OR "ADUN Sungai Balang") AND ("Sungai Balang" OR "Parit Jawa") when:7d
+
+# N17 Semerah (zero, n=0)
+("Semerah" OR "DUN Semerah" OR "ADUN Semerah") AND ("Semerah" OR "Senggarang") when:7d
+
+# N18 Sri Medan (low, n=1)
+("Sri Medan" OR "DUN Sri Medan" OR "ADUN Sri Medan") AND ("Sri Medan" OR "Parit Sulong") when:7d
+
+# N19 Yong Peng (zero, n=0)
+("Yong Peng" OR "DUN Yong Peng" OR "ADUN Yong Peng") AND ("Pekan Yong Peng" OR "Lebuhraya Utara-Selatan") when:7d
+
+# N20 Semarang (low, n=2)
+("Semarang" OR "DUN Semarang" OR "ADUN Semarang") AND ("Semarang" OR "Ayer Hitam") when:7d
+
+# N21 Parit Yaani (low, n=3)
+("Parit Yaani" OR "DUN Parit Yaani" OR "ADUN Parit Yaani") AND ("Parit Yaani" OR "FELDA") when:7d
+
+# N22 Parit Raja (zero, n=0)
+("Parit Raja" OR "DUN Parit Raja" OR "ADUN Parit Raja") AND ("Parit Raja" OR "UTHM") when:7d
+
+# N23 Penggaram (low, n=1)
+("Penggaram" OR "DUN Penggaram" OR "ADUN Penggaram") AND ("Bandar Batu Pahat" OR "Penggaram") when:7d
+
+# N24 Senggarang (zero, n=0)
+("Senggarang" OR "DUN Senggarang" OR "ADUN Senggarang") AND ("Senggarang" OR "Rengit") when:7d
+
+# N25 Rengit (low, n=3)
+("Rengit" OR "DUN Rengit" OR "ADUN Rengit") AND ("Pekan Rengit" OR "pesisir pantai") when:7d
+
+# N26 Machap (low, n=1)
+("Machap" OR "DUN Machap" OR "ADUN Machap") AND ("Machap" OR "FELDA Machap") when:7d
+
+# N27 Layang-Layang (low, n=1)
+("Layang-Layang" OR "DUN Layang-Layang" OR "ADUN Layang-Layang") AND ("Pekan Layang-Layang") when:7d
+
+# N28 Mengkibol (low, n=9)
+("Mengkibol" OR "DUN Mengkibol" OR "ADUN Mengkibol") AND ("Bandar Kluang" OR "Stesen KTM") when:7d
+
+# N30 Paloh (low, n=2)
+("Paloh" OR "DUN Paloh" OR "ADUN Paloh") AND ("Pekan Paloh") when:7d
+
+# N31 Kahang (zero, n=0)
+("Kahang" OR "DUN Kahang" OR "ADUN Kahang") AND ("Kahang" OR "FELDA") when:7d
+
+# N32 Endau (low, n=1)
+("Endau" OR "DUN Endau" OR "ADUN Endau") AND ("Endau" OR "Rompin border") when:7d
+
+# N33 Tenggaroh (zero, n=0)
+("Tenggaroh" OR "DUN Tenggaroh" OR "ADUN Tenggaroh") AND ("Tenggaroh" OR "FELDA") when:7d
+
+# N34 Panti (zero, n=0)
+("Panti" OR "DUN Panti" OR "ADUN Panti") AND ("Panti" OR "Gunung Panti") when:7d
+
+# N35 Pasir Raja (zero, n=0)
+("Pasir Raja" OR "DUN Pasir Raja" OR "ADUN Pasir Raja") AND ("Pasir Raja" OR "FELDA") when:7d
+
+# N36 Sedili (zero, n=0)
+("Sedili" OR "DUN Sedili" OR "ADUN Sedili") AND ("Sedili" OR "Tanjung Sedili") when:7d
+
+# N37 Johor Lama (low, n=4)
+("Johor Lama" OR "DUN Johor Lama" OR "ADUN Johor Lama") AND ("Johor Lama" OR "sejarah Kesultanan Johor") when:7d
+
+# N38 Penawar (low, n=5)
+("Penawar" OR "DUN Penawar" OR "ADUN Penawar") AND ("Penawar" OR "Bandar Penawar") when:7d
+
+# N39 Tanjung Surat (zero, n=0)
+("Tanjung Surat" OR "DUN Tanjung Surat" OR "ADUN Tanjung Surat") AND ("Tanjung Surat" OR "Pengerang") when:7d
+
+# N43 Permas (low, n=3)
+("Permas" OR "DUN Permas" OR "ADUN Permas") AND ("Permas Jaya" OR "Stulang") when:7d
+
+# N44 Larkin (zero, n=0)
+("Larkin" OR "DUN Larkin" OR "ADUN Larkin") AND ("Larkin" OR "Terminal Bas Larkin Sentral") when:7d
+
+# N45 Stulang (low, n=1)
+("Stulang" OR "DUN Stulang" OR "ADUN Stulang") AND ("Stulang" OR "CIQ Sultan Iskandar") when:7d
+
+# N46 Perling (low, n=1)
+("Perling" OR "DUN Perling" OR "ADUN Perling") AND ("Perling" OR "Pengkalan Rinting") when:7d
+
+# N47 Kempas (low, n=2)
+("Kempas" OR "DUN Kempas" OR "ADUN Kempas") AND ("Kempas" OR "Tampoi") when:7d
+
+# N48 Skudai (low, n=8)
+("Skudai" OR "DUN Skudai" OR "ADUN Skudai") AND ("Skudai" OR "UTM" OR "Taman U") when:7d
+
+# N49 Kota Iskandar (low, n=4)
+("Kota Iskandar" OR "DUN Kota Iskandar" OR "ADUN Kota Iskandar") AND ("Kota Iskandar" OR "pusat pentadbiran") when:7d
+
+# N50 Bukit Permai (low, n=2)
+("Bukit Permai" OR "DUN Bukit Permai" OR "ADUN Bukit Permai") AND ("Bukit Permai" OR "FELDA") when:7d
+
+# N51 Bukit Batu (low, n=4)
+("Bukit Batu" OR "DUN Bukit Batu" OR "ADUN Bukit Batu") AND ("Bukit Batu" OR "Kelapa Sawit") when:7d
+
+# N52 Senai (low, n=3)
+("Senai" OR "DUN Senai" OR "ADUN Senai") AND ("Bandar Senai" OR "Lapangan Terbang Senai") when:7d
+
+# N53 Benut (low, n=2)
+("Benut" OR "DUN Benut" OR "ADUN Benut") AND ("Pekan Benut" OR "Pontian") when:7d
+
+# N54 Pulai Sebatang (low, n=2)
+("Pulai Sebatang" OR "DUN Pulai Sebatang" OR "ADUN Pulai Sebatang") AND ("Pulai Sebatang" OR "Rambah") when:7d
+
+# N55 Pekan Nanas (zero, n=0)
+("Pekan Nanas" OR "DUN Pekan Nanas" OR "ADUN Pekan Nanas") AND ("Pekan Nanas" OR "nanas farm") when:7d
+
+# N56 Kukup (zero, n=0)
+("Kukup" OR "DUN Kukup" OR "ADUN Kukup") AND ("Kukup" OR "Tanjung Piai") when:7d

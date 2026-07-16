@@ -1,0 +1,4 @@
+borrower,sector,risk,loan_amount,status,notes
+ABC Trading Sdn Bhd,F&B,MEDIUM,250000,active,cashflow watch
+Digital Mart PLT,Digital,HIGH,180000,review,ads cost rising
+Johor Logistics,Logistics,LOW,420000,active,contract stable

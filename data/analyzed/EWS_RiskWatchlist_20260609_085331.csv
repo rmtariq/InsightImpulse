@@ -1,0 +1,6 @@
+Entity_from_Post,Matched_Borrower,Account,Loan_Amount,Match_Score,Platform,Emotion,Risk_Level,Action
+Restoran Pak Wan,Restoran Nasi Lemak Pak Wan Setapak,SME-001-2024,"RM 85,000",100%,FACEBOOK,fear,🔴 HIGH,Hubungi dalam 24 jam
+Ahmad Furniture,Perniagaan Ahmad Furniture KL,SME-008-2023,"RM 200,000",100%,FACEBOOK,fear,🔴 HIGH,Hubungi dalam 24 jam
+Bengkel Faiz Motor,Bengkel Kereta Mohd Faiz Motor,SME-005-2024,"RM 95,000",100%,FACEBOOK,fear,🔴 HIGH,Hubungi dalam 24 jam
+Zainab Catering Enterprise,Catering Zainab Enterprise KL,SME-006-2023,"RM 38,000",100%,FACEBOOK,fear,🔴 HIGH,Hubungi dalam 24 jam
+D Cakes Bakery,D'Cakes Bakery Sdn Bhd,SME-010-2022,"RM 175,000",100%,FACEBOOK,fear,🔴 HIGH,Hubungi dalam 24 jam

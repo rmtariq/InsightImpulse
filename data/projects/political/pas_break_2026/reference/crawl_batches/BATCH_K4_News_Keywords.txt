@@ -1,0 +1,24 @@
+# K4 — Google News / Media (credibility EXCO)
+# Generated: 2026-06-11
+#
+# SETTING UI:
+#   Mod: Keyword Search
+#   Platform: News ONLY  (atau Google News — jangan campur social)
+#   Dataset: 800–1000
+#   Date: Last 7 Days
+#   Project: pas_break_2026
+#
+# Paste query (one line):
+#
+PAS Bersatu OR "PAS putus Bersatu" OR "Perikatan Nasional" OR Muhyiddin OR "Abdul Hadi Awang" OR "Negeri Sembilan" OR "PRN Johor" OR "PRN Melaka"
+
+# ── Alternatif lebih fokus NS (EXCO) ──
+# PAS Bersatu OR "PAS Negeri Sembilan" OR Aminuddin OR "Muafakat Nasional" OR Muhyiddin OR "Perikatan Nasional retak"
+
+# ── Jangkaan ──
+#   ~400–1,000 artikel berita (posts sahaja, tiada komen)
+#   Masa: ~15–30 minit
+#
+# ── Selepas siap ──
+#   Merge ke EXCO master dengan crawl_source: news_k4_YYYYMMDD
+#   Boleh gabung dengan Crawl 2 lama: pas_break_news_20260610_230655.csv (1,066 rows)

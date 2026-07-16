@@ -2,33 +2,33 @@
   "meta": {
     "title": "PAS–Bersatu Split · InsightPulse",
     "event": "Pengistiharaan berpisah 9 Jun 2026 (Isnin malam)",
-    "window": "9 Jun – 10 Jun 2026 (36 jam)",
-    "generated": "2026-06-11 00:08"
+    "window": "9–11 Jun 2026 (event window + split narrative)",
+    "generated": "2026-06-12 03:19"
   },
   "hero": {
-    "event_rows": 2583,
-    "political_rows": 1317,
-    "posts": 1384,
-    "comments": 1199,
-    "full_merged": 8461,
-    "total_engagement": 6765891,
-    "news_rows": 272,
-    "mentions_pas": 843,
-    "mentions_bersatu": 705
+    "event_rows": 34333,
+    "political_rows": 7174,
+    "posts": 1802,
+    "comments": 32531,
+    "full_merged": 69003,
+    "total_engagement": 5016000,
+    "news_rows": 464,
+    "mentions_pas": 4907,
+    "mentions_bersatu": 3475
   },
   "narratives_post": {
-    "solo": 196,
-    "split": 277,
-    "mn": 26,
-    "pn": 315,
-    "ummah": 102
+    "solo": 288,
+    "split": 1474,
+    "mn": 97,
+    "pn": 2106,
+    "ummah": 59
   },
   "narratives_post_pct": {
-    "solo": 7.6,
-    "split": 10.7,
-    "mn": 1.0,
-    "pn": 12.2,
-    "ummah": 3.9
+    "solo": 0.8,
+    "split": 4.3,
+    "mn": 0.3,
+    "pn": 6.1,
+    "ummah": 0.2
   },
   "narratives_pre30": {
     "solo": 120,
@@ -60,104 +60,92 @@
       0.0
     ],
     "post_pct": [
-      7.6,
-      10.7,
-      1.0,
-      12.2,
-      3.9
+      0.8,
+      4.3,
+      0.3,
+      6.1,
+      0.2
     ],
     "pre_n": 680,
-    "post_n": 2583
+    "post_n": 34333
   },
   "daily": [
     {
-      "date": "2026-06-09",
-      "count": 713
-    },
-    {
-      "date": "2026-06-10",
-      "count": 693
+      "date": "2026-06-11",
+      "count": 31279
     }
   ],
   "platforms": [
     {
       "Platform": "tiktok",
-      "count": 905,
-      "engagement": 6360991
-    },
-    {
-      "Platform": "x",
-      "count": 663,
-      "engagement": 338447
+      "count": 31401,
+      "engagement": 4883308.0
     },
     {
       "Platform": "instagram",
-      "count": 323,
-      "engagement": 1958
-    },
-    {
-      "Platform": "news",
-      "count": 272,
-      "engagement": 0
+      "count": 1209,
+      "engagement": 43726.0
     },
     {
       "Platform": "facebook",
-      "count": 232,
-      "engagement": 7833
+      "count": 892,
+      "engagement": 17857.0
     },
     {
-      "Platform": "youtube",
-      "count": 188,
-      "engagement": 56662
+      "Platform": "news",
+      "count": 464,
+      "engagement": 0.0
+    },
+    {
+      "Platform": "x",
+      "count": 367,
+      "engagement": 71109.0
     }
   ],
   "sentiment": {
-    "neutral": 2311
+    "neutral": 15915,
+    "positive": 9738,
+    "negative": 8566
   },
   "states": {
     "johor": {
-      "rows": 195,
-      "solo": 11,
-      "split": 29,
-      "mn": 4,
-      "pn": 22,
-      "ummah": 3,
-      "engagement": 85303
+      "rows": 413,
+      "solo": 3,
+      "split": 33,
+      "mn": 5,
+      "pn": 14,
+      "ummah": 5,
+      "engagement": 74750
     },
     "melaka": {
-      "rows": 70,
+      "rows": 47,
       "solo": 0,
-      "split": 4,
+      "split": 8,
       "mn": 0,
       "pn": 4,
-      "ummah": 0,
-      "engagement": 68493
+      "ummah": 4,
+      "engagement": 54849
     },
     "ns": {
-      "rows": 143,
-      "solo": 25,
-      "split": 14,
-      "mn": 5,
-      "pn": 25,
-      "ummah": 0,
-      "engagement": 227225
+      "rows": 259,
+      "solo": 6,
+      "split": 39,
+      "mn": 12,
+      "pn": 29,
+      "ummah": 7,
+      "engagement": 230765
     }
   },
   "ns": {
     "lang_proxy": {
-      "bm": 122,
-      "campuran": 15,
+      "bm": 222,
+      "campuran": 26,
       "english": 5,
-      "tamil": 1
+      "lain": 3,
+      "tamil": 2,
+      "cina": 1
     },
     "top_posts": [
-      {
-        "text": "Alhamdulillah syukur kepada Allah, PAS telah menerima ratusan permohonan menjadi ahli PAS daripada mantan pemimpin UMNO dan tokoh masyarakat di Negeri Sembilan hari ini.\n\nSaya mengucapkan selamat data",
-        "platform": "tiktok",
-        "engagement": 19831,
-        "url": "https://www.tiktok.com/@pemudapasmalaysia/video/7191121684143901978",
-        "date": "NaT"
-      },
       {
         "text": "Cerita dari Brickfields. Krisis Negeri Sembilan",
         "platform": "tiktok",
@@ -166,18 +154,18 @@
         "date": "NaT"
       },
       {
-        "text": "Sedarlah wahai rakyat Negeri Sembilan!!\n#CapCut #fyp #pasforall #negerisembilan  #viral",
-        "platform": "tiktok",
-        "engagement": 14497,
-        "url": "https://www.tiktok.com/@passforall/video/7647716594080156936",
-        "date": "NaT"
-      },
-      {
         "text": "Menjunjung kasih DYMM Yang di-Pertuan Besar Negeri Sembilan Darul Khusus Tuanku Muhriz ibni Almarhum Tuanku Munawir, DYMM Tunku Ampuan Besar Negeri Sembilan Tuanku Aishah Rohani binti Almarhum Tengku ",
         "platform": "tiktok",
         "engagement": 9982,
         "url": "https://www.tiktok.com/@negerifmofficial/video/7594878145208110343",
         "date": "NaT"
+      },
+      {
+        "text": "9 JUN 26: ISTIADAT pemasyhuran Tunku Nadzaruddin Tuanku Ja’afar sebagai Yang di-Pertuan Besar Negeri Sembilan ke-12 di sebuah hotel di Alor Gajah, Melaka, Jumaat lalu tidak sah.\n\nPengelola Bijaya Dira",
+        "platform": "tiktok",
+        "engagement": 9225,
+        "url": "https://www.tiktok.com/@utusantvofficial/video/7649415827476843796",
+        "date": "2026-06-11 16:35:14"
       },
       {
         "text": "Pergolakan di Negeri Sembilan.\n\nKenyataan Media Undang yang Empat \n\nMengikut Kenyataan, menyatakan yang Dato Mubarak masih Undang yang sah dan Menteri Besar tidak layak menerajui Pentadbiran Kerajaan ",
@@ -194,11 +182,11 @@
         "date": "NaT"
       },
       {
-        "text": "“Saya telah berhijrah ke bulan tanpa menggunakan roket”\n\nDemikian kata-kata bayangan bekas Pengerusi MIC Negeri Sembilan Datuk L Manickam,  menyatakan penyertaannya ke dalam parti PAS.\n\nManickam menul",
+        "text": "Tunku Zain kini Tunku Panglima Besar Negeri Sembilan \n\nPutera kedua Yang di-Pertuan Besar(YDPB) Negeri Sembilan iaitu Tunku Zain Al- 'Abidin Tuanku Muhriz dimasyhurkan sebagai Tunku Panglima Besar yan",
         "platform": "tiktok",
-        "engagement": 5171,
-        "url": "https://www.tiktok.com/@beritapertiwi/video/7398107699113725189",
-        "date": "NaT"
+        "engagement": 6612,
+        "url": "https://www.tiktok.com/@sinarharianonline/video/7649987408917712149",
+        "date": "2026-06-11 16:35:59"
       },
       {
         "text": "Option 1: Bubar DUN, buat PRN.\n\nOption 2: Tukar MB, kekal kerajaan PHUMDAP Negeri Sembilan. MB UMDAP. UMDAP Mantap.\n\nOption 3: Tukar MB, tukar kepada kerajaan BNPN, MB UMNO. Muafakat Nasional.\n\nNetize",
@@ -206,86 +194,93 @@
         "engagement": 5117,
         "url": "https://www.tiktok.com/@ishamjalilofficial/video/7633337771393961224",
         "date": "NaT"
+      },
+      {
+        "text": "𝗞𝗘𝗡𝗬𝗔𝗧𝗔𝗔𝗡 𝗠𝗘𝗗𝗜𝗔\n𝟴 𝗝𝗨𝗡 𝟮𝟬𝟮𝟲\n\n𝗣𝗘𝗥𝗠𝗢𝗛𝗢𝗡𝗔𝗡 𝗠𝗘𝗡𝗔𝗪𝗔𝗥𝗞𝗔𝗡 𝗗𝗜𝗥𝗜 𝗠𝗘𝗡𝗝𝗔𝗗𝗜 𝗖𝗔𝗟𝗢𝗡 𝗕𝗘𝗥𝗦𝗔𝗠𝗔 𝗞𝗜𝗡𝗜 𝗗𝗜𝗕𝗨𝗞𝗔\n\nHasrat 𝗕𝗘𝗥𝗦𝗔𝗠𝗔 untuk merintis budaya politik yang berfokus kepada bakat rakyat dan masa depan kini dizahirkan ",
+        "platform": "tiktok",
+        "engagement": 4460,
+        "url": "https://www.tiktok.com/@rafiziramli/video/7648942457631018248",
+        "date": "2026-06-11 09:41:31"
       }
     ],
-    "political_rows": 136,
+    "political_rows": 250,
     "insights": [
-      "NS: 143 posts (36 jam) — 136 berkait politik PAS/Bersatu",
-      "Solo 25 vs Split 14 vs PN 25",
-      "MN hanya 5 mention — naratif MN belum kuat di awam NS",
+      "NS: 259 posts (36 jam) — 250 berkait politik PAS/Bersatu",
+      "Solo 6 vs Split 39 vs PN 29",
+      "MN hanya 12 mention — naratif MN belum kuat di awam NS",
       "Demografi = proxy bahasa (bukan census rasmi)"
     ]
   },
   "top_viral_political": [
     {
-      "text": "ada yg gini ga disekolahnya? Udah putus tapi keadaan memaksa buat tetap bersatu, ANZAY🤤 #sptrakori_ #fyp",
+      "text": "PC pagi tadi selepas Majlis Perhimpunan Sempena Sambutan Maal Hijrah Peringkat Negeri Kedah bagi tahun 1445h",
       "platform": "tiktok",
-      "engagement": 1414687,
-      "url": "https://www.tiktok.com/@sptrakori_/video/7227704417729006875",
-      "date": "NaT"
+      "engagement": 145108,
+      "url": "https://www.tiktok.com/@sanusimdnor/video/7257399666373856514",
+      "date": "2026-06-11 01:13:46"
     },
     {
-      "text": "The Power of Recehan Anak Sekolah! 💸 Data OJK Q1 2026 mencatat tabungan pelajar se-Indonesia tembus Rp29,13 Triliun! Gimana ceritanya?\n\nKeuangan (OJK) rilis kabar menarik soal kebiasaan menabung di ka",
+      "text": "Berlepas ke Tokyo, Jepun tengah hari tadi bagi memulakan lawatan rasmi sehingga Rabu ini bagi mengetuai delegasi Malaysia dalam misi Diplomasi MADANI untuk memperkukuh kerjasama strategik dan keterjam",
       "platform": "tiktok",
-      "engagement": 375716,
-      "url": "https://www.tiktok.com/@cutmediaup/video/7644796597590658325",
-      "date": "NaT"
+      "engagement": 106125,
+      "url": "https://www.tiktok.com/@anwaribrahimofficial/video/7648947469459524885",
+      "date": "2026-06-11 09:41:25"
     },
     {
-      "text": "bersatu pas istirahat & sholat",
+      "text": "Mahkamah Tinggi Alor Setar semalam memutuskan Menteri Dalam Negeri, Saifuddin Nasution Ismail telah memfitnah Menteri Besar Kedah, Muhammad Sanusi Md Nor.  \n\nTuduhan itu berkait dakwaan bahawa Sanusi ",
       "platform": "tiktok",
-      "engagement": 70275,
-      "url": "https://www.tiktok.com/@mimawmo/video/7392930288730426629",
-      "date": "NaT"
+      "engagement": 79429,
+      "url": "https://www.tiktok.com/@malaysia_kini/video/7542485815205694738",
+      "date": "2026-06-11 01:14:09"
     },
     {
-      "text": "Kenyataan Media Presiden PAS\n\nPAS MENGUTUK ISRAEL ATAS PEMBUNUHAN YAHYA SINWAR\n\nFirman Allah:\n\n‎﴿مِّنَ ٱلۡمُؤۡمِنِينَ رِجَالٞ صَدَقُواْ مَا عَٰهَدُواْ ٱللَّهَ عَلَيۡهِۖ فَمِنۡهُم مَّن قَضَىٰ نَحۡبَهُۥ",
+      "text": "Bekas pengawal peribadi Datuk Seri Najib Razak, Datuk Alias Yahya mengimbau detik rumah bekas perdana menteri itu digeledah pihak berkuasa pada malam pertama Ramadan selepas kekalahan Pilihan Raya Umu",
       "platform": "tiktok",
-      "engagement": 43521,
-      "url": "https://www.tiktok.com/@abdulhadiawang/video/7427097910849834248",
-      "date": "NaT"
+      "engagement": 47244,
+      "url": "https://www.tiktok.com/@ohmymedia.cc/video/7649598704512421141",
+      "date": "2026-06-11 16:35:32"
     },
     {
-      "text": "#muhyiddinyassin #bersatu #perikatannasional #prnjohor #prnmelaka",
+      "text": "10 JUN 26: MAHKAMAH Tinggi Kuala Lumpur hari ini memerintahkan Datin Seri Rosmah Mansor membayar RM67.5 juta kepada syarikat tukang emas mewah dari Lubnan selepas didapati gagal memulangkan 43 baranga",
       "platform": "tiktok",
-      "engagement": 42303,
-      "url": "https://www.tiktok.com/@abahkitemuhyiddin/video/7630401553228156181",
-      "date": "NaT"
+      "engagement": 37236,
+      "url": "https://www.tiktok.com/@utusantvofficial/video/7649612229322525972",
+      "date": "2026-06-11 16:35:12"
     },
     {
-      "text": "Sidang Media Presiden PAS\n\n“PAS akan menilai semula kerjasama politik dengan Bersatu”",
+      "text": "Apa yang tidak ada pada orang lain, ahli PAS sentiasa bersedia berjuang, bukan sahaja ketika senang, bahkan waktu susah, bukan sahaja ketika rajin, bahkan saat letih, bukan sahaja ketika ada, bahkan k",
       "platform": "tiktok",
-      "engagement": 36119,
-      "url": "https://www.tiktok.com/@abdulhadiawang/video/7642561860880944392",
-      "date": "NaT"
+      "engagement": 30561,
+      "url": "https://www.tiktok.com/@sanusimdnor/video/7632929919625874696",
+      "date": "2026-06-11 01:13:34"
     },
     {
-      "text": "Khas untuk 6 negeri PRN #prn15 #perikatannasional #partiislamsemalaysiapas #kedah #kelantan #terengganu #pulaupinang #selangor #negerisembilan #pnbest #foryou #fyp",
+      "text": "Pelakon Siti Khadijah Halim mengakui kurang selesa untuk melakonkan babak berkemban dalam filem Khadam, sehingga meminta pihak produksi menyediakan kardigan khas bagi membantu menjaga penampilannya ta",
       "platform": "tiktok",
-      "engagement": 32017,
-      "url": "https://www.tiktok.com/@yen_editor_/video/7258003087745469698",
-      "date": "NaT"
+      "engagement": 28327,
+      "url": "https://www.tiktok.com/@ohmymedia.cc/video/7649670724986096916",
+      "date": "2026-06-11 16:35:29"
     },
     {
-      "text": "•kdm• Jung Kyungho dan Choi Sooyoung dikonfirmasi resmi putus. Keduanya uda pacaran selama 14 tahun dan dua-duanya juga sudah saling unfollow akun Instagram. https://t.co/uRRRGOsoMu",
-      "platform": "x",
-      "engagement": 31647,
-      "url": "https://x.com/kdrama_menfess/status/2064245429471248397",
-      "date": "2026-06-09 07:17:16"
-    },
-    {
-      "text": "Puluhan Tahun Sudah Tok Guru Mencurah Ilmu\n\nOleh : Dr Azman Ibrahim\n\nPuluhan tahun sudah Tuan Guru Haji Abdul Hadi Awang menjadikan sebuah perkampungan nelayan di tepi Pantai Marang Terengganu sebagai",
+      "text": "Data Jabatan Perangkaan Malaysia (DOSM) pada Oktober tahun lalu mendedahkan populasi Orang Asli di Malaysia dianggarkan meningkat kepada 227,900 orang (2025) berbanding 213,461 (2020).\n\nBagaimanapun, ",
       "platform": "tiktok",
-      "engagement": 31356,
-      "url": "https://www.tiktok.com/@inderashafri/video/7591462837713767700",
-      "date": "NaT"
+      "engagement": 26037,
+      "url": "https://www.tiktok.com/@sinarharianonline/video/7649953969057451284",
+      "date": "2026-06-11 16:36:05"
     },
     {
-      "text": "tu donnes la CDM à un pays qui n’est pas un pays de football, ça te fout des quart temps comme si t’étais à la nba, des pubs pdt les pauses fraîcheurs, ça empêche des supporters de certains pays de ve",
-      "platform": "x",
-      "engagement": 31099,
-      "url": "https://x.com/slzsn_/status/2064334168276799557",
-      "date": "2026-06-09 13:09:53"
+      "text": "Pas putus hubungan politik dengan Bersatu serta-merta\n\nKUALA LUMPUR - Pas mengejutkan landskap politik tanah air apabila membuat ketetapan mengejut untuk menghentikan serta-merta kerjasama politik den",
+      "platform": "tiktok",
+      "engagement": 21947,
+      "url": "https://www.tiktok.com/@jpsyndicate/video/7649052502503001364",
+      "date": "2026-06-11 15:59:12"
+    },
+    {
+      "text": "𝗗𝗔𝗧𝗜𝗡 𝗦𝗘𝗥𝗜 𝗥𝗢𝗦𝗠𝗔𝗛 𝗠𝗔𝗡𝗦𝗢𝗥 𝗗𝗜𝗔𝗥𝗔𝗛 𝗕𝗔𝗬𝗔𝗥 𝗥𝗠𝟲𝟳 𝗝𝗨𝗧𝗔 𝗚𝗔𝗡𝗧𝗜 𝗖𝗜𝗡𝗖𝗜𝗡 𝗣𝗘𝗥𝗠𝗔𝗧𝗔 𝗬𝗔𝗡𝗚 𝗗𝗜𝗥𝗔𝗠𝗣𝗔𝗦\n\nMahkamah Tinggi Kuala Lumpur hari ini mengarahkan Datin Seri Rosmah Mansor membayar RM67 juta kepada sebuah syarikat",
+      "platform": "tiktok",
+      "engagement": 16189,
+      "url": "https://www.tiktok.com/@rafiziramli/video/7649735512462232839",
+      "date": "2026-06-11 09:41:29"
     }
   ],
   "recommendations": [

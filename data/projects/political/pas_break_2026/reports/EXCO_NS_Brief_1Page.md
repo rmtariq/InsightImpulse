@@ -1,35 +1,37 @@
-# Brief EXCO Negeri Sembilan — PAS–Bersatu Split
-**Tarikh:** 11 Jun 2026 · **Window analisis:** 9–10 Jun 2026 (36 jam post-pengumuman)
+# Brief EXCO Negeri Sembilan — PAS–Bersatu Split (Updated)
+**Tarikh:** 11 Jun 2026 · **Window:** 9–11 Jun 2026 (event window + split narrative)
 
 ---
 
-## Apa Berlaku?
-PAS dan Bersatu mengisytiharkan berpisah pada **9 Jun 2026 (malam)**. InsightPulse menganalisis **2,583 posts** (social + berita) dalam window 36 jam, dibanding baseline **681 posts** (30 hari pre-split, Mei–8 Jun).
-
-## 3 Insight Utama (National)
-1. **Split kini explicit** — naratif berpisah/retak naik dari **4.6% → 10.7%** post-pengumuman.
-2. **PAS solo sudah wujud sebelum split** — **17.6%** pre-split vs **7.6%** post (peratus turun kerana volume spike general, bukan hilang momentum).
-3. **MN belum jadi naratif awam** — hanya **1.0%** mention; **Penyatuan Ummah** naik ke **4.1%** — peluang framing.
-
-## Negeri Sembilan (143 posts)
+## Skala Data (EXCO Master)
 | Metrik | Nilai |
 |--------|-------|
-| PAS Solo mentions | 25 |
-| Split mentions | 14 |
-| MN mentions | 5 |
-| PN mentions | 25 |
-| Bahasa dominan (proxy) | BM 122 · Campuran 15 · English 5 |
+| **FULL master** | 68,256 rows |
+| **Event window** | 34,129 rows (1,711 posts + 32,418 comments) |
+| **Politik relevant** | 7,111 |
+| **Berita (news)** | 409 |
+| **Split narrative** | 1,467 (4.3%) |
+| **PAS Solo** | 288 (0.8%) |
 
-**Tafsiran NS:** Solo **mengatasi** split dalam sample ini. MN hampir tiada — jika hala tuju MN, perlu kempen naratif khusus. Demografi = **proxy bahasa** (bukan census rasmi).
+## Sentiment (Posts — Event Window)
+- **neutral:** 15874
+- **positive:** 9708
+- **negative:** 8547
 
-## Cadangan Strategik EXCO
-- **Monitor TikTok NS** — platform paling viral untuk NS (engagement tinggi).
-- **Bina naratif MN** jika MN dipilih — belum organic di awam NS.
-- **Counter-narrative ummah** — frame perpaduan vs perpecahan elit.
-- **Johor vs NS berbeza** — Johor split > solo (29 vs 11); NS solo > split (25 vs 14).
+## Negeri Sembilan
+| Metrik | Nilai |
+|--------|-------|
+| Posts NS | 222 |
+| PAS Solo | 6 |
+| Split | 36 |
+| MN | 12 |
+| PN | 29 |
 
 ## Dashboard
-- **Main:** `JITP_2026/PAS_Break_2026/PAS_Break_Dashboard_MAIN.html` (5 tab)
-- **NS EXCO:** `JITP_2026/PAS_Break_2026/PRN_NegeriSembilan_EXCO_Dashboard.html` (4 tab)
+- **Index:** `JITP_2026/PAS_Break_2026/index.html`
+- **Main:** `reports/PAS_Break_Dashboard_MAIN.html`
+- **NS EXCO:** `reports/PRN_NegeriSembilan_EXCO_Dashboard.html`
 
-*Buka fail HTML terus dalam browser — standalone, tiada server diperlukan.*
+## Master Files (Analyzed)
+- FULL: `master/PAS_Break_Master_EXCO_Analyzed_20260611_231347.csv`
+- EVENT: `master/PAS_Break_Master_EXCO_EventJun9-11_Analyzed_20260611_231347.csv`

@@ -1,0 +1,151 @@
+{
+  "analyzed_at": "2026-06-13T14:26:41",
+  "tier": "A",
+  "layer": "media_and_comments",
+  "layer_note": "Media Tone (artikel) + Public Voice (komen) — berasingan dari socmed master",
+  "source_csv": "data/projects/political/PRN/PRN_N9/crawls/news/PRN_N9_News_Multilingual_20260613_142629.csv",
+  "analyzed_csv": "data/projects/political/PRN/PRN_N9/crawls/news_analyzed/PRN_N9_News_Analyzed_TierA_20260613_142641.csv",
+  "rows_analyzed": 60,
+  "rows_skipped": 657,
+  "posts_analyzed": 60,
+  "comments_analyzed": 0,
+  "media_tone": {
+    "total": 60,
+    "positive": 11,
+    "neutral": 25,
+    "negative": 24,
+    "neg_pct": 40.0
+  },
+  "public_voice": {
+    "total": 0,
+    "positive": 0,
+    "neutral": 0,
+    "negative": 0,
+    "neg_pct": 0.0
+  },
+  "by_community": {
+    "melayu": {
+      "label": "Komuniti Melayu",
+      "posts": 17,
+      "neg_pct": 47.1,
+      "top_emotion": "no_clear_emotion"
+    },
+    "cina": {
+      "label": "Komuniti Cina",
+      "posts": 43,
+      "neg_pct": 37.2,
+      "top_emotion": "no_clear_emotion"
+    }
+  },
+  "narrative_alerts": [
+    {
+      "type": "narrative_split",
+      "count": 1,
+      "severity": "watch",
+      "sample": "UMNO tak khianat, sokongan hanya hingga tamat penggal – Ahmad Zahid. KUALA LUMPUR: UMNO menafikan tohmahan ‘berkhianat’ yang mencetuskan kemelut politik di Nege",
+      "message": "Naratif split PAS/PN muncul dalam 1 artikel/komen media (Tier A)"
+    },
+    {
+      "type": "palace_institution",
+      "count": 4,
+      "severity": "warning",
+      "sample": "PRN Johor: Majoriti tipis, 10 DUN kerusi panas. JOHOR BAHRU: Sekurang-kurangnya 10 kawasan Dewan Undangan Negeri (DUN) dikenal pasti sebagai kerusi panas dalam ",
+      "message": "Isu istana/institusi dalam 4 item media — pantau naratif"
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "公青团提呈柔森州选潜在人选名单 冀更多青年候选人上阵. （怡保13日讯）人民公正党青年团（公青团）已鉴定并向党候选人遴选委员会提呈柔佛及森美兰州选举潜在人选名单，目前正等待评估结果及党中央拍板定案。公青团团长慕哈末卡米尔表示，公青团已完成相关遴选工作，并将名单提交予候选人遴选委员会。“我已鉴定具潜力的人选，并已把名单提交给候选人遴选委员会。我们目前等待评估结果，相信很快就会有定案。”他今日在打国国",
+      "url": "https://www.orientaldaily.com.my/news/nation/2026/06/13/825537",
+      "community": "cina",
+      "type": "post",
+      "sentiment": "negative",
+      "emotion": "happy",
+      "domain": "orientaldaily.com.my"
+    },
+    {
+      "text": "PGA8 rampas 200 peranti vape di tepi Sungai Golok. PASIR MAS: Batalion 8 Pasukan Gerakan Am (PGA8) merampas 200 unit peranti vape dianggarkan bernilai RM20,000 yang ditinggalkan di tepi Sungai Golok d",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/06/1571189/pga8-rampas-200-peranti-vape-di-tepi-sungai-golok",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "negative",
+      "emotion": "sadness",
+      "domain": "bharian.com.my"
+    },
+    {
+      "text": "PRN Johor, Negeri Sembilan berasingan beri kelebihan kepada BN?, Ini penjelasan Khaled Nordin. KOTA TINGGI: Peluang menang mana-mana parti, termasuk Barisan Nasional (BN) pada Pilihan Raya Negeri (PRN",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/06/1571176/prn-johor-negeri-sembilan-berasingan-beri-kelebihan-kepada-bn-ini",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "negative",
+      "emotion": "no_clear_emotion",
+      "domain": "bharian.com.my"
+    },
+    {
+      "text": "PRN Johor: Majoriti tipis, 10 DUN kerusi panas. JOHOR BAHRU: Sekurang-kurangnya 10 kawasan Dewan Undangan Negeri (DUN) dikenal pasti sebagai kerusi panas dalam Pilihan Raya Negeri Johor (PRN) pada 11 ",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/06/1571152/prn-johor-majoriti-tipis-10-dun-kerusi-panas",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "negative",
+      "emotion": "no_clear_emotion",
+      "domain": "bharian.com.my"
+    },
+    {
+      "text": "Kemelut Negeri Sembilan bukan hanya politik, tapi..... Seremban: Di sebalik kemelut pemerintahan Negeri Sembilan yang terus mencetuskan perhatian ramai, pengamal media arus perdana berdepan antara cab",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/06/1369320/kemelut-negeri-sembilan-bukan-hanya-politik-tapi",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "negative",
+      "emotion": "anger",
+      "domain": "hmetro.com.my"
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "PRN: 'Yang penting, lawan tetap lawan' - Fadhlina. GEORGETOWN: Ketua Wanita PKR, Fadhlina Sidek memaklumkan parti berkenaan dalam proses memuktamadkan senarai calon bagi Pilihan Raya Negeri (PRN) Joho",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/06/1571221/prn-yang-penting-lawan-tetap-lawan-fadhlina",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "positive",
+      "emotion": "no_clear_emotion",
+      "domain": "bharian.com.my"
+    },
+    {
+      "text": "Tulang ikan terubuk kini boleh dilembutkan, tingkat potensi komersial. KOTA BHARU: Penyelidik Universiti Malaysia Kelantan (UMK) berjaya membangunkan teknologi inovatif pelembutan tulang terubuk, yang",
+      "url": "https://www.bharian.com.my/berita/nasional/2026/06/1571168/tulang-ikan-terubuk-kini-boleh-dilembutkan-tingkat-potensi-komersial",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "positive",
+      "emotion": "happy",
+      "domain": "bharian.com.my"
+    },
+    {
+      "text": "沙努西喊话横扫吉打 国盟放眼攻下所有国州议席. （亚罗士打13日讯）吉打州务大臣拿督斯里莫哈末沙努西放眼在来届吉打州选举，以及第16届全国大选中实现全面胜利，不仅要守住现有优势，更誓言拿下州内全部36个州议席及15个国会议席，进一步扩大国盟在吉打的政治影响力。身为伊斯兰党全国选举主任的沙努西指出，国盟目前在吉打已建立稳固基础，加上基层组织长期保持备战状态，使他对未来选举充满信心，而人民持续给予支持",
+      "url": "https://www.orientaldaily.com.my/news/north/2026/06/13/825497",
+      "community": "cina",
+      "type": "post",
+      "sentiment": "positive",
+      "emotion": "happy",
+      "domain": "orientaldaily.com.my"
+    },
+    {
+      "text": "赖芊翠：行动党的做派与逆鳞. 最近柔佛政坛最受关注的消息之一，莫过于原任士姑来州议员玛丽娜宣布退出政坛，不再寻求连任。如果只看事件本身，这似乎只是一次普通的人事变动。然而，当消息出现在州选讨论逐渐升温的时刻，再结合随后披露的党内安排，它所反映的，不仅仅是一个政治人物的个人选择。某程度上，这件事让外界看见了行动党长期以来的一种政治做派，以及这种做派第一次遇到不愿买账的人时，会产生的结果。行动党向来强",
+      "url": "https://www.orientaldaily.com.my/news/longmen/2026/06/13/825115",
+      "community": "cina",
+      "type": "post",
+      "sentiment": "positive",
+      "emotion": "sadness",
+      "domain": "orientaldaily.com.my"
+    },
+    {
+      "text": "Amanah pertaruh Ketua Pemuda negeri pada PRN Johor, N. Sembilan. TANJUNG MALIM: Amanah mempertaruhkan Ketua Pemuda Johor dan Negeri Sembilan pada Pilihan Raya Negeri (PRN) dua negeri tersebut. Pengara",
+      "url": "https://www.utusan.com.my/nasional/2026/06/amanah-pertaruh-ketua-pemuda-negeri-pada-prn-johor-n-sembilan/?utm_source=rss&utm_medium=rss&utm_campaign=amanah-pertaruh-ketua-pemuda-negeri-pada-prn-johor-n-sembilan",
+      "community": "melayu",
+      "type": "post",
+      "sentiment": "positive",
+      "emotion": "no_clear_emotion",
+      "domain": "utusan.com.my"
+    }
+  ],
+  "analysis_mode": "ml_models"
+}

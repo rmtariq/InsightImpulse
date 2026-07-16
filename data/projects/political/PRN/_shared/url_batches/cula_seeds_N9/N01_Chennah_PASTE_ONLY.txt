@@ -1,0 +1,28 @@
+# CULA DIGITAL — N01 Chennah (seed post URLs)
+# ==========================================================
+# Tier: LAWAN · Daerah: Jelebu
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Chennah (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N01
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Kg Chennah; FELDA Pasoh; Bukit Tinggi
+# ISU TEMPATAN: luar bandar; jalan rosak; FELDA; Orang Asli
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "korang Chennah — kestabilan ke perubahan yg korang nak?"
+#   "tengok isu luar bandar kat Kg Chennah, ada calon yg boleh selesaikan ke?"
+#   "PRN kali ni Chennah — sokong status quo ke nak perubahan?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Chennah atau Kg Chennah
+#   • Post sebut Chennah atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

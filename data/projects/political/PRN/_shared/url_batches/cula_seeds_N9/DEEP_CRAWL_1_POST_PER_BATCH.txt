@@ -1,0 +1,23 @@
+# Deep cula crawl — 1 POST PER JOB (max comments)
+# InsightPulse Direct URL · Facebook only · Dataset 2000 · 7 jobs (run separately)
+
+# Job 1 — Rembau (320 comments)
+https://www.facebook.com/PASRembau/posts/pfbid022A5rBufUwb6yJveLMcUhPvEa1sKUEiqc22HX6NyxiXaSRazu5eUsPCfQHqVwi7THl
+
+# Job 2
+https://www.facebook.com/story.php?story_fbid=1471472861680849&id=100064544482323
+
+# Job 3 — Chembong
+https://www.facebook.com/story.php?story_fbid=1326587592942741&id=100067745385121
+
+# Job 4
+https://www.facebook.com/story.php?story_fbid=1340236754887686&id=100067041223091
+
+# Job 5 — Inche Curry
+https://www.facebook.com/story.php?story_fbid=915512231558505&id=100092992087495
+
+# Job 6 — Port Dickson
+https://www.facebook.com/story.php?story_fbid=1417756590397446&id=100064893548554
+
+# Job 7 — Rasah/Labu
+https://www.facebook.com/story.php?story_fbid=1444357214402285&id=100064840594592

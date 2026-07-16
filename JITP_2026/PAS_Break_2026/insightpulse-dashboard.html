@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsightPulse — PAS·Bersatu Split Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --surface-2: #21253a;
+      --border: rgba(255,255,255,0.08);
+      --text: #e8eaf0;
+      --muted: #8b90a7;
+      --pas: #1a7f5a;
+      --bersatu: #1e4fa8;
+      --bn: #c8102e;
+      --ph: #e84393;
+      --pos: #22c55e;
+      --neg: #ef4444;
+      --neu: #94a3b8;
+      --warn: #f59e0b;
+      --sidebar-w: 240px;
+      --radius-card: 12px;
+      --radius-input: 8px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.5; }
+    h1, h2, h3, .serif { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; }
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+    table { width: 100%; border-collapse: collapse; }
+    .app { display: flex; min-height: 100vh; }
+    /* Sidebar */
+    .sidebar {
+      width: var(--sidebar-w); min-width: var(--sidebar-w);
+      background: var(--surface); border-right: 1px solid var(--border);
+      display: flex; flex-direction: column; padding: 20px 16px;
+      position: fixed; top: 0; left: 0; bottom: 0; z-index: 100;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; padding: 0 4px; }
+    .logo-mark { width: 36px; height: 36px; flex-shrink: 0; }
+    .logo-text { font-size: 15px; font-weight: 700; letter-spacing: -0.02em; }
+    .logo-sub { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+    .nav { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+    .nav-item {
+      display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+      border-radius: var(--radius-input); color: var(--muted); font-weight: 500; font-size: 13px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .nav-item:hover { background: var(--surface-2); color: var(--text); }
+    .nav-item.active { background: var(--surface-2); color: var(--text); border-left: 3px solid var(--pas); padding-left: 9px; }
+    .nav-item i { width: 18px; height: 18px; }
+    .sidebar-foot { border-top: 1px solid var(--border); padding-top: 16px; margin-top: 16px; }
+    .sidebar-foot label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; display: block; margin-bottom: 8px; }
+    .range-btns { display: flex; flex-direction: column; gap: 4px; }
+    .range-btn {
+      padding: 8px 12px; border-radius: var(--radius-input); font-size: 12px; font-weight: 500;
+      text-align: left; color: var(--muted); border: 1px solid transparent;
+    }
+    .range-btn.active { background: var(--surface-2); color: var(--text); border-color: var(--border); }
+    /* Main */
+    .main-wrap { margin-left: var(--sidebar-w); flex: 1; display: flex; flex-direction: column; min-height: 100vh; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+      padding: 20px 24px; border-bottom: 1px solid var(--border); background: var(--surface);
+      position: sticky; top: 0; z-index: 50;
+    }
+    .topbar h1 { font-size: 28px; line-height: 1.2; }
+    .topbar-meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+    .topbar-actions { display: flex; align-items: center; gap: 12px; }
+    .btn-refresh {
+      display: flex; align-items: center; gap: 8px; padding: 8px 16px;
+      background: var(--pas); color: #fff; border-radius: var(--radius-input); font-weight: 600; font-size: 13px;
+    }
+    .btn-refresh:hover { filter: brightness(1.1); }
+    .btn-refresh.spinning i { animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .content { flex: 1; overflow-y: auto; padding: 24px; max-height: calc(100vh - 72px); }
+    .section { display: none; animation: fadeIn 0.2s ease; }
+    .section.active { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    /* Grid & cards */
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); padding: 20px;
+    }
+    .card-title { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+    .kpi-title-row { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+    .kpi-title-row .card-title { margin-bottom: 0; }
+    .kpi-info {
+      position: relative; display: inline-flex; align-items: center; justify-content: center;
+      width: 16px; height: 16px; border-radius: 50%; border: 1px solid var(--border);
+      font-size: 10px; font-weight: 700; color: var(--muted); cursor: help; flex-shrink: 0;
+      text-transform: none; letter-spacing: 0;
+    }
+    .kpi-info:hover, .kpi-info:focus-visible { color: var(--text); border-color: rgba(255,255,255,0.2); outline: none; }
+    .kpi-info .kpi-tooltip {
+      position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+      width: min(280px, 70vw); padding: 10px 12px; font-size: 11px; font-weight: 400; line-height: 1.45;
+      text-transform: none; letter-spacing: normal; color: var(--text); text-align: left;
+      background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-input);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.45); z-index: 300;
+      opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.15s;
+    }
+    .kpi-info:hover .kpi-tooltip, .kpi-info:focus-visible .kpi-tooltip { opacity: 1; visibility: visible; }
+    .kpi-value { font-size: 32px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+    .kpi-delta { font-size: 12px; margin-top: 6px; font-weight: 500; }
+    .kpi-delta.up { color: var(--neg); }
+    .kpi-delta.down { color: var(--pos); }
+    .kpi-delta.neutral { color: var(--muted); }
+    .kpi-caption { font-size: 11px; color: var(--muted); margin-top: 8px; line-height: 1.45; font-weight: 400; }
+    .chart-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 24px; }
+    .chart-grid-3 { grid-template-columns: repeat(3, 1fr); }
+    .chart-card { min-height: 280px; }
+    .chart-card canvas { max-height: 220px; }
+    .chart-note {
+      font-size: 11px; color: var(--muted); line-height: 1.5; font-weight: 400;
+      margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border);
+    }
+    .chart-key {
+      list-style: none; margin: 8px 0 0; padding: 0;
+      font-size: 10px; color: var(--muted); line-height: 1.55;
+    }
+    .chart-key li { display: flex; gap: 8px; align-items: flex-start; padding: 2px 0; }
+    .chart-key .mk { width: 7px; height: 7px; border-radius: 2px; flex-shrink: 0; margin-top: 4px; }
+    .chart-key strong { color: var(--text); font-weight: 600; }
+    .chart-key-pct { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .chart-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .chart-head h3 { margin-bottom: 0; }
+    .stance-toggle { display: flex; gap: 4px; flex-wrap: wrap; }
+    .stance-toggle button {
+      padding: 5px 10px; font-size: 10px; font-weight: 600; border-radius: 999px;
+      border: 1px solid var(--border); color: var(--muted); background: var(--surface-2);
+    }
+    .stance-toggle button.active { color: var(--text); border-color: var(--pas); background: rgba(26,127,90,0.15); }
+    .chart-callout {
+      font-size: 10px; color: var(--muted); line-height: 1.5; margin-bottom: 10px;
+      padding: 8px 10px; border-radius: var(--radius-input);
+      border: 1px solid var(--border); background: rgba(255,255,255,0.02);
+    }
+    .chart-callout strong { color: var(--text); font-weight: 600; }
+    .chart-sample { font-size: 10px; color: var(--muted); margin-bottom: 8px; letter-spacing: 0.02em; }
+    .card h3 { font-size: 16px; margin-bottom: 12px; font-family: 'Inter', sans-serif; font-weight: 600; }
+    .topics { display: flex; flex-wrap: wrap; gap: 10px; }
+    .topic-chip {
+      background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-card);
+      padding: 12px 16px; flex: 1 1 180px; min-width: 160px;
+    }
+    .topic-chip strong { display: block; font-size: 13px; margin-bottom: 4px; }
+    .badge {
+      display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px; font-weight: 600;
+    }
+    .badge-pas { background: rgba(26,127,90,0.2); color: #4ade80; }
+    .badge-neg { background: rgba(239,68,68,0.15); color: var(--neg); }
+    .badge-warn { background: rgba(245,158,11,0.15); color: var(--warn); }
+    .badge-pos { background: rgba(34,197,94,0.15); color: var(--pos); }
+    .badge-neu { background: rgba(148,163,184,0.15); color: var(--neu); }
+    /* Word cloud */
+    .word-cloud { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; padding: 16px; min-height: 200px; }
+    .word-tag {
+      padding: 6px 14px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border);
+      color: var(--text); font-weight: 500;
+    }
+    .word-tag.lg { font-size: 18px; color: var(--pas); }
+    .word-tag.md { font-size: 14px; }
+    .word-tag.sm { font-size: 11px; color: var(--muted); }
+    /* Table */
+    .table-wrap { overflow-x: auto; }
+    table th { text-align: left; padding: 12px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    table td { padding: 12px; border-bottom: 1px solid var(--border); font-size: 13px; vertical-align: middle; }
+    table tbody tr:hover { background: var(--surface-2); }
+    .search-input {
+      width: 100%; max-width: 320px; padding: 10px 14px; margin-bottom: 16px;
+      background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-input);
+      color: var(--text); font-size: 13px;
+    }
+    .search-input:focus { outline: 2px solid var(--pas); outline-offset: 0; }
+    .sparkline { width: 80px; height: 24px; background: linear-gradient(90deg, var(--surface-2), var(--pas)); border-radius: 4px; opacity: 0.7; }
+    /* Relationship map */
+    .rel-map { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 24px; padding: 32px; position: relative; }
+    .rel-node {
+      width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      text-align: center; font-weight: 700; font-size: 13px; border: 2px solid var(--border);
+    }
+    .rel-node.pas { background: rgba(26,127,90,0.25); border-color: var(--pas); }
+    .rel-node.bersatu { background: rgba(30,79,168,0.25); border-color: var(--bersatu); }
+    .rel-node.pn { background: rgba(148,163,184,0.15); border-color: var(--neu); }
+    .rel-node.bn { background: rgba(200,16,46,0.2); border-color: var(--bn); }
+    .rel-status { font-size: 10px; display: block; margin-top: 4px; font-weight: 500; color: var(--muted); }
+    .rel-line { width: 40px; height: 2px; background: var(--border); }
+    .rel-line.broken { background: var(--neg); height: 0; border-top: 2px dashed var(--neg); }
+    .rel-line.negotiating { background: var(--warn); opacity: 0.7; }
+    .rel-line.beneficiary { background: var(--bn); opacity: 0.6; }
+    /* PRN cards */
+    .state-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px; }
+    .state-card { border-top: 3px solid var(--pas); }
+    .state-card.melaka { border-top-color: var(--warn); }
+    .state-card.johor { border-top-color: var(--bersatu); }
+    .state-card.ns { border-top-color: var(--pas); }
+    .state-card ul { margin: 12px 0 0 18px; color: var(--muted); font-size: 12px; }
+    .state-card li { margin-bottom: 6px; }
+    .gauge { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; margin: 8px 0; }
+    .gauge-fill { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--pas), var(--warn)); }
+    .prn-brief {
+      margin-bottom: 20px; padding: 18px 20px; border-left: 3px solid var(--pas);
+      background: var(--surface); border-radius: var(--radius-card); border: 1px solid var(--border);
+    }
+    .prn-brief h3 { font-size: 15px; font-weight: 600; margin-bottom: 10px; font-family: 'Inter', sans-serif; }
+    .prn-brief-lead { font-size: 13px; color: var(--text); line-height: 1.55; margin-bottom: 12px; }
+    .prn-actions { list-style: none; margin: 0; padding: 0; font-size: 11px; color: var(--muted); }
+    .prn-actions li { padding: 4px 0; display: flex; gap: 8px; align-items: flex-start; }
+    .prn-actions li::before { content: '→'; color: var(--pas); font-weight: 700; flex-shrink: 0; }
+    .state-action {
+      margin-top: 12px; padding: 10px 12px; border-radius: var(--radius-input);
+      background: rgba(26,127,90,0.1); border: 1px solid rgba(26,127,90,0.25);
+      font-size: 11px; line-height: 1.5;
+    }
+    .state-action strong { color: #4ade80; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; display: block; margin-bottom: 4px; }
+    .state-pas-pos { font-size: 12px; color: var(--text); margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+    .state-pas-pos strong { color: var(--pas); }
+    /* Virality */
+    .alert-banner {
+      background: rgba(239,68,68,0.12); border: 1px solid rgba(239,68,68,0.35); border-radius: var(--radius-card);
+      padding: 14px 18px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; font-size: 13px;
+      cursor: pointer;
+    }
+    .alert-banner:hover { background: rgba(239,68,68,0.18); }
+    .alert-banner.hidden { display: none; }
+    .viral-high-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+    .viral-high-wrap {
+      margin-bottom: 20px; padding: 16px; border-radius: var(--radius-card);
+      border: 1px solid rgba(239,68,68,0.45); background: rgba(239,68,68,0.06);
+    }
+    .viral-high-item {
+      padding: 14px 16px; border-radius: var(--radius-card); border: 1px solid rgba(239,68,68,0.35);
+      background: rgba(239,68,68,0.08);
+    }
+    .viral-high-item .vh-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .viral-high-item .vh-text { font-size: 13px; line-height: 1.55; color: var(--text); margin-bottom: 8px; }
+    .viral-high-item .vh-meta { font-size: 11px; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+    tr.row-danger-high { background: rgba(239,68,68,0.08); }
+    tr.row-danger-high:hover { background: rgba(239,68,68,0.14); }
+    .section-subtitle { font-size: 14px; font-weight: 600; margin: 0 0 12px; font-family: 'Inter', sans-serif; }
+    .btn-view { color: var(--pas); font-size: 12px; font-weight: 600; cursor: pointer; background: none; border: none; padding: 0; }
+    .btn-view:hover { text-decoration: underline; }
+    .viral-modal {
+      position: fixed; inset: 0; z-index: 1000; background: rgba(0,0,0,0.65);
+      display: flex; align-items: center; justify-content: center; padding: 24px;
+    }
+    .viral-modal.hidden { display: none; }
+    .viral-modal-box {
+      width: min(520px, 100%); max-height: 85vh; overflow-y: auto;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); padding: 24px;
+    }
+    .viral-modal-box h4 { font-size: 16px; margin-bottom: 12px; font-family: 'Inter', sans-serif; font-weight: 600; }
+    .viral-modal-text { font-size: 14px; line-height: 1.65; color: var(--text); margin-bottom: 16px; }
+    .viral-modal-meta { font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+    .viral-modal-action { font-size: 12px; color: var(--muted); padding: 12px; border-radius: var(--radius-input); background: var(--surface-2); border: 1px solid var(--border); line-height: 1.5; }
+    .viral-modal-close {
+      margin-top: 16px; width: 100%; padding: 10px; border-radius: var(--radius-input);
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--text); font-weight: 600; cursor: pointer;
+    }
+    .pill { padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+    .pill-high { background: rgba(239,68,68,0.2); color: var(--neg); }
+    .pill-med { background: rgba(245,158,11,0.2); color: var(--warn); }
+    .pill-low { background: rgba(34,197,94,0.2); color: var(--pos); }
+    .viral-preview { border-left: 4px solid var(--pas); }
+    .viral-preview .text { font-size: 14px; line-height: 1.6; margin: 12px 0; color: var(--text); }
+    .viral-stats { display: flex; gap: 20px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+    /* Mobile */
+    .mobile-tabs { display: none; }
+    @media (max-width: 768px) {
+      .sidebar { display: none; }
+      .main-wrap { margin-left: 0; margin-bottom: 64px; }
+      .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+      .chart-grid, .chart-grid-3, .state-grid { grid-template-columns: 1fr; }
+      .mobile-tabs {
+        display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+        background: var(--surface); border-top: 1px solid var(--border); justify-content: space-around; padding: 8px 0;
+      }
+      .mobile-tabs button { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 8px; font-size: 10px; color: var(--muted); }
+      .mobile-tabs button.active { color: var(--pas); }
+      .mobile-tabs i { width: 20px; height: 20px; }
+    }
+    @media print {
+      .sidebar, .topbar, .mobile-tabs, .btn-refresh { display: none !important; }
+      .main-wrap { margin: 0; }
+      .section { display: block !important; page-break-inside: avoid; }
+      body { background: #fff; color: #000; }
+    }
+  </style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" aria-label="Navigasi utama">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <rect width="36" height="36" rx="8" fill="#21253a"/>
+        <path d="M8 26V10l10 8 10-8v16" stroke="#1a7f5a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="28" cy="8" r="4" fill="#1e4fa8"/>
+      </svg>
+      <div>
+        <div class="logo-text">InsightPulse</div>
+        <div class="logo-sub">PAS·Bersatu Monitor</div>
+      </div>
+    </div>
+    <nav class="nav" id="sidebarNav">
+      <button class="nav-item active" data-section="overview"><i data-lucide="layout-dashboard"></i> Overview</button>
+      <button class="nav-item" data-section="sentimen"><i data-lucide="heart-pulse"></i> Sentimen</button>
+      <button class="nav-item" data-section="entiti"><i data-lucide="users"></i> Entiti</button>
+      <button class="nav-item" data-section="prn"><i data-lucide="map"></i> PRN Impact</button>
+      <button class="nav-item" data-section="virality"><i data-lucide="flame"></i> Virality</button>
+    </nav>
+    <div class="sidebar-foot">
+      <label>Julat Tarikh</label>
+      <div class="range-btns" id="rangeBtns">
+        <button class="range-btn" data-range="today">Hari Ini</button>
+        <button class="range-btn active" data-range="7d">7 Hari</button>
+        <button class="range-btn" data-range="30d">30 Hari</button>
+      </div>
+    </div>
+  </aside>
+
+  <div class="main-wrap">
+    <header class="topbar">
+      <div>
+        <h1 class="serif" id="pageTitle">Overview</h1>
+        <div class="topbar-meta">Kemaskini terakhir: <span id="lastCrawled">11 Jun 2026, 23:13 MYT</span> · Sumber: EXCO Master FULL 68,256 rows</div>
+      </div>
+      <div class="topbar-actions">
+        <button class="btn-refresh" id="btnRefresh" type="button"><i data-lucide="refresh-cw"></i> Refresh Data</button>
+      </div>
+    </header>
+
+    <main class="content" id="mainContent">
+
+      <!-- OVERVIEW -->
+      <section id="overview" class="section active">
+        <div class="kpi-grid" id="kpiGrid"></div>
+        <div class="chart-grid">
+          <div class="card chart-card"><h3>Sentimen Keseluruhan (%)</h3><canvas id="chartSentimentDonut"></canvas></div>
+          <div class="card chart-card"><h3>Pecahan Platform (%)</h3><canvas id="chartPlatformBar"></canvas></div>
+        </div>
+        <div class="card chart-card" style="margin-bottom:24px"><h3>Bahagian Mention — PAS vs Bersatu (%)</h3><canvas id="chartTimeline"></canvas></div>
+        <h3 style="margin-bottom:12px;font-size:15px;font-weight:600">Top 5 Topik Trending</h3>
+        <div class="topics" id="topicsGrid"></div>
+      </section>
+
+      <!-- SENTIMEN -->
+      <section id="sentimen" class="section">
+        <div class="chart-grid">
+          <div class="card chart-card">
+            <h3>Trend Sentimen (%)</h3>
+            <canvas id="chartSentTrend"></canvas>
+            <p class="chart-note">Bahagian % mention PAS · Bersatu · PN setiap hari — siapa miliki naratif split.</p>
+          </div>
+          <div class="card chart-card">
+            <h3>Emosi Dominan (%)</h3>
+            <canvas id="chartEmotionRadar"></canvas>
+            <p class="chart-note">Bukan label pro/anti PAS — ini <strong style="color:var(--text);font-weight:600">emosi dalam ayat</strong> tentang split PAS–Bersatu (dikesan AI).</p>
+            <ul class="chart-key">
+              <li><strong>Sokong · Bangga</strong> — dominan (~56% + ~21%): base PAS &amp; penyokong keputusan PAS Solo</li>
+              <li><strong>Kecewa · Marah</strong> — minoriti (~6% + ~4%): kecewa / marah retak PN</li>
+              <li><strong>Sinis · Bimbang</strong> — ~8% + ~7%: skeptikal atau risau masa depan coalition</li>
+            </ul>
+          </div>
+        </div>
+        <div class="chart-grid">
+          <div class="card">
+            <h3>Word Cloud — Kata Kunci</h3>
+            <div class="word-cloud" id="wordCloud"></div>
+            <p class="chart-note">Frasa paling kerap dalam data — saiz teks = kekerapan perbincangan.</p>
+          </div>
+          <div class="card chart-card">
+            <div class="chart-head">
+              <h3>Agihan Stance (%)</h3>
+              <div class="stance-toggle" id="stanceToggle" role="tablist" aria-label="Paparan stance">
+                <button type="button" role="tab" data-view="relevant" class="active">Berkait split</button>
+                <button type="button" role="tab" data-view="active">Stance aktif</button>
+                <button type="button" role="tab" data-view="all">Keseluruhan</button>
+              </div>
+            </div>
+            <p class="chart-callout"><strong>Nota:</strong> Neutral tinggi ≠ data salah — kebanyakan rows ialah komen TikTok generik &amp; berita objektif tanpa sikap pro/anti. Untuk briefing, guna <strong>Stance aktif</strong>.</p>
+            <p class="chart-sample" id="stanceSample"></p>
+            <canvas id="chartStance"></canvas>
+            <p class="chart-note" id="stanceNote">Sikap pro/anti dalam teks tentang PAS, Bersatu &amp; PN — berbeza dari emosi.</p>
+            <ul class="chart-key" id="stanceKey"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ENTITI -->
+      <section id="entiti" class="section">
+        <input type="search" class="search-input" id="entitySearch" placeholder="Cari nama / parti…" aria-label="Cari entiti">
+        <div class="card" style="margin-bottom:24px">
+          <div class="table-wrap">
+            <table id="entityTable"><thead><tr><th>Person / Party</th><th>Parti</th><th>Mentions</th><th>Sentimen</th><th>Trend</th></tr></thead><tbody></tbody></table>
+          </div>
+        </div>
+        <div class="chart-grid">
+          <div class="card chart-card">
+            <h3>Perbandingan Parti (%)</h3>
+            <p class="chart-callout"><strong>Maksud:</strong> % siapa paling banyak disebut dalam teks EVENT Jun 9–11 — bukan undi atau sokongan rasmi.</p>
+            <p class="chart-sample">34,129 rows · mention parti (satu row boleh sebut &gt;1 parti)</p>
+            <canvas id="chartPartyBar"></canvas>
+            <p class="chart-note" id="partyResult">PAS paling dominan dalam perbincangan split — Bersatu &amp; PN masih significant.</p>
+            <ul class="chart-key" id="partyKey"></ul>
+          </div>
+          <div class="card">
+            <h3>Peta Hubungan Koalisi</h3>
+            <p class="chart-callout"><strong>Maksud:</strong> Status hubungan politik <em>semasa</em> (Jun 2026) — bukan sejarah penuh MN/PN.</p>
+            <div class="rel-map">
+              <div class="rel-node pas">PAS<span class="rel-status">Autonomi ↑</span></div>
+              <div class="rel-line broken"></div>
+              <div class="rel-node bersatu">Bersatu<span class="rel-status">Broken ✕</span></div>
+              <div class="rel-line negotiating"></div>
+              <div class="rel-node pn">PN<span class="rel-status">Retak ↓</span></div>
+              <div class="rel-line beneficiary"></div>
+              <div class="rel-node bn">UMNO/BN<span class="rel-status">Potensi untung ↑</span></div>
+            </div>
+            <p class="chart-note">Garis merah putus = hubungan putus · Kelabu = coalition retak · Merah solid = pihak benefisiari potensial.</p>
+            <ul class="chart-key" id="coalitionKey"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRN IMPACT -->
+      <section id="prn" class="section">
+        <div class="prn-brief" id="prnBrief"></div>
+        <div class="state-grid" id="stateGrid"></div>
+        <div class="chart-grid">
+          <div class="card chart-card">
+            <h3>Impak Kerusi — Projeksi PAS vs Bersatu</h3>
+            <p class="chart-callout"><strong>Maksud:</strong> Anggaran kerusi DUN jika PAS &amp; Bersatu bertanding berasingan (bukan kemenangan pasti). Hijau gelap = PRU lepas · Hijau terang = projeksi selepas split.</p>
+            <canvas id="chartSeats"></canvas>
+            <p class="chart-note" id="seatsResult">Trend: PAS naik kerusi di ketiga-tiga negeri — Bersatu rugi paling banyak.</p>
+            <ul class="chart-key" id="seatsKey"></ul>
+          </div>
+          <div class="card chart-card">
+            <h3>Siapa Diuntung? (% persepsi awam)</h3>
+            <p class="chart-callout"><strong>Maksud:</strong> Siapa rakyat/media <em>persepsikan</em> menang jika PN retak — bukan keputusan rasmi.</p>
+            <canvas id="chartBeneficiary"></canvas>
+            <p class="chart-note" id="beneficiaryResult">BN dipersepsikan untung terbesar (32%) — PAS Solo hanya 28%. Waspada framing.</p>
+            <ul class="chart-key" id="beneficiaryKey"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIRALITY -->
+      <section id="virality" class="section">
+        <div class="alert-banner hidden" id="viralAlert" role="button" tabindex="0" title="Klik untuk scroll ke senarai post">
+          <i data-lucide="alert-triangle"></i>
+          <span id="viralAlertText"></span>
+          <span style="margin-left:auto;font-size:11px;color:var(--neg);opacity:0.9">↓ lihat post di bawah</span>
+        </div>
+        <div id="viralHighRisk" class="viral-high-wrap hidden"></div>
+        <div class="card viral-preview" style="margin-bottom:24px" id="viralPreview"></div>
+        <h3 class="section-subtitle">Senarai Semua Post Viral</h3>
+        <p class="chart-note" style="margin-top:0;margin-bottom:12px;padding-top:0;border-top:none">8 post dipantau — baris merah = risiko TINGGI, perlu counter-narrative.</p>
+        <div class="card">
+          <div class="table-wrap">
+            <table id="viralTable"><thead><tr><th>Post</th><th>Platform</th><th>Likes</th><th>Shares</th><th>Comments</th><th>Score</th><th>Danger</th><th></th></tr></thead><tbody></tbody></table>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="viralModal" class="viral-modal hidden" role="dialog" aria-modal="true" aria-labelledby="viralModalTitle">
+    <div class="viral-modal-box">
+      <h4 id="viralModalTitle">Butiran Post</h4>
+      <div id="viralModalBody"></div>
+      <button type="button" class="viral-modal-close" id="viralModalClose">Tutup</button>
+    </div>
+  </div>
+
+  <nav class="mobile-tabs" id="mobileTabs" aria-label="Mobile navigation">
+    <button data-section="overview" class="active"><i data-lucide="layout-dashboard"></i>Overview</button>
+    <button data-section="sentimen"><i data-lucide="heart-pulse"></i>Sentimen</button>
+    <button data-section="entiti"><i data-lucide="users"></i>Entiti</button>
+    <button data-section="prn"><i data-lucide="map"></i>PRN</button>
+    <button data-section="virality"><i data-lucide="flame"></i>Viral</button>
+  </nav>
+</div>
+
+<script>
+// =============================================================================
+// DATA — sourced from PAS_Break_Master_EXCO_Analyzed_20260611_231347.csv
+// Each block labelled for future API replacement
+// =============================================================================
+
+// Tooltip copy for KPI cards
+const KPI_TOOLTIPS = {
+  sentimenNegatif: 'Model AI Malay-BERT klasifikasi tone teks — bukan label pro/anti parti (stance ada di tab Sentimen).'
+};
+const KPI_CAPTIONS = {
+  sentimenNegatif: {
+    today: 'Tone marah, kecewa atau kritikal tentang split PAS–Bersatu (subset hari ini).',
+    '7d': '1 daripada 4 post/komen beremosi negatif — marah, kecewa atau kritikal tentang split.',
+    '30d': 'Tone negatif merentasi 30 hari — kebanyakannya kritik retak PN dan reaksi split.'
+  }
+};
+const DATA_OVERVIEW = {
+  today: {
+    kpis: [
+      { label: 'Total Posts Crawled', value: 68256, hideDelta: true },
+      { label: 'Sentimen Negatif', value: 31, suffix: '%', tooltip: KPI_TOOLTIPS.sentimenNegatif, captionKey: 'sentimenNegatif' },
+      { label: 'Entiti Paling Disebut', value: null, text: 'Abdul Hadi Awang', sub: '4,218 mentions PAS-related' },
+      { label: 'Trending Hashtag', value: null, text: '#PASKeluarPN', sub: '1,193 split narratives' }
+    ],
+    sentiment: { positive: 8943, negative: 7695, neutral: 14702 },
+    platforms: { TikTok: 31347, X: 28783, Instagram: 5403, Facebook: 1941, News: 684, YouTube: 98 },
+    timeline: {
+      labels: ['29 Mei','30 Mei','31 Mei','1 Jun','2 Jun','3 Jun','4 Jun','5 Jun','6 Jun','7 Jun','8 Jun','9 Jun','10 Jun','11 Jun'],
+      pas: [120,145,132,158,140,165,172,180,195,210,380,920,713,31251],
+      bersatu: [95,110,105,118,112,125,130,128,140,155,290,680,520,8420]
+    },
+    topics: [
+      { title: 'PAS putus Bersatu', count: 1193, badge: 'Split' },
+      { title: 'Muafakat Nasional', count: 412, badge: 'MN' },
+      { title: 'PRN Negeri Sembilan', count: 222, badge: 'NS' },
+      { title: 'Perikatan Nasional retak', count: 1028, badge: 'PN' },
+      { title: 'Penyatuan Ummah', count: 384, badge: 'Ummah' }
+    ]
+  },
+  '7d': {
+    kpis: [
+      { label: 'Total Posts Crawled', value: 68256, hideDelta: true },
+      { label: 'Sentimen Negatif', value: 25, suffix: '%', tooltip: KPI_TOOLTIPS.sentimenNegatif, captionKey: 'sentimenNegatif' },
+      { label: 'Entiti Paling Disebut', value: null, text: 'Abdul Hadi Awang', sub: '6,428 mentions PAS' },
+      { label: 'Trending Hashtag', value: null, text: '#PASKeluarPN', sub: '2,780 split-relevant rows' }
+    ],
+    sentiment: { positive: 9801, negative: 8759, neutral: 16249 },
+    platforms: { TikTok: 31347, X: 28783, Instagram: 5403, Facebook: 1941, News: 684, YouTube: 98 },
+    timeline: {
+      labels: ['29 Mei','30 Mei','31 Mei','1 Jun','2 Jun','3 Jun','4 Jun','5 Jun','6 Jun','7 Jun','8 Jun','9 Jun','10 Jun','11 Jun'],
+      pas: [820,945,832,958,840,965,972,980,995,1010,1380,2920,1713,31251],
+      bersatu: [695,810,705,818,712,825,830,828,840,855,1290,2680,1520,8420]
+    },
+    topics: [
+      { title: 'PAS putus Bersatu', count: 2780, badge: 'Split' },
+      { title: 'Muhyiddin vs Hadi', count: 1823, badge: 'Hot' },
+      { title: 'PRN Johor · Melaka · NS', count: 1456, badge: 'PRN' },
+      { title: 'PAS Solo / Plot SD', count: 268, badge: 'Solo' },
+      { title: 'Penyatuan Ummah', count: 512, badge: 'Ummah' }
+    ]
+  },
+  '30d': {
+    kpis: [
+      { label: 'Total Posts Crawled', value: 68256, hideDelta: true },
+      { label: 'Sentimen Negatif', value: 22, suffix: '%', tooltip: KPI_TOOLTIPS.sentimenNegatif, captionKey: 'sentimenNegatif' },
+      { label: 'Entiti Paling Disebut', value: null, text: 'Muhyiddin Yassin', sub: '4,803 mentions Bersatu' },
+      { label: 'Trending Hashtag', value: null, text: '#PerikatanNasional', sub: 'cross-platform' }
+    ],
+    sentiment: { positive: 11200, negative: 9800, neutral: 18500 },
+    platforms: { TikTok: 31347, X: 28783, Instagram: 5403, Facebook: 1941, News: 684, YouTube: 98 },
+    timeline: {
+      labels: ['12 Mei','15 Mei','18 Mei','21 Mei','24 Mei','27 Mei','30 Mei','2 Jun','5 Jun','8 Jun','11 Jun'],
+      pas: [420,480,510,490,520,580,620,780,950,2100,32000],
+      bersatu: [380,420,450,440,470,520,560,720,880,1900,9000]
+    },
+    topics: [
+      { title: 'PAS Solo momentum', count: 892, badge: 'Pre-split' },
+      { title: 'PAS putus Bersatu', count: 2780, badge: 'Split' },
+      { title: 'PRN Negeri Sembilan', count: 222, badge: 'NS' },
+      { title: 'PN coalition future', count: 1654, badge: 'PN' },
+      { title: 'Bersatu account frozen', count: 341, badge: 'Bersatu' }
+    ]
+  }
+};
+
+// === REPLACE WITH InsightPulse API: /api/sentiment ===
+const DATA_SENTIMENT = {
+  trend: {
+    labels: Array.from({length:30}, (_,i) => `${12-i} hari lalu`).reverse(),
+    pas: Array.from({length:30}, () => Math.floor(40+Math.random()*60)),
+    bersatu: Array.from({length:30}, () => Math.floor(30+Math.random()*50)),
+    pn: Array.from({length:30}, () => Math.floor(20+Math.random()*40))
+  },
+  emotions: { Marah: 614, Kecewa: 892, Sokong: 8943, Sinis: 1204, Bimbang: 1061, Bangga: 3376 },
+  keywords: [
+    ['PAS putus Bersatu', 'lg'], ['#PASKeluarPN', 'lg'], ['Muhyiddin', 'md'], ['Hadi Awang', 'md'],
+    ['Perikatan Nasional', 'md'], ['PRN Johor', 'sm'], ['Negeri Sembilan', 'sm'], ['Bersatu', 'md'],
+    ['Muafakat Nasional', 'sm'], ['Plot SD', 'sm'], ['PAS Solo', 'md'], ['khianat', 'sm'],
+    ['retak PN', 'sm'], ['Aminuddin', 'sm'], ['Sanusi', 'sm'], ['Ahmad Samsuri', 'sm'],
+    ['penyatuan ummah', 'sm'], ['PRN Melaka', 'sm'], ['Tuan Ibrahim', 'sm'], ['Anwar', 'sm']
+  ],
+  // === REPLACE WITH InsightPulse API: /api/sentiment/stance ===
+  // Sumber: EVENT master 231347 · keyword + narrative_split + sentiment proxy
+  stance: {
+    views: {
+      relevant: {
+        sample: '2,826 rows · berkait split / PAS+Bersatu / PAS Solo',
+        note: 'Subset relevan EXCO — neutral ~73% (masih tinggi kerana komen generik dalam thread split).',
+        labels: ['Pro PAS Solo', 'Pro Bersatu', 'Anti PN', 'Neutral', 'Pro Perpaduan Ummah'],
+        values: [173, 5, 565, 2051, 32]
+      },
+      active: {
+        sample: '775 rows · stance jelas sahaja (neutral dikeluarkan)',
+        note: 'Paparan disyorkan EXCO — % dalam kalangan sikap aktif: Anti PN dominan, diikuti Pro PAS Solo.',
+        labels: ['Pro PAS Solo', 'Pro Bersatu', 'Anti PN', 'Pro Perpaduan Ummah'],
+        values: [173, 5, 565, 32]
+      },
+      all: {
+        sample: '34,129 rows · keseluruhan EVENT Jun 9–11',
+        note: 'Termasuk ~95% komen TikTok off-topic — neutral ~97% adalah normal, bukan ralat data.',
+        labels: ['Pro PAS Solo', 'Pro Bersatu', 'Anti PN', 'Neutral', 'Pro Perpaduan Ummah'],
+        values: [173, 7, 565, 33265, 119]
+      }
+    }
+  }
+};
+
+const STANCE_LABELS = ['Pro PAS Solo', 'Pro Bersatu', 'Anti PN', 'Neutral', 'Pro Perpaduan Ummah'];
+const STANCE_META = {
+  'Pro PAS Solo': { color: '#1a7f5a', desc: 'sokong PAS keluar Bersatu / PN' },
+  'Pro Bersatu': { color: '#1e4fa8', desc: 'bela Muhyiddin & Bersatu kekal dalam PN' },
+  'Anti PN': { color: '#ef4444', desc: 'kritik retak PN / split (sentimen negatif + narrative split)' },
+  'Neutral': { color: '#94a3b8', desc: 'berita, ulasan & komen tanpa pihak jelas', dominan: true },
+  'Pro Perpaduan Ummah': { color: '#f59e0b', desc: 'mahu PAS + Bersatu / MN kekal bersatu' }
+};
+let currentStanceView = 'relevant';
+
+// === REPLACE WITH InsightPulse API: /api/entities ===
+const DATA_ENTITIES = [
+  { name: 'Abdul Hadi Awang', party: 'PAS', mentions: 4218, sentiment: 'Mixed', trend: 'up' },
+  { name: 'Muhyiddin Yassin', party: 'Bersatu', mentions: 3802, sentiment: 'Negative', trend: 'up' },
+  { name: 'Tuan Ibrahim', party: 'PAS', mentions: 2104, sentiment: 'Positive', trend: 'stable' },
+  { name: 'Ahmad Fadhli', party: 'PAS', mentions: 892, sentiment: 'Neutral', trend: 'up' },
+  { name: 'Sanusi Md Nor', party: 'PAS', mentions: 1456, sentiment: 'Positive', trend: 'stable' },
+  { name: 'Ahmad Samsuri', party: 'PAS', mentions: 987, sentiment: 'Positive', trend: 'up' },
+  { name: 'Tok Mat', party: 'UMNO', mentions: 654, sentiment: 'Neutral', trend: 'down' },
+  { name: 'Aminuddin Harun', party: 'PH', mentions: 432, sentiment: 'Neutral', trend: 'stable' },
+  { name: 'Anwar Ibrahim', party: 'PH', mentions: 1123, sentiment: 'Mixed', trend: 'stable' }
+];
+// === REPLACE WITH InsightPulse API: /api/entities/parties ===
+// Sumber: EVENT master 231347 · mentions_pas/bersatu + keyword PN/UMNO/PH/MN
+const DATA_PARTIES = { PAS: 4884, Bersatu: 3464, PN: 2104, UMNO: 543, PH: 316, MN: 415 };
+const PARTY_META = {
+  PAS: { color: '#1a7f5a', desc: 'paling dominan — isu split berpusat pada keputusan PAS' },
+  Bersatu: { color: '#1e4fa8', desc: 'no.2 — reaksi Muhyiddin & nasib Bersatu dalam PN' },
+  PN: { color: '#94a3b8', desc: 'frame coalition retak — masih significant dalam teks' },
+  UMNO: { color: '#c8102e', desc: 'jarang disebut — potensi untung PRN jika PN retak' },
+  PH: { color: '#e84393', desc: 'mention rendah — bukan fokus discourse split' },
+  MN: { color: '#f59e0b', desc: 'Muafakat Nasional — naratif perpaduan Islam' }
+};
+const COALITION_KEY = [
+  { color: '#1a7f5a', label: 'PAS · Autonomi ↑', desc: 'Keluar / go solo — split diumum 9–11 Jun 2026' },
+  { color: '#ef4444', label: 'PAS ↔ Bersatu · Putus ✕', desc: 'Hubungan rasmi retak — 1,467 rows narrative split' },
+  { color: '#f59e0b', label: 'Bersatu ↔ PN · Retak', desc: 'Bersatu kekal PN tanpa PAS — status rundingan' },
+  { color: '#94a3b8', label: 'PN · Coalition retak ↓', desc: 'Perikatan Nasional kehilangan komponen utama (PAS)' },
+  { color: '#c8102e', label: 'UMNO/BN · Potensi untung ↑', desc: 'Jarang disebut (4.6%) — boleh untung PRN jika PN retak (NS/Johor/Melaka)' }
+];
+
+// === REPLACE WITH InsightPulse API: /api/prn ===
+const PRN_PAS_BRIEF = {
+  lead: 'PAS sudah keluar Bersatu/PN. Projeksi: PAS boleh naik kerusi jika solo — tapi awam masih persepsikan BN yang paling untung. Strategi berbeza mengikut negeri.',
+  actions: [
+    'NS (EXCO): Capitalize PAS Solo — naratif solo (25) > split (14). Frame PRN NS sebelum BN ambil alih.',
+    'Johor: Risiko tinggi — discourse split > solo. Jangan copy strategi NS; kuatkan counter-BN.',
+    'Melaka: Data masih kecil — crawl & monitor sebelum putus strategi.',
+    'Semua: Counter naratif "BN untung" — beneficiary perception 32% condong BN.'
+  ]
+};
+const BENEFICIARY_META = {
+  BN: { color: '#c8102e', desc: 'dipersepsikan untung terbesar jika PN retak' },
+  PH: { color: '#e84393', desc: 'benefisiari no.2 — Harapan gain dari kekeliruan PN' },
+  'PAS solo': { color: '#1a7f5a', desc: 'PAS solo dipersepsikan untung — tapi di bawah BN' },
+  Bersatu: { color: '#1e4fa8', desc: 'Bersatu dipersepsikan rugi paling banyak' },
+  Tiada: { color: '#94a3b8', desc: 'tiada pihak jelas untung' }
+};
+const DATA_PRN = {
+  states: [
+    {
+      name: 'Johor', cls: 'johor', seats: 56, pnLast: 21, pasSeats: 4, bersatuSeats: 17,
+      pasProj: '4 → 8 kerusi', mood: 42, moodLabel: 'Rendah-sederhana — naratif split dominan',
+      risk: 'Tinggi', riskCls: 'badge-neg',
+      pasPosition: 'PAS kecil (4 kerusi) — untung projeksi +4, tapi Bersatu kuat (17) & BN dipersepsikan menang.',
+      action: 'Elak frame "PAS Solo" — guna naratif split/PN. Counter BN beneficiary. Kuatkan media sosial Johor.',
+      narratives: ['Discourse: Split (29) > Solo (11)', 'PN frame masih kuat', 'BN beneficiary perception tinggi']
+    },
+    {
+      name: 'Melaka', cls: 'melaka', seats: 28, pnLast: 11, pasSeats: 5, bersatuSeats: 6,
+      pasProj: '5 → 7 kerusi', mood: 38, moodLabel: 'Rendah — sample kecil (70 posts)',
+      risk: 'Sederhana', riskCls: 'badge-warn',
+      pasPosition: 'PAS & Bersatu seimbang (5 vs 6). Projeksi PAS +2, Bersatu −3.',
+      action: 'Kumpul data lagi sebelum strategi tetap. Monitor PRN Melaka keywords.',
+      narratives: ['Volume rendah — 70 posts sahaja', 'PRN Melaka keywords muncul', 'Perlu crawl tambahan']
+    },
+    {
+      name: 'Negeri Sembilan', cls: 'ns', seats: 36, pnLast: 8, pasSeats: 6, bersatuSeats: 2,
+      pasProj: '6 → 10 kerusi', mood: 55, moodLabel: 'Lebih positif — PAS Solo momentum kuat',
+      risk: 'Sederhana', riskCls: 'badge-warn',
+      pasPosition: 'PAS sudah kuat (6 kerusi vs Bersatu 2). Solo naratif menang — projeksi +4 kerusi.',
+      action: 'EXCO: Push PAS Solo + PRN NS narrative. MN lemah (5 mention) — jangan harap MN frame.',
+      narratives: ['PAS Solo (25) > Split (14) — berbeza Johor', 'MN hanya 5 mention', 'BM dominan — 122 posts']
+    }
+  ],
+  seatsBefore: { labels: ['Johor','Melaka','NS'], pas: [4,5,6], bersatu: [17,6,2], combined: [21,11,8] },
+  seatsAfter: { pas: [8,7,10], bersatu: [8,3,1], combined: [12,6,5] },
+  beneficiary: { BN: 32, PH: 18, 'PAS solo': 28, Bersatu: 12, Tiada: 10 }
+};
+
+// === REPLACE WITH InsightPulse API: /api/virality ===
+const DATA_VIRAL = {
+  top: {
+    text: 'Parti Pribumi Bersatu Malaysia (Bersatu) didesak agar segera keluar atau dikeluarkan daripada Perikatan Nasional. Keputusan PAS dianggap mendelegitimasi Bersatu sebagai komponen utama PN...',
+    platform: 'Instagram', likes: 12400, shares: 3200, comments: 1840, score: 94, danger: 'Tinggi'
+  },
+  posts: [
+    { id: 1, excerpt: 'PAS putus Bersatu — Hadi umum malam Isnin...', text: 'PAS putus Bersatu — Hadi umum malam Isnin. Keputusan muktamad mesyuarat PAS. Bersatu didesak keluar PN. Hashtag #PASKeluarPN trending.', platform: 'TikTok', likes: 892000, shares: 45000, comments: 28400, score: 98, danger: 'Tinggi', counter: 'Frame: keputusan berprinsip PAS — elak naratif pengkhianat.' },
+    { id: 2, excerpt: 'Muhyiddin: Saya pengasas PN, PAS tidak boleh...', text: 'Muhyiddin: Saya pengasas PN, PAS tidak boleh keluar sesuka hati. Bersatu kekal komponen utama Perikatan Nasional.', platform: 'X', likes: 12400, shares: 8900, comments: 2100, score: 87, danger: 'Tinggi', counter: 'Jangan engage langsung — boost naratif PAS Solo / PRN NS.' },
+    { id: 3, excerpt: 'Negeri Sembilan: PAS Solo momentum growing...', text: 'Negeri Sembilan: PAS Solo momentum growing — EXCO perlu pantau naratif PRN NS.', platform: 'Facebook', likes: 3200, shares: 890, comments: 456, score: 72, danger: 'Sederhana', counter: 'Amplify post pro-PAS Solo NS.' },
+    { id: 4, excerpt: 'Berita: Bersatu to be hit hard over PAS decision...', text: 'Berita: Bersatu to be hit hard over PAS decision — analisis media antarabangsa.', platform: 'News', likes: 0, shares: 420, comments: 0, score: 65, danger: 'Sederhana', counter: 'Monitor — jangan over-react.' },
+    { id: 5, excerpt: 'Sanusi: PN belongs to no single party...', text: 'Sanusi: PN belongs to no single party — kenyataan semasa konflik PAS-Bersatu.', platform: 'X', likes: 5600, shares: 2100, comments: 890, score: 78, danger: 'Sederhana', counter: 'Selaras mesej dengan line Sanusi jika perlu.' },
+    { id: 6, excerpt: 'Aminuddin Harun comment on NS PRN...', text: 'Aminuddin Harun comment on NS PRN — PH angle on PAS split.', platform: 'Instagram', likes: 8900, shares: 1200, comments: 2340, score: 81, danger: 'Sederhana', counter: 'Pantau — potential PH narrative.' },
+    { id: 7, excerpt: 'TikTok skit: Bersatu vs PAS drama...', text: 'TikTok skit viral: Bersatu vs PAS drama — 456K likes. Parodi split PN, komen mostly anti-Bersatu.', platform: 'TikTok', likes: 456000, shares: 23000, comments: 18900, score: 92, danger: 'Tinggi', counter: 'Risiko meme spread — sediakan video counter-narrative TikTok.' },
+    { id: 8, excerpt: 'Plot SD viral thread...', text: 'Plot SD viral thread on X — spekulasi politik, engagement rendah.', platform: 'X', likes: 2100, shares: 890, comments: 340, score: 58, danger: 'Rendah', counter: 'Abai — low priority.' }
+  ]
+};
+
+// =============================================================================
+// STATE
+// =============================================================================
+let currentRange = '7d';
+let charts = {};
+
+const SECTION_TITLES = {
+  overview: 'Overview', sentimen: 'Sentimen', entiti: 'Entiti',
+  prn: 'PRN Impact', virality: 'Virality Monitor'
+};
+
+// =============================================================================
+// HELPERS
+// =============================================================================
+function getOverview() { return DATA_OVERVIEW[currentRange]; }
+
+function countUpAnimation(el, target, suffix = '', duration = 800) {
+  if (target === null || el.dataset.text) {
+    el.textContent = el.dataset.text || target;
+    return;
+  }
+  const start = performance.now();
+  const from = 0;
+  function step(now) {
+    const p = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - p, 3);
+    const val = Math.floor(from + (target - from) * eased);
+    el.textContent = val.toLocaleString() + suffix;
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+function pillClass(danger) {
+  if (danger === 'Tinggi') return 'pill-high';
+  if (danger === 'Sederhana') return 'pill-med';
+  return 'pill-low';
+}
+
+function chartDefaults() {
+  Chart.defaults.color = '#8b90a7';
+  Chart.defaults.borderColor = 'rgba(255,255,255,0.08)';
+  Chart.defaults.font.family = 'Inter';
+}
+
+// =============================================================================
+// RENDER KPI & TOPICS
+// =============================================================================
+function renderKPIs() {
+  const d = getOverview();
+  document.getElementById('kpiGrid').innerHTML = d.kpis.map(k => {
+    const caption = k.captionKey ? KPI_CAPTIONS[k.captionKey]?.[currentRange] : k.caption;
+    const footer = k.hideDelta
+      ? (caption ? `<div class="kpi-caption">${caption}</div>` : '')
+      : `<div class="kpi-delta ${k.deltaType || 'neutral'}">${k.delta || ''}${k.sub ? (k.delta ? ' · ' : '') + k.sub : ''}</div>${caption ? `<div class="kpi-caption">${caption}</div>` : ''}`;
+    return `
+    <div class="card">
+      <div class="kpi-title-row">
+        <div class="card-title">${k.label}</div>
+        ${k.tooltip ? `<span class="kpi-info" tabindex="0" role="button" aria-label="Keterangan ${k.label}"><span aria-hidden="true">i</span><span class="kpi-tooltip">${k.tooltip}</span></span>` : ''}
+      </div>
+      <div class="kpi-value" data-target="${k.value ?? ''}" data-text="${k.text || ''}" data-suffix="${k.suffix || ''}">${k.text || '0'}</div>
+      ${footer}
+    </div>`;
+  }).join('');
+  document.querySelectorAll('#kpiGrid .kpi-value').forEach(el => {
+    const t = el.dataset.target;
+    if (t) countUpAnimation(el, parseInt(t, 10), el.dataset.suffix);
+  });
+}
+
+function renderTopics() {
+  const d = getOverview();
+  document.getElementById('topicsGrid').innerHTML = d.topics.map(t => `
+    <div class="topic-chip">
+      <strong>${t.title}</strong>
+      <span class="badge badge-pas">${t.badge}</span>
+      <div style="margin-top:8px;font-size:20px;font-weight:700">${t.count.toLocaleString()}</div>
+      <div style="font-size:11px;color:var(--muted)">posts / mentions</div>
+    </div>
+  `).join('');
+}
+
+// =============================================================================
+// CHARTS
+// =============================================================================
+function destroyChart(id) { if (charts[id]) { charts[id].destroy(); delete charts[id]; } }
+
+/** Convert raw counts → % share (1 decimal) */
+function valuesToPct(values) {
+  const sum = values.reduce((a, b) => a + b, 0);
+  return sum ? values.map(v => +((v / sum) * 100).toFixed(1)) : values.map(() => 0);
+}
+
+/** Axis 0–100% — no raw counts on chart */
+function axisPct(extra = {}) {
+  return {
+    beginAtZero: true,
+    max: 100,
+    ticks: { callback: v => v + '%', stepSize: 20 },
+    grid: { color: 'rgba(255,255,255,0.05)' },
+    ...extra
+  };
+}
+
+/** Tooltip: % only — no title, footer, or raw count */
+function tooltipPctOnly(labelFn) {
+  return {
+    callbacks: {
+      title: () => '',
+      footer: () => '',
+      label: labelFn
+    }
+  };
+}
+
+function tooltipPctPie() {
+  return tooltipPctOnly(ctx => {
+    const sum = ctx.dataset.data.reduce((a, b) => a + b, 0);
+    const pct = sum ? ((ctx.raw / sum) * 100).toFixed(1) : '0.0';
+    return ` ${ctx.label}: ${pct}%`;
+  });
+}
+
+function tooltipPctRadar() {
+  return tooltipPctOnly(ctx => ` ${ctx.label}: ${ctx.raw.toFixed(1)}%`);
+}
+
+function tooltipPctBar(horizontal = false) {
+  return tooltipPctOnly(ctx => {
+    const val = horizontal ? ctx.parsed.x : ctx.parsed.y;
+    const lbl = ctx.label || ctx.dataset.label || '';
+    return ` ${lbl}: ${val.toFixed(1)}%`;
+  });
+}
+
+function tooltipPctLine() {
+  return tooltipPctOnly(ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y.toFixed(1)}%`);
+}
+
+function withTooltip(base, tooltipCallbacks) {
+  const cbs = tooltipCallbacks.callbacks || tooltipCallbacks;
+  return {
+    ...base,
+    plugins: {
+      ...(base.plugins || {}),
+      tooltip: {
+        ...(base.plugins?.tooltip || {}),
+        callbacks: {
+          title: () => '',
+          footer: () => '',
+          ...cbs
+        }
+      }
+    }
+  };
+}
+
+function initCharts() {
+  chartDefaults();
+  updateCharts();
+}
+
+function updateCharts() {
+  const d = getOverview();
+  const s = d.sentiment;
+
+  destroyChart('sentimentDonut');
+  charts.sentimentDonut = new Chart(document.getElementById('chartSentimentDonut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Positif', 'Negatif', 'Neutral'],
+      datasets: [{ data: valuesToPct([s.positive, s.negative, s.neutral]), backgroundColor: ['#22c55e','#ef4444','#94a3b8'], borderWidth: 0 }]
+    },
+    options: withTooltip({ plugins: { legend: { position: 'bottom' } }, cutout: '65%' }, tooltipPctPie())
+  });
+
+  destroyChart('platformBar');
+  const plats = d.platforms;
+  charts.platformBar = new Chart(document.getElementById('chartPlatformBar'), {
+    type: 'bar',
+    data: {
+      labels: Object.keys(plats),
+      datasets: [{ label: '%', data: valuesToPct(Object.values(plats)), backgroundColor: ['#1a7f5a','#1e4fa8','#e84393','#4267B2','#f59e0b','#ef4444'], borderRadius: 6 }]
+    },
+    options: withTooltip({ indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: axisPct() } }, tooltipPctBar(true))
+  });
+
+  destroyChart('timeline');
+  const pas = d.timeline.pas;
+  const bersatu = d.timeline.bersatu;
+  const pasPct = pas.map((v, i) => {
+    const t = v + bersatu[i];
+    return t ? +((v / t) * 100).toFixed(1) : 0;
+  });
+  const bersatuPct = bersatu.map((v, i) => {
+    const t = pas[i] + bersatu[i];
+    return t ? +((v / t) * 100).toFixed(1) : 0;
+  });
+  charts.timeline = new Chart(document.getElementById('chartTimeline'), {
+    type: 'line',
+    data: {
+      labels: d.timeline.labels,
+      datasets: [
+        { label: 'PAS mentions', data: pasPct, borderColor: '#1a7f5a', backgroundColor: 'rgba(26,127,90,0.1)', fill: true, tension: 0.3 },
+        { label: 'Bersatu mentions', data: bersatuPct, borderColor: '#1e4fa8', backgroundColor: 'rgba(30,79,168,0.1)', fill: true, tension: 0.3 }
+      ]
+    },
+    options: withTooltip({ plugins: { legend: { position: 'bottom' } }, scales: { y: axisPct() } }, tooltipPctLine())
+  });
+
+  // Sentimen page charts (static structure, range affects overview only)
+  destroyChart('sentTrend');
+  const st = DATA_SENTIMENT.trend;
+  const idx = (_, i) => i % 3 === 0;
+  const stPas = st.pas.filter(idx);
+  const stBersatu = st.bersatu.filter(idx);
+  const stPn = st.pn.filter(idx);
+  const stPasPct = stPas.map((v, i) => {
+    const t = v + stBersatu[i] + stPn[i];
+    return t ? +((v / t) * 100).toFixed(1) : 0;
+  });
+  const stBersatuPct = stBersatu.map((v, i) => {
+    const t = stPas[i] + v + stPn[i];
+    return t ? +((v / t) * 100).toFixed(1) : 0;
+  });
+  const stPnPct = stPn.map((v, i) => {
+    const t = stPas[i] + stBersatu[i] + v;
+    return t ? +((v / t) * 100).toFixed(1) : 0;
+  });
+  charts.sentTrend = new Chart(document.getElementById('chartSentTrend'), {
+    type: 'line',
+    data: {
+      labels: st.labels.filter(idx),
+      datasets: [
+        { label: 'PAS', data: stPasPct, borderColor: '#1a7f5a', tension: 0.3 },
+        { label: 'Bersatu', data: stBersatuPct, borderColor: '#1e4fa8', tension: 0.3 },
+        { label: 'PN', data: stPnPct, borderColor: '#94a3b8', tension: 0.3 }
+      ]
+    },
+    options: withTooltip({ plugins: { legend: { position: 'bottom' } }, scales: { y: axisPct() } }, tooltipPctLine())
+  });
+
+  destroyChart('emotionRadar');
+  const em = DATA_SENTIMENT.emotions;
+  charts.emotionRadar = new Chart(document.getElementById('chartEmotionRadar'), {
+    type: 'radar',
+    data: {
+      labels: Object.keys(em),
+      datasets: [{ label: 'Emosi', data: valuesToPct(Object.values(em)), backgroundColor: 'rgba(26,127,90,0.2)', borderColor: '#1a7f5a', pointBackgroundColor: '#1a7f5a' }]
+    },
+    options: withTooltip({ scales: { r: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%', stepSize: 20 }, grid: { color: 'rgba(255,255,255,0.08)' } } } }, tooltipPctRadar())
+  });
+
+  destroyChart('stance');
+  renderStanceChart();
+
+  destroyChart('partyBar');
+  const partyLabels = Object.keys(DATA_PARTIES);
+  const partyPcts = valuesToPct(Object.values(DATA_PARTIES));
+  charts.partyBar = new Chart(document.getElementById('chartPartyBar'), {
+    type: 'bar',
+    data: {
+      labels: partyLabels,
+      datasets: [{ data: partyPcts, backgroundColor: partyLabels.map(p => PARTY_META[p].color), borderRadius: 6 }]
+    },
+    options: withTooltip({ indexAxis: 'y', plugins: { legend: { display: false } }, scales: { x: axisPct() } }, tooltipPctBar(true))
+  });
+  renderPartyKey(partyLabels, partyPcts);
+  renderCoalitionKey();
+
+  destroyChart('seats');
+  const sb = DATA_PRN.seatsBefore;
+  const sa = DATA_PRN.seatsAfter;
+  charts.seats = new Chart(document.getElementById('chartSeats'), {
+    type: 'bar',
+    data: {
+      labels: sb.labels,
+      datasets: [
+        { label: 'PAS (PRU lepas)', data: sb.pas, backgroundColor: 'rgba(26,127,90,0.5)' },
+        { label: 'PAS (projeksi split)', data: sa.pas, backgroundColor: '#1a7f5a' },
+        { label: 'Bersatu (PRU lepas)', data: sb.bersatu, backgroundColor: 'rgba(30,79,168,0.5)' },
+        { label: 'Bersatu (projeksi split)', data: sa.bersatu, backgroundColor: '#1e4fa8' }
+      ]
+    },
+    options: { plugins: { legend: { position: 'bottom' } }, scales: { y: { beginAtZero: true, ticks: { stepSize: 2 } } } }
+  });
+  document.getElementById('seatsKey').innerHTML = sb.labels.map((st, i) =>
+    `<li><strong>${st}</strong> — PAS ${sb.pas[i]}→${sa.pas[i]} (+${sa.pas[i]-sb.pas[i]}) · Bersatu ${sb.bersatu[i]}→${sa.bersatu[i]} (${sa.bersatu[i]-sb.bersatu[i]})</li>`
+  ).join('');
+
+  destroyChart('beneficiary');
+  const benLabels = Object.keys(DATA_PRN.beneficiary);
+  const benPcts = valuesToPct(Object.values(DATA_PRN.beneficiary));
+  charts.beneficiary = new Chart(document.getElementById('chartBeneficiary'), {
+    type: 'pie',
+    data: {
+      labels: benLabels,
+      datasets: [{ data: benPcts, backgroundColor: benLabels.map(k => BENEFICIARY_META[k]?.color || '#94a3b8'), borderWidth: 0 }]
+    },
+    options: withTooltip({ plugins: { legend: { position: 'bottom' } } }, tooltipPctPie())
+  });
+  document.getElementById('beneficiaryKey').innerHTML = benLabels.map((k, i) =>
+    `<li><span class="mk" style="background:${BENEFICIARY_META[k].color}"></span><strong>${k}</strong> <span class="chart-key-pct">${benPcts[i]}%</span> — ${BENEFICIARY_META[k].desc}</li>`
+  ).join('');
+}
+
+// =============================================================================
+// RENDER SECTIONS
+// =============================================================================
+function renderWordCloud() {
+  document.getElementById('wordCloud').innerHTML = DATA_SENTIMENT.keywords.map(([w, cls]) =>
+    `<span class="word-tag ${cls}">${w}</span>`
+  ).join('');
+}
+
+function getStanceView() {
+  return DATA_SENTIMENT.stance.views[currentStanceView];
+}
+
+function stanceColors(labels) {
+  return labels.map(l => STANCE_META[l]?.color || '#94a3b8');
+}
+
+function renderStanceChart() {
+  const v = getStanceView();
+  const labels = v.labels;
+  const pcts = valuesToPct(v.values);
+  const elSample = document.getElementById('stanceSample');
+  const elNote = document.getElementById('stanceNote');
+  if (elSample) elSample.textContent = v.sample;
+  if (elNote) elNote.textContent = v.note;
+  document.querySelectorAll('#stanceToggle button').forEach(b =>
+    b.classList.toggle('active', b.dataset.view === currentStanceView)
+  );
+  destroyChart('stance');
+  charts.stance = new Chart(document.getElementById('chartStance'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{ data: pcts, backgroundColor: stanceColors(labels), borderRadius: 6 }]
+    },
+    options: withTooltip({ plugins: { legend: { display: false } }, scales: { x: { stacked: true }, y: axisPct({ stacked: true }) } }, tooltipPctBar(false))
+  });
+  renderStanceKey(labels, pcts);
+}
+
+function renderPartyKey(labels, pcts) {
+  const lbls = labels || Object.keys(DATA_PARTIES);
+  const p = pcts || valuesToPct(Object.values(DATA_PARTIES));
+  document.getElementById('partyKey').innerHTML = lbls.map((name, i) =>
+    `<li><span class="mk" style="background:${PARTY_META[name].color}"></span><strong>${name}</strong> <span class="chart-key-pct">${p[i]}%</span> — ${PARTY_META[name].desc}</li>`
+  ).join('');
+  const top = lbls[0];
+  const el = document.getElementById('partyResult');
+  if (el) el.textContent = `Keputusan: ${top} ${p[0]}% vs Bersatu ${p[1]}% vs PN ${p[2]}% — PAS miliki naratif split, Bersatu masih no.2.`;
+}
+
+function renderCoalitionKey() {
+  document.getElementById('coalitionKey').innerHTML = COALITION_KEY.map(item =>
+    `<li><span class="mk" style="background:${item.color}"></span><strong>${item.label}</strong> — ${item.desc}</li>`
+  ).join('');
+}
+
+function renderStanceKey(labels, pcts) {
+  const p = pcts || valuesToPct(getStanceView().values);
+  const lbls = labels || getStanceView().labels;
+  document.getElementById('stanceKey').innerHTML = lbls.map((label, i) => {
+    const meta = STANCE_META[label];
+    const pct = p[i];
+    const tag = meta.dominan && pct > 40 ? ', dominan' : '';
+    return `<li><span class="mk" style="background:${meta.color}"></span><strong>${label}</strong> <span class="chart-key-pct">${pct}%</span> — ${meta.desc}${tag}</li>`;
+  }).join('');
+}
+
+function renderEntities(filter = '') {
+  const q = filter.toLowerCase();
+  const rows = DATA_ENTITIES.filter(e => !q || e.name.toLowerCase().includes(q) || e.party.toLowerCase().includes(q));
+  document.querySelector('#entityTable tbody').innerHTML = rows.map(e => `
+    <tr>
+      <td><strong>${e.name}</strong></td>
+      <td><span class="badge badge-pas">${e.party}</span></td>
+      <td>${e.mentions.toLocaleString()}</td>
+      <td>${e.sentiment}</td>
+      <td><div class="sparkline" title="${e.trend}"></div></td>
+    </tr>
+  `).join('');
+}
+
+function renderPRN() {
+  document.getElementById('prnBrief').innerHTML = `
+    <h3>📍 Posisi PAS &amp; Tindakan PRN (Jun 2026)</h3>
+    <p class="prn-brief-lead">${PRN_PAS_BRIEF.lead}</p>
+    <ul class="prn-actions">${PRN_PAS_BRIEF.actions.map(a => `<li>${a}</li>`).join('')}</ul>
+  `;
+  document.getElementById('stateGrid').innerHTML = DATA_PRN.states.map(s => `
+    <div class="card state-card ${s.cls}">
+      <h3 class="serif" style="font-size:22px;margin-bottom:12px">${s.name}</h3>
+      <div style="font-size:12px;color:var(--muted)">Kerusi DUN: <strong style="color:var(--text)">${s.seats}</strong> · PN PRU lepas: ${s.pnLast} (PAS ${s.pasSeats} + Bersatu ${s.bersatuSeats})</div>
+      <div class="state-pas-pos"><strong>Projeksi PAS:</strong> ${s.pasProj} · ${s.pasPosition}</div>
+      <div style="margin-top:12px;font-size:11px;color:var(--muted)">Mood awam — ${s.moodLabel}</div>
+      <div class="gauge"><div class="gauge-fill" style="width:${s.mood}%"></div></div>
+      <span class="badge ${s.riskCls}">Risiko PRN: ${s.risk}</span>
+      <ul>${s.narratives.map(n => `<li>${n}</li>`).join('')}</ul>
+      <div class="state-action"><strong>Tindakan disyorkan</strong>${s.action}</div>
+    </div>
+  `).join('');
+}
+
+function renderVirality() {
+  const top = DATA_VIRAL.top;
+  document.getElementById('viralPreview').innerHTML = `
+    <h3>🔥 Top Viral Post (engagement tertinggi)</h3>
+    <div class="text">${top.text}</div>
+    <div class="viral-stats">
+      <span><i data-lucide="smartphone"></i> ${top.platform}</span>
+      <span>❤️ ${top.likes.toLocaleString()}</span>
+      <span>↗️ ${top.shares.toLocaleString()}</span>
+      <span>💬 ${top.comments.toLocaleString()}</span>
+      <span class="pill ${pillClass(top.danger)}">Score ${top.score}</span>
+    </div>
+  `;
+  const high = DATA_VIRAL.posts.filter(p => p.danger === 'Tinggi');
+  const alert = document.getElementById('viralAlert');
+  const highWrap = document.getElementById('viralHighRisk');
+  if (high.length) {
+    alert.classList.remove('hidden');
+    highWrap.classList.remove('hidden');
+    document.getElementById('viralAlertText').textContent = `${high.length} post berisiko TINGGI — lihat kotak merah di bawah.`;
+    highWrap.innerHTML = `
+      <h3 class="section-subtitle" style="margin-bottom:12px;color:#fca5a5">🔴 ${high.length} Post Berisiko TINGGI — Counter-Narrative Diperlukan</h3>
+      <div class="viral-high-list">
+      ${high.map((p) => {
+        const idx = DATA_VIRAL.posts.indexOf(p);
+        return `
+        <div class="viral-high-item" id="viral-high-${idx}">
+          <div class="vh-head">
+            <span class="pill pill-high">#${p.id} · Score ${p.score} · ${p.platform}</span>
+            <button type="button" class="btn-view" data-viral-idx="${idx}">View penuh →</button>
+          </div>
+          <div class="vh-text">${p.text || p.excerpt}</div>
+          <div class="vh-meta">
+            <span>❤️ ${p.likes.toLocaleString()}</span>
+            <span>↗️ ${p.shares.toLocaleString()}</span>
+            <span>💬 ${p.comments.toLocaleString()}</span>
+            <span>🔴 ${p.danger}</span>
+          </div>
+        </div>`;
+      }).join('')}
+      </div>
+    `;
+  } else {
+    alert.classList.add('hidden');
+    highWrap.classList.add('hidden');
+    highWrap.innerHTML = '';
+  }
+  document.querySelector('#viralTable tbody').innerHTML = DATA_VIRAL.posts.map((p, i) => `
+    <tr class="${p.danger === 'Tinggi' ? 'row-danger-high' : ''}" id="viral-row-${i}">
+      <td style="max-width:280px">${p.danger === 'Tinggi' ? '🔴 ' : ''}${p.excerpt}</td>
+      <td>${p.platform}</td>
+      <td>${p.likes.toLocaleString()}</td>
+      <td>${p.shares.toLocaleString()}</td>
+      <td>${p.comments.toLocaleString()}</td>
+      <td><span class="pill ${p.score >= 85 ? 'pill-high' : p.score >= 70 ? 'pill-med' : 'pill-low'}">${p.score}</span></td>
+      <td>${p.danger === 'Tinggi' ? '🔴' : p.danger === 'Sederhana' ? '🟡' : '🟢'} ${p.danger}</td>
+      <td><button type="button" class="btn-view" data-viral-idx="${i}">View</button></td>
+    </tr>
+  `).join('');
+  lucide.createIcons();
+}
+
+function openViralModal(idx) {
+  const p = DATA_VIRAL.posts[idx];
+  if (!p) return;
+  document.getElementById('viralModalTitle').textContent = `Post #${p.id} · ${p.platform} · Score ${p.score}`;
+  document.getElementById('viralModalBody').innerHTML = `
+    <div class="viral-modal-meta">
+      <span class="pill ${pillClass(p.danger)}">${p.danger === 'Tinggi' ? '🔴' : p.danger === 'Sederhana' ? '🟡' : '🟢'} ${p.danger}</span>
+      <span>❤️ ${p.likes.toLocaleString()}</span>
+      <span>↗️ ${p.shares.toLocaleString()}</span>
+      <span>💬 ${p.comments.toLocaleString()}</span>
+    </div>
+    <div class="viral-modal-text">${p.text || p.excerpt}</div>
+    ${p.counter ? `<div class="viral-modal-action"><strong style="color:var(--text)">Counter-narrative:</strong> ${p.counter}</div>` : ''}
+  `;
+  document.getElementById('viralModal').classList.remove('hidden');
+}
+
+function closeViralModal() {
+  document.getElementById('viralModal').classList.add('hidden');
+}
+
+function scrollToViralHigh() {
+  const el = document.getElementById('viralHighRisk');
+  if (el && !el.classList.contains('hidden')) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+// =============================================================================
+// NAVIGATION
+// =============================================================================
+function renderSection(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.section === id));
+  document.querySelectorAll('.mobile-tabs button').forEach(b => b.classList.toggle('active', b.dataset.section === id));
+  document.getElementById('pageTitle').textContent = SECTION_TITLES[id] || id;
+}
+
+function updateDateRange(range) {
+  currentRange = range;
+  document.querySelectorAll('.range-btn').forEach(b => b.classList.toggle('active', b.dataset.range === range));
+  renderKPIs();
+  renderTopics();
+  updateCharts();
+}
+
+// =============================================================================
+// INIT
+// =============================================================================
+document.getElementById('sidebarNav').addEventListener('click', e => {
+  const btn = e.target.closest('.nav-item');
+  if (btn) renderSection(btn.dataset.section);
+});
+document.getElementById('mobileTabs').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if (btn) renderSection(btn.dataset.section);
+});
+document.getElementById('rangeBtns').addEventListener('click', e => {
+  const btn = e.target.closest('.range-btn');
+  if (btn) updateDateRange(btn.dataset.range);
+});
+document.getElementById('entitySearch').addEventListener('input', e => renderEntities(e.target.value));
+document.getElementById('btnRefresh').addEventListener('click', function() {
+  this.classList.add('spinning');
+  setTimeout(() => {
+    this.classList.remove('spinning');
+    const now = new Date();
+    document.getElementById('lastCrawled').textContent = now.toLocaleString('ms-MY', { dateStyle: 'medium', timeStyle: 'short' }) + ' MYT';
+    updateDateRange(currentRange);
+  }, 1500);
+});
+
+document.getElementById('stanceToggle')?.addEventListener('click', e => {
+  const btn = e.target.closest('button[data-view]');
+  if (!btn || btn.dataset.view === currentStanceView) return;
+  currentStanceView = btn.dataset.view;
+  renderStanceChart();
+});
+
+document.getElementById('viralAlert')?.addEventListener('click', scrollToViralHigh);
+document.getElementById('viralAlert')?.addEventListener('keydown', e => { if (e.key === 'Enter') scrollToViralHigh(); });
+document.getElementById('virality')?.addEventListener('click', e => {
+  const btn = e.target.closest('[data-viral-idx]');
+  if (btn) openViralModal(parseInt(btn.dataset.viralIdx, 10));
+});
+document.getElementById('viralModalClose')?.addEventListener('click', closeViralModal);
+document.getElementById('viralModal')?.addEventListener('click', e => { if (e.target.id === 'viralModal') closeViralModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeViralModal(); });
+
+document.addEventListener('DOMContentLoaded', () => {
+  lucide.createIcons();
+  renderKPIs();
+  renderTopics();
+  renderWordCloud();
+  renderEntities();
+  renderPRN();
+  renderVirality();
+  initCharts();
+});
+</script>
+</body>
+</html>

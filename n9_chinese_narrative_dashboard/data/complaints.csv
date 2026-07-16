@@ -1,0 +1,2 @@
+complaint_id,detected_at,issue_type,description,source_url,platform,location,dun,district,agency_responsible,assigned_officer,verification_status,complaint_status,action_taken,date_action_started,date_resolved,resolution_evidence,public_update_url,citizen_feedback,post_action_sentiment
+CMP-001,2026-06-01,gangguan air,Lokasi Taman X tiada air,https://facebook.com/example2,Facebook,Seremban,N02,Seremban,SYABAS,,Perlu Disahkan,Dikesan,,,,,,,

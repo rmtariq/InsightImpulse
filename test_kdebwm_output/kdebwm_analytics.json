@@ -1,0 +1,191 @@
+{
+  "analytics": {
+    "volume": {
+      "total_mentions": 6,
+      "daily_average": 0.2,
+      "peak_date": "2026-05-23",
+      "peak_count": 2,
+      "trend_direction": "insufficient_data",
+      "trend_percentage": 0,
+      "daily_counts": {
+        "2026-05-20": 1,
+        "2026-05-21": 1,
+        "2026-05-22": 1,
+        "2026-05-23": 2,
+        "2026-05-24": 1
+      }
+    },
+    "sentiment": {
+      "negative_count": 5,
+      "neutral_count": 0,
+      "positive_count": 1,
+      "negative_percentage": 83.3,
+      "neutral_percentage": 0.0,
+      "positive_percentage": 16.7,
+      "sentiment_distribution": {
+        "negative": 4,
+        "positive": 1,
+        "very negative": 1
+      }
+    },
+    "themes": {
+      "theme_counts": {
+        "foul_smell": 2,
+        "overflowing_bin": 1,
+        "praise_or_resolution": 1,
+        "dirty_road_or_area": 1,
+        "general_complaint": 1
+      },
+      "theme_percentages": {
+        "foul_smell": 33.3,
+        "overflowing_bin": 16.7,
+        "praise_or_resolution": 16.7,
+        "dirty_road_or_area": 16.7,
+        "general_complaint": 16.7
+      },
+      "top_3_themes": [
+        "foul_smell",
+        "overflowing_bin",
+        "praise_or_resolution"
+      ],
+      "theme_examples": {
+        "foul_smell": [
+          "KDEBWM sampah tak kutip dah 3 hari di Klang. Bau busuk sangat! Aduan saya masih tak selesai.",
+          "Klang area bau busuk dari tong sampah penuh. KDEB please help!"
+        ],
+        "overflowing_bin": [
+          "Kawasan Subang Jaya longgokan sampah penuh. KDEB Waste Management lambat sangat!"
+        ],
+        "praise_or_resolution": [
+          "KDEBWM terima kasih! Sampah di Kajang dah dikutip. Bagus service korang 👍"
+        ],
+        "dirty_road_or_area": [
+          "KDEB Waste jalan kotor tepi kawasan Petaling Jaya. Public cleansing issue teruk!"
+        ],
+        "general_complaint": [
+          "KDEBWM Selayang missed collection lagi. Dah complaint berkali-kali. Frustrating!"
+        ]
+      }
+    },
+    "hotspots": {
+      "area_counts": {
+        "Klang": 2,
+        "Subang Jaya": 1,
+        "Kajang": 1,
+        "Petaling Jaya": 1,
+        "Selayang": 1
+      },
+      "top_5_hotspots": [
+        "Klang",
+        "Subang Jaya",
+        "Kajang",
+        "Petaling Jaya",
+        "Selayang"
+      ],
+      "hotspot_percentages": {
+        "Klang": 33.3,
+        "Subang Jaya": 16.7,
+        "Kajang": 16.7,
+        "Petaling Jaya": 16.7,
+        "Selayang": 16.7
+      },
+      "areas_with_complaints": 5
+    },
+    "platforms": {
+      "platform_counts": {
+        "facebook": 2,
+        "instagram": 2,
+        "x": 1,
+        "tiktok": 1
+      },
+      "platform_percentages": {
+        "facebook": 33.3,
+        "instagram": 33.3,
+        "x": 16.7,
+        "tiktok": 16.7
+      },
+      "most_complaint_heavy_platform": "facebook",
+      "highest_engagement_platform": "facebook",
+      "platform_engagement_avg": {
+        "facebook": 67.0,
+        "instagram": 28.5,
+        "tiktok": 67.0,
+        "x": 12.0
+      }
+    },
+    "severity": {
+      "top_complaint_posts": [
+        {
+          "Text": "KDEBWM Selayang missed collection lagi. Dah complaint berkali-kali. Frustrating!",
+          "total_engagement": 89,
+          "Platform": "facebook",
+          "sentiment_label": "very negative"
+        },
+        {
+          "Text": "KDEB Waste jalan kotor tepi kawasan Petaling Jaya. Public cleansing issue teruk!",
+          "total_engagement": 67,
+          "Platform": "tiktok",
+          "sentiment_label": "negative"
+        },
+        {
+          "Text": "KDEBWM sampah tak kutip dah 3 hari di Klang. Bau busuk sangat! Aduan saya masih tak selesai.",
+          "total_engagement": 45,
+          "Platform": "facebook",
+          "sentiment_label": "negative"
+        },
+        {
+          "Text": "Klang area bau busuk dari tong sampah penuh. KDEB please help!",
+          "total_engagement": 34,
+          "Platform": "instagram",
+          "sentiment_label": "negative"
+        },
+        {
+          "Text": "Kawasan Subang Jaya longgokan sampah penuh. KDEB Waste Management lambat sangat!",
+          "total_engagement": 23,
+          "Platform": "instagram",
+          "sentiment_label": "negative"
+        },
+        {
+          "Text": "KDEBWM terima kasih! Sampah di Kajang dah dikutip. Bagus service korang 👍",
+          "total_engagement": 12,
+          "Platform": "x",
+          "sentiment_label": "positive"
+        }
+      ],
+      "average_engagement": 45.0,
+      "high_severity_count": 5,
+      "high_severity_percentage": 83.3
+    },
+    "dashboard": {
+      "total_complaints": 6,
+      "negative_sentiment_pct": 83.3,
+      "top_complaint_theme": "Foul Smell",
+      "top_hotspot_area": "Klang",
+      "peak_complaint_date": "2026-05-23",
+      "most_complaint_heavy_platform": "facebook",
+      "high_severity_count": 5,
+      "unanswered_complaint_pct": 100
+    }
+  },
+  "insights": {
+    "insights": [
+      "The largest complaint category is 'foul smell', indicating this is a bigger public concern than other service aspects. Reliability of service remains the primary reputational risk.",
+      "Klang recorded the highest complaint volume, making it a priority hotspot for operational review and branch-level response. Consider targeted interventions in this area.",
+      "facebook generated the most complaint mentions. This platform requires active monitoring and rapid response.",
+      "A significant share (100%) of complaints remain publicly unanswered, creating a gap between operational resolution and visible reputation recovery. This may damage public trust even if issues are being addressed internally."
+    ],
+    "recommendations": [
+      "Prioritize operational improvements for foul smell to address the most frequent complaint type.",
+      "Deploy additional resources or operational review in Klang to address hotspot complaints.",
+      "Establish dedicated social media response team for facebook to manage reputation proactively.",
+      "Implement systematic public response protocol to acknowledge complaints and communicate resolutions."
+    ]
+  },
+  "executive_summary": "KDEBWM COMPLAINT MONITORING - EXECUTIVE SUMMARY\n================================================\n\nOVERVIEW:\n- Total Complaint Mentions: 6\n- Trend: INSUFFICIENT_DATA\n- Negative Sentiment: 83.3%\n- High-Severity Complaints: 5\n\nTOP 3 COMPLAINT THEMES:\n1. Foul Smell\n2. Overflowing Bin\n3. Praise Or Resolution\n\nTOP 3 HOTSPOT AREAS:\n1. Klang\n2. Subang Jaya\n3. Kajang\n\nMAIN RECOMMENDATIONS:\n1. Prioritize operational improvements for foul smell to address the most frequent complaint type.\n2. Deploy additional resources or operational review in Klang to address hotspot complaints.\n3. Establish dedicated social media response team for facebook to manage reputation proactively.",
+  "metadata": {
+    "total_records": 6,
+    "complaint_records": 6,
+    "generated_at": "2026-05-24T23:27:20.737136",
+    "source_file": "test_kdebwm_sample_data.csv"
+  }
+}

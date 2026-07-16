@@ -1,0 +1,515 @@
+{
+  "fetched_at": "2026-06-16T00:42:06",
+  "csv_file": "data/projects/political/PRN/PRN_N9/crawls/news/PRN_N9_News_Multilingual_20260616_004206.csv",
+  "total": 713,
+  "total_articles": 713,
+  "total_comments": 0,
+  "by_lang": {
+    "bm": 384,
+    "cina": 70,
+    "ekonomi": 79,
+    "en": 107,
+    "tamil": 73
+  },
+  "by_community": {
+    "cina": 70,
+    "ekonomi": 141,
+    "india": 73,
+    "islam": 68,
+    "lain": 50,
+    "melayu": 172,
+    "umum": 139
+  },
+  "by_crawl_method": {
+    "direct_scrape": 57,
+    "google_news_rss": 656
+  },
+  "community_labels": {
+    "umum": "Umum / PRN",
+    "melayu": "Komuniti Melayu",
+    "islam": "Islam / PAS / Harakah",
+    "cina": "Komuniti Cina",
+    "india": "Komuniti India / Tamil",
+    "lain": "Lain-lain (OA, Sikh, dll.)",
+    "ekonomi": "Ekonomi & Kos Hidup"
+  },
+  "top_domains": {
+    "news.google.com": 522,
+    "malaymail.com": 41,
+    "bharian.com.my": 24,
+    "hmetro.com.my": 23,
+    "n9.chinapress.com.my": 21,
+    "theborneopost.com": 16,
+    "freemalaysiatoday.com": 15,
+    "themalaysianreserve.com": 10,
+    "makkalosai.com.my": 10,
+    "malaysiakini.com": 8,
+    "utusan.com.my": 7,
+    "orientaldaily.com.my": 7,
+    "chinapress.com.my": 6,
+    "sinchew.com.my": 3
+  },
+  "top_headlines": [
+    {
+      "text": "Risiko terlalu besar jika tak panggil PRN Negeri Sembilan, kata Loke. Risiko terlalu besar jika tak panggil PRN Negeri Sembilan, kata Loke&nbsp;&nbsp;Free Malaysia Today",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51YmJMT0RXRWxTVXl4dHJxbXFldFlUSExrUWZnLVlrcFNPdlhTaEhqdWhiWXdPajc5SjhycE5PMTZDNFpvdU8tOVBDVHBuM3V4MEdsbjVHWW9wLTA1ZTN3cXNR?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-08T09:35:24+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Boleh jimat sehingga RM30 juta jika PRN Johor, N Sembilan serentak. Boleh jimat sehingga RM30 juta jika PRN Johor, N Sembilan serentak&nbsp;&nbsp;Free Malaysia Today",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRG9COURkNmtMTENfNldNbmtXN0pQQjhIU28ycEd0YS1IQzFjZUxFZ0xHajYwZDM1UFpLV0s5Zk9JTU9QbE1UT1Y0TWJIcTU3QVA4cEJkbTY0amVEN0tXd1RndUxoVWh0VjJLMG1hTEpGaS1ZSGd4RjF3QXp5UFVkTDhwVmRFYnpiOEp5QzFwaWZDMVg3eDhQN29FbUhZYUlfUjNuMkp0VFNFWWI2UlZsVHIzTndxQzlYcVViVXJlZTBmSnZTMktCUzdqVmJ5UWpP?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-11T14:00:03+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Ketua Pemuda AMANAH, timbalan antara 9 calon PRN Negeri Sembilan. Seremban:  Ketua dan Timbalan Ketua Pemuda AMANAH Negeri Sembilan antara sembilan calon yang akan dipertaruhkan parti itu pada Pilihan Raya Negeri (PRN) N",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/06/1370464/ketua-pemuda-amanah-timbalan-antara-9-calon-prn-negeri-sembilan",
+      "community": "umum",
+      "domain": "hmetro.com.my",
+      "date": "2026-06-15T18:37:48+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "PRN Johor 11 Julai, Negeri Sembilan 1 Ogos. PRN Johor 11 Julai, Negeri Sembilan 1 Ogos&nbsp;&nbsp;Free Malaysia Today",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObmgtd3duaDBpRjNhVkJmQk82dHFrOVl4SHVOV1dBLVA2MlhnNlYzejRySnhHMWtobXI3dFZ6c3BhU3dlcVNKTU5TcFdVSlVsWnJncG9la3hiNVVfMmxHNGVOWG51LWs2WEtTcXNTaVUzZnFMSXAxN0ZsWS1iaGRlLXBYakFOTkRLLTZTOTd5d3phSXprUDBiQV9QVnUtU1hCWG5CRzczdzhVaEJXNlYweQ?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-12T04:20:20+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Negeri Sembilan’s Tenuous State Assembly: Procedural and Political Tests. Negeri Sembilan’s Tenuous State Assembly: Procedural and Political Tests&nbsp;&nbsp;fulcrum.sg",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQekI0YUhsZGdka1FGTHRiTjZUREp6c1JKWmxnRWNOOEdyNWg4LWwxUkxjbXVYdUh4Y2pKVlRDaFJ3QmlqUUJ4UkNfX3VCanFQbzRub05ET2kwN0c3NXFXQ09QbmVNYTIxRmdtSUhKd284UG8tMURpeXJJeEhIbks5UkQ0dWxsYk5US09IYjN5c1hHUDhB?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-03T07:00:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Johor state election set for Jul 11, Negeri Sembilan to go to polls on Aug 1. Johor state election set for Jul 11, Negeri Sembilan to go to polls on Aug 1&nbsp;&nbsp;CNA",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVFdkVVBmZzFJc1k2Unc2NGZQSHk2bmx1cEc3aWZpWkZ3Rk5QbmdIM3dFMldoVkc0c1hZaDBITk8teGZQT0VxVFZfYUVlM1ZqbmZOS211Y2dpN21DenlnZ19OWXRXUlBKLXkzcWVzUzR6OXR5bzc0eDhRN09hSnMtYzV3NE5RSGJrenBKOUs3NnBKd0NZUjdycHJtSDRTb2ZOaWtOdEhfUl9KZEtBSWhVVA?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-12T04:33:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "EC sets Johor election on July 11, Negeri Sembilan on Aug 1. EC sets Johor election on July 11, Negeri Sembilan on Aug 1&nbsp;&nbsp;Malay Mail",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2QtQjlrRHkwS1lMTVl0cmtvNFlzMHNvcXhzUGlPT2JZeVItSzNUMk4tdms5NWNZT3phWG1faXFjckJuNjFGUzZ3UUVxN3I1N3UtVElUMzMzMUpuaER2V0NtaGZwanNCN0xlWWhtaHJteGVJYWI4VGhsMXNOVGROSHR2Qnd2VkpjTTNuSnVHVjF5TnI3ZWI2WGpDcU5vbEVibTNJNU9uWV9fWHfSAbABQVVfeXFMTWdMQVE2TzVuekJkSTNxR2RUN0RkRFJ5bXI0YndFeVVmbWIzbEJlcTVkUjZVNW9jS1ZnMzd0LVRya1o1YlotMTdxRG9oaGpCa0hRbHNCbzVwXzlMa3NQUVpWemZkWi1MajY5Vy1ucms4OXVTWXRLR0RFanZHR0pUWVR2U0lHdXZUdmItT2tkN213NElENUpDVHFKUEV2R3NlNXp0LW1Bd0V1TGJTeWlmNk8?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-12T04:18:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "EC to decide on dates for Negeri Sembilan polls in June 12 meeting. EC to decide on dates for Negeri Sembilan polls in June 12 meeting&nbsp;&nbsp;The Edge Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zUlVBZFNQMGZkNmcxaE16ZklWdDRsbTd6S3lBYTFyR2hTSFRGWjJ3cFhJaEZoZk4tRUpMY3Bpb1lyUmpVT0FvRU5qRFJIeVJl?oc=5",
+      "community": "umum",
+      "domain": "news.google.com",
+      "date": "2026-06-08T10:11:30+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Lapan kenderaan polis kejar, kepung kereta suspek curi kabel di Seremban. Seremban: Sekurang-kurangnya lapan kenderaan polis mengejar dan mengepung sebuah kereta yang dinaiki tiga lelaki selepas suspek dikatakan melarika",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/06/1370536/lapan-kenderaan-polis-kejar-kepung-kereta-suspek-curi-kabel-di-seremban",
+      "community": "cina",
+      "domain": "hmetro.com.my",
+      "date": "2026-06-15T22:46:12+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Hongli Group Inc. Entered into Strategic Non-Binding MOU with Sidus Energy Storage, Inc. to Explore Potential Advanced Battery Manufacturing Collaboration. Proposed Partnership Supports the Company&#039;s ongoing Strateg",
+      "url": "https://themalaysianreserve.com/2026/06/15/hongli-group-inc-entered-into-strategic-non-binding-mou-with-sidus-energy-storage-inc-to-explore-potential-advanced-battery-manufacturing-collaboration/",
+      "community": "cina",
+      "domain": "themalaysianreserve.com",
+      "date": "2026-06-15T15:38:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Active Minds Launches National Youth-Led Mental Health Movement to Equip 100,000 High School Students. With Support from Google.org, Helps Youth and Young Adults to Co-Create Digital Safety Solutions and Advocate for Com",
+      "url": "https://themalaysianreserve.com/2026/06/15/active-minds-launches-national-youth-led-mental-health-movement-to-equip-100000-high-school-students/",
+      "community": "cina",
+      "domain": "themalaysianreserve.com",
+      "date": "2026-06-15T15:36:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "In HelloNation, Roofing Expert Eric Gregory of Over the Top Roofing Explains Inspect Before Siding Replacement. The article outlines why early inspection and insulation upgrades improve durability, efficiency, and long-t",
+      "url": "https://themalaysianreserve.com/2026/06/15/in-hellonation-roofing-expert-eric-gregory-of-over-the-top-roofing-explains-inspect-before-siding-replacement/",
+      "community": "cina",
+      "domain": "themalaysianreserve.com",
+      "date": "2026-06-15T14:57:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Anwar mahu PH menang di Johor, gesa rakyat pilih kerajaan negeri sealiran pusat. MUAR: Pengerusi Pakatan Harapan (PH), Datuk Seri Anwar Ibrahim bertekad memenangkan gabungan itu dalam Pilihan Raya Negeri (PRN) Johor bagi",
+      "url": "https://www.utusan.com.my/terkini/2026/06/anwar-mahu-ph-menang-di-johor-gesa-rakyat-pilih-kerajaan-sealiran-dengan-pusat/?utm_source=rss&utm_medium=rss&utm_campaign=anwar-mahu-ph-menang-di-johor-gesa-rakyat-pilih-kerajaan-sealiran-dengan-pusat",
+      "community": "cina",
+      "domain": "utusan.com.my",
+      "date": "2026-06-15T14:32:06+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "What Academic Excellence Actually Measures. What Academic Excellence Actually Measures&nbsp;&nbsp;Utusan Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUGFGVHVUY0Vucmdvck1QRVY3aGhSNzRYcFdFV1FKYkRrcWJnVlVlcU5NdnNoMGxsV0s4dWx2amdBRlgtbVhHWXZDWmNFVFNrSTJnMGxVemZVTDYzczVlTWY2NkN4UTRJR0RHZW5hajFma3lZSFB2NHU3TVlIN0NLMzA5emQxalJZWTh5cEtTZWNWYlJ6cFFJ?oc=5",
+      "community": "melayu",
+      "domain": "news.google.com",
+      "date": "2026-05-28T07:00:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "PH seat distribution finalised, PKR to contest 20 Johor PRN seats, 16 in Negeri. PH seat distribution finalised, PKR to contest 20 Johor PRN seats, 16 in Negeri&nbsp;&nbsp;The Vibes",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT1RLR3Vad2pTLTBCTVZyMVFrSzIzbFNTbVNTQjBpWUFzel9GWWcycWlHa3EwMm14dU85U3ViTThodV8xZVo3VVhtVmJST1JEU3Bmc0w4Z2pUdWstam1xS3IxcnVwX2JDVXBia1lfT1V3M2Mxc2ZtcTRjV0hhNGNTY3YzcE9yWHRaaWZvUV82QlZSdGtMQkJ1SlY3TGNwajIzRXQzbG1wZ2FCcVBqaFhQdzhFUzBjTm11cUd1WHhDLXo?oc=5",
+      "community": "melayu",
+      "domain": "news.google.com",
+      "date": "2026-06-14T07:01:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Johor & Negeri Sembilan Polls. Johor & Negeri Sembilan Polls&nbsp;&nbsp;Lumi News Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON3ZGNUFseGxTX2EzbjVTajdXZWdVOUdkaHFmYXA3Ym8tQXZWemhtbGZMbnI2V2JBSk9JV0RhNE44UXIzODFXNU1jTDdnNUR5N3FGZ3BQMWtScjR2UWw0NFpLTl9nMy1PVzZQMUlfQkM0bkdyZk9HZjNNRkVRZWhmOHhGc1haZVIzRGhmRQ?oc=5",
+      "community": "melayu",
+      "domain": "news.google.com",
+      "date": "2026-06-12T05:04:30+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Gen Z visitors get a taste of Rizhao’s green, smart transformation. Gen Z visitors get a taste of Rizhao’s green, smart transformation&nbsp;&nbsp;Utusan Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeU91UlJuS1lDVFMwSVZhaGctc0NwaTh2b2Q0WVdUekRwOGlfTUZrNmQwcVpVbElFdnBEeTY1RzAwU09GYzNyT0REelMxSHE4UUw5NVEtdkZOcGtvUEFTNmhxRGszSlNnN2o3WnpILTVuMk5WN3lqclU2SGRoUkY2ZFhSbWp0WHBHakZEVlIzTGRTTkRtMEpZaWVwZl9mbEdUdE94Y1NYdGVJTGxic0g1X1l0Q3Q?oc=5",
+      "community": "melayu",
+      "domain": "news.google.com",
+      "date": "2026-06-03T07:00:00+00:00",
+      "method": "google_news_rss"
+    },
+    {
+      "text": "Johor PRN: PN contests 56 seats, 80 per cent seat distribution completed. Johor PRN: PN contests 56 seats, 80 per cent seat distribution completed&nbsp;&nbsp;The Vibes",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWV9qRElDZ045Vmp0QlJKSXcwamRjM1NCZ083UXJqU2xuem1YWlhIblJUVzJIaXZhN1JvTEtGVmxZWGNuNG1YRE51VU93Nl9yb29qRlF4SnRuMlltejczUTB1M1Ytb3dQWWtCcVZWeGNoUEZnQkJ6SktWV1N5UG1YN3FUUVpRTlB0YkFOOXpKckZIdDBVdTJ6aEpqN19xazZ2dTVKa05fTGZDS2hHajNnS1BiYWR6MkU?oc=5",
+      "community": "melayu",
+      "domain": "news.google.com",
+      "date": "2026-06-02T07:14:00+00:00",
+      "method": "google_news_rss"
+    }
+  ],
+  "community_headlines": {
+    "umum": [
+      {
+        "text": "Risiko terlalu besar jika tak panggil PRN Negeri Sembilan, kata Loke. Risiko terlalu besar jika tak panggil PRN Negeri Sembilan, kata Loke&nbsp;&nbsp;Free Malaysia Today",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE51YmJMT0RXRWxTVXl4dHJxbXFldFlUSExrUWZnLVlrcFNPdlhTaEhqdWhiWXdPajc5SjhycE5PMTZDNFpvdU8tOVBDVHBuM3V4MEdsbjVHWW9wLTA1ZTN3cXNR?oc=5",
+        "community": "umum",
+        "domain": "news.google.com",
+        "date": "2026-06-08T09:35:24+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Boleh jimat sehingga RM30 juta jika PRN Johor, N Sembilan serentak. Boleh jimat sehingga RM30 juta jika PRN Johor, N Sembilan serentak&nbsp;&nbsp;Free Malaysia Today",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRG9COURkNmtMTENfNldNbmtXN0pQQjhIU28ycEd0YS1IQzFjZUxFZ0xHajYwZDM1UFpLV0s5Zk9JTU9QbE1UT1Y0TWJIcTU3QVA4cEJkbTY0amVEN0tXd1RndUxoVWh0VjJLMG1hTEpGaS1ZSGd4RjF3QXp5UFVkTDhwVmRFYnpiOEp5QzFwaWZDMVg3eDhQN29FbUhZYUlfUjNuMkp0VFNFWWI2UlZsVHIzTndxQzlYcVViVXJlZTBmSnZTMktCUzdqVmJ5UWpP?oc=5",
+        "community": "umum",
+        "domain": "news.google.com",
+        "date": "2026-06-11T14:00:03+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Ketua Pemuda AMANAH, timbalan antara 9 calon PRN Negeri Sembilan. Seremban:  Ketua dan Timbalan Ketua Pemuda AMANAH Negeri Sembilan antara sembilan calon yang akan dipertaruhkan parti itu pada Pilihan Raya Negeri (PRN) N",
+        "url": "https://www.hmetro.com.my/mutakhir/2026/06/1370464/ketua-pemuda-amanah-timbalan-antara-9-calon-prn-negeri-sembilan",
+        "community": "umum",
+        "domain": "hmetro.com.my",
+        "date": "2026-06-15T18:37:48+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "PRN Johor 11 Julai, Negeri Sembilan 1 Ogos. PRN Johor 11 Julai, Negeri Sembilan 1 Ogos&nbsp;&nbsp;Free Malaysia Today",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObmgtd3duaDBpRjNhVkJmQk82dHFrOVl4SHVOV1dBLVA2MlhnNlYzejRySnhHMWtobXI3dFZ6c3BhU3dlcVNKTU5TcFdVSlVsWnJncG9la3hiNVVfMmxHNGVOWG51LWs2WEtTcXNTaVUzZnFMSXAxN0ZsWS1iaGRlLXBYakFOTkRLLTZTOTd5d3phSXprUDBiQV9QVnUtU1hCWG5CRzczdzhVaEJXNlYweQ?oc=5",
+        "community": "umum",
+        "domain": "news.google.com",
+        "date": "2026-06-12T04:20:20+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Negeri Sembilan’s Tenuous State Assembly: Procedural and Political Tests. Negeri Sembilan’s Tenuous State Assembly: Procedural and Political Tests&nbsp;&nbsp;fulcrum.sg",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQekI0YUhsZGdka1FGTHRiTjZUREp6c1JKWmxnRWNOOEdyNWg4LWwxUkxjbXVYdUh4Y2pKVlRDaFJ3QmlqUUJ4UkNfX3VCanFQbzRub05ET2kwN0c3NXFXQ09QbmVNYTIxRmdtSUhKd284UG8tMURpeXJJeEhIbks5UkQ0dWxsYk5US09IYjN5c1hHUDhB?oc=5",
+        "community": "umum",
+        "domain": "news.google.com",
+        "date": "2026-06-03T07:00:00+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "melayu": [
+      {
+        "text": "What Academic Excellence Actually Measures. What Academic Excellence Actually Measures&nbsp;&nbsp;Utusan Malaysia",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUGFGVHVUY0Vucmdvck1QRVY3aGhSNzRYcFdFV1FKYkRrcWJnVlVlcU5NdnNoMGxsV0s4dWx2amdBRlgtbVhHWXZDWmNFVFNrSTJnMGxVemZVTDYzczVlTWY2NkN4UTRJR0RHZW5hajFma3lZSFB2NHU3TVlIN0NLMzA5emQxalJZWTh5cEtTZWNWYlJ6cFFJ?oc=5",
+        "community": "melayu",
+        "domain": "news.google.com",
+        "date": "2026-05-28T07:00:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "PH seat distribution finalised, PKR to contest 20 Johor PRN seats, 16 in Negeri. PH seat distribution finalised, PKR to contest 20 Johor PRN seats, 16 in Negeri&nbsp;&nbsp;The Vibes",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT1RLR3Vad2pTLTBCTVZyMVFrSzIzbFNTbVNTQjBpWUFzel9GWWcycWlHa3EwMm14dU85U3ViTThodV8xZVo3VVhtVmJST1JEU3Bmc0w4Z2pUdWstam1xS3IxcnVwX2JDVXBia1lfT1V3M2Mxc2ZtcTRjV0hhNGNTY3YzcE9yWHRaaWZvUV82QlZSdGtMQkJ1SlY3TGNwajIzRXQzbG1wZ2FCcVBqaFhQdzhFUzBjTm11cUd1WHhDLXo?oc=5",
+        "community": "melayu",
+        "domain": "news.google.com",
+        "date": "2026-06-14T07:01:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Johor & Negeri Sembilan Polls. Johor & Negeri Sembilan Polls&nbsp;&nbsp;Lumi News Malaysia",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON3ZGNUFseGxTX2EzbjVTajdXZWdVOUdkaHFmYXA3Ym8tQXZWemhtbGZMbnI2V2JBSk9JV0RhNE44UXIzODFXNU1jTDdnNUR5N3FGZ3BQMWtScjR2UWw0NFpLTl9nMy1PVzZQMUlfQkM0bkdyZk9HZjNNRkVRZWhmOHhGc1haZVIzRGhmRQ?oc=5",
+        "community": "melayu",
+        "domain": "news.google.com",
+        "date": "2026-06-12T05:04:30+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Gen Z visitors get a taste of Rizhao’s green, smart transformation. Gen Z visitors get a taste of Rizhao’s green, smart transformation&nbsp;&nbsp;Utusan Malaysia",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeU91UlJuS1lDVFMwSVZhaGctc0NwaTh2b2Q0WVdUekRwOGlfTUZrNmQwcVpVbElFdnBEeTY1RzAwU09GYzNyT0REelMxSHE4UUw5NVEtdkZOcGtvUEFTNmhxRGszSlNnN2o3WnpILTVuMk5WN3lqclU2SGRoUkY2ZFhSbWp0WHBHakZEVlIzTGRTTkRtMEpZaWVwZl9mbEdUdE94Y1NYdGVJTGxic0g1X1l0Q3Q?oc=5",
+        "community": "melayu",
+        "domain": "news.google.com",
+        "date": "2026-06-03T07:00:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Johor PRN: PN contests 56 seats, 80 per cent seat distribution completed. Johor PRN: PN contests 56 seats, 80 per cent seat distribution completed&nbsp;&nbsp;The Vibes",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWV9qRElDZ045Vmp0QlJKSXcwamRjM1NCZ083UXJqU2xuem1YWlhIblJUVzJIaXZhN1JvTEtGVmxZWGNuNG1YRE51VU93Nl9yb29qRlF4SnRuMlltejczUTB1M1Ytb3dQWWtCcVZWeGNoUEZnQkJ6SktWV1N5UG1YN3FUUVpRTlB0YkFOOXpKckZIdDBVdTJ6aEpqN19xazZ2dTVKa05fTGZDS2hHajNnS1BiYWR6MkU?oc=5",
+        "community": "melayu",
+        "domain": "news.google.com",
+        "date": "2026-06-02T07:14:00+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "islam": [
+      {
+        "text": "Tuanku Muhriz performs Friday prayers at Masjid Kariah Gunung Pasir, Seri Menanti. Tuanku Muhriz performs Friday prayers at Masjid Kariah Gunung Pasir, Seri Menanti&nbsp;&nbsp;The Star",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOak1UTUpCVGI1eE5FOWRPajhlZ3Y4eldaNXFyWE5zWGV3UGcxTmFwbnNsbk4wTy04ZnJ6OFVKaURqal9tZjYwYThENzh5QnNXSzhua3c4VVBLRm93eFZlQ255X2lvYy1nZWhwNFRpaHoxbWpyY09EQnFDZUlFdTNDOVdCUVpRbUdIendfdXpVWXhLSTE2ek9Bc1VBYkptZEF0ekV4d1V0MWNBOTV1ZWxsbm15M3JDUlFzaEtCQ3V6dlF2VG0tS19XbFBR?oc=5",
+        "community": "islam",
+        "domain": "news.google.com",
+        "date": "2026-06-05T07:00:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Anwar backs Negeri Sembilan assembly dissolution, says Johor polls came sooner than hoped. Anwar backs Negeri Sembilan assembly dissolution, says Johor polls came sooner than hoped&nbsp;&nbsp;Malay Mail",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM282T3BsR2xIV0xiVnJuanF2eUlWNlEtUGh2am80YlA1ZTM1QzhRNVY0QmtwQjZWWGJhWmp2ZG1NOGV4MlNZSUVPNlVMN3RsWEpKeGJWNEdkcDM4VExBZWhZbE5WRm44cEw3V0pGcDQ0M3JnWGhKbmhQVEF5WHI3aktfSUVQenVaSl9xM1hHWFltTjlWTktjVk54TnZlWnd2UUlvVlMzV3NQd2xjUGdTQzlfRWswR0VwMVZJWllIdzAzRW9SbkpQejZSN1lKamxGSEVEX2pGVU5YZC1MYUxn0gHkAUFVX3lxTFBTeHF4ZkI5UjZUV0xVeXFjQnBxRGNQLWEyRUVfeE9OR2I2TVpsTElRSnpmU1MwLXlOZUZ0d29DOG1KbmpJam9Rbk5jUkhWWERHOTFaYlJtdFlvME5iMU9qM20tZlhPR3J6QlpSQ2lTQUs4TzhkWUt0WU5TdThCQXVqcnFVc3dyLWNxOTNBdVAwaE1IN19wUTBadUVDZ3BhSnJMRVJyc0sxbjBfT240enRNcGFHNDhTX0w5WmNvZWEzUFlwbWRKOGNNc0lpRGozLXpuV2JFT3llLUF3Wi1aY3NSS1czbQ?oc=5",
+        "community": "islam",
+        "domain": "news.google.com",
+        "date": "2026-06-05T07:24:24+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "MTD Group, MTD Properties Strengthen Community Ties With Aidiladha Contribution. MTD Group, MTD Properties Strengthen Community Ties With Aidiladha Contribution&nbsp;&nbsp;Bernama",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51SDJtWUprdW40S0hpcWR2ejItaFJTR2dTYXA0OTVjUFJZcFBnc2ExcDd1VkpSSVZJd2Y2QWYtc1NNUlZWV0dKSTBrV0p4TmFxb0hWeTFWYjBoRkJY?oc=5",
+        "community": "islam",
+        "domain": "news.google.com",
+        "date": "2026-05-27T04:41:57+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Johor state election to be held on July 11, Negeri Sembilan polls on Aug 1. Johor state election to be held on July 11, Negeri Sembilan polls on Aug 1&nbsp;&nbsp;The Straits Times",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOS1VbkMtSWRQeWJxRmdld1B2dEUtZ1NJaFRJYkhfbWNIUF9vSEtXVUhialZqOEk4Sk1TRGM0c2J6bV9KRHlvU3hnMldlSW9Yb1F3aUNyYksxZDBqZlRMUWQxUjVTNnhsUGNXbWRQOWwyZmxPUXhleTNSUTFfSXhkZlhqNHFGQ1ZSNGpVMEMzZXF6dTdzWW1Vc00yM3ZmSDhzeTNmcFliVlh0R3N2Z19WTVV2RFdGQQ?oc=5",
+        "community": "islam",
+        "domain": "news.google.com",
+        "date": "2026-06-12T04:14:58+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Anwar: PH gearing up for Johor, Negeri Sembilan polls. Anwar: PH gearing up for Johor, Negeri Sembilan polls&nbsp;&nbsp;The Malaysian Reserve",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTWtIQmUtU3JYUW1VSnc2QWVOMTFfcUdvdkN3VTFWSkZ5ZkdQMVprRkZWWjlGZUhEQk9JUDBrLWhLZXcwdERjZWhaUFlaLTdFSHN2THh0VWVTWTNTUGk0bU5GTktHaUJHc1YxaUxuTndRbUVDVmV6cDhfRG9NWnNDMk1FdC1qWl8ydVhRX1pFa3ZCbW5vME1ONExjUQ?oc=5",
+        "community": "islam",
+        "domain": "news.google.com",
+        "date": "2026-06-05T11:13:12+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "cina": [
+      {
+        "text": "Lapan kenderaan polis kejar, kepung kereta suspek curi kabel di Seremban. Seremban: Sekurang-kurangnya lapan kenderaan polis mengejar dan mengepung sebuah kereta yang dinaiki tiga lelaki selepas suspek dikatakan melarika",
+        "url": "https://www.hmetro.com.my/mutakhir/2026/06/1370536/lapan-kenderaan-polis-kejar-kepung-kereta-suspek-curi-kabel-di-seremban",
+        "community": "cina",
+        "domain": "hmetro.com.my",
+        "date": "2026-06-15T22:46:12+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Hongli Group Inc. Entered into Strategic Non-Binding MOU with Sidus Energy Storage, Inc. to Explore Potential Advanced Battery Manufacturing Collaboration. Proposed Partnership Supports the Company&#039;s ongoing Strateg",
+        "url": "https://themalaysianreserve.com/2026/06/15/hongli-group-inc-entered-into-strategic-non-binding-mou-with-sidus-energy-storage-inc-to-explore-potential-advanced-battery-manufacturing-collaboration/",
+        "community": "cina",
+        "domain": "themalaysianreserve.com",
+        "date": "2026-06-15T15:38:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Active Minds Launches National Youth-Led Mental Health Movement to Equip 100,000 High School Students. With Support from Google.org, Helps Youth and Young Adults to Co-Create Digital Safety Solutions and Advocate for Com",
+        "url": "https://themalaysianreserve.com/2026/06/15/active-minds-launches-national-youth-led-mental-health-movement-to-equip-100000-high-school-students/",
+        "community": "cina",
+        "domain": "themalaysianreserve.com",
+        "date": "2026-06-15T15:36:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "In HelloNation, Roofing Expert Eric Gregory of Over the Top Roofing Explains Inspect Before Siding Replacement. The article outlines why early inspection and insulation upgrades improve durability, efficiency, and long-t",
+        "url": "https://themalaysianreserve.com/2026/06/15/in-hellonation-roofing-expert-eric-gregory-of-over-the-top-roofing-explains-inspect-before-siding-replacement/",
+        "community": "cina",
+        "domain": "themalaysianreserve.com",
+        "date": "2026-06-15T14:57:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Anwar mahu PH menang di Johor, gesa rakyat pilih kerajaan negeri sealiran pusat. MUAR: Pengerusi Pakatan Harapan (PH), Datuk Seri Anwar Ibrahim bertekad memenangkan gabungan itu dalam Pilihan Raya Negeri (PRN) Johor bagi",
+        "url": "https://www.utusan.com.my/terkini/2026/06/anwar-mahu-ph-menang-di-johor-gesa-rakyat-pilih-kerajaan-sealiran-dengan-pusat/?utm_source=rss&utm_medium=rss&utm_campaign=anwar-mahu-ph-menang-di-johor-gesa-rakyat-pilih-kerajaan-sealiran-dengan-pusat",
+        "community": "cina",
+        "domain": "utusan.com.my",
+        "date": "2026-06-15T14:32:06+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "india": [
+      {
+        "text": "'Mek Kelate Mek Manis' - East Coast state's unlikely cultural ambassador. Tamil influencer's food reviews break stereotypes about Kelantan, bringing people together.",
+        "url": "https://www.malaysiakini.com/news/777411",
+        "community": "india",
+        "domain": "malaysiakini.com",
+        "date": "2026-06-14T02:30:14+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Penang seeks land titles for all 28 Tamil schools. State executive councillor S Sundarajoo says five schools have already secured land ownership, while another five are awaiting land titles.",
+        "url": "https://www.freemalaysiatoday.com/category/nation/2026/06/15/penang-seeks-land-titles-for-all-28-tamil-schools",
+        "community": "india",
+        "domain": "freemalaysiatoday.com",
+        "date": "2026-06-15T10:29:26+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Zambry: BN to field candidates under 'dacing' logo in state elections. Zambry: BN to field candidates under 'dacing' logo in state elections&nbsp;&nbsp;NST Online",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3VYSVZ4RkJ1MlQ2dUtvMWp0RW96SE02SV8yaXF5N0hreWdCUWhhTVhnUzE2MmFZUjlrUU9sNmF2WlhuMlZxY0xtbFhMSzhLcTF4d2RMQjR5N3Y4NlNDWGw4Y2YzVGItNjBsMmFMblJRaXBIbWw3bTAtLUR1OUFsbllTOUxLTV9ueXl6YTNDOFFZdF9GR0NVc0x3b0dtR3BiUjBLaHh4RVRQZjQ0MEVDeXhyZG9mUdIBtgFBVV95cUxOV3VYSVZ4RkJ1MlQ2dUtvMWp0RW96SE02SV8yaXF5N0hreWdCUWhhTVhnUzE2MmFZUjlrUU9sNmF2WlhuMlZxY0xtbFhMSzhLcTF4d2RMQjR5N3Y4NlNDWGw4Y2YzVGItNjBsMmFMblJRaXBIbWw3bTAtLUR1OUFsbllTOUxLTV9ueXl6YTNDOFFZdF9GR0NVc0x3b0dtR3BiUjBLaHh4RVRQZjQ0MEVDeXhyZG9mUQ?oc=5",
+        "community": "india",
+        "domain": "news.google.com",
+        "date": "2026-06-13T16:27:56+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Indian Malaysian vote could be decisive in GE16 despite political fragmentation. Indian Malaysian vote could be decisive in GE16 despite political fragmentation&nbsp;&nbsp;The Malaysian Reserve",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNGtZdU9mbUF2c2UxbGE3TmVTbGVoRUJWc0JqNEotNEdTWjhUQ2gwcU9LekNnY0VELU01dlJLRFVNci1zOF83bk95S1RjMnR4Z002em5Mc1V2ZVkwQzBUZ2JDWkhidDdJUFdnQTd2aHdSRTgxdWc4VG1UTUZTaXhleHppZHlKd21nczVBckFuZXYtNXpLcUFINmtIejM4cEZ1UllVbnhycXRNSUJ1azV0a2szV0czWk0xVFFUV3NEZ2o?oc=5",
+        "community": "india",
+        "domain": "news.google.com",
+        "date": "2026-06-03T09:17:58+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "BN to mobilise full election machinery for twin state polls, says Zambry. BN to mobilise full election machinery for twin state polls, says Zambry&nbsp;&nbsp;Malay Mail",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUjdqQjJaamhkdUpOLTVfOE9zUEkzV0p1ejNVWVhHTjhLNE41Zk9aTTNiV1J3MEY2eXZMM1B1bVdZM2VoWnhiTmxlT1NReWctMW53MDBTQWV2NDROMEVkM20yeWdqaC1hVXp5c002c2k4bzFpeHNPdmVObm9MZzJKN1pxZ1JuX2s0Y3NlSFlLZXZMUzE5RVhHWGxBYUQ4YjgwMVBYUFo2WGViSmtEUjc4RFNGMDVYZ211SlZ0NzBqQTZsZ1BsVmYxbUlOczRRZ9IBzgFBVV95cUxNUjdqQjJaamhkdUpOLTVfOE9zUEkzV0p1ejNVWVhHTjhLNE41Zk9aTTNiV1J3MEY2eXZMM1B1bVdZM2VoWnhiTmxlT1NReWctMW53MDBTQWV2NDROMEVkM20yeWdqaC1hVXp5c002c2k4bzFpeHNPdmVObm9MZzJKN1pxZ1JuX2s0Y3NlSFlLZXZMUzE5RVhHWGxBYUQ4YjgwMVBYUFo2WGViSmtEUjc4RFNGMDVYZ211SlZ0NzBqQTZsZ1BsVmYxbUlOczRRZw?oc=5",
+        "community": "india",
+        "domain": "news.google.com",
+        "date": "2026-06-14T00:40:00+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "lain": [
+      {
+        "text": "Over 1,500 strong: Protest for Orang Asli and Asal rights. Over 1,500 strong: Protest for Orang Asli and Asal rights&nbsp;&nbsp;greenpeace.org",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1c1REJwWWc3THNiM3VaN2gyRkw5RmtLVF9FbEFvNTZlNzlicTNxZEJibloyVFNIc09KNThEdFl3RVZ0MDRBcldsU0VyRE41UDEtTHVBeFlBcDUwcjBrRzdpRjdWSENjaVZOLVZfblhqaC1iNzgtUHl5aFhGbDFzUngwYVpBcE1oRGJlOVNrWTRhU1paRzVWSWdNQTlHU095TWtQQjZ2aw?oc=5",
+        "community": "lain",
+        "domain": "news.google.com",
+        "date": "2026-06-12T12:49:25+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "SNAPSHOT | Polls win rests on parties' strength, not timing - Khaled; ministry denies seizing Orang Asli land. SNAPSHOT | Polls win rests on parties' strength, not timing - Khaled; ministry denies seizing Orang Asli land",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XZVJGLWlvS0xsMVIyUjVTdDVHN2dYcmdoSEJFYzU5VUdTd3RCMEhzTjJxNzVEeWV2c2Q4dXgyd05sLXRGOUZNcnF0SUVXOWdJOUE?oc=5",
+        "community": "lain",
+        "domain": "news.google.com",
+        "date": "2026-06-13T06:16:28+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Staggered polls may boost voter focus in Johor, Negeri Sembilan elections | Sinar Daily. Staggered polls may boost voter focus in Johor, Negeri Sembilan elections | Sinar Daily&nbsp;&nbsp;Sinar Daily",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSG1UUEE2Y2ZrTjdudUYtdDF4cGVHekJrYllBaUYyeUlNTlZpUC1yekdkNENrNk0xa011ank4TTZWLUo1VlhQeGpoTFBxX0x4SE45RXNXbnpWZUxDYi1qX002VWVzWHB0eTJoem5oY1ZSR1lGTm1VMnU3NUVTQmVHWGYyRWRNV1cwb0FYVUk5OVBxT19pS01wZFR6TmhhS1VXeGNVUExkNlRhY3FuNUtXMmJCUkhIckEwUXppb2VfZ2lYanNhZW5F0gFWQVVfeXFMTUZ2SWNMdFhxN1BFSzJSVEd1dGtqSE52dm1MUlp4Mi1KSlZQejlBVGJKRklybm1rMV81SFhiSzNfT096eU5hMHFlb3kwRWZ0SHhja1NHQXc?oc=5",
+        "community": "lain",
+        "domain": "news.google.com",
+        "date": "2026-06-12T09:07:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Siti Kasim: 10 ways PMX has derailed ‘korban’ spirit for political theatrics with 260 cows as trade-offs. Siti Kasim: 10 ways PMX has derailed ‘korban’ spirit for political theatrics with 260 cows as trade-offs&nbsp;&nbs",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3V5akxXZmlHY3pQZXNDN2NwdHZxWmJ5dUdEN2JQZm0wUW9QeVh5cUhidkVHSnJfVmxWb2RsV2djTThvN3Q4QXZLTHItY0wxMjJfdzJfaTBPZV9HR1RVd3ZVYWZOVGo5REk5d2tvbFNyLWJZNWJZTXlVeFFucmhqLWYwVFJaaVpKNTZ0ZU1NVVlOZ2Jmb3hVeGIwNkVNT2lrWHlhMmRuV214Z0kxNzI1QkFkeWRmWXBUWHJHanpPeGs2NVRPVXc?oc=5",
+        "community": "lain",
+        "domain": "news.google.com",
+        "date": "2026-05-31T07:00:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Special EC meeting today to decide key dates for Johor, Negeri Sembilan polls. Special EC meeting today to decide key dates for Johor, Negeri Sembilan polls&nbsp;&nbsp;The Malaysian Reserve",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaWtmZ2VzNWpURFhJMFZpcnQ2WlpWOVNFdGJrVExRZUk4MTRWR1NvRUR2TFlZV2Qydjk4WjlMOGo0Rm81dFdrTHkxMUxsSDc4ZnZjS2ZRVmVPcGZuVlBOZzBVanNsbG53YkZ4eDc4d0NTdGZZckJJYUR3N3NPdDVNTWVEM2pZOTFLU3IzcWdZU3J6QTZpSmxWMlhTcG5Bc2dvQU9nMTFRXzZyeWdkZFhfeU9FVVFqVnRsRVRNbQ?oc=5",
+        "community": "lain",
+        "domain": "news.google.com",
+        "date": "2026-06-12T01:15:00+00:00",
+        "method": "google_news_rss"
+      }
+    ],
+    "ekonomi": [
+      {
+        "text": "Syarikat makanan didenda RM21,000 palsukan logo halal. Syarikat makanan didenda RM21,000 palsukan logo halal&nbsp;&nbsp;Harian Metro",
+        "url": "https://news.google.com/rss/articles/CBMiugNBVV95cUxNdHRuTWoySElVajVzZURBM1FneFdzQlROcXFjbm5kc3hzRFJ6akJjUHNpMDhibng0QWwxS3lpZzdkMU5xWloyREZXVUVHTFQtZFJxMGtGQWQyQU5HUURhVnpfQ1dmbzhQYktyR19MNUdiRmpsdGZPcGxMbnI3Rnh6T3ZfOTRaVE9QeUdjdjNaS0hVUy1kQWNXNC1YWVl5S1pRSUw3bnN4LUxiYWxRQmY2WDhPVzJ2TUcybzhXVFVkR1dpc0MycFVkeEpJWE14VEoxOTUtWGZxUGhreWtuSmVPaXdBZkczTS1CeWVYRkZJLWx5U1FwTUNEaXpsWDA2TjRYM3pqLXZBQTZiX3lCWGc5d29VbzdLaDJTdkZGQkoyRWR3Xzc1Sk45b3VBZXVyLTNURnZwSm1qc09RZXBHT2tkQkJfQkh5aEVNcml5VUFpR3NBSVFRX1Y2U1hGQXZoNFdrRWJTZS03VEZUZUhQUkpYVE1iTEJKNElVS1JOOHVPcnlWQUt0eXdSeVpzek1GakNGNHVNTUZjQ2I0NTQxWkY1bFJval8tM3N5Yk9WMEZKcVFyN3M0bGpJcThR0gGrAUFVX3lxTE5qWlowY2RVbnk0N285dTRaX2ZEMEI4SFJkOXdpbjRPSVQzUHNPQ21IZlNWd3BLc0pZWXRNRGJ3X3JGdC1vMEkzZjlNeWNOODhQQkFDTXdHd3kyb3htX1VEUUhrX1FTWktzay0wOFo3UVBOQWhJYUZMeEs5bmNoSTNaVGJYOEJ3NGg4eTBTaFZua0F3QXlrTHBiYnNTZnkyc0k5ajdJb2dqQ0pRZw?oc=5",
+        "community": "ekonomi",
+        "domain": "news.google.com",
+        "date": "2026-05-21T07:00:00+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Global supply crisis: Sabah, Sarawak diesel subsidies hit RM1.4 bln, says Armizan. KOTA KINABALU (June 15):&#160;Diesel subsidy spending for Sabah and Sarawak surged to RM1.4 billion in the first four months of this year",
+        "url": "https://www.theborneopost.com/2026/06/15/global-supply-crisis-sabah-sarawak-diesel-subsidies-hit-rm1-4-bln-says-armizan/",
+        "community": "ekonomi",
+        "domain": "theborneopost.com",
+        "date": "2026-06-15T09:03:38+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "3,500 participants to join grand Gawai ‘Niti Daun’ in Kuching. KUCHING (June 15): About 3,500 participants, including a contingent from Sabah, are expected to take part in the &#8216;Niti Daun&#8217; (procession) during ",
+        "url": "https://www.theborneopost.com/2026/06/15/3500-participants-to-join-grand-gawai-niti-daun-procession-on-june-20/",
+        "community": "ekonomi",
+        "domain": "theborneopost.com",
+        "date": "2026-06-15T07:18:33+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "AirBorneo setbacks temporary, says Abang Jo. The Sarawak premier says AirBorneo is key to boosting the state’s role in the Asean economy and connecting businesses to regional markets.",
+        "url": "https://www.freemalaysiatoday.com/category/nation/2026/06/15/airborneo-setbacks-are-temporary-says-abang-jo",
+        "community": "ekonomi",
+        "domain": "freemalaysiatoday.com",
+        "date": "2026-06-15T12:52:42+00:00",
+        "method": "google_news_rss"
+      },
+      {
+        "text": "Menteri Sarawak pertahan keputusan enggan terima pelarian Rohingya. Abdul Karim Rahman Hamzah berkata Sarawak simpati dengan nasib entik itu tetapi kemasukan pelarian perlu diurus dengan secara teratur.",
+        "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/06/15/menteri-sarawak-pertahan-keputusan-enggan-terima-pelarian-rohingya",
+        "community": "ekonomi",
+        "domain": "freemalaysiatoday.com",
+        "date": "2026-06-15T10:58:01+00:00",
+        "method": "google_news_rss"
+      }
+    ]
+  },
+  "queries_used": 41,
+  "direct_sources": [
+    "CP_N9",
+    "CP_MY",
+    "FMT",
+    "MKINI",
+    "BH",
+    "HMETRO",
+    "UTUSAN",
+    "SINCHEW",
+    "ORIENTAL",
+    "MAKKAL_OSAI",
+    "MAKKAL_OSAI_HEADLINES"
+  ],
+  "comment_sources": [
+    "CP_N9",
+    "CP_MY",
+    "FMT"
+  ],
+  "cost": "RM0 — Google News RSS + direct scrape (tiada API key)",
+  "note": "Komen percuma: China Press (Coral API), FMT (WordPress RSS). BH/HMetro/Utusan/Malaysiakini = artikel RSS. FB 森州人 perlu Apify."
+}

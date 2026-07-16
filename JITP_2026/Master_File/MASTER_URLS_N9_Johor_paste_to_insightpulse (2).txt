@@ -1,0 +1,330 @@
+# =============================================================
+# InsightPulse Direct URL Crawl — MASTER URL LIST v2
+# =============================================================
+# Total: ~203 URLs (PRN Johor + N9)
+# Coverage: Melayu / Cina / India / English
+#         + LOCAL (DUN, daerah, ADUN, royal/Adat, FELDA, universiti)
+#
+# Project Tag: PRN — Direct URL Phase 1
+# Date Range: Last 7 Days
+# Dataset Size per URL: 100 posts
+# Anggaran Kos: ~$43 (Apify, 100 results/URL, 7-day window)
+# Last Updated: 2026-06-20
+# =============================================================
+# NOTA PENTING:
+#  - Buang baris komen (#) sebelum paste ke InsightPulse
+#  - Atau paste sahaja seluruh fail — InsightPulse skip # lines
+#  - ROYAL/ADAT URLs (TMJ, Sultan Ibrahim, Tunku Zain, Adat Perpatih):
+#    tag do_not_train=true + min 2 reviewers
+#  - PDPA: anonymise komen ordinary users
+# =============================================================
+
+
+# =============================================================
+# === BAHAGIAN 1: MEDIA NASIONAL (Cross-state) ==============
+# =============================================================
+
+# ---- NEWS MALAY (15) ----
+https://www.bharian.com.my
+https://www.sinarharian.com.my
+https://www.hmetro.com.my
+https://www.utusan.com.my
+https://www.mstar.com.my
+https://www.kosmo.com.my
+https://www.malaysiakini.com/my
+https://www.berita.rtm.gov.my
+https://www.bernama.com/bm
+https://www.astroawani.com
+https://www.tv3.com.my
+https://www.themalaysianreserve.com
+https://www.freemalaysiatoday.com/category/bahasa
+https://www.malaymail.com
+https://says.com
+
+# ---- NEWS CHINESE (12) ----
+https://www.sinchew.com.my
+https://www.chinapress.com.my
+https://www.orientaldaily.com.my
+https://www.nanyang.com
+https://www.guangming.com.my
+https://www.kwongwah.com.my
+https://www.seehua.com
+https://www.enanyang.my
+https://news.seehua.com
+https://www.facebook.com/sinchewdaily
+https://www.facebook.com/chinapressmy
+https://www.facebook.com/orientaldailynews
+
+# ---- NEWS TAMIL / INDIA (6) ----
+https://www.tamilnesan.com.my
+https://makkalosai.com.my
+https://www.malaysianindian.com
+https://www.facebook.com/makkalosai
+https://www.facebook.com/tamilnesannews
+https://www.facebook.com/MalaysianIndianNewsTV
+
+# ---- NEWS ENGLISH (8) ----
+https://www.thestar.com.my
+https://www.nst.com.my
+https://www.theedgemalaysia.com
+https://www.freemalaysiatoday.com
+https://www.themalaysianinsight.com
+https://malaysianow.com
+https://www.codeblue.galencentre.org
+https://www.scmp.com/topics/malaysia
+
+# ---- NEWS LOCAL JOHOR + N9 (10) ----
+https://www.johorkini.com
+https://www.berita-johor.com
+https://www.johorsoutherntigers.com.my
+https://www.facebook.com/JohorTopNews
+https://www.facebook.com/InfoJohor
+https://www.facebook.com/RasmiKerajaanJohor
+https://ns.gov.my
+https://www.facebook.com/seremban.online
+https://www.facebook.com/N9portalrasmi
+https://www.facebook.com/InfoNegeriSembilan
+
+
+# =============================================================
+# === BAHAGIAN 2: PARTI & PEMIMPIN NASIONAL =================
+# =============================================================
+
+# ---- FACEBOOK PARTI RASMI (12) ----
+https://www.facebook.com/umno.org.my
+https://www.facebook.com/MyPasMalaysia
+https://www.facebook.com/PartiBersatuMalaysia
+https://www.facebook.com/PartiKEADILANRakyat
+https://www.facebook.com/dapmalaysia
+https://www.facebook.com/AmanahMalaysia
+https://www.facebook.com/MUDAmalaysia
+https://www.facebook.com/PNRasmi
+https://www.facebook.com/PakatanHarapanRasmi
+https://www.facebook.com/MCAOfficial
+https://www.facebook.com/MICparti
+https://www.facebook.com/GerakanRasmi
+
+# ---- FACEBOOK TOP PEMIMPIN (15) ----
+https://www.facebook.com/anwaribrahim
+https://www.facebook.com/ahmadzahidofficial
+https://www.facebook.com/tunmahathirmohamad
+https://www.facebook.com/muhyiddinyassinofficial
+https://www.facebook.com/HadiAwang
+https://www.facebook.com/tuanibrahimtuanman
+https://www.facebook.com/limguaneng
+https://www.facebook.com/HamzahZainudin
+https://www.facebook.com/khalednordin
+https://www.facebook.com/OnnHafiz
+https://www.facebook.com/AminuddinHarun
+https://www.facebook.com/jalaluddinalias
+https://www.facebook.com/Saifuddinabd
+https://www.facebook.com/RafiziRamli
+https://www.facebook.com/RinaHarunOfficial
+
+
+# =============================================================
+# === BAHAGIAN 3: X / TWITTER ==============================
+# =============================================================
+
+# ---- X LIVE SEARCH PRN-SPECIFIC (10) ----
+https://x.com/search?q=PRN%20Johor&f=live
+https://x.com/search?q=PRN%20N9&f=live
+https://x.com/search?q=PRN16&f=live
+https://x.com/search?q=PRN%20Negeri%20Sembilan&f=live
+https://x.com/search?q=%23johormengundi&f=live
+https://x.com/search?q=%23undin9&f=live
+https://x.com/search?q=RON95%20subsidi&f=live
+https://x.com/search?q=banjir%20Johor&f=live
+https://x.com/search?q=Adat%20Perpatih&f=live
+https://x.com/search?q=Tuanku%20Muhriz&f=live
+
+# ---- X POLITIK + WARTAWAN NASIONAL (12) ----
+https://x.com/anwaribrahim
+https://x.com/DrZahidHamidi
+https://x.com/MuhyiddinYassin
+https://x.com/limkitsiang
+https://x.com/RafiziRamli
+https://x.com/SaifuddinNasut
+https://x.com/HamzahZainudin
+https://x.com/khairykj
+https://x.com/jrpolitik
+https://x.com/malaysiakini
+https://x.com/staronline
+https://x.com/fmtoday
+
+
+# =============================================================
+# === BAHAGIAN 4: TIKTOK ===================================
+# =============================================================
+
+# ---- TIKTOK HASHTAGS (12) ----
+https://www.tiktok.com/tag/prnjohor
+https://www.tiktok.com/tag/prn16
+https://www.tiktok.com/tag/prnn9
+https://www.tiktok.com/tag/johormengundi
+https://www.tiktok.com/tag/undin9
+https://www.tiktok.com/tag/pilihanrayanegeri
+https://www.tiktok.com/tag/pilihanrayajohor
+https://www.tiktok.com/tag/negerisembilan
+https://www.tiktok.com/tag/johor
+https://www.tiktok.com/tag/politikmalaysia
+https://www.tiktok.com/tag/malaysiamadani
+https://www.tiktok.com/tag/perpaduanummah
+
+# ---- TIKTOK AKAUN PEMIMPIN/PARTI (8) ----
+https://www.tiktok.com/@ahmadzahidhamidi
+https://www.tiktok.com/@anwaribrahim
+https://www.tiktok.com/@hadiawang
+https://www.tiktok.com/@muhyiddinyassin
+https://www.tiktok.com/@umnoofficial
+https://www.tiktok.com/@dapofficial
+https://www.tiktok.com/@bersatuofficial
+https://www.tiktok.com/@pasofficial
+
+
+# =============================================================
+# === BAHAGIAN 5: YOUTUBE + INSTAGRAM + THREADS ============
+# =============================================================
+
+# ---- YOUTUBE CHANNELS (10) ----
+https://www.youtube.com/@AstroAwani
+https://www.youtube.com/@bernamatv
+https://www.youtube.com/@bharianmy
+https://www.youtube.com/@sinarharian
+https://www.youtube.com/@malaysiakini
+https://www.youtube.com/@fmtoday
+https://www.youtube.com/@TVSinChew
+https://www.youtube.com/@chinapressmy
+https://www.youtube.com/@orientaldailymy
+https://www.youtube.com/@MalaysianIndian
+
+# ---- INSTAGRAM TOP ACCOUNT NASIONAL (10) ----
+https://www.instagram.com/anwaribrahim
+https://www.instagram.com/ahmadzahidhamidi
+https://www.instagram.com/onnhafiz
+https://www.instagram.com/aminuddin.harun.10
+https://www.instagram.com/dapmalaysia
+https://www.instagram.com/umnoonline
+https://www.instagram.com/bersatuofficial
+https://www.instagram.com/PNRasmi
+https://www.instagram.com/MUDAmalaysia
+https://www.instagram.com/sinchewdaily
+
+# ---- THREADS POLITIK (5) ----
+https://www.threads.net/@anwaribrahim
+https://www.threads.net/@malaysiakini
+https://www.threads.net/@dapmalaysia
+https://www.threads.net/@thestaronline
+https://www.threads.net/@umnoonline
+
+
+# =============================================================
+# ============================================================
+# === BAHAGIAN 6: LOCAL EXPANSION — JOHOR (35 URL) ==========
+# === Tambahan: per-daerah, DUN, ADUN, influencer, royal =====
+# ============================================================
+# =============================================================
+
+# ---- JOHOR · PER-DAERAH NEWS & KOMUNITI (12) ----
+https://www.facebook.com/johorbahru/
+https://www.facebook.com/groups/521145714967137/
+https://www.facebook.com/groups/309588091637016/
+https://www.facebook.com/johornowenglish/
+https://www.facebook.com/HanYuanDaily/
+https://www.facebook.com/ThisIsJohor/
+https://www.facebook.com/groups/297575810890241/
+https://www.facebook.com/ForestCityCGPV/
+https://www.instagram.com/visitjohor/
+https://www.instagram.com/explorejb.sg/
+https://www.facebook.com/gojohor/
+https://www.facebook.com/tourismjohor/
+
+# ---- JOHOR · DUN COMMUNITY & PEJABAT DAERAH (7) ----
+https://www.facebook.com/pkdmuar/
+https://www.facebook.com/DOAJohor/
+https://www.facebook.com/perbadanankemajuanperumahannegerijohor/
+https://www.facebook.com/IskandarMalaysiaOfficial/
+https://www.facebook.com/groups/6633738496650623/
+https://www.facebook.com/groups/malaysia.singapore.border.crossers/
+https://www.facebook.com/groups/johorexpats/
+
+# ---- JOHOR · POLITIK INFLUENCERS (12) ----
+https://www.facebook.com/adamadli2/
+https://x.com/adamadli
+https://x.com/syedsaddiq
+https://www.facebook.com/liewchintong.my/
+https://www.facebook.com/berita757/
+https://www.facebook.com/groups/viralmalaysia/
+https://www.facebook.com/nazrieconomics/
+https://www.facebook.com/khairinnisaismail/
+https://www.instagram.com/suhaizan_kayat/
+https://x.com/onnhafiz
+https://x.com/KhaledNordin
+https://www.facebook.com/mohamadnajibsamuri/
+
+# ---- JOHOR · ADUN AKAUN RASMI (5) ----
+https://www.facebook.com/MarinaIbrahim03/
+https://www.facebook.com/AdunTgSurat/
+https://www.facebook.com/nazkalvenger/
+https://www.facebook.com/PejabatADUNJohorJaya/
+https://www.facebook.com/drsanthara/
+
+# ---- JOHOR · ROYAL / SULTAN WATCH (5) [do_not_train=true] ----
+https://www.facebook.com/TheRoyalJohor/
+https://www.instagram.com/theroyaljohor/
+https://www.instagram.com/hrhcrownprinceofjohor/
+https://x.com/hrhjohorii
+https://www.instagram.com/officialsultanibrahim/
+
+
+# =============================================================
+# === BAHAGIAN 7: LOCAL EXPANSION — N9 (23 URL) =============
+# === per-daerah, DUN, ADUN, royal/Adat, FELDA, universiti ===
+# =============================================================
+
+# ---- N9 · PER-DAERAH NEWS & KOMUNITI (6) ----
+https://www.facebook.com/groups/N.Sembilan/
+https://www.facebook.com/negeriSembilainfokini/
+https://www.facebook.com/groups/serembankarthiben/
+https://www.facebook.com/p/Pusat-Khidmat-Parlimen-Jempol-P127-100064718231007/
+https://www.facebook.com/pknns/
+https://www.facebook.com/chhsban/
+
+# ---- N9 · DUN COMMUNITY & DAERAH (3) ----
+https://www.facebook.com/groups/904933056270538/
+https://www.facebook.com/klinikpenawarns.my/
+https://www.facebook.com/ijmseremban2/
+
+# ---- N9 · POLITIK INFLUENCERS & ADUN (3) ----
+https://www.facebook.com/arul.jambunathan/
+https://www.facebook.com/beritaks/
+https://x.com/dsaminuddin
+
+# ---- N9 · ROYAL / ADAT PERPATIH WATCH (2) [do_not_train=true] ----
+https://www.instagram.com/tz.n9/
+https://www.facebook.com/groups/925453278347475/
+
+# ---- N9 · FELDA / KOMUNITI LUAR BANDAR (1) ----
+https://www.facebook.com/groups/461729267900126/
+
+# ---- N9 · UNIVERSITI (2) ----
+https://x.com/usim
+https://www.facebook.com/INTI.edu/
+
+
+# =============================================================
+# END — Total: 203 URLs
+# Anggaran kos: ~$43 (Apify, 100 results/URL, 7-day window)
+#
+# Breakdown:
+#   Bahagian 1-5 (Nasional)  : 145 URLs · ~$27
+#   Bahagian 6 (Johor Local) :  35 URLs · ~$10
+#   Bahagian 7 (N9 Local)    :  23 URLs · ~$6
+#
+# Steps:
+#   1. Buka InsightPulse → Direct URL Crawl
+#   2. Paste seluruh fail (atau buang # lines)
+#   3. Set: Last 7 Days · 100 posts/URL · Project tag "PRN-Phase1"
+#   4. Click Analyze → tunggu ~3-4 jam
+#   5. Export CSV → upload ke saya untuk tagging + analitik
+# =============================================================

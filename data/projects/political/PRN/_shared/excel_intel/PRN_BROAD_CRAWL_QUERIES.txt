@@ -1,0 +1,22 @@
+# PRN BROAD CRAWL — FASA 1 (banyak data dulu)
+# InsightPulse: Keyword Search · Social Listening · pas_break_2026
+# Platform: Facebook, Instagram, X, TikTok, News
+# Dataset: 5,000 per negeri · Date: 30 days
+# SATU crawl = SATU query di bawah
+
+# ═══════════════════════════════════════════════════════════════
+# NEGERI SEMBILAN (jalankan crawl 1)
+# ═══════════════════════════════════════════════════════════════
+"PRN Negeri Sembilan" OR "pilihan raya negeri sembilan" OR #PRNNS OR #NegeriSembilan OR PAS OR UMNO OR BN OR "Barisan Nasional" OR DAP OR PKR OR Amanah OR BERSATU OR Gerakan "Negeri Sembilan" when:30d
+
+# ═══════════════════════════════════════════════════════════════
+# JOHOR (jalankan crawl 2)
+# ═══════════════════════════════════════════════════════════════
+"PRN Johor" OR "pilihan raya negeri johor" OR #PRNJohor OR PAS OR UMNO OR BN OR DAP OR PKR OR BERSATU OR Gerakan Johor when:30d
+
+# ═══════════════════════════════════════════════════════════════
+# MELAKA (jalankan crawl 3)
+# ═══════════════════════════════════════════════════════════════
+"PRN Melaka" OR "pilihan raya negeri melaka" OR #PRNMelaka OR PAS OR UMNO OR BN OR DAP OR PKR OR BERSATU OR Gerakan Melaka when:30d
+
+# Nota: BERSATU diasingkan — bukan digabung dalam PN

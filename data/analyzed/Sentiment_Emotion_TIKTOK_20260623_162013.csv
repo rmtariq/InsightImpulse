@@ -1,0 +1,409 @@
+Platform,Type,ID,Text,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,URL,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,7648719641799298324,"we don’t talk abt how stupid I look, it was a dog hair btw",,,negative,2026-06-23 08:00:00.869379+00:00,4200000,400800,27000,44400000,0.06004096269607545,5071800,https://www.tiktok.com/@keirassupersecretspamm67/video/7648719641799298324,5127000.0,,,negative,0.7998634576797485,english,Mixed/Urban,sadness,0.03986954316496849,0.024903297424316406,0.01557301264256239,0.8377992510795593,0.03747663274407387,0.020728956907987595
+tiktok,post,7649897971881872658,pinches flopis por sus culpas perdimos a una icónica #cristianoronaldo #diva2016,,,neutral,2026-06-23 07:59:33.820174+00:00,1500000,199800,4500,9600000,0.5,1800300,https://www.tiktok.com/@hirso00/video/7649897971881872658,1922700.0,,,neutral,0.8368238210678101,english,Mixed/Urban,love,0.070900559425354,0.02152019552886486,0.0859840139746666,0.025012841448187828,0.5648006796836853,0.014794806018471718
+tiktok,comment,7650224395634344712,el escoge los outfits de Georgina?,https://www.tiktok.com/@hirso00/video/7649897971881872658,7649897971881872658,neutral,2026-06-11 19:38:05+00:00,142243,0,39,0,0.5,142321,https://www.tiktok.com/@hirso00/video/7649897971881872658,,dainibeth_1,0.0,neutral,0.9153698682785034,english,Mixed/Urban,no_clear_emotion,0.04128621518611908,0.04701272025704384,0.05972791463136673,0.03129562735557556,0.3553750813007355,0.09223873168230057
+tiktok,comment,7651772889059099400,[Sticker] el bicho/bichota,https://www.tiktok.com/@hirso00/video/7649897971881872658,7649897971881872658,neutral,2026-06-15 23:47:16+00:00,9994,0,29,0,0.5,10052,https://www.tiktok.com/@hirso00/video/7649897971881872658,,viccc_84,0.0,neutral,0.9301459789276123,english,Mixed/Urban,no_clear_emotion,0.05524603649973869,0.021660268306732178,0.05323633551597595,0.020949071273207664,0.09566732496023178,0.04079721122980118
+tiktok,post,7645785662532095239,"Begitu rilis lagu Mas Bahlil Ganteng langsung tancap gas lewat Ditjen Gakkum ESDM buat sikat 7 lokasi tambang ilegal di berbagai pulau, plus langsung cabut izin belasan perusahaan nakal yang bikin negara potensi rugi Rp857,55 miliar. Definisi makin disanjung makin gacor, menyala Kandakuuuuu!
+
+#bahlil #bahlillahadalia #mbg #masbahlilganteng",,,negative,2026-06-23 08:00:00.399313+00:00,1100000,151100,17400,23100000,0.036383333802223194,1499500,https://www.tiktok.com/@adindabahlil_/video/7645785662532095239,1477500.0,,,negative,0.878722220659256,multilingual,Unknown,no_clear_emotion,0.18085917830467224,0.10781748592853546,0.10758072882890701,0.06541406363248825,0.1613943725824356,0.05252816900610924
+tiktok,comment,7645896205125518081,ternyata dia cuma mau disayang sama kita guys😭😭,https://www.tiktok.com/@adindabahlil_/video/7645785662532095239,7645785662532095239,neutral,2026-05-31 03:42:21+00:00,47913,0,76,0,0.5,48065,https://www.tiktok.com/@adindabahlil_/video/7645785662532095239,,zxqrfyw,0.0,neutral,0.9917938113212585,malay,Malay/Bumiputera,love,0.10024262964725494,0.07911508530378342,0.04228256270289421,0.1647116243839264,0.4974471926689148,0.058879412710666656
+tiktok,comment,7646642795205559057,dindaaa!,https://www.tiktok.com/@adindabahlil_/video/7645785662532095239,7645785662532095239,neutral,2026-06-02 04:00:25+00:00,3142,0,0,0,0.5,3142,https://www.tiktok.com/@adindabahlil_/video/7645785662532095239,,adindabahlil_,0.0,neutral,0.5013911724090576,english,Mixed/Urban,love,0.09408015757799149,0.05763515457510948,0.11293092370033264,0.030494267120957375,0.4068314731121063,0.042973924428224564
+tiktok,post,7639979805026307348,"Adat nikahan Malaysia, nikah bersama @HOMA #usmanellahi00 #allstarinfluencersaward2026 #lembagamuziumnegerisembilan #VisitNegeriSembilan2026 #asia2026bestculturecurator @All Star Influencers @Tourism Malaysia @n9tourism @abdrahmansoltan @lyndarafikah",,,neutral,2026-06-23 07:59:14.897034+00:00,1200000,73000,15100,18600000,0.5,1474100,https://www.tiktok.com/@usmanellahi00/video/7639979805026307348,1409900.0,,,neutral,0.7347865104675293,english,Mixed/Urban,love,0.10170580446720123,0.031116321682929993,0.07875975966453552,0.04253312945365906,0.5562558174133301,0.028863957151770592
+tiktok,post,7652350616320167182,ceiling fan stuff #fyp #viral #funny,,,neutral,2026-06-23 07:59:28.956763+00:00,737500,300900,20400,8200000,0.5,1140800,https://www.tiktok.com/@landmarks_channel2/video/7652350616320167182,1408700.0,,,neutral,0.5667186975479126,english,Mixed/Urban,happy,0.022681759670376778,0.03277008607983589,0.800669252872467,0.008647998794913292,0.09413233399391174,0.01532786525785923
+tiktok,comment,7652711575279289119,I’m chilly can you turn it off,https://www.tiktok.com/@landmarks_channel2/video/7652350616320167182,7652350616320167182,neutral,2026-06-18 12:30:06+00:00,157707,0,94,0,0.5,157895,https://www.tiktok.com/@landmarks_channel2/video/7652350616320167182,,coolasicebox,0.0,neutral,0.6256406903266907,english,Mixed/Urban,love,0.04266655072569847,0.01952025294303894,0.05718085914850235,0.024310985580086708,0.8069067001342773,0.02117062360048294
+tiktok,comment,7652442310102778638,[Sticker] to love is to let go mijo,https://www.tiktok.com/@landmarks_channel2/video/7652350616320167182,7652350616320167182,neutral,2026-06-17 19:05:21+00:00,18070,0,45,0,0.5,18160,https://www.tiktok.com/@landmarks_channel2/video/7652350616320167182,,tlyer_da_goat,0.0,neutral,0.7767012715339661,english,Mixed/Urban,love,0.10221417993307114,0.07419963926076889,0.05502636730670929,0.11122613400220871,0.5580025315284729,0.049127254635095596
+tiktok,post,7653670717996748052,Kan enak bisa doa bareng :) BAHAHAH,,,positive,2026-06-23 07:59:50.131705+00:00,858900,50400,6101,5300000,0.8714920938014984,968401,https://www.tiktok.com/@jeromepolin98/video/7653670717996748052,983303.0,,,positive,0.5716403126716614,english,Mixed/Urban,love,0.06649591773748398,0.034408971667289734,0.07825201004743576,0.026095371693372726,0.7554551362991333,0.014036928303539753
+tiktok,comment,7653781714788238100,"arsip bg, ini akun khusus matematika",https://www.tiktok.com/@jeromepolin98/video/7653670717996748052,7653670717996748052,positive,2026-06-21 09:42:26+00:00,51382,0,160,0,0.8176320359110831,51702,https://www.tiktok.com/@jeromepolin98/video/7653670717996748052,,alwayswithdona,0.0,positive,0.3921067863702774,multilingual,Unknown,no_clear_emotion,0.04441110044717789,0.0189910139888525,0.044115010648965836,0.023867450654506683,0.24395716190338135,0.0320320762693882
+tiktok,comment,7653677968020325140,"kalau udh di publish, biasa sbntr lagi nikah nih",https://www.tiktok.com/@jeromepolin98/video/7653670717996748052,7653670717996748052,negative,2026-06-21 02:59:58+00:00,140169,0,47,0,0.05727290511131286,140263,https://www.tiktok.com/@jeromepolin98/video/7653670717996748052,,ab1200009,0.0,negative,0.8090903162956238,multilingual,Unknown,love,0.07284508645534515,0.029456842690706253,0.034893181174993515,0.04033123329281807,0.7494218945503235,0.026734255254268646
+tiktok,post,7640037414836210962,states of Malaysia | sound: @donkey #malaysia #fyp #fyppppppppppppppppppppppp #edit #countryballs,,,neutral,2026-06-23 07:59:12.766815+00:00,706600,111100,11600,14700000,0.5,976300,https://www.tiktok.com/@mapzyy1/video/7640037414836210962,978300.0,,,neutral,0.9334605932235718,english,Mixed/Urban,love,0.0473194383084774,0.025166163221001625,0.03833402320742607,0.029424112290143967,0.526298463344574,0.02750972844660282
+tiktok,comment,7654474514609242887,aku Selangor,https://www.tiktok.com/@mapzyy1/video/7640037414836210962,7640037414836210962,neutral,2026-06-23 06:38:00+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@mapzyy1/video/7640037414836210962,,muhammadzhariff88,0.0,neutral,0.7273831367492676,english,Mixed/Urban,no_clear_emotion,0.05286690592765808,0.026323607191443443,0.1080646738409996,0.018489861860871315,0.22746166586875916,0.051568347960710526
+tiktok,post,7649263915594976526,Parte:1 Los sobrinos no son nuestros hijos pero el amor que sentimos por ellos es único #sobrinos #tio #tia #paradedicar #realidad,,,neutral,2026-06-23 07:59:23.167839+00:00,610600,147600,2339,8000000,0.5,840539,https://www.tiktok.com/@cetentavece7/video/7649263915594976526,920817.0,,,neutral,0.8618574738502502,english,Mixed/Urban,love,0.08564664423465729,0.07213123142719269,0.05407527834177017,0.11778906732797623,0.583709180355072,0.045749731361866
+tiktok,comment,7649840290660123412,Xq no existe el DÍA DEL LOS TI@S😞,https://www.tiktok.com/@cetentavece7/video/7649263915594976526,7649263915594976526,negative,2026-06-10 18:47:33+00:00,3205,0,25,0,0.06636516451835633,3255,https://www.tiktok.com/@cetentavece7/video/7649263915594976526,,anyelin.geo,0.0,negative,0.7787827849388123,english,Mixed/Urban,fear,0.06899359822273254,0.3557739555835724,0.04674754664301872,0.06255757063627243,0.3146637976169586,0.07780798524618149
+tiktok,comment,7649437597799187218,Ser Tio es una sensación muy agradable ❤️❤️porque si yoran solo se los devuelves asu padres 😁😁y listo 😂,https://www.tiktok.com/@cetentavece7/video/7649263915594976526,7649263915594976526,positive,2026-06-09 16:44:51+00:00,1057,0,11,0,0.8539699241518974,1079,https://www.tiktok.com/@cetentavece7/video/7649263915594976526,,becker5225,0.0,positive,0.5132330805063248,multilingual,Unknown,happy,0.014325377531349659,0.0243381317704916,0.8920353055000305,0.00691225053742528,0.03851301595568657,0.011986778117716312
+tiktok,post,7639625802186870037,finally😍 @HOMA @All Star Influencers #allstarinfluencersaward2026 #VisitNegeriSembilan2026 #visitmalaysia2026 @abdrahmansoltan @Tourism Malaysia,,,positive,2026-06-23 07:59:09.580870+00:00,634500,18000,4688,5900000,0.8593444228172302,716188,https://www.tiktok.com/@aikahika5/video/7639625802186870037,690464.0,,,positive,0.5311480760574341,multilingual,Unknown,love,0.06559675931930542,0.029412539675831795,0.08958904445171356,0.03308231756091118,0.5259523391723633,0.02916002832353115
+tiktok,post,7652667354479987999,LMFAOOOOOO. #fyp #foryou #loveisland,,,negative,2026-06-23 07:59:59.934739+00:00,442900,88700,2225,2300000,0.10013160109519958,556825,https://www.tiktok.com/@saucysantanasbuttcheek2/video/7652667354479987999,629275.0,,,negative,0.6662279963493347,english,Mixed/Urban,love,0.11198685318231583,0.08452712744474411,0.053087018430233,0.1480051726102829,0.5043802857398987,0.046824708580970764
+tiktok,comment,7652845818852524814,[Sticker] Ariana coming in after casa😂,https://www.tiktok.com/@saucysantanasbuttcheek2/video/7652667354479987999,7652667354479987999,neutral,2026-06-18 21:10:38+00:00,19429,0,27,0,0.5,19483,https://www.tiktok.com/@saucysantanasbuttcheek2/video/7652667354479987999,,galleryof_maliaaa,0.0,neutral,0.924116849899292,english,Mixed/Urban,no_clear_emotion,0.014949432574212551,0.01441882736980915,0.03737534582614899,0.007027124986052513,0.060952309519052505,0.03731825202703476
+tiktok,comment,7653037777576198920,[Sticker] Meanwhile kenzie,https://www.tiktok.com/@saucysantanasbuttcheek2/video/7652667354479987999,7652667354479987999,neutral,2026-06-19 09:35:28+00:00,588,0,3,0,0.5,594,https://www.tiktok.com/@saucysantanasbuttcheek2/video/7652667354479987999,,kwnd_,0.0,neutral,0.9427899122238159,english,Mixed/Urban,happy,0.06077329441905022,0.05440356954932213,0.5498421788215637,0.0158893670886755,0.20319415628910065,0.024096161127090454
+tiktok,post,7640553074225941780,"The kind of trip you don’t want to end 🌴Malaysia really has its own vibe 🤭🤭🤭
+
+#allstarinfluencersaward2026 #VisitMalaysia2026 #VisitNegeriSembilan2026 #VisitJohor2026 #asia2026bestn9johorcompilation 
+
+@All Star Influencers @Tourism Malaysia @Tourism Johor @abdrahmansoltan @lyndarafikah @n9tourism",,,positive,2026-06-23 07:59:07.204412+00:00,497600,10900,3932,6700000,0.983080643415451,579432,https://www.tiktok.com/@homm9k/video/7640553074225941780,537896.0,,,positive,0.9436021447181702,english,Mixed/Urban,love,0.06766031682491302,0.02744940109550953,0.06299969553947449,0.04790976271033287,0.6846965551376343,0.022139864042401314
+tiktok,post,7414441662186835216,"📍Masjid Sri Sendayan,Seremban,Negeri Sembilan..🤍 #masjidsrisendayan #fyp",,,neutral,2026-06-23 08:00:15.539170+00:00,450900,31300,2033,3400000,0.5,518233,https://www.tiktok.com/@zeckriey_/video/7414441662186835216,522999.0,,,neutral,0.9977129697799683,malay,Malay/Bumiputera,love,0.1457851231098175,0.038137707859277725,0.08771350979804993,0.03694147244095802,0.5092039108276367,0.025708189234137535
+tiktok,post,7641171477735197972,"all states of Malaysia 13 and 3 land of federal | inspired: @Mapzy 
+#malaysia #state #edit #fyp #foryou",,,neutral,2026-06-23 07:59:14.043584+00:00,362100,42700,5039,6900000,0.5,478839,https://www.tiktok.com/@histogeography01/video/7641171477735197972,469517.0,,,neutral,0.8596231937408447,english,Mixed/Urban,love,0.031704239547252655,0.034119389951229095,0.23920844495296478,0.02691960148513317,0.4082859456539154,0.050497353076934814
+tiktok,post,7533878454085864711,"Cari benda yang tersembunyi 🤮 @KKMalaysia 🇲🇾 tolong amik tindakan!! Sikit pun takde kata maaf.
+
+#aftstation #merchantsquaresendayan #sendayan #negerisembilan #fyp #fypシ゚viral #makananviral",,,negative,2026-06-23 07:58:30.801612+00:00,124100,117000,7268,5200000,0.0004807412624359131,300368,https://www.tiktok.com/@_iiimalina/video/7533878454085864711,385104.0,,,negative,0.9983975291252136,malay,Malay/Bumiputera,surprise,0.05385686829686165,0.17692247033119202,0.026866352185606956,0.11905629187822342,0.17897196114063263,0.32415902614593506
+tiktok,post,7628941203576229128,Aku nak buat jugak xpi xleh 🥲 #malaysia #CapCut #fyp #foryou #malaysiatiktok,,,neutral,2026-06-23 07:59:32.219260+00:00,318600,19100,5838,3100000,0.5,374538,https://www.tiktok.com/@leishiadelaide/video/7628941203576229128,377414.0,,,neutral,0.732562780380249,english,Mixed/Urban,surprise,0.01706606335937977,0.11424806714057922,0.012154858559370041,0.05315732955932617,0.08486414700746536,0.6651414036750793
+tiktok,post,7350599607526755585,#foryourpage #xyzbca #4u #masukberanda #lewatberanda,,,neutral,2026-06-23 07:58:37.478314+00:00,279200,35000,2327,2900000,0.5,345527,https://www.tiktok.com/@_pocong_panau_/video/7350599607526755585,359081.0,,,neutral,0.9073275327682495,english,Mixed/Urban,no_clear_emotion,0.09052201360464096,0.043047208338975906,0.09125393629074097,0.049653686583042145,0.3175419867038727,0.05220145359635353
+tiktok,post,7622017455862451464,"aku penat trend ni doh...
+#viral #fyp #kl #malaysia #trending",,,negative,2026-06-23 08:00:20.515911+00:00,120000,96500,3264,1400000,0.06833816170692444,233764,https://www.tiktok.com/@marcelo2xp/video/7622017455862451464,324192.0,,,negative,0.7722061276435852,multilingual,Unknown,love,0.020576419308781624,0.01073013711720705,0.03134620189666748,0.013826648704707623,0.8000122308731079,0.026944618672132492
+tiktok,post,7260487859545591041,"Nah untuk adik- adik sekalian form 3 
+#notasejarah #form3 #studytok #semangatstudy #foryou",,,neutral,2026-06-23 07:58:39.073331+00:00,220200,33700,2705,2100000,0.5,277605,https://www.tiktok.com/@dakwahnaa/video/7260487859545591041,297815.0,,,neutral,0.5478478074073792,english,Mixed/Urban,love,0.02950572408735752,0.013208533637225628,0.08219768851995468,0.01910831220448017,0.494058758020401,0.02499029040336609
+tiktok,post,7651714708822641950,It’s always insane to me that this is hours of cleaning cut down to 2 min 🫠🫠🫠🫠🫠🫠,,,negative,2026-06-23 07:59:49.341328+00:00,268400,830,1047,2500000,0.07103846669197084,295277,https://www.tiktok.com/@emiliekiser/video/7651714708822641950,275701.0,,,negative,0.7632051110267639,english,Mixed/Urban,sadness,0.10361150652170181,0.06276684999465942,0.038209982216358185,0.5880600214004517,0.14406628906726837,0.02546307072043419
+tiktok,comment,7651716081006330645,[Sticker] Do you do consulting or offer training for sunday resets ?,https://www.tiktok.com/@emiliekiser/video/7651714708822641950,7651714708822641950,neutral,2026-06-15 20:06:41+00:00,6767,0,6,0,0.5,6779,https://www.tiktok.com/@emiliekiser/video/7651714708822641950,,sweetescape47,0.0,neutral,0.9677821397781372,english,Mixed/Urban,love,0.021540634334087372,0.011588058434426785,0.0556381493806839,0.016750413924455643,0.4353928565979004,0.032572973519563675
+tiktok,comment,7651727407770469151,😂😂😂😂😂,https://www.tiktok.com/@emiliekiser/video/7651714708822641950,7651714708822641950,positive,2026-06-15 20:50:39+00:00,502,0,0,0,0.8714138269424438,502,https://www.tiktok.com/@emiliekiser/video/7651714708822641950,,emiliekiser,0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.14154572784900665,0.09805747866630554,0.11113328486680984,0.0728277787566185,0.2581363916397095,0.08130336552858353
+tiktok,post,7640102815137811732,"Nikah adat Malaysia, just for content guys @HOMA 
+
+ #usmanellahi00 #allstarinfluencersaward2026 #asia2026bestculturecurator #VisitMalaysia2026 #visitnegerisembilan2026 @All Star Influencers @Tourism Malaysia @n9tourism @abdrahmansoltan @lyndarafikah",,,neutral,2026-06-23 07:59:22.689485+00:00,223700,6629,1808,4500000,0.5,277137,https://www.tiktok.com/@usmanellahi00/video/7640102815137811732,246882.0,,,neutral,0.6101617217063904,english,Mixed/Urban,love,0.09861920773983002,0.028563402593135834,0.08086801320314407,0.041681401431560516,0.5010397434234619,0.029171312227845192
+tiktok,post,7463018195402640648,"Contact shalee honda (011 -2069 8500) 
+.
+#hondacrv #hondamalaysia #hondaseremban #hondacivic #newhondacivic #hondapromotion #fyp #hondahrv #hondacity #hondacityhatchback #hondanegerisembilan #hondawrv #protonmalaysia #protonpromotion #crvrs #peroduapromosi #perodua",,,neutral,2026-06-23 07:58:34.112500+00:00,119100,41200,6565,1900000,0.5,185865,https://www.tiktok.com/@shaleeproton/video/7463018195402640648,223095.0,,,neutral,0.9977039694786072,malay,Malay/Bumiputera,love,0.10844126343727112,0.03606205806136131,0.07015746086835861,0.041349850594997406,0.5448879599571228,0.026536324992775917
+tiktok,post,7640811434749824276,"Malaysian wedding culture 💍🇲🇾#allstarinfluencersaward2026 @lyndarafikah @All Star Influencers @abdrahmansoltan @n9tourism @MalaysiaTrulyAsia #visitmalaysia2026 #asia2026bestculturecurator 
+#visitnegerisembilan2026 
+#lembagamuziumnegerisembilan",,,positive,2026-06-23 07:59:36.963062+00:00,187300,2289,1535,6500000,0.9684386074542999,256124,https://www.tiktok.com/@iamhira_/video/7640811434749824276,202983.0,,,positive,0.8947953581809998,english,Mixed/Urban,love,0.08635103702545166,0.028152089565992355,0.07992419600486755,0.03442389890551567,0.5959959626197815,0.023894887417554855
+tiktok,post,7480383045283990792,"Ibu salah seorang mangsa kemalangan maut di Persiaran Senawang 1, Negeri Sembilan tidak menerima maaf pelaku dan keluarganya. #hondajazz #senawang 
+
+Berita lanjut klik link",,,neutral,2026-06-23 07:58:47.145991+00:00,145900,3329,11000,4900000,0.5,209229,https://www.tiktok.com/@kosmoonline/video/7480383045283990792,190458.0,,,neutral,0.8968884944915771,malay,Malay/Bumiputera,anger,0.3004257082939148,0.24988554418087006,0.014622370712459087,0.22801350057125092,0.03665640205144882,0.075696662068367
+tiktok,post,7558327512963484936,"Menurut Timbalan Menteri Sumber Asli dan Kelestarian Alam, Datuk Seri Huang Tiong Sii, negeri terbabit ialah Pahang, Terengganu, Perak, Negeri Sembilan, Sabah dan Sarawak, ia hasil daripada kajian pemetaan sesar aktif oleh Jabatan Mineral dan Geosains Malaysia (JMG) serta Peta Seismotektonik Malaysia.
+
+Klik link di bio untuk artikel penuh.",,,neutral,2026-06-23 07:58:39.487291+00:00,103100,33200,513,1900000,0.5,155813,https://www.tiktok.com/@saysseismik/video/7558327512963484936,172939.0,,,neutral,0.9975971579551697,malay,Malay/Bumiputera,no_clear_emotion,0.19661113619804382,0.035830527544021606,0.08280577510595322,0.022498199716210365,0.0715293437242508,0.03737279772758484
+tiktok,post,7647646797543804174,"this was SOOO messy….
+
+#waxcracking #waxcrackingasmr #asmr #squishys #squishyasmr",,,negative,2026-06-23 08:00:08.890106+00:00,158300,3060,1427,2100000,0.06217063665390016,183787,https://www.tiktok.com/@lisi.shops/video/7647646797543804174,170801.0,,,negative,0.7927645444869995,english,Mixed/Urban,fear,0.20017173886299133,0.31086549162864685,0.10182790458202362,0.07835099846124649,0.2240380197763443,0.017839450389146805
+tiktok,comment,7647863411900793622,[Sticker] Am i the only one who actually like her nails?..,https://www.tiktok.com/@lisi.shops/video/7647646797543804174,7647646797543804174,positive,2026-06-05 10:56:21+00:00,8519,0,62,0,0.8889501810073852,8643,https://www.tiktok.com/@lisi.shops/video/7647646797543804174,,s_blinks4,0.0,positive,0.6298339366912842,english,Mixed/Urban,love,0.014636612497270107,0.030196955427527428,0.04863320291042328,0.02996699884533882,0.42300593852996826,0.3384093642234802
+tiktok,comment,7647719593855550222,The nails…..,https://www.tiktok.com/@lisi.shops/video/7647646797543804174,7647646797543804174,neutral,2026-06-05 01:38:22+00:00,664,0,34,0,0.5,732,https://www.tiktok.com/@lisi.shops/video/7647646797543804174,,bella64627,0.0,neutral,0.7807943224906921,english,Mixed/Urban,love,0.11882273107767105,0.09551986306905746,0.16620565950870514,0.07415033876895905,0.2628401517868042,0.08601552993059158
+tiktok,post,7639718725603806484,hari terakhir bersama kawan 🇮🇩😭 @All Star Influencers #allstarinfluencersaward2026 #VisitNegeriSembilan2026 #visitmalaysia2026,,,positive,2026-06-23 07:59:13.167904+00:00,150700,3242,686,3400000,0.9035680457949637,188628,https://www.tiktok.com/@aikahika5/video/7639718725603806484,162642.0,,,positive,0.6785601526498795,multilingual,Unknown,love,0.09865482151508331,0.06350146234035492,0.03195120766758919,0.19315393269062042,0.3673882782459259,0.03392484784126282
+tiktok,post,7378160068761619733,"SEREMBAN,  VIDEO UTK ILLUSTRATION PURPOSE TEMPAT TU MASIH DALAM KONSTRUKTION DIBUKA HUJUNG JUNE ATAU AWAL JULAI #snowworld #negerisembilan",,,neutral,2026-06-23 08:00:24.697240+00:00,55500,42700,2051,2400000,0.5,124251,https://www.tiktok.com/@fuadmarsum/video/7378160068761619733,149453.0,,,neutral,0.9976182579994202,malay,Malay/Bumiputera,no_clear_emotion,0.061712317168712616,0.03701438009738922,0.04835556820034981,0.02143006958067417,0.05560684576630592,0.0385030172765255
+tiktok,post,7470192039280299282,"Bekas pemain bola sepak kebangsaan Mohamad Zaquan Adha Abd Radzak ditenangkan oleh rakannya Safee Sali ketika ditemui di pekarangan Unit Perubatan Forensik Hospital Rembau, Negeri Sembilan hari ini.
+
+Anak bongsu kepada Zaquan dan Ayu Raudhah, Muhammad Aisy Al Rees dilaporkan meninggal dunia petang tadi.
+
+Berita pemergian Muhammad Aisy Al Rees yang berusia enam bulan itu dikongsikan Mohamad Zaquan menerusi Instagram Story (IGs) miliknya.
+
+Difahamkan, jenazah akan dikebumikan di Makam Tuan Haji Said Seremban, esok.
+
+📸 Izzul Ahmad | BERNAMA
+
+#BernamaNews
+#BernamaImages",,,neutral,2026-06-23 07:58:31.284933+00:00,135500,3498,933,2000000,0.5,159931,https://www.tiktok.com/@bernamaofficial/video/7470192039280299282,147295.0,,,neutral,0.9957505464553833,malay,Malay/Bumiputera,sadness,0.056514400988817215,0.10716155916452408,0.021150702610611916,0.7035464644432068,0.021641148254275322,0.05607037618756294
+tiktok,post,7647855108469853447,part 3#viral#fyp ##fypmalaysia,,,negative,2026-06-23 07:59:21.908556+00:00,88400,28500,291,841800,0.1515750914812088,125609,https://www.tiktok.com/@_kellys8/video/7647855108469853447,147114.8,,,negative,0.49474969506263733,multilingual,Unknown,no_clear_emotion,0.02348974533379078,0.02191445603966713,0.05747988075017929,0.02751353196799755,0.37181180715560913,0.030796045437455177
+tiktok,comment,7648096949979808532,"not state bro, district",https://www.tiktok.com/@_kellys8/video/7647855108469853447,7647855108469853447,neutral,2026-06-06 02:02:33+00:00,2575,0,21,0,0.5,2617,https://www.tiktok.com/@_kellys8/video/7647855108469853447,,7ujuh2023,0.0,neutral,0.6826874613761902,english,Mixed/Urban,no_clear_emotion,0.24751265347003937,0.08120634406805038,0.09016992151737213,0.026427585631608963,0.08703954517841339,0.050591450184583664
+tiktok,comment,7648433001314992904,"fyi,aku nk cari map yg selangor kl and putrajaya,tp mostly gmbr dia district je",https://www.tiktok.com/@_kellys8/video/7647855108469853447,7647855108469853447,neutral,2026-06-06 23:46:36+00:00,331,0,0,0,0.5,331,https://www.tiktok.com/@_kellys8/video/7647855108469853447,,_kellys8,0.0,neutral,0.7620781064033508,english,Mixed/Urban,anger,0.4911469519138336,0.022038452327251434,0.05194650590419769,0.027209172025322914,0.16229140758514404,0.02262813225388527
+tiktok,post,7284567603434032391,"#gurau2
+#memejer 
+kalinisumbergoogle😂",,,negative,2026-06-23 07:59:02.702758+00:00,129700,7051,662,1300000,0.1644946351647377,150413,https://www.tiktok.com/@justbudak_90/video/7284567603434032391,147088.0,,,negative,0.45168454945087433,multilingual,Unknown,no_clear_emotion,0.0759616419672966,0.028396056964993477,0.05933138355612755,0.025190142914652824,0.3691730797290802,0.030699072405695915
+tiktok,post,7442502690841709832,Semoga Allah permudahkan urusan mangsa banjir yang terlibat #wpsesports #banjir #fyp #fy #banjir2024 #pantaitimur #kelantan #terengganu #kedah #perlis #perak #selangor #negerisembilan,,,positive,2026-06-23 07:58:40.671186+00:00,131300,5074,1193,981000,0.8638950541615485,147377,https://www.tiktok.com/@wpsesports/video/7442502690841709832,146008.0,,,positive,0.546316847205162,multilingual,Unknown,anger,0.33145612478256226,0.050812896341085434,0.10879036784172058,0.04555349424481392,0.20627836883068085,0.023855645209550858
+tiktok,post,7408113614890028296,"This Malaysia's first Aeroplane Resort located in Broga, Negeri Sembilan. You can stay inside aeroplane with 2 bedroom, games and karaoke! They have 2 Boeing Jets made into hotel. This is a great chance to experience being a pilot by wearing pilot outfit and driving the flight! 
+@twinjetsresortofficial 
+
+#twinjetresort #coupletravel #negerisembilan #aeroplanehotel #privatejet #jet #hotelmalaysia #hotelreview #tamilblogger",,,positive,2026-06-23 07:58:41.439903+00:00,87800,25600,630,1400000,0.9663065016269683,128030,https://www.tiktok.com/@arwinanjalli/video/7408113614890028296,142290.0,,,positive,0.8876883387565613,english,Mixed/Urban,love,0.036891330033540726,0.021633358672261238,0.17499209940433502,0.02606084570288658,0.4398597776889801,0.03846362233161926
+tiktok,post,7491227504028454162,"mencari port healing di Negeri Sembilan ??
+#travel #fypage #niceview #healing #beach #traveltiktok #bercuti #4u #negerisembilan",,,neutral,2026-06-23 07:58:46.732287+00:00,91300,22000,464,1200000,0.5,125764,https://www.tiktok.com/@travelpop.my/video/7491227504028454162,137892.0,,,neutral,0.8205925822257996,english,Mixed/Urban,love,0.09418132156133652,0.04122934117913246,0.057741519063711166,0.0397842638194561,0.699453592300415,0.022905195131897926
+tiktok,post,7463801703150701842,#rembau #negerisembilan #pedasnegerisembilan #rembaumostwanted,,,negative,2026-06-23 08:00:19.599693+00:00,47900,41800,1185,1800000,0.09338763356208801,108885,https://www.tiktok.com/@fuadmarsum/video/7463801703150701842,136855.0,,,negative,0.6887078881263733,multilingual,Unknown,love,0.12302033603191376,0.04203304648399353,0.14495791494846344,0.04584233835339546,0.38893014192581177,0.03197966516017914
+tiktok,post,7640502658377190676,"Dressed like a Malaysian bride straight out of a fairytale ✨🇲🇾
+@All Star Influencers @Tourism Malaysia @lyndarafikah @abdrahmansoltan @n9tourism #allstarinfluencersaward2026 #visitmalaysia2026 #visitnegerisembilan2026 #asia2026bestculturecurator",,,positive,2026-06-23 07:59:15.303370+00:00,123300,904,950,4100000,0.9544008016586303,166154,https://www.tiktok.com/@iamhira_/video/7640502658377190676,132058.0,,,positive,0.8480026721954346,english,Mixed/Urban,love,0.05328851938247681,0.032213594764471054,0.15870393812656403,0.027320222929120064,0.6075884699821472,0.026491325348615646
+tiktok,post,7429654036850199824,"kecuali mak,adik beradik,dan bila mana keadaan darurat #jawab #tanya#florist #surprise #surprisegift #surpriseplannernegerisembilan #fyp",,,negative,2026-06-23 07:58:35.374403+00:00,87900,18600,1772,1300000,0.1584523469209671,121272,https://www.tiktok.com/@alynn499/video/7429654036850199824,131716.0,,,negative,0.471825510263443,multilingual,Unknown,no_clear_emotion,0.056095272302627563,0.06837334483861923,0.02296186424791813,0.03847218677401543,0.1142047643661499,0.13364973664283752
+tiktok,post,7473288002677034247,"Kampung Orang Asli Chergun dan Guntur kini dikuarantin selepas kedua-dua kampung itu disahkan mengalami penularan wabak kusta, yang mengakibatkan seorang penduduk meninggal dunia pada Isnin lalu.
+
+Menteri Besar Negeri Sembilan, Datuk Seri Aminuddin Harun, berkata sebagai langkah pencegahan, kerajaan negeri bersama Pejabat Kesihatan Daerah (PKD) turut mengambil keputusan untuk menutup Pusat Rekreasi Jeram Tengkek bagi mengelakkan penyebaran wabak ke kawasan lain.
+
+Menurut beliau, pejabat kesihatan telah mengenal pasti jumlah pesakit yang dijangkiti, dan saringan secara menyeluruh telah dijalankan terhadap penduduk di kedua-dua kampung berkenaan.
+
+“Namun, setakat ini hanya 65 peratus penduduk yang telah menjalani pemeriksaan dan saringan tersebut.
+“Pada Sabtu lalu, Kementerian Kesihatan Malaysia (KKM) telah melaksanakan saringan awal, dan bagi mereka yang masih belum diperiksa, saringan susulan akan dilakukan pada Sabtu ini,” katanya.
+
+Beliau turut menegaskan bahawa sepanjang tempoh kuarantin, segala bekalan makanan dan keperluan asas penduduk di kedua-dua kampung akan disediakan oleh wakil rakyat kawasan serta Jawatankuasa Pembangunan dan Keselamatan Kampung (JPKK).
+
+Sebelum ini, Aminuddin memaklumkan bahawa seorang remaja perempuan Orang Asli berusia 18 tahun meninggal dunia akibat jangkitan kusta, manakala lapan lagi penduduk dari Kampung Orang Asli Chergun dan Guntur masih menerima rawatan.
+
+Menurut maklumat daripada Jabatan Kesihatan Negeri Sembilan, pihak berkuasa mula mengesan penularan wabak itu pada 2 Januari lalu selepas sembilan penduduk di kampung tersebut didapati dijangkiti kusta.
+
+Daripada sembilan kes yang dikesan, lima adalah dari Kampung Orang Asli Chergun, manakala empat lagi dari Kampung Guntur.
+
+“Mangsa yang meninggal dunia mengalami demam selama seminggu sebelum ditemui tidak bernyawa di rumahnya, manakala penduduk lain yang dijangkiti telah diarahkan untuk menjalani kuarantin di kediaman masing-masing,” katanya.",,,positive,2026-06-23 07:58:44.725735+00:00,78300,17100,1679,2200000,0.9530764877796172,119079,https://www.tiktok.com/@warta_my/video/7473288002677034247,119737.0,,,positive,0.8435882925987244,malay,Malay/Bumiputera,sadness,0.15511514246463776,0.11256658285856247,0.0277768075466156,0.5807037353515625,0.01956808939576149,0.056629445403814316
+tiktok,post,7370567037694922001,"Seorang guru Bahasa Inggeris terima hadiah sejadah dan tasbih digital dari seorang anak muridnya di sebuah sekolah di Kuala Pilah, Negeri Sembilan. 
+
+Difahamkan, kekeliruan tersebut berlaku kerana wajah guru tersebut menyerupai orang Melayu dan nama beliau seakan yang bergama Islam. Menerusi perkongsian sama, difahamkan yang guru berkenaan merupakan Orang Asli. 
+
+#gurusekolah #hariguru #hadiahhariguru #sembangentertainment #ohmedia #as",,,positive,2026-06-23 07:58:33.314871+00:00,103500,2579,1232,2000000,0.9922395646572113,127311,https://www.tiktok.com/@ohmedia/video/7370567037694922001,114354.0,,,positive,0.9741318821907043,malay,Malay/Bumiputera,no_clear_emotion,0.015364949591457844,0.018736766651272774,0.018033107742667198,0.013234147801995277,0.033746812492609024,0.20732177793979645
+tiktok,post,7215059622141644058,Cerita bujang dari negeri sembilan bertemu jodoh dengan gadis iban song sarawak❤️❤️❤️. #iban #ibansarawak #ibantiktok #alhamdulillah #melayuiban #songsarawak #menantutuairumah❤ #rumahpanjai #trending #fypシ #borneotiktok #fypdongggggggg #foryoupage #sarawak #nismilan #kawincampur #cikgu,,,positive,2026-06-23 07:58:36.163679+00:00,88100,4183,3919,1500000,0.9688378095626831,111202,https://www.tiktok.com/@ticersensei91/video/7215059622141644058,109723.0,,,positive,0.8961260318756104,english,Mixed/Urban,love,0.03677131608128548,0.016989344730973244,0.057405658066272736,0.028596244752407074,0.6882957816123962,0.020964065566658974
+tiktok,post,7450724462279838984,"📍Masjid Sri Sendayan, Seremban , Negeri Sembilan.  Masyallah Cantiknya 🤍🕊️
+#fyp #foryoupage #masjidsrisendayan #muslim #fypシ",,,neutral,2026-06-23 07:58:31.697032+00:00,82600,10600,686,843200,0.5,102318,https://www.tiktok.com/@izzatmj_/video/7450724462279838984,106701.2,,,neutral,0.7908686995506287,english,Mixed/Urban,love,0.11347296833992004,0.05268046259880066,0.13029828667640686,0.04303697869181633,0.5049332976341248,0.046980343759059906
+tiktok,post,7648246380200217874,aku tahu nak pru sbb tu bubar tapi Malaysia are u okay? 😭😭 #fy #fyp #malaysia #fyppppppppppppppppppppppp #xyzbca,,,neutral,2026-06-23 07:59:00.884657+00:00,85100,7882,315,646400,0.5,99761,https://www.tiktok.com/@qasehamerr/video/7648246380200217874,102455.4,,,neutral,0.9236644506454468,malay,Malay/Bumiputera,love,0.030677778646349907,0.0793844684958458,0.11416970193386078,0.025640862062573433,0.6558216214179993,0.05761147662997246
+tiktok,comment,7648355983743484690,"[Sticker] Uhm guys.. apa ni, aku tertinggal bas ke",https://www.tiktok.com/@qasehamerr/video/7648246380200217874,7648246380200217874,neutral,2026-06-06 18:47:34+00:00,18337,0,64,0,0.5,18465,https://www.tiktok.com/@qasehamerr/video/7648246380200217874,,qil_8443,0.0,neutral,0.9244534373283386,english,Mixed/Urban,sadness,0.03439750894904137,0.053481973707675934,0.007508433423936367,0.6807006001472473,0.02530684880912304,0.15462030470371246
+tiktok,comment,7648351912252801800,13 mei kes mana plak? Yg ydpa buat statement untk ingtkan jngn terjadi 13 mei lg me?,https://www.tiktok.com/@qasehamerr/video/7648246380200217874,7648246380200217874,neutral,2026-06-06 18:31:45+00:00,692,0,12,0,0.5,716,https://www.tiktok.com/@qasehamerr/video/7648246380200217874,,kitchaiping93,0.0,neutral,0.8653157353401184,english,Mixed/Urban,love,0.11908749490976334,0.2134290635585785,0.02317805029451847,0.03819982707500458,0.21975883841514587,0.2103385478258133
+tiktok,post,7592270126083247361,"Heboh penampakan kelibat jasad berpakaian putih di Johol, Negeri Sembilan. #trendingnewsmalaysia #newstrendingmalaysia #fyppp #seram",,,neutral,2026-06-23 08:00:23.609085+00:00,61000,16700,1718,1600000,0.5,95418,https://www.tiktok.com/@malaysiatribune/video/7592270126083247361,101154.0,,,neutral,0.992763340473175,malay,Malay/Bumiputera,anger,0.7300445437431335,0.05595586821436882,0.09224826097488403,0.017897937446832657,0.0459628663957119,0.015235078521072865
+tiktok,post,7530510571855285522,Sorry sikit eh nismilan banyak okeh tempat menarik hishbtw guys support 100k #ekaltey #nogori #NegeriSembilan #JomN9 #VisitNS #fyp,,,neutral,2026-06-23 07:59:27.657030+00:00,69700,11700,1776,862600,0.5,91802,https://www.tiktok.com/@anaknyapakawi/video/7530510571855285522,99290.6,,,neutral,0.6876420974731445,english,Mixed/Urban,love,0.1447439342737198,0.09037698060274124,0.049955643713474274,0.09103675186634064,0.31127530336380005,0.05733364820480347
+tiktok,post,7286410301115878674,home in negeri sembilan designed by melvyn kanny 🍃 #architecture #interiordesign #home #design,,,neutral,2026-06-23 07:58:35.767388+00:00,79200,5388,242,441600,0.5,89246,https://www.tiktok.com/@selektif.my/video/7286410301115878674,91143.6,,,neutral,0.7089762687683105,english,Mixed/Urban,love,0.07144942134618759,0.013327502645552158,0.09730111807584763,0.018345888704061508,0.6007548570632935,0.015691665932536125
+tiktok,post,7653824062254271765,ช่วง….คำถามจากขุนเขา,,,positive,2026-06-23 07:59:26.884666+00:00,63700,12600,86,354800,0.8561813116073608,79934,https://www.tiktok.com/@khaokhun.kk/video/7653824062254271765,89512.8,,,positive,0.5206043720245361,multilingual,Unknown,no_clear_emotion,0.03856787085533142,0.009923670440912247,0.036497604101896286,0.011487772688269615,0.0897592231631279,0.015485083684325218
+tiktok,comment,7653869517768688405,เกี่ยวอะไรกับน้องรักแม่5555555,https://www.tiktok.com/@khaokhun.kk/video/7653824062254271765,7653824062254271765,positive,2026-06-21 15:22:56+00:00,884,0,3,0,0.8714138269424438,890,https://www.tiktok.com/@khaokhun.kk/video/7653824062254271765,,ph_ging,0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.08988256752490997,0.06591833382844925,0.04300707206130028,0.12231242656707764,0.5809053778648376,0.047112248837947845
+tiktok,comment,7653849478345556757,ชีหอมซ็อตเวอร์5555,https://www.tiktok.com/@khaokhun.kk/video/7653824062254271765,7653824062254271765,positive,2026-06-21 14:05:13+00:00,1766,0,2,0,0.8714138269424438,1770,https://www.tiktok.com/@khaokhun.kk/video/7653824062254271765,,mp_axts,0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.05785881727933884,0.02786119282245636,0.061584047973155975,0.03246868774294853,0.6197446584701538,0.03741947188973427
+tiktok,post,7247131420575927554,"Jumpa Kawan2 dari Negeri Sembilan kat Paris
+@Louis Vuitton 
+#LVMenSS24",,,neutral,2026-06-23 07:58:36.693542+00:00,77300,2004,1413,512700,0.5,85844,https://www.tiktok.com/@haelhusaini/video/7247131420575927554,86059.7,,,neutral,0.8422792553901672,english,Mixed/Urban,love,0.02808578684926033,0.011738419532775879,0.0411047525703907,0.02290302887558937,0.5259004235267639,0.042800601571798325
+tiktok,post,7210339726383926533,"Seremban always feels like home. With its very own Miss Universe Malaysia Venessa Tevi (@pvtk9)  to take us on a tour of her hometown.
+
+🎵: Yuna - Langit
+
+#smalltownsmalaysia #malaysiatrulyasia #negerisembilan #n9 #n9food #seremban",,,positive,2026-06-23 07:59:47.738520+00:00,65300,5808,1214,734600,0.9645945906639098,79668,https://www.tiktok.com/@smalltownsmy/video/7210339726383926533,81292.6,,,positive,0.8819819688796997,english,Mixed/Urban,happy,0.029877908527851105,0.04329235106706619,0.594961941242218,0.01973264105618,0.2614777684211731,0.031073739752173424
+tiktok,post,7646715512906468628,"10 H dari sendayan🥰✨
+
+#Hiking #hike #fyp #sendayan #fffffffffffyyyyyyyyyyypppppppppppp",,,negative,2026-06-23 07:58:29.198558+00:00,42300,17600,795,736800,0.12481730729341506,68063,https://www.tiktok.com/@hafizhronzi/video/7646715512906468628,80621.8,,,negative,0.5839423090219498,multilingual,Unknown,love,0.0863536074757576,0.03447265550494194,0.05781044438481331,0.03452349454164505,0.6929445862770081,0.019248580560088158
+tiktok,comment,7647390807373546258,Cafe belakang masjid sendayan,https://www.tiktok.com/@hafizhronzi/video/7646715512906468628,7646715512906468628,neutral,2026-06-04 04:22:27+00:00,2046,0,22,0,0.5,2090,https://www.tiktok.com/@hafizhronzi/video/7646715512906468628,,_radar.void,0.0,neutral,0.9973474740982056,malay,Malay/Bumiputera,love,0.17653676867485046,0.06999945640563965,0.13829176127910614,0.05357270687818527,0.2850126028060913,0.04881396144628525
+tiktok,comment,7648649213362651922,"Panmukale Sendayan, Seremban",https://www.tiktok.com/@hafizhronzi/video/7646715512906468628,7646715512906468628,neutral,2026-06-07 13:45:29+00:00,3,0,2,0,0.5,7,https://www.tiktok.com/@hafizhronzi/video/7646715512906468628,,theepicofn,0.0,neutral,0.9976823329925537,malay,Malay/Bumiputera,love,0.1694256216287613,0.03383597359061241,0.07664415240287781,0.03224850818514824,0.48552805185317993,0.02059703879058361
+tiktok,post,7614001363822972181,"Rumah dalam kebun durian! 
+
+Rumah ini adalah rumah jenis tiny house milik Puan Haniza dan suaminya yang terletak di Negeri Sembilan. 
+
+Uniknya rumah ini ia ada dapur yang open konsep dan ada view  kebun durian. Memang tenang and back to nature! 
+
+Rumah ini adalah sebuah bilik dan ada loteng yang dijadikan milik anak lelakinya. Untuk menyerikan rumah ini, tuan rumah banyak menggunakan tiles dari @jubincantik. 
+
+Tuan rumah juga ada meja konkrit yang menggunakan tiles Dari Jubin cantik. Memang lain dari rumah lain.@Rumah Kebun MHI",,,positive,2026-06-23 07:58:59.674568+00:00,50000,13200,766,1900000,0.9991487562656403,82966,https://www.tiktok.com/@housetourmalaysia/video/7614001363822972181,80598.0,,,positive,0.9971625208854675,malay,Malay/Bumiputera,love,0.1135655865073204,0.022019237279891968,0.128555029630661,0.026061560958623886,0.38340964913368225,0.02708030305802822
+tiktok,post,7545392854068251922,"🌿✨ Authentic Masakan Kampung at Rumah Putih ✨🌿
+
+🍛 Relive the kampung vibe with hearty hidang berjambar, traditional dishes served together, just like in the old days.
+
+📍 Lot 1762-B, Batu 4 ½, Jalan Tok Dagang, Kampung Paroi, 70400 Seremban, Negeri Sembilan
+⏰ Open 10.00 AM – 4.00 PM (Closed on Fridays)
+
+Come for the food, stay for the kampung warmth. ❤",,,positive,2026-06-23 07:59:31.819561+00:00,32900,22100,598,1200000,0.8849127233028411,67598,https://www.tiktok.com/@bestfoodmy/video/7545392854068251922,80094.0,,,positive,0.616375744342804,english,Mixed/Urban,love,0.0438869446516037,0.02142988331615925,0.056925300508737564,0.026289954781532288,0.7912250757217407,0.01829393208026886
+tiktok,post,7316352000764005650,"📍Mango's Park Port Dickson, Lot 968,Bt3 Jalan Pantai Bagan Pinang, 71000 Port Dickson, Negeri sembilan.
+
+Nak booking dan details info pada link di bio.
+
+Nak ke pantai, jalan kaki 2 minit sahaja dah sampai. Ada cafe lagi. Dah lengkap staycation sini! 🤩 Lokasi yang sangat strategik, berdekatan dengan tempat makan, muzium tentera darat. 
+
+#infopercutianmalaysia 
+#portdickson",,,neutral,2026-06-23 07:59:42.362990+00:00,54700,10100,1035,1100000,0.5,76835,https://www.tiktok.com/@nur_feshikha/video/7316352000764005650,79105.0,,,neutral,0.9977126121520996,malay,Malay/Bumiputera,no_clear_emotion,0.07913434505462646,0.048293907195329666,0.05233787000179291,0.029489770531654358,0.20733019709587097,0.1723891943693161
+tiktok,post,7636339412267273493,Harap jelas la eh btw follow ramai ramai #ekaltey #nogori,,,neutral,2026-06-23 07:58:24.841617+00:00,57100,9188,892,687700,0.5,74057,https://www.tiktok.com/@anaknyapakawi/video/7636339412267273493,78839.7,,,neutral,0.8732881546020508,english,Mixed/Urban,love,0.07340263575315475,0.04285126179456711,0.02936328575015068,0.026876280084252357,0.6898879408836365,0.036589737981557846
+tiktok,post,7652486899671567638,Dexter is back on netflix#mpesfypgamw #foryoupage❤️❤️ #series #dexter #netflix,,,positive,2026-06-23 07:59:33.026751+00:00,58000,8401,871,576000,0.9843757569789886,73032,https://www.tiktok.com/@nek._.69.._/video/7652486899671567638,77991.0,,,positive,0.9479191899299622,english,Mixed/Urban,love,0.026321684941649437,0.01947810873389244,0.09794275462627411,0.01863810420036316,0.567355215549469,0.025873158127069473
+tiktok,post,7474615946410347784,"Bila anda melalui Taman Rashidah Utama, Senawang 
+
+#fyppppppppppppppppppppppp ##xyzabc #negerisembilan #senawang #tamanrashidahutama #wings",,,neutral,2026-06-23 08:00:12.995566+00:00,61200,5378,667,814400,0.5,75389,https://www.tiktok.com/@iamtasha456/video/7474615946410347784,74771.4,,,neutral,0.9976897239685059,malay,Malay/Bumiputera,no_clear_emotion,0.14593973755836487,0.04883896932005882,0.08627185970544815,0.05235164240002632,0.2588023543357849,0.04922209307551384
+tiktok,post,7647626878404054294,#fypシ゚ #thecure #casual #xyzabc,,,neutral,2026-06-23 08:00:13.853502+00:00,67700,3024,198,282600,0.5,73748,https://www.tiktok.com/@s835173517jrngat42712/video/7647626878404054294,74624.6,,,neutral,0.8646140098571777,english,Mixed/Urban,love,0.06835095584392548,0.02040020562708378,0.1037662997841835,0.016837602481245995,0.6325369477272034,0.017716506496071815
+tiktok,post,7653669793811221767,#pkucity #festival #pekanbaru#fyp#talamdurian,,,neutral,2026-06-23 07:59:19.474591+00:00,37500,14400,1360,562700,0.5,58887,https://www.tiktok.com/@storyrandomrs26/video/7653669793811221767,70942.7,,,neutral,0.8652114272117615,english,Mixed/Urban,no_clear_emotion,0.040799304842948914,0.016171326860785484,0.050784990191459656,0.01734023727476597,0.40868303179740906,0.03041086159646511
+tiktok,post,7640010217027161351,"Negeri sembilan we are here! 
+Jom ramai datang ke stadium karisma. @Boy_prata 
+
+#kjaapparel #negerisembilan",,,positive,2026-06-23 07:58:28.781038+00:00,65000,1402,340,1000000,0.8486455917358398,76742,https://www.tiktok.com/@kabilanjelevan/video/7640010217027161351,69824.0,,,positive,0.4954853057861328,english,Mixed/Urban,no_clear_emotion,0.05540639907121658,0.01751074567437172,0.08038715273141861,0.02258492261171341,0.3888474106788635,0.02495354413986206
+tiktok,post,7640434331634158855,"Ada kereta orang jadi rumah satgi☹️
+
+#fpy #pyf #py #malaysiastory #malaysialife #stem #viralvideo #fyp #fbreels #shorts #fypppppppppppppppppppppppp #reel #trending #tiktokreel #viral #fy #FYPシ #foryou #malaysia",,,neutral,2026-06-23 07:59:19.884350+00:00,29000,14100,2495,2900000,0.5,74595,https://www.tiktok.com/@annageogerous/video/7640434331634158855,67585.0,,,neutral,0.6798103451728821,english,Mixed/Urban,love,0.08381252735853195,0.03084174171090126,0.07929326593875885,0.0375206395983696,0.47630947828292847,0.033633798360824585
+tiktok,post,7651572722975231252,😫🩷🇲🇾#vacation #malaysia #hindisong,,,positive,2026-06-23 07:59:18.971619+00:00,58900,2218,919,586000,0.823514138162136,67897,https://www.tiktok.com/@its_me_mammy4/video/7651572722975231252,66679.0,,,positive,0.4117137938737869,multilingual,Unknown,love,0.06370596587657928,0.051246028393507004,0.04654714837670326,0.04771699756383896,0.6208833456039429,0.050537366420030594
+tiktok,post,7314567937099156743,#negerisembilan #n9 #nogori9 #foryou #ai,,,neutral,2026-06-23 07:59:58.346785+00:00,46700,2664,3000,733100,0.5,59695,https://www.tiktok.com/@randomvdpost/video/7314567937099156743,61761.1,,,neutral,0.8198392987251282,english,Mixed/Urban,love,0.0322982519865036,0.014694356359541416,0.050081271678209305,0.016939513385295868,0.7673592567443848,0.017005549743771553
+tiktok,post,7428141563013893384,"Telaga ION buatan teknologi manusia di Dusun Pinang Campsite Ulu Sepri Rembau Negeri Sembilan di mana di sini tempat mandi perigi ion yang boleh menyembuhkan pelbagai jenis penyakit. 
+#dusunpinangcampsite #telagaion #perigiion #dusunpinang #ulusepri",,,neutral,2026-06-23 08:00:07.462357+00:00,14300,20800,1554,894100,0.5,45595,https://www.tiktok.com/@rizzstudio2024/video/7428141563013893384,61456.1,,,neutral,0.996547281742096,malay,Malay/Bumiputera,love,0.12433129549026489,0.08422406017780304,0.057639747858047485,0.1364285796880722,0.4152398705482483,0.07495183497667313
+tiktok,post,7646302165757119765,Found where the noise ends and the waterfall begins. 🕊️💙 #ipoh #waterfall #malaysia #fyp,,,positive,2026-06-23 07:59:21.509011+00:00,33900,13000,229,730400,0.9428299844264983,54433,https://www.tiktok.com/@paviluxe7/video/7646302165757119765,61317.4,,,positive,0.8094332814216614,english,Mixed/Urban,love,0.04332816228270531,0.05552971735596657,0.11211424320936203,0.027586007490754128,0.6543664932250977,0.04694965109229088
+tiktok,post,7376290899531222290,"Lansaran✨
+
+Tarian Lansaran merupakan tarian traditional suku kaum Murut. Tarian ini biasanya dilakukan di lantai khas yang berukuran kira-kira 81 kaki persegi yang dibina di tengah-tengah rumah panjang yang diperbuat menggunakan kayu bulat. Kayu bulat dipasang berlapis-lapis secara khusus supaya lebih anjal lalu para penari boleh melantun di atasnya.
+
+#Sabahuntholiday #jalanajalansabah #healingcarakita #Johor  #Melaka #Pahang #Negerisembilan #Selangor #Perak #Terengganu #Kelantan #Pulaupinang  #Kedah #Perlis #Sabah #Sarawak #Singapore #Brunei #Indonesia",,,neutral,2026-06-23 07:59:14.434151+00:00,54900,1628,392,1400000,0.5,70920,https://www.tiktok.com/@sabahunt_holiday/video/7376290899531222290,60732.0,,,neutral,0.99770587682724,malay,Malay/Bumiputera,love,0.13769447803497314,0.037063054740428925,0.05388273671269417,0.029485346749424934,0.47546181082725525,0.02150936797261238
+tiktok,post,7366525863170526485,"Kepayang hill 📍
+
+Taman Bukit Kepayang, 70200 Seremban, Negeri Sembilan
+
+#sabthakannialayam #kepayanghill #seremban#vacay #powerfultempleseremban",,,positive,2026-06-23 08:00:11.004767+00:00,45400,5934,349,486200,0.8831602975726127,56545,https://www.tiktok.com/@kadhalpuriyathekadhali/video/7366525863170526485,58801.2,,,positive,0.6105343252420425,multilingual,Unknown,love,0.07692286372184753,0.02283019758760929,0.1379784792661667,0.021093083545565605,0.6560178995132446,0.015359990298748016
+tiktok,post,7320773461884833031,Dekat negeri sembilan ada kolam menggunakan air sungai terletak di taman Eko-rimba ulu bendol. #cuticutitiktok #HealingDiLangkawi #healing #sungai #hisyamzaini,,,neutral,2026-06-23 08:00:20.013759+00:00,37500,8273,813,1100000,0.5,57586,https://www.tiktok.com/@ceotravelmy/video/7320773461884833031,57585.0,,,neutral,0.9976961016654968,malay,Malay/Bumiputera,love,0.18555361032485962,0.03662416711449623,0.0656682699918747,0.03923525661230087,0.5249980688095093,0.026102513074874878
+tiktok,post,7524872014285311250,"cantik sgt tmpt ni n sunyi je sbb dlm kg 🍃
+
+#shortvacay 
+#staycation 
+#malaysia 
+#cuticutimalaysia 
+#negerisembilan 
+#serimenanti 
+#fyp 
+#fypシ 
+#aesthetic",,,neutral,2026-06-23 07:58:47.643910+00:00,38800,6320,347,671500,0.5,52182,https://www.tiktok.com/@missyeeka/video/7524872014285311250,53152.5,,,neutral,0.7994210720062256,english,Mixed/Urban,love,0.09827416390180588,0.04723453149199486,0.19380724430084229,0.03362320363521576,0.44183847308158875,0.039421457797288895
+tiktok,post,7641092522772630804,"The prettiest city✨
+
+#kualalumpur #malaysia",,,positive,2026-06-23 07:59:15.710035+00:00,37100,6132,288,575500,0.9888388454914092,49275,https://www.tiktok.com/@_bridie____/video/7641092522772630804,50803.5,,,positive,0.962796151638031,english,Mixed/Urban,love,0.06544120609760284,0.02674701251089573,0.22810585796833038,0.01595054380595684,0.5867091417312622,0.014907216653227806
+tiktok,post,7640409878833548552,"Usman dan homa kahwin di malaysia 🤷🏻‍♀️@Usman Ellahi @HOMA @莉莉安-鄔裕錡 
+
+@All Star Influencers @Tourism Malaysia @n9tourism @abdrahmansoltan @lyndarafikah 
+
+#allstarinfluencersaward2026 #visitmalaysia2026 #visitnegerisembilan2026 #asia2026bestculturecurator #lembagamuziumnegerisembilan",,,neutral,2026-06-23 07:59:12.364433+00:00,41100,2487,683,981100,0.5,54081,https://www.tiktok.com/@sufiehazny/video/7640409878833548552,49104.1,,,neutral,0.8430891633033752,english,Mixed/Urban,love,0.10131997615098953,0.03401278331875801,0.07915640622377396,0.04103804752230644,0.46807995438575745,0.031231306493282318
+tiktok,post,7639221003171728661,"TikTok Shop Malaysia mempersembahkan:
+
+Creator ICON Season 2
+
+Kali ni, saya akan join sebagai salah seorang mentor untuk bantu creator yang nak level up journey mereka dalam TikTok Shop
+
+Kalau korang:
+✨ Nak improve skill LIVE selling
+✨ Nak grow sales & performance content
+✨ Nak lebih exposure dan peluang collab dengan brand
+✨ Nak bawa journey creator korang ke next level
+
+this might be your opportunity!
+
+Creator dari seluruh Malaysia dialu-alukan untuk join (Sabah & Sarawak, yes we want you too)
+
+📌 Submit application korang dekat sini: https://forms.gle/8Wn1oAX9vih6fxjm7
+
+🗓 Tarikh tutup pendaftaran:
+15 Mei 2026
+
+Hanya creator yang terpilih akan dihubungi dan dijemput ke Open Casting di Kuala Lumpur
+
+Mana tahu… next Creator ICON yang kita cari tu sebenarnya korang!
+
+#TikTokShopCreatorIcon #TikTokShopMY",,,positive,2026-06-23 07:59:17.358812+00:00,39700,283,1633,1800000,0.9994045853614806,59616,https://www.tiktok.com/@anaszahrin/video/7639221003171728661,46965.0,,,positive,0.998015284538269,malay,Malay/Bumiputera,surprise,0.011450274847447872,0.04979724436998367,0.034994445741176605,0.03373849019408226,0.07160893827676773,0.634418249130249
+tiktok,post,7492370598958517511,"Wet World Pedas Adventure Park
+
+Dibuka setiap hari, waktu operasi bagi Wet World Adventure Park Pedas adalah pada jam 3.00 petang hingga 12.00 tengah malam.
+
+Tiket Dewasa 18 tahun ke atas RM25
+Tiket Kanak2 (2-18 tahun) RM15 
+
+#wetworldpedas #adventurepark 
+#pedas #rembau #negerisembilan 
+#thisisrembau #rembaumos #dji",,,positive,2026-06-23 08:00:11.490273+00:00,21300,11400,402,831500,0.86089808344841,41417,https://www.tiktok.com/@iamhuzaimi/video/7492370598958517511,46137.5,,,positive,0.5363269448280334,multilingual,Unknown,no_clear_emotion,0.04869115725159645,0.012813529931008816,0.0279370304197073,0.017745641991496086,0.15685074031352997,0.022581465542316437
+tiktok,post,7626341684795690248,"Atok tengah cari budak bernama AQIF DAN IRFAN ! kenapa kamu ajar cucu atok lagu merepek ni ha !
+
+#fypmalaysia #viral_video #darksystem #viralditiktok #lawakmalaysia",,,negative,2026-06-23 07:59:30.514883+00:00,21200,8224,2198,1800000,0.08095905035734177,49622,https://www.tiktok.com/@abangchatgpt/video/7626341684795690248,46042.0,,,negative,0.7301364988088608,multilingual,Unknown,love,0.06221321225166321,0.029108816757798195,0.01937127485871315,0.060361165553331375,0.6250903010368347,0.06351093202829361
+tiktok,post,7558438879485873426,Katil view laut. Kat negeri sembilan je 🥹 #jalanjalanmalaysia  #staycationnegerisembilan  #malaysiatourism  #Golokal,,,neutral,2026-06-23 07:59:17.781166+00:00,24000,8975,321,753900,0.5,40835,https://www.tiktok.com/@golokalofficial/video/7558438879485873426,43666.9,,,neutral,0.9976872205734253,malay,Malay/Bumiputera,no_clear_emotion,0.11032851785421371,0.029407791793346405,0.09686495363712311,0.030770642682909966,0.26682180166244507,0.027707962319254875
+tiktok,post,7498286354103733522,"📍Lata Kijang, Taman Negeri Kenaboi, Negeri Sembilan.
+
+Antara air terjun tertinggi di Negeri 9. Perjalanan ambil masa 1 jam 30 min ( yang 30min tu sebab banyak berhenti huhu)
+
+Jalan dia easy je tapi banyak pacak weh 🥹
+
+Korg boleh pergi sendiri je. Siapa nak i share route dia? Angkat kaki pat! Hahahaha
+
+Btw, bag and shoes from @outsidemalaysia 
+
+🎒: Fjallraven High Coast Foldsack 24
+👟: Keen Hyperport H2 Sandal
+
+#explorealam #alam #waterfall #Hiking #adventure #waterfallhike #pewaiitupasti #negerisembilan #kenaboi #nature #explore #hiker",,,positive,2026-06-23 07:59:49.718303+00:00,24200,8784,365,374600,0.9990808248519897,37095,https://www.tiktok.com/@ain.azmi/video/7498286354103733522,43237.6,,,positive,0.9969360828399658,malay,Malay/Bumiputera,no_clear_emotion,0.0755646824836731,0.023621806874871254,0.04993383586406708,0.025346627458930016,0.19253545999526978,0.044978730380535126
+tiktok,post,7563144669278915860,"Gua Batu Maloi, N9 ⛰️
+
+Mula-mula excited then halfway cam pebenda aku buat ni but at the end it was worth it, great experience 🤩 #guabatumaloi #cavingadventure #negerisembilan #cavingmalaysia",,,positive,2026-06-23 07:59:18.180304+00:00,29400,6068,327,422700,0.9881710290908813,40022,https://www.tiktok.com/@chanmalican/video/7563144669278915860,42939.7,,,positive,0.9605700969696045,english,Mixed/Urban,happy,0.011398178525269032,0.03193390741944313,0.8971408605575562,0.0069768051616847515,0.020732883363962173,0.01690835878252983
+tiktok,post,7639461342398795026,"Different country, different language… but same crazy vibes 😆🌏 @All Star Influencers @Tourism Malaysia @abdrahmansoltan @lyndarafikah @SNOWLIM WONDERLAND MY OFFICIAL @n9tourism 
+
+#allstarinfluencersaward2026 #visitmalaysia2026 #VisitNegeriSembilan2026 #asia2026bestmixlanguage #snowlimwonderland",,,positive,2026-06-23 07:59:11.142620+00:00,36900,2551,117,376500,0.9246173202991486,43333,https://www.tiktok.com/@hkl.irfanz/video/7639461342398795026,42729.5,,,positive,0.7487244009971619,english,Mixed/Urban,love,0.06893506646156311,0.02318844385445118,0.08614501357078552,0.025122487917542458,0.4595031142234802,0.02679801732301712
+tiktok,post,7595030385617128724,"Kota Babi Asia
+
+Sumber : Mazlan Syafie",,,neutral,2026-06-23 07:59:06.412228+00:00,21200,8796,1040,626200,0.5,37298,https://www.tiktok.com/@kebal24_/video/7595030385617128724,42538.2,,,neutral,0.8893781900405884,english,Mixed/Urban,love,0.04891141131520271,0.01662270724773407,0.04255564138293266,0.02733050100505352,0.6147520542144775,0.024802524596452713
+tiktok,post,7654187501497683221,Terlalu drama Negara inl. #untukmu #galau #fyp #rakyat #menggalau #pokoknyaada,,,negative,2026-06-23 07:59:21.104625+00:00,27100,4893,1237,409100,0.0005008757114410289,37321,https://www.tiktok.com/@andi.petta0/video/7654187501497683221,41006.1,,,negative,0.9983304142951965,malay,Malay/Bumiputera,love,0.12376794219017029,0.022291509434580803,0.0402945913374424,0.03380393236875534,0.5292723774909973,0.02108311839401722
+tiktok,post,7499152224585534738,"📍 Lata Kijang,Taman Negeri Kenaboi, Negeri Sembilan. 
+
+#waterfall #healing #latakijangjelebu #hikingadventures #naturevibes",,,neutral,2026-06-23 08:00:09.991889+00:00,22300,8377,518,384400,0.5,35039,https://www.tiktok.com/@wanieyyy5/video/7499152224585534738,40992.4,,,neutral,0.8182603716850281,english,Mixed/Urban,love,0.10987276583909988,0.01884063333272934,0.06967700272798538,0.024706441909074783,0.6047908663749695,0.016292985528707504
+tiktok,post,7641250263537421588,"Tunggu Aeon 2
+#fypシ #fyppppppppppppppppppppppp #negerisembilan #seremban",,,positive,2026-06-23 07:58:58.856825+00:00,28600,4480,371,244500,0.820656369626522,35896,https://www.tiktok.com/@iamtasha456/video/7641250263537421588,38917.5,,,positive,0.40218789875507355,multilingual,Unknown,love,0.1354123204946518,0.056138958781957626,0.05282815173268318,0.048643190413713455,0.43054360151290894,0.028454411774873734
+tiktok,post,7650999310338870542,LOVE IS LOVE & pride is for anyone!! Took my little ally to his first ever pride parade! 🌈 #liberal #lgbtq🌈 #humanrights #humanrights #prochoice,,,positive,2026-06-23 07:59:34.206097+00:00,23300,1130,4199,211900,0.9944290697574615,30748,https://www.tiktok.com/@inimitabley/video/7650999310338870542,38368.9,,,positive,0.9814302325248718,english,Mixed/Urban,love,0.03745240345597267,0.026731839403510094,0.05130902677774429,0.04128526896238327,0.7861826419830322,0.023345066234469414
+tiktok,post,7640531217112206612,"Selesai tugasan terakhirnya malam tadi, barisan pemain dan kejurulatihan memberikan ‘Hadiah terakhir’ buat A. Selvan sebagai tanda penghargaan tertinggi atas kesetiaan 9 tahunnya bersama Negeri Sembilan FC.
+
+#NSFC #HobinJangHobin",,,neutral,2026-06-23 07:59:53.410188+00:00,33900,834,196,618000,0.5,41110,https://www.tiktok.com/@nsfc1923/video/7640531217112206612,36774.0,,,neutral,0.6005934476852417,malay,Malay/Bumiputera,happy,0.031756192445755005,0.06894990056753159,0.6504238247871399,0.01986405812203884,0.12172806262969971,0.03343760967254639
+tiktok,post,7652923066267258120,hal bodoh apa yang kamu lakukan pas KECIL!!#foryou #fyp,,,positive,2026-06-23 08:00:01.760458+00:00,6591,443,8700,373500,0.861048537492752,19469,https://www.tiktok.com/@fayraa_ajaa/video/7652923066267258120,33950.5,,,positive,0.5368284583091736,english,Mixed/Urban,no_clear_emotion,0.18328168988227844,0.027069445699453354,0.0787983238697052,0.14921383559703827,0.24999533593654633,0.042847275733947754
+tiktok,post,7552490329614765320,"Terkini di 📍Den Sawah Londah,dah tambah tempat lepak 😊 Lokasi di Gemas Negeri Sembilan✌🏼😊#negerisembilan #gemas #densawahlondah #londah #santaipetang @ManjaJijie",,,neutral,2026-06-23 07:59:24.366963+00:00,14500,7577,1162,380500,0.5,27044,https://www.tiktok.com/@jijiemoncheh86/video/7552490329614765320,33520.5,,,neutral,0.9976843595504761,malay,Malay/Bumiputera,anger,0.5077192187309265,0.05079806223511696,0.15010137856006622,0.018951185047626495,0.06941600143909454,0.028323352336883545
+tiktok,post,7555492337812589842,Negeri Sembilan 😍#fyp #foryou #negerisembilan,,,positive,2026-06-23 07:58:40.277803+00:00,29300,1647,117,561000,0.9705828368663787,36674,https://www.tiktok.com/@pakmatwesterncafee/video/7555492337812589842,33506.0,,,positive,0.901942789554596,english,Mixed/Urban,love,0.049777232110500336,0.01624993421137333,0.03911825641989708,0.02145519107580185,0.7814866900444031,0.015035211108624935
+tiktok,post,7543550136635428114,"Giant Curry Bun 😮
+
+📍@luckykingbun Lucky King Bun, 4366, Jalan Besar, Lukut, 71010 Port Dickson, Negeri Sembilan [non halal]
+⏰11am-5pm (Tue closed)",,,positive,2026-06-23 07:59:29.346051+00:00,24500,3208,158,720800,0.9093192696571349,35074,https://www.tiktok.com/@bestfoodmy/video/7543550136635428114,32110.8,,,positive,0.6977308988571167,english,Mixed/Urban,love,0.13145712018013,0.041604068130254745,0.07720817625522614,0.0378989651799202,0.4600936472415924,0.03548731654882431
+tiktok,post,7301860745837301000,"📍CASA MENANTI, SERI MENANTI, NEGERI SEMBILAN
+
+Booking & Details info pada link di bio.
+
+Port staycation terbaru di Negeri Sembilan serius lawa 😍😍
+
+Recommended for nature lover ❤. 
+Di luar, anda akan terpesona dengan suasana desa dan pemandangan kehijauan di sekeliling. Masuk saja dalam, anda akan kagum dengan kecantikan hiasan dalaman setiap unit chalet. 
+
+#infopercutianmalaysia 
+#negerisembilan",,,neutral,2026-06-23 07:58:34.933418+00:00,22900,3941,254,505400,0.5,32149,https://www.tiktok.com/@nur_feshikha/video/7301860745837301000,32049.4,,,neutral,0.9892839789390564,malay,Malay/Bumiputera,love,0.03329961374402046,0.025693247094750404,0.37194883823394775,0.02080080471932888,0.4056735932826996,0.06939580291509628
+tiktok,post,7631558321903865108,"Bekas menteri besar Negeri Sembilan, Rais Yatim berpandangan tindakan Undang Yang Empat menurunkan takhta Yang Dipertuan Besar Negeri Sembilan, Tuanku Muhriz Tuanku Munawir sebagai sah.  
+
+Bagaimanapun, Rais yang juga merupakan pengkaji adat perpatih menyarankan agar krisis berkenaan diselesaikan secara lunak untuk tidak mencemarkan adat dan nama mana-mana pihak.  
+
+Jelas Rais, Undang Sungei Ujong, Jelebu, Rembau dan Johol mempunyai hak untuk menurunkan takhta Yang Dipertuan Besar menurut Perkara 10 Undang-undang Tubuh Negeri Sembilan (UUTKNS) 1959.  
+
+Namun jelasnya, terdapat dua syarat perlu dipenuhi oleh keempat-empat undang berkenaan iaitu pertama hendaklah ada laporan lengkapnya dan kedua hendaklah disenaraikan kesalahannya.  
+
+Sumber video: https://youtu.be/cBBhYZ-wqEI
+
+#malaysiakini #malaysianpolitics #fyp #RaisYatim #berpandangan #UndangYangEmpat #takhta #YangDipertuanBesar #NegeriSembilan #TuankuMuhrizTuankuMunawir #sah #SungeiUjong #Jelebu #Rembau #Johol #laporanlengkap #kesalahan",,,negative,2026-06-23 07:58:53.823296+00:00,20700,3056,729,918400,0.00048099160194398083,33669,https://www.tiktok.com/@malaysia_kini/video/7631558321903865108,29917.4,,,negative,0.9983966946601868,malay,Malay/Bumiputera,anger,0.43994656205177307,0.06471727043390274,0.11319024860858917,0.029471417888998985,0.08196146041154861,0.027133246883749962
+tiktok,post,7548671821420219656,"Dah lama kita tak buat posting sharing macam ni. Kalau korang plan nak hike kat N9 memang ini la antara hot
+spots nya.
+
+Next nak buek kek mano pulak? 
+
+Correction: Gunung Datuk, Rembau
+#healinghike #healingtrip #healanghealingmy",,,negative,2026-06-23 07:58:56.826431+00:00,16100,5522,183,269900,0.10948074460029603,24504,https://www.tiktok.com/@healanghealingmy_/video/7548671821420219656,27962.9,,,negative,0.6350641846656799,multilingual,Unknown,love,0.05315886810421944,0.03259456157684326,0.024073755368590355,0.06303852051496506,0.7280142307281494,0.05574161186814308
+tiktok,post,7359761778248584465,"New hidden cafe at Nilai Negeri Sembilan , view yang cantik & tenang 🥹
+
+#coffee #coffeetiktok #coffeelover #cafehunting #cafehuntingnilai #cafehuntingmalaysia #aesthetic #cafe #foodtiktok #foodiemalaysia #nilaicafe #jelajahmakan #ngopi #tenang #cafenilai",,,neutral,2026-06-23 07:58:34.541960+00:00,14800,5834,208,228800,0.5,23130,https://www.tiktok.com/@hello.kakwani/video/7359761778248584465,27320.8,,,neutral,0.8198590278625488,malay,Malay/Bumiputera,love,0.10480867326259613,0.046923376619815826,0.2859671115875244,0.03598123416304588,0.33273306488990784,0.04512786492705345
+tiktok,post,7368822843821313296,#negerisembilan #seremban #malaysia #bangunan #sejarah #nogori9 #melancong #muzium @nicoletanleekoon,,,positive,2026-06-23 08:00:14.263970+00:00,19800,2609,612,444400,0.8928358078002929,27465,https://www.tiktok.com/@thaqibshaker/video/7368822843821313296,27298.4,,,positive,0.6427860260009766,multilingual,Unknown,no_clear_emotion,0.10581986606121063,0.04495294392108917,0.1028977483510971,0.05754145607352257,0.2510807514190674,0.044809408485889435
+tiktok,post,7651144299077242132,"Ada yang kangen gak masa2 ini⁉️ yuk komen😁
+#sby #presidenke6 #nostalgia #fyp #foryou",,,negative,2026-06-23 07:59:22.300966+00:00,18900,403,2201,279500,0.16188615560531616,24299,https://www.tiktok.com/@user069469176/video/7651144299077242132,26588.5,,,negative,0.4603794813156128,multilingual,Unknown,love,0.1012696847319603,0.06536763906478882,0.04155353456735611,0.1275077611207962,0.5719578862190247,0.04397108033299446
+tiktok,post,7531416488138362120,"Replying to @Mohd faizal Musa Kt Rembau, Negeri Sembilan..boleh waze je Jeram Rekreasi Sungai Talan..bayar parking je RM3 #healingrembau #rembau #airterjunnegerisembilan",,,neutral,2026-06-23 07:59:33.417349+00:00,19300,2066,631,1200000,0.5,33997,https://www.tiktok.com/@aisy_ukasyah/video/7531416488138362120,26525.0,,,neutral,0.997637152671814,malay,Malay/Bumiputera,no_clear_emotion,0.2358778417110443,0.06110527738928795,0.12350373715162277,0.059742581099271774,0.22174207866191864,0.04996388405561447
+tiktok,post,7587586774457765141,Sebuah perkampungan moden di Lenggeng Negeri Sembilan. Inilah dia Perkampungan Hijrah. Hadir kuliah Dhuha oleh Buya Yahya. #bosstom #tomthetraveller #perkampunganhijrah #buyayahya #ustazahasmaharun Video by @CK Media,,,positive,2026-06-23 07:59:04.817455+00:00,9537,7325,472,285100,0.8879047095775604,20185,https://www.tiktok.com/@tomfitree/video/7587586774457765141,25888.1,,,positive,0.6263490319252014,multilingual,Unknown,love,0.08972875773906708,0.026269730180501938,0.0776655301451683,0.032199032604694366,0.5159533619880676,0.02438068576157093
+tiktok,post,7391371772190362897,Mana lagi tempat best di Negeri sembilan ? #negerisembilan #negeri #portdicson #bluelagoon #gunungdatuk #lorongseniseremban #seremban #masjidnegeri #nilai #nilai3malaysia #jjcm #jjcmnegerisembilan #negerisembilanfood #foodie,,,neutral,2026-06-23 07:58:32.115818+00:00,13900,5518,172,374800,0.5,23338,https://www.tiktok.com/@farisya.idayu/video/7391371772190362897,25826.8,,,neutral,0.9696953892707825,malay,Malay/Bumiputera,love,0.10606694966554642,0.04211069643497467,0.07379782944917679,0.044011104851961136,0.554007351398468,0.03403840586543083
+tiktok,post,7649343347051531542,Apakah sekolah menengah terbaik di Negeri Sembilan?#sekolah #menengah #terrain #top15 #negerisembilan,,,neutral,2026-06-23 08:00:23.183511+00:00,13900,4142,1021,415000,0.5,23213,https://www.tiktok.com/@btd1789/video/7649343347051531542,25662.0,,,neutral,0.9976953864097595,malay,Malay/Bumiputera,love,0.06854798644781113,0.026637060567736626,0.09699077159166336,0.03225104510784149,0.6035456657409668,0.03914409503340721
+tiktok,post,7625280630951038229,"🤭🤭🤭
+📍 Gua Batu Maloi, Negeri Sembilan",,,positive,2026-06-23 07:59:11.958846+00:00,15300,4717,221,238300,0.8675058931112289,22621,https://www.tiktok.com/@afiffuddinjelani/video/7625280630951038229,25635.3,,,positive,0.5583529770374298,multilingual,Unknown,love,0.07193823158740997,0.0283147431910038,0.0633341372013092,0.02699940837919712,0.6289532780647278,0.02120422013103962
+tiktok,post,7627567094854454548,"Finally the moment we’ve been waiting for ✨
+Masani Amman 🙏 + Har Har Mahadev 🕉️
+Kaan Tirapu Vila 🔥
+#srisivasanggaravalmunivanamunitemple #omnamashivaya #negerisembilan #valmuniswarar @appavalmunivanamuni @m.m.Kavimaran @Team DSK",,,positive,2026-06-23 07:58:58.461914+00:00,19000,2867,125,170200,0.9677941977977752,23694,https://www.tiktok.com/@shadows_881/video/7627567094854454548,25279.2,,,positive,0.8926473259925842,english,Mixed/Urban,love,0.06771270185709,0.06997714936733246,0.10217932611703873,0.04057159647345543,0.6517282128334045,0.018793009221553802
+tiktok,post,7652420521564359966,Miss it sm💗 #cheerworlds #cheerleading #allstarcheer #cheertok,,,positive,2026-06-23 07:59:32.620867+00:00,20600,1215,93,101800,0.9845348119735717,22926,https://www.tiktok.com/@thecheerhiive2/video/7652420521564359966,23410.8,,,positive,0.9484493732452393,english,Mixed/Urban,love,0.048705220222473145,0.014240057207643986,0.03580436855554581,0.028209852054715157,0.7894374132156372,0.014318536035716534
+tiktok,post,7538031591608634631,"12 saat jangs 😮‍💨🔥
+#kalahbermaruah#negerisembilanfc#nsfc#jdtvsnegerisembilanfc#fyp",,,neutral,2026-06-23 07:59:06.809061+00:00,20600,534,290,326700,0.5,24691,https://www.tiktok.com/@negeri_sembilan/video/7538031591608634631,22864.7,,,neutral,0.9976588487625122,malay,Malay/Bumiputera,no_clear_emotion,0.06186643987894058,0.025659050792455673,0.05394168943166733,0.022274969145655632,0.19444821774959564,0.03232548013329506
+tiktok,post,7494149095288868104,bilo balik nismilan ceni la ngoman burak eh 😂 sorry yo @Astro Malaysia makcik an buek luahan kojap siann dio #negerisembilan #raya #fyp #nismilan #n9,,,negative,2026-06-23 08:00:02.684000+00:00,20100,877,104,252100,0.024309763312339805,23602,https://www.tiktok.com/@musyimohtar/video/7494149095288868104,22418.1,,,negative,0.9189674556255341,multilingual,Unknown,love,0.17510487139225006,0.047600965946912766,0.03752416372299194,0.052495624870061874,0.4983644485473633,0.026149902492761612
+tiktok,post,7524926552786668807,Banyak lagi tempat menarik di Negeri Sembilan selain Pantai Port Dickson korang.. Siapa pernah pergi Negeri Sembilan? Jom share tempat menarik OOTD korang 😎 #travel #ootd #malaysia #budgettravel #jalanjalan #cuticutimalaysia #negerisembilan #portdickson #royalgalerimalaysia #galeridirajatuankujaafar #nabilaagrofarm #masjidsendayan #seremban #tamantasikseremban #whitehouseseremban #skyladderpineapplefarm #pantaicahayanegeri #lorongseniseremban #theparcnilaiimpian #fyp #fyppppppppppppppppppppppp,,,positive,2026-06-23 07:58:42.639736+00:00,11600,4724,163,255400,0.8827379167079925,19041,https://www.tiktok.com/@bunnypandaadventure/video/7524926552786668807,21792.4,,,positive,0.6091263890266418,multilingual,Unknown,love,0.07732413709163666,0.024077335372567177,0.03562329709529877,0.037634097039699554,0.608218252658844,0.03842467814683914
+tiktok,post,7517922873546198279,#tempatmenarik #jombercuti #negerisembilan #negeriberadat #fyppppppppppppppppppppppp #fypdongggggggg #fypp #fypdong #fypシ゚ #fypgakni,,,neutral,2026-06-23 07:58:48.884891+00:00,15800,2482,126,213500,0.5,20543,https://www.tiktok.com/@pakbelang1957/video/7517922873546198279,21355.5,,,neutral,0.9977092742919922,malay,Malay/Bumiputera,love,0.09758515655994415,0.03801041096448898,0.07289793342351913,0.03718838468194008,0.5589368939399719,0.027638530358672142
+tiktok,post,7500486983513394439,"Melihat arsitektur rumah minang di Padang❌
+Melihat arsitektur minangkabau di Malaysia✅
+
+📍Negeri 9,Malaysia
+
+#Negerisembilan #exploremalaysia #melawatmalaysia2025 #indonesiaininmalaysia #familyathome",,,neutral,2026-06-23 08:00:08.262091+00:00,15800,362,1297,448500,0.5,21944,https://www.tiktok.com/@tsaniarahmawatiii/video/7500486983513394439,20863.5,,,neutral,0.9967955946922302,malay,Malay/Bumiputera,no_clear_emotion,0.05457879975438118,0.03113730065524578,0.07288454473018646,0.042802195996046066,0.3519116938114166,0.06913335621356964
+tiktok,post,7430784318886366472,Makan kat sini best sbb view dia cantikkk🍃🪴 #nilai #foodies #breakfast #portmakan #negerisembilan #dpangkingardenandkitchencafe,,,positive,2026-06-23 07:58:30.011322+00:00,9349,5435,81,310800,0.9303454279899597,17973,https://www.tiktok.com/@okay.najwa/video/7430784318886366472,20772.8,,,positive,0.7678180932998657,english,Mixed/Urban,love,0.0662829726934433,0.023930178955197334,0.11727811396121979,0.019799161702394485,0.6975482702255249,0.017595110461115837
+tiktok,post,7542408103912901909,lovee lagunya dan semangat nya 🌸🎀 #ultrasnegerisembilan #negerisembilan #fypシ゚viral #masukberanda #foryoupage,,,positive,2026-06-23 07:59:56.160656+00:00,17400,905,258,252000,0.987710565328598,21083,https://www.tiktok.com/@cuwwa_/video/7542408103912901909,20236.0,,,positive,0.9590352177619934,english,Mixed/Urban,love,0.10748375207185745,0.0730472058057785,0.056235477328300476,0.11344502866268158,0.5578681230545044,0.042904116213321686
+tiktok,post,7627844122136628501,"Now or Never 😏
+📍 Gua Batu Maloi, Negeri Sembilan
+Open Everyday ✅
+Rm 65 Only / Person
+Abg Din : 013 7376155",,,negative,2026-06-23 07:58:41.040341+00:00,10100,4451,180,212200,0.171317920088768,16853,https://www.tiktok.com/@afiffuddinjelani/video/7627844122136628501,19754.2,,,negative,0.4289402663707733,multilingual,Unknown,love,0.036766041070222855,0.020380347967147827,0.050587959587574005,0.020184272900223732,0.46196621656417847,0.02872806042432785
+tiktok,post,7623780349448883474,"📍Lata Kijang, Jelebu Negeri Sembilan",,,positive,2026-06-23 07:58:28.340770+00:00,11800,3259,238,196800,0.8549796238541603,17265,https://www.tiktok.com/@mmmmlkrdh/video/7623780349448883474,19228.8,,,positive,0.5165987461805344,multilingual,Unknown,love,0.08545677363872528,0.023038851097226143,0.047779738903045654,0.024036729708313942,0.6677978038787842,0.0188673697412014
+tiktok,post,7442194334449028370,"Bandar Seremban. Pemandangan sekitar bandar Seremban. 
+
+Seremban is the capital city of Negeri Sembilan, located in central Peninsular Malaysia. It is situated about 60 kilometers south of Kuala Lumpur, making it part of the greater Klang Valley region. Seremban has a rich history, originally founded as a mining town in the 19th century, but it has evolved into a modern administrative and commercial hub.
+
+#seremban #negerisembilan #droneshot #dronevideo #cinematic #terminaloneseremban #masjidnegeri #ktmseremban #senawangproblem #fyp #viral #xyzbca",,,neutral,2026-06-23 07:58:51.678814+00:00,13200,1652,676,413900,0.5,19667,https://www.tiktok.com/@ismail.razak9/video/7442194334449028370,18945.9,,,neutral,0.9977132081985474,malay,Malay/Bumiputera,love,0.09760262072086334,0.03631559759378433,0.15653426945209503,0.0361349955201149,0.43090179562568665,0.0291675366461277
+tiktok,post,7608605494604958997,"📍 Gua Batu Maloi, Negeri Sembilan
+We Open Every Day !!",,,neutral,2026-06-23 07:59:03.976412+00:00,8949,4433,246,152100,0.5,15149,https://www.tiktok.com/@afiffuddinjelani/video/7608605494604958997,18705.1,,,neutral,0.803085207939148,english,Mixed/Urban,love,0.03274970501661301,0.013787989504635334,0.07240011543035507,0.01657053269445896,0.7215070724487305,0.015447250567376614
+tiktok,post,7474421431103737106,#waghih #cafen9 #cafe #NegeriSembilan #nogori #nogorisembilan #seremban #sendayan #makansedap #fyp,,,neutral,2026-06-23 07:58:32.535494+00:00,9268,4081,304,273700,0.5,16390,https://www.tiktok.com/@leen_hilmi/video/7474421431103737106,18615.7,,,neutral,0.9976426959037781,malay,Malay/Bumiputera,love,0.1675110012292862,0.06560289114713669,0.11364223808050156,0.06893624365329742,0.337482213973999,0.04620636627078056
+tiktok,post,7496890854343183636,We Open Everyday 😍😍😍,,,positive,2026-06-23 08:00:17.083844+00:00,7835,4673,258,227100,0.9928150594234466,15037,https://www.tiktok.com/@afiffuddinjelani/video/7496890854343183636,18182.1,,,positive,0.9760501980781555,english,Mixed/Urban,love,0.03363105282187462,0.04025905951857567,0.250316321849823,0.029053211212158203,0.5492706298828125,0.04141741245985031
+tiktok,post,7640572685067619604,"Traditional marriage in Malaysia, only for shooting
+
+.
+
+ #usmanellahi00 #allstarinfluencersaward2026 #asia2026bestculturecurator #visitmalaysia2026 #lembagamuziumnegerisembilan @All Star Influencers @Tourism Malaysia @n9tourism @abdrahmansoltan @lyndarafikah",,,neutral,2026-06-23 07:59:16.971989+00:00,16200,145,128,991700,0.5,26390,https://www.tiktok.com/@usmanellahi00/video/7640572685067619604,17865.7,,,neutral,0.754115641117096,english,Mixed/Urban,love,0.0957794114947319,0.02901960164308548,0.0832805410027504,0.03861674293875694,0.42365697026252747,0.03041682206094265
+tiktok,post,7620416776010075399,"Found a new cafe in rembau, aesthetic and cozy vibes ! @pundong_coffee
+
+Open daily
+Waze : pundong coffee rembau
+
+Operation hours 
+8am - 6pm
+
+#rembau #cafe #cafenegerisembilan #cafehunting #lepak",,,positive,2026-06-23 07:59:07.987091+00:00,7038,5150,81,119500,0.9694909989833831,13464,https://www.tiktok.com/@hop.huntt/video/7620416776010075399,17700.5,,,positive,0.8983033299446106,english,Mixed/Urban,happy,0.030744370073080063,0.04822449013590813,0.7546489834785461,0.014463311992585659,0.09495808929204941,0.023550741374492645
+tiktok,post,7631568158771481864,"sempena Berdaulat Raja ke Johor,bertali ke siak Dan Bertuan kan ke Minangkabau...""Tapi sebenarnya Sudah putus Tali kes siak?Dan Bertuan ke minangkabau kan?? #Rajamelewar #negerisembilan #adatperpatih #sejarahnegerisembilan #DaulatRaja",,,negative,2026-06-23 07:59:41.131439+00:00,12100,1610,392,330500,0.005585950613021862,17407,https://www.tiktok.com/@mhdl3534/video/7631568158771481864,16826.5,,,negative,0.9813801646232605,malay,Malay/Bumiputera,love,0.18802349269390106,0.05425667017698288,0.026849176734685898,0.12926240265369415,0.3975386321544647,0.03297083079814911
+tiktok,post,7624172628810550548,"📍 Gua Batu Maloi, Negeri Sembilan
+Rm 65 Only/Person 🤩🤩🤩
+Tag Your Friends !!",,,negative,2026-06-23 07:59:36.568623+00:00,8480,3702,160,165400,0.178866845369339,13996,https://www.tiktok.com/@afiffuddinjelani/video/7624172628810550548,16529.4,,,negative,0.40377718210220337,multilingual,Unknown,love,0.023629426956176758,0.012108235619962215,0.039792176336050034,0.01628848910331726,0.7582981586456299,0.020265139639377594
+tiktok,post,7253800802618182914,"Hidden Gem @ N9 - Teka kat manaaaa?
+
+#naturelover #camping #trekking #outdoor #negerisembilanmalaysia",,,positive,2026-06-23 07:58:37.077148+00:00,10200,2687,213,251500,0.847723090648651,15615,https://www.tiktok.com/@nur.shahiera/video/7253800802618182914,16464.5,,,positive,0.4924103021621704,multilingual,Unknown,love,0.08492758870124817,0.016112739220261574,0.03589605912566185,0.031948644667863846,0.7301222085952759,0.01714496687054634
+tiktok,post,7440783216467987719,Tempat2 hiking di negeri sembilan yang sudah ku sampai🤩💪🏻korang yang duk n9 boleh suggest tempat hiking mana lagi yang belum ada dalam list ni tau😬👍 #fyp #fypviralシ #foryoupage #hiking #hikingadventures #nature #naturelover #views #adventure #outdoors #tiktok #viral #hikersoftiktok #pendakigunung #n9 #tempathiking #hikingn9,,,neutral,2026-06-23 07:58:46.338310+00:00,9274,2869,287,120900,0.5,13639,https://www.tiktok.com/@muhdzul02_/video/7440783216467987719,15993.9,,,neutral,0.8096103668212891,malay,Malay/Bumiputera,love,0.06755765527486801,0.044009726494550705,0.0369931161403656,0.047892119735479355,0.4912988841533661,0.1442164182662964
+tiktok,post,7555169307504774408,"📍Taman Malaysia, Seremban . Jambatan Gantung. #fyp #seremban #negerisembilan #tamanmalaysiaseremban #outdoors",,,positive,2026-06-23 07:59:28.099784+00:00,6686,4297,114,212600,0.8419968381524086,13223,https://www.tiktok.com/@atinnnnnnnn_/video/7555169307504774408,15834.6,,,positive,0.473322793841362,multilingual,Unknown,no_clear_emotion,0.10457204282283783,0.035331595689058304,0.08520212769508362,0.04703647270798683,0.3261212706565857,0.033769432455301285
+tiktok,post,7590356034183613704,"Inilah 6 tempat menarik di Negeri Sembilan! Kalau korang nak experience yang best boleh la datang ke sini.
+
+📍Negeri Sembilan
+
+#negerisembilan #nismilan #tempatmenariknegerisembilan #nabilaagrofarm #pdostrichfarm @Travel Magazine @Tourism Malaysia",,,positive,2026-06-23 07:58:26.061336+00:00,6420,4449,77,181600,0.9993100106716155,12762,https://www.tiktok.com/@fuyohhtv/video/7590356034183613704,15730.6,,,positive,0.997700035572052,malay,Malay/Bumiputera,love,0.04007977619767189,0.01734044775366783,0.061674438416957855,0.02214577980339527,0.7128025889396667,0.0379670150578022
+tiktok,post,7478137892905307399,"INFO dari Negeri Sembilan kini
+#Senarai #10 #BAZAR #RAMADAN paling WOW Bagi tahun 2025
+
+Hasil dari Survey dari Waghih² sekitar ini antara  Bazaar Ramadan yang Di kategori WOW kat Negeri Sembilan ni. Makna kata apa selera atau juadah yang di idamkan ada kat sini. 
+
+Apa tunggu lagi, jom terjah!
+
+#NegeriSembilanKiNi #BazarRamadan2025 #Ramadan2025 #bazaar #bazaarnegerisembilan #negerisembilanviral #nsviral #bazzarramadhan",,,neutral,2026-06-23 07:59:41.963918+00:00,6937,3653,194,225100,0.5,13035,https://www.tiktok.com/@negerisembilanviral/video/7478137892905307399,15050.1,,,neutral,0.9977205395698547,malay,Malay/Bumiputera,no_clear_emotion,0.053433507680892944,0.07616589218378067,0.10260646045207977,0.04616847261786461,0.2616283595561981,0.12032438814640045

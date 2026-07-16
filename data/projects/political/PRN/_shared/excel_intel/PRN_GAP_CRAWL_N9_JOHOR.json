@@ -1,0 +1,648 @@
+{
+  "generated": "2026-06-21T05:28:29.028236+08:00",
+  "source_csv": "data/combined/Combined_manual_stop_20260621_051322.csv",
+  "strict_threshold": 10,
+  "summary": {
+    "N9_gaps": 28,
+    "Johor_gaps": 51,
+    "total_gaps": 79
+  },
+  "gaps": {
+    "Negeri Sembilan": [
+      {
+        "dun_code": "N01",
+        "dun_name": "Chennah",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "luar bandar; jalan rosak; FELDA; Orang Asli",
+        "query": "(\"Chennah\" OR \"DUN Chennah\" OR \"ADUN Chennah\") AND (\"Kg Chennah\" OR \"FELDA Pasoh\" OR \"Bukit Tinggi\") when:7d"
+      },
+      {
+        "dun_code": "N02",
+        "dun_name": "Pertang",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "pertanian; pendapatan rendah; Undang Jelebu",
+        "query": "(\"Pertang\" OR \"DUN Pertang\" OR \"ADUN Pertang\") AND (\"Pekan Pertang\" OR \"Ulu Triang\") when:7d"
+      },
+      {
+        "dun_code": "N03",
+        "dun_name": "Sungai Lui",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "kampung; jalan; air paip",
+        "query": "(\"Sungai Lui\" OR \"DUN Sungai Lui\" OR \"ADUN Sungai Lui\") AND (\"Sungai Lui\" OR \"Petaling Jelebu\") when:7d"
+      },
+      {
+        "dun_code": "N04",
+        "dun_name": "Klawang",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "pertanian; banjir kilat; Adat Perpatih",
+        "query": "(\"Klawang\" OR \"DUN Klawang\" OR \"ADUN Klawang\") AND (\"Pekan Klawang\" OR \"Kuala Klawang\") when:7d"
+      },
+      {
+        "dun_code": "N05",
+        "dun_name": "Serting",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "FELDA; sawit; pendapatan peneroka",
+        "query": "(\"Serting\" OR \"DUN Serting\" OR \"ADUN Serting\") AND (\"FELDA Serting\" OR \"Bandar Seri Jempol\") when:7d"
+      },
+      {
+        "dun_code": "N06",
+        "dun_name": "Palong",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "FELDA; pekerja ladang; pemerolehan tanah",
+        "query": "(\"Palong\" OR \"DUN Palong\" OR \"ADUN Palong\") AND (\"FELDA Palong\" OR \"Bukit Palong\") when:7d"
+      },
+      {
+        "dun_code": "N07",
+        "dun_name": "Jeram Padang",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; pertanian",
+        "query": "(\"Jeram Padang\" OR \"DUN Jeram Padang\" OR \"ADUN Jeram Padang\") AND (\"Jeram Padang\" OR \"Rompin\") when:7d"
+      },
+      {
+        "dun_code": "N08",
+        "dun_name": "Bahau",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "pekan; perniagaan; banjir",
+        "query": "(\"Bahau\" OR \"DUN Bahau\" OR \"ADUN Bahau\") AND (\"Pekan Bahau\" OR \"Bandar Sri Jempol\") when:7d"
+      },
+      {
+        "dun_code": "N09",
+        "dun_name": "Lenggeng",
+        "strict_mentions": 6,
+        "gap_level": "low",
+        "local_issues": "perumahan; pekerja KL; pembangunan",
+        "query": "(\"Lenggeng\" OR \"DUN Lenggeng\" OR \"ADUN Lenggeng\") AND (\"Lenggeng\" OR \"Pantai\" OR \"Broga\") when:7d"
+      },
+      {
+        "dun_code": "N11",
+        "dun_name": "Lobak",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "bandar; perniagaan Cina; KIP Mart",
+        "query": "(\"Lobak\" OR \"DUN Lobak\" OR \"ADUN Lobak\") AND (\"Lobak\" OR \"Rasah Jaya\") when:7d"
+      },
+      {
+        "dun_code": "N12",
+        "dun_name": "Temiang",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "perumahan kelas menengah; trafik",
+        "query": "(\"Temiang\" OR \"DUN Temiang\" OR \"ADUN Temiang\") AND (\"Temiang\" OR \"Bukit Chedang\") when:7d"
+      },
+      {
+        "dun_code": "N14",
+        "dun_name": "Ampangan",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "perindustrian; pekerja kilang",
+        "query": "(\"Ampangan\" OR \"DUN Ampangan\" OR \"ADUN Ampangan\") AND (\"Ampangan\" OR \"Senawang\") when:7d"
+      },
+      {
+        "dun_code": "N15",
+        "dun_name": "Juasseh",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "luar bandar; Adat Perpatih; Undang Johol",
+        "query": "(\"Juasseh\" OR \"DUN Juasseh\" OR \"ADUN Juasseh\") AND (\"Juasseh\" OR \"Ulu Muar\") when:7d"
+      },
+      {
+        "dun_code": "N17",
+        "dun_name": "Senaling",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "luar bandar; pertanian; Adat Perpatih",
+        "query": "(\"Senaling\" OR \"DUN Senaling\" OR \"ADUN Senaling\") AND (\"Senaling\" OR \"Terachi\") when:7d"
+      },
+      {
+        "dun_code": "N21",
+        "dun_name": "Bukit Kepayang",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "perumahan kelas menengah; trafik",
+        "query": "(\"Bukit Kepayang\" OR \"DUN Bukit Kepayang\" OR \"ADUN Bukit Kepayang\") AND (\"Bukit Kepayang\" OR \"Senawang Heights\") when:7d"
+      },
+      {
+        "dun_code": "N22",
+        "dun_name": "Rahang",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "bandar tua; perniagaan Cina",
+        "query": "(\"Rahang\" OR \"DUN Rahang\" OR \"ADUN Rahang\") AND (\"Rahang\" OR \"Lobak Heights\") when:7d"
+      },
+      {
+        "dun_code": "N23",
+        "dun_name": "Mambau",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "perumahan; banjir kilat",
+        "query": "(\"Mambau\" OR \"DUN Mambau\" OR \"ADUN Mambau\") AND (\"Mambau\" OR \"Sikamat\") when:7d"
+      },
+      {
+        "dun_code": "N24",
+        "dun_name": "Seremban Jaya",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "perumahan; pekerja; perindustrian",
+        "query": "(\"Seremban Jaya\" OR \"DUN Seremban Jaya\" OR \"ADUN Seremban Jaya\") AND (\"Seremban Jaya\" OR \"Senawang\") when:7d"
+      },
+      {
+        "dun_code": "N25",
+        "dun_name": "Paroi",
+        "strict_mentions": 7,
+        "gap_level": "low",
+        "local_issues": "perumahan; jalan; sekolah",
+        "query": "(\"Paroi\" OR \"DUN Paroi\" OR \"ADUN Paroi\") AND (\"Paroi\" OR \"Mantin\") when:7d"
+      },
+      {
+        "dun_code": "N26",
+        "dun_name": "Chembong",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "FELDA; Adat Perpatih; Undang Rembau",
+        "query": "(\"Chembong\" OR \"DUN Chembong\" OR \"ADUN Chembong\") AND (\"Chembong\" OR \"FELDA Chembong\" OR \"Undang Rembau\") when:7d"
+      },
+      {
+        "dun_code": "N27",
+        "dun_name": "Rantau",
+        "strict_mentions": 5,
+        "gap_level": "low",
+        "local_issues": "Mohamad Hasan; Tok Mat; politik tinggi",
+        "query": "(\"Rantau\" OR \"DUN Rantau\" OR \"ADUN Rantau\") AND (\"Pekan Rantau\" OR \"Rantau Estate\") when:7d"
+      },
+      {
+        "dun_code": "N29",
+        "dun_name": "Chuah",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "pelancongan; pantai; nelayan",
+        "query": "(\"Chuah\" OR \"DUN Chuah\" OR \"ADUN Chuah\") AND (\"Chuah\" OR \"Pantai Chuah\") when:7d"
+      },
+      {
+        "dun_code": "N30",
+        "dun_name": "Lukut",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "pekan; sejarah Lukut; perniagaan",
+        "query": "(\"Lukut\" OR \"DUN Lukut\" OR \"ADUN Lukut\") AND (\"Lukut\" OR \"Sepang Highway\") when:7d"
+      },
+      {
+        "dun_code": "N31",
+        "dun_name": "Bagan Pinang",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "tentera; askar; veteran",
+        "query": "(\"Bagan Pinang\" OR \"DUN Bagan Pinang\" OR \"ADUN Bagan Pinang\") AND (\"Pengkalan Tentera\" OR \"Si Rusa\") when:7d"
+      },
+      {
+        "dun_code": "N33",
+        "dun_name": "Sri Tanjung",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "pelancongan; pantai PD; pengundi muda",
+        "query": "(\"Sri Tanjung\" OR \"DUN Sri Tanjung\" OR \"ADUN Sri Tanjung\") AND (\"Bandar PD\" OR \"Teluk Kemang\") when:7d"
+      },
+      {
+        "dun_code": "N34",
+        "dun_name": "Gemas",
+        "strict_mentions": 8,
+        "gap_level": "low",
+        "local_issues": "kereta api; ECRL; sempadan",
+        "query": "(\"Gemas\" OR \"DUN Gemas\" OR \"ADUN Gemas\") AND (\"Stesen Gemas\" OR \"sempadan Johor\") when:7d"
+      },
+      {
+        "dun_code": "N35",
+        "dun_name": "Gemencheh",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "luar bandar; pertanian; FELDA",
+        "query": "(\"Gemencheh\" OR \"DUN Gemencheh\" OR \"ADUN Gemencheh\") AND (\"Pekan Gemencheh\" OR \"Air Kuning\") when:7d"
+      },
+      {
+        "dun_code": "N36",
+        "dun_name": "Repah",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "pekan; sempadan Melaka",
+        "query": "(\"Repah\" OR \"DUN Repah\" OR \"ADUN Repah\") AND (\"Pekan Tampin\" OR \"Repah\") when:7d"
+      }
+    ],
+    "Johor": [
+      {
+        "dun_code": "N01",
+        "dun_name": "Buloh Kasap",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit; FELDA",
+        "query": "(\"Buloh Kasap\" OR \"DUN Buloh Kasap\" OR \"ADUN Buloh Kasap\") AND (\"Buloh Kasap\" OR \"Ladang Sg Muar\") when:7d"
+      },
+      {
+        "dun_code": "N02",
+        "dun_name": "Jementah",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "perniagaan; Cina; sekolah vernakular",
+        "query": "(\"Jementah\" OR \"DUN Jementah\" OR \"ADUN Jementah\") AND (\"Pekan Jementah\" OR \"Sungai Jementah\") when:7d"
+      },
+      {
+        "dun_code": "N03",
+        "dun_name": "Pemanis",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; sawit; Felda",
+        "query": "(\"Pemanis\" OR \"DUN Pemanis\" OR \"ADUN Pemanis\") AND (\"Pemanis\" OR \"Bukit Siput\") when:7d"
+      },
+      {
+        "dun_code": "N04",
+        "dun_name": "Kemelah",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit",
+        "query": "(\"Kemelah\" OR \"DUN Kemelah\" OR \"ADUN Kemelah\") AND (\"Kemelah\" OR \"Pogoh\") when:7d"
+      },
+      {
+        "dun_code": "N06",
+        "dun_name": "Bekok",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "Cina majoriti; getah; FELDA",
+        "query": "(\"Bekok\" OR \"DUN Bekok\" OR \"ADUN Bekok\") AND (\"Bekok\" OR \"Chaah\") when:7d"
+      },
+      {
+        "dun_code": "N07",
+        "dun_name": "Bukit Kepong",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "sejarah; pelancongan; pertanian",
+        "query": "(\"Bukit Kepong\" OR \"DUN Bukit Kepong\" OR \"ADUN Bukit Kepong\") AND (\"Bukit Kepong\" OR \"sejarah PRM\") when:7d"
+      },
+      {
+        "dun_code": "N08",
+        "dun_name": "Bukit Pasir",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "perniagaan; sawit; FELDA",
+        "query": "(\"Bukit Pasir\" OR \"DUN Bukit Pasir\" OR \"ADUN Bukit Pasir\") AND (\"Bukit Pasir\" OR \"Sungai Mati\") when:7d"
+      },
+      {
+        "dun_code": "N09",
+        "dun_name": "Gambir",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit; Gunung Ledang",
+        "query": "(\"Gambir\" OR \"DUN Gambir\" OR \"ADUN Gambir\") AND (\"Pekan Gambir\" OR \"Sagil\") when:7d"
+      },
+      {
+        "dun_code": "N10",
+        "dun_name": "Tangkak",
+        "strict_mentions": 7,
+        "gap_level": "low",
+        "local_issues": "perniagaan kain; Cina; pelancongan",
+        "query": "(\"Tangkak\" OR \"DUN Tangkak\" OR \"ADUN Tangkak\") AND (\"Pekan Tangkak\" OR \"kain Tangkak\") when:7d"
+      },
+      {
+        "dun_code": "N11",
+        "dun_name": "Serom",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; sawit",
+        "query": "(\"Serom\" OR \"DUN Serom\" OR \"ADUN Serom\") AND (\"Serom\" OR \"Sungai Mati\") when:7d"
+      },
+      {
+        "dun_code": "N12",
+        "dun_name": "Bentayan",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "bandar; perniagaan Cina; sekolah vernakular",
+        "query": "(\"Bentayan\" OR \"DUN Bentayan\" OR \"ADUN Bentayan\") AND (\"Bentayan\" OR \"Bandar Muar\") when:7d"
+      },
+      {
+        "dun_code": "N13",
+        "dun_name": "Simpang Jeram",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "Salahuddin Ayub; PAS-Amanah; pengundi muda",
+        "query": "(\"Simpang Jeram\" OR \"DUN Simpang Jeram\" OR \"ADUN Simpang Jeram\") AND (\"Simpang Jeram\" OR \"Sungai Abong\") when:7d"
+      },
+      {
+        "dun_code": "N14",
+        "dun_name": "Bukit Naning",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; sawit",
+        "query": "(\"Bukit Naning\" OR \"DUN Bukit Naning\" OR \"ADUN Bukit Naning\") AND (\"Bukit Naning\" OR \"Parit Bunga\") when:7d"
+      },
+      {
+        "dun_code": "N15",
+        "dun_name": "Maharani",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "bandaraya Muar; perniagaan; pelancongan",
+        "query": "(\"Maharani\" OR \"DUN Maharani\" OR \"ADUN Maharani\") AND (\"Pekan Muar\" OR \"Tanjung Emas\") when:7d"
+      },
+      {
+        "dun_code": "N16",
+        "dun_name": "Sungai Balang",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "nelayan; pesisir pantai; sawit",
+        "query": "(\"Sungai Balang\" OR \"DUN Sungai Balang\" OR \"ADUN Sungai Balang\") AND (\"Sungai Balang\" OR \"Parit Jawa\") when:7d"
+      },
+      {
+        "dun_code": "N17",
+        "dun_name": "Semerah",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; sawit; Cina vernakular",
+        "query": "(\"Semerah\" OR \"DUN Semerah\" OR \"ADUN Semerah\") AND (\"Semerah\" OR \"Senggarang\") when:7d"
+      },
+      {
+        "dun_code": "N18",
+        "dun_name": "Sri Medan",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sejarah Parit Sulong",
+        "query": "(\"Sri Medan\" OR \"DUN Sri Medan\" OR \"ADUN Sri Medan\") AND (\"Sri Medan\" OR \"Parit Sulong\") when:7d"
+      },
+      {
+        "dun_code": "N19",
+        "dun_name": "Yong Peng",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "Cina majoriti; perniagaan; lebuhraya",
+        "query": "(\"Yong Peng\" OR \"DUN Yong Peng\" OR \"ADUN Yong Peng\") AND (\"Pekan Yong Peng\" OR \"Lebuhraya Utara-Selatan\") when:7d"
+      },
+      {
+        "dun_code": "N20",
+        "dun_name": "Semarang",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "Speaker; persimpangan jalan",
+        "query": "(\"Semarang\" OR \"DUN Semarang\" OR \"ADUN Semarang\") AND (\"Semarang\" OR \"Ayer Hitam\") when:7d"
+      },
+      {
+        "dun_code": "N21",
+        "dun_name": "Parit Yaani",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "FELDA; sawit; jalan",
+        "query": "(\"Parit Yaani\" OR \"DUN Parit Yaani\" OR \"ADUN Parit Yaani\") AND (\"Parit Yaani\" OR \"FELDA\") when:7d"
+      },
+      {
+        "dun_code": "N22",
+        "dun_name": "Parit Raja",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "UTHM; pelajar; perumahan; pengundi muda",
+        "query": "(\"Parit Raja\" OR \"DUN Parit Raja\" OR \"ADUN Parit Raja\") AND (\"Parit Raja\" OR \"UTHM\") when:7d"
+      },
+      {
+        "dun_code": "N23",
+        "dun_name": "Penggaram",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "bandar; perniagaan Cina",
+        "query": "(\"Penggaram\" OR \"DUN Penggaram\" OR \"ADUN Penggaram\") AND (\"Bandar Batu Pahat\" OR \"Penggaram\") when:7d"
+      },
+      {
+        "dun_code": "N24",
+        "dun_name": "Senggarang",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; nelayan",
+        "query": "(\"Senggarang\" OR \"DUN Senggarang\" OR \"ADUN Senggarang\") AND (\"Senggarang\" OR \"Rengit\") when:7d"
+      },
+      {
+        "dun_code": "N25",
+        "dun_name": "Rengit",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "banjir; nelayan; tebatan",
+        "query": "(\"Rengit\" OR \"DUN Rengit\" OR \"ADUN Rengit\") AND (\"Pekan Rengit\" OR \"pesisir pantai\") when:7d"
+      },
+      {
+        "dun_code": "N26",
+        "dun_name": "Machap",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "Onn Hafiz MB; FELDA; sawit",
+        "query": "(\"Machap\" OR \"DUN Machap\" OR \"ADUN Machap\") AND (\"Machap\" OR \"FELDA Machap\") when:7d"
+      },
+      {
+        "dun_code": "N27",
+        "dun_name": "Layang-Layang",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit; jalan",
+        "query": "(\"Layang-Layang\" OR \"DUN Layang-Layang\" OR \"ADUN Layang-Layang\") AND (\"Pekan Layang-Layang\") when:7d"
+      },
+      {
+        "dun_code": "N28",
+        "dun_name": "Mengkibol",
+        "strict_mentions": 9,
+        "gap_level": "low",
+        "local_issues": "bandar; Cina; perniagaan; sekolah vernakular",
+        "query": "(\"Mengkibol\" OR \"DUN Mengkibol\" OR \"ADUN Mengkibol\") AND (\"Bandar Kluang\" OR \"Stesen KTM\") when:7d"
+      },
+      {
+        "dun_code": "N30",
+        "dun_name": "Paloh",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "Cina majoriti; estate getah",
+        "query": "(\"Paloh\" OR \"DUN Paloh\" OR \"ADUN Paloh\") AND (\"Pekan Paloh\") when:7d"
+      },
+      {
+        "dun_code": "N31",
+        "dun_name": "Kahang",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "FELDA; sawit; Orang Asli",
+        "query": "(\"Kahang\" OR \"DUN Kahang\" OR \"ADUN Kahang\") AND (\"Kahang\" OR \"FELDA\") when:7d"
+      },
+      {
+        "dun_code": "N32",
+        "dun_name": "Endau",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "nelayan; Endau-Rompin; banjir",
+        "query": "(\"Endau\" OR \"DUN Endau\" OR \"ADUN Endau\") AND (\"Endau\" OR \"Rompin border\") when:7d"
+      },
+      {
+        "dun_code": "N33",
+        "dun_name": "Tenggaroh",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "FELDA; sawit",
+        "query": "(\"Tenggaroh\" OR \"DUN Tenggaroh\" OR \"ADUN Tenggaroh\") AND (\"Tenggaroh\" OR \"FELDA\") when:7d"
+      },
+      {
+        "dun_code": "N34",
+        "dun_name": "Panti",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "luar bandar; sawit; hutan lipur",
+        "query": "(\"Panti\" OR \"DUN Panti\" OR \"ADUN Panti\") AND (\"Panti\" OR \"Gunung Panti\") when:7d"
+      },
+      {
+        "dun_code": "N35",
+        "dun_name": "Pasir Raja",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "FELDA; sawit",
+        "query": "(\"Pasir Raja\" OR \"DUN Pasir Raja\" OR \"ADUN Pasir Raja\") AND (\"Pasir Raja\" OR \"FELDA\") when:7d"
+      },
+      {
+        "dun_code": "N36",
+        "dun_name": "Sedili",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "nelayan; pelancongan; pantai",
+        "query": "(\"Sedili\" OR \"DUN Sedili\" OR \"ADUN Sedili\") AND (\"Sedili\" OR \"Tanjung Sedili\") when:7d"
+      },
+      {
+        "dun_code": "N37",
+        "dun_name": "Johor Lama",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "sejarah; pelancongan; istana",
+        "query": "(\"Johor Lama\" OR \"DUN Johor Lama\" OR \"ADUN Johor Lama\") AND (\"Johor Lama\" OR \"sejarah Kesultanan Johor\") when:7d"
+      },
+      {
+        "dun_code": "N38",
+        "dun_name": "Penawar",
+        "strict_mentions": 5,
+        "gap_level": "low",
+        "local_issues": "FELDA; sempadan Pengerang",
+        "query": "(\"Penawar\" OR \"DUN Penawar\" OR \"ADUN Penawar\") AND (\"Penawar\" OR \"Bandar Penawar\") when:7d"
+      },
+      {
+        "dun_code": "N39",
+        "dun_name": "Tanjung Surat",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "RAPID; PIPC; Petronas; pekerja asing",
+        "query": "(\"Tanjung Surat\" OR \"DUN Tanjung Surat\" OR \"ADUN Tanjung Surat\") AND (\"Tanjung Surat\" OR \"Pengerang\") when:7d"
+      },
+      {
+        "dun_code": "N43",
+        "dun_name": "Permas",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "perumahan; trafik; Singapura commute",
+        "query": "(\"Permas\" OR \"DUN Permas\" OR \"ADUN Permas\") AND (\"Permas Jaya\" OR \"Stulang\") when:7d"
+      },
+      {
+        "dun_code": "N44",
+        "dun_name": "Larkin",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "bandar; pengangkutan; perumahan",
+        "query": "(\"Larkin\" OR \"DUN Larkin\" OR \"ADUN Larkin\") AND (\"Larkin\" OR \"Terminal Bas Larkin Sentral\") when:7d"
+      },
+      {
+        "dun_code": "N45",
+        "dun_name": "Stulang",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "CIQ; Singapura; tambang; pelancongan",
+        "query": "(\"Stulang\" OR \"DUN Stulang\" OR \"ADUN Stulang\") AND (\"Stulang\" OR \"CIQ Sultan Iskandar\") when:7d"
+      },
+      {
+        "dun_code": "N46",
+        "dun_name": "Perling",
+        "strict_mentions": 1,
+        "gap_level": "low",
+        "local_issues": "perumahan; banjir; Cina; Liew Chin Tong",
+        "query": "(\"Perling\" OR \"DUN Perling\" OR \"ADUN Perling\") AND (\"Perling\" OR \"Pengkalan Rinting\") when:7d"
+      },
+      {
+        "dun_code": "N47",
+        "dun_name": "Kempas",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "perumahan; perindustrian",
+        "query": "(\"Kempas\" OR \"DUN Kempas\" OR \"ADUN Kempas\") AND (\"Kempas\" OR \"Tampoi\") when:7d"
+      },
+      {
+        "dun_code": "N48",
+        "dun_name": "Skudai",
+        "strict_mentions": 8,
+        "gap_level": "low",
+        "local_issues": "UTM; pelajar; perumahan; Cina",
+        "query": "(\"Skudai\" OR \"DUN Skudai\" OR \"ADUN Skudai\") AND (\"Skudai\" OR \"UTM\" OR \"Taman U\") when:7d"
+      },
+      {
+        "dun_code": "N49",
+        "dun_name": "Kota Iskandar",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "kerajaan; pentadbiran; Iskandar Malaysia",
+        "query": "(\"Kota Iskandar\" OR \"DUN Kota Iskandar\" OR \"ADUN Kota Iskandar\") AND (\"Kota Iskandar\" OR \"pusat pentadbiran\") when:7d"
+      },
+      {
+        "dun_code": "N50",
+        "dun_name": "Bukit Permai",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "FELDA; perumahan; Onn Hafiz home",
+        "query": "(\"Bukit Permai\" OR \"DUN Bukit Permai\" OR \"ADUN Bukit Permai\") AND (\"Bukit Permai\" OR \"FELDA\") when:7d"
+      },
+      {
+        "dun_code": "N51",
+        "dun_name": "Bukit Batu",
+        "strict_mentions": 4,
+        "gap_level": "low",
+        "local_issues": "sawit; Cina; perniagaan",
+        "query": "(\"Bukit Batu\" OR \"DUN Bukit Batu\" OR \"ADUN Bukit Batu\") AND (\"Bukit Batu\" OR \"Kelapa Sawit\") when:7d"
+      },
+      {
+        "dun_code": "N52",
+        "dun_name": "Senai",
+        "strict_mentions": 3,
+        "gap_level": "low",
+        "local_issues": "airport; perindustrian; perumahan",
+        "query": "(\"Senai\" OR \"DUN Senai\" OR \"ADUN Senai\") AND (\"Bandar Senai\" OR \"Lapangan Terbang Senai\") when:7d"
+      },
+      {
+        "dun_code": "N53",
+        "dun_name": "Benut",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit; nelayan",
+        "query": "(\"Benut\" OR \"DUN Benut\" OR \"ADUN Benut\") AND (\"Pekan Benut\" OR \"Pontian\") when:7d"
+      },
+      {
+        "dun_code": "N54",
+        "dun_name": "Pulai Sebatang",
+        "strict_mentions": 2,
+        "gap_level": "low",
+        "local_issues": "luar bandar; sawit; Cina vernakular",
+        "query": "(\"Pulai Sebatang\" OR \"DUN Pulai Sebatang\" OR \"ADUN Pulai Sebatang\") AND (\"Pulai Sebatang\" OR \"Rambah\") when:7d"
+      },
+      {
+        "dun_code": "N55",
+        "dun_name": "Pekan Nanas",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "nanas; sawit; Cina; pelancongan",
+        "query": "(\"Pekan Nanas\" OR \"DUN Pekan Nanas\" OR \"ADUN Pekan Nanas\") AND (\"Pekan Nanas\" OR \"nanas farm\") when:7d"
+      },
+      {
+        "dun_code": "N56",
+        "dun_name": "Kukup",
+        "strict_mentions": 0,
+        "gap_level": "zero",
+        "local_issues": "nelayan; pelancongan kelong; sempadan",
+        "query": "(\"Kukup\" OR \"DUN Kukup\" OR \"ADUN Kukup\") AND (\"Kukup\" OR \"Tanjung Piai\") when:7d"
+      }
+    ]
+  }
+}

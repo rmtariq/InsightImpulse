@@ -1,0 +1,6 @@
+total_records: 137
+pas_solo_mentions: 27
+split_mentions: 107
+review_mentions: 9
+date_range: 2012-09-26 06:22:57+00:00 to 2026-05-29 00:30:32+00:00
+platforms: {'youtube': 68, 'x': 31, 'tiktok': 21, 'facebook': 14, 'threads': 3}

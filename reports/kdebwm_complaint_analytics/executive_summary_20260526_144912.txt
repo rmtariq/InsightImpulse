@@ -1,0 +1,23 @@
+KDEBWM COMPLAINT MONITORING - EXECUTIVE SUMMARY
+================================================
+
+OVERVIEW:
+- Total Complaint Mentions: 65
+- Trend: STABLE
+- Negative Sentiment: 24.6%
+- High-Severity Complaints: 12
+
+TOP 3 COMPLAINT THEMES:
+1. General Complaint
+2. Dirty Road Or Area
+3. Public Cleansing Issue
+
+TOP 3 HOTSPOT AREAS:
+1. Klang
+2. Pj
+3. Subang Jaya
+
+MAIN RECOMMENDATIONS:
+1. Prioritize operational improvements for general complaint to address the most frequent complaint type.
+2. Deploy additional resources or operational review in Klang to address hotspot complaints.
+3. Establish dedicated social media response team for tiktok to manage reputation proactively.

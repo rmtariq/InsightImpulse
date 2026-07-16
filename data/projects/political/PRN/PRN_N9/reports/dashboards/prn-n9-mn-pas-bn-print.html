@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ms"><head><meta charset="utf-8">
+<title>PRN N9 MN — Laporan PDF</title>
+<style>
+@page { size: A4 landscape; margin: 10mm; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 9.5px; color: #1e293b; line-height: 1.35; }
+h1 { color: #003366; font-size: 22px; margin: 0 0 4px; }
+h2 { color: #1a7f5a; font-size: 13px; margin: 14px 0 6px; border-bottom: 2px solid #1a7f5a; padding-bottom: 3px; }
+h3 { color: #003366; font-size: 11px; margin: 8px 0 4px; }
+.meta { color: #64748b; margin-bottom: 10px; font-size: 10px; }
+.stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin-bottom: 12px; }
+.stat { border-left: 3px solid #003366; padding: 8px 10px; background: #f8fafc; border-radius: 4px; }
+.stat.gold { border-left-color: #c8102e; }
+.stat strong { display: block; font-size: 16px; color: #003366; }
+.stat span { font-size: 9px; color: #64748b; }
+.trust { background: #eff6ff; border: 1px solid #bfdbfe; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; font-size: 10px; }
+.pipeline { display: flex; align-items: stretch; gap: 4px; margin-bottom: 14px; flex-wrap: wrap; }
+.pipe-step { flex: 1; min-width: 90px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 8px; text-align: center; font-size: 9px; }
+.pipe-step strong { display: block; color: #003366; font-size: 10px; }
+.pipe-arrow { align-self: center; color: #1a7f5a; font-weight: bold; }
+.hybrid-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 14px; }
+.hybrid-card { border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px; background: #fff; }
+.hybrid-card h3 { margin-top: 0; }
+.hybrid-card ul { margin: 4px 0 0; padding-left: 16px; }
+.hybrid-card li { margin-bottom: 3px; }
+.catalog-block { margin-bottom: 10px; page-break-inside: avoid; }
+.catalog-block table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #cbd5e1; padding: 3px 5px; vertical-align: top; }
+th { background: #f1f5f9; font-size: 8.5px; }
+tr.pas td:first-child { border-left: 3px solid #1a7f5a; }
+tr.umno td:first-child { border-left: 3px solid #c8102e; }
+ul { margin: 0; padding-left: 14px; }
+.disclaimer { margin-top: 12px; font-size: 8.5px; color: #64748b; }
+.page-break { page-break-before: always; }
+</style></head><body>
+
+<h1>Perbincangan Muafakat PAS + BN/UMNO — PRN Negeri Sembilan 2026</h1>
+<p class="meta">
+  Dijana 2026-06-25 18:30 · PAS 13 kerusi · UMNO 23 kerusi · Majoriti 19 ·
+  DPI: Disember 2025 (SPR DPI) · Ranking: 10 Jun 2026
+</p>
+
+<div class="stats">
+  <div class="stat"><strong>169.5M</strong><span>Engagement Socmed</span></div>
+  <div class="stat"><strong>84,071</strong><span>Socmed Posts (Master)</span></div>
+  <div class="stat"><strong>36,466</strong><span>Posts · 47,605 Komen</span></div>
+  <div class="stat"><strong>124</strong><span>Artikel Media Crawled</span></div>
+  <div class="stat"><strong>60</strong><span>Artikel ML Tier A</span></div>
+  <div class="stat gold"><strong>40.0%</strong><span>Media Negatif (ML)</span></div>
+</div>
+
+<div class="stats">
+  <div class="stat"><strong>168,266+</strong><span>Jumlah Titik Data</span></div>
+  <div class="stat"><strong>36</strong><span>Kerusi DUN N9</span></div>
+  <div class="stat"><strong>29</strong><span>API Rasmi (Open Data)</span></div>
+  <div class="stat"><strong>6</strong><span>Platform Socmed</span></div>
+  <div class="stat"><strong>OPR 2.75%</strong><span>BNM · USD/MYR RM4.0695</span></div>
+  <div class="stat"><strong>Hybrid</strong><span>Structured + Unstructured + ML/DL</span></div>
+</div>
+
+<div class="trust">
+  <strong>Justifikasi berdasarkan DPI Dec 2025, DOSM MyCensus, ranking DUN 10 Jun 2026, cadangan MN, socmed master hybrid (structured + unstructured · Apify + HF ft-Malay-bert), media Tier A ML. Skor analitik = fusion demografi DPI + sentiment/emotion socmed per-DUN — bukan polling SPR.</strong>
+</div>
+
+<h2>Hybrid Model — Structured + Unstructured + ML/DL</h2>
+<div class="hybrid-grid">
+  <div class="hybrid-card">
+    <h3>📊 Structured Data</h3>
+    <ul>
+      <li>Demografi pengundi N9 DPI Dec 2025 — 36 DUN (umur, jantina, bangsa, pengundi berdaftar)</li>
+      <li>Data DUN ikut ranking · cadangan MN 10 Jun 2026</li>
+      <li>PRN 2023 baseline — penyandang, majoriti, parti (SPR)</li>
+      <li>n9_seats_analytics.json — isu utama & kategori per kerusi</li>
+      <li>BNM OpenAPI · OpenDOSM · MIDA · Bursa — 29 endpoint</li>
+    </ul>
+  </div>
+  <div class="hybrid-card">
+    <h3>📱 Unstructured Data</h3>
+    <ul>
+      <li>PAS_Break_Master — 84,071 rows · 169.5M engagement</li>
+      <li>Apify Actors: 36,466 posts + 47,605 komen</li>
+      <li>Platform: facebook, instagram, news, tiktok, x, youtube</li>
+      <li>Media BM · EN · Cina · Tamil — 124 artikel crawled</li>
+      <li>Sumber Tier A: Malay Mail · BH · Sin Chew · Oriental Daily · Harakah · FMT</li>
+    </ul>
+  </div>
+  <div class="hybrid-card">
+    <h3>🧠 ML + DL (Neural Network)</h3>
+    <ul>
+      <li>HuggingFace ft-Malay-bert — sentiment classifier (neg/pos/neu)</li>
+      <li>Emotion classifier — multi-label neural analytics</li>
+      <li>Media NLP Tier A — 60 artikel · mode ml_models</li>
+      <li>Transformer BERT-family deep learning pada teks BM/EN/CN</li>
+      <li>Fusion → Skor Analitik per kerusi → ramalan PAS vs UMNO</li>
+    </ul>
+  </div>
+</div>
+
+<div class="pipeline">
+  <div class="pipe-step"><strong>1. Crawl</strong>84,071 posts<br>Apify 6 platform</div>
+  <div class="pipe-arrow">→</div>
+  <div class="pipe-step"><strong>2. ML Sentiment</strong>HF ft-Malay-bert<br>Neural sentiment</div>
+  <div class="pipe-arrow">→</div>
+  <div class="pipe-step"><strong>3. Media DL</strong>124 artikel<br>Tier A NLP</div>
+  <div class="pipe-arrow">→</div>
+  <div class="pipe-step"><strong>4. Structured</strong>DPI 36 DUN<br>Ranking + MN</div>
+  <div class="pipe-arrow">→</div>
+  <div class="pipe-step"><strong>5. Hybrid Fusion</strong>Skor Analitik<br>Per kerusi DUN</div>
+  <div class="pipe-arrow">→</div>
+  <div class="pipe-step"><strong>6. Output</strong>PAS/PN 13 · UMNO/BN 23<br>Ramalan muafakat</div>
+</div>
+
+<h2>Senarai Data Digunakan — Katalog Penuh</h2>
+<p class="meta">Semua sumber di bawah digunakan untuk ramalan, sentiment & insight per kerusi (selaras dashboard InsightPulse).</p>
+<div class='catalog-block'><h3>🗳️ SPR / Demografi / DPI</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>Updates_Demografi pengundi N9 DPI Dec 2025.xlsx</strong></td><td>36 DUN</td><td>Umur · jantina · bangsa · pengundi berdaftar</td></tr><tr><td><strong>Updates_Data DUN ikut ranking.xlsx</strong></td><td>36 DUN</td><td>Profil pengundi · demografi · ranking DUN</td></tr><tr><td><strong>Updates_Cadangan kerusi - perbincangan MN.xlsx</strong></td><td>36 calon</td><td>Cadangan MN 10 Jun 2026 · swap kerusi</td></tr><tr><td><strong>n9_dpi_updates.json</strong></td><td>Merged</td><td>Reference JSON gabungan DPI + ranking + MN</td></tr><tr><td><strong>n9_seats_analytics.json</strong></td><td>36 kerusi</td><td>Isu utama · kategori PAS · ramalan per DUN</td></tr><tr><td><strong>dosm_census_johor_n9.json</strong></td><td>92 DUN</td><td>MyCensus 2020 — populasi · bandar/rural proxy per DUN</td></tr></tbody></table></div><div class='catalog-block'><h3>📱 Socmed Master (Apify + ML)</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>PAS_Break_Master_EXCO_Analyzed_20260625_000948.csv</strong></td><td>84,071 rows · 169.5M engagement</td><td>Crawl 6 platform · sentiment · emotion · demographic label</td></tr><tr><td><strong>socmed_by_dun_N9.json</strong></td><td>36 DUN · 1818 post N9-scoped</td><td>Fusion per-DUN · demo_mix vs DPI · lean · isu</td></tr><tr><td><strong>warroom_dun_N9_production.json</strong></td><td>36 kerusi</td><td>pasWinProb · pasMnWinProb · hybrid demo insight · SPR 2023</td></tr><tr><td><strong>Apify Actors</strong></td><td>36,466 posts · 47,605 komen</td><td>Platform: facebook, instagram, news, tiktok, x, youtube</td></tr><tr><td><strong>HuggingFace ML</strong></td><td>ft-Malay-bert</td><td>Sentimen BM · emotion classifier · demographic proxy</td></tr></tbody></table></div><div class='catalog-block'><h3>📰 Media & News (Tier A ML)</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>data/projects/political/PRN/PRN_N9/crawls/news/PRN_N9_News_20260622_234833.csv</strong></td><td>124 artikel</td><td>BM · EN · Cina · Tamil · Ekonomi · Google News + direct scrape</td></tr><tr><td><strong>data/projects/political/PRN/PRN_N9/crawls/news_analyzed/PRN_N9_News_Analyzed_TierA_20260613_142641.csv</strong></td><td>60 artikel ML</td><td>Sentimen 40.0% neg · mode ml_models</td></tr><tr><td><strong>Sumber media</strong></td><td>Tier A</td><td>Malay Mail · BH · Sin Chew · Oriental Daily · Harakah · FMT</td></tr></tbody></table></div><div class='catalog-block'><h3>📈 Makroekonomi & Open Data</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>BNM OpenAPI</strong></td><td>OPR 2.75%</td><td>Kadar OPR · USD/MYR RM4.0695 · base rate</td></tr><tr><td><strong>OpenDOSM / data.gov.my</strong></td><td>CPI · GDP · MEI</td><td>Kos sara hidup negeri · indikator ekonomi</td></tr><tr><td><strong>MIDA / Bursa registry</strong></td><td>29 endpoints</td><td>Pelaburan NS · KLCI · Malaysia Open Data catalog</td></tr><tr><td><strong>EconomicOutlook_api_endpoints_master.numbers</strong></td><td>API map</td><td>Peta endpoint ekonomi rasmi</td></tr><tr><td><strong>01_api_endpoints_master (1).csv</strong></td><td>Registry</td><td>Malaysia Open Data reference</td></tr><tr><td><strong>02_priority_status.csv</strong></td><td>Registry</td><td>Malaysia Open Data reference</td></tr><tr><td><strong>03_url_reference.csv</strong></td><td>Registry</td><td>Malaysia Open Data reference</td></tr><tr><td><strong>malaysia_opendata_api_reference (1).xlsx</strong></td><td>Registry</td><td>Malaysia Open Data reference</td></tr></tbody></table></div><div class='catalog-block'><h3>🏛️ PRN 2023 Baseline</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>PRN2023_NegeriSembilan_v2.xlsx</strong></td><td>36 DUN</td><td>Penyandang · majoriti · parti · kategori margin</td></tr><tr><td><strong>n9_scoresheet_streams_2023.json</strong></td><td>36 DUN</td><td>Bloc votes PN/BN/PH · 7-bloc senario war room</td></tr><tr><td><strong>Keputusan rasmi SPR</strong></td><td>PRN 2023</td><td>Baseline keputusan & majoriti penyandang</td></tr></tbody></table></div><div class='catalog-block'><h3>⚙️ War Room Production Bundle</h3><table><thead><tr><th>Sumber / Fail</th><th>Skala</th><th>Kegunaan</th></tr></thead><tbody><tr><td><strong>n9_production_bundle.json</strong></td><td>2026-06-25 17:55:22</td><td>Hybrid fusion · coalition · KPI master crawl</td></tr><tr><td><strong>PAS_Break_Master_EXCO_Analyzed_20260625_000948.csv</strong></td><td>84,071 post</td><td>Sumber crawl terkini · dedupe Platform+ID</td></tr></tbody></table></div>
+
+<div class="page-break"></div>
+<h2>36 Kerusi DUN — Justifikasi & Ramalan Muafakat</h2>
+<table><thead><tr>
+  <th>DUN</th><th>Nama</th><th>Peruntukan</th><th>Penyandang 2023</th><th>Ramalan Berbanding</th><th>Justifikasi</th>
+</tr></thead><tbody><tr class='pas'><td>N01</td><td>Chennah</td><td>PAS</td><td>PH · DAP</td><td>✅ PAS — Berpeluang Menang (Usaha Padat)</td><td><ul><li>Penyandang PH (DAP) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li><li>Penyandang PH (DAP) — Melayu 51.84%; muafakat PAS+BN pecah blok PH.</li></ul></td></tr><tr class='umno'><td>N02</td><td>Pertang</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Pertang — UMNO/BN pertahan kerusi menang 2023; Melayu rural, UMNO tradisi kuat.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N03</td><td>Sungai Lui</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO Contest Jangka Panjang</td><td><ul><li>Sungai Lui — UMNO/BN pertahan kerusi menang 2023; FELDA/rural, mesin BN sedia.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='pas'><td>N04</td><td>Klawang</td><td>PAS</td><td>PH · Amanah</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Majoriti sangat sempit (577) — kerusi flip dengan gerak kerja padat.</li><li>Penyandang PH (Amanah) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li><li>Penyandang PH (Amanah) — Melayu 67.85%; muafakat PAS+BN pecah blok PH.</li></ul></td></tr><tr class='pas'><td>N05</td><td>Serting</td><td>PAS</td><td>PN · PAS</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Penyandang PAS PRN 2023 — pertahanan wajib dalam agihan MN PAS/PN 13 kerusi.</li><li>Penyandang PN (PAS) — pertahanan wajib; elak 3 penjuru.</li></ul></td></tr><tr class='umno'><td>N06</td><td>Palong</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO Contest Jangka Panjang</td><td><ul><li>Palong — UMNO/BN pertahan kerusi menang 2023; FELDA Jempol, kubu BN.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N07</td><td>Jeram Padang</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Jeram Padang — UMNO/BN pertahan kerusi menang 2023; rural Jempol.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N08</td><td>Bahau</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Bahau — cadangan UMNO/BN; DAP 2023, PAS opt-out. BN profil muhibbah vs PH.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 31.63% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N09</td><td>Lenggeng</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO Contest Jangka Panjang</td><td><ul><li>Lenggeng — UMNO/BN pertahan kerusi menang 2023; semi-rural Seremban.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='pas'><td>N10</td><td>Nilai</td><td>PAS</td><td>PH · DAP</td><td>⚠ PAS — Perlu Strategi Kempen</td><td><ul><li>Penyandang PH (DAP) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li></ul></td></tr><tr class='umno'><td>N11</td><td>Lobak</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Lobak — cadangan UMNO/BN; DAP Cina dominan, PAS profil tidak sesuai.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 6.72% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N12</td><td>Temiang</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Temiang — cadangan UMNO/BN; DAP berbilang kaum, elak naratif perkauman PAS.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Bukan fokus analitik PAS — optimum dalam paket UMNO/BN 23 kerusi.</li></ul></td></tr><tr class='pas'><td>N13</td><td>Sikamat</td><td>PAS</td><td>PH · PKR</td><td>✅ PAS — Berpeluang Menang (Usaha Padat)</td><td><ul><li>Penyandang PH (PKR) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li><li>Penyandang PH (PKR) — Melayu 73.23%; muafakat PAS+BN pecah blok PH.</li></ul></td></tr><tr class='pas'><td>N14</td><td>Ampangan</td><td>PAS</td><td>PH · PKR</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Majoriti sangat sempit (329) — kerusi flip dengan gerak kerja padat.</li><li>Penyandang PH (PKR) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li><li>Penyandang PH (PKR) — Melayu 76.46%; muafakat PAS+BN pecah blok PH.</li></ul></td></tr><tr class='umno'><td>N15</td><td>Juasseh</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Juasseh — UMNO/BN pertahan kerusi menang 2023; rural Kuala Pilah.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N16</td><td>Seri Menanti</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO Contest Jangka Panjang</td><td><ul><li>Seri Menanti — UMNO/BN pertahan kerusi menang 2023; adat & istana, kubu UMNO.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N17</td><td>Senaling</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Senaling — UMNO/BN pertahan kerusi menang 2023; rural Kuala Pilah.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='pas'><td>N18</td><td>Pilah</td><td>PAS</td><td>PH · PKR</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Kategori analitik: BOLEH MENANG — majoriti sempit + profil demografi menyokong flip.</li><li>Penyandang PH (PKR) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li><li>Penyandang PH (PKR) — Melayu 66.66%; muafakat PAS+BN pecah blok PH.</li></ul></td></tr><tr class='umno'><td>N19</td><td>Johol</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Johol — UMNO/BN pertahan kerusi menang 2023; rural, UMNO mapan.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='pas'><td>N20</td><td>Labu</td><td>PAS</td><td>PN · Bersatu</td><td>✅ PAS — Berpeluang Menang (Usaha Padat)</td><td><ul><li>Kategori SUKAR — perlukan muafakat undi BN/PN; layak dalam 13 PAS/PN jika 1-vs-1 vs PH.</li><li>Penyandang PN (Bersatu) — muafakat satukan calon PAS; elak split PN.</li><li>Penyandang Bersatu — risiko 3 penjuru; MN mesti satukan calon.</li></ul></td></tr><tr class='umno'><td>N21</td><td>Bukit Kepayang</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Bukit Kepayang — cadangan UMNO/BN; DAP Seremban, majoriti PH besar.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 29.76% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N22</td><td>Rahang</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Rahang — cadangan UMNO/BN; DAP bandar, profil muhibbah UMNO lebih sesuai.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 33.03% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N23</td><td>Mambau</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Mambau — cadangan UMNO/BN; DAP, Cina tertinggi NS, PAS opt-out.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 15.11% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N24</td><td>Seremban Jaya</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Seremban Jaya — cadangan UMNO/BN; DAP PH bloc, calon BN profesional bandar.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 26.69% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='pas'><td>N25</td><td>Paroi</td><td>PAS</td><td>PN · PAS</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Penyandang PAS PRN 2023 — pertahanan wajib dalam agihan MN PAS/PN 13 kerusi.</li><li>Penyandang PN (PAS) — pertahanan wajib; elak 3 penjuru.</li></ul></td></tr><tr class='umno'><td>N26</td><td>Chembong</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Chembong — UMNO/BN pertahan; Rembau tradisi BN, Melayu ~84%.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N27</td><td>Rantau</td><td>UMNO/BN</td><td>BN · UMNO</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Rantau — UMNO/BN pertahan; legacy Mohamad Hasan, kubu kuat.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li><li>Majoriti PH 10,280 — sumber kempen terhad; BN contest strategik jangka panjang.</li></ul></td></tr><tr class='umno'><td>N28</td><td>Kota</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Kota — UMNO/BN pertahan kerusi menang 2023; semi-bandar Rembau.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='umno'><td>N29</td><td>Chuah</td><td>UMNO/BN</td><td>PH · PKR</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Chuah — cadangan UMNO/BN; PKR pantai PD, mixed, BN calon muhibbah.</li><li>Penyandang PH (PKR) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 25.3% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='umno'><td>N30</td><td>Lukut</td><td>UMNO/BN</td><td>PH · DAP</td><td>✅ UMNO/BN Boleh Berpeluang Menang</td><td><ul><li>Lukut — cadangan UMNO/BN; DAP, Cina ~74%, PAS opt-out.</li><li>Penyandang PH (DAP) — BN/UMNO contest muhibbah vs PH jangka panjang.</li><li>Melayu 26.03% — kerusi bandar berbilang kaum; BN/UMNO lebih sesuai contest PH.</li></ul></td></tr><tr class='pas'><td>N31</td><td>Bagan Pinang</td><td>PAS</td><td>PN · PAS</td><td>✅ PAS — Boleh Berpeluang Menang</td><td><ul><li>Penyandang PAS PRN 2023 — pertahanan wajib dalam agihan MN PAS/PN 13 kerusi.</li><li>Penyandang PN (PAS) — pertahanan wajib; elak 3 penjuru.</li></ul></td></tr><tr class='umno'><td>N32</td><td>Linggi</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Linggi — UMNO/BN pertahan; sempadan Johor, UMNO mapan.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li><li>Cadangan MN: calon komponen BN/DHPP — selaras agihan UMNO/BN 23 kerusi.</li></ul></td></tr><tr class='pas'><td>N33</td><td>Sri Tanjung</td><td>PAS</td><td>PH · PKR</td><td>⚠ PAS — Perlu Strategi Kempen</td><td><ul><li>Penyandang PH (PKR) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li></ul></td></tr><tr class='pas'><td>N34</td><td>Gemas</td><td>PAS</td><td>PN · Bersatu</td><td>✅ PAS — Berpeluang Menang (Usaha Padat)</td><td><ul><li>Kategori SUKAR — perlukan muafakat undi BN/PN; layak dalam 13 PAS/PN jika 1-vs-1 vs PH.</li><li>Penyandang PN (Bersatu) — muafakat satukan calon PAS; elak split PN.</li><li>Penyandang Bersatu — risiko 3 penjuru; MN mesti satukan calon.</li></ul></td></tr><tr class='umno'><td>N35</td><td>Gemencheh</td><td>UMNO/BN</td><td>BN · UMNO</td><td>⚠ UMNO/BN Berpeluang (Contest Strategik)</td><td><ul><li>Gemencheh — UMNO/BN pertahan kerusi menang 2023; FELDA Tampin.</li><li>Penyandang BN (UMNO) — pertahanan kerusi sendiri; elak pecah undi dengan PAS.</li></ul></td></tr><tr class='pas'><td>N36</td><td>Repah</td><td>PAS</td><td>PH · DAP</td><td>⚠ PAS — Perlu Strategi Kempen</td><td><ul><li>Penyandang PH (DAP) — muafakat PAS+BN pecah blok PH; 1-vs-1 realistik.</li></ul></td></tr></tbody></table>
+
+<p class="disclaimer">Justifikasi berdasarkan DPI Dec 2025, DOSM MyCensus, ranking DUN 10 Jun 2026, cadangan MN, socmed master hybrid (structured + unstructured · Apify + HF ft-Malay-bert), media Tier A ML. Skor analitik = fusion demografi DPI + sentiment/emotion socmed per-DUN — bukan polling SPR.</p>
+</body></html>

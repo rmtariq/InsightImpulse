@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "title": "PAS Break 2026 — Platform Breakdown (FULL Master)",
+    "source_file": "PAS_Break_Master_EXCO_Analyzed_20260611_231347.csv",
+    "generated": "2026-06-12 00:00",
+    "total_rows": 68256,
+    "total_posts": 30910,
+    "total_comments": 37346,
+    "platforms": [
+      "tiktok",
+      "x",
+      "instagram",
+      "facebook",
+      "news",
+      "youtube"
+    ],
+    "purpose": "Dashboard source — FULL 68,256 rows, 6 platforms"
+  },
+  "summary_table": [
+    {
+      "platform": "tiktok",
+      "rows": 31347,
+      "pct_of_total": 45.9,
+      "posts": 526,
+      "comments": 30821,
+      "total_engagement": 4857400,
+      "avg_engagement": 155.0,
+      "sentiment_all": {
+        "neutral": 14702,
+        "positive": 8943,
+        "negative": 7695
+      },
+      "sentiment_posts": {
+        "negative": 182,
+        "neutral": 177,
+        "positive": 160
+      },
+      "emotion_top": {
+        "love": "17571",
+        "no_clear_emotion": "6538",
+        "happy": "3376",
+        "surprise": "1914",
+        "fear": "1061",
+        "anger": "469"
+      },
+      "mentions_pas": 4298,
+      "mentions_bersatu": 2840,
+      "narrative_split": 1193,
+      "crawl_sources": {
+        "tiktok_master": 22943,
+        "social_multiplatform_011720": 7026,
+        "tiktok_batch_163843": 921,
+        "tiktok_batch_155933": 204,
+        "tiktok_batch_094141": 150,
+        "social_crawl1_213913": 96
+      },
+      "sentiment_coverage_pct": 100.0
+    },
+    {
+      "platform": "x",
+      "rows": 28783,
+      "pct_of_total": 42.2,
+      "posts": 28231,
+      "comments": 552,
+      "total_engagement": 46331649,
+      "avg_engagement": 1609.7,
+      "sentiment_all": {
+        "neutral": 261,
+        "negative": 156,
+        "positive": 143
+      },
+      "sentiment_posts": {
+        "neutral": 227,
+        "positive": 136,
+        "negative": 125
+      },
+      "emotion_top": {
+        "no_clear_emotion": "230",
+        "love": "142",
+        "happy": "98",
+        "anger": "46",
+        "fear": "25",
+        "sadness": "10"
+      },
+      "mentions_pas": 996,
+      "mentions_bersatu": 827,
+      "narrative_split": 1028,
+      "crawl_sources": {
+        "x_181431": 14239,
+        "x_direct_174809": 14004,
+        "social_crawl1_213913": 279,
+        "x_direct_181431": 240,
+        "social_multiplatform_011720": 15
+      },
+      "sentiment_coverage_pct": 1.9
+    },
+    {
+      "platform": "instagram",
+      "rows": 5403,
+      "pct_of_total": 7.9,
+      "posts": 761,
+      "comments": 4642,
+      "total_engagement": 5364136,
+      "avg_engagement": 992.8,
+      "sentiment_all": {
+        "positive": 516,
+        "neutral": 453,
+        "negative": 304
+      },
+      "sentiment_posts": {
+        "positive": 122,
+        "neutral": 94,
+        "negative": 64
+      },
+      "emotion_top": {
+        "love": "575",
+        "no_clear_emotion": "264",
+        "happy": "218",
+        "anger": "85",
+        "sadness": "44",
+        "fear": "39"
+      },
+      "mentions_pas": 237,
+      "mentions_bersatu": 246,
+      "narrative_split": 157,
+      "crawl_sources": {
+        "ig_k2_raw_201420": 2546,
+        "ig_direct_zahid_184138": 1171,
+        "ig_184138": 1158,
+        "ig_k2_keyword_201420": 470,
+        "social_crawl1_213913": 53
+      },
+      "sentiment_coverage_pct": 23.6
+    },
+    {
+      "platform": "facebook",
+      "rows": 1941,
+      "pct_of_total": 2.8,
+      "posts": 672,
+      "comments": 1269,
+      "total_engagement": 231365,
+      "avg_engagement": 119.2,
+      "sentiment_all": {
+        "negative": 412,
+        "neutral": 296,
+        "positive": 146
+      },
+      "sentiment_posts": {
+        "negative": 132,
+        "neutral": 37,
+        "positive": 35
+      },
+      "emotion_top": {
+        "love": "271",
+        "no_clear_emotion": "201",
+        "happy": "92",
+        "anger": "87",
+        "neutral": "59",
+        "sadness": "53"
+      },
+      "mentions_pas": 553,
+      "mentions_bersatu": 523,
+      "narrative_split": 311,
+      "crawl_sources": {
+        "fb_k1_keyword_191641": 1496,
+        "social_multiplatform_011720": 133,
+        "fb_part6_170351": 104,
+        "social_crawl1_213913": 97,
+        "fb_part5_183037": 71,
+        "fb_ns_182435": 21,
+        "fb_direct_samsuri_165022": 12,
+        "fb_direct_aminuddin_182435": 2
+      },
+      "sentiment_coverage_pct": 44.0
+    },
+    {
+      "platform": "news",
+      "rows": 684,
+      "pct_of_total": 1.0,
+      "posts": 684,
+      "comments": 0,
+      "total_engagement": 0,
+      "avg_engagement": 0.0,
+      "sentiment_all": {
+        "neutral": 491,
+        "negative": 155,
+        "positive": 38
+      },
+      "sentiment_posts": {
+        "neutral": 491,
+        "negative": 155,
+        "positive": 38
+      },
+      "emotion_top": {
+        "no_clear_emotion": "345",
+        "happy": "109",
+        "love": "103",
+        "anger": "60",
+        "sadness": "31",
+        "fear": "25"
+      },
+      "mentions_pas": 316,
+      "mentions_bersatu": 341,
+      "narrative_split": 84,
+      "crawl_sources": {
+        "news_k4_keyword_221802": 430,
+        "news_crawl1_230655": 248,
+        "news_k4_224340": 6
+      },
+      "sentiment_coverage_pct": 100.0
+    },
+    {
+      "platform": "youtube",
+      "rows": 98,
+      "pct_of_total": 0.1,
+      "posts": 36,
+      "comments": 62,
+      "total_engagement": 27344,
+      "avg_engagement": 279.0,
+      "sentiment_all": {
+        "neutral": 46,
+        "negative": 37,
+        "positive": 15
+      },
+      "sentiment_posts": {
+        "neutral": 17,
+        "negative": 13,
+        "positive": 6
+      },
+      "emotion_top": {
+        "no_clear_emotion": "41",
+        "love": "31",
+        "anger": "8",
+        "fear": "6",
+        "surprise": "4",
+        "happy": "4"
+      },
+      "mentions_pas": 28,
+      "mentions_bersatu": 26,
+      "narrative_split": 7,
+      "crawl_sources": {
+        "social_crawl1_213913": 98
+      },
+      "sentiment_coverage_pct": 100.0
+    }
+  ],
+  "platforms": {
+    "tiktok": {
+      "platform": "tiktok",
+      "rows": 31347,
+      "pct_of_total": 45.9,
+      "posts": 526,
+      "comments": 30821,
+      "total_engagement": 4857400,
+      "avg_engagement": 155.0,
+      "sentiment_all": {
+        "neutral": 14702,
+        "positive": 8943,
+        "negative": 7695
+      },
+      "sentiment_posts": {
+        "negative": 182,
+        "neutral": 177,
+        "positive": 160
+      },
+      "emotion_top": {
+        "love": "17571",
+        "no_clear_emotion": "6538",
+        "happy": "3376",
+        "surprise": "1914",
+        "fear": "1061",
+        "anger": "469"
+      },
+      "mentions_pas": 4298,
+      "mentions_bersatu": 2840,
+      "narrative_split": 1193,
+      "crawl_sources": {
+        "tiktok_master": 22943,
+        "social_multiplatform_011720": 7026,
+        "tiktok_batch_163843": 921,
+        "tiktok_batch_155933": 204,
+        "tiktok_batch_094141": 150,
+        "social_crawl1_213913": 96
+      },
+      "sentiment_coverage_pct": 100.0
+    },
+    "x": {
+      "platform": "x",
+      "rows": 28783,
+      "pct_of_total": 42.2,
+      "posts": 28231,
+      "comments": 552,
+      "total_engagement": 46331649,
+      "avg_engagement": 1609.7,
+      "sentiment_all": {
+        "neutral": 261,
+        "negative": 156,
+        "positive": 143
+      },
+      "sentiment_posts": {
+        "neutral": 227,
+        "positive": 136,
+        "negative": 125
+      },
+      "emotion_top": {
+        "no_clear_emotion": "230",
+        "love": "142",
+        "happy": "98",
+        "anger": "46",
+        "fear": "25",
+        "sadness": "10"
+      },
+      "mentions_pas": 996,
+      "mentions_bersatu": 827,
+      "narrative_split": 1028,
+      "crawl_sources": {
+        "x_181431": 14239,
+        "x_direct_174809": 14004,
+        "social_crawl1_213913": 279,
+        "x_direct_181431": 240,
+        "social_multiplatform_011720": 15
+      },
+      "sentiment_coverage_pct": 1.9
+    },
+    "instagram": {
+      "platform": "instagram",
+      "rows": 5403,
+      "pct_of_total": 7.9,
+      "posts": 761,
+      "comments": 4642,
+      "total_engagement": 5364136,
+      "avg_engagement": 992.8,
+      "sentiment_all": {
+        "positive": 516,
+        "neutral": 453,
+        "negative": 304
+      },
+      "sentiment_posts": {
+        "positive": 122,
+        "neutral": 94,
+        "negative": 64
+      },
+      "emotion_top": {
+        "love": "575",
+        "no_clear_emotion": "264",
+        "happy": "218",
+        "anger": "85",
+        "sadness": "44",
+        "fear": "39"
+      },
+      "mentions_pas": 237,
+      "mentions_bersatu": 246,
+      "narrative_split": 157,
+      "crawl_sources": {
+        "ig_k2_raw_201420": 2546,
+        "ig_direct_zahid_184138": 1171,
+        "ig_184138": 1158,
+        "ig_k2_keyword_201420": 470,
+        "social_crawl1_213913": 53
+      },
+      "sentiment_coverage_pct": 23.6
+    },
+    "facebook": {
+      "platform": "facebook",
+      "rows": 1941,
+      "pct_of_total": 2.8,
+      "posts": 672,
+      "comments": 1269,
+      "total_engagement": 231365,
+      "avg_engagement": 119.2,
+      "sentiment_all": {
+        "negative": 412,
+        "neutral": 296,
+        "positive": 146
+      },
+      "sentiment_posts": {
+        "negative": 132,
+        "neutral": 37,
+        "positive": 35
+      },
+      "emotion_top": {
+        "love": "271",
+        "no_clear_emotion": "201",
+        "happy": "92",
+        "anger": "87",
+        "neutral": "59",
+        "sadness": "53"
+      },
+      "mentions_pas": 553,
+      "mentions_bersatu": 523,
+      "narrative_split": 311,
+      "crawl_sources": {
+        "fb_k1_keyword_191641": 1496,
+        "social_multiplatform_011720": 133,
+        "fb_part6_170351": 104,
+        "social_crawl1_213913": 97,
+        "fb_part5_183037": 71,
+        "fb_ns_182435": 21,
+        "fb_direct_samsuri_165022": 12,
+        "fb_direct_aminuddin_182435": 2
+      },
+      "sentiment_coverage_pct": 44.0
+    },
+    "news": {
+      "platform": "news",
+      "rows": 684,
+      "pct_of_total": 1.0,
+      "posts": 684,
+      "comments": 0,
+      "total_engagement": 0,
+      "avg_engagement": 0.0,
+      "sentiment_all": {
+        "neutral": 491,
+        "negative": 155,
+        "positive": 38
+      },
+      "sentiment_posts": {
+        "neutral": 491,
+        "negative": 155,
+        "positive": 38
+      },
+      "emotion_top": {
+        "no_clear_emotion": "345",
+        "happy": "109",
+        "love": "103",
+        "anger": "60",
+        "sadness": "31",
+        "fear": "25"
+      },
+      "mentions_pas": 316,
+      "mentions_bersatu": 341,
+      "narrative_split": 84,
+      "crawl_sources": {
+        "news_k4_keyword_221802": 430,
+        "news_crawl1_230655": 248,
+        "news_k4_224340": 6
+      },
+      "sentiment_coverage_pct": 100.0
+    },
+    "youtube": {
+      "platform": "youtube",
+      "rows": 98,
+      "pct_of_total": 0.1,
+      "posts": 36,
+      "comments": 62,
+      "total_engagement": 27344,
+      "avg_engagement": 279.0,
+      "sentiment_all": {
+        "neutral": 46,
+        "negative": 37,
+        "positive": 15
+      },
+      "sentiment_posts": {
+        "neutral": 17,
+        "negative": 13,
+        "positive": 6
+      },
+      "emotion_top": {
+        "no_clear_emotion": "41",
+        "love": "31",
+        "anger": "8",
+        "fear": "6",
+        "surprise": "4",
+        "happy": "4"
+      },
+      "mentions_pas": 28,
+      "mentions_bersatu": 26,
+      "narrative_split": 7,
+      "crawl_sources": {
+        "social_crawl1_213913": 98
+      },
+      "sentiment_coverage_pct": 100.0
+    }
+  }
+}

@@ -1,0 +1,461 @@
+﻿date,state,parlimen,parliament_code,parliament_name,dun,dun_code,dun_name,sex,age,ethnicity,population
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.01 Chennah,N.01,Chennah,both,overall,overall,16.361
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.01 Chennah,N.01,Chennah,both,overall,citizen,15.269
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.01 Chennah,N.01,Chennah,both,overall,noncitizen,1.092
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.01 Chennah,N.01,Chennah,female,overall,overall,7.141
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.01 Chennah,N.01,Chennah,male,overall,overall,9.22
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.02 Pertang,N.02,Pertang,both,overall,overall,11.054
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.02 Pertang,N.02,Pertang,both,overall,citizen,10.421
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.02 Pertang,N.02,Pertang,both,overall,noncitizen,0.633
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.02 Pertang,N.02,Pertang,female,overall,overall,5.029
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.02 Pertang,N.02,Pertang,male,overall,overall,6.025
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.03 Sungai Lui,N.03,Sungai Lui,both,overall,overall,18.147
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.03 Sungai Lui,N.03,Sungai Lui,both,overall,citizen,17.596
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.03 Sungai Lui,N.03,Sungai Lui,both,overall,noncitizen,0.551
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.03 Sungai Lui,N.03,Sungai Lui,female,overall,overall,8.781
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.03 Sungai Lui,N.03,Sungai Lui,male,overall,overall,9.366
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.04 Klawang,N.04,Klawang,both,overall,overall,18.638
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.04 Klawang,N.04,Klawang,both,overall,citizen,17.461
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.04 Klawang,N.04,Klawang,both,overall,noncitizen,1.177
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.04 Klawang,N.04,Klawang,female,overall,overall,8.853
+2020-01-01,Negeri Sembilan,P.126 Jelebu,P.126,Jelebu,N.04 Klawang,N.04,Klawang,male,overall,overall,9.785
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.05 Serting,N.05,Serting,both,overall,overall,28.943
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.05 Serting,N.05,Serting,both,overall,citizen,27.862
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.05 Serting,N.05,Serting,both,overall,noncitizen,1.081
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.05 Serting,N.05,Serting,female,overall,overall,13.831
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.05 Serting,N.05,Serting,male,overall,overall,15.112
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.06 Palong,N.06,Palong,both,overall,overall,22.726
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.06 Palong,N.06,Palong,both,overall,citizen,21.881
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.06 Palong,N.06,Palong,both,overall,noncitizen,0.845
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.06 Palong,N.06,Palong,female,overall,overall,10.873
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.06 Palong,N.06,Palong,male,overall,overall,11.853
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.07 Jeram Padang,N.07,Jeram Padang,both,overall,overall,24.692
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.07 Jeram Padang,N.07,Jeram Padang,both,overall,citizen,22.152
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.07 Jeram Padang,N.07,Jeram Padang,both,overall,noncitizen,2.54
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.07 Jeram Padang,N.07,Jeram Padang,female,overall,overall,11.572
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.07 Jeram Padang,N.07,Jeram Padang,male,overall,overall,13.12
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.08 Bahau,N.08,Bahau,both,overall,overall,32.018
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.08 Bahau,N.08,Bahau,both,overall,citizen,31.683
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.08 Bahau,N.08,Bahau,both,overall,noncitizen,0.335
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.08 Bahau,N.08,Bahau,female,overall,overall,16.006
+2020-01-01,Negeri Sembilan,P.127 Jempol,P.127,Jempol,N.08 Bahau,N.08,Bahau,male,overall,overall,16.012
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.09 Lenggeng,N.09,Lenggeng,both,overall,overall,38.049
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.09 Lenggeng,N.09,Lenggeng,both,overall,citizen,35.61
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.09 Lenggeng,N.09,Lenggeng,both,overall,noncitizen,2.439
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.09 Lenggeng,N.09,Lenggeng,female,overall,overall,18.264
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.09 Lenggeng,N.09,Lenggeng,male,overall,overall,19.785
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.10 Nilai,N.10,Nilai,both,overall,overall,119.613
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.10 Nilai,N.10,Nilai,both,overall,citizen,106.034
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.10 Nilai,N.10,Nilai,both,overall,noncitizen,13.579
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.10 Nilai,N.10,Nilai,female,overall,overall,56.98
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.10 Nilai,N.10,Nilai,male,overall,overall,62.633
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.11 Lobak,N.11,Lobak,both,overall,overall,27.241
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.11 Lobak,N.11,Lobak,both,overall,citizen,25.747
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.11 Lobak,N.11,Lobak,both,overall,noncitizen,1.494
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.11 Lobak,N.11,Lobak,female,overall,overall,13.513
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.11 Lobak,N.11,Lobak,male,overall,overall,13.728
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.12 Temiang,N.12,Temiang,both,overall,overall,17.558
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.12 Temiang,N.12,Temiang,both,overall,citizen,16.161
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.12 Temiang,N.12,Temiang,both,overall,noncitizen,1.397
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.12 Temiang,N.12,Temiang,female,overall,overall,8.211
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.12 Temiang,N.12,Temiang,male,overall,overall,9.347
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.13 Sikamat,N.13,Sikamat,both,overall,overall,44.956
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.13 Sikamat,N.13,Sikamat,both,overall,citizen,42.893
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.13 Sikamat,N.13,Sikamat,both,overall,noncitizen,2.063
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.13 Sikamat,N.13,Sikamat,female,overall,overall,22.369
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.13 Sikamat,N.13,Sikamat,male,overall,overall,22.587
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.14 Ampangan,N.14,Ampangan,both,overall,overall,25.103
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.14 Ampangan,N.14,Ampangan,both,overall,citizen,23.01
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.14 Ampangan,N.14,Ampangan,both,overall,noncitizen,2.093
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.14 Ampangan,N.14,Ampangan,female,overall,overall,12.674
+2020-01-01,Negeri Sembilan,P.128 Seremban,P.128,Seremban,N.14 Ampangan,N.14,Ampangan,male,overall,overall,12.429
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.15 Juasseh,N.15,Juasseh,both,overall,overall,19.717
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.15 Juasseh,N.15,Juasseh,both,overall,citizen,19.159
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.15 Juasseh,N.15,Juasseh,both,overall,noncitizen,0.558
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.15 Juasseh,N.15,Juasseh,female,overall,overall,10.059
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.15 Juasseh,N.15,Juasseh,male,overall,overall,9.658
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.16 Seri Menanti,N.16,Seri Menanti,both,overall,overall,8.662
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.16 Seri Menanti,N.16,Seri Menanti,both,overall,citizen,8.63
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.16 Seri Menanti,N.16,Seri Menanti,both,overall,noncitizen,0.032
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.16 Seri Menanti,N.16,Seri Menanti,female,overall,overall,4.186
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.16 Seri Menanti,N.16,Seri Menanti,male,overall,overall,4.476
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.17 Senaling,N.17,Senaling,both,overall,overall,8.024
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.17 Senaling,N.17,Senaling,both,overall,citizen,7.635
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.17 Senaling,N.17,Senaling,both,overall,noncitizen,0.389
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.17 Senaling,N.17,Senaling,female,overall,overall,3.803
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.17 Senaling,N.17,Senaling,male,overall,overall,4.221
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.18 Pilah,N.18,Pilah,both,overall,overall,22.181
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.18 Pilah,N.18,Pilah,both,overall,citizen,22.072
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.18 Pilah,N.18,Pilah,both,overall,noncitizen,0.109
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.18 Pilah,N.18,Pilah,female,overall,overall,10.803
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.18 Pilah,N.18,Pilah,male,overall,overall,11.378
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.19 Johol,N.19,Johol,both,overall,overall,12.42
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.19 Johol,N.19,Johol,both,overall,citizen,11.714
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.19 Johol,N.19,Johol,both,overall,noncitizen,0.706
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.19 Johol,N.19,Johol,female,overall,overall,5.796
+2020-01-01,Negeri Sembilan,P.129 Kuala Pilah,P.129,Kuala Pilah,N.19 Johol,N.19,Johol,male,overall,overall,6.624
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.20 Labu,N.20,Labu,both,overall,overall,59.395
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.20 Labu,N.20,Labu,both,overall,citizen,55.747
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.20 Labu,N.20,Labu,both,overall,noncitizen,3.648
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.20 Labu,N.20,Labu,female,overall,overall,28.406
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.20 Labu,N.20,Labu,male,overall,overall,30.989
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.21 Bukit Kepayang,N.21,Bukit Kepayang,both,overall,overall,87.025
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.21 Bukit Kepayang,N.21,Bukit Kepayang,both,overall,citizen,82.202
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.21 Bukit Kepayang,N.21,Bukit Kepayang,both,overall,noncitizen,4.823
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.21 Bukit Kepayang,N.21,Bukit Kepayang,female,overall,overall,42.09
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.21 Bukit Kepayang,N.21,Bukit Kepayang,male,overall,overall,44.935
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.22 Rahang,N.22,Rahang,both,overall,overall,14.674
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.22 Rahang,N.22,Rahang,both,overall,citizen,14.433
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.22 Rahang,N.22,Rahang,both,overall,noncitizen,0.241
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.22 Rahang,N.22,Rahang,female,overall,overall,7.249
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.22 Rahang,N.22,Rahang,male,overall,overall,7.425
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.23 Mambau,N.23,Mambau,both,overall,overall,45.035
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.23 Mambau,N.23,Mambau,both,overall,citizen,43.686
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.23 Mambau,N.23,Mambau,both,overall,noncitizen,1.349
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.23 Mambau,N.23,Mambau,female,overall,overall,23.103
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.23 Mambau,N.23,Mambau,male,overall,overall,21.932
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.24 Seremban Jaya,N.24,Seremban Jaya,both,overall,overall,50.456
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.24 Seremban Jaya,N.24,Seremban Jaya,both,overall,citizen,47.549
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.24 Seremban Jaya,N.24,Seremban Jaya,both,overall,noncitizen,2.907
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.24 Seremban Jaya,N.24,Seremban Jaya,female,overall,overall,24.202
+2020-01-01,Negeri Sembilan,P.130 Rasah,P.130,Rasah,N.24 Seremban Jaya,N.24,Seremban Jaya,male,overall,overall,26.254
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.25 Paroi,N.25,Paroi,both,overall,overall,109.135
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.25 Paroi,N.25,Paroi,both,overall,citizen,101.031
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.25 Paroi,N.25,Paroi,both,overall,noncitizen,8.104
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.25 Paroi,N.25,Paroi,female,overall,overall,51.103
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.25 Paroi,N.25,Paroi,male,overall,overall,58.032
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.26 Chembong,N.26,Chembong,both,overall,overall,33.297
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.26 Chembong,N.26,Chembong,both,overall,citizen,32.191
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.26 Chembong,N.26,Chembong,both,overall,noncitizen,1.106
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.26 Chembong,N.26,Chembong,female,overall,overall,16.594
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.26 Chembong,N.26,Chembong,male,overall,overall,16.703
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.27 Rantau,N.27,Rantau,both,overall,overall,53.778
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.27 Rantau,N.27,Rantau,both,overall,citizen,52.93
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.27 Rantau,N.27,Rantau,both,overall,noncitizen,0.848
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.27 Rantau,N.27,Rantau,female,overall,overall,25.914
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.27 Rantau,N.27,Rantau,male,overall,overall,27.864
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.28 Kota,N.28,Kota,both,overall,overall,13.999
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.28 Kota,N.28,Kota,both,overall,citizen,13.337
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.28 Kota,N.28,Kota,both,overall,noncitizen,0.662
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.28 Kota,N.28,Kota,female,overall,overall,6.728
+2020-01-01,Negeri Sembilan,P.131 Rembau,P.131,Rembau,N.28 Kota,N.28,Kota,male,overall,overall,7.271
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.29 Chuah,N.29,Chuah,both,overall,overall,14.569
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.29 Chuah,N.29,Chuah,both,overall,citizen,13.866
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.29 Chuah,N.29,Chuah,both,overall,noncitizen,0.703
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.29 Chuah,N.29,Chuah,female,overall,overall,7.161
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.29 Chuah,N.29,Chuah,male,overall,overall,7.408
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.30 Lukut,N.30,Lukut,both,overall,overall,37.369
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.30 Lukut,N.30,Lukut,both,overall,citizen,36.236
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.30 Lukut,N.30,Lukut,both,overall,noncitizen,1.133
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.30 Lukut,N.30,Lukut,female,overall,overall,18.678
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.30 Lukut,N.30,Lukut,male,overall,overall,18.691
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.31 Bagan Pinang,N.31,Bagan Pinang,both,overall,overall,34.893
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.31 Bagan Pinang,N.31,Bagan Pinang,both,overall,citizen,33.25
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.31 Bagan Pinang,N.31,Bagan Pinang,both,overall,noncitizen,1.643
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.31 Bagan Pinang,N.31,Bagan Pinang,female,overall,overall,15.157
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.31 Bagan Pinang,N.31,Bagan Pinang,male,overall,overall,19.736
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.32 Linggi,N.32,Linggi,both,overall,overall,22.466
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.32 Linggi,N.32,Linggi,both,overall,citizen,20.662
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.32 Linggi,N.32,Linggi,both,overall,noncitizen,1.804
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.32 Linggi,N.32,Linggi,female,overall,overall,10.405
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.32 Linggi,N.32,Linggi,male,overall,overall,12.061
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.33 Sri Tanjung,N.33,Sri Tanjung,both,overall,overall,19.657
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.33 Sri Tanjung,N.33,Sri Tanjung,both,overall,citizen,18.83
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.33 Sri Tanjung,N.33,Sri Tanjung,both,overall,noncitizen,0.827
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.33 Sri Tanjung,N.33,Sri Tanjung,female,overall,overall,9.144
+2020-01-01,Negeri Sembilan,P.132 Port Dickson,P.132,Port Dickson,N.33 Sri Tanjung,N.33,Sri Tanjung,male,overall,overall,10.513
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.34 Gemas,N.34,Gemas,both,overall,overall,28.835
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.34 Gemas,N.34,Gemas,both,overall,citizen,27.058
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.34 Gemas,N.34,Gemas,both,overall,noncitizen,1.777
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.34 Gemas,N.34,Gemas,female,overall,overall,12.639
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.34 Gemas,N.34,Gemas,male,overall,overall,16.196
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.35 Gemencheh,N.35,Gemencheh,both,overall,overall,27.304
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.35 Gemencheh,N.35,Gemencheh,both,overall,citizen,24.675
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.35 Gemencheh,N.35,Gemencheh,both,overall,noncitizen,2.629
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.35 Gemencheh,N.35,Gemencheh,female,overall,overall,12.572
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.35 Gemencheh,N.35,Gemencheh,male,overall,overall,14.732
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.36 Repah,N.36,Repah,both,overall,overall,31.984
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.36 Repah,N.36,Repah,both,overall,citizen,31.556
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.36 Repah,N.36,Repah,both,overall,noncitizen,0.428
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.36 Repah,N.36,Repah,female,overall,overall,16.111
+2020-01-01,Negeri Sembilan,P.133 Tampin,P.133,Tampin,N.36 Repah,N.36,Repah,male,overall,overall,15.873
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.01 Buloh Kasap,N.01,Buloh Kasap,both,overall,overall,31.956
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.01 Buloh Kasap,N.01,Buloh Kasap,both,overall,citizen,28.735
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.01 Buloh Kasap,N.01,Buloh Kasap,both,overall,noncitizen,3.221
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.01 Buloh Kasap,N.01,Buloh Kasap,female,overall,overall,14.212
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.01 Buloh Kasap,N.01,Buloh Kasap,male,overall,overall,17.744
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.02 Jementah,N.02,Jementah,both,overall,overall,44.055
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.02 Jementah,N.02,Jementah,both,overall,citizen,42.49
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.02 Jementah,N.02,Jementah,both,overall,noncitizen,1.565
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.02 Jementah,N.02,Jementah,female,overall,overall,22.395
+2020-01-01,Johor,P.140 Segamat,P.140,Segamat,N.02 Jementah,N.02,Jementah,male,overall,overall,21.66
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.03 Pemanis,N.03,Pemanis,both,overall,overall,32.708
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.03 Pemanis,N.03,Pemanis,both,overall,citizen,30.991
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.03 Pemanis,N.03,Pemanis,both,overall,noncitizen,1.717
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.03 Pemanis,N.03,Pemanis,female,overall,overall,15.947
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.03 Pemanis,N.03,Pemanis,male,overall,overall,16.761
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.04 Kemelah,N.04,Kemelah,both,overall,overall,46.639
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.04 Kemelah,N.04,Kemelah,both,overall,citizen,44.903
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.04 Kemelah,N.04,Kemelah,both,overall,noncitizen,1.736
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.04 Kemelah,N.04,Kemelah,female,overall,overall,22.301
+2020-01-01,Johor,P.141 Sekijang,P.141,Sekijang,N.04 Kemelah,N.04,Kemelah,male,overall,overall,24.338
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.05 Tenang,N.05,Tenang,both,overall,overall,20.476
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.05 Tenang,N.05,Tenang,both,overall,citizen,19.315
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.05 Tenang,N.05,Tenang,both,overall,noncitizen,1.161
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.05 Tenang,N.05,Tenang,female,overall,overall,9.684
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.05 Tenang,N.05,Tenang,male,overall,overall,10.792
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.06 Bekok,N.06,Bekok,both,overall,overall,21.928
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.06 Bekok,N.06,Bekok,both,overall,citizen,19.687
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.06 Bekok,N.06,Bekok,both,overall,noncitizen,2.241
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.06 Bekok,N.06,Bekok,female,overall,overall,10.023
+2020-01-01,Johor,P.142 Labis,P.142,Labis,N.06 Bekok,N.06,Bekok,male,overall,overall,11.905
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.07 Bukit Kepong,N.07,Bukit Kepong,both,overall,overall,34.67
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.07 Bukit Kepong,N.07,Bukit Kepong,both,overall,citizen,32.101
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.07 Bukit Kepong,N.07,Bukit Kepong,both,overall,noncitizen,2.569
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.07 Bukit Kepong,N.07,Bukit Kepong,female,overall,overall,15.904
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.07 Bukit Kepong,N.07,Bukit Kepong,male,overall,overall,18.766
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.08 Bukit Pasir,N.08,Bukit Pasir,both,overall,overall,60.532
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.08 Bukit Pasir,N.08,Bukit Pasir,both,overall,citizen,51.556
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.08 Bukit Pasir,N.08,Bukit Pasir,both,overall,noncitizen,8.976
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.08 Bukit Pasir,N.08,Bukit Pasir,female,overall,overall,25.96
+2020-01-01,Johor,P.143 Pagoh,P.143,Pagoh,N.08 Bukit Pasir,N.08,Bukit Pasir,male,overall,overall,34.572
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.09 Gambir,N.09,Gambir,both,overall,overall,39.049
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.09 Gambir,N.09,Gambir,both,overall,citizen,37.077
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.09 Gambir,N.09,Gambir,both,overall,noncitizen,1.972
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.09 Gambir,N.09,Gambir,female,overall,overall,18.328
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.09 Gambir,N.09,Gambir,male,overall,overall,20.721
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.10 Tangkak,N.10,Tangkak,both,overall,overall,56.431
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.10 Tangkak,N.10,Tangkak,both,overall,citizen,54.088
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.10 Tangkak,N.10,Tangkak,both,overall,noncitizen,2.343
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.10 Tangkak,N.10,Tangkak,female,overall,overall,27.483
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.10 Tangkak,N.10,Tangkak,male,overall,overall,28.948
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.11 Serom,N.11,Serom,both,overall,overall,52.099
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.11 Serom,N.11,Serom,both,overall,citizen,50.063
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.11 Serom,N.11,Serom,both,overall,noncitizen,2.036
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.11 Serom,N.11,Serom,female,overall,overall,25.469
+2020-01-01,Johor,P.144 Ledang,P.144,Ledang,N.11 Serom,N.11,Serom,male,overall,overall,26.63
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.12 Bentayan,N.12,Bentayan,both,overall,overall,35.795
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.12 Bentayan,N.12,Bentayan,both,overall,citizen,34.062
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.12 Bentayan,N.12,Bentayan,both,overall,noncitizen,1.733
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.12 Bentayan,N.12,Bentayan,female,overall,overall,17.344
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.12 Bentayan,N.12,Bentayan,male,overall,overall,18.451
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.13 Simpang Jeram,N.13,Simpang Jeram,both,overall,overall,66.86
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.13 Simpang Jeram,N.13,Simpang Jeram,both,overall,citizen,61.999
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.13 Simpang Jeram,N.13,Simpang Jeram,both,overall,noncitizen,4.861
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.13 Simpang Jeram,N.13,Simpang Jeram,female,overall,overall,31.221
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.13 Simpang Jeram,N.13,Simpang Jeram,male,overall,overall,35.639
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.14 Bukit Naning,N.14,Bukit Naning,both,overall,overall,32.524
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.14 Bukit Naning,N.14,Bukit Naning,both,overall,citizen,22.791
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.14 Bukit Naning,N.14,Bukit Naning,both,overall,noncitizen,9.733
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.14 Bukit Naning,N.14,Bukit Naning,female,overall,overall,11.183
+2020-01-01,Johor,P.145 Bakri,P.145,Bakri,N.14 Bukit Naning,N.14,Bukit Naning,male,overall,overall,21.341
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.15 Maharani,N.15,Maharani,both,overall,overall,59.851
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.15 Maharani,N.15,Maharani,both,overall,citizen,57.165
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.15 Maharani,N.15,Maharani,both,overall,noncitizen,2.686
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.15 Maharani,N.15,Maharani,female,overall,overall,28.945
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.15 Maharani,N.15,Maharani,male,overall,overall,30.906
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.16 Sungai Balang,N.16,Sungai Balang,both,overall,overall,40.414
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.16 Sungai Balang,N.16,Sungai Balang,both,overall,citizen,35.404
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.16 Sungai Balang,N.16,Sungai Balang,both,overall,noncitizen,5.01
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.16 Sungai Balang,N.16,Sungai Balang,female,overall,overall,17.861
+2020-01-01,Johor,P.146 Muar,P.146,Muar,N.16 Sungai Balang,N.16,Sungai Balang,male,overall,overall,22.553
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.17 Semerah,N.17,Semerah,both,overall,overall,46.254
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.17 Semerah,N.17,Semerah,both,overall,citizen,44.22
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.17 Semerah,N.17,Semerah,both,overall,noncitizen,2.034
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.17 Semerah,N.17,Semerah,female,overall,overall,22.147
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.17 Semerah,N.17,Semerah,male,overall,overall,24.107
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.18 Sri Medan,N.18,Sri Medan,both,overall,overall,36.145
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.18 Sri Medan,N.18,Sri Medan,both,overall,citizen,35.028
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.18 Sri Medan,N.18,Sri Medan,both,overall,noncitizen,1.117
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.18 Sri Medan,N.18,Sri Medan,female,overall,overall,17.245
+2020-01-01,Johor,P.147 Parit Sulong,P.147,Parit Sulong,N.18 Sri Medan,N.18,Sri Medan,male,overall,overall,18.9
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.19 Yong Peng,N.19,Yong Peng,both,overall,overall,42.09
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.19 Yong Peng,N.19,Yong Peng,both,overall,citizen,40.156
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.19 Yong Peng,N.19,Yong Peng,both,overall,noncitizen,1.934
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.19 Yong Peng,N.19,Yong Peng,female,overall,overall,19.539
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.19 Yong Peng,N.19,Yong Peng,male,overall,overall,22.551
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.20 Semarang,N.20,Semarang,both,overall,overall,29.695
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.20 Semarang,N.20,Semarang,both,overall,citizen,28.961
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.20 Semarang,N.20,Semarang,both,overall,noncitizen,0.734
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.20 Semarang,N.20,Semarang,female,overall,overall,14.41
+2020-01-01,Johor,P.148 Ayer Hitam,P.148,Ayer Hitam,N.20 Semarang,N.20,Semarang,male,overall,overall,15.285
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.21 Parit Yaani,N.21,Parit Yaani,both,overall,overall,80.65
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.21 Parit Yaani,N.21,Parit Yaani,both,overall,citizen,71.674
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.21 Parit Yaani,N.21,Parit Yaani,both,overall,noncitizen,8.976
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.21 Parit Yaani,N.21,Parit Yaani,female,overall,overall,36.917
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.21 Parit Yaani,N.21,Parit Yaani,male,overall,overall,43.733
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.22 Parit Raja,N.22,Parit Raja,both,overall,overall,94.504
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.22 Parit Raja,N.22,Parit Raja,both,overall,citizen,85.79
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.22 Parit Raja,N.22,Parit Raja,both,overall,noncitizen,8.714
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.22 Parit Raja,N.22,Parit Raja,female,overall,overall,43.675
+2020-01-01,Johor,P.149 Sri Gading,P.149,Sri Gading,N.22 Parit Raja,N.22,Parit Raja,male,overall,overall,50.829
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.23 Penggaram,N.23,Penggaram,both,overall,overall,92.223
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.23 Penggaram,N.23,Penggaram,both,overall,citizen,88.965
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.23 Penggaram,N.23,Penggaram,both,overall,noncitizen,3.258
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.23 Penggaram,N.23,Penggaram,female,overall,overall,44.881
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.23 Penggaram,N.23,Penggaram,male,overall,overall,47.342
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.24 Senggarang,N.24,Senggarang,both,overall,overall,47.266
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.24 Senggarang,N.24,Senggarang,both,overall,citizen,44.148
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.24 Senggarang,N.24,Senggarang,both,overall,noncitizen,3.118
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.24 Senggarang,N.24,Senggarang,female,overall,overall,21.772
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.24 Senggarang,N.24,Senggarang,male,overall,overall,25.494
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.25 Rengit,N.25,Rengit,both,overall,overall,26.511
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.25 Rengit,N.25,Rengit,both,overall,citizen,26.201
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.25 Rengit,N.25,Rengit,both,overall,noncitizen,0.31
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.25 Rengit,N.25,Rengit,female,overall,overall,13.143
+2020-01-01,Johor,P.150 Batu Pahat,P.150,Batu Pahat,N.25 Rengit,N.25,Rengit,male,overall,overall,13.368
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.26 Machap,N.26,Machap,both,overall,overall,46.807
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.26 Machap,N.26,Machap,both,overall,citizen,40.618
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.26 Machap,N.26,Machap,both,overall,noncitizen,6.189
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.26 Machap,N.26,Machap,female,overall,overall,20.482
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.26 Machap,N.26,Machap,male,overall,overall,26.325
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.27 Layang-Layang,N.27,Layang-Layang,both,overall,overall,29.479
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.27 Layang-Layang,N.27,Layang-Layang,both,overall,citizen,25.317
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.27 Layang-Layang,N.27,Layang-Layang,both,overall,noncitizen,4.162
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.27 Layang-Layang,N.27,Layang-Layang,female,overall,overall,12.757
+2020-01-01,Johor,P.151 Simpang Renggam,P.151,Simpang Renggam,N.27 Layang-Layang,N.27,Layang-Layang,male,overall,overall,16.722
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.28 Mengkibol,N.28,Mengkibol,both,overall,overall,104.148
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.28 Mengkibol,N.28,Mengkibol,both,overall,citizen,95.908
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.28 Mengkibol,N.28,Mengkibol,both,overall,noncitizen,8.24
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.28 Mengkibol,N.28,Mengkibol,female,overall,overall,48.206
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.28 Mengkibol,N.28,Mengkibol,male,overall,overall,55.942
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.29 Mahkota,N.29,Mahkota,both,overall,overall,79.707
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.29 Mahkota,N.29,Mahkota,both,overall,citizen,73.486
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.29 Mahkota,N.29,Mahkota,both,overall,noncitizen,6.221
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.29 Mahkota,N.29,Mahkota,female,overall,overall,36.84
+2020-01-01,Johor,P.152 Kluang,P.152,Kluang,N.29 Mahkota,N.29,Mahkota,male,overall,overall,42.867
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.30 Paloh,N.30,Paloh,both,overall,overall,32.407
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.30 Paloh,N.30,Paloh,both,overall,citizen,26.514
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.30 Paloh,N.30,Paloh,both,overall,noncitizen,5.893
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.30 Paloh,N.30,Paloh,female,overall,overall,12.146
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.30 Paloh,N.30,Paloh,male,overall,overall,20.261
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.31 Kahang,N.31,Kahang,both,overall,overall,31.214
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.31 Kahang,N.31,Kahang,both,overall,citizen,28.138
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.31 Kahang,N.31,Kahang,both,overall,noncitizen,3.076
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.31 Kahang,N.31,Kahang,female,overall,overall,14.017
+2020-01-01,Johor,P.153 Sembrong,P.153,Sembrong,N.31 Kahang,N.31,Kahang,male,overall,overall,17.197
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.32 Endau,N.32,Endau,both,overall,overall,33.245
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.32 Endau,N.32,Endau,both,overall,citizen,32.124
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.32 Endau,N.32,Endau,both,overall,noncitizen,1.121
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.32 Endau,N.32,Endau,female,overall,overall,16.139
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.32 Endau,N.32,Endau,male,overall,overall,17.106
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.33 Tenggaroh,N.33,Tenggaroh,both,overall,overall,44.95
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.33 Tenggaroh,N.33,Tenggaroh,both,overall,citizen,41.948
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.33 Tenggaroh,N.33,Tenggaroh,both,overall,noncitizen,3.002
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.33 Tenggaroh,N.33,Tenggaroh,female,overall,overall,20.117
+2020-01-01,Johor,P.154 Mersing,P.154,Mersing,N.33 Tenggaroh,N.33,Tenggaroh,male,overall,overall,24.833
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.34 Panti,N.34,Panti,both,overall,overall,54.133
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.34 Panti,N.34,Panti,both,overall,citizen,51.035
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.34 Panti,N.34,Panti,both,overall,noncitizen,3.098
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.34 Panti,N.34,Panti,female,overall,overall,26.133
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.34 Panti,N.34,Panti,male,overall,overall,28.0
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.35 Pasir Raja,N.35,Pasir Raja,both,overall,overall,40.041
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.35 Pasir Raja,N.35,Pasir Raja,both,overall,citizen,38.251
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.35 Pasir Raja,N.35,Pasir Raja,both,overall,noncitizen,1.79
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.35 Pasir Raja,N.35,Pasir Raja,female,overall,overall,18.962
+2020-01-01,Johor,P.155 Tenggara,P.155,Tenggara,N.35 Pasir Raja,N.35,Pasir Raja,male,overall,overall,21.079
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.36 Sedili,N.36,Sedili,both,overall,overall,27.508
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.36 Sedili,N.36,Sedili,both,overall,citizen,25.797
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.36 Sedili,N.36,Sedili,both,overall,noncitizen,1.711
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.36 Sedili,N.36,Sedili,female,overall,overall,12.803
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.36 Sedili,N.36,Sedili,male,overall,overall,14.705
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.37 Johor Lama,N.37,Johor Lama,both,overall,overall,29.869
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.37 Johor Lama,N.37,Johor Lama,both,overall,citizen,27.165
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.37 Johor Lama,N.37,Johor Lama,both,overall,noncitizen,2.704
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.37 Johor Lama,N.37,Johor Lama,female,overall,overall,14.077
+2020-01-01,Johor,P.156 Kota Tinggi,P.156,Kota Tinggi,N.37 Johor Lama,N.37,Johor Lama,male,overall,overall,15.792
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.38 Penawar,N.38,Penawar,both,overall,overall,40.534
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.38 Penawar,N.38,Penawar,both,overall,citizen,38.51
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.38 Penawar,N.38,Penawar,both,overall,noncitizen,2.024
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.38 Penawar,N.38,Penawar,female,overall,overall,19.136
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.38 Penawar,N.38,Penawar,male,overall,overall,21.398
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.39 Tanjung Surat,N.39,Tanjung Surat,both,overall,overall,30.297
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.39 Tanjung Surat,N.39,Tanjung Surat,both,overall,citizen,27.817
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.39 Tanjung Surat,N.39,Tanjung Surat,both,overall,noncitizen,2.48
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.39 Tanjung Surat,N.39,Tanjung Surat,female,overall,overall,12.849
+2020-01-01,Johor,P.157 Pengerang,P.157,Pengerang,N.39 Tanjung Surat,N.39,Tanjung Surat,male,overall,overall,17.448
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.40 Tiram,N.40,Tiram,both,overall,overall,203.056
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.40 Tiram,N.40,Tiram,both,overall,citizen,187.199
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.40 Tiram,N.40,Tiram,both,overall,noncitizen,15.857
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.40 Tiram,N.40,Tiram,female,overall,overall,92.697
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.40 Tiram,N.40,Tiram,male,overall,overall,110.359
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.41 Puteri Wangsa,N.41,Puteri Wangsa,both,overall,overall,272.211
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.41 Puteri Wangsa,N.41,Puteri Wangsa,both,overall,citizen,253.687
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.41 Puteri Wangsa,N.41,Puteri Wangsa,both,overall,noncitizen,18.524
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.41 Puteri Wangsa,N.41,Puteri Wangsa,female,overall,overall,129.237
+2020-01-01,Johor,P.158 Tebrau,P.158,Tebrau,N.41 Puteri Wangsa,N.41,Puteri Wangsa,male,overall,overall,142.974
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.42 Johor Jaya,N.42,Johor Jaya,both,overall,overall,152.873
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.42 Johor Jaya,N.42,Johor Jaya,both,overall,citizen,143.585
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.42 Johor Jaya,N.42,Johor Jaya,both,overall,noncitizen,9.288
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.42 Johor Jaya,N.42,Johor Jaya,female,overall,overall,72.037
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.42 Johor Jaya,N.42,Johor Jaya,male,overall,overall,80.836
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.43 Permas,N.43,Permas,both,overall,overall,207.748
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.43 Permas,N.43,Permas,both,overall,citizen,188.566
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.43 Permas,N.43,Permas,both,overall,noncitizen,19.182
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.43 Permas,N.43,Permas,female,overall,overall,94.257
+2020-01-01,Johor,P.159 Pasir Gudang,P.159,Pasir Gudang,N.43 Permas,N.43,Permas,male,overall,overall,113.491
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.44 Larkin,N.44,Larkin,both,overall,overall,99.268
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.44 Larkin,N.44,Larkin,both,overall,citizen,92.749
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.44 Larkin,N.44,Larkin,both,overall,noncitizen,6.519
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.44 Larkin,N.44,Larkin,female,overall,overall,48.115
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.44 Larkin,N.44,Larkin,male,overall,overall,51.153
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.45 Stulang,N.45,Stulang,both,overall,overall,78.555
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.45 Stulang,N.45,Stulang,both,overall,citizen,72.333
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.45 Stulang,N.45,Stulang,both,overall,noncitizen,6.222
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.45 Stulang,N.45,Stulang,female,overall,overall,37.469
+2020-01-01,Johor,P.160 Johor Bahru,P.160,Johor Bahru,N.45 Stulang,N.45,Stulang,male,overall,overall,41.086
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.46 Perling,N.46,Perling,both,overall,overall,189.758
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.46 Perling,N.46,Perling,both,overall,citizen,182.305
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.46 Perling,N.46,Perling,both,overall,noncitizen,7.453
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.46 Perling,N.46,Perling,female,overall,overall,91.665
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.46 Perling,N.46,Perling,male,overall,overall,98.093
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.47 Kempas,N.47,Kempas,both,overall,overall,102.118
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.47 Kempas,N.47,Kempas,both,overall,citizen,91.678
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.47 Kempas,N.47,Kempas,both,overall,noncitizen,10.44
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.47 Kempas,N.47,Kempas,female,overall,overall,48.341
+2020-01-01,Johor,P.161 Pulai,P.161,Pulai,N.47 Kempas,N.47,Kempas,male,overall,overall,53.777
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.48 Skudai,N.48,Skudai,both,overall,overall,137.832
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.48 Skudai,N.48,Skudai,both,overall,citizen,132.522
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.48 Skudai,N.48,Skudai,both,overall,noncitizen,5.31
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.48 Skudai,N.48,Skudai,female,overall,overall,64.955
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.48 Skudai,N.48,Skudai,male,overall,overall,72.877
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.49 Kota Iskandar,N.49,Kota Iskandar,both,overall,overall,309.865
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.49 Kota Iskandar,N.49,Kota Iskandar,both,overall,citizen,284.644
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.49 Kota Iskandar,N.49,Kota Iskandar,both,overall,noncitizen,25.221
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.49 Kota Iskandar,N.49,Kota Iskandar,female,overall,overall,146.93
+2020-01-01,Johor,P.162 Iskandar Puteri,P.162,Iskandar Puteri,N.49 Kota Iskandar,N.49,Kota Iskandar,male,overall,overall,162.935
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.50 Bukit Permai,N.50,Bukit Permai,both,overall,overall,77.377
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.50 Bukit Permai,N.50,Bukit Permai,both,overall,citizen,72.737
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.50 Bukit Permai,N.50,Bukit Permai,both,overall,noncitizen,4.64
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.50 Bukit Permai,N.50,Bukit Permai,female,overall,overall,36.879
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.50 Bukit Permai,N.50,Bukit Permai,male,overall,overall,40.498
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.51 Bukit Batu,N.51,Bukit Batu,both,overall,overall,81.646
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.51 Bukit Batu,N.51,Bukit Batu,both,overall,citizen,76.513
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.51 Bukit Batu,N.51,Bukit Batu,both,overall,noncitizen,5.133
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.51 Bukit Batu,N.51,Bukit Batu,female,overall,overall,38.846
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.51 Bukit Batu,N.51,Bukit Batu,male,overall,overall,42.8
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.52 Senai,N.52,Senai,both,overall,overall,128.381
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.52 Senai,N.52,Senai,both,overall,citizen,91.804
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.52 Senai,N.52,Senai,both,overall,noncitizen,36.577
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.52 Senai,N.52,Senai,female,overall,overall,54.211
+2020-01-01,Johor,P.163 Kulai,P.163,Kulai,N.52 Senai,N.52,Senai,male,overall,overall,74.17
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.53 Benut,N.53,Benut,both,overall,overall,29.033
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.53 Benut,N.53,Benut,both,overall,citizen,27.53
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.53 Benut,N.53,Benut,both,overall,noncitizen,1.503
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.53 Benut,N.53,Benut,female,overall,overall,13.925
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.53 Benut,N.53,Benut,male,overall,overall,15.108
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.54 Pulai Sebatang,N.54,Pulai Sebatang,both,overall,overall,52.745
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.54 Pulai Sebatang,N.54,Pulai Sebatang,both,overall,citizen,49.94
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.54 Pulai Sebatang,N.54,Pulai Sebatang,both,overall,noncitizen,2.805
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.54 Pulai Sebatang,N.54,Pulai Sebatang,female,overall,overall,25.031
+2020-01-01,Johor,P.164 Pontian,P.164,Pontian,N.54 Pulai Sebatang,N.54,Pulai Sebatang,male,overall,overall,27.714
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.55 Pekan Nanas,N.55,Pekan Nanas,both,overall,overall,51.711
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.55 Pekan Nanas,N.55,Pekan Nanas,both,overall,citizen,45.325
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.55 Pekan Nanas,N.55,Pekan Nanas,both,overall,noncitizen,6.386
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.55 Pekan Nanas,N.55,Pekan Nanas,female,overall,overall,22.844
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.55 Pekan Nanas,N.55,Pekan Nanas,male,overall,overall,28.867
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.56 Kukup,N.56,Kukup,both,overall,overall,39.829
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.56 Kukup,N.56,Kukup,both,overall,citizen,37.188
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.56 Kukup,N.56,Kukup,both,overall,noncitizen,2.641
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.56 Kukup,N.56,Kukup,female,overall,overall,18.271
+2020-01-01,Johor,P.165 Tanjung Piai,P.165,Tanjung Piai,N.56 Kukup,N.56,Kukup,male,overall,overall,21.558

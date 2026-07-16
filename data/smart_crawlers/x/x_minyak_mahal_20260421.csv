@@ -1,0 +1,51 @@
+Platform,Type,ID,Text,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement
+X,Quote Tweet,X001,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-21,86,19,9,763,0.1,114
+X,Reply,X002,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-15,193,33,19,2441,0.22,245
+X,Reply,X003,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-16,51,12,5,518,0.1,68
+X,Retweet,X004,Just tried minyak mahal - amazing quality and value!,Negative,2026-03-22,199,31,22,2047,0.1,252
+X,Reply,X005,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-16,116,28,14,919,0.1,158
+X,Retweet,X006,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-29,158,42,22,1964,0.22,222
+X,Retweet,X007,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-19,152,16,12,919,0.1,180
+X,Quote Tweet,X008,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-09,74,17,6,382,0.1,97
+X,Reply,X009,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-16,162,41,13,2202,0.21,216
+X,Tweet,X010,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-20,97,19,5,873,0.1,121
+X,Quote Tweet,X011,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-15,94,15,17,1282,0.1,126
+X,Retweet,X012,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-06,159,37,16,1950,0.1,212
+X,Retweet,X013,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-14,83,16,7,899,0.1,106
+X,Reply,X014,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-29,60,14,8,552,0.2,82
+X,Retweet,X015,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-03,167,48,17,1824,0.1,232
+X,Quote Tweet,X016,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-20,114,25,9,1305,0.1,148
+X,Retweet,X017,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-03-28,71,10,6,584,0.11,87
+X,Retweet,X018,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-04,161,27,30,1563,0.1,218
+X,Tweet,X019,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-07,140,15,13,997,0.1,168
+X,Reply,X020,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-20,108,22,20,1353,0.3,150
+X,Quote Tweet,X021,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-19,51,11,9,346,0.1,71
+X,Tweet,X022,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-09,183,41,18,2305,0.21,242
+X,Tweet,X023,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-05,139,34,25,1526,0.1,198
+X,Retweet,X024,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-15,35,9,5,295,0.22,49
+X,Reply,X025,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-04,119,18,6,917,0.17,143
+X,Reply,X026,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-11,97,21,15,519,0.1,133
+X,Retweet,X027,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-01,101,15,9,688,0.11,125
+X,Reply,X028,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-12,142,27,16,791,0.14,185
+X,Retweet,X029,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-16,97,23,16,1204,0.1,136
+X,Retweet,X030,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-16,44,7,3,458,0.18,54
+X,Quote Tweet,X031,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-23,72,13,6,983,0.1,91
+X,Retweet,X032,Just tried minyak mahal - amazing quality and value!,Negative,2026-03-29,105,22,14,527,0.1,141
+X,Tweet,X033,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-17,80,14,13,927,0.16,107
+X,Tweet,X034,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-21,166,17,10,1538,0.1,193
+X,Reply,X035,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-29,163,48,13,1476,0.1,224
+X,Quote Tweet,X036,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-08,88,25,5,761,0.1,118
+X,Reply,X037,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-10,131,30,22,1654,0.1,183
+X,Tweet,X038,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-03-30,64,14,12,615,0.1,90
+X,Retweet,X039,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-28,157,37,17,1997,0.1,211
+X,Reply,X040,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-04-04,96,19,11,612,0.1,126
+X,Tweet,X041,Just tried minyak mahal - amazing quality and value!,Negative,2026-03-23,121,29,20,795,0.1,170
+X,Tweet,X042,Just tried minyak mahal - amazing quality and value!,Negative,2026-03-28,82,24,4,679,0.1,110
+X,Retweet,X043,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-06,155,34,28,1512,0.29,217
+X,Retweet,X044,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-14,123,30,14,867,0.1,167
+X,Reply,X045,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-11,81,15,13,1051,0.1,109
+X,Retweet,X046,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-08,128,21,7,1282,0.16,156
+X,Tweet,X047,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-03-26,48,6,8,529,0.1,62
+X,Quote Tweet,X048,minyak mahal in Malaysia is really good. Worth trying!,Negative,2026-03-22,75,8,9,556,0.1,92
+X,Tweet,X049,Just tried minyak mahal - amazing quality and value!,Negative,2026-04-10,113,31,12,1601,0.1,156
+X,Quote Tweet,X050,Great experience with minyak mahal! Highly recommended in Malaysia.,Negative,2026-04-03,152,31,27,1706,0.1,210

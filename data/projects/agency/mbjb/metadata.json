@@ -1,0 +1,35 @@
+{
+  "project_id": "mbjb",
+  "name": "MBJB U.S.A.H.A — Urban Sentiment Analytics",
+  "category": "agency",
+  "client": "Majlis Bandaraya Johor Bahru",
+  "keywords": [
+    "johor bahru",
+    "mbjb",
+    "sampah johor bahru",
+    "rumput johor bahru",
+    "kebersihan mbjb",
+    "longgokan sampah jb",
+    "landscape jb",
+    "aduan mbjb"
+  ],
+  "crawls": [
+    {
+      "id": "mbjb_social_20260703_224938",
+      "file": "crawls/mbjb_social_20260703_224938.csv",
+      "source_combined": "data/combined/Combined_facebook_tiktok_x_20260703_224938.csv",
+      "source_analyzed": "data/combined/Combined_facebook_tiktok_x_20260703_224938.csv",
+      "platforms": [
+        "facebook",
+        "x",
+        "tiktok"
+      ],
+      "query": "rumput semak landscape johor bahru mbjb -indonesia",
+      "date_range": "30days",
+      "rows": 244,
+      "saved_at": "2026-07-03T22:49:38.248551"
+    }
+  ],
+  "masters": [],
+  "updated_at": "2026-07-03T22:49:38.248607"
+}

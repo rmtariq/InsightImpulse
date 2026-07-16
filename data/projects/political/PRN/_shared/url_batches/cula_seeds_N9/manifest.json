@@ -1,0 +1,558 @@
+{
+  "title": "Cula Digital — 36 DUN N9 seed post URL batches",
+  "generated_at": "2026-06-22T00:38:59+08:00",
+  "count": 36,
+  "out_dir": "data/projects/political/PRN/_shared/url_batches/cula_seeds_N9",
+  "combined_paste": "ALL_FILLED_URLS_PASTE_ONLY.txt",
+  "total_urls_filled": 0,
+  "seats_with_urls": 0,
+  "workflow": [
+    "Post santai per DUN di kumpulan tempatan (2–3 hari tunggu)",
+    "Paste URL post ke fail Nxx_*.txt",
+    "python3 scripts/crawl_cula_seed_batches_n9.py --all-filled",
+    "python3 scripts/merge_prn_johor_n9_master.py",
+    "python3 scripts/build_warroom_production_bundle.py"
+  ],
+  "seats": [
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "tier": "LAWAN",
+      "file": "N01_Chennah_PASTE_ONLY.txt",
+      "district": "Jelebu",
+      "local_landmarks": "Kg Chennah; FELDA Pasoh; Bukit Tinggi",
+      "local_issues": "luar bandar; jalan rosak; FELDA; Orang Asli",
+      "seed_examples": [
+        "korang Chennah — kestabilan ke perubahan yg korang nak?",
+        "tengok isu luar bandar kat Kg Chennah, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Chennah — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "tier": "WAJIB-PAS23",
+      "file": "N02_Pertang_PASTE_ONLY.txt",
+      "district": "Jelebu",
+      "local_landmarks": "Pekan Pertang; Ulu Triang",
+      "local_issues": "pertanian; pendapatan rendah; Undang Jelebu",
+      "seed_examples": [
+        "agaknya di Pertang ni PAS menang ok ke? tengok ramai bincang pasal pertanian je",
+        "korang area Pekan Pertang — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Pertang rasa pertanian makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "tier": "WAJIB-PAS23",
+      "file": "N03_Sungai_Lui_PASTE_ONLY.txt",
+      "district": "Jelebu",
+      "local_landmarks": "Sungai Lui; Petaling Jelebu",
+      "local_issues": "kampung; jalan; air paip",
+      "seed_examples": [
+        "agaknya di Sungai Lui ni PAS menang ok ke? tengok ramai bincang pasal kampung je",
+        "korang area Sungai Lui — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Sungai Lui rasa kampung makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "tier": "WAJIB-PAS23",
+      "file": "N04_Klawang_PASTE_ONLY.txt",
+      "district": "Jelebu",
+      "local_landmarks": "Pekan Klawang; Kuala Klawang",
+      "local_issues": "pertanian; banjir kilat; Adat Perpatih",
+      "seed_examples": [
+        "agaknya di Klawang ni PAS menang ok ke? tengok ramai bincang pasal pertanian je",
+        "korang area Pekan Klawang — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Klawang rasa pertanian makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "tier": "WAJIB-PAS23",
+      "file": "N05_Serting_PASTE_ONLY.txt",
+      "district": "Jempol",
+      "local_landmarks": "FELDA Serting; Bandar Seri Jempol",
+      "local_issues": "FELDA; sawit; pendapatan peneroka",
+      "seed_examples": [
+        "agaknya di Serting ni PAS menang ok ke? tengok ramai bincang pasal FELDA je",
+        "korang area FELDA Serting — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Serting rasa FELDA makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "tier": "IMBANG",
+      "file": "N06_Palong_PASTE_ONLY.txt",
+      "district": "Jempol",
+      "local_landmarks": "FELDA Palong; Bukit Palong",
+      "local_issues": "FELDA; pekerja ladang; pemerolehan tanah",
+      "seed_examples": [
+        "area Palong — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok FELDA Palong, ramai bincang pasal FELDA. korang macam mana?",
+        "agaknya kerusi Palong flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "tier": "IMBANG",
+      "file": "N07_Jeram_Padang_PASTE_ONLY.txt",
+      "district": "Jempol",
+      "local_landmarks": "Jeram Padang; Rompin",
+      "local_issues": "luar bandar; pertanian",
+      "seed_examples": [
+        "area Jeram Padang — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Jeram Padang, ramai bincang pasal luar bandar. korang macam mana?",
+        "agaknya kerusi Jeram Padang flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "tier": "LAWAN",
+      "file": "N08_Bahau_PASTE_ONLY.txt",
+      "district": "Jempol",
+      "local_landmarks": "Pekan Bahau; Bandar Sri Jempol",
+      "local_issues": "pekan; perniagaan; banjir",
+      "seed_examples": [
+        "korang Bahau — kestabilan ke perubahan yg korang nak?",
+        "tengok isu pekan kat Pekan Bahau, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Bahau — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "tier": "WAJIB-PAS23",
+      "file": "N09_Lenggeng_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Lenggeng; Pantai; Broga",
+      "local_issues": "perumahan; pekerja KL; pembangunan",
+      "seed_examples": [
+        "agaknya di Lenggeng ni PAS menang ok ke? tengok ramai bincang pasal perumahan je",
+        "korang area Lenggeng — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Lenggeng rasa perumahan makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "tier": "WAJIB-PAS23",
+      "file": "N10_Nilai_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Bandar Nilai; USIM; KLIA Selatan",
+      "local_issues": "pekerja KL; perumahan; kesesakan; pelajar",
+      "seed_examples": [
+        "agaknya di Nilai ni PAS menang ok ke? tengok ramai bincang pasal pekerja KL je",
+        "korang area Bandar Nilai — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Nilai rasa pekerja KL makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "tier": "LAWAN",
+      "file": "N11_Lobak_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Lobak; Rasah Jaya",
+      "local_issues": "bandar; perniagaan Cina; KIP Mart",
+      "seed_examples": [
+        "korang Lobak — kestabilan ke perubahan yg korang nak?",
+        "tengok isu bandar kat Lobak, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Lobak — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "tier": "LAWAN",
+      "file": "N12_Temiang_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Temiang; Bukit Chedang",
+      "local_issues": "perumahan kelas menengah; trafik",
+      "seed_examples": [
+        "korang Temiang — kestabilan ke perubahan yg korang nak?",
+        "tengok isu perumahan kelas menengah kat Temiang, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Temiang — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "tier": "WAJIB-PAS23",
+      "file": "N13_Sikamat_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Sikamat; Mambau",
+      "local_issues": "perumahan; banjir kilat; Speaker DUN",
+      "seed_examples": [
+        "agaknya di Sikamat ni PAS menang ok ke? tengok ramai bincang pasal perumahan je",
+        "korang area Sikamat — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Sikamat rasa perumahan makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "tier": "WAJIB-PAS23",
+      "file": "N14_Ampangan_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Ampangan; Senawang",
+      "local_issues": "perindustrian; pekerja kilang",
+      "seed_examples": [
+        "agaknya di Ampangan ni PAS menang ok ke? tengok ramai bincang pasal perindustrian je",
+        "korang area Ampangan — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Ampangan rasa perindustrian makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "tier": "IMBANG",
+      "file": "N15_Juasseh_PASTE_ONLY.txt",
+      "district": "Kuala Pilah",
+      "local_landmarks": "Juasseh; Ulu Muar",
+      "local_issues": "luar bandar; Adat Perpatih; Undang Johol",
+      "seed_examples": [
+        "area Juasseh — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Juasseh, ramai bincang pasal luar bandar. korang macam mana?",
+        "agaknya kerusi Juasseh flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "tier": "IMBANG",
+      "file": "N16_Seri_Menanti_PASTE_ONLY.txt",
+      "district": "Kuala Pilah",
+      "local_landmarks": "Istana Lama Seri Menanti; Istana Besar; Tunku Besar",
+      "local_issues": "YDPB; Tunku Besar; Adat; pelancongan istana",
+      "seed_examples": [
+        "area Seri Menanti — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Istana Lama Seri Menanti, ramai bincang pasal YDPB. korang macam mana?",
+        "agaknya kerusi Seri Menanti flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "tier": "IMBANG",
+      "file": "N17_Senaling_PASTE_ONLY.txt",
+      "district": "Kuala Pilah",
+      "local_landmarks": "Senaling; Terachi",
+      "local_issues": "luar bandar; pertanian; Adat Perpatih",
+      "seed_examples": [
+        "area Senaling — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Senaling, ramai bincang pasal luar bandar. korang macam mana?",
+        "agaknya kerusi Senaling flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "tier": "WAJIB-PAS23",
+      "file": "N18_Pilah_PASTE_ONLY.txt",
+      "district": "Kuala Pilah",
+      "local_landmarks": "Pekan Kuala Pilah; Bukit Putus",
+      "local_issues": "pekan; perniagaan; banjir",
+      "seed_examples": [
+        "agaknya di Pilah ni PAS menang ok ke? tengok ramai bincang pasal pekan je",
+        "korang area Pekan Kuala Pilah — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Pilah rasa pekan makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "tier": "IMBANG",
+      "file": "N19_Johol_PASTE_ONLY.txt",
+      "district": "Kuala Pilah",
+      "local_landmarks": "Pekan Johol; Pasir Panjang",
+      "local_issues": "Undang Johol; Adat; luar bandar",
+      "seed_examples": [
+        "area Johol — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Pekan Johol, ramai bincang pasal Undang Johol. korang macam mana?",
+        "agaknya kerusi Johol flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "tier": "WAJIB-PAS23",
+      "file": "N20_Labu_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Labu; KLIA Aerospace",
+      "local_issues": "perindustrian; pekerja asing; perumahan",
+      "seed_examples": [
+        "agaknya di Labu ni PAS menang ok ke? tengok ramai bincang pasal perindustrian je",
+        "korang area Labu — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Labu rasa perindustrian makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "tier": "LAWAN",
+      "file": "N21_Bukit_Kepayang_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Bukit Kepayang; Senawang Heights",
+      "local_issues": "perumahan kelas menengah; trafik",
+      "seed_examples": [
+        "korang Bukit Kepayang — kestabilan ke perubahan yg korang nak?",
+        "tengok isu perumahan kelas menengah kat Bukit Kepayang, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Bukit Kepayang — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "tier": "LAWAN",
+      "file": "N22_Rahang_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Rahang; Lobak Heights",
+      "local_issues": "bandar tua; perniagaan Cina",
+      "seed_examples": [
+        "korang Rahang — kestabilan ke perubahan yg korang nak?",
+        "tengok isu bandar tua kat Rahang, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Rahang — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "tier": "LAWAN",
+      "file": "N23_Mambau_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Mambau; Sikamat",
+      "local_issues": "perumahan; banjir kilat",
+      "seed_examples": [
+        "korang Mambau — kestabilan ke perubahan yg korang nak?",
+        "tengok isu perumahan kat Mambau, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Mambau — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "tier": "LAWAN",
+      "file": "N24_Seremban_Jaya_PASTE_ONLY.txt",
+      "district": "Seremban",
+      "local_landmarks": "Seremban Jaya; Senawang",
+      "local_issues": "perumahan; pekerja; perindustrian",
+      "seed_examples": [
+        "korang Seremban Jaya — kestabilan ke perubahan yg korang nak?",
+        "tengok isu perumahan kat Seremban Jaya, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Seremban Jaya — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "tier": "WAJIB-PAS23",
+      "file": "N25_Paroi_PASTE_ONLY.txt",
+      "district": "Rembau",
+      "local_landmarks": "Paroi; Mantin",
+      "local_issues": "perumahan; jalan; sekolah",
+      "seed_examples": [
+        "agaknya di Paroi ni PAS menang ok ke? tengok ramai bincang pasal perumahan je",
+        "korang area Paroi — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Paroi rasa perumahan makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "tier": "LAWAN",
+      "file": "N26_Chembong_PASTE_ONLY.txt",
+      "district": "Rembau",
+      "local_landmarks": "Chembong; FELDA Chembong; Undang Rembau",
+      "local_issues": "FELDA; Adat Perpatih; Undang Rembau",
+      "seed_examples": [
+        "korang Chembong — kestabilan ke perubahan yg korang nak?",
+        "tengok isu FELDA kat Chembong, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Chembong — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "tier": "LAWAN",
+      "file": "N27_Rantau_PASTE_ONLY.txt",
+      "district": "Rembau",
+      "local_landmarks": "Pekan Rantau; Rantau Estate",
+      "local_issues": "Mohamad Hasan; Tok Mat; politik tinggi",
+      "seed_examples": [
+        "korang Rantau — kestabilan ke perubahan yg korang nak?",
+        "tengok isu Mohamad Hasan kat Pekan Rantau, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Rantau — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "tier": "WAJIB-PAS23",
+      "file": "N28_Kota_PASTE_ONLY.txt",
+      "district": "Rembau",
+      "local_landmarks": "Pekan Kota; Pedas",
+      "local_issues": "luar bandar; Adat",
+      "seed_examples": [
+        "agaknya di Kota ni PAS menang ok ke? tengok ramai bincang pasal luar bandar je",
+        "korang area Pekan Kota — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Kota rasa luar bandar makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "tier": "LAWAN",
+      "file": "N29_Chuah_PASTE_ONLY.txt",
+      "district": "Port Dickson",
+      "local_landmarks": "Chuah; Pantai Chuah",
+      "local_issues": "pelancongan; pantai; nelayan",
+      "seed_examples": [
+        "korang Chuah — kestabilan ke perubahan yg korang nak?",
+        "tengok isu pelancongan kat Chuah, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Chuah — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "tier": "LAWAN",
+      "file": "N30_Lukut_PASTE_ONLY.txt",
+      "district": "Port Dickson",
+      "local_landmarks": "Lukut; Sepang Highway",
+      "local_issues": "pekan; sejarah Lukut; perniagaan",
+      "seed_examples": [
+        "korang Lukut — kestabilan ke perubahan yg korang nak?",
+        "tengok isu pekan kat Lukut, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Lukut — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "tier": "WAJIB-PAS23",
+      "file": "N31_Bagan_Pinang_PASTE_ONLY.txt",
+      "district": "Port Dickson",
+      "local_landmarks": "Pengkalan Tentera; Si Rusa",
+      "local_issues": "tentera; askar; veteran",
+      "seed_examples": [
+        "agaknya di Bagan Pinang ni PAS menang ok ke? tengok ramai bincang pasal tentera je",
+        "korang area Pengkalan Tentera — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Bagan Pinang rasa tentera makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "tier": "LAWAN",
+      "file": "N32_Linggi_PASTE_ONLY.txt",
+      "district": "Port Dickson",
+      "local_landmarks": "Linggi; sempadan Melaka",
+      "local_issues": "sempadan; perikanan; luar bandar",
+      "seed_examples": [
+        "korang Linggi — kestabilan ke perubahan yg korang nak?",
+        "tengok isu sempadan kat Linggi, ada calon yg boleh selesaikan ke?",
+        "PRN kali ni Linggi — sokong status quo ke nak perubahan?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N33",
+      "name": "Sri Tanjung",
+      "tier": "WAJIB-PAS23",
+      "file": "N33_Sri_Tanjung_PASTE_ONLY.txt",
+      "district": "Port Dickson",
+      "local_landmarks": "Bandar PD; Teluk Kemang",
+      "local_issues": "pelancongan; pantai PD; pengundi muda",
+      "seed_examples": [
+        "agaknya di Sri Tanjung ni PAS menang ok ke? tengok ramai bincang pasal pelancongan je",
+        "korang area Bandar PD — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Sri Tanjung rasa pelancongan makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "tier": "WAJIB-PAS23",
+      "file": "N34_Gemas_PASTE_ONLY.txt",
+      "district": "Tampin",
+      "local_landmarks": "Stesen Gemas; sempadan Johor",
+      "local_issues": "kereta api; ECRL; sempadan",
+      "seed_examples": [
+        "agaknya di Gemas ni PAS menang ok ke? tengok ramai bincang pasal kereta api je",
+        "korang area Stesen Gemas — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Gemas rasa kereta api makin susah ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "tier": "IMBANG",
+      "file": "N35_Gemencheh_PASTE_ONLY.txt",
+      "district": "Tampin",
+      "local_landmarks": "Pekan Gemencheh; Air Kuning",
+      "local_issues": "luar bandar; pertanian; FELDA",
+      "seed_examples": [
+        "area Gemencheh — BN ke PAS ke PH yg lebih sesuai kali ni?",
+        "tengok Pekan Gemencheh, ramai bincang pasal luar bandar. korang macam mana?",
+        "agaknya kerusi Gemencheh flip ke kali ni?"
+      ],
+      "urls_filled": 0
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "tier": "WAJIB-PAS23",
+      "file": "N36_Repah_PASTE_ONLY.txt",
+      "district": "Tampin",
+      "local_landmarks": "Pekan Tampin; Repah",
+      "local_issues": "pekan; sempadan Melaka",
+      "seed_examples": [
+        "agaknya di Repah ni PAS menang ok ke? tengok ramai bincang pasal pekan je",
+        "korang area Pekan Tampin — undi kali ni ikut parti ke ikut calon?",
+        "siapa lagi kat Repah rasa pekan makin susah ni?"
+      ],
+      "urls_filled": 0
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "updated_at": "2026-06-22 01:35:16",
+  "state": "N9",
+  "seeds_total": 2,
+  "seats_active": 2,
+  "due_for_crawl": 1,
+  "by_dun": {
+    "N10": {
+      "kod_dun": "N10",
+      "dun_name": "Nilai",
+      "seeds_total": 1,
+      "posted": 1,
+      "url_registered": 0,
+      "crawl_queued": 0,
+      "crawled": 0,
+      "due_for_crawl": 0,
+      "treks": {
+        "lokaliti": 1,
+        "umdap": 0,
+        "isu": 0
+      }
+    },
+    "N09": {
+      "kod_dun": "N09",
+      "dun_name": "Lenggeng",
+      "seeds_total": 1,
+      "posted": 0,
+      "url_registered": 1,
+      "crawl_queued": 0,
+      "crawled": 0,
+      "due_for_crawl": 1,
+      "treks": {
+        "lokaliti": 0,
+        "umdap": 1,
+        "isu": 0
+      }
+    }
+  },
+  "recent": [
+    {
+      "id": "96d2145a-5bf0-4d4f-a5a0-5c717ee389fe",
+      "created_at": "2026-06-22 01:35:16",
+      "state": "N9",
+      "kod_dun": "N09",
+      "dun_name": "Lenggeng",
+      "tier": "WAJIB-PAS23",
+      "trek": "umdap",
+      "trek_label": "UMDAP / Koalisi",
+      "post_text_suggested": "korang Lenggeng — UMDAP ni ok ke? UMNO+DAP rasa pelik sikit",
+      "post_text_actual": "t",
+      "platform": "facebook",
+      "group_name": "",
+      "pelapor_id": "HQ",
+      "wait_hours": 0,
+      "wait_label": "segera",
+      "status": "url_registered",
+      "posted_at": "2026-06-22 01:35:16",
+      "crawl_due_at": "2026-06-22 01:35:16",
+      "post_url": "https://www.facebook.com/groups/a/posts/1/",
+      "crawl_task_id": null,
+      "crawl_at": null,
+      "results": null,
+      "notes": ""
+    },
+    {
+      "id": "32c33f45-f99d-4136-a6a7-46c9a760e388",
+      "created_at": "2026-06-22 01:35:16",
+      "state": "N9",
+      "kod_dun": "N10",
+      "dun_name": "Nilai",
+      "tier": "WAJIB-PAS23",
+      "trek": "lokaliti",
+      "trek_label": "Lokaliti DUN",
+      "post_text_suggested": "agaknya di Nilai ni PAS menang ok ke? tengok ramai bincang pasal pekerja KL je",
+      "post_text_actual": "t",
+      "platform": "facebook",
+      "group_name": "",
+      "pelapor_id": "HQ",
+      "wait_hours": 12,
+      "wait_label": "12 jam",
+      "status": "posted",
+      "posted_at": "2026-06-22 01:35:16",
+      "crawl_due_at": "2026-06-22 13:35:16",
+      "post_url": null,
+      "crawl_task_id": null,
+      "crawl_at": null,
+      "results": null,
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+================================================================================
+PRN JOHOR 2026 — 11 CALON PAS / PN · CRAWL KIT SIAP TAMPAL
+Projek InsightPulse: PRN_Johor
+Tarikh mengundi: Sabtu 11 Julai 2026
+Disediakan: 8 Julai 2026
+================================================================================
+
+CARA GUNA (PENTING)
+-------------------
+1. Buka http://localhost:8001
+2. Project / Client → PRN Johor 2026 — Internal · JITP 2026
+3. Analysis Type → Social Listening (atau Multimodal Video + Text)
+4. Processing → On-Prem (Nemotron)
+5. Date Range → Last 7 Days (3 hari akhir: tukar ke Last 7 Days / 3 days jika ada)
+6. Dataset Size → 500 (per batch) atau 300 (cepat)
+7. SATU batch = SATU senarai URL atau SATU query keyword
+8. Selesai satu batch → mula batch seterusnya
+
+NOTA URL FACEBOOK share/...
+- Link share Facebook masih boleh crawl, tapi profil page (.com/NamaPage) lebih stabil.
+- Jika crawl gagal, guna keyword batch untuk kerusi sama.
+
+================================================================================
+TETAPAN ASAS (SAMA SETIAP BATCH)
+================================================================================
+  Crawl Mode       → Direct URL Crawl  (untuk batch URL)
+                     Keyword Search    (untuk batch keyword)
+  Platforms        → Facebook + TikTok  (+ Instagram untuk N.35 sahaja)
+  Comment Sampling → Smart
+  Project          → PRN Johor 2026
+
+================================================================================
+BATCH A — FACEBOOK (SEMUA 11 CALON) · ~15 min
+================================================================================
+Crawl Mode: Direct URL Crawl
+Platforms: [X] Facebook  [ ] TikTok  [ ] YouTube
+
+PASTE URL (satu per baris):
+https://www.facebook.com/share/1Kqpb1u3e7/?mibextid=wwXIfr
+https://www.facebook.com/NormalaSudirmanCgMala
+https://www.facebook.com/AwangAnakJeram
+https://www.facebook.com/share/1aFuTiiYs6/?mibextid=wwXIfr
+https://www.facebook.com/share/1D81ybDQiH/
+https://www.facebook.com/share/1BP7MyJuPw/
+https://www.facebook.com/share/18qaCVtwpf/
+https://www.facebook.com/share/1ERMaftDCC/
+https://www.facebook.com/share/1EiMRrRQcC/
+https://www.facebook.com/share/17niQNiiBd/?mibextid=wwXIfr
+https://www.facebook.com/share/1FU6Vv7Hoj/
+
+================================================================================
+BATCH B — TIKTOK (SEMUA 11 CALON) · ~15 min
+================================================================================
+Crawl Mode: Direct URL Crawl
+Platforms: [ ] Facebook  [X] TikTok
+
+PASTE URL:
+https://www.tiktok.com/@saif_abduh
+https://www.tiktok.com/@normalasudirman
+https://www.tiktok.com/@awanganakjeram
+https://www.tiktok.com/@anuarhayan
+https://www.tiktok.com/@ustazamin_n16
+https://www.tiktok.com/@halimkepol
+https://www.tiktok.com/@ustaz.rosdi1
+https://www.tiktok.com/@mazlan.bujang2
+https://www.tiktok.com/@hakimyhussien
+https://www.tiktok.com/@yuhanita.yunan
+https://www.tiktok.com/@khirul.muntanazar
+
+================================================================================
+BATCH C — INSTAGRAM + THREADS (N.35 PASIR RAJA SAHAJA) · Yuhanita
+================================================================================
+Crawl Mode: Direct URL Crawl
+Platforms: [X] Instagram  [ ] Facebook  [ ] TikTok
+
+PASTE URL:
+https://www.instagram.com/yuhanita_yunan
+https://www.threads.com/@yuhanita_yunan
+
+================================================================================
+BATCH D — KEYWORD PER KERUSI (11 CRAWL BERASINGAN)
+================================================================================
+Crawl Mode: Keyword Search
+Platforms: Facebook + TikTok + YouTube
+Dataset: 500 · Date: Last 7 Days
+
+--- D1 · N.02 Jementah — Saifullah bin Abdul Wahab ---
+("Saifullah Abdul Wahab" OR "Saifullah Wahab" OR "Jementah" OR "N02" OR "N.02") ("PRN Johor" OR "PRN16" OR PAS OR PN)
+
+--- D2 · N.05 Tenang — Normala binti Sudirman ---
+("Normala Sudirman" OR "Tenang" OR "N05" OR "N.05") ("PRN Johor" OR "PRN16" OR PAS OR PN)
+
+--- D3 · N.13 Simpang Jeram — Arshed bin Yahya ---
+("Arshed Yahya" OR "Awang Anak Jeram" OR "Simpang Jeram" OR "N13" OR "N.13") ("PRN Johor" OR PAS OR PN)
+
+--- D4 · N.15 Maharani — Mohamad Anuar bin Hayan ---
+("Anuar Hayan" OR "Mohamad Anuar" OR "Maharani" OR "N15" OR "N.15") ("PRN Johor" OR PAS OR PN)
+
+--- D5 · N.16 Sungai Balang — Muhammad Amin bin Saillan ---
+("Ustaz Amin" OR "Muhammad Amin Saillan" OR "Sungai Balang" OR "N16" OR "N.16") ("PRN Johor" OR PAS OR PN)
+
+--- D6 · N.17 Semerah — Halim @ Othman bin Kepol ---
+("Halim Kepol" OR "Halim Othman" OR "Semerah" OR "N17" OR "N.17") ("PRN Johor" OR PAS OR PN)
+
+--- D7 · N.18 Sri Medan — Ahmad Rosdi bin Bahari ---
+("Ahmad Rosdi" OR "Ustaz Rosdi" OR "Sri Medan" OR "N18" OR "N.18") ("PRN Johor" OR PAS OR PN)
+
+--- D8 · N.31 Kahang — Hj Mazlan b Bujang ---
+("Mazlan Bujang" OR "Haji Mazlan" OR "Kahang" OR "N31" OR "N.31") ("PRN Johor" OR PAS OR PN)
+
+--- D9 · N.32 Endau — Hasnul Hakimi bin Hussien ---
+("Hasnul Hakimi" OR "Hakimi Hussien" OR "Endau" OR "N32" OR "N.32") ("PRN Johor" OR PAS OR PN)
+
+--- D10 · N.35 Pasir Raja — Yuhanita binti Yunan ---
+("Yuhanita Yunan" OR "Pasir Raja" OR "N35" OR "N.35") ("PRN Johor" OR PAS OR PN)
+
+--- D11 · N.40 Tiram — Khirul-Muntanazar bin Ismail ---
+("Khirul Muntanazar" OR "Khirul Ismail" OR "Tiram" OR "N40" OR "N.40") ("PRN Johor" OR PAS OR PN)
+
+================================================================================
+BATCH E — KEYWORD STATEWIDE (SATU CRAWL CEPAT)
+================================================================================
+Crawl Mode: Keyword Search
+Platforms: Facebook + TikTok + YouTube
+Dataset: 1000 · Date: Last 7 Days
+
+QUERY:
+("PRN Johor" OR "PRN16" OR "pilihan raya negeri Johor") AND (PAS OR "Parti Islam" OR PN OR "Perikatan Nasional")
+
+================================================================================
+JADUAL 3 HARI TERAKHIR (DISYORKAN)
+================================================================================
+Rabu 8 Jul   → Batch A (FB) + Batch B (TikTok)
+Khamis 9 Jul → Batch D1–D6 (kerusi rebutan + kuat)
+Jumaat 10 Jul→ Batch D7–D11 + Batch C (Yuhanita IG)
+Sabtu 11 Jul → Batch E (statewide) + Date Range 24h/7days
+
+Selepas crawl:
+  cd /Users/rmtariq/Documents/InsightPulse
+  ./scripts/update_narrative.sh johor
+
+War Room:
+  http://localhost:8080/?module=narrative&state=Johor
+
+================================================================================
+RUJUKAN KERUSI (MODEL INSIGHTPULSE)
+================================================================================
+✅ Cerah PN   : N.15 Maharani · N.32 Endau
+⚔️ Rebutan    : N.05 Tenang · N.16 Sungai Balang · N.17 Semerah · N.18 Sri Medan
+                N.35 Pasir Raja · N.40 Tiram
+❌ Sukar      : N.02 Jementah · N.13 Simpang Jeram
+❌ Sangat sukar: N.31 Kahang (BN kuat)
+
+Sumber: data/projects/political/PRN/PRN_Johor/reports/dashboards/prn-johor-ph-solo-56-scenario.json
+
+================================================================================

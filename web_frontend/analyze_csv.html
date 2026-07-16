@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Existing CSV - InsightPulse</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .csv-list {
+            border: 2px dashed #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .csv-list.drag-over {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #f8f9fa;
+            margin-bottom: 20px;
+        }
+        .upload-area:hover {
+            background: #f0f4ff;
+            border-color: #764ba2;
+        }
+        .upload-area.drag-over {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .upload-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .file-input {
+            display: none;
+        }
+        .divider {
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+        }
+        .divider::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #ddd;
+        }
+        .divider span {
+            background: white;
+            padding: 0 15px;
+            position: relative;
+            color: #666;
+            font-weight: 600;
+        }
+        .csv-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .csv-item:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        .csv-item.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+        .csv-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .csv-meta {
+            font-size: 12px;
+            color: #666;
+        }
+        .csv-item.selected .csv-meta {
+            color: #e0e7ff;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        .status.success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .status.loading {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        /* Dashboard Styles */
+        .dashboard {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .dashboard-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .stat-value {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        .priority-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .priority-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .priority-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+        .priority-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: 10px;
+        }
+        .badge-critical { background: #ffebee; color: #c62828; }
+        .badge-high { background: #fff3e0; color: #e65100; }
+        .badge-medium { background: #fff8e1; color: #f57f17; }
+        .badge-low { background: #e8f5e9; color: #2e7d32; }
+        .badge-opportunity { background: #e3f2fd; color: #1565c0; }
+        .example-box {
+            background: #f0f4ff;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 12px;
+            font-style: italic;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Analyze Existing CSV Files</h1>
+        <p class="subtitle">Run Universal Intelligence Analysis on previously collected data</p>
+
+        <div class="section">
+            <div class="section-title">Step 1: Upload or Select CSV File</div>
+
+            <!-- Drag and Drop Upload Area -->
+            <div class="upload-area" id="uploadArea">
+                <input type="file" id="fileInput" class="file-input" accept=".csv">
+                <div class="upload-icon">📁</div>
+                <div style="font-size: 18px; font-weight: 600; margin-bottom: 8px;">
+                    Drag & Drop CSV File Here
+                </div>
+                <div style="color: #666; font-size: 14px;">
+                    or click to browse your computer
+                </div>
+            </div>
+
+            <div class="divider">
+                <span>OR SELECT FROM EXISTING FILES</span>
+            </div>
+
+            <!-- Existing CSV Files List -->
+            <div id="csvList" class="csv-list">
+                <div class="empty-state">Loading CSV files...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Step 2: Configure Analysis</div>
+            <div class="form-group">
+                <label for="topicName">Brand/Topic Name</label>
+                <input type="text" id="topicName" placeholder="e.g., Mara Liner, Coca-Cola, Tesla">
+            </div>
+            <div class="form-group">
+                <label for="filterDays">Time Filter (days)</label>
+                <input type="number" id="filterDays" value="90" min="1" max="365">
+            </div>
+        </div>
+
+        <button class="btn" id="analyzeBtn" disabled>Analyze CSV</button>
+
+        <div id="status" class="status"></div>
+
+        <!-- Results Dashboard -->
+        <div id="resultsDashboard" style="display: none; margin-top: 40px;"></div>
+    </div>
+
+    <script>
+        let selectedCSV = null;
+        let uploadedFile = null;
+
+        // Upload Area and File Input Elements
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+
+        // Click to browse
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        // File selected via browse
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        // Drag and drop events
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('drag-over');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('drag-over');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('drag-over');
+
+            if (e.dataTransfer.files.length > 0) {
+                const file = e.dataTransfer.files[0];
+                if (file.name.endsWith('.csv')) {
+                    handleFile(file);
+                } else {
+                    showStatus('Please upload a CSV file', 'error');
+                }
+            }
+        });
+
+        // Handle uploaded file
+        function handleFile(file) {
+            uploadedFile = file;
+            selectedCSV = null; // Clear any selected existing file
+
+            // Remove selection from existing files
+            document.querySelectorAll('.csv-item').forEach(i => i.classList.remove('selected'));
+
+            // Update upload area to show selected file
+            uploadArea.innerHTML = `
+                <div class="upload-icon">✅</div>
+                <div style="font-size: 18px; font-weight: 600; margin-bottom: 8px; color: #667eea;">
+                    ${file.name}
+                </div>
+                <div style="color: #666; font-size: 14px;">
+                    ${(file.size / (1024 * 1024)).toFixed(2)} MB
+                </div>
+                <div style="margin-top: 10px;">
+                    <button onclick="clearUpload()" style="background: #f44336; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer;">
+                        Remove
+                    </button>
+                </div>
+            `;
+
+            // Enable analyze button
+            document.getElementById('analyzeBtn').disabled = false;
+
+            showStatus('File ready to analyze', 'success');
+        }
+
+        // Clear uploaded file
+        function clearUpload() {
+            uploadedFile = null;
+            fileInput.value = '';
+
+            // Reset upload area
+            uploadArea.innerHTML = `
+                <input type="file" id="fileInput" class="file-input" accept=".csv">
+                <div class="upload-icon">📁</div>
+                <div style="font-size: 18px; font-weight: 600; margin-bottom: 8px;">
+                    Drag & Drop CSV File Here
+                </div>
+                <div style="color: #666; font-size: 14px;">
+                    or click to browse your computer
+                </div>
+            `;
+
+            // Re-attach event listeners
+            const newFileInput = document.getElementById('fileInput');
+            const newUploadArea = document.getElementById('uploadArea');
+            newUploadArea.addEventListener('click', () => newFileInput.click());
+            newFileInput.addEventListener('change', (e) => {
+                if (e.target.files.length > 0) {
+                    handleFile(e.target.files[0]);
+                }
+            });
+
+            document.getElementById('analyzeBtn').disabled = true;
+            showStatus('', 'success');
+        }
+
+        // Load CSV files on page load
+        async function loadCSVFiles() {
+            try {
+                const response = await fetch('/api/list-csvs');
+                const data = await response.json();
+                
+                const csvList = document.getElementById('csvList');
+                
+                if (data.csvs && data.csvs.length > 0) {
+                    csvList.innerHTML = data.csvs.map(csv => `
+                        <div class="csv-item" data-path="${csv.path}">
+                            <div class="csv-name">${csv.filename}</div>
+                            <div class="csv-meta">Size: ${csv.size_mb} MB | Modified: ${new Date(csv.modified_date * 1000).toLocaleString()}</div>
+                        </div>
+                    `).join('');
+                    
+                    // Add click handlers
+                    document.querySelectorAll('.csv-item').forEach(item => {
+                        item.addEventListener('click', () => selectCSV(item));
+                    });
+                } else {
+                    csvList.innerHTML = '<div class="empty-state">No CSV files found in data/combined/</div>';
+                }
+            } catch (error) {
+                console.error('Error loading CSVs:', error);
+                document.getElementById('csvList').innerHTML = '<div class="empty-state">Error loading CSV files</div>';
+            }
+        }
+
+        function selectCSV(item) {
+            // Remove previous selection
+            document.querySelectorAll('.csv-item').forEach(i => i.classList.remove('selected'));
+            
+            // Select current
+            item.classList.add('selected');
+            selectedCSV = item.dataset.path;
+            
+            // Enable analyze button
+            document.getElementById('analyzeBtn').disabled = false;
+        }
+
+        async function analyzeCSV() {
+            const topicName = document.getElementById('topicName').value.trim();
+            const filterDays = parseInt(document.getElementById('filterDays').value);
+
+            if (!selectedCSV && !uploadedFile) {
+                showStatus('Please select or upload a CSV file', 'error');
+                return;
+            }
+
+            if (!topicName) {
+                showStatus('Please enter a brand/topic name', 'error');
+                return;
+            }
+
+            showStatus('Analyzing CSV... This may take a minute...', 'loading');
+            document.getElementById('analyzeBtn').disabled = true;
+
+            try {
+                let response;
+
+                if (uploadedFile) {
+                    // Upload file first, then analyze
+                    const formData = new FormData();
+                    formData.append('file', uploadedFile);
+
+                    showStatus('Uploading file...', 'loading');
+                    const uploadResponse = await fetch('/api/upload-csv', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const uploadData = await uploadResponse.json();
+
+                    if (!uploadData.success) {
+                        throw new Error(uploadData.detail || 'Upload failed');
+                    }
+
+                    // Now analyze the uploaded file
+                    showStatus('File uploaded. Analyzing...', 'loading');
+                    response = await fetch('/api/analyze-csv', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            csv_path: uploadData.path,
+                            topic_name: topicName,
+                            filter_days: filterDays
+                        })
+                    });
+                } else {
+                    // Analyze existing selected file
+                    response = await fetch('/api/analyze-csv', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            csv_path: selectedCSV,
+                            topic_name: topicName,
+                            filter_days: filterDays
+                        })
+                    });
+                }
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showStatus(`✅ Analysis complete! Results saved to: ${data.output_dir}`, 'success');
+
+                    // Display the dashboard with insights
+                    if (data.insights) {
+                        displayDashboard(data.insights, topicName);
+                    }
+                } else {
+                    showStatus(`❌ Error: ${data.message || data.detail || 'Unknown error'}`, 'error');
+                }
+            } catch (error) {
+                showStatus(`❌ Error: ${error.message}`, 'error');
+            } finally {
+                document.getElementById('analyzeBtn').disabled = false;
+            }
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+
+        function displayDashboard(insights, topicName) {
+            const dashboard = document.getElementById('resultsDashboard');
+            const exec = insights.executive_snapshot || {};
+            const priorities = insights.business_priorities || [];
+
+            let html = `
+                <div class="dashboard">
+                    <h2 class="dashboard-title">📊 ${topicName} - Analysis Dashboard</h2>
+
+                    <!-- Data Quality Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">${exec.data_quality?.total_raw_records || 0}</div>
+                            <div class="stat-label">Total Records</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${exec.data_quality?.relevant_records || 0}</div>
+                            <div class="stat-label">Relevant Records</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${exec.data_quality?.data_quality_score || '0%'}</div>
+                            <div class="stat-label">Quality Score</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">${exec.time_coverage?.days_covered || 0}</div>
+                            <div class="stat-label">Days Covered</div>
+                        </div>
+                    </div>
+
+                    <!-- Business Priorities -->
+                    <div class="priority-section">
+                        <div class="priority-title">🎯 Top Business Priorities</div>
+            `;
+
+            if (priorities.length > 0) {
+                priorities.forEach((priority, index) => {
+                    const badgeClass = `badge-${priority.severity}`;
+                    const examples = priority.examples || [];
+
+                    html += `
+                        <div class="priority-item">
+                            <strong>${index + 1}. ${priority.category}</strong>
+                            <span class="priority-badge ${badgeClass}">${priority.severity}</span>
+                            <div style="margin-top: 10px; color: #666; font-size: 14px;">
+                                📊 Volume: <strong>${priority.volume}</strong> |
+                                Sentiment: <strong>${priority.sentiment_avg}</strong> |
+                                Engagement: <strong>${priority.engagement_total}</strong>
+                            </div>
+                    `;
+
+                    if (examples.length > 0) {
+                        html += `
+                            <div class="example-box">
+                                "${examples[0].text}"
+                                <div style="margin-top: 8px; font-size: 12px; color: #888;">
+                                    📱 ${examples[0].platform} | Sentiment: ${examples[0].sentiment}
+                                </div>
+                            </div>
+                        `;
+                    }
+
+                    html += `</div>`;
+                });
+            } else {
+                html += `<p style="text-align: center; color: #666;">No priority items found.</p>`;
+            }
+
+            html += `
+                    </div>
+
+                    <!-- Platform Breakdown -->
+                    <div class="priority-section">
+                        <div class="priority-title">📱 Platform Breakdown</div>
+                        <div class="stats-grid">
+            `;
+
+            const platforms = exec.platform_breakdown || {};
+            Object.keys(platforms).forEach(platform => {
+                html += `
+                    <div class="stat-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="stat-value">${platforms[platform]}</div>
+                        <div class="stat-label">${platform.charAt(0).toUpperCase() + platform.slice(1)}</div>
+                    </div>
+                `;
+            });
+
+            html += `
+                        </div>
+                    </div>
+
+                    <!-- Sentiment & Emotion Breakdown -->
+            `;
+
+            const enhanced = insights.enhanced_analysis || {};
+            const sentiment = enhanced.sentiment_breakdown || {};
+            const emotion = enhanced.emotion_breakdown || {};
+            const platformDetailed = enhanced.platform_breakdown || {};
+
+            if (sentiment.percentages) {
+                html += `
+                    <div class="priority-section">
+                        <div class="priority-title">😊 Sentiment Analysis</div>
+                        <div class="stats-grid">
+                `;
+
+                Object.keys(sentiment.percentages).forEach(sent => {
+                    const colors = {
+                        'positive': 'linear-gradient(135deg, #4caf50 0%, #45a049 100%)',
+                        'negative': 'linear-gradient(135deg, #f44336 0%, #e53935 100%)',
+                        'neutral': 'linear-gradient(135deg, #9e9e9e 0%, #757575 100%)'
+                    };
+                    html += `
+                        <div class="stat-card" style="background: ${colors[sent] || colors['neutral']};">
+                            <div class="stat-value">${sentiment.percentages[sent]}%</div>
+                            <div class="stat-label">${sent.charAt(0).toUpperCase() + sent.slice(1)} (${sentiment.counts[sent]})</div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (emotion.percentages) {
+                html += `
+                    <div class="priority-section">
+                        <div class="priority-title">💭 Emotion Analysis</div>
+                        <div class="stats-grid">
+                `;
+
+                Object.keys(emotion.percentages).forEach(emo => {
+                    html += `
+                        <div class="stat-card">
+                            <div class="stat-value">${emotion.percentages[emo]}%</div>
+                            <div class="stat-label">${emo.charAt(0).toUpperCase() + emo.slice(1)} (${emotion.counts[emo]})</div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            // AI Strategic Insights
+            const ai = insights.ai_insights || {};
+            if (ai.available) {
+                html += `
+                    <div class="priority-section" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                        <div class="priority-title" style="color: white;">🤖 AI Strategic Insights</div>
+
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                            <h3 style="margin-top: 0;">📋 Ringkasan Eksekutif</h3>
+                            <p>${ai.executive_summary || 'N/A'}</p>
+                        </div>
+
+                        ${Array.isArray(ai.critical_issues) && ai.critical_issues.length > 0 ? `
+                        <div style="background: rgba(244, 67, 54, 0.2); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                            <h3 style="margin-top: 0;">🚨 Isu Kritikal</h3>
+                            <ul>
+                                ${ai.critical_issues.map(issue => `<li>${issue}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ` : ''}
+
+                        ${Array.isArray(ai.opportunities) && ai.opportunities.length > 0 ? `
+                        <div style="background: rgba(76, 175, 80, 0.2); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                            <h3 style="margin-top: 0;">💡 Peluang Perniagaan</h3>
+                            <ul>
+                                ${ai.opportunities.map(opp => `<li>${opp}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ` : ''}
+
+                        ${Array.isArray(ai.strategic_recommendations) && ai.strategic_recommendations.length > 0 ? `
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-bottom: 20px;">
+                            <h3 style="margin-top: 0;">🎯 Cadangan Strategik</h3>
+                            <ol>
+                                ${ai.strategic_recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                            </ol>
+                        </div>
+                        ` : ''}
+
+                        ${ai.next_steps ? `
+                        <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+                            <h3 style="margin-top: 0;">⏭️ Langkah Seterusnya (Hala Tuju)</h3>
+                            ${Array.isArray(ai.next_steps.high_priority) && ai.next_steps.high_priority.length > 0 ? `
+                                <h4>⚡ Prioriti Tinggi:</h4>
+                                <ul>${ai.next_steps.high_priority.map(step => `<li>${step}</li>`).join('')}</ul>
+                            ` : ''}
+                            ${Array.isArray(ai.next_steps.medium_priority) && ai.next_steps.medium_priority.length > 0 ? `
+                                <h4>📌 Prioriti Sederhana:</h4>
+                                <ul>${ai.next_steps.medium_priority.map(step => `<li>${step}</li>`).join('')}</ul>
+                            ` : ''}
+                            ${Array.isArray(ai.next_steps.low_priority) && ai.next_steps.low_priority.length > 0 ? `
+                                <h4>📝 Prioriti Rendah:</h4>
+                                <ul>${ai.next_steps.low_priority.map(step => `<li>${step}</li>`).join('')}</ul>
+                            ` : ''}
+                        </div>
+                        ` : ''}
+                    </div>
+                `;
+            } else if (ai.error) {
+                // Show error if GPT-4 failed
+                html += `
+                    <div class="priority-section" style="background: linear-gradient(135deg, #f44336 0%, #e53935 100%); color: white;">
+                        <div class="priority-title" style="color: white;">⚠️ AI Insights Unavailable</div>
+                        <p>GPT-4 analysis failed: ${ai.error}</p>
+                        <p style="font-size: 14px;">Please check your OpenAI API key and try again.</p>
+                    </div>
+                `;
+            }
+
+            html += `</div>`;
+
+            dashboard.innerHTML = html;
+            dashboard.style.display = 'block';
+
+            // Scroll to dashboard
+            dashboard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Event listeners
+        document.getElementById('analyzeBtn').addEventListener('click', analyzeCSV);
+
+        // Load CSV files on page load
+        loadCSVFiles();
+    </script>
+</body>
+</html>

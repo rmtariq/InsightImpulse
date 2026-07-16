@@ -1,0 +1,161 @@
+================================================================================
+PRN CHINESE NARRATIVE — ARAHAN MANUAL (ANDA JALANKAN SENDIRI)
+N9 · Johor · Melaka  |  Tiada cron / tiada automatik latar belakang
+================================================================================
+
+PRINSIP
+  • ANDA yang tentukan bila crawl — 2–3 kali sehari ikut masa anda
+  • ANDA pantau terminal — setiap langkah nampak output
+  • Keyword kemas kini: edit Excel → save → run script semula bila sedia
+  • Socmed (FB/X) = kos Apify — jalankan hanya bila anda sengaja tick/lulus
+
+Excel keywords:
+  ~/Downloads/PRN_ChineseNarrative_Keywords_2026.xlsx
+  (script auto baca fail ini jika wujud)
+
+
+================================================================================
+ALIRAN KERJA HARIAN (CADANGAN — IKUT MASA ANDA)
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ SESI 1 — Berita percuma (≈10–15 min)                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  # Pilih SATU — ikut keutamaan hari itu:
+
+  # A) Batch pagi: bandar + media Cina (6 query)
+  python3 scripts/crawl_prn_chinese_daily.py --slot morning --news-only
+
+  # B) Batch tengah hari: parti DAP/PH + MCA/BN (6 query)
+  python3 scripts/crawl_prn_chinese_daily.py --slot midday --news-only
+
+  # C) Batch petang: proxy + cross-state (5 query)
+  python3 scripts/crawl_prn_chinese_daily.py --slot evening --news-only
+
+  # D) Semua 17 query berita sekali gus
+  python3 scripts/crawl_prn_chinese_daily.py --slot full --news-only
+
+  # E) Satu stream sahaja (contoh Johor bandar)
+  python3 scripts/crawl_prn_chinese_daily.py --stream S2B2 --news-only --no-rebuild
+
+  Pantau: terminal tunjuk +N artikel setiap query
+  Output: data/projects/political/PRN/PRN_N9/crawls/chinese_news/
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ SESI 2 — Socmed FB/X (OPTIONAL · kos Apify · ≈20–35 min/stream)             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  PILIHAN A — Manual InsightPulse UI (paling mudah pantau):
+    ./start_full_app.sh
+    → Keyword Search · Social Listening · 2000 · Last 30 Days
+    → Salin query dari Excel / CRAWL_INSIGHTPULSE_A_TO_Z_LENGKAP.txt
+    → SATU query = SATU crawl · pantau progress dalam browser
+
+  PILIHAN B — Script (terminal, anda luluskan flag):
+    # Satu negeri, socmed aktif — ANDA mesti sengaja tambah --with-socmed
+    python3 scripts/crawl_prn_chinese_daily.py --slot morning --with-socmed
+
+    # Dataset penuh 2000 (bukan default 800)
+    python3 scripts/crawl_prn_chinese_daily.py --stream S2B2 --with-socmed --full-size
+
+  Output socmed:
+    data/projects/political/PRN/PRN_Johor/crawls/social/
+    data/projects/political/PRN/PRN_Melaka/crawls/social/
+    data/projects/political/PRN/PRN_N9/crawls/social/
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ SESI 3 — Gabung data + dashboard (selepas crawl anda puas hati)             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  cd /Users/rmtariq/Documents/InsightPulse
+  python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+  cd n9_chinese_narrative_dashboard
+  source venv/bin/activate
+  streamlit run app.py
+
+  Sidebar → pilih Negeri · semak volume & isu
+
+
+================================================================================
+COMMAND PANTAS (COPY-PASTE — tanpa # di hujung baris, zsh tidak anggap itu komen)
+
+  python3 scripts/crawl_prn_chinese_daily.py --list
+
+  ./scripts/run_prn_chinese_manual.sh morning
+  ./scripts/run_prn_chinese_manual.sh midday
+  ./scripts/run_prn_chinese_manual.sh evening
+  ./scripts/run_prn_chinese_manual.sh news
+  ./scripts/run_prn_chinese_manual.sh morning socmed
+  ./scripts/run_prn_chinese_manual.sh rebuild
+  ./scripts/run_prn_chinese_manual.sh reports
+
+  python3 scripts/generate_prn_chinese_narrative_reports.py
+  python3 scripts/generate_prn_chinese_narrative_reports.py --negeri johor
+
+  python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+  Panduan penuh: reference/PROSES_DASHBOARD_DAN_LAPORAN.txt
+
+
+================================================================================
+KEMAS KINI KEYWORD (DATA SENTIASA FRESH)
+================================================================================
+
+  1. Edit Excel: PRN_ChineseNarrative_Keywords_2026.xlsx
+     • Sheet KEYWORD MASTER — ubah Query String
+     • Tambah stream baru (Stream ID + query + platform)
+
+  2. Save Excel (Downloads atau copy ke reference/)
+
+  3. Semak script baca keyword betul:
+     python3 scripts/crawl_prn_chinese_daily.py --list
+
+  4. Crawl semula bila ANDA ready (langkah Sesi 1–3)
+
+  JSON sync (auto setiap run): 
+    reference/PRN_Chinese_Narrative_keywords.json
+
+  Regenerate pack penuh (optional):
+    python3 scripts/generate_prn_chinese_narrative_pack.py
+
+
+================================================================================
+CHECKLIST PANTAU (TICK MANUAL)
+================================================================================
+
+  Tarikh: ___________
+
+  [ ] Excel keyword dikemas kini (jika perlu)
+  [ ] Sesi 1 — news crawl (__ morning / __ midday / __ evening)
+  [ ] Sesi 2 — socmed (skip / __ stream: _______)
+  [ ] Sesi 3 — build_prn_chinese_dashboard_dataset.py
+  [ ] Dashboard dibuka & negeri disemak
+  [ ] Laporan PDF/DOCX dijana (./scripts/run_prn_chinese_manual.sh reports)
+  [ ] Nota isu hari ini: _________________________________
+
+  Panduan penuh dashboard + laporan:
+    reference/PROSES_DASHBOARD_DAN_LAPORAN.txt
+
+
+================================================================================
+RINGKASAN BATCH (slot = kumpulan query, BUKAN auto-schedule)
+================================================================================
+
+  morning  → S2B2 S3B2 S1B2 S2A1 S3A1 S1A1  (bandar + media Cina)
+  midday   → S2B1 S3B1 S1B1 S2B3 S3B3 S1B3  (parti)
+  evening  → S2A2 S3A2 S1A2 SX1 SX2         (proxy + cross)
+  full     → semua 17 stream
+  tinggi   → prioriti Tinggi sahaja
+
+  "Slot" = cara pecah kerja — ANDA pilih bila run, bukan sistem auto.
+
+
+================================================================================
+TAMAT
+================================================================================

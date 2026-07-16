@@ -1,0 +1,28 @@
+# CULA DIGITAL — N33 Sri Tanjung (seed post URLs)
+# ==========================================================
+# Tier: WAJIB-PAS23 · Daerah: Port Dickson
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Sri Tanjung (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N33
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Bandar PD; Teluk Kemang
+# ISU TEMPATAN: pelancongan; pantai PD; pengundi muda
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "agaknya di Sri Tanjung ni PAS menang ok ke? tengok ramai bincang pasal pelancongan je"
+#   "korang area Bandar PD — undi kali ni ikut parti ke ikut calon?"
+#   "siapa lagi kat Sri Tanjung rasa pelancongan makin susah ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Sri Tanjung atau Bandar PD
+#   • Post sebut Sri Tanjung atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

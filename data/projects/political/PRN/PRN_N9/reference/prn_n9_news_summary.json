@@ -1,0 +1,84 @@
+{
+  "fetched_at": "2026-06-22T23:48:33",
+  "csv_file": "data/projects/political/PRN/PRN_N9/crawls/news/PRN_N9_News_20260622_234833.csv",
+  "total_articles": 124,
+  "total_relevant": 58,
+  "queries": [
+    "\"PRN Negeri Sembilan\" OR \"pilihan raya negeri sembilan\" when:30d",
+    "\"SPR\" \"Negeri Sembilan\" penamaan OR mengundi when:30d",
+    "Aminuddin OR \"Undang-empat\" \"Negeri Sembilan\" when:30d",
+    "PAS OR PN OR UMNO \"Negeri Sembilan\" PRN when:30d"
+  ],
+  "keyword_hits": {
+    "spr": 0,
+    "penamaan": 0,
+    "mengundi": 0,
+    "pas": 11,
+    "umno": 8,
+    "ph": 10,
+    "aminuddin": 22,
+    "bubar": 2
+  },
+  "top_headlines": [
+    {
+      "text": "PRN Melaka menyusul selepas Johor, Negeri Sembilan - Ab Rauf. Ayer Keroh: Pembubaran Dewan Undangan Negeri (DUN) Melaka berkemungkinan besar berlaku dalam tempoh tiga bulan lagi, kata Ketua Menteri, D",
+      "url": "https://www.hmetro.com.my/mutakhir/2026/06/1373576/prn-melaka-menyusul-selepas-johor-negeri-sembilan-ab-rauf",
+      "date": "2026-06-22T16:13:29+00:00"
+    },
+    {
+      "text": "DAP sedia lawan PAS di kerusi tradisi, ingat semua parti elak isu 3R. Setiausaha DAP Negeri Sembilan Cha Kee Chin berkata parti itu menyerahkan kepada pengundi untuk menilai calon yang bertanding",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/06/22/dap-sedia-lawan-pas-di-kerusi-tradisi-ingat-semua-parti-elak-isu-3r",
+      "date": "2026-06-22T12:00:19+00:00"
+    },
+    {
+      "text": "Melaka PRN to follow after Johor, Negeri Sembilan – Ab Rauf",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTnRpbnRwcUxEa3FvY3o1X3phT3Jwb3d0RU95b0NTaHJWbzJsX2g3SERreDgwWVR5TU5HWHJabVduSFNfTXRsdkNScXNDWkttSXVEekllUnlqamZoN2VnTVVGQk1jdWF4YXBwaG1EYjhLUVFEUnN4cjlibXRRUjRXcGtRSDZROXYtQmtxbl9pRm5PMkdDUVlZUFJ6QzFFVmNnNGlPUA?oc=5",
+      "date": "2026-06-22T09:18:00+00:00"
+    },
+    {
+      "text": "PAS eyes traditional DAP seats in Negeri Sembilan polls",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FQVBOOEI5cXZaMFphQlRJTjd6NUdOUkRPb1VjR19Bbi1XUUxZUmU1OUxEOTJ0dHpUTHNtc20waVlUN0w2NWUyQ09TSGgxNWNZVFU5dERqZ3l0RUdpTW02WVV3?oc=5",
+      "date": "2026-06-22T07:01:16+00:00"
+    },
+    {
+      "text": "PN mesyuarat Isnin bincang isu logo, calon PRN N Sembilan, Johor",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1oUDc1aEhSbnJOY25CX1JWTXNhMHZNVkpZOTZTd0JYWWo0WUU2by1BUU11S01SOF9MN3JmWmFOOTh5VHRyb1BQVnpSTXFxa3dMTy10VUtNb2JFMTg2bjFJRTdR?oc=5",
+      "date": "2026-06-19T11:15:34+00:00"
+    },
+    {
+      "text": "Negeri Sembilan: Election War Drums Beating Amid Palace Tussle: Negeri Sembilan dissolves assembly, but the political and palace tussles may end up in court",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMb213Y2Zwd1U1Q1FEVjJDdVBUamFuRDhVSnlqVlhVU2NXUXBhZzAtR3ZsRzVHZVlXTWxXcWZGNlowa3ZBZ2FBemxxcXBxald3?oc=5",
+      "date": "2026-06-17T07:30:00+00:00"
+    },
+    {
+      "text": "All eyes on Conference of Rulers and Negeri Sembilan",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnBJS2Rlel9ENWQzV3pRLWtSVW5POVBJSmd3THQxVUQ1Y0VtcmphbGRSSUlSNzR0RHQ4NG1SVko5TXZMRjRlSXJTSHZZT1ljT2NQZXhSQW9hUUFKd3FtQ19PazhaZC1tMFBUTUxxNWpxMUhQOC1ySmpvcVJQdU1YVE1qMGFlUlFlWjRSOVg1SkNGNE43RzhBMnZ1YktBNUxDZ0E2c1NWZ2Nzb0c4TWVBbWdMSXE?oc=5",
+      "date": "2026-06-16T04:33:00+00:00"
+    },
+    {
+      "text": "There was betrayal in Negeri Sembilan, Anwar tells Zahid",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbXlKdEVkMWNKU2xqX0kwY3VlMmJITmxDWUloQ1NwUlFrR2d4RkhwRnU1b3U1b3MyUU9Cdk9fbjdQZGl4MlFsb0t3cm5NNE8wdDRRV1VvMWlwX2pCaGpNM2RaUkdRU2xvMUZyYlRGZnRYbWRQZ2tGVmFORnYyaEVCaTdJS0dJd3pxMkVtY1pQblltYzBUS19HVEN0d1B4QnpYaFhTZGNFbURyQkZzNzdDT0NyZkxaeWs?oc=5",
+      "date": "2026-06-14T07:00:00+00:00"
+    },
+    {
+      "text": "Zahid defends Umno’s solo bid in Negeri Sembilan, rejects betrayal claims",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ib01TeXlIc2xRNUJnNnoyM0RpOTJoRWt0QUl1dFBVSzlnbnNuTWZxeG5wZ205WnJ0cE12dXFnd3lIRUhUb3c1c09pYXVlVEdxUVFnUkF1em05aC1nOU1sbERLUTVfMVhVME9aTnB1QS0zOC1LakNwdGlYZHdjQTg?oc=5",
+      "date": "2026-06-13T07:31:23+00:00"
+    },
+    {
+      "text": "Anwar urges Negeri Sembilan voters to return Pakatan to power, backs Aminuddin for MB",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc2cxODdxSHNYZTVpUXd6Q0N3Zng2LTh6X1ZJa1I5VGF1NmY3VmNfbExab3UzdW02TmdtS29KWmFVZUg0WUdJcnRidE45akNRVElFSUJBVzhrMWFlMDlkZmtNSEdFWmx5LU12Q0tpUXFxLTJmMDE1T0VMQVRnanhlbERZMGdrcWlSbUlSOFYzQ2pKaGVJQzJ2d3pyQlAxTUl1WlBCaXBDWHZLZ2s4TTZhQklocVNZNzFwY3lYdlJ0M3VvSmFrbDY2XzFuRERlOVF3XzZBU0FSWEQzUdIB3wFBVV95cUxPLVpXUzVGa0l3TzVEUmItd3d6bHNWUmFQWVgtVjAxMnZGSDI5VFc2WWhnYVVjZTk0VkIwZWNvdmFHbkhCc1pMS3pkaG1zM2UzOGtDLVAtczh6dzNONlE4aE14Z2toNzRlR001em16SktNVldHNlNnQ2RGcUloTHdFWkdrTGxLejhraDkxSWV1MTEyc0FDdU5VYXQxRFMtMEd4ckI1YkVObEpLSkdaekZvRmEwQ3V6SmY0SnlrVDBsQjVfY0J1bEVCWXBoZUZpQU51bGFWcXdQWjhKd01zcUww?oc=5",
+      "date": "2026-06-13T07:00:00+00:00"
+    },
+    {
+      "text": "Loke backs Aminuddin to stay on as Negeri Sembilan MB, says DAP will defend only incumbent seats",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUVhLY1dGaExFbVlSQ3JDTFBYX1ExQW1odktnRkl2V2JIWmZMa1BPb09nZDdzUHlFeGItVE9yTUh6OVZXZjd5R0g4dlMzWGc4dDdvRTFhN1VIWVVrNExuZVdpa1ZVb0xULWZwUDVyOTRjVUR2bGI1cVpCN191c094enFFamhxa0tUbHFUdTFpT2dhWTNLcUVWdEhaWjlfUmFlT25wci1tSElkd0VweWhPcG1jSTUydkV6bnZrT0IwY0hhclRaUXNDdk1KWGx3YlR2ejN4dmNOaUFPY2hJczZnUUhyYXdUWmxR0gHuAUFVX3lxTE9KbDFmdUp5SFBoX2Zra3U4TFJVajN3cGgzUTVSZEJLVENXVTdNdnJmclVsN0thYjV1ZG5HNnRJUm5uczhNRW4wLTRpN09Yb25GRzFqcWFRVkJIV01sXzQ3eVNKQlQ1bXRDUkZZWmVLQnBZUDdhaWh0ak5mNUhHWnNDRHV2THRwY3J2Q0N6WTFUcmhHNnFnRTYwdEZxeENHUXZtOUNFTEpRX3o2VFhwZUhSLWpnSWNKdnlmMFU4cXRWaDJHWE85SEJURGFsY29adWw4bEJkSmgxYXJPdWZXbHFqVGRPTWtSUFhLbzdMbEE?oc=5",
+      "date": "2026-06-13T07:00:00+00:00"
+    },
+    {
+      "text": "Don’t betray Pakatan if you are not picked, Aminuddin tells party leaders and election machinery",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOcGhRS3RUWUF6bEt5X3IzZ1FPRTVIZzNrWE9YMWtkbnVGWGFyaGE5bzlWVDdUQkY3Y3ZaeVZFeFpLUzFrU2U4X1EwRUFicFZlTUY2NVlzQ0Q2LXduYWhIN0ZLYVhjd294THNvR3ZkYnV0YjA2MzNUMjAxYmxkZEZ0VlpEOThqOTE3b1lQNEhTcW9mVnFzaGt5aFdiN3FIWlJGMzZVR3U4dXVUaFN3MVZLcHBvLWpJOTVubjZmRWlrb0JvaGNOVE1GUkR2cmk4TUpQNHhyanA1Q3dDWTFsWC0ta0xGWWZqSTTSAewBQVVfeXFMTk9IN1ZvOVVlVVpKUUtnUXZKZTc3WW84UHVYajF4NlQ4MW1tVmVWcHBhSHFJTXY1M0R2S043a0NfaWM2X256LXFSNXQ1M1B5UVNYMEo3dXZreGpEX3BKZzVTZ2VxeTQzQ0Y1S1dUTHlkd2hWUWtwRjZsVVI2YzRKWllWb0tTVmZXeFlfQnA2SWJCMU8xOHVTNUxIYVpOXzJabVY3NUN3cHBGbTRlTGotYy1sb2tBanE2TkFQckdNSjVIWlJUMElrWkxFa3h5c0Q0cHZQSEVsN0FfZnVUU1VSMW1veWJQaGtmT2hqMnY?oc=5",
+      "date": "2026-06-13T07:00:00+00:00"
+    }
+  ]
+}

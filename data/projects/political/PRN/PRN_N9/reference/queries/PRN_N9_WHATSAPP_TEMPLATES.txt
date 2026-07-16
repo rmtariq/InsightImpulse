@@ -1,0 +1,118 @@
+# PRN N9 — TEMPLATE WHATSAPP (copy & hantar ke Koordinator Petugas)
+# Tiada daftar bot — anda copy dari dashboard atau fail ini → paste WhatsApp → forward ke group
+# Koordinator sebarkan ke group petugas DUN masing-masing
+
+# ═══════════════════════════════════════════════════════════════
+# CARA GUNA
+# 1. Dashboard → tab "Hari Ini" → butang "Copy ke WhatsApp"
+#    ATAU buka: reports/n9_hari_ini_whatsapp.txt (auto-update selepas regenerate)
+# 2. Paste ke WhatsApp Web / phone → chat Koordinator
+# 3. Koordinator edit nama petugas jika perlu → forward ke group N05, N25, dll.
+# 4. Petugas reply DONE bila siap
+# ═══════════════════════════════════════════════════════════════
+
+# ─────────────────────────────────────────────────────────────
+# TEMPLATE 1 — ARAHAN HARIAN PETUGAS (pagi, ~8:00)
+# ─────────────────────────────────────────────────────────────
+"""
+🗳️ *PRN NEGERI SEMBILAN — ARAHAN HARIAN*
+📅 [TARIKH]
+📌 Penamaan: 18 Jul · Mengundi: 1 Ogo
+
+*PERTAHAN — jangan hilang kerusi*
+• *N05 Serting* — [ISU: getah/FELDA]
+  ▫️ Lapangan: house-to-house zon A (500 rumah)
+  ▫️ Socmed: 1 post FB isu getah + foto lawatan
+  ▫️ Petugas: @____
+
+• *N25 Paroi* — [ISU: kos hidup bandar]
+  ▫️ Lapangan: ceramah mini / booth pasar
+  ▫️ Socmed: 1 video TikTok 60s — kos hidup
+  ▫️ Petugas: @____
+
+• *N31 Bagan Pinang* — [ISU: pelancongan PD]
+  ▫️ Lapangan: jumpa nelayan/pencen pelancong
+  ▫️ Socmed: 1 post pantai PD
+  ▫️ Petugas: @____
+
+*BOLEH MENANG — rebut kerusi*
+• *N03 Sungai Lui* — door-to-door 200 rumah · target swing
+• *N09 Lenggeng* — ceramah + counter isu banjir jika perlu
+• *N18 Pilah* — pantau lawan · report foto ke group
+
+⚠️ *ALERT:* [isi dari dashboard jika ada]
+
+✅ Reply *DONE N05* / *DONE N25* bila siap
+— War Room InsightPulse
+"""
+
+# ─────────────────────────────────────────────────────────────
+# TEMPLATE 2 — COPYWRITING SOCmed (petugas digital)
+# ─────────────────────────────────────────────────────────────
+"""
+📱 *POST SOCmed — [N05/N25/N09]*
+Platform: FB + TikTok
+Masa siap: hari ini 8 malam
+
+*Caption BM (copy terus):*
+"Di [KAWASAN], isu [ISU UTAMA] masih jadi kebimbangan rakyat. Kami dengar. Kami do something. [HASHTAG] #PRNNS #NegeriSembilan #DUN[N05]"
+
+*Video TikTok (60 saat):*
+1. Hook: "Tahukah anda di [kawasan]..."
+2. Isu: 1 contoh konkrit (getah/banjir/kos hidup)
+3. Penutup: ajakan jumpa di [lokasi/ceramah]
+4. Hashtag: #PRNNS #fyp #NegeriSembilan
+
+*Jangan:* serang peribadi calon · fitnah · isu 3R provokatif
+"""
+
+# ─────────────────────────────────────────────────────────────
+# TEMPLATE 3 — STRATEGI MINGGUAN (Koordinator → ketua PDM)
+# ─────────────────────────────────────────────────────────────
+"""
+📊 *STRATEGI MINGGU [X] — PRN NS*
+Countdown: [X] hari ke penamaan / [Y] hari ke mengundi
+
+*Fokus minggu ini:*
+1. Pertahan N05, N25, N31 — kehadiran harian socmed
+2. Rebut N03, N09 — lapangan intensif
+3. Pantau isu: [split PAS-Bersatu / SPR / ekonomi]
+
+*Isu panas (dari crawl):*
+• [isi 1-2 headline dari dashboard tab Sentimen]
+
+*KPI minggu:*
+• 6/6 kerusi ada min 1 post
+• 3 ceramah / door-to-door berlaku
+• 0 isu negatif viral tanpa jawapan 4 jam
+
+Sumber data: InsightPulse dashboard (internal)
+"""
+
+# ─────────────────────────────────────────────────────────────
+# TEMPLATE 4 — ISU & COUNTER-NARRATIVE (bila alert)
+# ─────────────────────────────────────────────────────────────
+"""
+🚨 *COUNTER-NARRATIVE — SEGERA*
+Kerusi: [N09 Lenggeng]
+Isu: [contoh: sentiment negatif banjir / serangan lawan]
+
+*Fakta ringkas:*
+• [1-2 bullet fakta / tindakan sudah dibuat]
+
+*Mesej counter (BM):*
+"Kami faham kebimbangan rakyat [kawasan] tentang [isu]. [Tindakan]. Terus hubungi pejabat/service line."
+
+*Tindakan:*
+1. Post counter dalam 4 jam
+2. Petugas balas komen FB (template di atas)
+3. Report screenshot ke group koordinator
+
+Deadline: [masa]
+"""
+
+# ─────────────────────────────────────────────────────────────
+# NOTA: Fail auto n9_hari_ini_whatsapp.txt dikemas kini bila run:
+#   NEImpulse/bin/python scripts/n9_war_room.py
+#   NEImpulse/bin/python scripts/generate_prn_n9_dashboard.py
+# ─────────────────────────────────────────────────────────────

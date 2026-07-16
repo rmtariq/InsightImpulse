@@ -1,0 +1,114 @@
+═══════════════════════════════════════════════════════════════════
+InsightPulse — STRATEGI VOLUME TINGGI + KETEPATAN TINGGI
+PAS–Bersatu · PRN Johor/Melaka/Negeri Sembilan
+Tarikh crawl: 10 Jun 2026 · 18:40 PM
+Pengistiharaan berpisah: Isnin 9 Jun 2026 (malam)
+Window analisis: 9 Jun (malam) → 10 Jun (hari ini)
+═══════════════════════════════════════════════════════════════════
+
+MATLAMAT:
+  ✓ Data BANYAK (target 4,000–8,000+ rekod selepas merge + baseline)
+  ✓ Ketepatan analitik TINGGI (92–96% — mod election monitoring)
+  ✓ WOW factor untuk EXCO (angka besar, before/after, AI brief, viral posts)
+
+═══════════════════════════════════════════════════════════════════
+KENAPA UPGRADE DARI 800 → 5000?
+═══════════════════════════════════════════════════════════════════
+
+InsightPulse pecah keyword " OR " secara parallel:
+  • 24 keyword + dataset 800  = ~100 rekod/keyword  → KURANG tepat
+  • 12 keyword + dataset 5000 = ~416 rekod/keyword  → OPTIMUM
+  • Mod election_monitoring: minimum 2,000 · recommended 3,000 · max 5,000
+
+Masih 1 crawl manual — cuma setting lebih besar.
+
+═══════════════════════════════════════════════════════════════════
+CRAWL 1 — UTAMA (WAJIB) ★ COPY INI ★
+═══════════════════════════════════════════════════════════════════
+
+Platform : Facebook + X + TikTok (+ Threads jika ada dalam UI)
+Dataset  : 2000          ← max dalam UI InsightPulse (cukup untuk window 2 hari)
+Tarikh   : Last 7 Days   ← UI InsightPulse · cover 9–10 Jun + buffer
+           (analisis EXCO tapis 9 Jun malam → 10 Jun sahaja)
+Sentiment: ON · Emotion: ON
+Analysis : Political / Election (jika ada pilihan)
+
+KEYWORD — 12 term berimpak tinggi (jangan tambah banyak OR):
+
+PAS Bersatu OR PAS putus Bersatu OR Perikatan Nasional retak OR penyatuan ummah OR PAS solo OR bertindih kerusi OR Abdul Hadi Awang OR Muhyiddin Yassin OR PRN Johor OR PRN Melaka OR PAS Negeri Sembilan OR Muafakat Nasional Negeri Sembilan
+
+Anggaran masa: 60–120 minit (normal untuk 5000)
+
+═══════════════════════════════════════════════════════════════════
+CRAWL 2 — NEWS (WAJIB untuk wow factor media)
+═══════════════════════════════════════════════════════════════════
+
+Platform : Google News sahaja
+Dataset  : 1500
+Tarikh   : Last 7 Days
+
+PAS Bersatu OR Perikatan Nasional OR Negeri Sembilan PAS OR PRN Johor OR PRN Melaka OR Muhyiddin OR Abdul Hadi Awang OR plot SD OR Aminuddin Harun
+
+Anggaran masa: 20–40 minit
+
+═══════════════════════════════════════════════════════════════════
+SELEPAS CRAWL — PIPELINE KETEPATAN (AI buat, bukan manual EXCO)
+═══════════════════════════════════════════════════════════════════
+
+Langkah 1  Merge Crawl 1 + Crawl 2 → dedup
+Langkah 2  Gabung baseline JITP Mei 2026 (3,601 rekod) → before/after
+Langkah 3  Political context layer (betulkan sentiment politik BM)
+Langkah 4  Tag naratif: SPLIT · SOLO · MN · PN · KHIANAT · UMMah
+Langkah 5  Tag negeri: Johor · Melaka · NS · Nasional
+Langkah 6  NS demografi proxy: BM / English / Tamil-Mandarin cues
+Langkah 7  PAI segmentation + AI executive brief
+Langkah 8  2 dashboard HTML + 1 muka surat EXCO
+
+TARGET AKHIR:
+  • 5,000–10,000+ rekod unique (crawl baru + baseline deduped)
+  • Margin of error sentiment: ±3–5% (vs ±10% pada dataset 800)
+  • Confidence badge: HIGH (≥5,000 data points)
+
+═══════════════════════════════════════════════════════════════════
+WOW FACTOR — APA EXCO AKAN NAMPAK
+═══════════════════════════════════════════════════════════════════
+
+Dashboard Utama (5 tab):
+  ① Hero: "X,XXX posts · XX juta engagement · 14 hari"
+  ② Putus Bersatu? — % naratif split + trend harian + spike date
+  ③ Next Move PAS — solo vs MN vs PN (donut + AI recommendation)
+  ④ Johor / Melaka / NS — impak negeri berasingan
+  ⑤ Before vs After — Mei vs Jun (baseline JITP comparison)
+
+Dashboard NS (EXCO Negeri Sembilan):
+  • PAS solo vs MN vs PN — % discourse NS sahaja
+  • Sentiment PAS vs Bersatu vs PH dalam konteks NS
+  • Demografi proxy: BM / Islam / Cina / India (label: estimasi bahasa)
+  • Top 5 viral posts NS + cadangan mesej
+
+EXCO Brief (1 muka surat):
+  • 3 insight utama · 2 risiko · 2 peluang · 1 cadangan tindakan
+
+═══════════════════════════════════════════════════════════════════
+JIKA TIMEOUT (>2 jam Crawl 1)
+═══════════════════════════════════════════════════════════════════
+
+Plan B — masih 1 crawl, kurang platform:
+  • Dataset: 3000
+  • Platform: Facebook + X sahaja (buang TikTok)
+  • Keyword: sama 12 term
+
+Plan C — jangan kurang keyword; kurang dataset ke 3000 minimum
+
+═══════════════════════════════════════════════════════════════════
+OPTIONAL — FASA 2 (1 minggu sebelum PRN Johor, BUKAN esok)
+═══════════════════════════════════════════════════════════════════
+
+Direct URL crawl · FB+X · 500 · Last 7 days:
+  https://www.facebook.com/PASMalaysia
+  https://www.facebook.com/PASNegeriSembilan
+  https://x.com/pasmy_
+
+Untuk track messaging rasmi PAS — bukan keperluan esok.
+
+═══════════════════════════════════════════════════════════════════

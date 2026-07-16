@@ -1,0 +1,938 @@
+[
+  {
+    "id": "N.01",
+    "name": "Chennah",
+    "status": "battleground",
+    "incumbent": "Tan Kim Hock",
+    "party": "PH",
+    "margin2023": "+4.2%",
+    "sentiment": 48,
+    "issues": [
+      "Cost of Living",
+      "Coastal Erosion",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 42,
+      "chinese": 44,
+      "indian": 12,
+      "other": 2
+    },
+    "action": "Deploy youth influencer; target Chinese fence-sitters",
+    "proxyLocation": "Kampung Chennah",
+    "lat": 3.088731,
+    "lon": 102.078255,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan/kampung teras"
+  },
+  {
+    "id": "N.02",
+    "name": "Pertang",
+    "status": "stronghold",
+    "incumbent": "Mohd Razi",
+    "party": "PN",
+    "margin2023": "+12.8%",
+    "sentiment": 68,
+    "issues": [
+      "Subsidies",
+      "Padi Prices",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 71,
+      "chinese": 18,
+      "indian": 9,
+      "other": 2
+    },
+    "action": "Maintain ground game; defend lead",
+    "proxyLocation": "Simpang Pertang",
+    "lat": 2.968735,
+    "lon": 102.261607,
+    "confidence": "Sederhana",
+    "geoNote": "Selari pusat Jelebu"
+  },
+  {
+    "id": "N.03",
+    "name": "Sungai Lui",
+    "status": "weak",
+    "incumbent": "Gunasekaran A/L M.",
+    "party": "PH",
+    "margin2023": "+9.1%",
+    "sentiment": 38,
+    "issues": [
+      "Indian Community",
+      "Temple Land",
+      "Wages"
+    ],
+    "demo": {
+      "malay": 38,
+      "chinese": 24,
+      "indian": 36,
+      "other": 2
+    },
+    "action": "Limited upside; monitor only",
+    "proxyLocation": "Sungai Lui",
+    "lat": 3.0833,
+    "lon": 102.3718,
+    "confidence": "Sederhana",
+    "geoNote": "Proksi kawasan teras"
+  },
+  {
+    "id": "N.04",
+    "name": "Klawang",
+    "status": "stronghold",
+    "incumbent": "Abdul Rahman",
+    "party": "PN",
+    "margin2023": "+15.3%",
+    "sentiment": 71,
+    "issues": [
+      "FELDA",
+      "Rubber Prices",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 78,
+      "chinese": 12,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Safe seat; reallocate resources",
+    "proxyLocation": "Kuala Klawang",
+    "lat": 2.924371,
+    "lon": 102.059155,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat pentadbiran Jelebu"
+  },
+  {
+    "id": "N.05",
+    "name": "Serting",
+    "status": "battleground",
+    "incumbent": "Lim Wei Jie",
+    "party": "BN",
+    "margin2023": "+2.1%",
+    "sentiment": 51,
+    "issues": [
+      "Border Trade",
+      "Floods",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 55,
+      "chinese": 33,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Increase ceramah frequency; flood relief messaging",
+    "proxyLocation": "Bandar Baru Serting",
+    "lat": 2.90625,
+    "lon": 102.4,
+    "confidence": "Tinggi",
+    "geoNote": "MyGeoName rasmi"
+  },
+  {
+    "id": "N.06",
+    "name": "Palong",
+    "status": "stronghold",
+    "incumbent": "Noraini Yusof",
+    "party": "PN",
+    "margin2023": "+11.4%",
+    "sentiment": 66,
+    "issues": [
+      "Agriculture",
+      "Youth",
+      "Internet Access"
+    ],
+    "demo": {
+      "malay": 74,
+      "chinese": 14,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Hold; boost digital outreach to youth",
+    "proxyLocation": "Pusat Bandar Palong",
+    "lat": 2.9001,
+    "lon": 102.5625,
+    "confidence": "Sederhana",
+    "geoNote": "Gugusan FELDA Palong"
+  },
+  {
+    "id": "N.07",
+    "name": "Jeram Padang",
+    "status": "battleground",
+    "incumbent": "Hafiz Tan",
+    "party": "PN",
+    "margin2023": "+3.8%",
+    "sentiment": 53,
+    "issues": [
+      "Eco-tourism",
+      "Jobs",
+      "Floods"
+    ],
+    "demo": {
+      "malay": 62,
+      "chinese": 26,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Tighten margins; tourism jobs narrative",
+    "proxyLocation": "Rompin",
+    "lat": 2.694524,
+    "lon": 102.526394,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat bandar proksi"
+  },
+  {
+    "id": "N.08",
+    "name": "Bahau",
+    "status": "stronghold",
+    "incumbent": "Zulkifli Omar",
+    "party": "PN",
+    "margin2023": "+13.9%",
+    "sentiment": 69,
+    "issues": [
+      "FELDA",
+      "Subsidies",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 80,
+      "chinese": 11,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Safe; defend FELDA vote",
+    "proxyLocation": "Bahau",
+    "lat": 2.8079,
+    "lon": 102.4049,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat bandar"
+  },
+  {
+    "id": "N.09",
+    "name": "Lenggeng",
+    "status": "stronghold",
+    "incumbent": "Aishah Ghani",
+    "party": "PN",
+    "margin2023": "+16.7%",
+    "sentiment": 72,
+    "issues": [
+      "FELDA",
+      "Palm Oil",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 82,
+      "chinese": 9,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Strongest seat; banker",
+    "proxyLocation": "Lenggeng",
+    "lat": 2.8558,
+    "lon": 101.9424,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat mukim/pekan"
+  },
+  {
+    "id": "N.10",
+    "name": "Nilai",
+    "status": "battleground",
+    "incumbent": "Chong Mei Ling",
+    "party": "BN",
+    "margin2023": "+1.4%",
+    "sentiment": 49,
+    "issues": [
+      "Mixed Seat",
+      "Cost of Living",
+      "Education"
+    ],
+    "demo": {
+      "malay": 51,
+      "chinese": 37,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Top target; aggressive ground campaign",
+    "proxyLocation": "Bandar Baru Nilai",
+    "lat": 2.824445,
+    "lon": 101.783717,
+    "confidence": "Sederhana",
+    "geoNote": "Proksi pusat kerusi"
+  },
+  {
+    "id": "N.11",
+    "name": "Lobak",
+    "status": "stronghold",
+    "incumbent": "Ismail Mokhtar",
+    "party": "PN",
+    "margin2023": "+10.2%",
+    "sentiment": 64,
+    "issues": [
+      "Navy Base",
+      "Tourism",
+      "Subsidies"
+    ],
+    "demo": {
+      "malay": 68,
+      "chinese": 22,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold; engage armed-forces voters",
+    "proxyLocation": "Kampung Lobak",
+    "lat": 2.72832,
+    "lon": 101.929189,
+    "confidence": "Sederhana",
+    "geoNote": "Kawasan teras Lobak"
+  },
+  {
+    "id": "N.12",
+    "name": "Temiang",
+    "status": "battleground",
+    "incumbent": "Suresh Kumar",
+    "party": "PH",
+    "margin2023": "+5.6%",
+    "sentiment": 50,
+    "issues": [
+      "Fisheries",
+      "Tourism",
+      "Wages"
+    ],
+    "demo": {
+      "malay": 56,
+      "chinese": 30,
+      "indian": 13,
+      "other": 1
+    },
+    "action": "Persuadable; fisheries subsidy pledge",
+    "proxyLocation": "Jalan Temiang",
+    "lat": 2.73635,
+    "lon": 101.93892,
+    "confidence": "Sederhana",
+    "geoNote": "Koridor Temiang"
+  },
+  {
+    "id": "N.13",
+    "name": "Sikamat",
+    "status": "weak",
+    "incumbent": "Anwar (PH)",
+    "party": "PH",
+    "margin2023": "+18.3%",
+    "sentiment": 35,
+    "issues": [
+      "Tourism",
+      "PH Stronghold",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 47,
+      "chinese": 32,
+      "indian": 20,
+      "other": 1
+    },
+    "action": "Unwinnable; monitor only",
+    "proxyLocation": "Sikamat",
+    "lat": 2.749922,
+    "lon": 101.974123,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat komuniti Sikamat"
+  },
+  {
+    "id": "N.14",
+    "name": "Ampangan",
+    "status": "weak",
+    "incumbent": "Devi Rajan",
+    "party": "PH",
+    "margin2023": "+8.7%",
+    "sentiment": 40,
+    "issues": [
+      "Urban",
+      "Indian Vote",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 40,
+      "chinese": 28,
+      "indian": 30,
+      "other": 2
+    },
+    "action": "Low priority",
+    "proxyLocation": "Bandar Baru Ampangan",
+    "lat": 2.7275,
+    "lon": 101.964889,
+    "confidence": "Tinggi",
+    "geoNote": "MyGeoName rasmi"
+  },
+  {
+    "id": "N.15",
+    "name": "Juasseh",
+    "status": "battleground",
+    "incumbent": "Wong Ah Seng",
+    "party": "PH",
+    "margin2023": "+6.1%",
+    "sentiment": 47,
+    "issues": [
+      "Industrial",
+      "Foreign Workers",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 49,
+      "chinese": 39,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; jobs messaging",
+    "proxyLocation": "Juasseh",
+    "lat": 2.784796,
+    "lon": 102.299869,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan Juasseh"
+  },
+  {
+    "id": "N.16",
+    "name": "Seri Menanti",
+    "status": "stronghold",
+    "incumbent": "Faridah Hassan",
+    "party": "PN",
+    "margin2023": "+9.8%",
+    "sentiment": 63,
+    "issues": [
+      "Rural",
+      "Subsidies",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 73,
+      "chinese": 18,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold; reinforce religious messaging",
+    "proxyLocation": "Seri Menanti",
+    "lat": 2.697464,
+    "lon": 102.158499,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat adat/istana"
+  },
+  {
+    "id": "N.17",
+    "name": "Senaling",
+    "status": "battleground",
+    "incumbent": "Mohamad Hasan",
+    "party": "BN",
+    "margin2023": "+0.9%",
+    "sentiment": 52,
+    "issues": [
+      "High-Profile",
+      "Cost of Living",
+      "Corruption"
+    ],
+    "demo": {
+      "malay": 54,
+      "chinese": 32,
+      "indian": 13,
+      "other": 1
+    },
+    "action": "CRITICAL: counter coordinated attacks; max effort",
+    "proxyLocation": "Pekan Senaling",
+    "lat": 2.705733,
+    "lon": 102.252953,
+    "confidence": "Sederhana",
+    "geoNote": "Proksi pekan"
+  },
+  {
+    "id": "N.18",
+    "name": "Pilah",
+    "status": "battleground",
+    "incumbent": "Tan Sri Lim",
+    "party": "BN",
+    "margin2023": "+2.7%",
+    "sentiment": 50,
+    "issues": [
+      "Town Centre",
+      "Trade",
+      "Parking"
+    ],
+    "demo": {
+      "malay": 58,
+      "chinese": 31,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Winnable; local trader engagement",
+    "proxyLocation": "Kuala Pilah",
+    "lat": 2.7389,
+    "lon": 102.2487,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat bandar"
+  },
+  {
+    "id": "N.19",
+    "name": "Johol",
+    "status": "stronghold",
+    "incumbent": "Halim Saad",
+    "party": "PN",
+    "margin2023": "+12.1%",
+    "sentiment": 65,
+    "issues": [
+      "Rural",
+      "Agriculture",
+      "Youth"
+    ],
+    "demo": {
+      "malay": 75,
+      "chinese": 15,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold",
+    "proxyLocation": "Johol",
+    "lat": 2.640697,
+    "lon": 102.30142,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan Johol"
+  },
+  {
+    "id": "N.20",
+    "name": "Labu",
+    "status": "weak",
+    "incumbent": "Lee Chee Wah",
+    "party": "PH",
+    "margin2023": "+14.5%",
+    "sentiment": 36,
+    "issues": [
+      "Urban Chinese",
+      "Education",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 33,
+      "chinese": 56,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Unwinnable; monitor",
+    "proxyLocation": "Labu",
+    "lat": 2.75416,
+    "lon": 101.82511,
+    "confidence": "Sederhana",
+    "geoNote": "Mukim/komuter Labu"
+  },
+  {
+    "id": "N.21",
+    "name": "Bukit Kepayang",
+    "status": "weak",
+    "incumbent": "Teo Kok Seong",
+    "party": "PH",
+    "margin2023": "+13.2%",
+    "sentiment": 38,
+    "issues": [
+      "Urban",
+      "Cost of Living",
+      "Chinese Vote"
+    ],
+    "demo": {
+      "malay": 35,
+      "chinese": 53,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Low priority",
+    "proxyLocation": "Taman Bukit Kepayang",
+    "lat": 2.715371,
+    "lon": 101.90668,
+    "confidence": "Sederhana",
+    "geoNote": "Kawasan teras"
+  },
+  {
+    "id": "N.22",
+    "name": "Rahang",
+    "status": "battleground",
+    "incumbent": "Yap Soo Huey",
+    "party": "PH",
+    "margin2023": "+7.3%",
+    "sentiment": 46,
+    "issues": [
+      "Mixed Urban",
+      "Cost of Living",
+      "Floods"
+    ],
+    "demo": {
+      "malay": 48,
+      "chinese": 40,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; flood mitigation pledge",
+    "proxyLocation": "Rahang",
+    "lat": 2.71099,
+    "lon": 101.95212,
+    "confidence": "Sederhana",
+    "geoNote": "Koridor Rahang"
+  },
+  {
+    "id": "N.23",
+    "name": "Mambau",
+    "status": "weak",
+    "incumbent": "Gunalan Pillai",
+    "party": "PH",
+    "margin2023": "+10.9%",
+    "sentiment": 39,
+    "issues": [
+      "Suburban",
+      "Wages",
+      "Indian Vote"
+    ],
+    "demo": {
+      "malay": 44,
+      "chinese": 30,
+      "indian": 25,
+      "other": 1
+    },
+    "action": "Monitor only",
+    "proxyLocation": "Mambau",
+    "lat": 2.668296,
+    "lon": 101.916265,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan Mambau"
+  },
+  {
+    "id": "N.24",
+    "name": "Seremban Jaya",
+    "status": "weak",
+    "incumbent": "Ng Chin Han",
+    "party": "PH",
+    "margin2023": "+16.1%",
+    "sentiment": 34,
+    "issues": [
+      "Urban Chinese",
+      "Heritage",
+      "Parking"
+    ],
+    "demo": {
+      "malay": 28,
+      "chinese": 60,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Unwinnable",
+    "proxyLocation": "Taman Seremban Jaya",
+    "lat": 2.683,
+    "lon": 101.97,
+    "confidence": "Rendah",
+    "geoNote": "Semak semula sebelum guna"
+  },
+  {
+    "id": "N.25",
+    "name": "Paroi",
+    "status": "weak",
+    "incumbent": "Lim Yam Mooi",
+    "party": "PH",
+    "margin2023": "+12.4%",
+    "sentiment": 37,
+    "issues": [
+      "Urban",
+      "Cost of Living",
+      "Chinese Vote"
+    ],
+    "demo": {
+      "malay": 32,
+      "chinese": 55,
+      "indian": 12,
+      "other": 1
+    },
+    "action": "Low priority",
+    "proxyLocation": "Senawang",
+    "lat": 2.685886,
+    "lon": 101.983315,
+    "confidence": "Sederhana",
+    "geoNote": "Proksi Paroi-Senawang"
+  },
+  {
+    "id": "N.26",
+    "name": "Chembong",
+    "status": "battleground",
+    "incumbent": "Aminuddin Harun",
+    "party": "PH",
+    "margin2023": "+6.8%",
+    "sentiment": 51,
+    "issues": [
+      "MB Seat",
+      "Cost of Living",
+      "Development"
+    ],
+    "demo": {
+      "malay": 60,
+      "chinese": 28,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "High-value scalp; sustained pressure",
+    "proxyLocation": "Rembau/Chembong",
+    "lat": 2.590525,
+    "lon": 102.092987,
+    "confidence": "Rendah",
+    "geoNote": "Guna pusat Rembau sementara"
+  },
+  {
+    "id": "N.27",
+    "name": "Rantau",
+    "status": "battleground",
+    "incumbent": "Mohamad Nazri",
+    "party": "PN",
+    "margin2023": "+4.5%",
+    "sentiment": 54,
+    "issues": [
+      "Semi-urban",
+      "Subsidies",
+      "Youth"
+    ],
+    "demo": {
+      "malay": 64,
+      "chinese": 24,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Defend; youth turnout drive",
+    "proxyLocation": "Rantau",
+    "lat": 2.588941,
+    "lon": 101.963676,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat bandar"
+  },
+  {
+    "id": "N.28",
+    "name": "Kota",
+    "status": "stronghold",
+    "incumbent": " روسلان Ruslan",
+    "party": "PN",
+    "margin2023": "+13.7%",
+    "sentiment": 67,
+    "issues": [
+      "Rural",
+      "Padi",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 79,
+      "chinese": 12,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold",
+    "proxyLocation": "Kota",
+    "lat": 2.51265,
+    "lon": 102.14456,
+    "confidence": "Sederhana",
+    "geoNote": "Mukim/pekan Kota"
+  },
+  {
+    "id": "N.29",
+    "name": "Chuah",
+    "status": "stronghold",
+    "incumbent": "Datuk Mansor",
+    "party": "PN",
+    "margin2023": "+14.8%",
+    "sentiment": 70,
+    "issues": [
+      "Royal Town",
+      "Adat",
+      "Tourism"
+    ],
+    "demo": {
+      "malay": 81,
+      "chinese": 11,
+      "indian": 7,
+      "other": 1
+    },
+    "action": "Safe; respect adat sensitivities",
+    "proxyLocation": "Bukit Pelandok",
+    "lat": 2.641,
+    "lon": 101.7561,
+    "confidence": "Sederhana",
+    "geoNote": "Guna pusat Bukit Pelandok"
+  },
+  {
+    "id": "N.30",
+    "name": "Lukut",
+    "status": "stronghold",
+    "incumbent": "Hasniza Hamid",
+    "party": "PN",
+    "margin2023": "+12.9%",
+    "sentiment": 66,
+    "issues": [
+      "Rural",
+      "Agriculture",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 77,
+      "chinese": 14,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold",
+    "proxyLocation": "Lukut",
+    "lat": 2.578032,
+    "lon": 101.840258,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan Lukut"
+  },
+  {
+    "id": "N.31",
+    "name": "Bagan Pinang",
+    "status": "stronghold",
+    "incumbent": "Zaidi Abu Bakar",
+    "party": "PN",
+    "margin2023": "+10.6%",
+    "sentiment": 64,
+    "issues": [
+      "Town",
+      "Trade",
+      "Subsidies"
+    ],
+    "demo": {
+      "malay": 70,
+      "chinese": 20,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold; trader engagement",
+    "proxyLocation": "Si Rusa/Teluk Kemang",
+    "lat": 2.44569,
+    "lon": 101.859148,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat pesisir proksi"
+  },
+  {
+    "id": "N.32",
+    "name": "Linggi",
+    "status": "stronghold",
+    "incumbent": "Saiful Yazan",
+    "party": "PN",
+    "margin2023": "+15.9%",
+    "sentiment": 71,
+    "issues": [
+      "Rural",
+      "FELDA",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 83,
+      "chinese": 9,
+      "indian": 7,
+      "other": 1
+    },
+    "action": "Banker seat",
+    "proxyLocation": "Linggi",
+    "lat": 2.486559,
+    "lon": 102.009948,
+    "confidence": "Sederhana",
+    "geoNote": "Pekan Linggi"
+  },
+  {
+    "id": "N.33",
+    "name": "Sri Tanjung",
+    "status": "battleground",
+    "incumbent": "Teo Eng Ching",
+    "party": "PH",
+    "margin2023": "+5.2%",
+    "sentiment": 49,
+    "issues": [
+      "Mixed Town",
+      "Cost of Living",
+      "Trade"
+    ],
+    "demo": {
+      "malay": 52,
+      "chinese": 36,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Top target; trader + Malay swing",
+    "proxyLocation": "Port Dickson",
+    "lat": 2.52254,
+    "lon": 101.796293,
+    "confidence": "Sederhana",
+    "geoNote": "Guna pusat bandar PD"
+  },
+  {
+    "id": "N.34",
+    "name": "Gemas",
+    "status": "battleground",
+    "incumbent": "Ariffin Omar",
+    "party": "PN",
+    "margin2023": "+3.1%",
+    "sentiment": 53,
+    "issues": [
+      "Highland",
+      "Floods",
+      "Tourism"
+    ],
+    "demo": {
+      "malay": 66,
+      "chinese": 23,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Defend; flood preparedness messaging",
+    "proxyLocation": "Gemas",
+    "lat": 2.581593,
+    "lon": 102.612488,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat bandar"
+  },
+  {
+    "id": "N.35",
+    "name": "Gemencheh",
+    "status": "weak",
+    "incumbent": "Bhagwan Singh",
+    "party": "PH",
+    "margin2023": "+11.8%",
+    "sentiment": 41,
+    "issues": [
+      "Industrial Hub",
+      "Foreign Workers",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 45,
+      "chinese": 35,
+      "indian": 19,
+      "other": 1
+    },
+    "action": "Low priority; jobs narrative test",
+    "proxyLocation": "Gemencheh",
+    "lat": 2.532414,
+    "lon": 102.401812,
+    "confidence": "Sederhana",
+    "geoNote": "Pusat pekan"
+  },
+  {
+    "id": "N.36",
+    "name": "Repah",
+    "status": "battleground",
+    "incumbent": "Choo Ken Hwa",
+    "party": "PH",
+    "margin2023": "+6.4%",
+    "sentiment": 47,
+    "issues": [
+      "Mixed",
+      "Heritage",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 50,
+      "chinese": 38,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; heritage + cost-of-living",
+    "proxyLocation": "Tampin",
+    "lat": 2.472971,
+    "lon": 102.231194,
+    "confidence": "Sederhana",
+    "geoNote": "Guna pusat Tampin"
+  }
+]

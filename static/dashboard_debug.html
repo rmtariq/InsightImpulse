@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Debug</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h1>Dashboard Debug Page</h1>
+    <div id="status"></div>
+    <hr>
+    <div id="details"></div>
+    
+    <script>
+        const status = document.getElementById('status');
+        const details = document.getElementById('details');
+        
+        // Check Chart.js
+        status.innerHTML += '<h2>1. Checking Chart.js...</h2>';
+        if (typeof Chart !== 'undefined') {
+            status.innerHTML += '<p style="color: green;">✅ Chart.js loaded successfully!</p>';
+        } else {
+            status.innerHTML += '<p style="color: red;">❌ Chart.js NOT loaded!</p>';
+        }
+        
+        // Check data loading
+        status.innerHTML += '<h2>2. Loading pas_dashboard_data.json...</h2>';
+        fetch('pas_dashboard_data.json')
+            .then(response => {
+                status.innerHTML += `<p>Response status: ${response.status} ${response.statusText}</p>`;
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                status.innerHTML += '<p style="color: green;">✅ JSON loaded successfully!</p>';
+                details.innerHTML = `
+                    <h3>Data Structure:</h3>
+                    <ul>
+                        <li>stats: ${JSON.stringify(data.stats)}</li>
+                        <li>platforms: ${data.platforms ? data.platforms.length + ' items' : 'Missing'}</li>
+                        <li>sentiment: ${data.sentiment ? JSON.stringify(data.sentiment) : 'Missing'}</li>
+                        <li>emotions: ${data.emotions ? Object.keys(data.emotions).length + ' emotions' : 'Missing'}</li>
+                        <li>narratives: ${data.narratives ? JSON.stringify(data.narratives) : 'Missing'}</li>
+                        <li>daily: ${data.daily ? data.daily.length + ' data points' : 'Missing'}</li>
+                        <li>top_posts: ${data.top_posts ? data.top_posts.length + ' posts' : 'Missing'}</li>
+                    </ul>
+                    
+                    <h3>Testing Chart Creation:</h3>
+                    <canvas id="testChart" width="400" height="200"></canvas>
+                `;
+                
+                // Try to create a simple chart
+                try {
+                    const ctx = document.getElementById('testChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: Object.keys(data.sentiment),
+                            datasets: [{
+                                label: 'Sentiment Test',
+                                data: Object.values(data.sentiment),
+                                backgroundColor: ['#10b981', '#6b7280', '#ef4444']
+                            }]
+                        }
+                    });
+                    details.innerHTML += '<p style="color: green;">✅ Test chart created successfully!</p>';
+                } catch (error) {
+                    details.innerHTML += `<p style="color: red;">❌ Chart creation failed: ${error.message}</p>`;
+                }
+            })
+            .catch(error => {
+                status.innerHTML += `<p style="color: red;">❌ Failed to load JSON: ${error.message}</p>`;
+                details.innerHTML = `<pre>${error.stack}</pre>`;
+            });
+            
+        // Check AI insights
+        status.innerHTML += '<h2>3. Loading pas_ai_insights.json...</h2>';
+        fetch('pas_ai_insights.json')
+            .then(response => response.json())
+            .then(data => {
+                status.innerHTML += '<p style="color: green;">✅ AI insights loaded!</p>';
+            })
+            .catch(error => {
+                status.innerHTML += `<p style="color: red;">❌ AI insights failed: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>

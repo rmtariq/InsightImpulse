@@ -1,0 +1,23 @@
+KDEBWM COMPLAINT MONITORING - EXECUTIVE SUMMARY
+================================================
+
+OVERVIEW:
+- Total Complaint Mentions: 6
+- Trend: INSUFFICIENT_DATA
+- Negative Sentiment: 83.3%
+- High-Severity Complaints: 5
+
+TOP 3 COMPLAINT THEMES:
+1. Foul Smell
+2. Overflowing Bin
+3. Praise Or Resolution
+
+TOP 3 HOTSPOT AREAS:
+1. Klang
+2. Subang Jaya
+3. Kajang
+
+MAIN RECOMMENDATIONS:
+1. Prioritize operational improvements for foul smell to address the most frequent complaint type.
+2. Deploy additional resources or operational review in Klang to address hotspot complaints.
+3. Establish dedicated social media response team for facebook to manage reputation proactively.

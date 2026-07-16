@@ -1,0 +1,29 @@
+# CULA DIGITAL — N26 Chembong (seed post URLs)
+# ==========================================================
+# Tier: LAWAN · Daerah: Rembau
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Chembong (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N26
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Chembong; FELDA Chembong; Undang Rembau
+# ISU TEMPATAN: FELDA; Adat Perpatih; Undang Rembau
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "korang Chembong — kestabilan ke perubahan yg korang nak?"
+#   "tengok isu FELDA kat Chembong, ada calon yg boleh selesaikan ke?"
+#   "PRN kali ni Chembong — sokong status quo ke nak perubahan?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Chembong atau Chembong
+#   • Post sebut Chembong atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:
+https://www.facebook.com/story.php?story_fbid=1326587592942741&id=100067745385121

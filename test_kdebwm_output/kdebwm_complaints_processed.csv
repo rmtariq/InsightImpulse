@@ -1,0 +1,7 @@
+Platform,Type,Text,Date,sentiment_label,sentiment_score,total_engagement,likes,comments_count,shares,is_complaint,complaint_theme,area,is_high_severity
+facebook,post,KDEBWM sampah tak kutip dah 3 hari di Klang. Bau busuk sangat! Aduan saya masih tak selesai.,2026-05-20,negative,0.15,45,30,10,5,True,foul_smell,Klang,True
+instagram,comment,Kawasan Subang Jaya longgokan sampah penuh. KDEB Waste Management lambat sangat!,2026-05-21,negative,0.2,23,20,3,0,True,overflowing_bin,Subang Jaya,True
+x,post,KDEBWM terima kasih! Sampah di Kajang dah dikutip. Bagus service korang 👍,2026-05-22,positive,0.85,12,10,2,0,True,praise_or_resolution,Kajang,False
+tiktok,post,KDEB Waste jalan kotor tepi kawasan Petaling Jaya. Public cleansing issue teruk!,2026-05-23,negative,0.25,67,50,12,5,True,dirty_road_or_area,Petaling Jaya,True
+facebook,post,KDEBWM Selayang missed collection lagi. Dah complaint berkali-kali. Frustrating!,2026-05-23,very negative,0.1,89,60,20,9,True,general_complaint,Selayang,True
+instagram,post,Klang area bau busuk dari tong sampah penuh. KDEB please help!,2026-05-24,negative,0.18,34,25,7,2,True,foul_smell,Klang,True

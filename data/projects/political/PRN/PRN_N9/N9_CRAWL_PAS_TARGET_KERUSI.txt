@@ -1,0 +1,273 @@
+# =============================================================================
+# InsightPulse — N9 CRAWL · 13/16/23 KERUSI SASARAN PAS + PATH MAJORITI 19
+# =============================================================================
+# Untuk     : PAS N9 HQ · War Room localhost:8080
+# Tarikh    : 25 Jun 2026
+# Tag       : PRN-N9-PAS-Target-DUN
+# Project   : pas_break_2026
+# Rujuk     : N9_SCORESHEET_2023_ANALYSIS.md · pas_target_23_N9.json
+#
+# PENTING — BACA DULU
+# -------------------
+# Majoriti kerajaan N9 = 19/36 kerusi.
+#
+#   • BUKAN "PAS solo menang 19" (model solo ~12 kerusi jelas, 19.5 Σ teori)
+#   • YA  "MN (PAS+UMNO) menang 19+" — gabungan tiket 13 PAS/PN + 23 UMNO/BN
+#
+# Tiga senarai kerusi (jangan keliru):
+#
+#   [13] MN HQ     = tiket PAS/PN bertanding (9 wajib + 4 berhasrat)
+#   [16] Wajib     = model operasi PAS (pertahan + flip wajib)
+#   [23] Contest   = 16 wajib + 7 imbang (semua kerusi PAS/PN mungkin tanding)
+#
+# PRIORITI CRAWL (jimmat kos):
+#   P1 Pertahan  → 5 crawl  (mestilah kekal)
+#   P2 Flip       → 4 crawl  (menang = majoriti hampir pasti)
+#   P3 Swing      → 4 crawl  (usaha padat)
+#   P4 Imbang     → 7 crawl  (optional · minggu 3–4)
+#   P5 Stretch    → crawl ringkas / skip (jangan bazir RM)
+#
+# TETAPAN (sama semua D-crawl):
+#   Mod: Keyword Search | Date: 7 Days | Project: pas_break_2026 | Dataset: 280
+#
+# PLATFORM ikut tier:
+#   P1–P2 : News ✅ X ✅ FB ✅
+#   P3    : News ✅ X ✅ FB ☐
+#   P4    : News ✅ X ☐ FB ☐
+#   P5    : News ✅ sahaja (monitor)
+#
+# Kos anggaran:
+#   P1+P2 (9 crawl)  ~RM18–22  ← MULA DI SINI
+#   P3 (4 crawl)     ~RM8–10
+#   P4 (7 crawl)     ~RM10–12
+#   Total 23         ~RM40–50 (jangan buat serentak — 3–4/minggu)
+# =============================================================================
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PETA STRATEGIK — KERUSI MANA TUMPU UNTUK ≥19 MAJORITI (MN)
+# ═══════════════════════════════════════════════════════════════════════════
+#
+#  TIER │ Kod  │ Kerusi        │ Peranan 2023 │ Muafakat SPR │ Tindakan PAS
+#  ─────┼──────┼───────────────┼──────────────┼──────────────┼────────────────────
+#  P1   │ N05  │ Serting       │ PAS +843 ⚠   │ pertahan     │ GOTV agresif #1
+#  P1   │ N25  │ Paroi         │ PAS +5539    │ pertahan     │ Kunci kubu
+#  P1   │ N31  │ Bagan Pinang  │ PAS +3426    │ pertahan     │ Kunci kubu
+#  P1   │ N20  │ Labu          │ PN +1640     │ pertahan     │ Waspada PH
+#  P1   │ N34  │ Gemas         │ PN +3120     │ pertahan     │ Waspada UMNO
+#  ─────┼──────┼───────────────┼──────────────┼──────────────┼────────────────────
+#  P2   │ N14  │ Ampangan      │ PH −329      │ FLIP +2750 ✅│ MESTI MENANG MN
+#  P2   │ N03  │ Sungai Lui    │ UMNO flip    │ prob 51%     │ Flip Melayu
+#  P2   │ N09  │ Lenggeng      │ UMNO flip    │ prob 50.5%   │ Flip Melayu
+#  P2   │ N04  │ Klawang       │ PH −577      │ muafakat −213│ Estet India
+#  ─────┼──────┼───────────────┼──────────────┼──────────────┼────────────────────
+#  P3   │ N18  │ Pilah         │ PH −1079     │ swing ~540   │ GOTV Melayu
+#  P3   │ N02  │ Pertang       │ UMNO         │ prob 38%     │ Sukar
+#  P3   │ N19  │ Johol         │ UMNO imbang  │ prob 38%     │ Imbang
+#  P3   │ N35  │ Gemencheh     │ UMNO imbang  │ prob 38%     │ Imbang
+#  ─────┼──────┼───────────────┼──────────────┼──────────────┼────────────────────
+#  P4   │ N06–N17│ 7 Imbang    │ UMNO 2023    │ prob ~15%    │ Monitor
+#  P5   │ N01  │ Chennah       │ DAP stretch  │ sangat sukar │ Nafas politik
+#  P5   │ N10  │ Nilai         │ DAP −10889   │ mustahil     │ Jangan bazir RM
+#  P5   │ N13  │ Sikamat       │ MB PH        │ sangat sukar │ Monitor News
+#  P5   │ N33  │ Sri Tanjung   │ India estet  │ sangat sukar │ Estet program
+#  P5   │ N36  │ Repah         │ DAP          │ PN tak tanding 2023 │ Stretch
+#
+# PATH MAJORITI 19 (realistik MN, bukan solo):
+#   Pertahan P1 (5) + Flip P2 (4) = 9 kerusi PAS/PN side
+#   + UMNO/BN menang ~10–12 kerusi tiket mereka = 19–21 MN total
+#   PAS fokus crawl/ground: P1 + P2 + N18 (10 kerusi) = 80% ROI
+# =============================================================================
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# P1 — PERTAHAN (5 crawl) · ~RM10–12 · MINGGU 1
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── D01 · N05 Serting — PRIORITI #1 (majoriti +843 sahaja) ────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 300
+serting OR "mohd fairuz" muafakat OR pas negeri sembilan
+
+
+# ── D02 · N25 Paroi — pertahan selesa ───────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+paroi OR "kamarol ridzuan" muafakat OR pas negeri sembilan
+
+
+# ── D03 · N31 Bagan Pinang ──────────────────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+"bagan pinang" OR "abdul fatah" pas muafakat negeri sembilan
+
+
+# ── D04 · N20 Labu — pertahan PN ──────────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+labu OR "mohamad hanifah" PN muafakat negeri sembilan
+
+
+# ── D05 · N34 Gemas — pertahan PN ───────────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+gemas OR "ridzuan ahmad" PN muafakat tampin
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# P2 — FLIP MESTI MENANG (4 crawl) · ~RM8–10 · MINGGU 2
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── D06 · N14 Ampangan — FLIP KUAT MN (+2750 muafakat SPR) ────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 300
+ampangan OR "tengku zamrah" muafakat flip negeri sembilan
+
+
+# ── D07 · N03 Sungai Lui — flip UMNO prob 51% ─────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+"sungai lui" OR "mohd nordin hasim" pas muafakat jelebu
+
+
+# ── D08 · N09 Lenggeng — flip UMNO prob 50.5% ─────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+lenggeng OR "mohd fadli" pas muafakat negeri sembilan
+
+
+# ── D09 · N04 Klawang — hampir seri muafakat (−213) · estet India ───────────
+# PLATFORM: News ✅  X ✅  Facebook ✅  TikTok ☐  IG ☐  |  Dataset: 280
+klawang OR "bakri sawir" muafakat negeri sembilan
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# P3 — SWING (4 crawl) · ~RM7–9 · MINGGU 3
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── D10 · N18 Pilah — swing ~540 undi ───────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ☐  TikTok ☐  IG ☐  |  Dataset: 280
+pilah OR "kuala pilah" OR noorzunita muafakat negeri sembilan
+
+
+# ── D11 · N02 Pertang — sasaran flip sukar ─────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ☐  TikTok ☐  IG ☐  |  Dataset: 280
+pertang OR "jalaluddin alias" pas muafakat jelebu
+
+
+# ── D12 · N19 Johol — imbang prob 38% ─────────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ☐  TikTok ☐  IG ☐  |  Dataset: 280
+johol OR "saiful yazan" pas muafakat negeri sembilan
+
+
+# ── D13 · N35 Gemencheh — imbang prob 38% ─────────────────────────────────
+# PLATFORM: News ✅  X ✅  Facebook ☐  TikTok ☐  IG ☐  |  Dataset: 280
+gemencheh OR "suhaimizan bizar" pas muafakat tampin
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# P4 — 7 IMBANG (7 crawl) · ~RM10–12 · MINGGU 4 (optional)
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── D14 · N06 Palong ──  News ✅ X ☐ FB ☐  Dataset: 250
+palong muafakat negeri sembilan
+
+# ── D15 · N07 Jeram Padang ──  News ✅ X ☐ FB ☐  Dataset: 250
+"jeram padang" muafakat negeri sembilan
+
+# ── D16 · N15 Juasseh ──  News ✅ X ☐ FB ☐  Dataset: 250
+juasseh muafakat negeri sembilan
+
+# ── D17 · N16 Seri Menanti ──  News ✅ X ☐ FB ☐  Dataset: 250
+"seri menanti" muafakat negeri sembilan
+
+# ── D18 · N17 Senaling ──  News ✅ X ☐ FB ☐  Dataset: 250
+senaling muafakat negeri sembilan
+
+# ── D19 · N19 Johol — (duplicate tier P3 jika sudah crawl, skip) ──
+
+# ── D20 · N35 Gemencheh — (duplicate tier P3 jika sudah crawl, skip) ──
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# P5 — STRETCH MN 13 (4 berhasrat) · News sahaja · monitor · ~RM4 total
+# Jangan bazir ground — nafas politik / calon placeholder
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── D21 · N01 Chennah — berhasrat terbaik tapi masih stretch ──
+# PLATFORM: News ✅ sahaja  |  Dataset: 200
+chennah negeri sembilan PRN
+
+# ── D22 · N10 Nilai — stretch jauh ──
+# PLATFORM: News ✅ sahaja  |  Dataset: 200
+nilai negeri sembilan PRN dap
+
+# ── D23 · N13 Sikamat — MB PH ──
+# PLATFORM: News ✅ sahaja  |  Dataset: 200
+sikamat OR "aminuddin harun" negeri sembilan
+
+# ── D24 · N33 Sri Tanjung — estet India ──
+# PLATFORM: News ✅ sahaja  |  Dataset: 200
+"sri tanjung" negeri sembilan
+
+# ── D25 · N36 Repah — PN tak tanding 2023 ──
+# PLATFORM: News ✅ sahaja  |  Dataset: 200
+repah tampin negeri sembilan
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# PAS SOLO vs MN — bila crawl berbeza
+# ═══════════════════════════════════════════════════════════════════════════
+#
+#  MN path (default HQ): tambah "muafakat" dalam query (semua D01–D25 di atas)
+#
+#  PAS Solo monitor (optional 1 crawl/minggu):
+#  PLATFORM: X ✅ FB ✅  |  Dataset: 300
+#  PASTE: pas solo negeri sembilan OR "pas sendiri" negeri sembilan
+#
+#  Kerusi PAS solo berpotensi TINGGI (≥55% pasSoloWinProb, bukan MN ticket):
+#    N05 Serting 72.5% · N25 Paroi 70.6% · N31 Bagan Pinang 70.5%
+#    N20 Labu 61.3% · N34 Gemas 60.3% · N03 Sungai Lui 58.9%
+#  Realistik solo path ke 19: TIDAK — guna MN + UMNO ori narrative
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# =============================================================================
+# CHECKLIST — PATH 19 MAJORITI
+# =============================================================================
+#
+#  MINGGU 1 — P1 Pertahan (wajib siap)
+#  [ ] D01 N05 Serting ⚠ +843
+#  [ ] D02 N25 Paroi
+#  [ ] D03 N31 Bagan Pinang
+#  [ ] D04 N20 Labu
+#  [ ] D05 N34 Gemas
+#  [ ] REBUILD war room
+#
+#  MINGGU 2 — P2 Flip (majoriti hampir locked jika 4/4)
+#  [ ] D06 N14 Ampangan ★ FLIP KUAT
+#  [ ] D07 N03 Sungai Lui
+#  [ ] D08 N09 Lenggeng
+#  [ ] D09 N04 Klawang
+#  [ ] REBUILD war room
+#
+#  MINGGU 3 — P3 Swing
+#  [ ] D10 N18 Pilah
+#  [ ] D11 N02 Pertang
+#  [ ] D12 N19 Johol
+#  [ ] D13 N35 Gemencheh
+#  [ ] REBUILD war room
+#
+#  MINGGU 4+ — P4 Imbang / P5 monitor (optional)
+#
+#  MATEMATIK SASARAN:
+#  P1 kekal (5) + P2 menang (4) = 9 kerusi PAS/PN
+#  + UMNO/BN tiket (10–12 menang) = 19–21 MN → MAJORITI ✅
+# =============================================================================
+
+
+# =============================================================================
+# REBUILD (selepas setiap 3–4 crawl)
+# =============================================================================
+#   cd /Users/rmtariq/Documents/InsightPulse
+#   python3 scripts/build_warroom_socmed_by_dun.py --state N9
+#   python3 scripts/build_warroom_production_bundle.py
+#   Cmd+Shift+R → http://localhost:8080/
+# =============================================================================

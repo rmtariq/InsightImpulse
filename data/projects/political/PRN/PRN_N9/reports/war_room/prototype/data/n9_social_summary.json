@@ -1,0 +1,1402 @@
+{
+  "meta": {
+    "generated": "2026-07-15 01:54:44",
+    "masterSource": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260702_153626.csv",
+    "nsPosts": 1513,
+    "totalPosts": 82318,
+    "totalDataPoints": 82318,
+    "totalEngagement": 129924392,
+    "nsEngagement": 770683,
+    "prnScopedPosts": 3298,
+    "posPct": 16.7,
+    "negPct": 3.3,
+    "pengundiMacSync": "2026-07-15 13:08:32"
+  },
+  "analytics": {
+    "totalPosts": 82318,
+    "totalDataPoints": 82318,
+    "totalEngagement": 129924392,
+    "nsPosts": 1513,
+    "nsEngagement": 770683,
+    "johorPosts": 1785,
+    "johorEngagement": 1694161,
+    "prnScopedPosts": 3298,
+    "byPlatform": {
+      "x": 34531,
+      "tiktok": 33401,
+      "instagram": 7031,
+      "facebook": 4850,
+      "news": 1839,
+      "youtube": 666
+    },
+    "byBatch": {
+      "archive_pas_break_jun12": 68135,
+      "archive_manual_stop_jun21": 9300,
+      "prn_master_jun21_am": 4340,
+      "Batch7-C-UMDAP": 473,
+      "Batch7-A": 63,
+      "Batch7-B": 7
+    },
+    "byLayer": {
+      "archive": 77435,
+      "prn_recent": 4883
+    },
+    "masterFile": "PAS_Break_Master_EXCO_Analyzed_20260702_153626.csv",
+    "hybridModel": {
+      "layers": [
+        "Arkib PAS Break (Jun 12)",
+        "PRN master + Batch 1–7",
+        "DPI / MyCensus per DUN",
+        "pasWinProb + margin 2023",
+        "Socmed by DUN + sentiment crawl"
+      ],
+      "note": "Lebih banyak data point → coverage isu/coalition lebih kukuh; dedupe Platform+ID keep=last."
+    }
+  },
+  "seats": {
+    "defend": 3,
+    "winnable": 3,
+    "pnProjected": 5,
+    "pasTarget": 23,
+    "pasWajib": 16,
+    "pasImbang": 7,
+    "total": 36,
+    "majority": 19
+  },
+  "alerts": {
+    "critical": 0,
+    "warning": 4,
+    "total": 5
+  },
+  "coalition": [
+    {
+      "name": "Risiko tiada majoriti",
+      "pct": 35,
+      "color": "var(--amber)",
+      "expectedSeats": null,
+      "seatLabel": "tiada bloc ≥19",
+      "status": "sederhana",
+      "assumption": "Tiada bloc capai 19 kerusi dengan selesa · perlu rundingan selepas undi"
+    },
+    {
+      "name": "PAS Solo",
+      "pct": 25,
+      "color": "var(--green)",
+      "expectedSeats": 11.8,
+      "seatLabel": null,
+      "status": "lemah",
+      "assumption": "PAS capai 19+ kerusi (bukan keyword 'solo' dalam socmed)"
+    },
+    {
+      "name": "PAS + Gerakan (PN baru)",
+      "pct": 4,
+      "color": "#2dd4bf",
+      "expectedSeats": 6.3,
+      "seatLabel": null,
+      "status": "lemah",
+      "assumption": "PAS + Gerakan/rakan (tanpa Bersatu)"
+    },
+    {
+      "name": "MN (PAS+BN)",
+      "pct": 66,
+      "color": "var(--purple)",
+      "expectedSeats": 20.5,
+      "seatLabel": null,
+      "status": "sederhana",
+      "assumption": "PAS & BN/UMNO berunding selepas undi",
+      "majorityPct": 3,
+      "pengundiNudge": "Pengundi MY poll BN+PN dominan"
+    },
+    {
+      "name": "PH (Madani)",
+      "pct": 2,
+      "color": "var(--red)",
+      "expectedSeats": 12.9,
+      "seatLabel": null,
+      "status": "lemah",
+      "assumption": "DAP/PKR/Amanah kekal di kerusi bandar",
+      "majorityPct": 2,
+      "pengundiNudge": "Pengundi MY poll PH lemah"
+    },
+    {
+      "name": "BN Solo (UMNO-led)",
+      "pct": 2,
+      "color": "var(--primary)",
+      "expectedSeats": 7.9,
+      "seatLabel": null,
+      "status": "lemah",
+      "assumption": "BN/UMNO tanpa gabungan PH"
+    },
+    {
+      "name": "Third Force (MUDA·PSM·BERSAMA)",
+      "pct": 2,
+      "color": "var(--cyan)",
+      "expectedSeats": 4.0,
+      "seatLabel": null,
+      "status": "lemah",
+      "assumption": "Blok progresif / parti kecil"
+    }
+  ],
+  "coalitionFormation": {
+    "majorityThreshold": 19,
+    "totalSeats": 36,
+    "methodology": "Kerusi dijangka = Σ kebarangkalian menang/DUN (pasWinProb + predictedBloc). Peluang majoriti = logistik centred 19 kerusi. Risiko tiada majoriti = kebarangkalian tiada bloc capai 19 kerusi dengan selesa. Penyesuaian crawl: sentiment + engagement N9 dari master socmed/news (±5%).",
+    "disclaimer": "Peluang majoriti = kebarangkalian capai ≥19/36 kerusi (bukan % undi rakyat). Model kerusi N9: pasWinProb + margin 2023 + DPI. Bukan polling SPR.",
+    "crawlSignals": {
+      "totalStatePosts": 1513,
+      "totalN9Posts": 1513,
+      "newsPosts": 256,
+      "socialPosts": 1257,
+      "splitMentionPosts": 0,
+      "party": {
+        "pas": {
+          "posts": 182,
+          "engagement": 31255.0,
+          "pos": 10,
+          "neg": 48,
+          "neu": 124
+        },
+        "bn": {
+          "posts": 393,
+          "engagement": 133985.0,
+          "pos": 32,
+          "neg": 100,
+          "neu": 261
+        },
+        "ph": {
+          "posts": 423,
+          "engagement": 196097.0,
+          "pos": 39,
+          "neg": 69,
+          "neu": 315
+        },
+        "pn_legacy": {
+          "posts": 182,
+          "engagement": 101083.0,
+          "pos": 14,
+          "neg": 56,
+          "neu": 112
+        },
+        "third": {
+          "posts": 233,
+          "engagement": 120656.0,
+          "pos": 37,
+          "neg": 42,
+          "neu": 154
+        },
+        "mn": {
+          "posts": 109,
+          "engagement": 28731.0,
+          "pos": 15,
+          "neg": 45,
+          "neu": 49
+        },
+        "gerakan": {
+          "posts": 18,
+          "engagement": 14651.0,
+          "pos": 3,
+          "neg": 3,
+          "neu": 12
+        },
+        "split": {
+          "posts": 0,
+          "engagement": 0.0,
+          "pos": 0,
+          "neg": 0,
+          "neu": 0
+        }
+      },
+      "pasImplicit": {
+        "posts": 0,
+        "engagement": 0.0,
+        "pos": 0,
+        "neg": 0,
+        "neu": 0
+      },
+      "umdapAntiMd": {
+        "posts": 36,
+        "engagement": 14983.0,
+        "pos": 1,
+        "neg": 14,
+        "neu": 21
+      },
+      "phEconomicAngst": {
+        "posts": 29,
+        "engagement": 13471.0,
+        "pos": 1,
+        "neg": 6,
+        "neu": 22
+      },
+      "youthGenZWave": {
+        "posts": 29,
+        "engagement": 11286.0,
+        "pos": 3,
+        "neg": 3,
+        "neu": 23
+      },
+      "youthIssuesConcrete": {
+        "posts": 109,
+        "engagement": 58074.0,
+        "pos": 18,
+        "neg": 21,
+        "neu": 70,
+        "viralCandidate": 1
+      },
+      "n9IstanaAdat": {
+        "posts": 160,
+        "engagement": 147792.0,
+        "pos": 13,
+        "neg": 22,
+        "neu": 125,
+        "blamePosts": 61
+      },
+      "socmedDunMentions": 139,
+      "socmedDunEngagement": 91641,
+      "socmedWeightedNegPct": 2.2,
+      "pengundiMac4Posts": {
+        "comments": 7019,
+        "engagement": 29892,
+        "poll_bn_pn_pct": 75.9,
+        "poll_ph_pct": 24.1,
+        "cooperation_setuju_avg": 76.5,
+        "updated": "2026-07-15 13:08:32"
+      }
+    },
+    "crawlAdjustments": [
+      "PH (Madani): Isu istana/adat — MB PH + DAP terpalit (-5%)",
+      "BN Solo (UMNO-led): UMNO dalam kerajaan negeri N9 — istana/adat (-4%)",
+      "MN (PAS+BN): Istana/adat → laluan MN (Melayu rural/adat) (+5%)",
+      "PAS Solo: Krisis adat — PAS pembangkang + segmen Melayu-Islam (+4%)",
+      "Risiko tiada majoriti: isu istana/adat — UMNO kerajaan vs pembangkang (+3%)",
+      "PAS Solo: Retorik UMDAP/anti-UMNO+DAP (crawl) (+3%)",
+      "MN (PAS+BN): UMDAP → laluan PAS/MN (+2%)",
+      "PH (Madani): UMDAP = tolak narrative PH+UMNO (-3%)",
+      "BN Solo (UMNO-led): UMDAP stigma UMNO+DAP (-2%)",
+      "PH (Madani): Raguan PH/Madani (ekonomi/flip-flop/DAP) (-4%)",
+      "PAS Solo: PH lemah → ruang PAS (+1%)",
+      "MN (PAS+BN): PH lemah → MN relatif (+1%)",
+      "PH (Madani): PH sentiment negatif > positif (crawl N9) (-3%)",
+      "PAS Solo: Sentimen anti-PH → laluan PAS (+1%)",
+      "PAS Solo: Afiniti PAS positif dalam crawl (+2%)",
+      "Risiko tiada majoriti: Gen Z tunggu & lihat (+3%)",
+      "PAS Solo: Calon muda PAS viral + isu kerjaya/sukan (+3%)",
+      "MN (PAS+BN): Anak muda Melayu — calon PAS/UMNO menonjol (+2%)",
+      "Youth issues: 109 post (kerjaya/sukan/komuter) · calon viral dikesan",
+      "MN (PAS+BN): MN/muafakat disebut dalam crawl (+2%)",
+      "PAS + Gerakan (PN baru): PN/Bersatu masih dominan dalam perbincangan (+2%)",
+      "PAS Solo: Gelombang Melayu-Islam/Bumiputera — isu berlapis (+5%)",
+      "MN (PAS+BN): Afiniti MN segmen Melayu rural + adat + UMDAP (+4%)",
+      "PH (Madani): PH lemah dalam segmen Melayu-Islam (-3%)",
+      "Melayu-Islam stack: 3/4 isyarat aktif (istana/UMDAP/anti-PH/BN negatif)",
+      "Kurang suara Cina dalam socmed vs profil DUN bandar (+1%)",
+      "Keyakinan demografi rendah (139 mention per-DUN) — nudge ×55%"
+    ],
+    "demographicHybrid": {
+      "dpi": {
+        "malay": 59.4,
+        "chinese": 26.8,
+        "indian": 13.8
+      },
+      "socmed": {
+        "malay": 4.0,
+        "urban": 3.3,
+        "chinese": 0.0,
+        "indian": 0.0,
+        "unknown": 92.7
+      },
+      "delta": {
+        "malay": -55.4,
+        "chinese": -26.8,
+        "urban": 3.3
+      },
+      "bloc7Nudges": {
+        "pas_solo": 1
+      },
+      "legacyNudges": {
+        "PAS Solo": 1
+      },
+      "adjustmentNotes": [
+        "Kurang suara Cina dalam socmed vs profil DUN bandar (+1%)",
+        "Keyakinan demografi rendah (139 mention per-DUN) — nudge ×55%"
+      ],
+      "insight": "Melayu DPI 59.4% vs socmed 4.0% (-55.4pp) · bandar/campuran 3.3%",
+      "mentionsWeighted": 1386,
+      "dunMentionsWeighted": 139,
+      "confidenceScale": 0.55,
+      "votersTotal": 886887,
+      "disclaimer": "DPI = pengundi berdaftar SPR · socmed = proxy bahasa post (bukan etnik sebenar)"
+    },
+    "dataQuality": {
+      "statePostsInMaster": 1513,
+      "n9PostsInMaster": 1513,
+      "pasExplicitPosts": 182,
+      "pasImplicitPosts": 0,
+      "umdapPosts": 36,
+      "phAntiThemePosts": 29,
+      "youthGenZPosts": 29,
+      "youthIssuesPosts": 109,
+      "istanaAdatPosts": 160,
+      "istanaAdatBlamePosts": 61,
+      "dunsWithSocmedMention": 35,
+      "note": "PAS Solo = Σ pasWinProb (~10/36 kerusi) + penyesuaian crawl. Bukan polling — naik % majoriti ≠ 19 kerusi solo. Gelombang Melayu-Islam (istana+UMDAP) naik PAS/MN apabila isyarat berlapis. Anak muda: tunggu & lihat — undi ikut calon viral + isu kerjaya/sukan."
+    },
+    "byDun": [
+      {
+        "code": "N25",
+        "name": "Paroi",
+        "predictedBloc2023": "PN",
+        "party2022": "PAS",
+        "pasWinProb": 82,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.82,
+        "mnContrib": 0.82,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "PAS fav"
+      },
+      {
+        "code": "N31",
+        "name": "Bagan Pinang",
+        "predictedBloc2023": "PN",
+        "party2022": "PAS",
+        "pasWinProb": 82,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.82,
+        "mnContrib": 0.82,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "PAS fav"
+      },
+      {
+        "code": "N05",
+        "name": "Serting",
+        "predictedBloc2023": "PN",
+        "party2022": "PAS",
+        "pasWinProb": 70,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.7,
+        "mnContrib": 0.7,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "PAS fav"
+      },
+      {
+        "code": "N03",
+        "name": "Sungai Lui",
+        "predictedBloc2023": "PN",
+        "party2022": "UMNO",
+        "pasWinProb": 51.0,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.51,
+        "mnContrib": 0.6,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "PAS fav"
+      },
+      {
+        "code": "N09",
+        "name": "Lenggeng",
+        "predictedBloc2023": "PN",
+        "party2022": "UMNO",
+        "pasWinProb": 50.5,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.505,
+        "mnContrib": 0.6,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "PAS fav"
+      },
+      {
+        "code": "N20",
+        "name": "Labu",
+        "predictedBloc2023": "PN",
+        "party2022": "Bersatu",
+        "pasWinProb": 42,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.42,
+        "mnContrib": 0.6,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N34",
+        "name": "Gemas",
+        "predictedBloc2023": "PN",
+        "party2022": "Bersatu",
+        "pasWinProb": 42,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.42,
+        "mnContrib": 0.6,
+        "phHoldProb": 0.0,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N02",
+        "name": "Pertang",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 38,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.38,
+        "mnContrib": 0.95,
+        "phHoldProb": 0.037,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N18",
+        "name": "Pilah",
+        "predictedBloc2023": "PH",
+        "party2022": "PKR",
+        "pasWinProb": 38,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.38,
+        "mnContrib": 0.38,
+        "phHoldProb": 0.756,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N19",
+        "name": "Johol",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 38,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.38,
+        "mnContrib": 0.95,
+        "phHoldProb": 0.037,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N35",
+        "name": "Gemencheh",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 38,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.38,
+        "mnContrib": 0.95,
+        "phHoldProb": 0.037,
+        "bnSoloExpected": 0.0,
+        "lean": "contested"
+      },
+      {
+        "code": "N08",
+        "name": "Bahau",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 28,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.28,
+        "mnContrib": 0.28,
+        "phHoldProb": 0.794,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N27",
+        "name": "Rantau",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 28,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.28,
+        "mnContrib": 0.942,
+        "phHoldProb": 0.043,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N30",
+        "name": "Lukut",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 28,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.28,
+        "mnContrib": 0.28,
+        "phHoldProb": 0.794,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N01",
+        "name": "Chennah",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N04",
+        "name": "Klawang",
+        "predictedBloc2023": "PH",
+        "party2022": "Amanah",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N06",
+        "name": "Palong",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N07",
+        "name": "Jeram Padang",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N10",
+        "name": "Nilai",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N11",
+        "name": "Lobak",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N12",
+        "name": "Temiang",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N13",
+        "name": "Sikamat",
+        "predictedBloc2023": "PH",
+        "party2022": "PKR",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N14",
+        "name": "Ampangan",
+        "predictedBloc2023": "PH",
+        "party2022": "PKR",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N15",
+        "name": "Juasseh",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N16",
+        "name": "Seri Menanti",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N17",
+        "name": "Senaling",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N21",
+        "name": "Bukit Kepayang",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N22",
+        "name": "Rahang",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N23",
+        "name": "Mambau",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N24",
+        "name": "Seremban Jaya",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N26",
+        "name": "Chembong",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N28",
+        "name": "Kota",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N29",
+        "name": "Chuah",
+        "predictedBloc2023": "PH",
+        "party2022": "PKR",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N32",
+        "name": "Linggi",
+        "predictedBloc2023": "BN",
+        "party2022": "UMNO",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.932,
+        "phHoldProb": 0.051,
+        "bnSoloExpected": 0.0,
+        "lean": "BN"
+      },
+      {
+        "code": "N33",
+        "name": "Sri Tanjung",
+        "predictedBloc2023": "PH",
+        "party2022": "PKR",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      },
+      {
+        "code": "N36",
+        "name": "Repah",
+        "predictedBloc2023": "PH",
+        "party2022": "DAP",
+        "pasWinProb": 15,
+        "pasSoloWinProb": null,
+        "pasMnWinProb": null,
+        "bnSoloWinProb": null,
+        "phWinProb": null,
+        "pasSoloExpected": 0.15,
+        "mnContrib": 0.15,
+        "phHoldProb": 0.843,
+        "bnSoloExpected": 0.0,
+        "lean": "PH"
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "MN (PAS+BN)",
+        "expectedSeats": 20.4,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 66,
+        "status": "sederhana",
+        "assumption": "PAS & BN/UMNO berunding selepas undi",
+        "color": "var(--purple)"
+      },
+      {
+        "name": "Risiko tiada majoriti",
+        "expectedSeats": null,
+        "seatLabel": "tiada bloc ≥19",
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 35,
+        "status": "sederhana",
+        "assumption": "Tiada bloc capai 19 kerusi dengan selesa · perlu rundingan selepas undi",
+        "color": "var(--amber)"
+      },
+      {
+        "name": "PAS Solo",
+        "expectedSeats": 11.8,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 25,
+        "status": "lemah",
+        "assumption": "PAS capai 19+ kerusi (bukan keyword 'solo' dalam socmed)",
+        "color": "var(--green)"
+      },
+      {
+        "name": "PAS + Gerakan (PN baru)",
+        "expectedSeats": 6.3,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 4,
+        "status": "lemah",
+        "assumption": "PAS + Gerakan/rakan (tanpa Bersatu)",
+        "color": "#2dd4bf"
+      },
+      {
+        "name": "PH (Madani)",
+        "expectedSeats": 13.0,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 2,
+        "status": "lemah",
+        "assumption": "DAP/PKR/Amanah kekal di kerusi bandar",
+        "color": "var(--red)"
+      },
+      {
+        "name": "BN Solo (UMNO-led)",
+        "expectedSeats": 7.9,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 2,
+        "status": "lemah",
+        "assumption": "BN/UMNO tanpa gabungan PH",
+        "color": "var(--primary)"
+      },
+      {
+        "name": "Third Force (MUDA·PSM·BERSAMA)",
+        "expectedSeats": 4.0,
+        "majorityThreshold": 19,
+        "totalSeats": 36,
+        "majorityPct": 2,
+        "status": "lemah",
+        "assumption": "Blok progresif / parti kecil",
+        "color": "var(--cyan)"
+      }
+    ],
+    "coalition": [
+      {
+        "name": "MN (PAS+BN)",
+        "pct": 66,
+        "color": "var(--purple)",
+        "expectedSeats": 20.4,
+        "seatLabel": null,
+        "status": "sederhana",
+        "assumption": "PAS & BN/UMNO berunding selepas undi"
+      },
+      {
+        "name": "Risiko tiada majoriti",
+        "pct": 35,
+        "color": "var(--amber)",
+        "expectedSeats": null,
+        "seatLabel": "tiada bloc ≥19",
+        "status": "sederhana",
+        "assumption": "Tiada bloc capai 19 kerusi dengan selesa · perlu rundingan selepas undi"
+      },
+      {
+        "name": "PAS Solo",
+        "pct": 25,
+        "color": "var(--green)",
+        "expectedSeats": 11.8,
+        "seatLabel": null,
+        "status": "lemah",
+        "assumption": "PAS capai 19+ kerusi (bukan keyword 'solo' dalam socmed)"
+      },
+      {
+        "name": "PAS + Gerakan (PN baru)",
+        "pct": 4,
+        "color": "#2dd4bf",
+        "expectedSeats": 6.3,
+        "seatLabel": null,
+        "status": "lemah",
+        "assumption": "PAS + Gerakan/rakan (tanpa Bersatu)"
+      },
+      {
+        "name": "PH (Madani)",
+        "pct": 2,
+        "color": "var(--red)",
+        "expectedSeats": 13.0,
+        "seatLabel": null,
+        "status": "lemah",
+        "assumption": "DAP/PKR/Amanah kekal di kerusi bandar"
+      },
+      {
+        "name": "BN Solo (UMNO-led)",
+        "pct": 2,
+        "color": "var(--primary)",
+        "expectedSeats": 7.9,
+        "seatLabel": null,
+        "status": "lemah",
+        "assumption": "BN/UMNO tanpa gabungan PH"
+      },
+      {
+        "name": "Third Force (MUDA·PSM·BERSAMA)",
+        "pct": 2,
+        "color": "var(--cyan)",
+        "expectedSeats": 4.0,
+        "seatLabel": null,
+        "status": "lemah",
+        "assumption": "Blok progresif / parti kecil"
+      }
+    ],
+    "crawlNotes": [
+      "Pengundi MY 4-post: poll BN+PN 75.9% vs PH 24.1% (7,019 komen)"
+    ]
+  },
+  "coalitionContext": "Peluang majoriti = kebarangkalian capai ≥19/36 kerusi (bukan % undi rakyat). Model kerusi N9: pasWinProb + margin 2023 + DPI. Bukan polling SPR.",
+  "mnInsight": {
+    "majorityThreshold": 19,
+    "totalSeats": 36,
+    "pasMn23": 23,
+    "umnoMn13": 13,
+    "pasSoloContest27": 27,
+    "pasSoloLead13": 13,
+    "pasSoloLeadCodes": [
+      "N02",
+      "N03",
+      "N05",
+      "N06",
+      "N08",
+      "N09",
+      "N18",
+      "N19",
+      "N20",
+      "N25",
+      "N31",
+      "N34",
+      "N35"
+    ],
+    "expectedMnBlocSeats": 22.9,
+    "expectedPasSoloSeats": 19.4,
+    "expectedFlipsFromLead13": 7.8,
+    "mnReachesMajority": true,
+    "soloInsight": {
+      "contest27Note": "Senario solo Melayu (27 kerusi): PAS dijangka > UMNO — 13 kerusi jelas, 14 kerusi rapat.",
+      "expectedFlipsFromLead13": 7.8,
+      "phInContest27": [
+        "N01",
+        "N04",
+        "N08",
+        "N10",
+        "N13",
+        "N14",
+        "N18",
+        "N24",
+        "N33",
+        "N36"
+      ],
+      "notAll27Wins": "27/27 PAS solo > UMNO solo (berperingkat) — flip dijangka ~7.8 dari 13 lead kuat, bukan menang semua."
+    },
+    "mbNote": "Agihan MN (HQ): PAS/PN 13 kerusi (9 wajib + 4 berhasrat) · UMNO/BN 23 kerusi. Bloc PAS+MN dijangka ~22.9 kerusi (majoriti = 19). PAS realistik cerah ~3 drpd 4 berhasrat (Chennah terbaik · Nilai stretch).",
+    "disclaimer": "Model hibrid PRN2023 + DPI + DOSM + socmed. SPR."
+  },
+  "issues": {
+    "windowNote": "24j = 24 jam sebelum tarikh crawl terakhir dalam master",
+    "top": [
+      {
+        "label": "Perpaduan kaum",
+        "pct": 26,
+        "mentions": 31,
+        "color": "var(--red)"
+      },
+      {
+        "label": "Agama & institusi",
+        "pct": 22,
+        "mentions": 25,
+        "color": "var(--purple)"
+      },
+      {
+        "label": "Pendidikan",
+        "pct": 17,
+        "mentions": 19,
+        "color": "var(--cyan)"
+      },
+      {
+        "label": "Jalan & pengangkutan",
+        "pct": 16,
+        "mentions": 18,
+        "color": "var(--red)"
+      },
+      {
+        "label": "Pelancongan",
+        "pct": 11,
+        "mentions": 13,
+        "color": "var(--green)"
+      },
+      {
+        "label": "Pekerjaan & ekonomi",
+        "pct": 8,
+        "mentions": 10,
+        "color": "var(--primary)"
+      }
+    ],
+    "postsScanned": 273
+  },
+  "demographics": {
+    "stateDemoMix": {
+      "unknown": 92.7,
+      "malay": 4.0,
+      "urban": 3.3
+    },
+    "hybrid": {
+      "dpi": {
+        "malay": 59.4,
+        "chinese": 26.8,
+        "indian": 13.8
+      },
+      "socmed": {
+        "malay": 4.0,
+        "urban": 3.3,
+        "chinese": 0.0,
+        "indian": 0.0,
+        "unknown": 92.7
+      },
+      "delta": {
+        "malay": -55.4,
+        "chinese": -26.8,
+        "urban": 3.3
+      },
+      "bloc7Nudges": {
+        "pas_solo": 1
+      },
+      "legacyNudges": {
+        "PAS Solo": 1
+      },
+      "adjustmentNotes": [
+        "Kurang suara Cina dalam socmed vs profil DUN bandar (+1%)",
+        "Keyakinan demografi rendah (139 mention per-DUN) — nudge ×55%"
+      ],
+      "insight": "Melayu DPI 59.4% vs socmed 4.0% (-55.4pp) · bandar/campuran 3.3%",
+      "mentionsWeighted": 1386,
+      "dunMentionsWeighted": 139,
+      "confidenceScale": 0.55,
+      "votersTotal": 886887,
+      "disclaimer": "DPI = pengundi berdaftar SPR · socmed = proxy bahasa post (bukan etnik sebenar)"
+    },
+    "note": "DPI pengundi (SPR) vs proxy bahasa socmed — nudge ±2–3% pada senario MN/PAS/PH"
+  },
+  "culaPoll": {
+    "meta": {
+      "generated": "2026-07-15 01:54:40",
+      "sourceCsv": "data/combined/Combined_facebook_20260702_204813.csv",
+      "batch": "cula_digital_whatsapp_7posts_20260702",
+      "totalRows": 533,
+      "totalPosts": 7,
+      "totalComments": 526,
+      "totalEngagement": 2302,
+      "note": "Semua komen termasuk Tidak Jelas — dipecahkan via cula_assumption (sentiment+emotion).",
+      "labelling": "3-tier: Jelas + Debat→condong + Tidak Jelas→assumption"
+    },
+    "mnVsSolo": {
+      "headline": "MN 67 · Solo 31 · Pro-PAS 220 · Pro-PH 89 · 6 post · 458 komen",
+      "headlineKeyword": "MN 67 · Solo 31 (keyword sahaja)",
+      "pct": {
+        "MN": 14.6,
+        "Solo": 6.8,
+        "Pro-PAS": 48.0,
+        "Pro-PH": 19.4,
+        "Masih Tidak Jelas": 11.1
+      },
+      "pctKeyword": {
+        "MN": 42.4,
+        "Solo": 19.6,
+        "Pro-PAS": 21.5,
+        "Pro-PH": 16.5
+      },
+      "bucketsExpanded": {
+        "MN": 67,
+        "Solo": 31,
+        "Pro-PAS": 220,
+        "Pro-PH": 89,
+        "Masih Tidak Jelas": 51
+      },
+      "bucketsKeyword": {
+        "MN": 67,
+        "Solo": 31,
+        "Pro-PAS": 34,
+        "Pro-PH": 26
+      },
+      "tidakJelasResolved": 300,
+      "insight": "MN 67 · Solo 31 · Pro-PAS 220 · Pro-PH 89 · Masih 51 (semua komen).",
+      "insightKeyword": "MN 68% vs Solo 32% (keyword jelas+debat).",
+      "engagement": 1846,
+      "commentsTotal": 458
+    },
+    "pasLabu": {
+      "headline": "Sokong 52 · Tak 7 · Masih 9 · 1 post",
+      "headlineKeyword": "Sokong 28 · Tak 5 (keyword sahaja)",
+      "pct": {
+        "Sokong PAS": 76.5,
+        "Tak Sokong PAS": 10.3,
+        "Masih Tidak Jelas": 13.2
+      },
+      "pctKeyword": {
+        "Sokong PAS": 84.8,
+        "Tak Sokong PAS": 15.2
+      },
+      "bucketsExpanded": {
+        "Sokong PAS": 52,
+        "Tak Sokong PAS": 7,
+        "Masih Tidak Jelas": 9
+      },
+      "bucketsKeyword": {
+        "Sokong PAS": 28,
+        "Tak Sokong PAS": 5
+      },
+      "tidakJelasResolved": 35,
+      "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+      "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat).",
+      "engagement": 456,
+      "commentsTotal": 68
+    },
+    "dunsWithData": [
+      "N20",
+      "N26",
+      "N27",
+      "N28",
+      "N33"
+    ]
+  },
+  "pengundiMacPosts": {
+    "updated": "2026-07-15 13:08:32",
+    "label": "Pengundi Malaysia · Post URL Batch (Mac1+Mac2 · Jul 2026)",
+    "master_csv": "data/combined/Combined_facebook_MAC1_MAC2_master_20260715_015148.csv",
+    "source_files": [
+      "Mac1: Combined_facebook_20260714_221637.csv, 232031.csv",
+      "Mac2: Combined_facebook_20260714_231140.csv, 20260715_011605.csv, 013927.csv"
+    ],
+    "summary": {
+      "total_posts": 4,
+      "total_comments_crawled": 7019,
+      "total_likes": 22210,
+      "total_shares": 663,
+      "total_engagement": 29892,
+      "total_data_points": 7023
+    },
+    "posts": [
+      {
+        "id": "POST-1",
+        "title": "Dua parti keramat terbesar bekerjasama di N9 — Kembalikan kuasa Melayu Islam",
+        "url": "https://www.facebook.com/ustazahasmakhusinoriginal/posts/pfbid02wai7Txzb1LyN3tJLQRhZxWnRQD7CxBDW1sToYX4QfNpubCFjdHRcTif9cpuABuSnl",
+        "crawled_comments": 3075,
+        "fb_comments_meta": 3710,
+        "coverage_pct": 82.9,
+        "likes": 14579,
+        "shares": 196,
+        "negative_pct": 65.7,
+        "positive_pct": 21.9,
+        "analytics_line": "3,075 komen crawled (82.9% FB) · 14,579 likes · 196 shares · Sentimen 65.7% neg / 21.9% pos · Emosi Love 50.2%",
+        "insight": "Post **paling viral** (14.6K likes). Setuju ~69.0% vs tidak 271 — base Melayu-Islam **engaged** (Love 50.2%) walaupun sentiment negatif tinggi (debate panas). Frame 'dua parti keramat' = kod MN; pushback dari anti-BN dan skeptikal PAS murni.",
+        "insight_exco": "",
+        "tindakan_72j": [
+          "Guna influencer selari Ustazah Asmak — konsisten, elak over-promise gabungan rasmi",
+          "Rapid response: bezakan 'kerjasama rakyat Melayu' vs 'gabungan parti'",
+          "Jangan biarkan negatif dibaca sebagai anti-MN — siarkan testimoni setuju"
+        ],
+        "tema_komen": "mn_gabungan (1130), melayu_islam (899), skeptikal (62), tolak_ph_dap (33)",
+        "impak_bloc": "MN +2pp · PAS Solo +1pp"
+      },
+      {
+        "id": "POST-2",
+        "title": "Majoriti Melayu sokong UMNO & PAS kerjasama — selamatkan Adat Pepatih",
+        "url": "https://www.facebook.com/PengundiMY/posts/pfbid02gAw8bLF3EDx3pv2p4X8isX9xU8W6SrcXJ1GKHU6ygRCj2cm9x1MEDekNtc6sKSW6l",
+        "crawled_comments": 1532,
+        "fb_comments_meta": 1561,
+        "coverage_pct": 98.1,
+        "likes": 3372,
+        "shares": 176,
+        "negative_pct": 59.3,
+        "positive_pct": 23.0,
+        "analytics_line": "1,532 komen crawled (98.1% FB) · 3,372 likes · 176 shares · Sentimen 59.3% neg / 23.0% pos · Emosi Love 46.6%",
+        "insight": "Coverage **98%** — data paling lengkap untuk frame **Adat Pepatih**. Setuju ~63.2% — komen sebut Hadi/Zahid, target N9 BN+PAS. Negatif = politicking dalaman (Johor/Gerakan), bukan reject adat.",
+        "insight_exco": "",
+        "tindakan_72j": [
+          "Couple MN dengan adat + Undang — elak sentuh sensitif MB vs Undang-4",
+          "Waar room message: 'selamatkan Adat Pepatih' = hook Melayu tradisional N9",
+          "Monitor Zahid vs Hadi narrative — satu suara sahaja di digital"
+        ],
+        "tema_komen": "mn_gabungan (603), melayu_islam (337), adat_istana (59), sokong_bn_pn (42)",
+        "impak_bloc": "MN +3pp (adat frame)"
+      },
+      {
+        "id": "POST-3",
+        "title": "PRN N9: PH vs BN+PN (N9 ≠ Johor)",
+        "url": "https://www.facebook.com/PengundiMY/posts/pfbid02VT6JLaRQw47MfdvZwYTiKZmDUD8mtEEFibu7npVFZ3B5xAoa8WDiZQWmiRN34EJ2l",
+        "crawled_comments": 881,
+        "fb_comments_meta": 899,
+        "coverage_pct": 98.0,
+        "likes": 421,
+        "shares": 97,
+        "negative_pct": 41.1,
+        "positive_pct": 41.5,
+        "analytics_line": "881 komen crawled (98.0% FB) · 421 likes · 97 shares · Sentimen 41.1% neg / 41.5% pos · Emosi Love 31.7%",
+        "insight": "Undian eksplisit: BN+PN **75.9%** vs PH **24.1%** (202 B vs 64 A). Frame 'N9 ≠ Johor' berkesan — komen pro-MN/anti-PH dominan. PH perlu counter-narrative khusus N9 (bukan copy Selangor/Johor).",
+        "insight_exco": "",
+        "tindakan_72j": [
+          "MN: tekankan perbezaan N9 — adat, MN pragmatik, bukan model Johor",
+          "PH: elak debat DAP frontal; fokus ekonomi + kestabilan negeri",
+          "Digital: boost komen B dengan testimoni Undang/adat (selari Post 2)"
+        ],
+        "tema_komen": "mn_gabungan (118), melayu_islam (40), sokong_bn_pn (35), tolak_ph_dap (35)",
+        "impak_bloc": "MN/PN +3pp · PH -2pp"
+      },
+      {
+        "id": "POST-4",
+        "title": "PAS & UMNO akan kerjasama di PRN Negeri Sembilan",
+        "url": "https://www.facebook.com/PengundiMY/posts/pfbid02dpkQEc65Yw6qqHRs7Se38QkTrR48Pmpd5KBscVx6wPEKRS7i4UDQb1X6tts1UMd8l",
+        "crawled_comments": 1531,
+        "fb_comments_meta": 1575,
+        "coverage_pct": 97.2,
+        "likes": 3838,
+        "shares": 194,
+        "negative_pct": 53.6,
+        "positive_pct": 30.3,
+        "analytics_line": "1,531 komen crawled (97.2% FB) · 3,838 likes · 194 shares · Sentimen 53.6% neg / 30.3% pos · Emosi Love 48.1%",
+        "insight": "Soalan direct — **1125 komen neutral** (wait-and-see). Setuju ~62.6% — pengundi **boleh terima** PAS+UMNO tetapi tunggu bukti (seat deal, manifesto). Engagement tinggi, commitment rendah.",
+        "insight_exco": "",
+        "tindakan_72j": [
+          "Perlu proof point: contoh kerusi, calon, atau statement bersama",
+          "Convert neutral → setuju dengan fakta (bukan slogan)",
+          "Elak ulang Post 1/2 — fokus 'bagaimana' bukan 'setuju tak'"
+        ],
+        "tema_komen": "mn_gabungan (587), melayu_islam (405), sokong_bn_pn (25), tolak_ph_dap (23)",
+        "impak_bloc": "MN +1pp (belum fully committed)"
+      }
+    ],
+    "post3_poll": {
+      "sokong_bn_pn_pct": 75.9,
+      "sokong_ph_pct": 24.1,
+      "decided_ab": 266
+    },
+    "strategic_headline": "4 post viral · 7,019 komen · 29,892 engagement · Poll PH vs BN+PN: B 75.9%",
+    "insight_docx": "data/projects/political/PRN/PRN_N9/reports/pengundi_4posts/pengundi_4posts_insight_latest.json",
+    "insight_docx_file": null,
+    "kesimpulan_gabungan": "Empat post viral Pengundi MY menunjukkan **sokongan komen terhadap MN/BN+PN** (Poll Post 3: B 76%) dan **kerjasama UMNO–PAS** bila diframe Melayu-Islam/adat (Post 1–2 ~63–69% setuju). Sentiment negatif tinggi = debate heated, bukan reject total. Post 4: pengundi wait-and-see — perlu proof point. Impak War Room: MN kekal laluan utama; PH perlu counter khusus N9."
+  },
+  "narrativeCommunity": {
+    "updated": "2026-07-15 01:54:27",
+    "chinese_posts": 288,
+    "indian_posts": 805,
+    "top_chinese_issue": "Other",
+    "top_indian_issue": "Other",
+    "dun_with_narrative": 7,
+    "pengundi_sync": "2026-07-15 13:08:32"
+  }
+}

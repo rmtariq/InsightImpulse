@@ -1,0 +1,26 @@
+CHECKLIST HARIAN — NARATIF CINA & INDIA
+========================================
+Tick manual · juga dipapar dalam Command Center War Room
+
+Tarikh: ___________
+
+PAGI
+[ ] ./scripts/update_narrative.sh pagi
+[ ] Buka http://localhost:8080/?module=narrative
+[ ] Semak P1 Cina — negeri aktif: __ N9 __ Johor __ Melaka
+[ ] Semak P1 India — negeri aktif: __ N9 __ Johor __ Melaka
+[ ] Assign pasukan + due time untuk isu P1
+
+PETANG
+[ ] ./scripts/update_narrative.sh petang
+[ ] Refresh Modul #6 (Cmd+Shift+R)
+[ ] Banding pagi vs petang — ada spike isu baru?
+[ ] Tandakan tindakan selesai dalam Modul #6
+
+MINGGUAN (opsyen)
+[ ] ./scripts/update_narrative.sh penuh
+[ ] ./scripts/update_narrative.sh laporan
+[ ] Edar laporan PDF/DOCX: __ EXCO __ War Room __ WhatsApp
+
+COMMAND CENTER
+[ ] “Last narrative update” ≤ 12 jam (hijau) — jika merah, jalankan update

@@ -1,0 +1,268 @@
+{
+  "total": 3961,
+  "neg": 744,
+  "neu": 2075,
+  "pos": 1142,
+  "neg_pct": 18.8,
+  "plat_counts": {
+    "instagram": 1764,
+    "linkedin": 699,
+    "x": 500,
+    "tiktok": 430,
+    "facebook": 314,
+    "news": 253,
+    "youtube": 1
+  },
+  "plat_neg_pct": {
+    "facebook": 47.1,
+    "linkedin": 9.4,
+    "tiktok": 9.5,
+    "instagram": 10.2,
+    "x": 48.8,
+    "youtube": 0.0,
+    "news": 25.7
+  },
+  "plat_data": [
+    1764,
+    699,
+    430,
+    253,
+    314,
+    500,
+    1
+  ],
+  "eng_total": 3152700,
+  "views_total": 85164468,
+  "likes_total": 1847764,
+  "top_kw": [
+    [
+      "and",
+      522
+    ],
+    [
+      "you",
+      361
+    ],
+    [
+      "tapi",
+      299
+    ],
+    [
+      "nak",
+      294
+    ],
+    [
+      "your",
+      293
+    ],
+    [
+      "cash",
+      261
+    ],
+    [
+      "bukan",
+      260
+    ],
+    [
+      "business",
+      253
+    ],
+    [
+      "itu",
+      234
+    ],
+    [
+      "tidak",
+      232
+    ]
+  ],
+  "watchlist_count": 27,
+  "watchlist_high": 3,
+  "watchlist_medium": 24,
+  "sessions": 7,
+  "platforms": 7,
+  "out_master": "data/combined/SMEBank_AllData_Master_20260609_160119.csv",
+  "out_watchlist": "data/analyzed/EWS_RiskWatchlist_20260609_160119.csv",
+  "watchlist_rows": [
+    {
+      "Entity_from_Post": "Syarikat & Jenama",
+      "Matched_Borrower": "Syarikat Logistik Azmi Express",
+      "Account": "SME-015-2023",
+      "Loan_Amount": "RM 320,000",
+      "Match_Score": "70%",
+      "Platform": "FACEBOOK",
+      "Emotion": "no_clear_emotion",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/kimmie.abdullah/posts/pfbid0Vskg15Yi3CCvr1kg7xAgBbE9JBZb6aXaBLyBFXyLBeW1zUwqrx9zDDX4DUUJzPaEl"
+    },
+    {
+      "Entity_from_Post": "Now It'S All About Enterprise",
+      "Matched_Borrower": "Catering Zainab Enterprise KL",
+      "Account": "SME-006-2023",
+      "Loan_Amount": "RM 38,000",
+      "Match_Score": "62%",
+      "Platform": "INSTAGRAM",
+      "Emotion": "no_clear_emotion",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.instagram.com/p/DYZcUeBAuW3/"
+    },
+    {
+      "Entity_from_Post": "Enterprise Ai",
+      "Matched_Borrower": "Catering Zainab Enterprise KL",
+      "Account": "SME-006-2023",
+      "Loan_Amount": "RM 38,000",
+      "Match_Score": "87%",
+      "Platform": "INSTAGRAM",
+      "Emotion": "no_clear_emotion",
+      "Risk_Level": "\ud83d\udd34 HIGH",
+      "Action": "Hubungi dalam 24 jam",
+      "Source_URL": "https://www.instagram.com/p/DYZcUeBAuW3/"
+    },
+    {
+      "Entity_from_Post": "Kedai Nya",
+      "Matched_Borrower": "Kedai Runcit Hassan Maju",
+      "Account": "SME-012-2024",
+      "Loan_Amount": "RM 45,000",
+      "Match_Score": "71%",
+      "Platform": "X",
+      "Emotion": "love",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://x.com/KapudS640/status/2063589926827167956"
+    },
+    {
+      "Entity_from_Post": "Restoran Pula Sebab Ramai Yang",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "65%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/416287575557756/posts/2148542262332270/"
+    },
+    {
+      "Entity_from_Post": "Restoran Pula Sebab Ramai Yang Lalui Restoran Tap",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "64%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/416287575557756/posts/2148542262332270/"
+    },
+    {
+      "Entity_from_Post": "Restoran Kami Nak Belanja Sesiapa Yang Dine In Ke",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "64%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/482332066366116/posts/1556797985586180/"
+    },
+    {
+      "Entity_from_Post": "Restoran Kami",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "76%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/482332066366116/posts/1556797985586180/"
+    },
+    {
+      "Entity_from_Post": "Restoran Kami Nak Belanja Sesiapa",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "68%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/482332066366116/posts/1556797985586180/"
+    },
+    {
+      "Entity_from_Post": "Kedai Ni",
+      "Matched_Borrower": "Kedai Runcit Hassan Maju",
+      "Account": "SME-012-2024",
+      "Loan_Amount": "RM 45,000",
+      "Match_Score": "77%",
+      "Platform": "FACEBOOK",
+      "Emotion": "no_clear_emotion",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": NaN
+    },
+    {
+      "Entity_from_Post": "Restoran Maria",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "73%",
+      "Platform": "FACEBOOK",
+      "Emotion": "surprise",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/groups/537561969718275/posts/3376135725860871/"
+    },
+    {
+      "Entity_from_Post": "Kedai Makan",
+      "Matched_Borrower": "Kedai Runcit Hassan Maju",
+      "Account": "SME-012-2024",
+      "Loan_Amount": "RM 45,000",
+      "Match_Score": "62%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/sist.rien.5/posts/pfbid0xiKrYwRZvkCib7grQHRDAATR6ZjmHKfJ8p5Z19g4asQkzjHT8neEyyoL9R23cgY7l"
+    },
+    {
+      "Entity_from_Post": "Restoran Ini",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "80%",
+      "Platform": "FACEBOOK",
+      "Emotion": "sadness",
+      "Risk_Level": "\ud83d\udd34 HIGH",
+      "Action": "Hubungi dalam 24 jam",
+      "Source_URL": "https://www.facebook.com/sist.rien.5/posts/pfbid0xiKrYwRZvkCib7grQHRDAATR6ZjmHKfJ8p5Z19g4asQkzjHT8neEyyoL9R23cgY7l"
+    },
+    {
+      "Entity_from_Post": "Restoran Ni Kerja",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "64%",
+      "Platform": "FACEBOOK",
+      "Emotion": "love",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/RumpunSeleraHQ/posts/pfbid0xcsAr3KwMGVuRwdKyN3LjQSHfKvRay54XHRBwKSQEco9SiXjBSZhYo6omZ8re2gJl"
+    },
+    {
+      "Entity_from_Post": "Restoran Lain",
+      "Matched_Borrower": "Restoran Nasi Lemak Pak Wan Setapak",
+      "Account": "SME-001-2024",
+      "Loan_Amount": "RM 85,000",
+      "Match_Score": "76%",
+      "Platform": "FACEBOOK",
+      "Emotion": "love",
+      "Risk_Level": "\ud83d\udfe0 MEDIUM",
+      "Action": "Review dalam 72 jam",
+      "Source_URL": "https://www.facebook.com/norman.radzuan/posts/pfbid02HoHC6R4HixodUFN4i5KipGdZvYZVtTDtJ7rHCMSMnQRA6G89hGvUdh5Fr6DemDuZl"
+    }
+  ]
+}

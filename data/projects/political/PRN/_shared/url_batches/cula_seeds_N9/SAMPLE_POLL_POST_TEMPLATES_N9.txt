@@ -1,0 +1,49 @@
+# Cula Digital Poll FB — Template Post Santai N9
+# Guna dalam kumpulan FB tempatan (bukan nada kempen keras)
+# Sistem baca jawapan komen → MN/Solo atau Labu → dashboard per DUN
+
+# =============================================================================
+# JENIS A — MN vs Solo (6 post contoh — Rembau, PD, Chembong, Kota, dll.)
+# =============================================================================
+# Copy, edit nama kawasan jika perlu, hantar di page/kumpulan tempatan.
+
+PRN N9 {KAWASAN}, korang pilih yang mana?
+A: MN (PN+BN) — elak pecah undi
+B: Go Solo — PAS lawan semua
+
+Yang penting: PH kalah, hilang deposit.
+Jawab A atau B je — ikhlas, bukan debat panjang pun ok.
+
+# DUN cadangan: N26 Chembong, N27 Rantau, N28 Kota, N33 Sri Tanjung, dll.
+
+# =============================================================================
+# JENIS B — PAS Labu (1 post — soalan calon N20)
+# =============================================================================
+
+Agak-agak kalau PAS letak calon di DUN Labu, warga Labu akan undi PAS?
+Jawab: Sokong / Tak sokong / Condong — ikhlas je.
+
+# DUN: N20 Labu
+
+# =============================================================================
+# JENIS C — Ujian N01 Chennah (contoh baru — perlu post + crawl baru)
+# =============================================================================
+# Chennah campuran Melayu+Cina — kekalkan santai, elak provokasi.
+
+PRN N9 Chennah — korang rasa kali ni undi ikut:
+A: Kestabilan / status quo (PH-BN)
+B: Perubahan / alternatif (PN-PAS)
+
+Jawab A atau B. Bukan undi rasmi — cuma dengar suara setempat.
+
+# DUN: N01 — selepas post, paste URL ke SAMPLE_POLL_URLS_TEST_PASTE.txt
+
+# =============================================================================
+# TIPS SUPAYA JAWAPAN IKHLAS & BOLEH DIPROSES
+# =============================================================================
+# 1. Satu post = satu soalan sahaja (jangan campur 3 isu)
+# 2. Beri pilihan jelas: A/B atau Sokong/Tak sokong
+# 3. Nada rakan kongsi: "agak-agak", "korang rasa", "jawab je"
+# 4. Elak suruh share 100 kali — FB akan limit reach
+# 5. Tunggu 24–48 jam sebelum crawl (biar komen masuk)
+# 6. Satu URL = satu baris dalam fail paste

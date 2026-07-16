@@ -1,0 +1,17 @@
+{
+  "fetched_at": "2026-06-14T10:34:37",
+  "csv_file": "data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_News_all_20260614_103437.csv",
+  "filter_negeri": "all",
+  "total_rows": 133,
+  "by_negeri": {
+    "Johor": 21,
+    "Melaka": 13,
+    "Negeri Sembilan": 99
+  },
+  "by_voice": {
+    "media_chinese": 86,
+    "party_official": 37,
+    "proxy_about_chinese": 10
+  },
+  "note": "Pisah analisis ikut Negeri + Weight (ANALYSIS_RULES dalam Excel)"
+}

@@ -1,0 +1,28 @@
+# CULA DIGITAL — N19 Johol (seed post URLs)
+# ==========================================================
+# Tier: IMBANG · Daerah: Kuala Pilah
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Johol (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N19
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Pekan Johol; Pasir Panjang
+# ISU TEMPATAN: Undang Johol; Adat; luar bandar
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "area Johol — BN ke PAS ke PH yg lebih sesuai kali ni?"
+#   "tengok Pekan Johol, ramai bincang pasal Undang Johol. korang macam mana?"
+#   "agaknya kerusi Johol flip ke kali ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Johol atau Pekan Johol
+#   • Post sebut Johol atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

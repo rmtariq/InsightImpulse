@@ -1,0 +1,12 @@
+# CULA DIGITAL — 36 DUN N9 (semua kerusi)
+# ============================================================
+# Fail per kerusi ada di folder:
+#   cula_seeds_N9/N01_Chennah_PASTE_ONLY.txt … N36_Repah_PASTE_ONLY.txt
+#
+# Jana / refresh template:
+#   python3 scripts/generate_cula_seed_batches_n9.py
+#
+# Selepas isi URL post (2–3 hari selepas seed):
+#   python3 scripts/crawl_cula_seed_batches_n9.py --all-filled
+#
+# Lihat manifest: cula_seeds_N9/manifest.json

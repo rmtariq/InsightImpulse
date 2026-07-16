@@ -1,0 +1,537 @@
+{
+  "stats": {
+    "total_original": 8351,
+    "total_clean": 5906,
+    "posts": 813,
+    "engagement": 136349751
+  },
+  "daily": [
+    {
+      "date": "2026-03-01",
+      "posts": 1,
+      "engagement": 14.0
+    },
+    {
+      "date": "2026-03-02",
+      "posts": 2,
+      "engagement": 7.0
+    },
+    {
+      "date": "2026-03-04",
+      "posts": 6,
+      "engagement": 47.0
+    },
+    {
+      "date": "2026-03-05",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-03-07",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-03-08",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-03-12",
+      "posts": 1,
+      "engagement": 35.0
+    },
+    {
+      "date": "2026-03-14",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-03-17",
+      "posts": 2,
+      "engagement": 22.0
+    },
+    {
+      "date": "2026-03-18",
+      "posts": 1,
+      "engagement": 526.0
+    },
+    {
+      "date": "2026-03-19",
+      "posts": 1,
+      "engagement": 5.0
+    },
+    {
+      "date": "2026-03-21",
+      "posts": 1,
+      "engagement": 4.0
+    },
+    {
+      "date": "2026-03-25",
+      "posts": 1,
+      "engagement": 340.0
+    },
+    {
+      "date": "2026-03-30",
+      "posts": 1,
+      "engagement": 3.0
+    },
+    {
+      "date": "2026-03-31",
+      "posts": 1,
+      "engagement": 1.0
+    },
+    {
+      "date": "2026-04-01",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-04-03",
+      "posts": 1,
+      "engagement": 8.0
+    },
+    {
+      "date": "2026-04-05",
+      "posts": 1,
+      "engagement": 44.0
+    },
+    {
+      "date": "2026-04-06",
+      "posts": 7,
+      "engagement": 40.0
+    },
+    {
+      "date": "2026-04-08",
+      "posts": 5,
+      "engagement": 82.0
+    },
+    {
+      "date": "2026-04-09",
+      "posts": 2,
+      "engagement": 8.0
+    },
+    {
+      "date": "2026-04-11",
+      "posts": 1,
+      "engagement": 208.0
+    },
+    {
+      "date": "2026-04-12",
+      "posts": 2,
+      "engagement": 8.0
+    },
+    {
+      "date": "2026-04-13",
+      "posts": 1,
+      "engagement": 0.0
+    },
+    {
+      "date": "2026-04-15",
+      "posts": 4,
+      "engagement": 40.0
+    },
+    {
+      "date": "2026-04-16",
+      "posts": 1,
+      "engagement": 7.0
+    },
+    {
+      "date": "2026-04-17",
+      "posts": 3,
+      "engagement": 31.0
+    },
+    {
+      "date": "2026-04-18",
+      "posts": 3,
+      "engagement": 974.0
+    },
+    {
+      "date": "2026-04-19",
+      "posts": 5,
+      "engagement": 315.0
+    },
+    {
+      "date": "2026-04-20",
+      "posts": 2,
+      "engagement": 1.0
+    },
+    {
+      "date": "2026-04-22",
+      "posts": 4,
+      "engagement": 246.0
+    },
+    {
+      "date": "2026-04-23",
+      "posts": 6,
+      "engagement": 164.0
+    },
+    {
+      "date": "2026-04-24",
+      "posts": 3,
+      "engagement": 7.0
+    },
+    {
+      "date": "2026-04-26",
+      "posts": 1,
+      "engagement": 61.0
+    },
+    {
+      "date": "2026-04-27",
+      "posts": 2,
+      "engagement": 7.0
+    },
+    {
+      "date": "2026-04-28",
+      "posts": 2,
+      "engagement": 229.0
+    },
+    {
+      "date": "2026-04-29",
+      "posts": 2,
+      "engagement": 371.0
+    },
+    {
+      "date": "2026-04-30",
+      "posts": 10,
+      "engagement": 203.0
+    },
+    {
+      "date": "2026-05-01",
+      "posts": 17,
+      "engagement": 253.0
+    },
+    {
+      "date": "2026-05-02",
+      "posts": 19,
+      "engagement": 196.0
+    },
+    {
+      "date": "2026-05-03",
+      "posts": 11,
+      "engagement": 259.0
+    },
+    {
+      "date": "2026-05-04",
+      "posts": 8,
+      "engagement": 155.0
+    },
+    {
+      "date": "2026-05-05",
+      "posts": 18,
+      "engagement": 116.0
+    },
+    {
+      "date": "2026-05-06",
+      "posts": 19,
+      "engagement": 198.0
+    },
+    {
+      "date": "2026-05-07",
+      "posts": 13,
+      "engagement": 560.0
+    },
+    {
+      "date": "2026-05-08",
+      "posts": 28,
+      "engagement": 264.0
+    },
+    {
+      "date": "2026-05-09",
+      "posts": 12,
+      "engagement": 43.0
+    },
+    {
+      "date": "2026-05-10",
+      "posts": 24,
+      "engagement": 682.0
+    },
+    {
+      "date": "2026-05-11",
+      "posts": 15,
+      "engagement": 48.0
+    },
+    {
+      "date": "2026-05-12",
+      "posts": 13,
+      "engagement": 232.0
+    },
+    {
+      "date": "2026-05-13",
+      "posts": 15,
+      "engagement": 222.0
+    },
+    {
+      "date": "2026-05-14",
+      "posts": 16,
+      "engagement": 71.0
+    },
+    {
+      "date": "2026-05-15",
+      "posts": 15,
+      "engagement": 3101.0
+    },
+    {
+      "date": "2026-05-16",
+      "posts": 13,
+      "engagement": 222.0
+    },
+    {
+      "date": "2026-05-17",
+      "posts": 24,
+      "engagement": 954.0
+    },
+    {
+      "date": "2026-05-18",
+      "posts": 13,
+      "engagement": 277.0
+    },
+    {
+      "date": "2026-05-19",
+      "posts": 17,
+      "engagement": 376.0
+    },
+    {
+      "date": "2026-05-20",
+      "posts": 23,
+      "engagement": 289.0
+    },
+    {
+      "date": "2026-05-21",
+      "posts": 11,
+      "engagement": 152.0
+    },
+    {
+      "date": "2026-05-22",
+      "posts": 34,
+      "engagement": 2800.0
+    },
+    {
+      "date": "2026-05-23",
+      "posts": 45,
+      "engagement": 414.0
+    },
+    {
+      "date": "2026-05-24",
+      "posts": 24,
+      "engagement": 179.0
+    },
+    {
+      "date": "2026-05-25",
+      "posts": 33,
+      "engagement": 825.0
+    },
+    {
+      "date": "2026-05-26",
+      "posts": 58,
+      "engagement": 655.0
+    },
+    {
+      "date": "2026-05-27",
+      "posts": 39,
+      "engagement": 217.0
+    },
+    {
+      "date": "2026-05-28",
+      "posts": 77,
+      "engagement": 125527.0
+    },
+    {
+      "date": "2026-05-29",
+      "posts": 171,
+      "engagement": 24812.0
+    }
+  ],
+  "platforms": [
+    {
+      "platform": "facebook",
+      "posts": 353,
+      "engagement": 3966.0
+    },
+    {
+      "platform": "instagram",
+      "posts": 957,
+      "engagement": 12012.0
+    },
+    {
+      "platform": "threads",
+      "posts": 150,
+      "engagement": 78177.0
+    },
+    {
+      "platform": "tiktok",
+      "posts": 2354,
+      "engagement": 33362920.0
+    },
+    {
+      "platform": "x",
+      "posts": 639,
+      "engagement": 215516.0
+    },
+    {
+      "platform": "youtube",
+      "posts": 1452,
+      "engagement": 102677160.0
+    }
+  ],
+  "sentiment": {
+    "neutral": 3005,
+    "negative": 1536,
+    "positive": 1365
+  },
+  "emotions": {
+    "love": 2725,
+    "no_clear_emotion": 1871,
+    "happy": 360,
+    "anger": 346,
+    "sadness": 216,
+    "fear": 197,
+    "surprise": 191
+  },
+  "narratives": {
+    "PAS Solo": 345,
+    "Perpecahan": 186
+  },
+  "top_posts": [
+    {
+      "Platform": "youtube",
+      "Date": "Unknown",
+      "clean_text": "Di tengah kondisi saat ini yang memaksa kita untuk terus berjuang, bersatu dengan saling bantu adalah salah satu bentuk perjuangan untuk merdeka. Merdeka karena memiliki kebebasan dan kesempatan dalam menghadapi tantangan bersama-sama. Tetaplah bersatu, tetaplah bertahan, karena segala tantangan bes...",
+      "total_engagement": 1591115,
+      "sentiment_label": "positive"
+    },
+    {
+      "Platform": "youtube",
+      "Date": "Unknown",
+      "clean_text": "Reject bersatu dr PN..keputusan yg bijak dr TGHH..no more bersatu in PN..",
+      "total_engagement": 1411616,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "tiktok",
+      "Date": "Unknown",
+      "clean_text": "Kita Bersatuuu... @dindateratu #rinduakurindukamu #dindateratu #petelmaholtra #zaridenmusic #gumilangentertainment #infoorkespati #infoorkesjepara #infoorkeskudus #storyorkespati #orkeskudus #orkesdangdut #sahabatojingkudus #ojingjepara #dangdutkoplo #foryou #fypシ゚viral #untukmu #untukanda #foryourp...",
+      "total_engagement": 188116,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "youtube",
+      "Date": "Unknown",
+      "clean_text": "Provided to YouTube by Universal Music Group Kejoraku Bersatu · Search Selepas Banjir ℗ 1999 Go Search Sdn Bhd Released on: 1999-01-31 Associated Performer, Producer, Vocals: Search Composer: M. Nasir Author: Keon Auto-generated by YouTube.",
+      "total_engagement": 126955,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "tiktok",
+      "Date": "Unknown",
+      "clean_text": "HAHAHAHA ADUH 🤣🤣🤣 #HidupPN #muhyiddinyassin #perikatannasional #pru15 #foryou #foryoupage #fyppppp #fyp",
+      "total_engagement": 97681,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "youtube",
+      "Date": "30 Jan 2026",
+      "clean_text": "\"PAS SOLO\", extrait de mon album \"DÉCENNIE\" Disponible sur toutes les plateformes : https://gradur.lnk.to/PasSolo Accor Arena, vendredi 16 octobre 2026 Lien billetterie: https://www.ticketmaster.fr/fr/liste/... Suivez-moi sur mes réseaux : Instagram : / gradurofficiel243 Twitter : https://x.com/grad...",
+      "total_engagement": 44808,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "tiktok",
+      "Date": "Unknown",
+      "clean_text": "12 MAC 26: PAS menolak untuk menyertai Rumah Bangsa yang dinaungi UMNO, kata Presidennya, Tan Sri Abdul Hadi Awang. Abdul Hadi yang juga Ahli Parlimen Marang berkata, keputusan itu dibuat selepas Pas menghantar pemerhati ke perjumpaan jemputan Rumah Bangsa, baru-baru ini. Klik kotak hijau untuk beri...",
+      "total_engagement": 43262,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "tiktok",
+      "Date": "Unknown",
+      "clean_text": "NTT Bercerita #flobamorabersatuu #flobamorasellamanya #flobamora #ntt #flores #floresntt #sumba #timor #alor #rotendao #pulausemau #saburaijua #pulausabu #fyp #foryoupage #foryou #basudara #laguviral #lagutimur #blackmagic #nusatenggaratimur",
+      "total_engagement": 33908,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "youtube",
+      "Date": "06 Dec 2018",
+      "clean_text": "Provided to YouTube by D'Or et de Platine Je suis pas solo · JUL La zone en personne ℗ D'Or et de Platine / Musicast Released on: 2018-12-07 : JUL Composer: JUL Lyricist: JUL Auto-generated by YouTube.",
+      "total_engagement": 32233,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "tiktok",
+      "Date": "Unknown",
+      "clean_text": "walaupun kita kadang gaduh di sosmed,itu bukan halangan untuk kita bersatu melawan kezoliman karna kita sama2 anak Tuhan Yesus,, amin #fyp #kristen #karo #batak #Nias",
+      "total_engagement": 28860,
+      "sentiment_label": "positive"
+    },
+    {
+      "Platform": "x",
+      "Date": "02 Dec 2024",
+      "clean_text": "diliat dari fancam mba op yg HD ini, pas solo dance break -jaemin ternyata haechan itu ngasih botol air minum buat jaemin🥹🩵 ab line🫂 https://t.co/NrNRdipnYT",
+      "total_engagement": 10737,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "x",
+      "Date": "28 Jan 2026",
+      "clean_text": "Gradur x @Sdm__92 - Pas solo / rdv vendredi https://t.co/BpTUKw3v4Y",
+      "total_engagement": 7525,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "x",
+      "Date": "17 Mar 2025",
+      "clean_text": "🐯kayanya gue bakal nangis pas solo album gue rilis gpp mark kita semua nangis bareng🥹🥹 https://t.co/tYUOW1Yyii",
+      "total_engagement": 7374,
+      "sentiment_label": "neutral"
+    },
+    {
+      "Platform": "x",
+      "Date": "15 May 2026",
+      "clean_text": "Terakhir kali pas solo aku di sh, aku katain balik. Dia bilang \"jagoan nyepong apa ngeaim?\" Aku jawab \"gak usah sok sokan nanya kalau kontolmu pendek sekuku tangan bang\" awowkwoowowk habis itu dia diem sepanjang game WKWKWKWKK DI AKHIR GAME DIA MINTA MAAF AHAHHA",
+      "total_engagement": 2882,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "x",
+      "Date": "20 Aug 2024",
+      "clean_text": "Jika lihat cara bercakap, Wan Fayhsal seperti orang arah. Berbelit-belit, apa pun tak faham. Dalam kes Muhyiddin dan Sultan Pahang, PAS dilihat neutral. Jika berlaku perpecahan antara PAS dan Bersatu, orang pertama hilang kerusi ialah Wan Fayhsal 😂. https://t.co/hgKNlyocyn",
+      "total_engagement": 2645,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "threads",
+      "Date": "Unknown",
+      "clean_text": "Ya, semua PM berhutang, tapi soalnya: untuk apa dan bagaimana? Najib: hutang tinggi, tapi projek mega & BR1M jalan. Muhyiddin/Ismail: hutang naik sebab COVID, bantu rakyat. Anwar? Hutang tetap naik, subsidi ditarik, cukai dinaikkan.",
+      "total_engagement": 1624,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "threads",
+      "Date": "Unknown",
+      "clean_text": "Ya, semua PM berhutang, tapi soalnya: untuk apa dan bagaimana? Najib: hutang tinggi, tapi projek mega & BR1M jalan. Muhyiddin/Ismail: hutang naik sebab COVID, bantu rakyat. Anwar? Hutang tetap naik, subsidi ditarik, cukai dinaikkan.",
+      "total_engagement": 1352,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "threads",
+      "Date": "Unknown",
+      "clean_text": "Teruskan anak muda sokong dan undi PAS dan Perikatan Nasional. PAS perintah Malaysia.",
+      "total_engagement": 1244,
+      "sentiment_label": "positive"
+    },
+    {
+      "Platform": "threads",
+      "Date": "Unknown",
+      "clean_text": "Tuan Guru Nik Abdul Aziz Nik Mat pernah memuji beberapa sifat Tun Dr. Mahathir, walaupun sering berbeza pendapat politik: 1. Bijak & berani – Tok Guru kagum dengan keberanian Tun mengkritik kuasa Barat seperti Amerika dan Israel. 2. Tegas memimpin – Diakui sebagai pemimpin yang keras dan berpendiria...",
+      "total_engagement": 1187,
+      "sentiment_label": "negative"
+    },
+    {
+      "Platform": "threads",
+      "Date": "Unknown",
+      "clean_text": "Teruskan anak muda sokong dan undi PAS dan Perikatan Nasional. PAS perintah Malaysia.",
+      "total_engagement": 981,
+      "sentiment_label": "positive"
+    }
+  ]
+}

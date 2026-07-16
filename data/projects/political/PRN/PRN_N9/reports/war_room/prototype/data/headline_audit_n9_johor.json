@@ -1,0 +1,864 @@
+{
+  "generated": "2026-06-21 08:19:06",
+  "rules": {
+    "verified": "Headline spesifik kerusi + ≤90 hari",
+    "none": "Tiada headline terkini spesifik kerusi",
+    "reject": "Senarai DUN negeri / negeri lain / >90 hari"
+  },
+  "states": {
+    "N9": {
+      "state": "N9",
+      "seatCount": 36,
+      "counts": {
+        "verified": 10,
+        "weak": 1,
+        "none": 25,
+        "stale_leak": 0,
+        "state_wide_leak": 0
+      },
+      "seats": [
+        {
+          "code": "N01",
+          "name": "Chennah",
+          "quality": "verified",
+          "mentions": 4,
+          "headline": "N Sembilan polls: Loke to defend Chennah, confident Harapan can secure majority. N Sembilan polls: Loke to defend Chenna…",
+          "date": "2026-06-08",
+          "issue": null
+        },
+        {
+          "code": "N02",
+          "name": "Pertang",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N03",
+          "name": "Sungai Lui",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N04",
+          "name": "Klawang",
+          "quality": "verified",
+          "mentions": 2,
+          "headline": "…geri Sembilan: Bakri tidak berhasrat pertahan DUN Klawang #BHnasional Namun Bakri akur jika pucuk pimpinan mahu beliau …",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N05",
+          "name": "Serting",
+          "quality": "verified",
+          "mentions": 5,
+          "headline": "…Mohd Isa (Pesuruhjaya PAS Negeri Sembilan / ADUN Serting) 9.45 malam : Pelancaran Derma Jihad 9.50 malam : Ceramah 3 ol…",
+          "date": "2026-05-05",
+          "issue": null
+        },
+        {
+          "code": "N06",
+          "name": "Palong",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N07",
+          "name": "Jeram Padang",
+          "quality": "none",
+          "mentions": 5,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N08",
+          "name": "Bahau",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N09",
+          "name": "Lenggeng",
+          "quality": "verified",
+          "mentions": 5,
+          "headline": "…media rasmi Ahmad Shuaib Bin Ismail Umno cawangan Lenggeng Bandaraya Seremban luak Sungai ujong n9 8-6-2026 Kebangkitan…",
+          "date": "2026-06-08",
+          "issue": null
+        },
+        {
+          "code": "N10",
+          "name": "Nilai",
+          "quality": "none",
+          "mentions": 15,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N11",
+          "name": "Lobak",
+          "quality": "verified",
+          "mentions": 2,
+          "headline": "…adir Majlis Perasmian Skrin Elektronik di Dataran Lobak di sini hari ini. Anthony yang juga Pengerusi DAP Negeri Sembil…",
+          "date": "2026-06-11",
+          "issue": null
+        },
+        {
+          "code": "N12",
+          "name": "Temiang",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N13",
+          "name": "Sikamat",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N14",
+          "name": "Ampangan",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N15",
+          "name": "Juasseh",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N16",
+          "name": "Seri Menanti",
+          "quality": "verified",
+          "mentions": 10,
+          "headline": "SERI MENANTI, 11 Jun – Putera kedua Yang di-Pertuan Besar Negeri Sembilan, Tunku Zain Al-’Abidin Tuanku Muhriz, dimasyhu…",
+          "date": "2026-06-11",
+          "issue": null
+        },
+        {
+          "code": "N17",
+          "name": "Senaling",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N18",
+          "name": "Pilah",
+          "quality": "verified",
+          "mentions": 4,
+          "headline": "…ew Tunku Panglima Besar of Negeri Sembilan. KUALA PILAH, June 10 &mdash; Yang Dipertuan Besar of Negeri Sembilan Tuanku…",
+          "date": "2026-06-11",
+          "issue": null
+        },
+        {
+          "code": "N19",
+          "name": "Johol",
+          "quality": "verified",
+          "mentions": 3,
+          "headline": "…si yang dibuat secara sendiri memecat undang luak johol telah ditolak keras oleh 3 ahli DKU iaitu Undang Johol, Tunku B…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N20",
+          "name": "Labu",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N21",
+          "name": "Bukit Kepayang",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N22",
+          "name": "Rahang",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N23",
+          "name": "Mambau",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N24",
+          "name": "Seremban Jaya",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N25",
+          "name": "Paroi",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N26",
+          "name": "Chembong",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N27",
+          "name": "Rantau",
+          "quality": "verified",
+          "mentions": 3,
+          "headline": "…idilfitri Tok Mat sekeluarga, di rumah Kg Tanjong Rantau, N.Sembilan pada 28hb Mac 2026, hari Sabtu ini. Jom semua, kit…",
+          "date": "2026-03-25",
+          "issue": null
+        },
+        {
+          "code": "N28",
+          "name": "Kota",
+          "quality": "weak",
+          "mentions": 7,
+          "headline": "…Setiausaha Agung PAS memaklumkan beliau berada di Kota Baharu. Keesokannya iaitu 29 April 2026 jam 11.06 pagi, Setiausa…",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N29",
+          "name": "Chuah",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N30",
+          "name": "Lukut",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N31",
+          "name": "Bagan Pinang",
+          "quality": "none",
+          "mentions": 6,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N32",
+          "name": "Linggi",
+          "quality": "verified",
+          "mentions": 2,
+          "headline": "…smi. Beliau merupakan mantan calon Bersatu-PN N32 Linggi semasa PRN Negeri Sembilan Tahun 2023 lepas. Dato Dr Zamri jug…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N33",
+          "name": "Sri Tanjung",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N34",
+          "name": "Gemas",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N35",
+          "name": "Gemencheh",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N36",
+          "name": "Repah",
+          "quality": "none",
+          "mentions": 10,
+          "headline": "",
+          "date": null,
+          "issue": null
+        }
+      ]
+    },
+    "Johor": {
+      "state": "Johor",
+      "seatCount": 56,
+      "counts": {
+        "verified": 10,
+        "weak": 4,
+        "none": 42,
+        "stale_leak": 0,
+        "state_wide_leak": 0
+      },
+      "seats": [
+        {
+          "code": "N01",
+          "name": "Buloh Kasap",
+          "quality": "none",
+          "mentions": 4,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N02",
+          "name": "Jementah",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N03",
+          "name": "Pemanis",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N04",
+          "name": "Kemelah",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N05",
+          "name": "Tenang",
+          "quality": "verified",
+          "mentions": 9,
+          "headline": "…bandar, malah kawasan pedalaman juga seperti DUN Tenang, \"Sekarang dalam proses untuk melihat kerusi apa lagi yang kita…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N06",
+          "name": "Bekok",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N07",
+          "name": "Bukit Kepong",
+          "quality": "verified",
+          "mentions": 25,
+          "headline": "…ain DUN Puteri Wangsa, MUDA bertanding di Tenang, Bukit Kepong, Parit Raja, Machap dan Bukit Permai, namun tewas. https…",
+          "date": "2026-06-02",
+          "issue": null
+        },
+        {
+          "code": "N08",
+          "name": "Bukit Pasir",
+          "quality": "none",
+          "mentions": 47,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N09",
+          "name": "Gambir",
+          "quality": "none",
+          "mentions": 5,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N10",
+          "name": "Tangkak",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N11",
+          "name": "Serom",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N12",
+          "name": "Bentayan",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N13",
+          "name": "Simpang Jeram",
+          "quality": "verified",
+          "mentions": 9,
+          "headline": "…ihan Raya Kecil (PRK) Dewan Undangan Negeri (DUN) Simpang Jeram menyaksikan pertembungan tiga penjuru antara calon Paka…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N14",
+          "name": "Bukit Naning",
+          "quality": "none",
+          "mentions": 24,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N15",
+          "name": "Maharani",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N16",
+          "name": "Sungai Balang",
+          "quality": "none",
+          "mentions": 32,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N17",
+          "name": "Semerah",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N18",
+          "name": "Sri Medan",
+          "quality": "none",
+          "mentions": 19,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N19",
+          "name": "Yong Peng",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N20",
+          "name": "Semarang",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N21",
+          "name": "Parit Yaani",
+          "quality": "none",
+          "mentions": 10,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N22",
+          "name": "Parit Raja",
+          "quality": "verified",
+          "mentions": 28,
+          "headline": "…Wangsa, MUDA bertanding di Tenang, Bukit Kepong, Parit Raja, Machap dan Bukit Permai, namun tewas. https://t.co/8lwsi2R…",
+          "date": "2026-06-02",
+          "issue": null
+        },
+        {
+          "code": "N23",
+          "name": "Penggaram",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N24",
+          "name": "Senggarang",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N25",
+          "name": "Rengit",
+          "quality": "none",
+          "mentions": 4,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N26",
+          "name": "Machap",
+          "quality": "verified",
+          "mentions": 4,
+          "headline": "…UN Larkin di kawasan bandar; DUN Bukit Permai dan Machap pula kawasan separa bandar, malah kawasan pedalaman juga seper…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N27",
+          "name": "Layang-Layang",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N28",
+          "name": "Mengkibol",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N29",
+          "name": "Mahkota",
+          "quality": "none",
+          "mentions": 39,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N30",
+          "name": "Paloh",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N31",
+          "name": "Kahang",
+          "quality": "verified",
+          "mentions": 1,
+          "headline": "…glio la mattina presto 🚗 Da KL in auto via Kluang/Kahang 🕘 Accesso al parco generalmente dal mattino fino alla sera Sie…",
+          "date": "2026-06-11",
+          "issue": null
+        },
+        {
+          "code": "N32",
+          "name": "Endau",
+          "quality": "none",
+          "mentions": 6,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N33",
+          "name": "Tenggaroh",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N34",
+          "name": "Panti",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N35",
+          "name": "Pasir Raja",
+          "quality": "weak",
+          "mentions": 49,
+          "headline": "Tuan Ibrahim Seru UMNO, PAS Kembali Bersama Muafakat Nasional 2.0 Oleh Mynewshub KUALA LUMPUR – Timbalan Presiden PAS, D…",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N36",
+          "name": "Sedili",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N37",
+          "name": "Johor Lama",
+          "quality": "none",
+          "mentions": 1301,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N38",
+          "name": "Penawar",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N39",
+          "name": "Tanjung Surat",
+          "quality": "none",
+          "mentions": 25,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N40",
+          "name": "Tiram",
+          "quality": "none",
+          "mentions": 5,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N41",
+          "name": "Puteri Wangsa",
+          "quality": "none",
+          "mentions": 40,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N42",
+          "name": "Johor Jaya",
+          "quality": "none",
+          "mentions": 1292,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N43",
+          "name": "Permas",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N44",
+          "name": "Larkin",
+          "quality": "verified",
+          "mentions": 8,
+          "headline": "…afi. \"Kita akan lihat semua demografi seperti DUN Larkin di kawasan bandar; DUN Bukit Permai dan Machap pula kawasan se…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N45",
+          "name": "Stulang",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N46",
+          "name": "Perling",
+          "quality": "none",
+          "mentions": 3,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N47",
+          "name": "Kempas",
+          "quality": "verified",
+          "mentions": 1,
+          "headline": "KTMB says JB Sentral stays open, only Kempas Baru–JB track shut overnight, services resume 6am. KUALA LUMPUR, June 11 &m…",
+          "date": "2026-06-11",
+          "issue": null
+        },
+        {
+          "code": "N48",
+          "name": "Skudai",
+          "quality": "verified",
+          "mentions": 22,
+          "headline": "Skudai assemblyman Marina Ibrahim announces she will not contest, resigns from politics #MarinaIbrahim #Skudai #PolitikM…",
+          "date": "2026-05-31",
+          "issue": null
+        },
+        {
+          "code": "N49",
+          "name": "Kota Iskandar",
+          "quality": "none",
+          "mentions": 83,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N50",
+          "name": "Bukit Permai",
+          "quality": "verified",
+          "mentions": 24,
+          "headline": "…mografi seperti DUN Larkin di kawasan bandar; DUN Bukit Permai dan Machap pula kawasan separa bandar, malah kawasan ped…",
+          "date": "2026-06-06",
+          "issue": null
+        },
+        {
+          "code": "N51",
+          "name": "Bukit Batu",
+          "quality": "weak",
+          "mentions": 52,
+          "headline": "Musim pilihan raya, mesti akan ada batu api tiba-tiba muncul di media sosial. Pastikan kita tidak termakan umpan mereka …",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N52",
+          "name": "Senai",
+          "quality": "none",
+          "mentions": 2,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N53",
+          "name": "Benut",
+          "quality": "none",
+          "mentions": 0,
+          "headline": "",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N54",
+          "name": "Pulai Sebatang",
+          "quality": "weak",
+          "mentions": 19,
+          "headline": "Kerusi Parlimen Pulai menyaksikan saingan tiga penjuru dalam Pilihan Raya Kecil (PRK) kawasan berkenaan yang akan berlan…",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N55",
+          "name": "Pekan Nanas",
+          "quality": "weak",
+          "mentions": 3,
+          "headline": "Masih ingat video tular seorang lelaki menyambut hari jadinya bersama anjing gelandangan di Brazil. Kejadian berlaku beb…",
+          "date": null,
+          "issue": null
+        },
+        {
+          "code": "N56",
+          "name": "Kukup",
+          "quality": "none",
+          "mentions": 1,
+          "headline": "",
+          "date": null,
+          "issue": null
+        }
+      ]
+    }
+  }
+}

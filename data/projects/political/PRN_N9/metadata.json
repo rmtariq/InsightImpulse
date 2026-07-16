@@ -1,0 +1,101 @@
+{
+  "project_id": "PRN_N9",
+  "name": "PRN Negeri Sembilan 2026",
+  "category": "political",
+  "client": "Internal · EXCO Negeri Sembilan",
+  "keywords": [
+    "PRN Negeri Sembilan",
+    "Negeri Sembilan",
+    "Aminuddin",
+    "PAS N9"
+  ],
+  "crawls": [
+    {
+      "id": "prn_n9_social_20260623_002113",
+      "file": "crawls/prn_n9_social_20260623_002113.csv",
+      "source_combined": "data/combined/Combined_facebook_news_tiktok_x_20260623_002113.csv",
+      "source_analyzed": "data/combined/Combined_facebook_news_tiktok_x_20260623_002113.csv",
+      "platforms": [
+        "news",
+        "x",
+        "tiktok",
+        "facebook"
+      ],
+      "query": "\"PRN Negeri Sembilan\" OR \"pilihan raya negeri sembilan\" OR \"SPR Negeri Sembilan\" OR Aminuddin OR \"PAS Negeri Sembilan\"",
+      "date_range": "30days",
+      "rows": 708,
+      "saved_at": "2026-06-23T00:21:13.946870"
+    },
+    {
+      "id": "prn_n9_social_20260708_231825",
+      "file": "crawls/prn_n9_social_20260708_231825.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260708_231825.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260708_231825.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "15 post URLs (https://www.tiktok.com/@amirulasraf1987/video/76…)",
+      "date_range": "30days",
+      "rows": 2503,
+      "saved_at": "2026-07-08T23:18:25.447437"
+    },
+    {
+      "id": "prn_n9_social_20260714_221637",
+      "file": "crawls/prn_n9_social_20260714_221637.csv",
+      "source_combined": "data/combined/Combined_facebook_20260714_221637.csv",
+      "source_analyzed": "data/combined/Combined_facebook_20260714_221637.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "2 post URLs (https://www.facebook.com/share/p/1ANZ8jR4YR/…)",
+      "date_range": "7days",
+      "rows": 2039,
+      "saved_at": "2026-07-14T22:16:37.666998"
+    },
+    {
+      "id": "prn_n9_social_20260714_224929",
+      "file": "crawls/prn_n9_social_20260714_224929.csv",
+      "source_combined": "data/combined/Combined_facebook_20260714_224929.csv",
+      "source_analyzed": "data/combined/Combined_facebook_20260714_224929.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/share/p/1ANZ8jR4YR/",
+      "date_range": "7days",
+      "rows": 1441,
+      "saved_at": "2026-07-14T22:49:29.247082"
+    },
+    {
+      "id": "prn_n9_social_20260714_232031",
+      "file": "crawls/prn_n9_social_20260714_232031.csv",
+      "source_combined": "data/combined/Combined_facebook_20260714_232031.csv",
+      "source_analyzed": "data/combined/Combined_facebook_20260714_232031.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "https://www.facebook.com/share/p/1ANZ8jR4YR/",
+      "date_range": "7days",
+      "rows": 1447,
+      "saved_at": "2026-07-14T23:20:31.401700"
+    },
+    {
+      "id": "prn_n9_social_20260715_174814",
+      "file": "crawls/prn_n9_social_20260715_174814.csv",
+      "source_combined": "data/combined/Combined_facebook_news_tiktok_x_youtube_20260715_174814.csv",
+      "source_analyzed": "data/combined/Combined_facebook_news_tiktok_x_youtube_20260715_174814.csv",
+      "platforms": [
+        "facebook",
+        "x",
+        "tiktok",
+        "youtube",
+        "news"
+      ],
+      "query": "\"lambang PAS\" \"Negeri Sembilan\"",
+      "date_range": "7days",
+      "rows": 479,
+      "saved_at": "2026-07-15T17:48:14.685147"
+    }
+  ],
+  "masters": [],
+  "updated_at": "2026-07-15T17:48:14.685211"
+}

@@ -1,0 +1,42 @@
+# BATCH 7 — DISCOURSE GAP (Keyword Search, BUKAN Direct URL)
+# Tujuan: tangkap sokongan PAS implisit, UMDAP, raguan PH/DAP/PMX, ekonomi
+# Platform: FB + IG + TikTok + X (tick mengikut keperluan)
+# Mod: Keyword Search | Date: Last 7 Days | Dataset: 1500–2000 | Project: pas_break_2026
+# Run SATU query pada satu masa; gabung ke master selepas siap
+
+# ── RUN A: Sokongan PAS implisit (N9) ──
+"suka pas" OR "pas terbaik" OR "all out pas" OR "teguh pas" OR "panah pas" OR #panahpas "Negeri Sembilan"
+
+# ── RUN B: Sokongan PAS implisit (Johor) ──
+"suka pas" OR "pas terbaik" OR "all out pas" OR "teguh pas" OR "panah pas" OR #panahpas "Johor" PRN
+
+# ── RUN C: UMDAP / anti-UMNO+DAP (N9) ──
+umdap OR "umno dap" OR "umno dan dap" OR "kerajaan perpaduan" dap "Negeri Sembilan"
+
+# ── RUN D: UMDAP / anti-UMNO+DAP (Johor) ──
+umdap OR "umno dap" OR "umno dan dap" OR "kerajaan perpaduan" dap Johor PRN
+
+# ── RUN E: Raguan PH/Madani — ekonomi & flip-flop (N9, BM) ──
+("ekonomi" OR "harga barang" OR "minyak naik" OR "mahal hidup" OR "flip flop") ("Negeri Sembilan" OR PRNN9) (DAP OR PH OR Madani OR Anwar)
+
+# ── RUN F: Raguan DAP/PMX — media Cina (N9) ──
+site:chinapress.com.my OR site:sinchew.com.my (森美兰 OR 芙蓉 OR 选情) (行动党 OR 安华 OR 希盟 OR 经济 OR 物价)
+
+# ── RUN G: UMNO asal / Melayu Islam tolak UMDAP ──
+("umno asal" OR "umno lama" OR "melayu islam" OR "orang melayu") (umdap OR "umno dap" OR "umno dan dap") "Negeri Sembilan"
+
+# ── RUN H: Berita anti-PH theme (News platform sahaja) ──
+site:malaysiakini.com OR site:thestar.com.my ("Negeri Sembilan" OR PRN) (economy OR inflation OR "cost of living" OR DAP OR Madani) when:7d
+
+# ── RUN I: Gen Z / Gen Y — tiada parti, undi automatik (N9) ──
+("gen z" OR "gen y" OR "anak muda" OR "pengundi muda" OR "undi automatik" OR "swing voter" OR "tiada parti" OR "first time voter") ("Negeri Sembilan" OR PRNN9) PRN
+
+# ── RUN J: Gen Z / Gen Y (Johor) ──
+("gen z" OR "gen y" OR "anak muda" OR "pengundi muda" OR "undi automatik" OR "swing voter" OR "tiada parti") Johor PRN
+
+# ── RUN K: Gen Z TikTok / socmed (N9 + Johor) ──
+#platform: TikTok + IG + X
+#prnn9 OR #prnjohor (anak muda OR fyp OR undi18 OR "undi automatik" OR "tiada parti" OR MUDA OR PSM)
+
+# ── RUN L: Istana/adat N9 — Yam Tuan Besar, Undang, MB PH + UMNO terpalit ──
+("Tuanku Muhriz" OR "Yang di-Pertuan Besar" OR "Undang Yang Empat" OR "Adat Perpatih" OR Undang OR "krisis perlembagaan" OR "istana Negeri Sembilan") ("Negeri Sembilan" OR PRNN9 OR Seremban) (DAP OR PKR OR "Menteri Besar" OR Aminuddin OR UMNO OR Harapan)

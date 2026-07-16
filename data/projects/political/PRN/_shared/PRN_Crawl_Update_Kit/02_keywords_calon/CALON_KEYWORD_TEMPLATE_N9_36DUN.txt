@@ -1,0 +1,444 @@
+================================================================================
+PRN NEGERI SEMBILAN 2026 — TEMPLATE KEYWORD CALON (36 DUN)
+Isi SELEPAS penamaan rasmi: 18 Jul 2026 (Sabtu)
+Projek InsightPulse: pas_break_2026
+================================================================================
+
+FORMAT: ("[CALON_1]" OR "[CALON_2]" OR "[CALON_3]") ("[NAMA_DUN]" OR "[KOD_DUN]" OR "PRN N9") when:14d
+
+================================================================================
+
+──────────────────────────────────────────────────────────────────────────────
+N01 | CHENNAH
+Penyandang 2023: Tan Kim Hock (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Chennah" OR "N01" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N02 | PERTANG ⭐ PAS sasaran
+Penyandang 2023: Mohd Razi (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pertang" OR "N02" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N03 | SUNGAI LUI ⭐ PAS sasaran
+Penyandang 2023: Gunasekaran A/L M. (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sungai Lui" OR "N03" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N04 | KLAWANG ⭐ PAS sasaran
+Penyandang 2023: Abdul Rahman (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Klawang" OR "N04" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N05 | SERTING ⭐ PAS sasaran
+Penyandang 2023: Lim Wei Jie (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Serting" OR "N05" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N06 | PALONG ⭐ PAS sasaran
+Penyandang 2023: Noraini Yusof (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Palong" OR "N06" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N07 | JERAM PADANG ⭐ PAS sasaran
+Penyandang 2023: Hafiz Tan (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Jeram Padang" OR "N07" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N08 | BAHAU
+Penyandang 2023: Zulkifli Omar (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bahau" OR "N08" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N09 | LENGGENG ⭐ PAS sasaran
+Penyandang 2023: Aishah Ghani (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Lenggeng" OR "N09" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N10 | NILAI ⭐ PAS sasaran
+Penyandang 2023: Chong Mei Ling (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Nilai" OR "N10" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N11 | LOBAK
+Penyandang 2023: Ismail Mokhtar (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Lobak" OR "N11" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N12 | TEMIANG
+Penyandang 2023: Suresh Kumar (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Temiang" OR "N12" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N13 | SIKAMAT ⭐ PAS sasaran
+Penyandang 2023: Anwar (PH) (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sikamat" OR "N13" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N14 | AMPANGAN ⭐ PAS sasaran
+Penyandang 2023: Devi Rajan (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Ampangan" OR "N14" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N15 | JUASSEH ⭐ PAS sasaran
+Penyandang 2023: Wong Ah Seng (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Juasseh" OR "N15" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N16 | SERI MENANTI ⭐ PAS sasaran
+Penyandang 2023: Faridah Hassan (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Seri Menanti" OR "N16" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N17 | SENALING ⭐ PAS sasaran
+Penyandang 2023: Mohamad Hasan (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Senaling" OR "N17" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N18 | PILAH ⭐ PAS sasaran
+Penyandang 2023: Tan Sri Lim (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pilah" OR "N18" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N19 | JOHOL ⭐ PAS sasaran
+Penyandang 2023: Halim Saad (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Johol" OR "N19" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N20 | LABU ⭐ PAS sasaran
+Penyandang 2023: Lee Chee Wah (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Labu" OR "N20" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N21 | BUKIT KEPAYANG
+Penyandang 2023: Teo Kok Seong (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Kepayang" OR "N21" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N22 | RAHANG
+Penyandang 2023: Yap Soo Huey (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Rahang" OR "N22" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N23 | MAMBAU
+Penyandang 2023: Gunalan Pillai (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Mambau" OR "N23" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N24 | SEREMBAN JAYA
+Penyandang 2023: Ng Chin Han (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Seremban Jaya" OR "N24" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N25 | PAROI ⭐ PAS sasaran
+Penyandang 2023: Lim Yam Mooi (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Paroi" OR "N25" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N26 | CHEMBONG
+Penyandang 2023: Aminuddin Harun (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Chembong" OR "N26" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N27 | RANTAU
+Penyandang 2023: Mohamad Nazri (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Rantau" OR "N27" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N28 | KOTA ⭐ PAS sasaran
+Penyandang 2023:  روسلان Ruslan (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kota" OR "N28" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N29 | CHUAH
+Penyandang 2023: Datuk Mansor (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Chuah" OR "N29" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N30 | LUKUT
+Penyandang 2023: Hasniza Hamid (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Lukut" OR "N30" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N31 | BAGAN PINANG ⭐ PAS sasaran
+Penyandang 2023: Zaidi Abu Bakar (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bagan Pinang" OR "N31" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N32 | LINGGI
+Penyandang 2023: Saiful Yazan (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Linggi" OR "N32" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N33 | SRI TANJUNG ⭐ PAS sasaran
+Penyandang 2023: Teo Eng Ching (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sri Tanjung" OR "N33" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N34 | GEMAS ⭐ PAS sasaran
+Penyandang 2023: Ariffin Omar (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Gemas" OR "N34" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N35 | GEMENCHEH ⭐ PAS sasaran
+Penyandang 2023: Bhagwan Singh (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Gemencheh" OR "N35" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N36 | REPAH ⭐ PAS sasaran
+Penyandang 2023: Choo Ken Hwa (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB / IG / X / TikTok : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Repah" OR "N36" OR "PRN N9" OR "Negeri Sembilan") when:14d
+
+Script auto 36 DUN: python3 scripts/crawl_prn_n9_36dun_insightpulse.py
+================================================================================

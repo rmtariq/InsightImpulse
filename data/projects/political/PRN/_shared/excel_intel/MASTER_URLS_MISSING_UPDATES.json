@@ -1,0 +1,499 @@
+{
+  "master_file": "/Users/rmtariq/Downloads/MASTER_URLS_paste_to_insightpulse (2).txt",
+  "master_url_count": 203,
+  "excel_relevant_count": 100,
+  "missing_count": 66,
+  "missing_by_state": {
+    "All": 26,
+    "Negeri Sembilan": 16,
+    "Johor": 24
+  },
+  "missing_by_category": {
+    "news_national": 3,
+    "news_state": 3,
+    "tiktok_hashtag": 13,
+    "x_search": 5,
+    "youtube_channel": 6,
+    "spr_main": 1,
+    "spr_results": 1,
+    "spr_dunia": 1,
+    "state_portal": 1,
+    "dun_portal": 1,
+    "palace": 1,
+    "ngo": 4,
+    "election_calendar": 1,
+    "state_election_office": 2,
+    "local_authority": 16,
+    "water": 1,
+    "state_media": 1,
+    "state_campaign": 1,
+    "official_public_account": 1,
+    "official_portal": 1,
+    "flood_reference": 1,
+    "tourism_policy": 1
+  },
+  "missing_urls": [
+    {
+      "state": "All",
+      "category": "news_national",
+      "name": "Malaysiakini BM",
+      "url": "https://www.malaysiakini.com/ms",
+      "platform": "News"
+    },
+    {
+      "state": "All",
+      "category": "news_national",
+      "name": "Harakah Daily",
+      "url": "https://harakahdaily.net",
+      "platform": "News"
+    },
+    {
+      "state": "All",
+      "category": "news_national",
+      "name": "Sinar Plus",
+      "url": "https://sinarplus.com",
+      "platform": "News"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "news_state",
+      "name": "Malaysiakini — N9",
+      "url": "https://www.malaysiakini.com/category/news/state/negeri-sembilan",
+      "platform": "News"
+    },
+    {
+      "state": "Johor",
+      "category": "news_state",
+      "name": "Malaysiakini — Johor",
+      "url": "https://www.malaysiakini.com/category/news/state/johor",
+      "platform": "News"
+    },
+    {
+      "state": "Johor",
+      "category": "news_state",
+      "name": "Johor Now",
+      "url": "https://www.johornow.com",
+      "platform": "News"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "tiktok_hashtag",
+      "name": "#prnnegerisembilan",
+      "url": "https://www.tiktok.com/tag/prnnegerisembilan",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#pilihanrayaumum",
+      "url": "https://www.tiktok.com/tag/pilihanrayaumum",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#undi18",
+      "url": "https://www.tiktok.com/tag/undi18",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#ceramahpolitik",
+      "url": "https://www.tiktok.com/tag/ceramahpolitik",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#politikbersih",
+      "url": "https://www.tiktok.com/tag/politikbersih",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Johor",
+      "category": "tiktok_hashtag",
+      "name": "#sultanjohor",
+      "url": "https://www.tiktok.com/tag/sultanjohor",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Johor",
+      "category": "tiktok_hashtag",
+      "name": "#tmjofficial",
+      "url": "https://www.tiktok.com/tag/tmjofficial",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Johor",
+      "category": "tiktok_hashtag",
+      "name": "#tunkuismail",
+      "url": "https://www.tiktok.com/tag/tunkuismail",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "tiktok_hashtag",
+      "name": "#yamtuanku",
+      "url": "https://www.tiktok.com/tag/yamtuanku",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "tiktok_hashtag",
+      "name": "#adatperpatih",
+      "url": "https://www.tiktok.com/tag/adatperpatih",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#ron95",
+      "url": "https://www.tiktok.com/tag/ron95",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#sarahidup",
+      "url": "https://www.tiktok.com/tag/sarahidup",
+      "platform": "TikTok"
+    },
+    {
+      "state": "All",
+      "category": "tiktok_hashtag",
+      "name": "#subsidi",
+      "url": "https://www.tiktok.com/tag/subsidi",
+      "platform": "TikTok"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "x_search",
+      "name": "PRN N9 hashtag",
+      "url": "https://x.com/search?q=%23PRNN9&f=live",
+      "platform": "X"
+    },
+    {
+      "state": "Johor",
+      "category": "x_search",
+      "name": "PRN Johor hashtag",
+      "url": "https://x.com/search?q=%23PRNJohor&f=live",
+      "platform": "X"
+    },
+    {
+      "state": "Johor",
+      "category": "x_search",
+      "name": "Sultan Johor titah",
+      "url": "https://x.com/search?q=Sultan%20Johor%20titah&f=live",
+      "platform": "X"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "x_search",
+      "name": "YAM Tuanku Muhriz",
+      "url": "https://x.com/search?q=YAM%20Tuanku%20Muhriz&f=live",
+      "platform": "X"
+    },
+    {
+      "state": "Johor",
+      "category": "x_search",
+      "name": "TMJ Tunku Ismail",
+      "url": "https://x.com/search?q=TMJ%20Johor&f=live",
+      "platform": "X"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "RTM Klik",
+      "url": "https://www.youtube.com/@RTMKlik",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "FMT",
+      "url": "https://www.youtube.com/@FreeMalaysiaToday",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "Harakah Daily TV",
+      "url": "https://www.youtube.com/@HarakahDailyTV",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "DAP Malaysia",
+      "url": "https://www.youtube.com/@DAPmalaysia",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "UMNO Online TV",
+      "url": "https://www.youtube.com/@UMNOOnlineTV",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "youtube_channel",
+      "name": "Buletin TV3",
+      "url": "https://www.youtube.com/@buletintv3",
+      "platform": "YouTube"
+    },
+    {
+      "state": "All",
+      "category": "spr_main",
+      "name": "Suruhanjaya Pilihan Raya",
+      "url": "https://www.spr.gov.my",
+      "platform": "SPR"
+    },
+    {
+      "state": "All",
+      "category": "spr_results",
+      "name": "SPR Keputusan PR",
+      "url": "https://www.spr.gov.my/ms/pilihan-raya/keputusan-pilihan-raya",
+      "platform": "SPR"
+    },
+    {
+      "state": "All",
+      "category": "spr_dunia",
+      "name": "Dunia Baru SPR",
+      "url": "https://duniabaru.spr.gov.my",
+      "platform": "SPR"
+    },
+    {
+      "state": "Johor",
+      "category": "state_portal",
+      "name": "Portal Kerajaan Johor",
+      "url": "https://www.johor.gov.my",
+      "platform": "Govt"
+    },
+    {
+      "state": "Johor",
+      "category": "dun_portal",
+      "name": "Dewan Negeri Johor",
+      "url": "https://dewannegeri.johor.gov.my",
+      "platform": "Govt"
+    },
+    {
+      "state": "Johor",
+      "category": "palace",
+      "name": "Royal Press Office Johor",
+      "url": "https://www.facebook.com/RoyalPressOffice",
+      "platform": "Govt"
+    },
+    {
+      "state": "All",
+      "category": "ngo",
+      "name": "Undi.info",
+      "url": "https://undi.info",
+      "platform": "Watchdog"
+    },
+    {
+      "state": "All",
+      "category": "ngo",
+      "name": "Tindak Malaysia",
+      "url": "https://www.tindakmalaysia.org",
+      "platform": "Watchdog"
+    },
+    {
+      "state": "All",
+      "category": "ngo",
+      "name": "Bersih 2.0",
+      "url": "https://bersih.org",
+      "platform": "Watchdog"
+    },
+    {
+      "state": "All",
+      "category": "ngo",
+      "name": "SUARAM",
+      "url": "https://www.suaram.net",
+      "platform": "Watchdog"
+    },
+    {
+      "state": "All",
+      "category": "election_calendar",
+      "name": "SPR PRN Johor & Negeri Sembilan 2026 key dates",
+      "url": "https://spr.gov.my/wp-content/uploads/2026/06/KM-BIL-18_2026-MESYUARAT-KHAS-PRU-DEWAN-NEGERI-JOHOR-NEGERI-SEMBILAN-KE-16-1.pdf",
+      "platform": "SPR"
+    },
+    {
+      "state": "Johor",
+      "category": "state_election_office",
+      "name": "Pejabat Pilihan Raya Negeri Johor",
+      "url": "https://ppn.spr.gov.my/johor/",
+      "platform": "SPR"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "state_election_office",
+      "name": "Pejabat Pilihan Raya Negeri Sembilan",
+      "url": "https://ppn.spr.gov.my/nsembilan/",
+      "platform": "SPR"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Bandaraya Seremban",
+      "url": "https://www.mbs.gov.my/ms",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Port Dickson",
+      "url": "https://mppd.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Jempol",
+      "url": "https://www.mdjl.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Daerah Jelebu",
+      "url": "https://mdjelebu.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Daerah Kuala Pilah",
+      "url": "https://mdkp.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Daerah Rembau",
+      "url": "https://www.mdr.gov.my/ms/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "local_authority",
+      "name": "Majlis Daerah Tampin",
+      "url": "https://www.mdtampin.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "water",
+      "name": "Syarikat Air Negeri Sembilan",
+      "url": "https://www.sainswater.com/",
+      "platform": "Utility"
+    },
+    {
+      "state": "Negeri Sembilan",
+      "category": "state_media",
+      "name": "Negeri Kita",
+      "url": "https://negerikita.org/",
+      "platform": "Media"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Bandaraya Johor Bahru",
+      "url": "https://www.mbjb.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Bandaraya Iskandar Puteri",
+      "url": "https://www.mbip.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Bandaraya Pasir Gudang",
+      "url": "https://www.mbpg.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Batu Pahat",
+      "url": "https://www.mpbp.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Kluang",
+      "url": "https://www.mpkluang.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Muar",
+      "url": "https://www.mpmuar.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Segamat",
+      "url": "https://mpsegamat.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Kulai",
+      "url": "https://mpku.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "local_authority",
+      "name": "Majlis Perbandaran Pontian",
+      "url": "https://www.mdpontian.gov.my/",
+      "platform": "PBT"
+    },
+    {
+      "state": "Johor",
+      "category": "state_campaign",
+      "name": "Tourism Johor / Visit Johor 2026",
+      "url": "https://tourism.johor.gov.my/",
+      "platform": "Tourism"
+    },
+    {
+      "state": "Johor",
+      "category": "official_public_account",
+      "name": "Official site of the Regent of Johor",
+      "url": "https://tunkuismail.com/en/",
+      "platform": "Royal"
+    },
+    {
+      "state": "Johor",
+      "category": "official_portal",
+      "name": "Royal Johor",
+      "url": "https://royal.johor.my/",
+      "platform": "Royal"
+    },
+    {
+      "state": "All",
+      "category": "flood_reference",
+      "name": "Public InfoBanjir JPS",
+      "url": "https://publicinfobanjir.water.gov.my/",
+      "platform": "Disaster"
+    },
+    {
+      "state": "All",
+      "category": "tourism_policy",
+      "name": "MOTAC",
+      "url": "https://www.motac.gov.my/",
+      "platform": "Govt"
+    }
+  ]
+}

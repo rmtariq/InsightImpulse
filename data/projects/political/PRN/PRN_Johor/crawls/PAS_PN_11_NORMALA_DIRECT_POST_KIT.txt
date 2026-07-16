@@ -1,0 +1,128 @@
+================================================================================
+PRN JOHOR 2026 — N.05 TENANG · CIKGU MALA (NORMALA SUDIRMAN)
+Direct URL + Post URL Batch · PASTE-READY
+Disediakan: 8 Julai 2026 (lepas run keyword 1 & 2)
+================================================================================
+
+STORAGE KITA — DATA APIFY DAH ADA
+---------------------------------
+Run Apify 7:20–7:35 PM semua SUCCEEDED. Fail tersimpan di:
+
+  data/smart_crawlers/tiktok/tiktok_Cikgu_Mala_OR_cg_mala_..._20260708_193741.csv  (385 rows)
+  data/smart_crawlers/tiktok/tiktok_Normala_Sudirman_OR_Tenang_..._20260708_190910.csv (407 rows)
+  data/smart_crawlers/x/x_Cikgu_Mala_OR_cg_mala_..._20260708_193741.csv  (5 rows)
+  data/combined/Combined_facebook_instagram_tiktok_x_20260708_193831.csv  (85 rows)
+  data/combined/Combined_facebook_tiktok_20260708_191011.csv  (101 rows)
+
+Masalah: date filter 7 hari + keyword noise buang 78% data.
+         Hanya ~9–27 posts benar-benar pasal Cikgu Mala dalam storage.
+
+Run batch di bawah = ambil FULL comments + tiada date filter.
+
+================================================================================
+TETAPAN ASAS (SEMUA RUN DI BAWAH)
+================================================================================
+  Project:         PRN Johor 2026 — Internal · JITP 2026
+  Analysis Type:   Social Listening  ← BUKAN Multimodal (elak block)
+  Processing:      On-Prem (Nemotron) — multimodal OFF
+  Date Range:      Last 30 Days  (Direct URL) / No filter (Post URL Batch)
+  Dataset:         500
+  Comment Sampling: Smart
+
+================================================================================
+RUN 1 — DIRECT URL · PROFIL TIKTOK (2 profil) · ~10 min
+================================================================================
+Crawl Mode:  Direct URL Crawl
+Platforms:   [ ] Facebook  [ ] Instagram  [ ] X  [X] TikTok
+
+PASTE URL (satu per baris):
+https://www.tiktok.com/@normalasudirman
+https://www.tiktok.com/@cikgumala_johor
+
+NOTA: @cikgumala_johor jumpa dalam crawl — akaun kempen aktif (bukan dalam registry asal).
+
+================================================================================
+RUN 2 — DIRECT URL · FACEBOOK PAGE · ~5 min
+================================================================================
+Crawl Mode:  Direct URL Crawl
+Platforms:   [X] Facebook  [ ] TikTok
+
+PASTE URL:
+https://www.facebook.com/NormalaSudirmanCgMala
+
+Date Range: Last 90 Days  ← page blocked pada keyword; direct URL lebih baik
+
+================================================================================
+RUN 3 — POST URL BATCH · TIKTOK VIRAL (TOP 15) · ~20 min
+================================================================================
+Crawl Mode:  Post URL Batch
+Platforms:   [X] TikTok sahaja
+Date Range:  (auto — tiada date filter untuk Post URL Batch)
+
+PASTE URL (satu per baris — dari storage run 1+2, engagement tertinggi):
+
+https://www.tiktok.com/@amirulasraf1987/video/7656682067010391314
+https://www.tiktok.com/@pemudaperikatannasional7/video/7656779611556138248
+https://www.tiktok.com/@pintasan_n8/video/7655956140781538578
+https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847
+https://www.tiktok.com/@man.intan5/video/7659228305262169351
+https://www.tiktok.com/@_ummuahmad_/video/7655883287327722772
+https://www.tiktok.com/@amlin019/video/7657010233767693589
+https://www.tiktok.com/@cikgumala_johor/video/7659774096204401941
+https://www.tiktok.com/@roos_laila/video/7655996202156068117
+https://www.tiktok.com/@pas_johor/video/7655382488830709012
+https://www.tiktok.com/@thekakies/video/7656715815105875208
+https://www.tiktok.com/@pas_johor/video/7655360520949665044
+https://www.tiktok.com/@cikgumala_johor/video/7659268535373401365
+https://www.tiktok.com/@11sh112/video/7656831021723176210
+https://www.tiktok.com/@cikgumala_johor/video/7657112898418150676
+
+================================================================================
+RUN 4 — POST URL BATCH · MEDIA + X (5 URL) · ~10 min
+================================================================================
+Crawl Mode:  Post URL Batch
+Platforms:   [X] TikTok  [X] X (Twitter)
+
+PASTE URL:
+https://www.tiktok.com/@malaysiagazette/video/7655602837392608519
+https://www.tiktok.com/@johor.kini/video/7659793502061989140
+https://x.com/MalaysiaGazette/status/2070158056898638073
+https://x.com/MalaysiaGazette/status/2070408744186642800
+https://x.com/harakahdailyHD/status/29583787255922688
+
+================================================================================
+RUN 5 (OPSIONAL) — POST URL BATCH · TIKTOK BATCH 2 (15 lagi) · ~20 min
+================================================================================
+Crawl Mode:  Post URL Batch
+Platforms:   [X] TikTok
+
+https://www.tiktok.com/@atiqahmohamad89/video/7659335134696574216
+https://www.tiktok.com/@cikgumala_johor/video/7660057427072634132
+https://www.tiktok.com/@cikgumala_johor/video/7659066064386493716
+https://www.tiktok.com/@omen.othman.v/video/7658465936269118727
+https://www.tiktok.com/@dewanmuslimatpaskulai/video/7650259994402688277
+https://www.facebook.com/kiniyoutube/posts/pfbid02Azq3wKGAMaodLzikPtgbye9oaUvsNV7eNvHLwP1GUQoN2AXs5Hcf4vCFNUcTHL8Gl
+
+(6 URL — FB post dari run 1, Jun 26 — tiada date filter)
+
+================================================================================
+URUTAN DISYORKAN
+================================================================================
+  1. RUN 1  (Direct URL TikTok 2 profil)     ← coverage profil sendiri
+  2. RUN 3  (Post URL Batch top 15 viral)    ← komen penuh post viral
+  3. RUN 4  (Media + X)                      ← MalaysiaGazette, Harakah
+  4. RUN 2  (FB page direct)                 ← jika page masih blocked, skip
+  5. RUN 5  (opsional batch 2)
+
+JANGAN ulang keyword 4-platform — noise tinggi, date filter buang komen.
+
+================================================================================
+JANGKAAN HASIL
+================================================================================
+  Run 1:  30–90 posts + comments (2 profil, 30 hari)
+  Run 3:  15 posts × ~50–500 comments each = 750–7500 comments
+  Run 4:  5 posts media + replies X
+  Total:  ~500–2000 data points BERKUALITI (bukan noise Indonesia)
+
+================================================================================
+EOF

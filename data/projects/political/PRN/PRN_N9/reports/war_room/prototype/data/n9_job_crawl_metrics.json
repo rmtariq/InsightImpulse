@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "generated": "2026-07-05 02:47:16",
+    "state": "N9",
+    "jobs": 2
+  },
+  "totals": {
+    "posts_job1": 1,
+    "comments_job1": 531,
+    "engagement_job1": 1882,
+    "records_job2_overlap": 11178,
+    "engagement_job2_overlap": 586097,
+    "records_job2_k5": 4562,
+    "engagement_job2_k5": 421763
+  },
+  "job1": {
+    "id": "JOB-N9-01",
+    "title": "Pengundi Malaysia Poll",
+    "platform": "Facebook",
+    "url": "https://www.facebook.com/story.php?story_fbid=1579205333771288&id=100050455091322",
+    "posts": 1,
+    "comments": 531,
+    "likes": 1051,
+    "shares": 50,
+    "engagement": 1882,
+    "sokong_mn_pct": 89.4,
+    "tolak_pct": 10.6,
+    "decided_ab": 226,
+    "sentiment": {
+      "positive": 191,
+      "neutral": 118,
+      "negative": 222
+    }
+  },
+  "job2": {
+    "id": "JOB-N9-02",
+    "title": "Monarki & Adat K1–K5",
+    "keywords": [
+      {
+        "id": "K1",
+        "label": "Monarki luas",
+        "posts": 714,
+        "records": 714,
+        "engagement": 29410,
+        "neg_pct": 28.3,
+        "pos_pct": 13.9,
+        "neu_pct": 57.8,
+        "platforms": {
+          "facebook": 344,
+          "news": 246,
+          "x": 124
+        }
+      },
+      {
+        "id": "K2",
+        "label": "Mukhriz vs Undang",
+        "posts": 1040,
+        "records": 1040,
+        "engagement": 20992,
+        "neg_pct": 52.4,
+        "pos_pct": 5.7,
+        "neu_pct": 41.9,
+        "platforms": {
+          "facebook": 1019,
+          "news": 13,
+          "x": 8
+        }
+      },
+      {
+        "id": "K3",
+        "label": "Undang 4 vs MB",
+        "posts": 2024,
+        "records": 2024,
+        "engagement": 35050,
+        "neg_pct": 53.5,
+        "pos_pct": 6.2,
+        "neu_pct": 40.4,
+        "platforms": {
+          "facebook": 2009,
+          "news": 15
+        }
+      },
+      {
+        "id": "K4",
+        "label": "Adat + DAP",
+        "posts": 2838,
+        "records": 2838,
+        "engagement": 78882,
+        "neg_pct": 47.9,
+        "pos_pct": 9.4,
+        "neu_pct": 42.7,
+        "platforms": {
+          "facebook": 2766,
+          "x": 36,
+          "news": 36
+        }
+      },
+      {
+        "id": "K5",
+        "label": "Batch C09",
+        "posts": 4562,
+        "records": 4562,
+        "engagement": 421763,
+        "neg_pct": 41.9,
+        "pos_pct": 11.7,
+        "neu_pct": 46.4,
+        "platforms": {
+          "facebook": 4350,
+          "x": 112,
+          "news": 100
+        }
+      }
+    ]
+  },
+  "bloc7_effects": {
+    "source": "Job 1 Poll + Job 2 Monarki K1–K5",
+    "updated": "2026-07-05 02:47",
+    "nudges_pp": {
+      "mn": 3,
+      "ph": -2,
+      "pas_solo": 1,
+      "umno_solo": -1,
+      "pn": 1,
+      "pn_plus": 1,
+      "bersama": 0,
+      "hung": 1
+    },
+    "effects": [
+      {
+        "bloc_id": "mn",
+        "label": "#3 MN ★",
+        "nudge_pp": 3,
+        "sign": "+3",
+        "reason": "Job 1 poll ~89.4% sokong MN lawan PH"
+      },
+      {
+        "bloc_id": "ph",
+        "label": "#5 PH",
+        "nudge_pp": -2,
+        "sign": "-2",
+        "reason": "Job 1 poll tolak PH + Job 2 K3 54% neg MB/adat"
+      },
+      {
+        "bloc_id": "pas_solo",
+        "label": "#1 PAS Solo",
+        "nudge_pp": 1,
+        "sign": "+1",
+        "reason": "Job 1 mobilize Pro-PAS · Job 2 krisis adat segmen Melayu-Islam"
+      },
+      {
+        "bloc_id": "umno_solo",
+        "label": "#2 UMNO Solo",
+        "nudge_pp": -1,
+        "sign": "-1",
+        "reason": "Job 2 istana — UMNO dalam kerajaan negeri N9"
+      },
+      {
+        "bloc_id": "pn",
+        "label": "#4 PN",
+        "nudge_pp": 1,
+        "sign": "+1",
+        "reason": "Job 1 signal gabungan anti-PH"
+      },
+      {
+        "bloc_id": "pn_plus",
+        "label": "#7 PN+",
+        "nudge_pp": 1,
+        "sign": "+1",
+        "reason": "Job 1 signal gabungan anti-PH"
+      },
+      {
+        "bloc_id": "hung",
+        "label": "Risiko tiada majoriti",
+        "nudge_pp": 1,
+        "sign": "+1",
+        "reason": "Job 2 polarisasi K3 54% — risiko tiada majoriti"
+      }
+    ],
+    "crawlAdjustments": [
+      "Job 1 Poll: MN lawan PH ~89.4% (226 komen A/B) → #3 MN (+3pp)",
+      "Job 1 Poll: Tolak PH ~10.6% → #5 PH (-2pp)",
+      "Job 2 K5: 4,562 rekod · 421,763 engagement · neg 42%",
+      "Job 2 K3 puncak: Undang 4 vs MB 54% neg → elak politisasi istana",
+      "MN (#3): Istana/adat handled well → laluan MN Melayu rural (+5pp legacy + +3pp poll)",
+      "PH (#5): Frame adat+DAP K4 + MB zone → (-2pp poll + -5pp istana legacy)",
+      "PAS Solo (#1): Anti-PH poll + adat segmen (+1pp + +4pp legacy)",
+      "Risiko hung: K3 polarisasi → (+1pp jika mishandle adat)"
+    ],
+    "mn_expected_seats_baseline": 22.9,
+    "note": "Nudges = penyesuaian P(majoriti) bar · bukan kerusi automatik · overlap K1–K5"
+  },
+  "ml_impact": {
+    "updated": "2026-07-05 02:47",
+    "summary": "Job 1: 1 post · 531 komen · 1,882 eng · 89.4% sokong MN | Job 2: 5 KW · 11,178 rekod · 586,097 eng",
+    "job1_poll": {
+      "posts": 1,
+      "comments": 531,
+      "likes": 1051,
+      "shares": 50,
+      "engagement": 1882,
+      "sokong_mn_pct": 89.4,
+      "tolak_pct": 10.6,
+      "decided_ab": 226,
+      "sentiment": {
+        "positive": 191,
+        "neutral": 118,
+        "negative": 222
+      }
+    },
+    "job2_monarki": {
+      "keywords": 5,
+      "total_records_overlap": 11178,
+      "total_engagement_overlap": 586097,
+      "k5_records": 4562,
+      "k5_engagement": 421763,
+      "peak_neg_kw": "K3",
+      "peak_neg_pct": 53.5,
+      "per_keyword": [
+        {
+          "id": "K1",
+          "label": "Monarki luas",
+          "posts": 714,
+          "records": 714,
+          "engagement": 29410,
+          "neg_pct": 28.3,
+          "pos_pct": 13.9,
+          "platforms": {
+            "facebook": 344,
+            "news": 246,
+            "x": 124
+          }
+        },
+        {
+          "id": "K2",
+          "label": "Mukhriz vs Undang",
+          "posts": 1040,
+          "records": 1040,
+          "engagement": 20992,
+          "neg_pct": 52.4,
+          "pos_pct": 5.7,
+          "platforms": {
+            "facebook": 1019,
+            "news": 13,
+            "x": 8
+          }
+        },
+        {
+          "id": "K3",
+          "label": "Undang 4 vs MB",
+          "posts": 2024,
+          "records": 2024,
+          "engagement": 35050,
+          "neg_pct": 53.5,
+          "pos_pct": 6.2,
+          "platforms": {
+            "facebook": 2009,
+            "news": 15
+          }
+        },
+        {
+          "id": "K4",
+          "label": "Adat + DAP",
+          "posts": 2838,
+          "records": 2838,
+          "engagement": 78882,
+          "neg_pct": 47.9,
+          "pos_pct": 9.4,
+          "platforms": {
+            "facebook": 2766,
+            "x": 36,
+            "news": 36
+          }
+        },
+        {
+          "id": "K5",
+          "label": "Batch C09",
+          "posts": 4562,
+          "records": 4562,
+          "engagement": 421763,
+          "neg_pct": 41.9,
+          "pos_pct": 11.7,
+          "platforms": {
+            "facebook": 4350,
+            "x": 112,
+            "news": 100
+          }
+        }
+      ]
+    },
+    "ml_flags": {
+      "socmed_neg_boost": "Undang-zone DUN — monitor, bukan auto-flip",
+      "feature_impact": "scenario_pas_pn · pct_melayu · socmed_neg_pct · socmed_engagement",
+      "cv_accuracy_rf": "~94%",
+      "mn_bloc_expected": "~22.9 kerusi (majoriti 19)"
+    },
+    "seat_risk": [
+      {
+        "code": "N05",
+        "risk": "critical",
+        "action": "JANGAN campur adat · pertahan MN murni (+843 tipis)"
+      },
+      {
+        "code": "N19",
+        "risk": "high",
+        "action": "Monitor spike · soft touch zon Undang"
+      },
+      {
+        "code": "N03",
+        "risk": "medium",
+        "action": "Neutral istana · jangan provokasi"
+      },
+      {
+        "code": "N14",
+        "risk": "medium",
+        "action": "JANGAN serang via adat · fokus flip muafakat"
+      }
+    ],
+    "prescriptive_additions": [
+      {
+        "rank": 0,
+        "urgency": "immediate",
+        "domain": "job2_monarki",
+        "title": "Monitor adat N19/N05 — K3 54% neg",
+        "detail": "Job 2 crawl 4,562 rekod · elak politisasi istana · ML pasWinProb N05 70% N19 38%",
+        "entity": "N19",
+        "score": 0.95,
+        "ml_support": "job_crawl+pasWinProb"
+      },
+      {
+        "rank": 0,
+        "urgency": "immediate",
+        "domain": "job1_poll",
+        "title": "Echo poll MN 89.4% — 1,882 engagement",
+        "detail": "531 komen · 226 A/B jelas · pisah dari debat istana",
+        "entity": "N9",
+        "score": 0.92,
+        "ml_support": "poll_signal"
+      }
+    ]
+  }
+}

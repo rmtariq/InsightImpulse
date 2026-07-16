@@ -1,0 +1,597 @@
+Platform,Type,ID,Text,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,URL,video_url,media_type,engagement_score,author,author_followers,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,7630332986247908628,"According to New Straits Times, Jairo suffered a concussion and received multiple stitches to his lip at a local hospital in Jeddah.   
+Captain Natxo was reportedly booked for breaching protocol after snatching a stretcher from medics.
+
+#mothershipabroad",,,negative,2026-07-08 10:56:21.870990+00:00,2800000,131200,12200,95700000,0.09934279918670655,3900400,https://www.tiktok.com/@mothershipsg/video/7630332986247908628,https://www.tiktok.com/@mothershipsg/video/7630332986247908628,video,3194700.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mothershipsg/video/7630332986247908628...: Failed to load video from https://www.tiktok.com/@mothershipsg/video/7630332986247908628: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.6688573360443115,english,Mixed/Urban,Unknown,0.0,anger,0.6607174873352051,0.04800547659397125,0.06137073040008545,0.07201835513114929,0.04362548142671585,0.0178812388330698
+tiktok,post,7650873648550710535,HEHEHEHEHE udaahh yaa sesuai janjii!!!🫶🫶🫶 #diluarnurul,,,positive,2026-07-08 10:56:15.450352+00:00,310500,10800,1075,2500000,0.9545144200325011,347375,https://www.tiktok.com/@nayshiiie.2/video/7650873648550710535,https://www.tiktok.com/@nayshiiie.2/video/7650873648550710535,video,337825.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@nayshiiie.2/video/7650873648550710535...: Failed to load video from https://www.tiktok.com/@nayshiiie.2/video/7650873648550710535: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.8483814001083374,english,Mixed/Urban,Unknown,0.0,love,0.0580296665430069,0.04817541688680649,0.1697516143321991,0.023776434361934662,0.6124516129493713,0.02103128284215927
+tiktok,post,7647354067274009876,"MIRIS, PEJABAT BADAN GIZI NASIONAL KORUPSI 1 MILYAR PER HARI, SEMENTARA ITU MASIH BANYAK MASYARAKAT INDONESIA YANG SUSAH CARI UANG TIAP HARINYA (Source: Kompas TV) #mbg #bgn #sppg #makanbergizigratis #kejaksaanagung",,,neutral,2026-07-08 10:56:29.887350+00:00,99400,20500,8747,1200000,0.5,140647,https://www.tiktok.com/@fharidbahtiar/video/7647354067274009876,https://www.tiktok.com/@fharidbahtiar/video/7647354067274009876,video,167841.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@fharidbahtiar/video/7647354067274009876...: Failed to load video from https://www.tiktok.com/@fharidbahtiar/video/7647354067274009876: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9977194666862488,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.1434841901063919,0.09183744341135025,0.09008331596851349,0.05706916004419327,0.2484123706817627,0.04998891428112984
+tiktok,post,7650735718473403656,"Menteri Pertanian Andi Amran Sulaiman memberikan tanggapan terkait usulan seorang dosen Universitas Negeri Makassar (UNM) yang meminta agar harga beras diturunkan menjadi Rp13.000 per kilogram.
+
+Menteri Amran menegaskan bahwa penurunan harga beras ke tingkat tersebut justru berisiko menghancurkan kesejahteraan petani.",,,neutral,2026-07-08 10:56:34.045696+00:00,84600,5422,2040,1500000,0.5,107062,https://www.tiktok.com/@pembasmii.kehaluan.reall/video/7650735718473403656,https://www.tiktok.com/@pembasmii.kehaluan.reall/video/7650735718473403656,video,103064.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@pembasmii.kehaluan.reall/video/7650735718473403656...: Failed to load video from https://www.tiktok.com/@pembasmii.kehaluan.reall/video/7650735718473403656: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8499657511711121,english,Mixed/Urban,Unknown,0.0,anger,0.680919349193573,0.045392513275146484,0.07376016676425934,0.04269435256719589,0.06435733288526535,0.016612842679023743
+tiktok,post,7624150530134232337,"— #DUANGWITHYOU — || I love serious Duang sm ㅜㅜ ||
+
+━━━➳༻❀✿❀༺➳━━━
+★ My tg channel: saphiredd
+
+★ Boosty: saphired (link in bio!)
+
+★ Scp: blvnscenes
+━━━➳༻❀✿❀༺➳━━━
+Tags: #duangwithyouseries #duangwithyou #dwy #duang #duangwithyouedit #teeteewanpichit #twnpich #teeteepor #bl #thaibl #domunditv #bllakorn #lakorn #bledit #aftereffects #dmdtv #edit #fyp #viral #rge #on || ★ upload method ★ TG: @editing_news",,,positive,2026-07-08 10:56:28.927307+00:00,77000,4744,417,532500,0.9707051992416381,87486,https://www.tiktok.com/@saphired_/video/7624150530134232337,https://www.tiktok.com/@saphired_/video/7624150530134232337,video,88271.5,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@saphired_/video/7624150530134232337...: Failed to load video from https://www.tiktok.com/@saphired_/video/7624150530134232337: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.902350664138794,english,Mixed/Urban,Unknown,0.0,love,0.09267672896385193,0.06042899563908577,0.04476720094680786,0.10488498210906982,0.6072219014167786,0.03734331578016281
+tiktok,comment,7659828982535815949,is this a sign to rewatch again?,https://www.tiktok.com/@saphired_/video/7624150530134232337,7624150530134232337,neutral,2026-07-07 16:49:19+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@saphired_/video/7624150530134232337,,,,animemanga4me,0.0,,neutral,0.9412311911582947,english,Mixed/Urban,Unknown,0.25,fear,0.06338564306497574,0.2207680195569992,0.19228525459766388,0.049448125064373016,0.13204091787338257,0.1666739284992218
+tiktok,post,7574367757744049429,"Peraturan baru masuk ke INDONESIA. Wajib punya dokumen ini yaaa
+#tutorial #allindonesia #traveling #imigrasiindonesia #tips",,,neutral,2026-07-08 10:56:14.533006+00:00,30000,15000,1202,1100000,0.5,57202,https://www.tiktok.com/@mandetexplorer/video/7574367757744049429,https://www.tiktok.com/@mandetexplorer/video/7574367757744049429,video,64706.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mandetexplorer/video/7574367757744049429...: Failed to load video from https://www.tiktok.com/@mandetexplorer/video/7574367757744049429: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.7708643078804016,english,Mixed/Urban,Unknown,0.0,love,0.043929316103458405,0.03340461477637291,0.055514320731163025,0.033636391162872314,0.4467395544052124,0.040949925780296326
+tiktok,post,7592223358888971551,𝜗𝜚 i tried editing guys 😓 also this is a joke video so don’t take it to the heart!  ──⟡ #fyp #slimerant #danganropa #strawberryshortcake #satire,,,negative,2026-07-08 10:56:20.960460+00:00,54700,487,461,491800,0.13399972915649414,60566,https://www.tiktok.com/@kittyuko_/video/7592223358888971551,https://www.tiktok.com/@kittyuko_/video/7592223358888971551,video,57548.8,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@kittyuko_/video/7592223358888971551...: Failed to load video from https://www.tiktok.com/@kittyuko_/video/7592223358888971551: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.5533342361450195,english,Mixed/Urban,Unknown,0.0,love,0.12895900011062622,0.06575057655572891,0.09082765877246857,0.05292830616235733,0.45233291387557983,0.03821628913283348
+tiktok,post,7592476587077979412,"ditempatku ngebel lebih terkenal dengan pemandian air panas belerang yg bisa mengobati segala penyakit kulit.
+#telaga #ngebel #ponorogo #madiun #jawatimur",,,neutral,2026-07-08 10:56:20.664518+00:00,36800,4828,2441,2700000,0.5,71069,https://www.tiktok.com/@xotox_allakhazaam/video/7592476587077979412,https://www.tiktok.com/@xotox_allakhazaam/video/7592476587077979412,video,56479.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@xotox_allakhazaam/video/7592476587077979412...: Failed to load video from https://www.tiktok.com/@xotox_allakhazaam/video/7592476587077979412: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8221888542175293,english,Mixed/Urban,Unknown,0.0,love,0.1316954493522644,0.12166671454906464,0.07393748313188553,0.1471903920173645,0.2739897668361664,0.12047367542982101
+tiktok,post,7650822073182391559,"Kalo lu penasaran kenapa banyak negara ketar ketir dengan wacana kebijakan ekspor via satu pintu, sini gue jelasin secara cepat & simple.",,,negative,2026-07-08 10:56:33.434048+00:00,48200,2556,712,416600,0.0004808485507964977,55634,https://www.tiktok.com/@elson.lo/video/7650822073182391559,https://www.tiktok.com/@elson.lo/video/7650822073182391559,video,55864.6,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@elson.lo/video/7650822073182391559...: Failed to load video from https://www.tiktok.com/@elson.lo/video/7650822073182391559: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.998397171497345,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.00995982252061367,0.04016662389039993,0.014360601082444191,0.029132701456546783,0.047592151910066605,0.8081622123718262
+tiktok,post,7537569770422504712,Kapann...????🫩#fyp #za🧋 #airlines #luarnegeri #indonesia,,,neutral,2026-07-08 10:56:32.205114+00:00,36100,7684,1010,868300,0.5,53477,https://www.tiktok.com/@zania99.9/video/7537569770422504712,https://www.tiktok.com/@zania99.9/video/7537569770422504712,video,55366.3,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@zania99.9/video/7537569770422504712...: Failed to load video from https://www.tiktok.com/@zania99.9/video/7537569770422504712: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8733310103416443,english,Mixed/Urban,Unknown,0.0,love,0.10581332445144653,0.04015650227665901,0.05483666807413101,0.039517346769571304,0.6230327486991882,0.02417021617293358
+tiktok,post,7532774258330832146,"GEMPA 7.4 SL sebab kan Tsunami Rusia Hari Ini, jepang dan Indonesia Waspada#sorotan",,,neutral,2026-07-08 10:56:14.837391+00:00,26100,5084,1371,2600000,0.5,58555,https://www.tiktok.com/@porohnews4.id/video/7532774258330832146,https://www.tiktok.com/@porohnews4.id/video/7532774258330832146,video,42981.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@porohnews4.id/video/7532774258330832146...: Failed to load video from https://www.tiktok.com/@porohnews4.id/video/7532774258330832146: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9972129464149475,malay,Malay/Bumiputera,Unknown,0.0,love,0.09864161163568497,0.03537320718169212,0.08143535256385803,0.04261932522058487,0.3707842230796814,0.03576867654919624
+tiktok,post,7645978174999891207,"🔹PRABOWO: GA USAH KE LUAR NEGERI (2025)🔹
+
+Presiden Prabowo Subianto menginstruksikan kepada pejabat dan pegawai kementerian agar tak perlu ke luar negeri selama apabila tidak ada agenda penting demi penghematan anggaran. Hal ini ia sampaikan saat menghadiri Kongres Ke-XVIII Muslimat Nahdlatul Ulama (NU) di Jatim International Expo (JIExpo), Surabaya pada 10 Februari 2025.
+
+Source: Okezone
+
+#mastakafiles",,,positive,2026-07-08 10:56:23.399018+00:00,24800,4870,1703,474100,0.9961586475372314,36114,https://www.tiktok.com/@mastaka.files/video/7645978174999891207,https://www.tiktok.com/@mastaka.files/video/7645978174999891207,video,40123.1,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mastaka.files/video/7645978174999891207...: Failed to load video from https://www.tiktok.com/@mastaka.files/video/7645978174999891207: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9871954917907715,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.12925337255001068,0.08950141817331314,0.17095783352851868,0.053239643573760986,0.16658514738082886,0.05462907999753952
+tiktok,post,7652999003784695060,"Mukbang 2 porsi mie kari… mau kering mau kuah sama ya rasanya cm kering lebih lekoh aja. 
+🍜 Seporsi Mie Kari
+🍀9.4/10
+📍City Walk, Sudirman.
+#joannafoodie #miekari #seporsimiekari #mukbangmie #kulinerjkt",,,neutral,2026-07-08 10:56:24.638123+00:00,33100,1905,160,604600,0.5,41211,https://www.tiktok.com/@joanna.foodie1/video/7652999003784695060,https://www.tiktok.com/@joanna.foodie1/video/7652999003784695060,video,37994.6,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@joanna.foodie1/video/7652999003784695060...: Failed to load video from https://www.tiktok.com/@joanna.foodie1/video/7652999003784695060: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8964723944664001,english,Mixed/Urban,Unknown,0.0,love,0.1385629028081894,0.06725677102804184,0.14879107475280762,0.04922768101096153,0.42507168650627136,0.03161308914422989
+tiktok,post,7645651146979314965,"Tolong untuk pemerintah kota medan hapuskan pungli itu 
+Agak ngeri ngeri sedap awak liatnya.
+Kalok disini kan aman tentram
+#salamdarimedan🙏🙏🙏🙏😁🤗🤗 
+#salamanakrantau🙏🙏🕊️🇮🇩 
+#cakapmedankita",,,positive,2026-07-08 10:56:30.978485+00:00,33100,495,365,694200,0.9961043238639831,40902,https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965,https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965,video,35879.2,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965...: Failed to load video from https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9870144128799438,malay,Malay/Bumiputera,Unknown,0.0,love,0.16683319211006165,0.11070529371500015,0.19218482077121735,0.051943544298410416,0.3678223490715027,0.030782299116253853
+tiktok,comment,7659963037885858578,saya pergi Batam 3 hari...setiap kali parking kereta..kena bayar tukang parkir..Klau satu hari 10 kali parking..10.kali kena bayar tukar parkir..sedihh,https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965,7645651146979314965,negative,2026-07-08 01:37:22+00:00,1,0,1,0,0.029782551527023304,3,https://www.tiktok.com/@aldifkrnsyh/video/7645651146979314965,,,,anizatarlan902,0.0,,negative,0.9007248282432556,multilingual,Unknown,Unknown,0.25,sadness,0.03142908960580826,0.02863277867436409,0.0071827867068350315,0.8833626508712769,0.02243179641664028,0.013746396638453007
+tiktok,post,7484228306988977463,"Kedaden tenan ndue omah sing ra berisik, kebak katresnan, kebak kasih lan sayang 🥰 punya sendiri kecil gapapa kan ?
+
+#sinarengan #rumahminimalis #bellabonita #dennycaknan #cundamani #fyppppppppppppppppppppppp",,,neutral,2026-07-08 10:56:13.293436+00:00,27400,1051,65,301100,0.5,31527,https://www.tiktok.com/@mama.dhaif/video/7484228306988977463,https://www.tiktok.com/@mama.dhaif/video/7484228306988977463,video,29998.1,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mama.dhaif/video/7484228306988977463...: Failed to load video from https://www.tiktok.com/@mama.dhaif/video/7484228306988977463: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8481377363204956,malay,Malay/Bumiputera,Unknown,0.0,love,0.11498726904392242,0.07599987089633942,0.04755129665136337,0.12601493299007416,0.5357829332351685,0.0465695858001709
+tiktok,post,7627530849751190804,"LAMA LAMA GAK JELAS HUKUM DI KONONA ya ges???
+#nadiem #kerry #otm #pertamina #fypシ゚",,,neutral,2026-07-08 10:56:24.939091+00:00,26800,596,169,743000,0.5,34995,https://www.tiktok.com/@tangkikonoha/video/7627530849751190804,https://www.tiktok.com/@tangkikonoha/video/7627530849751190804,video,29242.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@tangkikonoha/video/7627530849751190804...: Failed to load video from https://www.tiktok.com/@tangkikonoha/video/7627530849751190804: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9095746874809265,english,Mixed/Urban,Unknown,0.0,love,0.19841021299362183,0.06452140212059021,0.09181269258260727,0.05161888897418976,0.38502049446105957,0.038223594427108765
+tiktok,post,7646218329249844498,jalan alternatif telaga ngebel ponorogo #fyp #CapCut #ponorogo24jam,,,neutral,2026-07-08 10:56:41.628623+00:00,18000,4762,415,365100,0.5,26828,https://www.tiktok.com/@infohealingmu/video/7646218329249844498,https://www.tiktok.com/@infohealingmu/video/7646218329249844498,video,29134.1,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@infohealingmu/video/7646218329249844498...: Failed to load video from https://www.tiktok.com/@infohealingmu/video/7646218329249844498: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.900222659111023,english,Mixed/Urban,Unknown,0.0,love,0.15418829023838043,0.053781215101480484,0.12339366972446442,0.045935653150081635,0.32476240396499634,0.03592630848288536
+tiktok,post,7641837361067789576,"🇲🇾🇮🇩
+ #anakrantau #pejuangdevisa #fyppppppppppppppppppppppp",,,neutral,2026-07-08 10:56:44.345141+00:00,21600,2079,618,268900,0.5,26986,https://www.tiktok.com/@lumoher3/video/7641837361067789576,https://www.tiktok.com/@lumoher3/video/7641837361067789576,video,27880.9,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@lumoher3/video/7641837361067789576...: Failed to load video from https://www.tiktok.com/@lumoher3/video/7641837361067789576: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8549219369888306,english,Mixed/Urban,Unknown,0.0,love,0.16882841289043427,0.04921752214431763,0.09809403866529465,0.050673969089984894,0.43772968649864197,0.03131074085831642
+tiktok,post,7555404980744686860,"Heboh perseteruan antara dosen UIN Malang vs Sahara rental sampai diusir RT setempat!
+
+#dosenuin #malang #viral #beritaterkini #fyppppppppppppppppppppppp",,,negative,2026-07-08 10:56:13.602063+00:00,15800,794,1559,1700000,0.06628505140542984,35153,https://www.tiktok.com/@sebut.berita/video/7555404980744686860,https://www.tiktok.com/@sebut.berita/video/7555404980744686860,video,23765.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@sebut.berita/video/7555404980744686860...: Failed to load video from https://www.tiktok.com/@sebut.berita/video/7555404980744686860: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.7790498286485672,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.21727599203586578,0.030826715752482414,0.09618721157312393,0.044027529656887054,0.14598745107650757,0.03260962665081024
+tiktok,post,7658119958634810631,berterimakasih she said😩 Nonton episode 6 only di Vidio! #diluarnurulseries #gabrielharungiroux #nayladennypurnama #seriesindonesia #fyp @nayla purnama @Gabriel,,,neutral,2026-07-08 10:56:47.206474+00:00,17100,577,182,182600,0.5,19685,https://www.tiktok.com/@bekasians/video/7658119958634810631,https://www.tiktok.com/@bekasians/video/7658119958634810631,video,18982.6,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@bekasians/video/7658119958634810631...: Failed to load video from https://www.tiktok.com/@bekasians/video/7658119958634810631: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.6839896440505981,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.032861195504665375,0.021414002403616905,0.04317941516637802,0.029531970620155334,0.33106493949890137,0.05440441519021988
+tiktok,comment,7658121376759350036,komunikasinya malah di kertas sm microsoft word PINTERRRR,https://www.tiktok.com/@bekasians/video/7658119958634810631,7658119958634810631,neutral,2026-07-03 02:22:27+00:00,3482,0,17,0,0.5,3516,https://www.tiktok.com/@bekasians/video/7658119958634810631,,,,hironours,0.0,,neutral,0.858427882194519,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.053191281855106354,0.04047658294439316,0.03495754674077034,0.027598319575190544,0.10115548968315125,0.04241405054926872
+tiktok,comment,7658122068304020245,bapaknya bagas be like PRANKKK😭,https://www.tiktok.com/@bekasians/video/7658119958634810631,7658119958634810631,neutral,2026-07-03 02:25:17+00:00,815,0,2,0,0.5,819,https://www.tiktok.com/@bekasians/video/7658119958634810631,,,,ferqsal,0.0,,neutral,0.5952329039573669,english,Mixed/Urban,Unknown,0.25,love,0.13375970721244812,0.035777755081653595,0.03814483433961868,0.09282264113426208,0.5145007371902466,0.03708507865667343
+tiktok,post,7656682067010391314,"PRN Johor kali ini, aku tertarik dengan seorang calon PN (PAS).
+
+Seorang guru.
+Seorang aktivis masyarakat.
+Dan seorang pejuang yang sudah lama berada di medan politik.
+
+Beliau ialah Normala Binti Sudirman, atau lebih dikenali sebagai Cikgu Mala.
+
+Apa yang menarik tentang beliau bukanlah kerana ini kali pertama namanya muncul dalam pilihan raya. Bahkan, ini sudah masuk siri pilihan raya yang kelima buat beliau.
+
+Beliau pernah menjadi calon PRK DUN Tenang pada tahun 2011. 
+Kemudian bertanding di DUN Pemanis pada tahun 2013 dan 2018, 
+seterusnya di DUN Kemelah pada tahun 2022, 
+dan kini kembali ke DUN Tenang pada tahun 2026.
+
+Bukan sedikit pengalaman politik yang dilalui. Ada kemenangan yang diimpikan bersama, ada kekalahan yang perlu diterima bersma. Ada waktu berada di pentas hadapan, ada ketika terpaksa meneruskan perjuangan tanpa jawatan dan tanpa kedudukan.
+
+Tetapi di situlah aku melihat sesuatu yang istimewa.
+Ramai orang boleh menjadi calon ketika musim pilihan raya.
+
+Namun tidak semua orang mampu terus istiqamah berkhidmat kepada rakyat apabila pilihan raya sudah berlalu.
+
+Ckgu Mala memilih jalan yang berbeza.
+
+Walaupun tidak memegang jawatan sebagai wakil rakyat, beliau terus mendidik masyarakat, mengasaskan Rumah Ngaji, 
+memimpin program kebajikan, 
+menyantuni golongan memerlukan tidak kira bangsa atau agama, 
+membantu anak-anak yang tercicir dalam pendidikan dan terus turun padang mendengar denyut nadi rakyat.
+
+Dari situ kita lihat, beliau memahami satu perkara yang penting dalam politik, bahawa perjuangan bukan tentang jawatan, 
+tetapi tentang amanah dan khidmat.
+
+Mungkin sebab itulah ramai yang mengenali beliau bukan sekadar sebagai seorang ahli politik.
+
+Tetapi sebagai seorang cikgu.
+Seorang ibu.
+Seorang aktivis masyarakat.
+Dan seorang insan yang sentiasa ada bersama rakyat.
+
+Bagi aku, inilah definisi sebenar seorang pemimpin.
+Menang, dia berkhidmat.
+Kalah, dia tetap berkhidmat.
+Ada jawatan, dia bekerja.
+Tiada jawatan, dia masih bekerja.
+
+Kerana bagi sesetengah orang, politik adalah tentang kuasa.
+
+Tetapi bagi sesetengah insan seperti Cikgu Mala, politik adalah tentang khidmat yang tidak pernah berhenti.
+
+Dan itulah yang membuatkan beliau cukup istimewa di mata ramai warga Tenang.
+
+Jadi buat pengundi-pengundi di DUN Tenang. 
+
+Tiada sebab untuk anda semua tidak memilih Cikgu Mala sebagai wakil rakyat akan datang.
+
+#duntenang #cikgumala #johor #pas",,,negative,2026-07-08 10:56:16.367004+00:00,15700,389,434,220900,0.0004948854446411022,18732,https://www.tiktok.com/@amirulasraf1987/video/7656682067010391314,https://www.tiktok.com/@amirulasraf1987/video/7656682067010391314,video,18000.9,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@amirulasraf1987/video/7656682067010391314...: Failed to load video from https://www.tiktok.com/@amirulasraf1987/video/7656682067010391314: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983503818511963,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.02138696424663067,0.024735992774367332,0.01756294257938862,0.03644850105047226,0.2975352108478546,0.32870763540267944
+tiktok,post,7115648194381401370,ghost and lottery real cctv in Thailand. #house #ghost #lottery #horror #scary #real #cctv #record #video #thailand #thailand🇹🇭,,,neutral,2026-07-08 10:56:31.569385+00:00,16900,70,123,527400,0.5,22367,https://www.tiktok.com/@theghostmax/video/7115648194381401370,https://www.tiktok.com/@theghostmax/video/7115648194381401370,video,17936.4,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@theghostmax/video/7115648194381401370...: Failed to load video from https://www.tiktok.com/@theghostmax/video/7115648194381401370: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.781183660030365,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04702841490507126,0.018658403307199478,0.055525414645671844,0.017535725608468056,0.12973728775978088,0.03119204379618168
+tiktok,post,7649699973029776656,"Jakarta punya warna-warnanya sendiri sebelum semua berubah menjadi aplikasi.
+
+Kuning ngejreng President Taxi yang mendominasi jalanan era 70–80an — begitu ikonik sampai Jakarta punya Yellow Cab-nya sendiri. Biru tenang Bluebird yang jadi standar kepercayaan sejak 1972. Putih bersih Express yang hadir di era 90-an. Dan Ratax — pionir radio taksi 1972 yang lahir lebih dulu dari siapapun, tapi mati paling senyap.
+
+Di balik semua itu, ada satu fenomena yang jadi trauma kolektif penumpang Jakarta: argo kuda. Argometer yang berlari lebih kencang dari mobilnya sendiri. Naik dari Sudirman ke Kuningan — bayarnya seperti sudah pergi pulang ke Bogor.
+
+Tidak ada screenshots. Tidak ada bukti. Hanya kamu, si sopir, dan angka yang terus berputar.
+
+Kini sebagian dari mereka ada di Museum Transportasi TMII — diam, kinclong, tapi tidak terlupakan. Sementara yang lain pergi begitu saja, seperti era yang mereka wakili.
+
+Kamu tim Bluebird — atau pernah kena argo kuda juga? 🚕
+
+Artikel terkait: https://museeid.com/artikel/taksi-dari-masa-ke-masa/
+
+#heritage #sejarahjakarta #taxijakarta #museeid #fyp",,,negative,2026-07-08 10:56:27.397910+00:00,15100,615,339,260300,0.0004948496818542591,18657,https://www.tiktok.com/@musee.id/video/7649699973029776656,https://www.tiktok.com/@musee.id/video/7649699973029776656,video,17607.3,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@musee.id/video/7649699973029776656...: Failed to load video from https://www.tiktok.com/@musee.id/video/7649699973029776656: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983505010604858,malay,Malay/Bumiputera,Unknown,0.0,love,0.04946250095963478,0.059040263295173645,0.022481951862573624,0.10288196057081223,0.34976887702941895,0.1742933839559555
+tiktok,post,7633769899004857621,Resiko😭 #Telagawarna #Dieng #wonosobo,,,neutral,2026-07-08 10:56:45.101779+00:00,12400,1847,221,288300,0.5,17351,https://www.tiktok.com/@hanahsajidah_65/video/7633769899004857621,https://www.tiktok.com/@hanahsajidah_65/video/7633769899004857621,video,17045.3,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@hanahsajidah_65/video/7633769899004857621...: Failed to load video from https://www.tiktok.com/@hanahsajidah_65/video/7633769899004857621: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.5679215788841248,english,Mixed/Urban,Unknown,0.0,anger,0.36600497364997864,0.10826617479324341,0.022245289757847786,0.3548562824726105,0.0921776071190834,0.016766272485256195
+tiktok,post,7655233405625322773,"Ga nyangka cill padahal kemaren masih live tenang di sana ya @acill innalilahi wa innailaihi rojiun bahagia di tempat mu yang baru ya🥹 Husnul khatimah🤲🏻
+#acillmajalengka#kecelakaan#fyp#meninggaldunia",,,positive,2026-07-08 10:56:19.465079+00:00,14700,518,304,229900,0.999377405643463,17821,https://www.tiktok.com/@girjamr1/video/7655233405625322773,https://www.tiktok.com/@girjamr1/video/7655233405625322773,video,16877.9,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@girjamr1/video/7655233405625322773...: Failed to load video from https://www.tiktok.com/@girjamr1/video/7655233405625322773: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979246854782104,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.01992168091237545,0.3893767297267914,0.04252244532108307,0.021856674924492836,0.02730553038418293,0.45424968004226685
+tiktok,post,7614035021678120210,"Atine wis mak trataban.. ora seranta mudik meng Banjarnegara 🥹🥹
+
+#banjarnegara",,,neutral,2026-07-08 10:56:23.699079+00:00,12700,1112,262,145700,0.5,15531,https://www.tiktok.com/@banjarnegaraterkini/video/7614035021678120210,https://www.tiktok.com/@banjarnegaraterkini/video/7614035021678120210,video,15855.7,,,,neutral,0.808784008026123,english,Mixed/Urban,Unknown,0.0,love,0.09910330921411514,0.019060974940657616,0.06179317831993103,0.022347934544086456,0.6108823418617249,0.01765020377933979
+tiktok,post,7629687294319987975,"next?. . 👀🙌🏻
+#opl #new #kadangberbau💸kadanggaberbau💸 #fyppppppppppppppppppppppp",,,neutral,2026-07-08 10:56:35.973076+00:00,5585,1686,2111,226000,0.5,11642,https://www.tiktok.com/@_zeyy05/video/7629687294319987975,https://www.tiktok.com/@_zeyy05/video/7629687294319987975,video,15516.0,,,,neutral,0.9977118968963623,malay,Malay/Bumiputera,Unknown,0.0,love,0.06287478655576706,0.029301630333065987,0.06171124428510666,0.03576342761516571,0.5362808704376221,0.041819978505373
+tiktok,comment,7659792406619013906,akuw pls cookie335131,https://www.tiktok.com/@_zeyy05/video/7629687294319987975,7629687294319987975,neutral,2026-07-07 14:26:44+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@_zeyy05/video/7629687294319987975,,,,milkycookies234,0.0,,neutral,0.7225120663642883,english,Mixed/Urban,Unknown,0.25,love,0.05893748626112938,0.03741086274385452,0.03574075177311897,0.039025723934173584,0.7467283606529236,0.034027352929115295
+tiktok,post,7623943148678663444,PAK JOKOWI TOLAK DOKTER TIFA.. KASIAN BANGET YAA #politik #indonesia🇮🇩 #indonesia #beritaviral #rismonhasiolansianipar,,,neutral,2026-07-08 10:56:19.139617+00:00,10900,181,829,456900,0.5,16479,https://www.tiktok.com/@pa.but4/video/7623943148678663444,https://www.tiktok.com/@pa.but4/video/7623943148678663444,video,14205.9,,,,neutral,0.8218690156936646,english,Mixed/Urban,Unknown,0.0,love,0.15648627281188965,0.057021208107471466,0.11374924331903458,0.04457826912403107,0.39290469884872437,0.03602730110287666
+tiktok,post,7613666551731866900,"kamu kelihatan naksir aku banget ga sih?
+
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+#nctwish #sakuya #fujinagasakuya #sakuyaedit",,,neutral,2026-07-08 10:56:23.086298+00:00,10000,872,49,44400,0.5,11365,https://www.tiktok.com/@sakuubread/video/7613666551731866900,https://www.tiktok.com/@sakuubread/video/7613666551731866900,video,11935.4,,,,neutral,0.7567394375801086,english,Mixed/Urban,Unknown,0.0,love,0.06784582138061523,0.04914490133523941,0.042423270642757416,0.05208444967865944,0.7198206186294556,0.033849455416202545
+tiktok,post,7656779611556138248,"PRN Johor kali ini, aku tertarik dengan seorang calon PN (PAS).
+
+Seorang guru.
+Seorang aktivis masyarakat.
+Dan seorang pejuang yang sudah lama berada di medan politik.
+
+Beliau ialah Normala Binti Sudirman, atau lebih dikenali sebagai Cikgu Mala.
+
+Apa yang menarik tentang beliau bukanlah kerana ini kali pertama namanya muncul dalam pilihan raya. Bahkan, ini sudah masuk siri pilihan raya yang kelima buat beliau.
+
+Beliau pernah menjadi calon PRK DUN Tenang pada tahun 2011. 
+Kemudian bertanding di DUN Pemanis pada tahun 2013 dan 2018, 
+seterusnya di DUN Kemelah pada tahun 2022, 
+dan kini kembali ke DUN Tenang pada tahun 2026.
+
+Bukan sedikit pengalaman politik yang dilalui. Ada kemenangan yang diimpikan bersama, ada kekalahan yang perlu diterima bersma. Ada waktu berada di pentas hadapan, ada ketika terpaksa meneruskan perjuangan tanpa jawatan dan tanpa kedudukan.
+
+Tetapi di situlah aku melihat sesuatu yang istimewa.
+Ramai orang boleh menjadi calon ketika musim pilihan raya.
+
+Namun tidak semua orang mampu terus istiqamah berkhidmat kepada rakyat apabila pilihan raya sudah berlalu.
+
+Ckgu Mala memilih jalan yang berbeza.
+
+Walaupun tidak memegang jawatan sebagai wakil rakyat, beliau terus mendidik masyarakat, mengasaskan Rumah Ngaji, 
+memimpin program kebajikan, 
+menyantuni golongan memerlukan tidak kira bangsa atau agama, 
+membantu anak-anak yang tercicir dalam pendidikan dan terus turun padang mendengar denyut nadi rakyat.
+
+Dari situ kita lihat, beliau memahami satu perkara yang penting dalam politik, bahawa perjuangan bukan tentang jawatan, 
+tetapi tentang amanah dan khidmat.
+
+Mungkin sebab itulah ramai yang mengenali beliau bukan sekadar sebagai seorang ahli politik.
+
+Tetapi sebagai seorang cikgu.
+Seorang ibu.
+Seorang aktivis masyarakat.
+Dan seorang insan yang sentiasa ada bersama rakyat.
+
+Bagi aku, inilah definisi sebenar seorang pemimpin.
+Menang, dia berkhidmat.
+Kalah, dia tetap berkhidmat.
+Ada jawatan, dia bekerja.
+Tiada jawatan, dia masih bekerja.
+
+Kerana bagi sesetengah orang, politik adalah tentang kuasa.
+
+Tetapi bagi sesetengah insan seperti Cikgu Mala, politik adalah tentang khidmat yang tidak pernah berhenti.
+
+Dan itulah yang membuatkan beliau cukup istimewa di mata ramai warga Tenang.
+
+Jadi buat pengundi-pengundi di DUN Tenang. 
+
+Tiada sebab untuk anda semua tidak memilih Cikgu Mala sebagai wakil rakyat akan datang.
+
+#duntenang #cikgumala #johor #pas",,,negative,2026-07-08 10:56:16.681167+00:00,7770,272,208,55300,0.0004948854446411022,8803,https://www.tiktok.com/@pemudaperikatannasional7/video/7656779611556138248,https://www.tiktok.com/@pemudaperikatannasional7/video/7656779611556138248,video,8993.3,,,,negative,0.9983503818511963,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.02138696424663067,0.024735992774367332,0.01756294257938862,0.03644850105047226,0.2975352108478546,0.32870763540267944
+tiktok,post,7631952320628002055,"Usulan transportasi publik gratis hingga penghapusan Pertalite kini jadi sorotan.
+
+Benarkah ini jalan keluar agar subsidi lebih tepat sasaran dan beban rakyat berkurang?
+
+#nusantaratv 
+#nusantaratvsahabatkita 
+#semarang24jam 
+#bahanbakarminyak 
+#organda",,,neutral,2026-07-08 10:56:44.772843+00:00,3187,1271,818,199000,0.5,7266,https://www.tiktok.com/@ntvsemarang/video/7631952320628002055,https://www.tiktok.com/@ntvsemarang/video/7631952320628002055,video,8382.0,,,,neutral,0.9920092821121216,malay,Malay/Bumiputera,Unknown,0.0,love,0.05006428062915802,0.136044442653656,0.14622916281223297,0.041642215102910995,0.3923109769821167,0.07975026965141296
+tiktok,post,7574256738325548304,"Dosen muda Untag Semarang meninggal tanpa busana di Kos Hotel bersama AKBP Basuki.
+.
+#DosenUntagSemarang #dosen #DosenLevi #fypシ゚viral🖤tiktok #fypシ゚",,,negative,2026-07-08 10:56:26.480593+00:00,4265,767,339,597300,0.10904723256826401,11344,https://www.tiktok.com/@kabarinaja.idn/video/7574256738325548304,https://www.tiktok.com/@kabarinaja.idn/video/7574256738325548304,video,7413.3,,,,negative,0.6365092247724533,multilingual,Unknown,Unknown,0.0,sadness,0.0322265662252903,0.04351000487804413,0.006671718321740627,0.8567031621932983,0.016322001814842224,0.029161274433135986
+tiktok,post,7628963175572000008,"Simak baik baik ya guys.. 😊
+
+#tkwhongkong #cpmindonesia #tkwhongkong🇮🇩🇭🇰",,,positive,2026-07-08 10:56:33.132432+00:00,3735,232,990,168500,0.8638962924480438,6642,https://www.tiktok.com/@pt.parco_laut/video/7628963175572000008,https://www.tiktok.com/@pt.parco_laut/video/7628963175572000008,video,7337.5,,,,positive,0.5463209748268127,multilingual,Unknown,Unknown,0.0,love,0.049133457243442535,0.016831956803798676,0.04197145253419876,0.026206789538264275,0.8020417094230652,0.01277453824877739
+tiktok,post,7644118666308570375,#pusatpasar #pasarcentral,,,positive,2026-07-08 10:56:39.096942+00:00,3131,742,568,213200,0.8716042906045913,6573,https://www.tiktok.com/@chankoshop/video/7644118666308570375,https://www.tiktok.com/@chankoshop/video/7644118666308570375,video,6532.2,,,,positive,0.5720143020153046,multilingual,Unknown,Unknown,0.0,love,0.06691482663154602,0.024971723556518555,0.17826196551322937,0.02733795903623104,0.3634006977081299,0.025168275460600853
+tiktok,post,7600774693024550162,"BISMILLAH TRAVEL DOOR TO DOOR JALAN SETIAP HARI
+
+MAGETAN - SURABAYA PP
+MADIUN - SURABAYA PP
+NGAWI - SURABAYA PP
+
+HARGA MULAI DARI 150 - 250 jemput depan rumah antar sampai tujuan
+
+Juga melayani carter wisata, carter religi, carter mantenan, private wisata, acara pribadi.
+
+UNTUK RESERVASI 081357613933
+
+#traveltiktok #traveljuanda #tkwtaiwanindonesia🇹🇼🇮🇩 #tkwhongkong🇮🇩🇭🇰 #tkwsingapura🇮🇩🇸🇬",,,positive,2026-07-08 10:56:15.146761+00:00,3474,181,597,130300,0.9259108379483223,5555,https://www.tiktok.com/@rizalfirwanto/video/7600774693024550162,https://www.tiktok.com/@rizalfirwanto/video/7600774693024550162,video,5757.3,,,,positive,0.7530361264944077,multilingual,Unknown,Unknown,0.0,love,0.115345798432827,0.052044183015823364,0.08377760648727417,0.050764862447977066,0.3538663387298584,0.044084832072257996
+tiktok,post,7376514188572773638,#fyp #viral #pns_asn,,,neutral,2026-07-08 10:56:42.676809+00:00,2779,336,352,486900,0.5,8336,https://www.tiktok.com/@bang_julid212/video/7376514188572773638,https://www.tiktok.com/@bang_julid212/video/7376514188572773638,video,4993.9,,,,neutral,0.9047684073448181,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.0758029893040657,0.035459231585264206,0.098047636449337,0.04011762887239456,0.28304246068000793,0.041470158845186234
+tiktok,post,7579561816288726293,"WAZE IT 📍
+BIG SHINES CAR WASH
+TAMPOI INDAH @VMAMMAKICTHEN #foodtruck #mammakithchen #msmaphraw",,,neutral,2026-07-08 10:56:46.871019+00:00,3500,113,35,69700,0.5,4345,https://www.tiktok.com/@aishu_rai/video/7579561816288726293,https://www.tiktok.com/@aishu_rai/video/7579561816288726293,video,3900.7,,,,neutral,0.640838623046875,english,Mixed/Urban,Unknown,0.0,love,0.10436611622571945,0.03612358123064041,0.09212226420640945,0.03947807103395462,0.4402478337287903,0.0317615382373333
+tiktok,post,7572172989978971400,#fypage #fyp #viral #banyuwangi #dpr,,,neutral,2026-07-08 10:56:24.002704+00:00,1864,274,394,123400,0.5,3766,https://www.tiktok.com/@berita_indonesia09/video/7572172989978971400,https://www.tiktok.com/@berita_indonesia09/video/7572172989978971400,video,3717.4,,,,neutral,0.9252843856811523,english,Mixed/Urban,Unknown,0.0,love,0.11189401894807816,0.03739054128527641,0.07431996613740921,0.04398174583911896,0.5846630334854126,0.026047395542263985
+tiktok,post,7651893955310800135,"Gempa M 6,7 Sebabkan Kerusakan Bangunan Gereja di Kabupaten Sigi
+
+SIGI – Gempa bumi berkekuatan Magnitudo 6,7 yang mengguncang wilayah Sulawesi Tengah pada Selasa (16/06/2026) pagi mengakibatkan kerusakan pada sejumlah bangunan di daerah terdampak.
+
+Salah satu bangunan yang mengalami kerusakan adalah Gereja Pantekosta yang berada di Desa Tongua, Kecamatan Palolo, Kabupaten Sigi. Berdasarkan tayangan Video yang beredar, beberapa bagian bangunan gereja mengalami kerusakan akibat kuatnya guncangan gempa yang dirasakan hingga ke wilayah tersebut.
+
+Hingga saat ini, belum ada laporan mengenai korban jiwa dalam peristiwa tersebut. Warga bersama aparat setempat masih melakukan pendataan terhadap tingkat kerusakan yang ditimbulkan akibat gempa.
+
+#sigi
+#gempapalu
+#gempa
+#gereja",,,negative,2026-07-08 10:56:14.216080+00:00,2013,278,52,141100,0.0059217989444732555,3754,https://www.tiktok.com/@tolitoli.news/video/7651893955310800135,https://www.tiktok.com/@tolitoli.news/video/7651893955310800135,video,2866.1,,,,negative,0.9802606701850891,malay,Malay/Bumiputera,Unknown,0.0,anger,0.6097656488418579,0.07541158050298691,0.039715640246868134,0.11520663648843765,0.03136429563164711,0.02494121715426445
+tiktok,post,7631941898030025991,"Sebegitu antusias nya para2 bocil ini rela nunggu dari sore smpe larut sore ilstandbay d dpn hotel. Cuma ingin jumpa sma @AisarKhaledd dan kru2 nya.
+#fypシ゚ #aisarsultanmalaysia #pamanukan_subang #viralditiktok",,,negative,2026-07-08 10:56:44.037452+00:00,2115,166,110,45800,0.08770408630371093,2849,https://www.tiktok.com/@ilpa.ngok/video/7631941898030025991,https://www.tiktok.com/@ilpa.ngok/video/7631941898030025991,video,2822.8,,,,negative,0.7076530456542969,multilingual,Unknown,Unknown,0.0,love,0.09000018239021301,0.06424517184495926,0.1125904992222786,0.04265642166137695,0.5583527684211731,0.04200265184044838
+tiktok,post,7635246199775169813,#viralhariini #ustadznasihin #lampung #mei #fyp,,,negative,2026-07-08 10:56:36.594871+00:00,1023,405,248,9538,0.11486408561468123,1771,https://www.tiktok.com/@hub.0895271410591/video/7635246199775169813,https://www.tiktok.com/@hub.0895271410591/video/7635246199775169813,video,2586.538,,,,negative,0.6171197146177292,multilingual,Unknown,Unknown,0.0,love,0.08372147381305695,0.025606056675314903,0.0685407966375351,0.03151201456785202,0.64250648021698,0.020774617791175842
+tiktok,post,7634416602913901845,"Sumandhing - Ajeng Febria
+
+#sumandhing #ajengfebria",,,neutral,2026-07-08 10:56:42.978950+00:00,1697,372,17,58700,0.5,2673,https://www.tiktok.com/@media_musik_trending/video/7634416602913901845,https://www.tiktok.com/@media_musik_trending/video/7634416602913901845,video,2550.7,,,,neutral,0.8676755428314209,english,Mixed/Urban,Unknown,0.0,love,0.0858844444155693,0.033705517649650574,0.058332979679107666,0.05670269951224327,0.6998817920684814,0.017762474715709686
+tiktok,post,7650828693832748296,"Aksi demonstrasi Aliansi BEM UI menuju Bundaran HI pada Jumat, 12 Juni 2026, sempat tertahan oleh blokade ketat aparat gabungan TNI-Polri. Massa yang mengenakan jas almamater kuning dihadang di kawasan Semanggi dan Halte Tosari karena polisi melarang unjuk rasa di pusat ekonomi tersebut. Dalam aksi ini, mahasiswa membawa lima tuntutan utama kepada pemerintah, termasuk desakan menurunkan harga bahan pokok dan BBM, menghentikan pemborosan APBN, serta membatalkan program Makan Bergizi Gratis yang dinilai membebani negara. Sebanyak 4.151 personel dikerahkan untuk mengamankan situasi yang sempat memicu kemacetan parah di sepanjang Jalan Sudirman-Thamrin tersebut. Meski sempat bertahan hingga malam hari bersama massa ojek online, kondisi di kawasan Bundaran HI dipastikan sudah kembali normal sejak Sabtu, 13 Juni 2026.
+#ui #edukasi #videoedukasi #jjedukasi #masukberandafypシ",,,positive,2026-07-08 10:56:24.310918+00:00,2101,54,33,81600,0.972925817966461,3004,https://www.tiktok.com/@ethannditzz_/video/7650828693832748296,https://www.tiktok.com/@ethannditzz_/video/7650828693832748296,video,2389.6,,,,positive,0.9097527265548706,malay,Malay/Bumiputera,Unknown,0.0,anger,0.43450984358787537,0.11961112916469574,0.07649676501750946,0.057550493627786636,0.06785848736763,0.04078172892332077
+tiktok,post,7438618595849932087,#peradi #terpidana #vinacirebon #cirebon #susnoduadji #beritaterkini #netizenindonesia #netizen,,,negative,2026-07-08 10:56:16.064965+00:00,1483,99,156,30900,0.11501266658306122,2047,https://www.tiktok.com/@dana_irawan/video/7438618595849932087,https://www.tiktok.com/@dana_irawan/video/7438618595849932087,video,2179.9,,,,negative,0.6166244447231293,multilingual,Unknown,Unknown,0.0,love,0.11902305483818054,0.03946470469236374,0.12406424432992935,0.038104232400655746,0.43682345747947693,0.0319456048309803
+tiktok,post,7600218479224032520,"Jadii kalian tipe yang manaa niihh..?? 
+
+Bagi yang mau daftar bisa daftar online ke wa kita 082268867612 yaa 
+datang langsun ke kntor kitaa juga boleh dengan alamat dibawah ini 👇🏻👇🏻
+📍Jl hm nur no.3 (belakang spbu jl sembilang)
+📍Jl Sembilang (sebelum kedai tisman tasar)
+📍Jl Sudirman (sebelah kuri setelah cafe sevendoor)
+📍Jl Hangtuah no 321 rejosari (seberang swalayan 999) 
+#belajarmengemudipekanbaru #fypシ #pkucity #kursusmengemudipekanbaru #belajarmengemudi",,,neutral,2026-07-08 10:56:29.574811+00:00,660,47,416,31200,0.5,1435,https://www.tiktok.com/@adikstir/video/7600218479224032520,https://www.tiktok.com/@adikstir/video/7600218479224032520,video,2033.2,,,,neutral,0.9976850748062134,malay,Malay/Bumiputera,Unknown,0.0,love,0.07457832992076874,0.03724512457847595,0.07105597853660583,0.045051075518131256,0.38701820373535156,0.06681885570287704
+tiktok,post,7589626435845868821,ijin senior 🙏#kulipabrikkarawang#tmminkarawang#ijin#fyp#,,,neutral,2026-07-08 10:56:22.787858+00:00,1215,40,120,29400,0.5,1669,https://www.tiktok.com/@ridhoabdulmalik0/video/7589626435845868821,https://www.tiktok.com/@ridhoabdulmalik0/video/7589626435845868821,video,1684.4,,,,neutral,0.6760485172271729,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.032753512263298035,0.0203161109238863,0.05111708119511604,0.021452683955430984,0.3359350264072418,0.03949330747127533
+tiktok,post,7644515014396677394,"nny kok sm ian😑
+
+#woomen #woomenfamily #ianhearts2hearts #fyporyoupage #cawooz",,,negative,2026-07-08 10:56:37.864348+00:00,1429,40,7,11400,0.1514878123998642,1590,https://www.tiktok.com/@zah_juun/video/7644515014396677394,https://www.tiktok.com/@zah_juun/video/7644515014396677394,video,1541.4,,,,negative,0.495040625333786,english,Mixed/Urban,Unknown,0.0,love,0.04307698458433151,0.016535019502043724,0.05503609776496887,0.03083852306008339,0.8032091856002808,0.013835142366588116
+tiktok,post,7606323124878970120,The country that I  born and grow up 🫡🫠 #doha #jakarta #indonesia🇮🇩 #🇶🇦,,,neutral,2026-07-08 10:56:37.246920+00:00,1323,14,29,15600,0.5,1522,https://www.tiktok.com/@nurmala.sudirman1/video/7606323124878970120,https://www.tiktok.com/@nurmala.sudirman1/video/7606323124878970120,video,1453.6,,,,neutral,0.8513013124465942,english,Mixed/Urban,Unknown,0.0,love,0.06450771540403366,0.03161977604031563,0.08616161346435547,0.0415966659784317,0.6927266120910645,0.019019557163119316
+tiktok,post,7029659094902525211,SUKA MUKUL ANAK? DENGAR INI!!!#dakwah #islamic #muslim #islam #Buyayahya #turkish #jumatberkah #suaramerdu #berbagiilmuituindah,,,negative,2026-07-08 10:56:26.802381+00:00,720,304,7,30600,0.10626233518123626,1337,https://www.tiktok.com/@sudirman_ab/video/7029659094902525211,https://www.tiktok.com/@sudirman_ab/video/7029659094902525211,video,1379.6,,,,negative,0.6457922160625458,multilingual,Unknown,Unknown,0.0,love,0.05957823246717453,0.035141900181770325,0.04604163393378258,0.04132227599620819,0.5888357162475586,0.04667611047625542
+tiktok,post,7620111225673764109,"🌟#Event Hari Senin🌟
+🎊Kalian tahu apa jawabannya?🎁🎊
+📣 kami akan mengundi 14 fans yang menjawab benar untuk memberikan🎁
+🤩2 fans yang beruntung akan dapat hadiah 🌹Tumbler Locknlock🌹!
+💰Yang 12 Luckydog akan diberikan Pulsa💰
+⏰Waktu event 23 Maret - 26 Maret, 2026⚠️Event berakhir pada pukul 23:59 tanggal 26 Maret pengumuman pemenangakan diumumkan pada tanggal 1 April, dan hadiah akan dikirimkan pada tanggal 8 April.
+💖 Catatan Acara:
+- Jika sebuah akun membuat banyak komentar dengan jawaban berbeda, jawaban pertama akan dihitung;
+- Acara ini hanya untuk fans.
+#GoTube #GoLife #Event #Hadiah",,,neutral,2026-07-08 10:56:35.272969+00:00,505,47,250,8992,0.5,891,https://www.tiktok.com/@gotubeindonesia/video/7620111225673764109,https://www.tiktok.com/@gotubeindonesia/video/7620111225673764109,video,1357.992,,,,neutral,0.9846214056015015,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.016404278576374054,0.03716588020324707,0.0295855775475502,0.020794812589883804,0.0791725218296051,0.10317183285951614
+tiktok,post,7655956140781538578,Dari seorang guru ke medan politik. Ayuh Bangsa Johor N.05 Tenang & N.35 Pasir Raja. PERIKATAN NASIONAL PAS/PN Pilihan Utama Anda. #tolakumdap,,,neutral,2026-07-08 10:56:12.350553+00:00,823,56,81,5291,0.5,1012,https://www.tiktok.com/@pintasan_n8/video/7655956140781538578,https://www.tiktok.com/@pintasan_n8/video/7655956140781538578,video,1183.291,,,,neutral,0.8670836091041565,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04933983087539673,0.009932704269886017,0.04106536880135536,0.01820007525384426,0.2935732901096344,0.021385734900832176
+tiktok,post,7348259488387878149,"Harga saham ANTM ternyata sekarang sedikit murah jika harga wajar saham dihitung dengan metode EPS growth. Metode ini cocok untuk menghitung harga wajar saham untuk perusahaan yang punya profit yang positif dan cenderung bertumbuh, kalau perusahaan masih kadang rugi, mungkin ga cocok untuk pakai metode ini ya. ANTM ini termasuk saham cyclical, yang berarti mereka punya siklus tersendiri untuk naik turunnya harga saham. Biasanya dipengaruhi sama harga komoditas, ANTM sangat dipengaruhi harga komoditas emas, yang saat ini lagi naik-naiknya makanya harga sahamnya pun ikutan naik. #investasi #investasisaham #aturkeuangan #aturkeuangankeluarga #investasisahampemula #mamahebat",,,positive,2026-07-08 10:56:37.562767+00:00,596,135,37,22600,0.9994034051895141,994,https://www.tiktok.com/@vwijayanti/video/7348259488387878149,https://www.tiktok.com/@vwijayanti/video/7348259488387878149,video,999.6,,,,positive,0.9980113506317139,malay,Malay/Bumiputera,Unknown,0.0,love,0.1753835380077362,0.10561981797218323,0.14233073592185974,0.06475353986024857,0.3021382689476013,0.046116530895233154
+tiktok,post,7617235613263138069,"Gempa Sukabumi M 4,1 Terasa Kuat di Cianjur, Warga Sempat Panik",,,neutral,2026-07-08 10:56:36.937542+00:00,611,123,19,68600,0.5,1439,https://www.tiktok.com/@warta.cianjur/video/7617235613263138069,https://www.tiktok.com/@warta.cianjur/video/7617235613263138069,video,982.6,,,,neutral,0.892480194568634,english,Mixed/Urban,Unknown,0.0,sadness,0.12773668766021729,0.32013577222824097,0.024278976023197174,0.4290608763694763,0.022945767268538475,0.05109106004238129
+tiktok,post,7561107174965972236,🤪🤪 MUL..TERMUL #fyp #fypシ゚,,,neutral,2026-07-08 10:56:34.952940+00:00,232,18,234,11000,0.5,594,https://www.tiktok.com/@m4s_kris/video/7561107174965972236,https://www.tiktok.com/@m4s_kris/video/7561107174965972236,video,981.0,,,,neutral,0.9976505637168884,malay,Malay/Bumiputera,Unknown,0.0,love,0.048033133149147034,0.028108036145567894,0.052027616649866104,0.0288295429199934,0.5739386081695557,0.031141802668571472
+tiktok,post,7220002019686337797,"Anda berdengkur kuat? Pada waktu pagi anda asyik rasa mengantuk? Sila berjumpa dengan doktor ENT untuk pemeriksaan.
+#sleepstudy #sleepstudytest #obstructivesleepapnea #berdengkur #kuatberdengkur #fypシ゚viral #fyp #fypage #klinikent #doctorent #klinikviral",,,positive,2026-07-08 10:56:12.975307+00:00,239,193,39,53900,0.9322364747524261,1010,https://www.tiktok.com/@klinikfirdaus/video/7220002019686337797,https://www.tiktok.com/@klinikfirdaus/video/7220002019686337797,video,795.9,,,,positive,0.7741215825080872,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.13711614906787872,0.1081312969326973,0.019489794969558716,0.5309829115867615,0.07353324443101883,0.04850112274289131
+tiktok,post,7441516163378564408,"Jangan ya guys..
+#tiktok #fyp #fyppppppppppppppppppppppp #viral #law #hukum #pengacara #indonesia",,,neutral,2026-07-08 10:56:43.724962+00:00,194,200,42,28200,0.5,718,https://www.tiktok.com/@ndslawoffice/video/7441516163378564408,https://www.tiktok.com/@ndslawoffice/video/7441516163378564408,video,748.2,,,,neutral,0.8357623815536499,english,Mixed/Urban,Unknown,0.0,love,0.17136150598526,0.02491387352347374,0.05786244943737984,0.03902257978916168,0.4182792603969574,0.02896169200539589
+tiktok,post,7599461725275950356,"#PasalKejengkelan
+#NalarHukum
+#EdukasiHukum
+#RJDanHukum
+#HukumHarusMasukAkal",,,negative,2026-07-08 10:56:28.629050+00:00,249,10,141,26100,0.04604724347591399,661,https://www.tiktok.com/@hanz_op5/video/7599461725275950356,https://www.tiktok.com/@hanz_op5/video/7599461725275950356,video,718.1,,,,negative,0.84650918841362,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.06561525166034698,0.05193224176764488,0.05579748749732971,0.02782238833606243,0.07803870737552643,0.07988646626472473
+tiktok,post,7625522864220818704,"😱🚗 Diduga Sopir Mabvk Sambil N3n3n Pacar Berujung Mobil Tabrak Tenda Hajatan.
+
+Warga Kembangan Selatan, Jakarta Barat, dikejutkan oleh insiden mobil yang menabrak tenda dan panggung acara Maulid Nabi di halaman Masjid Jami Baitusshobri.
+
+Mobil yang dikendarai sepasang pria dan wanita itu diduga melaju kencang hingga akhirnya kehilangan kendali. Pengemudi juga diduga berada di bawah pengaruh alkohol saat kejadian. ⚠️
+
+Akibat insiden tersebut, dua orang pekerja mengalami luka-luka, sementara tenda dan panggung acara roboh seketika.
+
+Peristiwa ini menjadi pengingat pentingnya keselamatan saat berkendara. Jangan pernah mengemudi dalam kondisi tidak sadar atau di bawah pengaruh zat berbahaya.
+
+Menurut kalian, hukuman seperti apa yang pantas untuk kasus seperti ini?
+
+#Kecelakaan #JakartaBarat #WaspadaBerkendara #BeritaViral #Keselamatan",,,negative,2026-07-08 10:56:38.504584+00:00,317,116,3,154500,0.00048081278800965466,1981,https://www.tiktok.com/@argumen_id/video/7625522864220818704,https://www.tiktok.com/@argumen_id/video/7625522864220818704,video,712.5,,,,negative,0.9983972907066345,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.02820679359138012,0.06451674550771713,0.019708070904016495,0.03386194631457329,0.016819702461361885,0.7714039087295532
+tiktok,post,7582964888918625544,"Dikarenakan adanya trouble transmisi jaringan interkoneksi PLN di Jalan Jenderal Sudirman lintas Sampit – Pangkalan Bun, saat ini suplai listrik di Kecamatan Hanau dan sekitarnya terdampak pemadaman.
+
+Petugas PLN sedang melakukan perbaikan di lapangan untuk memulihkan kondisi secepat mungkin.
+
+Mohon doa dan pengertiannya, semoga penanganan berlangsung lancar dan listrik segera normal kembali.
+
+#seruyanpedia #kaltengpedia #opinibermakna #opinimasyarakat #seruyan",,,neutral,2026-07-08 10:56:21.566015+00:00,380,116,8,28500,0.5,789,https://www.tiktok.com/@seruyanpedia/video/7582964888918625544,https://www.tiktok.com/@seruyanpedia/video/7582964888918625544,video,664.5,,,,neutral,0.9840306043624878,malay,Malay/Bumiputera,Unknown,0.0,anger,0.3088199198246002,0.2326345145702362,0.0922500491142273,0.10137663781642914,0.07918699830770493,0.05686546117067337
+tiktok,post,7652598027441474837,🕊️ #sananbasispn #pagarnusatulungagung,,,neutral,2026-07-08 10:56:46.460533+00:00,479,13,34,10500,0.5,631,https://www.tiktok.com/@sananbasispn/video/7652598027441474837,https://www.tiktok.com/@sananbasispn/video/7652598027441474837,video,617.5,,,,neutral,0.8965816497802734,english,Mixed/Urban,Unknown,0.0,love,0.0945533812046051,0.030835356563329697,0.045610956847667694,0.03379969298839569,0.7184866666793823,0.01929173804819584
+tiktok,post,7547354937139678482,Membalas @terserahkalianlah1 Dokter indonesia yang ada di Fortress Hill Hongkong #🇮🇩🇭🇰 #hongkongindonesia🇭🇰🇮🇩 #fypシ゚ #hongkong,,,neutral,2026-07-08 10:56:33.738212+00:00,254,63,76,7545,0.5,468,https://www.tiktok.com/@me__mey/video/7547354937139678482,https://www.tiktok.com/@me__mey/video/7547354937139678482,video,615.545,,,,neutral,0.865114688873291,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04715950787067413,0.0363042876124382,0.057183992117643356,0.033634915947914124,0.17936833202838898,0.056845907121896744
+tiktok,post,7655883287327722772,"27.7.2026
+
+LENSA PERARAKAN CALON PERIKATAN NASIONAL N05 DUN TENANG
+
+#CikguMala 
+#CikguMala4Tenang 
+#BerkatPrihatinSejahtera 
+#JohorMemilih 
+#PRN16",,,negative,2026-07-08 10:56:12.661235+00:00,280,11,43,5269,0.1324986308813095,386,https://www.tiktok.com/@_ummuahmad_/video/7655883287327722772,https://www.tiktok.com/@_ummuahmad_/video/7655883287327722772,video,436.269,,,,negative,0.5583378970623016,multilingual,Unknown,Unknown,0.0,love,0.1508077085018158,0.03932350501418114,0.12526826560497284,0.049284566193819046,0.42314285039901733,0.029849756509065628
+tiktok,post,7612267660813896980,"Membalas @jdmlovers4 Makanya beli di vortexcomp Tanggul 🙌🏻😁
+
+💻 Laptop Second Berkualitas – Siap Pakai!
+
+✔️ Kondisi normal
+✔️ Sudah dites & lolos QC
+✔️ Cocok untuk kerja, sekolah, kuliah
+📦 Kondisi fisik: 95% ke atas / minus pemakaian wajar
+
+📍 Lokasi: Jl Pb. Sudirman Tanggul - Jember (sebelah kirinya KCP BCA tanggul)
+🚚 Bisa kirim
+📩 Minat? DM sekarang!
+Atau hubungi Admin: 0888-8568-498
+
+#vortexcomptanggul #laptop #laptopmurah #rekomendasilaptop #laptopmahasiswa",,,neutral,2026-07-08 10:56:25.849864+00:00,377,8,8,10200,0.5,495,https://www.tiktok.com/@vortexcomp_jember/video/7612267660813896980,https://www.tiktok.com/@vortexcomp_jember/video/7612267660813896980,video,427.2,,,,neutral,0.991509199142456,malay,Malay/Bumiputera,Unknown,0.0,love,0.08416137844324112,0.055462583899497986,0.11631713062524796,0.041550349444150925,0.3628537058830261,0.0665610209107399
+tiktok,post,7657010233767693589,Ayuh warga N05 Tenang turun beramai ramai dan letakkan sepenuh keikhlasn tangan anda UNDI CALON PN CIKGU MALA beri lah peluang untuk kita merubah #DenganNamaAllahYangMahaPemurahLagiMahaMengasihani #IslamMemimpinRakyatSelamat #UNDIPAS #PRNJOHOR #PASFORALL,,,positive,2026-07-08 10:56:18.195841+00:00,275,8,36,6488,0.9994046568870544,383,https://www.tiktok.com/@amlin019/video/7657010233767693589,https://www.tiktok.com/@amlin019/video/7657010233767693589,video,405.488,,,,positive,0.9980155229568481,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.08345804363489151,0.037393856793642044,0.10633791238069534,0.037017371505498886,0.20833031833171844,0.04670713096857071
+tiktok,post,7643821784449551623,😂 #bigmo #unsoed #bem #jjptn,,,neutral,2026-07-08 10:56:29.273744+00:00,308,32,4,17300,0.5,517,https://www.tiktok.com/@aubrelic/video/7643821784449551623,https://www.tiktok.com/@aubrelic/video/7643821784449551623,video,401.3,,,,neutral,0.7431676983833313,english,Mixed/Urban,Unknown,0.0,love,0.12128401547670364,0.03998294472694397,0.08209221065044403,0.051237355917692184,0.4745851755142212,0.036107324063777924
+tiktok,post,7614239958999584020,awww my idol very graceful 😘💐💐#hicanti💐 #gacha #fyppppppppppppppppppppppppppppppppppp #adalahpokoknya,,,positive,2026-07-08 10:56:35.625365+00:00,315,1,21,8109,0.9992592275142669,418,https://www.tiktok.com/@ellyncha2/video/7614239958999584020,https://www.tiktok.com/@ellyncha2/video/7614239958999584020,video,388.109,,,,positive,0.9975307583808899,malay,Malay/Bumiputera,Unknown,0.0,love,0.04448499530553818,0.03326723352074623,0.4089878797531128,0.016817955300211906,0.43966805934906006,0.015329916030168533
+tiktok,post,7613220695396338951,biar gak salh kaprah silhkn simak ya gaes.#tkwhongkong #edukasi #viraltiktok #fyppppppppppppppppppppppp #masukberandafyp #,,,neutral,2026-07-08 10:56:31.903557+00:00,298,24,8,12700,0.5,457,https://www.tiktok.com/@ssheylow20/video/7613220695396338951,https://www.tiktok.com/@ssheylow20/video/7613220695396338951,video,382.7,,,,neutral,0.8792906999588013,english,Mixed/Urban,Unknown,0.0,love,0.26275986433029175,0.04100752994418144,0.06079002842307091,0.03986169397830963,0.41171014308929443,0.02368350513279438
+tiktok,post,6878554817048956162,Reply to @apoptek boleh bang #hukum #fyp #bringbackoldtiktok #xyzbca,,,negative,2026-07-08 10:56:36.276515+00:00,323,4,8,4237,0.10921093225479125,377,https://www.tiktok.com/@irwinrezky/video/6878554817048956162,https://www.tiktok.com/@irwinrezky/video/6878554817048956162,video,359.237,,,,negative,0.6359635591506958,multilingual,Unknown,Unknown,0.0,love,0.05968102812767029,0.017580509185791016,0.040575336664915085,0.02264724299311638,0.57440185546875,0.023256687447428703
+tiktok,post,7655382488830709012,"11 CALON PERIKATAN NASIONAL (PAS) PRN JOHOR KE-16
+
+1 - N.02 Jementah
+Saifullah bin Abdul Wahab
+
+2 - N.05 Tenang
+Normala binti Sudirman
+
+3 - N.13 Simpang Jeram
+Arshed bin Yahya
+
+4 - N.15 Maharani
+Mohamad Anuar bin Hayan
+
+5 - N.16 Sungai Balang
+Muhammad Amin bin Saillan @ Sazali
+
+6 - N.17 Semerah
+Halim @ Othman bin Kepol
+
+7 - N.18 Sri Medan
+Ahmad Rosdi bin Bahari
+
+8 - N.31 Kahang
+Mazlan bin Bujang
+
+9 - N.32 Endau
+Hasnul Hakimi bin Hussien
+
+10 - N.35 Pasir Raja
+Yuhanita binti Yunan
+
+11 - N.40 Tiram
+Khirul-Muntanazar bin Ismail
+
+Berkat, Prihatin Sejahtera
+
+#prnjohor #PNPAS",,,neutral,2026-07-08 10:56:12.032085+00:00,216,36,13,4749,0.5,312,https://www.tiktok.com/@pas_johor/video/7655382488830709012,https://www.tiktok.com/@pas_johor/video/7655382488830709012,video,331.749,,,,neutral,0.8181193470954895,english,Mixed/Urban,Unknown,0.0,love,0.12834984064102173,0.041124127805233,0.08553146570920944,0.043112803250551224,0.35143157839775085,0.029496727511286736
+tiktok,post,7590166827368533256,Happy new year 2026 🌸🥳🥳🥳 #lusail #happynewyear #2026 #dohaqatar🇶🇦 #newyear2026,,,positive,2026-07-08 10:56:38.180033+00:00,285,3,12,1820,0.9964066624641418,318,https://www.tiktok.com/@nurmala.sudirman1/video/7590166827368533256,https://www.tiktok.com/@nurmala.sudirman1/video/7590166827368533256,video,328.82,,,,positive,0.9880222082138062,english,Mixed/Urban,Unknown,0.0,happy,0.014446738176047802,0.03033912368118763,0.8929612040519714,0.008839447982609272,0.027088908478617668,0.012393353506922722
+tiktok,post,7610358753921207559,Hallo everyone #skincare #skincareroutine #fyp,,,positive,2026-07-08 10:56:34.642233+00:00,210,1,14,1278,0.9052921116352081,237,https://www.tiktok.com/@nurmala.sudirman1/video/7610358753921207559,https://www.tiktok.com/@nurmala.sudirman1/video/7610358753921207559,video,255.278,,,,positive,0.6843070387840271,english,Mixed/Urban,Unknown,0.0,love,0.04670625925064087,0.03042534738779068,0.08017934113740921,0.030471066012978554,0.6314769387245178,0.04749855026602745
+tiktok,post,7656715815105875208,"PRN Johor kali ini, aku tertarik dengan seorang calon PN (PAS).
+
+Seorang guru.
+Seorang aktivis masyarakat.
+Dan seorang pejuang yang sudah lama berada di medan politik.
+
+Beliau ialah Normala Binti Sudirman, atau lebih dikenali sebagai Cikgu Mala.
+
+Apa yang menarik tentang beliau bukanlah kerana ini kali pertama namanya muncul dalam pilihan raya. Bahkan, ini sudah masuk siri pilihan raya yang kelima buat beliau.
+
+Beliau pernah menjadi calon PRK DUN Tenang pada tahun 2011. 
+Kemudian bertanding di DUN Pemanis pada tahun 2013 dan 2018, 
+seterusnya di DUN Kemelah pada tahun 2022, 
+dan kini kembali ke DUN Tenang pada tahun 2026.
+
+Bukan sedikit pengalaman politik yang dilalui. Ada kemenangan yang diimpikan bersama, ada kekalahan yang perlu diterima bersma. Ada waktu berada di pentas hadapan, ada ketika terpaksa meneruskan perjuangan tanpa jawatan dan tanpa kedudukan.
+
+Tetapi di situlah aku melihat sesuatu yang istimewa.
+Ramai orang boleh menjadi calon ketika musim pilihan raya.
+
+Namun tidak semua orang mampu terus istiqamah berkhidmat kepada rakyat apabila pilihan raya sudah berlalu.
+
+Ckgu Mala memilih jalan yang berbeza.
+
+Walaupun tidak memegang jawatan sebagai wakil rakyat, beliau terus mendidik masyarakat, mengasaskan Rumah Ngaji, 
+memimpin program kebajikan, 
+menyantuni golongan memerlukan tidak kira bangsa atau agama, 
+membantu anak-anak yang tercicir dalam pendidikan dan terus turun padang mendengar denyut nadi rakyat.
+
+Dari situ kita lihat, beliau memahami satu perkara yang penting dalam politik, bahawa perjuangan bukan tentang jawatan, 
+tetapi tentang amanah dan khidmat.
+
+Mungkin sebab itulah ramai yang mengenali beliau bukan sekadar sebagai seorang ahli politik.
+
+Tetapi sebagai seorang cikgu.
+Seorang ibu.
+Seorang aktivis masyarakat.
+Dan seorang insan yang sentiasa ada bersama rakyat.
+
+Bagi aku, inilah definisi sebenar seorang pemimpin.
+Menang, dia berkhidmat.
+Kalah, dia tetap berkhidmat.
+Ada jawatan, dia bekerja.
+Tiada jawatan, dia masih bekerja.
+
+Kerana bagi sesetengah orang, politik adalah tentang kuasa.
+
+Tetapi bagi sesetengah insan seperti Cikgu Mala, politik adalah tentang khidmat yang tidak pernah berhenti.
+
+Dan itulah yang membuatkan beliau cukup istimewa di mata ramai warga Tenang.
+
+Jadi buat pengundi-pengundi di DUN Tenang. 
+
+Tiada sebab untuk anda semua tidak memilih Cikgu Mala sebagai wakil rakyat akan datang.
+
+Laman Pages FB Cikgu Ckgu Mala @cikgumala_johor 
+
+Kredit :Abi Adib 
+Kalabakan-Sabah
+
+#foryoupage 
+#trending 
+#viral",,,negative,2026-07-08 10:56:15.759179+00:00,205,3,9,1683,0.0004948854446411022,233,https://www.tiktok.com/@thekakies/video/7656715815105875208,https://www.tiktok.com/@thekakies/video/7656715815105875208,video,239.683,,,,negative,0.9983503818511963,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.02138696424663067,0.024735992774367332,0.01756294257938862,0.03644850105047226,0.2975352108478546,0.32870763540267944
+tiktok,post,7487051222654995743,"#shareedukasitkwhk🇭🇰🇮🇩 
+#yaniechanleeje🇮🇩🇭🇰 
+#fyp",,,neutral,2026-07-08 10:56:31.272878+00:00,128,10,25,15200,0.5,315,https://www.tiktok.com/@yaniechanleejee09/video/7487051222654995743,https://www.tiktok.com/@yaniechanleejee09/video/7487051222654995743,video,238.2,,,,neutral,0.8966905474662781,english,Mixed/Urban,Unknown,0.0,love,0.08045338839292526,0.02694964036345482,0.045479822903871536,0.03426250070333481,0.7356725931167603,0.017348820343613625
+tiktok,post,7559582933246430475,🇨🇾 Negara Kecil Sederhana dan Bahagia #fyp #luarnegeri #siprus,,,positive,2026-07-08 10:56:27.997950+00:00,197,6,1,17900,0.9344637006521225,383,https://www.tiktok.com/@zikribungo/video/7559582933246430475,https://www.tiktok.com/@zikribungo/video/7559582933246430475,video,229.9,,,,positive,0.7815456688404083,multilingual,Unknown,Unknown,0.0,love,0.05652637779712677,0.02014845982193947,0.09108082205057144,0.026797976344823837,0.6587172150611877,0.01919037662446499
+tiktok,post,7628247770624838933,#tkwhongkongindonesia🇭🇰🇮🇩 #fyp?tiktok?,,,neutral,2026-07-08 10:56:27.696884+00:00,129,28,9,10600,0.5,272,https://www.tiktok.com/@mama.muda8977/video/7628247770624838933,https://www.tiktok.com/@mama.muda8977/video/7628247770624838933,video,222.6,,,,neutral,0.9196230173110962,english,Mixed/Urban,Unknown,0.0,love,0.08007706701755524,0.03387961909174919,0.05063707008957863,0.03615584224462509,0.6734433174133301,0.019242441281676292
+tiktok,post,7655360520949665044,"1 - N.02 Jementah
+Saifullah bin Abdul Wahab
+
+2 - N.05 Tenang
+Normala binti Sudirman
+
+3 - N.13 Simpang Jeram
+Arshed bin Yahya
+
+4 - N.15 Maharani
+Mohamad Anuar bin Hayan
+
+5 - N.16 Sungai Balang
+Muhammad Amin bin Saillan @ Sazali
+
+6 - N.17 Semerah
+Halim @ Othman bin Kepol
+
+7 - N.18 Sri Medan
+Ahmad Rosdi bin Bahari
+
+8 - N.31 Kahang
+Mazlan bin Bujang
+
+9 - N.32 Endau
+Hasnul Hakimi bin Hussien
+
+10 - N.35 Pasir Raja
+Yuhanita binti Yunan
+
+11 - N.40 Tiram
+Khirul-Muntanazar bin Ismail
+
+Berkat, Prihatin Sejahtera
+
+#prnjohor #PNPAS #",,,neutral,2026-07-08 10:56:18.524393+00:00,150,14,11,5462,0.5,229,https://www.tiktok.com/@pas_johor/video/7655360520949665044,https://www.tiktok.com/@pas_johor/video/7655360520949665044,video,216.462,,,,neutral,0.786614716053009,english,Mixed/Urban,Unknown,0.0,love,0.13223950564861298,0.038580480962991714,0.09271468222141266,0.049420326948165894,0.4586450457572937,0.031863871961832047
+tiktok,post,7537957044792429880,"🌏 “Pengen kerja ke luar negeri tapi bingung mulai dari mana? 😵
+Tenang… daftar ke PT ALL QURRNY BAGAS PRATAMA JEMBER aja! Dijamin mudah dan gak ribet prosesnya! Buruan daftar yukk!!!💼” #jember #fyp #tkimalaysia🇲🇾🇮🇩 #tkisingapura🇮🇩🇸🇬 #tkihongkong🇭🇰🇮🇩",,,positive,2026-07-08 10:56:25.551524+00:00,100,11,28,10200,0.9767398655414581,241,https://www.tiktok.com/@pt_allqurrny_jember/video/7537957044792429880,https://www.tiktok.com/@pt_allqurrny_jember/video/7537957044792429880,video,216.2,,,,positive,0.9224662184715271,malay,Malay/Bumiputera,Unknown,0.0,fear,0.09078926593065262,0.31222987174987793,0.12982966005802155,0.03824513405561447,0.1882888376712799,0.08131525665521622
+tiktok,post,7621064587432955156,Yang mau proses atau konsultasi dulu bisa langsung ke kantor yaa😇 #pjtkiresmi #tkwhongkong🇮🇩🇭🇰 #tkwtaiwanindonesia🇹🇼🇮🇩 #tkihongkong🇭🇰🇮🇩 #tkitaiwan🇹🇼🇲🇨,,,negative,2026-07-08 10:56:32.823918+00:00,119,3,16,11000,0.11789178997278213,248,https://www.tiktok.com/@all_qurrny.ponorogo/video/7621064587432955156,https://www.tiktok.com/@all_qurrny.ponorogo/video/7621064587432955156,video,184.0,,,,negative,0.6070273667573929,multilingual,Unknown,Unknown,0.0,love,0.05327802151441574,0.03395688161253929,0.04887641966342926,0.0372142419219017,0.6610516905784607,0.040421757847070694
+tiktok,post,7634356678158339336,"TUGAS UTS HTN ""Kedudukan Kementerian dalam sistem ketatanegaraan Indonesia""
+Nama: Jodi Prana Kusuma
+Nim: 202510110110144
+#fhumm",,,neutral,2026-07-08 10:56:22.169801+00:00,78,22,15,2222,0.5,137,https://www.tiktok.com/@jdprana/video/7634356678158339336,https://www.tiktok.com/@jdprana/video/7634356678158339336,video,169.222,,,,neutral,0.9141191244125366,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.12065749615430832,0.036139726638793945,0.12041022628545761,0.036696236580610275,0.20898854732513428,0.029594436287879944
+tiktok,post,7657112898418150676,"Perikatan Nasional mempertaruhkan Normala Sudirman, bekas Ketua Dewan Muslimat PAS Kawasan Labis, sebagai calon bagi kerusi tersebut. Pencalonan beliau mencerminkan keyakinan PN terhadap kepimpinan wanita serta usaha memperluaskan pengaruh parti di kawasan yang sebelum ini dikuasai BN.
+
+Sebagai calon wanita yang mempunyai pengalaman dalam organisasi parti, Normala dijangka memberi tumpuan kepada isu kebajikan rakyat, kos sara hidup dan pembangunan komuniti.
+
+Undi Calon No. 2 – Cikgu Mala
+
+""Jom Jaga Tenang"" 
+""Jom Jaga Johor"" 
+
+#CikguMala
+#BersamaMendidikMasyarakat
+#TenangSejahtera
+#BerkatPrihatinSejahtera",,,positive,2026-07-08 10:56:17.290935+00:00,128,7,6,3297,0.9993484556674956,173,https://www.tiktok.com/@cikgumala_johor/video/7657112898418150676,https://www.tiktok.com/@cikgumala_johor/video/7657112898418150676,video,163.297,,,,positive,0.9978281855583191,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.06804665923118591,0.02750682644546032,0.11483017355203629,0.034147437661886215,0.32745999097824097,0.03407192602753639
+tiktok,post,7533171323909066002,"Kongkalikong Nadiem Terbongkar: Relasi Mesra Google & Gojek di Balik Chromebook
+‎#komisibuatnadiem
+‎#HukumHumanisBerkeadilan
+‎#KongkalikongNadiem #Fee30Persen #NadiemGoogleGojek #SkandalChromebook #KejagungGasTerus #UsutTuntas #BukanStartupIniNegara #GedungBundarBergerak",,,neutral,2026-07-08 10:56:28.300622+00:00,93,4,4,6349,0.5,164,https://www.tiktok.com/@geng.merahjambu/video/7533171323909066002,https://www.tiktok.com/@geng.merahjambu/video/7533171323909066002,video,119.349,,,,neutral,0.9977166652679443,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.10551860183477402,0.046053528785705566,0.13964396715164185,0.05023046210408211,0.26419344544410706,0.0539521686732769
+tiktok,post,7655602837392608519,"Normala Sudirman diumumkan sebagai calon Perikatan Nasional kerusi DUN Tenang untuk PRN Johor.
+
+#malaysiagazette 
+#PRNJohor 
+#CalonDUNTenang
+#PerikatanNasional",,,neutral,2026-07-08 10:56:19.773539+00:00,83,2,6,2938,0.5,120,https://www.tiktok.com/@malaysiagazette/video/7655602837392608519,https://www.tiktok.com/@malaysiagazette/video/7655602837392608519,video,107.938,,,,neutral,0.9819992780685425,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.02272862195968628,0.01872100681066513,0.06744442880153656,0.01759801246225834,0.17788049578666687,0.029718229547142982
+tiktok,post,7464260502789639432,"25 Januari 2025(Sabtu):
+Kelas Pengajian Tajwid & Al-Quran  di Rumah Ngaji Darul 'Irfan ,FELDA Kemelah,Segamat.
+#SyukurSelalu
+#RumahNgaji 
+#BacaFahamAmal 
+#MyQuranTime 
+#Quran",,,neutral,2026-07-08 10:56:26.178158+00:00,90,1,4,849,0.5,103,https://www.tiktok.com/@normalasudirman/video/7464260502789639432,https://www.tiktok.com/@normalasudirman/video/7464260502789639432,video,104.849,,,,neutral,0.8923821449279785,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.03793492913246155,0.027275048196315765,0.06218624860048294,0.028017442673444748,0.11983538419008255,0.04226898401975632
+tiktok,post,7595005384062930184,#duet dengan @nazaruddinahmad #fypシ゚viral🖤tiktok #termul#vs#Rakyatakalsehat,,,neutral,2026-07-08 10:56:43.283338+00:00,36,10,5,246,0.5,53,https://www.tiktok.com/@tsuhetiktoker/video/7595005384062930184,https://www.tiktok.com/@tsuhetiktoker/video/7595005384062930184,video,71.246,,,,neutral,0.9976644515991211,malay,Malay/Bumiputera,Unknown,0.0,love,0.10498543083667755,0.04209420457482338,0.09479498863220215,0.04682738333940506,0.39786863327026367,0.04050459712743759
+tiktok,post,7655600054727625992,"Calon Muslimat Perikatan Nasional (PAS) PRN Johor. 
+#PerikatanNasional #PASJohor #PRNJohor
+#MuslimatPasJohor",,,neutral,2026-07-08 10:56:20.366005+00:00,39,2,2,269,0.5,45,https://www.tiktok.com/@dewanmuslimatpaskulai/video/7655600054727625992,https://www.tiktok.com/@dewanmuslimatpaskulai/video/7655600054727625992,video,49.269,,,,neutral,0.9118402004241943,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04553695023059845,0.019148919731378555,0.05958419293165207,0.032435666769742966,0.295551061630249,0.025744426995515823
+tiktok,post,7556760357000269070,Gg losing days max re Oddible #fyp #viral #sportstiktok,,,neutral,2026-07-08 10:56:25.246516+00:00,47,0,0,1105,0.5,58,https://www.tiktok.com/@oddible_guys/video/7556760357000269070,https://www.tiktok.com/@oddible_guys/video/7556760357000269070,video,48.105,,,,neutral,0.8182455897331238,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.019296715036034584,0.010493798181414604,0.031245239078998566,0.008836542256176472,0.04664899781346321,0.016996823251247406
+tiktok,post,7633997567499734292,Alur proses harus sesuai dengan prosedur pemerintah ya😊✨,,,positive,2026-07-08 10:56:42.251333+00:00,28,6,0,1846,0.8500959962606429,52,https://www.tiktok.com/@mpu.kebumen1/video/7633997567499734292,https://www.tiktok.com/@mpu.kebumen1/video/7633997567499734292,video,41.846000000000004,,,,positive,0.5003199875354767,multilingual,Unknown,Unknown,0.0,love,0.10481832921504974,0.057620033621788025,0.12163880467414856,0.023738408461213112,0.4900795817375183,0.02808077074587345
+tiktok,post,7535181339956350226,"buat lu yg suka komentar kotor atau kasar mending lu sadar lu itu salah berkomentar kek gitu
+#jjelitis #capcut #jjtipis #fypツ",,,negative,2026-07-08 10:56:13.907615+00:00,26,1,4,1017,0.1264777109026909,41,https://www.tiktok.com/@gianfreyy_48/video/7535181339956350226,https://www.tiktok.com/@gianfreyy_48/video/7535181339956350226,video,41.017,,,,negative,0.5784076303243637,multilingual,Unknown,Unknown,0.0,love,0.21809719502925873,0.02611559070646763,0.04841795191168785,0.08405555039644241,0.4955773949623108,0.024463079869747162
+tiktok,post,7573658029158124820,"Membalas @unumam  saling info yok, 
+#pppk #paruhwaktu #pppkparuhwaktu #honorer",,,neutral,2026-07-08 10:56:40.251242+00:00,22,3,2,3339,0.5,60,https://www.tiktok.com/@paksu.genk/video/7573658029158124820,https://www.tiktok.com/@paksu.genk/video/7573658029158124820,video,37.339,,,,neutral,0.8249192237854004,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.023324476554989815,0.012349200434982777,0.01633542962372303,0.0161350779235363,0.09136956185102463,0.0389217734336853
+tiktok,post,7614678211259321618,"Membalas @alfighozaly 
+Semoga segera menyusul , hijau semua Kaka💥💥💪
+
+#ppg 
+#swasta 
+#trend 
+#honor 
+#guru",,,neutral,2026-07-08 10:56:22.473266+00:00,19,1,4,1337,0.5,37,https://www.tiktok.com/@hasian.esto/video/7614678211259321618,https://www.tiktok.com/@hasian.esto/video/7614678211259321618,video,34.337,,,,neutral,0.5241273641586304,english,Mixed/Urban,Unknown,0.0,happy,0.03079487569630146,0.04364955425262451,0.5715863704681396,0.019933093339204788,0.16155162453651428,0.027859589084982872
+tiktok,post,7658465936269118727,"Normala Sudirman merupakan calon Perikatan Nasional (PN-PAS) yang bertanding di kerusi N.05 Tenang pada Pilihan Raya Negeri Johor.
+
+#PRNJohor #PilihanRayaNegeriJohor #N05Tenang #UtusanMalaysia #pnbest",,,neutral,2026-07-08 10:56:16.991088+00:00,24,0,1,318,0.5,28,https://www.tiktok.com/@omen.othman.v/video/7658465936269118727,https://www.tiktok.com/@omen.othman.v/video/7658465936269118727,video,27.318,,,,neutral,0.9977136850357056,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.045416031032800674,0.015407021157443523,0.05973369628190994,0.021134821698069572,0.31857186555862427,0.02135307900607586
+tiktok,post,7657010437350788373,"1 - N.02 Jementah
+Saifullah bin Abdul Wahab
+
+2 - N.05 Tenang
+Normala binti Sudirman
+
+3 - N.13 Simpang Jeram
+Arshed bin Yahya
+
+4 - N.15 Maharani
+Mohamad Anuar bin Hayan
+
+5 - N.16 Sungai Balang
+Muhammad Amin bin Saillan @ Sazali
+
+6 - N.17 Semerah
+Halim @ Othman bin Kepol
+
+7 - N.18 Sri Medan
+Ahmad Rosdi bin Bahari
+
+8 - N.31 Kahang
+Mazlan bin Bujang
+
+9 - N.32 Endau
+Hasnul Hakimi bin Hussien
+
+10 - N.35 Pasir Raja
+Yuhanita binti Yunan
+
+11 - N.40 Tiram
+Khirul-Muntanazar bin Ismail
+
+#BerkatPrihatinSejahtera 
+
+#prnjohor #PNPAS",,,neutral,2026-07-08 10:56:17.599724+00:00,21,2,0,136,0.5,24,https://www.tiktok.com/@arjuna.abdullah/video/7657010437350788373,https://www.tiktok.com/@arjuna.abdullah/video/7657010437350788373,video,25.136,,,,neutral,0.7904301881790161,english,Mixed/Urban,Unknown,0.0,love,0.1490544229745865,0.04049951210618019,0.09477385878562927,0.050009530037641525,0.4536171555519104,0.030561242252588272
+tiktok,post,7655550358428716306,calon pn dari pas di prn johor#perikatannasional #pas #prnjohor #fypage,,,neutral,2026-07-08 10:56:17.895195+00:00,17,0,2,209,0.5,21,https://www.tiktok.com/@mahmudmorsxix/video/7655550358428716306,https://www.tiktok.com/@mahmudmorsxix/video/7655550358428716306,video,23.209,,,,neutral,0.8695374727249146,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.03289567306637764,0.01596600003540516,0.048366960138082504,0.017712367698550224,0.2595447599887848,0.02173585817217827
+tiktok,post,7615919966780624149,"Sungguh aneh dan lucu, ketika Nadiem berniat baik melaporkan SPT dan LHKPN yang menunjukan transparansi harta kekayaanya tapi malah dituduh sebagai lonjakan kekayaan dengan dikaitkan dengan kasus Chromebook. 
+
+Ketidakmampuan dalam membaca SPT  dijadikan bahan fitnah dan tuduhan  untuk menjatuhkan seorang Nadiem...🫣
+Proses hukum macam apa ini? 🤔",,,negative,2026-07-08 10:56:34.342022+00:00,13,2,1,711,0.00048415660858153187,23,https://www.tiktok.com/@insanpolitica/video/7615919966780624149,https://www.tiktok.com/@insanpolitica/video/7615919966780624149,video,20.711,,,,negative,0.9983861446380615,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.34630733728408813,0.037514038383960724,0.03542666137218475,0.05706917867064476,0.12318731099367142,0.03423510864377022
+tiktok,post,7460088629226917126,"posyandu time.. 🥁
+mendadak jd kader posyandu 🥰
+#posyandu 
+#anaktk 
+#capcut",,,positive,2026-07-08 10:56:46.156985+00:00,7,2,2,865,0.917178463935852,19,https://www.tiktok.com/@nurmala_sudirman/video/7460088629226917126,https://www.tiktok.com/@nurmala_sudirman/video/7460088629226917126,video,17.865,,,,positive,0.7239282131195068,english,Mixed/Urban,Unknown,0.0,love,0.040763817727565765,0.034791335463523865,0.09017259627580643,0.038838062435388565,0.4322296679019928,0.06422629207372665
+tiktok,post,7635250997467647239,tenggarong 2023 edit I record this #fypシ゚ #meteorlogist #tornadotok #QLCS #TORNADO,,,neutral,2026-07-08 10:56:41.102418+00:00,11,0,0,1789,0.5,28,https://www.tiktok.com/@narutkjc73y/video/7635250997467647239,https://www.tiktok.com/@narutkjc73y/video/7635250997467647239,video,12.789,,,,neutral,0.9304264783859253,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04071860760450363,0.01879815198481083,0.06971839815378189,0.019474400207400322,0.19664552807807922,0.020848536863923073

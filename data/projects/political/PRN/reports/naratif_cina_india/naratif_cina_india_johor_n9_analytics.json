@@ -1,0 +1,554 @@
+{
+  "states": {
+    "N9": {
+      "chinese": {
+        "posts": 157,
+        "neg_pct": 30,
+        "issues": [
+          [
+            "Cost of Living",
+            19
+          ],
+          [
+            "SME and Business",
+            13
+          ],
+          [
+            "Local Government Services",
+            11
+          ],
+          [
+            "Other",
+            10
+          ],
+          [
+            "PAS Factor",
+            9
+          ]
+        ],
+        "samples": [
+          {
+            "text": "Musim pelancongan Port Dickson — peniaga tempatan harap kerajaan negeri lebih promosi. (Lukut)",
+            "text_bm": "Musim pelancongan Port Dickson — peniaga tempatan harap kerajaan negeri lebih promosi. (Lukut)",
+            "text_original": "波德申旅游季，本地商家希望州政府多宣传。 #Lukut",
+            "sent": "negative",
+            "meta": "Lukut · Facebook"
+          },
+          {
+            "text": "PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi. (Seremban)",
+            "text_bm": "PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi. (Seremban)",
+            "text_original": "森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 #Seremban",
+            "sent": "neutral",
+            "meta": "Seremban · Chinese online media"
+          },
+          {
+            "text": "Kesesakan trafik di pusat bandar Seremban kecewakan penduduk.",
+            "text_bm": "Kesesakan trafik di pusat bandar Seremban kecewakan penduduk.",
+            "text_original": "Traffic congestion in Seremban city centre frustrates residents. — Jelebu",
+            "sent": "neutral",
+            "meta": "Jelebu · Chinese online media"
+          },
+          {
+            "text": "Kawasan kilang Nilai — harga barang naik, pemilik PKS merungut; komuniti Cina prihatin kos sara hidup. (Jelebu)",
+            "text_bm": "Kawasan kilang Nilai — harga barang naik, pemilik PKS merungut; komuniti Cina prihatin kos sara hidup. (Jelebu)",
+            "text_original": "汝来工厂区物价上涨，中小企业老板叫苦。华社关注生活费。 #Jelebu",
+            "sent": "negative",
+            "meta": "Jelebu · Facebook"
+          },
+          {
+            "text": "PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi.",
+            "text_bm": "PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi.",
+            "text_original": "森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.",
+            "sent": "neutral",
+            "meta": "Jelebu · Chinese online media"
+          }
+        ]
+      },
+      "indian": {
+        "posts": 271,
+        "neg_pct": 0,
+        "issues": [
+          [
+            "Other",
+            31
+          ],
+          [
+            "DAP Performance",
+            18
+          ],
+          [
+            "PAS Factor",
+            16
+          ],
+          [
+            "Gerakan and PN",
+            8
+          ],
+          [
+            "Housing",
+            7
+          ]
+        ],
+        "samples": [
+          {
+            "text": "Johor polls disappointment for Pakatan, but Loke vows fresh push ahead of Negeri Sembilan election. JELEBU, July 12 &mdash; Pakatan Harapan (PH) respects the decision of voters in the 16th Johor State Election which was...",
+            "text_bm": "Johor polls disappointment for Pakatan, but Loke vows fresh push ahead of Negeri Sembilan election. JELEBU, July 12 &mdash; Pakatan Harapan (PH) respects the decision of voters in the 16th Johor State Election which was...",
+            "text_original": "Johor polls disappointment for Pakatan, but Loke vows fresh push ahead of Negeri Sembilan election. JELEBU, July 12 &mdash; Pakatan Harapan (PH) respects the decision of voters in the 16th Johor State Election which was...",
+            "sent": "nan",
+            "meta": "Jelebu · Indian online media"
+          },
+          {
+            "text": "Anwar: Govt approved RM6b in loans, guarantees to help SMEs cope with war fallout. KUALA LUMPUR, July 7 &mdash; The government has approved up to RM6 billion in loans and guarantees to small and medium e...",
+            "text_bm": "Anwar: Govt approved RM6b in loans, guarantees to help SMEs cope with war fallout. KUALA LUMPUR, July 7 &mdash; The government has approved up to RM6 billion in loans and guarantees to small and medium e...",
+            "text_original": "Anwar: Govt approved RM6b in loans, guarantees to help SMEs cope with war fallout. KUALA LUMPUR, July 7 &mdash; The government has approved up to RM6 billion in loans and guarantees to small and medium e...",
+            "sent": "nan",
+            "meta": "Seremban · Indian online media"
+          },
+          {
+            "text": "Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah. Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah&nbsp;&nbsp;Malay Mail",
+            "text_bm": "Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah. Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah&nbsp;&nbsp;Malay Mail",
+            "text_original": "Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah. Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah&nbsp;&nbsp;Malay Mail",
+            "sent": "nan",
+            "meta": "Seremban · Indian online media"
+          },
+          {
+            "text": "Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?. Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?&nbsp;&nbsp;Free Malaysia Today",
+            "text_bm": "Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?. Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?&nbsp;&nbsp;Free Malaysia Today",
+            "text_original": "Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?. Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?&nbsp;&nbsp;Free Malaysia Today",
+            "sent": "nan",
+            "meta": "Seremban · Indian online media"
+          },
+          {
+            "text": "Negeri Sembilan DAP to bank on incumbents for state polls. Negeri Sembilan DAP to bank on incumbents for state polls&nbsp;&nbsp;Free Malaysia Today",
+            "text_bm": "Negeri Sembilan DAP to bank on incumbents for state polls. Negeri Sembilan DAP to bank on incumbents for state polls&nbsp;&nbsp;Free Malaysia Today",
+            "text_original": "Negeri Sembilan DAP to bank on incumbents for state polls. Negeri Sembilan DAP to bank on incumbents for state polls&nbsp;&nbsp;Free Malaysia Today",
+            "sent": "nan",
+            "meta": "Seremban · Indian online media"
+          }
+        ]
+      }
+    }
+  },
+  "n9_target_duns": [
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "posts_total": 29,
+      "posts_chinese": 18,
+      "posts_indian": 5,
+      "neg_pct_chinese": 56,
+      "top_issue_chinese": "Kos hidup",
+      "sample": "汝来工厂区物价上涨，中小企业老板叫苦。华社关注生活费。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.",
+      "status": "ok",
+      "priority": "P1",
+      "primary_issue": "SJKT / Pekerjaan",
+      "ground_fokus": "Bandar Cina — counter abstention",
+      "chinese_action": "Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+      "indian_action": "Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+      "source_cls": "crawl_tpl",
+      "source_label": "CRAWL + TEMPLATE"
+    },
+    {
+      "code": "N28",
+      "name": "Seremban Kota",
+      "posts_total": 566,
+      "posts_chinese": 107,
+      "posts_indian": 265,
+      "neg_pct_chinese": 24,
+      "top_issue_chinese": "Kos hidup",
+      "sample": "伊党因素让部分选民担忧。 #Lobak",
+      "status": "ok",
+      "priority": "P1",
+      "primary_issue": "Kos hidup / SME",
+      "ground_fokus": "Bandar Cina — counter abstention",
+      "chinese_action": "Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "crawl_tpl",
+      "source_label": "CRAWL + TEMPLATE"
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "posts_total": 27,
+      "posts_chinese": 25,
+      "posts_indian": 0,
+      "neg_pct_chinese": 52,
+      "top_issue_chinese": "SME & perniagaan",
+      "sample": "波德申旅游季，本地商家希望州政府多宣传。 #Bahau",
+      "status": "ok",
+      "priority": "P1",
+      "primary_issue": "Perkhidmatan bandar",
+      "ground_fokus": "Campuran — lawatan peniaga + data exco",
+      "chinese_action": "Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "crawl_tpl",
+      "source_label": "CRAWL + TEMPLATE"
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "posts_total": 30,
+      "posts_chinese": 20,
+      "posts_indian": 2,
+      "neg_pct_chinese": 35,
+      "top_issue_chinese": "Kos hidup",
+      "sample": "森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.",
+      "status": "ok",
+      "priority": "P1",
+      "primary_issue": "SJKT / Pekerjaan",
+      "ground_fokus": "Campuran — lawatan peniaga + data exco",
+      "chinese_action": "Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+      "indian_action": "Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+      "source_cls": "crawl_tpl",
+      "source_label": "CRAWL + TEMPLATE"
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P1",
+      "primary_issue": "Perkhidmatan bandar",
+      "ground_fokus": "Campuran — lawatan peniaga + data exco",
+      "chinese_action": "Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P1",
+      "primary_issue": "Perkhidmatan bandar",
+      "ground_fokus": "Campuran — lawatan peniaga + data exco",
+      "chinese_action": "Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P1",
+      "primary_issue": "SJKT / Pekerjaan",
+      "ground_fokus": "Bandar Cina — counter abstention",
+      "chinese_action": "Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+      "indian_action": "Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P1",
+      "primary_issue": "Perkhidmatan bandar",
+      "ground_fokus": "Campuran — lawatan peniaga + data exco",
+      "chinese_action": "Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    },
+    {
+      "code": "N31",
+      "name": "Port Dickson",
+      "posts_total": 16,
+      "posts_chinese": 10,
+      "posts_indian": 1,
+      "neg_pct_chinese": 40,
+      "top_issue_chinese": "Kos hidup",
+      "sample": "年轻首投族更关注就业和房价。 #Port Dickson",
+      "status": "ok",
+      "priority": "P1",
+      "primary_issue": "SJKT / Pekerjaan",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+      "source_cls": "crawl_tpl",
+      "source_label": "CRAWL + TEMPLATE"
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "posts_total": 0,
+      "posts_chinese": 0,
+      "posts_indian": 0,
+      "neg_pct_chinese": 0,
+      "top_issue_chinese": "—",
+      "sample": "",
+      "status": "kosong",
+      "priority": "P2",
+      "primary_issue": "Outreach minoriti / keluar undi",
+      "ground_fokus": "Melayu majoriti — ground utama; Cina sentuhan minimum",
+      "chinese_action": "Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+      "indian_action": "Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+      "source_cls": "tpl",
+      "source_label": "TEMPLATE"
+    }
+  ],
+  "focus": "Negeri Sembilan",
+  "generated_at": "2026-07-13 01:08:46",
+  "raw_rows": 1353,
+  "filtered_rows": 649,
+  "engagement_total": 522152,
+  "engagement_label": "522K",
+  "date_range": "1 Mei – 12 Jul 2026",
+  "filter_rate_pct": 48.0,
+  "agentic_brief": {
+    "executive_summary_ms": "Negeri Sembilan: komuniti Cina menekankan Cost of Living (19%), SME dan perkhidmatan PBT (30% negatif) — risiko soft abstention di kerusi bandar (Seremban, Nilai, Lobak). Komuniti India (271 posts) fokus SJKT, pekerjaan dan isu parti; sokongan PH pragmatik jika perkhidmatan disampaikan. Prioriti PAS/PN/MN: fakta bantuan + lawatan ground N9, elak retorik agama.",
+    "n9": {
+      "chinese": {
+        "support_ph_assessment": "PH base kuat tapi kos hidup erode trust",
+        "boycott_risk": "medium",
+        "pas_pn_mn_perception": "PAS factor dipantau — fokus perkhidmatan, bukan teologi",
+        "playable_narratives": [
+          "Perkhidmatan tempatan Seremban (trafik & parkir)",
+          "SME Jelebu/Nilai — bantuan kos operasi",
+          "Kestabilan negeri — elak pecah undi"
+        ],
+        "actions_p1": [
+          "Respons aduan kos hidup/SME dengan data exco N9 (BM+中文)",
+          "Ground team Seremban/Nilai — dialog peniaga Cina"
+        ],
+        "actions_p2": [
+          "Lawatan DUN bandar Cina N10/N11/N12/N28"
+        ]
+      },
+      "indian": {
+        "support_ph_assessment": "SJKT & pekerjaan — PH deliver = kekal",
+        "boycott_risk": "low",
+        "pas_pn_mn_perception": "Neutral — fokus perkhidmatan",
+        "playable_narratives": [
+          "SJKT guru kekurangan",
+          "Port Dickson pekerjaan"
+        ],
+        "actions_p1": [
+          "Koordinasi pendidikan SJKT — BM+Tamil update"
+        ],
+        "actions_p2": [
+          "Pantau PN strategy mentions — counter pecah undi"
+        ]
+      }
+    },
+    "coalition_priorities": [
+      "N9: counter kos hidup Cina dengan fakta bantuan negeri",
+      "Seremban/Nilai: perkhidmatan PBT (trafik, parkir) — 48 jam response",
+      "India N9: SJKT + pekerjaan — bukan agama",
+      "Elak ulang retorik syurga/Harakat di N9",
+      "Muafakat 1-vs-1 kerusi Melayu sasaran MN"
+    ],
+    "do_not_do": [
+      "Debat agama/syurga dengan komuniti Cina N9",
+      "Abaikan isu tempat letak kereta & trafik Seremban",
+      "Fokus berlebihan pada isu agama di kerusi India N9"
+    ],
+    "confidence": "medium",
+    "llm_provider": "rule_based_fallback"
+  },
+  "focus_state": "Negeri Sembilan"
+}

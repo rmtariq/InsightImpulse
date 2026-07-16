@@ -1,0 +1,297 @@
+================================================================================
+📄 DOCUMENT: Kalau tuan mahu, saya boleh sambung terus dan tuli.docx
+================================================================================
+
+Kalau tuan mahu, saya boleh sambung terus dan tulis versi prompt teknikal yang lebih ketat untuk AugmentCode dalam format:
+·       objective,
+·       input schema,
+·       processing steps,
+·       output tables,
+·       acceptance criteria.
+YA
+Ya — di bawah ini ialah versi prompt teknikal yang lebih ketat untuk AugmentCode. Ia disusun dalam format: objective, input schema, processing steps, output tables, dan acceptance criteria supaya terus boleh digunakan sebagai spesifikasi kerja pembangunan analitik.[1][2][3]
+Objective
+Bina pipeline analitik untuk mengesan, menapis, melabel, menganalisis, dan merumus insight bagi perbualan media sosial tentang hubungan PAS–Bersatu dalam PN, termasuk konteks “kaji semula hubungan”, “perpecahan”, dan “PAS solo”, dengan tujuan menilai implikasi terhadap persepsi penyokong dan peluang PRN/PRU.[2][4][5]
+Skop analitik mesti menjawab lima persoalan utama: bila isu memuncak, siapa lebih disokong atau dipersalahkan, emosi apa paling dominan, platform mana paling berpengaruh, dan sama ada idea PAS solo dilihat sebagai kekuatan atau risiko.[3][6][7]
+Input schema
+Sumber input ialah dataset crawl multi-platform yang mengandungi kandungan daripada Facebook, X, TikTok, Instagram, YouTube dan sumber berita, dengan format minimum berdasarkan contoh fail CSV sedia ada.[8]
+Gunakan schema input minimum berikut:
+source_dataset:
+  required_fields:
+    - platform
+    - type
+    - text
+    - datetime
+  optional_fields:
+    - post_id
+    - source_url
+    - author_id
+    - author_name
+    - likes
+    - shares
+    - comments_count
+    - views
+    - total_engagement
+    - sentiment_label
+    - sentiment_score
+    - emotion_primary
+    - demographic
+    - language
+
+Peraturan normalisasi input:
+platform mesti dinormalkan kepada salah satu daripada: facebook, x, tiktok, instagram, youtube, news, other.[8]
+type mesti dinormalkan kepada salah satu daripada: post, comment, caption, article, video_post, other.[8]
+datetime mesti ditukar kepada format timestamp standard UTC dan juga disimpan versi local timezone jika perlu untuk analitik Malaysia.
+text mesti dibersihkan daripada whitespace berlebihan, HTML entities, duplicated line breaks, dan URL tracking noise.
+Jika total_engagement tiada, kira sebagai gabungan metrik yang tersedia: likes + shares + comments_count + views weighted jika perlu.[8]
+Filter logic
+Tapis dataset menggunakan query Boolean berikut sebagai peraturan utama:
+("PAS" OR "Parti Islam Se-Malaysia" OR "Parti Islam Se Malaysia")
+AND
+("Bersatu" OR "PPBM" OR "Perikatan Nasional" OR "PN")
+AND
+("kaji semula hubungan" OR "teliti semula hubungan" OR "putus kerjasama" OR "perpecahan" OR "PAS bergerak solo" OR "PAS boleh bergerak solo")
+
+Tambahkan juga matching tidak sensitif huruf besar/kecil, dan sokong padanan variasi biasa seperti:
+pas kaji hubungan dengan bersatu
+pas nilai semula kerjasama dengan bersatu
+pas tidak tunduk kepada bersatu
+retak menanti belah
+pas solo
+go solo jika muncul bersama PAS dan Bersatu/PN.[4][9][1][2]
+Hasil penapisan mesti disimpan sebagai dataset kerja:
+pas_bersatu_split_posts
+Processing steps
+Step 1: Data cleaning and normalization
+Laksanakan pembersihan dan normalisasi berikut:
+Buang row tanpa text yang bermakna.
+Buang duplikasi exact dan near-duplicate berdasarkan kombinasi platform + normalized_text + datetime_bucket.
+Standardize encoding UTF-8.
+Simpan clean_text sebagai versi teks yang dibersihkan untuk analitik.
+Simpan text_original untuk rujukan audit.
+Step 2: Core filtering
+Gunakan Boolean query untuk mendapatkan subset isu sasaran.
+Output:
+pas_bersatu_split_posts_raw
+pas_bersatu_split_posts_deduped
+Kira juga:
+total rows asal
+total rows matched
+total rows selepas dedupe
+match rate terhadap seluruh dataset
+Step 3: Feature engineering
+Tambah kolum berikut:
+derived_fields:
+  - date_day
+  - date_week
+  - date_month
+  - keyword_hit_entities
+  - keyword_hit_issue
+  - engagement_score
+  - has_pas_solo_phrase
+  - has_split_phrase
+  - has_review_phrase
+
+Peraturan:
+engagement_score = fungsi standard bagi likes, shares, comments_count, views; formula mesti konsisten untuk semua platform.
+has_pas_solo_phrase = true jika teks menyebut frasa seperti PAS bergerak solo, PAS boleh bergerak solo, PAS solo.
+has_split_phrase = true jika teks menyebut perpecahan, retak, retak menanti belah, putus kerjasama.
+has_review_phrase = true jika teks menyebut kaji semula hubungan, teliti semula hubungan, nilai semula kerjasama.[1][2][4]
+Step 4: Classification labels
+Tambah label minimum berikut:
+labels:
+  stance_PAS: [pro, neutral, anti, unknown]
+  stance_Bersatu: [pro, neutral, anti, unknown]
+  stance_PN: [pro, neutral, anti, unknown]
+  fear_of_split: [yes, no, unclear]
+  view_on_PAS_solo: [support, reject, neutral, unclear]
+  narrative_frame:
+    - PAS_tegas
+    - Bersatu_punca_masalah
+    - PN_berpecah
+    - kekalkan_PN
+    - PAS_solo
+    - analitikal_berita
+    - lain_lain
+
+Definisi label:
+stance_PAS=pro jika teks menyokong PAS, membela PAS, atau menyalahkan Bersatu.
+stance_Bersatu=pro jika teks menyokong Bersatu atau mengkritik PAS.
+stance_PN=pro jika teks menyeru gabungan dikekalkan atau menolak konflik dibesarkan.
+fear_of_split=yes jika teks menyebut risiko pecah undi, lemahkan pembangkang, atau rugi pilihan raya akibat konflik.[10][6][3]
+view_on_PAS_solo=support jika teks menyokong PAS bergerak solo.
+view_on_PAS_solo=reject jika teks menolak PAS solo atas sebab strategi atau risiko kerusi campuran.[3][4]
+Jika model klasifikasi automatik digunakan, simpan juga:
+label_confidence
+model_name
+model_version
+Step 5: Trend analytics
+Bina analitik trend masa berikut:
+volume harian
+volume mingguan
+engagement harian
+engagement mingguan
+trend sentimen mingguan
+trend emosi mingguan
+Soalan analitik yang perlu dijawab:
+Bilakah spike tertinggi berlaku?
+Berapa lama isu bertahan selepas kenyataan media utama?
+Adakah sentimen bertambah negatif selepas berita “PAS kaji semula hubungan” dan “risky rift”?[2][1][3]
+Step 6: Stance and sentiment analytics
+Bina analitik berikut:
+distribution stance_PAS
+distribution stance_Bersatu
+distribution stance_PN
+cross-tab stance_PAS x stance_Bersatu
+cross-tab sentiment_label x platform
+average sentiment_score by platform and week
+Soalan yang perlu dijawab:
+Siapa lebih disokong dalam konflik ini?
+Adakah PAS dilihat dominan?
+Adakah Bersatu lebih banyak dipersalahkan?
+Adakah PN turut menerima kesan negatif akibat konflik dalaman?[5][9][3]
+Step 7: Emotion analytics
+Jika emotion_primary wujud, analisis:
+distribution emosi keseluruhan
+distribution emosi mengikut platform
+distribution emosi mengikut narrative_frame
+Soalan yang perlu dijawab:
+Adakah emosi dominan ialah marah, takut atau kecewa?
+Adakah fear naik bila naratif perpecahan atau pilihan raya disebut?[6][3][8]
+Step 8: Platform analytics
+Bina metrik berikut mengikut platform:
+total matched posts
+total engagement
+average engagement per post
+average sentiment
+top narrative_frame
+top 10 most engaged posts
+Soalan yang perlu dijawab:
+Platform mana paling rancak untuk isu ini?
+Platform mana paling kuat dari sudut pengaruh/engagement?
+Adakah Facebook dan news lebih kuat untuk pembingkaian isu, manakala TikTok/IG lebih kuat untuk penyebaran emosional?[11][12][6]
+Step 9: PAS solo sub-analysis
+Bina subset kedua:
+pas_solo_discourse
+Kriteria:
+semua row daripada pas_bersatu_split_posts_deduped yang has_pas_solo_phrase=true
+Analitik khusus:
+distribution view_on_PAS_solo
+sentiment by view_on_PAS_solo
+top posts supporting PAS solo
+top posts rejecting PAS solo
+narrative co-occurrence dengan fear_of_split
+Soalan yang perlu dijawab:
+Adakah PAS solo diterima sebagai langkah tegas atau ditolak sebagai langkah berisiko?
+Adakah penolakan PAS solo datang bersama kebimbangan pecah undi dan hilang kerusi campuran?[4][3]
+Step 10: Top content analysis
+Keluarkan:
+top 20 posts by engagement_score
+top 20 comments by engagement_score jika data komen tersedia
+top 10 posts لكل narrative_frame (atau maksimum yang ada)
+Untuk setiap top content, simpan:
+platform
+datetime
+text excerpt
+engagement_score
+stance labels
+narrative_frame
+source_url
+Tujuan:
+kenal pasti naratif yang paling mempengaruhi wacana, bukan hanya paling banyak disebut.[8]
+Output tables
+Hasilkan sekurang-kurangnya jadual/output berikut:
+output_tables:
+  - filtered_dataset_summary
+  - trend_daily_volume
+  - trend_weekly_volume
+  - trend_daily_engagement
+  - sentiment_summary
+  - stance_summary
+  - emotion_summary
+  - platform_summary
+  - pas_solo_summary
+  - top_content_summary
+  - narrative_frame_summary
+
+Definisi ringkas jadual:
+filtered_dataset_summary: jumlah data asal, jumlah matched, jumlah deduped, match rate.[8]
+trend_daily_volume: date_day, matched_posts_count, total_engagement.
+trend_weekly_volume: date_week, matched_posts_count, avg_sentiment_score.
+sentiment_summary: sentiment_label distribution, mean sentiment_score.
+stance_summary: stance_PAS, stance_Bersatu, stance_PN distributions.
+emotion_summary: emotion_primary distribution.
+platform_summary: matched_count, total_engagement, avg_engagement_per_post, avg_sentiment by platform.
+pas_solo_summary: count support/reject/neutral, top narratives.
+top_content_summary: senarai post engagement tertinggi.
+narrative_frame_summary: distribution of narrative_frame dan co-occurrence dengan sentiment/fear_of_split.
+Insight generation rules
+Bina modul rumusan insight automatik dalam bahasa mudah dengan format tetap berikut:
+Apa berlaku
+Apa maksudnya
+Cadangan tindakan
+Contoh struktur output insight:
+Apa berlaku: Perbualan memuncak dalam beberapa hari selepas kenyataan PAS bahawa hubungan dengan Bersatu sedang dikaji semula.[1][2]
+Apa maksudnya: Isu ini benar-benar mendapat perhatian dan mencetuskan persepsi bahawa PN sedang berdepan ketegangan dalaman.[6][3]
+Cadangan tindakan: Jika objektifnya ialah mengekalkan keyakinan penyokong, naratif komunikasi perlu menekankan kestabilan dan arah hala tuju yang jelas.[9][4]
+Setiap insight perlu merujuk pada data sebenar yang dikira, bukan templat umum.
+Acceptance criteria
+Pipeline dianggap siap hanya jika memenuhi semua syarat berikut:
+Dataset berjaya ditapis menggunakan Boolean query dan disimpan sebagai subset khusus.
+Semua platform dinormalkan dengan konsisten.[8]
+Duplikasi dibuang dan jumlah sebelum/selepas dedupe dilaporkan.
+Sekurang-kurangnya 7 output tables dihasilkan.
+Terdapat analitik trend masa, sentimen, stance, emosi, platform dan PAS solo.
+Top content analysis berjaya mengeluarkan kandungan engagement tertinggi.
+Semua label tambahan didokumentasikan dengan definisi jelas.
+Insight automatik dihasilkan dalam format “apa berlaku / apa maksudnya / cadangan tindakan”.
+Semua hasil boleh dieksport ke CSV atau dibaca terus untuk dashboard/reporting.
+Kod hendaklah modular supaya query boleh diganti untuk isu politik lain pada masa depan.
+Cadangan struktur folder kerja
+Gunakan struktur ini:
+project/
+  data/
+    raw/
+    processed/
+  outputs/
+    filtered/
+    analytics/
+    insights/
+  src/
+    load_data.py
+    normalize.py
+    filter_query.py
+    classify_labels.py
+    analytics.py
+    generate_insights.py
+  config/
+    query_pas_bersatu.yaml
+
+Ringkasan arahan akhir untuk developer
+Bina sistem yang bermula daripada data crawl mentah, menapis hanya perbualan PAS–Bersatu/PN yang relevan, menambah label politik asas, mengira metrik utama, mengenal pasti naratif dominan, dan menghasilkan insight yang boleh terus digunakan oleh pengguna bukan teknikal untuk memahami risiko perpecahan, kekuatan PAS, liabiliti Bersatu, dan implikasi strategi terhadap PRN/PRU.[10][3][6]
+Kalau tuan mahu, saya boleh sambung satu langkah lagi dan tulis versi prompt ultra-operational terus dalam gaya arahan kerja Python/Pandas/SQL untuk AugmentCode.
+
+⁂
+https://www.bharian.com.my/berita/nasional/2026/05/1562121/pas-nilai-semula-kerjasama-dengan-bersatu-hadi-awang     
+https://www.astroawani.com/berita-politik/pas-kaji-semula-hubungan-dengan-bersatu-abdul-hadi      
+https://www.thestar.com.my/news/nation/2026/05/23/pas-and-bersatus-risky-rift          
+https://www.thestar.com.my/news/nation/2026/05/23/our-patience-has-its-limit-pas-tells-bersatu      
+https://www.malaysiakini.com/news/775797  
+https://www.scoop.my/news/290042/gerakans-lau-sounds-unity-alarm-as-pn-rift-deepens-over-pas-bersatu-tensions/      
+https://www.channelnewsasia.com/asia/malaysia-opposition-pas-bersatu-muhyiddin-hadi-tension-split-6142191 
+Combined_facebook_instagram_linkedin_news_tiktok_x_youtube_20260524_130444.csv        
+https://bernama.com/radio/news.php?id=2560285   
+https://politiko.my/hubungan-bersatu-pas-retak-teruk-muhyiddin-wajar-berundur-penganalisis-utm/  
+https://www.youtube.com/shorts/DsFJIwmm9aU 
+https://www.astroawani.com/berita-malaysia/media-sosial-internet-mendominasi-kehidupan-rakyat-malaysia-437627 
+https://www.facebook.com/harakahdailyHD/posts/berita-penuh/1315361054132689/ 
+https://www.facebook.com/harakahdailyHD/videos/pas-bersatu-kaji-semula-hubungan-adalah-proses-biasa/26809372015401909/ 
+https://www.kosmo.com.my/2026/05/22/pas-teliti-semula-masa-depan-bersama-bersatu/ 
+https://www.facebook.com/kinitv/videos/pkr-youth-to-pas-abandon-bersatu-and-join-unity-governmentpas-should-consider-a-/890117570133002/ 
+https://www.utusan.com.my/nasional/2026/02/tiada-konflik-antara-pas-dengan-bersatu-tidak-perlu-gencatan-senjata-takiyuddin/ 
+https://www.instagram.com/reel/DYoRQv3Pln8/ 
+
+================================================================================
+✅ Total paragraphs: 206
+✅ Total tables: 0
+================================================================================

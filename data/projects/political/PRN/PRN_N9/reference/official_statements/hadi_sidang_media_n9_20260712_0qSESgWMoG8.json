@@ -1,0 +1,133 @@
+{
+  "id": "official_hadi_sidang_media_n9_20260712",
+  "status": "statement_captured_pending_engagement",
+  "captured_at": "2026-07-13 01:07:37",
+  "source": {
+    "platform": "youtube",
+    "url": "https://www.youtube.com/watch?v=0qSESgWMoG8",
+    "video_id": "0qSESgWMoG8",
+    "title": "Sidang Media: Pilihan Raya Negeri Sembilan",
+    "channel": "Abdul Hadi Awang",
+    "channel_url": "https://www.youtube.com/channel/UCMBTQsal4FYluBB0pQpIx8Q",
+    "upload_date": "20260712",
+    "duration_sec": 179,
+    "speaker": "Presiden PAS · Tuan Guru Abdul Hadi Awang",
+    "event": "Sidang Media: Pilihan Raya Negeri Sembilan"
+  },
+  "engagement_at_capture": {
+    "view_count": 118,
+    "like_count": 14,
+    "comment_count": 1,
+    "note": "Post baharu — jangan guna engagement/comments untuk sentimen lagi"
+  },
+  "transcript": {
+    "lang": "ms_auto",
+    "source": "youtube_automatic_captions",
+    "char_count": 2168,
+    "raw_file": "data/projects/political/PRN/PRN_N9/reference/official_statements/hadi_sidang_media_n9_20260712_0qSESgWMoG8.json3",
+    "text": "Sila salah Tan Sri pilihan raya negeri Sembilan. >> Jadi Tan Sri ada sedikit mengenai kerjasama potensi dengan UMNO. >> Kita sedang usaha kerjasama programat awal kita dah usaha kerjasama untuk ambil alih kerajaan melalui SD. Ha kita gerakkan Perikatan Nasional. Malangnya dua Bersatu tarik diri. Ha UMNO tak tarik diri. itu ada ruanglah untuk kerjasama nampaknya daripada awal. >> Tapi perbincangan yang latest macam mana? >> L sedang berjalan. >> Sedang berjalan. >> Okey. Dia punya setakatnya proses setakat mana tu? >> Sangat positif. >> Sangat positif. >> Positif. >> Dari segi pembahagian kerusi semua macam mana >> itu dibincang sama kewajaran mestilah UMNO dia sudah dapat 14 kerusi kita lima kerusi yang baki tu. Ha baki daripada PKR macam-macam ni ah daripada DAP ini kita boleh bahagi-bahagikan ya. >> So jadi bila er kepusan akhir >> tunggu malam nama calon umum nama nama calon umum nama calon >> mungkin ada kejutanlah kat situ. >> Ya >> mungkin ada kejutanlah. >> Saya tak tahulah kejut ataupun tidak. [ketawa] Tan Sri bentuk kerjasama tu >> bujuk kerjasama. bentuk kerjasama >> kita terima hakikat Negeri Sembilan UMNO dominasi dia pimpin penyertaan itu akan dibincang balik kita. >> So maksudnya PAS mungkin jumlah kerusi yang dipertanding akan dikurangkan. >> Ya. Kita dah ada tiga. A oleh kerana yang baki dari tu a PS ini mungkin berlaku pembahagianlah. tengok kewajaran dia. Kewajaran dia pembahagian kerusi >> Perikatan Nasional dah ada lima kerusi ya. >> Bersatu UMNO dah ada 14. Ha yang baki tu bincang. >> Soal a jawatan Menteri Besar pun PAS tak ada a masalah eh. >> Ah tak ada masalah tak ada masalah. Tak ada masalah. >> Matlamat utama. Jadi a orang Islam a Islam Melayu pemimpin Negeri Sembilan >> macam Johorlah. >> Logo Tan Sri logo logo akan guna macam mana? Asing ke atau satu logo? >> Longgu logo masing-masing. Ha PAS tak tahu lagi nak guna PN ke nak guna PAS. Kita lihat itu masih dalam perbincangan. Ya >> Tan Sri yang lima kerusi Perikatan Nasional tu tiga PAS dua bersatu. >> Ya. >> So dua kerusi tu macam mana? >> Dua bersatu akan dilihat kewajaran. Nak bagi ke PAS ke nak bagi UMNO mungkin ada tukar menukarlah tukar menukar tu",
+    "quality_note": "Auto-caption YouTube — sahkan manual sebelum quote rasmi"
+  },
+  "theme_flags_heuristic": {
+    "logo / bulan / PN": true,
+    "solo / bersatu / seat": true,
+    "Cina / India / kaum": false,
+    "Negeri Sembilan / N9": true,
+    "Johor": true,
+    "BN / UMNO / PH / DAP": true
+  },
+  "ops": {
+    "dashboard_action_now": "Rakam statement sebagai official seed; JANGAN refresh sentimen Cina/India dari comments lagi",
+    "followup": {
+      "when": "2026-07-14 13:07",
+      "window": "24-48 jam selepas capture",
+      "tasks": [
+        "Semak comment_count & top comments YouTube",
+        "Crawl reaksi FB/X/TikTok/media Cina-India tentang sidang ini",
+        "Update Halatuju + PRN N9 jika ada isyarat sentimen bermakna"
+      ]
+    }
+  },
+  "key_points_draft": [
+    {
+      "point": "Kerjasama dengan UMNO sedang dibincang — digambarkan positif",
+      "nuance": "Bukan keputusan final; 'sedang berjalan'."
+    },
+    {
+      "point": "Konteks: Bersatu tarik diri → ruang kerjasama dengan UMNO dibuka",
+      "nuance": "Auto-caption: 'dua Bersatu tarik diri'; 'UMNO tak tarik diri'."
+    },
+    {
+      "point": "Kerangka kerusi disebut: UMNO ~14, PN/blok ~5; baki (dari PKR/DAP dsb) dibahagi ikut kewajaran",
+      "nuance": "Nombor dari sidang — sahkan dengan pengumuman rasmi kemudian."
+    },
+    {
+      "point": "PAS mungkin kurangkan bilangan kerusi ditanding — pembahagian ikut kewajaran",
+      "nuance": "Disebut sudah ada ~3; baki dibincang."
+    },
+    {
+      "point": "5 kerusi PN: 3 PAS + 2 Bersatu — 2 Bersatu mungkin ditukar/dinilai semula (PAS atau UMNO)",
+      "nuance": "'tukar-menukar' masih terbuka."
+    },
+    {
+      "point": "Jawatan MB: PAS 'tak ada masalah'",
+      "nuance": "Matlamat disebut: pemimpin Islam/Melayu di N9 'macam Johor'."
+    },
+    {
+      "point": "LOGO: masing-masing guna logo sendiri; PAS belum putus PN vs logo PAS — masih dalam perbincangan",
+      "nuance": "Selaras isu teknikal logo/watikah; BELUM keputusan akhir."
+    },
+    {
+      "point": "Keputusan akhir / kejutan mungkin semasa malam penamaan calon",
+      "nuance": "Deadline operasi: 18 Julai 2026."
+    }
+  ],
+  "implications_for_cina_india": {
+    "now": "Tiada sebutan langsung Cina/India dalam transcript auto-caption.",
+    "risk": "Framing 'pemimpin Islam/Melayu macam Johor' boleh diguna lawan untuk takutkan pengundi Cina/India jika dipetik tanpa konteks perkhidmatan.",
+    "ops": "Pantau reaksi media Cina/India 24–48 jam — jangan update sentimen dashboard sehingga ada comments/engagement."
+  },
+  "alignment_with_halatuju": {
+    "match": [
+      "Logo sendiri masih terbuka (PAS vs PN) — elak isu watikah",
+      "Seat-sharing / pembahagian kerusi ditekan (bukan solo penuh)",
+      "Deadline penamaan calon sebagai titik keputusan"
+    ],
+    "tension": [
+      "Sidang condong kerjasama UMNO; halatuju dalaman sebelumnya tekan sekutu pembangkang (Bersatu/Wawasan/Berjasa) dan elak undi BN",
+      "Perlu clarify HQ: 'kerjasama UMNO' = seat deal rasmi vs isyarat media sahaja"
+    ]
+  },
+  "followup_checklist": {
+    "due_after": "2026-07-14 13:07",
+    "status": "pending",
+    "checks": [
+      {
+        "id": "yt_engagement",
+        "task": "Semula view/like/comment_count YouTube 0qSESgWMoG8",
+        "done": false
+      },
+      {
+        "id": "yt_comments",
+        "task": "Crawl/sample top YouTube comments (jika >=20 comments)",
+        "done": false
+      },
+      {
+        "id": "media_cina",
+        "task": "Cari liputan China Press / Sin Chew / Oriental Daily tentang sidang",
+        "done": false
+      },
+      {
+        "id": "media_india",
+        "task": "Cari liputan Tamil/India media tentang sidang / kerjasama UMNO-PAS N9",
+        "done": false
+      },
+      {
+        "id": "update_halatuju",
+        "task": "Update tab Halatuju + dashboard hanya selepas ada isyarat reaksi",
+        "done": false
+      }
+    ]
+  },
+  "transcript_excerpt": "Sila salah Tan Sri pilihan raya negeri Sembilan. >> Jadi Tan Sri ada sedikit mengenai kerjasama potensi dengan UMNO. >> Kita sedang usaha kerjasama programat awal kita dah usaha kerjasama untuk ambil alih kerajaan melalui SD. Ha kita gerakkan Perikatan Nasional. Malangnya dua Bersatu tarik diri. Ha UMNO tak tarik diri. itu ada ruanglah untuk kerjasama nampaknya daripada awal. >> Tapi perbincangan yang latest macam mana? >> L sedang berjalan. >> Sedang berjalan. >> Okey. Dia punya setakatnya pros…"
+}

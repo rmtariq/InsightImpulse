@@ -1,0 +1,70 @@
+{
+  "analytics": {
+    "volume": {
+      "total_mentions": 0,
+      "daily_average": 0.0,
+      "peak_date": "N/A",
+      "peak_count": 0,
+      "trend_direction": "insufficient_data",
+      "trend_percentage": 0,
+      "daily_counts": {}
+    },
+    "sentiment": {
+      "negative_count": 0,
+      "neutral_count": 0,
+      "positive_count": 0,
+      "negative_percentage": 0,
+      "neutral_percentage": 0,
+      "positive_percentage": 0,
+      "sentiment_distribution": {}
+    },
+    "themes": {
+      "theme_counts": {},
+      "theme_percentages": {},
+      "top_3_themes": [],
+      "theme_examples": {}
+    },
+    "hotspots": {
+      "error": "No area mentions found",
+      "top_5_hotspots": []
+    },
+    "platforms": {
+      "platform_counts": {},
+      "platform_percentages": {},
+      "most_complaint_heavy_platform": "N/A",
+      "highest_engagement_platform": "N/A",
+      "platform_engagement_avg": {}
+    },
+    "severity": {
+      "top_complaint_posts": [],
+      "average_engagement": NaN,
+      "high_severity_count": 0,
+      "high_severity_percentage": 0
+    },
+    "dashboard": {
+      "total_complaints": 0,
+      "negative_sentiment_pct": 0,
+      "top_complaint_theme": "N/A",
+      "top_hotspot_area": "N/A",
+      "peak_complaint_date": "N/A",
+      "most_complaint_heavy_platform": "N/A",
+      "high_severity_count": 0,
+      "unanswered_complaint_pct": 100
+    }
+  },
+  "insights": {
+    "insights": [
+      "A significant share (100%) of complaints remain publicly unanswered, creating a gap between operational resolution and visible reputation recovery. This may damage public trust even if issues are being addressed internally."
+    ],
+    "recommendations": [
+      "Implement systematic public response protocol to acknowledge complaints and communicate resolutions."
+    ]
+  },
+  "executive_summary": "KDEBWM COMPLAINT MONITORING - EXECUTIVE SUMMARY\n================================================\n\nOVERVIEW:\n- Total Complaint Mentions: 0\n- Trend: INSUFFICIENT_DATA\n- Negative Sentiment: 0%\n- High-Severity Complaints: 0\n\nTOP 3 COMPLAINT THEMES:\n1. N/A\n2. N/A\n3. N/A\n\nTOP 3 HOTSPOT AREAS:\n1. N/A\n2. N/A\n3. N/A\n\nMAIN RECOMMENDATIONS:\n1. Implement systematic public response protocol to acknowledge complaints and communicate resolutions.",
+  "metadata": {
+    "total_records": 2447,
+    "complaint_records": 0,
+    "generated_at": "2026-06-08T19:45:34.924793",
+    "source_file": "data/combined/Combined_facebook_instagram_threads_tiktok_x_20260606_015719.csv"
+  }
+}

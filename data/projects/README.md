@@ -6,9 +6,10 @@
 data/projects/
 ├── _registry.json              # All projects (IDs, categories, clients)
 ├── political/
-│   ├── pas_break_2026/         # PAS–Bersatu split Jun 2026
+│   ├── PRN/                    # PRN negeri — PRN_N9, PRN_Johor, PRN_Melaka
+│   ├── pas_break_2026/         # PAS–Bersatu narrative (cross-state socmed)
 │   ├── pas_bersatu_baseline/   # JITP baseline Mei 2026
-│   └── prn_johor_2026/
+│   └── prn_johor_2026/         # legacy → data in PRN/PRN_Johor
 ├── sme/
 │   └── smebank/
 └── agency/

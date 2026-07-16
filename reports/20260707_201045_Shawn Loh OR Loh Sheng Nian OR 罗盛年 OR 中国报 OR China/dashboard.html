@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse Dashboard - "Shawn Loh" OR "Loh Sheng Nian" OR "罗盛年" OR "中国报" OR "China Press" OR "不投国阵闻不到天堂味" OR "Harakahdaily"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background: #eef2ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .dashboard-header {
+            background: radial-gradient(circle at top left, #22d3ee 0, transparent 28%), linear-gradient(135deg, #111827 0%, #312e81 55%, #7c3aed 100%);
+            color: white;
+            padding: 2.5rem 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0 0 1rem 1rem;
+        }
+        .metric-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .chart-container {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .table-container {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .insight-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #e5e7eb;
+            border-radius: 1rem;
+            padding: 1.25rem;
+            box-shadow: 0 10px 25px rgba(15,23,42,0.08);
+            height: 100%;
+        }
+        .insight-value { font-size: 1.8rem; font-weight: 800; color: #1e1b4b; }
+        .section-title { color: #1e1b4b; font-weight: 800; }
+        .positive { color: #28a745; }
+        .negative { color: #dc3545; }
+        .neutral { color: #6c757d; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="dashboard-header">
+        <div class="container">
+            <h1><i class="bi bi-graph-up"></i> InsightPulse Dashboard</h1>
+            <h2>"Shawn Loh" OR "Loh Sheng Nian" OR "罗盛年" OR "中国报" OR "China Press" OR "不投国阵闻不到天堂味" OR "Harakahdaily"</h2>
+            <p class="mb-0">
+                <i class="bi bi-calendar"></i> July 07, 2026 at 20:10 |
+                <i class="bi bi-tag"></i> Social Listening
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Key Metrics Row -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label"><i class="bi bi-file-text"></i> Total Posts</div>
+                    <div class="metric-value">459</div>
+                    <small class="text-muted">Across all platforms</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label positive"><i class="bi bi-emoji-smile"></i> Positive</div>
+                    <div class="metric-value positive">11.8%</div>
+                    <small class="text-muted">Positive sentiment</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label neutral"><i class="bi bi-emoji-neutral"></i> Neutral</div>
+                    <div class="metric-value neutral">48.1%</div>
+                    <small class="text-muted">Neutral sentiment</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label negative"><i class="bi bi-emoji-frown"></i> Negative</div>
+                    <div class="metric-value negative">40.1%</div>
+                    <small class="text-muted">Negative sentiment</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Executive Decision Row -->
+        <div class="row mb-4">
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-shield-check"></i> Brand Health</div>
+                    <div class="insight-value">1.4%</div>
+                    <small class="text-muted">Positive momentum adjusted for risk</small>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-exclamation-triangle"></i> Reputation Risk</div>
+                    <div class="insight-value">High</div>
+                    <small class="text-muted">Based on negative sentiment share</small>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="insight-card">
+                    <div class="metric-label"><i class="bi bi-lightning-charge"></i> Next Best Action</div>
+                    <div class="insight-value" style="font-size:1.25rem;">Activate response room</div>
+                    <small class="text-muted">Recommended immediate focus</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="row">
+            <!-- Sentiment Distribution -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4 class="section-title"><i class="bi bi-pie-chart"></i> Sentiment Distribution</h4>
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Platform Comparison -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4 class="section-title"><i class="bi bi-bar-chart"></i> Records by Platform</h4>
+                    <canvas id="platformChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Engagement by Platform -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4 class="section-title"><i class="bi bi-heart"></i> Engagement by Platform</h4>
+                    <canvas id="engagementChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Sentiment by Platform -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4 class="section-title"><i class="bi bi-graph-up-arrow"></i> Average Sentiment by Platform</h4>
+                    <canvas id="sentimentByPlatformChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Posts Table -->
+        <div class="row">
+            <div class="col-12">
+                <div class="table-container">
+                    <h4 class="section-title"><i class="bi bi-trophy"></i> Highest-Impact Content</h4>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Platform</th>
+                                <th>Content</th>
+                                <th>Engagement</th>
+                                <th>Sentiment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+        <tr>
+            <td>1</td>
+            <td>Tiktok</td>
+            <td>SUSHI DON’T LIE 来财，来，来专访《八方来财💰》揽佬！揽佬全球爆红当下什么感受？EXCLUSIVE INTERVIEW WITH “SUSHI DONT LIE” LANLAO 🇲🇾
+
+揽佬来到吉隆坡演出《东南嘻游记》，当下抓...</td>
+            <td>3,461,992</td>
+            <td><span class="badge bg-secondary">Neutral</span></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Tiktok</td>
+            <td>中共國白頭山血脈上將
+#國民黨 #民進黨  #賴清德 #台灣 #taiwan #中華民國台灣 #台獨 #台灣獨立 #人權 #民主 #言論自由#大外宣#大外宣#习近平#秦刚#人权问题 #台湾问题 #新疆集中营#朱镕基#江泽民  #独裁者 #D...</td>
+            <td>62,886</td>
+            <td><span class="badge bg-secondary">Neutral</span></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Tiktok</td>
+            <td>“賴清德燃剪”『2005“舌戰群雄”』『2025我從政以來“不貪不取”』#賴清德 #剪輯 #推薦 #流量 #fyp...</td>
+            <td>47,986</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>Tiktok</td>
+            <td>#张诗尧 #崔叡娜 不是。？这也能卡上。？...</td>
+            <td>39,052</td>
+            <td><span class="badge bg-danger">Negative</span></td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>Tiktok</td>
+            <td>2027年习近平还会连任吗？最有可能接任习近平的3个人是谁？#中共 #修宪 #共产党 #习近平 #国家主席习近平...</td>
+            <td>34,953</td>
+            <td><span class="badge bg-danger">Negative</span></td>
+        </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center mt-4 mb-4">
+            <p class="text-muted">
+                <i class="bi bi-shield-check"></i> Generated by InsightPulse Professional Analytics<br>
+                <small>Powered by Malaysian custom AI models and real-time data crawling</small>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Sentiment Distribution Pie Chart
+        const sentimentCtx = document.getElementById('sentimentChart').getContext('2d');
+        new Chart(sentimentCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Positive', 'Neutral', 'Negative'],
+                datasets: [{
+                    data: [11.8, 48.1, 40.1],
+                    backgroundColor: ['#28a745', '#6c757d', '#dc3545'],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed.toFixed(1) + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Platform Posts Bar Chart
+        const platformCtx = document.getElementById('platformChart').getContext('2d');
+        new Chart(platformCtx, {
+            type: 'bar',
+            data: {
+                labels: ["News", "Tiktok", "X"],
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: [144, 70, 245],
+                    backgroundColor: '#667eea',
+                    borderColor: '#764ba2',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Engagement by Platform
+        const engagementCtx = document.getElementById('engagementChart').getContext('2d');
+        new Chart(engagementCtx, {
+            type: 'bar',
+            data: {
+                labels: ["News", "Tiktok", "X"],
+                datasets: [{
+                    label: 'Total Engagement',
+                    data: [0, 3872516, 13581],
+                    backgroundColor: '#28a745',
+                    borderColor: '#1e7e34',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Sentiment by Platform
+        const sentimentByPlatformCtx = document.getElementById('sentimentByPlatformChart').getContext('2d');
+        new Chart(sentimentByPlatformCtx, {
+            type: 'line',
+            data: {
+                labels: ["News", "Tiktok", "X"],
+                datasets: [{
+                    label: 'Average Sentiment Score',
+                    data: [0.413, 0.424, 0.329],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

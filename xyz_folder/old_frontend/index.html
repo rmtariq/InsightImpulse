@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse - Social Media Analytics</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-graph-up-arrow me-2"></i>
+                <strong>InsightPulse</strong>
+                <span class="badge bg-warning text-dark ms-2">Ultimate</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#dashboard">
+                            <i class="bi bi-speedometer2"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#analysis">
+                            <i class="bi bi-search"></i> Analysis
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reports">
+                            <i class="bi bi-file-earmark-text"></i> Reports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#platforms">
+                            <i class="bi bi-grid-3x3-gap"></i> Platforms
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-circle"></i> User
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#profile"><i class="bi bi-person"></i> Profile</a></li>
+                            <li><a class="dropdown-item" href="#settings"><i class="bi bi-gear"></i> Settings</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#logout"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid mt-5 pt-3">
+        <!-- Hero Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="hero-section text-center py-5">
+                    <h1 class="display-4 fw-bold gradient-text">
+                        🚀 Ultimate InsightPulse
+                    </h1>
+                    <p class="lead">
+                        The Complete 9-Platform Digital Intelligence Solution for Malaysia
+                    </p>
+                    <div class="platform-badges mt-3">
+                        <span class="badge bg-primary me-2">📱 7 Social Media</span>
+                        <span class="badge bg-success me-2">🛒 2 E-commerce</span>
+                        <span class="badge bg-warning text-dark">🤖 AI-Powered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="bi bi-graph-up"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="totalAnalyses">1,247</h3>
+                        <p class="stat-label">Total Analyses</p>
+                        <small class="text-success">↑ 23% this month</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="bi bi-collection"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="platformsActive">9</h3>
+                        <p class="stat-label">Active Platforms</p>
+                        <small class="text-info">All systems operational</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="sentimentScore">0.72</h3>
+                        <p class="stat-label">Avg Sentiment</p>
+                        <small class="text-success">Positive trend</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="bi bi-lightning"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3 class="stat-number" id="realTimeUpdates">Live</h3>
+                        <p class="stat-label">Real-time Data</p>
+                        <small class="text-primary">Updated 2 min ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analysis Interface -->
+        <div class="row mb-4">
+            <div class="col-lg-8">
+                <div class="card analysis-card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-search"></i> Start New Analysis
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="analysisForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="analysisType" class="form-label">Analysis Type</label>
+                                    <select class="form-select" id="analysisType" required>
+                                        <option value="">Choose analysis type...</option>
+                                        <option value="social_listening">🎧 Social Listening</option>
+                                        <option value="sme_insights">🏢 SME Insights</option>
+                                        <option value="issue_detection">🚨 Issue Detection</option>
+                                        <option value="competitor_analysis">🔍 Competitor Analysis</option>
+                                        <option value="product_intelligence">🛒 Product Intelligence</option>
+                                        <option value="market_research">📊 Market Research</option>
+                                        <option value="brand_monitoring">👁️ Brand Monitoring</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="analysisDepth" class="form-label">
+                                        Analysis Depth
+                                        <i class="bi bi-info-circle" data-bs-toggle="tooltip"
+                                           title="Controls how much data to collect per platform"></i>
+                                    </label>
+                                    <select class="form-select" id="analysisDepth">
+                                        <option value="quick">⚡ Quick (~1-2 min, 200-300 data points)</option>
+                                        <option value="standard" selected>📊 Standard (~3-5 min, 800-1200 data points)</option>
+                                        <option value="deep">🔬 Deep (~5-10 min, 2000-4000 data points)</option>
+                                        <option value="custom">⚙️ Custom (Advanced)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Perfect Analytics Controls -->
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="dateRange" class="form-label">
+                                        Date Range
+                                        <i class="bi bi-info-circle" data-bs-toggle="tooltip"
+                                           title="Time period for data collection"></i>
+                                    </label>
+                                    <select class="form-select" id="dateRange">
+                                        <option value="24h">📅 Last 24 Hours</option>
+                                        <option value="7days" selected>📅 Last 7 Days</option>
+                                        <option value="30days">📅 Last 30 Days</option>
+                                        <option value="90days">📅 Last 90 Days</option>
+                                        <option value="custom">📅 Custom Range</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <label for="analysisFocus" class="form-label">
+                                        Analysis Focus
+                                        <i class="bi bi-info-circle" data-bs-toggle="tooltip"
+                                           title="What to prioritize in data collection"></i>
+                                    </label>
+                                    <select class="form-select" id="analysisFocus">
+                                        <option value="comprehensive" selected>🎯 Comprehensive (Balanced)</option>
+                                        <option value="engagement">💬 Engagement (High interaction)</option>
+                                        <option value="sentiment">😊 Sentiment (Many comments)</option>
+                                        <option value="trends">📈 Trends (Recent posts)</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <label for="commentSampling" class="form-label">
+                                        Comment Sampling
+                                        <i class="bi bi-info-circle" data-bs-toggle="tooltip"
+                                           title="How to select comments for analysis"></i>
+                                    </label>
+                                    <select class="form-select" id="commentSampling">
+                                        <option value="smart" selected>🧠 Smart (Top + Recent)</option>
+                                        <option value="top_only">⭐ Top Only (Most liked)</option>
+                                        <option value="recent_only">🕐 Recent Only (Latest)</option>
+                                        <option value="random">🎲 Random Sample</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Custom Date Range (Hidden by default) -->
+                            <div class="row" id="customDateRange" style="display: none;">
+                                <div class="col-md-6 mb-3">
+                                    <label for="customStartDate" class="form-label">Start Date</label>
+                                    <input type="date" class="form-control" id="customStartDate">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="customEndDate" class="form-label">End Date</label>
+                                    <input type="date" class="form-control" id="customEndDate">
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="queryInput" class="form-label">Analysis Query</label>
+                                <textarea class="form-control" id="queryInput" rows="3" 
+                                    placeholder="e.g., 'Samsung Galaxy S24 reviews', 'Malaysian government policy', 'Shopee vs Lazada pricing'" 
+                                    required></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">Select Platforms</label>
+                                <div class="platform-selector">
+                                    <!-- Social Media Platforms -->
+                                    <div class="platform-group">
+                                        <h6 class="platform-group-title">📱 Social Media (7)</h6>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="facebook" value="facebook">
+                                                    <label class="form-check-label" for="facebook">
+                                                        📘 Facebook
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="instagram" value="instagram">
+                                                    <label class="form-check-label" for="instagram">
+                                                        📷 Instagram
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="twitter" value="twitter">
+                                                    <label class="form-check-label" for="twitter">
+                                                        🐦 Twitter/X
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="tiktok" value="tiktok">
+                                                    <label class="form-check-label" for="tiktok">
+                                                        🎵 TikTok
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="google" value="google">
+                                                    <label class="form-check-label" for="google">
+                                                        🔍 Google
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="news" value="news">
+                                                    <label class="form-check-label" for="news">
+                                                        📰 News
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="lowyat" value="lowyat">
+                                                    <label class="form-check-label" for="lowyat">
+                                                        💻 Lowyat
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- E-commerce Platforms -->
+                                    <div class="platform-group">
+                                        <h6 class="platform-group-title">🛒 E-commerce (2)</h6>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="shopee" value="shopee">
+                                                    <label class="form-check-label" for="shopee">
+                                                        🛒 Shopee Malaysia
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="lazada" value="lazada">
+                                                    <label class="form-check-label" for="lazada">
+                                                        🛍️ Lazada Malaysia
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="includeSentiment" checked>
+                                        <label class="form-check-label" for="includeSentiment">
+                                            Include Sentiment Analysis
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="includeTrends" checked>
+                                        <label class="form-check-label" for="includeTrends">
+                                            Include Trend Analysis
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="realTimeAnalysis" checked>
+                                        <label class="form-check-label" for="realTimeAnalysis">
+                                            Real-time Analysis
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="bi bi-rocket"></i> Start Ultimate Analysis
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-activity"></i> System Status
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="system-status">
+                            <div class="status-item">
+                                <span class="status-indicator bg-success"></span>
+                                <span>All 9 Platforms Active</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-indicator bg-success"></span>
+                                <span>AI Models Loaded</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-indicator bg-success"></span>
+                                <span>Database Connected</span>
+                            </div>
+                            <div class="status-item">
+                                <span class="status-indicator bg-warning"></span>
+                                <span>Real-time Updates</span>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <h6>Recent Activity</h6>
+                        <div class="activity-feed">
+                            <div class="activity-item">
+                                <small class="text-muted">2 min ago</small>
+                                <p class="mb-1">Facebook crawler completed</p>
+                            </div>
+                            <div class="activity-item">
+                                <small class="text-muted">5 min ago</small>
+                                <p class="mb-1">Shopee analysis finished</p>
+                            </div>
+                            <div class="activity-item">
+                                <small class="text-muted">8 min ago</small>
+                                <p class="mb-1">New sentiment data processed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section (Initially Hidden) -->
+        <div id="resultsSection" class="row mb-4" style="display: none;">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="bi bi-graph-up"></i> Analysis Results
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="analysisProgress" class="text-center py-4">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-3"><strong>Analyzing data across selected platforms...</strong></p>
+                            <p class="text-muted">
+                                <small>⏱️ This may take 3-5 minutes depending on the number of platforms and data size.</small><br>
+                                <small>🔄 Real-time crawling + AI analysis in progress. Please wait...</small>
+                            </p>
+                        </div>
+                        
+                        <div id="analysisResults" style="display: none;">
+                            <!-- Results will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/analysis.js"></script>
+</body>
+</html>

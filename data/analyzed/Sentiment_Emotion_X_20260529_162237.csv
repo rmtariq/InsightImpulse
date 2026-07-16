@@ -1,0 +1,327 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+x,post,2007993491662774575,"Sorotan perpecahan pakatan Melayu Umno, PAS dan Bersatu https://t.co/P53MqRYDOD",https://x.com/mkini_bm/status/2007993491662774575,,,positive,2026-01-05 01:52:09+00:00,11,5,4,1353,0.8333352923393249,33,34.353,,,positive,0.4444509744644165,multilingual,Unknown,sadness,0.07577738910913467,0.03599945828318596,0.022749921306967735,0.7463128566741943,0.046192996203899384,0.021781615912914276
+x,comment,2007997553795879058,@mkini_bm https://t.co/JJktCziyAB,,https://x.com/mkini_bm/status/2007993491662774575,2.0079934916627745e+18,negative,,0,0,0,0,0.18095675110816956,0,,Ne0,0.0,negative,0.3968108296394348,multilingual,Unknown,love,0.1178717091679573,0.06223772466182709,0.044207800179719925,0.05304093658924103,0.5212072730064392,0.05819007009267807
+x,comment,2007995323470553163,@mkini_bm Penipu/penyamun selalunya akan x mempercayai sesama sendiri sebab semua gila kuasa,,https://x.com/mkini_bm/status/2007993491662774575,2.0079934916627745e+18,negative,,0,0,0,0,0.0004929721355438343,0,,Stethoscope,0.0,negative,0.9983567595481873,malay,Malay/Bumiputera,surprise,0.03517477586865425,0.12375438213348389,0.029762232676148415,0.020775429904460907,0.031703680753707886,0.6577805280685425
+x,comment,2008014284928995828,"@mkini_bm Tak payah fikir panjang, salahkan DAP saja",,https://x.com/mkini_bm/status/2007993491662774575,2.0079934916627745e+18,negative,,0,0,0,0,0.09567441344261168,0,,De Scorpio,0.0,negative,0.6810852885246277,multilingual,Unknown,surprise,0.04067781940102577,0.04565229266881943,0.018654271960258484,0.07204578071832657,0.2511681318283081,0.3003445267677307
+x,comment,2008015892098281597,@mkini_bm Tu la kenapa korong Halalkan Rasuah sebagai sumbangan dan tunggang agama.. https://t.co/yoAkY8gRR3,,https://x.com/mkini_bm/status/2007993491662774575,2.0079934916627745e+18,negative,,0,0,0,0,0.14269352853298187,0,,Humanity,0.0,negative,0.5243549048900604,multilingual,Unknown,no_clear_emotion,0.12930211424827576,0.028702223673462868,0.050353094935417175,0.10632140934467316,0.24604065716266632,0.06413663178682327
+x,post,1877222271858676200,Mana ada retak.. PAS dan BERSATU yang penjarakan Najib. https://t.co/qwPvnX0dGC,https://x.com/RajaMohdShahrim/status/1877222271858676200,,,negative,2025-01-09 05:14:01+00:00,59,10,9,1690,0.13461050391197205,94,107.69,,,negative,0.5512983202934265,malay,Malay/Bumiputera,no_clear_emotion,0.07460255175828934,0.020991716533899307,0.04567600041627884,0.0433732308447361,0.3211001753807068,0.040744490921497345
+x,comment,1877255123316916379,@RajaMohdShahrim https://t.co/VpvWiwa6Gk,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,neutral,,4,0,0,0,0.5,4,,Hartanah Timur,0.0,neutral,0.8934917449951172,english,Mixed/Urban,love,0.07524344325065613,0.017679166048765182,0.03993765637278557,0.030400926247239113,0.6268607378005981,0.02485216222703457
+x,comment,1877375709603119144,@RajaMohdShahrim Patut la takut sangat Najib ditahan di rumah yer!,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,neutral,,0,0,0,0,0.5,0,,..,0.0,neutral,0.7796482443809509,english,Mixed/Urban,anger,0.45989853143692017,0.15159791707992554,0.11589965224266052,0.05387362465262413,0.07696413993835449,0.060942795127630234
+x,comment,1877370956286472575,"@RajaMohdShahrim Ada jugak muka nusi babi tu.
+
+Bodoh punya nusi",,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,negative,,0,0,0,0,0.07272058725357056,0,,Ayadola Kamoni,0.0,negative,0.7575980424880981,multilingual,Unknown,love,0.2569677531719208,0.02378765493631363,0.08103791624307632,0.07959561049938202,0.29057571291923523,0.03519299253821373
+x,comment,1877336756007350596,@RajaMohdShahrim 🥶,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,neutral,,0,0,0,0,0.5,0,,Raveendran Tharumalingam,0.0,neutral,0.8100507259368896,english,Mixed/Urban,love,0.0687573030591011,0.01421424187719822,0.03663494065403938,0.021852435544133186,0.6642795205116272,0.01920022815465927
+x,comment,1877302188461928529,@RajaMohdShahrim SehatiSejiwaSegila,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,neutral,,0,0,0,0,0.5,0,,AbahTokWan,0.0,neutral,0.8791623711585999,english,Mixed/Urban,love,0.1750786453485489,0.07412426918745041,0.09532200545072556,0.037431500852108,0.4048401117324829,0.04437864199280739
+x,comment,1877589786157883701,"@RajaMohdShahrim Takdelah mana nak Eddie Bawang dan sekutu nak buat tu!!! Baca ni walaun² sekalian, pastu bantai walanon .... https://t.co/VaQeeYHgeR
+
+kalau krg cerdik dan jahil agama mcm yg dikehendaki Eddie Bawang",,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,negative,,0,0,0,0,0.0591595396399498,0,,jusree_siapabilaapa,0.0,negative,0.8028015345335007,multilingual,Unknown,no_clear_emotion,0.10774877667427063,0.025812672451138496,0.04427720233798027,0.04168300703167915,0.3188076615333557,0.050224706530570984
+x,comment,1877695391149220077,@RajaMohdShahrim Puak haramjadah pas ni xblh pakai..,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,negative,,0,0,0,0,0.019580894708633445,0,,Armanshah,0.0,negative,0.9347303509712219,multilingual,Unknown,surprise,0.06400468945503235,0.11399020254611969,0.02285080961883068,0.07180609554052353,0.18515639007091522,0.43369919061660767
+x,comment,1877367921929810174,@RajaMohdShahrim 🤔🧐🤣😂,,https://x.com/RajaMohdShahrim/status/1877222271858676200,1.8772222718586762e+18,neutral,,0,0,0,0,0.5,0,,koyan,0.0,neutral,0.7862796783447266,english,Mixed/Urban,love,0.05969846621155739,0.01569931022822857,0.04027504473924637,0.022228749468922615,0.7143722176551819,0.020539002493023872
+x,post,1689849306407440384,"Menangkan Perpaduan
+
+Dalam suasana PRN banyak maklumat muncul sehingga kita menjadi keliru untuk membuat keputusan. 
+
+Melalui ruang terhad berucap kepada pengundi di Pulau Betong, saya cuba meringkaskan beberapa pandangan. 
+
+PN cuba memainkan sentimen kerjasama janggal BN-PH untuk menimbulkan rasa kurang selesa di kalangan penyokong tegar kedua-dua gabungan parti dan golongan atas pagar. Kepada golongan parti digambarkan kerjasama ini tidak patut berlaku. Kepada golongan atas pagar digambarkan kedua-dua parti menjilat ludah sendiri. 
+
+Hakikat sebenar ialah PN kecewa tidak dapat menguasai kerajaan. 
+
+Seorang yang rasional akan sedar bagaimana kerjasama BN-PH berlaku. 
+
+Ramai buat-buat lupa bahawa selepas PRU-15 BN telah menerima kekalahan mereka dan mengumumkan kesediaan menjadi pembangkang dan memperbaiki kekurangan mereka. Saranan diberi agar PH-PN membentuk kerajaan dengan majoriti yang lebih daripada cukup - 82 + 74 = 156 kerusi. Itu belum ditambah sokongan lain jika boleh didapatkan. 
+
+PH tidak memberi sebarang pandangan balas. PN menolak kerjasama dengan PH secara mentah. PN yakin boleh membentuk kerajaan. 
+
+Ini telah mewujudkan situasi Parlimen tergantung (hung Parliament). 
+
+Justeru itu, melalui kebijaksanaan Tuanku YDP Agong dan Majlis Raja-Raja, bagi mengelak ketidaktentuan politik akibat keputusan segelintir ahli Parlimen yang membuat keputusan sendiri untuk bertukar parti, maka satu usul perpaduan dicadangkan. Hanya PAS dan Bersatu yang menolak usul ini. 
+
+Di situlah punca mengapa PAS dan Bersatu kini menjadi pembangkang dan PH-BN (bersama banyak parti lain) menjadi kerajaan. 
+
+Cuba bayangkan jika PN bersetuju membentuk kerajaan? Mungkinkah BN menjadi pembangkang? Mungkinkah perwakilan BN lebih kecil dalam kerajaan Perpaduan (yang lebih besar)? 
+
+Hakikatnya PN menolak kerana mereka mahu menguasai kerajaan. 
+
+Baik. Selesai satu perkara. 
+
+Apakah kerjasama PH-BN boleh berjalan baik? 
+Bagi saya ini terpulang kepada kemahuan kita. 
+
+Kata orang lama: sesat di hujung jalan, balik ke pangkal jalan. 
+
+Pangkal jalan di sini bagi saya ialah niat kita menyertai politik. Saya percaya umumnya kita menyertai politik untuk berkhidmat, membantu rakyat, menyumbang mengikut kemampuan kita bagi maksud agama, bangsa dan negara. 
+
+Mungkin selama ini kita bermanis mulut bercakap tentang perpaduan, demi rakyat. Maka, hari ini kita dibentang ujian keikhlasan - adakah kita mampu berpadu menguruskan segala perbezaan yang mungkin ada? Atau kita lebih gemar menggencarkan semangat perpecahan dan permusuhan?
+
+Bagi penyokong BN yang masih setia berjuang, saya ucapkan tahniah! Di Pulau Pinang ini anda telah 3 penggal menjadi pembangkang. Ini lebih kurang kali kedua anda merasai perit kekalahan pilihan raya. Kesetiaan anda adalah bukti keyakinan anda kepada perjuangan parti. 
+
+Kebanyakan yang bersama PH telah lama menjadi pembangkang. InsyaAllah kami faham getir dan susahnya.",https://x.com/NoorAminAhmad/status/1689849306407440384,,,negative,2023-08-11 04:00:45+00:00,306,86,1,16545,0.0004923284053802712,558,497.545,,,negative,0.9983589053153992,malay,Malay/Bumiputera,sadness,0.4119088351726532,0.07643018662929535,0.01620585471391678,0.44169723987579346,0.02027474343776703,0.012635752558708191
+x,comment,1689849713267470336,"Dengan kebersamaan BN-PH, insyaAllah kita akan menang bersama dan mentadbir bersama. Selepas ini kita akan ada wakil BN dalam barisan EXCO. Akan ada ADUN, ahli majlis, wakil penduduk di peringkat di akar umbi. 
+
+Jika kita lihat di banyak kerusi hari ini, yang betul-betul akan mencabar UMNO-BN ialah PAS dan Bersatu. Mereka memang mahu menggantikan UMNO dan ada yang mahu mengharamkan UMNO. Kerana apa? Kerana sifat parti mereka adalah begitu - sebagai alternatif kepada UMNO. 
+
+Kewujudan BN pada suatu waktu dulu adalah kerana keyakinan dan kebijaksanaan bapa-bapa pengasas negara dalam menjamin keadilan kepada semua bangsa. Ia tidak mudah, namun itulah jalan kita. 
+
+Bagi kita yang menawarkan diri untuk menjadi kerajaan, kita tidak boleh sentiasa mengharapkan jalan mudah. Masalah datang kepada kita bukan untuk mematikan langkah perjuangan kita, sebaliknya ia hadir untuk mengetuk keikhlasan hati, kebijaksanaan dan keberanian kita menanganinya. 
+
+Tidak ada kerajaan daripada mana-mana parti pun akan sempurna. Yang ada ialah apakah kerajaan-kerajaan ini boleh menjadi lebih baik - sedia mendengar, mudah berurusan, boleh menunaikan amanah kerana kekuatan ilmu serta kemahuan dan kemampuan menggerakkan perubahan bermakna. 
+
+Selalunya kita tidak akan dapat menyelesaikan masalah baru dengan cara fikir lama, apatah lagi cara sama yang gagal atau tidak cukup berjaya. 
+
+Dalam pilihan raya ini, adat bertanding ada yang menang, ada yang kalah. Untuk menang, kita tawarkan kelebihan sendiri berbanding lawan. 
+
+Jangan biarkan mereka yang berkempen menyemarakkan kebencian, memfitnah dan memaki hamun berjaya. 
+
+Orang Pulau Pinang jangan biar mereka menghina kononnya ada masjid bertukar menjadi tokong, tidak ada azan dan pelbagai lagi tohmahan salah dan tidak benar. 
+
+Katakan kepada mereka ada cara lain yang lebih baik jika mereka mahu menang tetapi bukan dengan cara itu! 
+
+Ajar mereka dengan undi kita. The onus is on us. Menjadi tanggungjawab kita menghentikan kejahatan kempen mereka. 
+
+Menangkan perpaduan. Jadikan Malaysia Madani sebagai medan bakti dan berbudi. 
+
+Di bawah panji Merdeka, kita bina Malaysia!",,https://x.com/NoorAminAhmad/status/1689849306407440384,1.6898493064074404e+18,negative,,21,7,2,0,0.0004954576492309792,41,,Noor Amin Ahmad,0.0,negative,0.9983484745025635,malay,Malay/Bumiputera,love,0.2210603952407837,0.06452209502458572,0.04875990003347397,0.0638052448630333,0.4054568111896515,0.024082330986857414
+x,post,2004731896799138229,"Saya baru menonton bahagian berkaitan dalam podcast Yang Berhenti Menteri yang merujuk kepada perkara berkaitan saya. 
+
+Saya fikir ada beberapa kenyataan yang salah dan tidak tepat. 
+
+1. Kenyataan media saya mengenai isu MB telah dikeluarkan awal dan ada di media sosial saya. Pandangan-pandangan saya mengenai isu MB di Perlis banyak dimuatkan di media sosial terutama FB. Kenyataan saya adalah berdasarkan bacaan politik daripada maklumat-maklumat yang diterima tentang situasi yang ada. YB @rafiziramli sendiri dalam podcast beliau menyatakan situasi retak menanti belah antara PAS-Bersatu. 
+
+2. Saya tidak pernah mengeluarkan kenyataan kedua dan tidak menerima sebarang arahan daripada parti mengenainya. Ia adalah kenyataan Ketua Pemuda PH yang dikeluarkan kepada media keesokan harinya. Walaupun begitu, cadangan agar MB kekal ke akhir penggal boleh saya persetujui kerana dalam kenyataan-kenyataan saya di media sosial jelas menyatakan bahawa krisis ini tidak sepatutnya berlaku pun sekiranya diurus dengan betul. 
+
+3. Sama ada bersedia atau tidak, sekiranya keputusan akhir ialah perlu diadakan pilihan raya negeri, PH Perlis perlu bersedia. Ia adalah kemungkinan yang tidak boleh diabaikan oleh PH Perlis. 
+
+4. Spekulasi kononnya saya berminat menjadi MB jelas menunjukkan moderator tidak mengenali saya dan mungkin tidak cukup maklumat tentang Perlis. Rakan-rakan parti baik PH dan BN tahu saya sehingga kini tidak berminat bertanding kerusi DUN. Sekiranya saya diminta bertanding sekalipun, dan untuk menjadi MB perlu menang, adalah menjadi prerogatif Istana untuk memilih MB. 
+
+5. Saya juga terkejut kerana ini pertama kali mendengar bahawa saya akan mengganti tempat Shamsul Iskandar. Sehingga kini saya belum pernah mendengar daripada sesiapa walaupun mengenali ramai rakan di Pejabat Perdana Menteri. 
+
+6. Sejak terlibat dengan parti, saya pernah beberapa kali diajak berkhidmat di pejabat DS Anwar. Pernah sekali saya berkhidmat sebagai Pengurus di Diwan Reformasi antara 2014-2015 atas permintaan DS Anwar berdasarkan pengalaman saya mengurus IDEAS (dinamakan sebagai antara badan pemikir baru terbaik di dunia oleh University of Pennsylvania 2012-2013). Saya berhenti setelah DS Anwar dihumban ke penjara. 
+
+7. Saya tidak pernah melobi apa-apa jawatan daripada DS Anwar atau pimpinan parti. Namun, sebagaimana selalu saya sampaikan kepada rakan-rakan, kita memilih berjuang dan mesti membuat persediaan sekiranya dipanggil untuk menggalasnya di baris depan. 
+
+8. Dalam politik saya sentiasa adalah orang parti. I am a party man. Pemimpin nombor satu saya dalam parti hanyalah Presiden. Dan menjadi tugas anggota parti membantu Presiden dan parti untuk menjayakan agenda parti. 
+
+Noor Amin Ahmad
+Pengerusi Pakatan Harapan Perlis
+Pengerusi KEADILAN Perlis",https://x.com/NoorAminAhmad/status/2004731896799138229,,,negative,2025-12-27 01:51:44+00:00,27,5,5,3713,0.0004903972148895264,74,55.713,,,negative,0.9983653426170349,malay,Malay/Bumiputera,surprise,0.012832780368626118,0.048560526221990585,0.01519249752163887,0.03486643359065056,0.016163809224963188,0.8268415927886963
+x,comment,2004765537881260188,@NoorAminAhmad Kalau apa yang dikatakan Tu fitnah..saman la,,https://x.com/NoorAminAhmad/status/2004731896799138229,2.0047318967991383e+18,negative,,1,0,1,0,0.04247674494981768,4,,Hahaha,0.0,negative,0.8584108501672745,multilingual,Unknown,no_clear_emotion,0.23363760113716125,0.021158453077077866,0.08444889634847641,0.05588781088590622,0.2564604878425598,0.03604256734251976
+x,comment,2004841800000065742,@NoorAminAhmad Butoh 🖕🤣,,https://x.com/NoorAminAhmad/status/2004731896799138229,2.0047318967991383e+18,negative,,2,1,0,0,0.08888391852378844,4,,Slayingwolf,0.0,negative,0.7037202715873718,english,Mixed/Urban,love,0.1344096064567566,0.019021695479750633,0.07792829722166061,0.03932827338576317,0.3514891266822815,0.03103298507630825
+x,comment,2004797796952756252,@NoorAminAhmad @SaifulAdn damai oh damai . menanti detik tidak lagi jadi pilihan pengundi,,https://x.com/NoorAminAhmad/status/2004731896799138229,2.0047318967991383e+18,neutral,,3,0,0,0,0.5,3,,aidil azlan,0.0,neutral,0.7638466358184814,english,Mixed/Urban,love,0.11069878935813904,0.19529755413532257,0.04221830517053604,0.1450776755809784,0.44940465688705444,0.029594942927360535
+x,comment,2004782069302657334,@NoorAminAhmad Terima kasih atas penjelasan. Pentingnya kita sebagai org awam tidak terlalu taksub dgn kedua2 belah pihak. #palabapakhang,,https://x.com/NoorAminAhmad/status/2004731896799138229,2.0047318967991383e+18,neutral,,1,0,0,0,0.5,1,,🇲🇾 xtrailme 🇵🇸,0.0,neutral,0.790162205696106,english,Mixed/Urban,anger,0.5148830413818359,0.02969411388039589,0.06277867406606674,0.028231563046574593,0.23832499980926514,0.019596176221966743
+x,post,1654440567764393985,"Korang gak lah punca Melayu berpecah
+
+UMNO
+PKR
+PAS
+BERSATU
+PEJUANG
+PUTRA
+... dan entah ape2 lagi agak nya
+
+😅 berapa banyak daaaa parti Melayu duk ada...",https://x.com/OkinaFitto/status/1654440567764393985,,,negative,2023-05-05 10:59:04+00:00,4,18,1,2731,0.0649913191795349,50,45.731,,,negative,0.7833622694015503,multilingual,Unknown,no_clear_emotion,0.13768091797828674,0.045247506350278854,0.04520610719919205,0.21181921660900116,0.24013687670230865,0.0570407509803772
+x,comment,1654489935993270275,@OkinaFitto @Injang_Nation Em bang PKR parti multiracial. 🤣,,https://x.com/OkinaFitto/status/1654440567764393985,1.654440567764394e+18,neutral,,0,0,1,0,0.5,3,,A/D🇲🇾,0.0,neutral,0.8065361976623535,english,Mixed/Urban,love,0.051820673048496246,0.01697366312146187,0.05856259912252426,0.026390857994556427,0.6523486375808716,0.02214767411351204
+x,post,1863710189037424833,"PAS dan Bersatu retak menanti belah.😁
+
+@MuhyiddinYassin: BERSATU target post Menteri Besar di Pahang, Perak, dan Selangor.
+
+@titm_official: Fokus menang dulu lah, baru ‘kira untung’! https://t.co/XcrQWZ9qyU",https://x.com/StratCommX/status/1863710189037424833,,,neutral,2024-12-02 22:21:49+00:00,37,16,10,20168,0.5,264,119.168,,,neutral,0.8124516606330872,english,Mixed/Urban,no_clear_emotion,0.07518640905618668,0.03832053393125534,0.07500156760215759,0.023170558735728264,0.09331114590167999,0.03791112080216408
+x,comment,1863752295206514886,Punca gaduh: PAS tak dapat nafkah.,,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,negative,,11,3,1,0,0.06482055187225341,20,,StratCommX,0.0,negative,0.7839314937591553,multilingual,Unknown,fear,0.04181323200464249,0.7942949533462524,0.007952786982059479,0.11097542196512222,0.0053689791820943356,0.03239212930202484
+x,comment,1863741508693922052,@StratCommX @MuhyiddinYassin @titm_official Dua2 gila kuasa,,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,neutral,,5,1,0,0,0.5,7,,Everros,0.0,neutral,0.8652417659759521,english,Mixed/Urban,love,0.08607408404350281,0.026782190427184105,0.06581909209489822,0.015759343281388283,0.6752815842628479,0.02001112326979637
+x,comment,1863745178680562110,@StratCommX @MuhyiddinYassin @titm_official yituu pak lebaii sudah suaraaa... cili kasik taruk laaa!!!! 🌶️🔥🌶️🔥,,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,negative,,4,0,0,0,0.07733245790004731,4,,Parpu Todi,0.0,negative,0.7422251403331757,multilingual,Unknown,love,0.07176859676837921,0.032653067260980606,0.04241090640425682,0.028364721685647964,0.6883665919303894,0.02544584311544895
+x,comment,1863752382309695721,"@StratCommX @MuhyiddinYassin @titm_official Nak tanya Midin, negeri sendiri tak mau tawan ke?",,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,neutral,,2,0,0,0,0.5,2,,SAEDAH #RealReform,0.0,neutral,0.9247440695762634,english,Mixed/Urban,surprise,0.010143397375941277,0.06093640998005867,0.012567877769470215,0.028831053525209427,0.01845542900264263,0.8305854201316833
+x,comment,1863886315907158434,"@StratCommX @MuhyiddinYassin @titm_official @MuhyiddinYassin ,
+@abdulhadiawang , 
+@titm_official , 
+@AzminAli &amp; 
+@hamzahzainudin_ serta 
+@takiyuddin61 
+Sila lah berpijak di bumi yang nyata.
+Jangan lah dibayangi  dengan mimpi² &amp; harapan yang kabur.",,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,positive,,1,0,0,0,0.9989468038082122,1,,Tok Jaks,0.0,positive,0.9964893460273743,malay,Malay/Bumiputera,fear,0.10736104100942612,0.34357908368110657,0.022724132984876633,0.246986523270607,0.09338480234146118,0.11330239474773407
+x,comment,1863716064598822968,@StratCommX @MuhyiddinYassin @titm_official Bini lawan laki ni,,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,neutral,,1,0,0,0,0.5,1,,Remy,0.0,neutral,0.866107165813446,english,Mixed/Urban,no_clear_emotion,0.07118913531303406,0.017454786226153374,0.0458499938249588,0.020450809970498085,0.3442879617214203,0.023685015738010406
+x,comment,1864324010412265661,"@StratCommX @MuhyiddinYassin @titm_official Isu https://t.co/RBDolAByKC PH comms boleh je hari2 attack bagi rkyt meluat dan sedar PN ni giler kuasa, tapi itulaaa...",,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,negative,,1,0,0,0,0.0004867672920226829,1,,.,0.0,negative,0.9983774423599243,malay,Malay/Bumiputera,no_clear_emotion,0.06776966154575348,0.1468498259782791,0.12655490636825562,0.032162073999643326,0.10406409949064255,0.13116009533405304
+x,comment,1864066365260484681,@StratCommX @MuhyiddinYassin @titm_official Beriya buat qunut nazilah sudahnya sendiri yang berpecah...,,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,negative,,0,0,0,0,0.0004815995693207009,0,,Liwaauddin Jailani,0.0,negative,0.9983946681022644,malay,Malay/Bumiputera,no_clear_emotion,0.07441916316747665,0.048456642776727676,0.11502105742692947,0.0418468676507473,0.32996928691864014,0.04663395881652832
+x,comment,1863770356932280644,"@StratCommX @MuhyiddinYassin @titm_official Betul la hasrat abah tu.. PAS dah ada SG4.. 4 negeri, bagi la Bersatu negeri jugak utk ada MB.. 😖 😖 😖",,https://x.com/StratCommX/status/1863710189037424833,1.863710189037425e+18,negative,,0,0,0,0,0.07524924874305725,0,,Hasta Pronto,0.0,negative,0.7491691708564758,english,Mixed/Urban,love,0.07425037771463394,0.03157033398747444,0.037728361785411835,0.06615239381790161,0.5254067778587341,0.0463884137570858
+x,post,1861682392735588829,"HUBUNGAN PAS DAN BERSATU: IBARAT RETAK MENANTI BELAH
+
+1. Beberapa isu dalaman yang melanda Perikatan Nasional (PN) ketika ini menggambarkan hubungan Pas dan Bersatu semakin panas bagaikan retak menanti belah, kata Pengarah Komunikasi Pakatan Harapan (PH), Fahmi Fadzil. https://t.co/pW70Q3JO0W",https://x.com/MyCommuNews0624/status/1861682392735588829,,,neutral,2024-11-27 08:04:05+00:00,100,67,47,371,0.5,217,375.371,,,neutral,0.9971866011619568,malay,Malay/Bumiputera,anger,0.7413510680198669,0.08788301050662994,0.029859868809580803,0.06927681714296341,0.027957530692219734,0.011828173883259296
+x,comment,1861682396791509278,2. Ia berikutan perbalahan isu 'poster boy' (calon Perdana Menteri) dalam PN dan terbaharu pengguguran wakil Bersatu dalam rombakan Kabinet Negeri Perlis.,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,neutral,,46,16,2,0,0.5,84,,MyCommunitynews,0.0,neutral,0.9975035786628723,malay,Malay/Bumiputera,no_clear_emotion,0.06376829743385315,0.023776251822710037,0.04196689650416374,0.016831347718834877,0.04275565221905708,0.027392929419875145
+x,comment,1861693375541567883,@MyCommuNews0624 Kasi hentak lagi ..,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,neutral,,0,0,0,0,0.5,0,,ALIF AZIZ,0.0,neutral,0.869147002696991,english,Mixed/Urban,love,0.23745208978652954,0.05182044953107834,0.023401867598295212,0.08685356378555298,0.25928810238838196,0.0850626602768898
+x,comment,1861924516185924009,@MyCommuNews0624 Berkecai sudah,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.844386225938797,0,,rifkiamal,0.0,positive,0.48128741979599,multilingual,Unknown,love,0.0806688442826271,0.10162490606307983,0.19082219898700714,0.025705866515636444,0.47669896483421326,0.023456281051039696
+x,comment,1861801506871320914,@MyCommuNews0624 Konflik org PN dr dlu,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,neutral,,0,0,0,0,0.5,0,,Nokurogiaaaa,0.0,neutral,0.895850419998169,english,Mixed/Urban,love,0.06650956720113754,0.01509751845151186,0.04191262274980545,0.025872427970170975,0.5175790786743164,0.027915971353650093
+x,comment,1861686189838999721,@MyCommuNews0624 🧐🧐,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,athira_nur 🌼🍉,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.08740676939487457,0.04258442297577858,0.08153724670410156,0.045733027160167694,0.39814233779907227,0.05401028320193291
+x,comment,1861685191863083421,@MyCommuNews0624 Bergolak terus....😀😀,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,negative,,0,0,0,0,0.16315873861312866,0,,akmal,0.0,negative,0.4561375379562378,multilingual,Unknown,no_clear_emotion,0.049790412187576294,0.04491479694843292,0.18738001585006714,0.026912936940789223,0.29755789041519165,0.038359466940164566
+x,comment,1861771266602225978,@MyCommuNews0624 👍,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,Phanthomhive,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.051985107362270355,0.022334273904561996,0.1358560025691986,0.0260457843542099,0.5220406651496887,0.030560582876205444
+x,comment,1861709737517322293,@MyCommuNews0624 Susah berkawan dgn PAS ni 😂,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,neutral,,0,0,0,0,0.5,0,,A’fif Osman,0.0,neutral,0.8060430288314819,english,Mixed/Urban,love,0.23575545847415924,0.1453530192375183,0.017171615734696388,0.19054606556892395,0.31002920866012573,0.04578664153814316
+x,comment,1861754775840473544,@MyCommuNews0624 👍👍,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,nrlhsnmi,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.047168027609586716,0.025159142911434174,0.14603900909423828,0.028168505057692528,0.47841566801071167,0.03608650714159012
+x,comment,1861767643348541658,@MyCommuNews0624 Ketepikan masalah lain dan utamakan rakyat 💪,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,negative,,0,0,0,0,0.000896322727203358,0,,Ni Taleetha,0.0,negative,0.9970122575759888,malay,Malay/Bumiputera,love,0.05015338212251663,0.014430631883442402,0.03849080577492714,0.0427362285554409,0.6238687038421631,0.021382657811045647
+x,comment,1861927167128682864,"@MyCommuNews0624 Masing2 nk letak poster Boy untuk  calon Perdana Menteri, bergaduh sebab jawatan..  
+
+Bersatu pun tak sedar diri parti tu dah tak kuat, PAS pulak ambil peluang🤣🤣",,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,negative,,0,0,0,0,0.0005111038684845193,0,,Ajiz,0.0,negative,0.998296320438385,malay,Malay/Bumiputera,fear,0.059654198586940765,0.7789950370788574,0.018718188628554344,0.03748532012104988,0.00932812038809061,0.07571275532245636
+x,comment,1861697072581529757,@MyCommuNews0624 🫣👍🏻,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,asiah HM,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.04673084244132042,0.024220045655965805,0.11733686923980713,0.028346067294478416,0.5499773621559143,0.038142282515764236
+x,comment,1861790135165325425,@MyCommuNews0624 Bubar,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.85027646869421,0,,Coffee_Running,0.0,positive,0.5009215623140335,multilingual,Unknown,no_clear_emotion,0.08045226335525513,0.04575880989432335,0.07226943224668503,0.05722101032733917,0.2755594849586487,0.0647171288728714
+x,comment,1861981337588281591,@MyCommuNews0624 Sama sama Pengkhianat,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,neutral,,0,0,0,0,0.5,0,,Hasif Ratiman,0.0,neutral,0.8491460084915161,english,Mixed/Urban,anger,0.27041107416152954,0.023305950686335564,0.07834114879369736,0.1403053253889084,0.24977624416351318,0.032472312450408936
+x,comment,1861713350440423882,@MyCommuNews0624 bila bertuhankan kuasa 😡,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.840024046599865,0,,arabica,0.0,positive,0.46674682199954987,multilingual,Unknown,love,0.10696005821228027,0.052998851984739304,0.06475682556629181,0.03210047259926796,0.4564640522003174,0.04156269505620003
+x,comment,1861747972289290465,@MyCommuNews0624 🥴,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,Pengguna rim 17jj,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.08740676939487457,0.04258442297577858,0.08153724670410156,0.045733027160167694,0.39814233779907227,0.05401028320193291
+x,comment,1867517006544859592,@MyCommuNews0624 Tamat,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.8232932493090629,0,,Faris Fahmie,0.0,positive,0.4109774976968765,multilingual,Unknown,no_clear_emotion,0.06279411911964417,0.04739326238632202,0.061766915023326874,0.03409099578857422,0.27098602056503296,0.04072976112365723
+x,comment,1861957035254042800,@MyCommuNews0624 🤭,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,hisui,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.06714817136526108,0.03190717101097107,0.057690903544425964,0.026412436738610268,0.41076523065567017,0.04971497878432274
+x,comment,1861687870731452418,@MyCommuNews0624 👍,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,Gerald Ling,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.051985107362270355,0.022334273904561996,0.1358560025691986,0.0260457843542099,0.5220406651496887,0.030560582876205444
+x,comment,1861763140901650729,@MyCommuNews0624 👍,,https://x.com/MyCommuNews0624/status/1861682392735588829,1.8616823927355889e+18,positive,,0,0,0,0,0.876734498143196,0,,Kyra Anne,0.0,positive,0.5891149938106537,multilingual,Unknown,love,0.051985107362270355,0.022334273904561996,0.1358560025691986,0.0260457843542099,0.5220406651496887,0.030560582876205444
+x,post,2059790625214758949,"Pertikaian PAS-Bersatu memuncak, PN di ‘ambang perpecahan’, kata penganalisis
+
+👇🧵",https://x.com/fmtoday/status/2059790625214758949,,,neutral,2026-05-28 00:15:28+00:00,2,0,1,1748,0.5,20,6.748,,,neutral,0.8852253556251526,english,Mixed/Urban,no_clear_emotion,0.26415565609931946,0.0391935296356678,0.07738669216632843,0.1237744614481926,0.0813807025551796,0.025932738557457924
+x,comment,2059790627479712222,"#BeritaFMT Seorang penganalisis berkata Bersatu, Gerakan dan MIPP akhirnya akan berpisah dengan PN jika PAS terus mengukuhkan cengkamannya dalam gabungan itu.
+
+Artikel Penuh: https://t.co/7W3Cv7eA0o",,https://x.com/fmtoday/status/2059790625214758949,2.059790625214759e+18,neutral,,2,0,0,0,0.5,2,,Free Malaysia Today,0.0,neutral,0.9956120252609253,malay,Malay/Bumiputera,no_clear_emotion,0.07034014165401459,0.028380990028381348,0.04234887659549713,0.031577274203300476,0.09254248440265656,0.04973740130662918
+x,post,1968177507905179712,"Pas dan Bersatu terbukti di ambang perpecahan
+
+Lebih lanjut:
+https://t.co/WZtyVtl709
+
+#themalaysiapress #bangsamalaysia #informasiberfaktamembukaminda https://t.co/XrDS2AFtdq",https://x.com/TMPNews_/status/1968177507905179712,,,neutral,2025-09-17 04:57:39+00:00,24,14,3,55,0.5,41,61.055,,,neutral,0.8224378824234009,english,Mixed/Urban,no_clear_emotion,0.10348830372095108,0.036211904138326645,0.0631614550948143,0.05695478990674019,0.15741951763629913,0.04549672454595566
+x,comment,1968336231907184826,@TMPNews_ Tunggu jerr,,https://x.com/TMPNews_/status/1968177507905179712,1.9681775079051796e+18,positive,,0,0,0,0,0.8496454700827598,0,,Kopikosong76,0.0,positive,0.4988182336091995,multilingual,Unknown,no_clear_emotion,0.0666336789727211,0.12463733553886414,0.02954448014497757,0.08050541579723358,0.19048082828521729,0.19399987161159515
+x,post,2014801776487366824,"📌 DARJAH KEBESARAN. 
+Personally, as a rakyat, I would not hesitate to be among the first to support any initiative by either the State (Sultan/Ruler) or Federal Government (YDP Agong) to revoke honorific titles or awards—such as Datuk, Datuk Seri, Tan Sri, Tun, and the like—when an individual is found guilty by a court of law (except in cases where a full pardon has been granted by the Yang di-Pertuan Agong or the Sultan/Ruler concerned), regardless of that individual’s prior status or position.
+
+To me, it is utterly bizarre to see prison wardens, or even fellow inmates addressing another prisoner as Datuk, Datuk Seri, Tan Sri, Tun, and the like. 
+
+Isn’t that, in itself, a direct insult to the institutions that conferred those honours?
+
+📌 DS NAJIB RAZAK @NajibRazak
+i) Tak mengapalah kalau sebelum ini Najib tidak tahu bahawa ada antara penyokong kuatnya adalah sebenarnya, orang(²) yg sama yg pernah mendesaknya berundur Presiden Umno & Pengurusi BN.
+
+ii) Saperti yg baru didedahkan netizen, KP Umno Akmal Salleh (@drakmalsaleh) yg sblm ini beriya-ia, berapi-api, bersemangat, memperjuangkan nasib & mendapatkan keadilan buat Najib merupakan antara orang yg secara terbuka pernah mendesak beliau berundur.
+
+iii) Umum lama tahu Khairy Jamaluddin (@Khairykj) pernah menyatakan bahawa beliau merupakan antara individu terakhir yang masih berdiri mempertahankan Najib Razak sebelum akhirnya membuat pusingan U, malah kita juga ingat akan kritikan keras oleh individu saperti Zaid (@zaidibrahim) yg sekarang telah berubah pendirian 180 darjah terhadap Najib.
+
+Kpd ahli & penyokong Umno, janganlah mudah terpana dengan bisikan-bisikan adanya 'gelombang' (sokongan); lebih-lebih lagi dari mereka yg seolah-olah kelihatan 'berdiri' dibelakang Najib; belum tentu mereka penyokong tulen & kpd yg masih 'bermati-matian' mengatakan Najib tidak bersalah, eloklah 'digest' keratan laporan media berikut;
+i) ""Saman Sivil SRC: Najib akui RM42 juta dalam akaun peribadi bukan derma Arab Saudi"" (Berita Harian)
+
+ii) ""Najib Razak has admitted that the RM42 million that flowed into his personal accounts had nothing to do with the fabled Saudi donation, a claim he had long used to defend himself in the SRC case."" (BFM News)
+
+iii) ""Najib concedes in court that RM42m SRC funds not Saudi donation"" (Malaysiakini)
+
+Umno sepatutnya bangkit, menyusun langkah untuk memperkasakan parti & bkn terus mendendang naratif Najib'ism. 
+
+Jika naratif itu tidak dinoktahkan & jika ia berpanjangan tanpa kesudahan, nescaya partilah yg akan rugi akibat perpecahan & kehilangan sokongan rakyat. No?
+
+Tulisan ini tidak bermakna aku sokong Umno, tetapi, dari PN (PAS, Bersatu & Gerakan), lebih baiklah Umno/BN.
+
+Wallahualam.
+
+Reason over rhetoric. Truth over trend.
+✍️ Afral’s Essentials.",https://x.com/AfralAbdullah/status/2014801776487366824,,,negative,2026-01-23 20:45:51+00:00,143,49,17,7945,0.0005064368247985618,288,299.945,,,negative,0.9983118772506714,malay,Malay/Bumiputera,no_clear_emotion,0.08355952054262161,0.03420069068670273,0.02186359278857708,0.06675496697425842,0.08364589512348175,0.19315935671329498
+x,comment,2014805385430106241,@AfralAbdullah Agreed. The honorific titles should be withdrawn from any individuals who have been convicted by the courts.,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,22,6,2,0,0.14296835660934448,40,,Tok Joe,0.0,negative,0.5234388113021851,english,Mixed/Urban,no_clear_emotion,0.08098333328962326,0.07298572361469269,0.12041989713907242,0.036007486283779144,0.16123433411121368,0.04134373739361763
+x,comment,2014814478412742693,@AfralAbdullah jebon dah mengaku... https://t.co/YhfbXLGtsf,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,8,1,1,0,0.12311884760856628,13,,Pengiran Rahim Jr #Bersama,0.0,negative,0.589603841304779,multilingual,Unknown,love,0.032186537981033325,0.02390928566455841,0.039031580090522766,0.0337851382791996,0.43886059522628784,0.13803783059120178
+x,comment,2014887276854313192,"@AfralAbdullah There should be a law when anybody is found guilty in a court of law and sent to jail, then all “Darjah Kebesaran” should be revoked with immediate effect.",,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,8,1,1,0,0.08348763585090638,13,,I’m FUN,0.0,negative,0.7217078804969788,english,Mixed/Urban,sadness,0.12825468182563782,0.0380394347012043,0.053124237805604935,0.5513416528701782,0.07382611930370331,0.036516182124614716
+x,comment,2014856054199488956,@AfralAbdullah Yes ! That shall be a SOP for all Titled offenders …the Yang Berhormat langsung jadi Yang Bangsat …..,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,neutral,,6,0,4,0,0.5,18,,Ir.Kumar,0.0,neutral,0.7385700941085815,english,Mixed/Urban,love,0.04562487080693245,0.021113965660333633,0.2702510952949524,0.016703525558114052,0.42824575304985046,0.029670201241970062
+x,comment,2014845711142285446,@AfralAbdullah Setuju. 👍,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,2,0,1,0,0.08869757205247877,5,,🇲🇾 Stop 🇵🇸 Genocide.,0.0,negative,0.7043414264917374,multilingual,Unknown,love,0.08612921088933945,0.023139366880059242,0.2785365879535675,0.0191995520144701,0.47468191385269165,0.02775791846215725
+x,comment,2014903711987102079,@AfralAbdullah The Saudi's themselves are maintaining their highest honour granted to him. Almost all who have authority are not withdrawing. It means that they believe him to be deserving &amp; to retain the honours.,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,positive,,0,0,1,0,0.847459653019905,3,,turnera,0.0,positive,0.49153217673301697,english,Mixed/Urban,happy,0.028179321438074112,0.05061674863100052,0.5730358958244324,0.018388748168945312,0.2476181536912918,0.03229885175824165
+x,comment,2014877027153936578,@AfralAbdullah Tan Sri / Dato Sri got no meaning nowadays. I'm sorry.,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,3,0,1,0,0.024692630767822243,6,,fkl5258 🈂️ PhD,0.0,negative,0.9176912307739258,english,Mixed/Urban,love,0.05134670063853264,0.13923175632953644,0.030443135648965836,0.19515427947044373,0.25310611724853516,0.2447698563337326
+x,comment,2014933359953395795,@AfralAbdullah J.low hebat boleh kambing hitam kan Najib,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,neutral,,2,0,0,0,0.5,2,,شكري,0.0,neutral,0.7831294536590576,english,Mixed/Urban,love,0.041256994009017944,0.014507409185171127,0.06264838576316833,0.024138547480106354,0.5225776433944702,0.030925866216421127
+x,comment,2014932989961277567,@AfralAbdullah Baik dia mengaku dia menteri kewangan terhodoh dalam sejarah malaysia.masa tuu j.low masih umur belia lagi tapi boleh dia salur dana kepada j.low untuk buat itu ini.sekarang j.low hidup bersenang lenang di luar negara dia Najib senang juga kena duduk Kajang https://t.co/JulBpQHFgz,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,2,0,0,0,0.0004927933216095082,2,,شكري,0.0,negative,0.998357355594635,malay,Malay/Bumiputera,anger,0.5705110430717468,0.03526228293776512,0.09177751839160919,0.026795249432325363,0.09100669622421265,0.02089589834213257
+x,comment,2014931860401627183,@AfralAbdullah Ada lagi cerita ni .,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,neutral,,2,0,0,0,0.5,2,,شكري,0.0,neutral,0.8350906372070312,english,Mixed/Urban,love,0.03527061268687248,0.029198355972766876,0.023711850866675377,0.04212504252791405,0.5335171818733215,0.1305968016386032
+x,comment,2014913808641491104,@AfralAbdullah Should have done long time the biggest crook were titles holder licence to steal.,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,2,0,0,0,0.03695372343063352,2,,James Baji,0.0,negative,0.8768209218978882,english,Mixed/Urban,no_clear_emotion,0.07767803966999054,0.015697946771979332,0.07859383523464203,0.020195873454213142,0.2736392617225647,0.02832072786986828
+x,comment,2015016513544368581,@AfralAbdullah Politicians should never be given titles in the first place. Perhaps only after retirement.,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,1,0,0,0,0.06417526602745055,1,,Time & Space,0.0,negative,0.7860824465751648,english,Mixed/Urban,love,0.0500188022851944,0.017358893528580666,0.0279350895434618,0.07384074479341507,0.7373369336128235,0.02578861266374588
+x,comment,2014999382974951918,@AfralAbdullah Tambah lagi masa di dalam tu. Bangkai betol la kau ni @NajibRazak,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,0,0,0,0,0.07004224061965941,0,,Ah50 #Hiruk,0.0,negative,0.7665258646011353,multilingual,Unknown,love,0.02752486988902092,0.01593116670846939,0.0329224094748497,0.01233969908207655,0.5982074737548828,0.034051697701215744
+x,comment,2015256338734145584,@AfralAbdullah Marhein tak dak title kluar penjara terus kena stigma sampah masyarakat..these Kayangan people klua penjara boleh berselindung disebalik title Dan consider reformed person.. Sepatutnya tak patut Ada two type of treatment,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,negative,,0,0,0,0,0.15389650762081145,0,,wan zulkifli,0.0,negative,0.4870116412639618,english,Mixed/Urban,love,0.30980411171913147,0.05019615963101387,0.05127612501382828,0.06847035884857178,0.4170997440814972,0.018174825236201286
+x,comment,2015074675475591253,@AfralAbdullah He comes to court no handcuff full blazer,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,neutral,,0,0,0,0,0.5,0,,hangtuah310857,0.0,neutral,0.8563480973243713,english,Mixed/Urban,no_clear_emotion,0.10121600329875946,0.06933144479990005,0.09514020383358002,0.028968965634703636,0.17917776107788086,0.04440848156809807
+x,comment,2015296562973528519,@AfralAbdullah Woww,,https://x.com/AfralAbdullah/status/2014801776487366824,2.014801776487367e+18,positive,,0,0,0,0,0.8747315719723701,0,,manuk2,0.0,positive,0.5824385732412338,multilingual,Unknown,surprise,0.011582549661397934,0.03659777715802193,0.03453046455979347,0.02127186767756939,0.03743850439786911,0.7155905961990356
+x,post,1946884079242408293,"PAS TUNGGU JEMPUTAN, BERSATU TUNGGU KEHADIRAN: PENYOKONG PN KEBINGUNGAN
+
+Hubungan PAS dan BERSATU dalam Perikatan Nasional (PN) kini kelihatan semakin goyah, bak retak menanti belah. BERSATU mendakwa telah menjemput PAS ke pertemuan penting, tetapi tiada https://t.co/WLK2LKMEp4",https://x.com/MyCommuNews0624/status/1946884079242408293,,,neutral,2025-07-20 10:45:10+00:00,40,36,13,201,0.5,91,151.201,,,neutral,0.5995542407035828,malay,Malay/Bumiputera,sadness,0.025215867906808853,0.05793590843677521,0.006877293810248375,0.8688808083534241,0.009137099608778954,0.020758263766765594
+x,post,2058144596409086024,https://t.co/6KXtrtenBs,https://x.com/TMPNews_/status/2058144596409086024,,,negative,2026-05-23 11:14:44+00:00,6,3,0,16,0.1793320968747139,9,12.016,,,negative,0.4022263437509537,multilingual,Unknown,love,0.09191024303436279,0.08803479373455048,0.04368382692337036,0.06350546330213547,0.3331421911716461,0.14280827343463898
+x,post,2058898985855967414,((LIVE)) PAS - BERSATU : Retak Sikit Atau Pecah Terus? https://t.co/k7cv1LokUN,https://x.com/MalaysiaGazette/status/2058898985855967414,,,neutral,2026-05-25 13:12:25+00:00,1,0,0,162,0.5,2,1.162,,,neutral,0.9371194839477539,english,Mixed/Urban,no_clear_emotion,0.09755959361791611,0.026438836008310318,0.057963382452726364,0.04017896205186844,0.19631613790988922,0.037481702864170074
+x,post,1874618212773720299,"Hubungan PAS dan Bersatu dah retak cuma PAS tak berani nak official je mcm MN dulu.
+
+Dulu ms MN, PAS tinggalkan Umno cmtu je utk pergi ke Bersatu😌",https://x.com/apanakdikato/status/1874618212773720299,,,negative,2025-01-02 00:46:25+00:00,129,35,13,7216,0.041419610381126404,249,245.216,,,negative,0.861934632062912,multilingual,Unknown,sadness,0.020142296329140663,0.027157528325915337,0.0077809966169297695,0.9031762480735779,0.017066534608602524,0.01490587554872036
+x,post,1825819224775995561,"Jika lihat cara bercakap, Wan Fayhsal seperti orang arah. Berbelit-belit, apa pun tak faham.
+
+Dalam kes Muhyiddin dan Sultan Pahang, PAS dilihat neutral. Jika berlaku perpecahan antara PAS dan Bersatu, orang pertama hilang kerusi ialah Wan Fayhsal 😂.
+ https://t.co/hgKNlyocyn",https://x.com/SyedAkramin/status/1825819224775995561,,,negative,2024-08-20 08:56:39+00:00,1031,306,74,123470,0.07020549774169921,2645,1988.47,,,negative,0.7659816741943359,multilingual,Unknown,happy,0.05658726394176483,0.0585002563893795,0.5442429184913635,0.022167669609189034,0.10065191239118576,0.041265200823545456
+x,post,1685819759521046528,"#langkawi  Hubungan politik antara Pas dan Bersatu dilihat sudah tidak sefahaman, seolah-olah retak menanti belah menjelang Pilihan Raya Negeri (PRN), kata Presiden Amanah Datuk Seri Mohamad Sabu.
+https://t.co/REDXnuSsog",https://x.com/hmetromy/status/1685819759521046528,,,negative,2023-07-31 01:08:46+00:00,6,0,5,4931,0.00048099160194398083,60,25.931,,,negative,0.9983966946601868,malay,Malay/Bumiputera,sadness,0.17232145369052887,0.20190155506134033,0.012297934852540493,0.5414901375770569,0.034814003854990005,0.023862028494477272
+x,post,2058699567508729864,"Pas-BERSATU: Retak Sikit Atau Pecah Terus?
+
+HUBUNGAN politik pasang surut itu lumrah, namun sejauh manakah keutuhan kerjasama antara Pas dan Bersatu dalam mengharungi dinamika politik tanah air ketika ini?
+
+Adakah desas-desus ketegangan yang kedengaran sekadar gimik politik atau ia sebenarnya petanda retak yang menanti belah?
+
+Saksikan kupasannya hanya di SKOP MG.
+
+#malaysiagazette #SkopMG #politikMalaysia #Pas #BERSATU",https://x.com/MalaysiaGazette/status/2058699567508729864,,,negative,2026-05-25 00:00:00+00:00,1,0,0,302,0.0004985332489013672,4,1.302,,,negative,0.9983382225036621,malay,Malay/Bumiputera,anger,0.5354707837104797,0.07832864671945572,0.017855318263173103,0.2582590878009796,0.056583989411592484,0.013302315026521683
+x,post,1918661707049955776,"Diorang dah tak sebut ‘PN’ sekarang. PAS dan BERSATU sedang bergaduh! PN sedang bergolak, retak dan bakal roboh ke tanah. BERSATU bakal bungkus ikat mati selama-lamanya dan beberapa ahli parlimen PAS akan memberi sokongan kepada PMX sehingga penggal seterusnya.
+
+Selamat tinggal, BERSATU!
+Selamat datang ke Penjara Sg Buloh, Muhyiddin dan Hamzah!",https://x.com/Mat_Jaket/status/1918661707049955776,,,negative,2025-05-03 13:39:32+00:00,355,67,17,38145,0.010314799100160588,820,578.145,,,negative,0.965617336332798,multilingual,Unknown,anger,0.41578930616378784,0.039062052965164185,0.07978551089763641,0.023642687126994133,0.08521488308906555,0.020300034433603287
+x,post,826614854282682369,"Kerjasama Pas, Bersatu bawa perpecahan https://t.co/rUHoxS68GK https://t.co/9295O3y6hd",https://x.com/SinarOnline/status/826614854282682369,,,negative,2017-02-01 02:15:13+00:00,5,0,0,0,0.1380865305662155,5,5.0,,,negative,0.5397115647792816,multilingual,Unknown,no_clear_emotion,0.21204639971256256,0.04091797396540642,0.06453675031661987,0.14005036652088165,0.19948552548885345,0.0389421172440052
+x,post,1929659346918822013,"POV
+Salam Subuh.
+
+Disclaimer; Post ini agak panjang, jika anda tidak suka, sila skip shj, habis cerita.
+
+1. Dalam hati kecilku, aku memang mengharapkan REFORM berlaku setelah 22 tahun berada dibawah pemerintahan Dr. M (@chedetofficial). Ada yang kata, beliau memerintah secara ""kuku besi"", ada juga yang kata beliau memerintah secara ""authoritarian"". Benar atau tidak, terserah kepada penilaian anda.
+
+2. Apabila PH menang PRU sebagai satu gabungan pada PRU14  yg merupakan kemenangan pertama sebagai gabungan politik, harapanku untuk melihat reforn berlaku mula kuat (walaupun tidak 100%  memandangkan Dr. M yg diangkat menjadi PM). Bersangka baik, aku ingatkan Dr. M sudah benar² berubah & mahu bersama PH mentadbir negara & membuat reform.
+
+Harapan itu berkecai bersama ""debu runtuhan bangunan"" kerajaan PH yg hanya bertahan 22 bulan. Reform entah kemana.
+
+3. Kini, PH mengepala'i Kerajaan Perpaduan bersama lima gabungan utama; PH, BN, GPS,  GRS, & Warisan selain mendapat sokongan dari parti² lain.  PMnya pula dari PKR/PH.
+Adakah kita melihat REFORM berlaku dibawah kepimpinan icon REFORMASI sendiri, @anwaribrahim? 
+
+Untuk berlaku adil kepadanya, betul lah dia perlu lebih masa & perlu kuasa mutlak (PH sebagai kerajaan) untuk melaksana reform secara total & efektif, mamun, apa yg berlaku didalam partinya dikesalkan ramai pihak. 
+
+Panggilan ""Timb Presiden berBintikan Presiden"" (yg dianggap ramai pihak sbg amalan nepotisma) dikatakan lari dari matlamat untuk reform? 
+
+Ramai berpendapat antara perkara yg perlu reform termasuklah membasmi amalan nepotisma, kronisma. Nah, jika amalan itu dilihat berlaku dalam salah satu parti utama yg menjadi kerajaan, bgmn hendak yakin perkara yg sama tidak berlaku diperingkat kerajaan?
+
+4. Perpecahan yg berlaku dlm parti PKR tidak harus dipandang ringan oleh pimpinan tertinggi parti.
+YDPA, Sultan Ibrahim bertitah; ""Begitu juga apabila wujud lagi banyak parti politik atau kem dalam parti, maka rakyat akan berpecah belah dan makin benci membenci.
+“Gunalah akal sebelum buat sebarang keputusan. Tidak ada hadiah yang lebih istimewa buat saya selain daripada rakyat yang bersatu padu,” titah baginda sempena sambutan ulang tahun keputeraan rasminya.
+
+Apakah ada yg bertanggapan YDPA tidak mengetahui & mengikuti pergolakan politik parti semasa? Sudah tentu perpecahan tidak menyenangkan baginda.
+
+Isu pertandingan dalam pemilihan PKR baru² ini boleh dielak, namun diteruskan juga, jesteru ia mengundang tanggapan ada pihak yang berkepentingan  meletakan ""kepentingan peribadi"" mengatasi kepentingan parti.
+
+Semuga ""siapa makan cili dia yg rasa pedasnya"" ambil maklum & menghayati titah YDPA.
+
+5. Saperti yang dilapor media, benarkah Anwar sedang berdepan ‘ujian paling getir’ mengekalkan keDAMAIan kerajaan perpaduan?
+
+Tidak cukup dengan ""tertumpasnya"" Rafizi @rafiziramli sebagai orang No.2 parti, ia ditambah pula dengan dakwaan PKR ""membuka pintu"" utk membawa masuk @tzafrul_aziz yang dijangka akan atau boleh mengakibatkan pergeseran antara Umno & PKR menjelang Pru16. Ada yg berpendapat pengumuman TZ juga, satu ""percaturan""; namun; selagi tiada bukti, ia tinggal sebagai tanggapan sahaja.
+
+Menghairankan bila orang² kuat disekeliling Anwar yg dulu lantang ""membahan"" Rafizi sebelum pemilihan, kini se-olah² berada didalam ""hibernation mode"", malah ada yg terlihat terus senyap seolah sudah menjadi ""bisu"", bila Anwar & Nurul Izzah diserang & dikecam dlm hampir semua platform media massa. 
+
+Anwar & Nurul Izzah pula umpama pesilat² handalan yg sudah kehilangan ""buah"" (istilah dlm persilatan) untuk membalas ""pukulan"".
+
+Aku tidak terkejut jika Anwar juga akan ""membuka pintu"" untuk menerima masuk @AzminAli & the gang, menerima parti PAS, Bersatu, dll untuk megekalkan jawatan PM bagi penggal kedua. Khabar angin sudah ""bertiup"" & menjadi bualan rakyat.
+
+Elok² tak ada masa'alah cari masa'alah, tak sakit cari penyakit, sekarang terpaksa hadaplah apa juga yg mendatang. Kami hanyalah rakyat biasa yang akan terus memerhati.
+
+Waullahualam.",https://x.com/AfralAbdullah/status/1929659346918822013,,,negative,2025-06-02 22:00:14+00:00,445,123,34,66819,0.0005085468292236328,1270,859.819,,,negative,0.9983048439025879,malay,Malay/Bumiputera,no_clear_emotion,0.06673140078783035,0.1461005061864853,0.10662871599197388,0.04373593628406525,0.17728501558303833,0.13604536652565002
+x,post,2057681635798307095,"#Marang Hubungan PAS dan BERSATU diibaratkan sebagai retak menanti belah berikutan dua Ahli Dewan Undangan negeri (ADUN) parti itu tidak mahu menarik balik sokongan kepada kerajaan Negeri Sembilan sebaliknya mengambil jalan berkecuali.
+https://t.co/TOjhJlqQ1O",https://x.com/hmetromy/status/2057681635798307095,,,positive,2026-05-22 04:35:06+00:00,1,0,0,412,0.957913315296173,5,1.412,,,positive,0.8597110509872437,malay,Malay/Bumiputera,anger,0.5284908413887024,0.15883490443229675,0.02708199992775917,0.22025591135025024,0.034949976950883865,0.01016106829047203
+x,post,2059794094470451681,"Pertikaian PAS-Bersatu memuncak, PN di ‘ambang perpecahan’, kata penganalisis
+#BeritaFMT https://t.co/8rglJXiRtu",https://x.com/fmtoday/status/2059794094470451681,,,neutral,2026-05-28 00:29:15+00:00,1,0,1,604,0.5,8,4.604,,,neutral,0.8815957903862,english,Mixed/Urban,sadness,0.2626711130142212,0.05489738658070564,0.061783768236637115,0.28624409437179565,0.09684903174638748,0.027466431260108948
+x,post,2056409942597542378,"Dan sekarang nak harapkan PN? PAS? Aku tak yakin. Dari segi ideologi dan idealisme, mereka lebih jauh dari apa yang aku harapkan. Undi centre and left sudah makin berpecah belah. Undi ultra right terarah kepada PAS. Bersatu? Apa yang nak diharapkan, ada agar umbi ke?",https://x.com/thisisdanielll/status/2056409942597542378,,,negative,2026-05-18 16:21:51+00:00,0,0,1,11,0.0074984192848205344,1,3.011,,,negative,0.9750052690505981,malay,Malay/Bumiputera,fear,0.06379162520170212,0.7585074305534363,0.06039443612098694,0.014402885921299458,0.012023468501865864,0.062400005757808685
+x,post,2058474113262592456,"Pas-BERSATU: Retak Sikit Atau Pecah Terus? 
+
+HUBUNGAN politik pasang surut itu lumrah, namun sejauh manakah keutuhan kerjasama antara Pas dan Bersatu dalam mengharungi dinamika politik tanah air ketika ini? 
+
+Adakah desas-desus ketegangan yang kedengaran sekadar gimik politik atau ia sebenarnya petanda retak yang menanti belah? 
+
+Saksikan kupasannya hanya di SKOP MG.
+
+#malaysiagazette #SkopMG #politikMalaysia #Pas #BERSATU",https://x.com/MalaysiaGazette/status/2058474113262592456,,,negative,2026-05-24 09:04:07+00:00,1,0,0,449,0.0004985332489013672,5,1.449,,,negative,0.9983382225036621,malay,Malay/Bumiputera,anger,0.5354707837104797,0.07832864671945572,0.017855318263173103,0.2582590878009796,0.056583989411592484,0.013302315026521683
+x,post,2058741465115926885,"#BeritaFMT Ketua Bersatu Terengganu Razali Idris berkata perbalahan PAS-Bersatu hanya untungkan lawan yang mahu melihat gabungan itu berpecah.
+
+Artikel Penuh: https://t.co/hWgGIrJGWL",https://x.com/fmtoday/status/2058741465115926885,,,negative,2026-05-25 02:46:29+00:00,0,0,1,288,0.10330603569746016,3,3.2880000000000003,,,negative,0.6556465476751328,multilingual,Unknown,no_clear_emotion,0.1682359129190445,0.03611326962709427,0.05733252689242363,0.1447288542985916,0.13226869702339172,0.03113318793475628
+x,post,2059790627479712222,"#BeritaFMT Seorang penganalisis berkata Bersatu, Gerakan dan MIPP akhirnya akan berpisah dengan PN jika PAS terus mengukuhkan cengkamannya dalam gabungan itu.
+
+Artikel Penuh: https://t.co/7W3Cv7eA0o",https://x.com/fmtoday/status/2059790627479712222,,,neutral,2026-05-28 00:15:29+00:00,2,0,0,509,0.5,7,2.509,,,neutral,0.9956120252609253,malay,Malay/Bumiputera,no_clear_emotion,0.07034014165401459,0.028380990028381348,0.04234887659549713,0.031577274203300476,0.09254248440265656,0.04973740130662918
+x,post,2059096111500186044,"Dalam politik, ayat seperti “kaji semula kerjasama” jarang keluar tanpa sebab besar. Ia boleh menjadi petanda hubungan PAS dan BERSATU semakin retak, lebih-lebih lagi jika PAS merasakan mereka sudah cukup kuat dengan penyokong serta jentera sendiri.",https://x.com/TheKertasHitam/status/2059096111500186044,,,negative,2026-05-26 02:15:43+00:00,0,0,1,6,0.00048102736473082386,1,3.006,,,negative,0.9983965754508972,malay,Malay/Bumiputera,fear,0.3601182997226715,0.4483870565891266,0.06173434853553772,0.07660751789808273,0.0268913134932518,0.01162036880850792
+x,post,2058368734784573637,"Menjelang PRU16, tiba2 banyak terjadi kejutan. Penubuhan Parti Bersama yg katanya nak tanding banyak kerusi, dan perpecahan Pas-Bersatu menjadikan situasi PRU16 saangat2 sukar diramal...",https://x.com/azamazman90/status/2058368734784573637,,,neutral,2026-05-24 02:05:23+00:00,0,0,0,15,0.5,0,0.015,,,neutral,0.7973193526268005,english,Mixed/Urban,fear,0.05068402364850044,0.7275774478912354,0.02116873860359192,0.02429025247693062,0.010328792966902256,0.129718616604805
+x,post,2057799331785454074,@SinarOnline PAS dan Bersatu dah lama retak tapi PAS masih nak makan najis Bersatu. https://t.co/DOCoPl1jQX,https://x.com/Malaysian10/status/2057799331785454074,,,negative,2026-05-22 12:22:47+00:00,0,0,0,49,0.00061068534851072,0,0.049,,,negative,0.9979643821716309,malay,Malay/Bumiputera,surprise,0.019299853593111038,0.07208899408578873,0.015980856493115425,0.08576610684394836,0.07498185336589813,0.6865426898002625
+x,post,1810327228426928621,"@_fatheema_ Saya agak la.. budak2 muda ni pun ada masa dia akan nampak kelemahan dan betapa melencongnya pemimpin PN Pas Bersatu mereka
+
+Muda2 dulu saya pun sokong pas juga
+Until TGNA passed away..and berpecah kepada Amanah",https://x.com/AbidinAmru/status/1810327228426928621,,,negative,2024-07-08 14:57:00+00:00,4,0,0,494,0.0005027711391448753,8,4.494,,,negative,0.9983240962028503,malay,Malay/Bumiputera,no_clear_emotion,0.09002330154180527,0.03471662849187851,0.01951386220753193,0.1197342500090599,0.2632899880409241,0.09938869625329971

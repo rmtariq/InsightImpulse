@@ -1,0 +1,34 @@
+{
+  "fetched_at": "2026-07-12T15:40:43",
+  "csv_file": "data/projects/political/PRN/PRN_Johor/crawls/indian_narrative/PRN_Indian_Narrative_Johor_20260712_154043.csv",
+  "total_articles": 290,
+  "by_crawl_method": {
+    "direct_scrape": 30,
+    "google_news_rss": 554
+  },
+  "top_domains": {
+    "news.google.com": 399,
+    "malaymail.com": 45,
+    "bharian.com.my": 20,
+    "hmetro.com.my": 20,
+    "malaysiakini.com": 20,
+    "freemalaysiatoday.com": 16,
+    "theborneopost.com": 14,
+    "themalaysianreserve.com": 10,
+    "utusan.com.my": 10,
+    "makkalosai.com.my": 10,
+    "varnam.my": 10,
+    "vanakkammalaysia.com.my": 10
+  },
+  "queries_used": 74,
+  "direct_sources": [
+    "MO_N9_FILTERED",
+    "MO_TAMIL_ALL",
+    "VARNAM_FILTERED",
+    "VARNAM_ALL",
+    "VANAKKAM_FILTERED",
+    "VANAKKAM_TAMIL"
+  ],
+  "cost": "RM0 — Google News RSS + Tamil RSS (tiada API key)",
+  "state_focus": "Johor"
+}

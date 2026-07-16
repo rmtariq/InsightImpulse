@@ -1,0 +1,31 @@
+# N9 Chinese Narrative (subset of 3-negeri pack)
+# Generated: 2026-06-12 12:35
+# dataset_size: 2000 · project: pas_break_2026
+
+## S1A1 — News [Media Cina Negeri Sembilan]
+# Jenis: media_chinese · Prioriti: Tinggi
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Negeri Sembilan OR 森美兰 when:30d
+
+## S1A2 — News [Proxy BM Negeri Sembilan]
+# Jenis: proxy_about_chinese · Prioriti: Rendah
+"pengundi Cina" OR "komuniti Cina" "Negeri Sembilan" PRN when:30d
+
+## S1B1 — news,facebook [DAP/PH Negeri Sembilan]
+# Jenis: party_official · Prioriti: Tinggi
+DAP OR "Pakatan Harapan" "Negeri Sembilan" PRN when:30d
+
+## S1B2 — news,facebook,x [Bandar Negeri Sembilan]
+# Jenis: seat_bandar · Prioriti: Tinggi
+Seremban OR Nilai calon OR PRN "Negeri Sembilan" when:30d
+
+## S1B3 — news,facebook [MCA/BN Negeri Sembilan]
+# Jenis: party_official · Prioriti: Sederhana
+MCA OR "Barisan Nasional" "Negeri Sembilan" PRN when:30d
+
+## SX1 — News [3 negeri serentak (media Cina)]
+# Jenis: media_chinese · Prioriti: Tinggi
+"Sin Chew" OR "China Press" ("Negeri Sembilan" OR Johor OR Melaka) PRN when:30d
+
+## SX2 — news,facebook [3 negeri — pengundi Cina]
+# Jenis: proxy_about_chinese · Prioriti: Rendah
+"pengundi Cina" ("Negeri Sembilan" OR Johor OR Melaka) when:30d

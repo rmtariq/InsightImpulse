@@ -1,0 +1,155 @@
+{
+  "generated": "2026-07-15 02:08:59",
+  "master_csv": "data/combined/Combined_facebook_MAC1_MAC2_master_20260715_015148.csv",
+  "summary": {
+    "posts": 4,
+    "comments": 7019,
+    "engagement": 29892
+  },
+  "posts": [
+    {
+      "id": "POST-1",
+      "title": "Kerjasama dua parti keramat · Kuasa Melayu Islam (Ustazah Asmak)",
+      "question": "Dua parti keramat terbesar bekerjasama di N9 — Kembalikan kuasa Melayu Islam",
+      "post_url": "https://www.facebook.com/ustazahasmakhusinoriginal/posts/pfbid02wai7Txzb1LyN3tJLQRhZxWnRQD7CxBDW1sToYX4QfNpubCFjdHRcTif9cpuABuSnl",
+      "crawled_comments": 3075,
+      "likes": 14579,
+      "shares": 196,
+      "negative_pct": 65.7,
+      "positive_pct": 21.9,
+      "vote_signal": null,
+      "cooperation_signal": {
+        "setuju": 809,
+        "neutral": 1902,
+        "bimbang": 93,
+        "tidak_setuju": 271
+      },
+      "analytics_line": "3,075 komen crawled (82.9% FB) · 14,579 likes · 196 shares · Sentimen 65.7% neg / 21.9% pos · Emosi Love 50.2%",
+      "insight_ringkas": "Post **paling viral** (14.6K likes). Setuju ~69.0% vs tidak 271 — base Melayu-Islam **engaged** (Love 50.2%) walaupun sentiment negatif tinggi (debate panas). Frame 'dua parti keramat' = kod MN; pushback dari anti-BN dan skeptikal PAS murni.",
+      "tema_komen_top": "mn_gabungan (1130), melayu_islam (899), skeptikal (62), tolak_ph_dap (33)",
+      "komen_representatif": [
+        "saya 50 tahun dengar ceramh PAS...di peluk DAP dia hentam UMNO sekarang dia nak pelok UMNO dia hentam DAP....50 tahun usia saya menyaksikan Demi Allah demi rasul...saya berkata benar.",
+        "kerjasama tidak semestinya melalui gabungan parti secara rasmi atau mesti rasmi atau yang paling penting rakyat melayu Islam yang perlu bijak bersatu berdasarkan isu?",
+        "Salleh Abd Ghani kena faham politik Islam  .belajar lagi dan banyakkan membaca.. baru faham apa yang TGHH buat.",
+        "Saya bersetuju jika pas dilupuskan",
+        "Atau sebenarnya kembalikan kuasa MCA dan MIC. Di PRN Johor antara parti yang untung adalah MIC di mana 2 kerusi yang mereka menang adalah kawasan majoriti pengundi Melayu Islam. Terimakasih pada PAS yang menggalakkan ahl"
+      ],
+      "tindakan_disyorkan": [
+        "Guna influencer selari Ustazah Asmak — konsisten, elak over-promise gabungan rasmi",
+        "Rapid response: bezakan 'kerjasama rakyat Melayu' vs 'gabungan parti'",
+        "Jangan biarkan negatif dibaca sebagai anti-MN — siarkan testimoni setuju"
+      ],
+      "impak_bloc": "MN +2pp · PAS Solo +1pp",
+      "method": "rule_based_rag"
+    },
+    {
+      "id": "POST-2",
+      "title": "UMNO & PAS · Selamatkan Adat Pepatih",
+      "question": "Majoriti Melayu sokong UMNO & PAS kerjasama — selamatkan Adat Pepatih",
+      "post_url": "https://www.facebook.com/PengundiMY/posts/pfbid02gAw8bLF3EDx3pv2p4X8isX9xU8W6SrcXJ1GKHU6ygRCj2cm9x1MEDekNtc6sKSW6l",
+      "crawled_comments": 1532,
+      "likes": 3372,
+      "shares": 176,
+      "negative_pct": 59.3,
+      "positive_pct": 23.0,
+      "vote_signal": null,
+      "cooperation_signal": {
+        "setuju": 316,
+        "tidak_setuju": 142,
+        "neutral": 1032,
+        "bimbang": 42
+      },
+      "analytics_line": "1,532 komen crawled (98.1% FB) · 3,372 likes · 176 shares · Sentimen 59.3% neg / 23.0% pos · Emosi Love 46.6%",
+      "insight_ringkas": "Coverage **98%** — data paling lengkap untuk frame **Adat Pepatih**. Setuju ~63.2% — komen sebut Hadi/Zahid, target N9 BN+PAS. Negatif = politicking dalaman (Johor/Gerakan), bukan reject adat.",
+      "tema_komen_top": "mn_gabungan (603), melayu_islam (337), adat_istana (59), sokong_bn_pn (42)",
+      "komen_representatif": [
+        "Hadi awang dah jelas akn sokong perpaduan pas bn di n9 asalkan jgn ph..tapi zahid hamidi sinis kata jgn percaya sgt dgn pas.. jd zahid la yg nmpk yg tak nak... Sama2 kita tunggu apa yg terjadi.",
+        "Semoga BN dan pas menang bergaya PRN N9. Apa guna melayu terus bersengketa akhirnya meroyan tak cokop cokop jomloh sedangkan salah sendiri tak sedar. BN + pas = PH bungkus",
+        "kita sama2 kerjasama dahulu selebihnya kita Tawakkal pada Allah",
+        "Di Johor..pas dpt telo..dan besar kemungkinan di NS pon sama😛😛",
+        "Semoga PH melingkup di n9"
+      ],
+      "tindakan_disyorkan": [
+        "Couple MN dengan adat + Undang — elak sentuh sensitif MB vs Undang-4",
+        "Waar room message: 'selamatkan Adat Pepatih' = hook Melayu tradisional N9",
+        "Monitor Zahid vs Hadi narrative — satu suara sahaja di digital"
+      ],
+      "impak_bloc": "MN +3pp (adat frame)",
+      "method": "rule_based_rag"
+    },
+    {
+      "id": "POST-3",
+      "title": "PH vs BN+PN · N9 ≠ Johor (Poll A/B)",
+      "question": "PRN N9: PH vs BN+PN (N9 ≠ Johor)",
+      "post_url": "https://www.facebook.com/PengundiMY/posts/pfbid02VT6JLaRQw47MfdvZwYTiKZmDUD8mtEEFibu7npVFZ3B5xAoa8WDiZQWmiRN34EJ2l",
+      "crawled_comments": 881,
+      "likes": 421,
+      "shares": 97,
+      "negative_pct": 41.1,
+      "positive_pct": 41.5,
+      "vote_signal": {
+        "A_PH_explicit": 64,
+        "B_BN_PN_explicit": 202,
+        "Anti_PH_soft": 37,
+        "Pro_MN_soft": 1,
+        "other": 577,
+        "A_pct_of_decided": 24.1,
+        "B_pct_of_decided": 75.9
+      },
+      "cooperation_signal": null,
+      "analytics_line": "881 komen crawled (98.0% FB) · 421 likes · 97 shares · Sentimen 41.1% neg / 41.5% pos · Emosi Love 31.7%",
+      "insight_ringkas": "Undian eksplisit: BN+PN **75.9%** vs PH **24.1%** (202 B vs 64 A). Frame 'N9 ≠ Johor' berkesan — komen pro-MN/anti-PH dominan. PH perlu counter-narrative khusus N9 (bukan copy Selangor/Johor).",
+      "tema_komen_top": "mn_gabungan (118), melayu_islam (40), sokong_bn_pn (35), tolak_ph_dap (35)",
+      "komen_representatif": [
+        "Biru dah menang bagi lah merah pulak.Apa2 pun PMX terbaik",
+        "Berangan itu free. BN tkde pun kluar apa2 kenyataan utk kerjasama dngan Pas. Pas jer yg terhegeh hegeh nk bersama BN. Sama jgk kat Johor. Last2 Pas kene reject dngan Onn Hafiz sendiri. Padam muka",
+        "Sokong pH lah yg terbaik",
+        "Tentu lah B...sbb pakatan harapan dah campur dgn pati kominis...",
+        "RAKYAT SABAH dah kuburkan PH BANGSA JOHOR dah kuburkan PH WAGHIH apo laie !!!!"
+      ],
+      "tindakan_disyorkan": [
+        "MN: tekankan perbezaan N9 — adat, MN pragmatik, bukan model Johor",
+        "PH: elak debat DAP frontal; fokus ekonomi + kestabilan negeri",
+        "Digital: boost komen B dengan testimoni Undang/adat (selari Post 2)"
+      ],
+      "impak_bloc": "MN/PN +3pp · PH -2pp",
+      "method": "rule_based_rag"
+    },
+    {
+      "id": "POST-4",
+      "title": "PAS & UMNO kerjasama di PRN N9",
+      "question": "PAS & UMNO akan kerjasama di PRN Negeri Sembilan",
+      "post_url": "https://www.facebook.com/PengundiMY/posts/pfbid02dpkQEc65Yw6qqHRs7Se38QkTrR48Pmpd5KBscVx6wPEKRS7i4UDQb1X6tts1UMd8l",
+      "crawled_comments": 1531,
+      "likes": 3838,
+      "shares": 194,
+      "negative_pct": 53.6,
+      "positive_pct": 30.3,
+      "vote_signal": null,
+      "cooperation_signal": {
+        "setuju": 254,
+        "neutral": 1125,
+        "tidak_setuju": 125,
+        "bimbang": 27
+      },
+      "analytics_line": "1,531 komen crawled (97.2% FB) · 3,838 likes · 194 shares · Sentimen 53.6% neg / 30.3% pos · Emosi Love 48.1%",
+      "insight_ringkas": "Soalan direct — **1125 komen neutral** (wait-and-see). Setuju ~62.6% — pengundi **boleh terima** PAS+UMNO tetapi tunggu bukti (seat deal, manifesto). Engagement tinggi, commitment rendah.",
+      "tema_komen_top": "mn_gabungan (587), melayu_islam (405), sokong_bn_pn (25), tolak_ph_dap (23)",
+      "komen_representatif": [
+        "Pas ini, parti yang cuma mahu kuasa sahaja. Tiada pendirian dan misi yang teguh dalam pentadbiran negara. Jadi, parti ini hanya boleh hidup dengan isu dan menumpang sahaja. Tiada kebolehan dalam pentadbiran negara. Bn pu",
+        "Alhamdulillah terbaik TGHH sememangnye PAS ikhlas dlm \"PENYATUAN UMAH\"...kite benam DAP BANGSAT ni geng👍",
+        "Berlapang dada la semua, jgn dok jaga tompolok masing2.. penyatuan ummah penting… sabah & johor dh setel.. n9 kasi setel…",
+        "Baguslah kalau begitu... Biar pertembungan dua penjuru je. PAS melihat jauh lebih ke depan tentang apa yg mungkin terjadi jika pertembungan byk penjuru. Moga PH tewas juga di N9.",
+        "Jnji PH/DAP kalah teruk"
+      ],
+      "tindakan_disyorkan": [
+        "Perlu proof point: contoh kerusi, calon, atau statement bersama",
+        "Convert neutral → setuju dengan fakta (bukan slogan)",
+        "Elak ulang Post 1/2 — fokus 'bagaimana' bukan 'setuju tak'"
+      ],
+      "impak_bloc": "MN +1pp (belum fully committed)",
+      "method": "rule_based_rag"
+    }
+  ],
+  "kesimpulan_gabungan": "Empat post viral Pengundi MY menunjukkan **sokongan komen terhadap MN/BN+PN** (Poll Post 3: B 76%) dan **kerjasama UMNO–PAS** bila diframe Melayu-Islam/adat (Post 1–2 ~63–69% setuju). Sentiment negatif tinggi = debate heated, bukan reject total. Post 4: pengundi wait-and-see — perlu proof point. Impak War Room: MN kekal laluan utama; PH perlu counter khusus N9."
+}

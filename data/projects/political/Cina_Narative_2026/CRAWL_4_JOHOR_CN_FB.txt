@@ -1,0 +1,77 @@
+================================================================================
+CRAWL 4 — Johor PRN · Media Cina + FB Group · PAS/PN Narrative
+Projek: Cina_Narative_2026 · Chinese_Response_Narative_Issues
+Matlamat: Kukuhkan intel naratif Cina untuk kempen Johor · pastikan PAS+PN menang
+================================================================================
+
+TETAPAN SAMA SETIAP CRAWL:
+  Mod Crawl        → Keyword Search
+  Analysis Type  → Issue Detection  (atau Social Listening)
+  Project          → Chinese_Response_Narative_Issues — PAS_Politics_News
+  Dataset Size     → 2,000
+  Date Range       → Last 14 Days  ← lebih luas dari Crawl 1–3
+  Comment Sampling → Smart
+
+PENTING:
+  • SATU crawl = SATU query di bawah
+  • Selesai satu → mula seterusnya
+  • Pastikan Project dropdown BETUL sebelum Start
+
+================================================================================
+4A — Media Cina Johor (News) · PRIORITI 1
+================================================================================
+Platform:  [X] News   [ ] Facebook   [ ] X   [ ] TikTok   [ ] IG   [ ] YouTube
+
+QUERY:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" OR "光明日报" (Johor OR 柔佛 OR "Johor Bahru" OR 新山 OR 士古来 OR Skudai) when:14d
+
+================================================================================
+4B — Naratif 巫伊 / PAS–BN Johor (News + X) · PRIORITI 1
+================================================================================
+Platform:  [X] News   [ ] Facebook   [X] X
+
+QUERY:
+(伊党 OR "PAS" OR "Parti Islam") AND (国阵 OR "Barisan Nasional" OR UMNO OR 巫统) AND (柔佛 OR Johor OR "Johor polls" OR "州选") when:14d
+
+================================================================================
+4C — Facebook Group Komuniti Cina Johor · PRIORITI 1
+================================================================================
+Platform:  [ ] News   [X] Facebook   [ ] X   [ ] TikTok   [ ] IG   [ ] YouTube
+
+QUERY:
+("新山" OR "Johor Bahru" OR Skudai OR "士古来" OR Muar OR 麻坡 OR Batu Pahat OR 峇株) AND ("州选" OR PRN OR "pilihan raya negeri" OR 选举) AND ("伊党" OR PAS OR 国阵 OR DAP OR 行动党)
+
+================================================================================
+4D — DAP/PH vs PAS–BN (proxy pengundi Cina) · PRIORITI 2
+================================================================================
+Platform:  [X] News   [X] Facebook   [X] X
+
+QUERY:
+("pengundi Cina" OR "komuniti Cina" OR "Chinese voters") AND Johor AND (PAS OR DAP OR "Pakatan Harapan" OR UMNO OR "Barisan Nasional") when:14d
+
+================================================================================
+4E — Isu respons: syurga / Harakat / Shawn Loh (Cina + BM) · PRIORITI 2
+================================================================================
+Platform:  [X] News   [X] Facebook   [X] X   [X] TikTok
+
+QUERY:
+("Harakatdaily" OR "罗盛年" OR "Shawn Loh" OR "非穆斯林" OR "pusat khidmat" OR "tak bau syurga" OR 天堂 OR "伊党" OR "akaun palsu") AND (Johor OR 柔佛 OR Malaysia) when:14d
+
+================================================================================
+4F — TikTok/IG naratif muda Cina Johor · PRIORITI 3
+================================================================================
+Platform:  [ ] News   [ ] Facebook   [ ] X   [X] TikTok   [X] Instagram   [X] YouTube
+
+QUERY:
+Johor PRN OR "PRN Johor" OR 柔佛州选 OR (#PRNJohor OR #JohorPRN) OR (Skudai OR "新山" OR Stulang OR 士古来)
+
+================================================================================
+SELEPAS CRAWL 4 — REFRESH DASHBOARD
+================================================================================
+  cd /Users/rmtariq/Documents/InsightPulse
+  NEImpulse/bin/python scripts/build_cina_narrative_dashboard.py
+
+  Buka:
+  data/projects/political/Cina_Narative_2026/reports/cina_narrative_johor_dashboard.html
+
+================================================================================

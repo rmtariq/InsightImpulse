@@ -1,0 +1,6 @@
+total_rows_combined: 5906
+total_posts: 3398
+total_comments: 2508
+platforms: {'tiktok': 2354, 'youtube': 1452, 'instagram': 957, 'x': 639, 'facebook': 353, 'threads': 151}
+query_distribution: {'Q1_Coalition_General': 1646, 'Q2_PAS_Solo': 1488, 'Q3_Coalition_Split': 1285, 'Q4_Broad_v2': 647, 'Q5_Tension': 430, 'Q6_Leaders': 410}
+timestamp: 2026-05-30T16:42:44.436245

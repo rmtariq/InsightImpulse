@@ -1,0 +1,904 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,media_type,video_url,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,,,,,,neutral,2026-07-08 18:09:17.127475+00:00,0,0,0,0,0.5,0,video,,,neutral,0.0,unknown,Unknown,,0.0,neutral,0.0,0.0,0.0,0.0,0.0,0.0
+tiktok,post,7658871493111155989,"Assalamualaikum warahmatullahi wabarakatuh.
+
+Sejak sekian lama, saya berpeluang mengenali dan bersama-sama masyarakat Sri Medan dalam pelbagai urusan kemasyarakatan. Melalui ziarah, aktiviti kebajikan dan pertemuan bersama penduduk, saya melihat sendiri harapan, cabaran serta keperluan yang dihadapi oleh rakyat di sini.
+
+Daripada setiap pertemuan itulah saya memahami bahawa setiap keluarga menginginkan kehidupan yang lebih baik, bukan sahaja untuk hari ini, malah demi masa depan anak-anak mereka.
+
+Masih ada petani dan pekebun kecil yang mengharapkan peluang ekonomi yang lebih luas. Masih ada anak-anak muda yang memerlukan peluang pendidikan, latihan kemahiran dan pekerjaan. Ada juga warga emas, ibu tunggal, OKU serta golongan yang memerlukan yang mengharapkan bantuan yang lebih cepat dan tersusun.
+
+Begitu juga isu banjir, perparitan, saliran serta kemudahan asas yang perlu terus diberi perhatian demi keselesaan hidup masyarakat.
+
+Atas dasar itulah, saya membawa komitmen R.O.S.D.I sebagai ikhtiar untuk kita sama-sama membangunkan Sri Medan.
+
+Saya percaya, apabila ekonomi rakyat diperkasakan, anak-anak muda diberi peluang untuk maju, kebajikan masyarakat terus dipelihara dan kemudahan asas dipertingkatkan, insya-Allah Sri Medan akan terus melangkah ke hadapan sebagai sebuah kawasan yang lebih maju, harmoni dan sejahtera buat semua. 
+
+Dengan penuh rendah hati, saya memohon sokongan dan kepercayaan daripada seluruh warga Sri Medan. Berikanlah saya peluang untuk berkhidmat dan merealisasikan agenda R.O.S.D.I demi masa depan Sri Medan yang lebih baik.
+
+Insya-Allah, saya akan berusaha sedaya upaya memikul amanah yang diberikan dengan penuh kejujuran, keikhlasan dan rasa tanggungjawab demi kesejahteraan seluruh warga Sri Medan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7658871493111155989,,,positive,2026-07-08 18:09:17.127788+00:00,55,1,3,925,0.9994104325771331,68,video,https://www.tiktok.com/@ustaz.rosdi1/video/7658871493111155989,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7658871493111155989...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7658871493111155989: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980347752571106,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07132527232170105,0.05639342963695526,0.41022229194641113,0.03302015736699104,0.3687273859977722,0.019213026389479637
+tiktok,post,7657336116126813461,"Ramai tanya, kenapa seorang guru agama macam saya sanggup turun bertanding?
+
+Saya seorang anak watan, berkhidmat sebagai guru agama dan aktif bersama masyarakat di sini.
+
+Sri Medan ibarat pelajar yang perlukan bimbingan berterusan untuk terus membangun dan maju.
+Bimbingan terbaik datang daripada wakil rakyat yang ikhlas, amanah dan sentiasa dekat dengan rakyat.
+
+Saya bukan ahli politik berpengalaman.
+Saya seorang guru, yang biasa mendidik dan berkhidmat untuk masyarakat.
+
+Saya hadir bukan untuk berebut kuasa,
+tapi kerana tekad untuk membantu rakyat Sri Medan yang saya kasihi.
+
+Moga tekad ini membawa perubahan dan harapan baru buat Sri Medan.
+
+Jemput kenali latar belakang pendidikan, penglibatan dalam masyarakat, pengalaman kerjaya dan pengalaman politik saya.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7657336116126813461,,,negative,2026-07-08 18:09:17.436312+00:00,329,28,25,4450,0.0004847288131714089,426,video,https://www.tiktok.com/@ustaz.rosdi1/video/7657336116126813461,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7657336116126813461...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7657336116126813461: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983842372894287,malay,Malay/Bumiputera,Unknown,0.0,love,0.059595707803964615,0.02374206855893135,0.021763870492577553,0.0634339302778244,0.7704436182975769,0.023068895563483238
+tiktok,post,7657923871554718997,"Saya hadir bukan untuk berebut kuasa,
+tapi kerana tekad untuk membantu rakyat Sri Medan yang saya kasihi.
+
+Moga tekad ini membawa perubahan dan harapan baru buat Sri Medan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7657923871554718997,,,positive,2026-07-08 18:09:17.733164+00:00,524,101,51,12000,0.9950952231884003,796,video,https://www.tiktok.com/@ustaz.rosdi1/video/7657923871554718997,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7657923871554718997...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7657923871554718997: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9836507439613342,malay,Malay/Bumiputera,Unknown,0.0,love,0.07169080525636673,0.03580069914460182,0.028957638889551163,0.07296983897686005,0.7230841517448425,0.026664122939109802
+tiktok,post,7660159116635032852,"ANAK PERANTAU, KAMI MENANTI KEPULANGANMU 🚗
+
+Tempat mencari rezekimu kini mungkin di negeri orang, namun apabila tiba hari mengundi, pulanglah ke Sri Medan. 
+
+Setiap undi adalah amanah untuk menentukan masa depan kampung halaman yang kita cintai ini. 
+
+Jangan biarkan peluang ini berlalu. 
+
+🗳️ Buat seluruh anak perantau Sri Medan, pulanglah mengundi. Dan berikan undi kepada calon nombor 1, Ustaz Rosdi. 
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660159116635032852,,,positive,2026-07-08 18:09:18.052769+00:00,59,0,1,376,0.9993408381938933,63,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660159116635032852,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660159116635032852...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660159116635032852: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978027939796448,malay,Malay/Bumiputera,Unknown,0.0,love,0.10690484195947647,0.08234584331512451,0.04608682170510292,0.1660086214542389,0.4809648096561432,0.05844254419207573
+tiktok,post,7660133697429114132,"""Kita kena cari pemimpin yang tidak menzalimi orang, dan apabila dizalimi akan sabar...""
+
+Itulah antara pesanan daripada Imam Md Tahir, Imam Masjid Kampung Parit Jayus 4, ketika saya singgah bertanya khabar dan berbual dengan beliau.
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660133697429114132,,,negative,2026-07-08 18:09:18.598546+00:00,50,3,5,532,0.09285995364189148,63,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660133697429114132,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660133697429114132...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660133697429114132: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.6904668211936951,malay,Malay/Bumiputera,Unknown,0.0,love,0.11927448213100433,0.02733094058930874,0.04444745555520058,0.03567243367433548,0.5391107797622681,0.026841169223189354
+tiktok,post,7660108090313837845,"Senyum kan sedekah 😁
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660108090313837845,,,negative,2026-07-08 18:09:18.905071+00:00,55,3,2,422,0.1275693878531456,64,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660108090313837845,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660108090313837845...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660108090313837845: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.5747687071561813,multilingual,Unknown,Unknown,0.0,love,0.0319942869246006,0.017587551847100258,0.02990521863102913,0.03476766496896744,0.7399234175682068,0.03428306803107262
+tiktok,post,7660088365068422420,"Terima kasih YB Dato' Mumtaz Md Nawi, Ahli Parlimen Tumpat, atas sokongan dan seruan kepada warga Sri Medan untuk memberikan kepercayaan kepada saya.
+
+Insya-llah, saya akan berusaha memberikan yang terbaik buat rakyat Sri Medan.
+
+11 Julai nanti, berikan undi anda kepada Calon No. 1, Ustaz Rosdi.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660088365068422420,,,positive,2026-07-08 18:09:19.246809+00:00,63,3,3,472,0.9993748486042022,73,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660088365068422420,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660088365068422420...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660088365068422420: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979161620140076,malay,Malay/Bumiputera,Unknown,0.0,love,0.0304401908069849,0.013707809150218964,0.08208560943603516,0.025310907512903214,0.6652633547782898,0.0247377660125494
+tiktok,post,7660071415890201876,"Sokongan daripada pelbagai lapisan masyarakat memberi keyakinan bahawa Sri Medan mahukan wakil rakyat yang sentiasa bersama rakyat.
+
+Terima kasih kepada YB Datuk Dominic Lau dan komuniti Tionghua yang menyatakan sokongan serta harapan untuk masa depan Sri Medan.
+
+Saya mohon kepercayaan dan undi daripada masyarakat Tionghua serta seluruh warga Sri Medan untuk bersama membina Sri Medan yang lebih baik.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660071415890201876,,,positive,2026-07-08 18:09:19.563038+00:00,60,3,3,386,0.9993919789791106,69,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660071415890201876,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660071415890201876...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660071415890201876: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979732632637024,malay,Malay/Bumiputera,Unknown,0.0,love,0.03744354471564293,0.018380416557192802,0.16568315029144287,0.02796623297035694,0.6176908612251282,0.024238133803009987
+tiktok,post,7660068210544364820,"📌 Dalam setiap urusan kehidupan, Islam mengajar kita untuk sentiasa menjaga adab. Begitu juga ketika menziarahi orang sakit. 
+
+Tidak kira sama ada yang sakit itu ahli keluarga, sahabat, jiran tetangga atau sesiapa sahaja, setiap ziarah perlulah dilakukan dengan penuh adab dan ihsan.
+
+Di sini saya kongsikan 4️⃣ adab menziarahi orang sakit. Jika ada adab lain yang boleh kita sama-sama amalkan, kongsikan pandangan anda di ruangan komen.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660068210544364820,,,positive,2026-07-08 18:09:19.865537+00:00,14,0,0,192,0.9994052290916442,15,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660068210544364820,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660068210544364820...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660068210544364820: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.998017430305481,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.02699674665927887,0.037145230919122696,0.008106982335448265,0.843495786190033,0.04589866101741791,0.024821238592267036
+tiktok,post,7660065935990017301,"Jangan lupa, calon nombor 1! 
+
+Kini tiba masanya untuk kita membuat pilihan.
+
+Undi anda amat berharga.
+
+11 Julai nanti, pangkahlah Perikatan Nasional dan pilih Calon No. 1, Ustaz Rosdi.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660065935990017301,,,neutral,2026-07-08 18:09:20.202942+00:00,36,0,1,280,0.5,39,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660065935990017301,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660065935990017301...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660065935990017301: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9702451825141907,malay,Malay/Bumiputera,Unknown,0.0,love,0.03775184601545334,0.02015937864780426,0.08778230845928192,0.023064453154802322,0.44536447525024414,0.03525969013571739
+tiktok,post,7660059511427976468,"""Yok podo podo undi Ustaz Rosdi!""
+
+Begitu semangat penduduk Parit Simis ini memberikan sokongan kepada saya. 
+
+Warga penduduk Sri Medan yang lainnya, 
+Pada kertas undi 11 Julai ini, pastikan anda mengundi saya, Calon no 1, Ustaz Rosdi!
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660059511427976468,,,positive,2026-07-08 18:09:20.510138+00:00,53,0,2,303,0.999328589439392,58,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660059511427976468,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660059511427976468...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660059511427976468: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9977619647979736,malay,Malay/Bumiputera,Unknown,0.0,love,0.040851615369319916,0.01014297641813755,0.053297776728868484,0.019262466579675674,0.5972406268119812,0.022150715813040733
+tiktok,post,7660053918029843733,"Terima kasih atas sokongan dan doa yang diberikan kalian.
+
+Setiap kata-kata sebegini menjadi semangat untuk kami terus berkhidmat dengan lebih baik, insya-Allah.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660053918029843733,,,positive,2026-07-08 18:09:20.832784+00:00,33,0,1,246,0.9993794083595275,36,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660053918029843733,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660053918029843733...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660053918029843733: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979313611984253,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02225068025290966,0.034637998789548874,0.7842627167701721,0.014682553708553314,0.06993645429611206,0.020132582634687424
+tiktok,post,7660050419246419220,"Rumah yang dipenuhi kitab-kitab agama menggambarkan kecintaan penghuninya terhadap ilmu.
+
+Ini video ringkas ziarah saya ke rumah  Imam Salam, Bekas Naib Qadi Sri Medan Timur. 
+Saya dan YB Datuk Dr. Nik Muhammad Zawawi Salleh teruja hadir ziarah ke rumahnya. Banyak kitab-kitab agama yang tersusun kemas di rak buku. 
+
+Walaupun sudah berusia, namun masih kuat ingatannya dengan ilmu-ilmu agama. Terima kasih Imam sekeluarga atas layanan yang begitu baik.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660050419246419220,,,positive,2026-07-08 18:09:21.150384+00:00,99,7,6,845,0.9994017779827118,120,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660050419246419220,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660050419246419220...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660050419246419220: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980059266090393,malay,Malay/Bumiputera,Unknown,0.0,love,0.07624087482690811,0.04702470824122429,0.044704802334308624,0.07313529402017593,0.6810019612312317,0.03516369313001633
+tiktok,post,7660045262274022676,"Taman Botani Johor yang terletak di Sri Medan, antara lokasi terbaik untuk beriadah!
+
+✅ Suasana nyaman
+✅ Sesuai untuk seisi keluarga
+✅ Tempat luas & bersih
+
+Ayuh ketahui fakta menarik Taman Botani! 
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660045262274022676,,,positive,2026-07-08 18:09:21.484154+00:00,13,0,0,181,0.981011551618576,14,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660045262274022676,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660045262274022676...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660045262274022676: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9367051720619202,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07023052126169205,0.02214927040040493,0.45115649700164795,0.02106819488108158,0.33028024435043335,0.02173023484647274
+tiktok,post,7660036330377841940,"Orang kampung kata, kalau dah sampai masanya... jangan bertangguh. Begitu juga pada hari mengundi nanti.
+
+Terima kasih kepada YB Rohani atas pesanan dan seruan yang dikongsikan kepada seluruh warga Sri Medan.
+
+Jumpa di pusat mengundi. Keluar awal, bawa kad pengenalan dan tunaikan tanggungjawab kita bersama.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660036330377841940,,,positive,2026-07-08 18:09:21.813516+00:00,36,2,1,283,0.9993890643119812,41,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660036330377841940,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660036330377841940...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660036330377841940: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.997963547706604,malay,Malay/Bumiputera,Unknown,0.0,love,0.08483458310365677,0.015901459380984306,0.04753388464450836,0.028192244470119476,0.47066929936408997,0.02278102934360504
+tiktok,post,7660015843056700692,"Sudah tidak lama tuan puan. 
+
+Bagi yang tinggal jauh atau anak perantau, 
+Kalian sudah ada perancangan perjalanan pulang mengundi? 
+
+Mari sama-sama tunaikan tanggungjawab kita 11 Julai ini! Rancang perjalanan sebaiknya. 
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660015843056700692,,,positive,2026-07-08 18:09:22.132740+00:00,26,3,2,190,0.9929543018341064,32,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660015843056700692,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660015843056700692...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660015843056700692: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9765143394470215,malay,Malay/Bumiputera,Unknown,0.0,love,0.05498760566115379,0.08167450875043869,0.2120252102613449,0.027542192488908768,0.34037017822265625,0.033518075942993164
+tiktok,post,7660020776225049876,"1993 Hingga Kini... Lebih 30 Tahun Bersama PAS. Masya-Allah!
+
+Kali ini, saya berkesempatan menziarahi Ustaz Ismail bin Mat Lima, seorang as-sabiqun yang telah menjadi ahli PAS sejak tahun 1993 dan sehingga hari ini masih istiqamah bersama perjuangan.
+
+Yang paling mencuri perhatian saya apabila Ustaz Ismail menunjukkan sijil keahlian PAS yang masih disimpan dengan begitu baik. Bukan itu sahaja, kad ucapan Hari Raya yang diterima bertahun-tahun dahulu juga masih menjadi kenangan yang beliau simpan.
+
+Bukan mudah untuk kekal istiqamah lebih 30 tahun, menempuh pelbagai ujian dan menyaksikan silih berganti kepimpinan. Namun semangat perjuangan beliau tidak pernah luntur.
+
+Terima kasih Ustaz Ismail atas nasihat, doa dan teladan yang diberikan. Semoga semangat istiqamah seperti inilah yang terus menjadi inspirasi buat kami untuk meneruskan perjuangan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660020776225049876,,,positive,2026-07-08 18:09:22.446326+00:00,80,1,3,636,0.9992921471595764,90,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660020776225049876,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660020776225049876...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660020776225049876: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9976404905319214,malay,Malay/Bumiputera,Unknown,0.0,love,0.030502449721097946,0.04185179993510246,0.0373600535094738,0.12547802925109863,0.5319768786430359,0.14294853806495667
+tiktok,post,7660007824960982292,"YB Ustaz Mohd Asri Mat Daud, ADUN Demit merupakan antara pimpinan PAS yang amat saya segani. 
+
+Terima kasih sudi turun padang, bantu saya kempen di N18 Sri Medan. 
+
+Warga Sri Medan,
+
+Berilah peluang kepada saya, insyaAllah saya akan berusaha membawa keharmonian kepada semua 👍🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660007824960982292,,,positive,2026-07-08 18:09:22.755479+00:00,54,4,4,337,0.9993481338024139,65,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660007824960982292,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660007824960982292...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660007824960982292: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978271126747131,malay,Malay/Bumiputera,Unknown,0.0,love,0.0756542757153511,0.02765514701604843,0.12626391649246216,0.03237461298704147,0.5252606272697449,0.03838290274143219
+tiktok,post,7660005309011856660,"Satu penghormatan buat saya dapat menziarahi Imam Maslan bin Kasiran di Parit Mantan semalam. Beliau merupakan bekas Naib Qadi Sri Medan Timur yang telah banyak berjasa kepada masyarakat setempat.
+
+Pertemuan semalam terasa sangat istimewa apabila beliau sudi berkongsi ilmu serta menunjukkan kitab-kitab tafsir dalam simpanannya.
+
+Sebelum pulang, beliau turut membacakan doa yang sangat menyentuh hati buat saya dan semua yang hadir. Doa titipan seorang tokoh agama ini benar-benar memberi kekuatan serta ketenangan untuk saya terus melangkah menggalas amanah.
+
+Terima kasih Imam Maslan sekeluarga atas layanan yang begitu baik. Semoga Allah SWT sentiasa mengurniakan kesihatan yang baik dan keberkatan umur buat seisi keluarga.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660005309011856660,,,positive,2026-07-08 18:09:23.056319+00:00,31,0,1,246,0.9991322696208953,34,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660005309011856660,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660005309011856660...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660005309011856660: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9971075654029846,malay,Malay/Bumiputera,Unknown,0.0,love,0.024506788700819016,0.049199339002370834,0.2169700264930725,0.03561386466026306,0.3271867334842682,0.2313363254070282
+tiktok,post,7660004594163944724,"Peribahasa lama ini sebenarnya satu peringatan buat saya dan sesiapa sahaja yang diberi amanah memimpin. Jangan sampai yang diharapkan menjaga, akhirnya menjadi punca kerosakan.
+
+Menjadi wakil rakyat bermakna kita adalah khadam kepada masyarakat, bukan sekadar memegang jawatan atau kedudukan.
+
+Saya menawarkan diri bukan untuk dihormati, tetapi untuk berkhidmat.
+
+Insya-Allah, saya akan terus berusaha membawa politik yang bersih, berintegriti dan mengutamakan rakyat dalam setiap amanah yang dipertanggungjawabkan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi 
+#MesraRakyat 
+#SriMedanBerkat 
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7660004594163944724,,,negative,2026-07-08 18:09:23.348199+00:00,38,1,2,311,0.00048038363456726074,44,video,https://www.tiktok.com/@ustaz.rosdi1/video/7660004594163944724,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660004594163944724...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7660004594163944724: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983987212181091,malay,Malay/Bumiputera,Unknown,0.0,love,0.16367538273334503,0.021398916840553284,0.07671937346458435,0.04153168946504593,0.4751130938529968,0.0205000638961792
+tiktok,post,7659980743799524628,"Bagi saya, bab pendidikan untuk generasi pelapis mesti diberi keutamaan.
+
+Bukan kerana saya sendiri ada menguruskan sekolah, tetapi pendidikanlah yang akan menjadi asas kepada anak-anak kita, seterusnya membentuk kehidupan mereka dengan lebih baik, insya-Allah.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659980743799524628,,,positive,2026-07-08 18:09:23.743313+00:00,29,1,2,473,0.999340409040451,36,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659980743799524628,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659980743799524628...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659980743799524628: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978013634681702,malay,Malay/Bumiputera,Unknown,0.0,happy,0.029599029570817947,0.03328365460038185,0.520992636680603,0.018676534295082092,0.2989804446697235,0.02595948427915573
+tiktok,post,7659970946140343572,"3 hari lagi menuju hari mengundi. 
+
+Saya merayu kepada seluruh warga Sri Medan, jangan sia-siakan peluang yang kita ada untuk menentukan masa depan Sri Medan yang kita cintai ini.
+
+Setiap satu undi memberi kesan kepada kehidupan kita dan generasi yang akan datang.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659970946140343572,,,positive,2026-07-08 18:09:24.089616+00:00,33,0,0,467,0.9993897795677185,37,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659970946140343572,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659970946140343572...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659970946140343572: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.997965931892395,malay,Malay/Bumiputera,Unknown,0.0,love,0.10915535688400269,0.0803820788860321,0.048587698489427567,0.14871357381343842,0.5046790242195129,0.05231780931353569
+tiktok,post,7659962427760479508,"Saudara Zamani ini merupakan anak usrah saya yang baik akhlaknya. Kini beliau bergerak aktif sebagai amilin PAS di Perak. 
+
+Terima kasih sudi berkongsi cerita dan pandangan tentang saya. Saya doakan Zamani terus istiqamah dalam perjuangan 🤲🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659962427760479508,,,positive,2026-07-08 18:09:24.401157+00:00,77,5,9,730,0.9993644773960113,98,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659962427760479508,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659962427760479508...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659962427760479508: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978815913200378,malay,Malay/Bumiputera,Unknown,0.0,love,0.03512038663029671,0.01410094927996397,0.09381275624036789,0.024876313284039497,0.5972222685813904,0.02960348129272461
+tiktok,post,7659954891867065621,"Replying to @huzaifahalyamaniOrang tanya, kita jawab 🫡
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659954891867065621,,,neutral,2026-07-08 18:09:24.714083+00:00,68,10,4,708,0.5,89,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659954891867065621,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659954891867065621...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659954891867065621: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8752951622009277,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.04760334640741348,0.017310472205281258,0.061349138617515564,0.02497195266187191,0.3068910837173462,0.027588503435254097
+tiktok,post,7659942416132181269,"Sepanjang aktiviti ziarah semasa tempoh berkempen ini, ada pelbagai lapisan masyarakat yang kami santuni.
+
+Dari pelbagai latar belakang dan pengalaman, kami kutip satu-persatu mutiara kata dan nasihat dari mereka, moga-moga menjadi pedoman hidup buat hari yang mendatang.
+
+Terima kasih Wak Sani, Haji Badrul dan Encik Azmi atas kesudian menerima kunjungan kami 😊
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659942416132181269,,,positive,2026-07-08 18:09:25.023391+00:00,60,5,3,583,0.9993651211261749,73,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659942416132181269,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659942416132181269...: Failed to load video from https://www.tiktok.com/@ustaz.rosdi1/video/7659942416132181269: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978837370872498,malay,Malay/Bumiputera,Unknown,0.0,love,0.04345472902059555,0.01994463987648487,0.06895764917135239,0.031313903629779816,0.606703519821167,0.036742597818374634
+tiktok,post,7659936649693908244,"Bergeraklah ke gerbang jasa, kalah menang bukan alasannya
+Sucikanlah niat di hati, hingga nyata benarnya janji Rabbi 💪🏻
+
+Kita teruskan perjalanan di hari kedua belas ini dengan penuh semangat.
+
+Selagi mana belum ke garisan penamat, teruskan berusaha untuk melangkah. Hanya Allah sebaik-baik pemberi kekuatan.
+
+Selamat pagi Sri Medan!
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659936649693908244,,,positive,2026-07-08 18:09:25.334412+00:00,25,0,0,453,0.9691347837448119,29,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659936649693908244,,positive,0.89711594581604,malay,Malay/Bumiputera,Unknown,0.0,love,0.039966460317373276,0.027596548199653625,0.10582011193037033,0.03367633372545242,0.6036701202392578,0.02161850593984127
+tiktok,post,7659927891366382869,"Setiap kali menadah tangan memohon kepada Allah, doa yang sama ini tidak pernah lupa dipanjatkan, moga hati kita semua diteguhkan di atas iman, walau apa jua ujian yang mendatang.
+
+Fitrah hati manusia mudah berbolak-balik, hanya dengan pergantungan kepada-Nya lah kita mampu untuk terus istiqamah.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659927891366382869,,,positive,2026-07-08 18:09:25.640564+00:00,46,0,3,423,0.9992401123046875,53,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659927891366382869,,positive,0.997467041015625,malay,Malay/Bumiputera,Unknown,0.0,love,0.07497014850378036,0.07766801118850708,0.048465803265571594,0.13887639343738556,0.5941303968429565,0.030474839732050896
+tiktok,post,7659794567402720533,"Di saat saya bergerak di lapangan, isteri saya juga tidak ketinggalan turun padang menyantuni warga Sri Medan secara lebih dekat. Saya sangat bersyukur atas sokongan kuat daripada beliau dan seluruh pasukan kempen.
+
+Hari ini, Tim Isteri Calon bersama YB Dato’ Rohani Ibrahim, ADUN Tanjong Mas, Kelantan telah meluangkan masa menziarahi beberapa buah keluarga di Parit Mantan dan Parit Sauh.
+
+Saya dimaklumkan bahawa antara ziarah yang paling menyentuh hati ialah kunjungan ke rumah Encik Jaafar sekeluarga di Parit Sauh, di mana mereka menyantuni seorang ibu tua yang menjadi sumber kekuatan dan inspirasi buat keluarganya.
+
+Terima kasih atas doa, layanan baik, dan sokongan yang tidak berbelah bagi kepada isteri dan pasukan saya. Insya-Allah, setiap harapan warga Sri Medan akan terus kita perjuangkan demi sebuah perubahan yang lebih berkebajikan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659794567402720533,,,positive,2026-07-08 18:09:25.939467+00:00,26,0,3,559,0.9993197202682494,34,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659794567402720533,,positive,0.997732400894165,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02363748848438263,0.039679307490587234,0.3776971995830536,0.045017387717962265,0.3663124442100525,0.06097787991166115
+tiktok,post,7659754448386018580,"Ada insan yang tidak banyak bercakap tentang jasa mereka, tetapi kesannya dirasai oleh masyarakat.
+
+Alhamdulillah, berpeluang menziarahi Encik Jumari Kadini dan Ustaz Ismail Mad Lima yang banyak menabur bakti dalam bidang kemasyarakatan dan pendidikan al-Quran.
+
+Benarlah, umur yang diberkati bukan diukur pada panjangnya usia, tetapi pada manfaat yang ditinggalkan buat manusia.
+
+Semoga Allah SWT mengurniakan kesihatan, keberkatan dan ganjaran terbaik buat mereka.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659754448386018580,,,positive,2026-07-08 18:09:26.279046+00:00,149,24,6,2801,0.9922256171703339,207,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659754448386018580,,positive,0.9740853905677795,malay,Malay/Bumiputera,Unknown,0.0,love,0.043739356100559235,0.037103839218616486,0.039776723831892014,0.1508355736732483,0.6142778396606445,0.044986627995967865
+tiktok,post,7659726346599402773,"Pangkat dan jawatan bukan sesuatu yang membuatkan kita lebih tinggi daripada orang lain.
+
+Sebaliknya, ia adalah amanah yang semakin berat untuk dipikul dan dipertanggungjawabkan.
+
+Menjadi wakil rakyat bukan bererti berada di hadapan untuk dihormati, tetapi sentiasa bersedia berada di sisi rakyat ketika diperlukan.
+
+Saya percaya, sebaik-baik kepimpinan ialah kepimpinan yang hadir untuk berkhidmat.
+
+Insya-Allah, jika dipilih sebagai wakil rakyat, amanah ini akan saya laksanakan sebaik mungkin demi masyarakat dan masa depan Sri Medan yang lebih baik.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659726346599402773,,,positive,2026-07-08 18:09:26.579617+00:00,51,0,3,614,0.9920644164085388,60,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659726346599402773,,positive,0.9735480546951294,malay,Malay/Bumiputera,Unknown,0.0,love,0.03943527117371559,0.04181494936347008,0.17110104858875275,0.026271218433976173,0.585279107093811,0.03318248316645622
+tiktok,post,7659707260192574740,"Bila jumpa orang jowo, kita pun ngomong jowo lah.
+
+Saya singgah menziarahi Tuan Haji Badrul, bekas Setiausaha Politik kepada Ahli Parlimen Parit Sulong di kediamannya. Orangnya mudah mesra dan sangat ramah.
+
+Sempat kami bertukar cerita walaupun berbeza pengalaman dan latar belakang.
+
+Terima kasih atas layanan yang begitu baik dan kesudian menerima kunjungan kami.
+
+Semoga Tuan Haji Badrul sentiasa dikurniakan kesihatan yang baik dan dipermudahkan segala urusan 🤲🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659707260192574740,,,positive,2026-07-08 18:09:26.890343+00:00,56,1,4,620,0.9994062662124633,67,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659707260192574740,,positive,0.9980208873748779,malay,Malay/Bumiputera,Unknown,0.0,love,0.05281265825033188,0.03481551632285118,0.06366019695997238,0.05081956088542938,0.5847465395927429,0.06395819038152695
+tiktok,post,7659691277864226068,"""Tempat besar, menarik. Tapi tak ade orang. Kenapa ni...? ""
+
+Dalam fasa berkempen, kadang-kadang kena 'berehat' sekejap. Semalam sempat saya turun briskwalk di Taman Botani, Johor. 
+
+Cantik dan bersih tempatnya. Sesuai lah kata orang muda nak healing-healing tengok alam, luang masa berkelah dengan keluarga dan kawan-kawan.
+
+Cuma semalam, tiada orang di sana. Buat anda yang mencari-cari tempat selesa untuk beriadah, datanglah ke sini. Kita manfaatkan kemudahan awam yang disediakan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659691277864226068,,,positive,2026-07-08 18:09:27.194446+00:00,164,8,11,2216,0.9481761097908019,205,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659691277864226068,,positive,0.8272536993026733,malay,Malay/Bumiputera,Unknown,0.0,love,0.10888092964887619,0.11415843665599823,0.10237038135528564,0.04585392773151398,0.3531395196914673,0.09850406646728516
+tiktok,post,7659683319558229269,"Terharu bila baca luahan seorang anak Sri Medan yang kini menetap di Kulai.
+
+Ini bukan sekadar undi, ini bukti kesediaan untuk memberi sokongan walau di mana berada.
+
+Sokongan ikhlas seperti ini yang jadi kekuatan untuk saya teruskan perjuangan ini.
+
+Terima kasih 💪🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659683319558229269,,,positive,2026-07-08 18:09:27.501497+00:00,66,2,1,954,0.9994049072265625,78,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659683319558229269,,positive,0.998016357421875,malay,Malay/Bumiputera,Unknown,0.0,love,0.022926559671759605,0.029245145618915558,0.14168967306613922,0.03302600607275963,0.5034699440002441,0.07487701624631882
+tiktok,post,7655939356972059922,"27.6.2026
+
+LENSA 1.0 | PERARAKAN CALON PERIKATAN NASIONAL N17 DUN SEMERAH
+
+#HalimKepol
+#SemerahBerkat
+#BerkatPrihatinSejahtera
+#PerikatanNasional",https://www.tiktok.com/@halimkepol/video/7655939356972059922,,,negative,2026-07-08 18:09:27.830493+00:00,612,34,75,5850,0.12915669679641723,779,video,https://www.tiktok.com/@halimkepol/video/7655939356972059922,,negative,0.5694776773452759,multilingual,Unknown,Unknown,0.0,love,0.14081530272960663,0.04435499384999275,0.15391050279140472,0.054067615419626236,0.34239664673805237,0.035755373537540436
+tiktok,post,7655701179141393682,"Takbirrrr... Allahuakbar 💪🏻
+
+Dengan lafaz basmalah, saya HALIM KEPOL ,selaku calon N17 Semerah mulakan langkah untuk memikul amanah & tanggungjawab ini dengan penuh tekad di hati dengan mandat yang telah diberikan kepada saya.
+
+Insyallah, dengan kekuatan yang ada pada saya bersama jentera, saya akan terus melangkah lakukan yang terbaik untuk Semerah. 
+
+Semoga langkah ini terus dipandu Allah s.w.t. siiru ala barakatillah.
+
+#PRN16 #malaysiatiktok #malaysia #JOHOR #islam",https://www.tiktok.com/@halimkepol/video/7655701179141393682,,,positive,2026-07-08 18:09:28.150534+00:00,110,5,8,971,0.9993995964527129,132,video,https://www.tiktok.com/@halimkepol/video/7655701179141393682,,positive,0.9979986548423767,malay,Malay/Bumiputera,Unknown,0.0,love,0.0348389707505703,0.03890380263328552,0.20557598769664764,0.03163173422217369,0.42702722549438477,0.04418797045946121
+tiktok,post,7655632474118163719,"Insya Allah
+Calon Perikatan Nasional
+N17 Semerah
+HALIM KEPOL
+
+#JOHOR #PAS
+#malaysia #malaysiatiktok
+#PRN16",https://www.tiktok.com/@halimkepol/video/7655632474118163719,,,neutral,2026-07-08 18:09:28.450302+00:00,47,5,8,272,0.5,62,video,https://www.tiktok.com/@halimkepol/video/7655632474118163719,,neutral,0.6996662616729736,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.02700795978307724,0.0333915539085865,0.1289980709552765,0.017012951895594597,0.21541248261928558,0.02730082906782627
+tiktok,post,7659675040824216853,"Hati yang tenang bukan bererti hidup tanpa ujian, tetapi hati yang sentiasa bergantung kepada Allah SWT dalam setiap keadaan
+
+Semoga amalan-amalan ringkas yang saya kongsikan ini dapat membantu kita memperoleh ketenangan, kekuatan dan keberkatan dalam menjalani kehidupan.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi 
+#MesraRakyat 
+#SriMedanBerkat 
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659675040824216853,,,positive,2026-07-08 18:09:28.766433+00:00,58,0,4,463,0.9994016706943512,66,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659675040824216853,,positive,0.9980055689811707,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07566177099943161,0.04277553781867027,0.5843320488929749,0.01962670311331749,0.19794633984565735,0.01595996506512165
+tiktok,post,7659661727906254101,"Ziarah boleh mengubah cara kita melihat kehidupan.
+
+Bila kita mendengar cerita mereka, melihat keadaan mereka dan menerima nasihat daripada orang yang lebih berpengalaman, hati kita akan lebih mudah bermuhasabah.
+
+Semoga setiap pertemuan menjadi asbab kebaikan buat kita semua.
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659661727906254101,,,positive,2026-07-08 18:09:29.081488+00:00,57,4,2,609,0.9993968963623046,69,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659661727906254101,,positive,0.9979896545410156,malay,Malay/Bumiputera,Unknown,0.0,love,0.029671210795640945,0.019536878913640976,0.18717971444129944,0.02925323322415352,0.5886596441268921,0.038830772042274475
+tiktok,post,7659639972252699924,"""Ustaz, Apa kaitannya SG4 ini dengan kita dekat Sri Medan? Ada beri kebaikan ke dekat kami?""
+
+Bila saya turun bersama masyarakat, ini antara persoalan yang saya dapat.
+
+Sebenarnya, model kerjasama ekonomi dan pembangunan ini sangat dekat dengan kita. Ia bukan sekadar teori atas kertas, tetapi tentang bagaimana kita mahu menyelesaikan isu asas luar bandar, daripada masalah banjir termenung, perparitan, kebajikan pekebun kecil kelapa sawit, sehinggalah masa depan anak muda di Sri Medan secara lebih tersusun.
+
+Kita dah ada model tadbir urus yang jelas dan terbukti berjaya di negeri-negeri lain. PN telah buktikan yang kita mampu mentadbir dengan cekap, telus, dan berpaksikan kebajikan rakyat. Jadi, jangan takut untuk beri undi dan buat perubahan di Sri Medan kali ini.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659639972252699924,,,positive,2026-07-08 18:09:29.386540+00:00,58,8,1,742,0.9896620154380797,74,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659639972252699924,,positive,0.9655400514602661,malay,Malay/Bumiputera,Unknown,0.0,anger,0.580528199672699,0.09609067440032959,0.13756974041461945,0.019705770537257195,0.06206291541457176,0.027030738070607185
+tiktok,post,7659625286346018068,"""Kita kena cari pemimpin yang tidak menzalimi orang, dan apabila dizalimi akan sabar...""
+
+Itulah antara pesanan daripada Imam Md Tahir, Imam Masjid Kampung Parit Jayus 4, ketika saya singgah bertanya khabar dan berbual dengan beliau.
+
+Nasihat seperti ini sangat bermakna buat saya. Ia menjadi peringatan bahawa seorang pemimpin perlu menjaga akhlak, berlaku adil dan sentiasa bersabar dalam setiap ujian.
+
+Saya menghargai setiap nasihat dan doa yang dikongsikan. Semoga Allah SWT terus mengurniakan kesihatan yang baik kepada Imam Md Tahir dan memberkati segala jasa beliau dalam memakmurkan rumah Allah.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659625286346018068,,,positive,2026-07-08 18:09:29.697532+00:00,37,3,0,505,0.9986148178577423,45,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659625286346018068,,positive,0.9953827261924744,malay,Malay/Bumiputera,Unknown,0.0,love,0.06740877032279968,0.018346194177865982,0.07580000162124634,0.03204432502388954,0.6352745294570923,0.022771228104829788
+tiktok,post,7659649247913987349,"Kita mahukan Sri Medan yang lebih maju  dan lebih sejahtera. 11 Julai inilah masanya untuk kita melakukan perubahan bersama.
+
+Semestinya, Perikatan Nasional (PN) pilihan terbaik untuk N18 Sri Medan. 
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659649247913987349,,,positive,2026-07-08 18:09:30.001499+00:00,48,2,4,515,0.9988448619842529,59,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659649247913987349,,positive,0.9961495399475098,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04988562688231468,0.04557254910469055,0.5222152471542358,0.03007480688393116,0.26101043820381165,0.02393277734518051
+tiktok,post,7659618412674501909,"Debaran kian terasa. Kami hanya ada 4 hari lagi untuk berkempen. 
+
+Sebuah tempoh yang singkat, tapi tidak sesekali mematahkan semangat kami untuk turun ke lapangan, berkempen sehabis baik untuk menang di N18 Sri Medan. 
+
+Doakan kami terus kuat ya 💪🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659618412674501909,,,positive,2026-07-08 18:09:30.308107+00:00,25,0,4,478,0.9994039058685302,33,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659618412674501909,,positive,0.9980130195617676,malay,Malay/Bumiputera,Unknown,0.0,fear,0.11858639866113663,0.34691205620765686,0.03974398970603943,0.333063006401062,0.045603442937135696,0.05778057128190994
+tiktok,post,7659611470073777428,"Hidup di dunia ini hanyalah sementara, sedangkan akhirat adalah destinasi yang kekal. 
+
+Bersungguh-sungguh dalam beribadah menunjukkan rasa syukur kepada Allah atas segala nikmat yang diberikan serta menjadi bukti cinta dan ketaatan seorang hamba kepada Penciptanya.
+
+Mari amalkan doa ini bersama!
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659611470073777428,,,positive,2026-07-08 18:09:30.640016+00:00,28,0,1,427,0.9993852913379668,33,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659611470073777428,,positive,0.9979509711265564,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02961091138422489,0.05193018540740013,0.5572414398193359,0.028302455320954323,0.2760245203971863,0.03010689653456211
+tiktok,post,7659598462937402644,"Keluarga adalah kekuatan terbesar saya.
+
+Melihat mereka berkumpul begini, buatkan saya sebak. Saya dikurniakan sebuah keluarga yang sentiasa berdiri teguh di belakang saya. 
+
+Sokongan, doa dan semangat yang tidak pernah putus daripada mereka memberi kekuatan untuk saya menerima amanah ini dan bertanding di Sri Medan.
+
+Dengan semangat yang seluruh ahli keluarga tercinta saya berikan ini, saya akan berusaha memberikan yang terbaik demi amanah yang dipikul.
+
+""Wahai Tuhan Kami! Ampunkanlah dosa kami dan dosa saudara-saudara kami yang mendahului kami dalam iman, dan janganlah Engkau jadikan dalam hati perasaan hasad dengki dan dendam terhadap orang-orang yang beriman. Wahai Tuhan kami! Sesungguhnya Engkau Amat Melimpah Belas kasihan dan RahmatMu"" (Al-Hashr : 10) 🤲🏻
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659598462937402644,,,positive,2026-07-08 18:09:30.940185+00:00,41,1,2,595,0.9972868382930755,49,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659598462937402644,,positive,0.9909561276435852,malay,Malay/Bumiputera,Unknown,0.0,love,0.08491901308298111,0.06768346577882767,0.040221206843853,0.19085825979709625,0.5318729877471924,0.04188985005021095
+tiktok,post,7659563604659686677,"Hari ke sebelas!
+
+Sedar tak sedar, tinggal beberapa hari sahaja lagi sebelum habis fasa berkempen bagi pilihan raya negeri kali ini.
+
+Mohon doanya agar kami terus diberi kekuatan untuk menyantuni dan bersama masyarakat seramai mungkin ya 💪🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659563604659686677,,,positive,2026-07-08 18:09:31.238755+00:00,32,8,3,743,0.9994034409523009,50,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659563604659686677,,positive,0.9980114698410034,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.0170891135931015,0.09762357920408249,0.02998943254351616,0.05198771134018898,0.0549401119351387,0.6484205722808838
+tiktok,post,7659574764607966485,"Semua orang ada masalah, tapi setiap masalah akan ada penyelesaian. Dengan izin Allah. 
+ فَإِنَّ مَعَ ٱلۡعُسۡرِ یُسۡرًا 
+إِنَّ مَعَ ٱلۡعُسۡرِ یُسۡرࣰا 
+
+Oleh itu, maka (tetapkanlah kepercayaanmu) bahawa sesungguhnya tiap-tiap kesukaran disertai kemudahan,
+
+(Sekali lagi ditegaskan): bahawa sesungguhnya tiap-tiap kesukaran disertai kemudahan. (Al-Insyirah : 5-6)
+
+Terus kuat 💪🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi 
+#MesraRakyat 
+#SriMedanBerkat 
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659574764607966485,,,positive,2026-07-08 18:09:31.555248+00:00,26,4,2,471,0.9994108259677886,36,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659574764607966485,,positive,0.9980360865592957,malay,Malay/Bumiputera,Unknown,0.0,love,0.048571109771728516,0.04490123316645622,0.17088459432125092,0.03637102246284485,0.42473462224006653,0.05238668620586395
+tiktok,post,7659423274044067092,"Ada yang dah dengar lagu Jom Jaga Johor ni? 😄
+
+Negeri kita, tanggungjawab kita 💪🏻
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659423274044067092,,,neutral,2026-07-08 18:09:31.856616+00:00,244,30,21,1916,0.5,314,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659423274044067092,,neutral,0.996245801448822,malay,Malay/Bumiputera,Unknown,0.0,love,0.03644196316599846,0.012714719399809837,0.022025255486369133,0.027923202142119408,0.6319616436958313,0.044600795954465866
+tiktok,post,7659399755340352788,"Kadang-kadang bila saya turun padang, ada juga yang bertanya, ""Kalau undi PN ni, ada buat kerja ke? Entah-entah apa pun tak ada.""
+
+Saya tak mahu balas dengan emosi atau sekadar kata-kata manis. Anda semua boleh semak sendiri laporan di bawah ini. Ini adalah bukti prestasi sahabat saya, ADUN Maharani daripada Perikatan Nasional untuk sesi lepas.
+
+Dari pengurusan peruntukan, isu kebajikan, sampailah setiap aduan rakyat yang dibawa ke sidang DUN, semuanya direkodkan dengan telus.
+
+Rekod ini membuktikan yang wakil rakyat PN bukan sekadar muncul waktu kempen. Insya-Allah, amanah ini besar. Jika diberi peluang dan ruang oleh semua di Sri Medan, saya akan pastikan tanggungjawab yang sama, atau dengan izin Allah lebih baik lagi akan saya laksanakan demi seluruh warga Sri Medan ini.
+
+Undi kita bukan sekadar pangkah nama, tapi kita undi untuk satu khidmat yang boleh dinilai dan disemak terus oleh orang kampung. Terima kasih atas kepercayaan semua.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659399755340352788,,,negative,2026-07-08 18:09:32.160838+00:00,27,0,2,726,0.0004993021488189919,36,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659399755340352788,,negative,0.9983356595039368,malay,Malay/Bumiputera,Unknown,0.0,love,0.04441555589437485,0.02867870405316353,0.04098455235362053,0.03484351560473442,0.5265734195709229,0.058987002819776535
+tiktok,post,7659392214447131924,"Di hadapan, langkah ini mungkin terlihat milikku.
+
+Namun di belakang, ada seorang isteri yang sentiasa merestui setiap langkah perjuangan ini dan tidak pernah jemu menguatkan semangatku.
+
+Saat aku keluar menyantuni masyarakat, dialah yang setia menguruskan segala keperluan. Pakaian, makan minum dan urusan di rumah, semuanya disempurnakan dengan penuh kasih, agar aku dapat terus berkhidmat dengan tenang.
+
+Namamu mungkin tidak disebut di pentas. Wajahmu mungkin tidak terpampang di poster.
+
+Namun aku yakin, Allah melihat setiap doa yang kau panjatkan, setiap sabar yang kau pendam dan setiap pengorbanan yang kau lakukan.
+
+Terima kasih kerana menjadi teman hidupku selama 29 tahun usia perkahwinan kita ini. Terima kasih kerana sentiasa merestui jalan perjuangan ini, setia berada di sisiku dalam susah dan senang, serta tidak pernah berhenti mendoakan yang terbaik.
+
+Semoga Allah terus memelihara langkah kita, menerima setiap amal yang dilakukan, mengurniakan keberkatan dalam perjuangan ini, dan jika diizinkan-Nya, semoga masyarakat Sri Medan menerima sinar baharu yang kita sama-sama impikan.
+
+Terima kasih, untuk segalanya ❤️
+
+---
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659392214447131924,,,positive,2026-07-08 18:09:32.464596+00:00,270,13,20,2436,0.9992078006267546,327,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659392214447131924,,positive,0.9973593354225159,malay,Malay/Bumiputera,Unknown,0.0,love,0.03870883956551552,0.058668676763772964,0.07906267046928406,0.038280341774225235,0.6793227195739746,0.052605099976062775
+tiktok,post,7659356862474751252,"Selamat mengundi kepada semua pengundi awal N18 Sri Medan yang akan menunaikan tanggungjawab masing-masing pada PRN Johor kali ini, pada hari esok.
+
+Semoga proses pengundian berjalan lancar, aman dan diberkati. Selamat mengundi.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi 
+#MesraRakyat 
+#SriMedanBerkat 
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659356862474751252,,,positive,2026-07-08 18:09:32.775134+00:00,60,3,3,768,0.9993652999401093,73,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659356862474751252,,positive,0.9978843331336975,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03928443044424057,0.029022714123129845,0.15494704246520996,0.018582992255687714,0.12033528089523315,0.026135599240660667
+tiktok,post,7659352050244881684,"Institusi masyarakat seperti masjid, surau, NGO dan komuniti setempat memainkan peranan penting dalam membentuk keharmonian sosial di peringkat akar umbi. Namun, peranan ini wajar diperkasakan agar ia memberi impak yang lebih menyeluruh kepada pembinaan masyarakat yang bersatu, prihatin dan sejahtera.
+
+Apabila institusi ini digerakkan dengan lebih tersusun serta diberi sokongan yang sewajarnya, ia mampu menjadi kekuatan utama dalam mengukuhkan perpaduan serta membantu menyantuni keperluan masyarakat dengan lebih berkesan.
+
+Saya berhasrat untuk memperkasa peranan institusi masyarakat ini secara lebih menyeluruh dan bersungguh-sungguh agar ia benar-benar menjadi asas kepada masyarakat yang harmoni dan saling membantu.
+
+---
+
+N18 Sri Medan, undilah calon nombor 1, Ustaz Rosdi 
+
+""Jom Jaga Sri Medan""
+""Jom Jaga Johor""
+
+#UstazRosdi
+#MesraRakyat
+#SriMedanBerkat
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustaz.rosdi1/video/7659352050244881684,,,positive,2026-07-08 18:09:33.088911+00:00,27,2,1,524,0.9994112193584441,35,video,https://www.tiktok.com/@ustaz.rosdi1/video/7659352050244881684,,positive,0.9980373978614807,malay,Malay/Bumiputera,Unknown,0.0,happy,0.06733129173517227,0.05980945751070976,0.5942853093147278,0.02737940289080143,0.19227014482021332,0.02003994584083557

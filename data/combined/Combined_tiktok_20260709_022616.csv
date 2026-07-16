@@ -1,0 +1,1081 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,media_type,video_url,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,,,https://www.tiktok.com/@saif_abduh,,,neutral,2026-07-08 18:24:40.531784+00:00,0,0,0,0,0.5,0,video,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@saif_abduh...: Failed to load video from https://www.tiktok.com/@saif_abduh: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.0,unknown,Unknown,,0.0,neutral,0.0,0.0,0.0,0.0,0.0,0.0
+tiktok,post,7659557463204662549,"Bila hati rasa sarat dengan beban, duka, atau gelisah, berhentilah sekejap, tarik nafas, dan bacalah doa ini. Sama-sama kita amalkan. Insya ALLAH.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659557463204662549,,,positive,2026-07-08 18:24:40.531938+00:00,80,3,0,348,0.9994014203548431,86,video,https://www.tiktok.com/@yuhanita.yunan/video/7659557463204662549,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659557463204662549...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659557463204662549: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980047345161438,malay,Malay/Bumiputera,Unknown,0.0,happy,0.01593630388379097,0.06924871355295181,0.6721715331077576,0.014027859084308147,0.03299812227487564,0.12078329920768738
+tiktok,post,7659457583450688775,"Walaupun mereka sudah pencen, tetapi jada mereka tidak pencen. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659457583450688775,,,negative,2026-07-08 18:24:41.928801+00:00,139,8,5,638,0.0004823148250580056,158,video,https://www.tiktok.com/@yuhanita.yunan/video/7659457583450688775,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659457583450688775...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659457583450688775: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983922839164734,malay,Malay/Bumiputera,Unknown,0.0,fear,0.05357798933982849,0.6439229249954224,0.015721982344985008,0.05872349441051483,0.031100809574127197,0.1528838872909546
+tiktok,post,7659440227169226002,"Saya doakan semua sihat diberikan kesihatan ya. Sebak tengok warga emas yang tak sihat, rasa macam ibu ayah saya sendiri. #yuhanitayunan #fypシ #prnjohor #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7659440227169226002,,,positive,2026-07-08 18:24:43.037308+00:00,148,5,10,592,0.9994081079959869,168,video,https://www.tiktok.com/@yuhanita.yunan/video/7659440227169226002,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659440227169226002...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659440227169226002: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980270266532898,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.05691395327448845,0.11546884477138519,0.012163788080215454,0.7584365606307983,0.013246744871139526,0.02976088412106037
+tiktok,post,7659424809893252360,"Sebagai Calon No.2 N35 Pasir Raja, kerja lapangan yang sistematik, dan telus seperti di DUN Maharani inilah yang menjadi azam dan tekad saya. Analisis ringkas membuktikan keutamaan PN adalah penyelesaian isu setempat, menambahbaik masa depan pendidikan dan ekonomi belia. #yuhanitayunan #fypシ #prnjohor #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7659424809893252360,,,neutral,2026-07-08 18:24:44.154908+00:00,25,1,0,266,0.5,28,video,https://www.tiktok.com/@yuhanita.yunan/video/7659424809893252360,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659424809893252360...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659424809893252360: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9311413764953613,malay,Malay/Bumiputera,Unknown,0.0,love,0.05105533078312874,0.03086869604885578,0.3095247745513916,0.02434929832816124,0.4122474789619446,0.025824004784226418
+tiktok,post,7659430807592881415,"Alhamdulillah, siang tadi ziarah kasih di Kampung Sungai Redan pula. Terima kasih semua penduduk Sungai Redan. 
+#JohorMemilih #YuhanitaYunan #prnjohor #fypシ #yuhanitayunan",https://www.tiktok.com/@yuhanita.yunan/video/7659430807592881415,,,neutral,2026-07-08 18:24:44.996427+00:00,97,4,7,575,0.5,113,video,https://www.tiktok.com/@yuhanita.yunan/video/7659430807592881415,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659430807592881415...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659430807592881415: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.4891848862171173,english,Mixed/Urban,Unknown,0.0,love,0.04227099567651749,0.03018227592110634,0.04930024594068527,0.04324754327535629,0.6651545763015747,0.043863434344530106
+tiktok,post,7659358964085247240,"Walkabout hari ini di Kampung Sungai Redan.
+#JohorMemilih #YuhanitaYunan #prnjohor #fypシ #yuhanitayunan",https://www.tiktok.com/@yuhanita.yunan/video/7659358964085247240,,,positive,2026-07-08 18:24:45.841362+00:00,265,18,17,1748,0.8669615164399147,317,video,https://www.tiktok.com/@yuhanita.yunan/video/7659358964085247240,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659358964085247240...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659358964085247240: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.556538388133049,multilingual,Unknown,Unknown,0.0,love,0.10818123817443848,0.030509915202856064,0.08401744812726974,0.03529886156320572,0.4355866611003876,0.025952855125069618
+tiktok,post,7659338323743329554,"""Perjuangan ini bukan perjuangan saya sahaja. Ia perjuangan setiap keluarga di Pasir Raja yang mahu hidup lebih baik. Bersama, kita mampu."" — Yuhanita Yunan",https://www.tiktok.com/@yuhanita.yunan/video/7659338323743329554,,,positive,2026-07-08 18:24:46.699973+00:00,82,0,3,481,0.9987460494041442,89,video,https://www.tiktok.com/@yuhanita.yunan/video/7659338323743329554,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659338323743329554...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659338323743329554: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.995820164680481,malay,Malay/Bumiputera,Unknown,0.0,love,0.017147574573755264,0.021172327920794487,0.10667289793491364,0.018314050510525703,0.7758139967918396,0.02470809407532215
+tiktok,post,7659762068270206229,"""Walaupun Brazil kalah, orang johor tetap kena menang""
+
+Undi Calon No2 PAS PN, Yuhanita Yunan ya gais! 11 Julai ni. Bagi PN Menang!
+JOM JAGA PASIR RAJA
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659762068270206229,,,neutral,2026-07-08 18:24:47.336677+00:00,1076,41,114,9602,0.5,1327,video,https://www.tiktok.com/@yuhanita.yunan/video/7659762068270206229,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659762068270206229...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659762068270206229: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8375116586685181,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.07321544736623764,0.019264917820692062,0.05066818371415138,0.026832865551114082,0.2791163921356201,0.021860996261239052
+tiktok,post,7659221349478567175,"Warga Pasir Raja, saya Yuhanita Yunan calon anda. Di kertas undi, saya no 2 ya. #JohorMemilih #YuhanitaYunan #N35PasirRaja #PasirRaja",https://www.tiktok.com/@yuhanita.yunan/video/7659221349478567175,,,neutral,2026-07-08 18:24:47.936064+00:00,1194,87,115,7506,0.5,1471,video,https://www.tiktok.com/@yuhanita.yunan/video/7659221349478567175,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659221349478567175...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659221349478567175: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8956992626190186,english,Mixed/Urban,Unknown,0.0,love,0.044033415615558624,0.013659306801855564,0.05132229998707771,0.01574746146798134,0.5346022248268127,0.021372023969888687
+tiktok,post,7656094185291861249,"Alhamdulillah.
+
+Saya, Yuhanita Yunan, telah sah dinamakan sebagai calon N.35 mewakili PERIKATAN NASIONAL bagi DUN Pasir Raja, dengan nombor calon 02.
+
+Terima kasih kepada semua yang hadir memberi sokongan, terutama para penyokong dan anak-anak muda yang meluangkan masa bersama pada hari penamaan calon. Kehadiran anda semua menjadi suntikan semangat buat saya dan seluruh pasukan. Perjuangan ini bukan tentang seorang, tetapi usaha kita bersama demi membawa keberkatan, kesejahteraan dan kebajikan buat rakyat.
+
+Mohon doa agar Allah SWT mempermudahkan segala urusan, mengurniakan kekuatan kepada pasukan, dan jika diizinkan-Nya, memberikan kemenangan kepada PERIKATAN NASIONAL untuk terus berkhidmat kepada rakyat.
+
+Insya-Allah, kita terus melangkah bersama.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2 #PRN #PRNJohor #yuhanita4pasirraja #pasirrajasejahtera",https://www.tiktok.com/@yuhanita.yunan/video/7656094185291861249,,,positive,2026-07-08 18:24:48.587241+00:00,10300,425,1012,89600,0.9994047999382019,12633,video,https://www.tiktok.com/@yuhanita.yunan/video/7656094185291861249,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7656094185291861249...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7656094185291861249: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980159997940063,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04726213961839676,0.057427048683166504,0.3567431569099426,0.03765759989619255,0.34836483001708984,0.03590935096144676
+tiktok,post,7660177681237019911,"The chat went wild
+Don't miss my next stream",https://www.tiktok.com/@yuhanita.yunan/video/7660177681237019911,,,positive,2026-07-08 18:24:49.177518+00:00,51,1,6,326,0.968218594789505,61,video,https://www.tiktok.com/@yuhanita.yunan/video/7660177681237019911,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660177681237019911...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660177681237019911: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.8940619826316833,english,Mixed/Urban,Unknown,0.0,love,0.04920390620827675,0.02599509432911873,0.08067721873521805,0.029659222811460495,0.7512950897216797,0.020052578300237656
+tiktok,post,7660172534540684551,"The chat went wild
+Don't miss my next stream",https://www.tiktok.com/@yuhanita.yunan/video/7660172534540684551,,,positive,2026-07-08 18:24:49.772587+00:00,48,1,2,356,0.968218594789505,54,video,https://www.tiktok.com/@yuhanita.yunan/video/7660172534540684551,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660172534540684551...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660172534540684551: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.8940619826316833,english,Mixed/Urban,Unknown,0.0,love,0.04920390620827675,0.02599509432911873,0.08067721873521805,0.029659222811460495,0.7512950897216797,0.020052578300237656
+tiktok,post,7660167484107934984,Sneak peek alert! A few moments from my LIVE. Tune in LIVE for the full experience.,https://www.tiktok.com/@yuhanita.yunan/video/7660167484107934984,,,neutral,2026-07-08 18:24:50.647950+00:00,67,0,2,475,0.5,73,video,https://www.tiktok.com/@yuhanita.yunan/video/7660167484107934984,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660167484107934984...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660167484107934984: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.5925847291946411,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.008215467445552349,0.008493213914334774,0.029636245220899582,0.007353892549872398,0.03195076435804367,0.08567722886800766
+tiktok,post,7660149133604424968,"Ada yang dah bergerak pulang untuk jalankan tanggungjawab sebagai warga Pasir Raja? Saya doakan perjalanan anda selamat dan dalam jagaan Allah swt.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7660149133604424968,,,positive,2026-07-08 18:24:51.023043+00:00,87,6,5,370,0.9993901550769806,101,video,https://www.tiktok.com/@yuhanita.yunan/video/7660149133604424968,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660149133604424968...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660149133604424968: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979671835899353,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07281371206045151,0.03616742044687271,0.7461028099060059,0.010012639686465263,0.05998149514198303,0.013737121596932411
+tiktok,post,7660120321567100178,"Tak lama lagi dah nak mengundi. Jangan lupa undi Yuhanita Yunan ya!
+
+#UndiNo2 #PerikatanNasional #YuhanitaYunan #N35 #PasirRaja",https://www.tiktok.com/@yuhanita.yunan/video/7660120321567100178,,,neutral,2026-07-08 18:24:51.416425+00:00,68,1,2,526,0.5,76,video,https://www.tiktok.com/@yuhanita.yunan/video/7660120321567100178,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660120321567100178...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660120321567100178: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.5417008399963379,english,Mixed/Urban,Unknown,0.0,love,0.016368607059121132,0.05722435563802719,0.08861217647790909,0.018126916140317917,0.39478564262390137,0.12700587511062622
+tiktok,post,7660082439573802260,"UNDI YUHANITA YUNAN, CALON NO 2 PERIKATAN NASIONAL, N35 PASIR RAJA
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7660082439573802260,,,neutral,2026-07-08 18:24:51.748075+00:00,270,18,19,1315,0.5,320,video,https://www.tiktok.com/@yuhanita.yunan/video/7660082439573802260,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660082439573802260...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660082439573802260: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8859769701957703,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.10669411718845367,0.0397808700799942,0.06878657639026642,0.03256143629550934,0.1814126819372177,0.03743002563714981
+tiktok,post,7660057372550794517,"Ziarah Kasih semalam. Dalam banyak-banyak rumah ni, ada terselit kisah sedih sebuah keluarga. Saya doakan semoga diberikan kekuatan buat mereka. Amin 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7660057372550794517,,,positive,2026-07-08 18:24:52.092453+00:00,100,5,1,446,0.9994025290012358,110,video,https://www.tiktok.com/@yuhanita.yunan/video/7660057372550794517,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660057372550794517...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660057372550794517: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980084300041199,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.01874816045165062,0.02401728183031082,0.006650359835475683,0.9131139516830444,0.015222919173538685,0.013139738701283932
+tiktok,post,7660043691716807956,"Walkabout semalam di Taman Sri Saujana. Seronok dapat jumpa ramai kat sana. Terima kasih siapa yang tegur saya semalam. 
+Jangan lupa ya, 11 Julai nanti turun mengundi ya. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7660043691716807956,,,negative,2026-07-08 18:24:52.456720+00:00,422,9,28,3935,0.12234792709350586,498,video,https://www.tiktok.com/@yuhanita.yunan/video/7660043691716807956,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660043691716807956...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660043691716807956: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.5921735763549805,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.013237126171588898,0.013219991698861122,0.03700704500079155,0.017017323523759842,0.17989547550678253,0.08351603150367737
+tiktok,post,7660057887384915221,"Terima kasih puan atas kata-kata dan sokongan kepada saya.
+Jangan lupa ya, 11 Julai nanti turun mengundi ya. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7660057887384915221,,,positive,2026-07-08 18:24:52.838450+00:00,117,2,1,590,0.9994018495082855,125,video,https://www.tiktok.com/@yuhanita.yunan/video/7660057887384915221,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660057887384915221...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7660057887384915221: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980061650276184,malay,Malay/Bumiputera,Unknown,0.0,love,0.019979393109679222,0.01381468866020441,0.039216697216033936,0.01956935226917267,0.6022711396217346,0.03674672916531563
+tiktok,post,7659969778572053780,"Hari ini seperti sebelum ini, saya akan turun padang untuk menyantuni, mendengar suara, dan mendekati warga Pasir Raja di beberapa lokasi terpilih.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659969778572053780,,,positive,2026-07-08 18:24:53.182065+00:00,33,0,1,287,0.999317306280136,36,video,https://www.tiktok.com/@yuhanita.yunan/video/7659969778572053780,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659969778572053780...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659969778572053780: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9977243542671204,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.008784998208284378,0.0068085938692092896,0.011429728008806705,0.011699030175805092,0.07431545853614807,0.1109309047460556
+tiktok,post,7659931945245166869,"Tinggal 3 hari sahaja lagi sebelum lembaran baharu N35 Pasir Raja bermula. Ayuh warga Pasir Raja! Mari kita tunaikan tanggungjawab kita. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659931945245166869,,,positive,2026-07-08 18:24:53.576268+00:00,73,5,6,424,0.8869313359260559,88,video,https://www.tiktok.com/@yuhanita.yunan/video/7659931945245166869,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659931945245166869...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659931945245166869: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.623104453086853,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.02949933335185051,0.07831355929374695,0.17088428139686584,0.02043670415878296,0.16000568866729736,0.04941935837268829
+tiktok,post,7659803918058212616,"Terima kasih kepada semua petugas keselamatan barisan front-liner dan pasangan yang keluar menjalankan tugas dan memenuhi tanggungjawab sebagai bangsa Johor.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2 #PRNJohor #fyp #fypシ #yuhanita4pasirraja #pasirrajasejahtera",https://www.tiktok.com/@yuhanita.yunan/video/7659803918058212616,,,positive,2026-07-08 18:24:54.004468+00:00,326,21,15,1474,0.9668045923113822,376,video,https://www.tiktok.com/@yuhanita.yunan/video/7659803918058212616,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659803918058212616...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659803918058212616: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.889348641037941,multilingual,Unknown,Unknown,0.0,love,0.05504347383975983,0.023404374718666077,0.10600702464580536,0.03350245952606201,0.39698952436447144,0.030263526365160942
+tiktok,post,7659931618991197461,"""Ya Allah, sejukkanlah hatiku dengan salju, embun, dan air sejuk. Ya Allah, sucikanlah hatiku dari segala kesalahan sebagaimana Engkau menyucikan pakaian putih dari kotoran.""
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659931618991197461,,,neutral,2026-07-08 18:24:54.352542+00:00,47,1,2,239,0.5,52,video,https://www.tiktok.com/@yuhanita.yunan/video/7659931618991197461,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659931618991197461...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659931618991197461: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.7878314852714539,english,Mixed/Urban,Unknown,0.0,anger,0.36418455839157104,0.057920683175325394,0.28404197096824646,0.025362510234117508,0.17714369297027588,0.02171093411743641
+tiktok,post,7659763787045670164,"""Di Pasir Raja ni terdapat beberapa felda, felda-felda ni semua bergantung kepada sawit, jadi jasa peneroka memang kita hargai dalam meningkatkan ekonomi, cuma kita ada sedikit cabaran .... ""
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659763787045670164,,,positive,2026-07-08 18:24:54.760244+00:00,93,69,6,577,0.9892939627170563,173,video,https://www.tiktok.com/@yuhanita.yunan/video/7659763787045670164,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659763787045670164...: Failed to load video from https://www.tiktok.com/@yuhanita.yunan/video/7659763787045670164: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9643132090568542,malay,Malay/Bumiputera,Unknown,0.0,love,0.04395517706871033,0.011557396501302719,0.02793877199292183,0.027725759893655777,0.8044235110282898,0.01764291152358055
+tiktok,post,7659735719350521108,"Saya bertekad untuk memastikan setiap wanita di Pasir Raja mendapat sokongan yang sewajarnya, setiap ibu diperkasa, dan setiap anak-anak membesar dengan peluang pendidikan serta perlindungan yang terbaik.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659735719350521108,,,positive,2026-07-08 18:24:55.225930+00:00,68,0,6,369,0.9994064092636108,77,video,https://www.tiktok.com/@yuhanita.yunan/video/7659735719350521108,,positive,0.9980213642120361,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03918176889419556,0.032389525324106216,0.47120997309684753,0.018534982576966286,0.3547329902648926,0.022788168862462044
+tiktok,post,7659558765607357717,"Bila khidmat didasari dengan rasa penuh tanggungjawab, tiada istilah penat dalam berkorban masa dan tenaga demi rakyat. Insya ALLAH. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659558765607357717,,,positive,2026-07-08 18:24:55.617036+00:00,71,1,3,413,0.9857148230075836,79,video,https://www.tiktok.com/@yuhanita.yunan/video/7659558765607357717,,positive,0.9523827433586121,malay,Malay/Bumiputera,Unknown,0.0,love,0.032865654677152634,0.03100956603884697,0.22248700261116028,0.026981130242347717,0.5937097668647766,0.020606754347682
+tiktok,post,7659665229508316437,"Y adalah YAKIN BERSAMA 
+Saya yakin bersama dalam membawa perubahan. Saya ingin membina keyakinan rakyat melalui Pusat Khidmat dan Aduan Rakyat yang berfungsi, responsif dan mudah diakses. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659665229508316437,,,positive,2026-07-08 18:24:55.973362+00:00,89,13,5,444,0.9993990242481231,111,video,https://www.tiktok.com/@yuhanita.yunan/video/7659665229508316437,,positive,0.9979967474937439,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03826962411403656,0.036175429821014404,0.6412944197654724,0.01473185420036316,0.18459823727607727,0.019160564988851547
+tiktok,post,7659643501176491284,"Ucapan ini buat seluruh warga peneroka, khususnya di DUN N35 Pasir Raja! iaitu penerokan di FELDA Pasir Raja, FELDA Bukit Ramun, FELDA Bukit Besar dan FELDA Sungai Sayong. 
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659643501176491284,,,positive,2026-07-08 18:24:56.350820+00:00,56,5,3,322,0.9988965749740599,67,video,https://www.tiktok.com/@yuhanita.yunan/video/7659643501176491284,,positive,0.9963219165802002,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.05275769159197807,0.016293415799736977,0.0604122057557106,0.027646640315651894,0.2281840741634369,0.030067171901464462
+tiktok,post,7659639401034616085,"Alhamdulillah pagi tadi saya sempat ke Pusat Latihan Tempur Tentera Darat (PULADA) untuk bertemu dengan pengundi awal. 
+
+Saya ucapkan selamat mengundi kepada semua pengundi awal. Semoga semuanya dipermudahkan. Insya ALLAH. 
+
+Calon No2 PAS PN, Yuhanita Yunan
+JOM JAGA PASIR RAJA
+
+""Terus Berbakti, Pasir Raja Sejahtera""
+
+#Yuhanita4PasirRaja #PerikatanNasional #N35PasirRaja #DoaKetenangan #PasirRajaSejahtera",https://www.tiktok.com/@yuhanita.yunan/video/7659639401034616085,,,positive,2026-07-08 18:24:56.711841+00:00,136,1,3,1243,0.9993946433067321,152,video,https://www.tiktok.com/@yuhanita.yunan/video/7659639401034616085,,positive,0.9979821443557739,malay,Malay/Bumiputera,Unknown,0.0,happy,0.050266195088624954,0.03872372955083847,0.4778648018836975,0.019725201651453972,0.16044296324253082,0.023079311475157738
+tiktok,post,7659585246882581780,"Jadual pergerakan saya hari ini. Jom jumpa kalau anda ada dekat area berdekatan.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659585246882581780,,,neutral,2026-07-08 18:24:57.109087+00:00,115,3,7,737,0.5,132,video,https://www.tiktok.com/@yuhanita.yunan/video/7659585246882581780,,neutral,0.9977036118507385,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.022179456427693367,0.007909389212727547,0.01493912935256958,0.01633284240961075,0.2108369767665863,0.07340051978826523
+tiktok,post,7659566641738468628,"Saya ucapkan selamat mengundi kepada pengundi DUN Pasir Raja yang akan mengundi awal hari ini.  Tanggungjawab mendahului untuk menentukan hala tuju dan masa depan kawasan kita kini bermula.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659566641738468628,,,positive,2026-07-08 18:24:57.484598+00:00,164,12,8,998,0.9992182612419127,193,video,https://www.tiktok.com/@yuhanita.yunan/video/7659566641738468628,,positive,0.9973942041397095,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02962019108235836,0.024494050070643425,0.43121227622032166,0.01515208836644888,0.138962060213089,0.027636254206299782
+tiktok,post,7659558455023340821,"Tinggal 4 HARI JE LAGI sebelum PRN Johor! Kepada pengundi N35 Pasir Raja, masanya bakal tiba untuk perubahan di Pasir Raja!
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659558455023340821,,,negative,2026-07-08 18:24:57.847438+00:00,68,5,6,363,0.12661478966474532,82,video,https://www.tiktok.com/@yuhanita.yunan/video/7659558455023340821,,negative,0.5779507011175156,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.026422759518027306,0.0699007585644722,0.0883844867348671,0.015512235462665558,0.10021603852510452,0.0680292546749115
+tiktok,post,7659786385942990101,"“Apabila rakyat diletakkan di hadapan, bukan diri sendiri, di situlah lahirnya pemimpin yang dihormati—bukan kerana pangkat, tetapi kerana jiwa yang mendahulukan amanah.”
+
+Jangan lupa, undi saya CALON NO 3 pada 11 Julai 2026 nanti!
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659786385942990101,,,negative,2026-07-08 18:24:58.206841+00:00,29,2,1,191,0.00048558712005614124,33,video,https://www.tiktok.com/@mazlan.bujang2/video/7659786385942990101,,negative,0.9983813762664795,malay,Malay/Bumiputera,Unknown,0.0,love,0.05759766697883606,0.019440002739429474,0.05307035148143768,0.027898529544472694,0.599811315536499,0.033519111573696136
+tiktok,post,7659788521095302418,"Sepanjang tempoh berkempen ini, saya teringat satu pesanan daripada guru yang hingga hari ini tidak pernah hilang daripada ingatan.
+
+Guru saya pernah berkata…
+
+""Mazlan... kadang-kadang kita merasakan kekuatan itu datang daripada diri sendiri. Hakikatnya, mungkin hanya satu peratus daripada diri kita. Selebihnya, 99 peratus adalah dengan izin, rahmat dan pertolongan Allah Taala.""
+
+Apa yang kita perlu buat cuma usaha, berdoa dan terus istiqamah. Yang selebihnya, serahkan saja kepada Allah yang Maha Mengatur. Bila hati bergantung pada-Nya, hidup pun rasa lebih tenang, kuat dan bersyukur.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659788521095302418,,,positive,2026-07-08 18:24:58.576472+00:00,153,9,23,1292,0.9873767197132111,197,video,https://www.tiktok.com/@mazlan.bujang2/video/7659788521095302418,,positive,0.9579223990440369,malay,Malay/Bumiputera,Unknown,0.0,happy,0.021207354962825775,0.0620700940489769,0.7859445214271545,0.01568969152867794,0.05901623144745827,0.03102715127170086
+tiktok,post,7659778555567525128,"""Bila saya pegang mesin kimpal hari ni... ramai bergurau, 'Boleh buat ke?'
+
+Saya cuma senyum.
+
+Sebenarnya, kerja macam ni bukan asing bagi orang kampung dan warga FELDA. Dari dulu lagi, kita diajar cari rezeki dengan kudrat, dengan kemahiran, dengan titik peluh sendiri.
+
+Sebab itu saya percaya... TVET bukan sekadar belajar mengimpal besi. TVET mengimpal masa depan anak-anak kita. Daripada tangan yang mahir, lahir rezeki yang halal, keluarga yang lebih senang, dan kampung yang terus membangun.
+
+Saya nak lihat lebih ramai anak-anak Kahang berani memilih kemahiran, bukan kerana tiada pilihan, tetapi kerana itulah jalan untuk mengubah kehidupan.
+
+Insya-Allah, bila kita bina kemahiran, kita sedang membina masa depan Kahang bersama.""
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659778555567525128,,,negative,2026-07-08 18:24:58.984772+00:00,44,3,1,489,0.0004936158657073975,52,video,https://www.tiktok.com/@mazlan.bujang2/video/7659778555567525128,,negative,0.9983546137809753,malay,Malay/Bumiputera,Unknown,0.0,love,0.042194247245788574,0.029072793200612068,0.08185350894927979,0.030248984694480896,0.7083625197410583,0.03602712228894234
+tiktok,post,7659764503415950613,"Beliau seorang pencen polis yang pernah berkhidmat di FELDA Nitar 2, dan kini menetap di Kampung Contoh, Kahang. Dalam sembang santai di hujung usia.. tiba-tiba nama arwah ayah mertua saya disebut.
+
+Hati terasa tersentuh.. kerana masih ada insan yang mengingati seseorang yang telah pergi. Masih ada cerita lama, masih ada kenangan, masih ada doa yang mengiringi.
+
+Begitulah kehidupan di kampung dan FELDA.. kita mungkin tidak lagi selalu bertemu, tetapi kebaikan yang pernah dibuat tetap melekat dalam hati manusia.
+
+Terima kasih pakcik, kerana masih menyimpan kenangan itu.
+
+Semoga Allah merahmati arwah ayah mertua saya dan menempatkan beliau bersama orang-orang yang soleh.
+
+Al-Fatihah..
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659764503415950613,,,positive,2026-07-08 18:24:59.328233+00:00,38,1,0,465,0.9986281037330627,43,video,https://www.tiktok.com/@mazlan.bujang2/video/7659764503415950613,,positive,0.9954270124435425,malay,Malay/Bumiputera,Unknown,0.0,love,0.03467557206749916,0.04371248558163643,0.025023100897669792,0.10092528164386749,0.3741500973701477,0.33341285586357117
+tiktok,post,7659758518299413781,"Saya benar-benar tersentuh dan sangat menghargai setiap peluang untuk selfie bersama rakyat.
+
+Setiap senyuman, setiap sapaan dan setiap pertemuan benar-benar menyentuh hati saya, malah menjadi kekuatan untuk saya terus mendengar suara masyarakat dan berkhidmat dengan lebih ikhlas serta bersungguh-sungguh.
+
+Bagi saya, kempen ini bukan sekadar untuk memperkenalkan diri, tetapi juga untuk mendekatkan hati saya dengan rakyat dan memahami keperluan mereka dengan lebih mendalam.
+
+Terima kasih kepada semua yang sudi bergambar, berbual dan berkongsi pandangan. Sokongan, kepercayaan dan doa anda semua amat bermakna buat saya.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659758518299413781,,,positive,2026-07-08 18:24:59.661549+00:00,54,1,5,362,0.9994044423103332,63,video,https://www.tiktok.com/@mazlan.bujang2/video/7659758518299413781,,positive,0.9980148077011108,malay,Malay/Bumiputera,Unknown,0.0,love,0.019214704632759094,0.013247611001133919,0.12378465384244919,0.01779560185968876,0.7617914080619812,0.020921267569065094
+tiktok,post,7659733103295876360,"Santuni Dari Rumah ke Rumah, Menyantuni Sebuah Keluarga Yang Pernah Mengharungi Ujian Besar.
+
+Hari ini di Kampung Contoh, saya berpeluang bertemu semula sebuah keluarga yang pernah tular kerana anak kembar siam mereka.
+
+Melihat mereka hari ini amat menginsafkan. Dengan izin Allah SWT serta usaha pasukan perubatan dan sokongan pelbagai pihak, keluarga ini kini melangkah ke fasa baharu.
+
+Ziarah dari rumah ke rumah memberi ruang untuk mendengar sendiri suara rakyat dan memahami cabaran mereka.
+
+Insya-Allah, saya akan terus turun padang dan menyantuni masyarakat dengan penuh keikhlasan.
+
+Terima kasih atas sambutan mesra. Semoga keluarga ini terus dikurniakan kesihatan, kekuatan dan kebahagiaan.
+
+PILIH MAZLAN BUJANG – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659733103295876360,,,positive,2026-07-08 18:25:00.043037+00:00,32,1,5,233,0.999406087398529,40,video,https://www.tiktok.com/@mazlan.bujang2/video/7659733103295876360,,positive,0.9980202913284302,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02597186714410782,0.0805177092552185,0.39137500524520874,0.03244977444410324,0.13533440232276917,0.10688573122024536
+tiktok,post,7659685870609468680,"Terima kasih atas sokongan dan kata-kata semangat daripada AJK PAS Pusat, DS Shahidan Kassim.
+
+Sokongan ini menjadi satu suntikan semangat buat perjuangan di Kahang. Setiap doa dan dorongan yang diberikan kami anggap sebagai satu amanah yang perlu dijaga.
+
+Di bumi Kahang ini, bersama warga kampung, FELDA dan seluruh masyarakat, kami terus melangkah dengan rendah hati - mendengar suara rakyat, memahami denyut hati mereka dan berusaha memberikan yang terbaik.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659685870609468680,,,positive,2026-07-08 18:25:00.406130+00:00,29,1,0,252,0.9994042634963989,32,video,https://www.tiktok.com/@mazlan.bujang2/video/7659685870609468680,,positive,0.9980142116546631,malay,Malay/Bumiputera,Unknown,0.0,love,0.03925707936286926,0.01361787598580122,0.08047706633806229,0.023484373465180397,0.7215782403945923,0.020897524431347847
+tiktok,post,7659787089168452885,"Masa kempen semakin hampir ke penghujung.
+
+Sepanjang beberapa hari ini, saya telah melangkah dari satu kampung ke satu kampung, dari satu taman ke satu taman. Saya bersalaman, mendengar, dan melihat sendiri kehidupan rakyat yang sentiasa cekal mencari rezeki demi keluarga.
+
+Saya sedar masih banyak perkara yang perlu diperjuangkan..
+
+Saya tidak menjanjikan kesempurnaan, tetapi saya berjanji akan sentiasa mendengar, turun padang dan berusaha sebaik mungkin untuk membawa suara rakyat Kahang ke tempat yang sepatutnya.
+
+Dengan penuh rendah hati, saya memohon sokongan dan doa daripada seluruh rakyat Kahang.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659787089168452885,,,positive,2026-07-08 18:25:00.756242+00:00,27,1,0,192,0.9983130514621734,29,video,https://www.tiktok.com/@mazlan.bujang2/video/7659787089168452885,,positive,0.9943768382072449,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04896526783704758,0.1294470578432083,0.4457795321941376,0.03320145234465599,0.21325752139091492,0.038608334958553314
+tiktok,post,7659406384907242770,"Saya tidak akan melayan tuduhan dengan emosi atau membalasnya dengan kata-kata manis. Saya memilih untuk menjawab dengan fakta.
+
+Semak sendiri laporan prestasi ADUN Maharani daripada Perikatan Nasional sepanjang penggal yang lalu.
+
+Setiap pengurusan peruntukan, bantuan kebajikan, program untuk rakyat dan aduan yang dibawa ke Sidang DUN direkodkan secara telus dan boleh disemak oleh sesiapa sahaja.
+
+Rekod tidak boleh dipadam. Fakta tidak boleh disangkal.
+
+Akhirnya, biarlah rakyat sendiri menilai siapa yang benar-benar bekerja dan siapa yang hanya pandai berbicara.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659406384907242770,,,negative,2026-07-08 18:25:01.111532+00:00,29,2,2,293,0.000484299659729015,35,video,https://www.tiktok.com/@mazlan.bujang2/video/7659406384907242770,,negative,0.9983856678009033,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03238320350646973,0.05988999456167221,0.026433728635311127,0.0448908805847168,0.13870073854923248,0.23074232041835785
+tiktok,post,7659263473326607637,"Dengan izin Allah, telah selesai pelancaran tawaran dari Perikatan Nasional N.31 Kahang.
+
+Kahang yang kami namakan: KAHANG.
+
+Merangkumi beberapa segmen yang melibatkan masyarakat utama, ekonomi, pendidikan dan
+
+kemudahan rakyat. 
+Dari KAHANG untuk Kahang.
+
+Jom bersama kami realisasikan agenda ini demi masa depan Kahang yang lebih baik.
+
+Sekiranya Perikatan Nasional diberikan peluang untuk mentadbir Kahang, Tawaran
+
+K.A.H.A.N.G ini akan diperjuangkan demi kepentingan penduduk Kahang yang saya kasihi.
+
+● K — Ketersambungan Digital Kahang
+
+● A — Akses Kemudahan Awam
+
+● H — Hak Generasi FELDA
+
+● A — Anak Muda & Wanita
+
+● N — Nadi Ekonomi Desa & Tempatan
+
+● G — Gerak Urus Dekat Dengan Raky
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659263473326607637,,,positive,2026-07-08 18:25:01.482629+00:00,79,1,3,680,0.9993609189987183,89,video,https://www.tiktok.com/@mazlan.bujang2/video/7659263473326607637,,positive,0.9978697299957275,malay,Malay/Bumiputera,Unknown,0.0,love,0.07157197594642639,0.04021315276622772,0.03393879532814026,0.07108570635318756,0.7099736332893372,0.029110366478562355
+tiktok,post,7660170764020157716,"Di tengah kesibukan hari ini, saya sempat singgah bertegur sapa dengan seorang anak seni yang sedang menyanyi.
+
+Kami berbual ringkas dan berkongsi senyuman. Saya percaya setiap orang ada cerita, setiap bakat ada nilainya, dan setiap pertemuan ada maknanya.
+
+Masyarakat Kahang bukan sahaja kuat bergotong-royong, tetapi juga kaya dengan insan berbakat dan kreatif. Mereka wajar dihargai dan diberi ruang untuk terus berkarya.
+
+Momen ini mengingatkan saya bahawa berkhidmat kepada rakyat bukan sekadar menyelesaikan isu pembangunan, tetapi juga menghargai orang dan meraikan bakat yang menghidupkan komuniti.
+
+Terima kasih atas lagu, senyuman dan pertemuan yang bermakna ini.
+
+Insya-Allah, saya akan terus bersama masyarakat, mendengar, menghargai dan berusaha membawa yang terbaik untuk warga Kahang.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660170764020157716,,,positive,2026-07-08 18:25:01.816207+00:00,21,0,0,206,0.9994075894355774,23,video,https://www.tiktok.com/@mazlan.bujang2/video/7660170764020157716,,positive,0.9980252981185913,malay,Malay/Bumiputera,Unknown,0.0,love,0.023349830880761147,0.011084998957812786,0.047953587025403976,0.018119636923074722,0.8223986625671387,0.022160349413752556
+tiktok,post,7660153737113013511,"Dalam perjuangan ini, saya sedar satu perkara... kita usaha sebaik mungkin, namun hasilnya tetap milik Allah SWT.
+
+Setiap hari saya turun jumpa masyarakat dan cuba buat yang terbaik. Namun akhirnya, hati ini tetap kembali menghadap Allah.
+
+Di hadapan-Nya, tiada yang lebih utama selain pertolongan-Nya.
+
+Saya hanya mampu berdoa, ""Ya Allah, jika perjuangan ini membawa kebaikan buat agama, negeri dan rakyat Kahang, permudahkanlah jalannya.""
+
+Mohon doa semua agar Allah SWT memimpin setiap langkah dan mengurniakan yang terbaik buat Kahang.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang #KahangBermuafakatRakyatBerkat #JomJagaJohor #N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660153737113013511,,,positive,2026-07-08 18:25:02.176867+00:00,27,0,0,206,0.9963989555835724,29,video,https://www.tiktok.com/@mazlan.bujang2/video/7660153737113013511,,positive,0.987996518611908,malay,Malay/Bumiputera,Unknown,0.0,love,0.036454055458307266,0.04878448694944382,0.11191684007644653,0.05508716031908989,0.6648333072662354,0.0360369049012661
+tiktok,post,7660158624609684754,"Saya percaya masa depan Kahang bukan hanya ditentukan oleh pemimpin, tetapi juga oleh anak-anak muda yang akan mewarisinya.
+
+Dalam kesibukan program hari ini, saya sempat berbual dengan seorang anak muda tentang pekerjaan, masa depan dan harapan untuk Kahang.
+
+Saya melihat semangat dalam dirinya. Anak muda hari ini cuma perlukan peluang, ruang dan pemimpin yang sudi mendengar.
+
+Bagi saya, mendengar pandangan mereka adalah pelaburan untuk masa depan Kahang. Insya-Allah, saya akan terus mendekati semua lapisan masyarakat, khususnya anak muda.
+
+Terima kasih kepada semua anak muda Kahang yang sentiasa berkongsi pandangan dan memberi semangat.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660158624609684754,,,positive,2026-07-08 18:25:02.529718+00:00,23,0,0,175,0.9994068741798401,24,video,https://www.tiktok.com/@mazlan.bujang2/video/7660158624609684754,,positive,0.9980229139328003,malay,Malay/Bumiputera,Unknown,0.0,love,0.019349433481693268,0.009941108524799347,0.050720375031232834,0.01958722248673439,0.7861642837524414,0.025895053520798683
+tiktok,post,7660150697505197319,"Di bawah pokok yang redup ini, saya sedar satu perkara... rakyat sebenarnya tak minta banyak pun.
+
+Mereka cuma nak didengar. Tak perlu pentas besar atau protokol yang jauhkan kita.
+
+Kami duduk bersama, berbual tentang kehidupan harian, cabaran dan harapan untuk Kahang. Ada yang berkongsi tentang anak-anak, kos sara hidup dan keperluan kampung. Saya dengar setiap satu, kerana setiap suara ada nilainya.
+
+Terima kasih kepada semua yang sudi meluangkan masa dan berkongsi pandangan.
+
+Insya-Allah, saya akan terus turun padang, berkhidmat dengan amanah dan membawa yang terbaik untuk warga Kahang.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660150697505197319,,,positive,2026-07-08 18:25:02.875252+00:00,20,0,2,173,0.9993581473827362,23,video,https://www.tiktok.com/@mazlan.bujang2/video/7660150697505197319,,positive,0.9978604912757874,malay,Malay/Bumiputera,Unknown,0.0,love,0.07105772197246552,0.05072551593184471,0.024421710520982742,0.08080659806728363,0.6735199689865112,0.04383799061179161
+tiktok,post,7660018364311457044,"Terima kasih atas doa, ingatan dan sokongan yang diberikan.
+
+Setiap pengalaman yang dikongsikan ini sangat saya hargai. Bagi saya, apabila diberi amanah sebagai wakil rakyat, tugas utama bukan sekadar memegang jawatan, tetapi membantu semampu mungkin apabila rakyat memerlukan.
+
+Sama ada berkaitan keperluan sekolah, kebajikan masyarakat, mahupun urusan rakyat di lapangan, saya percaya setiap bantuan kecil boleh memberi makna besar kepada mereka yang menerimanya.
+
+Insya-Allah, sekiranya diberi mandat oleh pengundi N31 Kahang, saya akan terus berkhidmat dengan prinsip yang sama — mendengar, membantu dan membawa suara rakyat dengan penuh amanah.
+
+Terima kasih juga atas doa agar proses mengundi berjalan dengan baik. Semoga segala usaha ini dipermudahkan Allah SWT.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660018364311457044,,,positive,2026-07-08 18:25:03.209828+00:00,23,2,0,206,0.9994070529937744,27,video,https://www.tiktok.com/@mazlan.bujang2/video/7660018364311457044,,positive,0.998023509979248,malay,Malay/Bumiputera,Unknown,0.0,love,0.026939013972878456,0.014255909249186516,0.04170387238264084,0.02970738895237446,0.8085859417915344,0.02166365459561348
+tiktok,post,7660140971002236181,"Ayuh seluruh warga Kahang, inilah masanya kita bersama-sama mendengar hala tuju dan tawaran terbaik untuk masa depan Kahang.
+
+Hadirkan diri bersama keluarga dan rakan-rakan ke Ceramah Mega N31 Kahang. Insya-Allah, barisan penceramah akan berkongsi pandangan, menjawab persoalan rakyat serta membawa mesej harapan demi membina Kahang yang lebih maju, sejahtera dan diberkati.
+
+📅 17 Khamis | 9 Julai 2026
+
+⏰ 9.00 malam
+
+📍 Felda Kahang Barat
+
+Kehadiran anda menjadi pembakar semangat buat
+kami untuk terus berjuang demi rakyat.
+
+Jom hadir beramai-ramai!
+Kahang Bermuafakat, Rakyat Berkat. 💙🇲🇾
+
+Pilih Mazlan Bujang - PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660140971002236181,,,positive,2026-07-08 18:25:03.544191+00:00,36,1,0,274,0.9994098603725432,39,video,https://www.tiktok.com/@mazlan.bujang2/video/7660140971002236181,,positive,0.9980328679084778,malay,Malay/Bumiputera,Unknown,0.0,love,0.04400883987545967,0.04089300334453583,0.3561583459377289,0.03369596600532532,0.36486688256263733,0.039303507655858994
+tiktok,post,7660135712339037458,"Secawan kopi, beberapa minit berbual... tetapi nilainya jauh lebih besar daripada itu.
+
+Di meja inilah saya mendengar cerita mereka. Ada yang sudah puluhan tahun menabur bakti di FELDA, ada yang membesarkan anak-anak hasil titik peluh sendiri. Mereka bukan meminta sesuatu yang luar biasa. Mereka hanya mahu melihat Kahang terus maju, peluang pekerjaan bertambah, kemudahan dipertingkat dan masa depan anak cucu lebih terjamin.
+
+Setiap kali saya menyantuni orang kampung, saya  yakin bahawa harapan mereka sebenarnya sama. 
+Mereka mahu pemimpin yang sudi duduk semeja, mendengar tanpa mengira latar belakang, dan berusaha mencari penyelesaian, bukan sekadar hadir ketika musim pilihan raya. 
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660135712339037458,,,positive,2026-07-08 18:25:03.911474+00:00,24,0,1,165,0.9992662370204926,26,video,https://www.tiktok.com/@mazlan.bujang2/video/7660135712339037458,,positive,0.9975541234016418,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03794033080339432,0.08303655683994293,0.44924846291542053,0.020685020834207535,0.3104391396045685,0.035772904753685
+tiktok,post,7660039122253368596,"Alhamdulillah, terima kasih atas setiap sokongan, doa dan kata-kata semangat yang diberikan. Insya-Allah, amanah ini akan saya pikul sebaik mungkin demi Kahang yang kita sayang.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660039122253368596,,,positive,2026-07-08 18:25:04.266716+00:00,34,1,0,217,0.9993758857250212,37,video,https://www.tiktok.com/@mazlan.bujang2/video/7660039122253368596,,positive,0.9979196190834045,malay,Malay/Bumiputera,Unknown,0.0,love,0.09475739300251007,0.07524731010198593,0.04430198296904564,0.1400134563446045,0.5359126925468445,0.05437876656651497
+tiktok,post,7660017429187185941,"Saya amat menghargai kata-kata dan kepercayaan yang diberikan.
+
+Sepanjang diberi peluang berkhidmat sebelum ini, saya sentiasa percaya bahawa tugas seorang wakil rakyat bukan hanya berada di pejabat, tetapi turun sendiri bertemu masyarakat, mendengar keluhan mereka dan membantu sedaya yang mampu.
+
+Kahang ini dekat di hati saya. Setiap teguran, sokongan dan harapan rakyat menjadi kekuatan untuk saya terus berkhidmat dengan lebih bersungguh-sungguh.
+
+Insya-Allah, sekiranya diberikan mandat sekali lagi, saya akan terus membawa suara rakyat Kahang dengan penuh amanah, dedikasi dan rasa tanggungjawab.
+
+Kahang bukan sekadar kawasan bertanding, tetapi tempat untuk saya terus berbakti.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660017429187185941,,,positive,2026-07-08 18:25:04.634145+00:00,33,1,6,235,0.9915599107742309,42,video,https://www.tiktok.com/@mazlan.bujang2/video/7660017429187185941,,positive,0.9718663692474365,malay,Malay/Bumiputera,Unknown,0.0,love,0.027186458930373192,0.011463568545877934,0.04171105474233627,0.01999576762318611,0.8389570116996765,0.015849269926548004
+tiktok,post,7660022429791669524,"Terima kasih kepada semua yang sudi bersama, bergambar dan mendoakan saya. Sokongan anda semua memberi semangat untuk terus berkhidmat kepada rakyat Kahang.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660022429791669524,,,positive,2026-07-08 18:25:05.026202+00:00,29,1,1,222,0.9993952155113219,33,video,https://www.tiktok.com/@mazlan.bujang2/video/7660022429791669524,,positive,0.9979840517044067,malay,Malay/Bumiputera,Unknown,0.0,love,0.03394439443945885,0.018825454637408257,0.13730493187904358,0.02717231959104538,0.6052318811416626,0.02785838022828102
+tiktok,post,7659999712505908500,"Tak kira di mana saya singgah, layanan yang diberikan sentiasa buat hati rasa terharu. Terima kasih atas sokongan yang tidak pernah putus. Moga dipermudahkan segala urusan kita.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659999712505908500,,,positive,2026-07-08 18:25:05.370862+00:00,46,2,0,275,0.9994033336639403,50,video,https://www.tiktok.com/@mazlan.bujang2/video/7659999712505908500,,positive,0.9980111122131348,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02177082747220993,0.11602871865034103,0.34822630882263184,0.03143632784485817,0.1304418295621872,0.267760694026947
+tiktok,post,7660072791626059015,"Terima kasih saya ucapkan kepada pimpinan YB Ustaz Fauzi, Pesuruhjaya PAS Pulau Pinang merangkap ADUN Sungai Dua, atas kesudian hadir memberikan sokongan dan semangat kepada saya sebagai calon Perikatan Nasional N31 Kahang.
+
+Kehadiran YB bersama para petugas dari Pulau Pinang amat saya hargai. Sokongan ini bukan sahaja memberikan kekuatan kepada saya, malah membakar semangat seluruh jentera untuk terus bekerja bersungguh-sungguh demi membawa perubahan yang lebih baik buat rakyat Kahang. 
+
+Terima kasih atas ukhuwah, doa dan kepercayaan yang diberikan. Insya-Allah, bersama kita terus melangkah membawa aspirasi Kahang Bermuafakat, Rakyat Berkat.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660072791626059015,,,positive,2026-07-08 18:25:05.759198+00:00,33,4,3,209,0.9994096457958221,42,video,https://www.tiktok.com/@mazlan.bujang2/video/7660072791626059015,,positive,0.9980321526527405,malay,Malay/Bumiputera,Unknown,0.0,love,0.0341130830347538,0.028009111061692238,0.2707705497741699,0.030725326389074326,0.4964168071746826,0.035120442509651184
+tiktok,post,7660017597823388949,"Saya amat menghargai kata-kata dan kepercayaan yang diberikan.
+
+Sepanjang diberi peluang berkhidmat sebelum ini, saya sentiasa percaya bahawa tugas seorang wakil rakyat bukan hanya berada di pejabat, tetapi turun sendiri bertemu masyarakat, mendengar keluhan mereka dan membantu sedaya yang mampu.
+
+Kahang ini dekat di hati saya. Setiap teguran, sokongan dan harapan rakyat menjadi kekuatan untuk saya terus berkhidmat dengan lebih bersungguh-sungguh.
+
+Insya-Allah, sekiranya diberikan mandat sekali lagi, saya akan terus membawa suara rakyat Kahang dengan penuh amanah, dedikasi dan rasa tanggungjawab.
+
+Kahang bukan sekadar kawasan bertanding, tetapi tempat untuk saya terus berbakti.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660017597823388949,,,positive,2026-07-08 18:25:06.129733+00:00,47,1,1,366,0.9915599107742309,52,video,https://www.tiktok.com/@mazlan.bujang2/video/7660017597823388949,,positive,0.9718663692474365,malay,Malay/Bumiputera,Unknown,0.0,love,0.027186458930373192,0.011463568545877934,0.04171105474233627,0.01999576762318611,0.8389570116996765,0.015849269926548004
+tiktok,post,7659985641681308949,"Bila masuk ke dapur, bukan aroma nasi daging yang menyambut saya dulu... tetapi gelak tawa yang memenuhi ruang. 
+
+Di dapur inilah cerita dikongsi, pengalaman diwariskan dan silaturahim dieratkan.
+
+Inilah indahnya Program Dapur Tautan Kasih bukan sekadar berkongsi resipi, tetapi menyatukan hati melalui masakan.
+
+Terima kasih kepada Chef Mak Ndak dan semua yang menjayakan program ini.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang #KahangBermuafakatRakyatBerkat #JomJagaJohor #CalonNo3 #N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659985641681308949,,,positive,2026-07-08 18:25:06.484428+00:00,57,5,1,455,0.9993980765342712,67,video,https://www.tiktok.com/@mazlan.bujang2/video/7659985641681308949,,positive,0.9979935884475708,malay,Malay/Bumiputera,Unknown,0.0,love,0.026895876973867416,0.02471628040075302,0.02419315092265606,0.03652213141322136,0.5076385140419006,0.11056343466043472
+tiktok,post,7659999540451413269,"Senyuman, sapaan dan sokongan daripada anda semua menjadi pembakar semangat untuk saya terus melangkah. Terima kasih, warga Kahang. Semoga segala kebaikan ini diberkati Allah SWT.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659999540451413269,,,positive,2026-07-08 18:25:06.852203+00:00,34,1,1,219,0.9993810176849365,38,video,https://www.tiktok.com/@mazlan.bujang2/video/7659999540451413269,,positive,0.9979367256164551,malay,Malay/Bumiputera,Unknown,0.0,love,0.030993420630693436,0.023694314062595367,0.23632663488388062,0.025800174102187157,0.520603597164154,0.0303548201918602
+tiktok,post,7660009776465775893,"Dalam perjuangan ini, saya tidak pernah melihat jawatan sebagai satu keistimewaan, tetapi sebagai amanah yang sangat besar untuk dipikul. Setiap kepercayaan yang diberikan oleh rakyat adalah tanggungjawab yang wajib saya laksanakan sebaik mungkin.
+
+Saya percaya, pemimpin bukan diukur pada kedudukan yang dimiliki, tetapi pada kesediaan untuk berkhidmat, mendengar suara rakyat dan mendahulukan kepentingan masyarakat melebihi kepentingan diri.
+
+Insya-Allah, sekiranya diberikan mandat oleh rakyat Kahang, saya akan terus berusaha membawa suara, harapan dan keperluan penduduk N31 Kahang dengan penuh amanah dan kesungguhan.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7660009776465775893,,,negative,2026-07-08 18:25:07.224983+00:00,26,1,0,215,0.009317725896835327,29,video,https://www.tiktok.com/@mazlan.bujang2/video/7660009776465775893,,negative,0.9689409136772156,malay,Malay/Bumiputera,Unknown,0.0,love,0.025838766247034073,0.011444542557001114,0.026141786947846413,0.023709028959274292,0.8476032614707947,0.016680855304002762
+tiktok,post,7659996739952332052,"Setiap kali bertemu rakyat, saya semakin yakin bahawa kekuatan sebenar datang daripada kebersamaan kita. Terima kasih kerana sentiasa bersama dalam perjuangan ini.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659996739952332052,,,positive,2026-07-08 18:25:07.600652+00:00,37,2,1,250,0.9993960380554199,42,video,https://www.tiktok.com/@mazlan.bujang2/video/7659996739952332052,,positive,0.9979867935180664,malay,Malay/Bumiputera,Unknown,0.0,happy,0.019250085577368736,0.046307098120450974,0.8177616596221924,0.008987746201455593,0.04373618960380554,0.02147100493311882
+tiktok,post,7659994098815831317,"Kadang-kadang memang sebak bila komen dalam media sosial. Saya mengucapkan ribuaan terima kasih atas doa dan kepercayaan yang diberi.
+
+Saya bukan insan yang sempurna, tapi selagi ada kekuatan, saya akan terus cuba jadi pemimpin yang mendengar, mudah didekati dan ikhlas berkhidmat.
+
+Kalau Allah SWT izinkan dan rakyat Kahang terus beri kepercayaan, saya akan pikul amanah ini dengan penuh tanggungjawab dan rendah hati.
+
+Semoga Allah SWT memberkati perjuangan ini dan mengurniakan yang terbaik buat seluruh warga Kahang. 
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659994098815831317,,,positive,2026-07-08 18:25:07.946638+00:00,34,2,1,212,0.9893049776554107,39,video,https://www.tiktok.com/@mazlan.bujang2/video/7659994098815831317,,positive,0.9643499255180359,malay,Malay/Bumiputera,Unknown,0.0,love,0.038146767765283585,0.020741630345582962,0.04412753880023956,0.027590814977884293,0.7971710562705994,0.026022067293524742
+tiktok,post,7659795176809860372,"Dulu, ramai anak kampung belajar mencari rezeki hanya dengan apa yang ada di tangan. Hari ini, melalui TVET, tangan yang sama diberi ilmu, kemahiran dan peluang untuk melangkah lebih jauh.
+
+Saya melihat sendiri... seorang anak muda memegang alat kimpalan, bukan sekadar menyambung besi, tetapi sedang menyambung impian untuk masa depan.
+
+Mungkin bagi sesetengah orang, ini hanya kerja kemahiran.
+
+Tapi bagi sebuah keluarga... inilah jalan seorang anak membina kehidupan, membantu ibu ayah dan mengubah nasib.
+
+Sebab itu TVET sangat dekat dengan kita.
+
+Dekat dengan jiwa kampung, dekat dengan anak muda FELDA, dan dekat dengan masa depan Kahang.
+
+Kerana bila kita beri peluang kepada kemahiran... kita sebenarnya sedang membuka pintu rezeki untuk generasi akan datang.""
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659795176809860372,,,positive,2026-07-08 18:25:08.383233+00:00,66,8,9,662,0.9994067311286925,89,video,https://www.tiktok.com/@mazlan.bujang2/video/7659795176809860372,,positive,0.9980224370956421,malay,Malay/Bumiputera,Unknown,0.0,love,0.03823638707399368,0.03410588577389717,0.06457729637622833,0.04783603549003601,0.5660080313682556,0.052884478121995926
+tiktok,post,7659965617268706580,"Setiap kali saya membaca kata-kata seperti ini, hati saya tersentuh.
+
+Saya tidak pernah mengharapkan penghargaan. Cukuplah jika usaha saya memberi manfaat kepada rakyat.
+
+Terima kasih kepada semua sahabat yang masih mengingati dan menghargai amanah yang pernah saya pikul. Kepercayaan rakyat ialah amanah yang perlu dijaga.
+
+Saya percaya pemimpin dinilai pada kesanggupan mendengar, turun padang dan bersama rakyat. Semoga Allah SWT mengizinkan dan rakyat Kahang terus memberi kepercayaan saya. 
+
+Terima kasih atas doa, sokongan dan kepercayaan. Semoga Allah SWT memberkati langkah kita dan mengurniakan yang terbaik buat warga Kahang.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659965617268706580,,,positive,2026-07-08 18:25:08.745793+00:00,28,1,2,186,0.9993942677974701,32,video,https://www.tiktok.com/@mazlan.bujang2/video/7659965617268706580,,positive,0.9979808926582336,malay,Malay/Bumiputera,Unknown,0.0,love,0.027891261503100395,0.03399282321333885,0.03112420067191124,0.053975243121385574,0.47489574551582336,0.26874056458473206
+tiktok,post,7659956725432225045,"Sepanjang perjalanan ini, saya telah bertemu anak muda yang menyimpan impian, ibu bapa yang mengharapkan masa depan lebih baik, warga emas yang mahukan pembelaan, serta kanak-kanak yang berhak membesar dalam Kahang yang lebih sejahtera.
+
+Setiap pertemuan, setiap jabat tangan dan setiap cerita yang dikongsikan menjadi amanah yang saya bawa.
+
+Jika diberi peluang, saya akan terus bersama rakyat Kahang, bukan hanya ketika musim pilihan raya, tetapi sepanjang masa untuk mendengar, berkhidmat dan memperjuangkan kepentingan kita semua.
+
+Pada hari mengundi nanti, saya merayu dengan penuh rendah hati.
+
+Pilih Mazlan Bujang – PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659956725432225045,,,positive,2026-07-08 18:25:09.089628+00:00,36,1,1,239,0.9994063735008238,40,video,https://www.tiktok.com/@mazlan.bujang2/video/7659956725432225045,,positive,0.9980212450027466,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03995120897889137,0.03938659653067589,0.6192364692687988,0.02773997187614441,0.21879379451274872,0.020291808992624283
+tiktok,post,7659788554796551445,"Semoga doa ini menjadi amalan harian kita agar sentiasa dipelihara daripada akhlak yang buruk, perbuatan yang buruk dan hawa nafsu yang keji.
+
+Aamiin Ya Rabbal 'Alamin.
+
+PILIH MAZLAN BUJANG – PMB
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659788554796551445,,,positive,2026-07-08 18:25:09.477605+00:00,35,1,1,216,0.9993994176387786,39,video,https://www.tiktok.com/@mazlan.bujang2/video/7659788554796551445,,positive,0.997998058795929,malay,Malay/Bumiputera,Unknown,0.0,anger,0.3155556321144104,0.04068395495414734,0.09593323618173599,0.08873702585697174,0.20846997201442719,0.022955479100346565
+tiktok,post,7659319309969181960,"Pakcik Samad cerita tadi, dia tunggu kedatangan saya. Allahu sebaknya saya. 
+#yuhanitayunan #fypシ #prnjohor #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7659319309969181960,,,negative,2026-07-08 18:25:09.826924+00:00,931,130,60,8782,0.1558792859315872,1208,video,https://www.tiktok.com/@yuhanita.yunan/video/7659319309969181960,,negative,0.4804023802280426,multilingual,Unknown,Unknown,0.0,love,0.05497689172625542,0.033254820853471756,0.0207053255289793,0.03468911722302437,0.7774330377578735,0.026440700516104698
+tiktok,post,7659236719157447943,Jadual saya hari ini ya. Jumpa dengan saya di tempat-tempat berkenaan. Insya Allah #PasirRaja #N35PasirRaja #YuhanitaYunan #JohorMemilih #YuhanitaYunan,https://www.tiktok.com/@yuhanita.yunan/video/7659236719157447943,,,neutral,2026-07-08 18:25:10.191629+00:00,76,1,2,485,0.5,83,video,https://www.tiktok.com/@yuhanita.yunan/video/7659236719157447943,,neutral,0.997660756111145,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03411497548222542,0.01600359007716179,0.04951668158173561,0.019910963252186775,0.24907074868679047,0.03546198830008507
+tiktok,post,7659267041370672402,"Highlight video aktiviti saya semalam.
+Semalam seronok banyak aktiviti dengan orang muda, saya pon terasa aktif bila ber aktiviti bersama mereka.#JohorMemilih #YuhanitaYunan #prnjohor #fypシ #yuhanitayunan",https://www.tiktok.com/@yuhanita.yunan/video/7659267041370672402,,,positive,2026-07-08 18:25:10.521493+00:00,165,4,5,1040,0.999382323026657,184,video,https://www.tiktok.com/@yuhanita.yunan/video/7659267041370672402,,positive,0.9979410767555237,malay,Malay/Bumiputera,Unknown,0.0,happy,0.01302044652402401,0.03520647808909416,0.8932600617408752,0.007257347460836172,0.019927876070141792,0.013666943646967411
+tiktok,post,7659248275869977863,"Masya Allah comel adik ni. Walkabout di foodcourt Taman Sri Saujana.
+#prnjohor #fypシ #yuhanitayunan",https://www.tiktok.com/@yuhanita.yunan/video/7659248275869977863,,,neutral,2026-07-08 18:25:10.901486+00:00,117,4,4,735,0.5,132,video,https://www.tiktok.com/@yuhanita.yunan/video/7659248275869977863,,neutral,0.8868007063865662,english,Mixed/Urban,Unknown,0.0,love,0.09750144183635712,0.02395523339509964,0.0689096599817276,0.03116571344435215,0.5306617617607117,0.027192825451493263
+tiktok,post,7659202766828604693,"COUNTDOWN PRN JOHOR : 5 HARI LAGI
+MASA UNTUK PERUBAHAN DI PASIR RAJA! 
+
+Para pengundi di N35 Pasir Raja, masa untuk menentukan masa depan kawasan kita sudah semakin hampir. Tinggal 5 hari sahaja lagi sebelum kita turun ke peti undi!
+
+""Terus Berbakti, Pasir Raja Sejahtera""
+#PerikatanNasional #PasirRaja #N35PasirRaja #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7659202766828604693,,,positive,2026-07-08 18:25:11.248518+00:00,96,2,4,459,0.9980331182479858,106,video,https://www.tiktok.com/@yuhanita.yunan/video/7659202766828604693,,positive,0.9934437274932861,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03734888136386871,0.12477368116378784,0.24968194961547852,0.02424447610974312,0.12102680653333664,0.05010466277599335
+tiktok,post,7659184244983434503,"""Perjuangan ini bukan perjuangan saya sahaja. Ia perjuangan setiap keluarga di Pasir Raja yang mahu hidup lebih baik. Bersama, kita mampu."" — Yuhanita Yunan
+
+#PerikatanNasional #PasirRaja #N35PasirRaja #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7659184244983434503,,,positive,2026-07-08 18:25:11.602553+00:00,69,1,1,336,0.9992370903491974,74,video,https://www.tiktok.com/@yuhanita.yunan/video/7659184244983434503,,positive,0.997456967830658,malay,Malay/Bumiputera,Unknown,0.0,love,0.021778911352157593,0.01926594413816929,0.08487361669540405,0.022470688447356224,0.7662164568901062,0.026113707572221756
+tiktok,post,7659076915977899282,"Assalamualaikum wbt.
+
+Selamat mengundi buat semua pengundi awal, barisan keselamatan. Terima kasih atas jasa baik anda dalam menjaga keselamatan negeri dan negara. 
+
+Undi anda adalah rahsia. Akan tetapi setiap undi kita akan dinilai dihadapan Tuhan. Semoga ianya menjadi amal baik kita di Akhirat kelak. 
+
+Semoga Allah mudahkan urusan tuan puan sekeluarga dalam proses undian awal. 
+
+Pilih Calon No. 2, N35 Pasir Raja. 
+YUHANITA YUNAN. 
+
+Allah peliharakan Sultan
+Allah berkati Johor
+#JohorMemilih #YuhanitaYunan #N35PasirRaja #PasirRaja",https://www.tiktok.com/@yuhanita.yunan/video/7659076915977899282,,,positive,2026-07-08 18:25:12.005868+00:00,347,21,27,1608,0.9994130969047545,411,video,https://www.tiktok.com/@yuhanita.yunan/video/7659076915977899282,,positive,0.9980436563491821,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.08166678249835968,0.029293881729245186,0.15401512384414673,0.024382876232266426,0.23507562279701233,0.02729066088795662
+tiktok,post,7659072329531673863,"Podcast malam ni saya kongsi apa yang saya nak ambil perhatian bila saya diberi peluang jadi Adun di Pasir Raja.
+
+#UndiNo2 #PerikatanNasional #YuhanitaYunan #N35 #PasirRaja",https://www.tiktok.com/@yuhanita.yunan/video/7659072329531673863,,,positive,2026-07-08 18:25:12.356308+00:00,140,4,8,707,0.9993688225746153,159,video,https://www.tiktok.com/@yuhanita.yunan/video/7659072329531673863,,positive,0.9978960752487183,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.013395225629210472,0.0326216034591198,0.13338086009025574,0.02122599631547928,0.2992655336856842,0.16529199481010437
+tiktok,post,7659067959083568402,"Cantik semua pakai kain batik di kepala. Saya pon nak ambil vibe pakai juga kain batik di kepala.
+##PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659067959083568402,,,neutral,2026-07-08 18:25:12.715998+00:00,52,2,4,351,0.5,61,video,https://www.tiktok.com/@yuhanita.yunan/video/7659067959083568402,,neutral,0.8219005465507507,english,Mixed/Urban,Unknown,0.0,love,0.02609582617878914,0.0158463716506958,0.06028665229678154,0.01924855075776577,0.7018630504608154,0.05125253647565842
+tiktok,post,7659029657135697160,"Walkabout Econsave Taman Daiman hari ni. Econsave ni antara tempat tumpuan di sini.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7659029657135697160,,,positive,2026-07-08 18:25:13.063704+00:00,699,24,31,4609,0.8798426419496536,800,video,https://www.tiktok.com/@yuhanita.yunan/video/7659029657135697160,,positive,0.5994754731655121,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.06928560882806778,0.021192267537117004,0.05475224554538727,0.028457503765821457,0.2835925221443176,0.035638537257909775
+tiktok,post,7658954172116667666,"Amanah bukan sekadar janji, tetapi tanggungjawab yang akan saya pikul dengan penuh keikhlasan. Dengan penuh rendah hati, saya memohon sokongan dan kepercayaan daripada seluruh warga Pasir Raja. Berikanlah saya peluang untuk berkhidmat, mendengar denyut nadi rakyat, dan merealisasikan agenda YUHA demi Pasir Raja yang lebih sejahtera da membangun lebih maju.
+
+Calon No2 PAS PN, Yuhanita Yunan
+JOM JAGA PASIR RAJA
+
+""Terus Berbakti, Pasir Raja Sejahtera""
+
+#PerikatanNasional #PasirRaja #N35PasirRaja #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7658954172116667666,,,positive,2026-07-08 18:25:13.476874+00:00,77,0,2,412,0.9988505661487579,83,video,https://www.tiktok.com/@yuhanita.yunan/video/7658954172116667666,,positive,0.9961685538291931,malay,Malay/Bumiputera,Unknown,0.0,happy,0.0548698753118515,0.04239315912127495,0.46950992941856384,0.02838413417339325,0.33799001574516296,0.019869567826390266
+tiktok,post,7658952009445379348,"Pagi tadi ada Tournament Mobile Legend Dun Pasir Raja. Jadi saya singgah kejap untuk raikan mereka. Lepas ni macam boleh buat banyak lagi aktiviti macam ni. Siapa nak join?
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2 #PRNJohor #fyp #fypシ #yuhanita4pasirraja #pasirrajasejahtera",https://www.tiktok.com/@yuhanita.yunan/video/7658952009445379348,,,neutral,2026-07-08 18:25:13.831489+00:00,265,7,11,1647,0.5,299,video,https://www.tiktok.com/@yuhanita.yunan/video/7658952009445379348,,neutral,0.9547703862190247,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.01091781072318554,0.025762135162949562,0.017847921699285507,0.02746872790157795,0.04062538966536522,0.7807825803756714
+tiktok,post,7658944702049209607,"Kadang-kadang jalan terasa sukar, namun setiap langkah yang kita teruskan menjadikan kita lebih kuat daripada semalam.
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7658944702049209607,,,positive,2026-07-08 18:25:14.253957+00:00,70,0,3,612,0.9993833601474762,79,video,https://www.tiktok.com/@yuhanita.yunan/video/7658944702049209607,,positive,0.9979445338249207,malay,Malay/Bumiputera,Unknown,0.0,fear,0.07967319339513779,0.7427743077278137,0.018733346834778786,0.11523891985416412,0.00940477754920721,0.023583155125379562
+tiktok,post,7658951353846320402,"Banyak yang Ustaz Amirul dan saya sembang-sembang. Semuanya mengenai apa yang saya nak bawa untuk semua warga Pasir Raja jika saya diberi peluang menjadi wakil rakyat. 
+
+Calon No2 PAS PN, Yuhanita Yunan
+JOM JAGA PASIR RAJA
+
+""Terus Berbakti, Pasir Raja Sejahtera""
+
+#PerikatanNasional #PasirRaja #N35PasirRaja #YuhanitaYunan #JohorMemilih",https://www.tiktok.com/@yuhanita.yunan/video/7658951353846320402,,,positive,2026-07-08 18:25:14.592941+00:00,65,3,0,565,0.9994093239307402,73,video,https://www.tiktok.com/@yuhanita.yunan/video/7658951353846320402,,positive,0.9980310797691345,malay,Malay/Bumiputera,Unknown,0.0,love,0.03831521421670914,0.039710335433483124,0.17016491293907166,0.02940920740365982,0.36386558413505554,0.04608284682035446
+tiktok,post,7658938392066936071,Ceramah Kelompok PASIR RAJA malam tadi,https://www.tiktok.com/@yuhanita.yunan/video/7658938392066936071,,,neutral,2026-07-08 18:25:14.921314+00:00,110,1,4,751,0.5,122,video,https://www.tiktok.com/@yuhanita.yunan/video/7658938392066936071,,neutral,0.8299243450164795,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.00917895045131445,0.005147979129105806,0.01773505099117756,0.006208638660609722,0.028406400233507156,0.02022809162735939
+tiktok,post,7658875099260521749,"Apa kelebihan dapat YB yang merupakan seorang pendidik - YB Salamiah Mohd Nor, Ahli Parlimen Temerloh
+
+#PasirRaja #N35 #YuhanitaYunan #PerikatanNasional #UndiNo2",https://www.tiktok.com/@yuhanita.yunan/video/7658875099260521749,,,neutral,2026-07-08 18:25:15.252253+00:00,106,5,3,639,0.5,120,video,https://www.tiktok.com/@yuhanita.yunan/video/7658875099260521749,,neutral,0.8720518946647644,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.046900589019060135,0.01809190772473812,0.04900399595499039,0.02955842763185501,0.33281534910202026,0.035729341208934784
+tiktok,post,7659700351443979538,"""DI sebalik Lencana, mereka juga rakyat yang berhak menentukan masa depan negara"" Monolog saya setibanya saya di Balai Polis Kampung Contoh.
+
+Hari ini saya singgah ke Balai Polis Contoh dan bertemu anggota yang menunaikan tanggungjawab sebagai pengundi awal.
+
+Mereka bukan sahaja menjaga keamanan, tetapi juga rakyat Malaysia yang berhak menentukan hala tuju negara.
+
+Dalam pertemuan ringkas ini, saya lebih banyak mendengar kerana percaya wakil rakyat perlu sentiasa hadir, mendengar dan memahami cabaran masyarakat.
+
+Terima kasih kepada seluruh anggota dan semua pengundi awal atas sambutan mesra.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659700351443979538,,,positive,2026-07-08 18:25:15.627619+00:00,50,0,2,340,0.9994123816490172,55,video,https://www.tiktok.com/@mazlan.bujang2/video/7659700351443979538,,positive,0.9980412721633911,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03490879386663437,0.02031107246875763,0.11198671907186508,0.020847661420702934,0.2154121696949005,0.041393350809812546
+tiktok,post,7659643363422948629,"Terima kasih saya ucapkan kepada kalin  atas doa, sokongan dan keyakinan yang diberikan kepada saya.
+Saya bukanlah insan yang sempurna, namun saya sentiasa berpegang bahawa amanah rakyat mesti dipikul dengan penuh kejujuran, integriti dan keikhlasan. 
+
+Terima kasih atas kepercayaan ini. 💙
+
+PILIH MAZLAN BUJANG – PMB
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659643363422948629,,,positive,2026-07-08 18:25:15.979519+00:00,30,1,1,231,0.9993978261947631,34,video,https://www.tiktok.com/@mazlan.bujang2/video/7659643363422948629,,positive,0.997992753982544,malay,Malay/Bumiputera,Unknown,0.0,love,0.04686852917075157,0.022759268060326576,0.07157889008522034,0.025036348029971123,0.6876102089881897,0.022552859038114548
+tiktok,post,7659679972491021586,"Terima kasih TPJ, Saudara Khairul Faizi atas sokongan dan kepercayaan. Semangat ini bukan untuk saya seorang, tetapi menjadi kekuatan buat seluruh warga Kahang.
+
+Insya-Allah, kami akan terus berjuang dengan hati, membawa harapan rakyat kampung, FELDA dan masyarakat Orang Asli. Doakan langkah ini sentiasa dipermudahkan.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659679972491021586,,,positive,2026-07-08 18:25:16.370590+00:00,29,3,1,201,0.9994041562080382,35,video,https://www.tiktok.com/@mazlan.bujang2/video/7659679972491021586,,positive,0.9980138540267944,malay,Malay/Bumiputera,Unknown,0.0,love,0.020624758675694466,0.012698774226009846,0.050422459840774536,0.02164459601044655,0.8171752691268921,0.020893972367048264
+tiktok,post,7659633289174600980,"Ada kisah yang tidak tertulis dalam buku sejarah…
+
+Kisah ayah yang keluar awal pagi, berbekalkan kudrat, doa dan semangat untuk mencari rezeki. Kisah ibu yang setia menunggu, membesarkan anak-anak dengan penuh pengorbanan.
+
+Tanah yang dulunya penuh cabaran, hari ini menjadi kampung yang makmur hasil keringat dan perjuangan peneroka FELDA.
+
+Kita mungkin menikmati hasilnya hari ini, tetapi jangan lupa.. ada insan terdahulu yang membuka jalan dengan peluh dan air mata.
+
+Terima kasih peneroka FELDA kerana mewariskan bukan sahaja tanah, tetapi sebuah nilai perjuangan.
+
+SELAMAT HARI PENEROKA FELDA
+
+""Di sebalik tanah yang subur, ada kisah pengorbanan yang tidak pernah dilupakan.""
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659633289174600980,,,positive,2026-07-08 18:25:16.750336+00:00,44,2,1,356,0.9993301630020142,50,video,https://www.tiktok.com/@mazlan.bujang2/video/7659633289174600980,,positive,0.9977672100067139,malay,Malay/Bumiputera,Unknown,0.0,love,0.028022244572639465,0.020025763660669327,0.05870972201228142,0.047471024096012115,0.7246235609054565,0.03271862491965294
+tiktok,post,7659641687588850965,"Terima kasih kepada semua yang mengenali perjalanan saya dan sudi berkongsi pengalaman serta kata-kata semangat.
+
+Setiap sokongan ini saya anggap sebagai satu amanah yang besar, bukan sekadar pujian.
+
+Insya-Allah, saya akan terus merendah diri, turun padang, mendengar setiap suara rakyat dan berusaha memberikan yang terbaik untuk Kahang.
+
+Semoga Allah SWT mempermudahkan segala urusan kita. Bersama kita bina Kahang Bermuafakat, Rakyat Berkat. 🤝💙
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659641687588850965,,,positive,2026-07-08 18:25:17.093478+00:00,31,1,0,325,0.9994020998477935,35,video,https://www.tiktok.com/@mazlan.bujang2/video/7659641687588850965,,positive,0.9980069994926453,malay,Malay/Bumiputera,Unknown,0.0,love,0.034154485911130905,0.043145354837179184,0.23724579811096191,0.031121602281928062,0.5312605500221252,0.03471705690026283
+tiktok,post,7659634205533506837,"Alhamdulillah, saya benar-benar tersentuh membaca setiap kata-kata yang ditinggalkan.
+
+Terima kasih atas doa, sokongan dan kepercayaan yang diberikan.
+
+Bagi saya, penghargaan sebenar bukan pada pujian, tetapi peluang untuk terus berkhidmat kepada masyarakat dengan penuh amanah.
+Insya-Allah, jika diberikan kepercayaan, saya akan terus mendengar, membantu dan berusaha sedaya upaya demi kesejahteraan seluruh warga Kahang.
+
+Terima kasih, Kahang. Sokongan anda menjadi semangat buat saya.
+
+PILIH MAZLAN BUJANG - PMB
+Calon No. 3
+Calon Perikatan Nasional
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659634205533506837,,,positive,2026-07-08 18:25:17.463996+00:00,39,1,6,297,0.9994015276432037,48,video,https://www.tiktok.com/@mazlan.bujang2/video/7659634205533506837,,positive,0.9980050921440125,malay,Malay/Bumiputera,Unknown,0.0,love,0.01854894496500492,0.01970187947154045,0.05766940489411354,0.03191090747714043,0.7114095687866211,0.07945167273283005
+tiktok,post,7659578847364484372,"Kahang untuk semua.
+
+Anak muda, wanita, kanak-kanak dan warga emas — semuanya berhak diberi perhatian tanpa mengira latar belakang.
+
+Saya hadir bukan sekadar untuk berkempen, tetapi untuk mendengar, memahami dan memperjuangkan hak rakyat Kahang.
+
+Beri peluang untuk saya.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659578847364484372,,,positive,2026-07-08 18:25:17.798898+00:00,76,5,6,529,0.999396252632141,92,video,https://www.tiktok.com/@mazlan.bujang2/video/7659578847364484372,,positive,0.9979875087738037,malay,Malay/Bumiputera,Unknown,0.0,love,0.025320084765553474,0.00947658158838749,0.025992169976234436,0.023531928658485413,0.7442909479141235,0.028358617797493935
+tiktok,post,7659456367446527253,"Jangan lupa, setiap pagi mulakan dengan syukur. Sepanjang perjalanan, lakukan semuanya dengan ikhlas. Bila malam menjelma, serahkan segala usaha kepada Allah dengan penuh tawakal.
+
+Hati yang tenang bukan kerana hidupnya mudah, tetapi kerana yakin Allah sentiasa mengatur yang terbaik.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659456367446527253,,,positive,2026-07-08 18:25:18.176314+00:00,29,1,1,228,0.9994072675704955,33,video,https://www.tiktok.com/@mazlan.bujang2/video/7659456367446527253,,positive,0.9980242252349854,malay,Malay/Bumiputera,Unknown,0.0,happy,0.055538926273584366,0.03293650224804878,0.6052185297012329,0.019519897177815437,0.16657578945159912,0.018522096797823906
+tiktok,post,7659558562191936789,"Hari ini, anda mengundi. Esok, sejarah akan mengingati bahawa anda telah menunaikan amanah.
+
+Di sebalik uniform yang dipakai, tersimpan pengorbanan besar demi keamanan negara. Hari ini, anda juga menunaikan amanah sebagai warganegara demi masa depan Johor.
+
+Terima kasih atas jasa dan pengorbanan anda. Semoga Allah SWT mempermudahkan urusan, mengurniakan kesihatan, melindungi setiap tugas dan memberkati segala amal bakti.
+
+Selamat mengundi awal. Semoga proses pengundian berjalan lancar, telus dan harmoni.
+
+PILIH MAZLAN BUJANG - PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659558562191936789,,,positive,2026-07-08 18:25:18.511131+00:00,45,2,3,345,0.9994041919708252,53,video,https://www.tiktok.com/@mazlan.bujang2/video/7659558562191936789,,positive,0.998013973236084,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.07271712273359299,0.06361695379018784,0.1966775804758072,0.035609252750873566,0.23800382018089294,0.03622781112790108
+tiktok,post,7659589493397146901,"“I’ll Risk it All For You” — tajuk lagu ni pun dah menunjukkan sebenarnya betapa saya komited.
+
+Komited untuk terus turun, terus dengar, terus bersama rakyat — walaupun jalannya bukan mudah. Sebab bagi saya, perjuangan ini bukan tentang diri sendiri, tapi tentang masa depan Kahang yang kita sayang.
+
+Demi rakyat, demi amanah, demi Kahang.
+Saya akan teruskan langkah ini sampai akhirnya.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659589493397146901,,,positive,2026-07-08 18:25:18.879476+00:00,41,5,0,285,0.999263161420822,48,video,https://www.tiktok.com/@mazlan.bujang2/video/7659589493397146901,,positive,0.9975438714027405,malay,Malay/Bumiputera,Unknown,0.0,love,0.090140201151371,0.07513153553009033,0.04723977670073509,0.11621110141277313,0.5844994783401489,0.04034442454576492
+tiktok,post,7659568699279559957,"Dah makin dekat hari mengundi ni, jom kita terus turun jumpa orang ramai. Hari ini insya-Allah saya akan bergerak sekitar Kahang — sarapan bersama penduduk, ramah mesra di FELDA, singgah ke kampung Orang Asli dan solat berjemaah bersama masyarakat setempat.
+
+Orang Asli juga sebahagian daripada keluarga besar Kahang. Suara mereka perlu didengar, kebajikan mereka perlu diberi perhatian, dan kehidupan mereka juga mesti dibela bersama.
+
+Tinggal beberapa hari saja lagi. Jangan lupa ingatkan keluarga, jiran dan sahabat-sahabat untuk keluar mengundi pada 11 Julai 2026 nanti.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659568699279559957,,,positive,2026-07-08 18:25:19.223907+00:00,32,0,4,179,0.9994075179100036,37,video,https://www.tiktok.com/@mazlan.bujang2/video/7659568699279559957,,positive,0.9980250597000122,malay,Malay/Bumiputera,Unknown,0.0,love,0.03523758798837662,0.0227119792252779,0.031067389994859695,0.0410928949713707,0.6188307404518127,0.057069819420576096
+tiktok,post,7659426037733805330,"Selesai menyantuni setiap kedai di sekitar Taman Sri Lambak (T6), saya terus meluangkan masa bertemu para petugas yang hadir dari jauh.
+
+Apabila saya berbual dengan petugas dari Pulau Pinang dan Melaka, hati saya benar-benar tersentuh. 
+
+Mereka sanggup meninggalkan keluarga, mengambil cuti, menempuh perjalanan yang jauh dan mengorbankan masa demi satu perjuangan yang mereka percaya.
+
+Pengorbanan seperti ini bukan boleh dibalas dengan kata-kata. Ia menjadi satu amanah yang lebih besar untuk saya terus berusaha bersungguh-sungguh demi rakyat Kahang.
+
+Terima kasih kepada seluruh petugas yang tidak pernah mengenal penat. Kehadiran dan semangat kalian memberi kekuatan kepada kami semua.
+
+Insya-Allah, dengan doa, usaha dan kebersamaan kita, semoga hasrat melihat Kahang Bermuafakat, Rakyat Berkat menjadi kenyataan.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659426037733805330,,,positive,2026-07-08 18:25:19.569876+00:00,51,1,4,348,0.9993433773517608,59,video,https://www.tiktok.com/@mazlan.bujang2/video/7659426037733805330,,positive,0.9978112578392029,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.023502863943576813,0.05015931278467178,0.029607823118567467,0.1004825234413147,0.28682056069374084,0.33020463585853577
+tiktok,post,7659553541073227028,"“Ramai orang boleh cakap pasal perjuangan, tapi yang betul-betul istiqamah ni dia jalan je terus, walau badan dah penat, walau hati dah lelah. Esok bila amanah sampai ke tangan, jangan buat main - pegang elok-elok, buat betul-betul. Sebab yang membezakan kita bukan banyaknya cakap, tapi seteguh mana kita menunaikan tanggungjawab. Yang tinggal nanti bukan cerita, tapi bukti.”
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659553541073227028,,,negative,2026-07-08 18:25:19.924600+00:00,20,1,1,198,0.0004918277263641357,23,video,https://www.tiktok.com/@mazlan.bujang2/video/7659553541073227028,,negative,0.9983605742454529,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.15147019922733307,0.29025036096572876,0.0346803292632103,0.2906872630119324,0.11560318619012833,0.030809568241238594
+tiktok,post,7659427270024514836,"Masa semakin mencemburui...
+
+Selesai menyantuni setiap kedai di sekitar Taman Sri Lambak (T6), saya terus meluangkan masa bertemu para petugas yang hadir dari jauh.
+
+Apabila saya berbual dengan petugas dari Pulau Pinang dan Melaka, hati saya benar-benar tersentuh. 
+
+Mereka sanggup meninggalkan keluarga, mengambil cuti, menempuh perjalanan yang jauh dan mengorbankan masa demi satu perjuangan yang mereka percaya.
+
+Pengorbanan seperti ini bukan boleh dibalas dengan kata-kata. Ia menjadi satu amanah yang lebih besar untuk saya terus berusaha bersungguh-sungguh demi rakyat Kahang.
+
+Terima kasih kepada seluruh petugas yang tidak pernah mengenal penat. Kehadiran dan semangat kalian memberi kekuatan kepada kami semua.
+
+Insya-Allah, dengan doa, usaha dan kebersamaan kita, semoga hasrat melihat Kahang Bermuafakat, Rakyat Berkat menjadi kenyataan.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659427270024514836,,,positive,2026-07-08 18:25:20.300217+00:00,35,0,4,340,0.9992815613746642,42,video,https://www.tiktok.com/@mazlan.bujang2/video/7659427270024514836,,positive,0.9976052045822144,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.023557135835289955,0.054353874176740646,0.039601992815732956,0.076258085668087,0.27375906705856323,0.31860873103141785
+tiktok,post,7659267715374353684,"Bagi saya, menjadi wakil rakyat bukan sekadar hadir ketika musim pilihan raya.
+
+Yang lebih penting ialah sentiasa bersama rakyat.
+Mendengar masalah mereka.
+Dan bertindak mencari penyelesaian.
+
+Sebab itu saya mahu memperjuangkan G — Gerak Urus Dekat Dengan Rakyat.
+
+Saya mahu rakyat merasakan mereka mempunyai wakil yang sentiasa bersama mereka, bukan
+hanya ketika memerlukan sokongan.
+
+Sekiranya Perikatan Nasional diberikan peluang untuk mentadbir Kahang, Tawaran
+K.A.H.A.N.G ini akan diperjuangkan demi kepentingan penduduk Kahang yang saya
+kasihi.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659267715374353684,,,positive,2026-07-08 18:25:20.683109+00:00,20,0,0,221,0.9713642716407775,22,video,https://www.tiktok.com/@mazlan.bujang2/video/7659267715374353684,,positive,0.9045475721359253,malay,Malay/Bumiputera,Unknown,0.0,love,0.09135910868644714,0.05482662096619606,0.03743757680058479,0.11525988578796387,0.6158222556114197,0.03781229630112648
+tiktok,post,7659267256441982229,"Saya percaya Kahang mempunyai potensi ekonomi yang sangat besar.
+Ramai peniaga kecil.
+Ramai petani.
+Ramai usahawan tempatan.
+
+Apa yang mereka perlukan ialah peluang dan sokongan yang berterusan.
+
+Sebab itu saya mahu memperjuangkan N — Nadi Ekonomi Desa & Tempatan.
+
+Apabila ekonomi kampung terus berkembang, lebih ramai rakyat akan menikmati peluang
+pekerjaan dan pendapatan yang lebih baik.
+
+Sekiranya Perikatan Nasional diberikan peluang untuk mentadbir Kahang, Tawaran
+K.A.H.A.N.G ini akan diperjuangkan demi kepentingan penduduk Kahang yang saya
+kasihi.
+
+PILIH MAZLAN BUJANG – PMB
+
+Calon No. 3
+Calon Perikatan Nasional 
+N31 Kahang
+
+#MazlanBujang
+#KahangBermuafakatRakyatBerkat
+#JomJagaJohor
+#CalonNo3
+#N31Kahang",https://www.tiktok.com/@mazlan.bujang2/video/7659267256441982229,,,positive,2026-07-08 18:25:21.040883+00:00,14,0,0,223,0.9994098961353302,16,video,https://www.tiktok.com/@mazlan.bujang2/video/7659267256441982229,,positive,0.9980329871177673,malay,Malay/Bumiputera,Unknown,0.0,love,0.09177925437688828,0.05355685576796532,0.04168452322483063,0.10300426930189133,0.6327369809150696,0.0342121347784996

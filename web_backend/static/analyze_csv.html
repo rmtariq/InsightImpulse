@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Existing CSV - InsightPulse</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .csv-list {
+            border: 2px dashed #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .csv-item {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .csv-item:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        .csv-item.selected {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+        .csv-name {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .csv-meta {
+            font-size: 12px;
+            color: #666;
+        }
+        .csv-item.selected .csv-meta {
+            color: #e0e7ff;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        .status.success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .status.error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .status.loading {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Analyze Existing CSV Files</h1>
+        <p class="subtitle">Run Universal Intelligence Analysis on previously collected data</p>
+
+        <div class="section">
+            <div class="section-title">Step 1: Select CSV File</div>
+            <div id="csvList" class="csv-list">
+                <div class="empty-state">Loading CSV files...</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Step 2: Configure Analysis</div>
+            <div class="form-group">
+                <label for="topicName">Brand/Topic Name</label>
+                <input type="text" id="topicName" placeholder="e.g., Mara Liner, Coca-Cola, Tesla">
+            </div>
+            <div class="form-group">
+                <label for="filterDays">Time Filter (days)</label>
+                <input type="number" id="filterDays" value="90" min="1" max="365">
+            </div>
+        </div>
+
+        <button class="btn" id="analyzeBtn" disabled>Analyze CSV</button>
+
+        <div id="status" class="status"></div>
+    </div>
+
+    <script>
+        let selectedCSV = null;
+
+        // Load CSV files on page load
+        async function loadCSVFiles() {
+            try {
+                const response = await fetch('/api/list-csvs');
+                const data = await response.json();
+                
+                const csvList = document.getElementById('csvList');
+                
+                if (data.csvs && data.csvs.length > 0) {
+                    csvList.innerHTML = data.csvs.map(csv => `
+                        <div class="csv-item" data-path="${csv.path}">
+                            <div class="csv-name">${csv.filename}</div>
+                            <div class="csv-meta">Size: ${csv.size_mb} MB | Modified: ${new Date(csv.modified_date * 1000).toLocaleString()}</div>
+                        </div>
+                    `).join('');
+                    
+                    // Add click handlers
+                    document.querySelectorAll('.csv-item').forEach(item => {
+                        item.addEventListener('click', () => selectCSV(item));
+                    });
+                } else {
+                    csvList.innerHTML = '<div class="empty-state">No CSV files found in data/combined/</div>';
+                }
+            } catch (error) {
+                console.error('Error loading CSVs:', error);
+                document.getElementById('csvList').innerHTML = '<div class="empty-state">Error loading CSV files</div>';
+            }
+        }
+
+        function selectCSV(item) {
+            // Remove previous selection
+            document.querySelectorAll('.csv-item').forEach(i => i.classList.remove('selected'));
+            
+            // Select current
+            item.classList.add('selected');
+            selectedCSV = item.dataset.path;
+            
+            // Enable analyze button
+            document.getElementById('analyzeBtn').disabled = false;
+        }
+
+        async function analyzeCSV() {
+            const topicName = document.getElementById('topicName').value.trim();
+            const filterDays = parseInt(document.getElementById('filterDays').value);
+            
+            if (!selectedCSV) {
+                showStatus('Please select a CSV file', 'error');
+                return;
+            }
+            
+            if (!topicName) {
+                showStatus('Please enter a brand/topic name', 'error');
+                return;
+            }
+            
+            showStatus('Analyzing CSV... This may take a minute...', 'loading');
+            document.getElementById('analyzeBtn').disabled = true;
+            
+            try {
+                const response = await fetch('/api/analyze-csv', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        csv_path: selectedCSV,
+                        topic_name: topicName,
+                        filter_days: filterDays
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showStatus(`✅ Analysis complete! Results saved to: ${data.output_dir}`, 'success');
+                } else {
+                    showStatus(`❌ Error: ${data.message || 'Unknown error'}`, 'error');
+                }
+            } catch (error) {
+                showStatus(`❌ Error: ${error.message}`, 'error');
+            } finally {
+                document.getElementById('analyzeBtn').disabled = false;
+            }
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+        }
+
+        // Event listeners
+        document.getElementById('analyzeBtn').addEventListener('click', analyzeCSV);
+
+        // Load CSV files on page load
+        loadCSVFiles();
+    </script>
+</body>
+</html>

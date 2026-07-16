@@ -1,0 +1,1048 @@
+================================================================================
+PRN JOHOR 2026 — TEMPLATE KEYWORD CALON (56 DUN)
+Isi SELEPAS penamaan rasmi: 27 Jun 2026 (Sabtu)
+Projek InsightPulse: pas_break_2026
+================================================================================
+
+CARA GUNA
+---------
+1. Selepas SPR umum senarai calon (27 Jun), isi ruang [___] di bawah.
+2. Satu crawl Keyword Search PER KERUSI (atau batch 5–10 kerusi — jangan 56 serentak).
+3. Platform: Facebook + Instagram + X + TikTok + News.
+4. Date Range: Last 14 Days (kempen: 7 hari; 3 hari akhir: 3 hari).
+5. Dataset: 800–1500 per kerusi.
+6. Analysis: Social Listening.
+
+FORMAT KEYWORD (DISYORKAN — bracket betul):
+  ("[CALON_1]" OR "[CALON_2]" OR "[CALON_3]") ("[NAMA_DUN]" OR "[KOD_DUN]" OR "PRN Johor") when:14d
+
+NOTA
+----
+• DUN/kerusi WAJIB dalam query — elak noise nama biasa.
+• Parti (UMNO/DAP/PAS) — optional; tambah hanya jika nama terlamb common.
+• Penyandang 2023 = rujukan sahaja, bukan calon 2026.
+• URL profil → crawl Direct URL berasingan.
+
+================================================================================
+SENARAI 56 KERUSI
+================================================================================
+
+──────────────────────────────────────────────────────────────────────────────
+N01 | BULOH KASAP | Daerah: Segamat
+Penyandang 2023: Zahari bin Sarip (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Buloh Kasap" OR "N01" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Buloh Kasap" OR "N01" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N02 | JEMENTAH | Daerah: Segamat
+Penyandang 2023: Ng Kor Sim (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Jementah" OR "N02" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Jementah" OR "N02" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N03 | PEMANIS | Daerah: Segamat
+Penyandang 2023: Anuar bin Abdul Manap (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pemanis" OR "N03" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Pemanis" OR "N03" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N04 | KEMELAH | Daerah: Segamat
+Penyandang 2023: Saraswati a/p Nallathamby (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kemelah" OR "N04" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Kemelah" OR "N04" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N05 | TENANG | Daerah: Segamat
+Penyandang 2023: Haslinda binti Salleh (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Tenang" OR "N05" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Tenang" OR "N05" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N06 | BEKOK | Daerah: Segamat
+Penyandang 2023: Tan Chong (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bekok" OR "N06" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bekok" OR "N06" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N07 | BUKIT KEPONG | Daerah: Muar
+Penyandang 2023: Sahruddin bin Jamal (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Kepong" OR "N07" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bukit Kepong" OR "N07" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N08 | BUKIT PASIR | Daerah: Muar
+Penyandang 2023: Mohamad Fazli bin Mohamad Salleh (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Pasir" OR "N08" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bukit Pasir" OR "N08" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N09 | GAMBIR | Daerah: Tangkak
+Penyandang 2023: Sahrihan bin Jani (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Gambir" OR "N09" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Gambir" OR "N09" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N10 | TANGKAK | Daerah: Tangkak
+Penyandang 2023: Ee Chin Li (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Tangkak" OR "N10" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Tangkak" OR "N10" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N11 | SEROM | Daerah: Tangkak
+Penyandang 2023: Khairin-Nisa binti Ismail (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Serom" OR "N11" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Serom" OR "N11" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N12 | BENTAYAN | Daerah: Muar
+Penyandang 2023: Ng Yak Howe (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bentayan" OR "N12" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bentayan" OR "N12" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N13 | SIMPANG JERAM | Daerah: Muar
+Penyandang 2023: Salahuddin bin Ayub (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Simpang Jeram" OR "N13" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Simpang Jeram" OR "N13" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N14 | BUKIT NANING | Daerah: Muar
+Penyandang 2023: Mohd Fuad bin Tukirin (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Naning" OR "N14" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bukit Naning" OR "N14" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N15 | MAHARANI | Daerah: Muar
+Penyandang 2023: Abdul Aziz bin Talib (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Maharani" OR "N15" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Maharani" OR "N15" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N16 | SUNGAI BALANG | Daerah: Muar
+Penyandang 2023: Selamat bin Takim (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sungai Balang" OR "N16" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Sungai Balang" OR "N16" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N17 | SEMERAH | Daerah: Batu Pahat
+Penyandang 2023: Mohd Fared bin Mohd Khalid (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Semerah" OR "N17" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Semerah" OR "N17" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N18 | SRI MEDAN | Daerah: Batu Pahat
+Penyandang 2023: Zulkurnain bin Kamisan (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sri Medan" OR "N18" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Sri Medan" OR "N18" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N19 | YONG PENG | Daerah: Batu Pahat
+Penyandang 2023: Ling Tian Soon (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Yong Peng" OR "N19" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Yong Peng" OR "N19" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N20 | SEMARANG | Daerah: Batu Pahat
+Penyandang 2023: Samsolbari bin Jamali (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Semarang" OR "N20" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Semarang" OR "N20" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N21 | PARIT YAANI | Daerah: Batu Pahat
+Penyandang 2023: Mohamad Najib bin Samuri (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Parit Yaani" OR "N21" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Parit Yaani" OR "N21" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N22 | PARIT RAJA | Daerah: Batu Pahat
+Penyandang 2023: Rashidah binti Ramli (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Parit Raja" OR "N22" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Parit Raja" OR "N22" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N23 | PENGGARAM | Daerah: Batu Pahat
+Penyandang 2023: Gan Peck Cheng (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Penggaram" OR "N23" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Penggaram" OR "N23" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N24 | SENGGARANG | Daerah: Batu Pahat
+Penyandang 2023: Mohd Yusla bin Ismail (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Senggarang" OR "N24" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Senggarang" OR "N24" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N25 | RENGIT | Daerah: Batu Pahat
+Penyandang 2023: Mohd Puad bin Zarkashi (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Rengit" OR "N25" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Rengit" OR "N25" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N26 | MACHAP | Daerah: Kluang ⚡ HOT
+Penyandang 2023: Onn Hafiz bin Ghazi (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Machap" OR "N26" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Machap" OR "N26" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N27 | LAYANG-LAYANG | Daerah: Kluang
+Penyandang 2023: Abd Mutalip bin Abd Rahim (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Layang-Layang" OR "N27" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Layang-Layang" OR "N27" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N28 | MENGKIBOL | Daerah: Kluang
+Penyandang 2023: Chew Chong Sin (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Mengkibol" OR "N28" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Mengkibol" OR "N28" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N29 | MAHKOTA | Daerah: Kluang ⚡ HOT
+Penyandang 2023: Sharifah Azizah binti Syed Zain (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Mahkota" OR "N29" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Mahkota" OR "N29" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N30 | PALOH | Daerah: Kluang
+Penyandang 2023: Lee Ting Han (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Paloh" OR "N30" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Paloh" OR "N30" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N31 | KAHANG | Daerah: Kluang
+Penyandang 2023: R. Vidyananthan (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kahang" OR "N31" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Kahang" OR "N31" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N32 | ENDAU | Daerah: Mersing
+Penyandang 2023: Alwiyah binti Talib (PN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Endau" OR "N32" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Endau" OR "N32" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N33 | TENGGAROH | Daerah: Mersing
+Penyandang 2023: Raven Kumar a/l Krishnasamy (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Tenggaroh" OR "N33" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Tenggaroh" OR "N33" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N34 | PANTI | Daerah: Kota Tinggi
+Penyandang 2023: Hahasrin bin Hashim (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Panti" OR "N34" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Panti" OR "N34" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N35 | PASIR RAJA | Daerah: Kota Tinggi
+Penyandang 2023: Rashidah binti Ismail (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pasir Raja" OR "N35" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Pasir Raja" OR "N35" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N36 | SEDILI | Daerah: Kota Tinggi
+Penyandang 2023: Muszaide bin Makmor (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Sedili" OR "N36" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Sedili" OR "N36" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N37 | JOHOR LAMA | Daerah: Kota Tinggi
+Penyandang 2023: Norlizah binti Noh (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Johor Lama" OR "N37" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Johor Lama" OR "N37" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N38 | PENAWAR | Daerah: Kota Tinggi
+Penyandang 2023: Fauziah binti Misri (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Penawar" OR "N38" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Penawar" OR "N38" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N39 | TANJUNG SURAT | Daerah: Kota Tinggi
+Penyandang 2023: Aznan bin Tamin (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Tanjung Surat" OR "N39" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Tanjung Surat" OR "N39" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N40 | TIRAM | Daerah: Johor Bahru
+Penyandang 2023: Azizul bin Bachok (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Tiram" OR "N40" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Tiram" OR "N40" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N41 | PUTERI WANGSA | Daerah: Johor Bahru ⚡ HOT
+Penyandang 2023: Amira Aisya binti Abd Aziz (ALONE) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Puteri Wangsa" OR "N41" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Puteri Wangsa" OR "N41" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N42 | JOHOR JAYA | Daerah: Johor Bahru
+Penyandang 2023: Liow Cai Tung (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Johor Jaya" OR "N42" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Johor Jaya" OR "N42" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N43 | PERMAS | Daerah: Johor Bahru
+Penyandang 2023: Baharudin bin Mohamed Taib (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Permas" OR "N43" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Permas" OR "N43" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N44 | LARKIN | Daerah: Johor Bahru
+Penyandang 2023: Mohd Hairi bin Mad Shah (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Larkin" OR "N44" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Larkin" OR "N44" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N45 | STULANG | Daerah: Johor Bahru
+Penyandang 2023: Andrew Chen Kah Eng (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Stulang" OR "N45" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Stulang" OR "N45" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N46 | PERLING | Daerah: Johor Bahru ⚡ HOT
+Penyandang 2023: Liew Chin Tong (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Perling" OR "N46" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Perling" OR "N46" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N47 | KEMPAS | Daerah: Johor Bahru ⚡ HOT
+Penyandang 2023: Ramlee bin Bohani (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kempas" OR "N47" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Kempas" OR "N47" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N48 | SKUDAI | Daerah: Johor Bahru ⚡ HOT
+Penyandang 2023: Marina binti Ibrahim (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Skudai" OR "N48" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Skudai" OR "N48" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N49 | KOTA ISKANDAR | Daerah: Iskandar Puteri
+Penyandang 2023: Pandak bin Ahmad (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kota Iskandar" OR "N49" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Kota Iskandar" OR "N49" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N50 | BUKIT PERMAI | Daerah: Kulai
+Penyandang 2023: Mohd Jafni bin Md Shukor (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Permai" OR "N50" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bukit Permai" OR "N50" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N51 | BUKIT BATU | Daerah: Kulai
+Penyandang 2023: Arthur Chiong Sen Sern (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Bukit Batu" OR "N51" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Bukit Batu" OR "N51" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N52 | SENAI | Daerah: Kulai
+Penyandang 2023: Wong Bor Yang (PH) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Senai" OR "N52" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Senai" OR "N52" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N53 | BENUT | Daerah: Pontian
+Penyandang 2023: Hasni bin Mohammad (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Benut" OR "N53" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Benut" OR "N53" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N54 | PULAI SEBATANG | Daerah: Pontian
+Penyandang 2023: Hasrunizah binti Hassan (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pulai Sebatang" OR "N54" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Pulai Sebatang" OR "N54" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N55 | PEKAN NANAS | Daerah: Pontian
+Penyandang 2023: Tan Eng Meng (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Pekan Nanas" OR "N55" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Pekan Nanas" OR "N55" OR "PRN Johor") when:14d
+
+──────────────────────────────────────────────────────────────────────────────
+N56 | KUKUP | Daerah: Pontian
+Penyandang 2023: Jefridin bin Atan (BN) — rujukan sahaja
+──────────────────────────────────────────────────────────────────────────────
+  CALON_BN/UMNO    : _______________________________
+  CALON_PH         : _______________________________
+  CALON_PN/PAS     : _______________________________
+  CALON_LAIN       : _______________________________
+  URL_FB           : _______________________________
+  URL_IG           : _______________________________
+  URL_X            : _______________________________
+  URL_TIKTOK       : _______________________________
+  KEYWORD_CRAWL    :
+  ("[CALON_BN]" OR "[CALON_PH]" OR "[CALON_PN]" OR "[CALON_LAIN]") ("Kukup" OR "N56" OR "PRN Johor") when:14d
+
+  CONTOH SELEPAS ISI (Puteri Wangsa style):
+  ("Ahmad Faizal" OR "Marina Lim" OR "Haji Karim") ("Kukup" OR "N56" OR "PRN Johor") when:14d
+
+================================================================================
+KERUSI ⚡ PRIORITI: N26, N29, N41, N46, N47, N48
+================================================================================
+
+BATCH A — HOT 6: N41, N47, N48, N46, N29, N26
+BATCH B — JB+Kulai: N40–N52
+BATCH C — Utara: N01–N25
+BATCH D — Tengah-Selatan: N26–N39, N53–N56
+
+Sumber calon: https://spr.gov.my | https://undiinfo.spr.gov.my
+================================================================================

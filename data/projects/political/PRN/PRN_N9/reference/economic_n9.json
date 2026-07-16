@@ -1,0 +1,54 @@
+{
+  "fetched_at": "2026-06-11 18:40 UTC",
+  "source_files": [
+    "EconomicOutlook_api_endpoints_master.numbers"
+  ],
+  "bnm": {
+    "opr": {
+      "data": {
+        "year": 2026,
+        "date": "2026-05-07",
+        "change_in_opr": 0,
+        "new_opr_level": 2.75
+      },
+      "meta": {
+        "last_updated": "2026-05-07 15:03:15",
+        "total_result": 1
+      }
+    },
+    "exchange_rate_usd": {
+      "date": "2026-06-11",
+      "buying": 4.067,
+      "selling": 4.072,
+      "middle": 4.0695
+    },
+    "exchange_rate_raw_meta": {
+      "quote": "rm",
+      "session": "1700",
+      "last_updated": "2026-06-11 23:01:31",
+      "total_result": 27
+    }
+  },
+  "dosm": {
+    "status": "manual_or_pending",
+    "catalogue": "https://open.dosm.gov.my/data-catalogue/cpi_state",
+    "note": "CPI negeri perlu pull dari OpenDOSM dashboard atau API data.gov.my — belum auto-parse.",
+    "n9_label": "Negeri Sembilan",
+    "last_manual_check": null
+  },
+  "macro_headlines": [
+    "OPR Malaysia kekal 2.75% (BNM, 2026-05-07)",
+    "Ringgit vs USD ~RM4.0695 (2026-06-11)"
+  ],
+  "prn_relevance": {
+    "opr": "Impak ansuran pinjaman SME & pembiayaan kereta/rumah — isu bandar NS.",
+    "ringgit": "Kos import & harga barang — naratif kos sara hidup pengundi atas pagar.",
+    "cpi_n9": "Pending — isu FELDA/LBN apabila data negeri dimasukkan."
+  },
+  "official": {
+    "opr_pct": 2.75,
+    "opr_date": "2026-05-07",
+    "usd_myr": 4.0695,
+    "usd_date": "2026-06-11"
+  }
+}

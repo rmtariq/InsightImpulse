@@ -1,0 +1,19 @@
+# PRN SAFE CRAWL — N9 + Johor (7 hari, query penuh parti/koalisi)
+# >5 OR terms → 1 combined crawl (~30-45 min) via crawl_guard (NOT 56× split)
+# Platform: FB + IG + X + TikTok + News · Dataset: 2000 · Project: pas_break_2026
+
+# ═══ CRAWL 1 — NEGERI SEMBILAN ═══
+"PRN Negeri Sembilan" OR #prnn9 OR PAS OR UMNO OR BN OR DAP OR PKR OR Amanah OR BERSATU OR PN OR PH OR "Pakatan Harapan" OR Gerakan "Negeri Sembilan" when:7d
+
+# ═══ CRAWL 2 — JOHOR ═══
+"PRN Johor" OR #prnjohor OR PAS OR UMNO OR BN OR DAP OR PKR OR Amanah OR BERSATU OR PN OR PH OR "Pakatan Harapan" OR Gerakan Johor when:7d
+
+# Parti/koalisi covered: PAS, UMNO, BN, DAP, PKR, Amanah, BERSATU, PN, PH, Gerakan
+# Optional add: MUDA, MADANI, "Unity Government", "PAS solo", TMJ (Johor), Tuanku Muhriz (N9)
+
+# ═══ FASA 2 — GAP DUN (kerusi tiada mention tempatan) ═══
+# python3 scripts/generate_prn_gap_crawl_list.py
+# python3 scripts/crawl_prn_gap_seats.py --state all
+
+# ═══ RUN BOTH STATES ═══
+# bash scripts/run_prn_n9_johor_update.sh

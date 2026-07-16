@@ -1,0 +1,93 @@
+﻿state,parliament_code,parliament_name,dun_code,dun_name,population,male,female,citizen,noncitizen,noncitizen_pct,sex_ratio_male_per_100_female,source_url
+Johor,P.140,Segamat,N.01,Buloh Kasap,31956,17744,14212,28735,3221,10.08,124.85,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.140,Segamat,N.02,Jementah,44055,21660,22395,42490,1565,3.55,96.72,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.141,Sekijang,N.03,Pemanis,32708,16761,15947,30991,1717,5.25,105.1,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.141,Sekijang,N.04,Kemelah,46639,24338,22301,44903,1736,3.72,109.13,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.142,Labis,N.05,Tenang,20476,10792,9684,19315,1161,5.67,111.44,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.142,Labis,N.06,Bekok,21928,11905,10023,19687,2241,10.22,118.78,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.143,Pagoh,N.07,Bukit Kepong,34670,18766,15904,32101,2569,7.41,118.0,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.143,Pagoh,N.08,Bukit Pasir,60532,34572,25960,51556,8976,14.83,133.17,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.144,Ledang,N.09,Gambir,39049,20721,18328,37077,1972,5.05,113.06,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.144,Ledang,N.10,Tangkak,56431,28948,27483,54088,2343,4.15,105.33,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.144,Ledang,N.11,Serom,52099,26630,25469,50063,2036,3.91,104.56,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.145,Bakri,N.12,Bentayan,35795,18451,17344,34062,1733,4.84,106.38,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.145,Bakri,N.13,Simpang Jeram,66860,35639,31221,61999,4861,7.27,114.15,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.145,Bakri,N.14,Bukit Naning,32524,21341,11183,22791,9733,29.93,190.83,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.146,Muar,N.15,Maharani,59851,30906,28945,57165,2686,4.49,106.77,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.146,Muar,N.16,Sungai Balang,40414,22553,17861,35404,5010,12.4,126.27,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.147,Parit Sulong,N.17,Semerah,46254,24107,22147,44220,2034,4.4,108.85,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.147,Parit Sulong,N.18,Sri Medan,36145,18900,17245,35028,1117,3.09,109.6,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.148,Ayer Hitam,N.19,Yong Peng,42090,22551,19539,40156,1934,4.59,115.42,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.148,Ayer Hitam,N.20,Semarang,29695,15285,14410,28961,734,2.47,106.07,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.149,Sri Gading,N.21,Parit Yaani,80650,43733,36917,71674,8976,11.13,118.46,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.149,Sri Gading,N.22,Parit Raja,94504,50829,43675,85790,8714,9.22,116.38,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.150,Batu Pahat,N.23,Penggaram,92223,47342,44881,88965,3258,3.53,105.48,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.150,Batu Pahat,N.24,Senggarang,47266,25494,21772,44148,3118,6.6,117.1,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.150,Batu Pahat,N.25,Rengit,26511,13368,13143,26201,310,1.17,101.71,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.151,Simpang Renggam,N.26,Machap,46807,26325,20482,40618,6189,13.22,128.53,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.151,Simpang Renggam,N.27,Layang-Layang,29479,16722,12757,25317,4162,14.12,131.08,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.152,Kluang,N.28,Mengkibol,104148,55942,48206,95908,8240,7.91,116.05,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.152,Kluang,N.29,Mahkota,79707,42867,36840,73486,6221,7.8,116.36,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.153,Sembrong,N.30,Paloh,32407,20261,12146,26514,5893,18.18,166.81,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.153,Sembrong,N.31,Kahang,31214,17197,14017,28138,3076,9.85,122.69,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.154,Mersing,N.32,Endau,33245,17106,16139,32124,1121,3.37,105.99,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.154,Mersing,N.33,Tenggaroh,44950,24833,20117,41948,3002,6.68,123.44,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.155,Tenggara,N.34,Panti,54133,28000,26133,51035,3098,5.72,107.14,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.155,Tenggara,N.35,Pasir Raja,40041,21079,18962,38251,1790,4.47,111.16,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.156,Kota Tinggi,N.36,Sedili,27508,14705,12803,25797,1711,6.22,114.86,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.156,Kota Tinggi,N.37,Johor Lama,29869,15792,14077,27165,2704,9.05,112.18,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.157,Pengerang,N.38,Penawar,40534,21398,19136,38510,2024,4.99,111.82,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.157,Pengerang,N.39,Tanjung Surat,30297,17448,12849,27817,2480,8.19,135.79,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.158,Tebrau,N.40,Tiram,203056,110359,92697,187199,15857,7.81,119.05,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.158,Tebrau,N.41,Puteri Wangsa,272211,142974,129237,253687,18524,6.81,110.63,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.159,Pasir Gudang,N.42,Johor Jaya,152873,80836,72037,143585,9288,6.08,112.21,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.159,Pasir Gudang,N.43,Permas,207748,113491,94257,188566,19182,9.23,120.41,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.160,Johor Bahru,N.44,Larkin,99268,51153,48115,92749,6519,6.57,106.31,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.160,Johor Bahru,N.45,Stulang,78555,41086,37469,72333,6222,7.92,109.65,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.161,Pulai,N.46,Perling,189758,98093,91665,182305,7453,3.93,107.01,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.161,Pulai,N.47,Kempas,102118,53777,48341,91678,10440,10.22,111.25,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.162,Iskandar Puteri,N.48,Skudai,137832,72877,64955,132522,5310,3.85,112.2,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.162,Iskandar Puteri,N.49,Kota Iskandar,309865,162935,146930,284644,25221,8.14,110.89,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.163,Kulai,N.50,Bukit Permai,77377,40498,36879,72737,4640,6.0,109.81,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.163,Kulai,N.51,Bukit Batu,81646,42800,38846,76513,5133,6.29,110.18,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.163,Kulai,N.52,Senai,128381,74170,54211,91804,36577,28.49,136.82,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.164,Pontian,N.53,Benut,29033,15108,13925,27530,1503,5.18,108.5,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.164,Pontian,N.54,Pulai Sebatang,52745,27714,25031,49940,2805,5.32,110.72,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.165,Tanjung Piai,N.55,Pekan Nanas,51711,28867,22844,45325,6386,12.35,126.37,https://storage.dosm.gov.my/population/population_dun.csv
+Johor,P.165,Tanjung Piai,N.56,Kukup,39829,21558,18271,37188,2641,6.63,117.99,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.126,Jelebu,N.01,Chennah,16361,9220,7141,15269,1092,6.67,129.11,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.126,Jelebu,N.02,Pertang,11054,6025,5029,10421,633,5.73,119.81,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.126,Jelebu,N.03,Sungai Lui,18147,9366,8781,17596,551,3.04,106.66,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.126,Jelebu,N.04,Klawang,18638,9785,8853,17461,1177,6.32,110.53,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.127,Jempol,N.05,Serting,28943,15112,13831,27862,1081,3.73,109.26,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.127,Jempol,N.06,Palong,22726,11853,10873,21881,845,3.72,109.01,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.127,Jempol,N.07,Jeram Padang,24692,13120,11572,22152,2540,10.29,113.38,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.127,Jempol,N.08,Bahau,32018,16012,16006,31683,335,1.05,100.04,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.09,Lenggeng,38049,19785,18264,35610,2439,6.41,108.33,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.10,Nilai,119613,62633,56980,106034,13579,11.35,109.92,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.11,Lobak,27241,13728,13513,25747,1494,5.48,101.59,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.12,Temiang,17558,9347,8211,16161,1397,7.96,113.84,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.13,Sikamat,44956,22587,22369,42893,2063,4.59,100.97,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.128,Seremban,N.14,Ampangan,25103,12429,12674,23010,2093,8.34,98.07,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.129,Kuala Pilah,N.15,Juasseh,19717,9658,10059,19159,558,2.83,96.01,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.129,Kuala Pilah,N.16,Seri Menanti,8662,4476,4186,8630,32,0.37,106.93,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.129,Kuala Pilah,N.17,Senaling,8024,4221,3803,7635,389,4.85,110.99,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.129,Kuala Pilah,N.18,Pilah,22181,11378,10803,22072,109,0.49,105.32,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.129,Kuala Pilah,N.19,Johol,12420,6624,5796,11714,706,5.68,114.29,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.130,Rasah,N.20,Labu,59395,30989,28406,55747,3648,6.14,109.09,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.130,Rasah,N.21,Bukit Kepayang,87025,44935,42090,82202,4823,5.54,106.76,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.130,Rasah,N.22,Rahang,14674,7425,7249,14433,241,1.64,102.43,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.130,Rasah,N.23,Mambau,45035,21932,23103,43686,1349,3.0,94.93,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.130,Rasah,N.24,Seremban Jaya,50456,26254,24202,47549,2907,5.76,108.48,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.131,Rembau,N.25,Paroi,109135,58032,51103,101031,8104,7.43,113.56,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.131,Rembau,N.26,Chembong,33297,16703,16594,32191,1106,3.32,100.66,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.131,Rembau,N.27,Rantau,53778,27864,25914,52930,848,1.58,107.52,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.131,Rembau,N.28,Kota,13999,7271,6728,13337,662,4.73,108.07,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.132,Port Dickson,N.29,Chuah,14569,7408,7161,13866,703,4.83,103.45,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.132,Port Dickson,N.30,Lukut,37369,18691,18678,36236,1133,3.03,100.07,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.132,Port Dickson,N.31,Bagan Pinang,34893,19736,15157,33250,1643,4.71,130.21,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.132,Port Dickson,N.32,Linggi,22466,12061,10405,20662,1804,8.03,115.92,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.132,Port Dickson,N.33,Sri Tanjung,19657,10513,9144,18830,827,4.21,114.97,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.133,Tampin,N.34,Gemas,28835,16196,12639,27058,1777,6.16,128.14,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.133,Tampin,N.35,Gemencheh,27304,14732,12572,24675,2629,9.63,117.18,https://storage.dosm.gov.my/population/population_dun.csv
+Negeri Sembilan,P.133,Tampin,N.36,Repah,31984,15873,16111,31556,428,1.34,98.52,https://storage.dosm.gov.my/population/population_dun.csv

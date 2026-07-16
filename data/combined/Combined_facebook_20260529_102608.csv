@@ -1,0 +1,887 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+facebook,post,10234328611818401,Yang paling kuat menentang Budi95🤣,https://www.facebook.com/mohammed.noor.aris.75/posts/pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.43180903792381287,multilingual,Unknown,no_clear_emotion,0.22816841304302216,0.02280930057168007,0.06788709759712219,0.02071402594447136,0.1570141464471817,0.02521957829594612
+facebook,comment,Y29tbWVudDoxMDIzNDMyODYxMTgxODQwMV8xNTkzMzEyMjYxNTMzMDU3,Bangla mesin rumput upah naik oo dulu 100 skrg 150 phuii beli racun rumput je la,,https://www.facebook.com/mohammed.noor.aris.75/posts/pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,negative,2025-10-13 06:49:43+00:00,1,0,0,0,0.092794069647789,1,,Ridzuan Yahya,0.0,negative,0.69068643450737,multilingual,Unknown,love,0.06859678775072098,0.01727684773504734,0.06382687389850616,0.024840936064720154,0.6744078993797302,0.016459813341498375
+facebook,post,1553173012845826,"Harga runcit produk petroleum bagi tempoh 21 Mei 2026 hingga 27 Mei 2026 ditetapkan seperti berikut:
+
+RON95 (BUDI95): RM1.99 / liter
+RON95 tanpa subsidi: RM4.07 / liter
+RON97: RM4.85 / liter
+Diesel (Semenanjung Malaysia): RM4.97/ liter
+Diesel (Sabah, Sarawak & Labuan): RM2.15/ liter
+
+#BuletinTV3 #HargaPetrol",https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.9976966977119446,malay,Malay/Bumiputera,no_clear_emotion,0.032100189477205276,0.01290461141616106,0.03096032328903675,0.019776787608861923,0.11425237357616425,0.032044414430856705
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzE2OTc4ODgxMDEzNjczNjg=,Dia punya naik ke main laju hihi,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,negative,2026-05-20 11:54:51+00:00,60,0,27,0,0.07899515926837922,114,,Jejake Malaya,0.0,negative,0.736682802438736,multilingual,Unknown,no_clear_emotion,0.04033629968762398,0.024081174284219742,0.1314554512500763,0.0197155699133873,0.2972395718097687,0.024004487320780754
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzE3Njc5NjM5OTc1MDQyNTQ=,Kerajaan paling teruk dalam sejarah malaysia,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,negative,2026-05-20 11:56:36+00:00,321,0,36,0,0.02841963618993759,393,,Safuan Anuar,0.0,negative,0.9052678793668747,multilingual,Unknown,no_clear_emotion,0.08780036866664886,0.02364560030400753,0.1234206035733223,0.03153838962316513,0.29515331983566284,0.024580471217632294
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzE1Mzc2NjA2NjExMzgzMTE=,Turun ciput.. naiknya gah jugak nooo,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,negative,2026-05-20 12:12:50+00:00,36,0,2,0,0.10983315110206604,40,,Zamree Az-zahiry,0.0,negative,0.6338894963264465,english,Mixed/Urban,happy,0.030905865132808685,0.045486751943826675,0.4975437819957733,0.01426648162305355,0.1430717408657074,0.028153061866760254
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzEzMzYyODA0NzE3MDE2NDA=,Pm paling xguno dlm sejarah Malaysia.. Sembang lebat..,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,positive,2026-05-20 11:52:32+00:00,203,0,27,0,0.8993426904082298,257,,Wan Othman,0.0,positive,0.6644756346940994,multilingual,Unknown,love,0.13593129813671112,0.027876021340489388,0.10793303698301315,0.03487551212310791,0.3327561020851135,0.028434816747903824
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzEyOTI1NjIzMTYzNzQwNjM=,Mau raya maaa😂,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,positive,2026-05-20 12:14:22+00:00,9,0,2,0,0.8133962735533714,13,,Boss Bany III,0.0,positive,0.3779875785112381,multilingual,Unknown,love,0.21274738013744354,0.05886970832943916,0.07282773405313492,0.022745490074157715,0.33215728402137756,0.03318484127521515
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzE2OTA1MjU3MTIxMDQxMDQ=,PMX ketimbang,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,neutral,2026-05-20 11:52:51+00:00,22,0,0,0,0.5,22,,AbgMat Sem,0.0,neutral,0.5835047960281372,english,Mixed/Urban,no_clear_emotion,0.08345435559749603,0.03543906286358833,0.09849220514297485,0.03366104140877724,0.2433740496635437,0.0238388292491436
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzQ1NDkxODM1ODIwNjk4MDI=,"turun 15sen dia kasi naik 20sen.minggu depan dia bagi turun lagi 20sen,lepas tu dia bagi naik lagi 30sen.pandai mainan dia",,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,negative,2026-05-20 11:53:20+00:00,105,0,5,0,0.0008352756500243919,115,,Asahari Samsedolan,0.0,negative,0.997215747833252,malay,Malay/Bumiputera,no_clear_emotion,0.007960204035043716,0.006393474526703358,0.017418980598449707,0.006724350154399872,0.030401768162846565,0.03721991553902626
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2XzI2ODgwODQxNzI4MjA5OTQy,Kena gula gula dgn org cherok tokun😅😅,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,neutral,2026-05-20 13:45:25+00:00,8,0,0,0,0.5,8,,Mohammad Idris Ahmad Lotfy,0.0,neutral,0.7655961513519287,english,Mixed/Urban,love,0.143336221575737,0.02150660939514637,0.05471275746822357,0.03652201220393181,0.374735027551651,0.025561600923538208
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2Xzk2NzY4NDc0OTMyNjc4Ng==,kerajaan jahanam 😭,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,positive,2026-05-20 11:58:45+00:00,52,0,1,0,0.9140721127390861,54,,Nor Edy Abadi Slamanya,0.0,positive,0.7135737091302872,multilingual,Unknown,love,0.14965452253818512,0.04146981239318848,0.06676322966814041,0.035157326608896255,0.5381772518157959,0.021514713764190674
+facebook,comment,Y29tbWVudDoxNTUzMTczMDEyODQ1ODI2Xzk4NDUzNDg0NDE2NTc0OQ==,Kemah sabah sarawak.kalis krisis selat hormuz..harga diesel maintain murah..,,https://www.facebook.com/BuletinTV3Official/posts/pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,pfbid02MZFqDBGqKH5Tcmb24dqb6gEfk2nuokgAkURbDWYch8dMjgsbq7SMadp7PMcEsD93l,negative,2026-05-20 11:50:35+00:00,58,0,15,0,0.020771116018295288,88,,Ahmad Baihaqi,0.0,negative,0.9307629466056824,malay,Malay/Bumiputera,love,0.14317584037780762,0.050407774746418,0.09906089305877686,0.024835681542754173,0.4736872911453247,0.017534052953124046
+facebook,post,25066042976313719,"Tolong explain sat.. aku isi rm8 (2.05) full tank dgn baki 2 bar motor aku.. selepas Budi 95 nie dgn keadaan yg sama aku isi jugak rm8 (dkt pump rm10.45).. xfull .. minyak jd kurang dr sebelom budi95.. aku xkesah pun untung 2.15 tu.. aku kesah minyak yg aku isi xpenuh mcm sebelom nie... 🤤😏😏
+
+#BUDI95",https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,,,negative,,0,0,0,0,0.04024721682071686,0,0.0,,,negative,0.8658426105976105,multilingual,Unknown,fear,0.107815220952034,0.5331745743751526,0.010619385167956352,0.19089873135089874,0.04971630498766899,0.07360252737998962
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV8yNDY2ODI5NzMxOTQ3ODIxMQ==,Tadi dah kena..rasanya lagi cepat minyak habih..ka tank Keta ku berlubang..berlubang dah berkali,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,neutral,2025-10-02 11:47:16+00:00,2,0,1,0,0.5,4,,Mohd Rosidi Bakri,0.0,neutral,0.8074319362640381,english,Mixed/Urban,happy,0.018323097378015518,0.07991913706064224,0.7677748799324036,0.012551845982670784,0.0695953220129013,0.02811504900455475
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV83NTkwMDQ2MzAyOTQyNzc=,Aku pun rasa macam tu jugak. Sebab sebelum ni axia aku rm40 ngam bar dia. Ni aku isi rm40 kurang 1 bar. Padahal baki minyak aku memang 15km-20km selalunya aku akan isi.,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,positive,2025-10-02 11:18:22+00:00,1,0,9,0,0.9988555014133453,19,,Aishah Manan,0.0,positive,0.9961850047111511,malay,Malay/Bumiputera,sadness,0.051846832036972046,0.20347094535827637,0.0162853691726923,0.38075295090675354,0.13030049204826355,0.1374538391828537
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV8xNzUwMzI5ODI1NjE4NzE4,Sama jugak... Bergena jadi balas tu... Minyak tggal 3 bar.. Boh Rm30 (2.05)Bar Naik Penoh.... Harini Boh sma jugak Rm30(budi95) tpi kat mesin Minyak masuk Rm38... Tapi Bar Minyak tak naik Penoh😂😂😂,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,negative,2025-10-02 12:08:18+00:00,1,0,8,0,0.0021075725555420033,17,,Syahmi Junior,0.0,negative,0.9929747581481934,malay,Malay/Bumiputera,no_clear_emotion,0.15238657593727112,0.022187214344739914,0.029125269502401352,0.024791043251752853,0.12507328391075134,0.024602646008133888
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV83MjU0MDkwNjcyMjAwMDA=,"Hang isi ikut liter lagi senang faham wei,mula2 aku bingung jg.",,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,neutral,2025-10-02 23:47:08+00:00,1,0,3,0,0.5,7,,คนจน ผู้ ยิ่งใหญ่,0.0,neutral,0.8490191698074341,english,Mixed/Urban,fear,0.05397166684269905,0.7503994107246399,0.0229953546077013,0.032769717276096344,0.03148066997528076,0.08277702331542969
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV8xODY0MzQyOTc0NDM5MTEw,samaaa,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,negative,2025-10-08 03:44:08+00:00,0,0,0,0,0.17716190367937087,0,,Ziq Rahim,0.0,negative,0.40946032106876373,multilingual,Unknown,love,0.14292600750923157,0.14766575396060944,0.13008153438568115,0.1163526177406311,0.15908899903297424,0.1505022794008255
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV82MDk0NDE5MTg5MTk1Mjg=,,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,neutral,2025-10-02 15:12:36+00:00,0,0,0,0,0.5,0,,Zaidi Zabri,0.0,neutral,0.0,unknown,Unknown,neutral,0.0,0.0,0.0,0.0,0.0,0.0
+facebook,comment,Y29tbWVudDoyNTA2NjA0Mjk3NjMxMzcxOV8xNzQxNzQwOTIyOTg2OTQ5,aq igt aq sorg je yg confuse… hahahah skrg harga minyak naik 2.60.. lagi la aq confuse umpama mcm xterima pon subsidindgn yg sebelom ni,,https://www.facebook.com/yfaisal/posts/pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,pfbid0kMuFG9Qc58bKMpzTryGTfj3PrKSmDZ4X4Do3VneAr8w3NW2bavVieGar2yHdnDa3l,neutral,2025-10-08 03:45:59+00:00,0,0,0,0,0.5,0,,Ziq Rahim,0.0,neutral,0.49649620056152344,english,Mixed/Urban,fear,0.07755263894796371,0.3464658558368683,0.022875001654028893,0.06704169511795044,0.06832309812307358,0.2652067244052887
+facebook,post,1261543979055900,"BUDI 95
+
+Dah semak kelayakan ke belom?
+
+https://www.budi95.gov.my/  cek sini
+
+Apps sblh kan tu apps settle... auto eligible harga turun jd rm1.99 seliter
+
+Alhamdulillah syukur
+#BUDI95
+#semuaorang
+#fyp",https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,,,positive,,0,0,0,0,0.9836083948612213,0,0.0,,,positive,0.945361316204071,malay,Malay/Bumiputera,no_clear_emotion,0.025310730561614037,0.09938997030258179,0.11589769273996353,0.034749798476696014,0.15817980468273163,0.22884276509284973
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzE5NTk1MzE3MjgxNjg5NzE=,Alhamdulillah,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,neutral,2025-09-25 11:38:25+00:00,1,0,0,0,0.5,1,,Naira Alisa,0.0,neutral,0.6396102905273438,english,Mixed/Urban,no_clear_emotion,0.07745636254549026,0.08687907457351685,0.2357417643070221,0.0447528213262558,0.18604931235313416,0.067743681371212
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzMyMjg2ODExMjcyODkxMzI=,Alhamdulillah,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,neutral,2025-09-25 13:05:21+00:00,0,0,0,0,0.5,0,,Fariedha Fidah,0.0,neutral,0.6396102905273438,english,Mixed/Urban,no_clear_emotion,0.07745636254549026,0.08687907457351685,0.2357417643070221,0.0447528213262558,0.18604931235313416,0.067743681371212
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzcyMDU0MzM2NDM3MjY0Nw==,Alhamdulillah,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,neutral,2025-09-25 11:28:45+00:00,1,0,1,0,0.5,3,,Nur Hazwani Abdullah,0.0,neutral,0.6396102905273438,english,Mixed/Urban,no_clear_emotion,0.07745636254549026,0.08687907457351685,0.2357417643070221,0.0447528213262558,0.18604931235313416,0.067743681371212
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzE1MDAxMjE0Mjc4NDgwNTI=,kelayakan tok utk yg ada lesen jk ka sistur?,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,positive,2025-09-25 10:31:04+00:00,0,0,1,0,0.9524138212203979,2,,Effa BakeHouse,0.0,positive,0.8413794040679932,malay,Malay/Bumiputera,love,0.10018927603960037,0.05158758535981178,0.08395146578550339,0.022425556555390358,0.4982461631298065,0.026014316827058792
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzc3Mzc1MDEwNTU1NDEyMA==,Klak cek,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,negative,2025-09-25 11:42:29+00:00,0,0,0,0,0.1361677274107933,0,,Maurice De Saye Nyangga,0.0,negative,0.5461075752973557,multilingual,Unknown,no_clear_emotion,0.16029773652553558,0.15240560472011566,0.11889606714248657,0.09205158799886703,0.1719997525215149,0.1266639530658722
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzEyNzk4NDMyMTA1NTUzMDI=,🙋🏻‍♀️ layak juak 🤭,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,negative,2025-09-26 09:22:56+00:00,1,0,1,0,0.11292085647583008,3,,Adeng Meast,0.0,negative,0.6235971450805664,multilingual,Unknown,happy,0.04201822727918625,0.05740644410252571,0.3689606487751007,0.014908512122929096,0.3238031566143036,0.03458714857697487
+facebook,comment,Y29tbWVudDoxMjYxNTQzOTc5MDU1OTAwXzI1NzYyNzgwMTYwNjAxMTE=,Alhamdulillah ❤️,,https://www.facebook.com/ahim.salim.39/posts/pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,pfbid02hjfJjAmWepJvncAKMKAYMdFgH63Zx8toq3fEZ8SZqUrC8ehotKqLoU2JwbMUUZTZl,positive,2025-09-25 10:37:04+00:00,1,0,1,0,0.9857554674148559,3,,Eja Haliza,0.0,positive,0.9525182247161865,english,Mixed/Urban,love,0.10499686002731323,0.056284889578819275,0.0534607358276844,0.03867461532354355,0.510901153087616,0.055851951241493225
+facebook,post,1494238132744287,"Kuota 200 liter RON95 di bawah Program Budi Madani 95 (BUDI95) mungkin dikurangkan kerajaan bagi menjamin bekalan bahan api negara dalam mendepani krisis bekalan global, susulan konflik geopolitik Asia Barat.
+
+Artikel: https://www.sinarharian.com.my/article/779533/berita/nasional/kuota-budi95-mungkin-dikurangkan-kepada-150-liter---timbalan-menteri-kewangan",https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,,,negative,,0,0,0,0,0.11526196897029875,0,0.0,,,negative,0.6157934367656708,multilingual,Unknown,anger,0.22414296865463257,0.17409978806972504,0.16789284348487854,0.04876421391963959,0.1280425637960434,0.0378001406788826
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzEzMDI1MjgxMTc5MjA5MTg=,Perdana menteri Malaysia paling bangang dan bodoh dalam sejarah Malaysia  anuar Brahim ni...dulu pandai kata dekat BN..kata dekat Najib bangang tak pandai urus negara kata Malaysia pengeluar minyak mengapa minyak tak boleh turun untuk meringankan beban rakyat...perdana menteri sekarang apa jadi..bukan sekat bangang tapi paling bodoh dalam memerintah negara...ni kata2 anuar Brahim dulu...saya cuma ulang....,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:28:22+00:00,123,0,12,0,0.0005099952220916637,147,,Abah Mung,0.0,negative,0.9983000159263611,malay,Malay/Bumiputera,anger,0.6975210905075073,0.039235975593328476,0.037196084856987,0.055234890431165695,0.0674964189529419,0.013384559191763401
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzEyODc5OTUxNjM0ODk1NDI=,"Kelanten people said ""what the name of tiger???, get coconut today,""",,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,neutral,2026-05-12 12:50:42+00:00,9,0,0,0,0.5,9,,Amin Ming,0.0,neutral,0.7535384297370911,english,Mixed/Urban,love,0.05569830164313316,0.011269939132034779,0.03838687017560005,0.022751441225409508,0.660047709941864,0.02037031389772892
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzEyODg2NTQ2ODMzOTE3NDM=,kepala butuh punya kerajaan Madani puiiii rakyat tengah susah nk susah kan lagi.. mcm ni cakap madani terbaik kerajaan Madani memang gagal trok.. tukar je kerajaan Madani ni xde bantu rakyat langsung,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:10:47+00:00,49,0,0,0,0.0005117475986480824,49,,Khai Speedlane,0.0,negative,0.9982941746711731,malay,Malay/Bumiputera,fear,0.07868531346321106,0.737126886844635,0.011013060808181763,0.1076555997133255,0.028964608907699585,0.02443651296198368
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3Xzk1NDg3MjM4MDY3MzE4Mg==,"Asia Best Finance Minister takat pandai 'potong' subsidi saja kaaaa 🤦... Saya 8 tahun Menteri Kewangan sudaghaaa... Puiiii
+
+The true test of leadership is how well you react in a crisis!",,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,neutral,2026-05-12 12:05:49+00:00,26,0,1,0,0.5,28,,Saiful Rizal,0.0,neutral,0.43777957558631897,english,Mixed/Urban,love,0.05183403566479683,0.15239979326725006,0.059435706585645676,0.05222919210791588,0.2669466435909271,0.20915117859840393
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzEwMDc0OTQxOTg0NTk0MDI=,Palat pnye krajaan ni. Hbis smua subsidi dia nk tarik slow2 ap bnde laa. Pmbagunan xad pn tp rkyt pulk dia nk gunakan. Ap sial lahh ni ingt smua rkyt mlysia gaji riban2 ke bdoh xfkir abis org yg kje jauh2 berulang tu bukan pakai air isi dlm tangki knderaan. Bubar la mlayu2 xnmpk lagi ke. Yg ckp pun kepala Cin anuar je kne guna2 kan dgn dorg .,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:09:33+00:00,29,0,1,0,0.028851717710494995,31,,Are Piz,0.0,negative,0.9038276076316833,multilingual,Unknown,love,0.2201845645904541,0.031666409224271774,0.052825797349214554,0.0440574549138546,0.3512125313282013,0.034977421164512634
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3Xzg0MzEyNjg1ODI5NTMwNw==,"Akal ada ke! Nak beli rumah di KL,ampang mampu tengok,beli rumah di Senawang itu pun dah 300k atau lebih,ulang alik kerja di KL sehari 160-180 km,,sehari guna minyak 10 liter ,dalam sebulan berapa ngok,topak hari cuti 8 hari,kekadang sabtu pun kena datang buat kerja office yg tertangguh, lainlah menteri,timbalan isi minyak subsidi guna kad,lagipun pemandu yg isi,kereta ada eskot ,ada body guard takut mati,tiada jalan jem",,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:02:56+00:00,29,0,1,0,0.0004901468753814586,31,,Jamaludin Arifin,0.0,negative,0.9983661770820618,malay,Malay/Bumiputera,anger,0.6713071465492249,0.10494151711463928,0.07668440043926239,0.03097682073712349,0.039881814271211624,0.027342358604073524
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzEzODIxMDAwMzcwNjAxOTc=,Janganla dikurangkan lagi weh. 200 tu dahla tak cukup. Jimat² guna sebab takut habis awal. Kalau kurangkan lagi baik tak payah ada subsidi terus 😭😭😭,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:06:55+00:00,31,0,1,0,0.0005024492740631215,33,,Umie Qut,0.0,negative,0.9983251690864563,malay,Malay/Bumiputera,anger,0.509422779083252,0.14691604673862457,0.10274362564086914,0.05297010764479637,0.06857465207576752,0.04991094768047333
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3Xzg0OTgwNjUwMTQ5MDEzNg==,Mula2 dulu 300L lepas tu trun 200L.ni nak trunkan 150L Gila ke dia ni.mana la cukup.orang nak buat isi  minyk kereta.minyak motor.nak buat minum lagi,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,neutral,2026-05-12 12:04:53+00:00,39,0,5,0,0.5,49,,Muhammad Najih Muhammad Najih,0.0,neutral,0.8522170782089233,english,Mixed/Urban,surprise,0.032226305454969406,0.2580033242702484,0.011999051086604595,0.06654762476682663,0.07770868390798569,0.48125892877578735
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzE2NTMzMDY5MjU5NDE4MjM=,Ajer kena game jer la....,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,positive,2026-05-12 15:51:58+00:00,0,0,0,0,0.8346619084477425,0,,IzrulDanish Airis,0.0,positive,0.44887302815914154,multilingual,Unknown,love,0.16179785132408142,0.03536485880613327,0.06832364201545715,0.06103215366601944,0.38176998496055603,0.041563067585229874
+facebook,comment,Y29tbWVudDoxNDk0MjM4MTMyNzQ0Mjg3XzE0OTY4NTE5OTU0NTA5NDM=,Padan muka pd sapa2 yg dulu sokong depa2 ni......hahaha,,https://www.facebook.com/sinarharian/posts/pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,pfbid0usjtaE5o85sLZAJKHya19HQXGZp5LS7dbnGPpSBxfFbCNge6TJv5fb82y7JJ2g4Ul,negative,2026-05-12 12:08:01+00:00,38,0,9,0,0.0004963874816894531,56,,Wan Mazli,0.0,negative,0.9983453750610352,malay,Malay/Bumiputera,love,0.057175736874341965,0.013335385359823704,0.052199769765138626,0.028407396748661995,0.4151724874973297,0.03548668324947357
+facebook,post,24882332648083963,"原来我车没那么吃油啊～😂
+哈哈～原来 Budi 95 一个月打油才用不到 150L！⛽️
+一直以为自己天天加油很花，结果其实蛮省的～
+看来是我误会它太久了🤣
+
+#Budi95 #省油日常 #马来西亚车主 #生活分享 #fblifestyletyle #jtjoshua",https://www.facebook.com/joshuatankeifei/posts/pfbid02HKeGicWoFWpNetiT6m3A726DNPG7Btfh115VfgkXq7hmgRnUTtNkgrtukptXGmu5l,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8352741599082947,english,Mixed/Urban,love,0.038885682821273804,0.29851704835891724,0.05975884571671486,0.05977938324213028,0.330439031124115,0.15122291445732117
+facebook,post,1005531619098746,"Dengan kuota BUDI95 dipotong kepada 200 liter, adakah ini petanda penjimatan atau sekadar langkah sementara yang akhirnya menjadi kekal? 
+
+Ketika harga minyak global tidak menunjukkan tanda-tanda penurunan, bagaimana rakyat boleh bersedia untuk apa yang akan datang? 
+
+Adakah ini masa untuk kita fikirkan semula kebergantungan kita pada bahan api fosil dan mencari alternatif? 
+
+Link : https://autobuzz.my/2026/03/26/budi-95-monthly-quota-temporarily-revised-to-200-litres-monthly-starting-1-april-subsidised-price-remains-at-rm1-99-l/
+
+#PotonganKuota #Pengangkutan #Ekonomi #MDKMalaysia #malaysiamdk #Inilahancamansebenar",https://www.facebook.com/MalaysiaMDK/posts/pfbid02bL26Uj3ZFYQzMny3qHu5g7rFUxN6PBbmAepqQWtFfhYsqmhVmQog4n7wqLdfSBDXl,,,negative,,0,0,0,0,0.0058125436305999645,0,0.0,,,negative,0.9806248545646667,malay,Malay/Bumiputera,fear,0.026560140773653984,0.6485106348991394,0.21615995466709137,0.030199555680155754,0.014272152446210384,0.03954564407467842
+facebook,post,27191116810480528,"# 新加坡PR持有者如何享有大马Budi 95津贴汽油
+
+6月1号起，马来西亚政府已经放宽拿回大马驾照的条例了！！ 不需要放弃外国驾照！！不需要放弃外国身份或准证！
+
+如果你是新加坡PR，同时又是马来西亚人，这个资讯你一定要看！
+
+由于在新加坡做工的关系，很多人已经换成了新加坡驾照，这也导致了不符合大马RON95汽油津贴（Budi 95）的资格。
+
+好消息是，拿回马来西亚驾照吧！只要跟着正确步骤申请回大马驾照，你依然可以恢复Budi 95汽油津贴资格。
+
+ 这篇帮你一次整理清楚完整流程、所需文件和关键时间点，少走弯路，照着做就可以搞定！记得点进去看看，别让你白白错过应得的福利。
+
+[[https://www.sgmytalk.com/archives/4620](https://www.sgmytalk.com/archives/4620)](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.sgmytalk.com%2Farchives%2F4620%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExenp4VkU0TE95aVY5VUFrTnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4YDl5joBgkcbl5nG96BrC0X1SGWmK9SMBDXP5w9KZosGc7JN-hK9LFJQjLaw_aem_33dl6yorSf5y9gWS3_hW4A&h=AUBkJHs5zRICGtstFJIhw3bG8dOAHX7vMCtHrBSa8XCVPzEYW3YoATFSxvQ-b53ggo_Q_hSnGXgFG5swPmB67hJere0wzl8FHArV41y38ENFiYI-2DN-GHH90uoD8qFGEkgPadmswWR3HzwD&__tn__=-UK-R&c[0]=AUAyouQ_xpHgjuYmetkW1_ZYvv_vHSzza3CK5G4KWFsVE47_bPzzJPeo6558Jo2s2UdrRleI58dQ3C-B85-1Hc50ABXqYCE2Ws8Nn3QFjp0pUXmILRtbJ4MVayRDMgsYsOAHKIwN60aC6zwaOHMD1TpVUKaUuyp6KnS0E54dxTXtpCx705Y)",https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8085992336273193,english,Mixed/Urban,love,0.07139865309000015,0.07454995810985565,0.15785418450832367,0.07378379255533218,0.3972010910511017,0.07324137538671494
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5NzQ5MjI3NjUwOTY0OA==,哈哈哈，刚已经拿到手了，左边新加坡4级驾照，右手马来西亚e 牌驾照，找工容易，又可以买大摩托进新加坡做工了，又可以打1.99的油，爽死了,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 02:48:06+00:00,6,0,30,0,0.15730583667755127,66,,IntelligentRhino6548,0.0,negative,0.4756472110748291,multilingual,Unknown,happy,0.023176535964012146,0.0269867405295372,0.662920355796814,0.012449630536139011,0.18792907893657684,0.022963592782616615
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5Nzg3MDg1OTgwNTEyMw==,说了那么多新加坡车都不可以打95，PR都不可以驾马来西亚车进新加坡，有鬼用？,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 03:30:39+00:00,1,0,7,0,0.05755939632654189,15,,Alex Ng,0.0,negative,0.8081353455781937,multilingual,Unknown,anger,0.3494318723678589,0.09574813395738602,0.03326626867055893,0.05534842237830162,0.25329890847206116,0.03535132482647896
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5Nzk3MzA1MzEyODIzNw==,"据我所知之前不被允许拿两边驾照
+现在是允许了？
+新加坡方面如果查到你有两边驾照会有问题吗？",,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 03:42:17+00:00,2,0,2,0,0.10663205981254578,6,,GoldWallaby7830,0.0,negative,0.6445598006248474,multilingual,Unknown,fear,0.12267337739467621,0.425905704498291,0.034987617284059525,0.038412291556596756,0.029321089386940002,0.28135448694229126
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5ODEwNjM5OTc4MTU2OQ==,"就是说可以保留新加坡驾照,然后再去申请马来西亚驾照？",,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 03:57:41+00:00,1,0,1,0,0.11872019469738007,3,,Heng Wah Jing,0.0,negative,0.6042660176753998,multilingual,Unknown,love,0.023910926654934883,0.03986028954386711,0.13638074696063995,0.04160516709089279,0.5562212467193604,0.09362634271383286
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5ODE0MTc0MzExMTM2OA==,"Driving Licence Extract可以onlin申请。。
+https://www.police.gov.sg/E-Services/Apply-for-Driving-Licence-Extract 
+How to Apply:
+Singpass Users: Citizens, Permanent Residents, and FIN holders must login via Singpass.
+Non-Singpass Users: Former NRIC/FIN holders can use the FormSG link with OTP verification.
+Cost: $10 (payable via Credit/Debit Card, Apple Pay, Google Pay, or PayNow).
+Processing Time: Approximately 3 working days.
+Delivery: The extract will be sent via email.",,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,neutral,2026-05-08 04:01:32+00:00,6,0,6,0,0.5,18,,Ahgek Gek,0.0,neutral,0.9234156608581543,english,Mixed/Urban,no_clear_emotion,0.014426992274820805,0.03194861859083176,0.02347990684211254,0.01937933638691902,0.061887871474027634,0.06440510600805283
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5ODI2MTc5NjQzMjY5Ng==,如果最近要申请新加坡驾照的呢？是先转换后再回头申请拿回马来西亚驾照吗？,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 04:13:47+00:00,1,0,1,0,0.09544251412153243,3,,Darryl Teh,0.0,negative,0.6818582862615585,multilingual,Unknown,no_clear_emotion,0.06320647895336151,0.08586769551038742,0.07224073261022568,0.05080794915556908,0.2666666805744171,0.09167596697807312
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5ODY5MzI3MzA1NjIxNQ==,"不需要等6月,现在可以申请",,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,negative,2026-05-08 04:59:59+00:00,3,0,1,0,0.08405447155237197,5,,Siong Lee,0.0,negative,0.7198184281587601,multilingual,Unknown,fear,0.02695467695593834,0.33364132046699524,0.0818433091044426,0.07416576147079468,0.1327347308397293,0.19619660079479218
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5OTU0MjMxMjk3MTMxMQ==,Nick Hao,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,neutral,2026-05-08 06:33:05+00:00,1,0,0,0,0.5,1,,Joann Lim,0.0,neutral,0.5509662628173828,english,Mixed/Urban,love,0.1428697407245636,0.14837560057640076,0.13010303676128387,0.11772084981203079,0.15803183615207672,0.15045492351055145
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzE5OTU1NDczOTYzNjczNQ==,怎么做呢？上星期去，他们说sg license超过三年的不能？,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,neutral,2026-05-08 06:34:34+00:00,1,0,13,0,0.5,27,,Joann Lim,0.0,neutral,0.7744878530502319,english,Mixed/Urban,surprise,0.02698712795972824,0.3796549141407013,0.016763756051659584,0.05322635918855667,0.018191706389188766,0.4639750123023987
+facebook,comment,Y29tbWVudDoyNzE5MTExNjgxMDQ4MDUyOF8yNzIwMDE2NTkxNjI0MjI4NA==,Andy Loh,,https://www.facebook.com/groups/permanentresidentsingapore/posts/27191116810480528/,27191116810480528,neutral,2026-05-08 07:44:55+00:00,1,0,0,0,0.5,1,,Huylin Khor,0.0,neutral,0.5424332022666931,english,Mixed/Urban,no_clear_emotion,0.21759648621082306,0.09475366771221161,0.10301721096038818,0.05541345477104187,0.2283395528793335,0.05367201194167137
+facebook,post,908991581696661,Budi 95,https://www.facebook.com/groups/309588091637016/posts/908991581696661/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.5843664407730103,english,Mixed/Urban,no_clear_emotion,0.12346010655164719,0.038207046687603,0.1377410739660263,0.027819722890853882,0.28947585821151733,0.03959723189473152
+facebook,comment,Y29tbWVudDo5MDg5OTE1ODE2OTY2NjFfOTA5NTk4MjY0OTY5MzI2,👍job soldier of fortune 🇲🇾,,https://www.facebook.com/groups/309588091637016/posts/908991581696661/,908991581696661,positive,2025-12-27 09:29:58+00:00,0,0,0,0,0.9683351635932922,0,,Mohd Sani,0.0,positive,0.8944505453109741,english,Mixed/Urban,love,0.04387590289115906,0.024476008489727974,0.3354981541633606,0.02031165361404419,0.33597850799560547,0.0226837620139122
+facebook,post,10164175888889449,"Hati-hati Masa Isi Minyak! Jangan Jadi Mangsa 'Cerdik Tak Bertempat
+
+​Korang yang layak terima subsidi BUDI 95, tolong ambil perhatian. Sekarang dah ada kes pekerja stesen minyak ambil kesempatan guna nombor IC pelanggan untuk kepentingan peribadi!
+
+​Modus operandi mereka:
+1) ​Rekod nombor IC anda secara diam-diam.
+2) ​Guna ID supervisor untuk masuk sistem manual.
+3) ​Mereka yang 'sapu' untung subsidi tu masuk poket sendiri.
+
+​Pesanan : Jangan bagi IC lepas tu terus jalan.
+​Pantau proses pendaftaran atau transaksi sampai selesai.
+
+​Pastikan anda nampak apa yang mereka buat dengan dokumen pengenalan anda.
+​Jenayah ni serius bawah Seksyen 408 Pecah Amanah. Jom kita lebih peka supaya hak kita tak kena curi! 🧐
+
+Video Penerangan di Ruangan Komen.
+
+​#PublicServiceAnnouncement #BUDI95 #Waspada #KeselamatanKomuniti",https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,,,negative,,0,0,0,0,0.0004998385906219704,0,0.0,,,negative,0.9983338713645935,malay,Malay/Bumiputera,anger,0.3142267167568207,0.027714386582374573,0.07425382733345032,0.041100453585386276,0.20835168659687042,0.030748452991247177
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV85NDM3MzU3MTE5NzQ4MjE=,Penerangan Dari Polis..,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,neutral,2026-05-05 08:29:17+00:00,2,0,1,0,0.5,4,,Zulaiqa Jessica,0.0,neutral,0.8570126891136169,english,Mixed/Urban,love,0.14187760651111603,0.042426977306604385,0.08522110432386398,0.030549759045243263,0.46729522943496704,0.025406895205378532
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV84NTE0MTAzMDczMjA3MDk=,Ini baru IC. Belum digital ID!! 🤣🤣🤣,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,neutral,2026-05-07 05:31:08+00:00,0,0,0,0,0.5,0,,Gonjeng Kajelpa,0.0,neutral,0.6445757746696472,english,Mixed/Urban,surprise,0.010198688134551048,0.029887335374951363,0.015318662859499454,0.023473763838410378,0.044373996555805206,0.5836045742034912
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8yNzAyNDExNjAwMTMyMDI1,Guna je TnG wallet atau Petronas Setel,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,neutral,2026-05-07 13:31:30+00:00,3,0,0,0,0.5,3,,Saiful Johannes,0.0,neutral,0.9960079193115234,malay,Malay/Bumiputera,love,0.0959492176771164,0.021961349993944168,0.0769282802939415,0.018553221598267555,0.41227081418037415,0.019286880269646645
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8yMjA2NTkyNzk2ODMxNDk5,Tu sy guna apps setel.. 😅 In shaa Allah selamat rasanya..,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,neutral,2026-05-09 06:48:56+00:00,0,0,1,0,0.5,2,,Safia Zulkefle,0.0,neutral,0.6648656129837036,english,Mixed/Urban,happy,0.02171906642615795,0.020899120718240738,0.8710798025131226,0.006240239366889,0.047734033316373825,0.01219204906374216
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8xNjU1NjkxNzIyMzAzMDA4,"Konon kerajaan nak sekat ketirisan minyak, last² rakyat juga yang kena scam dengan penjenayah.. kerajaan nak jalan mudah je.. 😂😆",,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,negative,2026-05-07 11:35:30+00:00,3,0,0,0,0.0005075097084045188,3,,Shahrul Nizam,0.0,negative,0.9983083009719849,malay,Malay/Bumiputera,anger,0.6288706660270691,0.024060456082224846,0.05825686827301979,0.03067800961434841,0.11848976463079453,0.017501045018434525
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8xODM5NzQ1MTAzNjU1MDc2,"Alhamdulillah, selama ni duk pakai Budi95 melalui Touch&Go app, xperlu nak serah IC bagai.",,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,neutral,2026-05-08 13:28:04+00:00,0,0,0,0,0.5,0,,Mohamad Adam Mamat,0.0,neutral,0.5717008113861084,english,Mixed/Urban,love,0.14593493938446045,0.014263725839555264,0.04517325013875961,0.032563768327236176,0.3930543065071106,0.0280238576233387
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8xODcwOTcxNjMzNTYzMjQw,Manusia mcm ni ada di mana² kena hati² selalu.,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,positive,2026-05-06 22:18:37+00:00,0,0,1,0,0.9495566561818123,2,,Sam C Ya M,0.0,positive,0.831855520606041,multilingual,Unknown,love,0.18187153339385986,0.018093477934598923,0.06292760372161865,0.05048633739352226,0.4492369592189789,0.027620483189821243
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8xNTAyNzI0OTY3OTA2NjY1,"sbb tu aku tak guna langsung IC, guna Touch n Go senang",,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,negative,2026-05-07 07:14:23+00:00,0,0,1,0,0.1458627551794052,2,,James Ryder,0.0,negative,0.5137908160686493,multilingual,Unknown,anger,0.5016946792602539,0.07611271739006042,0.02815680205821991,0.03213511034846306,0.17067867517471313,0.04355999827384949
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV85NDI3NDQ5ODg3MzY2MTQ=,dah mcm2 pulak ye,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,negative,2026-05-05 10:22:30+00:00,1,0,1,0,0.1319941699504852,3,,Nurul Aini Mohd Hamidi,0.0,negative,0.5600194334983826,multilingual,Unknown,no_clear_emotion,0.16845916211605072,0.06234941631555557,0.13535848259925842,0.0505746491253376,0.20096100866794586,0.04768909141421318
+facebook,comment,Y29tbWVudDoxMDE2NDE3NTg4ODg4OTQ0OV8yMDM4MzM2MzMwODk2MzM2,Terima kasih Madani 👍🏽,,https://www.facebook.com/jsy.ahsley/posts/pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,pfbid02vXCTQX4L82BnzXxhZ7fRGsb5ibLwNjE2jCDrCPSXARaUN9xoAYETgwzArz2f22cil,positive,2026-05-07 04:52:14+00:00,1,0,0,0,0.9432690083980559,1,,Saifulharris Aqmal,0.0,positive,0.8108966946601868,malay,Malay/Bumiputera,love,0.01884845644235611,0.022761410102248192,0.07860270887613297,0.019833501428365707,0.7853524088859558,0.02546444907784462
+facebook,post,4235100543432638,"Sebenarnya Petrol guna Budi 95 ni kalau isi ke GM2 berapa Rm baru penuh.sebelum ni kalu naik lampu indicator Rm60 atau rm65 penuh.
+
+Sejak guna Budi95 ni tadi isi Rm55 stop dekat Rm71.86 tapi  jarum tak naik penuh.Confius mikir pasal minyak ni",https://www.facebook.com/groups/2238739119735467/posts/4235100543432638/,,,negative,,0,0,0,0,0.00048404932022094727,0,0.0,,,negative,0.9983865022659302,malay,Malay/Bumiputera,no_clear_emotion,0.07148167490959167,0.08378124982118607,0.02039475180208683,0.047108836472034454,0.04089478775858879,0.16097192466259003
+facebook,post,27779964264942866,🤣🤣🤣 Penyokong msti gumbira kn.. Sblm nie duk laung.. Terima kasih.. Terbaik sbb ada subsidi budi 95.. Hamikkk.. Sy ulammm.. Kne game lg walanon n walaun.. Tgk la.. Mmg xder subsidi trus.. Hutang dh cecah trilion.. Mna nk cekau modal.. Duk kluar pg luar negara belanja kaw.. Jaja pelaburan masuk biliyun2.. Tp hampeh.. Hampa x reti jaga negara.. Bangang.. Bak kata ketua pembangkang dulu.. Xder modal dh nk guna utk sokong.. Ketawa beramai ramai..🤣🤣🤣🤣🤣,https://www.facebook.com/mohd.bakhtiar.16/posts/pfbid08BeXSHghJe3k2tm6rGZ5nJ8Z2vqCmLkESFekv1M6on5LiYbPG2TXFCzSWwGVgi8pl,,,negative,,0,0,0,0,0.0004984974861145242,0,0.0,,,negative,0.9983383417129517,malay,Malay/Bumiputera,surprise,0.09783795475959778,0.2594205439090729,0.017700185999274254,0.06646864116191864,0.07517509907484055,0.33358463644981384
+facebook,post,4235100543432638,"Sebenarnya Petrol guna Budi 95 ni kalau isi ke GM2 berapa Rm baru penuh.sebelum ni kalu naik lampu indicator Rm60 atau rm65 penuh.
+
+Sejak guna Budi95 ni tadi isi Rm55 stop dekat Rm71.86 tapi  jarum tak naik penuh.Confius mikir pasal minyak ni",https://www.facebook.com/groups/2238739119735467/posts/4235100543432638/,,,negative,,0,0,0,0,0.00048404932022094727,0,0.0,,,negative,0.9983865022659302,malay,Malay/Bumiputera,no_clear_emotion,0.07148167490959167,0.08378124982118607,0.02039475180208683,0.047108836472034454,0.04089478775858879,0.16097192466259003
+facebook,post,10234328611818401,Yang paling kuat menentang Budi95🤣,https://www.facebook.com/mohammed.noor.aris.75/posts/pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.43180903792381287,multilingual,Unknown,no_clear_emotion,0.22816841304302216,0.02280930057168007,0.06788709759712219,0.02071402594447136,0.1570141464471817,0.02521957829594612
+facebook,comment,Y29tbWVudDoxMDIzNDMyODYxMTgxODQwMV8xNTkzMzEyMjYxNTMzMDU3,Bangla mesin rumput upah naik oo dulu 100 skrg 150 phuii beli racun rumput je la,,https://www.facebook.com/mohammed.noor.aris.75/posts/pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,pfbid0y1geKsUKnRKE6Q1QK8HMUNWuhCzV7E6yNVavbGEBDx5zTz1m5TZAeop8ddG3mT1Gl,negative,2025-10-13 06:49:43+00:00,1,0,0,0,0.092794069647789,1,,Ridzuan Yahya,0.0,negative,0.69068643450737,multilingual,Unknown,love,0.06859678775072098,0.01727684773504734,0.06382687389850616,0.024840936064720154,0.6744078993797302,0.016459813341498375
+facebook,post,1916193982313153,"商业用途没的用BUDI95
+这样变相逼商家起价
+恶性循环，最后消费者埋单",https://www.facebook.com/groups/136135016985734/posts/1916193982313153/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8168699145317078,english,Mixed/Urban,no_clear_emotion,0.07174362242221832,0.043781571090221405,0.03555317223072052,0.03890715539455414,0.14388398826122284,0.08380615711212158
+facebook,post,27069682305989536,senang je ko Budi 95 kan bini ko ye😁😁,https://www.facebook.com/shahrulazmi.hussin/posts/pfbid0NGeaCSrgSSDj15ciUZwgUAEozZQJPdwsVpaBxQ1RiMGRSbrPdnseeCUe9Zcwd3fKl,,,negative,,0,0,0,0,0.0870380938053131,0,0.0,,,negative,0.7098730206489563,malay,Malay/Bumiputera,love,0.03646760806441307,0.03239898756146431,0.42891383171081543,0.017394984140992165,0.4325956702232361,0.01658833771944046
+facebook,post,32590874777178629,"Budi 95
+
+Tadi aku g isi minyak keta. First time sejak Budi95.
+
+Bagi pendapat aku, bukan minyak turun minyak naik sebenarnya. Kt resit nampak banyak kerajaan bagi subsidi sbb kira harga RM2.60 seliter. Harga asal RM2. 05 seliter.
+
+Aku biasa isi 20liter. Tapi kali nie xleh isi ikut liter dh. Stesen minyak tu kbo lah. Dhlah kbo pun orang xfaham. Orang taya jawab lebih kurang je.
+
+So,aku kbo ke dia aku nk bayar RM40. Nie harga subsidi lah. Kalau ikut 20L=RM39. 80. Rugi 20 sen aku.
+
+Sebelum nie, aku isi 20L,aku kena bayar RM41. Sekrg, RM40. So, aku just jimat RM1 je. Sebulan, 8x aku isi minyak keta. So sebulan aku jimat RM8.
+
+Xmengurangkan beban sgt pun bagi aku. Tapi kalau tgk kt resit mcam bnyak jimat kn. Sbbnya harga minyak dinaikkan dh. Rasa macam tertipu pun ada.
+
+Kn nanti org kata xbersyukur plak.",https://www.facebook.com/hidayah.dungun/posts/pfbid03G4by5QwnAkt56Ap3NGg9PJZtTqrLWn68zdGj65G14bKyWNRrTFW45xJ4cd8ixshl,,,negative,,0,0,0,0,0.0005079030990600697,0,0.0,,,negative,0.9983069896697998,malay,Malay/Bumiputera,sadness,0.0589163675904274,0.03798782080411911,0.007028845138847828,0.7620068192481995,0.04371311515569687,0.03715907782316208
+facebook,post,1011576521614466,"Budi95 Akan Dikurangkan menjadi 150L ?
+
+-ADMIN- 
+
+Kenyataan daripada Timbalan Menteri Kewangan yang memberikan bayangan bahawa Kuota Budi 95 mungkin dikurangakan kepada 150 litre. 
+
+Sebelum ini, Budi95 memperuntukkan kuota 300L sebelum ia diselaraskan kepada 200L bermula April lalu .
+
+Apa kata anda?
+
+#Budi95 
+#parlimenhuluselangor",https://www.facebook.com/reel/1603602027377195/,,,positive,,0,0,0,0,0.9856281697750091,0,0.0,,,positive,0.9520938992500305,malay,Malay/Bumiputera,no_clear_emotion,0.13861152529716492,0.061831168830394745,0.09980213642120361,0.024746811017394066,0.06079690903425217,0.0605672225356102
+facebook,post,32590874777178629,"Budi 95
+
+Tadi aku g isi minyak keta. First time sejak Budi95.
+
+Bagi pendapat aku, bukan minyak turun minyak naik sebenarnya. Kt resit nampak banyak kerajaan bagi subsidi sbb kira harga RM2.60 seliter. Harga asal RM2. 05 seliter.
+
+Aku biasa isi 20liter. Tapi kali nie xleh isi ikut liter dh. Stesen minyak tu kbo lah. Dhlah kbo pun orang xfaham. Orang taya jawab lebih kurang je.
+
+So,aku kbo ke dia aku nk bayar RM40. Nie harga subsidi lah. Kalau ikut 20L=RM39. 80. Rugi 20 sen aku.
+
+Sebelum nie, aku isi 20L,aku kena bayar RM41. Sekrg, RM40. So, aku just jimat RM1 je. Sebulan, 8x aku isi minyak keta. So sebulan aku jimat RM8.
+
+Xmengurangkan beban sgt pun bagi aku. Tapi kalau tgk kt resit mcam bnyak jimat kn. Sbbnya harga minyak dinaikkan dh. Rasa macam tertipu pun ada.
+
+Kn nanti org kata xbersyukur plak.",https://www.facebook.com/hidayah.dungun/posts/pfbid03G4by5QwnAkt56Ap3NGg9PJZtTqrLWn68zdGj65G14bKyWNRrTFW45xJ4cd8ixshl,,,negative,,0,0,0,0,0.0005079030990600697,0,0.0,,,negative,0.9983069896697998,malay,Malay/Bumiputera,sadness,0.0589163675904274,0.03798782080411911,0.007028845138847828,0.7620068192481995,0.04371311515569687,0.03715907782316208
+facebook,post,10162980846738971,"BUDI95 
+
+Bagi yang masih blur2 & confused tu meh kumpul sini..
+
+Bukan bagi pengguna apps , ni citer bagi org2 yg bkn pengguna SETEL & pengguna mcm acik2/ mak pak yg senior..
+
+Pertama nak mudah korang kena INGAT ISIAN IKUT LITER, kalau biasa isi & perhatikan korang boleh agak dah penggunaan liter setiap kali pump. 
+
+Tapi!!!!!! tak ramai yg alert sbb kebiasaan korang isi ikut nilai duit, isi 20, isi 50, isi full tank, tadi pun sis nak isi full tank tapi adik
+Cashier tu ckp x leh ckp isi full tank akk kena isi per liter je akk. Ayoyo perliter? Jeng jeng😮‍💨..
+Tapi nasib baik sis mmg jenis rekod setiap kali fuel up, refer gambar no 3. 
+
+Kebiasaan sis akan isi minyak bila balance minyak tak kurang dr 70-75km.. so mmg dah bole agak berapa liter yg nak kena top up berpandukan pada rekod Carscope then mmg bole tau dah anggaran antara 30-27L utk full tank 
+
+🧕🏼jap dik akk check… ok 28L ngam2..
+👱🏼28L ye akk, tapi kalau lebih nanti kita refund tp kena byr guna cash laa akk, kalau kad x leh..
+🧕🏼aahh cash, jap tgk ada cash tak 🤣..ok2 bole2
+
+Hasilnya pengisian full tank kebiasaan kepada 28L (FULL TANK)
+
+Ok FOKUS tengok resit uuikkss 😲
+RM2.60/L kaa..jangan terkejut dulu amik nafas dalam2 bertenang..
+
+Resit memang akan tertera RM2.60/liter..
+So subtotal 28L bersamaan RM72.80 (after rounding (-0.02) jadi RM72.78
+
+Tengok bwh GRAND TOTAL RM72.78 tu ada Subsidy BUDI RM17.08
+
+Sis bagi note RM100, cashier pulangkan baki RM44.30. Berapa rega minyak sis isi arini…
+
+Total harga minyak sis arini :
+Rm100 - Rm44.30
+= RM55.70 (28L) 
+
+Kebiasaan kalau sis isi minyak full tank antara 27L-30L anggaran harga RM60-RM67 gitu..so arini 28L pada harga RM55.70 bagi Ron 95 pada harga RM1.9892/L.
+
+Jimat laa antara RM2-Rm5 utk setiap full tank sis sebelum ni, ok laa bole laa buat belanja che puteh beli tealive sbb sis pun isi minyak 2-3 mggu sekali sebab keta hybrid.. lepas dahaga anak2 🤭…
+
+So jangan panik yaa bila nampak resit RON 95 RM2.60/L…
+
+#BUDI95",https://www.facebook.com/norlelawati.ahmad.9/posts/pfbid02C5vu8zbZTRSJBKGE7SGUChh9eGHYeovcPAZcBKbVdsKwGU3uUYjVUbrQySy8tt3fl,,,negative,,0,0,0,0,0.0004956364631653054,0,0.0,,,negative,0.9983478784561157,malay,Malay/Bumiputera,surprise,0.008988811634480953,0.03490915149450302,0.013908733613789082,0.021690241992473602,0.018441487103700638,0.8525395393371582
+facebook,post,1916193982313153,"商业用途没的用BUDI95
+这样变相逼商家起价
+恶性循环，最后消费者埋单",https://www.facebook.com/groups/136135016985734/posts/1916193982313153/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8168699145317078,english,Mixed/Urban,no_clear_emotion,0.07174362242221832,0.043781571090221405,0.03555317223072052,0.03890715539455414,0.14388398826122284,0.08380615711212158
+facebook,post,27069682305989536,senang je ko Budi 95 kan bini ko ye😁😁,https://www.facebook.com/shahrulazmi.hussin/posts/pfbid0NGeaCSrgSSDj15ciUZwgUAEozZQJPdwsVpaBxQ1RiMGRSbrPdnseeCUe9Zcwd3fKl,,,negative,,0,0,0,0,0.0870380938053131,0,0.0,,,negative,0.7098730206489563,malay,Malay/Bumiputera,love,0.03646760806441307,0.03239898756146431,0.42891383171081543,0.017394984140992165,0.4325956702232361,0.01658833771944046
+facebook,post,24882332648083963,"原来我车没那么吃油啊～😂
+哈哈～原来 Budi 95 一个月打油才用不到 150L！⛽️
+一直以为自己天天加油很花，结果其实蛮省的～
+看来是我误会它太久了🤣
+
+#Budi95 #省油日常 #马来西亚车主 #生活分享 #fblifestyletyle #jtjoshua",https://www.facebook.com/joshuatankeifei/posts/pfbid02HKeGicWoFWpNetiT6m3A726DNPG7Btfh115VfgkXq7hmgRnUTtNkgrtukptXGmu5l,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8352741599082947,english,Mixed/Urban,love,0.038885682821273804,0.29851704835891724,0.05975884571671486,0.05977938324213028,0.330439031124115,0.15122291445732117
+facebook,post,26813819821581449,Alhamdulillah Budi 95 tak naik,https://www.facebook.com/shahrul.shaari.14/posts/pfbid02sjTXUNJ7Cx6nBj9HPC4iWy78pfKChVrHZADYkw4tFeNoQ8h88UVEnpCsSPwcsFn8l,,,positive,,0,0,0,0,0.896021556854248,0,0.0,,,positive,0.6534051895141602,english,Mixed/Urban,love,0.09672856330871582,0.03896529972553253,0.09288304299116135,0.026091670617461205,0.3908827006816864,0.02144920453429222
+facebook,post,122208685112265963,"🚗💨 TNG eWallet 新功能上线啦！
+现在可以直接在 10家油站品牌 用 eWallet 付款添油，还能查询「BUDI 95」资格 & 补贴余额～
+支持油站包括：
+⛽ Shell｜BHPetrol｜Petron｜Caltex｜Petronas … 等等！
+#TNG #eWallet #BUDI95 #Malaysia #添油更方便 #油站付款 #省钱技巧",https://www.facebook.com/EVPlanMarketing/posts/pfbid02NVKFhVsGrpGif6TyFBQpuTQ3TrqtP86fTFmBDKGPY7Beu7at51Yb9ubc7NKDhR7Ll,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8758335709571838,english,Mixed/Urban,love,0.058527812361717224,0.05287964642047882,0.19229207932949066,0.03882867842912674,0.423442006111145,0.05156021937727928
+facebook,post,26471527625792260,"Dasar kawalan BUDI 95: Mesra rakyat atau membebankan?
+
+Cadangan untuk membatalkan pengisian minyak ke dalam bekas di bawah sistem BUDI 95 menimbulkan persoalan besar, khususnya bagi rakyat di luar bandar. Hakikatnya, tidak semua mempunyai akses mudah ke stesen minyak—ada yang terpaksa menempuh perjalanan pulang-pergi sehingga 80km hanya untuk mendapatkan bekalan petrol.
+
+Langkah ini mungkin bertujuan mengawal ketirisan dan penyalahgunaan subsidi, namun pendekatan yang terlalu umum tanpa mengambil kira realiti geografi dan sosioekonomi rakyat luar bandar dilihat kurang sensitif. Polisi yang baik seharusnya bersasar, bukan menyusahkan golongan yang sudah pun berdepan cabaran akses dan kos hidup yang tinggi.
+
+Persoalannya:
+Adakah mekanisme kawalan ini benar-benar menyelesaikan masalah, atau sekadar memindahkan beban kepada rakyat yang paling terkesan?
+
+Kerajaan perlu mempertimbangkan solusi lebih seimbang—contohnya pengecualian bersyarat bagi kawasan pedalaman atau sistem permit khas—agar matlamat kawalan dapat dicapai tanpa menindas keperluan asas rakyat.
+
+Apa pandangan anda? Wajar atau perlu diperhalusi semula?
+
+#BUDI95 #DasarAwam #SuaraRakyat #LuarBandar #KosSaraHidup",https://www.facebook.com/ugan.ramba/posts/pfbid02qBNNPYsiLPzs2vuDpPDW6ebCwY94ET4AHPnW5asg2aYRrrViYXRaKLmvP7qN8Cm7l,,,negative,,0,0,0,0,0.0016305327415466198,0,0.0,,,negative,0.9945648908615112,malay,Malay/Bumiputera,anger,0.7127568125724792,0.11158633232116699,0.017700208351016045,0.07568149268627167,0.03816475719213486,0.013105134479701519
+facebook,post,24590359747241097,"BUDI 95 
+
+Untuk tebus minyak BUDI95 di Petronas ada 3 cara boleh guna : 
+
+1) Di kaunter 
+2) Di Screen Pam
+3) Apps Setel ( Cara ni paling senang)
+
+Kalau nak bayar di screen pam:
+1) Masukkan IC dan tunggu pengesahan 
+2) Masukkan amount berapa nak isi
+3) Masukkan kad debit/kredit 
+4) Isi minyak 
+
+👉🏻Nak lebih mudah download apps setel dan isi details sesiap bila nak isi minyak buka apps sahaja. 
+tak payah dah tunjuk ic 
+
+Bila boleh tebus?
+27/9 Tentera & Polis
+28/9 Penerima STR
+30/9 semua
+
+#BUDI95 @highlight",https://www.facebook.com/ESSDSharmila1430/posts/pfbid02sqaEuiZVCEBJqY9APEbh8ugc7JN6onyGZjYPzmsaTthB81SeYXXgtYE9c45MvecZl,,,negative,,0,0,0,0,0.012727725505828846,0,0.0,,,negative,0.9575742483139038,malay,Malay/Bumiputera,no_clear_emotion,0.02481897734105587,0.07742553949356079,0.026659449562430382,0.03693435713648796,0.07153218239545822,0.1662331372499466
+facebook,post,10162554210888587,"📢 【财政部重拳出击！】BUDI 95 补贴不可乱用 🚫 别因“一桶油”丢了补贴资格！
+
+最近社媒流传有民众用容器（Jerry Can）盛装 RON95 汽油，结果惊动了财政部！🚨
+
+根据文告，这名大马公民的行为已违反 昌明 95 汽油补贴机制（BUDI 95） 的规定。政府决定采取最严厉的行动：
+
+🔴 直接冻结该车主的大马卡（MyKad）！
+这意味着，这位车主将永久失去享有 RON95 汽油补贴的权利。💸
+
+💡 到底能不能用桶买油？【科普时间】
+
+很多朋友问：我家割草机要用油，难道也不能买吗？
+
+根据调查，其实法律有明文规定：
+
+📍 允许容量：
+
+民众原则上允许购买 20 公升（20L）以下 的散装汽油。
+
+📍 前提条件：
+
+1️⃣ 必须使用专用容器： 严禁使用矿泉水瓶或普通塑料罐！必须使用合格的红色/绿色专用油桶。
+2️⃣ 紧急/特定用途： 仅限割草机、船只马达或车辆断油紧急使用。
+3️⃣ 严禁滥用补贴： 绝对不能利用自己的补贴资格买油给别人（特别是外国车辆）使用。
+
+📍 超过 20 公升怎么办？
+
+如果你是小商贩或农业用途，需要购买超过 20L，必须向 KPDN（内贸部） 申请 Permit Khas（特别准证）。
+
+⚠️ 温馨提醒
+
+政府现在的监管非常严格！任何涉及“补贴纰漏”或滥用行为，不仅面临罚款，还会被列入黑名单。
+
+请大家做个负责任的公民，保护好你的补贴资格！ 🛡️
+
+#BUDI95 #财政部 #RON95 #马来西亚新闻 #汽油补贴 #KPDN #执法行动",https://www.facebook.com/ccliew.now.in.fb/posts/pfbid0cAjBF6v6tnkPDm3xeLmbtyATxKpgMerGEzuBQuFbaZGQAHg7J25JVEeUSJtVKnegl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.896857500076294,english,Mixed/Urban,no_clear_emotion,0.2473684400320053,0.08680524677038193,0.04203575477004051,0.07490523904561996,0.08372669667005539,0.17738860845565796
+facebook,post,24882332648083963,"原来我车没那么吃油啊～😂
+哈哈～原来 Budi 95 一个月打油才用不到 150L！⛽️
+一直以为自己天天加油很花，结果其实蛮省的～
+看来是我误会它太久了🤣
+
+#Budi95 #省油日常 #马来西亚车主 #生活分享 #fblifestyletyle #jtjoshua",https://www.facebook.com/joshuatankeifei/posts/pfbid02HKeGicWoFWpNetiT6m3A726DNPG7Btfh115VfgkXq7hmgRnUTtNkgrtukptXGmu5l,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8352741599082947,english,Mixed/Urban,love,0.038885682821273804,0.29851704835891724,0.05975884571671486,0.05977938324213028,0.330439031124115,0.15122291445732117
+facebook,post,10230570492986352,"今天第一天开跑Budi 95,来试试打油😊
+我个人觉得用tng比较方便，可以直接看到还剩多少的油可以以rm1.99来购买👍
+重点不用拿ic出来，这样我的年龄还是保密㊙️的🤣
+#budi95
+#fblifestyle",https://www.facebook.com/ohoh.kuan/posts/pfbid026EPuzu8F9vfb4F7pTH5dPN3wKB9wT2Aewtba8mMDYRE6yHJaq4tq9ADV2vYvkBcrl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8322263956069946,english,Mixed/Urban,love,0.022946953773498535,0.042811598628759384,0.23665833473205566,0.020780151709914207,0.4721124768257141,0.08741459995508194
+facebook,post,122105607585018401,"BUDI 95 懒人包 | 不用插IC、不用排队RON95⛽打1.99！记得去开
+
+#贷款小夫妻TKEva #贷你过关 #马来西亚 #BUDI95 #汽油补贴 #油价 #MyKad福利 #ic打油 #汽油津贴 #分享好康 #petrol #RON95 #fblifestyle",https://www.facebook.com/reel/1495302838260092/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.912701427936554,english,Mixed/Urban,love,0.07057613879442215,0.025965776294469833,0.05939044803380966,0.03492189198732376,0.6883162260055542,0.02013474330306053
+facebook,post,27666925489578457,"Kuota subsidi budi 95 boleh carry forward ? 
+
+Ada sorang member ni tanya aku. 
+
+Aku ni tak reti sgt bab ni, 200 liter tu , kete hitam aku skali isi 60 - 70 liter, kete oren aku pun sama, skali isi 60-70 liter, motor aku pulak skali isi 25-30 liter. Pergerakan aku setiap hari purata 150 - 200km. 
+
+Berbalik kepada kuota tu boleh carry forward ke ? 
+
+Aku memang tak tahu , so aku tanya kawan2 yang lain, ternyata tak boleh carry forward ke bulan berikutnya. 
+
+Contoh bulan April ko guna 60 liter kuota Budi95, ko ada baki 140 liter lagi, boleh bawa ke bulan May kot boleh kumpul time cuti nak balik kampung. 
+
+Hakikatnya tak boleh , ko ingat kerajaan ni nak ko happy ke ? 🤣. 
+
+Betulkan kalau saya silap 🙏🏻. 
+
+Selamat memandu dan menunggang kepada semua yang balik kampung dan bercuti. 
+
+Selamat Hari Raya Aidil Adha , Maaf Zahir dan Batin.",https://www.facebook.com/yie646/posts/pfbid02sn5YfEQhVBGkzETrXtXFHEfgAGppeybJsgchwAzzk6zz127ZQAiJ8MPXzUzd3scPl,,,negative,,0,0,0,0,0.0005062937736511341,0,0.0,,,negative,0.9983123540878296,malay,Malay/Bumiputera,fear,0.027439728379249573,0.41844841837882996,0.3305024206638336,0.07696063071489334,0.037066951394081116,0.08307576924562454
+facebook,post,25574053938938496,"Giá xăng Ron 95 ở Malaysia chỉ hơn 17k
+
+Giá dầu thô hiện nay (cập nhật ngày 7/3/2026):
+•  WTI (Mỹ): khoảng 90.90 - 91.27 USD/thùng (tăng mạnh ~12% trong ngày 6/3).
+•  Brent (toàn cầu): khoảng 92.69 USD/thùng (tăng ~8.5%).
+Giá đang tăng vọt do căng thẳng Trung Đông làm gián đoạn nguồn cung (dữ liệu từ OilPrice.com, TradingEconomics, Investing.com).
+
+Giá xăng ở Malaysia (tuần 5/3 - 11/3/2026, Peninsular Malaysia):
+
+Xăng RON95 (loại phổ biến nhất):
+• Giá thị trường (không trợ giá): 2.67 RM/lít (+8 sen so với tuần trước).
+•  Giá trợ giá BUDI95 (cho công dân Malaysia có MyKad, giới hạn 300 lít/tháng): 1.99 RM/lít (giữ nguyên).
+
+Xăng RON97:
+• 3.25 RM/lít (+10 sen).
+
+Diesel:
+ •  Bán đảo Malaysia: 3.12 RM/lít (+8 sen).
+ •  Đông Malaysia (Sabah, Sarawak, Labuan): 2.15 RM/lít (không đổi).
+
+Nguồn tổng hợp: RinggitPlus, Carlist.my, Setel, Motorist.my (cập nhật chính thức hàng tuần của chính phủ Malaysia).
+
+Tỷ giá quy đổi tham khảo (1 RM ≈ 6.616 VND, ngày 7/3/2026):
+•  RON95 thị trường: ~17.660 VND/lít.
+•  RON95 trợ giá (công dân MY): ~13.170 VND/lít.
+Lưu ý:
+•  Công dân Malaysia được trợ giá RON95 qua chương trình BUDI MADANI (chỉ áp dụng cho người có MyKad, người nước ngoài trả giá đầy đủ 2.67 RM).
+•  Chính phủ Malaysia đang cố giữ giá trợ giá ổn định dù dầu thô tăng mạnh.
+•  Giá xăng Malaysia vẫn rẻ hơn nhiều so với Việt Nam nhờ trợ cấp.",https://www.facebook.com/lephukhang90/posts/pfbid02DpBgZ3SfhQvK6AFy2NsuXHjBwYJtdrf8XafNeWs4xpfzXssLMMQLGy4tFmupvXoYl,,,negative,,0,0,0,0,0.0007307767868042214,0,0.0,,,negative,0.9975640773773193,malay,Malay/Bumiputera,no_clear_emotion,0.28497663140296936,0.05213724449276924,0.09375697374343872,0.04999333620071411,0.11868929862976074,0.028911147266626358
+facebook,post,122131344386952068,"五金Salesman对Budi 95的看法
+BUDI 95 补贴终于来了！
+大家都是怎么看待的呢？欢迎评论留言⬇️
+#ron95 #budi95 #五金阿Lew #五金销售 #马来西亚五金 #sales日常 #五金店 #马来西亚五金店 #sales销售 #sales",https://www.facebook.com/reel/726686053164064/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8888479471206665,english,Mixed/Urban,love,0.03976744785904884,0.015383560210466385,0.046817995607852936,0.02765868604183197,0.7106468677520752,0.026184868067502975
+facebook,post,4104004596517450,30/9开始BUDI95的打油政策了，记得下载油站APP后做身份确认，才能更方便为汽车加油！,https://www.facebook.com/groups/2334273176823943/posts/4104004596517450/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8274226188659668,english,Mixed/Urban,no_clear_emotion,0.034530531615018845,0.04888904094696045,0.1693653166294098,0.026707425713539124,0.2836790084838867,0.05393530800938606
+facebook,post,1152032087042548,"政府落实BUDI 95汽油补贴机制后，竟然有Grab司机被曝出借用乘客的身份证添油，让不少网民看傻了眼......
+
+#百格 #Pocketimes #BUDI95 #汽油补贴 #Grab司机 #身份证",https://www.facebook.com/reel/1192509099413962/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8521024584770203,english,Mixed/Urban,no_clear_emotion,0.028445402160286903,0.03986358642578125,0.03433254733681679,0.036740466952323914,0.0710887759923935,0.2112191766500473
+facebook,post,122295666344229811,"Kerajaan sedang mempertimbangkan untuk mengurangkan kuota petrol RON95 di bawah Program Budi Madani 95 (BUDI95) daripada 200 liter kepada 150 liter sebulan bagi menjamin kestabilan bekalan bahan api domestik di tengah-tengah krisis tenaga global.
+
+https://www.mediatelus.com//detail/15897
+
+#subsidipetrol #ron95 #budimadani #mediatelus",https://www.facebook.com/Mediatelus/posts/pfbid0kckhKi3xL2VWofsLU2JVrxg6jAUCKHYTS3qJMmoiZfWGq8ByuEK9a65wMcZT7Q6bl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.9836714863777161,malay,Malay/Bumiputera,anger,0.39447489380836487,0.14357390999794006,0.18920429050922394,0.034001465886831284,0.05291514843702316,0.024692242965102196
+facebook,post,122131344386952068,"五金Salesman对Budi 95的看法
+BUDI 95 补贴终于来了！
+大家都是怎么看待的呢？欢迎评论留言⬇️
+#ron95 #budi95 #五金阿Lew #五金销售 #马来西亚五金 #sales日常 #五金店 #马来西亚五金店 #sales销售 #sales",https://www.facebook.com/reel/726686053164064/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8888479471206665,english,Mixed/Urban,love,0.03976744785904884,0.015383560210466385,0.046817995607852936,0.02765868604183197,0.7106468677520752,0.026184868067502975
+facebook,post,3198790390286039,"Budi 95大家打了吗？用了吗？
+我今天刚刚第一次使用，也是第一次用TnG来付款。
+为了方便打油也今天才下载TnG😆 
+第一次真的手忙脚乱，在程序里已经付款了可是不知道怎样使用，工作人员说要去到柜台显示给工作人员看，他们要扫描电话的二维码，过后就可以开始打油了。
+我打着打着吓到为什么打超过我付的金额，我再叫工作人员过来😂问它做么这个pump是不会自动停的吗？还是坏掉了？因为超过我付的金额了，她告诉我你直接打就是了，它会自动停，因为这就是政府津贴的。会超出你支付的金额。然后打好了可以去柜台拿收据。收据看个人要不要拿，或者需不需要，因为电话里会有显示。
+
+以下是用TNG来付款的方法：
+1. 记得先充值TnG等余额，确保足够钱还🤣
+2. 在首页点击”BUDI95”或者去到My Favourites点击”more”搜索”BUDI95”
+3. 点击“Buy Fuel”
+4. 选择加油站（或开启定位服务以自动侦测附近的油站）
+5. 输入油枪号码[pump no.] 和要添多少油的金额。
+6. 确认订单，并在 TNG eWallet 应用中完成付款。
+7. 系统会显示一个二维码，前往油站柜台扫描该二维码即可
+
+#RON95 #BUDI95 #TNG #shell",https://www.facebook.com/michelle.low.54966/posts/pfbid0MkBLPuHZRZeBTQE897ZZcZr5fSVQv3EuHGxDV7QnTZfzECPzgbRL57ZTwchEBbVAl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8503614068031311,english,Mixed/Urban,no_clear_emotion,0.2531583309173584,0.11048977077007294,0.04383489862084389,0.045158833265304565,0.03458166494965553,0.23594984412193298
+facebook,post,1349716003274900,"BUDI 95机制｜JPJ设特别网站 持狮城驾照大马人 可申请汽油补贴
+
+（吉隆坡15日讯）交通部长陆兆福说，交通部透过陆路交通局（JPJ）正式设立特别网站（budi95lesensg.jpj.gov.my/），供那些持新加坡驾照的大马公民申请纳入仁政昌明95汽油补贴机制（BUDI95）。
+
+他说，上述申请从明日起开放，申请者可以在提交申请14天后，浏览上述网站查询申请状态。
+
+陆兆福今日在国会媒体室召开记者会时说，所有申请将交由财政部审批，以鉴定相关申请者是否符合资格。
+
+他指出，申请者必须是大马公民、持有效的新加坡驾照，以及附上新加坡工作签证文件。",https://www.facebook.com/newssuperfansclub/posts/pfbid0XWYRcwLmwxcSE3Xx2NgRJRyWhp54tgBBuBKiABkJLKPfyu2odWW7TqUTsZcRq4BJl,,,negative,,0,0,0,0,0.10795944929122925,0,0.0,,,negative,0.6401351690292358,multilingual,Unknown,no_clear_emotion,0.03865101560950279,0.06641072779893875,0.1014261543750763,0.03518975153565407,0.17503122985363007,0.0802294909954071
+facebook,post,1332922404854649,"Budi95. 
+
+Biaso isik 40 penuh 2 gelen dgn rego RM 2.05 seliter.. Mbarek isik 2 gelen pndey Rm50 lebih bok penuh . Alu sik full bar minyak d isik. Eran bin pelek nga budi 95 tk. 
+
+Rego ngey mesin pump Rm2.60 seliter. Bg aku minyak  nait wlaupun ado budi 95 tk.",https://www.facebook.com/sunus.naz/posts/pfbid025944Y7jrrtAucMoQfYGhhgmF81adGdvsSS7mRmHvHqeYnkyDLgUAd2qdX3Zb4EDPl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8595210909843445,english,Mixed/Urban,no_clear_emotion,0.11475176364183426,0.02477746643126011,0.05314582586288452,0.023907924070954323,0.30758747458457947,0.026572778820991516
+facebook,post,10231072880508427,"Merindui BUDI 95 🥰
+
+#farinztravel #budi95",https://www.facebook.com/farinz.noormi/posts/pfbid0DdvL3DQ1s9uRe9TD275LesH5veeLrRgLjANHDYBgYoEkFcwdW5pqNousrxcruuU4l,,,positive,,0,0,0,0,0.9477408945560455,0,0.0,,,positive,0.8258029818534851,english,Mixed/Urban,love,0.12011855840682983,0.08668259531259537,0.0493144728243351,0.16399215161800385,0.472951740026474,0.04976137354969978
+facebook,post,2409788242872901,"Bila Budi 95 dah limit tapi kau masih nak isi full tank..
+
+#Budi95 #Humor #Lawak #Kartun #HarimauMenangis",https://www.facebook.com/nazri.nasir.790/posts/pfbid023gR4s3pXNd64wVKHMYQuGg9jGnxLo296g8CmgFcwPsqCDnAPV59bmLfmmAkzxGN7l,,,negative,,0,0,0,0,0.11270736157894135,0,0.0,,,negative,0.6243087947368622,multilingual,Unknown,surprise,0.012044927105307579,0.10316391289234161,0.012942763976752758,0.05123911425471306,0.04089415445923805,0.7309967279434204
+facebook,post,10231072880508427,"Merindui BUDI 95 🥰
+
+#farinztravel #budi95",https://www.facebook.com/farinz.noormi/posts/pfbid0DdvL3DQ1s9uRe9TD275LesH5veeLrRgLjANHDYBgYoEkFcwdW5pqNousrxcruuU4l,,,positive,,0,0,0,0,0.9477408945560455,0,0.0,,,positive,0.8258029818534851,english,Mixed/Urban,love,0.12011855840682983,0.08668259531259537,0.0493144728243351,0.16399215161800385,0.472951740026474,0.04976137354969978
+facebook,post,25574053938938496,"Giá xăng Ron 95 ở Malaysia chỉ hơn 17k
+
+Giá dầu thô hiện nay (cập nhật ngày 7/3/2026):
+•  WTI (Mỹ): khoảng 90.90 - 91.27 USD/thùng (tăng mạnh ~12% trong ngày 6/3).
+•  Brent (toàn cầu): khoảng 92.69 USD/thùng (tăng ~8.5%).
+Giá đang tăng vọt do căng thẳng Trung Đông làm gián đoạn nguồn cung (dữ liệu từ OilPrice.com, TradingEconomics, Investing.com).
+
+Giá xăng ở Malaysia (tuần 5/3 - 11/3/2026, Peninsular Malaysia):
+
+Xăng RON95 (loại phổ biến nhất):
+• Giá thị trường (không trợ giá): 2.67 RM/lít (+8 sen so với tuần trước).
+•  Giá trợ giá BUDI95 (cho công dân Malaysia có MyKad, giới hạn 300 lít/tháng): 1.99 RM/lít (giữ nguyên).
+
+Xăng RON97:
+• 3.25 RM/lít (+10 sen).
+
+Diesel:
+ •  Bán đảo Malaysia: 3.12 RM/lít (+8 sen).
+ •  Đông Malaysia (Sabah, Sarawak, Labuan): 2.15 RM/lít (không đổi).
+
+Nguồn tổng hợp: RinggitPlus, Carlist.my, Setel, Motorist.my (cập nhật chính thức hàng tuần của chính phủ Malaysia).
+
+Tỷ giá quy đổi tham khảo (1 RM ≈ 6.616 VND, ngày 7/3/2026):
+•  RON95 thị trường: ~17.660 VND/lít.
+•  RON95 trợ giá (công dân MY): ~13.170 VND/lít.
+Lưu ý:
+•  Công dân Malaysia được trợ giá RON95 qua chương trình BUDI MADANI (chỉ áp dụng cho người có MyKad, người nước ngoài trả giá đầy đủ 2.67 RM).
+•  Chính phủ Malaysia đang cố giữ giá trợ giá ổn định dù dầu thô tăng mạnh.
+•  Giá xăng Malaysia vẫn rẻ hơn nhiều so với Việt Nam nhờ trợ cấp.",https://www.facebook.com/lephukhang90/posts/pfbid02DpBgZ3SfhQvK6AFy2NsuXHjBwYJtdrf8XafNeWs4xpfzXssLMMQLGy4tFmupvXoYl,,,negative,,0,0,0,0,0.0007307767868042214,0,0.0,,,negative,0.9975640773773193,malay,Malay/Bumiputera,no_clear_emotion,0.28497663140296936,0.05213724449276924,0.09375697374343872,0.04999333620071411,0.11868929862976074,0.028911147266626358
+facebook,post,25545809538389004,"BAYAR SAMAN SEBELUM 31 DIS ATAU HILANG SUBSIDI BUDI95.
+
+Kuala Lumpur, 9 Dis — JPJ mengingatkan para pengguna jalan raya bahawa masa semakin suntuk untuk menjelaskan saman tertunggak sebelum 31 Disember 2025. Selepas tarikh itu, mereka yang masih belum membayar boleh hilang kelayakan menerima subsidi petrol BUDI95.
+
+Menurut JPJ, lebih 4.95 juta saman masih belum diselesaikan sejak 2010, dengan jumlah keseluruhan mencecah RM1.48 bilion. Walaupun diskaun besar antara 50% hingga 70% ditawarkan sejak November lalu, hanya sekitar 7% saman berjaya dijelaskan setakat ini.
+
+Pihak berkuasa memberi amaran bahawa individu yang gagal menjelaskan saman sebelum tarikh akhir bukan sahaja berisiko tidak boleh memperbaharui lesen memandu atau cukai jalan, tetapi juga boleh dikeluarkan daripada senarai penerima subsidi BUDI95, yang memerlukan rekod pemandu bersih dan lesen sah.
+
+JPJ menasihatkan orang ramai supaya mengambil peluang diskaun yang masih berjalan dan menyelesaikan saman lebih awal bagi mengelakkan kesesakan saat akhir serta komplikasi pada tahun hadapan.
+
+-Malay Mail 
+
+Peringatan JPJ ini adalah satu seruan penting kepada semua pemilik kenderaan di Malaysia: 
+
+Point-point Penting:
+
+1. Tindakan Segera Diperlukan: Semua pemilik kenderaan perlu segera menyelesaikan saman trafik mereka.
+
+2. Tarikh Akhir Penting: 31 Disember adalah tarikh akhir untuk mengelak kesan negatif.
+
+3. Kesan Jika Tidak Membayar: Kehilangan subsidi petrol/diesel (contohnya Budi Madani) dan potensi tindakan undang-undang lain.
+
+4. Sebab Perubahan: Kerajaan kini menguatkuasakan pematuhan undang-undang jalan raya sebagai syarat utama untuk menikmati bantuan subsidi.
+
+Apa yang Anda Perlu Lakukan:
+
+1. Semak status saman anda melalui portal atau aplikasi rasmi JPJ
+
+2. Bayar semua saman yang ada sebelum 31 Disember.
+
+3. Pastikan anda terus layak menerima bantuan Budi Madani atau subsidi lain.
+
+#saman #jpj #budimadani95",https://www.facebook.com/AisyFamily/posts/pfbid0g4ny5rrgTbU2XcxBxqsrRZfn8VwKyduqyLv1CpcwMfjk9GLC7eUEVpGfjTQAPUdjl,,,negative,,0,0,0,0,0.0004846930503845104,0,0.0,,,negative,0.9983843564987183,malay,Malay/Bumiputera,anger,0.33420875668525696,0.2828614413738251,0.04065856337547302,0.1670301854610443,0.04671340063214302,0.038205165416002274
+facebook,post,24485793481079978,"𝐍𝐈𝐊𝐌𝐀𝐓𝐈 𝐁𝐔𝐃𝐈 𝟗𝟓 𝐃𝐈 BHPetrol Bagan Serai
+
+3 cara untuk nikmati Budi95 di BHPetrol Bagan Serai. 
+
+1. Bayar cash / kad / ewallet di kaunter.
+2. Bayar guna Debit and Credit KAD di pam.
+3. Scan TnGo ewallet apps di kaunter (tak perlu ic).
+(Tolong rujuk di bawah gambar) 
+Sebarang pertanyaan boleh terus ke BHP Bagan Serai.
+
+Jom nikmati BUDI95 (Pam warna kuning). Staf kami sedia membantu😉
+
+Jom isi sampai penuh!
+
+We Are Ready To Serve YOU Better ❤️ ❤️❤️
+
+We Love We Care We Share 🧡🧡🧡
+
+#BHPetrol #BHPetrolbaganserai #baganserai #BudiMadani95 #BUDI95 #ManfaatRakyat #Sapotlokal #bhpetroluntuksemua",https://www.facebook.com/teiksengfs.bhpbaganserai/posts/pfbid027NFRq7ELxjsGshysXH7FPkFwDWAn151kh41xL3Dxvp8PyWRraBSWgkKApBr8Nj7Vl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.933906078338623,malay,Malay/Bumiputera,love,0.04472215473651886,0.03775075450539589,0.04912145435810089,0.04461657255887985,0.7368223071098328,0.0297231487929821
+facebook,post,122105607585018401,"BUDI 95 懒人包 | 不用插IC、不用排队RON95⛽打1.99！记得去开
+
+#贷款小夫妻TKEva #贷你过关 #马来西亚 #BUDI95 #汽油补贴 #油价 #MyKad福利 #ic打油 #汽油津贴 #分享好康 #petrol #RON95 #fblifestyle",https://www.facebook.com/reel/1495302838260092/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.912701427936554,english,Mixed/Urban,love,0.07057613879442215,0.025965776294469833,0.05939044803380966,0.03492189198732376,0.6883162260055542,0.02013474330306053
+facebook,post,25747759221491105,"BUDI 95
+
+Setakat harini 22/10/25, quota ak tinggal 0.002 litre sahaja.
+
+Balance tu blh la buat isi minyak kereta dash.
+
+Ada 8 hari lagi nk habiskan bulan Oct, gamaknya pakai minyak mahal la dk.
+
+Utk ak selalu travel Kuantan-KL-Kelantan, 22hari sahaja bertahan 300L ni.
+
+Kereta 2 bijik:
+satu max level 40L - long distance
+sebijik lagi, max level 45L - ulang alik kerja
+
+Sek demo lagu mano?
+
+Ada senasib kah.
+
+Agak2 ada package upgrade quota ke unlimited ke 😅
+
+Ikhlas,
+Dari pembayar cukai tegar tiap tahun
+
+p/s: ejas pinjam IC gais😆
+
+#LDRlife #BUDI95 #mmgberbudi #skodacerita",https://www.facebook.com/arif.faris.5/posts/pfbid0gdzZTUJAgZEU22NvpqfaufzRDyb6GD7i2ocRfh4yLXThLUGzfW5g3sfr6pycoGGzl,,,negative,,0,0,0,0,0.0004857301712036244,0,0.0,,,negative,0.9983808994293213,malay,Malay/Bumiputera,no_clear_emotion,0.07107621431350708,0.025883333757519722,0.024343349039554596,0.03733505681157112,0.20502464473247528,0.0725877434015274
+facebook,post,3198790390286039,"Budi 95大家打了吗？用了吗？
+我今天刚刚第一次使用，也是第一次用TnG来付款。
+为了方便打油也今天才下载TnG😆 
+第一次真的手忙脚乱，在程序里已经付款了可是不知道怎样使用，工作人员说要去到柜台显示给工作人员看，他们要扫描电话的二维码，过后就可以开始打油了。
+我打着打着吓到为什么打超过我付的金额，我再叫工作人员过来😂问它做么这个pump是不会自动停的吗？还是坏掉了？因为超过我付的金额了，她告诉我你直接打就是了，它会自动停，因为这就是政府津贴的。会超出你支付的金额。然后打好了可以去柜台拿收据。收据看个人要不要拿，或者需不需要，因为电话里会有显示。
+
+以下是用TNG来付款的方法：
+1. 记得先充值TnG等余额，确保足够钱还🤣
+2. 在首页点击”BUDI95”或者去到My Favourites点击”more”搜索”BUDI95”
+3. 点击“Buy Fuel”
+4. 选择加油站（或开启定位服务以自动侦测附近的油站）
+5. 输入油枪号码[pump no.] 和要添多少油的金额。
+6. 确认订单，并在 TNG eWallet 应用中完成付款。
+7. 系统会显示一个二维码，前往油站柜台扫描该二维码即可
+
+#RON95 #BUDI95 #TNG #shell",https://www.facebook.com/michelle.low.54966/posts/pfbid0MkBLPuHZRZeBTQE897ZZcZr5fSVQv3EuHGxDV7QnTZfzECPzgbRL57ZTwchEBbVAl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8503614068031311,english,Mixed/Urban,no_clear_emotion,0.2531583309173584,0.11048977077007294,0.04383489862084389,0.045158833265304565,0.03458166494965553,0.23594984412193298
+facebook,post,24485793481079978,"𝐍𝐈𝐊𝐌𝐀𝐓𝐈 𝐁𝐔𝐃𝐈 𝟗𝟓 𝐃𝐈 BHPetrol Bagan Serai
+
+3 cara untuk nikmati Budi95 di BHPetrol Bagan Serai. 
+
+1. Bayar cash / kad / ewallet di kaunter.
+2. Bayar guna Debit and Credit KAD di pam.
+3. Scan TnGo ewallet apps di kaunter (tak perlu ic).
+(Tolong rujuk di bawah gambar) 
+Sebarang pertanyaan boleh terus ke BHP Bagan Serai.
+
+Jom nikmati BUDI95 (Pam warna kuning). Staf kami sedia membantu😉
+
+Jom isi sampai penuh!
+
+We Are Ready To Serve YOU Better ❤️ ❤️❤️
+
+We Love We Care We Share 🧡🧡🧡
+
+#BHPetrol #BHPetrolbaganserai #baganserai #BudiMadani95 #BUDI95 #ManfaatRakyat #Sapotlokal #bhpetroluntuksemua",https://www.facebook.com/teiksengfs.bhpbaganserai/posts/pfbid027NFRq7ELxjsGshysXH7FPkFwDWAn151kh41xL3Dxvp8PyWRraBSWgkKApBr8Nj7Vl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.933906078338623,malay,Malay/Bumiputera,love,0.04472215473651886,0.03775075450539589,0.04912145435810089,0.04461657255887985,0.7368223071098328,0.0297231487929821
+facebook,post,10236338297704900,"Rakyat mau negara aman dan stabil..tapi bila ada usaha yg kerajaan buat untuk kestabilan ekonomi negara, ramai pula yang bising..semua nda ngam..pengiraan basic pasal harga baru Budi95 pun kamurang fail, inikan pula mau congak hala tuju negara😆..kira-kira basic pun buli salah..aduiii..pesanan ankol, kamurang kaji dulu apa kesan jangka panjang langkah yg kerajaan sudah ambil..jangan tingu kesan poket kamu saja, tapi tingu juga kesan poket anak cucu cicit kamu dimasa akan datang..kestabilan negara bukan datang sekelip mata, tp ambil masa yang lama..",https://www.facebook.com/nexclos.ligadu/posts/pfbid0PNKQNbsHgNgRGzBjjMppssiWAd1hHoEjDcoSjWcK98W23rgQD2SWJLK6dx52fzFKl,,,negative,,0,0,0,0,0.0005069017410278542,0,0.0,,,negative,0.9983103275299072,malay,Malay/Bumiputera,fear,0.22053930163383484,0.3691105246543884,0.19376929104328156,0.033219676464796066,0.05904371291399002,0.028183266520500183
+facebook,post,3088272288018298,"LGE tak puas hati dengan
+PDC, JKR & JPS
+habis kena ungkit
+Bonus gaji 6 bulan!
+
+""Tidak harus ganggu Budi 95 
+tanpa pengasingan T20 & bukan T20 
+diantara kaya & tidak kaya"" 
+- Lim Guan Eng
+
+Marah sungguh-sungguh kat PDC
+LGE sampai selar 
+""4 kontroversi dalam PDC""
+
+Tak cukup dengan selar...
+Ungkit bagi bonus 6 bulan
+Ungkit bagi peruntukkan kat Surau
+Ungkit Budi95 tak nak pengasingan T20
+Ungkit JKR & JPS berat sebelah
+dengan Pembangkang
+MACAM TAK IKHLAS JE...
+
+#PenangTukaq
+#PenangSelamat
+#Kuasa21",https://www.facebook.com/reel/2861910540810079/,,,negative,,0,0,0,0,0.0004989266395568626,0,0.0,,,negative,0.998336911201477,malay,Malay/Bumiputera,anger,0.704737663269043,0.04759425297379494,0.046108584851026535,0.02650625631213188,0.07676190882921219,0.02145466022193432
+facebook,post,10240937332836931,"一两次BUDI 95出问题，必须打贵油，就赚回了。。。
+
+Sistem BUDI95 bermasalah sekali dua, kena pamp minyak tak subsidi, untung balik, hahaha",https://www.facebook.com/hungwengko/posts/pfbid0EvqaeF9Qj3vatQHbgY9U86nsESNa68DFyX4dqt2QbbQCpcwNYwnBcDv7wJ5xLBEZl,,,negative,,0,0,0,0,0.00048124194145204857,0,0.0,,,negative,0.9983958601951599,malay,Malay/Bumiputera,anger,0.27987638115882874,0.06929688155651093,0.03800901398062706,0.06323457509279251,0.27101078629493713,0.03265921398997307
+facebook,post,3088272288018298,"LGE tak puas hati dengan
+PDC, JKR & JPS
+habis kena ungkit
+Bonus gaji 6 bulan!
+
+""Tidak harus ganggu Budi 95 
+tanpa pengasingan T20 & bukan T20 
+diantara kaya & tidak kaya"" 
+- Lim Guan Eng
+
+Marah sungguh-sungguh kat PDC
+LGE sampai selar 
+""4 kontroversi dalam PDC""
+
+Tak cukup dengan selar...
+Ungkit bagi bonus 6 bulan
+Ungkit bagi peruntukkan kat Surau
+Ungkit Budi95 tak nak pengasingan T20
+Ungkit JKR & JPS berat sebelah
+dengan Pembangkang
+MACAM TAK IKHLAS JE...
+
+#PenangTukaq
+#PenangSelamat
+#Kuasa21",https://www.facebook.com/reel/2861910540810079/,,,negative,,0,0,0,0,0.0004989266395568626,0,0.0,,,negative,0.998336911201477,malay,Malay/Bumiputera,anger,0.704737663269043,0.04759425297379494,0.046108584851026535,0.02650625631213188,0.07676190882921219,0.02145466022193432
+facebook,post,1340027097577124,"常出差公干怨BUDI95不够用 男子挨批：可另行报销！
+
+一名自称公务员的男子抱怨，称自己经常驾车到各处公干，因此政府发放的“仁政昌明RON95”（BUDI 95）配额根本不足，结果惨遭网民炮轰，让他向其政府部门索回油钱就好。
+
+根据网媒《mStar》报道，这名男子表达了自身的担忧，因为如今才月头，但他已几乎用掉了每个月300公升配额的一半，认为每个人被发放的配额根本不足。
+
+“十月才刚过3天，我就用掉了BUDI95汽油配额（300公升）中的100公升。
+
+“其中70公升（的汽油）是用于外出公干的，因为要执行（政府）部门的公务。”
+
+同时，他还表示，政府发放每月300公升的汽油配额补贴，根本不够他再继续用28天。
+
+“你觉得我接下来的28天，应该要怎么样？”
+
+根据帖文内容，这名男子相信是一名政府公务员，因为他声称自己在为政府部门工作，结果其言论瞬间引起众怒，更质疑他使用补贴汽油来外出公干的行为。
+
+网民们皆认为，他到外坡公干时所用掉的汽油，理应可以向其（政府）部门索回，根本不需要使用BUDI95汽油津贴。
+
+“这位兄弟要么是刚毕业，要么是刚入职，要么就是想‘煽动’大家，因为如果他在政府部门工作，外出公干时用的汽油，当然可以索回补贴。”
+
+部分网民还表示，自己在私人领域公司工作，但外出公干也没用BUDI95汽油津贴，而是向公司索回油钱，因此身为公务员的男子更没有理由去抱怨。",https://www.facebook.com/newssuperfansclub/posts/pfbid02sr1aSXaauZFfWsCucVxQLBKi2RMBs5ysykyi27iMPmXkWYHNEY2fB6szjkKdNdysl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8430906534194946,english,Mixed/Urban,sadness,0.1525493711233139,0.32130396366119385,0.014084888622164726,0.3955780267715454,0.04429912939667702,0.03797052800655365
+facebook,post,1412610910865819,"Sebulan dengan BUDI 95
+.
+Memang tak banyak pun aku guna untuk bulan 10 ni. Masuk office pun 2 kali seminggu Bangi - TRX. Balik Lubok China pun sekali aje bulan ni. Outstation ada la sekali ke Johor. Tapi masa tu naik kereta Hanif Torts pakej dengan Budi95 beliau sebab beliau memang suka berbudi. Event2 lain banyak jugak area2 KL Selangor. Tapi kebanyakannya aku pergi naik motor aje
+.
+Nak tengok bulan untuk bulan 11 pulak. Cukup je kot ek. Korang punya macam mana?",https://www.facebook.com/ARMIMotoVlog/posts/pfbid022hJK6HjVg7yY3nPf4YVoVHRc4G363u72XTMgMkQCTCAYWTtcGABWX9896paHBybnl,,,negative,,0,0,0,0,0.0014743745326996072,0,0.0,,,negative,0.9950854182243347,malay,Malay/Bumiputera,no_clear_emotion,0.020782344043254852,0.017382346093654633,0.012224888429045677,0.04235163703560829,0.23576846718788147,0.28270626068115234
+facebook,post,1160046049626421,"Budi 95 E-Hailing Nikmati Sehingga 500 Liter Tambahan
+
+Fahmi Fadzil 
+Julina Johan 
+Wira Kehormat Pakdin 
+Jabatan Penerangan Malaysia
+
+#BUDI95
+#MADANIBekerja 
+#KLCeria 
+#KomunikasiKita 
+#JaPenWPKLP",https://www.facebook.com/JabatanPeneranganWPKL/posts/pfbid0Z8TpqEQxM7jZJB1sBXKaE5BDg8yYmZNDiQLvFsxCj7J5mnBCS1kJQNZ5K1DXNHTRl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.9975855350494385,malay,Malay/Bumiputera,no_clear_emotion,0.03508149832487106,0.01698821224272251,0.10971249639987946,0.026099173352122307,0.3393961489200592,0.034540433436632156
+facebook,post,31808232338792680,"BUDI MADANI INDIVIDU 95.
+
+BUDI95 individu disediakan khusus untuk warganegara Malaysia yang layak melalui 
+penggunaan Mykad dan pendekatan baharu
+yang mudah iaitu: Semak, Bayar dan Isi Minyak. 
+
+Camne sobat tentang pengisian minyak 2-3 hari ni. 
+Semua ok ke.. 
+
+Assalamualaikum, Selamat petang 😊 
+#highlight #everyone #fbpro #hidupibaratroda",https://www.facebook.com/ewea.mh/posts/pfbid028EV9vLQg1Wr3rwGN5wvNLqs8W9oD7f1d1rC1Lbu86eH13aXuthYuSGEvkfDenq5gl,,,positive,,0,0,0,0,0.9993172705173492,0,0.0,,,positive,0.9977242350578308,malay,Malay/Bumiputera,no_clear_emotion,0.04082001373171806,0.02744540199637413,0.06425893306732178,0.028165753930807114,0.179730623960495,0.03731502220034599
+facebook,post,31808232338792680,"BUDI MADANI INDIVIDU 95.
+
+BUDI95 individu disediakan khusus untuk warganegara Malaysia yang layak melalui 
+penggunaan Mykad dan pendekatan baharu
+yang mudah iaitu: Semak, Bayar dan Isi Minyak. 
+
+Camne sobat tentang pengisian minyak 2-3 hari ni. 
+Semua ok ke.. 
+
+Assalamualaikum, Selamat petang 😊 
+#highlight #everyone #fbpro #hidupibaratroda",https://www.facebook.com/ewea.mh/posts/pfbid028EV9vLQg1Wr3rwGN5wvNLqs8W9oD7f1d1rC1Lbu86eH13aXuthYuSGEvkfDenq5gl,,,positive,,0,0,0,0,0.9993172705173492,0,0.0,,,positive,0.9977242350578308,malay,Malay/Bumiputera,no_clear_emotion,0.04082001373171806,0.02744540199637413,0.06425893306732178,0.028165753930807114,0.179730623960495,0.03731502220034599
+facebook,post,4104004596517450,30/9开始BUDI95的打油政策了，记得下载油站APP后做身份确认，才能更方便为汽车加油！,https://www.facebook.com/groups/2334273176823943/posts/4104004596517450/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8274226188659668,english,Mixed/Urban,no_clear_emotion,0.034530531615018845,0.04888904094696045,0.1693653166294098,0.026707425713539124,0.2836790084838867,0.05393530800938606
+facebook,post,1537680670598518,"Try MY Budi 95 guna kad kredit pulak 😌 #BUDI95 #SubsidiBersasar #RON95 #izamigadget #subsidiminyak
+
+https://s.shopee.com.my/30f0NGH0va",https://www.facebook.com/reel/1988712171952326/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.5132246017456055,english,Mixed/Urban,love,0.09242864698171616,0.0406099371612072,0.11627078056335449,0.05239909142255783,0.36243584752082825,0.054161377251148224
+facebook,post,122178011414436058,"Sebelum n selepas budi95 
+Memang normal aku isi Rm 30..tapi rm 30 budi 95 mcm cepat habis 🤔🤔..ke aku je rase mcm tu?",https://www.facebook.com/gunzer.sama.2025/posts/pfbid02VLx3veVntkRcNqYxDaA2XMfx6DvGiXQjMok7tgvqK7cgv7sekqeoWaDVStBUvjfrl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.9930039048194885,malay,Malay/Bumiputera,love,0.05554360896348953,0.06226050481200218,0.02361178956925869,0.2607048749923706,0.42070716619491577,0.07165057212114334
+facebook,post,26647561481536314,"""Kau masuk penjara kes bunuh ke samun?""
+
+""Bukan bro, aku masuk penjara kes guna ic bini beli minyak budi 95""
+
+😂😂😂 (c&p)",https://www.facebook.com/wanherdanita.nadira/posts/pfbid02YRWSp1VJmrDTBX34LvDvM3Z4NzZt56mXQy8yeN7h3KER8i6PqZ3desEhRY4UefLzl,,,negative,,0,0,0,0,0.0004952430725097545,0,0.0,,,negative,0.9983491897583008,malay,Malay/Bumiputera,no_clear_emotion,0.050857383757829666,0.013999144546687603,0.020759528502821922,0.030207786709070206,0.2792104482650757,0.06025472283363342
+facebook,post,1537680670598518,"Try MY Budi 95 guna kad kredit pulak 😌 #BUDI95 #SubsidiBersasar #RON95 #izamigadget #subsidiminyak
+
+https://s.shopee.com.my/30f0NGH0va",https://www.facebook.com/reel/1988712171952326/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.5132246017456055,english,Mixed/Urban,love,0.09242864698171616,0.0406099371612072,0.11627078056335449,0.05239909142255783,0.36243584752082825,0.054161377251148224
+facebook,post,810098238426820,"Betul ke isi minyak budi 95 sekarang jarak perjalanan dah tak sama macam dulu?
+
+Ingatkan min sorang je rasa camni, hinggalah hot FM sendiri tanya pendapat pendengar rupanya ramai juga macam min
+
+Pengalaman Anak Hulu Selangor pula camna?
+
+#Budi95
+#anakhuluselangor",https://www.facebook.com/anakhuluselangor/posts/pfbid0pK8hmYbYiWjiS5DsHVQMveVzMhWCcK3xA4SjhERhJtnuppAam4R9MikwH6Gg3zypl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8391039967536926,english,Mixed/Urban,love,0.02829696796834469,0.05677329748868942,0.02526525780558586,0.09847895056009293,0.5002626180648804,0.22826087474822998
+facebook,post,26647561481536314,"""Kau masuk penjara kes bunuh ke samun?""
+
+""Bukan bro, aku masuk penjara kes guna ic bini beli minyak budi 95""
+
+😂😂😂 (c&p)",https://www.facebook.com/wanherdanita.nadira/posts/pfbid02YRWSp1VJmrDTBX34LvDvM3Z4NzZt56mXQy8yeN7h3KER8i6PqZ3desEhRY4UefLzl,,,negative,,0,0,0,0,0.0004952430725097545,0,0.0,,,negative,0.9983491897583008,malay,Malay/Bumiputera,no_clear_emotion,0.050857383757829666,0.013999144546687603,0.020759528502821922,0.030207786709070206,0.2792104482650757,0.06025472283363342
+facebook,post,794716146818753,"Rakyat Singapura boleh mohon BUDI MADANI95?
+
+Sejak semalam tular di media sosial satu gambar Menteri Pengangkutan keluar kenyataan yang lebih kurang bunyinya “Pemegang lesen Singapura layak mohon subsidi BUDI95.” 
+
+Walaun yang terlebih cerdik ambil kesempatan spin konon kerajaan akan bagi subsidi Ron 95 kepada rakyat asing/warga Singapura.
+
+Lebih kelakar, mentang-mentang menteri daripada DAP yang umum terus dikaitkan dengan salasilah DAP adalah adik beradik PAP, jadi mereka saling tolong menolong antara satu sama lain.
+
+Kenapa benak sangat walaun? 
+
+Berita yang betulnya, seperti dijelaskan oleh Menteri Pengangkutan Anthony Loke, BUDI MADANI95 ini hanya layak dimohon oleh rakyat Malaysia yang bekerja di Singapura dan guna lesen memandu Singapura.
+
+Nak bagi walaun terang lagi: 
+
+Maksudnya BUDI MADANI95 hanya layak untuk warganegara Malaysia, bukan warga Singapura. Cuma mereka pakai lesen Singapura, tapi IC tetap Malaysia.
+
+Ini contoh klasik politik walaun yang malas baca tapi rajin sebarkan fitnah.
+
+Program BUDI MADANI95 untuk rakyat Malaysia yang pakai lesen Singapura ni diwujudkan sebab kerajaan kenang dan ambil berat susah payah mereka cari rezeki di seberang tambak tapi tetap menyumbang kepada ekonomi negara.
+
+Ini usaha Kerajaan MADANI untuk pastikan tiada rakyat Malaysia yang akan tercicir terima bantuan atau subsidi termasuklah walaun yang suka sebarkan fitnah dan suka baca tajuk lepas tu spin. 
+
+#MalaysiaMADANI",https://www.facebook.com/permalink.php?story_fbid=pfbid02sbGTmAh1aYttHC6cX8feaf9Z2DrwaYhygDu2wGKKUjnYkHvxfvY6f3XPK18et88Jl&id=100088411240089,,,negative,,0,0,0,0,0.0005112826824188454,0,0.0,,,negative,0.9982957243919373,malay,Malay/Bumiputera,no_clear_emotion,0.19898711144924164,0.046567678451538086,0.040714994072914124,0.049353424459695816,0.21034224331378937,0.038827378302812576
+facebook,post,869210212296314,"Budi 95 subsidi tu, u guna utk apa?
+
+#Ravenol #Budi95 #MrBeng",https://www.facebook.com/reel/1552415515755635/,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8717567920684814,english,Mixed/Urban,love,0.05405794456601143,0.01441962830722332,0.033858541399240494,0.03202930837869644,0.6017259955406189,0.0317595899105072
+facebook,post,122104551147013084,"🇲🇾【BUDI 95你听过，但对物流行业有啥影响？】📦
+
+最近BUDI 95计划火热上线🔥  
+你可能以为这是车主专属，其实它也间接影响了运输行业！
+
+—
+
+🚚 什么是BUDI 95？  
+是政府针对全马公民推出的燃油补贴现金援助政策（只限RON95汽油）
+
+—
+
+📦 那物流公司用不上，对吗？  
+✅ 部分自雇司机、跑运输的个体户、微型企业如果使用私家车运输，符合条件也可享有这项补助 
+✅ 对整体行业来说，燃油补贴政策的推出，也可能缓解运输成本上涨带来的连锁效应
+
+—
+
+💡对跨境运输客户来说的启示：  
+虽然物流公司无法直接享有这项补助，但懂政策走向、优化路线&成本安排，  
+= 依然能帮你压低运输成本！
+
+—
+
+📲 想省油、省钱、省心？  
+找 MY SF Lorry Express，一站式物流安排，不被政策卡住！
+
+#BUDI95 #madani #RON95 #马来西亚补贴计划 #物流 #运输成本小知识 #跨境运输攻略 #MYSFLorryExpress #SFLorry",https://www.facebook.com/MYSFLORRYEXPRESS/posts/pfbid034sYa9MJoSVGLWMHzrhsfpxre3DE15oBXydUfitbt3piZyC8UCnFJYPpLVVZJsskCl,,,negative,,0,0,0,0,0.116485396027565,0,0.0,,,negative,0.6117153465747833,multilingual,Unknown,love,0.09349630773067474,0.0756610706448555,0.0875803604722023,0.05472007021307945,0.37819135189056396,0.06493556499481201
+facebook,post,31938438199105173,"Percubaan pertama isi BUDI-95😍 syukur td tu staff Shell sabar ajar sy. 50ringgit dpt 25.13liter petrol, subsidi dia RM15.33! Excited skjp hahahaaa #BUDI95",https://www.facebook.com/fayevenn/posts/pfbid02sG3ePVrgBaLW2YNJTpXHSvCsfBvu6Jfin7xSeBF7M7LkeuvvuofFLfRR8bN6EaJAl,,,positive,,0,0,0,0,0.9908449053764343,0,0.0,,,positive,0.9694830179214478,english,Mixed/Urban,love,0.04879133775830269,0.037376709282398224,0.23104214668273926,0.02916133590042591,0.35548385977745056,0.037217848002910614
+facebook,post,27523402227256795,"政府疑似要把200L 的budi 95降去150L。
+。
+。
+如果200L降去150L你们真的够用吗？
+.
+.
+.
+如果我不是做grab有600L,
+200L真的都不够我用。
+
+#budi95 #政府汽油津贴 #meta",https://www.facebook.com/elaine.man.94/posts/pfbid0Zz3YdF4dptAw3wBYkhxL8X9SeNPxSDuML8q7cSm5d15quZUWKMz7SpBfPfjpSJPJl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8410219550132751,english,Mixed/Urban,fear,0.07444515079259872,0.3390010893344879,0.021565932780504227,0.2699604630470276,0.1184350997209549,0.09603126347064972
+facebook,post,31808232338792680,"BUDI MADANI INDIVIDU 95.
+
+BUDI95 individu disediakan khusus untuk warganegara Malaysia yang layak melalui 
+penggunaan Mykad dan pendekatan baharu
+yang mudah iaitu: Semak, Bayar dan Isi Minyak. 
+
+Camne sobat tentang pengisian minyak 2-3 hari ni. 
+Semua ok ke.. 
+
+Assalamualaikum, Selamat petang 😊 
+#highlight #everyone #fbpro #hidupibaratroda",https://www.facebook.com/ewea.mh/posts/pfbid028EV9vLQg1Wr3rwGN5wvNLqs8W9oD7f1d1rC1Lbu86eH13aXuthYuSGEvkfDenq5gl,,,positive,,0,0,0,0,0.9993172705173492,0,0.0,,,positive,0.9977242350578308,malay,Malay/Bumiputera,no_clear_emotion,0.04082001373171806,0.02744540199637413,0.06425893306732178,0.028165753930807114,0.179730623960495,0.03731502220034599
+facebook,post,10163307398044450,"来月尾了
+show 一下你的budi 95 用了多少? 
+
+原来我都用不到一半
+#BUDI95
+#BUDIMADANI",https://www.facebook.com/mikyliew/posts/pfbid0352sjqporSYBoiyVw8WNqw1KGP3qzKgUUvSu4SR7VRmvAdo3U31kzoXcP8C9Nec3l,,,negative,,0,0,0,0,0.10646080076694489,0,0.0,,,negative,0.6451306641101837,multilingual,Unknown,surprise,0.011658499017357826,0.10841844975948334,0.01941550336778164,0.03460877388715744,0.03927852585911751,0.7181230783462524
+facebook,post,1337897827790051,"BUDI 95机制｜用员工MyKad帮公司添油？阿米占：将严厉对付
+
+（赛城3日讯）国内贸易及生活成本部长拿督阿米占说，该部将采取行动，对付要求员工用大马卡为公司添油，以获取仁政昌明95汽油补贴（BUDI95）的公司。
+
+他今日在一家油站出席补贴卡（Fleet Card）移交活动后受询时指出，BUDI95的每公升1令吉99仙补贴价，是政府直接给予人民的优惠，公司无权借此牟利。
+
+他也说，政府已为企业提供每公升2令吉5仙的补贴价，这个价格本来就远低于市价。
+
+“因此，任何试图占便宜的做法，都是不合理的。我们不会坐视不理，（会）对付相关公司。”
+
+至于采取什么行动，阿米占说，该部将会研究现有的法律框架。
+
+根据早前报导，一名司机通过社媒账号@iqbal.jamil98在Threads透露，公司为了节省营运开销，下令旗下司机通过BUDI95添油，如果自己的配额已用完，就拿家人的身分证来使用。
+
+他也上传聊天截图，上司将讯息传至WhatApp群组说道：“从9月30日起，所有司机必须用身分证添油…，如果用完配额，就尝试使用家人的身分证。请大家尽量节省油耗。”",https://www.facebook.com/newssuperfansclub/posts/pfbid0kpYnfbZcbHfPgmxEcuzy9KKQjv8FsLDDhbqinwmZpwvzPVeAPXdKWfJAFzzhKNh7l,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8245505690574646,english,Mixed/Urban,no_clear_emotion,0.1465027779340744,0.029181767255067825,0.07667997479438782,0.04518032446503639,0.24117723107337952,0.03868447244167328
+facebook,post,794716146818753,"Rakyat Singapura boleh mohon BUDI MADANI95?
+
+Sejak semalam tular di media sosial satu gambar Menteri Pengangkutan keluar kenyataan yang lebih kurang bunyinya “Pemegang lesen Singapura layak mohon subsidi BUDI95.” 
+
+Walaun yang terlebih cerdik ambil kesempatan spin konon kerajaan akan bagi subsidi Ron 95 kepada rakyat asing/warga Singapura.
+
+Lebih kelakar, mentang-mentang menteri daripada DAP yang umum terus dikaitkan dengan salasilah DAP adalah adik beradik PAP, jadi mereka saling tolong menolong antara satu sama lain.
+
+Kenapa benak sangat walaun? 
+
+Berita yang betulnya, seperti dijelaskan oleh Menteri Pengangkutan Anthony Loke, BUDI MADANI95 ini hanya layak dimohon oleh rakyat Malaysia yang bekerja di Singapura dan guna lesen memandu Singapura.
+
+Nak bagi walaun terang lagi: 
+
+Maksudnya BUDI MADANI95 hanya layak untuk warganegara Malaysia, bukan warga Singapura. Cuma mereka pakai lesen Singapura, tapi IC tetap Malaysia.
+
+Ini contoh klasik politik walaun yang malas baca tapi rajin sebarkan fitnah.
+
+Program BUDI MADANI95 untuk rakyat Malaysia yang pakai lesen Singapura ni diwujudkan sebab kerajaan kenang dan ambil berat susah payah mereka cari rezeki di seberang tambak tapi tetap menyumbang kepada ekonomi negara.
+
+Ini usaha Kerajaan MADANI untuk pastikan tiada rakyat Malaysia yang akan tercicir terima bantuan atau subsidi termasuklah walaun yang suka sebarkan fitnah dan suka baca tajuk lepas tu spin. 
+
+#MalaysiaMADANI",https://www.facebook.com/permalink.php?story_fbid=pfbid02sbGTmAh1aYttHC6cX8feaf9Z2DrwaYhygDu2wGKKUjnYkHvxfvY6f3XPK18et88Jl&id=100088411240089,,,negative,,0,0,0,0,0.0005112826824188454,0,0.0,,,negative,0.9982957243919373,malay,Malay/Bumiputera,no_clear_emotion,0.19898711144924164,0.046567678451538086,0.040714994072914124,0.049353424459695816,0.21034224331378937,0.038827378302812576
+facebook,post,819335413936215,"𝐍𝐈𝐊𝐌𝐀𝐓𝐈 𝐁𝐔𝐃𝐈 𝟗𝟓 𝐃𝐈 𝐁𝐇𝐏 𝐊𝐔𝐁𝐀𝐍𝐆 𝐆𝐀𝐉𝐀𝐇
+
+3 cara untuk nikmati Budi95 di BHPetrol Kubang Gajah. 
+
+1. Bayar cash / kad / ewallet di kaunter.
+2. Bayar guna kad di pam.
+3. Scan TnGo ewallet apps di kaunter (tak perlu ic).
+
+Sebarang pertanyaan boleh terus ke BHP Kubang Gajah, inshaAllah kami akan bantu anda ❤️.",https://www.facebook.com/permalink.php?story_fbid=pfbid0PYoV84KeoTEMMB7oVEy2dGdZbfMdogj4Ey6o5SJorDoJX1vM7P1rz94cY1KHb9Sxl&id=100075792901434,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.9959750771522522,malay,Malay/Bumiputera,no_clear_emotion,0.06863386183977127,0.05702017992734909,0.06395178288221359,0.05539906397461891,0.27978554368019104,0.10679794102907181
+facebook,post,1633814167741011,"Nak guna mykad ahli keluarga yg lain untuk Budi 95 dah tak boleh korang. 
+
+Untuk mykasih SARA tu ada harapan tak guna larangan macam ni? 🤔
+
+#viral #budi95",https://www.facebook.com/norizuan.paimin.1/posts/pfbid02JuhzRTkosM5Y27tQSFeQ7MbuDUKdZDCTdidS8FvkVCic1RgfELJnYoyDGbkQfGJJl,,,negative,,0,0,0,0,0.0004971027374267578,0,0.0,,,negative,0.9983429908752441,malay,Malay/Bumiputera,surprise,0.02302182838320732,0.07478095591068268,0.014348441734910011,0.13145773112773895,0.2101447731256485,0.48361775279045105
+facebook,post,3975808122719220,"Emping melinjo Ready lagi ya.
+sekilo 95 rb
+setengah 48 rb",https://www.facebook.com/budi.astuti.82160/posts/pfbid0bUsDxN5Tt56UjCyT5GDjMzhn5RuieXw2BYWT9YsZPuNXVfbmarVz2abS42reFBkQl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8575493693351746,english,Mixed/Urban,love,0.06987397372722626,0.11271166056394577,0.27120241522789,0.020598256960511208,0.40609878301620483,0.02354624681174755
+facebook,post,10163307398044450,"来月尾了
+show 一下你的budi 95 用了多少? 
+
+原来我都用不到一半
+#BUDI95
+#BUDIMADANI",https://www.facebook.com/mikyliew/posts/pfbid0352sjqporSYBoiyVw8WNqw1KGP3qzKgUUvSu4SR7VRmvAdo3U31kzoXcP8C9Nec3l,,,negative,,0,0,0,0,0.10646080076694489,0,0.0,,,negative,0.6451306641101837,multilingual,Unknown,surprise,0.011658499017357826,0.10841844975948334,0.01941550336778164,0.03460877388715744,0.03927852585911751,0.7181230783462524
+facebook,post,25153978094207698,"我也LAYAK了 🥹
+
+Budi 95检查链接：https://www.budi95.gov.my/eligibility-check?type=individual",https://www.facebook.com/stephaine.kho/posts/pfbid07EPRjjnjYpnEEcnrSvZnzPfrHmT8QimAgJj8hq7TqUMLaiXYGsWSB1ip4AD7t8pxl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8851600885391235,english,Mixed/Urban,no_clear_emotion,0.0153310876339674,0.048072170466184616,0.045242469757795334,0.017484890297055244,0.11220765858888626,0.11331959813833237
+facebook,post,4171943049723478,"Dlu masa awal2 kena ksi Budi 95 ni kami isi RM 50 mcm biasa lps tu buli tahan sampai 13 hari , full bar lg, nah lps 13 hritu kami isi lglah tp RM 45, 5 hari jak habis sdh tu minyak , pdhl jalan tmpt sama juga stiap hri , lps tu nda full kurng 1 bar mngkin biasalah kan tp beza 5 ringgit jak pn 5 hari jak pakai trs low fuel sdh🤣",https://www.facebook.com/chung.lily.376/posts/pfbid0GnQkhsZRAm9LdavZK4W7uUPjfyNJ14EEkZWCrHRggzAHbdR2MS77iHGZL2Fes3TYl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.746518075466156,malay,Malay/Bumiputera,no_clear_emotion,0.07442791014909744,0.01811433956027031,0.03046128898859024,0.017104923725128174,0.11792666465044022,0.023845136165618896
+facebook,post,1697481944937829,for those yg x ckup budi 200L..try la mohon utk dptkan 300L balik..semoga d permudahkan..,https://www.facebook.com/akito.hyuuga.56/posts/pfbid02WrRjYz3GWrCnGUpJWecyhHtEDKoz4niN9UPDnBRmVAiS544QfjHkRwujgmDkeNzul,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8241074085235596,english,Mixed/Urban,love,0.09383193403482437,0.31079381704330444,0.0333663746714592,0.17427775263786316,0.3152105510234833,0.039143793284893036
+facebook,post,10237125049600967,"KENA PANDAI BACA RESIT BUDI 95 NI
+
+Alhamdulillah.. Dah test guna Budi95 ni .. gini cara baca resit dia .. 😊",https://www.facebook.com/mohd.nazran.50/posts/pfbid02pvdEGxM3Ak5xsbCH4quKf67gJdnqFqiNVRwC2obb74nekrP6LbhUL9QnEv1grKeTl,,,negative,,0,0,0,0,0.10704864263534544,0,0.0,,,negative,0.6431711912155151,multilingual,Unknown,no_clear_emotion,0.012526446022093296,0.012697053141891956,0.019140755757689476,0.012449225410819054,0.0741545632481575,0.07062637060880661
+facebook,post,3975808122719220,"Emping melinjo Ready lagi ya.
+sekilo 95 rb
+setengah 48 rb",https://www.facebook.com/budi.astuti.82160/posts/pfbid0bUsDxN5Tt56UjCyT5GDjMzhn5RuieXw2BYWT9YsZPuNXVfbmarVz2abS42reFBkQl,,,neutral,,0,0,0,0,0.5,0,0.0,,,neutral,0.8575493693351746,english,Mixed/Urban,love,0.06987397372722626,0.11271166056394577,0.27120241522789,0.020598256960511208,0.40609878301620483,0.02354624681174755

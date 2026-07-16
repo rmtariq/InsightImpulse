@@ -1,0 +1,719 @@
+{
+  "meta": {
+    "state": "N9",
+    "generated": "2026-07-16 11:38:10",
+    "source": "cula_action_bridge",
+    "mn_seats": 20,
+    "count": 26
+  },
+  "actions": [
+    {
+      "id": "ACT-N9-CULA-GAP-N02",
+      "title": "Sahkan kemas kini cula di N02 Pertang",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N02",
+      "seat": "Pertang",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N03",
+      "title": "Sahkan kemas kini cula di N03 Sungai Lui",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N03",
+      "seat": "Sungai Lui",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:09:50",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N05",
+      "title": "Sahkan kemas kini cula di N05 Serting",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N05",
+      "seat": "Serting",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:14:56",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N06",
+      "title": "Sahkan kemas kini cula di N06 Palong",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N06",
+      "seat": "Palong",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N07",
+      "title": "Sahkan kemas kini cula di N07 Jeram Padang",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N07",
+      "seat": "Jeram Padang",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N09",
+      "title": "Sahkan kemas kini cula di N09 Lenggeng",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N09",
+      "seat": "Lenggeng",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N14",
+      "title": "Sahkan kemas kini cula di N14 Ampangan",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N14",
+      "seat": "Ampangan",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N15",
+      "title": "Sahkan kemas kini cula di N15 Juasseh",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N15",
+      "seat": "Juasseh",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N16",
+      "title": "Sahkan kemas kini cula di N16 Seri Menanti",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N16",
+      "seat": "Seri Menanti",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N17",
+      "title": "Sahkan kemas kini cula di N17 Senaling",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N17",
+      "seat": "Senaling",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N19",
+      "title": "Sahkan kemas kini cula di N19 Johol",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N19",
+      "seat": "Johol",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N20",
+      "title": "Sahkan kemas kini cula di N20 Labu",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N20",
+      "seat": "Labu",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:14:56",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N25",
+      "title": "Sahkan kemas kini cula di N25 Paroi",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N25",
+      "seat": "Paroi",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:14:56",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N26",
+      "title": "Sahkan kemas kini cula di N26 Chembong",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N26",
+      "seat": "Chembong",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N27",
+      "title": "Sahkan kemas kini cula di N27 Rantau",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N27",
+      "seat": "Rantau",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:14:56",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N28",
+      "title": "Sahkan kemas kini cula di N28 Kota",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N28",
+      "seat": "Kota",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N31",
+      "title": "Sahkan kemas kini cula di N31 Bagan Pinang",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N31",
+      "seat": "Bagan Pinang",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N32",
+      "title": "Sahkan kemas kini cula di N32 Linggi",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N32",
+      "seat": "Linggi",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: 2026-07-03 01:14:56",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N34",
+      "title": "Sahkan kemas kini cula di N34 Gemas",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N34",
+      "seat": "Gemas",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-GAP-N35",
+      "title": "Sahkan kemas kini cula di N35 Gemencheh",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N35",
+      "seat": "Gemencheh",
+      "locality": "Semua PDM",
+      "reason": "Tiada kemasukan cula verified dalam 24 jam terakhir untuk kerusi sasaran MN.",
+      "evidence": [
+        "Delta cula 24j: 0",
+        "Kemaskini terakhir: tiada",
+        "Kerusi dalam sasaran 20 MN"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan lawatan hari ini.",
+        "Hantar laporan cula melalui borang atau CSV batch.",
+        "Tandakan Mula/Siap di Action Center sebelum war room malam."
+      ],
+      "impact_metric": "Sekurang-kurangnya 1 laporan cula verified hari ini",
+      "source": "cula_auto",
+      "cula_rule": "gap_24h",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-48ADEC50BB",
+      "title": "Isu calon Labu — follow up",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "Ridzuan SV-401",
+      "due": "Esok 12:00",
+      "dun": "N20",
+      "seat": "Labu",
+      "locality": "Labu A",
+      "reason": "Laporan cula 2026-07-03 — Labu A: Isu calon Labu — follow up",
+      "evidence": [
+        "Cula baharu: 13",
+        "Pelapor: PDM-Labu-A",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "48adec50bbc64ac4",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-05ECE1C49C",
+      "title": "Rembau — program petang",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "SV-501",
+      "due": "Esok 12:00",
+      "dun": "N27",
+      "seat": "Rantau",
+      "locality": "Rantau Tengah",
+      "reason": "Laporan cula 2026-07-03 — Rantau Tengah: Rembau — program petang",
+      "evidence": [
+        "Cula baharu: 11",
+        "Pelapor: PDM-Rantau",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "05ece1c49cf448c7",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-486E7D2EC5",
+      "title": "Pantai — cuaca hujan petang",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "SV-601",
+      "due": "Esok 12:00",
+      "dun": "N32",
+      "seat": "Linggi",
+      "locality": "Linggi A",
+      "reason": "Laporan cula 2026-07-03 — Linggi A: Pantai — cuaca hujan petang",
+      "evidence": [
+        "Cula baharu: 7",
+        "Pelapor: PDM-Linggi",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "486e7d2ec5134207",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-8B07549287",
+      "title": "Isu calon Labu — follow up",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "Ridzuan SV-401",
+      "due": "Esok 12:00",
+      "dun": "N20",
+      "seat": "Labu",
+      "locality": "Labu A",
+      "reason": "Laporan cula 2026-07-03 — Labu A: Isu calon Labu — follow up",
+      "evidence": [
+        "Cula baharu: 13",
+        "Pelapor: PDM-Labu-A",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "8b07549287924ffb",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-4FF796CCDE",
+      "title": "Rembau — program petang",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "SV-501",
+      "due": "Esok 12:00",
+      "dun": "N27",
+      "seat": "Rantau",
+      "locality": "Rantau Tengah",
+      "reason": "Laporan cula 2026-07-03 — Rantau Tengah: Rembau — program petang",
+      "evidence": [
+        "Cula baharu: 11",
+        "Pelapor: PDM-Rantau",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "4ff796ccdece41e1",
+      "generated_at": "2026-07-16 11:38:10"
+    },
+    {
+      "id": "ACT-N9-CULA-NOTE-A2AFE3E448",
+      "title": "Pantai — cuaca hujan petang",
+      "category": "lapangan",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "SV-601",
+      "due": "Esok 12:00",
+      "dun": "N32",
+      "seat": "Linggi",
+      "locality": "Linggi A",
+      "reason": "Laporan cula 2026-07-03 — Linggi A: Pantai — cuaca hujan petang",
+      "evidence": [
+        "Cula baharu: 7",
+        "Pelapor: PDM-Linggi",
+        "Tarikh lawatan: 2026-07-03"
+      ],
+      "recommended_steps": [
+        "Semak catatan lapangan dan sahkan dengan ketua PDM.",
+        "Ambil tindakan susulan jika isu kritikal.",
+        "Rekod impak selepas tindakan selesai."
+      ],
+      "impact_metric": "Susulan catatan lapangan direkod dalam 24 jam",
+      "source": "cula_auto",
+      "cula_rule": "field_note",
+      "submission_id": "a2afe3e4482c4ac1",
+      "generated_at": "2026-07-16 11:38:10"
+    }
+  ]
+}

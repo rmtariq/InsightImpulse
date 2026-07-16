@@ -1,0 +1,339 @@
+==============================================================================
+PRN NEGERI SEMBILAN — CRAWL 36 DUN (InsightPulse http://localhost:8001)
+Generated from n9_seats_analytics.json + muafakat PAS 23
+==============================================================================
+
+TETAPAN SAMA SETIAP CRAWL (UI InsightPulse):
+  Mod          → Keyword Search  (atau Direct URL untuk FB sahaja)
+  Analysis     → Social Listening
+  Project      → pas_break_2026
+  Dataset Size → 2,000
+  Date Range   → Last 30 Days
+  Platform     → News + Facebook + X  (TikTok optional kerusi bandar)
+
+RULE: SATU crawl = SATU query (jangan paste semua sekaligus)
+
+==============================================================================
+A. QUERY UMUM NEGERI (jalankan Isnin + Khamis)
+==============================================================================
+"PRN Negeri Sembilan" OR "pilihan raya negeri sembilan" OR #PRNNS OR #NegeriSembilan when:30d
+PAS OR PN OR "Perikatan Nasional" "Negeri Sembilan" when:30d
+"Sin Chew" OR "China Press" OR 星洲 OR 中国报 "Negeri Sembilan" OR 森美兰 when:30d
+
+==============================================================================
+B. URL RASMI / AKAUN NEGERI (Direct URL Crawl — Facebook/Instagram)
+==============================================================================
+# Parti PAS NS [facebook]
+https://www.facebook.com/pasnegeri9
+# Parti PAS NS IG [instagram]
+https://www.instagram.com/pasnegeri9/
+# Pemuda PAS NS [facebook]
+https://www.facebook.com/pemudapasns
+# PAS Pusat [facebook]
+https://www.facebook.com/paspusat
+# UMNO NS [facebook]
+https://www.facebook.com/umnonegerisembilan
+# DAP NS [facebook]
+https://www.facebook.com/dapnegerisembilan
+# MB NS (PH) [facebook]
+https://www.facebook.com/aminuddinharun
+# Anthony Loke [facebook]
+https://www.facebook.com/anthonyloke
+# Negeri FM [news]
+QUERY: Negeri FM Negeri Sembilan PRN
+
+==============================================================================
+C. 36 DUN — KEYWORD SEARCH (1 kerusi = 1 crawl)
+   Tier: PAS23=contest PAS | WAJIB=16 | IMBANG=7 | LAWAN=13 UMNO/BN contest
+==============================================================================
+
+--- N01 Chennah [LAWAN] ---
+Parlimen : P128 Seremban
+Penyandang: Anthony Loke Siew Fook (DAP)
+Keyword 1: PRN N01 Chennah
+Keyword 2: PAS Chennah Negeri Sembilan
+FB URL   : https://www.facebook.com/anthonyloke
+TikTok   : @anthonyloke
+X        : @anthonyloke
+QUERY    : "N01" OR "Chennah" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Anthony" when:30d
+
+--- N02 Pertang [WAJIB-PAS23] ---
+Parlimen : P126 Jelebu
+Penyandang: Jalaluddin Alias (UMNO)
+Keyword 1: PRN N02 Pertang
+Keyword 2: PAS Pertang Negeri Sembilan
+QUERY    : "N02" OR "Pertang" OR "LBN" OR PRN OR "Negeri Sembilan" OR "Jalaluddin" when:30d
+
+--- N03 Sungai Lui [WAJIB-PAS23] ---
+Parlimen : P126 Jelebu
+Penyandang: Mohd Razi Mohd Ali (UMNO)
+Keyword 1: PRN N03 Sungai Lui
+Keyword 2: PAS Sungai Lui Negeri Sembilan
+QUERY    : "N03" OR "Sungai Lui" OR "LBN" OR PRN OR "Negeri Sembilan" OR "Mohd" when:30d
+
+--- N04 Klawang [WAJIB-PAS23] ---
+Parlimen : P126 Jelebu
+Penyandang: Bakri Sawir (Amanah)
+Keyword 1: PRN N04 Klawang
+Keyword 2: PAS Klawang Negeri Sembilan
+QUERY    : "N04" OR "Klawang" OR "LBN" OR PRN OR "Negeri Sembilan" OR "Bakri" when:30d
+
+--- N05 Serting [WAJIB-PAS23] ---
+Parlimen : P127 Jempol
+Penyandang: Mohd Fairuz Mohd Isa (PAS)
+Keyword 1: PRN N05 Serting
+Keyword 2: PAS Serting Negeri Sembilan
+QUERY    : "N05" OR "Serting" OR "FELDA" OR PRN OR "Negeri Sembilan" OR "Mohd" when:30d
+
+--- N06 Palong [IMBANG] ---
+Parlimen : P127 Jempol
+Penyandang: Mustapha Nagoor (UMNO)
+Keyword 1: PRN N06 Palong
+Keyword 2: PAS Palong Negeri Sembilan
+QUERY    : "N06" OR "Palong" OR "FELDA" OR PRN OR "Negeri Sembilan" OR "Mustapha" when:30d
+
+--- N07 Jeram Padang [IMBANG] ---
+Parlimen : P127 Jempol
+Penyandang: Mohd Zaidy Abdul Kadir (UMNO)
+Keyword 1: PRN N07 Jeram Padang
+Keyword 2: PAS Jeram Padang Negeri Sembilan
+QUERY    : "N07" OR "Jeram Padang" OR "FELDA" OR PRN OR "Negeri Sembilan" OR "Mohd" when:30d
+
+--- N08 Bahau [LAWAN] ---
+Parlimen : P127 Jempol
+Penyandang: Teo Kok Seong (DAP)
+Keyword 1: PRN N08 Bahau
+Keyword 2: PAS Bahau Negeri Sembilan
+FB URL   : https://www.facebook.com/teokok.seong
+QUERY    : "N08" OR "Bahau" OR "FELDA" OR PRN OR "Negeri Sembilan" OR "Teo" when:30d
+
+--- N09 Lenggeng [WAJIB-PAS23] ---
+Parlimen : P128 Seremban
+Penyandang: Mohd Asna Amin (UMNO)
+Keyword 1: PRN N09 Lenggeng
+Keyword 2: PAS Lenggeng Negeri Sembilan
+QUERY    : "N09" OR "Lenggeng" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Mohd" when:30d
+
+--- N10 Nilai [WAJIB-PAS23] ---
+Parlimen : P128 Seremban
+Penyandang: Arul Kumar Jambunathan (DAP)
+Keyword 1: PRN N10 Nilai
+Keyword 2: PAS Nilai Negeri Sembilan
+QUERY    : "N10" OR "Nilai" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Arul" when:30d
+
+--- N11 Lobak [LAWAN] ---
+Parlimen : P128 Seremban
+Penyandang: Chew Seh Yong (DAP)
+Keyword 1: PRN N11 Lobak
+Keyword 2: PAS Lobak Negeri Sembilan
+QUERY    : "N11" OR "Lobak" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Chew" when:30d
+
+--- N12 Temiang [LAWAN] ---
+Parlimen : P128 Seremban
+Penyandang: Ng Chin Tsai (DAP)
+Keyword 1: PRN N12 Temiang
+Keyword 2: PAS Temiang Negeri Sembilan
+QUERY    : "N12" OR "Temiang" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Ng" when:30d
+
+--- N13 Sikamat [WAJIB-PAS23] ---
+Parlimen : P128 Seremban
+Penyandang: Aminuddin Harun (PKR)
+Keyword 1: PRN N13 Sikamat
+Keyword 2: PAS Sikamat Negeri Sembilan
+FB URL   : https://www.facebook.com/aminuddinharun
+TikTok   : @aminuddinharun
+X        : @AminuddinHarun
+QUERY    : "N13" OR "Sikamat" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Aminuddin" when:30d
+
+--- N14 Ampangan [WAJIB-PAS23] ---
+Parlimen : P128 Seremban
+Penyandang: Tengku Zamrah Tengku Sulaiman (PKR)
+Keyword 1: PRN N14 Ampangan
+Keyword 2: PAS Ampangan Negeri Sembilan
+QUERY    : "N14" OR "Ampangan" OR "Bandar Seremban" OR PRN OR "Negeri Sembilan" OR "Tengku" when:30d
+
+--- N15 Juasseh [IMBANG] ---
+Parlimen : P129 Kuala Pilah
+Penyandang: Bibi Sharliza Mohd Khalid (UMNO)
+Keyword 1: PRN N15 Juasseh
+Keyword 2: PAS Juasseh Negeri Sembilan
+QUERY    : "N15" OR "Juasseh" OR "Adat" OR PRN OR "Negeri Sembilan" OR "Bibi" when:30d
+
+--- N16 Seri Menanti [IMBANG] ---
+Parlimen : P129 Kuala Pilah
+Penyandang: Muhammad Sufian Maradzi (UMNO)
+Keyword 1: PRN N16 Seri Menanti
+Keyword 2: PAS Seri Menanti Negeri Sembilan
+QUERY    : "N16" OR "Seri Menanti" OR "Adat" OR PRN OR "Negeri Sembilan" OR "Muhammad" when:30d
+
+--- N17 Senaling [IMBANG] ---
+Parlimen : P129 Kuala Pilah
+Penyandang: Ismail Lasim (UMNO)
+Keyword 1: PRN N17 Senaling
+Keyword 2: PAS Senaling Negeri Sembilan
+QUERY    : "N17" OR "Senaling" OR "Adat" OR PRN OR "Negeri Sembilan" OR "Ismail" when:30d
+
+--- N18 Pilah [WAJIB-PAS23] ---
+Parlimen : P129 Kuala Pilah
+Penyandang: Noorzunita Begum Mohd Ibrahim (PKR)
+Keyword 1: PRN N18 Pilah
+Keyword 2: PAS Pilah Negeri Sembilan
+QUERY    : "N18" OR "Pilah" OR "Adat" OR PRN OR "Negeri Sembilan" OR "Noorzunita" when:30d
+
+--- N19 Johol [IMBANG] ---
+Parlimen : P129 Kuala Pilah
+Penyandang: Saiful Yazan Sulaiman (UMNO)
+Keyword 1: PRN N19 Johol
+Keyword 2: PAS Johol Negeri Sembilan
+QUERY    : "N19" OR "Johol" OR "Adat" OR PRN OR "Negeri Sembilan" OR "Saiful" when:30d
+
+--- N20 Labu [WAJIB-PAS23] ---
+Parlimen : P130 Rasah
+Penyandang: Mohamad Hanifah Abu Baker (Bersatu)
+Keyword 1: PRN N20 Labu
+Keyword 2: PAS Labu Negeri Sembilan
+QUERY    : "N20" OR "Labu" OR "Bandar Rasah" OR PRN OR "Negeri Sembilan" OR "Mohamad" when:30d
+
+--- N21 Bukit Kepayang [LAWAN] ---
+Parlimen : P130 Rasah
+Penyandang: Nicole Tan Lee Koon (DAP)
+Keyword 1: PRN N21 Bukit Kepayang
+Keyword 2: PAS Bukit Kepayang Negeri Sembilan
+FB URL   : https://www.facebook.com/nicoletan.ns
+X        : @nicoletan_ns
+QUERY    : "N21" OR "Bukit Kepayang" OR "Bandar Rasah" OR PRN OR "Negeri Sembilan" OR "Nicole" when:30d
+
+--- N22 Rahang [LAWAN] ---
+Parlimen : P130 Rasah
+Penyandang: Desmond Sian Meow Kong (DAP)
+Keyword 1: PRN N22 Rahang
+Keyword 2: PAS Rahang Negeri Sembilan
+QUERY    : "N22" OR "Rahang" OR "Bandar Rasah" OR PRN OR "Negeri Sembilan" OR "Desmond" when:30d
+
+--- N23 Mambau [LAWAN] ---
+Parlimen : P130 Rasah
+Penyandang: Yap Yew Weng (DAP)
+Keyword 1: PRN N23 Mambau
+Keyword 2: PAS Mambau Negeri Sembilan
+FB URL   : https://www.facebook.com/yapyewweng
+QUERY    : "N23" OR "Mambau" OR "Bandar Rasah" OR PRN OR "Negeri Sembilan" OR "Yap" when:30d
+
+--- N24 Seremban Jaya [LAWAN] ---
+Parlimen : P130 Rasah
+Penyandang: Gunasekaren Palasamy (DAP)
+Keyword 1: PRN N24 Seremban Jaya
+Keyword 2: PAS Seremban Jaya Negeri Sembilan
+FB URL   : https://www.facebook.com/gunasekaren.palasamy
+QUERY    : "N24" OR "Seremban Jaya" OR "Bandar Rasah" OR PRN OR "Negeri Sembilan" OR "Gunasekaren" when:30d
+
+--- N25 Paroi [WAJIB-PAS23] ---
+Parlimen : P131 Rembau
+Penyandang: Kamarol Ridzuan Md Zain (PAS)
+Keyword 1: PRN N25 Paroi
+Keyword 2: PAS Paroi Negeri Sembilan
+QUERY    : "N25" OR "Paroi" OR "Rembau" OR PRN OR "Negeri Sembilan" OR "Kamarol" when:30d
+
+--- N26 Chembong [LAWAN] ---
+Parlimen : P131 Rembau
+Penyandang: Zaifulbahri Idris (UMNO)
+Keyword 1: PRN N26 Chembong
+Keyword 2: PAS Chembong Negeri Sembilan
+QUERY    : "N26" OR "Chembong" OR "Rembau" OR PRN OR "Negeri Sembilan" OR "Zaifulbahri" when:30d
+
+--- N27 Rantau [LAWAN] ---
+Parlimen : P131 Rembau
+Penyandang: Mohamad Hasan (UMNO)
+Keyword 1: PRN N27 Rantau
+Keyword 2: PAS Rantau Negeri Sembilan
+FB URL   : https://www.facebook.com/tok.mot.official
+X        : @tokmot_official
+QUERY    : "N27" OR "Rantau" OR "Rembau" OR PRN OR "Negeri Sembilan" OR "Mohamad" when:30d
+
+--- N28 Kota [WAJIB-PAS23] ---
+Parlimen : P131 Rembau
+Penyandang: Suhaimi Aini (UMNO)
+Keyword 1: PRN N28 Kota
+Keyword 2: PAS Kota Negeri Sembilan
+QUERY    : "N28" OR "Kota" OR "Rembau" OR PRN OR "Negeri Sembilan" OR "Suhaimi" when:30d
+
+--- N29 Chuah [LAWAN] ---
+Parlimen : P132 Port Dickson
+Penyandang: Yew Boon Lye (PKR)
+Keyword 1: PRN N29 Chuah
+Keyword 2: PAS Chuah Negeri Sembilan
+QUERY    : "N29" OR "Chuah" OR "Pantai" OR PRN OR "Negeri Sembilan" OR "Yew" when:30d
+
+--- N30 Lukut [LAWAN] ---
+Parlimen : P132 Port Dickson
+Penyandang: Choo Ken Hwa (DAP)
+Keyword 1: PRN N30 Lukut
+Keyword 2: PAS Lukut Negeri Sembilan
+QUERY    : "N30" OR "Lukut" OR "Pantai" OR PRN OR "Negeri Sembilan" OR "Choo" when:30d
+
+--- N31 Bagan Pinang [WAJIB-PAS23] ---
+Parlimen : P132 Port Dickson
+Penyandang: Abdul Fatah Zakaria (PAS)
+Keyword 1: PRN N31 Bagan Pinang
+Keyword 2: PAS Bagan Pinang Negeri Sembilan
+QUERY    : "N31" OR "Bagan Pinang" OR "Pantai" OR PRN OR "Negeri Sembilan" OR "Abdul" when:30d
+
+--- N32 Linggi [LAWAN] ---
+Parlimen : P132 Port Dickson
+Penyandang: Mohd Faizal Ramli (UMNO)
+Keyword 1: PRN N32 Linggi
+Keyword 2: PAS Linggi Negeri Sembilan
+QUERY    : "N32" OR "Linggi" OR "Pantai" OR PRN OR "Negeri Sembilan" OR "Mohd" when:30d
+
+--- N33 Sri Tanjung [WAJIB-PAS23] ---
+Parlimen : P132 Port Dickson
+Penyandang: Rajasekaran Gunnasekaran (PKR)
+Keyword 1: PRN N33 Sri Tanjung
+Keyword 2: PAS Sri Tanjung Negeri Sembilan
+QUERY    : "N33" OR "Sri Tanjung" OR "Pantai" OR PRN OR "Negeri Sembilan" OR "Rajasekaran" when:30d
+
+--- N34 Gemas [WAJIB-PAS23] ---
+Parlimen : P133 Tampin
+Penyandang: Ridzuan Ahmad (Bersatu)
+Keyword 1: PRN N34 Gemas
+Keyword 2: PAS Gemas Negeri Sembilan
+QUERY    : "N34" OR "Gemas" OR "Sempadan Johor" OR PRN OR "Negeri Sembilan" OR "Ridzuan" when:30d
+
+--- N35 Gemencheh [IMBANG] ---
+Parlimen : P133 Tampin
+Penyandang: Suhaimizan Bizar (UMNO)
+Keyword 1: PRN N35 Gemencheh
+Keyword 2: PAS Gemencheh Negeri Sembilan
+QUERY    : "N35" OR "Gemencheh" OR "Sempadan Johor" OR PRN OR "Negeri Sembilan" OR "Suhaimizan" when:30d
+
+--- N36 Repah [WAJIB-PAS23] ---
+Parlimen : P133 Tampin
+Penyandang: Veerapan Superamaniam (DAP)
+Keyword 1: PRN N36 Repah
+Keyword 2: PAS Repah Negeri Sembilan
+QUERY    : "N36" OR "Repah" OR "Sempadan Johor" OR PRN OR "Negeri Sembilan" OR "Veerapan" when:30d
+
+==============================================================================
+D. JADUAL ROTATE MINGGUAN (cadangan — 36 DUN + umum)
+==============================================================================
+Isnin   → Query A umum NS + media Cina
+Selasa  → 4 kerusi PAS23 wajib (N03,N05,N09,N18)
+Rabu    → 4 kerusi PAS23 (N25,N31,N13,N10)
+Khamis  → Berita terminal: bash scripts/run_prn_n9_daily.sh
+Jumaat  → 7 imbang (N06,N07,N15,N16,N17,N19,N35) — 1-2 crawl/hari
+Sabtu   → 4 kerusi lawan bandar (N01,N21,N23,N24)
+Ahad    → URL rasmi FB parti negeri
+
+==============================================================================
+E. SELEPAS CRAWL — refresh war room + cula
+==============================================================================
+python3 scripts/build_warroom_socmed_by_dun.py
+python3 scripts/build_warroom_production_bundle.py
+# Cula manual: http://localhost:8080/ → modul Culaan Digital
+
+==============================================================================
+F. AUTO CRAWL (terminal — tanpa UI)
+==============================================================================
+./start_full_app.sh   # pastikan port 8001 hidup
+python3 scripts/crawl_prn_n9_adun_seeds.py   # 36 ADUN news seeds + API async
+python3 scripts/crawl_prn_n9_news_multilingual.py   # berita RM0
+bash scripts/run_prn_n9_daily.sh   # pipeline harian penuh

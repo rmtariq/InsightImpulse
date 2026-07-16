@@ -1,0 +1,16 @@
+issue_cluster,public_concern,evidence_required,recommended_response_objective,recommended_action_type,prohibited_approach,responsible_team,review_level
+Cost of Living,"Harga barang, pendapatan dan kemampuan isi rumah","Official price data, assistance programme information and eligibility requirements",Explain available assistance and practical action,Penjelasan dasar,"Blaming an ethnic, religious or demographic group",Policy and Communications,Normal
+Chinese Education,"Peruntukan sekolah, kebajikan murid dan dasar pendidikan","Official education policy, allocation records",Explain policy and open dialogue,Dialog komuniti terbuka,Racial stereotyping of communities,Policy,Normal
+SME and Business,"Lesen, kos operasi, bantuan PKS","License requirements, grant programmes",Provide verified business support information,Kandungan penerangan,Targeting merchants by ethnicity,Policy,Normal
+Local Government Services,Perkhidmatan tempatan dan aduan harian,"Agency records, service status",Acknowledge and provide action status,Respons perkhidmatan,Blaming local communities,Local Operations,Normal
+Water Supply,Gangguan air dan bekalan,"Agency notices, repair timeline",Service update with verified facts,Respons perkhidmatan,Unverified outage claims,Local Operations,Normal
+Road and Traffic,"Jalan rosak, kesesakan",JKR/MBNS records,Repair status and timeline,Penyelesaian aduan,Politicising infrastructure,Local Operations,Normal
+Public Safety,"Jenayah, keselamatan",PDRM statistics where public,Inform with verified data,Kandungan penerangan,Fear-based messaging,Communications,High
+Employment,"Peluang kerja, upah",Official labour statistics,Explain programmes,Penjelasan dasar,Demographic targeting,Policy,Normal
+Housing,Perumahan mampu milik,Housing agency data,Explain eligibility and status,Penjelasan dasar,Scapegoating,Policy,Normal
+Economic Development,Pelaburan negeri,Official economic reports,Explain development plans,Sidang media,Unverified investment claims,Policy,Normal
+State Government Stability,Kestabilan pentadbiran,Official statements,Factual governance update,Penjelasan dasar,Personal attacks,Communications,High
+Youth and Undi18,Penglibatan belia,Youth programme data,Inform and invite dialogue,Dialog komuniti terbuka,Youth manipulation,Community Engagement,Normal
+Race and Religion,Naratif sensitif perkauman/agama,Two independent verified sources minimum,Fact correction only with evidence,Semakan fakta,Any racial or religious attack,Legal Review,Critical
+Misinformation,Dakwaan tidak disahkan,Two independent sources,Correct with evidence only,Semakan fakta,Immediate unverified rebuttal,Fact Checking,Critical
+Political Party Narratives,Parti dan koalisi,Official party statements,Policy explanation without attacks,Penjelasan dasar,Ethnic or religious persuasion,Communications,High

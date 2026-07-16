@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-06-13T13:37:52.737687",
+  "root": "data/projects/political/PRN",
+  "states": {
+    "N9": {
+      "id": "PRN_N9",
+      "name": "Negeri Sembilan",
+      "path": "data/projects/political/PRN/PRN_N9",
+      "dun_seats": 36
+    },
+    "Johor": {
+      "id": "PRN_Johor",
+      "name": "Johor",
+      "path": "data/projects/political/PRN/PRN_Johor",
+      "dun_seats": 56
+    },
+    "Melaka": {
+      "id": "PRN_Melaka",
+      "name": "Melaka",
+      "path": "data/projects/political/PRN/PRN_Melaka",
+      "dun_seats": 28
+    }
+  },
+  "shared": {
+    "spr_dates": "data/projects/political/PRN/_shared/spr/spr_prn_dates_2026.json",
+    "templates": "data/projects/political/PRN/_shared/templates",
+    "chinese_narrative": "data/projects/political/PRN/_shared/chinese_narrative"
+  },
+  "pas_break_narrative": "data/projects/political/pas_break_2026",
+  "note": "N9/Johor/Melaka = data negeri. pas_break_2026 = narrative PAS-Bersatu merentasi negeri."
+}

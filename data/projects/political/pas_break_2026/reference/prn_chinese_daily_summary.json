@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-07-12T15:31:08",
+  "streams_total": 17,
+  "news_rows": 345,
+  "socmed_rows": 0,
+  "files": [
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S1A1_news_20260712_153111.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S1A2_news_20260712_153113.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S1B1_news_20260712_153114.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S1B2_news_20260712_153119.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S1B3_news_20260712_153122.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S2A1_news_20260712_153124.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S2A2_news_20260712_153125.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S2B1_news_20260712_153126.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S2B2_news_20260712_153129.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S2B3_news_20260712_153131.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S3A1_news_20260712_153133.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S3A2_news_20260712_153134.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S3B1_news_20260712_153137.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_S3B2_news_20260712_153139.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_SX2_news_20260712_153144.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_News_all_20260712_153144.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_Johor/crawls/chinese_news/PRN_Chinese_News_Johor_20260712_153144.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_Melaka/crawls/chinese_news/PRN_Chinese_News_Melaka_20260712_153144.csv",
+    "/Users/rmtariq/Documents/InsightPulse/data/projects/political/PRN/PRN_N9/crawls/chinese_news/PRN_Chinese_News_N9_20260712_153144.csv"
+  ],
+  "finished_at": "2026-07-12T15:31:44",
+  "api_tasks": []
+}

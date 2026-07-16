@@ -1,0 +1,20 @@
+# PRN Johor + N9 — News Keyword (InsightPulse: Keyword Search + tick News ONLY)
+# Date: Last 7 Days | Dataset: 1500-2000 | Project: pas_break_2026
+
+# RUN 1 — Core PRN (208 artikel 21 Jun)
+("PRN Johor" OR "PRN16" OR "pilihan raya Johor" OR "DUN Johor" OR "PRN N9" OR "PRN Negeri Sembilan" OR "PRNN9" OR "Negeri Sembilan mengundi") when:7d
+
+# RUN 2 — Star / MK / Sinar
+site:thestar.com.my OR site:malaysiakini.com OR site:sinarharian.com.my ("PRN Johor" OR "PRN Negeri Sembilan") when:7d
+
+# RUN 3 — Media Cina
+site:chinapress.com.my OR site:sinchew.com.my (森美兰 OR 柔佛 OR PRN) when:7d
+
+# RUN 4 — Parti broad (756 artikel — paling lengkap)
+PAS OR UMNO OR DAP OR PN ("Negeri Sembilan" OR Johor) PRN when:7d
+
+# RUN 5 — Eve / post penamaan Johor (26-28 Jun)
+("penamaan calon" OR "senarai calon" OR "calon rasmi") Johor when:7d
+
+# RUN 6 — Eve / post penamaan N9 (15-19 Jul)
+("penamaan calon" OR "senarai calon" OR "calon rasmi") "Negeri Sembilan" when:7d

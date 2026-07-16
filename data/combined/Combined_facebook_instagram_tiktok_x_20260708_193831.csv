@@ -1,0 +1,414 @@
+Platform,Type,ID,Text,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,URL,video_url,media_type,engagement_score,author,author_followers,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,7126121650545823002,Inpo ngantemi bapaknya #TikTokTainment #TontonanBaru #Marley #FilmMarley #MarleyMovie,,,neutral,2026-07-08 11:25:28.970807+00:00,1500000,2277,1854,19800000,0.5,1702131,https://www.tiktok.com/@maxstream.tv/video/7126121650545823002,https://www.tiktok.com/@maxstream.tv/video/7126121650545823002,video,1529916.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.9085832834243774,english,Mixed/Urban,Unknown,0.0,love,0.058856334537267685,0.01715540513396263,0.037035562098026276,0.022665537893772125,0.7545863389968872,0.016321314498782158
+tiktok,post,7586932537432214785,jangan tunggu lama lama🤙🏻🤙🏻,,,negative,2026-07-08 11:25:15.175472+00:00,677800,42200,3563,19100000,0.1649376466870308,914563,https://www.tiktok.com/@yuukiituru/video/7586932537432214785,https://www.tiktok.com/@yuukiituru/video/7586932537432214785,video,791989.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.450207844376564,multilingual,Unknown,Unknown,0.0,love,0.2689543068408966,0.07926321774721146,0.03977152332663536,0.1478758007287979,0.34823745489120483,0.021972013637423515
+tiktok,post,7613741746417110292,"memori epic puasa 2026.
+-biasalah anak askor, kat mana mana boleh tidur. lasak🤭
+
+biasa memang ambik anak anak kafa lewat sikit, yela rumah kami jauh. sampai sampai dekat kafa, ada kakak dengan adik je. Abang takde. meanwhile, anak anak lain semua dah balik. kelas pun dah kunci.
+
+adik , kakak datang dekat kereta cakap “mak, cuba mak tanya ustazah. kakak rasa adam tertidur dalam kelas. “
+
+mak husnuzon.” takkanlah kak, ade rumah cikjan kot(tempat lepak anak anak kalau mak daddy ambik lambat)”
+
+kami pergilah rumah cikjan. eh takde. daddy plak kata”selalu kalau dia nampak kereta dia berlari dtg kat kereta”
+
+patah balik kat kafa tgk sazah belum balik, kakak turun mintak sazah cek dlm kelas. 
+
+kami pun intai intai ikut tingkap nampak selipar dia🤣🤣🤣🤣 orangnya takde. 
+
+sazah pun ambik kunci kat pejabat buka pintu kelas. hahahahahahah. 
+
+sazah kata ayah la pergi tgk takut dia mengamuk.🤪🤪🤪
+
+bergaya betul dia tidur walaupun berpeluh peluh. 🤣🤣🤣🤣  anak askar kan. kental sikit. . betul betul penat puasa ni.🤣🤣🤣🤣🤣
+
+#ramadancore #ramadan2026 #ceritaramadan #terpalingpuasa",,,negative,2026-07-08 11:25:24.535170+00:00,174100,22700,1090,2800000,0.000502520799636863,225890,https://www.tiktok.com/@bynacoway/video/7613741746417110292,https://www.tiktok.com/@bynacoway/video/7613741746417110292,video,225570.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.9983249306678772,malay,Malay/Bumiputera,Unknown,0.0,anger,0.6758150458335876,0.11081846058368683,0.02886509895324707,0.11530174314975739,0.025565603747963905,0.0160912424325943
+tiktok,post,7643407811564588309,"Tren kelulusan pakai lagu Kicau Mania disorot netizen Malaysia, dinilai berlebihan dan mencoreng citra pelajar Indonesia. #garudasiwainfotaiment #netizenmalaysia #trendkicaumania #malaysia #beritaterkini  #beritavirall #beritahariinii #beritaterupdate #berita",,,negative,2026-07-08 11:25:10.034215+00:00,128700,8385,6126,3900000,0.16751262992620466,182211,https://www.tiktok.com/@garuda.siwa.infot/video/7643407811564588309,https://www.tiktok.com/@garuda.siwa.infot/video/7643407811564588309,video,167748.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.44162456691265106,multilingual,Unknown,Unknown,0.0,love,0.15317049622535706,0.021567022427916527,0.03577420115470886,0.049873318523168564,0.37127673625946045,0.028528017923235893
+tiktok,post,7582529428765297927,"boi tenangin diri lu 🙏😭
+
+Boboiboy: JIWA MC KU MERONTA-RONTA
+
+si oboi emang gak berbakat jadi watak sampingan 🤣 😭 
+#boboiboy #gopal #boboiboymovie3 #papazolathemovie #fyp",,,neutral,2026-07-08 11:24:59.049142+00:00,123600,10100,634,1200000,0.5,146334,https://www.tiktok.com/@milyra_syah/video/7582529428765297927,https://www.tiktok.com/@milyra_syah/video/7582529428765297927,video,146902.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.5060017704963684,english,Mixed/Urban,Unknown,0.0,fear,0.15969063341617584,0.4485609829425812,0.021446166560053825,0.17457179725170135,0.09990133345127106,0.06948290765285492
+tiktok,post,7497961858784185608,Lord Glenn sensei terkece #anime #animefyp #fyp #sensei #fantasy #🗿,,,neutral,2026-07-08 11:25:01.321684+00:00,129000,2400,1027,1700000,0.5,149427,https://www.tiktok.com/@yamiix50/video/7497961858784185608,https://www.tiktok.com/@yamiix50/video/7497961858784185608,video,138581.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.864431619644165,english,Mixed/Urban,Unknown,0.0,love,0.04839148744940758,0.013409372419118881,0.06859197467565536,0.02107776515185833,0.5597506761550903,0.016855863854289055
+tiktok,post,7657524004986686728,Happy 100k Termenung bersama @AmzarSabri #fyp,,,positive,2026-07-08 11:25:14.505604+00:00,67500,4322,835,480800,0.9703166276216506,77465,https://www.tiktok.com/@bungaisme.1/video/7657524004986686728,https://www.tiktok.com/@bungaisme.1/video/7657524004986686728,video,79129.8,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",positive,0.9010554254055023,multilingual,Unknown,Unknown,0.0,happy,0.013357958756387234,0.024720966815948486,0.9092685580253601,0.007189421448856592,0.022338036447763443,0.010217142291367054
+tiktok,post,7624102574177651989,"Daftar PTN yang Buka jalur Nilai Raport tahun 2026. Yang gagal SNBP 2026 simak video ini.
+#fyp #viral #siswa #kelas12 #sma",,,negative,2026-07-08 11:25:09.091202+00:00,37400,8636,513,609400,0.03579733371734617,52643,https://www.tiktok.com/@tentor_andalan/video/7624102574177651989,https://www.tiktok.com/@tentor_andalan/video/7624102574177651989,video,56820.4,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.8806755542755127,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.04856093227863312,0.09209048002958298,0.014275872148573399,0.05651654303073883,0.03800247237086296,0.20704074203968048
+tiktok,post,7633811342180306194,#berbagirezeki #cikgushaari #fyp #realakuntiktok,,,neutral,2026-07-08 11:25:11.323179+00:00,36900,1411,2473,856500,0.5,49349,https://www.tiktok.com/@sultan_kebahagian13/video/7633811342180306194,https://www.tiktok.com/@sultan_kebahagian13/video/7633811342180306194,video,47997.5,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.905849039554596,english,Mixed/Urban,Unknown,0.0,love,0.13136912882328033,0.049509916454553604,0.08062410354614258,0.05302289500832558,0.5007739663124084,0.031123094260692596
+tiktok,post,7652507864593943815,"Berarti awak dewek fyp😂
+
+#soundlucu #ngapakcilacap #cilacap24jam #taiwanindonesia🇹🇼🇮🇩 #tkwtaiwan_indonesia🇮🇩🇹🇼",,,neutral,2026-07-08 11:25:10.673483+00:00,35200,3530,171,746000,0.5,46361,https://www.tiktok.com/@anggit_007/video/7652507864593943815,https://www.tiktok.com/@anggit_007/video/7652507864593943815,video,43519.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.8255704641342163,english,Mixed/Urban,Unknown,0.0,love,0.08754605054855347,0.026374971494078636,0.04430759698152542,0.03538522869348526,0.6715596318244934,0.020441994071006775
+tiktok,post,7595906995035671828,"Cikgu garang tau 🙂‍↕️
+
+#fyp #trending #foryou #viralvideo #guru",,,neutral,2026-07-08 11:25:01.628099+00:00,30500,5167,366,649700,0.5,42530,https://www.tiktok.com/@_cikguhaiqal/video/7595906995035671828,https://www.tiktok.com/@_cikguhaiqal/video/7595906995035671828,video,42581.7,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.8040347099304199,english,Mixed/Urban,Unknown,0.0,love,0.022416196763515472,0.007525480352342129,0.04948047921061516,0.015494497492909431,0.7425144910812378,0.017337903380393982
+tiktok,post,7638131531847945490,"NAH GINI DONG ,UNJUK BAKAT TUH PAKE BUSANA #jokes#jomok",,,negative,2026-07-08 11:25:04.247551+00:00,15100,9453,456,423500,0.08602929711341858,29244,https://www.tiktok.com/@yunaru_dua/video/7638131531847945490,https://www.tiktok.com/@yunaru_dua/video/7638131531847945490,video,35797.5,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.7132356762886047,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.1261637657880783,0.05356238782405853,0.07157652825117111,0.04218851774930954,0.25539156794548035,0.054878994822502136
+tiktok,post,7607021076903644423,malamun poang#fyppppppppppppppppppppppp #fyp #fypシ,,,negative,2026-07-08 11:25:02.591460+00:00,11100,3971,111,779200,0.12999486029148102,22974,https://www.tiktok.com/@sawitbalap_39/video/7607021076903644423,https://www.tiktok.com/@sawitbalap_39/video/7607021076903644423,video,20154.2,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.5666837990283966,multilingual,Unknown,Unknown,0.0,love,0.0886135995388031,0.030261775478720665,0.04666198417544365,0.026625944301486015,0.6702698469161987,0.016828343272209167
+tiktok,post,7647820141505301780,"হুদাই 😅
+*
+*
+*
+*
+*
+★
+Formula Outfit Cowok Berwibawa Anti Bad Day*
+*1. Smart Casual CEO Mode*
+Buat kuliah, kerja, atau nongkrong tapi tetep disegani
+- *Atasan*: Kemeja oxford polos warna navy, hitam, atau putih. Gulung lengan dikit.
+- *Bawahan*: Celana chino/ankle pants warna khaki, charcoal, atau hitam. No sobek-sobek.
+- *Sepatu*: Loafers, chelsea boots, atau sneakers putih bersih.
+- *Extra*: Jam tangan kulit/steel + kacamata hitam.
+*Vibes*: Tenang tapi dominan. Bad day langsung minggir.
+*2. Monokrom Minimalist*
+Paling gampang tapi efeknya kuat
+- *Atasan*: Kaos crew neck/henley hitam fit di badan, jangan kebesaran
+- *Bawahan*: Celana bahan hitam atau jeans black wash slim fit
+- *Outer*: Overshirt atau chore jacket warna senada
+- *Sepatu*: Boots atau sneakers full black
+*Vibes*: Misterius, fokus, nggak banyak drama.
+*3. Old Money Clean Look*
+Keliatan mahal tanpa logo gede
+- *Atasan*: Polo shirt rapi atau kemeja linen warna earth tone: olive, cream, mocca
+- *Bawahan*: Celana bahan straight cut warna beige/off-white
+- *Sepatu*: White sneakers premium atau penny loafers
+- *Extra*: Ikat pinggang kulit, rambut klimis rapi
+*Vibes*: Dewasa, berkelas, bad day jadi nggak berani ganggu.
+### *Kunci Berwibawa Biar Bad Day Kalah:*
+1. *Fit is king*: Baju yang pas di badan > baju mahal kebesaran
+2. *Warna gelap & netral*: Hitam, navy, abu, olive = auto tegas
+3. *Rapi dari ujung rambut*: Rambut, kuku, sepatu bersih. Berantakan = wibawa drop
+4. *Jangan kebanyakan aksesoris*: 1 jam tangan cukup
+### *Hashtag #BadDay Edition*
+Kalau mau post OOTD pas lagi bad day tapi tetep berwibawa:
+`#BerwibawaDuluBadDayKemudian #OutfitTegas #CleanLook #MenInBlack `",,,negative,2026-07-08 11:25:24.204067+00:00,7935,1759,118,134500,0.0004856228828430398,11157,https://www.tiktok.com/@fahim...k05/video/7647820141505301780,https://www.tiktok.com/@fahim...k05/video/7647820141505301780,video,11941.5,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.9983812570571899,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.223677858710289,0.09612411260604858,0.08135677874088287,0.027517013251781464,0.12668322026729584,0.10872551053762436
+tiktok,post,7615486691566013704,"Membongkar Tips Jawap Exam UKCG! 
+
+#beritaviral #cherita #beritatiktok #ukcg 
+#tipsukcg",,,neutral,2026-07-08 11:25:12.891711+00:00,5588,3018,35,86400,0.5,9505,https://www.tiktok.com/@cherita8326/video/7615486691566013704,https://www.tiktok.com/@cherita8326/video/7615486691566013704,video,11815.4,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.8947566151618958,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.05422573536634445,0.03707856312394142,0.0604560412466526,0.03632773458957672,0.12367759644985199,0.039659760892391205
+tiktok,post,7554037221683154187,Guruku tersayang (Super slow) #slowedsongs #superslowed #trending #aestheticsounds #relax,,,neutral,2026-07-08 11:25:13.194980+00:00,7274,1263,307,226600,0.5,11110,https://www.tiktok.com/@rf_0253/video/7554037221683154187,https://www.tiktok.com/@rf_0253/video/7554037221683154187,video,10947.6,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.7944940328598022,english,Mixed/Urban,Unknown,0.0,love,0.09116626530885696,0.07660546898841858,0.040200769901275635,0.15292862057685852,0.5276789665222168,0.058269280940294266
+tiktok,post,7639631867729169672,"Kita liat aja dari Video” Youtubenya siapa yang kemungkinan selingkuh😭 jadi jangan asal Judge orang, tau dulu sifat dan Karakter orangnya guyss🥹 sedih banget jadi Vilmei",,,neutral,2026-07-08 11:25:21.561724+00:00,6866,157,41,623900,0.5,13303,https://www.tiktok.com/@tiktokers.clip/video/7639631867729169672,https://www.tiktok.com/@tiktokers.clip/video/7639631867729169672,video,7926.9,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.4972710907459259,english,Mixed/Urban,Unknown,0.0,sadness,0.020527075976133347,0.028756240382790565,0.007314885035157204,0.9061983823776245,0.014855891466140747,0.013017889112234116
+tiktok,post,7622733837977652500,Dilarang cinlok cinlok PAMALI ALLAH MARAH😭🥴🙏🏻,,,positive,2026-07-08 11:25:22.233408+00:00,4591,1020,233,368500,0.8936312079429626,9529,https://www.tiktok.com/@putrimelisaglow/video/7622733837977652500,https://www.tiktok.com/@putrimelisaglow/video/7622733837977652500,video,7698.5,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",positive,0.6454373598098755,english,Mixed/Urban,Unknown,0.0,love,0.10768091678619385,0.023522183299064636,0.03454126790165901,0.03720570728182793,0.6078176498413086,0.023575622588396072
+tiktok,post,7620492766891511060,| MARVEN & ZEYLYA | sebenernya gua juga gatau gua nulis apa. #Alternativeuniverse #xybca #fyppppppppppppppppppppppp #lewatberanda,,,negative,2026-07-08 11:25:22.555922+00:00,6975,229,56,85100,0.03517815023660659,8111,https://www.tiktok.com/@mlaaacc/video/7620492766891511060,https://www.tiktok.com/@mlaaacc/video/7620492766891511060,video,7686.1,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.8827394992113113,multilingual,Unknown,Unknown,0.0,love,0.05881443992257118,0.14999714493751526,0.1340167224407196,0.0346108116209507,0.44449079036712646,0.07542544603347778
+tiktok,post,7651075564173937940,Aksi demo mahasiswa dapat kritik pedas. 14/06 #mahasiswa #Aksi #unjukrasa #demonstrasi #kampus,,,neutral,2026-07-08 11:25:21.234921+00:00,3729,468,945,87100,0.5,6013,https://www.tiktok.com/@teamcybersecret1/video/7651075564173937940,https://www.tiktok.com/@teamcybersecret1/video/7651075564173937940,video,7587.1,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.9030161499977112,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.013111508451402187,0.012496045790612698,0.07021842151880264,0.011106346733868122,0.11440899223089218,0.04062749817967415
+tiktok,post,7597261317916855573,#foryoupage❤️❤️ #foryoupage #malang,,,positive,2026-07-08 11:25:08.772637+00:00,4142,466,159,728400,0.9749198973178863,12051,https://www.tiktok.com/@bundaenadiabundae/video/7597261317916855573,https://www.tiktok.com/@bundaenadiabundae/video/7597261317916855573,video,6279.4,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",positive,0.9163996577262878,english,Mixed/Urban,Unknown,0.0,love,0.06793779879808426,0.038840752094984055,0.04402647539973259,0.04777425527572632,0.7326575517654419,0.022911515086889267
+tiktok,post,7574337810077895957,"Prompt Gemini 👇🏻 
+edit foto Seorang wanita (merujuk pada fitur wajah, telinga, hidung, X mulut, individu dari Gambar 1, 100% fotorealistik) diambil menggunakan kamera belakang, bidikan jarak dekat wajah, setengah badan. Menggunakan lensa RF 85mm full-frame, aperture f/1.4, resolusi tertinggi 8K, memberikan ketajaman realistis tingkat profesional. Wajah menggunakan blitz/flash yang kuat seperti kamera digital tahun 2000-an, cahaya menyebar (halasi/diffusion), menekankan ekspresi wajah yang tenang dan suasana segar seperti foto snapshot awal tahun 2000-an. Waktu malam hari, cahaya flash menyiram wajah, dan kulit menghasilkan pantulan (refleksi) cahaya lembut/halus. Banyak grain (bintik). Cahaya lampu mengenai kulit membuat kulit cerah, putih, berkilau, halus. Subjek Utama wanita: Seorang wanita dengan pake hijab pasmina warna abu abu muda .
+Ekspresi: tersenyum anggun dan (dari sudut pandang fotografer).
+Memiliki wajah yang terlihat netral atau sedang melamun.
+Pakaian: Mengenakan kaos lengan panjang berwarna abu abu . Terdapat kancing di bagian depan dan simbol berbentuk love' di dada. Mengenakan celana cubray berwarna hitam.
+Mengenakan kalung berliontin huruf A dan gelang (di pergelangan tangan kiri) berhuruf berwarna emas.
+Latar Belakang: trotoar dekat rumah atau bangunan dengan Struktur: Di sebelah kiri dan sedikit di belakangnya, terlihat bagian atas tembok berwarna putih panjang dengan pagar berwarna hitam tiang listrik berwarna putih dan Tanaman: terdapat bunga-bunga kecil berwarna kuning yang tampak terang karena pencahayaan yang ada di area atas tembok sampai bawah dan terlihat di atas kepala wanita dan pria sampai belakang bangunan. Terdapat juga pedagang kaki 5 serta beberapa struktur gelap lainnya.
+Pencahayaan: Sumber cahaya utama tampaknya berasal dari depan, menerangi subjek dan bunga kuning, sementara area lain di latar belakang tetap gelap pekat. 
+#aigemini #googlegeminiai #fy",,,negative,2026-07-08 11:25:03.532507+00:00,3992,357,325,578200,0.0013137638568878063,10456,https://www.tiktok.com/@amelna05/video/7574337810077895957,https://www.tiktok.com/@amelna05/video/7574337810077895957,video,6259.2,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.9956207871437073,malay,Malay/Bumiputera,Unknown,0.0,happy,0.032220106571912766,0.035214535892009735,0.57682204246521,0.014110495336353779,0.23183122277259827,0.025449542328715324
+tiktok,post,7659654702782582037,"🙌🍒 মানে মোবাইল টিপতে🍒🙌Maksudnya ""outfit cowok berwibawa"" buat ngatasin bad day ya?ভাংছোট হোক keliatan tegas + pede walau lagi_bad মমি বান্ধবীর টা খাবে un warnanya netral. Outfit yang berwibawa = bikin orang auto segan. ### *3 Formula Outfit Cowok Berwibawa Anti Bad Day* *1. Smart Casual CEO Mode* Buat kuliah, kerja, atau nongkrong tapi tetep disegani *Atasan*: Kemeja oxford polos warnaদবি:) navy, hitam, atau putih. Gulung lengan dikit. - *Bawahan*: Celana chino/ankle pants warna khaki, charcoal, atau hitam. No sobek-sobek. - *Sepatu*: Loafers, chelsea boots, atau sneakers putih bersih. *Extra*: Jam tangan kulit/steel + kacamata hitam. *Vibes*: Tenang tapi dominan. Bad day langsung minggir. *2. Monokrom Minimalist* Paling gampang tapi efeknya kuat - *Atasan*: Kaos crew neck/henley hitam fit di badan, jangan kebesaran - *Bawahan*: Celana bahan hitam atau jeans black wash slim fit -*Outer*: Overshirt atau chore jacket warna senada - *Sepatu*: Boots atau sneakers full black *Vibes*: Misterius, fokus, nggak banyak drama. *3. Old Money Clean Look* Keliatan mahal tanpa logo gede - *Atasan*: Polo shirt rapi atau kemeja linen warna earth tone: olive, cream, mocca - *Bawahan*: Celana bahan straight cut warna beige/off-white *Sepatu*: White sneakers premium atau penny loafers - *Extra*: Ikat pinggang kulit, rambut klimis rapi#foryou #100kviews #tiktokofficial #@TikTok @TikTok Bangladesh",,,negative,2026-07-08 11:25:23.900052+00:00,1395,221,1344,32000,0.00048070549964907006,3280,https://www.tiktok.com/@alif.official05/video/7659654702782582037,https://www.tiktok.com/@alif.official05/video/7659654702782582037,video,5901.0,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.9983976483345032,malay,Malay/Bumiputera,Unknown,0.0,love,0.11670420318841934,0.07413604855537415,0.2055274099111557,0.0346473827958107,0.3135567903518677,0.03740225359797478
+tiktok,comment,7660049241426969364,২ টা তাও অনেক ব্যথা পাই,https://www.tiktok.com/@alif.official05/video/7659654702782582037,7659654702782582037,negative,2026-07-08 07:03:26+00:00,19,0,12,0,0.06842897236347198,43,https://www.tiktok.com/@alif.official05/video/7659654702782582037,,,,your_mithu_26,0.0,,negative,0.7719034254550934,multilingual,Unknown,Unknown,0.25,fear,0.1839320808649063,0.28469863533973694,0.027107257395982742,0.17849865555763245,0.0589941069483757,0.10945367813110352
+tiktok,comment,7659879145556149012,x গ্রুপ আমি অ্যাড হবা??,https://www.tiktok.com/@alif.official05/video/7659654702782582037,7659654702782582037,negative,2026-07-07 20:03:31+00:00,19,0,47,0,0.13088838458061217,113,https://www.tiktok.com/@alif.official05/video/7659654702782582037,,,,riya_akter247,0.0,,negative,0.5637053847312927,multilingual,Unknown,Unknown,0.25,surprise,0.02982238121330738,0.07288865745067596,0.016773929819464684,0.06415192037820816,0.176260307431221,0.4236423075199127
+tiktok,post,7647360944535899400,"Subhanallah, vedio lama Kepam & syirik berpisah tiada sampai skrg. Namun masih ada yg sokong dia dan menyebelahi dia walau dah byk kes permainkan agama.",,,negative,2026-07-08 11:25:20.597294+00:00,2009,1439,143,221600,0.0005092620849609375,5807,https://www.tiktok.com/@inirue/video/7647360944535899400,https://www.tiktok.com/@inirue/video/7647360944535899400,video,5537.6,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",negative,0.9983024597167969,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.017304949462413788,0.033012062311172485,0.01232428289949894,0.04940624162554741,0.12620526552200317,0.6634010672569275
+tiktok,post,7441935088486501639,MINTA IZIN KARNA KESIANGAN#muridkesiangan #bismillahrame #amanamanaja,,,neutral,2026-07-08 11:25:25.164284+00:00,3240,761,103,121300,0.5,5317,https://www.tiktok.com/@salmanzzz67/video/7441935088486501639,https://www.tiktok.com/@salmanzzz67/video/7441935088486501639,video,5192.3,,,"omni request failed: HTTP 400 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""status"":400,""title"":""Bad Request"",""detail"":""Function id 'c4ed50ff-b5c3-409d-ab57-b79c33f5bb39': DEGRADED function cannot be invoked""}",neutral,0.8137604594230652,english,Mixed/Urban,Unknown,0.0,love,0.10914815217256546,0.084327831864357,0.048086702823638916,0.09175994992256165,0.572685956954956,0.0379444919526577
+tiktok,post,7594743732839173383,"ib:@its.aeni29 
+ramein yuk
+#fypppp #fypシ #rameyukbisa #chatau
+#au",,,neutral,2026-07-08 11:25:15.497635+00:00,4623,94,70,121400,0.5,6001,https://www.tiktok.com/@loverssss_au/video/7594743732839173383,https://www.tiktok.com/@loverssss_au/video/7594743732839173383,video,5142.4,,,,neutral,0.8729543685913086,english,Mixed/Urban,Unknown,0.0,love,0.1715080738067627,0.12743797898292542,0.14666345715522766,0.058736059814691544,0.2904520630836487,0.05120248347520828
+tiktok,post,7657012072311475464,laiyo#fypシ #fyppppppppppppppppppppppp #banyak,,,neutral,2026-07-08 11:25:12.246809+00:00,2104,112,808,156300,0.5,4587,https://www.tiktok.com/@masblending22/video/7657012072311475464,https://www.tiktok.com/@masblending22/video/7657012072311475464,video,4908.3,,,,neutral,0.8197207450866699,english,Mixed/Urban,Unknown,0.0,love,0.08673528581857681,0.045558538287878036,0.049674537032842636,0.02976626344025135,0.6569432616233826,0.022449862211942673
+tiktok,comment,7659702535191675666,tutup. mbg,https://www.tiktok.com/@masblending22/video/7657012072311475464,7657012072311475464,positive,2026-07-07 08:38:03+00:00,1,0,0,0,0.8635845392942428,1,https://www.tiktok.com/@masblending22/video/7657012072311475464,,,,biringbreribu34,0.0,,positive,0.5452817976474762,multilingual,Unknown,Unknown,0.25,love,0.14489689469337463,0.09854583442211151,0.12745828926563263,0.0884416401386261,0.2978898584842682,0.08331086486577988
+tiktok,post,7623685131215179016,"saat bertemu lagi | part 05
+#pecintadrachin #dramachina #dramabox",,,neutral,2026-07-08 11:25:16.128058+00:00,3873,104,66,240400,0.5,6447,https://www.tiktok.com/@leo119641/video/7623685131215179016,https://www.tiktok.com/@leo119641/video/7623685131215179016,video,4519.4,,,,neutral,0.9130990505218506,english,Mixed/Urban,Unknown,0.0,love,0.11137628555297852,0.07623442262411118,0.053545091301202774,0.13194091618061066,0.5306406617164612,0.045488763600587845
+tiktok,post,7652056728430775573,"TRIBUNMANADO.CO.ID – Ricky Febriansyah merilis lagu berjudul Wasiat Cintaku yang tayang pada 22 Mei 2026 
+
+Lagu ciptaan Tri Suaka ini bercerita tentang seseorang yang merasa dirinya tidak sempurna dalam sebuah hubungan. Ia sadar sering membuat pasangannya lelah, tapi sebenarnya ia sangat mencintai dan selalu mendoakan yang terbaik.
+Berikut cuplikan lirik Wasiat Cintaku :
+
+Diriku ini tidaklah sempurna
+Selalu salah dan membuatmu lelah
+Di setiap hariku kusebut namamu
+Dalam doa yang sederhana
+Maafkan jika kau tidak bahagia
+Tapi ku kan selalu berusaha
+Jangan kau bersedih dan bermurung hati
+Yakinkan indah pada waktunya
+
+Jika suatu hari nanti
+aku tak mendampingi
+Janganlah aku kau tangisi
+Tuhan tolong jaga dirinya
+Bisikkan kepadanya
+aku sangat mencintainya
+
+Tuhan aku ingin dia bahagia
+Tenangkan hatinya
+Walau tak ada ku di sisinya
+Jika nanti ada penggantiku
+yang akan menjaganya
+yang kuingin dia hidup bahagia
+
+Jika suatu hari nanti
+aku tak mendampingi
+Janganlah aku kau tangisi
+Tuhan tolong jaga dirinya
+Bisikkan kepadanya
+aku sangat mencintainya
+Tuhan aku ingin dia bahagia
+Tenangkan hatinya
+Walau tak ada ku di sisinya
+Jika nanti ada penggantiku
+yang akan menjaganya
+yang kuingin dia hidup bahagia
+
+Oh Tuhan aku ingin dia bahagia
+Tenangkan hatinya
+Walau tak ada ku di sisinya
+Jika nanti ada penggantiku
+yang akan menjaganya
+yang kuingin dia hidup bahagia
+yang kuingin dia hidup bahagia",,,positive,2026-07-08 11:25:14.197620+00:00,3012,468,74,213500,0.9879278242588043,5689,https://www.tiktok.com/@la_tu05/video/7652056728430775573,https://www.tiktok.com/@la_tu05/video/7652056728430775573,video,4383.5,,,,positive,0.9597594141960144,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.0662078782916069,0.08427433669567108,0.02190469019114971,0.5898306965827942,0.1811886578798294,0.03418439254164696
+tiktok,post,7650433180012432660,jangan sampai keceplosan panggil saya mba ingat ya #terikatjanji #senadavina #fyp #fypシ #jangansampaikeceplosanpanggilsayambak,,,negative,2026-07-08 11:25:21.899049+00:00,3395,363,35,132400,0.003696566820144631,5117,https://www.tiktok.com/@keykoclip/video/7650433180012432660,https://www.tiktok.com/@keykoclip/video/7650433180012432660,video,4358.4,,,,negative,0.9876781105995178,malay,Malay/Bumiputera,Unknown,0.0,anger,0.3621642589569092,0.05178556218743324,0.06280899047851562,0.054081495851278305,0.2932948172092438,0.031028715893626213
+tiktok,post,7059286566115527963,#ngacapruklagihh😂🤦 #hiburanaja #fypfouryou @AntiAntos #copas,,,neutral,2026-07-08 11:25:19.959631+00:00,1889,290,28,129200,0.5,3499,https://www.tiktok.com/@hera_horre.891/video/7059286566115527963,https://www.tiktok.com/@hera_horre.891/video/7059286566115527963,video,2682.2,,,,neutral,0.46132203936576843,english,Mixed/Urban,Unknown,0.0,love,0.10130076855421066,0.02951730787754059,0.03911386802792549,0.029968509450554848,0.7094205617904663,0.017837967723608017
+tiktok,post,7526003330036845842,"📊 SOAL SELIDIK KAJIAN KEBERHASILAN LATIHAN DIGITAL
+📅 Program Pemantapan Digital PPP KPM Tahun 2025
+
+Kepada semua Pegawai Perkhidmatan Pendidikan (PPP), berikut merupakan langkah-langkah untuk menjawab soal selidik Kajian Keberhasilan Latihan Digital:
+
+1️⃣ Log masuk ke Sistem Guru Malaysia (SGMy) melalui pautan:
+🔗 https://sgmy.moe.gov.my
+
+2️⃣ Gunakan ID dan kata laluan yang sama seperti SPLKPM
+
+3️⃣ Pergi ke menu ""Kajian Keberhasilan""
+
+4️⃣ Klik ""Latihan Digital"" dan lengkapkan soal selidik
+
+#KajianKeberhasilanDigital2025 #PPP #KPM #SGMy",,,neutral,2026-07-08 11:25:24.843746+00:00,568,984,18,63200,0.5,2202,https://www.tiktok.com/@cikgunurulain/video/7526003330036845842,https://www.tiktok.com/@cikgunurulain/video/7526003330036845842,video,2653.2,,,,neutral,0.9970990419387817,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.021362412720918655,0.05669381842017174,0.06351746618747711,0.02559487521648407,0.04709571599960327,0.0784372016787529
+tiktok,post,7504502889784691974,"video ini ulang tahun papa tanggal (02/09/2022), skrg papa su tenang di atas ya pa lebih tepatnya papa berpulang tanggal (02/05/2025) dan itu kaka msih sempat nyetir mobil k rumah sakit par bawa papa dalam keadaan gemetar tapi kaka berusaha kuat biar bisa smpe rumah sakit dgn baik” saja, maaf ya papa kaka masih sngt terpukul papa su sg ada soalnya sg sakit sngt sehat papa pigi sangat mendadak, tapi insya allah kaka ikhlas pa, makasih pa sudah selalu utamakan kebahagiaan dan kemauan anak sama istrinya, maksih juga ya papa su jadi papa dan suami yang sangat bertanggungjwab dan sangat berhasil jadi orang tua buat anak-anaknya iloveyou papa, we miss u papa sayang🕊️🥀🤍",,,negative,2026-07-08 11:25:08.461869+00:00,1935,142,109,29200,0.0004805624485015869,2478,https://www.tiktok.com/@nswaaaaaaaaaaaaaaa14/video/7504502889784691974,https://www.tiktok.com/@nswaaaaaaaaaaaaaaa14/video/7504502889784691974,video,2575.2,,,,negative,0.9983981251716614,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.06703836470842361,0.08689116686582565,0.014058398082852364,0.6772504448890686,0.10571138560771942,0.030680524185299873
+tiktok,post,7653956168729070866,permisi smala🙏🏻#madiun24jam#sma5madiun#smalamadiun#yourpage#fyp,,,neutral,2026-07-08 11:25:20.909069+00:00,1160,502,46,21900,0.5,1927,https://www.tiktok.com/@panzz44444/video/7653956168729070866,https://www.tiktok.com/@panzz44444/video/7653956168729070866,video,2323.9,,,,neutral,0.5810284614562988,english,Mixed/Urban,Unknown,0.0,love,0.0950528234243393,0.033064454793930054,0.07060364633798599,0.03857309743762016,0.5540491938591003,0.02719956822693348
+tiktok,post,7298300060721368326,"Hallo adik-adik 
+Mari bernyanyi bersama-sama🤩
+
+Tema 1 : Norma
+
+Sub Tema 2 : Aturan dan Norma di Masyarakat
+
+Official Media Sosial anotherstudy_
+IG: @anotherstudy_
+Tiktok: anotherstudy_",,,positive,2026-07-08 11:25:04.559924+00:00,607,636,13,40100,0.8752500116825104,1657,https://www.tiktok.com/@anotherstudy21_/video/7298300060721368326,https://www.tiktok.com/@anotherstudy21_/video/7298300060721368326,video,1958.1,,,,positive,0.5841667056083679,english,Mixed/Urban,Unknown,0.0,love,0.045033205300569534,0.022791534662246704,0.06491462886333466,0.027771856635808945,0.4937247037887573,0.03300844877958298
+tiktok,post,7622276172277222677,no hujatan ini cuman au#lewatberanda #fyppppppppppppppppppppppp #hanyaaudoangg #nohujatan🗿🙏🏻 #gaksukaskip📵,,,negative,2026-07-08 11:25:15.817121+00:00,1713,39,21,55700,0.06091652512550355,2330,https://www.tiktok.com/@chat_au98/video/7622276172277222677,https://www.tiktok.com/@chat_au98/video/7622276172277222677,video,1909.7,,,,negative,0.7969449162483215,multilingual,Unknown,Unknown,0.0,love,0.17824435234069824,0.049710385501384735,0.05522122234106064,0.038706012070178986,0.4847935140132904,0.031386181712150574
+tiktok,comment,7659294600813937415,KAA pp kita smaa,https://www.tiktok.com/@chat_au98/video/7622276172277222677,7622276172277222677,neutral,2026-07-06 06:15:06+00:00,1,0,0,0,0.5,1,https://www.tiktok.com/@chat_au98/video/7622276172277222677,,,,andini.rahma254,0.0,,neutral,0.8314568400382996,english,Mixed/Urban,Unknown,0.25,love,0.15784239768981934,0.12323743849992752,0.13123169541358948,0.09091906994581223,0.21192631125450134,0.10823066532611847
+tiktok,post,7647519823370423559,"jujur agak nyesek dikit si pas ngliat zio repost tntng percintaan. ya meskipun disni aku JUST FANS tpi kaya nyesek aja gitu. aku paham ko zio juga punya hak buat menyukai seseorang. yaampun sedih banget ngliat idola sendiri punya gebetan. dulu pas ngestann dia tuh rasa nya kaya di milik semua orang.. eh skrng dia udh ada yg punya. sakitnya tuh disini, di hati yang paling dalam. seneng si liat dia bahagia tapi nyesek juga karena bukn aku orng nya nama nya juga fans yaa, cuma bisa doain dari jauh sambil nangis dalem hati. sedih si iya, tapi ga benci ko. justru malah mkin sayang karena dia udh nemu yg bkin dia bahagia. cuma yaa.. tetap aja yaa, ekspektasi jadi fans tuh kadang kejam. kita ngarep dia jomblo selamanya, padahal dia juga manusia yang butuh disayang. jadi yaudah deh.. selamat yaa ioookuu. bahagia terus sama gebetan brunya. kita dsni tetap jdi fans setia yng bakal nontonin video brazil kmu sm anak"" lus lain nya, tingkah random kamu yng lucu, dll lahh. sedih? sedih banget. tapi bangga juga. gitu deh rasanya jadi fans🥹 
+
+#fypシ #4u #justfans #lewatberanda #moots? #ziooo #alfatihfabrizio #lusmanagement",,,negative,2026-07-08 11:25:00.342451+00:00,1435,65,42,43700,0.0005042374134063832,1979,https://www.tiktok.com/@yanaa_zioovers/video/7647519823370423559,https://www.tiktok.com/@yanaa_zioovers/video/7647519823370423559,video,1734.7,,,,negative,0.9983192086219788,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.05857099965214729,0.08488240838050842,0.02141927368938923,0.6250396966934204,0.15563958883285522,0.03148292005062103
+tiktok,post,7642684813358501141,"Mas rian unjuk bakat loh yh😹
+#Meme #masrusdi #masrian #ngawi #fyppppppppppppppppppppppp",,,neutral,2026-07-08 11:25:16.503866+00:00,767,371,46,27500,0.5,1459,https://www.tiktok.com/@seputar_random/video/7642684813358501141,https://www.tiktok.com/@seputar_random/video/7642684813358501141,video,1674.5,,,,neutral,0.8229884505271912,english,Mixed/Urban,Unknown,0.0,love,0.1017199382185936,0.032758597284555435,0.07383769005537033,0.03029848262667656,0.6065908074378967,0.023777425289154053
+tiktok,post,7642870945278954773,Yg bener yg mana??🙂‍↔️,,,negative,2026-07-08 11:25:18.061314+00:00,1164,17,109,42500,0.10731708705425261,1715,https://www.tiktok.com/@cikguvia05/video/7642870945278954773,https://www.tiktok.com/@cikguvia05/video/7642870945278954773,video,1567.5,,,,negative,0.6422763764858246,multilingual,Unknown,Unknown,0.0,surprise,0.022549021989107132,0.041300274431705475,0.029811101034283638,0.03517374396324158,0.3345334231853485,0.3757118880748749
+tiktok,post,7278302772242566406,Macam macam norma didalam masyarakat #fypシ #fyp #langsa #gurusd #kotalangsa #sdn1pbt #guru #macammacamnorma #kelas5 #normadalamkehidupanku,,,positive,2026-07-08 11:25:05.809278+00:00,394,247,31,39900,0.866892284154892,1071,https://www.tiktok.com/@ayoelandadika/video/7278302772242566406,https://www.tiktok.com/@ayoelandadika/video/7278302772242566406,video,1020.9,,,,positive,0.5563076138496399,multilingual,Unknown,Unknown,0.0,love,0.10189097374677658,0.02881327085196972,0.08692450076341629,0.0463186651468277,0.43874257802963257,0.03072020411491394
+tiktok,post,7608248251510263048,"tiroris mental kerupuk kulit..... 🤣😂🤣😂🤣😂
+
+#fypシ゚viral #fypシ #fyp #jokowi_tegak_lurus #indonesia🇮🇩",,,neutral,2026-07-08 11:25:04.874662+00:00,821,19,20,64900,0.5,1509,https://www.tiktok.com/@jokowi_tegak_lurus2/video/7608248251510263048,https://www.tiktok.com/@jokowi_tegak_lurus2/video/7608248251510263048,video,983.9,,,,neutral,0.5519363284111023,english,Mixed/Urban,Unknown,0.0,love,0.07603424042463303,0.030216846615076065,0.10943274199962616,0.04035103693604469,0.595808207988739,0.021044258028268814
+tiktok,comment,7658229617526407944,keren,https://www.tiktok.com/@jokowi_tegak_lurus2/video/7608248251510263048,7608248251510263048,positive,2026-07-03 09:22:22+00:00,0,0,0,0,0.840567198395729,0,https://www.tiktok.com/@jokowi_tegak_lurus2/video/7608248251510263048,,,,bulanbintang4268,0.0,,positive,0.46855732798576355,multilingual,Unknown,Unknown,0.25,love,0.1666625738143921,0.13358327746391296,0.12343624234199524,0.10152647644281387,0.2014089673757553,0.11134747415781021
+tiktok,post,7634964107640425736,"Baca 3x tutup dengan tarik nafas dalam + hembuskan pelan..
+#afirmasipositif",,,neutral,2026-07-08 11:25:19.640536+00:00,764,47,22,17600,0.5,1009,https://www.tiktok.com/@putribeauty02/video/7634964107640425736,https://www.tiktok.com/@putribeauty02/video/7634964107640425736,video,941.6,,,,neutral,0.7025865912437439,english,Mixed/Urban,Unknown,0.0,happy,0.027503274381160736,0.042832933366298676,0.442615807056427,0.01582489162683487,0.11463521420955658,0.039863839745521545
+tiktok,comment,7658064742829556501,[Sticker] Aamiin,https://www.tiktok.com/@putribeauty02/video/7634964107640425736,7634964107640425736,neutral,2026-07-02 22:42:54+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@putribeauty02/video/7634964107640425736,,,,.amean_45,0.0,,neutral,0.9250302314758301,english,Mixed/Urban,Unknown,0.25,love,0.053172312676906586,0.025768542662262917,0.07918468862771988,0.022127395495772362,0.5545995235443115,0.03736534342169762
+tiktok,post,7561467456745655608,"susah nya jadi guru dijaman sekarang
+#dedimulyadi #bapakaing #kdm #jawabarat",,,neutral,2026-07-08 11:24:59.677967+00:00,558,50,82,24000,0.5,930,https://www.tiktok.com/@kdms713/video/7561467456745655608,https://www.tiktok.com/@kdms713/video/7561467456745655608,video,928.0,,,,neutral,0.8841615319252014,english,Mixed/Urban,Unknown,0.0,love,0.08392695337533951,0.09535112231969833,0.07188672572374344,0.0481780543923378,0.5827236175537109,0.02909477800130844
+tiktok,post,7650259994402688277,"Esok Sekolah in every mutation !
+#foryou #roblox #stealabrainrot #fyproblox #mutation 
+@cornball cant tag . 😭 @Murilo Henrique",,,negative,2026-07-08 11:25:17.756951+00:00,500,12,81,24200,0.15705599784851074,835,https://www.tiktok.com/@antho_roblox2/video/7650259994402688277,https://www.tiktok.com/@antho_roblox2/video/7650259994402688277,video,791.2,,,,negative,0.47648000717163086,english,Mixed/Urban,Unknown,0.0,love,0.12052739411592484,0.04504707455635071,0.03931092098355293,0.05064646154642105,0.6324278712272644,0.016564860939979553
+tiktok,post,7276074294075985157,𝕄𝕒𝕔𝕒𝕞 𝕞𝕒𝕔𝕒𝕞 ℕ𝕠𝕣𝕞𝕒 #lagunaikbecak #fypstudents #fypsmisantun #misantunsekolahjuara #misantun #pendidikanpancasila #pkn #fyptiktokindonesia #fypviraltiktok🖤シ゚☆♡ #septemberchallenge,,,neutral,2026-07-08 11:25:02.266094+00:00,327,179,4,20800,0.5,718,https://www.tiktok.com/@titinelridlo/video/7276074294075985157,https://www.tiktok.com/@titinelridlo/video/7276074294075985157,video,717.8,,,,neutral,0.8999126553535461,english,Mixed/Urban,Unknown,0.0,love,0.07858461141586304,0.030096305534243584,0.07346151769161224,0.03836365044116974,0.5718458890914917,0.025056421756744385
+tiktok,post,7584000542377118984,"Maafkan saye sazah.. 🥹🥹
+
+Note : Sebabkan sessi pagi, sekolah bg cuti utk cuti peristiwa, sessi petang plak mmg tak cuti, buku teks semua pun dah pulangkan. Jadi, ku cutikan je la hari nie. Esok sekolah mcm biase smpi Jumaat. 🥲🥲",,,neutral,2026-07-08 11:25:25.771846+00:00,444,14,15,90700,0.5,1380,https://www.tiktok.com/@izahayu1806/video/7584000542377118984,https://www.tiktok.com/@izahayu1806/video/7584000542377118984,video,607.7,,,,neutral,0.6379290819168091,english,Mixed/Urban,Unknown,0.0,love,0.07787877321243286,0.12608426809310913,0.030668631196022034,0.06871405988931656,0.33836761116981506,0.04489501193165779
+tiktok,post,7658848928254659847,"Ya Allah, jika ini yang terbaik untuk agama dan Johor, kurniakanlah kemenangan dan keberkatan-Mu. 🤲🏻💚
+
+#CikguMala4Tenang",,,positive,2026-07-08 11:24:55.228981+00:00,350,28,45,2020,0.9993901193141936,443,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,video,543.02,,,,positive,0.9979670643806458,malay,Malay/Bumiputera,Unknown,0.0,love,0.04044697433710098,0.019762177020311356,0.033488497138023376,0.03356201574206352,0.8294466733932495,0.013651502318680286
+tiktok,comment,7659999236486791953,YA ALLAH ENGKAU BERI KAN LAH KEMENANGAN KESEMUA 11 KERUSI YANG PARTI PAS BERTANDING DI DUN JOHOR...hanya pada MU kami berserah...hanya pada MU kami memohon..hanya pada MU YA ALLAH YANG MAHA SEGALANYA..🥰🥰🥰🥰,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,7658848928254659847,positive,2026-07-08 03:49:31+00:00,0,0,0,0,0.846915316581726,0,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,,,,rahim89_,0.0,,positive,0.4897177219390869,multilingual,Unknown,Unknown,0.25,love,0.06776566058397293,0.0982336774468422,0.053185492753982544,0.08526502549648285,0.6231850385665894,0.0331251323223114
+tiktok,comment,7659557690515931912,سيروا علي بركة الله,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,7658848928254659847,positive,2026-07-06 23:16:18+00:00,0,0,0,0,0.8413202106952666,0,https://www.tiktok.com/@atiqahmohamad89/video/7658848928254659847,,,,abu_syaraawi,0.0,,positive,0.4710673689842224,multilingual,Unknown,Unknown,0.25,love,0.12910780310630798,0.059675734490156174,0.07723654061555862,0.04872596263885498,0.4452168345451355,0.04885631799697876
+tiktok,post,7659228305262169351,"ayoh bangsa Johor kita undi PERIKATAN NASIONAL demi AGAMA,BANGSA DAN NEGARA",,,neutral,2026-07-08 11:24:59.361679+00:00,293,47,30,1915,0.5,389,https://www.tiktok.com/@man.intan5/video/7659228305262169351,https://www.tiktok.com/@man.intan5/video/7659228305262169351,video,478.915,,,,neutral,0.829628586769104,english,Mixed/Urban,Unknown,0.0,love,0.07257632911205292,0.016364894807338715,0.06996520608663559,0.03244449198246002,0.5982146859169006,0.018907219171524048
+tiktok,comment,7660110107682931472,muga Allah memberikan kemenangan terbaik buat semua calon perikatan nasional... aminyarabbalamin...in shaa Allah 🥰🥰🥰🥰🥰🥰,https://www.tiktok.com/@man.intan5/video/7659228305262169351,7659228305262169351,positive,2026-07-08 10:59:41+00:00,0,0,0,0,0.9994090020656585,0,https://www.tiktok.com/@man.intan5/video/7659228305262169351,,,,babybuntat,0.0,,positive,0.9980300068855286,malay,Malay/Bumiputera,Unknown,0.25,happy,0.034126438200473785,0.04521839693188667,0.4868147075176239,0.017279019579291344,0.22963222861289978,0.02764223888516426
+tiktok,comment,7660114947484992277,Insyaallah menang 11 kursi,https://www.tiktok.com/@man.intan5/video/7659228305262169351,7659228305262169351,neutral,2026-07-08 11:18:25+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@man.intan5/video/7659228305262169351,,,,ustazhalim_,0.0,,neutral,0.6802065372467041,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.05434415861964226,0.0645938515663147,0.07499366998672485,0.028909794986248016,0.18959416449069977,0.08312734216451645
+tiktok,post,7637234421803879700,"maaf GK bisa ngeditnya🙏🏻😭
+buat 10.05.26
+Happy birthday 
+Beautiful mimil 🫶🏻🤍 
+sehat selalu, panjang umur,lancar rezekinya,bahagia selalu,semoga karirnya makin bersinar,makin melejit,semoga apapun harapan dan impian kamu segera terwujud,pokoknya pasti doa terbaik buat mimil 🫶🏻💋.
+
+initeh sabenernamah GK bisa ngedit tapi berusaha buat mimil,maaf bgtt,jelek editannya",,,positive,2026-07-08 11:25:16.816185+00:00,420,6,11,7685,0.9994089305400848,513,https://www.tiktok.com/@cashsyah7/video/7637234421803879700,https://www.tiktok.com/@cashsyah7/video/7637234421803879700,video,472.685,,,,positive,0.9980297684669495,malay,Malay/Bumiputera,Unknown,0.0,happy,0.016471823677420616,0.034147392958402634,0.85829097032547,0.010394451208412647,0.046448253095149994,0.014716023579239845
+tiktok,post,7655996202156068117,"27 Jun 2026 | 11 Muharam 1448
+Kenali Calon N.05 Tenang
+ Suara Tenang, Harapan Baharu
+Ayuh warga Tenang!
+Masa depan kawasan kita bergantung kepada pilihan kita.
+Pilih wakil yang: ✅ Mendengar suara rakyat
+✅ Turun padang bersama masyarakat
+✅ Membawa isu setempat ke peringkat lebih tinggi
+✅ Berkhidmat dengan amanah dan prihatin
+Pada hari pengundian, pilihlah calon No. 3 — ELIA NADIRA SABUDIN.
+Satu undi anda membawa harapan.
+Satu undi anda menentukan masa depan Tenang.
+#N05Tenang
+#EliaNadira
+#PRNJOHOR
+#JohorKeDepan",,,positive,2026-07-08 11:25:14.863824+00:00,230,21,65,2048,0.9845197200775146,336,https://www.tiktok.com/@roos_laila/video/7655996202156068117,https://www.tiktok.com/@roos_laila/video/7655996202156068117,video,469.048,,,,positive,0.9483990669250488,malay,Malay/Bumiputera,Unknown,0.0,love,0.057860247790813446,0.024385012686252594,0.10261605679988861,0.03271089121699333,0.5202803611755371,0.02950388379395008
+tiktok,post,7597838340456516884,"Commentary Practice @ Putrajaya bersama students saya, Haikal & Ibnu. #touristguideshare #handsonlearning #tourismmalaysia #trainer #putrajaya",,,positive,2026-07-08 11:25:28.027454+00:00,281,59,18,7314,0.9321734964847564,431,https://www.tiktok.com/@trainertourguidecourse/video/7597838340456516884,https://www.tiktok.com/@trainertourguidecourse/video/7597838340456516884,video,460.314,,,,positive,0.7739116549491882,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.04149159416556358,0.013230576179921627,0.06302540749311447,0.02058868668973446,0.3935033679008484,0.02277510054409504
+tiktok,post,7659774096204401941,"Replying to @همبا الله 
+
+Selaku calon Perikatan Nasional DUN Tenang, saya amat menghargai setiap komen, doa, dan kata-kata semangat daripada anda semua yang menjadi sumber kekuatan untuk saya terus melangkah.
+
+Harapan warga Tenang adalah amanah yang akan sentiasa saya jaga dan doakan saya terus istiqomah dan terus berkhidmat.
+
+🗳️ 𝙐𝙉𝘿𝙄 𝘾𝙄𝙆𝙂𝙐 𝙈𝘼𝙇𝘼
+
+""Jom Jaga Tenang"" 
+""Jom Jaga Johor"" 
+
+#CikguMala
+#BersamaMendidikMasyarakat
+#TenangSejahtera
+#BerkatPrihatinSejahtera",,,positive,2026-07-08 11:24:57.147914+00:00,298,21,31,1589,0.9993987202644348,365,https://www.tiktok.com/@cikgumala_johor/video/7659774096204401941,https://www.tiktok.com/@cikgumala_johor/video/7659774096204401941,video,434.589,,,,positive,0.9979957342147827,malay,Malay/Bumiputera,Unknown,0.0,love,0.027780553326010704,0.009393095970153809,0.053780656307935715,0.018526220694184303,0.8187645673751831,0.014622269198298454
+tiktok,post,7659969109114834197,"🐸🍒বলো বলো 🍒🐸👀Maksudnya ""outfit cowok berwibawa"" buat ngatasin bad day ya?ভাংছোট হোক keliatan tegas + pede walau lagi_bad মমি বান্ধবীর টা খাবে un warnanya netral. Outfit yang berwibawa = bikin orang auto segan. ### *3 Formula Outfit Cowok Berwibawa Anti Bad Day* *1. Smart Casual CEO Mode* Buat kuliah, kerja, atau nongkrong tapi tetep disegani *Atasan*: Kemeja oxford polos warnaদবি:) navy, hitam, atau putih. Gulung lengan dikit. - *Bawahan*: Celana chino/ankle pants warna khaki, charcoal, atau hitam. No sobek-sobek. - *Sepatu*: Loafers, chelsea boots, atau sneakers putih bersih. *Extra*: Jam tangan kulit/steel + kacamata hitam. *Vibes*: Tenang tapi dominan. Bad day langsung minggir. *2. Monokrom Minimalist* Paling gampang tapi efeknya kuat - *Atasan*: Kaos crew neck/henley hitam fit di badan, jangan kebesaran - *Bawahan*: Celana bahan hitam atau jeans black wash slim fit -*Outer*: Overshirt atau chore jacket warna senada - *Sepatu*: Boots atau sneakers full black *Vibes*: Misterius, fokus, nggak banyak drama. *3. Old Money Clean Look* Keliatan mahal tanpa logo gede - *Atasan*: Polo shirt rapi atau kemeja linen warna earth tone: olive, cream, mocca - *Bawahan*: Celana bahan straight cut warna beige/off-white *Sepatu*: White sneakers premium atau penny loafers - *Extra*: Ikat pinggang kulit, rambut klimis rapi#foryou #100kviews #tiktokofficial #ইনশাআল্লাহ_যাবে_foryou_তে। @TikTok @TikTok Bangladesh",,,negative,2026-07-08 11:25:09.419573+00:00,188,8,69,2109,0.00048092007637023926,286,https://www.tiktok.com/@alif.official05/video/7659969109114834197,https://www.tiktok.com/@alif.official05/video/7659969109114834197,video,413.109,,,,negative,0.9983969330787659,malay,Malay/Bumiputera,Unknown,0.0,love,0.11902189999818802,0.07870931923389435,0.2142992466688156,0.03657937049865723,0.29717910289764404,0.03837424889206886
+tiktok,post,7559256456688667922,"Laa! Esok Sekolah Tida, Laa! Ospedale #tiktok @Jandel",,,neutral,2026-07-08 11:25:23.187134+00:00,245,38,18,21300,0.5,514,https://www.tiktok.com/@awth2x/video/7559256456688667922,https://www.tiktok.com/@awth2x/video/7559256456688667922,video,396.3,,,,neutral,0.6888653039932251,english,Mixed/Urban,Unknown,0.0,love,0.09392658621072769,0.01935390755534172,0.05826975777745247,0.023171111941337585,0.6703529357910156,0.014952407218515873
+tiktok,post,7656724216250780946,"Ramai pelajar hanya mula mencari tuisyen apabila sudah mula tertinggal.
+Jangan tunggu sehingga tutorial semakin susah, assignment semakin banyak, dan topik semakin sukar untuk difahami.
+Di PesatEdu, kami membantu pelajar STPM melalui kelas online kumpulan kecil bersama guru berpengalaman supaya setiap pelajar mendapat perhatian dan bimbingan yang diperlukan.
+✅ Guru Berpengalaman
+✅ Kelas Kumpulan Kecil
+✅ Belajar Dari Rumah
+✅ Kelas Percubaan 7 Hari
+📌 Tempat adalah terhad bagi memastikan kualiti pembelajaran.
+📲 DM kami hari ini untuk maklumat lanjut.
+#stpm #stpmstudent #form6students #stpmsem1 #PesatEdu",,,positive,2026-07-08 11:25:27.384607+00:00,129,88,6,5420,0.9994071602821349,277,https://www.tiktok.com/@tuition_pesat/video/7656724216250780946,https://www.tiktok.com/@tuition_pesat/video/7656724216250780946,video,328.42,,,,positive,0.9980238676071167,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.04253777489066124,0.11724244058132172,0.011969641782343388,0.724316418170929,0.047315564006567,0.03458341211080551
+tiktok,post,7616922045850356999,"Gadis manis asal Ciamis bikin kagum KDM
+#kangdedimulyadi #dedimulyadi #kdm #ciamis #gadis",,,neutral,2026-07-08 11:25:09.727377+00:00,290,1,6,12000,0.5,417,https://www.tiktok.com/@ujrenx/video/7616922045850356999,https://www.tiktok.com/@ujrenx/video/7616922045850356999,video,322.0,,,,neutral,0.8673425912857056,english,Mixed/Urban,Unknown,0.0,love,0.0305942315608263,0.01114862784743309,0.045628853142261505,0.011861887760460377,0.8480592966079712,0.01227741688489914
+tiktok,post,7599143900334329109,Pendidikan Jasmani Tahun 5. Teknik Pacak Kepala 🤸🏻. HAAHAHAAH😂. #pjpk #gimnastik #skseribayu #fyppppppppppppppppppppppp,,,neutral,2026-07-08 11:25:07.090789+00:00,178,26,8,13100,0.5,343,https://www.tiktok.com/@madderih23/video/7599143900334329109,https://www.tiktok.com/@madderih23/video/7599143900334329109,video,267.1,,,,neutral,0.6434338688850403,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.02947859652340412,0.02359062433242798,0.052441664040088654,0.026375461369752884,0.1673193722963333,0.029805863276124
+tiktok,post,7611080495031422226,just fun biar ga ngantuk aja saat break time #gurutiktok #ramadhanmubarok2026 #gurudanmurid #rekankerja,,,positive,2026-07-08 11:25:28.658894+00:00,37,97,0,2892,0.9020230263471603,162,https://www.tiktok.com/@cikgunurmala/video/7611080495031422226,https://www.tiktok.com/@cikgunurmala/video/7611080495031422226,video,233.892,,,,positive,0.6734100878238678,multilingual,Unknown,Unknown,0.0,love,0.2281082570552826,0.04052426666021347,0.08603652566671371,0.028004055842757225,0.4521619379520416,0.0179026760160923
+tiktok,post,7659268535373401365,"""Kalau Sabah berani buat perubahan, takkan Tenang tak berani?""
+
+Itulah yang saya percaya.
+
+Malam tadi, ramai pimpinan bersama-sama berkongsi pandangan dan harapan dalam Ceramah Umum. Saya percaya, setiap perubahan besar bermula dengan keberanian rakyat untuk membuat pilihan.
+
+Kalau anda tidak sempat hadir, saya jemput tonton video ini sampai habis. Dengar sendiri mesej yang ingin kami sampaikan kepada seluruh warga Tenang.
+
+🗳️ 𝙐𝙉𝘿𝙄 𝘾𝙄𝙆𝙂𝙐 𝙈𝘼𝙇𝘼
+
+""Jom Jaga Tenang""
+""Jom Jaga Johor""
+
+#CikguMala
+#BersamaMendidikMasyarakat
+#TenangSejahtera
+#BerkatPrihatinSejahtera",,,negative,2026-07-08 11:24:56.175857+00:00,202,9,4,901,0.005026280879974365,224,https://www.tiktok.com/@cikgumala_johor/video/7659268535373401365,https://www.tiktok.com/@cikgumala_johor/video/7659268535373401365,video,232.901,,,,negative,0.9832457304000854,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.01871105656027794,0.058107636868953705,0.02372557669878006,0.049496252089738846,0.15893234312534332,0.509075403213501
+tiktok,post,7420746313807056133,"Lagu macam-macam norma ✨
+. 
+. 
+#lagupembelajaran #pendidikanpancasila #kelas5 #gurusd #gurumurid",,,neutral,2026-07-08 11:25:06.436612+00:00,113,50,0,11100,0.5,274,https://www.tiktok.com/@widurids/video/7420746313807056133,https://www.tiktok.com/@widurids/video/7420746313807056133,video,224.1,,,,neutral,0.8032772541046143,english,Mixed/Urban,Unknown,0.0,love,0.10227728635072708,0.031241390854120255,0.06801138073205948,0.035369109362363815,0.5279067754745483,0.029733607545495033
+tiktok,post,7646990578537975058,"✨ cara edit foto cahaya bersinar di belakang. 
+efek senja lofi ig.
+trend my flashlight tni. 
+efek ig cahaya belakang. lofi dusk filter tutorial. lofi dusk instagram tutorial. cara menggunakan efek lofi dusk. efek lofi dusk ig. lofi dusk effect filter. cara pakai filter ig ai yang lagi viral. cara edit agar foto terlihat terang. flash effect lofi dusk. template efek lofi dusk. efek ig cahaya belakang. edit foto cahaya bersinar di belakang. bagaimana cara mengedit foto efek filter lofi dusk. tutorial foto efek filter lofi dusk. tutorial foto efek cahaya bersinar di belakang. bagaimana cara membuat foto rambut bercahaya. tutorial foto efek cahaya belakang lofi dusk instagram. tutorial foto tren lofi dusk. template foto efek cahaya belakang instagram. tutorial foto tren cahaya belakang instagram ✨🌙📸 sekarang filter lofi dusk dengan cahaya bersinar di belakang lagi viral banget di Indonesia 🇮🇩 karena hasil fotonya kelihatan dreamy, hangat, dan cinematic 😭💫 Efek ini bikin bagian belakang tubuh atau rambut terlihat bercahaya seperti terkena lampu flash dari belakang, sementara background tetap gelap dan penuh suasana malam 🖤✨ Foto couple, foto kejutan bawa bunga, atau foto duduk sendirian jadi terasa lebih emosional, romantis, dan aesthetic 🌹🌃 Cahaya belakangnya memberi kesan seperti momen rahasia yang tertangkap kamera, ada rasa nostalgia, tenang, tapi tetap punya vibe film lama 📷🥹 Kalau mau bikin versi AI lewat Gemini AI atau ChatGPT, cukup gunakan foto biasa lalu jelaskan suasana malam, backlight glow di belakang badan, rambut bercahaya, soft flash, grain halus, bayangan natural, tone hangat gelap, dan hasil seperti foto candid lofi dusk 🤖✨ AI akan membantu membuat cahaya lebih hidup, wajah tetap natural, dan keseluruhan foto terlihat seperti filter IG yang sedang ramai dipakai 📱🌙 Cocok banget buat yang suka foto dengan nuansa soft, romantic, mysterious, dan sedikit vintage 🖤💫 #hypicATETHAT #newfilter #hypic #hypiccreator #Godpic @hypic_global",,,negative,2026-07-08 11:24:58.413225+00:00,35,73,2,10000,0.0004839062690734641,210,https://www.tiktok.com/@k0576412/video/7646990578537975058,https://www.tiktok.com/@k0576412/video/7646990578537975058,video,197.0,,,,negative,0.9983869791030884,malay,Malay/Bumiputera,Unknown,0.0,love,0.052644502371549606,0.03788679465651512,0.3077186346054077,0.027276065200567245,0.526323676109314,0.022458059713244438
+tiktok,post,7659598764407016724,"👀 ""Kak, OSIS itu galak ya?""
+😥 ""Kalau aku salah nanti dimarahin nggak?""
+🙋 ""Boleh minta bantuan ke kakak OSIS?""
+🤔 ""Takut ganggu kalau banyak nanya...""
+
+Eits... jangan langsung percaya sama anggapan itu dulu ya! 🤭✨
+
+Kakak-kakak OSIS hadir bukan untuk membuat kalian merasa takut, melainkan untuk menjadi teman yang siap menemani perjalanan pertama kalian sebagai keluarga baru di sekolah ini. 💙
+
+Hari-hari awal masuk sekolah memang sering kali terasa membingungkan. Lingkungan baru, teman-teman baru, guru baru, bahkan suasananya pun berbeda dari sebelumnya. Tapi tenang, kalian nggak perlu menghadapi semuanya sendirian. 🌼
+
+Kami siap membantu setiap langkah kalian. 🤝
+📍 Bingung mencari ruang kelas? Kami siap menunjukkan.
+📅 Lupa jadwal kegiatan MPLS? Kami siap mengingatkan.
+❓Masih bingung dengan aturan sekolah? Kami siap menjelaskan.
+😊 Belum punya teman atau masih malu untuk memulai obrolan? Tenang, kami akan menemani sampai kalian merasa nyaman.
+
+Jadi, jangan ragu untuk menyapa kami, bertanya, atau sekadar mengobrol. Karena tidak ada pertanyaan yang terlalu sepele untuk ditanyakan. Semua berhak merasa nyaman dan diterima di lingkungan sekolah ini. ✨
+
+Mari kita ciptakan MPLS yang menyenangkan, penuh semangat, saling menghargai, dan tentunya menjadi pengalaman yang akan selalu dikenang. 🌈💫
+
+Selamat datang di keluarga besar SMP Negeri 1 Pasuruan! 🏫🤍
+Kami tidak sabar menyambut dan mengenal kalian semua.
+
+Sampai bertemu di MPLS 2026! 👋🔥
+Semangat memulai perjalanan baru, calon generasi hebat! 🌟💙",,,negative,2026-07-08 11:25:11.629682+00:00,118,34,3,1825,0.005051976442337014,173,https://www.tiktok.com/@osspansa/video/7659598764407016724,https://www.tiktok.com/@osspansa/video/7659598764407016724,video,196.825,,,,negative,0.9831600785255432,malay,Malay/Bumiputera,Unknown,0.0,anger,0.5897970795631409,0.1145707219839096,0.12010212242603302,0.02370547689497471,0.04770668223500252,0.03834386169910431
+tiktok,post,7658273301998963989,"Cover song: Terasing
+#Terasing #datosudirman 
+Keyboardist: @Cikgu_Kaber_Khalifah
+Respectful 4 yoU SiFu🫡🤝
+Lama x jmpa sifu ambo next kita teruskan lagi💪 
+""Maaf voice microphone tak memuaskan""🙏
+#cikgukaber #kaberserulingbambu #iconpersissudirman",,,neutral,2026-07-08 11:25:26.382103+00:00,68,60,0,197,0.5,129,https://www.tiktok.com/@dzulmijie88/video/7658273301998963989,https://www.tiktok.com/@dzulmijie88/video/7658273301998963989,video,188.197,,,,neutral,0.7109737396240234,english,Mixed/Urban,Unknown,0.0,anger,0.3669491112232208,0.3636333644390106,0.04278169199824333,0.07560815662145615,0.1011042594909668,0.018578942865133286
+tiktok,post,7656831021723176210,"Pn Normala Sudirman,atau lebih dekat dengan panggilan Cikgu Mala merupakan tokoh wanita yang tidak asing dalam arena dunia politik.Beliau juga seorang pendidik dan banyak terlibat dalam aktiviti kemasyarakatan membuat beliau disenangi ramai orang.
+
+Seorang guru.
+Seorang aktivis masyarakat.
+Dan seorang pejuang yang sudah lama berada di medan politik.
+
+Apa yang menarik tentang beliau bukanlah kerana ini kali pertama namanya muncul dalam pilihan raya.Bahkan,ini sudah masuk siri pilihan raya yang kelima buat beliau.
+
+Beliau pernah menjadi calon PRK DUN Tenang pada tahun 2011. 
+Kemudian bertanding di DUN Pemanis pada tahun 2013 dan 2018, 
+seterusnya di DUN Kemelah pada tahun 2022, 
+dan kini kembali ke DUN Tenang pada tahun 2026.
+
+Bukan sedikit pengalaman politik yang dilalui.Ada kemenangan yang diimpikan bersama,ada kekalahan yang perlu diterima bersma.Ada waktu berada di pentas hadapan,ada ketika terpaksa meneruskan perjuangan tanpa jawatan dan tanpa kedudukan.
+
+Tetapi di situlah aku melihat sesuatu yang istimewa.
+Ramai orang boleh menjadi calon ketika musim pilihan raya.
+
+Namun tidak semua orang mampu terus istiqamah berkhidmat kepada rakyat apabila pilihan raya sudah berlalu.
+
+Semoga Allah SWT mempermudahkan segala urusan beliau sepanjang kempen ini berlangsung.Mudah-mudahan perjuangan ini diberkati serta diberikan kemenangan yang terbaik demi membawa suara dan kebajikan rakyat DUN Tenang.
+
+Mohon doa dan sokongan seluruh warga DUN Tenang.
+
+UNDILAH PERIKATAN NASIONAL
+Normala Binti Sudirman (Cikgu Mala)
+Calon N.05 DUN Tenang.
+#fypシ #fypage #fypシ゚viral #fyp #fyppppppppppppppppppppppp",,,negative,2026-07-08 11:24:55.536712+00:00,178,4,0,1196,0.0004850149154663197,193,https://www.tiktok.com/@11sh112/video/7656831021723176210,https://www.tiktok.com/@11sh112/video/7656831021723176210,video,187.196,,,,negative,0.9983832836151123,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03350433334708214,0.1764681041240692,0.045916710048913956,0.04902205988764763,0.11091060936450958,0.24688903987407684
+tiktok,post,7562191538411818258,#belajarbareng #gurudansiswa #gurukontenkreator #gurukontenkreatorpendidikan #siswasma,,,neutral,2026-07-08 11:25:13.548750+00:00,113,27,2,4294,0.5,184,https://www.tiktok.com/@cikgunurmala/video/7562191538411818258,https://www.tiktok.com/@cikgunurmala/video/7562191538411818258,video,177.294,,,,neutral,0.9014952182769775,english,Mixed/Urban,Unknown,0.0,love,0.10008680075407028,0.037426549941301346,0.11573836207389832,0.043104346841573715,0.3499210774898529,0.037823986262083054
+tiktok,post,7659335134696574216,Bantu sebarkan #CalonTenang #CikguMala,,,neutral,2026-07-08 11:24:57.774835+00:00,131,9,8,748,0.5,155,https://www.tiktok.com/@atiqahmohamad89/video/7659335134696574216,https://www.tiktok.com/@atiqahmohamad89/video/7659335134696574216,video,173.748,,,,neutral,0.8947093486785889,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.05606583505868912,0.014446495100855827,0.05250178277492523,0.019927870482206345,0.20749366283416748,0.024189608171582222
+tiktok,post,7596541323184753928,#maladeby #fyp #surgauntukmu,,,neutral,2026-07-08 11:25:13.873173+00:00,91,5,15,23900,0.5,350,https://www.tiktok.com/@pessekithakku2/video/7596541323184753928,https://www.tiktok.com/@pessekithakku2/video/7596541323184753928,video,169.9,,,,neutral,0.9977139234542847,malay,Malay/Bumiputera,Unknown,0.0,love,0.05304756388068199,0.02903442643582821,0.03514762595295906,0.039058540016412735,0.7837120294570923,0.019245855510234833
+tiktok,post,7660057427072634132,"Terima kasih banyak saya ucapkan kepada YB Dato’ Hajah Siti Zailah atau panggilan yang lebih mesra di hati saya, Kaklah. Beliau merupakan seorang sahabat lama yang sentiasa ada dan kali ini sudi hadir meluangkan masa demi memberikan kekuatan kepada saya di DUN Tenang.
+
+Kehadiran Kaklah bukan sekadar memberi semangat kepada saya secara peribadi, malah amat mengharukan saya apabila beliau sama-sama menyantuni dan mengajak penduduk DUN Tenang untuk terus bersatu hati. 
+
+Hubungan persahabatan yang matang begini sentiasa mengingatkan saya bahawa perjuangan ini adalah demi ukhuwah dan kesejahteraan bersama.
+
+Buat seluruh warga DUN Tenang yang menyambut baik kehadiran kami, terima kasih atas senyuman, kemesraan, dan ruang masa yang diberikan. Sokongan anda semua adalah nadi kekuatan kami untuk terus melangkah dengan penuh keikhlasan.
+
+Sama-sama kita bawa perubahan yang positif demi DUN Tenang yang kita tercintai.
+
+🗳️ 𝙐𝙉𝘿𝙄 𝘾𝙄𝙆𝙂𝙐 𝙈𝘼𝙇𝘼
+
+""Jom Jaga Tenang"" 
+""Jom Jaga Johor"" 
+
+#CikguMala
+#BersamaMendidikMasyarakat
+#TenangSejahtera
+#BerkatPrihatinSejahtera",,,positive,2026-07-08 11:24:58.736172+00:00,136,2,8,482,0.9994081795215606,150,https://www.tiktok.com/@cikgumala_johor/video/7660057427072634132,https://www.tiktok.com/@cikgumala_johor/video/7660057427072634132,video,164.482,,,,positive,0.9980272650718689,malay,Malay/Bumiputera,Unknown,0.0,love,0.07806558907032013,0.06281430274248123,0.04987242445349693,0.1029190868139267,0.6061205863952637,0.0522286556661129
+tiktok,post,7660059911967313172,"🎀মেয়েরা বলে যাও কিন্তু 🫵👀Maksudnya ""outfit cowok berwibawa"" buat ngatasin bad day ya?ভাংছোট হোক keliatan tegas + pede walau lagi_bad মমি বান্ধবীর টা খাবে un warnanya netral. Outfit yang berwibawa = bikin orang auto segan. ### *3 Formula Outfit Cowok Berwibawa Anti Bad Day* *1. Smart Casual CEO Mode* Buat kuliah, kerja, atau nongkrong tapi tetep disegani *Atasan*: Kemeja oxford polos warnaদবি:) navy, hitam, atau putih. Gulung lengan dikit. - *Bawahan*: Celana chino/ankle pants warna khaki, charcoal, atau hitam. No sobek-sobek. - *Sepatu*: Loafers, chelsea boots, atau sneakers putih bersih. *Extra*: Jam tangan kulit/steel + kacamata hitam. *Vibes*: Tenang tapi dominan. Bad day langsung minggir. *2. Monokrom Minimalist* Paling gampang tapi efeknya kuat - *Atasan*: Kaos crew neck/henley hitam fit di badan, jangan kebesaran - *Bawahan*: Celana bahan hitam atau jeans black wash slim fit -*Outer*: Overshirt atau chore jacket warna senada - *Sepatu*: Boots atau sneakers full black *Vibes*: Misterius, fokus, nggak banyak drama. *3. Old Money Clean Look* Keliatan mahal tanpa logo gede - *Atasan*: Polo shirt rapi atau kemeja linen warna earth tone: olive, cream, mocca - *Bawahan*: Celana bahan straight cut warna beige/off-white *Sepatu*: White sneakers premium atau penny loafers - *Extra*: Ikat pinggang kulit, rambut klimis rapi#foryou #100kviews #tiktokofficial #ইনশাআল্লাহ_যাবে_foryou_তে। @TikTok @TikTok Bangladesh",,,negative,2026-07-08 11:25:18.374598+00:00,75,10,11,687,0.00048131346702573463,102,https://www.tiktok.com/@alif.official05/video/7660059911967313172,https://www.tiktok.com/@alif.official05/video/7660059911967313172,video,128.687,,,,negative,0.9983956217765808,malay,Malay/Bumiputera,Unknown,0.0,love,0.11583058536052704,0.07613248378038406,0.20441588759422302,0.03478224575519562,0.309606671333313,0.03775961324572563
+tiktok,post,7610790247210781973,"part 2!!!
+mwehehe bener² dpet tenang dan seruu✨
+aplgi kalau sama mereka @Jwulpa05 @acs @mahdiaaftr @ripaaa.sy @agskfthanly @silus2765 
+#xyzbcafypシ #ziarohwali #withfriends",,,positive,2026-07-08 11:25:17.131033+00:00,72,10,11,2015,0.9350032269954681,113,https://www.tiktok.com/@vnaaaa_2/video/7610790247210781973,https://www.tiktok.com/@vnaaaa_2/video/7610790247210781973,video,127.015,,,,positive,0.7833440899848938,english,Mixed/Urban,Unknown,0.0,love,0.0839926078915596,0.032961077988147736,0.11682675033807755,0.026797039434313774,0.636099100112915,0.02085277810692787
+tiktok,post,7659793502061989140,"Pangkah Cikgu Mala untuk Tenang ! 
+#JohorPilihPN #JomJagaJohor",,,neutral,2026-07-08 11:24:54.902248+00:00,104,3,4,627,0.5,117,https://www.tiktok.com/@johor.kini/video/7659793502061989140,https://www.tiktok.com/@johor.kini/video/7659793502061989140,video,122.627,,,,neutral,0.8204017877578735,english,Mixed/Urban,Unknown,0.0,love,0.04702795669436455,0.011774049140512943,0.046607859432697296,0.023291701450943947,0.6457261443138123,0.019182968884706497
+tiktok,post,7659066064386493716,"Alhamdulillah, selesai sudah satu hari yang penuh dengan pelbagai aktiviti dan pertemuan yang cukup bermakna.
+
+Terima kasih kepada semua yang saya sempat jumpa hari ini. Setiap senyuman, teguran, pandangan dan doa yang diberikan saya hargai sepenuh hati. Inilah yang memberi semangat untuk saya terus berkhidmat dan berusaha sebaik mungkin.
+
+Jom tengok sedikit rangkuman aktiviti saya sepanjang hari ini. 
+
+🗳️ 𝙐𝙉𝘿𝙄 𝘾𝙄𝙆𝙂𝙐 𝙈𝘼𝙇𝘼
+
+""Jom Jaga Tenang""
+""Jom Jaga Johor""
+
+#CikguMala
+#BersamaMendidikMasyarakat
+#TenangSejahtera
+#BerkatPrihatinSejahtera",,,positive,2026-07-08 11:24:58.096617+00:00,90,5,6,502,0.9993987560272216,106,https://www.tiktok.com/@cikgumala_johor/video/7659066064386493716,https://www.tiktok.com/@cikgumala_johor/video/7659066064386493716,video,118.502,,,,positive,0.9979958534240723,malay,Malay/Bumiputera,Unknown,0.0,love,0.024690773338079453,0.024678027257323265,0.225765660405159,0.03103538043797016,0.5028048753738403,0.04020516201853752
+tiktok,post,7576201035333537044,"Untuk seluruh guru mts n 3 cianjur selamat hari guru nasional, trimakasih telah mengajarkan kamii dengan penuh kasi sayang, kami minta maaf jikaa kami selaluuu berbuat kesalahan...... #harigurunasional2025 @MTs Negeri 3 Cianjur",,,positive,2026-07-08 11:25:07.395664+00:00,81,3,2,2658,0.994186133146286,112,https://www.tiktok.com/@ixcmtsn3cianjr/video/7576201035333537044,https://www.tiktok.com/@ixcmtsn3cianjr/video/7576201035333537044,video,95.658,,,,positive,0.9806204438209534,malay,Malay/Bumiputera,Unknown,0.0,love,0.09987503290176392,0.07266032695770264,0.0433216318488121,0.14354589581489563,0.5348933935165405,0.05208493396639824
+tiktok,post,7634545093705354503,"kalian pasti bisa 🔥🔥🔥
+sarangheyoooo💕💕💕",,,positive,2026-07-08 11:25:08.097731+00:00,44,20,3,1476,0.9872036635875701,81,https://www.tiktok.com/@cikgunurmala/video/7634545093705354503,https://www.tiktok.com/@cikgunurmala/video/7634545093705354503,video,94.476,,,,positive,0.9573455452919006,english,Mixed/Urban,Unknown,0.0,love,0.06327815353870392,0.05165666341781616,0.059953443706035614,0.05059399455785751,0.7230669856071472,0.027252091094851494
+tiktok,post,7595045250842791175,"mood ku saat ngajar kelas 1 😤🥰😡😇😈😍 maafkan ibuk kalian ini yang gampang berubah jadi sumala ya nak 😭
+#fyppppppppppppppppppppppp #fypシ゚ #gurusd #gurugenz #viraltiktok",,,neutral,2026-07-08 11:25:01.007894+00:00,69,0,7,2301,0.5,99,https://www.tiktok.com/@disinigitaa/video/7595045250842791175,https://www.tiktok.com/@disinigitaa/video/7595045250842791175,video,92.301,,,,neutral,0.647871196269989,malay,Malay/Bumiputera,Unknown,0.0,love,0.028286760672926903,0.04824916645884514,0.06211685389280319,0.06810163706541061,0.48815399408340454,0.09088911861181259

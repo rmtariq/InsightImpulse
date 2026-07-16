@@ -1,0 +1,30 @@
+{
+  "project_id": "smebank",
+  "name": "SME Bank EWS & PAI",
+  "category": "sme",
+  "client": "SME Bank",
+  "keywords": [
+    "SME Bank",
+    "pinjaman SME",
+    "financing"
+  ],
+  "crawls": [
+    {
+      "id": "smebank_master",
+      "label": "SME Bank EWS master",
+      "rows": 3961,
+      "file": "master/SMEBank_Master_20260609.csv",
+      "migrated_at": "2026-06-10"
+    }
+  ],
+  "masters": [
+    {
+      "file": "master/SMEBank_Master_20260609.csv",
+      "rows": 3961,
+      "saved_at": "2026-06-10T22:12:26.849695",
+      "note": "migrated"
+    }
+  ],
+  "updated_at": "2026-06-10T22:12:26.849968",
+  "latest_master": "master/SMEBank_Master_20260609.csv"
+}

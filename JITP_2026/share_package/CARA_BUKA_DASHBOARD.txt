@@ -1,0 +1,47 @@
+═══════════════════════════════════════════════════════
+  CARA BUKA DASHBOARD SME BANK (InsightPulse)
+  Untuk penerima yang terima fail dari WhatsApp
+═══════════════════════════════════════════════════════
+
+ANDA TERIMA 1 FAIL:
+  → SMEBank_Dashboard_InsightPulse.html
+  (atau fail .zip — unzip dulu)
+
+───────────────────────────────────────────────────────
+LANGKAH 1 — DOWNLOAD FAIL
+───────────────────────────────────────────────────────
+  • Buka WhatsApp
+  • Tap fail yang dihantar
+  • Tap "Download" / "Muat turun"
+
+───────────────────────────────────────────────────────
+LANGKAH 2 — BUKA DALAM BROWSER
+───────────────────────────────────────────────────────
+
+  📱 ANDROID (telefon):
+    1. Buka app "Files" / "My Files"
+    2. Pergi folder Downloads
+    3. Tap fail: SMEBank_Dashboard_InsightPulse.html
+    4. Pilih buka dengan: Chrome
+
+  📱 iPHONE (telefon):
+    1. Buka fail dari WhatsApp → Save to Files
+    2. Buka app "Files"
+    3. Tap fail .html
+    4. Pilih "Share" → "Safari"
+
+  💻 KOMPUTER (Mac / Windows):
+    1. Cari fail dalam folder Downloads
+    2. Double-click fail .html
+    3. Dashboard akan buka dalam browser (Chrome/Safari/Edge)
+
+───────────────────────────────────────────────────────
+PENTING
+───────────────────────────────────────────────────────
+  • Perlu internet (WiFi/data) — untuk paparan carta
+  • Jangan rename fail — kekalkan .html
+  • Jika blank page: refresh browser (F5 atau Cmd+R)
+
+───────────────────────────────────────────────────────
+SOALAN? Hubungi penghantar dashboard ini.
+═══════════════════════════════════════════════════════

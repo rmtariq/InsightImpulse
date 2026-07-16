@@ -1,0 +1,758 @@
+[
+  {
+    "id": "N.01",
+    "name": "Chuah",
+    "status": "battleground",
+    "incumbent": "Tan Kim Hock",
+    "party": "PH",
+    "margin2023": "+4.2%",
+    "sentiment": 48,
+    "issues": [
+      "Cost of Living",
+      "Coastal Erosion",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 42,
+      "chinese": 44,
+      "indian": 12,
+      "other": 2
+    },
+    "action": "Deploy youth influencer; target Chinese fence-sitters"
+  },
+  {
+    "id": "N.02",
+    "name": "Pengkalan Kempas",
+    "status": "stronghold",
+    "incumbent": "Mohd Razi",
+    "party": "PN",
+    "margin2023": "+12.8%",
+    "sentiment": 68,
+    "issues": [
+      "Subsidies",
+      "Padi Prices",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 71,
+      "chinese": 18,
+      "indian": 9,
+      "other": 2
+    },
+    "action": "Maintain ground game; defend lead"
+  },
+  {
+    "id": "N.03",
+    "name": "Sri Tanjung",
+    "status": "weak",
+    "incumbent": "Gunasekaran A/L M.",
+    "party": "PH",
+    "margin2023": "+9.1%",
+    "sentiment": 38,
+    "issues": [
+      "Indian Community",
+      "Temple Land",
+      "Wages"
+    ],
+    "demo": {
+      "malay": 38,
+      "chinese": 24,
+      "indian": 36,
+      "other": 2
+    },
+    "action": "Limited upside; monitor only"
+  },
+  {
+    "id": "N.04",
+    "name": "Gemencheh",
+    "status": "stronghold",
+    "incumbent": "Abdul Rahman",
+    "party": "PN",
+    "margin2023": "+15.3%",
+    "sentiment": 71,
+    "issues": [
+      "FELDA",
+      "Rubber Prices",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 78,
+      "chinese": 12,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Safe seat; reallocate resources"
+  },
+  {
+    "id": "N.05",
+    "name": "Gemas",
+    "status": "battleground",
+    "incumbent": "Lim Wei Jie",
+    "party": "BN",
+    "margin2023": "+2.1%",
+    "sentiment": 51,
+    "issues": [
+      "Border Trade",
+      "Floods",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 55,
+      "chinese": 33,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Increase ceramah frequency; flood relief messaging"
+  },
+  {
+    "id": "N.06",
+    "name": "Pertang",
+    "status": "stronghold",
+    "incumbent": "Noraini Yusof",
+    "party": "PN",
+    "margin2023": "+11.4%",
+    "sentiment": 66,
+    "issues": [
+      "Agriculture",
+      "Youth",
+      "Internet Access"
+    ],
+    "demo": {
+      "malay": 74,
+      "chinese": 14,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Hold; boost digital outreach to youth"
+  },
+  {
+    "id": "N.07",
+    "name": "Kelawang",
+    "status": "battleground",
+    "incumbent": "Hafiz Tan",
+    "party": "PN",
+    "margin2023": "+3.8%",
+    "sentiment": 53,
+    "issues": [
+      "Eco-tourism",
+      "Jobs",
+      "Floods"
+    ],
+    "demo": {
+      "malay": 62,
+      "chinese": 26,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Tighten margins; tourism jobs narrative"
+  },
+  {
+    "id": "N.08",
+    "name": "Serting",
+    "status": "stronghold",
+    "incumbent": "Zulkifli Omar",
+    "party": "PN",
+    "margin2023": "+13.9%",
+    "sentiment": 69,
+    "issues": [
+      "FELDA",
+      "Subsidies",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 80,
+      "chinese": 11,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Safe; defend FELDA vote"
+  },
+  {
+    "id": "N.09",
+    "name": "Palong",
+    "status": "stronghold",
+    "incumbent": "Aishah Ghani",
+    "party": "PN",
+    "margin2023": "+16.7%",
+    "sentiment": 72,
+    "issues": [
+      "FELDA",
+      "Palm Oil",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 82,
+      "chinese": 9,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Strongest seat; banker"
+  },
+  {
+    "id": "N.10",
+    "name": "Jeram Padang",
+    "status": "battleground",
+    "incumbent": "Chong Mei Ling",
+    "party": "BN",
+    "margin2023": "+1.4%",
+    "sentiment": 49,
+    "issues": [
+      "Mixed Seat",
+      "Cost of Living",
+      "Education"
+    ],
+    "demo": {
+      "malay": 51,
+      "chinese": 37,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Top target; aggressive ground campaign"
+  },
+  {
+    "id": "N.11",
+    "name": "Bagan Pinang",
+    "status": "stronghold",
+    "incumbent": "Ismail Mokhtar",
+    "party": "PN",
+    "margin2023": "+10.2%",
+    "sentiment": 64,
+    "issues": [
+      "Navy Base",
+      "Tourism",
+      "Subsidies"
+    ],
+    "demo": {
+      "malay": 68,
+      "chinese": 22,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold; engage armed-forces voters"
+  },
+  {
+    "id": "N.12",
+    "name": "Linggi",
+    "status": "battleground",
+    "incumbent": "Suresh Kumar",
+    "party": "PH",
+    "margin2023": "+5.6%",
+    "sentiment": 50,
+    "issues": [
+      "Fisheries",
+      "Tourism",
+      "Wages"
+    ],
+    "demo": {
+      "malay": 56,
+      "chinese": 30,
+      "indian": 13,
+      "other": 1
+    },
+    "action": "Persuadable; fisheries subsidy pledge"
+  },
+  {
+    "id": "N.13",
+    "name": "Port Dickson",
+    "status": "weak",
+    "incumbent": "Anwar (PH)",
+    "party": "PH",
+    "margin2023": "+18.3%",
+    "sentiment": 35,
+    "issues": [
+      "Tourism",
+      "PH Stronghold",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 47,
+      "chinese": 32,
+      "indian": 20,
+      "other": 1
+    },
+    "action": "Unwinnable; monitor only"
+  },
+  {
+    "id": "N.14",
+    "name": "Sri Tanjung",
+    "status": "weak",
+    "incumbent": "Devi Rajan",
+    "party": "PH",
+    "margin2023": "+8.7%",
+    "sentiment": 40,
+    "issues": [
+      "Urban",
+      "Indian Vote",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 40,
+      "chinese": 28,
+      "indian": 30,
+      "other": 2
+    },
+    "action": "Low priority"
+  },
+  {
+    "id": "N.15",
+    "name": "Lukut",
+    "status": "battleground",
+    "incumbent": "Wong Ah Seng",
+    "party": "PH",
+    "margin2023": "+6.1%",
+    "sentiment": 47,
+    "issues": [
+      "Industrial",
+      "Foreign Workers",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 49,
+      "chinese": 39,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; jobs messaging"
+  },
+  {
+    "id": "N.16",
+    "name": "Chembong",
+    "status": "stronghold",
+    "incumbent": "Faridah Hassan",
+    "party": "PN",
+    "margin2023": "+9.8%",
+    "sentiment": 63,
+    "issues": [
+      "Rural",
+      "Subsidies",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 73,
+      "chinese": 18,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold; reinforce religious messaging"
+  },
+  {
+    "id": "N.17",
+    "name": "Rantau",
+    "status": "battleground",
+    "incumbent": "Mohamad Hasan",
+    "party": "BN",
+    "margin2023": "+0.9%",
+    "sentiment": 52,
+    "issues": [
+      "High-Profile",
+      "Cost of Living",
+      "Corruption"
+    ],
+    "demo": {
+      "malay": 54,
+      "chinese": 32,
+      "indian": 13,
+      "other": 1
+    },
+    "action": "CRITICAL: counter coordinated attacks; max effort"
+  },
+  {
+    "id": "N.18",
+    "name": "Kota",
+    "status": "battleground",
+    "incumbent": "Tan Sri Lim",
+    "party": "BN",
+    "margin2023": "+2.7%",
+    "sentiment": 50,
+    "issues": [
+      "Town Centre",
+      "Trade",
+      "Parking"
+    ],
+    "demo": {
+      "malay": 58,
+      "chinese": 31,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Winnable; local trader engagement"
+  },
+  {
+    "id": "N.19",
+    "name": "Chenor",
+    "status": "stronghold",
+    "incumbent": "Halim Saad",
+    "party": "PN",
+    "margin2023": "+12.1%",
+    "sentiment": 65,
+    "issues": [
+      "Rural",
+      "Agriculture",
+      "Youth"
+    ],
+    "demo": {
+      "malay": 75,
+      "chinese": 15,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold"
+  },
+  {
+    "id": "N.20",
+    "name": "Bukit Kepayang",
+    "status": "weak",
+    "incumbent": "Lee Chee Wah",
+    "party": "PH",
+    "margin2023": "+14.5%",
+    "sentiment": 36,
+    "issues": [
+      "Urban Chinese",
+      "Education",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 33,
+      "chinese": 56,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Unwinnable; monitor"
+  },
+  {
+    "id": "N.21",
+    "name": "Rahang",
+    "status": "weak",
+    "incumbent": "Teo Kok Seong",
+    "party": "PH",
+    "margin2023": "+13.2%",
+    "sentiment": 38,
+    "issues": [
+      "Urban",
+      "Cost of Living",
+      "Chinese Vote"
+    ],
+    "demo": {
+      "malay": 35,
+      "chinese": 53,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Low priority"
+  },
+  {
+    "id": "N.22",
+    "name": "Mambau",
+    "status": "battleground",
+    "incumbent": "Yap Soo Huey",
+    "party": "PH",
+    "margin2023": "+7.3%",
+    "sentiment": 46,
+    "issues": [
+      "Mixed Urban",
+      "Cost of Living",
+      "Floods"
+    ],
+    "demo": {
+      "malay": 48,
+      "chinese": 40,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; flood mitigation pledge"
+  },
+  {
+    "id": "N.23",
+    "name": "Seremban Jaya",
+    "status": "weak",
+    "incumbent": "Gunalan Pillai",
+    "party": "PH",
+    "margin2023": "+10.9%",
+    "sentiment": 39,
+    "issues": [
+      "Suburban",
+      "Wages",
+      "Indian Vote"
+    ],
+    "demo": {
+      "malay": 44,
+      "chinese": 30,
+      "indian": 25,
+      "other": 1
+    },
+    "action": "Monitor only"
+  },
+  {
+    "id": "N.24",
+    "name": "Lobak",
+    "status": "weak",
+    "incumbent": "Ng Chin Han",
+    "party": "PH",
+    "margin2023": "+16.1%",
+    "sentiment": 34,
+    "issues": [
+      "Urban Chinese",
+      "Heritage",
+      "Parking"
+    ],
+    "demo": {
+      "malay": 28,
+      "chinese": 60,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Unwinnable"
+  },
+  {
+    "id": "N.25",
+    "name": "Temiang",
+    "status": "weak",
+    "incumbent": "Lim Yam Mooi",
+    "party": "PH",
+    "margin2023": "+12.4%",
+    "sentiment": 37,
+    "issues": [
+      "Urban",
+      "Cost of Living",
+      "Chinese Vote"
+    ],
+    "demo": {
+      "malay": 32,
+      "chinese": 55,
+      "indian": 12,
+      "other": 1
+    },
+    "action": "Low priority"
+  },
+  {
+    "id": "N.26",
+    "name": "Sikamat",
+    "status": "battleground",
+    "incumbent": "Aminuddin Harun",
+    "party": "PH",
+    "margin2023": "+6.8%",
+    "sentiment": 51,
+    "issues": [
+      "MB Seat",
+      "Cost of Living",
+      "Development"
+    ],
+    "demo": {
+      "malay": 60,
+      "chinese": 28,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "High-value scalp; sustained pressure"
+  },
+  {
+    "id": "N.27",
+    "name": "Ampangan",
+    "status": "battleground",
+    "incumbent": "Mohamad Nazri",
+    "party": "PN",
+    "margin2023": "+4.5%",
+    "sentiment": 54,
+    "issues": [
+      "Semi-urban",
+      "Subsidies",
+      "Youth"
+    ],
+    "demo": {
+      "malay": 64,
+      "chinese": 24,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Defend; youth turnout drive"
+  },
+  {
+    "id": "N.28",
+    "name": "Juasseh",
+    "status": "stronghold",
+    "incumbent": " روسلان Ruslan",
+    "party": "PN",
+    "margin2023": "+13.7%",
+    "sentiment": 67,
+    "issues": [
+      "Rural",
+      "Padi",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 79,
+      "chinese": 12,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold"
+  },
+  {
+    "id": "N.29",
+    "name": "Seri Menanti",
+    "status": "stronghold",
+    "incumbent": "Datuk Mansor",
+    "party": "PN",
+    "margin2023": "+14.8%",
+    "sentiment": 70,
+    "issues": [
+      "Royal Town",
+      "Adat",
+      "Tourism"
+    ],
+    "demo": {
+      "malay": 81,
+      "chinese": 11,
+      "indian": 7,
+      "other": 1
+    },
+    "action": "Safe; respect adat sensitivities"
+  },
+  {
+    "id": "N.30",
+    "name": "Senaling",
+    "status": "stronghold",
+    "incumbent": "Hasniza Hamid",
+    "party": "PN",
+    "margin2023": "+12.9%",
+    "sentiment": 66,
+    "issues": [
+      "Rural",
+      "Agriculture",
+      "Roads"
+    ],
+    "demo": {
+      "malay": 77,
+      "chinese": 14,
+      "indian": 8,
+      "other": 1
+    },
+    "action": "Hold"
+  },
+  {
+    "id": "N.31",
+    "name": "Pilah",
+    "status": "stronghold",
+    "incumbent": "Zaidi Abu Bakar",
+    "party": "PN",
+    "margin2023": "+10.6%",
+    "sentiment": 64,
+    "issues": [
+      "Town",
+      "Trade",
+      "Subsidies"
+    ],
+    "demo": {
+      "malay": 70,
+      "chinese": 20,
+      "indian": 9,
+      "other": 1
+    },
+    "action": "Hold; trader engagement"
+  },
+  {
+    "id": "N.32",
+    "name": "Johol",
+    "status": "stronghold",
+    "incumbent": "Saiful Yazan",
+    "party": "PN",
+    "margin2023": "+15.9%",
+    "sentiment": 71,
+    "issues": [
+      "Rural",
+      "FELDA",
+      "Religious"
+    ],
+    "demo": {
+      "malay": 83,
+      "chinese": 9,
+      "indian": 7,
+      "other": 1
+    },
+    "action": "Banker seat"
+  },
+  {
+    "id": "N.33",
+    "name": "Bahau",
+    "status": "battleground",
+    "incumbent": "Teo Eng Ching",
+    "party": "PH",
+    "margin2023": "+5.2%",
+    "sentiment": 49,
+    "issues": [
+      "Mixed Town",
+      "Cost of Living",
+      "Trade"
+    ],
+    "demo": {
+      "malay": 52,
+      "chinese": 36,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Top target; trader + Malay swing"
+  },
+  {
+    "id": "N.34",
+    "name": "Lenggeng",
+    "status": "battleground",
+    "incumbent": "Ariffin Omar",
+    "party": "PN",
+    "margin2023": "+3.1%",
+    "sentiment": 53,
+    "issues": [
+      "Highland",
+      "Floods",
+      "Tourism"
+    ],
+    "demo": {
+      "malay": 66,
+      "chinese": 23,
+      "indian": 10,
+      "other": 1
+    },
+    "action": "Defend; flood preparedness messaging"
+  },
+  {
+    "id": "N.35",
+    "name": "Nilai",
+    "status": "weak",
+    "incumbent": "Bhagwan Singh",
+    "party": "PH",
+    "margin2023": "+11.8%",
+    "sentiment": 41,
+    "issues": [
+      "Industrial Hub",
+      "Foreign Workers",
+      "Jobs"
+    ],
+    "demo": {
+      "malay": 45,
+      "chinese": 35,
+      "indian": 19,
+      "other": 1
+    },
+    "action": "Low priority; jobs narrative test"
+  },
+  {
+    "id": "N.36",
+    "name": "Mantin",
+    "status": "battleground",
+    "incumbent": "Choo Ken Hwa",
+    "party": "PH",
+    "margin2023": "+6.4%",
+    "sentiment": 47,
+    "issues": [
+      "Mixed",
+      "Heritage",
+      "Cost of Living"
+    ],
+    "demo": {
+      "malay": 50,
+      "chinese": 38,
+      "indian": 11,
+      "other": 1
+    },
+    "action": "Stretch target; heritage + cost-of-living"
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "project_id": "pas_bersatu_baseline",
+  "name": "PAS–Bersatu Baseline (JITP Mei 2026)",
+  "category": "political",
+  "client": "Internal · JITP 2026",
+  "keywords": [
+    "PAS Bersatu",
+    "PAS solo",
+    "perpecahan"
+  ],
+  "crawls": [
+    {
+      "id": "jitp_baseline_deduped",
+      "label": "JITP baseline — deduped posts",
+      "date_range": "90days",
+      "rows": 5906,
+      "file": "master/PAS_Bersatu_Baseline_Deduped_May2026.csv",
+      "migrated_at": "2026-06-10"
+    },
+    {
+      "id": "jitp_baseline_reclassified",
+      "label": "JITP — political reclassification layer",
+      "rows": 5906,
+      "file": "crawls/PAS_Bersatu_Baseline_Reclassified_May2026.csv",
+      "migrated_at": "2026-06-10"
+    },
+    {
+      "id": "jitp_combined_may29",
+      "label": "JITP combined crawl 29 May 2026",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "threads",
+        "tiktok",
+        "x",
+        "youtube"
+      ],
+      "rows": 1761,
+      "file": "crawls/PAS_Bersatu_Combined_Crawl_May2026.csv",
+      "migrated_at": "2026-06-10"
+    }
+  ],
+  "masters": [
+    {
+      "file": "master/PAS_Bersatu_Baseline_Deduped_May2026.csv",
+      "rows": 5906,
+      "saved_at": "2026-06-10T22:12:26.840072",
+      "note": "migrated"
+    }
+  ],
+  "updated_at": "2026-06-10T22:12:26.844697",
+  "latest_master": "master/PAS_Bersatu_Baseline_Deduped_May2026.csv"
+}

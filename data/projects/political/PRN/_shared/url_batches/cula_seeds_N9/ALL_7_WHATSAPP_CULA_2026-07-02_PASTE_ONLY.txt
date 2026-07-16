@@ -1,0 +1,24 @@
+# Digital Cula — 7 post WhatsApp (~Afiq Asnawi) · resolved 2026-07-02
+# InsightPulse: Direct URL Crawl → paste ALL lines below (http only)
+# Project: pas_break_2026 · Platform: Facebook · Dataset: 800 · Date: 7days
+
+# 1 PAS Kawasan Rembau · MN poll · → N26/N27
+https://www.facebook.com/story.php?story_fbid=1320631416888667&id=100068254643233
+
+# 2 (untitled share) · → verify DUN from post
+https://www.facebook.com/story.php?story_fbid=1471472861680849&id=100064544482323
+
+# 3 PAS DUN Chembong · MN poll · N26
+https://www.facebook.com/story.php?story_fbid=1326587592942741&id=100067745385121
+
+# 4 (untitled share) · → verify DUN from post
+https://www.facebook.com/story.php?story_fbid=1340236754887686&id=100067041223091
+
+# 5 Inche Curry · MN poll
+https://www.facebook.com/story.php?story_fbid=915512231558505&id=100092992087495
+
+# 6 PAS Kawasan Port Dickson · MN poll · N29/N30/N33
+https://www.facebook.com/story.php?story_fbid=1417756590397446&id=100064893548554
+
+# 7 PAS Kawasan Rasah · Labu question · N20
+https://www.facebook.com/story.php?story_fbid=1444357214402285&id=100064840594592

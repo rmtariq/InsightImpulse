@@ -1,0 +1,394 @@
+{
+  "n9": {
+    "state": "Negeri Sembilan",
+    "total_seats": 36,
+    "seats_with_data": 36,
+    "seats_zero": [],
+    "seats_low_under5": [],
+    "state_mentions": 670,
+    "prn_mentions": 278,
+    "issue_update_mentions": 390
+  },
+  "johor": {
+    "state": "Johor",
+    "total_seats": 56,
+    "seats_with_data": 56,
+    "seats_zero": [],
+    "seats_low_under5": [],
+    "state_mentions": 809,
+    "prn_mentions": 292,
+    "issue_update_mentions": 435
+  },
+  "n9_by_dun": {
+    "N01": {
+      "mentions": 39,
+      "name": "Chennah"
+    },
+    "N02": {
+      "mentions": 34,
+      "name": "Pertang"
+    },
+    "N03": {
+      "mentions": 48,
+      "name": "Sungai Lui"
+    },
+    "N04": {
+      "mentions": 64,
+      "name": "Klawang"
+    },
+    "N05": {
+      "mentions": 34,
+      "name": "Serting"
+    },
+    "N06": {
+      "mentions": 34,
+      "name": "Palong"
+    },
+    "N07": {
+      "mentions": 37,
+      "name": "Jeram Padang"
+    },
+    "N08": {
+      "mentions": 34,
+      "name": "Bahau"
+    },
+    "N09": {
+      "mentions": 43,
+      "name": "Lenggeng"
+    },
+    "N10": {
+      "mentions": 42,
+      "name": "Nilai"
+    },
+    "N11": {
+      "mentions": 35,
+      "name": "Lobak"
+    },
+    "N12": {
+      "mentions": 35,
+      "name": "Temiang"
+    },
+    "N13": {
+      "mentions": 40,
+      "name": "Sikamat"
+    },
+    "N14": {
+      "mentions": 35,
+      "name": "Ampangan"
+    },
+    "N15": {
+      "mentions": 70,
+      "name": "Juasseh"
+    },
+    "N16": {
+      "mentions": 68,
+      "name": "Seri Menanti"
+    },
+    "N17": {
+      "mentions": 65,
+      "name": "Senaling"
+    },
+    "N18": {
+      "mentions": 37,
+      "name": "Pilah"
+    },
+    "N19": {
+      "mentions": 58,
+      "name": "Johol"
+    },
+    "N20": {
+      "mentions": 37,
+      "name": "Labu"
+    },
+    "N21": {
+      "mentions": 35,
+      "name": "Bukit Kepayang"
+    },
+    "N22": {
+      "mentions": 34,
+      "name": "Rahang"
+    },
+    "N23": {
+      "mentions": 34,
+      "name": "Mambau"
+    },
+    "N24": {
+      "mentions": 35,
+      "name": "Seremban Jaya"
+    },
+    "N25": {
+      "mentions": 54,
+      "name": "Paroi"
+    },
+    "N26": {
+      "mentions": 64,
+      "name": "Chembong"
+    },
+    "N27": {
+      "mentions": 50,
+      "name": "Rantau"
+    },
+    "N28": {
+      "mentions": 53,
+      "name": "Kota"
+    },
+    "N29": {
+      "mentions": 34,
+      "name": "Chuah"
+    },
+    "N30": {
+      "mentions": 34,
+      "name": "Lukut"
+    },
+    "N31": {
+      "mentions": 38,
+      "name": "Bagan Pinang"
+    },
+    "N32": {
+      "mentions": 42,
+      "name": "Linggi"
+    },
+    "N33": {
+      "mentions": 35,
+      "name": "Sri Tanjung"
+    },
+    "N34": {
+      "mentions": 35,
+      "name": "Gemas"
+    },
+    "N35": {
+      "mentions": 37,
+      "name": "Gemencheh"
+    },
+    "N36": {
+      "mentions": 33,
+      "name": "Repah"
+    }
+  },
+  "johor_by_dun": {
+    "N01": {
+      "mentions": 75,
+      "name": "Buloh Kasap"
+    },
+    "N02": {
+      "mentions": 80,
+      "name": "Jementah"
+    },
+    "N03": {
+      "mentions": 74,
+      "name": "Pemanis"
+    },
+    "N04": {
+      "mentions": 75,
+      "name": "Kemelah"
+    },
+    "N05": {
+      "mentions": 77,
+      "name": "Tenang"
+    },
+    "N06": {
+      "mentions": 76,
+      "name": "Bekok"
+    },
+    "N07": {
+      "mentions": 85,
+      "name": "Bukit Kepong"
+    },
+    "N08": {
+      "mentions": 73,
+      "name": "Bukit Pasir"
+    },
+    "N09": {
+      "mentions": 75,
+      "name": "Gambir"
+    },
+    "N10": {
+      "mentions": 83,
+      "name": "Tangkak"
+    },
+    "N11": {
+      "mentions": 75,
+      "name": "Serom"
+    },
+    "N12": {
+      "mentions": 77,
+      "name": "Bentayan"
+    },
+    "N13": {
+      "mentions": 78,
+      "name": "Simpang Jeram"
+    },
+    "N14": {
+      "mentions": 74,
+      "name": "Bukit Naning"
+    },
+    "N15": {
+      "mentions": 74,
+      "name": "Maharani"
+    },
+    "N16": {
+      "mentions": 81,
+      "name": "Sungai Balang"
+    },
+    "N17": {
+      "mentions": 74,
+      "name": "Semerah"
+    },
+    "N18": {
+      "mentions": 76,
+      "name": "Sri Medan"
+    },
+    "N19": {
+      "mentions": 73,
+      "name": "Yong Peng"
+    },
+    "N20": {
+      "mentions": 77,
+      "name": "Semarang"
+    },
+    "N21": {
+      "mentions": 101,
+      "name": "Parit Yaani"
+    },
+    "N22": {
+      "mentions": 75,
+      "name": "Parit Raja"
+    },
+    "N23": {
+      "mentions": 76,
+      "name": "Penggaram"
+    },
+    "N24": {
+      "mentions": 75,
+      "name": "Senggarang"
+    },
+    "N25": {
+      "mentions": 83,
+      "name": "Rengit"
+    },
+    "N26": {
+      "mentions": 71,
+      "name": "Machap"
+    },
+    "N27": {
+      "mentions": 102,
+      "name": "Layang-Layang"
+    },
+    "N28": {
+      "mentions": 88,
+      "name": "Mengkibol"
+    },
+    "N29": {
+      "mentions": 98,
+      "name": "Mahkota"
+    },
+    "N30": {
+      "mentions": 73,
+      "name": "Paloh"
+    },
+    "N31": {
+      "mentions": 72,
+      "name": "Kahang"
+    },
+    "N32": {
+      "mentions": 80,
+      "name": "Endau"
+    },
+    "N33": {
+      "mentions": 71,
+      "name": "Tenggaroh"
+    },
+    "N34": {
+      "mentions": 74,
+      "name": "Panti"
+    },
+    "N35": {
+      "mentions": 71,
+      "name": "Pasir Raja"
+    },
+    "N36": {
+      "mentions": 74,
+      "name": "Sedili"
+    },
+    "N37": {
+      "mentions": 98,
+      "name": "Johor Lama"
+    },
+    "N38": {
+      "mentions": 74,
+      "name": "Penawar"
+    },
+    "N39": {
+      "mentions": 71,
+      "name": "Tanjung Surat"
+    },
+    "N40": {
+      "mentions": 88,
+      "name": "Tiram"
+    },
+    "N41": {
+      "mentions": 168,
+      "name": "Puteri Wangsa"
+    },
+    "N42": {
+      "mentions": 90,
+      "name": "Johor Jaya"
+    },
+    "N43": {
+      "mentions": 73,
+      "name": "Permas"
+    },
+    "N44": {
+      "mentions": 79,
+      "name": "Larkin"
+    },
+    "N45": {
+      "mentions": 76,
+      "name": "Stulang"
+    },
+    "N46": {
+      "mentions": 86,
+      "name": "Perling"
+    },
+    "N47": {
+      "mentions": 73,
+      "name": "Kempas"
+    },
+    "N48": {
+      "mentions": 82,
+      "name": "Skudai"
+    },
+    "N49": {
+      "mentions": 142,
+      "name": "Kota Iskandar"
+    },
+    "N50": {
+      "mentions": 74,
+      "name": "Bukit Permai"
+    },
+    "N51": {
+      "mentions": 82,
+      "name": "Bukit Batu"
+    },
+    "N52": {
+      "mentions": 75,
+      "name": "Senai"
+    },
+    "N53": {
+      "mentions": 75,
+      "name": "Benut"
+    },
+    "N54": {
+      "mentions": 75,
+      "name": "Pulai Sebatang"
+    },
+    "N55": {
+      "mentions": 77,
+      "name": "Pekan Nanas"
+    },
+    "N56": {
+      "mentions": 72,
+      "name": "Kukup"
+    }
+  }
+}

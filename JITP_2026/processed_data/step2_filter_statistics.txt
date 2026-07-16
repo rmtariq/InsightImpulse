@@ -1,0 +1,7 @@
+total_rows_original: 4209
+total_rows_matched: 137
+match_rate: 3.25%
+matched_posts: 134
+matched_comments: 3
+platforms: {'youtube': 68, 'x': 31, 'tiktok': 21, 'facebook': 14, 'threads': 3}
+query_distribution: {'Q3_Coalition_Split': 95, 'Q4_Broad_v2': 19, 'Q2_PAS_Solo': 15, 'Q1_Coalition_General': 4, 'Q5_Tension': 2, 'Q6_Leaders': 2}

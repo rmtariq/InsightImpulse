@@ -1,0 +1,890 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+x,comment,2074425581341474978,https://t.co/f3KFPyOw1f,,https://x.com/alx/status/1631039713783042049,1631039713783042049,negative,2026-07-07 09:29:34+00:00,102,2,9,0,0.1778328761458397,133,,ALX 🇺🇸,0.0,negative,0.40722374618053436,multilingual,Unknown,Unknown,0.15,love,0.09640943259000778,0.07760046422481537,0.057261232286691666,0.0683291032910347,0.36069178581237793,0.12396537512540817
+x,comment,2074433252631179448,"2026年7月7日《#VOA今日焦点》重点新闻内容包括：美国总统特朗普星期一启程土耳其参加北约峰会；全球规模最大的环太平洋军演正在夏威夷进行；世界杯八强即将揭晓，美国队迎来对阵比利时的关键战
+点击收看👉https://t.co/P3qvexSHwj https://t.co/RC3CufsieQ",,https://x.com/VOAChinese/status/1555586820158603264,1555586820158603264,neutral,2026-07-07 10:00:03+00:00,3,0,0,0,0.5,3,,美国之音中文网,0.0,neutral,0.8711966872215271,english,Chinese,Chinese,0.95,no_clear_emotion,0.057289961725473404,0.07921021431684494,0.12132633477449417,0.020819757133722305,0.07691462337970734,0.051699865609407425
+x,comment,2074457260470788237,"乌克兰总统泽连斯基在安卡拉北约峰会上把话说得很直：乌克兰属于北约。
+
+他的原话是，带上乌克兰的北约，才是面向未来的联盟。 https://t.co/r8wdW6qXM5",,https://x.com/__Inty__/status/1554313163599859712,1554313163599859712,negative,2026-07-07 11:35:27+00:00,1,0,0,0,0.1644323542714119,1,,Inty News,0.0,negative,0.451892152428627,multilingual,Unknown,Unknown,0.2,no_clear_emotion,0.07091230899095535,0.05091525614261627,0.21803607046604156,0.04593198001384735,0.2719067931175232,0.03993329778313637
+x,comment,2074448365337674148,六月底，美国最高法院裁定特朗普以行政命令终结出生公民权无效，暂保“美宝”身分。许多产妇虽松一口气，但焦点已从“孩子有没有公民权”转为“孕妇能否顺利入境”。专家告诉BBC，未来签证审查、入境询问等或将更严格。https://t.co/PUT8I7pgXv,,https://x.com/bbcchinese/status/1610829796518531072,1610829796518531072,neutral,2026-07-07 11:00:06+00:00,4,1,2,0,0.5,12,,BBC News 中文,0.0,neutral,0.8158864378929138,english,Mixed/Urban,Unknown,0.2,fear,0.09049844741821289,0.30330944061279297,0.055866993963718414,0.09877396374940872,0.03664906322956085,0.19868040084838867
+x,comment,2074447200139272424,"Kuning #bersama.
+
+Ayuh jom register di https://t.co/rWSR3dZn1S https://t.co/JhLjUGZKLS",,https://x.com/La_FarEast/status/1671525852457099265,1671525852457099265,neutral,2026-07-07 10:55:28+00:00,0,0,0,0,0.5,0,,#bersama P108 8103 💛💙,0.0,neutral,0.8297481536865234,english,Mixed/Urban,Unknown,0.25,love,0.12265683710575104,0.04007408022880554,0.04227426275610924,0.058694783598184586,0.573803186416626,0.037502728402614594
+x,comment,2074457760176206242,"全部不认罪……
+https://t.co/VS7Wr7GzUX
+#中国报 https://t.co/PyhO047bpL",,https://x.com/mychinapress/status/1710684169267978637,1710684169267978637,negative,2026-07-07 11:37:26+00:00,0,0,0,0,0.030531178414821614,0,,马来西亚中国报,0.0,negative,0.8982294052839279,multilingual,Chinese,Chinese,0.95,sadness,0.04275808855891228,0.07283294200897217,0.013657603412866592,0.31334903836250305,0.11810240149497986,0.29661598801612854
+x,post,2073717003614138749,"PAS tidak akan membentangkan manifesto secara menyeluruh pada Pilihan Raya Negeri (PRN) Johor, sebaliknya hanya menawarkan beberapa inisiatif dan tawaran khusus di kawasan yang ditandingi.
+
+Berita penuh 
+
+https://t.co/kFxOmBMfuU",https://x.com/harakahdailyHD/status/2073717003614138749,,,positive,2026-07-05 10:33:56+00:00,15,1,11,796,0.9992564022541046,34,50.796,,,positive,0.9975213408470154,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.041192542761564255,0.022637994959950447,0.07244069874286652,0.024138564243912697,0.19234052300453186,0.033585187047719955
+x,comment,2073783939807011105,@harakahdailyHD https://t.co/j381uB64fF,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-05 14:59:54+00:00,0,0,0,0,0.5,0,,Parputodi,0.0,neutral,0.8629578351974487,english,Mixed/Urban,Unknown,0.25,love,0.1173713281750679,0.05476132780313492,0.060526419430971146,0.05928269773721695,0.5037479996681213,0.05744650214910507
+x,comment,2073779376517509402,"@harakahdailyHD Haram undi pas ..Pas hanya tawarkan fitnah, kejian dan hinaan pada sahabat Nabi. https://t.co/qSj54xqLsk",,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,negative,2026-07-05 14:41:46+00:00,2,0,0,0,0.041267810761928536,2,,Riz,0.0,negative,0.8624406307935715,multilingual,Unknown,Unknown,0.15,no_clear_emotion,0.12456537783145905,0.0223190076649189,0.05534951761364937,0.07229970395565033,0.32518643140792847,0.042938850820064545
+x,comment,2073939736272765282,@harakahdailyHD Tak yakin menang takdalah manifesto.,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-06 01:18:59+00:00,0,0,0,0,0.5,0,,Jenk,0.0,neutral,0.8115611672401428,english,Mixed/Urban,Unknown,0.15,fear,0.05029328912496567,0.7353737950325012,0.036562755703926086,0.018741562962532043,0.010843531228601933,0.12067632377147675
+x,comment,2074289662534041932,"@harakahdailyHD 4 negeri yg pas perintah pun tak terlaksana manifesto, bayangkan johor yg da maju tu mundur kerana PAS ( terbukti gagal dan gila kongkek ) 
+
+Lebai² kongkek PAS ni hanya nak jawatan dan ghanimah je, nak sembang pasal kemajuan? Terengganu dapat lebih 11 billion pun tak nampak hasil",,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-07 00:29:28+00:00,0,0,0,0,0.5,0,,𝔰𝔞𝔪𝔖 yellowBlue,0.0,neutral,0.8284988403320312,english,Mixed/Urban,Unknown,0.25,fear,0.03560614585876465,0.4252040684223175,0.015009120106697083,0.2145913690328598,0.012961944565176964,0.258735328912735
+x,comment,2073730780598239379,@harakahdailyHD Haram undi parti yg buat FITNAH pada sahabat nabi ✌️,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-05 11:28:40+00:00,3,0,0,0,0.5,3,,VVD,0.0,neutral,0.8294432759284973,english,Mixed/Urban,Unknown,0.15,love,0.04109333083033562,0.013691633008420467,0.04899046942591667,0.020178621634840965,0.6040282845497131,0.02669111266732216
+x,comment,2074004206386880646,@harakahdailyHD Islam teaches the Malay Muslim stupidity.  Only know how to pray and think of heavan. What the fuck the know. lol better go to heavan as fast as possible.  Troublemakers,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,negative,2026-07-06 05:35:10+00:00,0,0,1,0,0.021315371990203835,3,,HappyMurtad,0.0,negative,0.9289487600326538,english,Mixed/Urban,Unknown,0.25,love,0.056915540248155594,0.0161258727312088,0.04392265900969505,0.03490973636507988,0.754703938961029,0.014676859602332115
+x,comment,2073964266085130479,@harakahdailyHD https://t.co/M4AOmBfAF6,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-06 02:56:28+00:00,0,0,0,0,0.5,0,,mat burn,0.0,neutral,0.8515920042991638,english,Malay/Bumiputera,Malay/Bumiputera,0.74,love,0.11114665120840073,0.05335555225610733,0.0680534839630127,0.06035960465669632,0.47934141755104065,0.05995483323931694
+x,comment,2074030918218727881,"@harakahdailyHD Pandat pun x-lat, macam mana nak contest ? 🤣🤣",,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-06 07:21:19+00:00,0,0,0,0,0.5,0,,Alfang,0.0,neutral,0.7208136320114136,english,Mixed/Urban,Unknown,0.25,love,0.10517553240060806,0.02368430234491825,0.02434214949607849,0.02927103079855442,0.5603829026222229,0.03133207932114601
+x,comment,2073760971005583634,@harakahdailyHD Nak bebaskan najib yer 🤣,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-05 13:28:38+00:00,1,0,0,0,0.5,1,,ahyazid,0.0,neutral,0.7772244215011597,english,Mixed/Urban,Unknown,0.25,surprise,0.017958907410502434,0.036224085837602615,0.032078925520181656,0.019862856715917587,0.08032116293907166,0.5089189410209656
+x,comment,2073755299941699631,@harakahdailyHD Elok JANGAN undi PAS....,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-05 13:06:06+00:00,0,0,0,0,0.5,0,,"Ramli Zainal, Ph.D.",0.0,neutral,0.8381253480911255,english,Malay/Bumiputera,Malay/Bumiputera,0.8,love,0.06696325540542603,0.0234588161110878,0.11445378512144089,0.01769947074353695,0.6640993356704712,0.01638418808579445
+x,comment,2073765722770325980,@harakahdailyHD Asal bukan PAS,,https://x.com/harakahdailyHD/status/2073717003614138749,2073717003614138749,neutral,2026-07-05 13:47:31+00:00,0,0,0,0,0.5,0,,Pena,0.0,neutral,0.8507648706436157,english,Mixed/Urban,Unknown,0.15,no_clear_emotion,0.10252495110034943,0.03183240070939064,0.06786631047725677,0.0392967127263546,0.3083115816116333,0.046491049230098724
+x,comment,2073292586345709923,"@mengyinbeiyong jokes
+💓
+represents
+
+🌺",,https://x.com/mengyinbeiyong/status/2071926990639423765,2071926990639423765,positive,2026-07-04 06:27:27+00:00,0,0,0,0,0.8352145642042159,0,,卓颖🌸同城丄门🌸附近喝🍵,0.0,positive,0.45071521401405334,multilingual,Chinese,Chinese,0.95,love,0.07563269138336182,0.024441100656986237,0.037872035056352615,0.027885813266038895,0.7632974982261658,0.017305957153439522
+x,comment,2073254419181809727,"@mengyinbeiyong lindsay
+🥁
+also
+
+🤎",,https://x.com/mengyinbeiyong/status/2071926990639423765,2071926990639423765,positive,2026-07-04 03:55:47+00:00,0,0,0,0,0.8567588627338409,0,,梁晴🌸同城丄门🌸附近喝🍵,0.0,positive,0.5225295424461365,english,Chinese,Chinese,0.95,love,0.0793590173125267,0.03021198697388172,0.03768359497189522,0.02972375974059105,0.7458391189575195,0.01851622574031353
+x,post,2072203638077051138,"Nantikan podcast eksklusif HarakahDaily: Dari Jalan Pahang bersama Ustaz Idris Ahmad.
+
+Bersama Naib Presiden PAS merangkap Ahli Parlimen Bagan Serai, mengupas pelbagai isu semasa, perkembangan politik terkini dan topik-topik sensasi yang sedang menjadi perhatian rakyat.
+
+#Harakah https://t.co/Wf1p0Crazf",https://x.com/harakahdailyHD/status/2072203638077051138,,,negative,2026-07-01 06:20:21+00:00,9,4,8,900,0.00600830912590028,30,41.9,,,negative,0.9799723029136658,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.010978768579661846,0.008687575347721577,0.019855691120028496,0.01762709766626358,0.11028002947568893,0.10359041392803192
+x,comment,2072530320264683681,"@harakahdailyHD Tak payah lah.........
+33 bulan.....
+"" Parlimen bubar pulak, ana baru nak bentang RUU355""
+Kah ....kah....kah.... Draf pun rasanya tarak!",,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-02 03:58:28+00:00,0,0,0,0,0.5,0,,gua_java 2020,0.0,neutral,0.7554852366447449,english,Mixed/Urban,Unknown,0.25,surprise,0.03444157540798187,0.38329726457595825,0.013236756436526775,0.04827531799674034,0.021071061491966248,0.45403391122817993
+x,comment,2072312249780224427,"@harakahdailyHD Tahu dah… dia minta 5 hari jer bukan 5 tahun… berubah semuanya.. hudud boleh buat, RUU355 terlaksana… walaung semua naik bmw volvo 😂😂😂 itulah mimpi yang benar",,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,negative,2026-07-01 13:31:56+00:00,1,0,0,0,0.00048213601112367943,1,,ASBY,0.0,negative,0.9983928799629211,malay,Malay/Bumiputera,Unknown,0.15,love,0.07956859469413757,0.08990330994129181,0.040353238582611084,0.1067868247628212,0.585863471031189,0.04804140329360962
+x,comment,2072298109733105939,@harakahdailyHD Haram undi parti yg buat FITNAH pda sahabat nabi ✌️,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-01 12:35:45+00:00,0,0,0,0,0.5,0,,VVD,0.0,neutral,0.8315932750701904,english,Mixed/Urban,Unknown,0.15,love,0.042211778461933136,0.014893566258251667,0.05399088189005852,0.01985117606818676,0.5865234732627869,0.027013102546334267
+x,comment,2072268195722076238,@harakahdailyHD Ada makan sagon tak?,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-01 10:36:53+00:00,2,0,0,0,0.5,2,,PU Leather,0.0,neutral,0.9970530271530151,malay,Malay/Bumiputera,Unknown,0.25,surprise,0.011622674763202667,0.03609118238091469,0.011465529911220074,0.03328794240951538,0.04874996468424797,0.7764135599136353
+x,comment,2072709314331205946,@harakahdailyHD Ehhhh.. ada lg la supi kumari.. lama x dgr khabar dia? tp dh up skit skrg.. ada studio buat podcast😂😂,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,negative,2026-07-02 15:49:44+00:00,0,0,0,0,0.09609307944774628,0,,hazri harun,0.0,negative,0.6796897351741791,multilingual,Malay/Bumiputera,Malay/Bumiputera,0.65,surprise,0.01204591989517212,0.04423254355788231,0.011830794624984264,0.0350508876144886,0.034543879330158234,0.8195613026618958
+x,comment,2072431103999426767,@harakahdailyHD Kesian 5 hari selesai,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-01 21:24:13+00:00,1,0,1,0,0.5,4,,azreen,0.0,neutral,0.8496686816215515,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.010637035593390465,0.009934399276971817,0.0249930489808321,0.005971233360469341,0.03383432701230049,0.03007831797003746
+x,comment,2072282974373253559,@harakahdailyHD https://t.co/d7lvKJTEpu,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-01 11:35:36+00:00,0,0,0,0,0.5,0,,ahyazid,0.0,neutral,0.8537477850914001,english,Mixed/Urban,Unknown,0.25,love,0.1183350682258606,0.056348126381635666,0.06717310845851898,0.06101721152663231,0.4673420190811157,0.062496818602085114
+x,comment,2072225042394718363,@harakahdailyHD 😂😂 https://t.co/fAQKIyOspv,,https://x.com/harakahdailyHD/status/2072203638077051138,2072203638077051138,neutral,2026-07-01 07:45:24+00:00,0,0,0,0,0.5,0,,AfiQ,0.0,neutral,0.6832624077796936,english,Mixed/Urban,Unknown,0.15,love,0.09497549384832382,0.05029701814055443,0.05472234636545181,0.053445324301719666,0.5923603773117065,0.04803987592458725
+x,post,2072220085138407751,"Nantikan episod akan datang podcast HarakahDaily: Dari Jalan Pahang bersama Ahli Parlimen Parit Buntar.
+
+Ikuti kupasan yang padat, berfakta dan penuh dengan analisis bernas mengenai pelbagai perkara yang sedang menjadi perhatian umum.
+
+Jangan lepaskan episod ini!
+
+#HarakahDaily https://t.co/SIcd1jZB1e",https://x.com/harakahdailyHD/status/2072220085138407751,,,neutral,2026-07-01 07:25:42+00:00,9,2,6,818,0.5,25,31.818,,,neutral,0.9639348983764648,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.030659543350338936,0.016299687325954437,0.03670540452003479,0.02525351755321026,0.22551791369915009,0.057932544499635696
+x,post,2072530244100366562,"Rang Undang-Undang (RUU) Jenayah Siber 2026 mesti dipastikan tidak menjadi instrumen yang menyekat kebebasan bersuara rakyat atau mewujudkan suasana ketakutan untuk mengkritik pihak pentadbiran.
+
+Berita penuh 
+
+https://t.co/6a4PbRGsKn",https://x.com/harakahdailyHD/status/2072530244100366562,,,neutral,2026-07-02 03:58:10+00:00,10,6,2,727,0.5,25,28.727,,,neutral,0.8611734509468079,malay,Malay/Bumiputera,Unknown,0.0,anger,0.724271297454834,0.06502356380224228,0.08507011830806732,0.01870420202612877,0.043209489434957504,0.018683023750782013
+x,post,2073661223653228988,KJ: Hak Melayu N Sembilan terancam jika Umno tiada dalam k'jaan negeri https://t.co/Mi0phmxpqA,https://x.com/mkini_bm/status/2073661223653228988,,,negative,2026-07-05 06:52:17+00:00,121,20,270,203799,0.0004806697368621715,2448,1174.799,,,negative,0.9983977675437927,malay,Malay/Bumiputera,Unknown,0.0,love,0.059803739190101624,0.06761201471090317,0.025489063933491707,0.1228272020816803,0.48853084444999695,0.09590206295251846
+x,comment,2074006248035647805,@mkini_bm @Khairykj  ini butul ka… dulu keluar sikijab … sikarang Bangsa Ugama saja lain indada https://t.co/t1agiB21Zd,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-06 05:43:17+00:00,6,5,2,0,0.12673090249300004,22,,"UrangSabah baini, sumua pun uncit, anak tiri bakan",0.0,negative,0.5775636583566666,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.12129293382167816,0.054136428982019424,0.08200975507497787,0.055610865354537964,0.3164273202419281,0.05246002972126007
+x,comment,2073708050754773380,@mkini_bm Dulu Rafizi pernah puji KJ ni satu²nya dari umno yg tak main isu  perkauman. Apa dah jadi ni?,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 09:58:21+00:00,4,0,4,0,0.08570792376995087,16,,Solihein Samsuri,0.0,negative,0.7143069207668304,multilingual,Unknown,Unknown,0.25,love,0.0682104304432869,0.025602322071790695,0.04326966777443886,0.03853739798069,0.5365139245986938,0.037749242037534714
+x,comment,2073695115764531228,@mkini_bm Ular ni memang hanat. Ko punya spin babi pun kalah KJ oi https://t.co/GAAdIv45OC,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 09:06:57+00:00,112,19,5,0,0.000507187843322765,165,,LadyM🧧,0.0,negative,0.9983093738555908,malay,Malay/Bumiputera,Unknown,0.15,love,0.20695257186889648,0.024414455518126488,0.03755856305360794,0.06535573303699493,0.4231189787387848,0.03396441787481308
+x,comment,2073672847101436390,"@mkini_bm PAS : Islam akan terancam jika tak sokong PAS.
+UMNO : Melayu akan terancam jika tak sokong UMNO.
+
+Dua parti yang sepatutnya sudah lama berkubur kerana tidak sudah-sudah bermain dengan sentimen agama dan bangsa.",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 07:38:28+00:00,165,28,1,0,0.0005080103874206543,224,,frossonice,0.0,negative,0.9983066320419312,malay,Malay/Bumiputera,Unknown,0.25,fear,0.24036821722984314,0.3644557297229767,0.036120329052209854,0.06940530240535736,0.20805983245372772,0.030021609738469124
+x,comment,2073682481593901317,@mkini_bm Umno yg terancam sebenarnya...umno dah tak berguna,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 08:16:45+00:00,33,3,0,0,0.053098431229591375,39,,Hartanah Timur,0.0,negative,0.8230052292346954,multilingual,Unknown,Unknown,0.25,sadness,0.01457737572491169,0.03824755549430847,0.005478190258145332,0.8870874047279358,0.011510183103382587,0.033078525215387344
+x,comment,2073683196840153416,"@mkini_bm ""Melayu terancam"" 😂 cerita basi weiiii @khairykj it's 2026, bro. You sound like it's 1986. @ShahrilHamdan @keluarsekejap https://t.co/5El0vIV4m1",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,neutral,2026-07-05 08:19:35+00:00,67,10,1,0,0.5,90,,Dollah Abd Rizal,0.0,neutral,0.5767764449119568,english,Mixed/Urban,Unknown,0.25,love,0.03479398041963577,0.03794011101126671,0.15791884064674377,0.032973144203424454,0.42554405331611633,0.057495392858982086
+x,comment,2073681942114144376,@mkini_bm Umno n9 sendiri yg bongok tarik diri dari kerajaan n9😅,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 08:14:36+00:00,27,5,2,0,0.0005132853984832764,43,,AqimNizar,0.0,negative,0.9982890486717224,malay,Malay/Bumiputera,Unknown,0.25,love,0.06556809693574905,0.014111963100731373,0.054145071655511856,0.02122017927467823,0.45105233788490295,0.023518329486250877
+x,comment,2073710748128440697,"@mkini_bm UMNO....UMNO
+Hak Melayu yg mana?... https://t.co/zTKYNUUjGc",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 10:09:04+00:00,19,5,1,0,0.10897647142410277,32,,"Ramli Zainal, Ph.D.",0.0,negative,0.6367450952529907,multilingual,Malay/Bumiputera,Malay/Bumiputera,0.8,love,0.0682397112250328,0.020055489614605904,0.04773612692952156,0.04155513644218445,0.5928552746772766,0.033202625811100006
+x,comment,2073957124254916702,"@mkini_bm Ular nii, tapi sembang asal babi boleh terbang aje.",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-06 02:28:05+00:00,0,0,0,0,0.000484800338745095,0,,aku bersama #AyuhMalaysia2.0 #PalestineLiveMatter,0.0,negative,0.9983839988708496,malay,Malay/Bumiputera,Unknown,0.25,love,0.11673532426357269,0.03295999392867088,0.05461946129798889,0.03908577188849449,0.4131687581539154,0.044961221516132355
+x,comment,2073725545817514421,"@mkini_bm Pastikan ular ni tak jadi pemimpin besar kat msia, dia kerja membelit ikut mana ada kelebihan peribadi dia je bukan nak pikir rakyat sangat pun",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 11:07:52+00:00,4,0,1,0,0.0005086541175842174,7,,-,0.0,negative,0.9983044862747192,malay,Malay/Bumiputera,Unknown,0.0,love,0.08611949533224106,0.028915544971823692,0.032115548849105835,0.05552856624126434,0.5737065076828003,0.046430401504039764
+x,comment,2074449426161246705,Felda 70 tahun: Anwar ingatkan jangan ulang silap lama https://t.co/9Z8ix3p0K5,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,neutral,2026-07-07 11:04:19+00:00,0,0,0,0,0.5,0,,Malaysiakini (BM),0.0,neutral,0.8862040638923645,english,Mixed/Urban,Unknown,0.25,love,0.1338280290365219,0.02195665054023266,0.030460890382528305,0.03561631217598915,0.6603657007217407,0.024576673284173012
+x,comment,2073680504663277813,"@mkini_bm membohong je keje ko
+
+bukan umno jer yg jaga melayu
+
+PKR AMANAH dan even DAP pon jaga melayu
+
+tapi melayu yg mana?
+
+PH jaga melayu bawahan
+
+UMNO jaga melayu bangsawan kayangan",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 08:08:54+00:00,68,4,0,0,0.0005084395408630482,76,,anapisang,0.0,negative,0.9983052015304565,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.2003646194934845,0.021471884101629257,0.08964680135250092,0.04421592131257057,0.28203755617141724,0.03472714126110077
+x,comment,2074113502072254514,"@mkini_bm ""Hak Melayu diancam !"" kata DJ Cage masa release his new remix Me-me-melayu Terancam",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-06 12:49:28+00:00,0,0,0,0,0.0285198211669922,0,,Random_History_Guy,0.0,negative,0.9049339294433594,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.019660327583551407,0.029412193223834038,0.13019084930419922,0.016092680394649506,0.13566581904888153,0.05295862257480621
+x,comment,2073675806182891947,"@mkini_bm Hak Melayu di NS dan negeri negeri lain tdk akan terancam kerana ia dilindungi oleh perlembagaan persekutuan.
+
+Yg mungkin rasa terancam ialah kebarangkalian parti melayu umno ditolak sepenuhnya oleh pengundi NS. @Khairykj.",,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 07:50:13+00:00,56,10,0,0,0.0004882872104644553,76,,Abdul Aziz bin Abdullah @ AAA,0.0,negative,0.9983723759651184,malay,Malay/Bumiputera,Malay/Bumiputera,0.88,sadness,0.11961719393730164,0.051334138959646225,0.008929884061217308,0.7646479606628418,0.02281530760228634,0.01766410656273365
+x,comment,2073762845519724996,@mkini_bm Dia kena tunjuk kepak la sebab presiden dia dh buka pintu kembali masuk umno,,https://x.com/mkini_bm/status/2073661223653228988,2.073661223653229e+18,negative,2026-07-05 13:36:05+00:00,0,0,0,0,0.0004936695098877175,0,,PuteraMan,0.0,negative,0.998354434967041,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.06660832464694977,0.013457175344228745,0.05183054134249687,0.008267879486083984,0.10355962812900543,0.033001888543367386
+x,comment,2074450769441624312,"Yang Dipertua Majlis Perbandaran Taiping, Mohamed Akmal Dahalan ketika sesi pertukaran dokumen memorandum persefahaman (MOU) bersama Pengerusi Yayasan Pulai Orang Utan Bukit Merah, Prof Datuk Dr Abdul Latif Mohamad dan Pengarah Bukit Merah Resort Sdn Bhd, Nazri Tumin di Pavillion Zoo Taiping & Night Safari hari ini.
+
+#malaysiagazetteperak #MGPerak 
+
+Foto : Abdullah Yusof",,https://x.com/MalaysiaGazette/status/1676181040711491584,1.6761810407114916e+18,positive,2026-07-07 11:09:39+00:00,0,0,0,0,0.8253133460879325,0,,Malaysia Gazette,0.0,positive,0.41771115362644196,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.03864525631070137,0.018208742141723633,0.05655941739678383,0.02559588849544525,0.1096767857670784,0.04456815496087074
+x,post,2074249008978256347,"LOKER SERAM:
+- KONTRAK 1 TAHUN,
+- GAJI GAK DITULIS,
+- BENEFIT GAK DIJELASIN
+- SYARAT DEWA
+
+***
+
+PERSYARATAN UMUM
+1. Warga Negara Indonesia
+2. Berusia paling tinggi 40 tahun untuk DTT Jenjang S3 dan 35 tahun untuk DTT jenjang S2 pada 31 Desember 2026
+3. Berkelakuan baik serta sehat jasmani dan rohani
+4. Tidak memiliki ketergantungan terhadap NAPZA (Narkotika, Alkohol, Psikotropika, dan Zat Adiktif Lainnya)
+5. Tidak pernah dipidana dengan hukuman penjara berdasarkan putusan pengadilan yang berkekuatan hukum tetap dan/atau tidak sedang menjalani proses hukum
+6. Tidak pernah diberhentikan dengan tidak hormat sebagai ASN atau CPNS atau PNS atau anggota POLRI atau anggota TNI atau pegawai suatu institusi
+7. Tidak berkedudukan sebagai ASN atau CPNS atau PNS atau anggota POLRI atau anggota TNI
+8. Tidak sedang menjalani ikatan dinas/wajib kerja pada suatu institusi negara atau swasta
+9. Tidak menjadi anggota dan/atau pengurus partai politik
+10. Tidak terlibat politik praktis
+11. Tidak menjadi simpatisan dan/atau anggota dan/atau pengurus dari organisasi yang dilarang di Negara Kesatuan Republik Indonesia (NKRI)
+12. Untuk Pelamar Jenjang S2:
+    - Memiliki gelar Magister (S2) dan Sarjana (S1) di bidang yang relevan dengan kualifikasi, dari Perguruan Tinggi Luar Negeri yang bereputasi, atau Perguruan Tinggi atau Program Studi Dalam Negeri yang terakreditasi Internasional/Unggul/A oleh lembaga akreditasi yang diakui pemerintah pada saat kelulusan
+    - Memiliki IPK minimal 3,00 (skala 4,00) atau setara untuk jenjang S1, dan IPK minimal 3,25 (skala 4,00) atau setara untuk jenjang S2
+13. Untuk Pelamar Jenjang S3:
+    - Memiliki gelar Doktor (S3) di bidang yang relevan dengan kualifikasi, dari Perguruan Tinggi Luar Negeri yang bereputasi, atau Perguruan Tinggi atau Program Studi Dalam Negeri yang terakreditasi Internasional/Unggul/A oleh lembaga akreditasi yang diakui pemerintah pada saat kelulusan
+    - Bagi pelamar yang akan lulus S3 selambat-lambatnya tanggal 1 Mei 2027 dapat melamar dengan melampirkan surat pernyataan akan lulus sesuai format yang disediakan oleh Panitia
+    - Memiliki IPK minimal 3,00 (skala 4,00) atau setara untuk jenjang S1, dan IPK minimal 3,25 (skala 4,00) atau setara untuk jenjang S2
+14. Memiliki sertifikat ELPT ITB lebih besar sama dengan 77 atau TOEFL ITP yang diselenggarakan oleh ITB dengan nilai minimal 475
+15. Memiliki sertifikat Tes Potensi Akademik (TPA) resmi dari UUO PT Bappenas dengan skor minimal 475 yang masih dalam masa berlaku pada saat pendaftaran
+16. Memiliki kualifikasi sebagaimana tercantum pada tabel Formasi dan Kualifikasi. Kualifikasi tersebut tidak terbatas pada yang tercantum, namun termasuk juga untuk bidang lain yang terkait dengan pertimbangan program multidisplin dan/atau multikampus ITB
+17. Lebih diutamakan memiliki pengalaman kerja di bidang yang relevan dengan posisi dilamar
+18. Bersedia ditempatkan di Multikampus ITB (Kampus Ganesha/Kampus Jatinangor/Kampus Cirebon/Kampus Jakarta)
+
+TATA CARA PENDAFTARAN
+1. Surat lamaran dengan mencantumkan kode formasi yang dilamar
+2. Daftar Riwayat Hidup/Curriculum Vitae (CV)
+3. Pindaian Kartu Tanda Penduduk (KTP)
+4. Pas foto terbaru (ukuran 4x6 cm)
+5. Personal Statement (maksimal 1 halaman) yang menguraikan bagaimana pengalaman kandidat mengenai pengalaman hidupnya di masa lalu yang telah memengaruhi pencapaiannya saat ini dan bagaimana aspek-aspek tersebut dapat berperan dalam mewujudkan cita-cita ITB sebagai universitas kelas dunia. Personal Statement dapat ditulis dalam bahasa Indonesia atau bahasa Inggris
+6. Dua surat referensi dari dua orang yang dapat memberikan referensi profesional
+7. Pindaian transkrip akademik dan ijazah sarjana (S1) dan pascasarjana (S2 dan S3)
+8. Pindaian surat keputusan penetapan dan penyetaraan hasil penilaian ijazah dari Ditjen Dikti Kemdikbud bagi pelamar lulusan S1 dan/atau S2 dan/atau S3 dari perguruan tinggi luar negeri
+9. Pindaian atau tangkapan layar akreditasi
+10. Bagi pelamar yang langsung melanjutkan jenjang S3 tanpa melalui jenjang S2 tidak perlu melampirkan transkrip akademik dan ijazah S2
+11. Minimal satu contoh tulisan pelamar, apabila ada, yang relevan dengan Fakultas/Sekolah di ITB yang telah diterbitkan di jurnal nasional dan/atau internasional bereputasi
+12. Surat keterangan sehat yang diterbitkan oleh fasilitas kesehatan
+13. Surat pernyataan tidak pernah dipenjara sesuai format yang telah disediakan
+14. Surat pernyataan bebas NAPZA sesuai format yang telah disediakan
+15. Surat pernyataan tidak menjadi anggota dan/atau pengurus partai politik dan tidak terlibat politik praktis sesuai format yang telah disediakan
+16. Surat pernyataan tidak sedang menjalani ikatan dinas/wajib kerja di suatu instansi sesuai format yang telah disediakan
+17. Surat pernyataan tidak pernah diberhentikan secara tidak hormat sebagai ASN/CPNS/PNS/Anggota POLRI/Anggota TNI/pegawai suatu institusi sesuai format yang telah disediakan
+18. Surat pernyataan tidak berkedudukan sebagai ASN/CPNS/PNS/anggota POLRI/anggota TNI sesuai format yang telah disediakan
+19. Surat pernyataan tidak pernah menjadi simpatisan dan/atau anggota dan/atau pengurus organisasi yang dilarang di NKRI sesuai format yang telah disediakan
+20. Surat pernyataan mengenai kesanggupan menyelesaikan studi S3 selambat-lambatnya 1 Mei 2027 bagi pelamar DTT S3 sesuai format yang telah disediakan
+21. Dokumen lain yang mendukung CV
+22. Lamaran lengkap hanya boleh dikirimkan ke tautan resmi dengan pengelompokan dokumen sesuai ketentuan pada form
+23. Surat pernyataan dapat diunduh pada tautan resmi
+24. Berkas lamaran dikirimkan paling lambat tanggal 04 Agustus 2026 pukul 23.59 WIB
+
+KELULUSAN
+1. Pengumuman kelulusan akan diumumkan di media resmi ITB yaitu website
+2. Jangka waktu perjanjian kerjasama untuk DTT S2 adalah 1 Tahun, dan dapat diperpanjang maksimum 1 Tahun berdasarkan hasil evaluasi kinerja dari unit kerja
+3. Jangka waktu perjanjian kerjasama untuk DTT S3 adalah 1 Tahun, dan dapat diangkat menjadi Calon Dosen Tetap ITB Non PNS atau dapat diperpanjang maksimum 1 tahun, berdasarkan hasil evaluasi kinerja dari unit kerja
+4. Keputusan Panitia Seleksi Penerimaan Calon Dosen Tidak Tetap ITB Tahun 2026 tidak dapat diganggu gugat",https://x.com/ardisatriawan/status/2074249008978256347,,,negative,2026-07-06 21:47:56+00:00,644,95,44,64589,0.0004807412624359131,1428,1030.589,,,negative,0.9983975291252136,malay,Malay/Bumiputera,Unknown,0.0,anger,0.6099815368652344,0.050820495933294296,0.09600099921226501,0.024724019691348076,0.05733862146735191,0.024795111268758774
+x,post,2073995392459395458,"Bekas Ketua Pemuda UMNO, Khairy Jamaluddin menggesa pengundi Melayu-Islam di Negeri Sembilan kembali menyokong BN pada Pilihan Raya Negeri (PRN) akan datang.
+
+Tegasnya, hanya UMNO-BN mampu mempertahankan kepentingan Melayu, yang menurutnya gagal dilaksanakan oleh Menteri Besar, Aminuddin Harun. 
+
+Kredit Gambar: Sinar Harian",https://x.com/EkonomiRakyatMY/status/2073995392459395458,,,negative,2026-07-06 05:00:09+00:00,19,2,43,7362,0.0011009752750396617,137,159.362,,,negative,0.9963300824165344,malay,Malay/Bumiputera,Unknown,0.0,love,0.10046842694282532,0.038488250225782394,0.11651741713285446,0.039846718311309814,0.474979430437088,0.03053886629641056
+x,post,2072875741679911274,"Bareskrim baru bongkar modus penyelundupan sabu yang bikin gw menghela napas panjang 😔 dua kurir bawa 500 GRAM SABU dari Pekanbaru ke Sumbawa dengan cara... dimasukin ke DALAM PERUT lewat ANUS 💀 iya, lo baca ga salah. Simak 🧵👇
+
+28 Juni 2026, jam 08.45 pagi di Terminal Kedatangan 2E Bandara Soekarno-Hatta. Tim Subdit IV Bareskrim (dapet info dari aset dari sebulan sebelumnya) ciduk 2 penumpang transit dari Pekanbaru yang mau ke Lombok:
+
+→ MUSA BIN BOLANG (47, Sumbawa, tinggal di Batam)
+→ MUHAMMAD GUNTUR (44, temen Musa)
+
+Pas diinterogasi, keduanya ngaku bawa sabu... di DALAM PERUTNYA. dimasukin lewat anus masing-masing 4 kapsul plastik = 250 gram per orang = 500 gram total 🥲
+
+Tim langsung bawa keduanya ke RS EMC Tangerang buat XRAY + prosedur pengeluaran barang. Dan yes, hasilnya sesuai — 4 bungkus kapsul dari perut Musa, 4 bungkus dari perut Guntur ✅
+
+Ini istilahnya ""body packing"" — modus lama yang dipake kartel di berbagai negara. RISKY BANGET buat pembawanya karena:
+→ kalo satu kapsul BOCOR di dalam perut = OVERDOSIS INSTAN, mati dalam hitungan menit ☠️
+→ kalo mampet di usus = harus operasi darurat
+→ jam ketat: barang harus dikeluarin dalam <24 jam sebelum tubuh mulai nyerap plastik
+
+Dan ini yang bikin sedih: mereka dibayar Rp 10 JUTA per 100 gram. Musa dapet total ~Rp 25 juta, Guntur dapet Rp 10 juta DP. buat naruh benda asing di dalam perut & taruhannya nyawa. mathematics-nya ngenes 🥲
+
+Catatan penting dari Bareskrim di laporan: modus ini bisa lolos di Bandara Pekanbaru karena BELUM PUNYA X-RAY TRANSMISI (Body Scanner) 🚨 X-Ray biasa cuma ngedeteksi barang di luar tubuh — buat body packing perlu scanner khusus yang bisa ""tembus"" tubuh. bandara-bandara Indonesia perlu upgrade equipment ASAP biar modus baru ini bisa dicegah dari awal.
+
+Tim lanjut Controlled Delivery ke Sumbawa Barat, sampe jam 23.30 WITA. bertemu ISNAINI alias PP BARA (penjual di Sumbawa) yang udah nunggu barang — langsung diciduk juga. bahkan Isnaini sempat kirim Rp 5 juta ke Musa buat ""bantu beli tiket pesawat"" karena mereka ketinggalan pesawat 💀 real-time koordinasi.
+
+Struktur jaringan yang kebongkar:
+SOFIAN als PIAN (Pulau Rupat, penyedia — DPO 🏃)
+→ JON als MEX (koordinator/pemesan — DPO 🏃)
+→ MUSA & GUNTUR (kurir body packing ✋)
+→ ISNAINI/PP BARA (penjual Sumbawa ✋)
+
+Business model-nya: Isnaini nyetor Rp 65 JUTA/100 gr ke Jon. Musa dapet upah Rp 10 juta/100 gr buat ""layanan pengiriman lewat perut"". margin buat Jon: Lumayan gede 💰
+
+Skala kasus: 500 gram sabu, nilai ~Rp 900 JUTA, potensi 2.500 jiwa terselamatkan. dan ini baru pengiriman ke-2 mereka — yang pertama (Mei 2026) sukses masuk Sumbawa 🚨
+
+Reminder yang berat:
+1. Body packing = judi nyawa untuk uang recehan. Satu kapsul bocor = mati. Dan ini sering terjadi di berbagai negara 💀
+2. Modus baru selalu muncul — Bandara yang ga upgrade equipment jadi celah. Laporan ini bahkan secara eksplisit minta pihak bandara siapkan Body Scanner
+3. Yang paling dieksploitasi selalu yang paling kepepet — Musa & Guntur bukan bos, mereka pion yang risiko nyawanya paling gede tapi upahnya paling receh
+
+Salut sama tim Subdit IV Bareskrim yang jeli baca info intel + petugas bandara Soeta yang cekatan. Dan salut juga karena berani nyebut ke publik bahwa Bandara Pekanbaru masih perlu upgrade — Itu kritik internal yang konstruktif buat sistem keamanan negara 🫡
+
+For anyone reading — kalau lo dipepet ekonomi & ditawarin ""kerja mudah, bayaran gede, cuma bawa barang doang"" — think TWICE! Nyawa lo ga bisa diganti sama berapapun uang yang dijanjiin.
+
+Stay safe guys!",https://x.com/ruhulanakgaul/status/2072875741679911274,,,negative,2026-07-03 02:51:03+00:00,445,71,40,171138,0.0004807770252227561,2267,878.138,,,negative,0.9983974099159241,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.025311890989542007,0.04191179201006889,0.006683364976197481,0.8716124296188354,0.011638423427939415,0.02365032583475113
+x,post,2072859273760256110,"Minda Presiden PAS
+
+PERPADUAN UMAT PERINTAH ALLAH, BUKAN PERKARA DONGENG
+
+Kini, umat Islam kehilangan kerajaan kuasa besar Islam dengan kejatuhan Kerajaan Turki ‘Uthmaniyyah akibat perpecahan umat Islam yang berlaku. Hal ini disebabkan kejahilan dalam memahami Islam (tafaqquh fi al-din), serta dibayangi dan terperangkap dalam fanatik mazhab dan kebangsaan. 
+
+Maka, menjadi kewajipan kepada umat Islam di mana sahaja mereka berada, untuk berjuang menegakkan semula kuasa Islam dalam pemerintahan negara bagi membina semula perpaduan umat yang menjadi kewajipan.
+ 
+Bangsa rumpun Melayu ialah kumpulan bangsa yang mendominasi umat Islam di Nusantara. Maka, memulakan perpaduan Melayu Islam yang berkuasa adalah kewajipan kita mengikut teladan sunnah Rasulullah SAW, yang bermula dengan bangsa Arab. Oleh yang demikian, perjuangan perpaduan Melayu Islam ialah teladan sunnah Rasulullah SAW, bukannya cerita dongeng yang menjadi kepercayaan manusia yang berada di luar tabii (fitrah).
+
+Pengaruh luar tabii kini menular dalam kalangan masyarakat Melayu. Ada yang melupakan nilai kemanusiaan, keagamaan dan kebangsaannya. Terdapat juga segelintir pihak yang mabuk akibat arak dan bertindak membunuh diri. Ini bukan sifat masyarakat Melayu yang sangat dekat dengan Islam. 
+
+Kembali kepada acuan Islam bukan bermakna perkauman kerana masih ada baki pengaruh Islam dalam kalangan masyarakat Melayu, maka orang Melayu boleh menerima pelbagai bangsa dan agama dalam masyarakatnya.
+
+Tegakkan Islam bersama Melayu, nescaya semuanya selamat. Tegakkan Melayu tanpa Islam, nescaya semuanya tidak akan selamat. Bangsa Arab yang kaya-raya apabila meninggalkan Islam dan berwala’ kepada kuasa besar Amerika Syarikat, mereka tetap kalah menghadapi Israel dan Yahudi Zionis yang kecil. Jadikanlah hal ini sebagai iktibar.
+
+Harta kekayaannya tidak bermanfaat, apabila kebangsaannya dipisahkan daripada Islam yang sempurna (al-din). Walaupun solat dan hajinya menghadap Kaabah (Baitullah) di Makkah, tetapi politik dan ekonominya menghadap ke arah White House di Washington dan New York. Akhirnya, mereka kembali kepada perpecahan. Kekayaannya laksana lembu yang susunya diperah oleh tuannya, sedangkan nasibnya hanya mendapat rumput kering.
+
+Baca selanjutnya:
+https://t.co/S4sOwSOekb",https://x.com/abdulhadiawang/status/2072859273760256110,,,negative,2026-07-03 01:45:37+00:00,35,10,37,3437,0.00048227906227110706,116,169.437,,,negative,0.9983924031257629,malay,Malay/Bumiputera,Unknown,0.0,anger,0.3788270950317383,0.09299396723508835,0.05803687125444412,0.21129001677036285,0.14566120505332947,0.017714491114020348
+x,comment,2072932668988444862,@abdulhadiawang Hari-hari membebel perpaduan. Ini hipokrasi ahli politik yang menunggang semua untuk nafsu pangkat dan kebendaan mereka.,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 06:37:16+00:00,0,0,0,0,0.000483262538909901,0,,HORTADAI,0.0,negative,0.9983891248703003,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.13787636160850525,0.019275018945336342,0.08212624490261078,0.03372686728835106,0.2149403989315033,0.02942042239010334
+x,comment,2073231037946343479,"@abdulhadiawang Skrip yg sama setiap hari lebih2 lagi setiap pilihanraya. BERSATU juga ummah.
+
+Definisi ummah bagi PAS adalah org yg ikut telunjuk PAS",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,positive,2026-07-04 02:22:52+00:00,0,0,0,0,0.9984069824218749,0,,Muhammad Sabaruddin,0.0,positive,0.99468994140625,malay,Malay/Bumiputera,Malay/Bumiputera,0.72,no_clear_emotion,0.05216418206691742,0.01822769269347191,0.05769295617938042,0.03366928920149803,0.33026236295700073,0.03709961101412773
+x,comment,2073288891331965144,@abdulhadiawang Amanat ni valid lagi ka tok guru🤣🤣🤣 https://t.co/6UeEfMJpv7,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-04 06:12:46+00:00,0,0,1,0,0.06950770318508148,3,,hellopulis,0.0,negative,0.7683076560497284,multilingual,Unknown,Unknown,0.25,love,0.05984785035252571,0.015040306374430656,0.05560678243637085,0.022898204624652863,0.6266932487487793,0.025718702003359795
+x,comment,2072987604472209748,@abdulhadiawang Minda Ummah https://t.co/vKNSHlfrD7,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,positive,2026-07-03 10:15:33+00:00,3,0,0,0,0.8436913460493087,3,,Parputodi,0.0,positive,0.4789711534976959,multilingual,Unknown,Unknown,0.25,love,0.06371498852968216,0.02119932323694229,0.045869458466768265,0.04043972119688988,0.7238711714744568,0.024147700518369675
+x,comment,2072900696383664239,@abdulhadiawang Minda Extremist Racist Lobai PIS Alkhawarij Hadi Wang. Jahanam umat Islam kalau dia ni berkuasa jdi gomen. #palabapakhang,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 04:30:13+00:00,0,0,0,0,0.0005024135112762229,0,,🇲🇾 xtrailme 🇵🇸,0.0,negative,0.9983252882957458,malay,Malay/Bumiputera,Unknown,0.25,love,0.08147497475147247,0.017259741201996803,0.0647725909948349,0.025608917698264122,0.5716948509216309,0.02105184644460678
+x,comment,2073228588581789953,"@abdulhadiawang Padahal kamu dok mengata, mencela dan penghina org, kamulah sumber perpecahan  masyarakat.....cermin diri kau dulu..",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-04 02:13:08+00:00,0,0,0,0,0.0004901826381683572,0,,Berusaha Berdoa Bertawakal,0.0,negative,0.9983660578727722,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.22007134556770325,0.03067127801477909,0.0701582208275795,0.1363159418106079,0.23268337547779083,0.036040935665369034
+x,comment,2072941606936907787,"@abdulhadiawang Lebai oh lebai...
+
+Punya lah gila kuasa..mainkan naratif yg sama ..... https://t.co/RiOFKekyGJ",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,neutral,2026-07-03 07:12:47+00:00,1,0,1,0,0.5,4,,"Ramli Zainal, Ph.D.",0.0,neutral,0.7447046637535095,english,Malay/Bumiputera,Malay/Bumiputera,0.8,love,0.07813620567321777,0.029685398563742638,0.04543384164571762,0.026403093710541725,0.6748142838478088,0.035360898822546005
+x,comment,2072889752609779782,"@abdulhadiawang Semasa nak undi Melayu, diseru perpaduan umat. Semasa berkawan dgn DAP, melambung dipujinya DAP. Jgn lupa PRK Tg Piai, dia sokong Cina MCA lwn Tok Imam Melayu. Buka mata &amp; minda, jgn terus tertipu dgn pemimpin politik. Yg mereka cari adalah kuasa semata2, utk kepentingan mereka.",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 03:46:44+00:00,0,0,0,0,0.0005030572414398415,0,,Abd Latif Mohamed,0.0,negative,0.9983231425285339,malay,Malay/Bumiputera,Unknown,0.25,anger,0.3230687081813812,0.03937758877873421,0.0643349438905716,0.020183822140097618,0.2763817608356476,0.028970075771212578
+x,comment,2073301375015109092,"@abdulhadiawang Pas bukan islam, so tak perlu pun percayakan kaki ponteng yg makan gaji buta kan hadi kan, diarab tiada PAS malah jd tumpuan dunia setiap kali musim haji
+
+So jangan terpedaya dengan pas, yg menyedap lebai² kongkek pas, walaun pula kena derma wajib.. PALE BAPAK LU AYATOLOL SESAT",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-04 07:02:22+00:00,1,0,0,0,0.0004966020584106223,1,,𝔰𝔞𝔪𝔖 yellowBlue,0.0,negative,0.9983446598052979,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.3310467600822449,0.04523013159632683,0.03530115261673927,0.0217770766466856,0.10301719605922699,0.049155835062265396
+x,comment,2073231949142077700,@abdulhadiawang Tahu pun. Tapi nape buat parti dan kafirkan sesama sendiri??  Sunnah pun tak boleh berparti? Berpolitik boleh tp jgn berpuak-puak...,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-04 02:26:30+00:00,0,0,0,0,0.0005097806453704945,0,,WIRA X PERNAH MATI,0.0,negative,0.9983007311820984,malay,Malay/Bumiputera,Malay/Bumiputera,0.72,love,0.19262062013149261,0.02876056171953678,0.0635829046368599,0.07671026140451431,0.35064446926116943,0.03876340389251709
+x,comment,2072939441367511258,"@abdulhadiawang Perpaduan konon. Amanat hadi awang tu apa? Smpai berpecah belah umat hinggakqn solat berimamkan orang umno tak sah. Sembelihan orang umno haram. Wujud masjid umno, pas. Macam2 lagi la.",,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 07:04:10+00:00,1,0,1,0,0.040358322858810414,4,,Kiro,0.0,negative,0.8654722571372986,multilingual,Unknown,Unknown,0.15,anger,0.6285719275474548,0.12529274821281433,0.02788679115474224,0.043934404850006104,0.052928294986486435,0.028762876987457275
+x,comment,2072990586660143460,@abdulhadiawang Perintah Allah yg kau pilih2 ikut kepentingan kau saja kan? Sudahlah.. Allah tau nawaitu kau. Dengan walaun kau bolehla berbohong. Dasar Ulamak Suu,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 10:27:24+00:00,0,0,0,0,0.00048530101776123047,0,,JauhiNarkoba,0.0,negative,0.9983823299407959,malay,Malay/Bumiputera,Unknown,0.25,love,0.2263515442609787,0.023748088628053665,0.07485253363847733,0.04862019047141075,0.33735737204551697,0.03152353689074516
+x,comment,2072981039237189949,@abdulhadiawang PMX tengah menyatukan umat di seluruh dunia. Ko pulak jenis dengki.,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,positive,2026-07-03 09:49:28+00:00,0,0,0,0,0.8564509317278861,0,,117-9xc,0.0,positive,0.5215031057596207,multilingual,Unknown,Unknown,0.25,love,0.02814055234193802,0.009832480922341347,0.03582381457090378,0.0166495181620121,0.620376467704773,0.03548960015177727
+x,comment,2072954632671039975,@abdulhadiawang https://t.co/MdcoAeEvFb,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,positive,2026-07-03 08:04:32+00:00,0,0,0,0,0.82138032913208,0,,ᎢᎪᏞᏆᏢᎾᏁᏴᎾᎠᎾ,0.0,positive,0.4046010971069336,multilingual,Unknown,Unknown,0.25,love,0.13142620027065277,0.048518553376197815,0.07717959582805634,0.05396459251642227,0.39649346470832825,0.05260341987013817
+x,comment,2073023667844657207,@abdulhadiawang Ko pi ceraikan Bersatu tu perintah sapa?,,https://x.com/abdulhadiawang/status/2072859273760256110,2.072859273760256e+18,negative,2026-07-03 12:38:51+00:00,0,0,0,0,0.09817278832197188,0,,Pena,0.0,negative,0.6727573722600937,multilingual,Unknown,Unknown,0.15,love,0.09814745932817459,0.019910631701350212,0.03515752777457237,0.029630038887262344,0.579547107219696,0.02602064236998558
+x,comment,2072192458654720098,"@undipmfs3 gausah ngulang gpp nder, maksimalin di smt berikutnya, semangat!",,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 05:35:56+00:00,0,0,0,0,0.5,0,,lala 𐙚🧸ྀི,0.0,neutral,0.6019405722618103,english,Mixed/Urban,Unknown,0.25,happy,0.018255628645420074,0.04643385112285614,0.842479407787323,0.009124536998569965,0.033215876668691635,0.017074083909392357
+x,comment,2072135965674729598,"@undipmfs3 Tmn ku pernah nder tp ttp dpt b sih. Better si ga ush, mending ambil matkul² sem atas klo bisa dan ada sisa sks.",,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 01:51:27+00:00,0,0,0,0,0.5,0,,aeae,0.0,neutral,0.9048123955726624,malay,Malay/Bumiputera,Unknown,0.15,love,0.06109605357050896,0.039953507483005524,0.039333585649728775,0.017710626125335693,0.7566283345222473,0.029460564255714417
+x,comment,2072149039441969337,"@undipmfs3 Gua agama c aja nggak ngulang, tapi y terserah situ",,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,negative,2026-07-01 02:43:24+00:00,0,0,1,0,0.06584844142198562,3,,Ky,0.0,negative,0.7805051952600479,multilingual,Unknown,Unknown,0.15,fear,0.11588522046804428,0.5230348110198975,0.04759945347905159,0.01989082247018814,0.07248727232217789,0.10501423478126526
+x,comment,2072152399775727752,"@undipmfs3 Aku sempet mikir gini kok nder dan emng bisa ngulang sejak smt 3 kan, tpi skrng dah smt 4 dah bodo amat soalnya masih cumlaude",,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,negative,2026-07-01 02:56:45+00:00,0,0,0,0,0.0004876971244812123,0,,Na-me ✌🏻,0.0,negative,0.998374342918396,malay,Malay/Bumiputera,Unknown,0.15,anger,0.31941354274749756,0.03470177575945854,0.09290075302124023,0.05911554396152496,0.3012131452560425,0.03646579012274742
+x,comment,2072086851549385138,@undipmfs3 emg bisa ya nilai b ngulang? mending  fokus perbaiki nilai smt selanjutnya ga sih nder?,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,negative,2026-06-30 22:36:17+00:00,0,0,0,0,0.10792734324932099,0,,marmut imut🫧//ANJEM CEWE,0.0,negative,0.64024218916893,multilingual,Unknown,Unknown,0.25,surprise,0.020833244547247887,0.29291632771492004,0.027758896350860596,0.02684985101222992,0.03130036219954491,0.5481353998184204
+x,comment,2072110657399599609,@undipmfs3 mending mikir bisa lulus  tepat waktu apa engga nder,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 00:10:53+00:00,0,0,0,0,0.5,0,,ibrakk,0.0,neutral,0.8146519660949707,english,Mixed/Urban,Unknown,0.25,fear,0.024475187063217163,0.6560211181640625,0.024614986032247543,0.020901218056678772,0.03687037527561188,0.19272403419017792
+x,comment,2072126803762954590,"@undipmfs3 kayanya gbs diulang, kalo B.
+Fokus aja selesaiin sksnya. kalo bisa malah tambahin dari wajibnya + selesaiin secepet mungkin",,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 01:15:02+00:00,0,0,0,0,0.5,0,,better,0.0,neutral,0.8622885942459106,english,Mixed/Urban,Unknown,0.25,fear,0.09915327280759811,0.3624211251735687,0.2259819060564041,0.02313077822327614,0.20482441782951355,0.03038826771080494
+x,comment,2072143953852555736,@undipmfs3 percayalah nder semakin tua semester semakin yaudah yang penting lulus,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,negative,2026-07-01 02:23:11+00:00,0,0,0,0,0.16944400370121002,0,,ka ☾,0.0,negative,0.4351866543292999,multilingual,Unknown,Unknown,0.15,happy,0.026335228234529495,0.049164317548274994,0.7118406295776367,0.013872257433831692,0.13416451215744019,0.02290070615708828
+x,comment,2072170090389545183,@undipmfs3 Pindah prodi sih mendingan nderr,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 04:07:03+00:00,2,0,0,0,0.5,2,,haheng,0.0,neutral,0.8099217414855957,english,Mixed/Urban,Unknown,0.25,love,0.06854517757892609,0.013232531026005745,0.03366552293300629,0.016656585037708282,0.6912946105003357,0.021062614396214485
+x,comment,2072153092804723117,@undipmfs3 Konversi sks aja. Klaim reward peningkatan nilai dari menang lomba/reward fungsionaris organisasi😋,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,positive,2026-07-01 02:59:30+00:00,0,0,0,0,0.8750098466873169,0,,It’s okay,0.0,positive,0.5833661556243896,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.01459868997335434,0.008221609517931938,0.045274682343006134,0.010479803197085857,0.07614358514547348,0.021598532795906067
+x,comment,2072133511361040416,@undipmfs3 kalau B gbs ngulang ga sih nder? minimal C deh klo mau ngulang,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 01:41:42+00:00,5,0,0,0,0.5,5,,raffa,0.0,neutral,0.9969465136528015,malay,Malay/Bumiputera,Unknown,0.15,surprise,0.03398725762963295,0.14404407143592834,0.01369527168571949,0.03672235459089279,0.09893754869699478,0.5812355875968933
+x,comment,2072244297781653873,@undipmfs3 gausah diulang,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-07-01 09:01:55+00:00,0,0,1,0,0.5,3,,dididodo,0.0,neutral,0.7616937160491943,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.06280745565891266,0.050902266055345535,0.04930046945810318,0.0263574980199337,0.30798450112342834,0.061582982540130615
+x,comment,2072089363996143859,@undipmfs3 saranku gausa diulang,,https://x.com/undipmfs3/status/2071965981463781666,2.0719659814637816e+18,neutral,2026-06-30 22:46:16+00:00,0,0,0,0,0.5,0,,waa.,0.0,neutral,0.772668719291687,english,Mixed/Urban,Unknown,0.15,love,0.031223975121974945,0.01724030077457428,0.037495631724596024,0.011989056132733822,0.7819468975067139,0.02627202495932579
+x,post,2073990255565586695,"Najib. Najib. Najib. Dah jadi PM pun masih guna naratif Najib. Dah takde modal nak attack Onn Hafiz, attack Najib je lah. PRN Negeri Sembilan pun attack Najib. Melaka pun attack Najib. Semua salah Najib.
+
+Orang Johor, kita kasi hilang deposit satu kali pada PH kali ni kat semua kerusi jom.",https://x.com/Solisidtor/status/2073990255565586695,,,neutral,2026-07-06 04:39:44+00:00,61,10,30,2756,0.5,128,173.756,,,neutral,0.5724027752876282,english,Mixed/Urban,Unknown,0.0,sadness,0.10711949318647385,0.03613189235329628,0.013721521012485027,0.5198334455490112,0.13424447178840637,0.04315660148859024
+x,comment,2074039874446070166,"@Solisidtor Yang Anwar sebut sebab anak dia &amp; anak menakan yang sebut dlm kempen, UMNO menang besar maknanya Najib bakal bebas.
+
+Siapa sebenarnya yang RATIB !",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 07:56:54+00:00,0,0,0,0,0.04988824278116227,0,,Nor Hakim Yahya,0.0,negative,0.8337058573961258,multilingual,Malay/Bumiputera,Malay/Bumiputera,0.65,happy,0.04601322486996651,0.04772455245256424,0.47079741954803467,0.019745374098420143,0.18394969403743744,0.03237113729119301
+x,comment,2073998607213359403,"@Solisidtor Mana boleh lupa, negara masih bayar hutang 1MDB sampai 2036. Hipokrit https://t.co/1q2R65dYgV",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 05:12:55+00:00,4,0,2,0,0.5,10,,Stethoscope,0.0,neutral,0.8642463088035583,english,Mixed/Urban,Unknown,0.25,love,0.05814284086227417,0.045281000435352325,0.02328871190547943,0.10620806366205215,0.6476150155067444,0.06391047686338425
+x,comment,2074000084501713002,"@Solisidtor Non mungkin lupa (atau buat-buat lupa) yang atas restu Najiblah YB² dari UMNO beri sokongan kepada dia untuk bentuj kerajaan. Betul² kacang lupakan kulit
+
+Sebelum terlupa https://t.co/Ij3xtmbmJq",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 05:18:47+00:00,1,0,2,0,0.0008533000946044922,7,,Zul_85,0.0,negative,0.9971556663513184,malay,Malay/Bumiputera,Unknown,0.25,sadness,0.04029710590839386,0.10622499883174896,0.014088889583945274,0.4583735466003418,0.07019033282995224,0.25596338510513306
+x,comment,2074021424470319556,@Solisidtor @FadhliShaari Nak memperingatkan BN ni ada tali temali dengsn Najib yng menyebabkan negara dihina kerana skandal kewangan terbesar  di dunia. Plundering Idiot.,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 06:43:35+00:00,0,0,0,0,0.11373644471168518,0,,Ambong,0.0,negative,0.6208785176277161,english,Mixed/Urban,Unknown,0.25,anger,0.41370880603790283,0.02405652403831482,0.045289047062397,0.08409196138381958,0.15275047719478607,0.032907579094171524
+x,comment,2074039582870622306,"@Solisidtor Selagi hutang 1MDB / SRC x abis bayar, selama itulah nama Najib “harum”. 
+
+Yang korang pulak, Najib dah masuk ke dalam, abis semua peringkat mahkamah, yang korang melalak ari2 nak bebas Najib tu apa hal pulak.",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 07:55:45+00:00,2,0,0,0,0.5,2,,Nor Hakim Yahya,0.0,neutral,0.8689075112342834,english,Malay/Bumiputera,Malay/Bumiputera,0.65,no_clear_emotion,0.17324168980121613,0.038309577852487564,0.03900948166847229,0.021060479804873466,0.205418661236763,0.03439924493432045
+x,comment,2074012778554433658,"@Solisidtor Sian Din tompok p court x ramai yg sapot!
+Macai belukang dia sibuk kempen utk BN😜",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 06:09:14+00:00,1,0,0,0,0.5,1,,matthaus,0.0,neutral,0.7902891635894775,english,Malay/Bumiputera,Malay/Bumiputera,0.72,love,0.07352010160684586,0.08604889363050461,0.03788302093744278,0.0282412301748991,0.3314191699028015,0.12335720658302307
+x,comment,2074061188376531157,@Solisidtor Mcm kamu la hari hari pmx pmx pmx ph ph ph dap dap dap dap …. Nak bantu rakyat tak pandai,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 09:21:36+00:00,0,0,0,0,0.5,0,,KB,0.0,neutral,0.859411895275116,english,Mixed/Urban,Unknown,0.15,fear,0.11829286068677902,0.33151838183403015,0.016273133456707,0.13465921580791473,0.05906648188829422,0.22872091829776764
+x,comment,2074112003795472448,@Solisidtor Yang ko pulak sibuk PMX PMX PMX tak ada nama lain ko nak attack sebab otak dah masuk air sewel berkarat agaknya hahaha,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 12:43:31+00:00,1,0,0,0,0.5,1,,Iskandar,0.0,neutral,0.7594432234764099,english,Malay/Bumiputera,Malay/Bumiputera,0.65,anger,0.6748064160346985,0.10067190229892731,0.0552554726600647,0.03419382497668266,0.0713592916727066,0.009878108277916908
+x,comment,2074004158890627297,"@Solisidtor Tahulah kau penyokong Rosmah pun..
+Hari² attack PMX..macam takda modal lain jer.. 🤣 https://t.co/xQGm1ssCOZ",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 05:34:59+00:00,3,0,0,0,0.5,3,,ⓜⓘⓐ ツ #ⓒⓞⓨⓖ 🇲🇾🇵🇸🇲🇾,0.0,neutral,0.617281973361969,english,Mixed/Urban,Unknown,0.25,love,0.03180316835641861,0.01609436608850956,0.016883565112948418,0.04464670270681381,0.5852883458137512,0.11348564177751541
+x,comment,2074066971310821466,@Solisidtor Kenapa kau tak berkempen utk PN Sid...dh takda harapan ke kt Johor🤣🤣🤣... https://t.co/sMxeLbspWc,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 09:44:34+00:00,1,0,0,0,0.5,1,,Jantzen,0.0,neutral,0.5796999931335449,english,Mixed/Urban,Unknown,0.25,surprise,0.01920231059193611,0.11052070558071136,0.014059923589229584,0.13869470357894897,0.029583042487502098,0.6369553804397583
+x,comment,2074039919828521087,@Solisidtor PMX masih PM yang terbaik dan kerajaan skrg adalah yang tebaik.,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 07:57:05+00:00,0,0,0,0,0.000498318672180198,0,,Zainudin Hashim,0.0,negative,0.9983389377593994,malay,Malay/Bumiputera,Malay/Bumiputera,0.8,love,0.02182742953300476,0.018532296642661095,0.08223050832748413,0.011856826022267342,0.7195480465888977,0.0423831082880497
+x,comment,2074353413798989952,"@Solisidtor Ni siapa yg submit ni?
+Dia jugak.. 
+kencing manjang https://t.co/c2HQuWa4Tn",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-07 04:42:48+00:00,0,0,0,0,0.5,0,,Tu-Face,0.0,neutral,0.7365018725395203,english,Mixed/Urban,Unknown,0.25,love,0.07324038445949554,0.02762102149426937,0.03466615453362465,0.034354809671640396,0.47820866107940674,0.05765034630894661
+x,comment,2074017614150746569,@Solisidtor https://t.co/WAM3mSNzy5,,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,neutral,2026-07-06 06:28:27+00:00,3,0,0,0,0.5,3,,Hobin Jang Hobin,0.0,neutral,0.829330563545227,english,Mixed/Urban,Unknown,0.25,love,0.10253394395112991,0.044313374906778336,0.09669100493192673,0.051887039095163345,0.3769923448562622,0.04881273955106735
+x,comment,2073999699695263998,"@Solisidtor Tgh ngata bos sendiri ke tu? Mada jd PM  tiap minggu ratib nama Najib. Rakyat sibuk psl kobid, dia dok la ratib nama Najib x sudah. Konon nk jd hero la tu lepas kntoi busuk dgn Najib siap pakej tendang dari umno haha https://t.co/32rOHy3Hut",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 05:17:16+00:00,0,0,0,0,0.0005081892013549805,0,,Jebat Durjana,0.0,negative,0.9983060359954834,malay,Malay/Bumiputera,Unknown,0.25,love,0.25557759404182434,0.09985750913619995,0.03381307050585747,0.06784743070602417,0.3187417685985565,0.03841887041926384
+x,comment,2074001796805038099,"@Solisidtor Orang Johor kasi kaburkan Bersatu, parti yang dah macam kandang kambing jerr",,https://x.com/Solisidtor/status/2073990255565586695,2.0739902555655867e+18,negative,2026-07-06 05:25:36+00:00,1,0,0,0,0.04635291248559953,1,,Adnilja,0.0,negative,0.8454902917146683,multilingual,Unknown,Unknown,0.25,love,0.060626134276390076,0.013968858867883682,0.04178068786859512,0.0287564005702734,0.713132381439209,0.017851345241069794
+x,post,2073597430487253488,"gaji pertamaku di upwork dulu juga cuma $5/jam 😭
+
+itu karena udah pasrah ngelamar beberapa kerjaan di indo ga di terima, akhirnya nyoba main upwork an yg ga mandang nilai ijasah saya.
+
+nilai ijasah sekolah saya cuma pas KKM aja, kecuali 1 mapel: Teknik Kejuruan.
+
+dari temen kerja di upwork lah akhirnya saya mengenal crypto bahkan kita masih berteman dg baik sampai sekarang.
+
+saya pergi merantau bukan karena kerja di kota tersebut, tapi butuh nyari sinyal internet demi bisa kerja.
+
+sampai sekarang pun masih susah sinyal disini sih, jadi latihan detok teknologi dulu beberapa hari kedepan 🤣",https://x.com/direkturcrypto/status/2073597430487253488,,,negative,2026-07-05 02:38:47+00:00,572,57,26,47102,0.0005500316619873047,1126,811.102,,,negative,0.998166561126709,malay,Malay/Bumiputera,Unknown,0.0,fear,0.07065914571285248,0.56885826587677,0.02733665518462658,0.07033782452344894,0.06047298386693001,0.1355564296245575
+x,comment,2073598968874119486,@direkturcrypto wah tahun brp tuh ka? skrg pasti udah lebih dr segitu ya rate nya?,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 02:44:54+00:00,0,0,1,0,0.5,3,,Manusia biasa,0.0,neutral,0.910581648349762,english,Mixed/Urban,Unknown,0.25,love,0.02309429831802845,0.029840348288416862,0.045000895857810974,0.01877015270292759,0.5479207634925842,0.1140337809920311
+x,comment,2073800641487815120,"@direkturcrypto Buat pemula di upwork keknya kurang rekomended deh ketimbang dlu, apalagi sekarang harus sistem connects",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 16:06:16+00:00,0,0,1,0,0.5,3,,Galalukih Galu,0.0,neutral,0.8306403756141663,english,Mixed/Urban,Unknown,0.25,love,0.32855015993118286,0.0650070533156395,0.0505337119102478,0.045728206634521484,0.44026094675064087,0.020662637427449226
+x,comment,2073682051430330778,"@direkturcrypto lanjut bisnis kecil bang, terus gas buatin warkop kecil kecilan tapi wifi spek starlink + farm interlink airdrop",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,negative,2026-07-05 08:15:02+00:00,0,0,1,0,0.14100877940654755,3,,Mamang_galon,0.0,negative,0.5299707353115082,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.11541967839002609,0.03505058214068413,0.0976034626364708,0.03701101243495941,0.19713237881660461,0.03932910040020943
+x,comment,2073625735953363100,"@direkturcrypto susah banget tp pecah telur pertama di upwork itu bang.
+
+sampe sekarang masih fulltime project an di upwork kah?",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 04:31:16+00:00,1,0,1,0,0.5,4,,Diki,0.0,neutral,0.8503221273422241,english,Mixed/Urban,Unknown,0.15,surprise,0.01170527096837759,0.10562505573034286,0.012788788415491581,0.032861463725566864,0.0334450900554657,0.7552880048751831
+x,comment,2073598963656356280,@direkturcrypto Njir gue kuat 24/7 kalo bayaran nya segitu 😂,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 02:44:53+00:00,0,0,1,0,0.5,3,,Tfk 🌅,0.0,neutral,0.8037065267562866,english,Mixed/Urban,Unknown,0.15,love,0.053293026983737946,0.11287656426429749,0.23772050440311432,0.021669510751962662,0.4787968099117279,0.036255210638046265
+x,comment,2073600239139987737,@direkturcrypto taun brp tu ketuaa,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 02:49:57+00:00,0,0,1,0,0.5,3,,Cipher | AI & Web3,0.0,neutral,0.902647852897644,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.043653182685375214,0.014919616281986237,0.056664809584617615,0.01986359991133213,0.2266487181186676,0.026516122743487358
+x,comment,2073599899418136851,"@direkturcrypto Bang modal connect kan , kalau setiap ngajuin ke klien?",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,negative,2026-07-05 02:48:36+00:00,0,0,1,0,0.13797719925642013,3,,0xMoon,0.0,negative,0.5400760024785995,multilingual,Unknown,Unknown,0.25,love,0.05180611088871956,0.015474744141101837,0.03894677758216858,0.019779201596975327,0.6085808873176575,0.022678695619106293
+x,comment,2073632336122699890,"@direkturcrypto Dulu saya pernah kerja di Fiverr dan PPH dari 2017 sampai 2019. Gaji awalnya cuma $5 per project buat bikin animasi. Karena saya mulai fokus ke crypto dan web3, akhirnya saya mutusin buat berhenti.",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 04:57:29+00:00,1,0,1,0,0.5,4,,Dodechaedron,0.0,neutral,0.8224566578865051,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.12051525712013245,0.15939858555793762,0.0211508646607399,0.22029945254325867,0.09391077607870102,0.09657005965709686
+x,comment,2073659955895546233,"@direkturcrypto sy mulai dari elance + odesk, sampe sekarang udah merger jadi upwork. Njirr tua bgt hahaha",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 06:47:14+00:00,0,0,1,0,0.5,3,,Haviz Vaisal,0.0,neutral,0.6755954623222351,english,Mixed/Urban,Unknown,0.25,love,0.02083887718617916,0.007803984917700291,0.03199874609708786,0.011983067728579044,0.8455778360366821,0.0160103440284729
+x,comment,2073757954579603789,@direkturcrypto ajarin bang,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 13:16:39+00:00,0,0,1,0,0.5,3,,tofan_crypto,0.0,neutral,0.8706151843070984,english,Mixed/Urban,Unknown,0.25,love,0.07262246310710907,0.032826364040374756,0.07085069268941879,0.024999236688017845,0.3854823112487793,0.031063711270689964
+x,comment,2073614167408599544,"@direkturcrypto gedhe juga nih 5$ per jam, minTune awal awal gajian ratusan ribu rupiah per bulan 🤣",,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 03:45:18+00:00,0,0,1,0,0.5,3,,Fortune Indonesia,0.0,neutral,0.8057945966720581,english,Mixed/Urban,Unknown,0.25,love,0.06950776278972626,0.05390861630439758,0.17471617460250854,0.029717547819018364,0.3777512311935425,0.038001857697963715
+x,comment,2073617993981182187,@direkturcrypto grats broo that grind paid off fr,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,positive,2026-07-05 04:00:30+00:00,0,0,1,0,0.9911308109760284,3,,khaibill,0.0,positive,0.9704360365867615,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.03373589366674423,0.013969937339425087,0.14233292639255524,0.016605103388428688,0.3525344431400299,0.02305058389902115
+x,comment,2073616866371903552,@direkturcrypto $5 / jam masih lebih besar bang dibanding UMP di indo,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 03:56:01+00:00,0,0,1,0,0.5,3,,Milenialisme,0.0,neutral,0.8907378911972046,english,Mixed/Urban,Unknown,0.25,love,0.0443718396127224,0.01816581003367901,0.060882318764925,0.02735934779047966,0.4753575026988983,0.04414748772978783
+x,comment,2073633425303720150,@direkturcrypto gede kali gajimu pak 😁,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,neutral,2026-07-05 05:01:49+00:00,0,0,1,0,0.5,3,,Pengendali Tongkang ⚓,0.0,neutral,0.6639053821563721,english,Mixed/Urban,Unknown,0.25,love,0.031651075929403305,0.011962531134486198,0.03754212707281113,0.01724465936422348,0.8214697241783142,0.01589314639568329
+x,comment,2073613971282939922,@direkturcrypto belom pernah kerja. gak relate😑,,https://x.com/direkturcrypto/status/2073597430487253488,2.0735974304872535e+18,negative,2026-07-05 03:44:31+00:00,0,0,1,0,0.06448064446449281,3,,andoriginal.hl,0.0,negative,0.7850645184516907,english,Mixed/Urban,Unknown,0.25,surprise,0.011430349200963974,0.04498794674873352,0.01082445215433836,0.03129898011684418,0.025071751326322556,0.8372800946235657
+x,post,2074062032496906683,"Setiausaha politik kepada Perdana Menteri Anwar Ibrahim membidas Khairy Jamaluddin kerana mendakwa menteri besar sementara Negeri Sembilan, Aminuddin Harun, gagal menjaga kepentingan masyarakat Melayu-Islam di negeri itu.
+
+Menerusi hantaran di Facebook hari ini, Kamil Munim mengingatkan Khairy bahawa dengan mengundi Umno bukan jaminan hak Melayu akan kekal selamat. Katanya, bahawa hak tersebut sebaliknya dijamin oleh Perlembagaan Persekutuan dan Raja-raja Melayu. 
+
+Dia juga meminta Khairy menyatakan secara khusus hak Melayu mana telah terhakis atau terancam di bawah kepimpinan Aminuddin, dan menyatakan bahawa hak sedemikian biasanya diancam oleh ""Melayu yang rasuah,"" sambil mendakwa Umno adalah antara mereka. 
+
+Berita penuh: https://t.co/zE2xtIWmme",https://x.com/mkini_bm/status/2074062032496906683,,,negative,2026-07-06 09:24:57+00:00,64,8,19,4247,0.00048286914825440563,133,141.247,,,negative,0.9983904361724854,malay,Malay/Bumiputera,Unknown,0.0,anger,0.6586237549781799,0.13401064276695251,0.048160653561353683,0.040803249925374985,0.040440499782562256,0.018276488408446312
+x,comment,2074145316631425036,@mkini_bm https://t.co/4dIOObuQRC,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,positive,2026-07-06 14:55:53+00:00,0,0,0,0,0.8277479156851768,0,,Marzuki,0.0,positive,0.42582638561725616,multilingual,Unknown,Unknown,0.25,love,0.11562298983335495,0.05940163508057594,0.040773022919893265,0.04773477837443352,0.4925006628036499,0.06707383692264557
+x,comment,2074330522554384557,"@mkini_bm Kecewa sbb dia pun tak dapat bertanding kat Rembau dulu kan? Lepas tu kalah kat Sg. Buloh.. Kena pecat drp UMNO pulaknya lagi.. 😆😂
+
+https://t.co/Ae7TNcmQYJ",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-07 03:11:50+00:00,1,1,0,0,0.04893524944782257,3,,Dewa Said,0.0,negative,0.8368825018405914,multilingual,Unknown,Unknown,0.25,sadness,0.016235627233982086,0.02570473775267601,0.007000683341175318,0.9146335124969482,0.013295787386596203,0.014094826765358448
+x,comment,2074127572519227548,@mkini_bm https://t.co/GnjaZ6n7Gk,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,positive,2026-07-06 13:45:23+00:00,2,1,0,0,0.828846463561058,4,,Abg fir,0.0,positive,0.4294882118701935,multilingual,Unknown,Unknown,0.25,love,0.12957607209682465,0.06311563402414322,0.04818097501993179,0.05392157658934593,0.4786638617515564,0.06195513531565666
+x,comment,2074069266438218011,@mkini_bm Kencing. Kenapa belum saman Bloomberg yang sebut kroni sakau projek???,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 09:53:42+00:00,3,0,3,0,0.06719959974288942,12,,turnera,0.0,negative,0.7760013341903687,multilingual,Unknown,Unknown,0.25,surprise,0.02749011665582657,0.06843113154172897,0.022112276405096054,0.03521415963768959,0.06331367045640945,0.5830450057983398
+x,comment,2074131898281181453,"@mkini_bm Teruk betul negeri sembilan tahun lepas. Kaum muslimah sudah mula pakai saree pergi ke masjid. Acara korban digantikan lembu dengan babi. Minum alkohol pada pagi syawal menjadi kebiasaan. Betul kata KJ, aminudin harun gagal jaga kepentingan melayu islam di negeri itu.",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 14:02:34+00:00,2,0,0,0,0.0004890382289886586,2,,Abu Ramal,0.0,negative,0.9983698725700378,malay,Malay/Bumiputera,Malay/Bumiputera,0.74,love,0.1899596005678177,0.05060561001300812,0.04509039595723152,0.06094196438789368,0.3239385485649109,0.05550269037485123
+x,comment,2074092828804997170,"@mkini_bm Wahai anak muda, pakcik selalu pesan.. KJ ni datang dalam 2 jelmaan, kalau menyerang rakan sendiri biasanya datang dalam bentuk ular.. tapi hari ni lain skit, dia datang dalam bentuk babi 🤣",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 11:27:19+00:00,3,0,0,0,0.00048134922981263317,3,,marco polo,0.0,negative,0.9983955025672913,malay,Malay/Bumiputera,Unknown,0.25,love,0.07879848033189774,0.010565711185336113,0.035378746688365936,0.02295229211449623,0.6448491811752319,0.024660741910338402
+x,comment,2074106617411633544,"@mkini_bm @kamilmunim mohon cerita kan ni. Nak sakau sakau... kok yer pun, kasi lah myKad baru buatan Parhas Salbodo ni ada Touch nGo. Makaseh https://t.co/bu8NWHtWao",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 12:22:07+00:00,0,0,1,0,0.0006821572780609242,3,,ABAS BIN ABD JALIL,0.0,negative,0.9977261424064636,malay,Malay/Bumiputera,Malay/Bumiputera,0.88,love,0.07527902722358704,0.07825517654418945,0.027460739016532898,0.08403848111629486,0.6165743470191956,0.06064549461007118
+x,comment,2074223610701754792,"@mkini_bm Kamil why make comments about @Khairykj in a Facebook posting ? 
+Face to Face lah Kamil with KJ at a live debate hosted by Fahmi's RTM TV !
+For sure KJ easily can win the debate against Kamil 😃",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,neutral,2026-07-06 20:07:00+00:00,0,0,0,0,0.5,0,,Jess,0.0,neutral,0.8047325611114502,english,Mixed/Urban,Unknown,0.15,no_clear_emotion,0.02044857293367386,0.012406756170094013,0.04824389889836311,0.013333415612578392,0.3781202435493469,0.028466880321502686
+x,comment,2074091503539179668,"@mkini_bm Dok sibuk hal kaum sedangkan rakyat sudah naik muakkk...NO UMNO, NO PAS, MELAYU AMANN",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 11:22:03+00:00,0,0,1,0,0.0005007326602936013,3,,Adnilja,0.0,negative,0.9983308911323547,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.11103319376707077,0.02790134958922863,0.053784195333719254,0.0324740931391716,0.31704598665237427,0.022447573021054268
+x,comment,2074123124153655431,@mkini_bm KJ is so far the biggest disappointment...we had hopes in him to be a better leader...a leader who talks with facts and figures and inclusive. I guess we overestimated his conscience.,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 13:27:42+00:00,1,0,0,0,0.03424631953239443,1,,Mockingbird,0.0,negative,0.8858456015586853,english,Mixed/Urban,Unknown,0.25,happy,0.018978532403707504,0.09335676580667496,0.7680125832557678,0.017137836664915085,0.041230324655771255,0.03510993719100952
+x,comment,2074064057536233706,@mkini_bm https://t.co/eCZJT3zjZF,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,positive,2026-07-06 09:33:00+00:00,2,0,0,0,0.8269973263144492,2,,pengesanpenipu 🇲🇾,0.0,positive,0.42332442104816437,multilingual,Unknown,Unknown,0.25,love,0.11012554168701172,0.06269499659538269,0.041029904037714005,0.051938071846961975,0.513496994972229,0.05948324501514435
+x,comment,2074234816837640370,@mkini_bm Budak tongkat 4,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 20:51:32+00:00,0,0,0,0,0.16094498634338378,0,,SonofGoat,0.0,negative,0.4635167121887207,multilingual,Unknown,Unknown,0.25,love,0.049065060913562775,0.01153838261961937,0.03517328202724457,0.023286405950784683,0.5758857131004333,0.025352368131279945
+x,comment,2074349501662523885,@mkini_bm Negara terancam criminal supporter . Kasi pupus Kali ini.,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-07 04:27:15+00:00,0,0,0,0,0.06078110933303832,0,,Francis Hiroshi,0.0,negative,0.7973963022232056,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.08562216907739639,0.02310304157435894,0.07826261222362518,0.022104643285274506,0.22048704326152802,0.033991243690252304
+x,comment,2074074906149654677,@mkini_bm kj ni memang muka penyangak aku pun tak tau apa sumbangan dia selain temberang dia dekat ks yg dia dpt servey 50% belakang pmx bodo sapa pilih dia,,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 10:16:06+00:00,3,0,0,0,0.0004830479621887318,3,,Capt,0.0,negative,0.9983898401260376,malay,Malay/Bumiputera,Unknown,0.15,anger,0.4518203139305115,0.03300853073596954,0.04099263995885849,0.04643215239048004,0.21868114173412323,0.033832352608442307
+x,comment,2074124207366279274,"@mkini_bm Kamil, kau jangan bg aku jijik dgn kau mil. Kita kawan pun lama tau. Ko punya belakang pun kita kawan2 garu tau.",,https://x.com/mkini_bm/status/2074062032496906683,2.0740620324969068e+18,negative,2026-07-06 13:32:01+00:00,0,0,0,0,0.0004947781562805176,0,,Fortino,0.0,negative,0.9983507394790649,malay,Malay/Bumiputera,Unknown,0.25,love,0.11515332013368607,0.013784780167043209,0.02853213995695114,0.029003256931900978,0.6912025809288025,0.019256072118878365
+x,comment,2072062391509258296,"@yusufgunawan Mana ada white collar crime yang dananya masuk ke rekening pribadi. Semoga memang beliau ""dimanfaatkan"" saja, tapi jangan hanya membela diri seperti tidak ada masalah. Bongkar semua. Oiya Jurist Tan ke mana?",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-06-30 20:59:05+00:00,3,0,3,0,0.0007007718086242676,12,,Random essentials.,0.0,negative,0.9976640939712524,malay,Malay/Bumiputera,Unknown,0.25,love,0.05533750727772713,0.13567803800106049,0.086554616689682,0.0506390817463398,0.378319650888443,0.09517666697502136
+x,comment,2072085893368963434,@yusufgunawan Jadi keinget siapa yg instruksi pak nadiem dulu dan orangnya masih melenggang santai2,,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,neutral,2026-06-30 22:32:29+00:00,0,0,1,0,0.5,3,,Pak Upii,0.0,neutral,0.7435036301612854,english,Malay/Bumiputera,Malay/Bumiputera,0.74,happy,0.14035117626190186,0.09219194203615189,0.4640128016471863,0.021976064890623093,0.13335679471492767,0.03103526495397091
+x,comment,2072063515251405131,"@yusufgunawan Katanya dia ngak menerima sepeser pun tapi disuruh mengganti 809 M.kalau penjara 5 tahu,  kok ngak masuk akal putusanya.",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-06-30 21:03:33+00:00,0,0,1,0,0.0005390524864196666,3,,"♡BLG♡ Finance, AI, IHSG.",0.0,negative,0.9982031583786011,malay,Malay/Bumiputera,Unknown,0.25,fear,0.24047185480594635,0.5696617960929871,0.02966691181063652,0.027660831809043884,0.05438274145126343,0.0508718341588974
+x,comment,2072136741352612253,"@yusufgunawan Anehnya kok putusan hakim banyak yg mengabaikan fakta persidangan, kita ini sebenarnya tahu ada yg janggal dan gak beres, tapi gak tahu siapa yg berkepentingan untuk memaksakan hukumannya",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-07-01 01:54:32+00:00,1,0,1,0,0.0004836916923522949,4,,Grestenan,0.0,negative,0.9983876943588257,malay,Malay/Bumiputera,Unknown,0.25,anger,0.3785870373249054,0.311756432056427,0.027557484805583954,0.08814071863889694,0.09029313921928406,0.045331984758377075
+x,comment,2072246173302411397,@yusufgunawan eaaaa lagi belajar counter kalo misal mau ngebela koruptor itu kayak gimana?,,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,neutral,2026-07-01 09:09:22+00:00,0,0,0,0,0.5,0,,Pendukung cincau,0.0,neutral,0.8371907472610474,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.2233981043100357,0.024716190993785858,0.09167618304491043,0.04862690716981888,0.2712981104850769,0.03598642721772194
+x,comment,2072189995394429194,"@yusufgunawan Kalo pihak yang secara hukum seterdidik hakim aja ada dissenting opinion, artinya kan ada keraguan di kebersalahannya.
+
+Kok bisa ada vonis bersalah atas dasar yang goyah seperti itu. 
+
+Karena suara terbanyak? Putusan bersalah harusnya didasarkan atas opini aklamasi hakim.",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-07-01 05:26:08+00:00,0,0,0,0,0.0004859805107116921,0,,Radian Bimaputra,0.0,negative,0.9983800649642944,malay,Malay/Bumiputera,Unknown,0.25,anger,0.3251163959503174,0.04282594472169876,0.07654830068349838,0.09856385737657547,0.1562104970216751,0.03769831731915474
+x,comment,2072168223362121776,"@yusufgunawan ""tidak ada bukti aliran dana sepeser pun ke rekening pribadi Nadiem""
+
+kalo ada bukti seminggu pun bisa dibuktikan.
+sudah jelas ini gak ada buktinya dan dipaksakan.
+banyak yg terlalu anti nadiem, padahal ide dia itu bagus, kendala utamanya ya covid lg lockdown, belajar dari rumah",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-07-01 03:59:38+00:00,0,0,0,0,0.0004839062690734641,0,,babi rusa,0.0,negative,0.9983869791030884,malay,Malay/Bumiputera,Unknown,0.25,love,0.23342265188694,0.023088261485099792,0.042952314019203186,0.027973482385277748,0.500839114189148,0.03377877548336983
+x,comment,2072090203356119235,"@yusufgunawan Tp bnyak ""penjahat"" yg d lepaskan meskipun mrugikn negara dgn hanya ""bersikap baik""",,https://x.com/yusufgunawan/status/2071958593390411889,2.0719585933904118e+18,negative,2026-06-30 22:49:36+00:00,0,1,0,0,0.10149387717247008,2,,A. Mustafa,0.0,negative,0.6616870760917664,multilingual,Unknown,Unknown,0.25,love,0.03955801576375961,0.025080811232328415,0.07123763114213943,0.017976483330130577,0.6195589900016785,0.029776141047477722
+x,post,2072658293357789196,"CANCEL OUT
+
+Kita pun boleh baca penyatuan ummah yang kuat dilaungkan bukan untuk orang Melayu biasa. Ia untuk elit politik mencari kuasa. 
+
+Jelas, terang dan nyata. Bila Pemuda UMNO melaung Muafakat Nasional. Bukan untuk menyatukan semua parti Melayu. 
+
+Ia pinangan kepada parti dalam lain gabungan. Untuk khianat parti Melayu lagi satu. 
+
+Mangsa terbaru tikam menikam politik Melayu adalah BERSATU. 
+
+Makanya laungan “muafakat” itu selective. 
+
+Aku untuk aku. Kamu untuk kamu. 
+
+Kita banya perlu bersatu, kalau ia langkah mencapai kuasa multak. 
+
+Namun dalam sejarah, setiap kali PAS menyatu dengan parti lain, mereka CANCEL OUT parti satu lagi. 
+
+Kerana kolam undi mereka bukan pengundi Cina DAP. Kolam mereka adalah sesama sendiri. 
+
+70 tahun selepas ditubuhkan. PAS menjadi parti paling tinggi kerusi di Parlimen. Despite prestasi pentadbiran teruk di negeri sendiri. 
+
+Terengganu, Kedah, Perlis dulu kubu kuat UMNO. Jatuh satu persatu kepada PAS. 
+
+Kerana UMNO menggunakan corak politik bangsawan. 
+Dan PAS gunakan politik agamawan. 
+
+Dalam sejarah kita saksikan, modal politik agama ini sukar ditumpaskan. 
+
+Bacaan ramai pemerhati politik, dalam 10 tahun PAS akan makin kuat, UMNO akan makin melemah. 
+
+Dan Malaysia akhirnya akan mendapat Kepimpinan melalui Ulamak. 
+
+Tepuk dada tanya selera. Adakah ini yang diperlukan oleh Malaysia? 
+
+Bila Bukan Melayu Islam ialah 42% dari Rakyat Malaysia. 
+
+Salam hormat,
+Liyana Marzuki",https://x.com/liyana_marzuki/status/2072658293357789196,,,negative,2026-07-02 12:26:59+00:00,245,64,14,14082,0.0005104243755340576,463,429.082,,,negative,0.9982985854148865,malay,Malay/Bumiputera,Unknown,0.0,love,0.08720343559980392,0.03586065024137497,0.02872352860867977,0.05095737800002098,0.4528350532054901,0.04908441752195358
+x,comment,2072671682700214634,"@liyana_marzuki Deme ni semua wayang je lebih. X kisah la Bersatu ke, PAS ke, PKR, DAP ke. Tah ape nama parti sekarang pun dah x ambik port dah. Deme semua tau nak wayang je, kerja x buat. So useless je cakap pasal parti politik ni.",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-02 13:20:12+00:00,1,0,1,0,0.06418104171752931,4,,BadMan Podcast,0.0,negative,0.7860631942749023,english,Mixed/Urban,Unknown,0.25,love,0.08397219330072403,0.023377273231744766,0.018993206322193146,0.09548895061016083,0.7153193354606628,0.0195197444409132
+x,comment,2072663893923729874,"@liyana_marzuki Jangan bimbang Bukan Melayu Islam  42% dari rakyat Malaysia.Ia pun tidak akan berlaku.Kalau Melayu Islam sampai tahap85%(akan tercapai),siapakah yg akan diutamakan?
+Itu yg perlu bimbang pada parti Melayu.",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-02 12:49:15+00:00,1,0,0,0,0.00048433542251585804,1,,Kok Peng Goh,0.0,negative,0.9983855485916138,malay,Chinese,Chinese,0.82,surprise,0.0542311891913414,0.15473397076129913,0.03513246029615402,0.05992578715085983,0.16556300222873688,0.3514794409275055
+x,comment,2072669373958087129,"@liyana_marzuki Kalau ulamak tu setaraf dgn arwah Tok Guru Nik Aziz kami redha. Tp yg ada dlm pas semua kelaut... sahabat pun dihina apatah lg "" rakan"" politik @PASPusat @titm_official",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-02 13:11:01+00:00,13,0,0,0,0.0013904213905334695,13,,Genu,0.0,negative,0.9953652620315552,malay,Malay/Bumiputera,Unknown,0.15,love,0.14242510497570038,0.015428634360432625,0.026633931323885918,0.049818407744169235,0.4477504789829254,0.037899430841207504
+x,comment,2072698492053827719,@liyana_marzuki Both UMNO dan PAS ni x brapa nak cerdik. Diorg tau tak yg diorg ni adalah musuh tradisi. Sebab voters diorg adalah kumpulan yg sama. Memang la tunggu masa nak bergaduh besar.,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-02 15:06:44+00:00,5,1,0,0,0.0005042374134063832,7,,Ali Ahmed al Serembani🇲🇾🏴🏴🏴,0.0,negative,0.9983192086219788,malay,Malay/Bumiputera,Malay/Bumiputera,0.65,love,0.046579159796237946,0.018710197880864143,0.014340552501380444,0.03423239663243294,0.4736274480819702,0.14772433042526245
+x,comment,2072928541994610791,"@liyana_marzuki waktu PAS ambil alih bertahun2 akan dtg. waktu tu negara dah maju. Bestlah cuci kaki pastu claim kat rakyat. 
+
+Lps 10 tahun ekonomi reset, masa tu kelam kabut cari solusi, keluarlah kenyataan 'ini ujian', maka berbondong2 yg redha.
+
+yg kena kencing pengundi yg taksub.",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-03 06:20:52+00:00,12,0,0,0,0.07447983026504518,12,,Tiada Nama,0.0,negative,0.7517338991165161,multilingual,Unknown,Unknown,0.25,anger,0.4395752549171448,0.02779880166053772,0.06708495318889618,0.03429664298892021,0.2311123162508011,0.022151444107294083
+x,comment,2072896262102569213,@liyana_marzuki @HartanahTimur PRI 16 ni PAS parti paling tercorot.sebab apa? Sbb dulu ada gelombang kuat tikamana ad kerjasama dgn bersatu.tika itu bersatu duit bnyk krana mahiadin PM.sempat bli ank2 muda dgn brbagai tawaran.,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,neutral,2026-07-03 04:12:36+00:00,2,0,0,0,0.5,2,,awang sulong meroh mudo,0.0,neutral,0.8385700583457947,english,Malay/Bumiputera,Malay/Bumiputera,0.74,love,0.06485483050346375,0.026317710056900978,0.053759921342134476,0.02717277966439724,0.5900437831878662,0.03311947360634804
+x,comment,2073265774052139224,@liyana_marzuki Undi #Bersama… Kancil Terbaik 👍🏻,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,neutral,2026-07-04 04:40:54+00:00,0,0,0,0,0.5,0,,Progressive Malaysian,0.0,neutral,0.9975926280021667,malay,Malay/Bumiputera,Unknown,0.25,love,0.029265284538269043,0.0191661287099123,0.06205504387617111,0.015870019793510437,0.7420435547828674,0.023105958476662636
+x,comment,2072807087089066211,@liyana_marzuki https://t.co/bBiWJuR0wp,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,neutral,2026-07-02 22:18:15+00:00,0,0,0,0,0.5,0,,Eam ( elo ),0.0,neutral,0.8807490468025208,english,Mixed/Urban,Unknown,0.25,love,0.10597509145736694,0.055733371526002884,0.055052049458026886,0.04982190206646919,0.6187251806259155,0.037456363439559937
+x,comment,2072846825049194640,@liyana_marzuki ...liar,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-03 00:56:09+00:00,0,0,0,0,0.07005672454833983,0,,Razif Razak,0.0,negative,0.7664775848388672,english,Malay/Bumiputera,Malay/Bumiputera,0.65,love,0.10001582652330399,0.04458828642964363,0.04296981543302536,0.036990560591220856,0.6734757423400879,0.028265010565519333
+x,comment,2072864300017111322,@liyana_marzuki @Jaiyen_nakal Muka2sewel,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,neutral,2026-07-03 02:05:35+00:00,0,0,0,0,0.5,0,,AbahTokWan,0.0,neutral,0.867473304271698,english,Mixed/Urban,Unknown,0.25,love,0.1974094659090042,0.0646064355969429,0.10462567210197449,0.042784176766872406,0.43911638855934143,0.028652291744947433
+x,comment,2073212521444753800,@liyana_marzuki Naive and ignorant people can’t see through their games .,,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-04 01:09:18+00:00,0,0,0,0,0.03122958540916443,0,,Patrick Gan,0.0,negative,0.8959013819694519,english,Chinese,Chinese,0.82,anger,0.7060418725013733,0.0730045959353447,0.033590126782655716,0.02673002891242504,0.05739978328347206,0.022995658218860626
+x,comment,2072703788075655173,"@liyana_marzuki Those satan never learnt their lesson. RM4.5T is a huge amount we've lost. Its time to make those robbers dissappear from Msian politic platform🤞Vote them out! We need a good governance like Madani. Please, we cant afford to lose more $$🙏 https://t.co/fG3CTwa3oo",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,negative,2026-07-02 15:27:46+00:00,3,0,0,0,0.04198588728904723,3,,Ne0,0.0,negative,0.8600470423698425,english,Mixed/Urban,Unknown,0.15,love,0.11991971731185913,0.10430394113063812,0.06878877431154251,0.2901473343372345,0.3290844261646271,0.029552225023508072
+x,comment,2072849345049985389,"@liyana_marzuki Org Melayu benci penyatuan Melayu, pelik la ko ni",,https://x.com/liyana_marzuki/status/2072658293357789196,2.0726582933577892e+18,neutral,2026-07-03 01:06:10+00:00,0,0,0,0,0.5,0,,Shamddy,0.0,neutral,0.9073805809020996,english,Mixed/Urban,Unknown,0.25,love,0.1639893800020218,0.017138227820396423,0.05853652209043503,0.04640357941389084,0.52686607837677,0.025939475744962692
+x,post,2073321960977879533,"Setelah gagal dapetin Mateus Fernandes, belum ada kabar lagi siapa yang bakal diincar MU selanjutnya...
+
+Tapi for sure mereka bakal nyoba approach Alex Scott nggak sih?
+
+IMO, dia punya technical quality yang bagus pas lagi pegang bola. Passing nya clean, ball carrying nya bagus, situasi ruang sempit juga oke dia.
+
+Ketika lagi di press juga kalem, dan dia selalu scanning sebelum nerima bola (good awareness).
+
+Aspek OOP dia juga nggak jelek-jelek amat. He defends his spaces really well. Mungkin ini juga hasil dari coaching nya Iraola di Bournemouth.
+
+Dia juga termasuk pemain homegrown, itu juga jadi nilai plus.
+
+I think dia paling cocok main di posisi #8, which is posisi yang sama kayak Mainoo. 
+
+Not sure dia bisa main bareng Mainoo, transisi defensif bakal jadi issue. Mungkin bisa, tapi di situasi spesifik ketika MU bisa lebih banyak pegang bola.
+
+Inilah kenapa gw berharap Tchouameni dateng. Tchouameni bakal cocok main bareng siapa aja, baik Mainoo maupun Scott.
+
+Masalahnya... gw juga nggak yakin MU mau bayar dia £80m.
+
+Mengingat mereka nggak mau bayar £85m buat Mateus, dan gw percaya MU menilai Mateus lebih tinggi daripada Scott, dan gw setuju.
+
+Mungkin Scott bakal dikejar kalau dia available di kisaran £65m, walaupun jujur gw ragu Bournemouth bakal jual di harga segitu... kecuali Scott kasih statement, ""only want United."" 🤣
+
+Ketakutan terbesar gw adalah United malah bayar harga Mateus (£85m) buat pemain yang kualitasnya di bawah Mateus karena ""nggak ada pilihan lagi"" 🫠",https://x.com/UTDEve/status/2073321960977879533,,,negative,2026-07-04 08:24:10+00:00,69,5,13,7974,0.0005011260509490967,166,125.974,,,negative,0.9983295798301697,malay,Malay/Bumiputera,Unknown,0.0,fear,0.10875607281923294,0.722870409488678,0.04087943956255913,0.013652676716446877,0.017509661614894867,0.05844302102923393
+x,comment,2073332654276018208,"@UTDEve dari rumour rumour yang ada tuh pemain pemain yang berposisi no.8 ke 10, apa mainoo nggak mempertanyakan tuh, kok bisa butuhnya no.6 tapi tertariknya ke pemain no.8 yang notabene replacement mainoo, atau mau pakai taktik dari 2 match akhir musim",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,negative,2026-07-04 09:06:40+00:00,0,0,3,0,0.0007782876491546631,9,,Ddhou,0.0,negative,0.9974057078361511,malay,Malay/Bumiputera,Unknown,0.15,surprise,0.026644360274076462,0.0645015761256218,0.037099532783031464,0.029932629317045212,0.18674656748771667,0.5096310377120972
+x,comment,2073323504548639074,@UTDEve Bursa transfer tutupnya kapan sih? Masih lama kan?,,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,neutral,2026-07-04 08:30:18+00:00,0,0,1,0,0.5,3,,Bhima Lakhsetya Jati,0.0,neutral,0.9250348210334778,english,Mixed/Urban,Unknown,0.25,surprise,0.02688964456319809,0.05484174191951752,0.023481138050556183,0.04289384186267853,0.2129092663526535,0.5331337451934814
+x,comment,2073333364728410415,"@UTDEve ini sih mirip2 mainoo ya profilnya, jujur emang cocoknya mainoo tuh duet sm yg profilnya kaya mateus biar saling melengkapi",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,negative,2026-07-04 09:09:29+00:00,0,0,1,0,0.14399658143520355,3,,arya,0.0,negative,0.5200113952159882,multilingual,Unknown,Unknown,0.15,love,0.0974697396159172,0.04774719104170799,0.13676393032073975,0.0173774566501379,0.6221142411231995,0.02500937692821026
+x,comment,2073328288869830689,@UTDEve match akhir musim lalu saat Carrick duetin Mainoo dan Mount adalah gambaran kecil kalau main tanpa Dm murni,,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,neutral,2026-07-04 08:49:19+00:00,0,0,1,0,0.5,3,,Opini United,0.0,neutral,0.9977167844772339,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.040836650878190994,0.022490020841360092,0.037982769310474396,0.018281137570738792,0.05579628422856331,0.03708832710981369
+x,comment,2073349107339718975,"@UTDEve Kalo emang mau setup buat maino serta aspek gaji, price tag dan ""only want united"" ya baleba. 
+
+Pandangan orang ke baleba menurutku terlalu harsh, cuman 1 season off lo. Package £60- £70jt i think is fair, kalo liat bracket £100jt pemain judi aka tonali mentok avg 7 di tiap match",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,neutral,2026-07-04 10:12:02+00:00,2,0,1,0,0.5,5,,Haji_me,0.0,neutral,0.6072053909301758,english,Mixed/Urban,Unknown,0.25,love,0.06902649998664856,0.02186368592083454,0.09405414760112762,0.02910006046295166,0.6651849746704102,0.02240481600165367
+x,comment,2073326343186780522,@UTDEve Semoga dpt yg kali ini. Berapapun harganya harus. Kalo bisa sama Tchou tp akan jd hal yg hampir mustahil,,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,positive,2026-07-04 08:41:35+00:00,0,0,1,0,0.9993807315826415,3,,Chris,0.0,positive,0.9979357719421387,malay,Malay/Bumiputera,Unknown,0.15,fear,0.026716560125350952,0.8818649649620056,0.01892109401524067,0.01671459898352623,0.009318409487605095,0.03442138060927391
+x,comment,2073355112626733535,"@UTDEve Sepertinya susah kalo ngga mau spend yg diluar budget klub, karena pasti harga yg dipatok ikut standar midfield yg baru +-80 jt pounds, balik lg kalo masih tarik ulur, waktu akan habis dan yg terjadi panic buying.",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,negative,2026-07-04 10:35:54+00:00,0,0,0,0,0.0006724834442138894,0,,Richardus Yudha,0.0,negative,0.9977583885192871,malay,Malay/Bumiputera,Unknown,0.25,fear,0.19771386682987213,0.6946015357971191,0.014947856776416302,0.025480031967163086,0.02396087720990181,0.021574081853032112
+x,comment,2073368424332534235,@UTDEve Bakal diledekin habis sih kalau beli scott 85jt 😌,,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,neutral,2026-07-04 11:28:48+00:00,0,0,0,0,0.5,0,,Trisula Merah,0.0,neutral,0.9909161925315857,malay,Malay/Bumiputera,Unknown,0.25,love,0.0468129962682724,0.037532415241003036,0.10359982401132584,0.032933082431554794,0.5400657057762146,0.05260077118873596
+x,comment,2073339302164255030,"@UTDEve Gw ga yakin mu bakal beli dia. Feeling gw sih MU bakal fight buat beli Tchoua &amp; berge. No 8 udh ada ederson buat backup, no 6 beli berge+tchouameni",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,positive,2026-07-04 09:33:05+00:00,1,0,0,0,0.9878130972385406,1,,Yung Bratz,0.0,positive,0.9593769907951355,malay,Malay/Bumiputera,Unknown,0.25,fear,0.030702490359544754,0.5683532357215881,0.05058745667338371,0.017151683568954468,0.01566317491233349,0.28615471720695496
+x,comment,2073372784135401554,@UTDEve Emyu mau rekontruksi lini tengah tapi gamau ngeluarin biaya tinggi,,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,neutral,2026-07-04 11:46:07+00:00,0,0,0,0,0.5,0,,Akun Efootball,0.0,neutral,0.9974853992462158,malay,Malay/Bumiputera,Unknown,0.25,fear,0.03208217769861221,0.8833169937133789,0.015634553506970406,0.015895679593086243,0.015449857339262962,0.02584131807088852
+x,comment,2073327070374195514,"@UTDEve Santai aja gausah panik, allure dr man utd dan UCL itu rill...
+
+80jt buat pemain inggris mgkin masih bs diterima asal gajinya masuk, kalo ga yaa gausah belanja dr premier league lah mahal mahal bgt disini 😭",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,negative,2026-07-04 08:44:28+00:00,1,0,0,0,0.0005499243736267201,1,,azalael,0.0,negative,0.9981669187545776,malay,Malay/Bumiputera,Unknown,0.25,fear,0.13318178057670593,0.5782468318939209,0.02569611929357052,0.051651570945978165,0.1190740317106247,0.049982763826847076
+x,comment,2073335888873173480,"@UTDEve sedangkan scott sendiri fans berat spurs dari kecil, dia juga pernah bilang pengen main buat spurs suatu hari nanti, kemungkinan besar scott bakal perpanjang kontrak sama bmth, musim panas tahun depan spurs yang bakal ngejar dia buat long term.nya pengganti maddison",,https://x.com/UTDEve/status/2073321960977879533,2.0733219609778796e+18,negative,2026-07-04 09:19:31+00:00,1,0,0,0,0.0004995524883270042,1,,revelll,0.0,negative,0.9983348250389099,malay,Malay/Bumiputera,Unknown,0.25,love,0.02500072680413723,0.012629115954041481,0.03375205770134926,0.01722100004553795,0.8421988487243652,0.023721864446997643
+x,post,2074394034198773961,"Njan cerita pernah dimarahin sang ayah, Sule, ketika nilai raport nya jelek akibat keseringan main valorant dan kebanyakan begadang.
+
+Radit: Paling pagi main valorant itu sampe jam berapa? 
+Njan: Seharian aku pernah, seharin kaya dari malam dari jam 7 sebenarnya ngga seharian banget sih kaya 12 jam sampe 15 jam aku pernah.
+Radit: Jam 7 malam sampai jam 7 pagi.
+Njan: Sampe jam 7 atau jam 10 pernah 
+Radit: Gilaa.
+Njan: Jadi istirahatnya bentar doang, itu kalau waktu itu lagi ngepush ngepushnya.
+
+Radit: Momennya katanya dimarahin orang tua baru akhirnya stop. Itu masih inget ngga dimarahinnya kaya apa tuh?
+Njan: Itu momennya pas kelas 7 mau naik kelas 8 ayah tuh kan biasanya kalau lagi bagi raport dia tuh selalu dateng dan nge vlog. Nah ayah tuh udah kebiasaan kaya gitu dari dulu dari zaman teh putri masih smp.
+Radit: Okee.
+
+Njan: Nah ayah tuh mungkin kagetnya biasanya oke nih raport bagus, nah pada saat itu tiba-tiba dateng “mohon maaf nih njan gini gini gini, terus dikasih tau nilainya anjlok” 
+Radit: Kamera lagi ada nih.
+Njan: Kamera lagi ada, malu dong dia. Ini gue harus gimana nih, akhirnya pulang dan masih direkam tuh tiba-tiba banting raportnya. 
+Radit: Didalam kamera?
+Njan: Iya dan aku lagi main game. 
+
+Radit: Hahaha masih ada videonya?
+Njan: Masih-masih itu divlognya ayah tuh.
+Radit: Terus?
+
+Njan: Terus akhirnya, kirain bercanda aku ketawa-ketawa aja, karena dia bawa kamera kan biasanya bercanda aja gitu kan. Terus ayah bilang “Ini kamu gimana nilai kok bisa jelek gini, makanya dikitin main gamenya jangan begadang nilainya jadi jelek kaya gini” intinya diomelinlah.  Terus akhirnya off cam kayanya pura-pura ini terus aku cek diraport dan benar-benar jelek. Udah akhirnya disitu ayah ngomong lagi sama aku.
+Radit: Jelek tuh dapet apa sih kalau anak zaman sekarang tuh 5 gitu jelek gitu ya?
+Njan: Nilainya sih, kalau aku kemarin dirangkingnya agak bawah.",https://x.com/insidefolkative/status/2074394034198773961,,,negative,2026-07-07 07:24:12+00:00,108,3,12,27386,0.0005036652088165061,396,177.386,,,negative,0.9983211159706116,malay,Malay/Bumiputera,Unknown,0.0,love,0.21560485661029816,0.1262255311012268,0.03560461103916168,0.12011729180812836,0.31866297125816345,0.040229685604572296
+x,comment,2074400453593550938,@insidefolkative Gamer kalo udah ketagihan push rank emang suka lupa waktu sampai raport anjlok.,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 07:49:43+00:00,0,0,0,0,0.5,0,,AH.,0.0,neutral,0.8568950891494751,english,Mixed/Urban,Unknown,0.15,sadness,0.0452902615070343,0.0507051907479763,0.0076567246578633785,0.7920180559158325,0.05798260495066643,0.02836490608751774
+x,comment,2074397039870493027,"@insidefolkative istirahat sedikit otomatis belajar juga sedikit, bisa 12-15 jam cuma buat maen game. lagi booming² nya valorant keknya jadi nyepelein belajar, tapi itu kan dulu ya",,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 07:36:09+00:00,1,0,0,0,0.5,1,,tew,0.0,neutral,0.8024381399154663,english,Mixed/Urban,Unknown,0.15,happy,0.0801239088177681,0.19127997756004333,0.2519800066947937,0.04238515347242355,0.24931909143924713,0.05356581136584282
+x,comment,2074426054765408630,@insidefolkative Wkwk hampir gak bisa bedain mana lagi marah/canda,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 09:31:27+00:00,0,0,0,0,0.5,0,,saka,0.0,neutral,0.846133828163147,english,Mixed/Urban,Unknown,0.15,surprise,0.02594136819243431,0.34373176097869873,0.015147386118769646,0.07795246690511703,0.020337793976068497,0.48498964309692383
+x,comment,2074395234826625529,@insidefolkative yg penting udhh berubahh,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 07:28:59+00:00,0,0,0,0,0.5,0,,sgracels,0.0,neutral,0.7904821634292603,english,Mixed/Urban,Unknown,0.25,love,0.019999343901872635,0.05450756102800369,0.1543949842453003,0.026358352974057198,0.3262050449848175,0.2510721683502197
+x,comment,2074405999361012114,"@insidefolkative Wah relatable banget, dulu juga sering push rank sampe lupa waktu, lupa makm,  lupa belajar. Untungnya akhirnya sadar, respect Njan share ceritanya jujur!",,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 08:11:45+00:00,0,0,0,0,0.5,0,,wahyudin,0.0,neutral,0.45949310064315796,english,Mixed/Urban,Unknown,0.25,sadness,0.09589920938014984,0.2177661508321762,0.016013305634260178,0.3800351917743683,0.11537103354930878,0.13135606050491333
+x,comment,2074394083062399109,@insidefolkative 👏🏻👏🏻,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,positive,2026-07-07 07:24:24+00:00,0,0,0,0,0.9786828935146331,0,,Ahlun Najaenanuri WH,0.0,positive,0.9289429783821106,english,Mixed/Urban,Unknown,0.25,love,0.052196815609931946,0.022999059408903122,0.08530426770448685,0.020478369668126106,0.6957066655158997,0.019757864996790886
+x,comment,2074394789391556776,"@insidefolkative Wajar sih pernah di fase itu. Semua anak gamer pasti pernah ""ngepush rank lupa waktu""
+Yg penting sekarang udah sadar dan lebih dewasa.
+Bangga sama Njan yg mau cerita jujur 🤍",,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,positive,2026-07-07 07:27:12+00:00,1,0,0,0,0.9993605613708496,1,,syaa.,0.0,positive,0.997868537902832,malay,Malay/Bumiputera,Unknown,0.15,sadness,0.08031396567821503,0.21061939001083374,0.02081998623907566,0.33745312690734863,0.10392021387815475,0.18038290739059448
+x,comment,2074417005550268421,@insidefolkative Hahahaha keseringan bercanda jadinya dimarahin beneran tetepcketawa2 😭,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 08:55:29+00:00,0,0,0,0,0.5,0,,Faisal,0.0,neutral,0.5317273736000061,english,Malay/Bumiputera,Malay/Bumiputera,0.65,anger,0.34484654664993286,0.30312255024909973,0.028091182932257652,0.07836901396512985,0.14508885145187378,0.02941708266735077
+x,comment,2074395147182481773,@insidefolkative suka duka anak komedian,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,positive,2026-07-07 07:28:38+00:00,0,0,0,0,0.8876706957817078,0,,Yourinspire,0.0,positive,0.6255689859390259,multilingual,Unknown,Unknown,0.25,love,0.05787506699562073,0.010263246484100819,0.038300301879644394,0.014900408685207367,0.73508620262146,0.014250540174543858
+x,comment,2074397897387340217,@insidefolkative 12 jam main game gila pantesan ayahnya marah,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 07:39:33+00:00,1,0,0,0,0.5,1,,kanna,0.0,neutral,0.8477405309677124,english,Mixed/Urban,Unknown,0.15,no_clear_emotion,0.04915427416563034,0.015587875619530678,0.07041419297456741,0.021038448438048363,0.3748939037322998,0.031101102009415627
+x,comment,2074432044717973825,"@insidefolkative masih sekolah Valo, udah kerja FM",,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 09:55:15+00:00,0,0,0,0,0.5,0,,William Harry (💤💤💤),0.0,neutral,0.8814108371734619,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.04294905066490173,0.05365370959043503,0.05197214335203171,0.0219416581094265,0.2725605368614197,0.13825763761997223
+x,comment,2074400385247436889,@insidefolkative Ya pantes aja dimarahin,,https://x.com/insidefolkative/status/2074394034198773961,2.074394034198774e+18,neutral,2026-07-07 07:49:26+00:00,0,0,0,0,0.5,0,,starlla,0.0,neutral,0.866740345954895,english,Mixed/Urban,Unknown,0.25,love,0.0828932449221611,0.027315184473991394,0.06210523471236229,0.02669614925980568,0.7145265340805054,0.019130731001496315
+x,post,2073409762960777246,"jadi yang belum paham. . . 
+ada beberapa agen nakal yang make nama klub besar buat naikan nilai tawar.
+
+contohnya gini. . .
+misalnya.
+
+X adalah agen dari Donnarumma, si donna di incer AC Siena.
+si agen dan klub asal sdg nego dg klub tujuan.
+
+si agen tengil ini, nelpon Juventus, dan Barcelona. menawarkan Donnarumma. 
+
+lalu dia bilang ke media, bahwa si Donnarumma selain diminati AC Siena juga sedang membuka pembicaraan dengan Juventus dan Barcelona.
+
+paniklah itu AC Siena pas bu:a koran pagi2, saingannya juve dan barca. 
+
+nah madrid mengantisipasi hal tersebut.",https://x.com/direktoridosen/status/2073409762960777246,,,neutral,2026-07-04 14:13:04+00:00,14,3,11,3577,0.5,63,56.577,,,neutral,0.9931678175926208,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.23865023255348206,0.037282686680555344,0.03563975542783737,0.028488505631685257,0.18147477507591248,0.044109635055065155
+x,post,2073624990650695949,"ada utas menarik yang ditulis oleh krimilog UI. @RidhaIntifadha S.Sos.
+—(dulu gelar S1 Kriminolohi, masih S.Sos)
+— utas asli ada di reply
+
+begini rangkuman nya.
+
+1). Utas ini merespons kekhawatiran soal pembebasan ribuan narapidana karena lapas kelebihan kapasitas, risiko mereka residivis lagi, dan napiter yang program deradikalisasinya kena potong anggaran. 
+—(mau ada program pemerintah, napi dibebaskan dan dijadikan komcad, lalu jadi petani).
+
+2). M. Ridha bilang kekhawatiran itu wajar dan valid. Tapi ia jelaskan fakta sistem pemasyarakatan supaya diskusi lebih seimbang.
+
+3). Ia mulai dari dasar. Dulu penjara warisan kolonial lebih ke arah hukum dan asingkan pelaku. Sekarang sistem pemasyarakatan Indonesia tujuannya membina dan pulihkan narapidana biar bisa reintegrasi ke masyarakat. Makanya ada remisi, pembebasan bersyarat, dan amnesti sebagai hak bersyarat.
+
+4). Untuk dapat hak itu, narapidana harus lewat beberapa asesmen. Syarat utamanya tiga: berkelakuan baik, turun tingkat risiko, dan aktif ikut program pembinaan.
+
+5). Berkelakuan baik diukur lewat ISPN yang nilai risiko keamanan, lama pidana, sisa pidana, dan jenis kejahatan. Kalau melanggar aturan di lapas bisa dipindah ke tempat lebih ketat. Kalau bagus, bisa turun ke lapas medium atau minimum yang banyak program pelatihan kerja.
+
+6). Ada asesmen risiko residivisme buat ukur kemungkinan mengulang kejahatan setelah bebas. Hasilnya rendah, sedang, atau tinggi. Yang tinggi susah dapat hak bersyarat.
+
+7). Ada juga asesmen kebutuhan kriminogenik buat tahu faktor penyebab kejahatan dan intervensi yang pas. Misalnya rehabilitasi narkoba, konseling keluarga, pendidikan paket, atau pelatihan kerja sesuai kebutuhan masing-masing.
+
+8). Khusus napiter, harus ada ikrar setia kepada NKRI. Contoh keberhasilannya Umar Patek yang sekarang bebas bersyarat dan aktif sebagai fotografer makro serta peracik kopi di IG. Tapi data BNPT 2023 bilang 8 persen dari 1.200 eks napiter yang deradikalisasi dalam 10 tahun terakhir residivis. Napiter risiko tinggi tetap tidak dapat amnesti tahun lalu.
+
+9). Soal lapas penuh sesak, memang mayoritas karena kasus narkoba, terutama pemakai yang sebenarnya korban butuh rehabilitasi, bukan ancaman keamanan. Ini karena over kriminalisasi di hulu, dari polisi, jaksa, sampai pengadilan. Lapas cuma di ujung.
+
+10). Solusi selain amnesti? Khilafah? ya bukan.
+ybs bilang, harus bangun lapas baru tidak selesaikan akar masalah. Remisi dan bebas bersyarat memang ada, tapi terikat waktu atau momen tertentu. Lebih baik hentikan over kriminalisasi dan manfaatkan pidana alternatif di KUHP baru seperti kerja sosial atau pengawasan. Amnesti bisa dipakai presiden buat yang sudah lewat asesmen ketat plus alasan kemanusiaan seperti sakit menahun, lansia, atau gangguan jiwa.
+
+11). Di penutup ia bilang keamanan masyarakat bukan cuma soal tembok tinggi atau kurung banyak orang. Tapi seberapa berhasil kita pulihkan mereka. Kriminologi ajarkan memulihkan jauh lebih penting daripada sekadar menghukum. Program reintegrasi dengan asesmen ketat bantu pastikan mereka siap balik ke masyarakat. Takut wajar, tapi jangan sampai tutup mata dari pentingnya pemulihan.",https://x.com/direktoridosen/status/2073624990650695949,,,negative,2026-07-05 04:28:18+00:00,15,11,7,2611,0.00048694610595700905,59,60.611,,,negative,0.9983768463134766,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.2447461485862732,0.07456259429454803,0.06675884872674942,0.047592733055353165,0.11996641755104065,0.0420273020863533
+x,post,2072201486633947284,"‘BN juga lawan PN, mana mungkin mereka bantu kita’
+
+https://t.co/S0nEzFBz6x",https://x.com/UMonline/status/2072201486633947284,,,negative,2026-07-01 06:11:48+00:00,7,2,7,1089,0.12068063914775848,26,33.089,,,negative,0.597731202840805,multilingual,Unknown,Unknown,0.0,love,0.12249061465263367,0.032950516790151596,0.02535441145300865,0.042329441756010056,0.6722958087921143,0.026759542524814606
+x,post,2073683141890625668,"Ironinya, UMNO Negeri Sembilan yang keluar dari Kerajaan Negeri. Sudah² la isu Melayu Terancam. Sampai bila kita mahu gunakan kesalahan sendiri untuk minta kuasa?",https://x.com/abuhafiz1/status/2073683141890625668,,,negative,2026-07-05 08:19:22+00:00,184,62,6,4218,0.0004945993423461914,294,330.218,,,negative,0.9983513355255127,malay,Malay/Bumiputera,Unknown,0.0,love,0.08575230091810226,0.0824107825756073,0.031222335994243622,0.1182856336236,0.5754638910293579,0.051975369453430176
+x,post,2074007197713883333,-ness kalian yang TA nya artikel (khususnya yang ga sidang) pas mau minta nilai ke dosbing gimana caranya? chat kah atau ketemu langsung?? (kindly reply pls aku deg2an😭🙏🏻),https://x.com/unicefess/status/2074007197713883333,,,negative,2026-07-06 05:47:03+00:00,32,0,6,6550,0.00048124194145204857,103,56.55,,,negative,0.9983958601951599,malay,Malay/Bumiputera,Unknown,0.0,love,0.10440690070390701,0.12832891941070557,0.041820768266916275,0.08049681037664413,0.5419754385948181,0.05518633499741554
+x,post,2074402789292388852,"Unjuran di bawah bukan sekadar copy paste keputusan PRU15. Kalau betul-betul ikut keputusan PRU15, unjuran akan jadi BN-27 / PH-18 / PN-11.
+
+Peta ikut PRU15:                        Peta ikut Ar-Ruzzi: https://t.co/lnlQ7SBtcE",https://x.com/ar_ruzzi/status/2074402789292388852,,,negative,2026-07-07 07:59:00+00:00,59,11,5,8232,0.06388517618179321,157,104.232,,,negative,0.787049412727356,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.017444679513573647,0.02470005303621292,0.03656184300780296,0.01532411202788353,0.038968831300735474,0.08013104647397995
+x,post,2073409042530422814,"Dulu aku sama suami kerja di kantor yang sama. Waktu itu kantor lagi nerima anak PKL. Mereka dibagi ke beberapa divisi, tapi nggak ada yang masuk ke divisiku karena kerjaannya cukup riskan. Salah satu anak PKL cewek dari sekolah kedinasan ditempatkan di divisi suamiku, jadi mereka memang tukeran nomor WA buat urusan kerja.
+
+Aku nggak pernah ketemu atau ngikutin anak itu. Sampai suatu malam, sekitar jam 3 pagi pas aku bangun mau salat malam, tiba-tiba ada chat masuk ke HP suamiku dari anak PKL itu.
+
+Isinya cuma, ""Boleh cerita nggak?"" Aku yang baca langsung heran, jam segitu chat tanpa salam, tanpa minta maaf. Aku bales, ""Apa?"" Dia jawab kalau dengar suara Pak R dari kamar sebelah kayak lagi kesakitan. Aku suruh aja cek sendiri, tapi dia bilang nggak berani.
+
+Yang bikin aku kesel, mereka tinggal di mess kantor dan di sana masih banyak teman-teman lain yang juga tinggal di mess. Kenapa malah chat suamiku jam 3 pagi? Akhirnya langsung aku blokir nomornya.
+
+Besoknya aku bilang ke suamiku kalau anak itu nggak sopan dan harus dikasih tahu etika berkomunikasi. Bahkan aku sempat bilang jangan sampai nilai PKL-nya jelek gara-gara sikap seperti itu. 
+
+Akhirnya penilaian PKL dia diserahkan ke temanku. Selama sisa masa PKL, aku nggak pernah ketemu dia lagi karena tiap ada acara kantor dia selalu menghindar. Dari situ aku minta izin ke atasan buat bikin aturan khusus anak PKL, mulai dari jam kerja, job desk, sampai etika dan sopan santun ke rekan kerja.
+
+Beberapa waktu kemudian suamiku pindah kerja. Dia punya dua bawahan cewek, salah satunya masih baru lulus SMA. Suatu hari bawahan itu chat, ""Pak mau curhat."" Aku yang baca langsung merasa kurang pas. Aku bilang lagi ke suamiku supaya ngajarin staf soal etika komunikasi. 
+
+Akhirnya suamiku chat balik, ""Kalau chat saya tolong yang sopan ya."" Untungnya bawahannya langsung paham dan balas, ""Siap, salah Pak.""
+
+Buatku, intinya bukan soal curhat atau chat-nya, tapi soal tahu batasan dan etika saat berkomunikasi dengan rekan kerja, apalagi dengan atasan yang sudah berkeluarga.",https://x.com/KapudS640/status/2073409042530422814,,,negative,2026-07-04 14:10:12+00:00,19,2,5,9695,0.0004984259605407826,122,47.695,,,negative,0.9983385801315308,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.08596958220005035,0.11545196920633316,0.00844570342451334,0.6588815450668335,0.0323505699634552,0.0693495124578476
+x,post,2074063265433579636,"The political secretary to Prime Minister Anwar Ibrahim has criticised Khairy Jamaluddin for alleging that caretaker Negeri Sembilan menteri besar Aminuddin Harun had failed to safeguard the interests of the Malay-Muslim community in the state.
+
+In a Facebook post today, Kamil Abdul Munim reminded Khairy that voting for Umno is not a guarantee that Malay rights will remain secure, adding that such rights are instead guaranteed by the Federal Constitution and the Malay rulers.
+
+He also asked Khairy to specify which Malay rights had been eroded or undermined under Aminuddin’s leadership, instead saying that such rights are typically threatened by “corrupt Malays”, and that Umno is among them.
+
+Full story: https://t.co/Sb2lDmZxBJ",https://x.com/malaysiakini/status/2074063265433579636,,,neutral,2026-07-06 09:29:51+00:00,12,5,5,4204,0.5,64,41.204,,,neutral,0.5208980441093445,english,Mixed/Urban,Unknown,0.0,anger,0.624374508857727,0.09914705902338028,0.14234760403633118,0.022434966638684273,0.05631148815155029,0.011391771957278252
+x,post,2073744220259557493,"'Kalau dah lima kali kalah, berilah peluang parti komponen lain' - Tok Mat 
+
+Barisan Nasional (BN) masih belum memuktamadkan pembahagian kerusi bagi Pilihan Raya Negeri(PRN) Negeri Sembilan, namun tidak menolak kemungkinan berlaku pertukaran kerusi antara parti komponen.
+
+#sinarharian #Politik #PRN #BN",https://x.com/SinarOnline/status/2073744220259557493,,,negative,2026-07-05 12:22:05+00:00,10,0,5,4877,0.0005840778350830189,63,29.877,,,negative,0.9980530738830566,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.09056860953569412,0.15048308670520782,0.028730293735861778,0.06631914526224136,0.04751884564757347,0.27593401074409485
+x,post,2074404125081813382,"Salah satu trauma yang sampai sekarang masih membekas terjadi waktu gue kelas 5 SD. Gara-gara nilai jelek, gue sama adik gue yang masih kelas 2 SD dibawa nyokap naik mobil sekitar 3,5 km dari rumah. Malam itu sekitar jam 8, kami diturunin di pinggir jalan yang cukup besar dan sepi.
+ 
+Awalnya gue pikir itu cuma gertakan, tapi pas lihat lampu mobil makin lama makin jauh, gue sadar kalau kami benar-benar ditinggal.Gue sebenarnya tahu jalan pulang. Tapi saat itu gue bilang ke adik, ""Lo bisa pulang sendiri nggak? Kalau bisa, pulang aja. Gue nggak mau pulang."" Adik gue cuma jawab, ""Bisa, Bang... tapi gue takut."" 
+
+Akhirnya gue mutusin buat nemenin dia. Kami jalan lewat gang-gang kecil sampai dekat rumah, lalu berhenti di pelataran masjid buat istirahat.Gue tanya lagi, ""Dari sini lo tahu jalan pulang kan?"" Dia bilang tahu, tapi tetap nggak mau gue tinggal. 
+
+Akhirnya kami tidur berdua di pos kamling dekat rumah sampai pagi. Kayaknya satpam yang lihat kami akhirnya ngabarin orang rumah.Sekitar jam 8 pagi pembantu datang jemput kami. Tapi sejak malam itu, rasanya gue udah nggak pernah benar-benar merasa punya rumah. 
+
+Sampai sekarang, ke mana pun gue pergi selalu ada perasaan kalau semua cuma sementara. Masuk ke tempat baru, gue selalu nyiapin escape plan. Seolah-olah gue harus siap pergi kapan aja.Sekarang gue sudah menikah, tapi trauma itu belum hilang. Rumah yang gue tempati sekarang pun masih terasa sementara. 
+
+Gue selalu merasa siap ninggalin semuanya kapan aja. Apalagi setelah adik gue meninggal di usia 21 tahun, rasanya gue makin kehilangan tempat buat berpijak. Sejak saat itu, dunia terasa benar-benar sementara di mata gue.",https://x.com/Smash1014314/status/2074404125081813382,,,negative,2026-07-07 08:04:18+00:00,23,7,4,2476,0.0004995167255401611,58,51.476,,,negative,0.9983349442481995,malay,Malay/Bumiputera,Unknown,0.0,fear,0.31646308302879333,0.4825177788734436,0.08587728440761566,0.03348477929830551,0.020505351945757866,0.03483264148235321
+x,post,2072110078975770779,https://t.co/pRQJu75q7G,https://x.com/RagilSemar/status/2072110078975770779,,,positive,2026-07-01 00:08:35+00:00,8,5,4,7535,0.8300037249922751,92,37.535,,,positive,0.4333457499742508,multilingual,Unknown,Unknown,0.0,love,0.10554195940494537,0.07365313917398453,0.05539432168006897,0.058784618973731995,0.4381086230278015,0.08668096363544464
+x,post,2072975476813922599,Baca Fasal 7(2) UUTNS siapa melantik Yamtuan ialah Undang Yang Empat. Maka bukan Pemerintah Tunggal. Fasal 7(1) dibaca bersama-sama Fasal 7(2) untuk melihat Pemerintah Bersama Negeri Sembilan. Baca juga Artikel 160(2) Perlembagaan Persekutuan bersama siapa Raja di N9,https://x.com/ikmalhmt/status/2072975476813922599,,,neutral,2026-07-03 09:27:22+00:00,9,7,4,1979,0.5,39,36.979,,,neutral,0.9894120097160339,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.04061117395758629,0.018726887181401253,0.037080466747283936,0.022853465750813484,0.13120470941066742,0.041933488100767136
+x,post,2072849413035216992,"ut! kalo nilai metopen tugas 1,2,3 diatas 90an tapi nilai tugas 4 75, itu masi aman kan ya? Kira2 dapet apa ya? Agak panik pas baca di tiktok katanya nilai di ambil dari tugas 4 aja😭",https://x.com/utfess/status/2072849413035216992,,,negative,2026-07-03 01:06:26+00:00,8,0,4,8476,0.006711781024932861,96,28.476,,,negative,0.9776273965835571,malay,Malay/Bumiputera,Unknown,0.0,fear,0.1734933853149414,0.4982514977455139,0.03391249477863312,0.02891233004629612,0.019614260643720627,0.16335226595401764
+x,post,2073210375643029972,"Panenka Salah dan #ceritabrand Vodafone 
+
+Ketika ditanya kenapa panenka, Bang Salah bilang ke ESPN: “I decided last minute. I don’t know if it’s my last World Cup so I had to do it.”
+
+Sebelum momen ini, pas ngubek ttg Salah ada #ceritabrand yg saya temukan. 
+
+Musim 2017-2018, Vodafone Egypt bikin program “Mohamed Salah World”: setiap Salah cetak gol, 43 juta pelanggan dapat 11 menit telepon gratis, angka 11 tentu dari nomor jerseynya. 
+
+Estimasi biayanya? $140 juta per gol (via Al Arabiya).
+
+Bukan nilai kontrak Salah. Tapi nilai yang rela dibayar brand untuk satu momen dari satu pemain.
+
+Malam ini di Arlington, Salah cetak penalti Panenka di WC terakhirnya. 
+
+Vodafone, Adidas, Pepsi, Visa, OPPO, Uber semua brand yang udah bertahun-tahun ada di ekosistem Salah, dapat sesuatu yang gak bisa direncanakan di brief kreatif manapun.
+
+Brand yang hadir lebih awal, menang lebih banyak. 🥲🥲
+
+#Salah #Egypt #WC2026 #SportMarketing",https://x.com/rskuntowiyoga/status/2073210375643029972,,,negative,2026-07-04 01:00:46+00:00,11,1,4,1996,0.0004831194877624734,35,26.996,,,negative,0.9983896017074585,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.07351494580507278,0.08747828006744385,0.04842240735888481,0.0505346916615963,0.17378829419612885,0.11063995212316513
+x,post,2072106014044987454,"Sokongan Pas: Untung atau rugi?
+
+Jadi jangan sampai sokong membawa rebah. Harapkan Pas, UMNO yang parah. - Awang 
+
+#sinarharian #beritaterkini #pas
+
+https://t.co/peg0e4EU6X",https://x.com/SinarOnline/status/2072106014044987454,,,negative,2026-06-30 23:52:26+00:00,0,0,4,862,0.0005181670188904031,12,12.862,,,negative,0.9982727766036987,malay,Malay/Bumiputera,Unknown,0.0,love,0.2613566219806671,0.028987186029553413,0.07586676627397537,0.06643427163362503,0.40257641673088074,0.024038614705204964
+x,post,2073964714590105723,"yuji! aku mau tanya, kan aku uts ikut tapi nilainya 0 fair fair-an, tapi. ada beberapa aku ga ikut kelas dia karna aku lg tes polisi, pas lagi nilai tambahan, aku usahain nanti ikut uas / UU matkul itu, kira kira bakal E ga ya? karna nilai kecil",https://x.com/ug_fess/status/2073964714590105723,,,negative,2026-07-06 02:58:15+00:00,5,0,3,5535,0.0035855412483215554,63,19.535,,,negative,0.9880481958389282,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.026577837765216827,0.22170959413051605,0.018103517591953278,0.025941984727978706,0.03168531879782677,0.6040410399436951
+x,post,2074052038925709592,"Mas mbak vokasi, sender semester 2 dan nilai Sender ada yang d, itu nanti ngulang matkulnya pas sama maba atau gimana ya, plis",https://x.com/fess10nopember/status/2074052038925709592,,,negative,2026-07-06 08:45:14+00:00,6,0,3,3130,0.06402563452720642,40,18.13,,,negative,0.7865812182426453,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.021166997030377388,0.015239495784044266,0.024519722908735275,0.008721075020730495,0.07982569932937622,0.04655776545405388
+x,post,2072041593067246016,"Yang bikin nilai PISA jeblok kok dibela. 
+
+Yang bikin aturan anak harus naik kelas terus meskipun gak bisa calistung kok dibela
+
+Yang ngadain chromebook pas jaman covid kok dibela
+
+Yang bikin dosen menderita tukinnya gak cair-cair kok dibela 
+
+Kawal terus aja sono, saya mah ogah",https://x.com/dipanggilarman/status/2072041593067246016,,,negative,2026-06-30 19:36:27+00:00,7,0,3,226,0.0004806697368621715,12,16.226,,,negative,0.9983977675437927,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.056059330701828,0.13906869292259216,0.011572876945137978,0.7381833791732788,0.0255946833640337,0.016557544469833374
+x,post,2073217472384356845,"Kenapa iPhone yang di Amerika ""cuma"" 13 juta bisa jadi 17 juta di Indonesia? 
+Ini bukan cuma soal ""orang Indonesia kena mahal"", 
+tapi ada rentetan biaya resmi yang nempel di harga jual. Berikut rinciannya:
+
+1. Harga di Amerika itu belum termasuk pajak
+Harga yang dipajang di toko Apple AS itu harga sebelum sales tax. Sales tax beda-beda tiap negara bagian, sekitar 0 sampai 10 persen, baru ditambahkan pas checkout. Jadi angka 13jt itu sebenarnya belum final juga.
+
+2. PPN (Pajak Pertambahan Nilai)
+Di Indonesia PPN sekarang 11 persen untuk barang non-mewah termasuk elektronik, dan ini sudah otomatis masuk ke harga jual yang dipajang di toko. Beda dengan di AS yang tax-nya dipisah.
+
+3. Bea Masuk Impor
+iPhone yang beredar resmi di Indonesia sebagian besar statusnya barang impor (CBU) karena Apple belum punya pabrik perakitan HP di sini. Barang elektronik jenis ponsel kena bea masuk, umumnya di kisaran 10 persen dari nilai barang, tergantung pos tarifnya.
+
+4. PPh Pasal 22 Impor
+Ini pajak penghasilan yang dipungut di muka saat barang masuk pabean, biasanya sekitar 2,5 persen untuk importir yang punya API (Angka Pengenal Importir), atau lebih tinggi kalau tidak punya.
+
+5. Biaya sertifikasi TKDN dan regulasi lokal
+Supaya boleh dijual dan dipakai sinyal 4G/5G di Indonesia, iPhone wajib penuhi syarat TKDN (Tingkat Komponen Dalam Negeri) minimal 35 persen, biasanya dipenuhi lewat skema investasi aplikasi/riset, bukan manufaktur fisik. Biaya sertifikasi Postel, uji tipe, dan investasi kepatuhan ini ikut dibebankan ke harga jual.
+
+6. Margin distributor resmi dan retailer
+Apple tidak jual langsung ke konsumen Indonesia. Ada distributor resmi (iBox/Erajaya, Digimap, dll) yang ambil margin, lalu toko retail ambil margin lagi. Ini beberapa lapis biaya yang tidak ada kalau beli langsung di Apple Store AS.
+
+7. Selisih kurs dan biaya logistik
+Harga dasar iPhone di price list global Apple biasanya dalam USD, dikonversi ke Rupiah pakai kurs plus buffer untuk antisipasi fluktuasi. Ditambah ongkos kirim, asuransi, gudang, sampai barang sampai ke toko di Indonesia.
+
+8. Garansi dan layanan purna jual lokal
+Harga jual resmi juga mengcover biaya garansi resmi Indonesia (iBox/TAM), yang beda dari garansi versi AS yang kadang tidak berlaku internasional.
+
+Selisih 4 jutaan itu bukan cuma ""untung-untungan seller"", tapi akumulasi dari PPN, bea masuk, PPh impor, biaya TKDN, margin distribusi berlapis, dan buffer kurs. 
+
+Ini juga alasan kenapa banyak orang cari iPhone inter/ex-luar negeri yang harganya lebih murah karena skip sebagian biaya di atas, meski risikonya di garansi dan legalitas IMEI.",https://x.com/Hidupsebagai62/status/2073217472384356845,,,negative,2026-07-04 01:28:58+00:00,28,5,2,3673,0.0004815638065338024,71,47.673,,,negative,0.998394787311554,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.07364553213119507,0.05167914927005768,0.047968920320272446,0.052969180047512054,0.19953438639640808,0.0700404942035675
+x,post,2073629325354762347,"THE past week has been so ttelling and must as well be a yardstick to gauge the popularity of two former DAP new generation lawmakers, both of whom are currently ‘operating’ behind the curtains – Tony Pua and Ong Kian Ming. Both did not contest in the November 2022 15th General Election (GE15).
+
+Lion-hearted Pua who was the two-term Petaling Jaya Utara and one-term Damansara MP was in the limelight for the right reason so to speak as he alongside DAP adviser Lim Guan Eng courteously stated their ground over the LRT3 Shah Alam project delay after being admonished by Selangor ruler Sultan Sharafuddin Idris Shah. In fact, this is the second time that Pua who was Guan Eng’s aide when he was the finance minister found himself at odds with the Selangor Palace, the first was when he came to the defence of DAP Seri Kembangan state assemblywoman Wong Siew Ki and ex-party stalwart Ronnie Liu in the pig farming controversy.
+
+Ironically, being labelled “biadap” (disrespectful) and “pengkhianat” (traitor) by the rightist fraternity seem have music to the ear effect on DAP’s grassroots who hailed the University of Oxford’s Philosophy, Politics and Economics degree holder for his heroics.
+On the other extreme, Ong who was a two-term former lawmaker (one-term each Serdang and Bangi) found himself in an antagonistic position among DAP loyalists for predicting a dooms day scenario as in a crushing defeat for the ruling Pakatan Harapan (PH) coalition come the July 11 Johor state election. “It’s almost a foregone conclusion that the Barisan Nasional (BN) will maintain control of the state assembly,” projected the research-inclined political scientist and adjunct professor at Taylor’s University in a recent media statement.
+
+“The only question is how many seats with the BN win and what implications will this have on the Negeri Sembilan polls which will take place on Aug 1 and how may the results in both state elections affect the stability of the federal government and the calling of the GE16.” Inevitably, brickbats were hurled at Ong, 50, for his pessimistic PH fortune on the Malaysiakini Facebook page with one commenter sarcastically mocked, “KJ (will offer him minister post. He will join UMNO soon”. Veteran journalist and former The Sun executive editor Lee Boon Siew reckoned that while “OKM’s prediction is based on observations and recent political wheeling and dealing”, the Chinese electorate could spring a surprise.
+
+“Anybody can make such predictions. But I know that the Chinese are a realistic lot. They will know who to vote to maintain their political power,” he opined.
+
+https://t.co/kqOkDCzM21
+
+#PRNJohor #JohorPRN",https://x.com/jameschin110/status/2073629325354762347,,,neutral,2026-07-05 04:45:31+00:00,25,6,2,3678,0.5,69,46.678,,,neutral,0.7264322638511658,english,Mixed/Urban,Unknown,0.0,love,0.2262113243341446,0.02903776802122593,0.10922413319349289,0.037083595991134644,0.2893122136592865,0.02023528702557087
+x,post,2072336877777269197,"Anakku emang dari dulu tipe yang ngejar target. Nilai sekolahnya konsisten bagus, aktif ikut organisasi, sering juga ikutan Model United Nations sampai beberapa kali bawa pulang penghargaan. Semua usaha itu dia lakuin biar punya peluang masuk kampus impian lewat jalur prestasi tanpa harus ikut tes.
+
+Waktu SNBP, dia lolos tahap eligible dan pilih FH UI. Sayangnya belum rezeki. Sempat kepikiran lanjut kuliah ke luar negeri juga, tapi kondisi ekonomi sekarang bikin rencana itu harus diurungkan.
+
+Akhirnya dia ikut UTBK dengan persiapan seadanya, bahkan nggak sempat ikut bimbel. Hasilnya juga belum berhasil. Sebagai orang tua, jujur sedih lihat dia udah berjuang sejauh itu tapi masih belum sesuai harapan.
+
+Untungnya masih ada jalur seleksi non-tes. Dia coba daftar lewat jalur prestasi ke UI dan Unpad dengan modal nilai rapor, skor UTBK, serta berbagai pencapaian selama SMA.
+
+Beberapa hari lalu pengumuman Unpad keluar, dan dia dinyatakan lolos. Sempat kepikiran langsung ambil, tapi di dalam hati masih berharap bisa masuk UI.
+
+Sampai akhirnya pengumuman UI keluar siang tadi. Pas lagi belanja di supermarket, dia buka hasilnya... dan ternyata LOLOS! Langsung teriak kegirangan di tengah toko sampai orang-orang di sekitar ikut nengok dan ngucapin selamat. Setelah semua perjuangan dan rasa kecewa sebelumnya, akhirnya kampus impiannya benar-benar jadi kenyataan. 🎉",https://x.com/keluhkesahkonoh/status/2072336877777269197,,,negative,2026-07-01 15:09:48+00:00,24,1,2,2585,0.0004838705062866211,52,34.585,,,negative,0.9983870983123779,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.019317373633384705,0.03766314685344696,0.0068888976238667965,0.9003486037254333,0.011352766305208206,0.015767520293593407
+x,post,2073372762631262718,"150 PAS BERMUSIM ULTIMATE XI KINI TERJUAL! 💯🔥
+
+Setakat hari ini, sebanyak 150 unit Pas Bermusim Ultimate XI bagi musim 26/27 telah pun mempunyai pemilik. Terima kasih atas kesetiaan dan kebersamaan anda untuk terus berdiri teguh! https://t.co/B1IHC4CZq3",https://x.com/nsfc1923/status/2073372762631262718,,,positive,2026-07-04 11:46:02+00:00,11,3,2,528,0.9993802666664122,21,23.528,,,positive,0.9979342222213745,malay,Malay/Bumiputera,Unknown,0.0,happy,0.05233871936798096,0.07806272804737091,0.3502196967601776,0.03725797310471535,0.2619265019893646,0.07769569754600525
+x,post,2074370220018331774,"Rek!
+
+Inikan persyaratan buat dapet 50% UKT ya.
+
+Nah aku udah semester 8+, 150 SKS, tapi ada nilai E satu di seminar proposal pas semester 6 krn blum selesai. Kira2 bisa dpt ga ya? Takut g dpt krn nilai E satu itu.
+
+Makasih! https://t.co/Yk6oZJcELv",https://x.com/yunesafess/status/2074370220018331774,,,neutral,2026-07-07 05:49:35+00:00,14,0,2,2234,0.5,38,22.234,,,neutral,0.9130852222442627,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.019376512616872787,0.33010199666023254,0.017758924514055252,0.04235520958900452,0.023894445970654488,0.5255997776985168
+x,post,2074056587279503473,"The political secretary to Prime Minister Anwar Ibrahim has criticised Khairy Jamaluddin for alleging that caretaker Negeri Sembilan menteri besar Aminuddin Harun had failed to safeguard the interests of the Malay-Muslim community in the state.
+
+In a Facebook post today, Kamil Abdul Munim reminded Khairy that voting for Umno is not a guarantee that Malay rights will remain secure, adding that such rights are instead guaranteed by the Federal Constitution and the Malay rulers.
+
+He also asked Khairy to specify which Malay rights had been eroded or undermined under Aminuddin’s leadership, instead saying that such rights are typically threatened by “corrupt Malays”, and that Umno is among them.
+
+Berita penuh: https://t.co/UJZ7tjba5M",https://x.com/mkini_bm/status/2074056587279503473,,,neutral,2026-07-06 09:03:19+00:00,7,2,2,1543,0.5,26,18.543,,,neutral,0.5218529105186462,english,Mixed/Urban,Unknown,0.0,anger,0.6378464102745056,0.09189759939908981,0.13483929634094238,0.0220753476023674,0.05577222630381584,0.01166695449501276
+x,post,2073924079703478350,"@utfess Buat tiket aja, aku pernah soalnya minta gitu cuma pas nilai udh keluar",https://x.com/auliya_pragita/status/2073924079703478350,,,neutral,2026-07-06 00:16:46+00:00,4,0,2,1781,0.5,23,11.781,,,neutral,0.7831935286521912,english,Mixed/Urban,Unknown,0.0,love,0.10823655128479004,0.11318616569042206,0.04183503985404968,0.12179296463727951,0.5239405035972595,0.04438256844878197
+x,post,2072993114856591858,"Saya sempat dilema ketika dulu dpt offer barengan dari Efishery dan Flip, dua tempat yg sy pengen bgt masuk. Waktu itu posisi sama-sama series B dan nilai offernya hampir sama.
+
+Akhirnya pilih Flip karena pgn mendalami fintek. Eh pas gak lama join, dpt kabar mereka series C 🤣.",https://x.com/didikz/status/2072993114856591858,,,positive,2026-07-03 10:37:27+00:00,241,13,1,62157,0.9989544212818144,876,332.157,,,positive,0.9965147376060486,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.03189704939723015,0.1387002319097519,0.024451443925499916,0.04609789326786995,0.2159218192100525,0.39414694905281067
+x,post,2074332608205578297,"The Legend of Kitchen Soldier nangkring di peringkat 2 Drama Terbaik Paruh Pertama 2026 hasil voting 50 orang dalam industri hiburan (jurnalis, PD, agensi) 👏👏👏
+
+Kitchen Soldier dinilai sukses besar menghidupkan keseruan dari webtoon aslinya, tapi tetap punya daya tarik khas tersendiri. 
+
+Belum lagi, totalitas akting castnya yang dipimpin langsung sama 'Aktor 10 Juta Penonton' Park Jihoon 🫶 bikin Kitchen Soldier jadi topik yang paling hangat diobrolin sepanjang paruh pertama tahun ini.
+
+Banyak partisipan voting ngasih nilai tinggi karena dramanya bener2 setia sama cerita aslinya. 
+
+""Banyak adaptasi webtoon yang bikin kecewa karena eksekusinya kurang atau malah dirombak berlebihan. Tapi Kitchen Soldier berhasil nahan keseruan asli dan cerita yang solid, sambil nyelipin komedi2 tak terduga."" 
+
+Beliau juga nambahin kalau ini tipe drama yang bikin mata ga bisa lepas dari episode pertama sampai tamat.
+
+Selain itu, perwakilan industri lain juga sepakat kalau eksekusinya rapi banget tanpa merusak cerita utama.
+
+Meskipun awalnya sempat ada kekhawatiran soal CGI, ternyata hasilnya jauh melampaui ekspektasi. 
+
+Elemen unik kayak status window sampai deskripsi rasa makanan yang dibikin komikal sukses jadi daya tarik utamanya.
+
+Performa para aktor pastinya juga banjir pujian. Latar militer disebut cuma sebatas background, karena penonton malah ngerasain kepuasan kayak lagi clear mission di game tiap minggunya. 
+
+""Jarang banget ada karya yang bisa bawain B-class vibe senatural ini. Kehadiran Park Jihoon yang berakting sampai ke detail arah matanya, ditambah naskah yang kuat banget menopang karakter pendukung seperti Yoon Kyungho, Lee Hongnae, dan Han Donghee, bener2 mengesankan.""
+
+Suasana ceria di drama ini juga diakui jadi highlight utama. Para narasumber sepakat kalau visual makanan yang bikin ngiler, cerita realistis, dan komedi absurdnya berpadu dengan sangat epic. 
+
+Pokoknya Kitchen Soldier dipuji sebagai drama yang paling pas buat ditonton sambil tertawa lepas sepulang kerja, semacam temen makan terbaik kata mereka 😅
+
+https://t.co/DiOWYVNuGf",https://x.com/ch_sj2013/status/2074332608205578297,,,negative,2026-07-07 03:20:07+00:00,127,38,1,7324,0.0004803478717804177,239,213.324,,,negative,0.9983988404273987,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.023305701091885567,0.048102229833602905,0.008685655891895294,0.869265079498291,0.018323007971048355,0.020213007926940918
+x,post,2074374161036673389,"kapok bgt beli emas disni. beli thn 2025 di harga 5jt. pas mau jual dibayar 2.9jt alasan gelangnya bentuknya ga sempurna( bengkok karna pemakaian) rugi 2juta! padahal mereka pasti punya tukang yg bisa servis itu karna bukan kerusakan fatal yg penyok atau patah. alhasil aku bawa ke toko temenku yg dihasanudin. dia pegang dikit aja udh kembali bulet🥲 akhirnya aku jual ditemenku aja lebih ikhlas dan lebih besar nilai jualnya.
+
+dan ternyata testimoni nya banyak bgt yg ngerasa kena scam belanja disana. saran ku kalau mau invest mending antam ya guys, kalo beli perhiasan jgn yg banyak permata nya, karna kita beli emas beserta permata, pas jual emas nya doang diitung permata nya enggak 🤦🏼‍♀️ tapi ditoko lain masih banyak kok yg lebih manusiawi, barang rusak cuman dipot 20% dari harga pasar bukan dihitung emas leburan yg padahal barang masih bagus 😭
+
+cc : perispace_",https://x.com/marrmuudd/status/2074374161036673389,,,negative,2026-07-07 06:05:14+00:00,13,6,1,6630,0.0004894316196441539,86,34.63,,,negative,0.9983685612678528,malay,Malay/Bumiputera,Unknown,0.0,fear,0.21261917054653168,0.4437432587146759,0.02355930767953396,0.18017935752868652,0.029328210279345512,0.07265595346689224
+x,post,2073649319136428139,"PRN Negeri Sembilan: BN mungkin tidak kekalkan kerusi tradisi - Mohamad Hassan
+
+#BHNasional BN perlu berani membuat perubahan bagi memastikan kemenangan
+
+https://t.co/j4h4CEwZ9f",https://x.com/bharianmy/status/2073649319136428139,,,positive,2026-07-05 06:04:58+00:00,8,4,1,1281,0.9981608629226684,25,20.281,,,positive,0.9938695430755615,malay,Malay/Bumiputera,Unknown,0.0,fear,0.0421656034886837,0.7596204876899719,0.040978528559207916,0.03464512154459953,0.019670620560646057,0.06630969792604446
+x,post,2073761511793938682,PH memerintah Negeri Sembilan dari 2018 hingga 2023. Mungkin UMNO yang terancam.,https://x.com/Sugumaran_S7/status/2073761511793938682,,,neutral,2026-07-05 13:30:47+00:00,12,1,1,283,0.5,16,17.283,,,neutral,0.9973735809326172,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.09522569179534912,0.025134272873401642,0.08363871276378632,0.017175043001770973,0.12666140496730804,0.02165685035288334
+x,post,2072253039281570172,"Nazri optimis pertahan DUN Simpang Jeram pada PRN Johor
+
+https://t.co/tPWKMdvFmu",https://x.com/suarakeadilan99/status/2072253039281570172,,,neutral,2026-07-01 09:36:39+00:00,9,2,1,173,0.5,13,16.173,,,neutral,0.8530859351158142,english,Mixed/Urban,Unknown,0.0,anger,0.2839090824127197,0.04546438530087471,0.10676842927932739,0.04662412032485008,0.279352605342865,0.031328439712524414
+x,post,2074061931644948663,"UMNO adalah tangan ghaib di sebalik kekacauan yang sedang berlaku di Negeri Sembilan.
+
+Strategi mereka licik. Mereka mahu melakukan rombakan terhadap institusi Yamtuan dengan satu tujuan besar, iaitu menukar Menteri Besar. Apabila kerusi Menteri Besar berjaya ditawan, mereka akan cuba menggunakan pengaruh tersebut untuk mengganggu gugat keputusan Majlis Raja-Raja dalam proses rayuan pengampunan Najib.
+
+Mereka mahu memastikan jalan untuk membebaskan Najib lebih mudah dengan menukar 'pemain' di peringkat negeri terlebih dahulu.
+
+Kepada Sultan/Raja yang tidak menyokong pembebasan Najib, patik ucapkan terima kasih..",https://x.com/alif_haidar/status/2074061931644948663,,,positive,2026-07-06 09:24:33+00:00,47,17,0,3425,0.995032262802124,98,84.425,,,positive,0.9834408760070801,malay,Malay/Bumiputera,Unknown,0.0,anger,0.5539331436157227,0.04177572950720787,0.08082782477140427,0.02626967243850231,0.08579105138778687,0.01661088690161705
+x,post,2072321710481871131,"QA itu bukan pelengkap, tapi salah satu prioritas paling tinggi di tim gw. Kalau ada perusahaan yg treat QA sebagai ""checklist terakhir sebelum ship"", itu masalahnya bukan di role QA nya, tapi di cara perusahaan itu define value dari quality itu sendiri.
+
+https://t.co/Y4RSEtJwXK
+
+Gw selalu bilang ke tim gw, ada 2 layer dari ""quality"":
+
+1/ Apakah output sesuai spec yg dikasih PM. Ini layer yg sekarang udah cukup doable buat diotomasi. Test case, regression, bahkan sebagian exploratory testing pun udah bisa dibantu tools & AI.
+
+2/ Apakah output itu benar benar ngasih value ke end user/customer. Ini yg masih susah diotomasi, karena butuh empati, bukan sekadar validasi terhadap dokumen requirement.
+
+Nah, layer pertama itu yg biasanya bikin QA gampang di layoff duluan, karena makin lama makin bisa digantiin tools. Tapi layer kedua ini yg justru jadi nilai strategis QA yg gak tergantiin.
+
+Makanya gw selalu dorong tim QA di tempat gw buat turun langsung ketemu customer, ngobrol, empathic listening, & coba posisiin diri di sepatu customer pas evaluate design maupun output software.
+
+Gw juga percaya, QA itu adalah gerbang ke customer/end user. Karena itu, di tim gw dulu, gw bahkan kasih otoritas penuh ke QA buat bisa halt release kalo masih ada issue, walaupun secara teknis udah sesuai spec. 
+
+Kenapa? Karena kalau QA cuma jadi validator yg suaranya bisa diabaikan pas ada tekanan deadline, ya wajar kalau role nya dianggap gak strategis. Tapi kalau QA punya otoritas buat bilang ""stop, ini belum siap buat customer"", itu ngirim sinyal jelas ke seluruh tim bahwa quality itu bukan formalitas, tapi keputusan bisnis. Karena kehilangan trust dari user itu jauh lebih gampang dari membangun trust.
+
+QA yg cuma mikir ""sesuai requirement atau nggak"" itu gampang digantiin. Tapi QA yg paham konteks bisnis, paham pain point user, punya otoritas buat halt release, & bisa bilang ""ini secara teknis sesuai spec, tapi user bakal bingung/gak kepake"" itu value nya jauh lebih tinggi & gak bisa diotomasi begitu aja.
+
+Jadi kalau lo QA & ngerasa dipandang sebelah mata, coba geser fokus lo dari sekadar ""verifikasi requirement"" ke ""advokasi buat customer"". Itu yg bikin lo relevan, karena lo jadi satu satunya orang di tim yg suaranya mewakili user, bukan cuma dokumen spec.",https://x.com/petrabarus/status/2072321710481871131,,,negative,2026-07-01 14:09:32+00:00,29,2,0,1291,0.0004974246025085671,43,34.291,,,negative,0.9983419179916382,malay,Malay/Bumiputera,Unknown,0.0,love,0.13225293159484863,0.15201720595359802,0.052246611565351486,0.0954599529504776,0.23713907599449158,0.09386902302503586
+x,post,2073057106354422057,"Modus 1001 Phiracha
+nilai 101 deh buat langkahnya phiracha! 
+Momen pas Kak Ran lagi ragu, soal jabatan yang baru naik, Apa gara-gara dia ya?
+Si adik langsung sigap jawab bukan, 
+katanya 'Walaupun pacaran, aku nggak akan gitu kok'. Terus ditutup dengan, 
+'Kalau nggak percaya, coba aja jadi pacarku'. Duh! 
+Sampai tepuk paha saking gregetnya! Emang pinter banget ya narik hatinya. Kakak cantik mana pun pasti bakal luluh deh kalau diginiin!""
+
+LINGORM ILF EP3
+#วาดฝันวันวิวาห์EP3",https://x.com/JaoKwamRak_ID/status/2073057106354422057,,,negative,2026-07-03 14:51:44+00:00,18,4,0,525,0.0004938125610351451,27,26.525,,,negative,0.9983539581298828,malay,Malay/Bumiputera,Unknown,0.0,anger,0.6486068964004517,0.17869052290916443,0.05778748169541359,0.020296607166528702,0.030708912760019302,0.024140596389770508
+x,post,2073307902371344474,"@vicky_kawaguchi same here, pas SD langganan rangking sampe jadi pemilik nilai UN tertinggi  pertama kali di sd itu + math 100, SMP dah turun walaupun masih lolos trs masuk kelas unggulan, giliran masuk SMA favorit anjlok parah, ternyata maintenence temen-temen  yg lain dari ortunya GACOR ABIEZ",https://x.com/hahahiks_/status/2073307902371344474,,,neutral,2026-07-04 07:28:18+00:00,20,0,0,1662,0.5,36,21.662,,,neutral,0.8410617113113403,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.016971496865153313,0.05435136705636978,0.02556602656841278,0.015087058767676353,0.06380674988031387,0.13269279897212982
+x,post,2073728395427664123,"𝐌𝐄𝐍𝐘𝐄𝐌𝐀𝐈 𝐈𝐋𝐌𝐔, 𝐌𝐄𝐌𝐁𝐈𝐍𝐀 𝐌𝐔𝐀𝐅𝐀𝐊𝐀𝐓, 𝐌𝐄𝐌𝐏𝐄𝐑𝐊𝐔𝐊𝐔𝐇 𝐇𝐀𝐍𝐑𝐔𝐇
+
+Alhamdulillah, hari ini berpeluang menyempurnakan Majlis Penutupan sempena Program Ilmu dan Muafakat (PIKAT) di Masjid Al-Faizin, Felda Air Tawar 2, Kota Tinggi.
+
+Terima kasih kepada Kor Agama Angkatan Tentera (KAGAT), pihak masjid serta semua yang telah menjayakan program ini. Program seperti ini bukan sekadar menyampaikan ilmu, malah menjadi wadah penting untuk mengeratkan hubungan antara Angkatan Tentera Malaysia (ATM) dengan masyarakat.
+
+Hubungan ini penting supaya masyarakat memahami bahawa tanggungjawab mempertahankan negara bukan terletak di bahu ATM semata-mata. Rakyat juga mempunyai peranan melalui semangat patriotisme, perpaduan dan kesediaan untuk bersama mempertahankan keamanan serta kedaulatan negara.
+
+Cabaran keselamatan hari ini semakin kompleks. Ia bukan lagi hanya melibatkan peperangan konvensional, malah merangkumi ancaman bukan tradisional seperti perubahan iklim, keselamatan makanan, kecerdasan buatan (AI), peperangan hibrid dan peperangan kognitif yang boleh mempengaruhi pemikiran serta memecah-belahkan masyarakat.
+
+Pendekatan melalui agama juga amat penting dalam membina masyarakat yang bersatu dan berpegang teguh kepada ajaran Islam. Program seperti Kursus Pengurusan Jenazah bukan sahaja memberi ilmu fardu kifayah, malah memperkukuh nilai, akhlak dan perpaduan dalam masyarakat.
+
+Dalam menghadapi cabaran keselamatan yang semakin kompleks, ATM sentiasa bersiap siaga mempertahankan kedaulatan negara. Pada masa yang sama, rakyat perlu terus bersatu, mengelakkan perpecahan dan bersama-sama memelihara keamanan negara.
+
+Dalam pertahanan, inilah yang dimaksudkan dengan “credible deterrence”. Apabila negara memiliki angkatan tentera yang berkeupayaan serta rakyat yang bersatu padu, pihak lain akan berfikir berkali-kali sebelum melakukan sebarang ancaman terhadap negara.
+
+#khalednordinmindef
+#ATM",https://x.com/KhaledNordin/status/2073728395427664123,,,positive,2026-07-05 11:19:12+00:00,8,2,0,271,0.9989931344985961,12,12.271,,,positive,0.9966437816619873,malay,Malay/Bumiputera,Unknown,0.0,anger,0.2775002717971802,0.04453635215759277,0.17057384550571442,0.04307272657752037,0.22056902945041656,0.024061203002929688
+x,post,2072864300222623945,"Bergaduh berpuluh tahun, tapi ada peluang berkuasa, bergabung juga jadi kerajaan.
+PH, UMNOBN, PN, serpihan UMNO, serpihan PH, serpihan PN.
+Sandiwara pilihanraya.",https://x.com/sicfallacy/status/2072864300222623945,,,negative,2026-07-03 02:05:35+00:00,3,4,0,355,0.16357048004865646,10,11.355,,,negative,0.45476506650447845,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.06780397146940231,0.01953580044209957,0.049843575805425644,0.01846935786306858,0.10385294258594513,0.029183102771639824
+x,post,2072818635094253927,Aku tidak sokong PH atau BN. Tapi bila PN (Bersatu &amp; PAS) Bergabung dengan BN (UMNO) di PRN Johor untuk Tubuhkan Negeri Ketuanan Melayu Tunggal maka aku menentang BN dan PN demi Rakyat (Melayu/Cina/India/Iban/Kadazan/Orang Asal) Malaysia ! https://t.co/kSVEbXxRMA,https://x.com/abdulghani31857/status/2072818635094253927,,,negative,2026-07-02 23:04:08+00:00,4,3,0,176,0.004111558198928833,8,10.176,,,negative,0.9862948060035706,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.17658762633800507,0.02817150019109249,0.07138152420520782,0.04437975585460663,0.30874261260032654,0.03679220750927925
+x,comment,2074425581341474978,https://t.co/f3KFPyOw1f,,https://x.com/alx/status/1631039713783042049,1.631039713783042e+18,negative,2026-07-07 09:29:34+00:00,102,2,9,0,0.1778328761458397,133,,ALX 🇺🇸,0.0,negative,0.40722374618053436,multilingual,Unknown,Unknown,0.15,love,0.09640943259000778,0.07760046422481537,0.057261232286691666,0.0683291032910347,0.36069178581237793,0.12396537512540817
+x,comment,2074433252631179448,"2026年7月7日《#VOA今日焦点》重点新闻内容包括：美国总统特朗普星期一启程土耳其参加北约峰会；全球规模最大的环太平洋军演正在夏威夷进行；世界杯八强即将揭晓，美国队迎来对阵比利时的关键战
+点击收看👉https://t.co/P3qvexSHwj https://t.co/RC3CufsieQ",,https://x.com/VOAChinese/status/1555586820158603264,1.5555868201586033e+18,neutral,2026-07-07 10:00:03+00:00,3,0,0,0,0.5,3,,美国之音中文网,0.0,neutral,0.8711966872215271,english,Chinese,Chinese,0.95,no_clear_emotion,0.057289961725473404,0.07921021431684494,0.12132633477449417,0.020819757133722305,0.07691462337970734,0.051699865609407425
+x,comment,2074457260470788237,"乌克兰总统泽连斯基在安卡拉北约峰会上把话说得很直：乌克兰属于北约。
+
+他的原话是，带上乌克兰的北约，才是面向未来的联盟。 https://t.co/r8wdW6qXM5",,https://x.com/__Inty__/status/1554313163599859712,1.5543131635998597e+18,negative,2026-07-07 11:35:27+00:00,1,0,0,0,0.1644323542714119,1,,Inty News,0.0,negative,0.451892152428627,multilingual,Unknown,Unknown,0.2,no_clear_emotion,0.07091230899095535,0.05091525614261627,0.21803607046604156,0.04593198001384735,0.2719067931175232,0.03993329778313637
+x,comment,2074448365337674148,六月底，美国最高法院裁定特朗普以行政命令终结出生公民权无效，暂保“美宝”身分。许多产妇虽松一口气，但焦点已从“孩子有没有公民权”转为“孕妇能否顺利入境”。专家告诉BBC，未来签证审查、入境询问等或将更严格。https://t.co/PUT8I7pgXv,,https://x.com/bbcchinese/status/1610829796518531072,1.610829796518531e+18,neutral,2026-07-07 11:00:06+00:00,4,1,2,0,0.5,12,,BBC News 中文,0.0,neutral,0.8158864378929138,english,Mixed/Urban,Unknown,0.2,fear,0.09049844741821289,0.30330944061279297,0.055866993963718414,0.09877396374940872,0.03664906322956085,0.19868040084838867
+x,comment,2074447200139272424,"Kuning #bersama.
+
+Ayuh jom register di https://t.co/rWSR3dZn1S https://t.co/JhLjUGZKLS",,https://x.com/La_FarEast/status/1671525852457099265,1.6715258524570993e+18,neutral,2026-07-07 10:55:28+00:00,0,0,0,0,0.5,0,,#bersama P108 8103 💛💙,0.0,neutral,0.8297481536865234,english,Mixed/Urban,Unknown,0.25,love,0.12265683710575104,0.04007408022880554,0.04227426275610924,0.058694783598184586,0.573803186416626,0.037502728402614594
+x,comment,2074457760176206242,"全部不认罪……
+https://t.co/VS7Wr7GzUX
+#中国报 https://t.co/PyhO047bpL",,https://x.com/mychinapress/status/1710684169267978637,1.7106841692679788e+18,negative,2026-07-07 11:37:26+00:00,0,0,0,0,0.030531178414821614,0,,马来西亚中国报,0.0,negative,0.8982294052839279,multilingual,Chinese,Chinese,0.95,sadness,0.04275808855891228,0.07283294200897217,0.013657603412866592,0.31334903836250305,0.11810240149497986,0.29661598801612854
+x,post,2073717003614138749,"PAS tidak akan membentangkan manifesto secara menyeluruh pada Pilihan Raya Negeri (PRN) Johor, sebaliknya hanya menawarkan beberapa inisiatif dan tawaran khusus di kawasan yang ditandingi.
+
+Berita penuh 
+
+https://t.co/kFxOmBMfuU",https://x.com/harakahdailyHD/status/2073717003614138749,,,positive,2026-07-05 10:33:56+00:00,15,1,11,796,0.9992564022541046,34,50.796,,,positive,0.9975213408470154,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.041192542761564255,0.022637994959950447,0.07244069874286652,0.024138564243912697,0.19234052300453186,0.033585187047719955
+x,comment,2073783939807011105,@harakahdailyHD https://t.co/j381uB64fF,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-05 14:59:54+00:00,0,0,0,0,0.5,0,,Parputodi,0.0,neutral,0.8629578351974487,english,Mixed/Urban,Unknown,0.25,love,0.1173713281750679,0.05476132780313492,0.060526419430971146,0.05928269773721695,0.5037479996681213,0.05744650214910507
+x,comment,2073779376517509402,"@harakahdailyHD Haram undi pas ..Pas hanya tawarkan fitnah, kejian dan hinaan pada sahabat Nabi. https://t.co/qSj54xqLsk",,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,negative,2026-07-05 14:41:46+00:00,2,0,0,0,0.041267810761928536,2,,Riz,0.0,negative,0.8624406307935715,multilingual,Unknown,Unknown,0.15,no_clear_emotion,0.12456537783145905,0.0223190076649189,0.05534951761364937,0.07229970395565033,0.32518643140792847,0.042938850820064545
+x,comment,2073939736272765282,@harakahdailyHD Tak yakin menang takdalah manifesto.,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-06 01:18:59+00:00,0,0,0,0,0.5,0,,Jenk,0.0,neutral,0.8115611672401428,english,Mixed/Urban,Unknown,0.15,fear,0.05029328912496567,0.7353737950325012,0.036562755703926086,0.018741562962532043,0.010843531228601933,0.12067632377147675
+x,comment,2074289662534041932,"@harakahdailyHD 4 negeri yg pas perintah pun tak terlaksana manifesto, bayangkan johor yg da maju tu mundur kerana PAS ( terbukti gagal dan gila kongkek ) 
+
+Lebai² kongkek PAS ni hanya nak jawatan dan ghanimah je, nak sembang pasal kemajuan? Terengganu dapat lebih 11 billion pun tak nampak hasil",,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-07 00:29:28+00:00,0,0,0,0,0.5,0,,𝔰𝔞𝔪𝔖 yellowBlue,0.0,neutral,0.8284988403320312,english,Mixed/Urban,Unknown,0.25,fear,0.03560614585876465,0.4252040684223175,0.015009120106697083,0.2145913690328598,0.012961944565176964,0.258735328912735
+x,comment,2073730780598239379,@harakahdailyHD Haram undi parti yg buat FITNAH pada sahabat nabi ✌️,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-05 11:28:40+00:00,3,0,0,0,0.5,3,,VVD,0.0,neutral,0.8294432759284973,english,Mixed/Urban,Unknown,0.15,love,0.04109333083033562,0.013691633008420467,0.04899046942591667,0.020178621634840965,0.6040282845497131,0.02669111266732216
+x,comment,2074004206386880646,@harakahdailyHD Islam teaches the Malay Muslim stupidity.  Only know how to pray and think of heavan. What the fuck the know. lol better go to heavan as fast as possible.  Troublemakers,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,negative,2026-07-06 05:35:10+00:00,0,0,1,0,0.021315371990203835,3,,HappyMurtad,0.0,negative,0.9289487600326538,english,Mixed/Urban,Unknown,0.25,love,0.056915540248155594,0.0161258727312088,0.04392265900969505,0.03490973636507988,0.754703938961029,0.014676859602332115
+x,comment,2073964266085130479,@harakahdailyHD https://t.co/M4AOmBfAF6,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-06 02:56:28+00:00,0,0,0,0,0.5,0,,mat burn,0.0,neutral,0.8515920042991638,english,Malay/Bumiputera,Malay/Bumiputera,0.74,love,0.11114665120840073,0.05335555225610733,0.0680534839630127,0.06035960465669632,0.47934141755104065,0.05995483323931694
+x,comment,2074030918218727881,"@harakahdailyHD Pandat pun x-lat, macam mana nak contest ? 🤣🤣",,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-06 07:21:19+00:00,0,0,0,0,0.5,0,,Alfang,0.0,neutral,0.7208136320114136,english,Mixed/Urban,Unknown,0.25,love,0.10517553240060806,0.02368430234491825,0.02434214949607849,0.02927103079855442,0.5603829026222229,0.03133207932114601
+x,comment,2073760971005583634,@harakahdailyHD Nak bebaskan najib yer 🤣,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-05 13:28:38+00:00,1,0,0,0,0.5,1,,ahyazid,0.0,neutral,0.7772244215011597,english,Mixed/Urban,Unknown,0.25,surprise,0.017958907410502434,0.036224085837602615,0.032078925520181656,0.019862856715917587,0.08032116293907166,0.5089189410209656
+x,comment,2073755299941699631,@harakahdailyHD Elok JANGAN undi PAS....,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-05 13:06:06+00:00,0,0,0,0,0.5,0,,"Ramli Zainal, Ph.D.",0.0,neutral,0.8381253480911255,english,Malay/Bumiputera,Malay/Bumiputera,0.8,love,0.06696325540542603,0.0234588161110878,0.11445378512144089,0.01769947074353695,0.6640993356704712,0.01638418808579445
+x,comment,2073765722770325980,@harakahdailyHD Asal bukan PAS,,https://x.com/harakahdailyHD/status/2073717003614138749,2.0737170036141386e+18,neutral,2026-07-05 13:47:31+00:00,0,0,0,0,0.5,0,,Pena,0.0,neutral,0.8507648706436157,english,Mixed/Urban,Unknown,0.15,no_clear_emotion,0.10252495110034943,0.03183240070939064,0.06786631047725677,0.0392967127263546,0.3083115816116333,0.046491049230098724
+x,comment,2073292586345709923,"@mengyinbeiyong jokes
+💓
+represents
+
+🌺",,https://x.com/mengyinbeiyong/status/2071926990639423765,2.0719269906394237e+18,positive,2026-07-04 06:27:27+00:00,0,0,0,0,0.8352145642042159,0,,卓颖🌸同城丄门🌸附近喝🍵,0.0,positive,0.45071521401405334,multilingual,Chinese,Chinese,0.95,love,0.07563269138336182,0.024441100656986237,0.037872035056352615,0.027885813266038895,0.7632974982261658,0.017305957153439522
+x,comment,2073254419181809727,"@mengyinbeiyong lindsay
+🥁
+also
+
+🤎",,https://x.com/mengyinbeiyong/status/2071926990639423765,2.0719269906394237e+18,positive,2026-07-04 03:55:47+00:00,0,0,0,0,0.8567588627338409,0,,梁晴🌸同城丄门🌸附近喝🍵,0.0,positive,0.5225295424461365,english,Chinese,Chinese,0.95,love,0.0793590173125267,0.03021198697388172,0.03768359497189522,0.02972375974059105,0.7458391189575195,0.01851622574031353
+x,post,2072203638077051138,"Nantikan podcast eksklusif HarakahDaily: Dari Jalan Pahang bersama Ustaz Idris Ahmad.
+
+Bersama Naib Presiden PAS merangkap Ahli Parlimen Bagan Serai, mengupas pelbagai isu semasa, perkembangan politik terkini dan topik-topik sensasi yang sedang menjadi perhatian rakyat.
+
+#Harakah https://t.co/Wf1p0Crazf",https://x.com/harakahdailyHD/status/2072203638077051138,,,negative,2026-07-01 06:20:21+00:00,9,4,8,900,0.00600830912590028,30,41.9,,,negative,0.9799723029136658,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.010978768579661846,0.008687575347721577,0.019855691120028496,0.01762709766626358,0.11028002947568893,0.10359041392803192
+x,comment,2072530320264683681,"@harakahdailyHD Tak payah lah.........
+33 bulan.....
+"" Parlimen bubar pulak, ana baru nak bentang RUU355""
+Kah ....kah....kah.... Draf pun rasanya tarak!",,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-02 03:58:28+00:00,0,0,0,0,0.5,0,,gua_java 2020,0.0,neutral,0.7554852366447449,english,Mixed/Urban,Unknown,0.25,surprise,0.03444157540798187,0.38329726457595825,0.013236756436526775,0.04827531799674034,0.021071061491966248,0.45403391122817993
+x,comment,2072312249780224427,"@harakahdailyHD Tahu dah… dia minta 5 hari jer bukan 5 tahun… berubah semuanya.. hudud boleh buat, RUU355 terlaksana… walaung semua naik bmw volvo 😂😂😂 itulah mimpi yang benar",,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,negative,2026-07-01 13:31:56+00:00,1,0,0,0,0.00048213601112367943,1,,ASBY,0.0,negative,0.9983928799629211,malay,Malay/Bumiputera,Unknown,0.15,love,0.07956859469413757,0.08990330994129181,0.040353238582611084,0.1067868247628212,0.585863471031189,0.04804140329360962
+x,comment,2072298109733105939,@harakahdailyHD Haram undi parti yg buat FITNAH pda sahabat nabi ✌️,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-01 12:35:45+00:00,0,0,0,0,0.5,0,,VVD,0.0,neutral,0.8315932750701904,english,Mixed/Urban,Unknown,0.15,love,0.042211778461933136,0.014893566258251667,0.05399088189005852,0.01985117606818676,0.5865234732627869,0.027013102546334267
+x,comment,2072268195722076238,@harakahdailyHD Ada makan sagon tak?,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-01 10:36:53+00:00,2,0,0,0,0.5,2,,PU Leather,0.0,neutral,0.9970530271530151,malay,Malay/Bumiputera,Unknown,0.25,surprise,0.011622674763202667,0.03609118238091469,0.011465529911220074,0.03328794240951538,0.04874996468424797,0.7764135599136353
+x,comment,2072709314331205946,@harakahdailyHD Ehhhh.. ada lg la supi kumari.. lama x dgr khabar dia? tp dh up skit skrg.. ada studio buat podcast😂😂,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,negative,2026-07-02 15:49:44+00:00,0,0,0,0,0.09609307944774628,0,,hazri harun,0.0,negative,0.6796897351741791,multilingual,Malay/Bumiputera,Malay/Bumiputera,0.65,surprise,0.01204591989517212,0.04423254355788231,0.011830794624984264,0.0350508876144886,0.034543879330158234,0.8195613026618958
+x,comment,2072431103999426767,@harakahdailyHD Kesian 5 hari selesai,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-01 21:24:13+00:00,1,0,1,0,0.5,4,,azreen,0.0,neutral,0.8496686816215515,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.010637035593390465,0.009934399276971817,0.0249930489808321,0.005971233360469341,0.03383432701230049,0.03007831797003746
+x,comment,2072282974373253559,@harakahdailyHD https://t.co/d7lvKJTEpu,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-01 11:35:36+00:00,0,0,0,0,0.5,0,,ahyazid,0.0,neutral,0.8537477850914001,english,Mixed/Urban,Unknown,0.25,love,0.1183350682258606,0.056348126381635666,0.06717310845851898,0.06101721152663231,0.4673420190811157,0.062496818602085114
+x,comment,2072225042394718363,@harakahdailyHD 😂😂 https://t.co/fAQKIyOspv,,https://x.com/harakahdailyHD/status/2072203638077051138,2.0722036380770511e+18,neutral,2026-07-01 07:45:24+00:00,0,0,0,0,0.5,0,,AfiQ,0.0,neutral,0.6832624077796936,english,Mixed/Urban,Unknown,0.15,love,0.09497549384832382,0.05029701814055443,0.05472234636545181,0.053445324301719666,0.5923603773117065,0.04803987592458725
+x,post,2072220085138407751,"Nantikan episod akan datang podcast HarakahDaily: Dari Jalan Pahang bersama Ahli Parlimen Parit Buntar.
+
+Ikuti kupasan yang padat, berfakta dan penuh dengan analisis bernas mengenai pelbagai perkara yang sedang menjadi perhatian umum.
+
+Jangan lepaskan episod ini!
+
+#HarakahDaily https://t.co/SIcd1jZB1e",https://x.com/harakahdailyHD/status/2072220085138407751,,,neutral,2026-07-01 07:25:42+00:00,9,2,6,818,0.5,25,31.818,,,neutral,0.9639348983764648,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.030659543350338936,0.016299687325954437,0.03670540452003479,0.02525351755321026,0.22551791369915009,0.057932544499635696
+x,post,2072530244100366562,"Rang Undang-Undang (RUU) Jenayah Siber 2026 mesti dipastikan tidak menjadi instrumen yang menyekat kebebasan bersuara rakyat atau mewujudkan suasana ketakutan untuk mengkritik pihak pentadbiran.
+
+Berita penuh 
+
+https://t.co/6a4PbRGsKn",https://x.com/harakahdailyHD/status/2072530244100366562,,,neutral,2026-07-02 03:58:10+00:00,10,6,2,727,0.5,25,28.727,,,neutral,0.8611734509468079,malay,Malay/Bumiputera,Unknown,0.0,anger,0.724271297454834,0.06502356380224228,0.08507011830806732,0.01870420202612877,0.043209489434957504,0.018683023750782013

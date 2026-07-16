@@ -1,0 +1,2 @@
+evidence_id,narrative_id,evidence_type,title,source_name,source_url,publication_date,retrieved_at,evidence_summary,reliability_level,verification_status,verified_by,supporting_or_contradicting,attachment_path,notes
+EVD-001,ACT-WATER-N02-FB,Agency notice,Notis gangguan bekalan air,SYABAS,https://syabas.com.my,2026-06-01,2026-06-02,Notis rasmi gangguan berjadual.,High,Verified,Fact Checker,Supporting,,

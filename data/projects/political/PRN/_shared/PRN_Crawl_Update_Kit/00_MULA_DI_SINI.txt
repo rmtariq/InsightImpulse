@@ -1,0 +1,32 @@
+MULA DI SINI — PRN CRAWL UPDATE KIT
+====================================
+
+✅ SUDAH SIAP (21 Jun 2026)
+   Batch 1-6 social + berita | Master 4,347 rekod | War room updated
+
+⏭️ SETERUSNYA
+   24 Jun — Crawl #2 Johor (pre-penamaan)
+   26 Jun — Crawl #3 eve penamaan Johor
+   27 Jun — ISI template calon Johor (02_keywords_calon/)
+
+LANGKAH CRAWL HARIAN
+--------------------
+  A. Start backend: http://localhost:8001 (jika belum jalan)
+  B. Social: Direct URL → paste batch dari 03_url_batches_social/
+  C. Berita: Keyword + News → 02_keywords_calon/NEWS_KEYWORDS_COPY_PASTE.txt
+  D. Naratif Cina/India: 09_naratif_cina_india/
+       Johor PRN → 09_naratif_cina_india/Johor/RUN_JOHOR_PENUH.command
+       3 negeri  → 09_naratif_cina_india/Johor/RUN_JOHOR_PAGI.command
+  E. Selepas siap → 05_selepas_crawl/POST_CRAWL_UPDATE_WARROOM.txt
+
+FORMAT KEYWORD CALON (PENTING)
+------------------------------
+  ("Calon A" OR "Calon B" OR "Calon C") ("Nama DUN" OR "N41" OR "PRN Johor") when:14d
+  ↑ DUN wajib | Parti optional
+
+KALENDAR
+--------
+  Johor penamaan : 27 Jun | undi awal 7 Jul | mengundi 11 Jul
+  N9 penamaan    : 18 Jul | undi awal 28 Jul | mengundi 1 Ogos
+
+Rujuk: 01_jadual_crawl/PRN_CRAWL_UPDATE_JADUAL_2026.txt

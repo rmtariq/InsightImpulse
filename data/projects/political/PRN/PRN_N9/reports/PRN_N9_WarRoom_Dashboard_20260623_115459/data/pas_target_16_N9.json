@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "title": "16 Kerusi Sasaran PAS (Wajib Bertanding)",
+    "source": "scripts/generate_prn_n9_mn_presentation.py PAS_MUST_16 + PAS_BALANCE_7",
+    "count": 16,
+    "pasIncumbent2023": 3,
+    "pnIncumbent2023": 2,
+    "flipTarget2023": 11,
+    "note": "16 wajib: 3 PAS + 2 PN + 11 flip"
+  },
+  "codes": [
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N09",
+    "N10",
+    "N13",
+    "N14",
+    "N18",
+    "N20",
+    "N25",
+    "N28",
+    "N31",
+    "N33",
+    "N34",
+    "N36"
+  ],
+  "seats": [
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "BN",
+      "party2023": "UMNO",
+      "winnerName2023": "Jalaluddin Alias",
+      "kategoriPas": "tough",
+      "kategoriPasLabel": "Sukar / Lawan Kuat",
+      "pasWinProb": 38,
+      "challenger": "Amirudin Hassan",
+      "challengerParty": "PAS",
+      "dpi": {
+        "bkcCula": -3046,
+        "culaPct": 11.03,
+        "skt51": 4467
+      }
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "BN",
+      "party2023": "UMNO",
+      "winnerName2023": "Mohd Razi Mohd Ali",
+      "kategoriPas": "winnable",
+      "kategoriPasLabel": "Boleh Menang",
+      "pasWinProb": 51.0,
+      "challenger": "Mohd Nordin Hasim",
+      "challengerParty": "PAS",
+      "dpi": {
+        "bkcCula": -1956,
+        "culaPct": 24.76,
+        "skt51": 6836
+      }
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "Amanah",
+      "winnerName2023": "Bakri Sawir",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Danni Rais",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -2277,
+        "culaPct": 17.6,
+        "skt51": 4623
+      }
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "pertahan_pas",
+      "seatRoleLabel": "Pertahan PAS",
+      "winner2023": "PN",
+      "party2023": "PAS",
+      "winnerName2023": "Mohd Fairuz Mohd Isa",
+      "kategoriPas": "defend",
+      "kategoriPasLabel": "Pertahan",
+      "pasWinProb": 70,
+      "challenger": "Muhamad Zamri Omar",
+      "challengerParty": "UMNO",
+      "dpi": {
+        "bkcCula": -7337,
+        "culaPct": 10.7,
+        "skt51": 10610
+      }
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "BN",
+      "party2023": "UMNO",
+      "winnerName2023": "Mohd Asna Amin",
+      "kategoriPas": "winnable",
+      "kategoriPasLabel": "Boleh Menang",
+      "pasWinProb": 50.5,
+      "challenger": "Mohd Fadli Che Me",
+      "challengerParty": "PAS",
+      "dpi": {
+        "bkcCula": -8933,
+        "culaPct": 3.52,
+        "skt51": 9943
+      }
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "DAP",
+      "winnerName2023": "Arul Kumar Jambunathan",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Gan Chee Biow",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -14902,
+        "culaPct": 1.92,
+        "skt51": 15775
+      }
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "PKR",
+      "winnerName2023": "Aminuddin Harun",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Ahmad Raihan Muhamad Hilal",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -9502,
+        "culaPct": 6.64,
+        "skt51": 11751
+      }
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "PKR",
+      "winnerName2023": "Tengku Zamrah Tengku Sulaiman",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Muhammad Ghazali Zainal Abidin",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -6595,
+        "culaPct": 3.77,
+        "skt51": 7400
+      }
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "PKR",
+      "winnerName2023": "Noorzunita Begum Mohd Ibrahim",
+      "kategoriPas": "winnable",
+      "kategoriPasLabel": "Boleh Menang",
+      "pasWinProb": 38,
+      "challenger": "Rafiei Mustapha",
+      "challengerParty": "PAS",
+      "dpi": {
+        "bkcCula": -5883,
+        "culaPct": 1.93,
+        "skt51": 6230
+      }
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "pertahan_pn",
+      "seatRoleLabel": "Pertahan PN",
+      "winner2023": "PN",
+      "party2023": "Bersatu",
+      "winnerName2023": "Mohamad Hanifah Abu Baker",
+      "kategoriPas": "tough",
+      "kategoriPasLabel": "Sukar / Lawan Kuat",
+      "pasWinProb": 42,
+      "challenger": "Ismail Ahmad",
+      "challengerParty": "PKR",
+      "dpi": {
+        "bkcCula": -9640,
+        "culaPct": 5.09,
+        "skt51": 11297
+      }
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "pertahan_pas",
+      "seatRoleLabel": "Pertahan PAS",
+      "winner2023": "PN",
+      "party2023": "PAS",
+      "winnerName2023": "Kamarol Ridzuan Md Zain",
+      "kategoriPas": "defend",
+      "kategoriPasLabel": "Pertahan",
+      "pasWinProb": 82,
+      "challenger": "Norwani Ahmat",
+      "challengerParty": "Amanah",
+      "dpi": {
+        "bkcCula": -19129,
+        "culaPct": 5.06,
+        "skt51": 22397
+      }
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "BN",
+      "party2023": "UMNO",
+      "winnerName2023": "Suhaimi Aini",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Ahmad Shukri Abdul Shukor",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -5367,
+        "culaPct": 2.6,
+        "skt51": 5802
+      }
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "pertahan_pas",
+      "seatRoleLabel": "Pertahan PAS",
+      "winner2023": "PN",
+      "party2023": "PAS",
+      "winnerName2023": "Abdul Fatah Zakaria",
+      "kategoriPas": "defend",
+      "kategoriPasLabel": "Pertahan",
+      "pasWinProb": 82,
+      "challenger": "Mohd Najib Mohd Isa",
+      "challengerParty": "UMNO",
+      "dpi": {
+        "bkcCula": -9008,
+        "culaPct": 2.42,
+        "skt51": 9685
+      }
+    },
+    {
+      "code": "N33",
+      "name": "Sri Tanjung",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "PKR",
+      "winnerName2023": "Rajasekaran Gunnasekaran",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Zabidi Ariffin",
+      "challengerParty": "Bersatu",
+      "dpi": {
+        "bkcCula": -5990,
+        "culaPct": 4.09,
+        "skt51": 6792
+      }
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "pertahan_pn",
+      "seatRoleLabel": "Pertahan PN",
+      "winner2023": "PN",
+      "party2023": "Bersatu",
+      "winnerName2023": "Ridzuan Ahmad",
+      "kategoriPas": "tough",
+      "kategoriPasLabel": "Sukar / Lawan Kuat",
+      "pasWinProb": 42,
+      "challenger": "Abdul Razak Said",
+      "challengerParty": "UMNO",
+      "dpi": {
+        "bkcCula": -9789,
+        "culaPct": 1.2,
+        "skt51": 10139
+      }
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "pasTier": "wajib",
+      "pasTierLabel": "Wajib",
+      "seatRole": "sasaran_flip",
+      "seatRoleLabel": "Sasaran Menang",
+      "winner2023": "PH",
+      "party2023": "DAP",
+      "winnerName2023": "Veerapan Superamaniam",
+      "kategoriPas": "not_priority",
+      "kategoriPasLabel": "Bukan Fokus",
+      "pasWinProb": 15,
+      "challenger": "Elaine Yong Li Yi",
+      "challengerParty": "Gerakan",
+      "dpi": {
+        "bkcCula": -9412,
+        "culaPct": 0.86,
+        "skt51": 9651
+      }
+    }
+  ]
+}

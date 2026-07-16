@@ -1,0 +1,86 @@
+# InsightPulse × Nemotron NIM stack.
+#
+# Start:
+#   export NGC_API_KEY=nvapi-...
+#   docker compose --env-file .env.nemotron -f docker-compose.nemotron.yml up -d
+#
+# Host port map keeps existing InsightPulse services unchanged:
+#   FastAPI 8001, War Room 8080, Streamlit 8501
+
+x-nim-common: &nim-common
+  restart: unless-stopped
+  runtime: nvidia
+  volumes:
+    - ${LOCAL_NIM_CACHE:-/opt/nim/cache}:/opt/nim/.cache
+  environment:
+    - NGC_API_KEY=${NGC_API_KEY}
+
+services:
+  # Phase 1: agentic LLM for analyze_naratif_agentic.py and DOCX generation.
+  nim-llm:
+    <<: *nim-common
+    image: nvcr.io/nim/nvidia/model-free-nim:2.0.5
+    container_name: nim-nano-llm
+    gpus: '"device=${NIM_LLM_GPU:-0}"'
+    shm_size: 16gb
+    environment:
+      - NGC_API_KEY=${NGC_API_KEY}
+      - NIM_MODEL_PATH=${NIM_LLM_MODEL_PATH:-hf://nvidia/NVIDIA-Nemotron-Nano-9B-v2}
+      - NIM_SERVED_MODEL_NAME=${NIM_LLM_MODEL:-nemotron-nano-9b}
+      - NIM_PASSTHROUGH_ARGS=--enable-auto-tool-choice --tool-call-parser qwen3_coder --reasoning-parser nemotron_v3
+    ports:
+      - "${NIM_LLM_PORT:-8000}:8000"
+
+  # Phase 2: video/audio/image understanding.  Requires larger GPU memory.
+  nim-omni:
+    <<: *nim-common
+    image: nvcr.io/nim/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:1.7.0-variant
+    container_name: nim-omni
+    gpus: '"device=${NIM_OMNI_GPU:-1}"'
+    shm_size: 32gb
+    profiles: ["multimodal"]
+    ports:
+      - "${NIM_OMNI_PORT:-8002}:8000"
+
+  # OCR uses 8004 on the host so InsightPulse FastAPI can keep 8001.
+  nim-ocr:
+    <<: *nim-common
+    image: nvcr.io/nim/nvidia/nemotron-ocr-v2:latest
+    container_name: nim-ocr
+    gpus: '"device=${NIM_OCR_GPU:-1}"'
+    shm_size: 16gb
+    profiles: ["multimodal"]
+    ports:
+      - "${NIM_OCR_PORT:-8004}:8000"
+
+  nim-asr:
+    <<: *nim-common
+    image: nvcr.io/nim/nvidia/nemotron-asr-streaming:latest
+    container_name: nim-asr
+    gpus: '"device=${NIM_ASR_GPU:-1}"'
+    shm_size: 8gb
+    profiles: ["multimodal"]
+    environment:
+      - NGC_API_KEY=${NGC_API_KEY}
+      - NIM_HTTP_API_PORT=9000
+      - NIM_GRPC_API_PORT=50051
+      - NIM_TAGS_SELECTOR=name=nemotron-asr-streaming,type=multi
+    ports:
+      - "${NIM_ASR_PORT:-9000}:9000"
+      - "${NIM_ASR_GRPC_PORT:-50051}:50051"
+
+  # Phase 3: multilingual safety moderation.
+  nim-safety:
+    <<: *nim-common
+    image: nvcr.io/nim/nvidia/nemotron-content-safety:latest
+    container_name: nim-safety
+    gpus: '"device=${NIM_SAFETY_GPU:-1}"'
+    shm_size: 16gb
+    profiles: ["safety"]
+    ports:
+      - "${NIM_SAFETY_PORT:-8003}:8000"
+
+  # Existing InsightPulse services remain external/reference only:
+  #   ./start_full_app.sh                         -> 8001
+  #   bash scripts/start_prn_warroom_live.sh      -> 8080
+  #   cd n9_chinese_narrative_dashboard && streamlit run app.py -> 8501

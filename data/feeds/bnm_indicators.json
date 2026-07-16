@@ -1,0 +1,9 @@
+{
+  "updated": "2026-06-09",
+  "source": "Sample feed — replace with live BNM API/CSV sync",
+  "indicators": {
+    "OPR": {"value": 3.0, "unit": "percent", "trend": "stable"},
+    "SME_NPL": {"value": 2.4, "unit": "percent", "trend": "up"},
+    "SME_Lending_Growth": {"value": 4.2, "unit": "percent_yoy", "trend": "moderate"}
+  }
+}

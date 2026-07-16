@@ -1,6 +1,56 @@
 {
-  "categories": ["political", "sme", "agency", "commercial"],
+  "categories": [
+    "political",
+    "sme",
+    "agency",
+    "commercial"
+  ],
   "projects": {
+    "PRN_N9": {
+      "category": "political",
+      "name": "PRN Negeri Sembilan 2026",
+      "client": "Internal · EXCO Negeri Sembilan",
+      "path": "data/projects/political/PRN/PRN_N9",
+      "master_prefix": "PRN_N9",
+      "default_keywords": [
+        "PRN Negeri Sembilan",
+        "Negeri Sembilan",
+        "Aminuddin",
+        "PAS N9"
+      ],
+      "processing": "on-prem-nemotron",
+      "multimodal": true,
+      "active": true
+    },
+    "PRN_Johor": {
+      "category": "political",
+      "name": "PRN Johor 2026",
+      "client": "Internal · JITP 2026",
+      "path": "data/projects/political/PRN/PRN_Johor",
+      "master_prefix": "PRN_Johor",
+      "default_keywords": [
+        "PRN Johor",
+        "PAS Johor",
+        "DUN Johor"
+      ],
+      "processing": "on-prem-nemotron",
+      "multimodal": true,
+      "active": true
+    },
+    "PRN_Melaka": {
+      "category": "political",
+      "name": "PRN Melaka 2026",
+      "client": "Internal · JITP 2026",
+      "path": "data/projects/political/PRN/PRN_Melaka",
+      "master_prefix": "PRN_Melaka",
+      "default_keywords": [
+        "PRN Melaka",
+        "DUN Melaka"
+      ],
+      "processing": "on-prem-nemotron",
+      "multimodal": true,
+      "active": true
+    },
     "pas_break_2026": {
       "category": "political",
       "name": "PAS–Bersatu Split · PRN Johor/Melaka/NS",
@@ -22,7 +72,11 @@
       "name": "PAS–Bersatu Baseline (JITP Mei 2026)",
       "client": "Internal · JITP 2026",
       "master_prefix": "PAS_Bersatu_Baseline",
-      "default_keywords": ["PAS Bersatu", "PAS solo", "perpecahan"],
+      "default_keywords": [
+        "PAS Bersatu",
+        "PAS solo",
+        "perpecahan"
+      ],
       "active": true
     },
     "prn_johor_2026": {
@@ -30,7 +84,11 @@
       "name": "PRN Johor 2026 Dashboard",
       "client": "Internal · JITP 2026",
       "master_prefix": "PRN_Johor",
-      "default_keywords": ["PRN Johor", "PAS Johor", "DUN Johor"],
+      "default_keywords": [
+        "PRN Johor",
+        "PAS Johor",
+        "DUN Johor"
+      ],
       "active": true
     },
     "smebank": {
@@ -38,7 +96,11 @@
       "name": "SME Bank EWS & PAI",
       "client": "SME Bank",
       "master_prefix": "SMEBank",
-      "default_keywords": ["SME Bank", "pinjaman SME", "financing"],
+      "default_keywords": [
+        "SME Bank",
+        "pinjaman SME",
+        "financing"
+      ],
       "active": true
     },
     "kdebwm": {
@@ -46,7 +108,38 @@
       "name": "KDEBWM Complaint Monitoring",
       "client": "KDEBWM",
       "master_prefix": "KDEBWM",
-      "default_keywords": ["KDEBWM", "complaint", "DBKL"],
+      "default_keywords": [
+        "KDEBWM",
+        "complaint",
+        "DBKL"
+      ],
+      "active": true
+    },
+    "mbjb": {
+      "category": "agency",
+      "name": "MBJB U.S.A.H.A — Urban Sentiment Analytics",
+      "client": "Majlis Bandaraya Johor Bahru",
+      "master_prefix": "MBJB",
+      "default_keywords": [
+        "johor bahru",
+        "mbjb",
+        "sampah johor bahru",
+        "rumput johor bahru",
+        "kebersihan mbjb",
+        "longgokan sampah jb",
+        "landscape jb",
+        "aduan mbjb"
+      ],
+      "active": true
+    },
+    "Cina_Narative_2026": {
+      "category": "political",
+      "name": "Chinese_Response_Narative_Issues",
+      "client": "PAS_Politics_News",
+      "master_prefix": "chinese_response_narative_issu",
+      "default_keywords": [],
+      "processing": "on-prem-nemotron",
+      "multimodal": true,
       "active": true
     }
   }

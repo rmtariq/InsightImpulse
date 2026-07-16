@@ -1,0 +1,144 @@
+# =============================================================
+# InsightPulse — N9 CRAWL BATCH 8 · 7 BLOK SENARIO
+# =============================================================
+# Tujuan : Data socmed/sentiment untuk 7 senario bloc (PAS N9 HQ)
+# Kemaskini Jun 2026:
+#   • Team PN (#4) = PAS + Pejuang (Mahathir penasihat) + Wawasan (Hamzah presiden)
+#   • Slider #6 = Bersama (Rafizi) pecah undi PH
+#   • Slider #7 = Bersatu (Muhyiddin · Azmin) risiko solo — BUKAN Hamzah, BUKAN Mahathir
+# Tag    : PRN-N9-Batch8-7Blok
+# Tetapan: Last 7 Days · 50–100 posts/query · Platform: X pilot, then FB/TikTok
+# Anggaran pilot X: ~RM12–15  |  Full platform: ~RM35–45
+# NOTA   : InsightPulse skip baris '#'. Paste SATU query per baris aktif.
+#          Operator OR = HURUF BESAR. Frasa 2+ perkataan dalam "petik".
+# =============================================================
+
+
+# =============================================================
+# BATCH A — BERSAMA / RAFIZI (#6 · pecah undi PH)
+# =============================================================
+
+"parti bersama" OR "Bersama Rafizi" OR "Rafizi Ramli" ("negeri sembilan" OR "PRN N9" OR "prn negeri sembilan")
+"bersama vs ph" OR "bersama vs pakatan harapan" ("negeri sembilan" OR "N9")
+"Rafizi Ramli" ("negeri sembilan" OR seremban OR nilai OR "port dickson")
+"parti bersama" (seremban OR nilai OR rembau OR jempol OR tampin)
+
+
+# =============================================================
+# BATCH B — BERSATU FACTION (#7 · Muhyiddin · Azmin — risiko solo pecah PN)
+# BUKAN: Mahathir (Pejuang), Hamzah (Wawasan) — kedua-dua dalam Team PN (#4)
+# =============================================================
+
+"Muhyiddin" OR "Muhyiddin Yassin" ("negeri sembilan" OR "PRN N9")
+"Azmin Ali" OR "Azmin" ("negeri sembilan" OR "PRN N9") -"Azmin Ali Bersatu" -rafizi
+"Bersatu" OR "Parti Pribumi Bersatu" ("negeri sembilan" OR N9) -Mahathir -"Tun M" -Pejuang -Wawasan -Hamzah
+"Bersatu vs PAS" OR "Bersatu vs PN" OR "Bersatu solo" ("negeri sembilan" OR N9) -Mahathir
+"kemelut PAS Bersatu" OR "PAS Bersatu" ("negeri sembilan" OR N9)
+
+
+# =============================================================
+# BATCH C — TEAM PN (#4 · PAS + Pejuang + Wawasan + Mahathir + Hamzah)
+# Pejuang & Wawasan diterima komponen PN (22 Jun 2026)
+# =============================================================
+
+"Pejuang" OR "Mukhriz" OR "Mahathir" OR "Tun M" ("negeri sembilan" OR "PRN N9") (PN OR "perikatan nasional" OR muafakat)
+"Hamzah Zainudin" OR "Parti Wawasan" OR "Wawasan Negara" ("negeri sembilan" OR N9) (PN OR "perikatan nasional")
+"Pejuang PN" OR "Wawasan PN" OR "Team PN" ("negeri sembilan" OR N9)
+"perikatan nasional" ("negeri sembilan" OR N9) (Pejuang OR Wawasan OR PAS)
+
+
+# =============================================================
+# BATCH D — MN / MUAFakat (#3 · default)
+# =============================================================
+
+"muafakat nasional" ("negeri sembilan" OR N9 OR "PRN N9")
+"PAS UMNO" OR "PAS BN" ("negeri sembilan" OR N9)
+"muafakat" (PAS OR UMNO) (seremban OR nilai OR rembau OR jempol OR tampin)
+
+
+# =============================================================
+# BATCH E — PAS SOLO vs UMNO SOLO (#1 & #2)
+# =============================================================
+
+"PAS solo" OR "PAS sendiri" ("negeri sembilan" OR N9)
+"UMNO solo" OR "BN solo" ("negeri sembilan" OR N9)
+"pecah undi Melayu" ("negeri sembilan" OR N9) (PAS OR UMNO)
+
+
+# =============================================================
+# BATCH F — PH / MADANI (#5)
+# =============================================================
+
+"pakatan harapan" OR "PH negeri sembilan" OR "madani" ("negeri sembilan" OR N9)
+"Aminuddin Harun" OR "MB Negeri Sembilan" (PRN OR "pilihan raya negeri")
+
+
+# =============================================================
+# BATCH G — 13 KERUSI MN + BLOK (satu query OR per DUN)
+# Keutamaan: 4 berhasrat + Serting + Ampangan
+# =============================================================
+
+[N01 CHENNAH]
+"chennah" OR "dun chennah" OR "chennah jelebu" (muafakat OR bersama OR "parti bersama" OR pejuang OR wawasan)
+
+[N04 KLAWANG]
+"klawang" OR "dun klawang" OR "bakri sawir" (muafakat OR bersama OR pejuang OR wawasan)
+
+[N05 SERTING]
+"serting" OR "dun serting" OR "mohd fairuz" (muafakat OR bersama OR "pecah undi" OR bersatu)
+
+[N10 NILAI]
+"nilai negeri sembilan" OR "dun nilai" OR "arul kumar" (muafakat OR bersama OR "parti bersama" OR rafizi)
+
+[N13 SIKAMAT]
+"sikamat" OR "aminuddin harun" (muafakat OR bersama OR bersatu OR ph)
+
+[N14 AMPANGAN]
+"ampangan" OR "tengku zamrah" (muafakat OR bersama OR "flip" OR pejuang)
+
+[N18 PILAH]
+"kuala pilah" OR "dun pilah" OR "noorzunita" (muafakat OR bersama OR pejuang)
+
+[N20 LABU]
+"dun labu" OR "labu seremban" (muafakat OR PN OR pejuang OR wawasan)
+
+[N25 PAROI]
+"paroi" OR "kamarol ridzuan" (muafakat OR PN OR pejuang OR "pecah undi")
+
+[N31 BAGAN PINANG]
+"bagan pinang" OR "abdul fatah" (muafakat OR ph OR PN)
+
+[N33 SRI TANJUNG]
+"sri tanjung" OR "rajasekaran" (muafakat OR bersama OR ph OR india)
+
+[N34 GEMAS]
+"dun gemas" OR "gemas tampin" (muafakat OR PN OR pejuang)
+
+[N36 REPAH]
+"dun repah" OR "repah tampin" (muafakat OR bersama OR ph OR dap)
+
+
+# =============================================================
+# BATCH H — URL RASMI (optional · tambah coverage)
+# =============================================================
+
+https://www.facebook.com/partibersama
+https://www.facebook.com/RafiziRamli
+https://x.com/RafiziRamli
+https://www.facebook.com/PartiBersatuMalaysia
+https://www.facebook.com/pejuang.org.my
+https://www.facebook.com/PAS.NegeriSembilan
+https://www.facebook.com/umnonegerisembilan
+
+
+# =============================================================
+# SELEPAS CRAWL — REBUILD PIPELINE
+# =============================================================
+# 1. Gabung CSV ke master:
+#    data/projects/political/pas_break_2026/master/
+# 2. Rebuild socmed:
+#    python scripts/build_warroom_socmed_by_dun.py --state N9
+# 3. Rebuild production bundle:
+#    python scripts/build_warroom_production_bundle.py --state N9
+# 4. Refresh dashboard → slider #6/#7 akan tunjuk badge sentiment crawl
+# =============================================================

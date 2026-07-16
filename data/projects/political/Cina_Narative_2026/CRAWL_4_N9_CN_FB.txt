@@ -1,0 +1,82 @@
+================================================================================
+CRAWL 4 — Negeri Sembilan PRN · Media Cina + FB Group · PAS/PN/MN Narrative
+Projek: Cina_Narative_2026 · Chinese_Response_Narative_Issues
+Matlamat: Kukuhkan intel naratif Cina untuk 20 kerusi sasaran MN (Nilai, Seremban, Jelebu, Bahau + flip)
+================================================================================
+
+TETAPAN SAMA SETIAP CRAWL:
+  Mod Crawl        → Keyword Search
+  Analysis Type  → Issue Detection  (atau Social Listening)
+  Project          → Chinese_Response_Narative_Issues — PAS_Politics_News
+  Dataset Size     → 2,000
+  Date Range       → Last 14 Days
+  Comment Sampling → Smart
+
+PENTING:
+  • SATU crawl = SATU query di bawah
+  • Selesai satu → mula seterusnya
+  • Pastikan Project dropdown BETUL sebelum Start
+
+================================================================================
+4A — Media Cina N9 (News) · PRIORITI 1
+================================================================================
+Platform:  [X] News   [ ] Facebook   [ ] X   [ ] TikTok   [ ] IG   [ ] YouTube
+
+QUERY:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" OR "光明日报" (Negeri Sembilan OR 森美兰 OR 森州 OR Seremban OR 芙蓉 OR Nilai OR 汝来 OR Bahau OR 马口 OR Jelebu OR 日叻务) when:14d
+
+================================================================================
+4B — Naratif 巫伊 / PAS–BN N9 (News + X) · PRIORITI 1
+================================================================================
+Platform:  [X] News   [ ] Facebook   [X] X
+
+QUERY:
+(伊党 OR "PAS" OR "Parti Islam") AND (国阵 OR "Barisan Nasional" OR UMNO OR 巫统) AND (森美兰 OR "Negeri Sembilan" OR Seremban OR 芙蓉 OR "PRN N9") when:14d
+
+================================================================================
+4C — Facebook Group Komuniti Cina N9 · PRIORITI 1
+================================================================================
+Platform:  [ ] News   [X] Facebook   [ ] X   [ ] TikTok   [ ] IG   [ ] YouTube
+
+QUERY:
+("芙蓉" OR Seremban OR Nilai OR 汝来 OR Bahau OR 马口 OR Jelebu OR 日叻务 OR Senawang OR "Port Dickson" OR 波德申) AND ("州选" OR PRN OR "pilihan raya negeri" OR 选举) AND ("伊党" OR PAS OR 国阵 OR DAP OR 行动党 OR PH)
+
+================================================================================
+4D — 20 Kerusi Sasaran MN — kawasan khusus · PRIORITI 1
+================================================================================
+Platform:  [X] News   [X] Facebook   [X] X
+
+QUERY:
+(Nilai OR 汝来 OR "Seremban Kota" OR 芙蓉 OR Bahau OR 马口 OR Sikamat OR Jelebu OR Palong OR Ampangan OR Paroi OR Rantau OR Gemencheh OR "Port Dickson") AND ("PRN" OR "州选" OR "pilihan raya negeri") AND (PAS OR 伊党 OR DAP OR 行动党 OR "kos hidup" OR 生活费 OR SME)
+
+================================================================================
+4E — Isu respons: kos hidup / SME / perkhidmatan bandar · PRIORITI 2
+================================================================================
+Platform:  [X] News   [X] Facebook   [X] X   [X] TikTok
+
+QUERY:
+(生活费 OR "kos hidup" OR SME OR 中小企业 OR 塞车 OR parking OR PBT) AND (Seremban OR Nilai OR Bahau OR Jelebu OR "Negeri Sembilan" OR 森美兰) when:14d
+
+================================================================================
+4F — TikTok/IG naratif muda Cina N9 · PRIORITI 3
+================================================================================
+Platform:  [ ] News   [ ] Facebook   [ ] X   [X] TikTok   [X] Instagram   [X] YouTube
+
+QUERY:
+"PRN Negeri Sembilan" OR "PRN N9" OR 森美兰州选 OR (#PRNN9 OR #NegeriSembilanPRN) OR (Seremban OR Nilai OR Bahau OR Jelebu)
+
+================================================================================
+SELEPAS CRAWL 4 — REFRESH DASHBOARD AGENTIC
+================================================================================
+  cd /Users/rmtariq/Documents/InsightPulse
+  ./scripts/update_narrative.sh petang
+  NEImpulse/bin/python scripts/analyze_naratif_agentic.py --rebuild --no-llm
+
+  Buka:
+  data/projects/political/PRN/reports/naratif_cina_india/naratif_cina_india_johor_n9_dashboard.html
+
+  War Room (jika perlu):
+  ./scripts/start_prn_warroom_live.sh
+  http://localhost:8080/?module=narrative
+
+================================================================================

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Test</title>
+</head>
+<body>
+    <h1>Testing Dashboard Data Loading</h1>
+    <div id="output"></div>
+    
+    <script>
+        fetch('pas_dashboard_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const output = document.getElementById('output');
+                output.innerHTML = `
+                    <h2>✅ Data Loaded Successfully!</h2>
+                    <pre>${JSON.stringify(data, null, 2).substring(0, 1000)}...</pre>
+                    
+                    <h3>Data Structure:</h3>
+                    <ul>
+                        <li>stats: ${data.stats ? '✅' : '❌'}</li>
+                        <li>platforms: ${data.platforms ? '✅ (' + data.platforms.length + ' platforms)' : '❌'}</li>
+                        <li>sentiment: ${data.sentiment ? '✅' : '❌'}</li>
+                        <li>emotions: ${data.emotions ? '✅' : '❌'}</li>
+                        <li>narratives: ${data.narratives ? '✅' : '❌'}</li>
+                        <li>daily: ${data.daily ? '✅ (' + data.daily.length + ' days)' : '❌'}</li>
+                        <li>top_posts: ${data.top_posts ? '✅ (' + data.top_posts.length + ' posts)' : '❌'}</li>
+                    </ul>
+                `;
+            })
+            .catch(error => {
+                document.getElementById('output').innerHTML = `<h2>❌ Error: ${error}</h2>`;
+            });
+    </script>
+</body>
+</html>

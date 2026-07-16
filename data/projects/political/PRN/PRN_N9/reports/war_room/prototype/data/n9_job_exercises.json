@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "generated": "2026-07-05 02:47:16",
+    "state": "N9"
+  },
+  "exercises": [
+    {
+      "id": "JOB-N9-01",
+      "title": "Pengundi Malaysia Poll — MN vs PH",
+      "status": "siap",
+      "completed_at": "2026-07-05",
+      "type": "cula_digital_poll",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/story.php?story_fbid=1579205333771288&id=100050455091322",
+      "posts": 1,
+      "comments": 531,
+      "likes": 1051,
+      "shares": 50,
+      "engagement": 1882,
+      "stats": {
+        "posts": 1,
+        "sokong_mn_pct": 89.4,
+        "tolak_pct": 10.6,
+        "comments": 531,
+        "likes": 1051,
+        "shares": 50,
+        "engagement": 1882,
+        "decided_ab": 226
+      },
+      "bloc7_nudge": {
+        "mn": 3,
+        "ph": -2
+      },
+      "insight": "1 post · 531 komen · 1,882 eng · ~89.4% sokong MN",
+      "pptx": "Pengundi_Malaysia_Poll_N9_Insight_Tindakan.pptx",
+      "report_dir": "reports/20260705_000328_httpswwwfacebookcomstoryphpstory_fbid1579205333771",
+      "synced_at": "2026-07-05 02:47"
+    },
+    {
+      "id": "JOB-N9-02",
+      "title": "Monarki & Adat N9 — Keyword K1–K5",
+      "status": "siap",
+      "completed_at": "2026-07-05",
+      "type": "keyword_crawl",
+      "platform": "FB + X + News",
+      "posts_total_overlap": 11178,
+      "records_total_overlap": 11178,
+      "engagement_total_overlap": 586097,
+      "keywords": [
+        {
+          "id": "K1",
+          "label": "Monarki luas",
+          "posts": 714,
+          "records": 714,
+          "neg_pct": 28.3,
+          "engagement": 29410,
+          "platforms": {
+            "facebook": 344,
+            "news": 246,
+            "x": 124
+          }
+        },
+        {
+          "id": "K2",
+          "label": "Mukhriz vs Undang",
+          "posts": 1040,
+          "records": 1040,
+          "neg_pct": 52.4,
+          "engagement": 20992,
+          "platforms": {
+            "facebook": 1019,
+            "news": 13,
+            "x": 8
+          }
+        },
+        {
+          "id": "K3",
+          "label": "Undang 4 vs MB",
+          "posts": 2024,
+          "records": 2024,
+          "neg_pct": 53.5,
+          "engagement": 35050,
+          "platforms": {
+            "facebook": 2009,
+            "news": 15
+          }
+        },
+        {
+          "id": "K4",
+          "label": "Adat + DAP",
+          "posts": 2838,
+          "records": 2838,
+          "neg_pct": 47.9,
+          "engagement": 78882,
+          "platforms": {
+            "facebook": 2766,
+            "x": 36,
+            "news": 36
+          }
+        },
+        {
+          "id": "K5",
+          "label": "Batch C09",
+          "posts": 4562,
+          "records": 4562,
+          "neg_pct": 41.9,
+          "engagement": 421763,
+          "platforms": {
+            "facebook": 4350,
+            "x": 112,
+            "news": 100
+          }
+        }
+      ],
+      "stats": {
+        "keywords": 5,
+        "records_k5": 4562,
+        "posts_k5": 4562,
+        "neg_pct_peak": 53.5,
+        "neg_peak_kw": "K3",
+        "engagement_k5": 421763,
+        "engagement_overlap": 586097,
+        "undang_dun": [
+          "N03",
+          "N05",
+          "N06",
+          "N18",
+          "N19",
+          "N25",
+          "N26",
+          "N27",
+          "N34",
+          "N35"
+        ]
+      },
+      "bloc7_nudge": {
+        "mn": 5,
+        "ph": -5,
+        "pas_solo": 4,
+        "hung": 1
+      },
+      "insight": "K5 421,763 eng · overlap K1–K5 586,097 eng",
+      "pptx": "MN_N9_Strategic_Brief_Monarki_Poll_Insight_Tindakan.pptx",
+      "report_dir": "reports/20260705_015017_adat perpatih OR undang OR tuanku muhriz negeri se",
+      "synced_at": "2026-07-05 02:47"
+    }
+  ]
+}

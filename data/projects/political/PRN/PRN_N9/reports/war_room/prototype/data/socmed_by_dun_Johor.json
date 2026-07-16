@@ -1,0 +1,2111 @@
+{
+  "meta": {
+    "state": "Johor",
+    "generated": "2026-07-15 01:54:39",
+    "master_source": "data/projects/political/PRN/PRN_Johor/master/PRN_Johor_Master_20260702_153626.csv + data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260702_153626.csv",
+    "state_rows_scanned": 2147,
+    "window_end_utc": "2026-06-21T13:08:05+00:00",
+    "headline_max_age_days": 90,
+    "window_24h_note": "24j = 24 jam sebelum tarikh crawl terakhir dalam master"
+  },
+  "byDun": {
+    "N01": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 50.0,
+      "neu_pct": 50.0,
+      "lean": {
+        "sokong": 50.0,
+        "atas_pagar": 50.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 50.0,
+        "malay": 50.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 915,
+      "engagement_24h": 0,
+      "platforms": {
+        "youtube": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N02": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N03": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N04": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N05": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N06": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N07": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N08": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Jalan & pengangkutan",
+          "mentions": 1
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 21,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N09": {
+      "mentions_total": 6,
+      "mentions_24h": 6,
+      "mentions_7d": 6,
+      "neg_pct": 0.0,
+      "pos_pct": 16.7,
+      "neu_pct": 83.3,
+      "lean": {
+        "sokong": 16.7,
+        "atas_pagar": 83.3,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "happy": 16.7
+      },
+      "emotion_top": "happy",
+      "demo_mix": {
+        "malay": 33.3,
+        "urban": 66.7
+      },
+      "demo_top": "urban",
+      "demo_insight": "Naratif socmed condong bandar/campuran",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {
+        "news": 5,
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N10": {
+      "mentions_total": 13,
+      "mentions_24h": 5,
+      "mentions_7d": 11,
+      "neg_pct": 0.0,
+      "pos_pct": 30.8,
+      "neu_pct": 69.2,
+      "lean": {
+        "sokong": 30.8,
+        "atas_pagar": 69.2,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 7.7,
+        "happy": 7.7
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 46.2,
+        "malay": 30.8,
+        "urban": 23.1
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 2
+        },
+        {
+          "issue": "Pendidikan",
+          "mentions": 1
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 24508,
+      "engagement_24h": 606,
+      "platforms": {
+        "facebook": 4,
+        "news": 4,
+        "instagram": 3,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N11": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 100.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 100.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "happy": 100.0
+      },
+      "emotion_top": "happy",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 17,
+      "engagement_24h": 0,
+      "platforms": {
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N12": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 100.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 100.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "love": 100.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Pendidikan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 372,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…Untuk makluman semua, Jumlah Peruntukan bagi DUN Bentayan telah mencecah RM 2,284,778.00! Setiap sen telah disalurkan dengan telus dan berkesan ke pelbagai sek…",
+      "top_snippet_date": "2026-06-20T12:01:00+00:00"
+    },
+    "N13": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 980,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 1,
+        "tiktok": 1,
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N14": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 100.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 100.0
+      },
+      "lean_label": "Cenderung Menentang",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 159,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N15": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N16": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 50.0,
+      "pos_pct": 0.0,
+      "neu_pct": 50.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 50.0,
+        "menentang": 50.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 230,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 2
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N17": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N18": {
+      "mentions_total": 1,
+      "mentions_24h": 1,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 100.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 100.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 42,
+      "engagement_24h": 42,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N19": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N20": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N21": {
+      "mentions_total": 9,
+      "mentions_24h": 5,
+      "mentions_7d": 9,
+      "neg_pct": 11.1,
+      "pos_pct": 22.2,
+      "neu_pct": 66.7,
+      "lean": {
+        "sokong": 22.2,
+        "atas_pagar": 66.7,
+        "menentang": 11.1
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "happy": 33.3,
+        "fear": 11.1,
+        "love": 11.1
+      },
+      "emotion_top": "happy",
+      "demo_mix": {
+        "unknown": 33.3,
+        "urban": 44.4,
+        "malay": 22.2
+      },
+      "demo_top": "urban",
+      "demo_insight": "Naratif socmed condong bandar/campuran",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 77.8,
+      "engagement_total": 518,
+      "engagement_24h": 511,
+      "platforms": {
+        "news": 3,
+        "tiktok": 3,
+        "facebook": 1,
+        "instagram": 1
+      },
+      "alert_level": "warning",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N22": {
+      "mentions_total": 2,
+      "mentions_24h": 1,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 50.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 50.0,
+        "urban": 50.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed condong bandar/campuran",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 6,
+      "engagement_24h": 3,
+      "platforms": {
+        "x": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N23": {
+      "mentions_total": 34,
+      "mentions_24h": 8,
+      "mentions_7d": 12,
+      "neg_pct": 20.6,
+      "pos_pct": 2.9,
+      "neu_pct": 76.5,
+      "lean": {
+        "sokong": 2.9,
+        "atas_pagar": 76.5,
+        "menentang": 20.6
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "anger": 5.9,
+        "happy": 5.9,
+        "fear": 5.9,
+        "sadness": 2.9,
+        "love": 2.9
+      },
+      "emotion_top": "anger",
+      "demo_mix": {
+        "unknown": 76.5,
+        "malay": 11.8,
+        "urban": 11.8
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 17.6,
+      "top_issues": [
+        {
+          "issue": "Pekerjaan & ekonomi",
+          "mentions": 3
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 3
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 3
+        }
+      ],
+      "confidence": "Tinggi",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 14574,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 18,
+        "news": 8,
+        "tiktok": 3,
+        "instagram": 2
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N24": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N25": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N26": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N27": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Jalan & pengangkutan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 44,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N28": {
+      "mentions_total": 8,
+      "mentions_24h": 2,
+      "mentions_7d": 8,
+      "neg_pct": 12.5,
+      "pos_pct": 50.0,
+      "neu_pct": 37.5,
+      "lean": {
+        "sokong": 50.0,
+        "atas_pagar": 37.5,
+        "menentang": 12.5
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "love": 25.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 50.0,
+        "malay": 37.5,
+        "urban": 12.5
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 3
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 2233,
+      "engagement_24h": 201,
+      "platforms": {
+        "facebook": 3,
+        "tiktok": 2,
+        "instagram": 2,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ikan! Risalah jemputan telah diedarkan di sekitar Mengkibol untuk memaklumkan orang ramai tentang Majlis Pengumuman Calon DAP Mengkibol. 📅 18 Jun 2026 (Khamis)…",
+      "top_snippet_date": "2026-06-21T04:39:42.155623+00:00"
+    },
+    "N29": {
+      "mentions_total": 8,
+      "mentions_24h": 2,
+      "mentions_7d": 3,
+      "neg_pct": 0.0,
+      "pos_pct": 12.5,
+      "neu_pct": 87.5,
+      "lean": {
+        "sokong": 12.5,
+        "atas_pagar": 87.5,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 25.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 62.5,
+        "malay": 25.0,
+        "urban": 12.5
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 12.5,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 3274,
+      "engagement_24h": 981,
+      "platforms": {
+        "x": 4,
+        "facebook": 2,
+        "tiktok": 1,
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N30": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N31": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N32": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N33": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N34": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N35": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 100.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 100.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 8,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N36": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N37": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Pelancongan",
+          "mentions": 2
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 75.0,
+      "engagement_total": 234,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "news": 1,
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N38": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N39": {
+      "mentions_total": 1,
+      "mentions_24h": 1,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "urban": 100.0
+      },
+      "demo_top": "urban",
+      "demo_insight": "Naratif socmed condong bandar/campuran",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 231,
+      "engagement_24h": 231,
+      "platforms": {
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N40": {
+      "mentions_total": 19,
+      "mentions_24h": 2,
+      "mentions_7d": 17,
+      "neg_pct": 10.5,
+      "pos_pct": 26.3,
+      "neu_pct": 63.2,
+      "lean": {
+        "sokong": 26.3,
+        "atas_pagar": 63.2,
+        "menentang": 10.5
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 15.8,
+        "happy": 5.3
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 73.7,
+        "malay": 21.1,
+        "urban": 5.3
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 10
+        },
+        {
+          "issue": "Kos sara hidup",
+          "mentions": 1
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 18371,
+      "engagement_24h": 5994,
+      "platforms": {
+        "facebook": 8,
+        "x": 3,
+        "tiktok": 3,
+        "youtube": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N41": {
+      "mentions_total": 31,
+      "mentions_24h": 7,
+      "mentions_7d": 21,
+      "neg_pct": 16.1,
+      "pos_pct": 6.5,
+      "neu_pct": 77.4,
+      "lean": {
+        "sokong": 6.5,
+        "atas_pagar": 77.4,
+        "menentang": 16.1
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 12.9,
+        "happy": 6.5,
+        "fear": 3.2,
+        "anger": 3.2
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 48.4,
+        "malay": 19.4,
+        "urban": 32.3
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Kesihatan",
+          "mentions": 1
+        },
+        {
+          "issue": "Banjir & air",
+          "mentions": 1
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Tinggi",
+      "sentiment_labeled_pct": 83.9,
+      "engagement_total": 2297,
+      "engagement_24h": 47,
+      "platforms": {
+        "x": 13,
+        "news": 12,
+        "facebook": 3,
+        "instagram": 3
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N42": {
+      "mentions_total": 36,
+      "mentions_24h": 2,
+      "mentions_7d": 30,
+      "neg_pct": 2.8,
+      "pos_pct": 19.4,
+      "neu_pct": 77.8,
+      "lean": {
+        "sokong": 19.4,
+        "atas_pagar": 77.8,
+        "menentang": 2.8
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 25.0,
+        "happy": 5.6
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 47.2,
+        "malay": 19.4,
+        "urban": 33.3
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 12
+        },
+        {
+          "issue": "Kos sara hidup",
+          "mentions": 2
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Tinggi",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 16413,
+      "engagement_24h": 4567,
+      "platforms": {
+        "facebook": 15,
+        "x": 7,
+        "instagram": 5,
+        "news": 5
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N43": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 50.0,
+      "neu_pct": 50.0,
+      "lean": {
+        "sokong": 50.0,
+        "atas_pagar": 50.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "love": 50.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 50.0,
+        "malay": 50.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 502,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N44": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N45": {
+      "mentions_total": 1,
+      "mentions_24h": 1,
+      "mentions_7d": 1,
+      "neg_pct": 100.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 100.0
+      },
+      "lean_label": "Cenderung Menentang",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 20,
+      "engagement_24h": 20,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N46": {
+      "mentions_total": 2,
+      "mentions_24h": 1,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 100.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 100.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "surprise": 50.0,
+        "love": 50.0
+      },
+      "emotion_top": "surprise",
+      "demo_mix": {
+        "malay": 100.0
+      },
+      "demo_top": "malay",
+      "demo_insight": "Naratif socmed condong Melayu — tiada DPI per-band for compare",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Jalan & pengangkutan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 231,
+      "engagement_24h": 23,
+      "platforms": {
+        "facebook": 1,
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ini di Pusat Komuniti Flat Jalan Camar 12, Taman Perling. Dari jam 10 pagi ke 2 petang sahaja. Jom pakai lawa-lawa, singgah sini untuk snap gambar! #Perling",
+      "top_snippet_date": "2026-06-21T01:07:54+00:00"
+    },
+    "N47": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "Bantuan Am Dun Kempas bile?",
+      "top_snippet_date": "2026-06-19T15:11:48+00:00"
+    },
+    "N48": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 151,
+      "engagement_24h": 0,
+      "platforms": {
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N49": {
+      "mentions_total": 8,
+      "mentions_24h": 0,
+      "mentions_7d": 5,
+      "neg_pct": 0.0,
+      "pos_pct": 12.5,
+      "neu_pct": 87.5,
+      "lean": {
+        "sokong": 12.5,
+        "atas_pagar": 87.5,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "happy": 12.5,
+        "love": 12.5
+      },
+      "emotion_top": "happy",
+      "demo_mix": {
+        "unknown": 62.5,
+        "malay": 12.5,
+        "urban": 25.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 75.0,
+      "engagement_total": 418,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 3,
+        "news": 3,
+        "youtube": 1,
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N50": {
+      "mentions_total": 13,
+      "mentions_24h": 3,
+      "mentions_7d": 11,
+      "neg_pct": 7.7,
+      "pos_pct": 38.5,
+      "neu_pct": 53.8,
+      "lean": {
+        "sokong": 38.5,
+        "atas_pagar": 53.8,
+        "menentang": 7.7
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "anger": 15.4,
+        "surprise": 7.7,
+        "love": 7.7
+      },
+      "emotion_top": "anger",
+      "demo_mix": {
+        "unknown": 46.2,
+        "malay": 53.8
+      },
+      "demo_top": "malay",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 3
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 2
+        },
+        {
+          "issue": "Jalan & pengangkutan",
+          "mentions": 2
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 26664,
+      "engagement_24h": 195,
+      "platforms": {
+        "facebook": 5,
+        "instagram": 5,
+        "youtube": 1,
+        "x": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "LIVE 现场直播 Majlis Pengumuman Calon N.50 Bukit Permai dan N.52 Senai. N50武吉柏迈与N52士乃选区候选人宣布仪式",
+      "top_snippet_date": "2026-06-20T04:09:15+00:00"
+    },
+    "N51": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 50.0,
+      "pos_pct": 0.0,
+      "neu_pct": 50.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 50.0,
+        "menentang": 50.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {},
+      "emotion_top": "neutral",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 158,
+      "engagement_24h": 0,
+      "platforms": {
+        "tiktok": 1,
+        "instagram": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N52": {
+      "mentions_total": 5,
+      "mentions_24h": 1,
+      "mentions_7d": 5,
+      "neg_pct": 0.0,
+      "pos_pct": 40.0,
+      "neu_pct": 60.0,
+      "lean": {
+        "sokong": 40.0,
+        "atas_pagar": 60.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 20.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 60.0,
+        "malay": 40.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 2
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 790,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 3,
+        "instagram": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ajlis Pengumuman Calon N.50 Bukit Permai dan N.52 Senai. N50武吉柏迈与N52士乃选区候选人宣布仪式",
+      "top_snippet_date": "2026-06-20T04:09:15+00:00"
+    },
+    "N53": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N54": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 50.0,
+      "neu_pct": 50.0,
+      "lean": {
+        "sokong": 50.0,
+        "atas_pagar": 50.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Cenderung Sokong",
+      "emotion": {
+        "love": 50.0
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 50.0,
+        "malay": 50.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 997,
+      "engagement_24h": 0,
+      "platforms": {
+        "tiktok": 1,
+        "instagram": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N55": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N56": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    }
+  },
+  "rollup": {
+    "mentions_total_state": 2147,
+    "seats_with_mentions": 32,
+    "seats_with_recent_headline": 6,
+    "top_seats_24h": [
+      [
+        "N23",
+        8
+      ],
+      [
+        "N41",
+        7
+      ],
+      [
+        "N09",
+        6
+      ],
+      [
+        "N10",
+        5
+      ],
+      [
+        "N21",
+        5
+      ],
+      [
+        "N50",
+        3
+      ],
+      [
+        "N28",
+        2
+      ],
+      [
+        "N29",
+        2
+      ]
+    ],
+    "state_lean": {
+      "sokong": 11.4,
+      "atas_pagar": 79.9,
+      "menentang": 8.7
+    },
+    "state_emotion": {
+      "love": 10.1,
+      "happy": 6.2,
+      "anger": 3.6,
+      "fear": 1.2,
+      "sadness": 1.0,
+      "surprise": 0.7
+    },
+    "state_demo": {
+      "unknown": 75.9,
+      "urban": 14.3,
+      "malay": 9.7
+    },
+    "top_issues_state": [
+      {
+        "issue": "Perpaduan kaum",
+        "mentions": 223
+      },
+      {
+        "issue": "Agama & institusi",
+        "mentions": 112
+      },
+      {
+        "issue": "Pekerjaan & ekonomi",
+        "mentions": 88
+      },
+      {
+        "issue": "Pendidikan",
+        "mentions": 82
+      },
+      {
+        "issue": "Jalan & pengangkutan",
+        "mentions": 46
+      },
+      {
+        "issue": "Kos sara hidup",
+        "mentions": 42
+      },
+      {
+        "issue": "Banjir & air",
+        "mentions": 38
+      },
+      {
+        "issue": "Kesihatan",
+        "mentions": 37
+      }
+    ]
+  }
+}

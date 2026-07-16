@@ -1,0 +1,44 @@
+# Portal berita — guna Keyword+News, BUKAN Direct URL
+# Generated: 2026-06-21 10:19
+# URLs: 39
+# InsightPulse: Direct URL Crawl | Date Range: Last 7 Days | Dataset: 1000-2000
+#
+https://news.seehua.com
+https://www.chinapress.com.my
+https://www.enanyang.my
+https://www.guangming.com.my
+https://www.kwongwah.com.my
+https://www.nanyang.com
+https://www.orientaldaily.com.my
+https://www.seehua.com
+https://www.sinchew.com.my
+https://malaysianow.com
+https://www.codeblue.galencentre.org
+https://www.freemalaysiatoday.com
+https://www.nst.com.my
+https://www.scmp.com/topics/malaysia
+https://www.theedgemalaysia.com
+https://www.themalaysianinsight.com
+https://www.thestar.com.my
+https://ns.gov.my
+https://www.berita-johor.com
+https://www.johorkini.com
+https://www.johorsoutherntigers.com.my
+https://says.com
+https://www.astroawani.com
+https://www.berita.rtm.gov.my
+https://www.bernama.com/bm
+https://www.bharian.com.my
+https://www.freemalaysiatoday.com/category/bahasa
+https://www.hmetro.com.my
+https://www.kosmo.com.my
+https://www.malaymail.com
+https://www.malaysiakini.com/my
+https://www.mstar.com.my
+https://www.sinarharian.com.my
+https://www.themalaysianreserve.com
+https://www.tv3.com.my
+https://www.utusan.com.my
+https://makkalosai.com.my
+https://www.malaysianindian.com
+https://www.tamilnesan.com.my

@@ -1,0 +1,9 @@
+{
+  "updated": "2026-06-09",
+  "source": "Sample feed — replace with live DOSM releases",
+  "indicators": {
+    "CPI": {"value": 2.1, "unit": "percent_yoy", "trend": "stable"},
+    "Retail_Sales": {"value": 3.5, "unit": "percent_yoy", "trend": "moderate"},
+    "Unemployment": {"value": 3.3, "unit": "percent", "trend": "stable"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "started": "2026-06-20T15:54:50.693353+08:00",
+  "jobs": [
+    {
+      "state": "N9",
+      "task_id": "872bbce6-325e-442b-9227-44dcf2ad7fc5",
+      "query": "\"PRN Negeri Sembilan\" OR \"pilihan raya negeri sembilan\" OR #PRNNS OR PAS OR UMNO OR BN OR DAP OR PKR OR BERSATU OR Gerakan \"Negeri Sembilan\" when:30d"
+    }
+  ]
+}

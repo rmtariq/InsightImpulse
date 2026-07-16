@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightPulse Dashboard - maraliner OR "mara liner" OR "bas mara" OR "mara express"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .dashboard-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 0 0 1rem 1rem;
+        }
+        .metric-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .metric-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .chart-container {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .table-container {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .positive { color: #28a745; }
+        .negative { color: #dc3545; }
+        .neutral { color: #6c757d; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="dashboard-header">
+        <div class="container">
+            <h1><i class="bi bi-graph-up"></i> InsightPulse Dashboard</h1>
+            <h2>maraliner OR "mara liner" OR "bas mara" OR "mara express"</h2>
+            <p class="mb-0">
+                <i class="bi bi-calendar"></i> May 17, 2026 at 17:00 |
+                <i class="bi bi-tag"></i> Social Listening
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Key Metrics Row -->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label"><i class="bi bi-file-text"></i> Total Posts</div>
+                    <div class="metric-value">131</div>
+                    <small class="text-muted">Across all platforms</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label positive"><i class="bi bi-emoji-smile"></i> Positive</div>
+                    <div class="metric-value positive">36.6%</div>
+                    <small class="text-muted">Positive sentiment</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label neutral"><i class="bi bi-emoji-neutral"></i> Neutral</div>
+                    <div class="metric-value neutral">60.3%</div>
+                    <small class="text-muted">Neutral sentiment</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="metric-card">
+                    <div class="metric-label negative"><i class="bi bi-emoji-frown"></i> Negative</div>
+                    <div class="metric-value negative">3.1%</div>
+                    <small class="text-muted">Negative sentiment</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Row -->
+        <div class="row">
+            <!-- Sentiment Distribution -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="bi bi-pie-chart"></i> Sentiment Distribution</h4>
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Platform Comparison -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="bi bi-bar-chart"></i> Posts by Platform</h4>
+                    <canvas id="platformChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Engagement by Platform -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="bi bi-heart"></i> Engagement by Platform</h4>
+                    <canvas id="engagementChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Sentiment by Platform -->
+            <div class="col-md-6">
+                <div class="chart-container">
+                    <h4><i class="bi bi-graph-up-arrow"></i> Average Sentiment by Platform</h4>
+                    <canvas id="sentimentByPlatformChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top Posts Table -->
+        <div class="row">
+            <div class="col-12">
+                <div class="table-container">
+                    <h4><i class="bi bi-trophy"></i> Top Posts by Engagement</h4>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Platform</th>
+                                <th>Content</th>
+                                <th>Engagement</th>
+                                <th>Sentiment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+        <tr>
+            <td>1</td>
+            <td>Unknown</td>
+            <td>...</td>
+            <td>0</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+        <tr>
+            <td>2</td>
+            <td>Unknown</td>
+            <td>...</td>
+            <td>0</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Unknown</td>
+            <td>...</td>
+            <td>0</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+        <tr>
+            <td>4</td>
+            <td>Unknown</td>
+            <td>...</td>
+            <td>0</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>Unknown</td>
+            <td>...</td>
+            <td>0</td>
+            <td><span class="badge bg-success">Positive</span></td>
+        </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center mt-4 mb-4">
+            <p class="text-muted">
+                <i class="bi bi-shield-check"></i> Generated by InsightPulse Professional Analytics<br>
+                <small>Powered by Claude Sonnet 4.5, Malaysian Custom Models, and Real-time Data Crawling</small>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Sentiment Distribution Pie Chart
+        const sentimentCtx = document.getElementById('sentimentChart').getContext('2d');
+        new Chart(sentimentCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Positive', 'Neutral', 'Negative'],
+                datasets: [{
+                    data: [36.6, 60.3, 3.1],
+                    backgroundColor: ['#28a745', '#6c757d', '#dc3545'],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed.toFixed(1) + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Platform Posts Bar Chart
+        const platformCtx = document.getElementById('platformChart').getContext('2d');
+        new Chart(platformCtx, {
+            type: 'bar',
+            data: {
+                labels: ["Tiktok"],
+                datasets: [{
+                    label: 'Number of Posts',
+                    data: [131],
+                    backgroundColor: '#667eea',
+                    borderColor: '#764ba2',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Engagement by Platform
+        const engagementCtx = document.getElementById('engagementChart').getContext('2d');
+        new Chart(engagementCtx, {
+            type: 'bar',
+            data: {
+                labels: ["Tiktok"],
+                datasets: [{
+                    label: 'Total Engagement',
+                    data: [7037455],
+                    backgroundColor: '#28a745',
+                    borderColor: '#1e7e34',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Sentiment by Platform
+        const sentimentByPlatformCtx = document.getElementById('sentimentByPlatformChart').getContext('2d');
+        new Chart(sentimentByPlatformCtx, {
+            type: 'line',
+            data: {
+                labels: ["Tiktok"],
+                datasets: [{
+                    label: 'Average Sentiment Score',
+                    data: [0],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

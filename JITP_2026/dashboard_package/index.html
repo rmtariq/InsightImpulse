@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategi Menang PAS | Dashboard Analisis Politik PRN & PRU16</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .kpi-card {
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border-left: 5px solid #10b981;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .kpi-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .kpi-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #059669;
+            margin: 10px 0;
+        }
+        
+        .kpi-label {
+            font-size: 0.95rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .chart-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .chart-title {
+            font-size: 1.4rem;
+            color: #1e293b;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #10b981;
+        }
+        
+        .table-container {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-top: 30px;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: #059669;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:hover {
+            background: #f8fafc;
+        }
+        
+        .sentiment-positive { color: #10b981; font-weight: bold; }
+        .sentiment-negative { color: #ef4444; font-weight: bold; }
+        .sentiment-neutral { color: #6b7280; font-weight: bold; }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.5rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Strategi Menang PAS</h1>
+            <p>Dashboard Analisis Politik: Pergolakan PAS-Bersatu dalam PN | PRN & PRU16</p>
+        </div>
+        
+        <div class="content">
+            <div id="loading" class="loading">📊 Loading data...</div>
+            <div id="dashboard" style="display: none;">
+
+                <!-- KPI Cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card" style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-left: 5px solid #3b82f6;">
+                        <div class="kpi-label">📦 Total Data Collected</div>
+                        <div class="kpi-value" id="kpi-original">-</div>
+                        <small style="color: #1e40af; font-weight: 600;">Raw data from 6 strategic queries</small>
+                    </div>
+                    <div class="kpi-card" style="background: linear-gradient(135deg, #fefce8 0%, #fef3c7 100%); border-left: 5px solid #eab308;">
+                        <div class="kpi-label">📝 Clean Data (Deduplicated)</div>
+                        <div class="kpi-value" id="kpi-clean">-</div>
+                        <small style="color: #713f12; font-weight: 600;">After removing duplicates & noise</small>
+                    </div>
+                    <div class="kpi-card" style="background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #10b981;">
+                        <div class="kpi-label">📊 Posts Analyzed</div>
+                        <div class="kpi-value" id="kpi-posts">-</div>
+                        <small style="color: #065f46; font-weight: 600;">Last 90 days (1 Mac - 30 Mei 2026)</small>
+                    </div>
+                    <div class="kpi-card" style="background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-left: 5px solid #ef4444;">
+                        <div class="kpi-label">🔥 TOTAL ENGAGEMENT</div>
+                        <div class="kpi-value" id="kpi-engagement" style="color: #dc2626; font-size: 2.5rem;">-</div>
+                        <small style="color: #991b1b; font-weight: 600;">Likes + Shares + Comments + Views (ALL DATA)</small>
+                    </div>
+                </div>
+
+                <!-- AI Insights Section -->
+                <div class="chart-card" style="margin-top: 30px; margin-bottom: 30px; background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-left: 5px solid #10b981;">
+                    <h3 class="chart-title" style="color: #059669;">🎯 Strategi Menang PAS - AI Strategic Analysis</h3>
+                    <div id="ai-insights" style="line-height: 1.8; color: #1e293b; font-size: 1.05rem;">
+                        <div class="loading">⏳ Loading strategic insights...</div>
+                    </div>
+                </div>
+
+                <!-- Charts with Strategic Insights -->
+                <div class="chart-grid">
+                    <div class="chart-card">
+                        <h3 class="chart-title">📱 Platform Distribution</h3>
+                        <canvas id="platformChart"></canvas>
+                        <div style="margin-top: 20px; padding: 15px; background: #f0f9ff; border-left: 4px solid #3b82f6; border-radius: 8px;">
+                            <h4 style="color: #1e40af; margin: 0 0 10px 0;">💡 Strategi Platform:</h4>
+                            <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #1e293b;">
+                                <li><strong>TikTok (40%+)</strong>: Dominan untuk viral content. Guna untuk short clips, behind-the-scenes, relatable messaging.</li>
+                                <li><strong>YouTube (30%+)</strong>: Longform content. Sesuai untuk ceramah, explanation, deep policy discussion.</li>
+                                <li><strong>X/Twitter (15%+)</strong>: Real-time response. Monitor dan respond to Bersatu/DAP attacks cepat.</li>
+                                <li><strong>Facebook/Instagram</strong>: Grassroots engagement. Community building dan official announcements.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3 class="chart-title">😊 Sentiment Analysis</h3>
+                        <canvas id="sentimentChart"></canvas>
+                        <div style="margin-top: 20px; padding: 15px; background: #fef3c7; border-left: 4px solid #f59e0b; border-radius: 8px;">
+                            <h4 style="color: #92400e; margin: 0 0 10px 0;">💡 Tafsiran Sentiment:</h4>
+                            <p style="margin: 0 0 10px 0; line-height: 1.8; color: #1e293b;">
+                                <strong>NEUTRAL (50%+) BUKAN NEGATIF!</strong> Ini menunjukkan rakyat dalam "wait and see" mode.
+                                Mereka belum decide - ini adalah <strong>peluang emas</strong> untuk PAS shape narrative.
+                            </p>
+                            <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #1e293b;">
+                                <li><strong>Strategy</strong>: Convert NEUTRAL → POSITIVE dengan messaging "PAS kuat, PN menang"</li>
+                                <li><strong>Avoid</strong>: Jangan trigger NEUTRAL → NEGATIVE dengan perpecahan narrative</li>
+                                <li><strong>Focus</strong>: Emphasize "PAS berprinsip teguh" (appeal to neutral voters)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart-grid">
+                    <div class="chart-card">
+                        <h3 class="chart-title">❤️ Emotion Analysis</h3>
+                        <canvas id="emotionChart"></canvas>
+                        <div style="margin-top: 20px; padding: 15px; background: #fce7f3; border-left: 4px solid #ec4899; border-radius: 8px;">
+                            <h4 style="color: #9f1239; margin: 0 0 10px 0;">💡 Tafsiran Emosi:</h4>
+                            <p style="margin: 0 0 10px 0; line-height: 1.8; color: #1e293b;">
+                                <strong>"LOVE" (2,725 posts)</strong> adalah emosi tertinggi! Ini menunjukkan rakyat masih ada <em>emotional attachment</em>
+                                kepada PAS dan idea penyatuan ummah.
+                            </p>
+                            <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #1e293b;">
+                                <li><strong>Love</strong>: Leverage untuk messaging "PN untuk semua" - unity, togetherness</li>
+                                <li><strong>Anger (346)</strong>: Mostly directed at CONFLICT, bukan PAS. Use this to position PAS as peacemaker</li>
+                                <li><strong>No clear emotion (1,871)</strong>: Factual/news posts. Opportunity untuk inject emotional messaging</li>
+                            </ul>
+                            <p style="margin: 10px 0 0 0; padding: 10px; background: white; border-radius: 6px; line-height: 1.8;">
+                                <strong>🎯 Action:</strong> Create content yang trigger "LOVE" emotion - family values, community, unity, Malaysian pride.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Political Narratives Section with Academic Analysis -->
+                <div class="chart-card" style="margin-top: 30px;">
+                    <h3 class="chart-title">📊 Naratif Politik: PAS Solo vs Perpecahan PN</h3>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 30px; margin-top: 20px;">
+                        <!-- Chart -->
+                        <div>
+                            <canvas id="narrativeChart"></canvas>
+                        </div>
+
+                        <!-- Strategic Analysis -->
+                        <div style="padding: 25px; background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border-radius: 12px; border-left: 6px solid #10b981; box-shadow: 0 4px 15px rgba(16, 185, 129, 0.1);">
+                            <h4 style="color: #059669; margin-top: 0; font-size: 1.3rem;">🎯 PARADOX: "PAS Solo" - Popular BUT Not Practical</h4>
+
+                            <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #f59e0b;">
+                                <h5 style="color: #92400e; margin: 0 0 10px 0;">📊 Apa Yang Data Tunjuk:</h5>
+                                <p style="line-height: 1.8; color: #1e293b; margin: 0 0 15px 0; font-size: 0.95rem; background: #fef3c7; padding: 10px; border-radius: 6px;">
+                                    <strong>⚠️ Nota:</strong> Percentages di bawah dari konteks yang berbeza - bukan dari dataset yang sama.
+                                </p>
+                                <table style="width: 100%; border-collapse: collapse; line-height: 1.8;">
+                                    <tr style="background: #f8fafc;">
+                                        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #e2e8f0;">Measurement</th>
+                                        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #e2e8f0;">Value</th>
+                                        <th style="padding: 10px; text-align: left; border-bottom: 2px solid #e2e8f0;">Meaning</th>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Narrative Distribution</strong></td>
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><span style="color: #dc2626; font-weight: bold;">65% "PAS Solo"</span><br><span style="color: #f59e0b;">35% "Perpecahan"</span></td>
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; font-size: 0.9rem;">Dari SEMUA data: "PAS Solo" lebih dominan dibanding "perpecahan" (2:1 ratio)</td>
+                                    </tr>
+                                    <tr style="background: #f8fafc;">
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><strong>Query "PAS solo"</strong><br><span style="font-size: 0.85rem; color: #64748b;">(1,607 posts)</span></td>
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0;"><span style="color: #10b981;">61.2% NEUTRAL</span><br><span style="color: #ef4444;">16.0% Negative</span></td>
+                                        <td style="padding: 10px; border-bottom: 1px solid #e2e8f0; font-size: 0.9rem;">Rakyat CURIOUS tentang PAS solo, bukan menolak!</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 10px;"><strong>Query "Perpecahan"</strong><br><span style="font-size: 0.85rem; color: #64748b;">(920 posts)</span></td>
+                                        <td style="padding: 10px;"><span style="color: #ef4444; font-weight: bold;">46.2% NEGATIVE</span><br><span style="color: #10b981;">45.9% Neutral</span></td>
+                                        <td style="padding: 10px; font-size: 0.9rem;">Rakyat BENCI konflik dalaman PN</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #3b82f6;">
+                                <h5 style="color: #1e40af; margin: 0 0 10px 0;">💡 Hakikat Politik:</h5>
+                                <p style="line-height: 1.9; color: #1e293b; margin: 10px 0;">
+                                    <strong>Ramai SUKA PAS solo (prinsip teguh), TETAPI untuk MENANG PAS mesti bersatu dalam PN.</strong>
+                                </p>
+                                <ul style="line-height: 1.9; color: #1e293b; margin: 10px 0;">
+                                    <li>✅ <strong>Why rakyat respect "PAS solo"</strong>: Tired of Bersatu drama, respect PAS autonomy</li>
+                                    <li>❌ <strong>Why PAS cannot win alone</strong>: Mathematics - need 112 seats, PAS won 49 (PRU15)</li>
+                                    <li>🎯 <strong>Solution</strong>: "PAS KUAT, PN MENANG" - lead coalition, don't leave it</li>
+                                </ul>
+                            </div>
+
+                            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 15px 0; border-left: 4px solid #ef4444;">
+                                <h5 style="color: #991b1b; margin: 0 0 10px 0;">🚀 Strategi Menang:</h5>
+                                <p style="line-height: 1.9; color: #1e293b; margin: 10px 0; font-size: 1.1rem; font-weight: 600;">
+                                    <strong>"PAS SOLO dalam PRINSIP, BERSATU dalam POLITIK"</strong>
+                                </p>
+                                <ul style="line-height: 1.9; color: #1e293b; margin: 10px 0;">
+                                    <li><strong>Internal Autonomy</strong>: "PAS tidak dikongkong, PAS berprinsip teguh"</li>
+                                    <li><strong>External Coalition</strong>: "PN untuk SEMUA - Melayu, Cina (GERAKAN), India, Bumiputera"</li>
+                                    <li><strong>Positioning</strong>: "PAS adalah nakhoda PN, bukan hamba"</li>
+                                </ul>
+                                <p style="background: white; padding: 12px; border-radius: 6px; margin: 15px 0 0 0; line-height: 1.8; border-left: 3px solid #10b981;">
+                                    <strong>🎯 Core Message:</strong> <em>"Kapal besar (PN) perlukan nakhoda yang kuat (PAS). Bersama kita menang, bersendirian kita gagal."</em>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Temporal Trends with Explanation -->
+                <div class="chart-card" style="margin-top: 30px;">
+                    <h3 class="chart-title">📈 Trend Temporal: Aktiviti Harian (Posts + Engagement)</h3>
+
+                    <div style="background: #f0f9ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #3b82f6;">
+                        <p style="line-height: 1.8; color: #1e40af; margin: 0;">
+                            <strong>Penerangan:</strong> Carta ini menunjukkan <strong>jumlah posts harian</strong> berkaitan isu PAS-Bersatu sepanjang tempoh 90 hari (1 Mac - 30 Mei 2026).
+                            Puncak aktiviti menunjukkan <em>critical events</em> atau <em>viral moments</em> yang mencetuskan perbincangan intensif.
+                            Analisis temporal ini penting untuk mengenal pasti <strong>momentum politik</strong> dan <strong>timing optimal</strong> untuk strategi komunikasi.
+                        </p>
+                    </div>
+
+                    <canvas id="temporalChart"></canvas>
+
+                    <div style="background: #fefce8; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #eab308;">
+                        <p style="line-height: 1.8; color: #713f12; margin: 0;">
+                            <strong>💡 Insight:</strong> Perhatikan tarikh dengan engagement tinggi - ini adalah waktu di mana sentiment rakyat paling aktif dan
+                            <em>window of opportunity</em> untuk messaging strategik. Gunakan data ini untuk merancang <strong>counter-narrative</strong> atau
+                            <strong>reinforcement messaging</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dashboardData = null;
+
+        // Load data
+        fetch('pas_dashboard_data.json')
+            .then(response => response.json())
+            .then(data => {
+                dashboardData = data;
+                renderDashboard();
+            })
+            .catch(error => {
+                document.getElementById('loading').innerHTML = '❌ Error loading data: ' + error;
+            });
+
+        function renderDashboard() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+
+            // KPIs
+            document.getElementById('kpi-original').textContent = dashboardData.stats.total_original.toLocaleString();
+            document.getElementById('kpi-clean').textContent = dashboardData.stats.total_clean.toLocaleString();
+            document.getElementById('kpi-posts').textContent = dashboardData.stats.posts.toLocaleString();
+
+            // Format engagement with M/K suffix
+            const engagement = dashboardData.stats.engagement;
+            let engagementText;
+            if (engagement >= 1000000) {
+                engagementText = (engagement / 1000000).toFixed(2) + 'M';
+            } else if (engagement >= 1000) {
+                engagementText = (engagement / 1000).toFixed(1) + 'K';
+            } else {
+                engagementText = engagement.toLocaleString();
+            }
+            document.getElementById('kpi-engagement').textContent = engagementText;
+
+            // Load AI Insights
+            loadAIInsights();
+
+            // Charts
+            renderPlatformChart();
+            renderSentimentChart();
+            renderEmotionChart();
+            renderNarrativeChart();
+            renderTemporalChart();
+        }
+
+        function renderPlatformChart() {
+            const ctx = document.getElementById('platformChart').getContext('2d');
+            const platforms = dashboardData.platforms;
+
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: platforms.map(p => p.platform.toUpperCase()),
+                    datasets: [{
+                        data: platforms.map(p => p.posts),
+                        backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        function renderSentimentChart() {
+            const ctx = document.getElementById('sentimentChart').getContext('2d');
+            const sentiment = dashboardData.sentiment;
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(sentiment),
+                    datasets: [{
+                        label: 'Posts',
+                        data: Object.values(sentiment),
+                        backgroundColor: ['#10b981', '#6b7280', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+        }
+
+        function renderEmotionChart() {
+            const ctx = document.getElementById('emotionChart').getContext('2d');
+            const emotions = dashboardData.emotions;
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(emotions),
+                    datasets: [{
+                        label: 'Posts',
+                        data: Object.values(emotions),
+                        backgroundColor: '#3b82f6'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    indexAxis: 'y',
+                    scales: { x: { beginAtZero: true } }
+                }
+            });
+        }
+
+        function renderNarrativeChart() {
+            const ctx = document.getElementById('narrativeChart').getContext('2d');
+            const narratives = dashboardData.narratives;
+
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: Object.keys(narratives),
+                    datasets: [{
+                        data: Object.values(narratives),
+                        backgroundColor: ['#ef4444', '#f59e0b', '#10b981']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        function renderTemporalChart() {
+            const ctx = document.getElementById('temporalChart').getContext('2d');
+            const daily = dashboardData.daily;
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: daily.map(d => d.date),
+                    datasets: [{
+                        label: 'Daily Posts',
+                        data: daily.map(d => d.posts),
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: { y: { beginAtZero: true } }
+                }
+            });
+        }
+
+        function loadAIInsights() {
+            fetch('pas_ai_insights.json')
+                .then(response => response.json())
+                .then(data => {
+                    const insightsDiv = document.getElementById('ai-insights');
+                    // Format insights with better styling
+                    const formattedInsights = data.insights
+                        .replace(/\*\*(.*?)\*\*/g, '<strong style="color: #059669;">$1</strong>')
+                        .replace(/\n\n/g, '<br><br>')
+                        .replace(/\n/g, '<br>')
+                        .replace(/- /g, '• ');
+
+                    insightsDiv.innerHTML = `
+                        <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                            ${formattedInsights}
+                        </div>
+                    `;
+                })
+                .catch(error => {
+                    document.getElementById('ai-insights').innerHTML =
+                        '<p style="color: #ef4444; padding: 20px; text-align: center;">⚠️ AI insights belum dijana. Sila jalankan generate_ai_insights.py</p>';
+                });
+        }
+    </script>
+</body>
+</html>

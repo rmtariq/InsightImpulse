@@ -1,0 +1,28 @@
+# CULA DIGITAL — N22 Rahang (seed post URLs)
+# ==========================================================
+# Tier: LAWAN · Daerah: Seremban
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Rahang (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N22
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Rahang; Lobak Heights
+# ISU TEMPATAN: bandar tua; perniagaan Cina
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "korang Rahang — kestabilan ke perubahan yg korang nak?"
+#   "tengok isu bandar tua kat Rahang, ada calon yg boleh selesaikan ke?"
+#   "PRN kali ni Rahang — sokong status quo ke nak perubahan?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Rahang atau Rahang
+#   • Post sebut Rahang atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

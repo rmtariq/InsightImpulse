@@ -1,0 +1,37 @@
+{
+  "fetched_at": "2026-06-12T12:19:14",
+  "csv_file": "data/projects/political/pas_break_2026/crawls/N9_Chinese_News_20260612_121914.csv",
+  "total_rows": 113,
+  "by_voice": {
+    "media_chinese": 60,
+    "party_official": 47,
+    "proxy_about_chinese": 6
+  },
+  "queries": [
+    {
+      "id": "A1",
+      "query": "星洲日报 森美兰 OR 中国报 森美兰 OR 光华日报 森美兰 when:30d",
+      "voice": "media_chinese",
+      "weight": "Tinggi"
+    },
+    {
+      "id": "A2",
+      "query": "\"Sin Chew\" OR \"China Press\" OR \"Guang Ming\" \"Negeri Sembilan\" when:30d",
+      "voice": "media_chinese",
+      "weight": "Tinggi"
+    },
+    {
+      "id": "A3",
+      "query": "\"pengundi Cina\" OR \"komuniti Cina\" OR \"Chinese voters\" \"Negeri Sembilan\" PRN when:30d",
+      "voice": "proxy_about_chinese",
+      "weight": "Rendah"
+    },
+    {
+      "id": "A4",
+      "query": "DAP \"Negeri Sembilan\" OR Anthony Loke PRN when:30d",
+      "voice": "party_official",
+      "weight": "Sederhana"
+    }
+  ],
+  "note": "Weight Rendah (proxy) ≠ suara komuniti Cina langsung — lihat ANALYSIS_RULES dalam Excel"
+}

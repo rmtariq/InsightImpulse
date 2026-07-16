@@ -1,0 +1,549 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,media_type,video_url,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,,,,,,neutral,2026-07-08 18:32:54.539952+00:00,0,0,0,0,0.5,0,video,,,neutral,0.0,unknown,Unknown,,0.0,neutral,0.0,0.0,0.0,0.0,0.0,0.0
+tiktok,post,7658690991116864776,"💚 Anak-anak ialah amanah, bukan sekadar harapan.
+
+Dalam ucapan sempena Program Fun Walk PASTI Bakri pagi tadi, saya menekankan bahawa anak-anak perlu dibesarkan bukan sahaja dengan ilmu dunia, tetapi juga dengan didikan agama dan akhlak.
+
+Apabila asas iman dibina sejak kecil, insya-Allah mereka akan membesar menjadi generasi yang berilmu, beradab dan berbakti kepada agama, ibu bapa, masyarakat serta negara.
+
+Semoga Allah SWT memelihara dan memberkati setiap anak-anak kita.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #PASTIBakri",https://www.tiktok.com/@awanganakjeram/video/7658690991116864776,,,positive,2026-07-08 18:32:54.540211+00:00,267,14,10,4148,0.9994008481502532,332,video,https://www.tiktok.com/@awanganakjeram/video/7658690991116864776,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658690991116864776...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658690991116864776: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.998002827167511,malay,Malay/Bumiputera,Unknown,0.0,love,0.04859762638807297,0.024619324132800102,0.13575780391693115,0.028673795983195305,0.6881821155548096,0.01738147623836994
+tiktok,post,7658674071508471048,"🕌🍈 Singgah Asar, berkongsi rezeki. - Siri 2
+
+Di tengah kesibukan berkempen, sempat singgah menunaikan solat Asar di Surau Parit Ulu sebelum menikmati minum petang bersama para jemaah.
+
+Istimewanya, buah betik yang dihidangkan merupakan hasil kebun Awang sendiri. Alhamdulillah, nikmat yang kecil terasa lebih bermakna apabila dapat dikongsi bersama.
+
+Semoga Allah SWT menerima setiap amal, memberkati rezeki kita dan terus mengeratkan ukhuwah dalam masyarakat.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #AsarBerjemaah",https://www.tiktok.com/@awanganakjeram/video/7658674071508471048,,,positive,2026-07-08 18:32:55.389733+00:00,222,7,13,3728,0.9993931949138641,279,video,https://www.tiktok.com/@awanganakjeram/video/7658674071508471048,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658674071508471048...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658674071508471048: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979773163795471,malay,Malay/Bumiputera,Unknown,0.0,happy,0.01444930024445057,0.03687187656760216,0.8679888844490051,0.010272196494042873,0.027800394222140312,0.014083120040595531
+tiktok,post,7658648853775731986,"🍍🌿 Hari ini memang special! - Siri 3
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas dan betik.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7658648853775731986,,,positive,2026-07-08 18:32:56.205711+00:00,218,20,6,4446,0.9993909060955046,288,video,https://www.tiktok.com/@awanganakjeram/video/7658648853775731986,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658648853775731986...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658648853775731986: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979696869850159,malay,Malay/Bumiputera,Unknown,0.0,love,0.02574380859732628,0.03382359445095062,0.06759446859359741,0.046861432492733,0.3796655237674713,0.181754469871521
+tiktok,post,7658672923254820114,"🕌🍈 Singgah Asar, berkongsi rezeki. - Siri 1
+
+Di tengah kesibukan berkempen, sempat singgah menunaikan solat Asar di Surau Parit Ulu sebelum menikmati minum petang bersama para jemaah.
+
+Istimewanya, buah betik yang dihidangkan merupakan hasil kebun Awang sendiri. Alhamdulillah, nikmat yang kecil terasa lebih bermakna apabila dapat dikongsi bersama.
+
+Semoga Allah SWT menerima setiap amal, memberkati rezeki kita dan terus mengeratkan ukhuwah dalam masyarakat.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #AsarBerjemaah",https://www.tiktok.com/@awanganakjeram/video/7658672923254820114,,,positive,2026-07-08 18:32:57.025599+00:00,151,3,8,2938,0.9993926942348479,191,video,https://www.tiktok.com/@awanganakjeram/video/7658672923254820114,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658672923254820114...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658672923254820114: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979756474494934,malay,Malay/Bumiputera,Unknown,0.0,happy,0.01449295599013567,0.03700599819421768,0.8679589629173279,0.010264507494866848,0.027701485902071,0.014089297503232956
+tiktok,post,7658689850664570130,"🤝🏡 Ziarah kasih, menyantuni mereka yang memerlukan.
+
+Alhamdulillah, hari ini berkesempatan menziarahi beberapa buah rumah sekitar Dun Simpang Jeram bersama pasukan medik.
+
+Turut bersama Dr. Mazri, seorang doktor perubatan dan pakar bius, yang sudi meluangkan masa berkongsi pandangan serta meneliti keadaan kesihatan para pesakit yang diziarahi.
+
+Semoga setiap ziarah membawa sedikit kegembiraan, menguatkan semangat mereka yang diuji, dan menjadi asbab turunnya rahmat Allah SWT kepada kita semua.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #ZiarahKasih",https://www.tiktok.com/@awanganakjeram/video/7658689850664570130,,,positive,2026-07-08 18:32:57.866379+00:00,158,6,6,3073,0.9994012773036955,200,video,https://www.tiktok.com/@awanganakjeram/video/7658689850664570130,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658689850664570130...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7658689850664570130: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980042576789856,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.029290495440363884,0.10009262710809708,0.04198848828673363,0.15624122321605682,0.07238970696926117,0.36468231678009033
+tiktok,post,7660183616055463176,"📹 Kenali Awang. Kenali calon anak tempatan.
+
+Setiap insan ada perjalanan hidupnya. Daripada dunia penternakan dan pertanian, sehinggalah turun padang menyantuni masyarakat tanpa mengira kaum, usia dan latar belakang.
+
+Awang bukan sekadar datang ketika musim pilihan raya. Khidmat kepada masyarakat telah lama menjadi sebahagian daripada perjalanan hidupnya.
+
+Kini, tiba masanya untuk rakyat Simpang Jeram menentukan masa depan.
+
+🗳️ 11 Julai 2026, tunaikan tanggungjawab anda sebagai pengundi.
+
+Pilih Calon No. 4 – Awang
+Pangkah PERIKATAN NASIONAL.
+
+Undi bukan sekadar memilih seorang calon, tetapi memilih suara yang akan membawa amanah rakyat di DUN Simpang Jeram.
+
+Ayuh keluar mengundi. Setiap undi anda amat bermakna.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #UndiNo4",https://www.tiktok.com/@awanganakjeram/video/7660183616055463176,,,positive,2026-07-08 18:32:58.439586+00:00,71,0,4,478,0.9963674306869506,79,video,https://www.tiktok.com/@awanganakjeram/video/7660183616055463176,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660183616055463176...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660183616055463176: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.987891435623169,malay,Malay/Bumiputera,Unknown,0.0,love,0.03797612711787224,0.01762714609503746,0.045750103890895844,0.029730411246418953,0.5697429776191711,0.029671862721443176
+tiktok,post,7659014205470772487,"""Saya yakin dan percaya kalau hari ini kemenangan itu berlaku kerana manusia nak realiti. Orang yang mereka kenal. Orang yang tidak berselindung dengan kemewahan. Awang berpijak pada bumi yang nyata. Kita tidak boleh tinggalkan bumi ini dengan mereka yang merosakkan negara. Merosakkan amanah bagi  rakyat-rakyat Malaysia ini. 
+
+Hari ini saya berdiri dan berjanji saya akan buat yang terbaik antara yang baik. Dan saya mengharapkan doa tuan-tuan yang datang musafir ini. Doakan saya. Kuat. Sihat. Dan InsyaAllah saya akan bawa misi agama. Bermulalah tangan perpaduan ini bermula di Dun Simpang Jeram. Kerana kemenangan ini akan dilihat satu Malaysia. Bahawa bermula di Simpang Jeram, semangat perpaduan itu akan bergerak dan InsyaAllah dari situlah kita akan mendapat nikmatnya."" - Awang.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #UndiNo4",https://www.tiktok.com/@awanganakjeram/video/7659014205470772487,,,positive,2026-07-08 18:32:59.023892+00:00,341,29,9,3553,0.9709508538246154,414,video,https://www.tiktok.com/@awanganakjeram/video/7659014205470772487,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659014205470772487...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659014205470772487: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9031695127487183,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.03270774334669113,0.037959422916173935,0.014822973869740963,0.8256005048751831,0.05550175905227661,0.01889609545469284
+tiktok,post,7659047771680410887,"TAWARAN PERIKATAN NASIONAL
+A.W.A.N.G
+Agenda Membangun Simpang Jeram
+
+Setiap kawasan memerlukan hala tuju yang jelas.
+
+Setiap keluarga mengimpikan kehidupan yang lebih baik.
+
+Dan setiap anak muda berhak menikmati masa depan yang lebih cerah.
+
+A.W.A.N.G bukan sekadar akronim, tetapi komitmen yang membawa lima agenda utama untuk membangunkan Simpang Jeram.
+
+🕌 A – Agama dan Pendidikan
+📈 W – Wawasan Ekonomi Rakyat
+🤝 A – Amanah Dalam Kepimpinan
+🌾 N – Nasib Petani, Penternak, Peniaga & Usahawan
+🚀 G – Generasi Muda
+
+Inilah tawaran yang berpaksikan rakyat, membina masyarakat yang berilmu, memperkukuh ekonomi setempat, mengangkat integriti kepimpinan, membela golongan yang menjadi tulang belakang ekonomi, serta mempersiapkan generasi muda menghadapi masa depan.
+
+Simpang Jeram berhak melangkah lebih jauh.
+
+Bersama kita bina sebuah komuniti yang lebih maju, sejahtera dan berintegriti.
+
+A.W.A.N.G.
+Untuk Bakri. Untuk Semua.
+
+#TawaranPerikatanNasional
+#AWANG
+#N13SimpangJeram
+#PerikatanNasional
+#UntukBakriUntukSemua",https://www.tiktok.com/@awanganakjeram/video/7659047771680410887,,,positive,2026-07-08 18:32:59.595069+00:00,358,67,13,3090,0.9994127392768859,468,video,https://www.tiktok.com/@awanganakjeram/video/7659047771680410887,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659047771680410887...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659047771680410887: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980424642562866,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03600505366921425,0.04776882380247116,0.7134974598884583,0.021620647981762886,0.11861856281757355,0.019421231001615524
+tiktok,post,7660149988957211912,"Jom join live sekarang ! 💪🏻🔥
+
+#AwangAnakJeram
+#OrangKitaAnakSimpangJeram
+#SimpangJeramPilihOrangKita
+#PerikatanNasional
+#CalonNo4",https://www.tiktok.com/@awanganakjeram/video/7660149988957211912,,,positive,2026-07-08 18:33:00.212365+00:00,243,5,5,2387,0.9088167488574981,276,video,https://www.tiktok.com/@awanganakjeram/video/7660149988957211912,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660149988957211912...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660149988957211912: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.6960558295249939,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.014929907396435738,0.015567786991596222,0.03427878022193909,0.020582914352416992,0.18900829553604126,0.13752222061157227
+tiktok,post,7660141871695432967,"💚 Cerita semalam... Alhamdulillah, Forum Perdana ""Jom Bersama PAS"" berlangsung dengan penuh semangat dan kemeriahan.
+
+Terima kasih kepada semua panel jemputan yang sudi berkongsi pandangan, pengalaman dan buah fikiran sepanjang forum berlangsung.
+
+Setinggi-tinggi penghargaan juga kepada seluruh hadirin yang meluangkan masa untuk hadir, memberikan sokongan dan bersama-sama memeriahkan program ini. Kehadiran anda semua menjadi suntikan semangat buat kami.
+
+Semoga segala perkongsian memberi manfaat, menambah kefahaman serta mengeratkan lagi ukhuwah sesama kita.
+
+Terima kasih. Jom Bersama PAS! 💚😘
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #JomBersamaPAS",https://www.tiktok.com/@awanganakjeram/video/7660141871695432967,,,positive,2026-07-08 18:33:00.798836+00:00,93,1,4,873,0.9994006693363189,106,video,https://www.tiktok.com/@awanganakjeram/video/7660141871695432967,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660141871695432967...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660141871695432967: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980022311210632,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03258967027068138,0.03687458857893944,0.3764994144439697,0.03195628151297569,0.3145506680011749,0.04591064900159836
+tiktok,post,7660131432328613127,"🍍🌿 Hari ini memang special! - Siri 7
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas, betik, pisang, serai dll.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660131432328613127,,,positive,2026-07-08 18:33:01.441775+00:00,94,2,9,743,0.9993990957736969,112,video,https://www.tiktok.com/@awanganakjeram/video/7660131432328613127,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660131432328613127...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660131432328613127: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.997996985912323,malay,Malay/Bumiputera,Unknown,0.0,love,0.02929025888442993,0.030883124098181725,0.0551123283803463,0.04516538977622986,0.3715651333332062,0.17239482700824738
+tiktok,post,7660131225759141138,"🍍🌿 Hari ini memang special! - Siri 8
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas, betik, pisang, serai dll.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660131225759141138,,,positive,2026-07-08 18:33:02.012817+00:00,150,3,2,4222,0.9993962883949279,197,video,https://www.tiktok.com/@awanganakjeram/video/7660131225759141138,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660131225759141138...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660131225759141138: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979876279830933,malay,Malay/Bumiputera,Unknown,0.0,love,0.029334532096982002,0.031132712960243225,0.05552004650235176,0.04509811848402023,0.3676775395870209,0.17246009409427643
+tiktok,post,7660038609566747922,"Jom Meriahkan Grand Finale PRN Johor 2026! 💙
+
+Ayuh bersama kita hadir memeriahkan Grand Finale PRN Johor 2026 sebagai tanda sokongan kepada perjuangan demi masa depan Johor yang lebih baik.
+
+Insya-Allah, barisan kepimpinan utama akan bersama-sama menyampaikan amanat terakhir menjelang hari pengundian. Inilah masanya kita bersatu, mengukuhkan semangat dan menunjukkan bahawa rakyat mahukan perubahan yang membawa harapan.
+
+📍 Laman Muafakat, Simpang Jeram
+📅 Rabu | 8 Julai 2026
+🕘 9.00 Malam
+
+Bawa keluarga, sahabat dan jiran-jiran. Mari kita sama-sama menjadi sebahagian daripada detik penting ini.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660038609566747922,,,positive,2026-07-08 18:33:02.624189+00:00,210,16,5,1855,0.9993617057800293,249,video,https://www.tiktok.com/@awanganakjeram/video/7660038609566747922,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660038609566747922...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660038609566747922: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978723526000977,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03158556669950485,0.051670242100954056,0.6238226890563965,0.023277388885617256,0.14997461438179016,0.029968298971652985
+tiktok,post,7660035339477896469,"🍍🌿 Hari ini memang special! - Siri 5
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas, betik, pisang, serai dll.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660035339477896469,,,positive,2026-07-08 18:33:02.985951+00:00,104,8,4,1740,0.9993991672992706,133,video,https://www.tiktok.com/@awanganakjeram/video/7660035339477896469,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660035339477896469...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660035339477896469: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979972243309021,malay,Malay/Bumiputera,Unknown,0.0,love,0.029564686119556427,0.031028661876916885,0.055078063160181046,0.04547113552689552,0.3732250928878784,0.17157095670700073
+tiktok,post,7660034965702184212,"🍍🌿 Hari ini memang special! - Siri 4
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas, betik, pisang, serai dll.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660034965702184212,,,positive,2026-07-08 18:33:03.309215+00:00,190,2,8,2156,0.9993981122970581,221,video,https://www.tiktok.com/@awanganakjeram/video/7660034965702184212,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660034965702184212...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660034965702184212: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979937076568604,malay,Malay/Bumiputera,Unknown,0.0,love,0.02937057614326477,0.03108319826424122,0.05537885054945946,0.04508161172270775,0.3708912134170532,0.17174549400806427
+tiktok,post,7660030795242949909,"🍍🌿 Hari ini memang special! - Siri 6
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas, betik, pisang, serai dll.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7660030795242949909,,,positive,2026-07-08 18:33:03.642320+00:00,113,1,2,877,0.9993989884853363,124,video,https://www.tiktok.com/@awanganakjeram/video/7660030795242949909,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660030795242949909...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7660030795242949909: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979966282844543,malay,Malay/Bumiputera,Unknown,0.0,love,0.029266148805618286,0.030938632786273956,0.055170897394418716,0.04502260312438011,0.37040889263153076,0.17209617793560028
+tiktok,post,7659817740299177234,"🤝 Berbeza parti, tetap saling menghormati.
+
+Hari ini berpeluang bertemu dengan calon Parti MUDA. Sebelum ini, selalu juga terserempak dengan calon daripada BN dan PH ketika berkempen.
+
+Alhamdulillah, semuanya berlangsung dalam suasana harmoni dan penuh rasa hormat.
+
+Dalam demokrasi, kita boleh berbeza pandangan dan pilihan, tetapi jangan sampai bermusuhan. Biarlah kita bersaing dengan idea, berkempen dengan beradab, dan selepas pilihan raya nanti, terus bersama membina masyarakat yang bersatu.
+
+Semoga PRN ini berlangsung dengan aman, tertib dan penuh keberkatan.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #PolitikMatang&Sejahtera",https://www.tiktok.com/@awanganakjeram/video/7659817740299177234,,,positive,2026-07-08 18:33:03.984625+00:00,1774,71,29,22700,0.999389636516571,2101,video,https://www.tiktok.com/@awanganakjeram/video/7659817740299177234,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659817740299177234...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659817740299177234: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979654550552368,malay,Malay/Bumiputera,Unknown,0.0,love,0.1047687977552414,0.02054932527244091,0.09417284280061722,0.030139315873384476,0.5718008279800415,0.02674693614244461
+tiktok,post,7659748354905181461,"💚 Di sebalik kempen, ada insan-insan luar biasa.
+
+Siang dan malam mereka bertungkus-lumus di Bilik Operasi Jentera Pilihan Raya PN, mengorbankan masa, tenaga bahkan waktu bersama keluarga demi memastikan setiap amanah dapat dilaksanakan sebaiknya.
+
+Melihat kesungguhan mereka benar-benar mengundang rasa sebak dan syukur.
+
+Sabda Rasulullah SAW:
+
+""Sesungguhnya Allah mencintai seseorang yang apabila melakukan sesuatu pekerjaan, dia melakukannya dengan sebaik-baiknya (itqan)."" (Riwayat al-Baihaqi)
+
+Terima kasih buat seluruh petugas. Semoga Allah SWT menerima setiap pengorbanan dan mengurniakan ganjaran yang terbaik di dunia dan akhirat.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #JenteraPN",https://www.tiktok.com/@awanganakjeram/video/7659748354905181461,,,positive,2026-07-08 18:33:04.400127+00:00,484,70,16,3110,0.9994100034236908,601,video,https://www.tiktok.com/@awanganakjeram/video/7659748354905181461,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659748354905181461...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659748354905181461: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.998033344745636,malay,Malay/Bumiputera,Unknown,0.0,love,0.036289114505052567,0.03396642580628395,0.11994972825050354,0.04139702394604683,0.6875359416007996,0.03304453566670418
+tiktok,post,7659737027314748680,"🌱 ""Kenapa Awang bertukar daripada penternakan kepada pertanian?""
+
+Ramai yang bertanya soalan ini.
+
+Selepas bertahun-tahun dalam bidang penternakan, saya sedar jiwa saya lebih dekat dengan dunia pertanian. Menanam mengajar saya tentang sabar, ikhtiar dan syukur.
+
+Selain itu, urusan ibadah juga menjadi lebih mudah. Tiada lagi urusan mengendalikan najis ternakan yang memerlukan perhatian khusus, sekali gus memudahkan saya menjaga waktu solat.
+
+Jom dengar sendiri penjelasan Awang dalam video ini.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7659737027314748680,,,positive,2026-07-08 18:33:04.715721+00:00,192,4,8,1678,0.9993410885334014,220,video,https://www.tiktok.com/@awanganakjeram/video/7659737027314748680,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659737027314748680...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659737027314748680: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978036284446716,malay,Malay/Bumiputera,Unknown,0.0,love,0.025558924302458763,0.037387143820524216,0.17493918538093567,0.04373716562986374,0.6149930953979492,0.046965617686510086
+tiktok,post,7659712986168298770,"Malam ni kita jumpa di Laman Muafakat!
+
+Warga Simpang Jeram, jangan lepaskan peluang untuk bersama memeriahkan Mega Ceramah malam ini, jam 9.00 malam.
+
+Pelbagai tokoh akan hadir, termasuk tokoh yang baru mengisytiharkan penyertaan bersama PAS. Awang juga insya-Allah akan bersama di pentas sebagai wakil anak tempatan.
+
+Inilah masanya untuk kita bertemu, mendengar sendiri amanat yang disampaikan serta mengeratkan silaturahim sesama warga Simpang Jeram. Tak kira siapa yang anda sokong, semua dijemput hadir.
+
+Pakat ajak keluarga, saudara-mara dan jiran tetangga. Lagi ramai yang hadir, lagi meriah suasana. Jangan sekadar dengar cerita orang, datang dan saksikan sendiri.
+
+Jumpa malam ini, jam 9.00 malam di Laman Muafakat!
+
+#AwangAnakJeram #SimpangJeramPilihOrangKita #OrangKitaAnakSimpangJeram #UndiAwang #AwangUntukSemua",https://www.tiktok.com/@awanganakjeram/video/7659712986168298770,,,positive,2026-07-08 18:33:05.153375+00:00,199,4,8,1617,0.9993508160114288,227,video,https://www.tiktok.com/@awanganakjeram/video/7659712986168298770,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659712986168298770...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659712986168298770: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9978360533714294,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.0194336399435997,0.022499950602650642,0.03213495761156082,0.025434156879782677,0.11701296269893646,0.2297963947057724
+tiktok,post,7659722719365238034,"🤲 Ziarah kasih, menyantuni sebuah keluarga yang tabah.
+
+Alhamdulillah, berkesempatan menziarahi Puan Maimunah binti Md. Yassin yang diuji dengan strok sejak empat bulan lalu. Kini beliau dijaga penuh kasih sayang oleh anak dan menantunya.
+
+Rasulullah SAW bersabda:
+
+""Sebaik-baik kamu ialah orang yang paling baik terhadap keluarganya.""
+— Riwayat at-Tirmizi
+
+Pengorbanan anak-anak yang berbakti menjaga ibu bapa ketika uzur adalah amal yang sangat mulia. Semoga Allah SWT mengurniakan kesembuhan buat Puan Maimunah serta membalas segala pengorbanan anak dan menantunya dengan rahmat, keberkatan dan ganjaran yang berlipat ganda.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #ZiarahKasih",https://www.tiktok.com/@awanganakjeram/video/7659722719365238034,,,positive,2026-07-08 18:33:05.518113+00:00,111,1,2,1182,0.9994098246097565,125,video,https://www.tiktok.com/@awanganakjeram/video/7659722719365238034,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659722719365238034...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659722719365238034: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980327486991882,malay,Malay/Bumiputera,Unknown,0.0,love,0.05341847613453865,0.03893514350056648,0.04168272763490677,0.06806770712137222,0.7343307137489319,0.029011741280555725
+tiktok,post,7659392538683378951,"🕌 Mengisi petang dengan mengingati Allah.
+
+Alhamdulillah, berkesempatan menunaikan solat Asar berjemaah di Surau Mawaddah Warahmah, Kg. Sri Tanjung Bakri, diikuti sesi ramah mesra bersama para jemaah.
+
+Rasulullah SAW bersabda:
+
+""Sesiapa yang meninggalkan solat Asar, gugurlah amalannya."" (Riwayat al-Bukhari)
+
+Semoga Allah SWT mengurniakan kita kekuatan untuk sentiasa menjaga solat, khususnya secara berjemaah, serta menjadikan masjid dan surau sebagai tempat penyatuan hati umat Islam.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #SolatAsar",https://www.tiktok.com/@awanganakjeram/video/7659392538683378951,,,positive,2026-07-08 18:33:05.827990+00:00,91,0,4,1319,0.9993900299072265,108,video,https://www.tiktok.com/@awanganakjeram/video/7659392538683378951,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659392538683378951...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659392538683378951: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979667663574219,malay,Malay/Bumiputera,Unknown,0.0,love,0.04470938444137573,0.022445620968937874,0.08974561095237732,0.04734920337796211,0.5588910579681396,0.02866283617913723
+tiktok,post,7659404873611349255,"Orang Simpang Jeram, malam esok kita ada Mega Ceramah kat Laman Muafakat! 
+
+Ramai tokoh hebat terutama Tokoh yang baru isytihar bersama PAS akan turun padang jumpa kita. Awang pun insya-Allah ada sekali atas pentas tu, jadi wakil tuan rumah. 
+
+Tak kira saudara sokong parti apa, marilah datang singgah. Awang suka kalau kita semua boleh duduk semeja, dengar amanat dan rapatkan balik silaturahim. Sambil kita sembang tu, boleh juga Awang ambil tahu hal kawan kawan dan panjangkan lagi kerja kebajikan kat tempat kita. Kita selesaikan hal orang kita cara orang kita.
+
+Pakat bawa keluarga dan jiran sebelah rumah ya. Kita meriahkan Laman Muafakat hari Selasa ni jam 9 malam. Jumpa kat sana! 💙
+
+#AwangAnakJeram #SimpangJeramPilihOrangKita #OrangKitaAnakSimpangJeram #UndiAwang #AwangUntukSemua",https://www.tiktok.com/@awanganakjeram/video/7659404873611349255,,,negative,2026-07-08 18:33:06.179484+00:00,125,0,6,2501,0.00048290491104124866,156,video,https://www.tiktok.com/@awanganakjeram/video/7659404873611349255,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659404873611349255...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659404873611349255: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983903169631958,malay,Malay/Bumiputera,Unknown,0.0,love,0.056214068084955215,0.017793312668800354,0.04403645545244217,0.03715910017490387,0.6220747828483582,0.038731180131435394
+tiktok,post,7659382026923003154,"🐔🍍 ""Eh Awang... sekarang tanam nenas pula? Tak supply ayam dah ke?"" 😄
+
+Soalan ini banyak juga orang tanya dan ada muncul di ruangan komen.
+
+Sebenarnya macam mana? Masih dalam bidang ayam atau sudah beralih sepenuhnya kepada pertanian?
+
+Daripada terus berteka-teki, lebih baik dengar sendiri jawapannya daripada mulut Awang.
+
+▶️ Tonton video ini sampai habis. Insya-Allah, segala persoalan akan terjawab!
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7659382026923003154,,,negative,2026-07-08 18:33:06.507200+00:00,869,16,24,11600,0.0004920780658722035,1025,video,https://www.tiktok.com/@awanganakjeram/video/7659382026923003154,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659382026923003154...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659382026923003154: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.998359739780426,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.021484529599547386,0.08332942426204681,0.01663491502404213,0.08331257849931717,0.06927694380283356,0.6423450112342834
+tiktok,post,7659353270586068231,"🍍🤝 Nenas Yankee dapat pujian! - Siri 2
+
+Alhamdulillah, hari ini dikunjungi sahabat lama, Ustaz Muhammad Asri bin Yunus dari Maahad Tahfiz Vokasional Aman Bistari, Puchong, yang singgah ke BO untuk menikmati nenas Yankee yang saya petik sendiri dari kebun.
+
+Beliau bukan sahaja memuji kemanisan buah nenas, malah berkongsi pandangan tentang kecintaan saya terhadap bidang pertanian serta pentingnya membina perpaduan ummah dengan akhlak yang baik.
+
+Terima kasih atas kunjungan dan doa. Semoga ukhuwah ini terus diberkati Allah SWT.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #NenasYankee",https://www.tiktok.com/@awanganakjeram/video/7659353270586068231,,,positive,2026-07-08 18:33:06.867379+00:00,362,10,15,7898,0.9993973612785338,465,video,https://www.tiktok.com/@awanganakjeram/video/7659353270586068231,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659353270586068231...: Failed to load video from https://www.tiktok.com/@awanganakjeram/video/7659353270586068231: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979912042617798,malay,Malay/Bumiputera,Unknown,0.0,love,0.0643962025642395,0.04226077347993851,0.038151584565639496,0.07452122867107391,0.6945907473564148,0.03937838599085808
+tiktok,post,7659317591319530770,"🍍🤝 Nenas Yankee dapat pujian!
+
+Alhamdulillah, hari ini dikunjungi sahabat lama, Ustaz Muhammad Asri bin Yunus dari Maahad Tahfiz Vokasional Aman Bistari, Puchong, yang singgah ke BO untuk menikmati nenas Yankee yang saya petik sendiri dari kebun.
+
+Beliau bukan sahaja memuji kemanisan buah nenas, malah berkongsi pandangan tentang kecintaan saya terhadap bidang pertanian serta pentingnya membina perpaduan ummah dengan akhlak yang baik.
+
+Terima kasih atas kunjungan dan doa. Semoga ukhuwah ini terus diberkati Allah SWT.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #NenasYankee",https://www.tiktok.com/@awanganakjeram/video/7659317591319530770,,,positive,2026-07-08 18:33:07.211478+00:00,397,23,15,3795,0.9993948221206664,472,video,https://www.tiktok.com/@awanganakjeram/video/7659317591319530770,,positive,0.9979827404022217,malay,Malay/Bumiputera,Unknown,0.0,love,0.06615903228521347,0.043056558817625046,0.03858146443963051,0.07813026756048203,0.6898311376571655,0.039053089916706085
+tiktok,post,7659061698665532692,"🍽️🤝 Walkabout di Medan Selera Jalan Pesta Baru 1
+
+Alhamdulillah, saya berpeluang menyantuni para peniaga dan pengunjung di Medan Selera Jalan Pesta Baru 1.
+
+Berjalan dari satu meja ke satu meja, bertanya khabar, mendengar pandangan dan berkongsi senyuman. Inilah saat yang paling bermakna apabila dapat mendengar sendiri denyut nadi masyarakat dalam suasana santai.
+
+Terima kasih atas sambutan yang begitu mesra. Semoga Allah SWT memberkati rezeki para peniaga dan mengeratkan ukhuwah sesama kita.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #Walkabout",https://www.tiktok.com/@awanganakjeram/video/7659061698665532692,,,positive,2026-07-08 18:33:07.543529+00:00,1374,34,69,11900,0.9993989527225493,1596,video,https://www.tiktok.com/@awanganakjeram/video/7659061698665532692,,positive,0.9979965090751648,malay,Malay/Bumiputera,Unknown,0.0,love,0.047725990414619446,0.02499835006892681,0.12942634522914886,0.03833392634987831,0.4825255870819092,0.05489538237452507
+tiktok,post,7659053843480710418,"🕌 Mengakhiri hari dengan berjemaah.
+
+Alhamdulillah, malam ini berkesempatan menunaikan solat Maghrib berjemaah di Surau Taman Sri Siantan, diikuti solat Isyak berjemaah di Surau Al-Amin, Jalan Dato' Haji Kosai.
+
+Rasulullah SAW bersabda:
+
+""Solat berjemaah lebih utama daripada solat bersendirian dengan dua puluh tujuh darjat.""
+— Riwayat al-Bukhari & Muslim
+
+Semoga Allah SWT menjadikan kita dalam kalangan hamba yang sentiasa memakmurkan rumah-Nya dan istiqamah menjaga solat berjemaah. Terima kasih kepada seluruh jemaah atas ukhuwah dan doa yang dikongsikan.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #SolatBerjemaah",https://www.tiktok.com/@awanganakjeram/video/7659053843480710418,,,positive,2026-07-08 18:33:07.867581+00:00,185,6,9,1992,0.9993956804275512,219,video,https://www.tiktok.com/@awanganakjeram/video/7659053843480710418,,positive,0.9979856014251709,malay,Malay/Bumiputera,Unknown,0.0,love,0.046001411974430084,0.03277362138032913,0.11741176247596741,0.046001654118299484,0.4913088381290436,0.04418819025158882
+tiktok,post,7659031578173115655,"💚🚶 Kemeriahannya masih terasa!
+
+Alhamdulillah, Program Fun Walk PASTI Bakri semalam berlangsung dalam suasana penuh ceria dengan gelak tawa anak-anak, semangat kesukanan dan ukhuwah yang indah.
+
+Melihat senyuman mereka adalah kebahagiaan buat kita semua. Semoga anak-anak ini terus membesar sebagai generasi yang sihat, berilmu, berakhlak mulia dan sentiasa mencintai agama.
+
+Terima kasih kepada para guru, ibu bapa, urus setia dan semua yang menjayakan program ini. Semoga segala usaha menjadi amal soleh di sisi Allah SWT.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #PASTIBakri",https://www.tiktok.com/@awanganakjeram/video/7659031578173115655,,,positive,2026-07-08 18:33:08.271062+00:00,116,4,6,1729,0.9994028508663177,143,video,https://www.tiktok.com/@awanganakjeram/video/7659031578173115655,,positive,0.9980095028877258,malay,Malay/Bumiputera,Unknown,0.0,happy,0.0432094968855381,0.04546807333827019,0.4338947534561157,0.026652880012989044,0.40459924936294556,0.022783424705266953
+tiktok,post,7658993359855389960,"🎤 ""Kalau saya pengundi Simpang Jeram, memang saya undi dia lah.""
+
+Terima kasih kepada Isham Jalil atas kesudian hadir dan menyampaikan ucapan dalam Ceramah Mega PRN DUN Simpang Jeram semalam.
+
+Kata-kata beliau menjadi suntikan semangat untuk saya terus mendekati rakyat, mendengar suara masyarakat dan berkhidmat sebaik mungkin jika diberi amanah.
+
+🗳️ 11 Julai, marilah kita sama-sama keluar mengundi.
+
+Undi Calon No. 4 – PERIKATAN NASIONAL.
+
+Terima kasih atas doa, sokongan dan kepercayaan anda.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram  #UndiNo4",https://www.tiktok.com/@awanganakjeram/video/7658993359855389960,,,positive,2026-07-08 18:33:08.593806+00:00,196,9,14,2451,0.9994103968143462,243,video,https://www.tiktok.com/@awanganakjeram/video/7658993359855389960,,positive,0.998034656047821,malay,Malay/Bumiputera,Unknown,0.0,love,0.034689970314502716,0.02304144576191902,0.13929985463619232,0.02847449667751789,0.5846638083457947,0.032180119305849075
+tiktok,post,7658647944526040327,"🍍🌿 Hari ini memang special! - Siri 2
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas dan betik.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7658647944526040327,,,positive,2026-07-08 18:33:08.911796+00:00,716,23,21,17900,0.9993931591510772,939,video,https://www.tiktok.com/@awanganakjeram/video/7658647944526040327,,positive,0.9979771971702576,malay,Malay/Bumiputera,Unknown,0.0,love,0.025535205379128456,0.03388243168592453,0.06804507225751877,0.04657163470983505,0.37738561630249023,0.1825447380542755
+tiktok,post,7658633285496524040,"🍍🌿 Hari ini memang special! - Siri 1
+
+Jom ikut Awang melawat kebun sendiri. Di sinilah masa terluang dimanfaatkan untuk mengusahakan tanaman nenas dan betik.
+
+Berkebun mengajar erti sabar, usaha dan syukur. Setiap hasil yang dituai bermula daripada benih yang dijaga dengan penuh kesungguhan.
+
+Jom tengok sendiri hasil tanaman Awang. Mana tahu lepas ni ada yang nak datang belajar berkebun pula. 😄
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #KenaliAwang",https://www.tiktok.com/@awanganakjeram/video/7658633285496524040,,,positive,2026-07-08 18:33:09.241414+00:00,3984,437,91,188600,0.9993914425373076,6398,video,https://www.tiktok.com/@awanganakjeram/video/7658633285496524040,,positive,0.9979714751243591,malay,Malay/Bumiputera,Unknown,0.0,love,0.02527676895260811,0.034231167286634445,0.06752005964517593,0.04631101340055466,0.3659893572330475,0.18911246955394745
+tiktok,post,7658535620956015890,"🏮🤝 ""Wǒ shì Awang!"" (我是 Awang) 😄
+
+Alhamdulillah, petang semalam saya berpeluang menyantuni para peniaga dan pengunjung di Pasar Malam Cina, Taman Marin.
+
+Seronok dapat bertegur sapa, bertanya khabar dan mendengar pandangan masyarakat dalam suasana yang santai. Walaupun berlainan bangsa dan budaya, kita tetap berkongsi harapan yang sama – sebuah masyarakat yang harmoni, saling menghormati dan hidup sejahtera.
+
+Terima kasih atas sambutan yang begitu mesra. Jumpa lagi di lain kesempatan!
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #Walkabout #TamanMarin",https://www.tiktok.com/@awanganakjeram/video/7658535620956015890,,,positive,2026-07-08 18:33:09.594731+00:00,641,22,28,15700,0.9994064450263976,848,video,https://www.tiktok.com/@awanganakjeram/video/7658535620956015890,,positive,0.9980214834213257,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04885954409837723,0.0326952300965786,0.426726758480072,0.03020293451845646,0.3806192874908447,0.02455354668200016
+tiktok,post,7658534931332599058,"🕌🌅 Subuh Kempen | Hari Ke-8
+
+Alhamdulillah, pagi ini saya berkesempatan menunaikan solat Subuh berjemaah di Surau Al-Barakah, Batu 2 Jalan Bakri.
+
+Firman Allah SWT:
+
+﴿إِنَّمَا يَعْمُرُ مَسَاجِدَ اللَّهِ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ﴾
+
+""Sesungguhnya yang memakmurkan masjid-masjid Allah hanyalah orang yang beriman kepada Allah dan hari akhirat."" (Surah At-Taubah: 18)
+
+Semoga Allah SWT menjadikan kita dalam kalangan hamba yang sentiasa mencintai dan memakmurkan rumah-Nya. Terima kasih kepada seluruh jemaah atas ukhuwah yang indah pagi ini.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #SubuhBerjemaah",https://www.tiktok.com/@awanganakjeram/video/7658534931332599058,,,positive,2026-07-08 18:33:09.931034+00:00,119,1,7,1857,0.9994108617305755,145,video,https://www.tiktok.com/@awanganakjeram/video/7658534931332599058,,positive,0.9980362057685852,malay,Malay/Bumiputera,Unknown,0.0,love,0.09638182818889618,0.0649392232298851,0.04779025912284851,0.10411243140697479,0.5940896272659302,0.04158364608883858
+tiktok,post,7658319150246382856,"🤲 Ziarah kasih yang penuh pengajaran.
+
+Hari ini saya menziarahi Haji Din, seorang pesara polis yang telah hampir setahun diuji dengan penyakit kencing manis sehingga menyebabkan jari kakinya terpaksa dipotong.
+
+Saya juga amat kagum dengan ketabahan isterinya, seorang cancer survivor, yang tetap cekal menjaga suami serta enam orang anak dengan penuh kasih sayang.
+
+Semoga Allah SWT mengurniakan kesembuhan buat Haji Din, menguatkan hati seluruh keluarga serta melimpahkan rezeki, rahmat dan keberkatan kepada mereka.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #ZiarahKasih #BerkatPrihatinSejahtera",https://www.tiktok.com/@awanganakjeram/video/7658319150246382856,,,positive,2026-07-08 18:33:10.297348+00:00,137,3,5,2054,0.9994105756282805,165,video,https://www.tiktok.com/@awanganakjeram/video/7658319150246382856,,positive,0.9980352520942688,malay,Malay/Bumiputera,Unknown,0.0,love,0.06700312346220016,0.059695739299058914,0.029326722025871277,0.21562127768993378,0.5266842246055603,0.057486627250909805
+tiktok,post,7658469328936848647,"Jom Masuk Live Funwalk PASTI 
+Kawasan Bakri Sekarang! 
+
+#AwangAnakJeram
+#JomJagaJohor",https://www.tiktok.com/@awanganakjeram/video/7658469328936848647,,,neutral,2026-07-08 18:33:10.654963+00:00,221,10,11,3162,0.5,273,video,https://www.tiktok.com/@awanganakjeram/video/7658469328936848647,,neutral,0.6458525657653809,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.02330819144845009,0.012910183519124985,0.0558992475271225,0.018152303993701935,0.2738516926765442,0.03189308941364288
+tiktok,post,7658299424568970503,"🌧️☕ Hujan turun, rezeki pun singgah.
+
+Sedang berjalan menyantuni peniaga dan pengunjung di Pasar Tani, tiba-tiba hujan mencurah. Alhamdulillah, kami singgah di Warung Wak Senon untuk bersarapan sambil beramah mesra bersama pelanggan yang turut menikmati juadah pagi.
+
+Dalam suasana santai, dapat bertanya khabar, berkongsi cerita dan mendengar sendiri pandangan masyarakat. Inilah saat-saat yang paling bermakna dalam setiap perjalanan turun padang.
+
+Terima kasih atas layanan mesra. Semoga Allah memberkati rezeki semua.
+
+#AwangAnakJeram #UndiAwang #JomJagaJohor #JomJagaSimpangJeram #TurunPadang",https://www.tiktok.com/@awanganakjeram/video/7658299424568970503,,,positive,2026-07-08 18:33:10.977763+00:00,242,7,15,3073,0.9994037270545959,294,video,https://www.tiktok.com/@awanganakjeram/video/7658299424568970503,,positive,0.9980124235153198,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.04786199703812599,0.08001110702753067,0.03992852196097374,0.08908651769161224,0.22771060466766357,0.34416264295578003
+tiktok,post,7658257900170775826,"🕌 Jumaat yang penuh hikmah.
+
+Alhamdulillah, hari ini saya menunaikan solat Jumaat di Masjid Kg. Kenangan Tun Dr. Ismail (Masjid Pesta).
+
+Khutbah bertajuk ""Dipenjara Tembok Masa Silam"" mengingatkan kita agar tidak terus terbelenggu dengan kisah dan kesilapan lalu. Jadikan masa silam sebagai pengajaran, bukan penghalang untuk melangkah ke hadapan.
+
+Setiap insan diberi peluang untuk berubah, memperbaiki diri dan membina masa depan yang lebih baik. Semoga Allah SWT membimbing langkah kita ke jalan yang diredai-Nya.
+
+""Sesungguhnya Allah tidak akan mengubah nasib sesuatu kaum sehingga mereka mengubah apa yang ada pada diri mereka sendiri."" (Surah ar-Ra'd: 11)
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #JomJagaJohor #JumaatBerkat",https://www.tiktok.com/@awanganakjeram/video/7658257900170775826,,,positive,2026-07-08 18:33:11.424190+00:00,105,0,4,1473,0.9993369579315186,123,video,https://www.tiktok.com/@awanganakjeram/video/7658257900170775826,,positive,0.9977898597717285,malay,Malay/Bumiputera,Unknown,0.0,love,0.038868650794029236,0.03531777858734131,0.18930836021900177,0.045450013130903244,0.4817220866680145,0.03174184262752533
+tiktok,post,7658257594145852679,"🛍️ Pagi Jumaat di Pasar Tani Sungai Abong.
+
+Alhamdulillah, pagi ini berkesempatan menyantuni para peniaga dan pengunjung di Pasar Tani Kg. Kenangan Tun Dr. Ismail 2, Sungai Abong.
+
+Suasana cukup meriah dengan pelbagai barangan keperluan harian serta hasil jualan tempatan. Inilah tempat terbaik untuk bertemu, bertanya khabar dan mendengar sendiri pandangan masyarakat.
+
+Semoga Allah SWT melimpahkan rezeki yang halal dan diberkati kepada semua peniaga serta mengeratkan ukhuwah dalam komuniti.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #JomJagaJohor #JomJagaSimpangJeram",https://www.tiktok.com/@awanganakjeram/video/7658257594145852679,,,positive,2026-07-08 18:33:11.764052+00:00,740,30,29,8722,0.9993983626365661,886,video,https://www.tiktok.com/@awanganakjeram/video/7658257594145852679,,positive,0.9979945421218872,malay,Malay/Bumiputera,Unknown,0.0,love,0.05583834648132324,0.040245842188596725,0.24805878102779388,0.03773878514766693,0.3618694841861725,0.05162936821579933
+tiktok,post,7658157076606094610,"""Awang semua orang kenal dia""....... kata salah seorang pengunjung Pasar Tani pagi ini, terharu rasanya. Semuanya dari Allah Taala. 
+
+Awang meneruskan rutin kempen pagi ini Walkabout di Pasar Tani Sungai Abong. Jom bersama Awang kita undi Perikatan Nasional
+Awang Calon No.4 
+N13. Simpang Jeram
+
+#BersamaRakyat #SimpangJeram #Awanganakjeram 
+#perikatannasional",https://www.tiktok.com/@awanganakjeram/video/7658157076606094610,,,negative,2026-07-08 18:33:12.104203+00:00,270,2,10,2935,0.16319968700408935,311,video,https://www.tiktok.com/@awanganakjeram/video/7658157076606094610,,negative,0.45600104331970215,multilingual,Unknown,Unknown,0.0,love,0.036946237087249756,0.021488212049007416,0.03355399891734123,0.030610037967562675,0.4295448362827301,0.059706661850214005
+tiktok,post,7658106208770886930,"☕ Sarapan, santai bersama rakyat.
+
+Pagi ini, calon N13 Simpang Jeram, Awang berkesempatan bersarapan di Warung Sarapan Wak Senon sambil beramah mesra dan mendengar sendiri pandangan penduduk.
+
+Terima kasih atas sambutan dan doa yang diberikan. Insya-Allah, amanah rakyat akan terus menjadi keutamaan.
+
+Bersama Awang, Demi Simpang Jeram. 💙
+
+#Awanganakjeram #SimpangJeram #BersamaRakyat",https://www.tiktok.com/@awanganakjeram/video/7658106208770886930,,,positive,2026-07-08 18:33:12.477693+00:00,175,0,8,2228,0.9993934094905852,205,video,https://www.tiktok.com/@awanganakjeram/video/7658106208770886930,,positive,0.9979780316352844,malay,Malay/Bumiputera,Unknown,0.0,love,0.027232835069298744,0.013166201300919056,0.04227190092206001,0.025328153744339943,0.514976978302002,0.05532446503639221
+tiktok,post,7658096570264554760,"Alhamdulillah, pagi Jumaat. Damai sungguh rasa hati dapat memulakan hari dengan bersujud kepada Yang Maha Esa bersama jemaah di Surau Nur Al-Hidayah pagi tadi. 
+
+Masa sampai dan lepas solat tadi, Awang sempat bersalaman, berpelukan, dan bertegur sapa dengan sahabat-sahabat kariah. Sayu dan gembira bercampur baur tengok wajah-wajah mesra 'orang kita' yang sentiasa istiqamah mengimarahkan surau waima di awal pagi gempita.
+
+Ukhuwah dan ikatan persaudaraan yang erat macam inilah yang menjadi tulang belakang dan kekuatan kita di Simpang Jeram. Susah senang, kita saling melengkapi dan bantu-membantu. Tiada beza antara kita, semuanya ibarat satu keluarga besar yang saling mendoakan kesejahteraan bersama.
+
+Terima kasih kepada pihak surau dan seluruh jemaah atas sambutan yang sangat hangat dan ikhlas. Teruskan titip doa buat Awang agar sentiasa diberi kelapangan masa dan kekuatan untuk terus berbakti kepada bumi Simpang Jeram yang kita cintai ini. Amin Ya Rabbal Alamin. 
+
+#AwangAnakJeram
+#SimpangJeramPilihOrangKita
+#OrangKitaAnakSimpangJeram
+#SatuJeramSatuUmmah
+#UndiAwang",https://www.tiktok.com/@awanganakjeram/video/7658096570264554760,,,positive,2026-07-08 18:33:12.803433+00:00,150,6,5,1904,0.9994106113910675,180,video,https://www.tiktok.com/@awanganakjeram/video/7658096570264554760,,positive,0.9980353713035583,malay,Malay/Bumiputera,Unknown,0.0,love,0.07495946437120438,0.07354056090116501,0.06825359910726547,0.09964800626039505,0.6000957489013672,0.04341774061322212
+tiktok,post,7658096301212536071,"🕌 Rehat seketika, menghadap Dia Yang Maha Esa.
+
+Di celah kesibukan berkempen, sempat singgah menunaikan solat Asar di Surau An-Najah, Taman Sri Bakri 3.
+
+Setinggi mana pun kesibukan, tanggungjawab seorang hamba kepada Rabb-Nya tidak boleh dilupakan. Daripada solatlah kita memohon kekuatan, petunjuk dan keberkatan dalam setiap langkah.
+
+Alhamdulillah, turut berpeluang beramah mesra bersama Imam, Tuan Haji Amir, serta para jemaah yang hadir.
+
+Semoga Allah SWT menerima amal ibadah kita dan memberkati setiap usaha yang dilakukan.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #BangsaJohor #AsarBerjemaah",https://www.tiktok.com/@awanganakjeram/video/7658096301212536071,,,positive,2026-07-08 18:33:13.126583+00:00,143,3,5,1486,0.9994063735008238,165,video,https://www.tiktok.com/@awanganakjeram/video/7658096301212536071,,positive,0.9980212450027466,malay,Malay/Bumiputera,Unknown,0.0,love,0.04737021028995514,0.048415228724479675,0.09781932830810547,0.07695766538381577,0.5584486126899719,0.047093361616134644
+tiktok,post,7658095376389524744,"💚 Terima kasih Tan Sri Annuar Musa atas sokongan dan doa.
+
+Saya merakamkan setinggi-tinggi penghargaan kepada Tan Sri Annuar Musa atas ucapan dan seruan kepada warga N13 Simpang Jeram untuk memberikan sokongan kepada Awang pada 11 Julai nanti.
+
+Beliau turut menyentuh pendekatan Awang yang sentiasa turun padang, mesra rakyat dan dekat dengan masyarakat tanpa mengira latar belakang.
+
+Insya-Allah, amanah rakyat akan terus menjadi keutamaan. Mohon doa dan sokongan semua.
+
+🗳️ 11 Julai – Undi Calon No. 4, PERIKATAN NASIONAL.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #UndiNo4
+#JomJagaJohor",https://www.tiktok.com/@awanganakjeram/video/7658095376389524744,,,positive,2026-07-08 18:33:13.828479+00:00,587,83,39,6638,0.9994051575660705,775,video,https://www.tiktok.com/@awanganakjeram/video/7658095376389524744,,positive,0.9980171918869019,malay,Malay/Bumiputera,Unknown,0.0,love,0.037188660353422165,0.01882219687104225,0.0643569752573967,0.03484401851892471,0.6542931199073792,0.04034348204731941
+tiktok,post,7657911103774838034,"☕🤝 SARAPAN PAGI, MENYATUKAN HATI
+
+Alhamdulillah, pagi ini dapat bersarapan bersama penduduk di Warung Ani. Di meja sarapan inilah terjalin pelbagai cerita, pandangan dan harapan rakyat untuk masa depan yang lebih baik.
+
+Saya ingin menyeru seluruh warga N13 Simpang Jeram agar keluar mengundi pada hari pengundian nanti. Setiap undi adalah amanah dan penentu hala tuju masa depan negeri kita.
+
+Marilah kita memilih jalan penyatuan, kestabilan dan kebajikan melalui wadah PERIKATAN NASIONAL. Berbeza pandangan tidak mengapa, tetapi jangan sampai berpecah hati. Kita bina Johor yang lebih berkat, lebih prihatin dan lebih sejahtera dengan semangat muafakat serta kasih sayang sesama masyarakat.
+
+Jom keluar mengundi. Undi anda, masa depan kita bersama.
+
+💚 Bersatu Hati, Membina Negeri.
+
+#AwangAnakJeram #UndiAwang 
+#PRNJohor2026 #N13SimpangJeram #PerikatanNasional",https://www.tiktok.com/@awanganakjeram/video/7657911103774838034,,,positive,2026-07-08 18:33:14.157788+00:00,195,4,6,2324,0.9990077257156371,228,video,https://www.tiktok.com/@awanganakjeram/video/7657911103774838034,,positive,0.996692419052124,malay,Malay/Bumiputera,Unknown,0.0,love,0.05663882941007614,0.029279980808496475,0.06867745518684387,0.04323017969727516,0.7586259245872498,0.016595318913459778
+tiktok,post,7657911495677725959,"🤲 Ziarah Kasih yang menyentuh hati.
+
+Alhamdulillah, hari ini berkesempatan menziarahi Ustazah Jaminah, bekas guru agama Sekolah Agama Parit Kadi, Muar. Kini beliau terlantar akibat sakit tua dan dijaga penuh kasih sayang oleh tiga orang anaknya.
+
+Lebih menyentuh hati, anak lelakinya yang berusia 25 tahun sanggup menangguhkan hasrat menyambung pengajian demi menjaga ibunya.
+
+Semoga Allah SWT mengurniakan kesembuhan, kekuatan dan ganjaran yang besar buat Ustazah Jaminah serta membalas pengorbanan anak-anaknya dengan sebaik-baik balasan.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #JomJagaJohor #JomJagaSimpangJeram",https://www.tiktok.com/@awanganakjeram/video/7657911495677725959,,,positive,2026-07-08 18:33:14.498977+00:00,614,37,20,9361,0.9994071245193481,764,video,https://www.tiktok.com/@awanganakjeram/video/7657911495677725959,,positive,0.9980237483978271,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.029944535344839096,0.07235227525234222,0.013033133000135422,0.8005778193473816,0.03614475205540657,0.03319450095295906
+tiktok,post,7657910657345424648,"☕😊 ""Siapa Awang ni sebenarnya?""
+
+Sambil ngeteh santai di warung, ada yang bertanya...
+
+""Siapa Awang ni?""
+
+Daripada orang lain bercerita, lebih baik dengar sendiri jawapannya daripada mulut Awang sendiri.
+
+Insya-Allah, saya bukan datang membawa janji yang berlebihan, tetapi hadir dengan tekad untuk berkhidmat, mendengar suara rakyat dan berusaha sebaik mungkin memikul amanah yang diberikan.
+
+Jom tonton video ini dan kenali Awang dengan lebih dekat. 😘 
+
+#AwangAnakJeram #UndiAwang 
+#PRNJohor2026
+#BangsaJohor #N13SimpangJeram",https://www.tiktok.com/@awanganakjeram/video/7657910657345424648,,,positive,2026-07-08 18:33:14.872358+00:00,763,26,32,9266,0.9989948332309722,913,video,https://www.tiktok.com/@awanganakjeram/video/7657910657345424648,,positive,0.996649444103241,malay,Malay/Bumiputera,Unknown,0.0,love,0.03720008209347725,0.03379485756158829,0.02846849150955677,0.06914772838354111,0.3951267898082733,0.24194155633449554
+tiktok,post,7657910320215837960,"🤲 Setiap ziarah mengingatkan kita tentang nilai syukur dan kasih sayang.
+
+Alhamdulillah, hari ini saya berkesempatan menziarahi Haji Hashim bin Ahmad di Taman Marin yang telah diuji dengan masalah saraf sehingga menyebabkan kaki beliau terpaksa dipotong. Sudah hampir dua tahun beliau berjuang dengan ujian ini dan kini dijaga penuh kasih sayang oleh isterinya di rumah.
+
+Sebelum diuji dengan kesakitan, Haji Hashim merupakan antara jemaah yang istiqamah mengimarahkan Masjid Sungai Abong. Hari ini, langkah ke masjid terbatas, namun semoga pahala setiap langkah yang pernah dihayunkan ke rumah Allah terus mengalir sebagai amal yang berpanjangan.
+
+Di sebalik ujian ini, terserlah pula pengorbanan seorang isteri yang setia menjaga suami. Demi meneruskan kehidupan, beliau berniaga kecil-kecilan menjual kuih batang buruk bersama anaknya.
+
+Marilah kita sama-sama mendoakan agar Allah SWT mengurniakan kesembuhan, kekuatan dan kesabaran buat Haji Hashim serta melimpahkan rezeki dan keberkatan kepada seluruh keluarganya.
+
+Sesungguhnya, masyarakat yang kuat ialah masyarakat yang saling mengambil berat, menziarahi dan membantu antara satu sama lain.
+
+🤲 اللهم اشفه شفاءً عاجلاً، وارزقه القوة والصبر، وبارك لأهله في رزقهم وأعِنهم على كل خير. آمين.
+
+#AwangAnakJeram #UndiAwang 
+#PRNJohor2026 #N13SimpangJeram
+#BangsaJohor",https://www.tiktok.com/@awanganakjeram/video/7657910320215837960,,,positive,2026-07-08 18:33:15.186931+00:00,120,2,5,1432,0.9992413640022277,141,video,https://www.tiktok.com/@awanganakjeram/video/7657910320215837960,,positive,0.9974712133407593,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.04989634081721306,0.07826067507266998,0.02230980433523655,0.4423696994781494,0.3020716905593872,0.06547240912914276
+tiktok,post,7657909648401452295,"💚 Masa depan ummah bermula di sini.
+
+Alhamdulillah, hari ini saya berkesempatan menziarahi anak-anak PASTI At-Thohiriah, Parit Buaya.
+
+Melihat keletah mereka yang baru berusia 4, 5 dan 6 tahun begitu ceria belajar mengaji, mengenal al-Quran dan mempraktikkan solat benar-benar mengubat hati. Benarlah, pembinaan generasi soleh bermula sejak usia yang masih kecil.
+
+Semoga anak-anak kecil ini membesar menjadi generasi yang berilmu, berakhlak mulia, mencintai agama, berbakti kepada ibu bapa serta menjadi pemimpin yang membawa manfaat kepada ummah.
+
+Saya titipkan doa yang diajarkan oleh Rasulullah SAW:
+
+اللَّهُمَّ فَقِّهْهُمْ فِي الدِّينِ وَعَلِّمْهُمُ التَّأْوِيلَ
+
+""Ya Allah, jadikanlah mereka faham dalam urusan agama dan ajarkanlah kepada mereka kefahaman yang benar.""
+
+Semoga Allah SWT memelihara dan memberkati setiap anak-anak ini, serta mengurniakan ganjaran yang besar kepada para guru dan ibu bapa yang mendidik mereka.
+
+#AwangAnakJeram #N13SimpangJeram #PASTI #GenerasiAlQuran #BerkatPrihatinSejahtera",https://www.tiktok.com/@awanganakjeram/video/7657909648401452295,,,positive,2026-07-08 18:33:15.505304+00:00,130,6,2,1329,0.9994116485118865,151,video,https://www.tiktok.com/@awanganakjeram/video/7657909648401452295,,positive,0.9980388283729553,malay,Malay/Bumiputera,Unknown,0.0,love,0.03183846175670624,0.0380929633975029,0.2765095829963684,0.028511835262179375,0.5612145662307739,0.024872567504644394
+tiktok,post,7657909148192984328,"🤔 ""Macam mana Awang boleh jadi calon?""
+
+Soalan ini memang selalu ditanya sepanjang kempen.
+
+Adakah Awang menawarkan diri? Atau dipilih oleh parti? Bagaimana prosesnya?
+
+Daripada terus membuat andaian, lebih baik dengar sendiri penjelasan daripada mulut Awang.
+
+Tonton video ini sampai habis. Insya-Allah, anda akan faham bagaimana perjalanan yang membawa Awang menjadi Calon No. 4 PERIKATAN NASIONAL di N13 Simpang Jeram.
+
+#AwangAnakJeram #UndiAwang #N13SimpangJeram #KenaliAwang #UndiNo4",https://www.tiktok.com/@awanganakjeram/video/7657909148192984328,,,negative,2026-07-08 18:33:15.990806+00:00,821,22,44,10600,0.0004831552505493164,993,video,https://www.tiktok.com/@awanganakjeram/video/7657909148192984328,,negative,0.998389482498169,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.017916064709424973,0.016907015815377235,0.03269093856215477,0.024643613025546074,0.360995352268219,0.10965314507484436

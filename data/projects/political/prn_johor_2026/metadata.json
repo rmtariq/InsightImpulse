@@ -1,0 +1,41 @@
+{
+  "project_id": "prn_johor_2026",
+  "name": "PRN Johor 2026 Dashboard",
+  "category": "political",
+  "client": "Internal · JITP 2026",
+  "keywords": [
+    "PRN Johor",
+    "PAS Johor",
+    "DUN Johor"
+  ],
+  "crawls": [
+    {
+      "id": "prn_johor_social_20260708_150530",
+      "file": "crawls/prn_johor_social_20260708_150530.csv",
+      "source_combined": "data/combined/Combined_facebook_20260708_150530.csv",
+      "source_analyzed": "data/combined/Combined_facebook_20260708_150530.csv",
+      "platforms": [
+        "facebook"
+      ],
+      "query": "11 post URLs (https://www.facebook.com/share/1Kqpb1u3e7/?mibex…)",
+      "date_range": "7days",
+      "rows": 62,
+      "saved_at": "2026-07-08T15:05:30.163851"
+    },
+    {
+      "id": "prn_johor_social_20260708_151533",
+      "file": "crawls/prn_johor_social_20260708_151533.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260708_151533.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260708_151533.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "11 post URLs (https://www.tiktok.com/@saif_abduh…)",
+      "date_range": "7days",
+      "rows": 24,
+      "saved_at": "2026-07-08T15:15:33.325490"
+    }
+  ],
+  "masters": [],
+  "updated_at": "2026-07-08T15:15:33.325551"
+}

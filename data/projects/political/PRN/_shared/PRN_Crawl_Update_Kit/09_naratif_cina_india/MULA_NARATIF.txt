@@ -1,0 +1,65 @@
+NARATIF CINA & INDIA — MULA DI SINI
+====================================
+Modul War Room #6 · N9 · Johor · Melaka
+
+SATU COMMAND (disyorkan 2× sehari: pagi + petang)
+-------------------------------------------------
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  ./scripts/update_narrative.sh pagi      ← pagi (~5 min, crawl + publish)
+  ./scripts/update_narrative.sh petang    ← petang
+  ./scripts/update_narrative.sh           ← cepat (~30 saat, publish sahaja)
+
+  bash scripts/start_prn_warroom_prototype.sh
+  http://localhost:8080/?module=narrative
+  Hard refresh: Cmd+Shift+R
+
+MOD TERPERINCI
+--------------
+  ./scripts/update_narrative.sh semak     publish dari crawl sedia ada
+  ./scripts/update_narrative.sh penuh     crawl penuh berita + India
+  ./scripts/update_narrative.sh laporan   + PDF/DOCX 3 negeri
+  ./scripts/update_narrative.sh bantuan
+
+APA YANG BERLAKU (automatik)
+----------------------------
+  1. Crawl berita Cina (percuma · tiada Apify)
+  2. Crawl India/Tamil (percuma · Google News + RSS · RM0)
+  3. Gabung dataset → JSON live War Room
+  4. Command Center tunjuk “Last narrative update: X jam lalu”
+
+JADUAL CADANGAN
+---------------
+  Pagi   08:00–10:00   ./scripts/update_narrative.sh pagi        (N9 + Johor + Melaka)
+  Petang 17:00–19:00   ./scripts/update_narrative.sh petang
+  Johor PRN intensif   ./scripts/update_narrative.sh johor       (semua stream Cina Johor)
+  Semasa mesyuarat     ./scripts/update_narrative.sh penuh + laporan
+
+JOHOR — SAMA SEPERTI N9
+-----------------------
+  War Room: pilih negeri "Johor" → Modul #6 (atau Command Center panel naratif)
+  Data live: .../war_room/prototype/data/n9_narrative_community.json (key "Johor")
+  Salinan Johor: data/projects/political/PRN/PRN_Johor/reference/johor_narrative_warroom.json
+  Crawl Cina Johor: PRN_Johor/crawls/chinese_news/
+  Crawl India Johor: PRN_Johor/crawls/indian_narrative/
+
+OUTPUT DATA
+-----------
+  Crawl Cina   : data/projects/political/PRN/PRN_N9/crawls/chinese_news/
+  Crawl India  : data/projects/political/PRN/PRN_N9/crawls/indian_narrative/
+  Dataset      : n9_chinese_narrative_dashboard/data/prn_chinese_narrative_posts_3negeri.csv
+  War Room JSON: .../war_room/prototype/data/n9_narrative_community.json
+
+DASHBOARD TERPERINCI (opsyen)
+-----------------------------
+  cd n9_chinese_narrative_dashboard && .venv/bin/streamlit run app.py
+  http://localhost:8501
+
+NOTA
+----
+  • Tiada cron automatik — anda jalankan bila sedia
+  • Socmed FB/X (kos Apify) TIDAK termasuk default
+  • Semak P1 dalam Modul #6 sebelum edar respons
+
+Salin-tampal command: COMMAND_SALIN_TAMPAL.txt
+Checklist harian:     CHECKLIST_HARIAN.txt

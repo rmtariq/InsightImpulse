@@ -1,0 +1,216 @@
+{
+  "analytics": {
+    "volume": {
+      "total_mentions": 86,
+      "daily_average": 2.9,
+      "peak_date": "2026-05-24",
+      "peak_count": 86,
+      "trend_direction": "insufficient_data",
+      "trend_percentage": 0,
+      "daily_counts": {
+        "2026-05-24": 86
+      }
+    },
+    "sentiment": {
+      "negative_count": 0,
+      "neutral_count": 86,
+      "positive_count": 0,
+      "negative_percentage": 0.0,
+      "neutral_percentage": 100.0,
+      "positive_percentage": 0.0,
+      "sentiment_distribution": {
+        "neutral": 86
+      }
+    },
+    "themes": {
+      "theme_counts": {
+        "general_complaint": 53,
+        "dirty_road_or_area": 14,
+        "illegal_dumping": 6,
+        "overflowing_bin": 6,
+        "praise_or_resolution": 3,
+        "late_collection": 3,
+        "missed_collection": 1
+      },
+      "theme_percentages": {
+        "general_complaint": 61.6,
+        "dirty_road_or_area": 16.3,
+        "illegal_dumping": 7.0,
+        "overflowing_bin": 7.0,
+        "praise_or_resolution": 3.5,
+        "late_collection": 3.5,
+        "missed_collection": 1.2
+      },
+      "top_3_themes": [
+        "general_complaint",
+        "dirty_road_or_area",
+        "illegal_dumping"
+      ],
+      "theme_examples": {
+        "general_complaint": [
+          "Adding a pool to our driveway for our waste management & delivery drivers 🌊🌴😂#deliverydriver #thankyou #snacks #community",
+          "Negara bebas sampah.. #thecommentkure  #recycle #sampah #singapore #wastemanagement #polusi",
+          "Waste management 2024👎🏼👎🏼"
+        ],
+        "dirty_road_or_area": [
+          "Kerja-kerja pembersihan longkang di Pekan Site B, Sekinchan telah dilaksanakan oleh KDEB Waste Management. \n\nJumlah sampah yang dikutip sangat banyak dan jelas menunjukkan betapa pentingnya kesedaran bersama dalam menjaga kebersihan persekitaran.\n\nMohon kerjasama semua untuk tidak membuang sampah merata-rata, khususnya ke dalam longkang kerana ia menyebabkan saliran tersumbat dan risiko banjir.\n\nTerima kasih kepada MDSB, KDEB Waste Management serta semua pihak yang terlibat atas usaha dan komitmen menjaga kebersihan DUN Sekinchan. #ngsueelim #ybjawasekinchan",
+          "Pagi ini bersama Dato’ Ramli Tahir dari KDEB Waste Management turun padang bersama team membantu mengemas kawasan taman perumahan demi memastikan persekitaran sentiasa bersih, selesa dan harmoni untuk penduduk.\n\nKebersihan adalah tanggungjawab bersama. Sama-sama kita jaga kawasan persekitaran dan tingkatkan kesedaran agar Selangor sentiasa bersih dan indah. \n\nKeep Selangor Clean! #ngsueelim #ybjawasekinchan",
+          "Majlis Bandaraya Petaling Jaya (MBPJ) bersama KDEB Waste Management (KDEBWM) mempergiat operasi pembersihan pasca banjir di beberapa kawasan terjejas susulan hujan lebat dan banjir kilat yang melanda Petaling Jaya pada 6 Mei 2026.\n\nMBPJ memaklumkan operasi itu meliputi kerja pembersihan lumpur, sisa banjir dan dahan pokok, selain membersihkan longkang serta laluan awam bagi memastikan persekitaran kembali bersih dan selamat untuk penduduk.\n\n#MediaSelangor #KlikSemasa"
+        ],
+        "illegal_dumping": [
+          "Business Owner Charged Extra by Waste Management. Driver Caught Staging Full Dumpster #fyp #bussiness #garbagetruck #onthisday",
+          "Join me to Dump my Waste Management Front Loader Truck 🚛💪🏼🔥 #viralvideo #fyp #fypシ #WM #CDL",
+          "The world is not a dumpster! 🌍 Show your commitment to proper waste disposal with our new sticker. 🗑️ Keep the environment clean and spread the message of sustainability for future generations.\n#wastemanagement #GoGreen #advertising #community #foryourpage #fyp"
+        ],
+        "overflowing_bin": [
+          "KDEB Waste Management (KDEBWM) mengambil tanggungjawab penuh berhubung insiden lori sampah yang merempuh tembok konkrit Plaza Tol Puchong Selatan dekat Lebuhraya Damansara-Puchong (LDP), 10 Oktober lalu.\n\nPengarah Urusannya, Dato’ Ramli Mohd Tahir menjelaskan lori sampah terlibat dikendalikan sebuah syarikat dilantik KDEBWM untuk melaksanakan kerja kutipan sisa pepejal di Kajang namun kontrak perkhidmatannya tamat pada Jun lalu.\n\n#MediaSelangor #KlikSemasa #KDEBWM",
+          "Jabatan Pengangkutan Jalan (JPJ) akan memanggil pengurusan tertinggi KDEB Waste Management (KDEBWM) dalam masa terdekat berhubung isu membabitkan lori sampah milik syarikat terbabit.\n\nKetua Pengarah JPJ, Datuk Aedy Fadly Ramli berkata, ini bagi memberikan amaran agar syarikat terbabit melakukan tindakan segera dalam memperbetulkan kesalahan dilakukan lori sampah mereka.\n\nAnda boleh baca berita penuh di portal Sinar Harian di www.sinarharian.com.my atau swipe up di IG story serta jangan lupa follow IG @sinarharian untuk berita terkini dalam dan luar negara.\n\n#SinarHarian #SinarTerkini #JPJ  #IsuLoriSampah #KDEBWM",
+          "Kerja-kerja pembersihan giat dilaksanakan menerusi program Ops Mega Pembersihan susulan insiden letupan paip gas di Putra Heights dan Kg. Kuala Sg. Baru, hari ini.\n\nKomitmen penuh tetap diberikan oleh seluruh warga kerja KDEB Waste Management demi memastikan kawasan ini kembali bersih dan selamat.\n\n#KDEBWM #SelangorBersih #OpsMegaPembersihan #PembersihanSubangJaya"
+        ],
+        "praise_or_resolution": [
+          "Shoutout to all the hard working delivery drivers & waste management workers out there, you are appreciated 🤭 #deliverydriver #snacks #thankyou #MiniFridge #community",
+          "Do you know how to properly place your trash and recycling containers?\n✅ On the street & against the curb\n❌ Not on the sidewalk or in driveways\n✅ 2 feet between containers\nThanks for doing your part!\n#AthensServices #TheAthensWay #WasteIndustry #CommunityPartner #FYP #ForYou #ForYouPage #SoCal #SouthernCalifornia #Environment #SafetyFirst #SafetyFirstAlways #SafetyAlways",
+          "Dua inovasi dibangunkan KDEB Waste Management (KDEBWM) iaitu aplikasi iClean Selangor dan Pusat Kitar Semula Pandu Lalu Automatik (ATDReC) menerima pengiktirafan dalam Majlis Anugerah PC.Com 2024, malam tadi.\n\nAplikasi iClean Selangor yang diperkenal pada 2016 dinobat Aplikasi Perkhidmatan Awam Terbaik manakala ATDReC yang dilancar Mac lalu diiktiraf sebagai Pembekal Perkhidmatan Kitar Semula Inovatif Terbaik.\n\nPengarah Urusan KDEBWM Dato’ Ramli Mohd Tahir berkata pengiktirafan itu menyemarakkan semangat pihaknya untuk terus menggalakkan inovasi dalam memberi perkhidmatan terbaik kepada pengguna. \n\n#MediaSelangor #Selangorkini #SelangorTV #KDEBWM #iClean"
+        ]
+      }
+    },
+    "hotspots": {
+      "area_counts": {
+        "Pj": 3,
+        "Subang Jaya": 3,
+        "Selayang": 2,
+        "Klang": 2,
+        "Kajang": 1,
+        "Petaling Jaya": 1,
+        "Shah Alam": 1,
+        "Sepang": 1
+      },
+      "top_5_hotspots": [
+        "Pj",
+        "Subang Jaya",
+        "Selayang",
+        "Klang",
+        "Kajang"
+      ],
+      "hotspot_percentages": {
+        "Pj": 21.4,
+        "Subang Jaya": 21.4,
+        "Selayang": 14.3,
+        "Klang": 14.3,
+        "Kajang": 7.1
+      },
+      "areas_with_complaints": 8
+    },
+    "platforms": {
+      "platform_counts": {
+        "tiktok": 86
+      },
+      "platform_percentages": {
+        "tiktok": 100.0
+      },
+      "most_complaint_heavy_platform": "tiktok",
+      "highest_engagement_platform": "tiktok",
+      "platform_engagement_avg": {
+        "tiktok": 69539.3953488372
+      }
+    },
+    "severity": {
+      "top_complaint_posts": [
+        {
+          "Text": "Adding a pool to our driveway for our waste management & delivery drivers 🌊🌴😂#deliverydriver #thankyou #snacks #community",
+          "total_engagement": 3696000,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Negara bebas sampah.. #thecommentkure  #recycle #sampah #singapore #wastemanagement #polusi",
+          "total_engagement": 515871,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Waste management 2024👎🏼👎🏼",
+          "total_engagement": 478128,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "the mud won…\n #wastemanagement #wmo #wastemanagementopen #scottsdale",
+          "total_engagement": 337132,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Inject this in my veins 🫡 #USA #WMPO #wastemanagement #nationalanthem #handshakebets",
+          "total_engagement": 260273,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Lain kali jgn marah2 kan takpasal2 kene naik lori @KDEB Waste Management \n#fypシ #fyp",
+          "total_engagement": 216902,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "#wastemanagement #wastemanagementopen #golftiktok #wmopen @ziregolf @beerholegolf @GolfGuys",
+          "total_engagement": 137206,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Keep your trash bins secure 🔒♻️ These innovative locks only open when tilted by a garbage truck, ensuring safety and efficiency. \n\nAvailable Now: Franzen Gravity Locks\n\nFollow @gadgetglimpse to discover more interesting products.\n\n#TrashCan #Gargabe #GarbageTruck #WasteManagement #Raccoon",
+          "total_engagement": 130305,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Business Owner Charged Extra by Waste Management. Driver Caught Staging Full Dumpster #fyp #bussiness #garbagetruck #onthisday",
+          "total_engagement": 42523,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        },
+        {
+          "Text": "Everyone cheering him on🤣 #fyp #wastemanagement #phoenixopen #phoenix #pranks",
+          "total_engagement": 36132,
+          "Platform": "tiktok",
+          "sentiment_label": "neutral"
+        }
+      ],
+      "average_engagement": 69539.4,
+      "high_severity_count": 0,
+      "high_severity_percentage": 0.0
+    },
+    "dashboard": {
+      "total_complaints": 86,
+      "negative_sentiment_pct": 0.0,
+      "top_complaint_theme": "General Complaint",
+      "top_hotspot_area": "Pj",
+      "peak_complaint_date": "2026-05-24",
+      "most_complaint_heavy_platform": "tiktok",
+      "high_severity_count": 0,
+      "unanswered_complaint_pct": 100
+    }
+  },
+  "insights": {
+    "insights": [
+      "The largest complaint category is 'general complaint', indicating this is a bigger public concern than other service aspects. Reliability of service remains the primary reputational risk.",
+      "Pj recorded the highest complaint volume, making it a priority hotspot for operational review and branch-level response. Consider targeted interventions in this area.",
+      "tiktok generated the most complaint mentions. This platform requires active monitoring and rapid response.",
+      "A significant share (100%) of complaints remain publicly unanswered, creating a gap between operational resolution and visible reputation recovery. This may damage public trust even if issues are being addressed internally."
+    ],
+    "recommendations": [
+      "Prioritize operational improvements for general complaint to address the most frequent complaint type.",
+      "Deploy additional resources or operational review in Pj to address hotspot complaints.",
+      "Establish dedicated social media response team for tiktok to manage reputation proactively.",
+      "Implement systematic public response protocol to acknowledge complaints and communicate resolutions."
+    ]
+  },
+  "executive_summary": "KDEBWM COMPLAINT MONITORING - EXECUTIVE SUMMARY\n================================================\n\nOVERVIEW:\n- Total Complaint Mentions: 86\n- Trend: INSUFFICIENT_DATA\n- Negative Sentiment: 0.0%\n- High-Severity Complaints: 0\n\nTOP 3 COMPLAINT THEMES:\n1. General Complaint\n2. Dirty Road Or Area\n3. Illegal Dumping\n\nTOP 3 HOTSPOT AREAS:\n1. Pj\n2. Subang Jaya\n3. Selayang\n\nMAIN RECOMMENDATIONS:\n1. Prioritize operational improvements for general complaint to address the most frequent complaint type.\n2. Deploy additional resources or operational review in Pj to address hotspot complaints.\n3. Establish dedicated social media response team for tiktok to manage reputation proactively.",
+  "metadata": {
+    "total_records": 2919,
+    "complaint_records": 94,
+    "generated_at": "2026-06-08T20:59:24.411958",
+    "source_file": "data/combined/KDEBWM_Combined_AllPlatforms_20260608.csv"
+  }
+}

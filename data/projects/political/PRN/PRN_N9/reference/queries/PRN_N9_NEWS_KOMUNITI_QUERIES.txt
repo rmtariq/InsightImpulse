@@ -1,0 +1,52 @@
+PRN NEGERI SEMBILAN 2026 — BERITA KOMUNITI (SIAP GUNA)
+=========================================================
+Kaedah: Google News RSS + Direct Scrape — RM0, tiada API key
+Skrip: NEImpulse/bin/python scripts/crawl_prn_n9_news_multilingual.py
+Harian: bash scripts/run_prn_n9_daily.sh
+
+KAEDAH CRAWL
+------------
+1. Google News RSS (boolean + site: filter)
+2. Direct scrape portal (HTML + RSS + comment API)
+
+KOMUNITI & SUMBER (Google News)
+-------------------------------
+- UMUM/PRN + The Edge (site:theedgemalaysia.com)
+- MELAYU: Utusan, BH, Sinar, FELDA
+- ISLAM: Harakah, masjid, PAS
+- CINA: China Press, Sin Chew, Oriental, Nanyang, Kwong Wah
+- INDIA: Nanban, Makkal Osai, MIC
+- LAIN: Orang Asli, Sikh, gereja
+- EKONOMI + The Edge: ringgit, OPR, kos hidup
+
+DIRECT SCRAPE (PERCUMA)
+-----------------------
+Artikel + komen:
+  - n9.chinapress.com.my (森州人) — Coral comment API
+  - www.chinapress.com.my — filter 森美兰/芙蓉/马口
+  - Free Malaysia Today — WordPress comment RSS
+
+Artikel sahaja (RSS filter NS):
+  - Malaysiakini
+  - Berita Harian
+  - Harian Metro
+  - Utusan Malaysia
+
+THE EDGE
+--------
+Query khusus: ED1–ED4 (site:theedgemalaysia.com)
+Masuk pack Umum + Ekonomi
+
+KOMEN PERCUMA — HAD
+-------------------
+✅ China Press: /comment/api/retrieval (Coral)
+✅ FMT: WordPress /feed comment RSS
+❌ BH / HMetro / Utusan: tiada comment RSS awam
+❌ Malaysiakini: komen behind login/paywall
+❌ Facebook 森州人: perlu Apify (berbayar)
+
+OUTPUT
+------
+- crawls/PRN_N9_News_Multilingual_*.csv (Type=post|comment)
+- reference/prn_n9_news_summary.json
+- Dashboard tab Sentimen → panel Berita Komuniti

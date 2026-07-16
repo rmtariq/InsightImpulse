@@ -1,0 +1,206 @@
+{
+  "updated_at": "2026-07-12T15:31:08",
+  "source": "/Users/rmtariq/Downloads/PRN_ChineseNarrative_Keywords_2026.xlsx",
+  "streams": [
+    {
+      "stream_id": "S1A1",
+      "label": "Media Cina NS",
+      "negeri": "Negeri Sembilan",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "media_chinese",
+      "prioriti": "Tinggi",
+      "query": "\"Sin Chew\" OR \"China Press\" OR \"星洲日报\" OR \"中国报\" Negeri Sembilan OR 森美兰 when:30d"
+    },
+    {
+      "stream_id": "S1A2",
+      "label": "Proxy BM NS",
+      "negeri": "Negeri Sembilan",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "proxy_about_chinese",
+      "prioriti": "Rendah",
+      "query": "\"pengundi Cina\" OR \"komuniti Cina\" \"Negeri Sembilan\" PRN when:30d"
+    },
+    {
+      "stream_id": "S1B1",
+      "label": "DAP/PH NS",
+      "negeri": "Negeri Sembilan",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Tinggi",
+      "query": "DAP OR \"Pakatan Harapan\" \"Negeri Sembilan\" PRN when:30d"
+    },
+    {
+      "stream_id": "S1B2",
+      "label": "Bandar NS (Seremban/Nilai)",
+      "negeri": "Negeri Sembilan",
+      "platforms": [
+        "news",
+        "facebook",
+        "x"
+      ],
+      "jenis": "seat_bandar",
+      "prioriti": "Tinggi",
+      "query": "Seremban OR Nilai calon OR PRN \"Negeri Sembilan\" when:30d"
+    },
+    {
+      "stream_id": "S1B3",
+      "label": "MCA/BN NS",
+      "negeri": "Negeri Sembilan",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Sederhana",
+      "query": "MCA OR \"Barisan Nasional\" \"Negeri Sembilan\" PRN when:30d"
+    },
+    {
+      "stream_id": "S2A1",
+      "label": "Media Cina Johor",
+      "negeri": "Johor",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "media_chinese",
+      "prioriti": "Tinggi",
+      "query": "\"Sin Chew\" OR \"China Press\" OR \"星洲日报\" OR \"中国报\" Johor OR 柔佛 when:30d"
+    },
+    {
+      "stream_id": "S2A2",
+      "label": "Proxy BM Johor",
+      "negeri": "Johor",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "proxy_about_chinese",
+      "prioriti": "Rendah",
+      "query": "\"pengundi Cina\" OR \"komuniti Cina\" \"Johor\" PRN when:30d"
+    },
+    {
+      "stream_id": "S2B1",
+      "label": "DAP/PH Johor",
+      "negeri": "Johor",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Tinggi",
+      "query": "DAP OR \"Pakatan Harapan\" \"Johor\" PRN when:30d"
+    },
+    {
+      "stream_id": "S2B2",
+      "label": "Bandar Johor (JB/Skudai/Stulang)",
+      "negeri": "Johor",
+      "platforms": [
+        "news",
+        "facebook",
+        "x"
+      ],
+      "jenis": "seat_bandar",
+      "prioriti": "Tinggi",
+      "query": "Johor Bahru OR Skudai OR Stulang calon OR PRN \"Johor\" when:30d"
+    },
+    {
+      "stream_id": "S2B3",
+      "label": "MCA/BN Johor",
+      "negeri": "Johor",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Sederhana",
+      "query": "MCA OR \"Barisan Nasional\" \"Johor\" PRN when:30d"
+    },
+    {
+      "stream_id": "S3A1",
+      "label": "Media Cina Melaka",
+      "negeri": "Melaka",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "media_chinese",
+      "prioriti": "Tinggi",
+      "query": "\"Sin Chew\" OR \"China Press\" OR \"星洲日报\" OR \"中国报\" Melaka OR 马六甲 when:30d"
+    },
+    {
+      "stream_id": "S3A2",
+      "label": "Proxy BM Melaka",
+      "negeri": "Melaka",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "proxy_about_chinese",
+      "prioriti": "Rendah",
+      "query": "\"pengundi Cina\" OR \"komuniti Cina\" \"Melaka\" PRN when:30d"
+    },
+    {
+      "stream_id": "S3B1",
+      "label": "DAP/PH Melaka",
+      "negeri": "Melaka",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Tinggi",
+      "query": "DAP OR \"Pakatan Harapan\" \"Melaka\" PRN when:30d"
+    },
+    {
+      "stream_id": "S3B2",
+      "label": "Bandar Melaka (Bandar Hilir)",
+      "negeri": "Melaka",
+      "platforms": [
+        "news",
+        "facebook",
+        "x"
+      ],
+      "jenis": "seat_bandar",
+      "prioriti": "Tinggi",
+      "query": "Melaka OR \"Bandar Hilir\" calon OR PRN \"Melaka\" when:30d"
+    },
+    {
+      "stream_id": "S3B3",
+      "label": "MCA/BN Melaka",
+      "negeri": "Melaka",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "party_official",
+      "prioriti": "Sederhana",
+      "query": "MCA OR \"Barisan Nasional\" \"Melaka\" PRN when:30d"
+    },
+    {
+      "stream_id": "SX1",
+      "label": "Media Cina — 3 Negeri",
+      "negeri": "3 Negeri (Cross)",
+      "platforms": [
+        "news"
+      ],
+      "jenis": "media_chinese",
+      "prioriti": "Tinggi",
+      "query": "\"Sin Chew\" OR \"China Press\" (\"Negeri Sembilan\" OR Johor OR Melaka) PRN when:30d"
+    },
+    {
+      "stream_id": "SX2",
+      "label": "Pengundi Cina — 3 Negeri",
+      "negeri": "3 Negeri (Cross)",
+      "platforms": [
+        "news",
+        "facebook"
+      ],
+      "jenis": "proxy_about_chinese",
+      "prioriti": "Rendah",
+      "query": "\"pengundi Cina\" (\"Negeri Sembilan\" OR Johor OR Melaka) when:30d"
+    }
+  ]
+}

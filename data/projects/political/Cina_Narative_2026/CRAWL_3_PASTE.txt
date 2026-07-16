@@ -1,0 +1,38 @@
+================================================================================
+CRAWL 3 — Chinese_Response_Narative_Issues · PAS_Politics_News
+Projek: Cina_Narative_2026
+Isu: Harakatdaily HD · Shawn Loh · PAS/BN syurga · akaun palsu · respons komuniti
+================================================================================
+
+SELEPAS CRAWL 1 (News ✓) + CRAWL 2 (Facebook + X ✓)
+
+TETAPAN INSIGHTPULSE (salin tepat):
+  Mod Crawl       → Keyword Search
+  Analysis Type   → Issue Detection
+  Project         → Chinese_Response_Narative_Issues — PAS_Politics_News
+  Dataset Size    → 2,000
+  Date Range      → Last 7 Days
+  Comment Sampling → Smart (optional)
+
+PLATFORM (tick):
+  [ ] News
+  [ ] Facebook
+  [ ] X
+  [X] TikTok
+  [X] Instagram
+  [X] YouTube
+
+QUERY (copy SATU baris ini sahaja):
+"Harakatdaily" OR "Harakatdaily HD" OR "罗盛年" OR "Shawn Loh" OR "tak bau syurga" OR "天堂味" OR "akaun palsu" OR ("PAS" AND "BN" AND ("syurga" OR "heaven" OR "天堂")) OR ("伊党" AND "国阵")
+
+NOTA:
+  • Crawl 1 = News (206 rows) — 5 Jul 17:41
+  • Crawl 2 = Facebook + X (14 rows) — 5 Jul 17:52
+  • Crawl 3 = TikTok + IG + YouTube — viral clip & respons video
+  • CSV auto masuk: data/projects/political/Cina_Narative_2026/crawls/
+
+ALTERNATIF CRAWL 3B (jika mahu Facebook dalam):
+  Platform: [X] Facebook  [X] TikTok  [ ] News  [ ] X  [ ] IG  [ ] YouTube
+  Query sama seperti atas + tambah: OR "非穆斯林" OR "pusat khidmat"
+
+================================================================================

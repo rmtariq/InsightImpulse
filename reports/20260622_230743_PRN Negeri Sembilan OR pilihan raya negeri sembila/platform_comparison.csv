@@ -1,0 +1,4 @@
+platform,total_posts,avg_sentiment,total_engagement,positive_ratio,negative_ratio
+x,355,0.301,2153990,14.4,60.3
+tiktok,43,0.442,40079,20.9,34.9
+news,80,0.446,0,5.0,18.8

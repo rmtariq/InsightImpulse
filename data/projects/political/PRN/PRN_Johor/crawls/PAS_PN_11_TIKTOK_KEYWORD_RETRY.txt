@@ -1,0 +1,39 @@
+================================================================================
+PRN JOHOR 2026 — TIKTOK KEYWORD RETRY (9 calon gagal Direct URL)
+Hasil crawl 8 Jul 5PM: batch 1+2 = 0, batch 3+4 = Mazlan + Yuhanita OK
+Guna Keyword Search (BUKAN Direct URL), TikTok sahaja, Date 30 hari, Dataset 500
+================================================================================
+
+BATCH K1 — 3 query (copy satu query per run)
+-------------------------------------------
+("Saifullah Abdul Wahab" OR Jementah OR N02) (PRN Johor OR PAS OR PN)
+("Normala Sudirman" OR Tenang OR N05) (PRN Johor OR PAS OR PN)
+("Arshed Yahya" OR Awang OR "Simpang Jeram" OR N13) (PRN Johor OR PAS OR PN)
+
+BATCH K2 — 3 query
+------------------
+("Anuar Hayan" OR Maharani OR N15) (PRN Johor OR PAS OR PN)
+("Muhammad Amin" OR "Sungai Balang" OR N16) (PRN Johor OR PAS OR PN)
+("Halim Kepol" OR Semerah OR N17) (PRN Johor OR PAS OR PN)
+
+BATCH K3 — 3 query
+------------------
+("Ahmad Rosdi" OR "Sri Medan" OR N18) (PRN Johor OR PAS OR PN)
+("Hasnul Hakimi" OR Endau OR N32) (PRN Johor OR PAS OR PN)
+("Khirul Muntanazar" OR Tiram OR N40) (PRN Johor OR PAS OR PN)
+
+SETTINGS SETIAP RUN
+-------------------
+  Project:     PRN Johor 2026 — Internal · JITP 2026
+  Crawl Mode:  Keyword Search
+  Platform:    TikTok sahaja (1 tick)
+  Date:        Last 30 Days  ← penting (7 hari buang komen)
+  Dataset:     500
+  Multimodal:  ON (optional)
+
+CALON SUDAH ADA TIKTOK (skip retry)
+----------------------------------
+  N31 Kahang    — @mazlan.bujang2   (~batch 3)
+  N35 Pasir Raja — @yuhanita.yunan  (~batch 4)
+
+EOF

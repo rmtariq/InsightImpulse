@@ -1,0 +1,45 @@
+SELEPAS SETIAP CRAWL — UPDATE COMMAND CENTRE
+=============================================
+
+1) Pastikan task completed di http://localhost:8001
+
+2) Gabung master (ganti YYYYMMDD):
+   cd /Users/rmtariq/Documents/InsightPulse
+   NEImpulse/bin/python3 - <<'PY'
+   import pandas as pd
+   from pathlib import Path
+   from datetime import datetime, timezone, timedelta
+   ROOT = Path("/Users/rmtariq/Documents/InsightPulse")
+   MYT = timezone(timedelta(hours=8))
+   TS = datetime.now(MYT).strftime("%Y%m%d")
+   prev = sorted((ROOT/"data/combined").glob("PRN_Johor_N9_master_*.csv"))
+   prev = prev[-1] if prev else None
+   new_files = sorted((ROOT/"data/combined").glob(f"Combined_*_{TS}_*.csv"))
+   parts = []
+   if prev: parts.append(pd.read_csv(prev, low_memory=False))
+   parts += [pd.read_csv(f, low_memory=False) for f in new_files]
+   df = pd.concat(parts, ignore_index=True)
+   df["_key"] = df["Platform"].astype(str)+"_"+df["ID"].astype(str)
+   df = df.drop_duplicates(subset=["_key"], keep="last").drop(columns=["_key"])
+   out = ROOT/f"data/combined/PRN_Johor_N9_master_{TS}.csv"
+   df.to_csv(out, index=False, encoding="utf-8")
+   print(out, len(df))
+   PY
+
+3) Wire + rebuild war room:
+   TS=$(date +%Y%m%d_%H%M%S)
+   cp data/combined/PRN_Johor_N9_master_YYYYMMDD.csv \
+      data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_${TS}.csv
+   cp data/combined/PRN_Johor_N9_master_YYYYMMDD.csv \
+      data/projects/political/PRN/PRN_Johor/master/PRN_Johor_Master_${TS}.csv
+   bash scripts/start_prn_warroom_prototype.sh
+
+4) Refresh browser Cmd+Shift+R:
+   http://localhost:8080/
+   http://localhost:8080/insightpulse/prn-monitoring/
+
+5) Naratif Cina & India (Modul #6) — SATU COMMAND:
+   cd /Users/rmtariq/Documents/InsightPulse
+   ./scripts/update_narrative.sh pagi
+   http://localhost:8080/?module=narrative
+   Rujuk kit: Desktop/PRN_Johor_N9_Crawl_Update_Kit/09_naratif_cina_india/

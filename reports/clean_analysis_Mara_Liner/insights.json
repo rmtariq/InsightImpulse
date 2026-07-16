@@ -1,0 +1,428 @@
+{
+  "executive_snapshot": {
+    "topic": "Mara Liner",
+    "analysis_date": "2026-05-24",
+    "data_quality": {
+      "total_raw_records": 451,
+      "relevant_records": 90,
+      "noise_filtered": 361,
+      "data_quality_score": "20.0%"
+    },
+    "time_coverage": {
+      "earliest_date": "2026-02-28",
+      "latest_date": "2026-05-19",
+      "days_covered": 79
+    },
+    "platform_breakdown": {
+      "tiktok": 38,
+      "instagram": 23,
+      "facebook": 19,
+      "x": 10
+    },
+    "content_mix": {
+      "public_earned": 74,
+      "news_media": 16
+    }
+  },
+  "business_priorities": [
+    {
+      "category": "Complaint Issue",
+      "volume": 8,
+      "sentiment_avg": "0.60",
+      "engagement_total": 885,
+      "severity": "high",
+      "examples": [
+        {
+          "text": "Bas.MY Kuala Terengganu Maraliner Sdn.Bhd #basmy #basmykualaterengganu #maraliner #jomnaikbas #sahabathafizpjack",
+          "platform": "tiktok",
+          "sentiment": "neutral",
+          "engagement": 786
+        },
+        {
+          "text": "19/10/2025 🚍MARA LINER ⚙️MAN 🧭 JOHOR BAHRU #basekspresmalaysia #gengbasexpressmalaysia #maraliner #luncur🛫🚀 #kualaterengganu",
+          "platform": "tiktok",
+          "sentiment": "neutral",
+          "engagement": 99
+        }
+      ]
+    },
+    {
+      "category": "Question Request",
+      "volume": 9,
+      "sentiment_avg": "0.51",
+      "engagement_total": 2860,
+      "severity": "medium",
+      "examples": [
+        {
+          "text": "Selesa sangat kot ek bukan main dia turunkan seat 🤣 apa korg buat kalau kena camni ? 😅👀 #contenttiputipu #fakesituation⚠️ #content #trending #maraliner #basekspresmalaysia #fyp #xybca",
+          "platform": "tiktok",
+          "sentiment": "negative",
+          "engagement": 2092
+        },
+        {
+          "text": "Okayyy, waktu rasmi untuk selekk dah bermula 😜 Mata korang auto pergi bas mana dulu??? 👀👀 Ni kan bas kita, jom selek sama-sama👇🚌 #upgrade #basbaru #nikanbaskita #maraliner #fyp",
+          "platform": "tiktok",
+          "sentiment": "negative",
+          "engagement": 414
+        }
+      ]
+    },
+    {
+      "category": "Praise Positive",
+      "volume": 3,
+      "sentiment_avg": "0.79",
+      "engagement_total": 69,
+      "severity": "opportunity",
+      "examples": [
+        {
+          "text": "Eh kaunter Muadzam Shah & Segamat tutup? Takpe takpe, I got chu! semua kat hujung jari je sekarang 💅😏 Tak tahu beli camne? Min dah tunjuk step simple kat atas tu 🤭 Masuk je website ticket.maralinergro",
+          "platform": "tiktok",
+          "sentiment": "positive",
+          "engagement": 58
+        },
+        {
+          "text": "KATSANA is proud to announce the signing of a Memorandum of Understanding (MoU) with MARA LINER SDN. BHD. towards advancing the digitalisation of fleet operations and maintenance management across the",
+          "platform": "instagram",
+          "sentiment": "positive",
+          "engagement": 11
+        }
+      ]
+    },
+    {
+      "category": "General Mention",
+      "volume": 66,
+      "sentiment_avg": "0.66",
+      "engagement_total": 38729,
+      "severity": "low",
+      "examples": [
+        {
+          "text": "Bas pinky-pinky untuk warga perlis & terengganu…nantikan kemunculan bas henti-henti @maralinersdnbhd yg baru untuk keselesaan anda…jangan lupa share and see u soon guyss🫰🏻😁🚌😎 #maraliner #KAMIMARALINER",
+          "platform": "tiktok",
+          "sentiment": "positive",
+          "engagement": 23481
+        },
+        {
+          "text": "Kami mohon maaf untuk insiden yang berlaku. Kami mengaku khilaf kami dan penerangan kedua belah pihak juga telah kami ambil. Cadangan dan sokongan daripada anda yang membawa kami , kepada siapa kami p",
+          "platform": "tiktok",
+          "sentiment": "positive",
+          "engagement": 4883
+        }
+      ]
+    },
+    {
+      "category": "Promotional Response",
+      "volume": 4,
+      "sentiment_avg": "0.74",
+      "engagement_total": 9079,
+      "severity": "low",
+      "examples": [
+        {
+          "text": "Guysss!!📣📣 beli je tiket balik raya dekat website MARALINER SAHAJA BERMULA TEPAT 17 FEBRUARI 2025, terussss layak untuk menang hadiah-hadiah menarik. 🎁 Kami akan umumkan WINNER pada bulan April nanti🥰",
+          "platform": "tiktok",
+          "sentiment": "positive",
+          "engagement": 7814
+        },
+        {
+          "text": "Harga Promosi RM20 Sehala TBS ke Penang Sentral Mara Liner Ekspres #bas #basekspresmalaysia #peminatbas #peminatbasexpress #influencerbas #pengulasbas #wartawanbas #agentiketbas #pilotdarat #busspotte",
+          "platform": "tiktok",
+          "sentiment": "neutral",
+          "engagement": 1265
+        }
+      ]
+    }
+  ],
+  "critical_issues": [
+    {
+      "text": "Bas.MY Kuala Terengganu Maraliner Sdn.Bhd #basmy #basmykualaterengganu #maraliner #jomnaikbas #sahabathafizpjack",
+      "platform": "tiktok",
+      "date": "unknown",
+      "engagement": 786,
+      "sentiment": "neutral",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "19/10/2025 🚍MARA LINER ⚙️MAN 🧭 JOHOR BAHRU #basekspresmalaysia #gengbasexpressmalaysia #maraliner #luncur🛫🚀 #kualaterengganu",
+      "platform": "tiktok",
+      "date": "unknown",
+      "engagement": 99,
+      "sentiment": "neutral",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "Macam mana guys, okay tak balik raya dengan MARALINER? Maaf ya kalau ada jem atau delay… biasalah, musim ramai balik perayaan kan 🙈🙈 Tapi apa2 pun, kalau korg ada sebarang aduan, cadangan atau nak tanya apa2…min open ruang ni untuk korang sekarang 🤗 tekan je link tu or scan okiessss? 🥰 #balikraya #n",
+      "platform": "facebook",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "positive",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "Assalammualaikum & Good Day We are hiring!! 1) Executive Operations Analyst - At least a Bachelor/Degree in Data Science, Statistics, Computer Science, or other related discipline. A Master Degree is encouraging to apply. - Basic proficiency in data analysis and statistical tools. - Proficient in Ex",
+      "platform": "facebook",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "positive",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "Assalammualaikum & Good Day We are hiring!! 1) Supervisor Body Works & Paint - Diploma / SKM Certificates in Automotive Body Works & Paint. Certification or formal training in automotive painting is a plus. -Proven minimum 3 years experience as an automotive painter, with a demonstrated ability to l",
+      "platform": "facebook",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "positive",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "Assalammualaikum & Good Day We are hiring!! 1) Executive, Compliance - To revise and enhance policies, procedures and SOPs continuously and identify non compliance risks according to company current SOP and policy. - ⁠To ensure that SOPs align with industry regulations, standards, and best practices",
+      "platform": "facebook",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "neutral",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "MARA Liner is your bus of choice for your journeys, whether it is from the city to the countryside or the other way around! Head on to MARA Liner’s page to learn the latest updates on Malaysia’s choice bus service!",
+      "platform": "facebook",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "neutral",
+      "category": "complaint_issue"
+    },
+    {
+      "text": "@mynewshub Maraliner ni memang selalu buat hal.Sekali tu aku dari Pendang nak ke KL lewat sejam.2nd time lagi 15 dari jadual bertolak staff dia call perjalanan cancel sebab bas rosak takde bas ganti",
+      "platform": "x",
+      "date": "unknown",
+      "engagement": 0,
+      "sentiment": "negative",
+      "category": "complaint_issue"
+    }
+  ],
+  "opportunities": [
+    {
+      "text": "Eh kaunter Muadzam Shah & Segamat tutup? Takpe takpe, I got chu! semua kat hujung jari je sekarang 💅😏 Tak tahu beli camne? Min dah tunjuk step simple kat atas tu 🤭 Masuk je website ticket.maralinergroup.my, tgh baring pun boleh “checkout” 😜👀 Paling bestttttt, masukkan kod “MLSB12” terus dpt 12% disk",
+      "platform": "tiktok",
+      "date": "unknown",
+      "engagement": 58,
+      "sentiment": "positive"
+    }
+  ],
+  "action_plan": {
+    "immediate_24h": [
+      {
+        "action": "Review and respond to 8 critical complaints",
+        "reason": "High engagement negative feedback requires immediate attention",
+        "owner": "Customer Service / PR Team"
+      }
+    ],
+    "short_term_7days": [
+      {
+        "action": "Address 'Complaint Issue' issues (Volume: 8)",
+        "reason": "8 mentions with 0.60 avg sentiment",
+        "owner": "Operations / Product Team"
+      }
+    ],
+    "medium_term_30days": [
+      {
+        "action": "Amplify 1 positive testimonials",
+        "reason": "Leverage satisfied customers for brand building",
+        "owner": "Marketing / Social Media Team"
+      }
+    ]
+  },
+  "enhanced_analysis": {
+    "sentiment_breakdown": {
+      "counts": {
+        "neutral": 19,
+        "positive": 13
+      },
+      "percentages": {
+        "neutral": 59.4,
+        "positive": 40.6
+      },
+      "total": 32
+    },
+    "emotion_breakdown": {
+      "counts": {
+        "happy": 14,
+        "love": 11,
+        "no_clear_emotion": 5,
+        "surprise": 1,
+        "anger": 1
+      },
+      "percentages": {
+        "happy": 43.8,
+        "love": 34.4,
+        "no_clear_emotion": 15.6,
+        "surprise": 3.1,
+        "anger": 3.1
+      },
+      "total": 32
+    },
+    "platform_breakdown": {
+      "instagram": {
+        "count": 23,
+        "sentiment": {
+          "positive": 13,
+          "neutral": 10
+        },
+        "avg_engagement": 9.26086956521739
+      },
+      "x": {
+        "count": 9,
+        "sentiment": {
+          "neutral": 9
+        },
+        "avg_engagement": 2.0
+      }
+    },
+    "top_posts": [
+      {
+        "Text": "Kenderaan Bas MARA) / WYN 2057 /\nHino RK1JSLL / Scomi Coach\n#maraliner #temandestinasianda",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 20,
+        "Sentiment": "neutral",
+        "Engagement": 20
+      },
+      {
+        "Text": "Maraliner (Kenderaan Bas MARA) / \nCFC 2595 /\nSKS SMC-375W52 / SKSBUS E138i\n#bashentihenti #maraliner \n#kenderaanbasmara #temandestinasianda",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 20,
+        "Sentiment": "neutral",
+        "Engagement": 20
+      },
+      {
+        "Text": "Maraliner (Kenderaan Bas MARA) / \nCEJ 1409 / Hino RN8JSPA / Badanbas\n#bashentihenti #maraliner \n#kenderaanbasmara #temandestinasianda",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 13,
+        "Sentiment": "neutral",
+        "Engagement": 13
+      },
+      {
+        "Text": "Unlocking ECRL’s Full Potential 🚆⚓🚌\n\nMARALINER bersama UniKL dan UniKL Resources Sdn Bhd telah menganjurkan forum sinergi “Unlocking ECRL’s Full Potential: Integrating Maritime, Rail and Mobility Systems” di WTCKL sempena Sambutan Karnival 60 Tahun MARA.\n\nKetua Pegawai Eksekutif MARALINER En. Wan Agyl Wan Hassan telah menjadi moderator bersama barisan panel jemputan iaitu En. Farizul Hazli Bin Baharom dari Berjaya Rail Sdn. Bhd, En. Mohd Fairoz Rozali, Jabatan Laut Malaysia serta Prof. Ts. Dr. Muhammad Zaly Shah Muhammad Hussein dari The Chartered Institute of Logistics and Transport.\n\nForum ini membincangkan peranan ECRL sebagai pemangkin utama pengangkutan multimodal Malaysia dengan fokus utama diberikan kepada integrasi sistem darat dan laut yang lebih mampan, cekap, dan saling terhubung demi masa depan mobiliti Malaysia.\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+        "Platform": "instagram",
+        "sentiment_label": "positive",
+        "total_engagement": 13,
+        "Sentiment": "positive",
+        "Engagement": 13
+      },
+      {
+        "Text": "MARALINER komited menyediakan perkhidmatan pengangkutan yang selamat, efisien dan mampan untuk semua.\n\nHAPPY WORLD PUBLIC TRANSPORT DAY! Terima kasih kerana memilih kami 🚌🚌💕💝💖\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+        "Platform": "instagram",
+        "sentiment_label": "positive",
+        "total_engagement": 13,
+        "Sentiment": "positive",
+        "Engagement": 13
+      },
+      {
+        "Text": "𝐒𝐄𝐒𝐈 𝐓𝐎𝐖𝐍𝐇𝐀𝐋𝐋 𝐌𝐀𝐑𝐀𝐋𝐈𝐍𝐄𝐑 𝟐𝟎𝟐𝟔\n\nMARA Liner Sdn. Bhd. (MLSB) telah mengadakan Sesi Townhall 2026 yang berlangsung di Ibu Pejabat dan disertai secara dalam talian oleh seluruh cawangan MLSB di seluruh Malaysia.\n\nSesi Townhall ini menjadi ruang amanat Ketua Pegawai Eksekutif MLSB, Encik Wan Md Hazlin Agyl Bin Wan Hassan, dan menjadi platform penting untuk berkongsi hala tuju strategik syarikat, menjelaskan inisiatif semasa serta memperkukuh komunikasi dua hala antara pihak pengurusan dan seluruh warga kerja.\n\nSemoga setiap perkongsian yang disampaikan menjadi pencetus semangat dan inspirasi kepada seluruh warga kerja MLSB dalam usaha membentuk organisasi yang lebih berdaya saing, berwibawa dan berintegriti.\n\n #MARALINER #MARACORP #WeAreGenMARA #60TahunMARA #MerakyatkanMARA",
+        "Platform": "instagram",
+        "sentiment_label": "positive",
+        "total_engagement": 13,
+        "Sentiment": "positive",
+        "Engagement": 13
+      },
+      {
+        "Text": "MARALINER Meterai 6 Kerjasama Strategik 🤝✨\n\nSempena Sambutan Karnival 60 Tahun MARA, MARALINER hari ini memeterai 6 Memorandum Persefahaman (MoU) bersama rakan industri strategik di Synergy Summit: Maritime & Logistics – Driving National Connectivity and Growth.\n\nKerjasama ini melibatkan:\n• Bateriku (M) Sdn . Bhd.\n• Tron Bradbury Energy (Malaysia) Sdn Bhd\n• KATSANA Holdings\n• Grab Malaysia\n• Berjaya Rail Sdn Bhd. \n• Tuxuri Sdn. Bhd.\n\nKolaborasi ini memberi fokus kepada pendigitalan, pengurusan fleet pintar, teknologi EV, first & last-mile connectivity serta pembangunan industri rel negara.\nLangkah ini mencerminkan komitmen MARALINER ke arah ekosistem pengangkutan yang lebih moden, mampan dan berdaya saing. 🇲🇾\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 12,
+        "Sentiment": "neutral",
+        "Engagement": 12
+      },
+      {
+        "Text": "KATSANA is proud to announce the signing of a Memorandum of Understanding (MoU) with MARA LINER SDN. BHD. towards advancing the digitalisation of fleet operations and maintenance management across their transportation ecosystem.\n\nThrough this collaboration, Katsana and MARA Liner will work together to implement a unified platform that combines Fleet Management System (FMS) capabilities with a Computerized Maintenance Management System (CMMS) — enabling greater visibility, operational efficiency, preventive maintenance planning, and data-driven decision making for MARA Liner buses as well as their heavy vehicle customers.\n\nAs public transportation and heavy vehicle operations continue to evolve, digital infrastructure plays an increasingly important role in improving reliability, safety, compliance, and cost efficiency. This collaboration reflects a shared commitment to modernising fleet operations with scalable technology that supports long-term operational growth.\n\nWe are honoured to support MARA Liner’s growth plans and transformation journey, and we look forward to building impactful solutions together for the transport and heavy vehicle industry in Malaysia.\n\nA sincere thank you to the MARA Liner leadership and team for the trust and opportunity.\n\n#Katsana #MARALiner #FleetManagement #CMMS #DigitalTransformation #SmartFleet #Telematics #HeavyVehicles #PublicTransport #MalaysiaTech #MobilityTechnology",
+        "Platform": "instagram",
+        "sentiment_label": "positive",
+        "total_engagement": 11,
+        "Sentiment": "positive",
+        "Engagement": 11
+      },
+      {
+        "Text": "Makluman penting untuk semua pelanggan MARALINER. Talian Whatssapp Aduan Rasmi kami telah digodam ‼️‼️😭😭\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 11,
+        "Sentiment": "neutral",
+        "Engagement": 11
+      },
+      {
+        "Text": "Maraliner (Kenderaan Bas MARA) / \nVY 5985 /\nHino RK1JSLL / RTG Intech\n#maraliner\n#temandestinasianda",
+        "Platform": "instagram",
+        "sentiment_label": "neutral",
+        "total_engagement": 9,
+        "Sentiment": "neutral",
+        "Engagement": 9
+      }
+    ],
+    "sentiment_examples": {
+      "positive": [
+        {
+          "Text": "“Guru Bitara, Nadi Negara” ✨\nTerima kasih cikgu atas jasa, ilmu dan pengorbanan dalam membentuk generasi masa depan yang hebat 🇲🇾📚👩🏻‍🏫👨🏻‍🏫\n\nSelamat Hari Guru 2026! 💐\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+          "Platform": "instagram"
+        },
+        {
+          "Text": "Selamat Menyambut Ulang Tahun Kelahiran YBhg. Dato’ Wira Dr. Asyraf Wajdi bin Dato’ Dusuki, Pengerusi MARA. Semoga YBhg. Dato’ Wira sentiasa diberi kesihatan yang baik, dilimpahkan keberkatan, dan terus cemerlang dalam menerajui agenda pembangunan Bumiputera.\n\nIkhlas daripada:\nSeluruh Warga MARALINER\n\n#MARALINER #MARACORP #INIKANBASKITA #WeGenMARA #60TahunMARA",
+          "Platform": "instagram"
+        },
+        {
+          "Text": "Busy few days: \n3rd May - MoU Exchange between Tuxuri and MARA Liner Sdn Bhd. The easy part done, now comes the hard work to support MLSB's vision for a new transportation revolution.\n5th May - Attended the Unplugged Ansara and more importantly a MARA Education Forum session and met an old schoolmate who was a panel member, Prof. Dato Dr. Faisal Rafiq Adikan.\n\n#tuxuri #maraliner #mara #locationintelligence #genmara",
+          "Platform": "instagram"
+        }
+      ],
+      "neutral": [
+        {
+          "Text": "Kenderaan Bas MARA) / WYN 2057 /\nHino RK1JSLL / Scomi Coach\n#maraliner #temandestinasianda",
+          "Platform": "instagram"
+        },
+        {
+          "Text": "Maraliner (Kenderaan Bas MARA) / \nVY 3920 /\nHino RK1JSLL / RTG Intech\n#maraliner\n#temandestinasianda",
+          "Platform": "instagram"
+        },
+        {
+          "Text": "Maraliner (Kenderaan Bas MARA) / \nCEJ 1409 / Hino RN8JSPA / Badanbas\n#bashentihenti #maraliner \n#kenderaanbasmara #temandestinasianda",
+          "Platform": "instagram"
+        }
+      ]
+    }
+  },
+  "ai_insights": {
+    "executive_summary": "Berdasarkan data yang ada, Instagram menunjukkan engagement tertinggi dengan purata 9.26 per pos. TikTok, sebagai platform utama di Malaysia dengan potensi yang tinggi, perlu diutamakan dalam strategi pemasaran digital syarikat pengangkutan ini.",
+    "critical_issues": [],
+    "opportunities": [
+      "Menggunakan TikTok untuk menyampaikan konten video pendek yang menarik bagi meningkatkan kesedaran jenama.",
+      "Meneroka trend dalam pemasaran influencer di TikTok untuk menarik perhatian Gen Z.",
+      "Memanfaatkan sentimen positif yang tinggi dalam pelanggan untuk membina testimoni dan cerita pelanggan.",
+      "Meningkatkan penggunaan Instagram untuk visual branding dan highlight laluan.",
+      "Menggunakan Facebook untuk meningkatkan interaksi dengan pelanggan melalui perkhidmatan pelanggan dan pengumuman."
+    ],
+    "customer_sentiment": "Sentimen pelanggan menunjukkan 40.6% positif dengan emosi gembira (43.8%) dan cinta (34.4%) yang dominan, menandakan bahawa pelanggan mempunyai pandangan yang baik terhadap perkhidmatan.",
+    "strategic_recommendations": [
+      "Buat konten video kreatif di TikTok yang menyoroti pengalaman pelanggan dan cabaran terkini.",
+      "Gunakan Instagram Stories untuk menampilkan testimoni pelanggan dan sorotan laluan.",
+      "Tingkatkan interaksi di Facebook dengan menjawab pertanyaan pelanggan dan berkongsi berita terkini.",
+      "Ambil bahagian dalam cabaran trending di TikTok untuk meningkatkan keterlibatan dan visibiliti.",
+      "Laksanakan kempen pemasaran influencer di TikTok untuk menarik perhatian Gen Z."
+    ],
+    "next_steps": {
+      "high_priority": [
+        "Membangunkan strategi konten video untuk TikTok",
+        "Mengadakan sesi penggambaran untuk testimoni pelanggan di Instagram",
+        "Mengenal pasti dan berkolaborasi dengan influencer di TikTok",
+        "Meningkatkan interaksi di Facebook dengan menjawab soalan pelanggan secara aktif"
+      ],
+      "medium_priority": [
+        "Menyusun jadual posting untuk Instagram dan TikTok",
+        "Menganalisis data engagement untuk meningkatkan strategi pemasaran",
+        "Mengadakan kempen promosi di media sosial untuk menarik pelanggan baru"
+      ],
+      "low_priority": [
+        "Mengembangkan aplikasi mudah alih untuk memudahkan tempahan",
+        "Meningkatkan laman web dengan konten interaktif dan terkini"
+      ]
+    },
+    "available": true
+  }
+}

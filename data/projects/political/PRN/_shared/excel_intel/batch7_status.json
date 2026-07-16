@@ -1,0 +1,16 @@
+{
+  "updated": "2026-06-21T18:45:00+08:00",
+  "decision": "STOPPED — semua crawl dihentikan user 21 Jun (backend + chain mati)",
+  "completed": {
+    "A": "PAS implisit N9 — Combined_facebook_tiktok_20260621_155059.csv (~157 rekod)",
+    "B": "PAS implisit Johor — Combined_facebook_tiktok_20260621_155904.csv (~13 rekod)",
+    "C": "UMDAP N9 — raw crawl ~1094 FB + ~587 TT (combined/analyzed belum confirm)"
+  },
+  "cancelled": ["D", "E", "F", "G", "H", "I", "J", "K", "L"],
+  "next_steps": [
+    "Tunggu Run C siap analyze (atau guna raw jika perlu)",
+    "Merge A + B + C ke master",
+    "Rebuild War Room"
+  ],
+  "estimated_saved": "~USD 35–60 (D–L tidak dijalankan)"
+}

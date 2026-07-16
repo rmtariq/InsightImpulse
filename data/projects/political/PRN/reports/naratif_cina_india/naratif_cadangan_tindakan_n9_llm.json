@@ -1,0 +1,492 @@
+{
+  "tajuk_utama": "Panduan Operasi Kempen — Negeri Sembilan",
+  "subtajuk": "Komuniti Cina & India · bahasa mudah untuk calon & ground team",
+  "baca_ini_dahulu": {
+    "situasi_sekarang": "Komuniti Cina bercakap tentang kos hidup dan perniagaan, dengan kekhawatiran terhadap kestabilan ekonomi. Komuniti India fokus pada pendidikan Tamil dan infrastruktur, dengan kecemasan terhadap disinformasi. Kedua-duka komuniti ingin penyelesaian konkrit, bukan janji kosong.",
+    "tiga_perkara_paling_penting": [
+      "Pasti kesatuan Muafakat Nasional (MN) untuk mengelakkan pekorangan Melayu",
+      "Rangka program ekonomi khas untuk komuniti Cina",
+      "Kempen menekankan kestabilan kerajaan dan sokongan pendidikan minority"
+    ],
+    "risiko_terbesar": "Jika ketidaksetujuan antara PAS-PN tidak diperseimbangkan, risiko 3 penjuru Melayu meningkat. Komuniti Cina mungkin menarik diri jika isu kos hidup diabaikan.",
+    "peluang_menang_hati": "Fokus pada perniagaan kecil (SME) dan perkhidmatan awam dapat menarik sokongan Cina. Untuk India, pencegahan fake news dan pembangunan infrastruktur dapat memperkuat kepercayaan."
+  },
+  "peraturan_emas": [
+    "Gunakan bahasa sederhana, elakkan istilah teknikal",
+    "Fokus pada penyelesaian, bukan serangan terhadap parti lawan",
+    "Pastikan setiap tindakan melibatkan komuniti secara langsung",
+    "Sampaikan mesej dalam Bahasa Melayu, 中文, dan தமிழ் untuk setiap kelompok",
+    "Berikutan arahan dari tim peringkat atas untuk elakkan kesilapan"
+  ],
+  "jangan_buat": [
+    "Jangan ignore isu kos hidup di Seremban dan Johor",
+    "Elakkan ujaran agresif terhadap DAP",
+    "Jangan lupa isu tempat letak kereta di Seremban",
+    "Jangan biarkan risiko Bersatu solo",
+    "Elakkan fokus berlebihan pada isu agama di Negeri Sembilan"
+  ],
+  "tindakan_minggu_ini": [
+    {
+      "nombor": 1,
+      "tajuk": "Tangani Isu Kos Hidup Cina Seremban",
+      "masalah": "Pengundi Cina miskin dan pemilik SME kecewa dengan kos operasi tinggi",
+      "apa_kita_buat": "Distribusi daftar bantuan disahkan dan promosi inisiatif pelancongan Port Dickson",
+      "langkah": [
+        "Pastikan daftar bantuan BM+中文 disebarkan dalam 48 jam",
+        "Tentang sesi Q&A dengan peniaga Cina di Seremban",
+        "Promosikan pelancongan Port Dickson sebagai sumber pendapatan alternatif"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Seremban + Tim Ekonomi MN",
+      "bila": "Dalam 48 jam",
+      "di_mana": "WhatsApp group merchant, FB, dan pasar",
+      "ayat_siap_copy_bm": "Aduan kos sara hidup & SME di Seremban kami rakam. Helaian bantuan aktif (negeri + persekutuan) BM+中文 dalam 48 jam. Undi = perkhidmatan, bukan drama.",
+      "ayat_siap_copy_zh": "芙蓉及汝来商家关注生活成本。48小时内发布中英对照援助清单。投票要看服务，不是口水战。",
+      "dun_terlibat": [
+        "NS-N28",
+        "NS-N24"
+      ]
+    },
+    {
+      "nombor": 2,
+      "tajuk": "Pencegahan Fake News Komuniti India",
+      "masalah": "Meningkatnya disinformasi tentang kerajaan di kalangan India",
+      "apa_kita_buat": "Buat program pendidikan komuniti menentang fake news",
+      "langkah": [
+        "Tentang sesi pembinaan dengan pemimpin SJKT",
+        "Distribusi poster fakta dalam BM+Tamil",
+        "Aktifkan volunter untuk monitoren media sosial"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Port Dickson + Tim Komuniti India",
+      "bila": "Minggu ini",
+      "di_mana": "SJKT, FB, dan grup WhatsApp",
+      "ayat_siap_copy_bm": "Isu guru SJKT & pendidikan Tamil kami kasi perhatian. Kemas kini status pengisian & peruntukan disahkan — fakta sahaja.",
+      "ayat_siap_copy_ta": "SJKT ஆசிரியர் பற்றாக்குறை — தமிழ்+BM அதிகாரப்பூர்வ புதுப்பிப்பு விரைவில்.",
+      "dun_terlibat": [
+        "NS-N07",
+        "NS-N29"
+      ]
+    },
+    {
+      "nombor": 3,
+      "tajuk": "Jawab Rumor Pakatan Sulit",
+      "masalah": "Rumor kerjasama tersembunyi antara PAS-PN menyebar",
+      "apa_kita_buat": "Deny secara profesional dan fokus pada kestabilan MN",
+      "langkah": [
+        "Sampaikan jawapan rasmi dalam BM+中文",
+        "Tentang sesi dialog dengan pemimpin komuniti",
+        "Pastikan semua calon menyampaikan mesej serasi"
+      ],
+      "siapa_bertanggungjawab": "Tim Komunikasi MN Negeri Sembilan",
+      "bila": "Segera",
+      "di_mana": "Media sosial, surat terbuka",
+      "ayat_siap_copy_bm": "MN bersatu untuk kestabilan. Tidak ada pakatan sulit — fokus kami adalah perkhidmatan kepada rakyat.",
+      "ayat_siap_copy_zh": "MN 统一为稳定。没有隐秘联盟 — 我们的焦点是服务人民。",
+      "dun_terlibat": [
+        "NS-N01",
+        "NS-N02"
+      ]
+    },
+    {
+      "nombor": 4,
+      "tajuk": "Tingkatkan Kesadaran Infrastruktur India",
+      "masalah": "Infrastruktur di kawasan India masih memuaskan",
+      "apa_kita_buat": "Tunjukkan komitmen memperbaiki jalan dan kemudahan",
+      "langkah": [
+        "Lancar site visit dengan EXCO infrastruktur",
+        "Siaran langsung perbincangan dengan kontraktor lokal",
+        "Distribusi poster prestasi infrastruktur BM+Tamil"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Bahau + Tim Infrastruktur",
+      "bila": "Minggu ini",
+      "di_mana": "Kampung India, FB Live",
+      "ayat_siap_copy_bm": "Kami serius memperbaiki infrastruktur di kawasan India. Lawat tapak sedang berjalan — komitmen bukan hanya janji.",
+      "ayat_siap_copy_ta": "இந்திய சமூகத்தின் வளர்ச்சிக்கு கவனிப்பு — சரக்கு மேம்படுத்தும் நடவடிக்கைகள் தொடங்கியுள்ளது.",
+      "dun_terlibat": [
+        "NS-N08",
+        "NS-N19"
+      ]
+    },
+    {
+      "nombor": 5,
+      "tajuk": "Promosi Inisiatif SME Cina",
+      "masalah": "SME Cina kesulitan akibat kos tinggi",
+      "apa_kita_buat": "Tawarkan pakej bantuan dan promosi pelancongan",
+      "langkah": [
+        "Lancar program pesta makanan Seremban",
+        "Kolaborasi dengan peniaga Cina untuk pameran produk",
+        "Distribusi pamflet BM+中文 tentang bantuan SME"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Seremban Kota + Tim Ekonomi",
+      "bila": "Minggu ini",
+      "di_mana": "Pasar, kilang, media sosial",
+      "ayat_siap_copy_bm": "SME Cina adalah penting untuk ekonomi. Kami tawarkan bantuan disahkan dan promosi pelancongan Port Dickson.",
+      "ayat_siap_copy_zh": "华社中小企业是经济支柱。我们提供核实援助和波打丁加旅游推广。",
+      "dun_terlibat": [
+        "NS-N28",
+        "NS-N30"
+      ]
+    }
+  ],
+  "tindakan_minggu_depan": [
+    {
+      "nombor": 1,
+      "tajuk": "Lawat Kilang India untuk Isu Keselamatan",
+      "masalah": "Kemungkinan risiko keamanan di kawasan perniagaan India",
+      "apa_kita_buat": "Pastikan keselamatan dan kepercayaan komuniti",
+      "langkah": [
+        "Tentang dialog dengan pemilik kedai India",
+        "Bentuk patrul keselamatan kolaborasi dengan polis",
+        "Distribusi risalah BM+Tamil tentang bantuan keselamatan"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Lukut + Tim Keselamatan",
+      "bila": "Minggu depan",
+      "di_mana": "Kampung India, kilang",
+      "ayat_siap_copy_bm": "Keselamatan komuniti India penting. Kami berdialog dan bentuk solusi bersama.",
+      "ayat_siap_copy_ta": "இந்திய சமூகத்தின் பாதுகாப்பு முக்கியம் — இணைந்து தீர்வு காணுதல்.",
+      "dun_terlibat": [
+        "NS-N30",
+        "NS-N31"
+      ]
+    },
+    {
+      "nombor": 2,
+      "tajuk": "Kempen Pendidikan Tamil SJKT",
+      "masalah": "Penggalangan guru dan peralatan di SJKT",
+      "apa_kita_buat": "Tunjukkan komitmen memperbaiki pendidikan Tamil",
+      "langkah": [
+        "Lancar program pembelian buku dan peralatan",
+        "Tentang sesi dengan guru dan ibu bapa",
+        "Siarkan video BM+Tamil tentang sasaran pendidikan"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Port Dickson + Tim Pendidikan",
+      "bila": "Minggu depan",
+      "di_mana": "SJKT, media sosial",
+      "ayat_siap_copy_bm": "Pendidikan Tamil kami perhatikan. Bantuan buku dan peralatan sedang disediakan.",
+      "ayat_siap_copy_ta": "தமிழ் கல்வி கவனிப்பு தேவை — புதிய புத்தகங்கள் மற்றும் தேவைகள் வழங்கப்படும்.",
+      "dun_terlibat": [
+        "NS-N07",
+        "NS-N29"
+      ]
+    },
+    {
+      "nombor": 3,
+      "tajuk": "Tidur Isu Tempat Letak Kereta Seremban",
+      "masalah": "Sesakkan tempat letak kereta di bandar Seremban",
+      "apa_kita_buat": "Berikan penyelesaian praktikal dan cepat",
+      "langkah": [
+        "Tentang mesyuarat dengan MBSA dan peniaga",
+        "Lancar sistem tempat letak kereta berbasis aplikasi",
+        "Distribusi poster BM+中文 tentang solusi"
+      ],
+      "siapa_bertanggungjawab": "Calon DUN Seremban Jaya + Tim Bandar",
+      "bila": "Minggu depan",
+      "di_mana": "Bandar Seremban, media sosial",
+      "ayat_siap_copy_bm": "Kesesakan tempat letak kereta kami ambil serius. Solusi praktikal sedang dikerjakan.",
+      "ayat_siap_copy_zh": "芙蓉市区停车问题正在解决中 — 实用方案即将推出。",
+      "dun_terlibat": [
+        "NS-N24",
+        "NS-N28"
+      ]
+    }
+  ],
+  "senarai_dun": [
+    {
+      "kod": "N01",
+      "nama": "Chennah",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan SME dan pelancongan.",
+      "untuk_komuniti_india": "Tingkatkan infrastruktur dan pencegahan fake news."
+    },
+    {
+      "kod": "N02",
+      "nama": "Pertang",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Fokus pada perniagaan lokal.",
+      "untuk_komuniti_india": "Pastikan kestabilan komuniti."
+    },
+    {
+      "kod": "N03",
+      "nama": "Sungai Lui",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu pengusaha kecil.",
+      "untuk_komuniti_india": "Perbaiki jalan dan kemudahan."
+    },
+    {
+      "kod": "N04",
+      "nama": "Klawang",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Kempen ekonomi ringan.",
+      "untuk_komuniti_india": "Dialog komuniti."
+    },
+    {
+      "kod": "N05",
+      "nama": "Serting",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Tingkatkan kesadaran bantuan.",
+      "untuk_komuniti_india": "Fokus pada pendidikan."
+    },
+    {
+      "kod": "N06",
+      "nama": "Palong",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Pastikan komunikasi.",
+      "untuk_komuniti_india": "Periksa isu infrastruktur."
+    },
+    {
+      "kod": "N07",
+      "nama": "Jeram Padang",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Tangani kos hidup segera.",
+      "untuk_komuniti_india": "Sumbangan untuk SJKT."
+    },
+    {
+      "kod": "N08",
+      "nama": "Bahau",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosi pelancongan.",
+      "untuk_komuniti_india": "Lawat kampung India."
+    },
+    {
+      "kod": "N09",
+      "nama": "Lenggeng",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Bantu perniagaan.",
+      "untuk_komuniti_india": "Pencegahan fake news."
+    },
+    {
+      "kod": "N10",
+      "nama": "Nilai",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Fokus pada SME dan keselamatan.",
+      "untuk_komuniti_india": "Infrastruktur perlu perhatian."
+    },
+    {
+      "kod": "N11",
+      "nama": "Lobak",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Kempen ekonomi.",
+      "untuk_komuniti_india": "Dialog pendidikan."
+    },
+    {
+      "kod": "N12",
+      "nama": "Temiang",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Pastikan bantuan disahkan.",
+      "untuk_komuniti_india": "Tingkatkan kebersamaan."
+    },
+    {
+      "kod": "N13",
+      "nama": "Sikamat",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan.",
+      "untuk_komuniti_india": "Perbaiki kemudahan."
+    },
+    {
+      "kod": "N14",
+      "nama": "Ampangan",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Lawat peniaga.",
+      "untuk_komuniti_india": "Fokus pada keselamatan."
+    },
+    {
+      "kod": "N15",
+      "nama": "Juasseh",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu SME.",
+      "untuk_komuniti_india": "Tingkatkan komunikasi."
+    },
+    {
+      "kod": "N16",
+      "nama": "Seri Menanti",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Kempen ringan.",
+      "untuk_komuniti_india": "Dialog komuniti."
+    },
+    {
+      "kod": "N17",
+      "nama": "Senaling",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan ekonomi.",
+      "untuk_komuniti_india": "Perbaiki infrastruktur."
+    },
+    {
+      "kod": "N18",
+      "nama": "Kuala Pilah",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Fokus pada perniagaan.",
+      "untuk_komuniti_india": "Pastikan kestabilan."
+    },
+    {
+      "kod": "N19",
+      "nama": "Johol",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu pengusaha kecil.",
+      "untuk_komuniti_india": "Tingkatkan pendidikan."
+    },
+    {
+      "kod": "N20",
+      "nama": "Labu",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Kempen ekonomi.",
+      "untuk_komuniti_india": "Dialog infrastruktur."
+    },
+    {
+      "kod": "N21",
+      "nama": "Bukit Kepayang",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Tangani isu tempat letak kereta.",
+      "untuk_komuniti_india": "Sumbangan untuk sekolah."
+    },
+    {
+      "kod": "N22",
+      "nama": "Rahang",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan SME.",
+      "untuk_komuniti_india": "Perbaiki kemudahan awam."
+    },
+    {
+      "kod": "N23",
+      "nama": "Mambau",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Lawat pasar.",
+      "untuk_komuniti_india": "Fokus pada keselamatan."
+    },
+    {
+      "kod": "N24",
+      "nama": "Seremban Jaya",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Promosikan inisiatif pelancongan.",
+      "untuk_komuniti_india": "Tingkatkan pencegahan fake news."
+    },
+    {
+      "kod": "N25",
+      "nama": "Paroi",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu perniagaan lokal.",
+      "untuk_komuniti_india": "Dialog pendidikan."
+    },
+    {
+      "kod": "N26",
+      "nama": "Chembong",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Pastikan komunikasi.",
+      "untuk_komuniti_india": "Periksa infrastruktur."
+    },
+    {
+      "kod": "N27",
+      "nama": "Rantau",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan ekonomi.",
+      "untuk_komuniti_india": "Fokus pada keselamatan."
+    },
+    {
+      "kod": "N28",
+      "nama": "Seremban Kota",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Tangani isu tempat letak kereta segera.",
+      "untuk_komuniti_india": "Sumbangan untuk kemudahan komuniti."
+    },
+    {
+      "kod": "N29",
+      "nama": "Chuah",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Kempen ringan.",
+      "untuk_komuniti_india": "Dialog komuniti."
+    },
+    {
+      "kod": "N30",
+      "nama": "Lukut",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu SME dan keselamatan.",
+      "untuk_komuniti_india": "Perbaiki infrastruktur."
+    },
+    {
+      "kod": "N31",
+      "nama": "Bagan Pinang",
+      "keuteraan": "TINGGI",
+      "untuk_komuniti_cina": "Promosikan bantuan perniagaan.",
+      "untuk_komuniti_india": "Tingkatkan pencegahan fake news."
+    },
+    {
+      "kod": "N32",
+      "nama": "Linggi",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Fokus pada perniagaan.",
+      "untuk_komuniti_india": "Pastikan kestabilan."
+    },
+    {
+      "kod": "N33",
+      "nama": "Sri Tanjung",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Promosikan bantuan ekonomi.",
+      "untuk_komuniti_india": "Dialog infrastruktur."
+    },
+    {
+      "kod": "N34",
+      "nama": "Gemas",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Kempen ringan.",
+      "untuk_komuniti_india": "Periksa keselamatan."
+    },
+    {
+      "kod": "N35",
+      "nama": "Gemencheh",
+      "keuteraan": "SEDERHANA",
+      "untuk_komuniti_cina": "Bantu pengusaha kecil.",
+      "untuk_komuniti_india": "Tingkatkan pendidikan."
+    },
+    {
+      "kod": "N36",
+      "nama": "Repah",
+      "keuteraan": "RENDAH",
+      "untuk_komuniti_cina": "Lawat pasar.",
+      "untuk_komuniti_india": "Fokus pada dialog komuniti."
+    }
+  ],
+  "jawapan_pantasan": [
+    {
+      "soalan_rakyat": "Ada pakatan sulit antara PAS dan BN?",
+      "jawapan_bm": "MN bersatu untuk kestabilan. Tidak ada pakatan sulit — fokus kami adalah perkhidmatan kepada rakyat.",
+      "jawapan_zh": "MN 统一为稳定。没有隐秘联盟 — 我们的焦点是服务人民。"
+    },
+    {
+      "soalan_rakyat": "Apa bantuan untuk SME Cina?",
+      "jawapan_bm": "Bantuan disahkan dari negeri dan persekutuan disediakan, termasuk promosi pelancongan Port Dickson.",
+      "jawapan_zh": "州及联邦核实援助可供华社中小企业，包括波打丁加旅游推广。"
+    },
+    {
+      "soalan_rakyat": "Bagaimana tumpang tindih isu SJKT?",
+      "jawapan_bm": "Kami sedang kasi perhatian kepada isu guru SJKT dan pendidikan Tamil — fakta sahaja, tiada propaganda.",
+      "jawapan_ta": "SJKT ஆசிரியர் தேவைகளுக்கு கவனித்து வருகிறோம் — உண்மையை மட்டுமே."
+    }
+  ],
+  "minggu_ini_di_socmed": {
+    "post_1": {
+      "tajuk": "Kos Hidup & Perkhidmatan",
+      "bm": "Aduan kos sara hidup & SME di Jelebu/Seremban kami rakam. Helaian bantuan aktif (negeri + persekutuan) BM+中文 dalam 48 jam. Undi = perkhidmatan, bukan drama.",
+      "zh": "芙蓉及汝来商家关注生活成本。48小时内发布中英对照援助清单。投票要看服务，不是口水战。",
+      "ta": "",
+      "platform": "FB",
+      "bila_pos": "Isnin 8mlm"
+    },
+    "post_2": {
+      "tajuk": "Pendidikan Tamil & Infrastruktur",
+      "bm": "Isu guru SJKT & pendidikan Tamil kami kasi perhatian. Kemas kini status pengisian & peruntukan — fakta sahaja.",
+      "zh": "",
+      "ta": "SJKT ஆசிரியர் பற்றாக்குறை — தமிழ்+BM அதிகாரப்பூர்வ புதுப்பிப்பு விரைவில்.",
+      "platform": "FB",
+      "bila_pos": "Selasa 9mlm"
+    },
+    "poster": {
+      "tajuk_bm": "NEGERI SEMBILAN · KOS HIDUP & PERKHIDMATAN",
+      "tajuk_zh": "森美兰 · 生活成本与服务",
+      "isi_bm": "Bantuan disahkan · SME · Trafik Seremban",
+      "isi_zh": "核实援助 · 中小企业 · 芙蓉交通",
+      "footer": "PAS · PN · MN"
+    }
+  },
+  "llm_provider": "on-prem-nemotron",
+  "llm_model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+  "state": "Negeri Sembilan",
+  "generated_at": "2026-07-08 11:45:47"
+}

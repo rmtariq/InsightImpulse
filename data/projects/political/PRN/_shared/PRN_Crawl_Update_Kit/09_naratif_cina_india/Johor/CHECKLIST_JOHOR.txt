@@ -1,0 +1,21 @@
+CHECKLIST HARIAN — NARATIF JOHOR (Cina & India)
+================================================
+Tarikh: ___________
+
+CRAWL
+[ ] RUN_JOHOR_PAGI.command  ATAU  RUN_JOHOR_PENUH.command
+[ ] Terminal tunjuk "SIAP — data live"
+
+WAR ROOM
+[ ] bash scripts/start_prn_warroom_prototype.sh
+[ ] Buka http://localhost:8080/?module=narrative&state=Johor
+[ ] Cmd+Shift+R
+[ ] Command Center → "Last narrative update" hijau (≤12 jam)
+
+SEMAK P1
+[ ] Tab Naratif Cina — isu P1 Johor: _______________
+[ ] Tab Naratif India — isi P1 Johor: _______________
+[ ] Assign pasukan + due time
+
+PETANG (opsyen)
+[ ] ./scripts/update_narrative.sh petang

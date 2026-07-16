@@ -1,0 +1,37 @@
+# PRN NEGERI SEMBILAN — QUERY BERITA SIAP GUNA
+# Google News RSS (percuma) — terminal:
+#   NEImpulse/bin/python scripts/crawl_prn_n9_news.py
+#   NEImpulse/bin/python scripts/crawl_prn_n9_news_multilingual.py  ← BM+Cina+Tamil+Ekonomi
+#
+# InsightPulse app: Platform = News ONLY · dataset_size 800 · project pas_break_2026
+
+# ═══ BM — UTAMA MALAYSIA ═══
+"PRN Negeri Sembilan" OR "pilihan raya negeri sembilan" when:30d
+
+Bernama OR "Astro Awani" OR Utusan OR "Berita Harian" "Negeri Sembilan" PRN when:30d
+
+Malaysiakini OR "Free Malaysia Today" OR "The Star" "Negeri Sembilan" when:30d
+
+PAS OR PN OR UMNO OR "Pakatan Harapan" "Negeri Sembilan" when:30d
+
+SPR OR penamaan OR mengundi "Negeri Sembilan" when:30d
+
+# ═══ MEDIA CINA ═══
+"Sin Chew" OR "China Press" OR "Guang Ming" "Negeri Sembilan" OR 森美兰 when:30d
+
+"星洲日报" OR "中国报" PRN 森美兰 when:30d
+
+# ═══ MEDIA TAMIL / KOMUNITI INDIA ═══
+"Makkal Osai" OR "Malaysia Nanban" Tamil "Negeri Sembilan" when:30d
+
+"pengundi India" OR "komuniti India" "Negeri Sembilan" when:30d
+
+# ═══ EKONOMI & KOS HIDUP ═══
+kos sara hidup OR inflasi OR "harga barang" "Negeri Sembilan" when:30d
+
+ekonomi OR pelaburan OR SME Seremban OR Nilai OR "Port Dickson" when:30d
+
+BNM OR OPR OR ringgit OR belanjawan Malaysia when:14d
+
+# ═══ SPLIT PAS-BERSATU (konteks) ═══
+PAS Bersatu OR "PAS putus Bersatu" OR "Perikatan Nasional" "Negeri Sembilan" when:30d

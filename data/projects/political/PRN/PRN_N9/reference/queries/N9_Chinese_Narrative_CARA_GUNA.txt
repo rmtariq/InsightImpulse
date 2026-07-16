@@ -1,0 +1,28 @@
+PRN CHINESE NARRATIVE — NS + MELAKA + JOHOR
+==============================================
+
+TUJUAN
+  Analisis naratif komuniti Cina untuk 3 negeri PRN 2026.
+  BUKAN polling — social listening + tag weight.
+
+MULA (percuma)
+  python3 scripts/crawl_prn_chinese_news.py
+  python3 scripts/crawl_prn_chinese_news.py --negeri johor   # satu negeri
+
+INSIGHTPULSE
+  Query S1A1/S1B1 = Negeri Sembilan
+  Query S2A1/S2B1 = Johor
+  Query S3A1/S3B1 = Melaka
+  Query SX1       = banding 3 negeri sekali
+
+ANALISIS — WAJIB pisah negeri
+  NS   → krisis MB, DUN bubar, PAS split
+  Johor → bandar JB, DAP vs BN, MB Onn Hafiz
+  Melaka → kerajaan PH, bandar heritage
+
+Weight TINGGI = media_chinese + leader/adun_chinese
+Weight RENDAH = proxy_about_chinese
+
+FAIL
+  reference/PRN_Chinese_Narrative_NS_Melaka_Johor.xlsx
+  reference/PRN_Chinese_Narrative_queries.txt

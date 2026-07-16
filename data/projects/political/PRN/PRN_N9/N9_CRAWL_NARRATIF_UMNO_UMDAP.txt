@@ -1,0 +1,347 @@
+# =============================================================================
+# InsightPulse — N9 CRAWL · NARATIF UMNO / UMDAP / MN / PH
+# =============================================================================
+# Untuk     : Pasukan operasi PAS N9 · War Room localhost:8080
+# Tarikh    : 25 Jun 2026
+# Tag crawl : PRN-N9-Narratif-UMNO-UMDAP
+# Project   : pas_break_2026
+#
+# TUJUAN
+# ------
+# Tangkap 2 aliran UMNO + monitor PH/DAP — supaya dashboard betul:
+#
+#   UMDAP     = UMNO + DAP + Zahid + Madani (pro-PH / Kerajaan Perpaduan)
+#   UMNO ori  = UMNO tulen / asal + MN + muafakat + ummah Melayu Islam
+#   PH/DAP    = naratif lawan di X (monitor — crawl BERASINGAN, jangan campur MN)
+#
+# CARA GUNA (MUDAH)
+# -----------------
+#   1. Buka http://localhost:8001  (./start_full_app.sh jika belum jalan)
+#   2. Baca blok C01 → C12 SATU persatu (jangan lompat)
+#   3. Tick platform ikut baris PLATFORM TICK (✅ = tick, kosong = jangan tick)
+#   4. Copy QUERY → paste kotak Keyword Search
+#   5. Isi TETAPAN ikut blok (Dataset + 7 Days + project)
+#   6. Start → tunggu siap → baru crawl seterusnya
+#   7. Selepas C06 + C12 → jalankan REBUILD (rujuk bawah)
+#
+# JIMAT KOS APIFY
+# ---------------
+#   • Dataset 300–350 (BUKAN 2000) — cukup untuk N9 scoped analytics
+#   • Satu crawl = satu naratif — elak campur UMDAP + MN + DAP
+#   • News + X = 80% nilai insight · tambah FB bila blok minta
+#   • JANGAN tick TikTok + IG + FB + X serentak — punca kos 3×–5×
+#   • Direct URL (Appendix A) = FB sahaja · dataset 400 · paling jimat vs keyword FB
+#
+# ANGGARAN KOS (12 crawl + 2 URL)
+# -------------------------------
+#   C01–C12 keyword  : ~RM22–28 total (≈ RM2–2.50/crawl)
+#   A01–A02 URL FB   : ~RM3–4 total
+#   Mingguan         : ~RM25–32  |  Bulanan (×4) : ~RM100–120
+#
+# NOTA InsightPulse: Baris bermula # = arahan (skip). Paste QUERY sahaja.
+# =============================================================================
+
+
+# =============================================================================
+# TETAPAN STANDARD (SAMA SETIAP KEYWORD CRAWL C01–C12)
+# =============================================================================
+#   Mod analysis    : Social Listening / Keyword Search
+#   Date range      : Last 7 Days
+#   Project         : pas_break_2026
+#   Comment sampling: Smart (default)
+#   Dataset size    : ikut setiap blok (300–350)
+# =============================================================================
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MINGGU 1 — NARATIF UMNO (C01–C04) · ~RM9–11 · Isi isyarat UMDAP vs MN
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── C01 · UMDAP — inti (UMNO+DAP stigma) ───────────────────────────────────
+# Jalur dashboard : umdapAntiMd  →  ↑ PAS Solo / ↑ MN  ·  ↓ PH / ↓ BN Solo
+# Masa crawl      : ~8–12 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+umdap OR "umno dap" OR "umno dan dap" negeri sembilan
+
+
+# ── C02 · UMNO ori / MN — muafakat (ummah path) ────────────────────────────
+# Jalur dashboard : party.mn  →  ↑ #3 MN ★
+# Masa crawl      : ~8–12 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+muafakat nasional negeri sembilan OR "pas umno" negeri sembilan
+
+
+# ── C03 · UMNO asal / tulen vs UMDAP ───────────────────────────────────────
+# Jalur dashboard : pisah UMNO ori dari UMDAP · FB kumpulan Melayu kuat
+# Masa crawl      : ~10–15 min
+# Kos Apify       : ~RM2.00
+#
+# PLATFORM TICK:
+#   News ☐   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"umno asal" OR "umno tulen" OR "umno lama" umdap negeri sembilan
+
+
+# ── C04 · Zahid · Madani · Kerajaan Perpaduan (UMDAP extended) ─────────────
+# Jalur dashboard : UMDAP + Madani link · News paling tepat
+# Masa crawl      : ~6–10 min
+# Kos Apify       : ~RM1.80
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ☐   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"zahid" madani OR "kerajaan perpaduan" negeri sembilan
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MINGGU 2 — INTEL LAWAN + PAS (C05–C08) · ~RM8–10
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── C05 · PH / DAP monitor — naratif lawan (X-heavy) ───────────────────────
+# Jalur dashboard : party.ph · sentiment PH · JANGAN campur dengan C02 MN
+# Masa crawl      : ~8–12 min
+# Kos Apify       : ~RM2.00
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ☐   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+dap OR "pakatan harapan" negeri sembilan PRN
+
+
+# ── C06 · PAS implisit — sokongan tanpa kata solo ──────────────────────────
+# Jalur dashboard : pasImplicit  →  ↑ PAS Solo
+# Masa crawl      : ~10–14 min
+# Kos Apify       : ~RM2.00
+#
+# PLATFORM TICK:
+#   News ☐   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"suka pas" OR "pas terbaik" OR "teguh pas" OR panahpas negeri sembilan
+
+
+# ── C07 · Anti-PH / raguan Madani — ekonomi N9 ─────────────────────────────
+# Jalur dashboard : phEconomicAngst  →  ↓ PH  ·  ↑ ruang PAS/MN
+# Masa crawl      : ~8–12 min
+# Kos Apify       : ~RM2.00
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ☐   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+ekonomi OR "kos sara hidup" OR "harga barang" negeri sembilan dap OR madani
+
+
+# ── C08 · Melayu Islam · ummah · penyatuan ─────────────────────────────────
+# Jalur dashboard : stack Melayu-Islam  →  ↑ MN / ↑ PAS
+# Masa crawl      : ~10–14 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ☐   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"melayu islam" OR "penyatuan ummah" OR "ummah" muafakat negeri sembilan
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# MINGGU 3 — ADAT + KERUSI KRITIKAL (C09–C12) · ~RM9–11
+# ═══════════════════════════════════════════════════════════════════════════
+
+
+# ── C09 · Istana / adat / Undang vs kerajaan PH ────────────────────────────
+# Jalur dashboard : n9IstanaAdat  →  ↓ PH  ·  ↑ MN/PAS (Melayu rural)
+# Masa crawl      : ~10–14 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"adat perpatih" OR undang OR "tuanku muhriz" negeri sembilan dap OR aminuddin
+
+
+# ── C10 · MB / DAP N9 — prestasi kerajaan negeri ───────────────────────────
+# Jalur dashboard : monitor prestasi PH penyandang · News quality
+# Masa crawl      : ~6–10 min
+# Kos Apify       : ~RM1.80
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ☐   TikTok ☐   Instagram ☐
+#
+# Dataset: 300  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+"aminuddin harun" OR "anthony loke" negeri sembilan PRN
+
+
+# ── C11 · DUN N14 Ampangan — sasaran flip MN ───────────────────────────────
+# Jalur dashboard : socmed per DUN · AP% · alert 24j
+# Masa crawl      : ~12–16 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+ampangan OR "tengku zamrah" muafakat OR umdap negeri sembilan
+
+
+# ── C12 · DUN N05 Serting — pertahan tipis + pecah undi ───────────────────
+# Jalur dashboard : socmed per DUN · PN pertahan tipis SPR 2023
+# Masa crawl      : ~12–16 min
+# Kos Apify       : ~RM2.50
+#
+# PLATFORM TICK:
+#   News ✅   X ✅   Facebook ✅   TikTok ☐   Instagram ☐
+#
+# Dataset: 350  |  Date: 7 Days  |  Mod: Keyword Search
+#
+# PASTE QUERY:
+serting OR "mohd fairuz" muafakat OR "pecah undi" negeri sembilan
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# APPENDIX A — DIRECT URL (FB sahaja · paling jimat · bukan keyword)
+# Jalankan SELEPAS C01–C04 (minggu 1) · ~RM3–4 total
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# TETAPAN URL CRAWL:
+#   Mod: Direct URL Crawl  |  Platform: Facebook ✅ sahaja
+#   Date: 7 Days  |  Dataset: 400  |  Project: pas_break_2026
+#
+# ── A01 · PAS N9 rasmi ──
+# PLATFORM: Facebook ✅ sahaja
+https://www.facebook.com/PAS.NegeriSembilan
+#
+# ── A02 · UMNO N9 rasmi ──
+# PLATFORM: Facebook ✅ sahaja
+https://www.facebook.com/umnonegerisembilan
+#
+# ── A03 · (OPTIONAL minggu 2) Pejuang + Bersama ──
+# PLATFORM: Facebook ✅ sahaja · Dataset 300
+# https://www.facebook.com/pejuang.org.my
+# https://www.facebook.com/partibersama
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# APPENDIX B — TIKTOK / IG (OPTIONAL · H-21 ke H-0 sahaja)
+# Jangan guna untuk UMDAP/MN — Gen Z / viral calon sahaja
+# ═══════════════════════════════════════════════════════════════════════════
+#
+# ── B01 · Gen Z N9 ──
+# PLATFORM: TikTok ✅ sahaja  |  Dataset: 200 (max)  |  7 Days
+# PASTE QUERY:
+# prn negeri sembilan anak muda OR undi18
+#
+# ── B02 · IG calon (selepas penamaan 18 Jul) ──
+# PLATFORM: Instagram ✅ sahaja  |  Dataset: 200  |  14 Days
+# PASTE QUERY:
+# negeri sembilan PRN calon
+
+
+# =============================================================================
+# REBUILD — WAJIB supaya dashboard localhost:8080 update
+# =============================================================================
+# Jalankan selepas setiap 3–4 crawl SIAP (task completed di :8001):
+#
+#   cd /Users/rmtariq/Documents/InsightPulse
+#   python3 scripts/build_warroom_socmed_by_dun.py --state N9
+#   python3 scripts/build_warroom_production_bundle.py
+#
+# Browser: Cmd+Shift+R → http://localhost:8080/
+#
+# Semak panel:
+#   • Peluang Majoriti 7-bloc (Command Center)
+#   • Isu Panas
+#   • DUN grid AP% (N05, N14)
+# =============================================================================
+
+
+# =============================================================================
+# CHECKLIST OPERASI — TICK BILA SIAP
+# =============================================================================
+#  MINGGU 1
+#  [ ] C01 UMDAP inti          News+X+FB  ~RM2.50
+#  [ ] C02 MN muafakat         News+X+FB  ~RM2.50
+#  [ ] C03 UMNO asal vs UMDAP  X+FB       ~RM2.00
+#  [ ] C04 Zahid Madani        News+X     ~RM1.80
+#  [ ] A01 PAS N9 URL          FB         ~RM1.50
+#  [ ] A02 UMNO N9 URL         FB         ~RM1.50
+#  [ ] REBUILD + refresh :8080
+#
+#  MINGGU 2
+#  [ ] C05 PH/DAP monitor      News+X     ~RM2.00
+#  [ ] C06 PAS implisit        X+FB       ~RM2.00
+#  [ ] C07 Anti-PH ekonomi     News+X     ~RM2.00
+#  [ ] C08 Melayu Islam ummah  X+FB       ~RM2.50
+#  [ ] REBUILD + refresh :8080
+#
+#  MINGGU 3
+#  [ ] C09 Istana adat         News+X+FB  ~RM2.50
+#  [ ] C10 MB/DAP prestasi     News+X     ~RM1.80
+#  [ ] C11 DUN N14 Ampangan    News+X+FB  ~RM2.50
+#  [ ] C12 DUN N05 Serting     News+X+FB  ~RM2.50
+#  [ ] REBUILD + refresh :8080
+# =============================================================================
+
+
+# =============================================================================
+# RINGKASAN PLATFORM — RUJUKAN PANTAS
+# =============================================================================
+#
+#  Crawl ID │ News │  X  │ FB  │ TT  │ IG  │ Dataset │ Anggaran
+#  ─────────┼──────┼─────┼─────┼─────┼─────┼─────────┼──────────
+#  C01      │  ✅  │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  C02      │  ✅  │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  C03      │  —   │ ✅  │ ✅  │  —  │  —  │   300   │ ~RM2.00
+#  C04      │  ✅  │ ✅  │  —  │  —  │  —  │   300   │ ~RM1.80
+#  C05      │  ✅  │ ✅  │  —  │  —  │  —  │   300   │ ~RM2.00
+#  C06      │  —   │ ✅  │ ✅  │  —  │  —  │   300   │ ~RM2.00
+#  C07      │  ✅  │ ✅  │  —  │  —  │  —  │   300   │ ~RM1.80
+#  C08      │  —   │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  C09      │  ✅  │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  C10      │  ✅  │ ✅  │  —  │  —  │  —  │   300   │ ~RM1.80
+#  C11      │  ✅  │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  C12      │  ✅  │ ✅  │ ✅  │  —  │  —  │   350   │ ~RM2.50
+#  A01–A02  │  —   │ —   │ ✅  │  —  │  —  │   400   │ ~RM3.00
+#  B01      │  —   │ —   │ —   │ ✅  │  —  │   200   │ ~RM2.00
+#  B02      │  —   │ —   │ —   │  —  │ ✅  │   200   │ ~RM2.00
+#
+#  TT = TikTok  |  IG = Instagram  |  — = jangan tick
+# =============================================================================

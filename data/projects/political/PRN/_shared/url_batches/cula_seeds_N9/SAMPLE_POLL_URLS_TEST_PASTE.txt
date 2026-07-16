@@ -1,0 +1,13 @@
+# Poll FB N9 — paste URL selepas post siap (satu baris = satu post)
+# Workflow: Post → tunggu 24–48j → paste URL di sini → crawl → proses dashboard
+#
+# Contoh 7 post batch sedia ada (sudah dicrawl 2026-07-02):
+# data/projects/political/PRN/_shared/url_batches/cula_seeds_N9/ALL_7_WHATSAPP_CULA_2026-07-02_PASTE_ONLY.txt
+#
+# --- UJIAN BARU: tampal URL di bawah ---
+
+# N01 Chennah — (isi selepas post)
+# https://www.facebook.com/...
+
+# N20 Labu — Labu question (optional re-test)
+# https://www.facebook.com/...

@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-06-20T00:36:57+08:00",
+  "state": "N9",
+  "csv": "data/projects/political/PRN/PRN_N9/crawls/excel_intel/PRN_ExcelIntel_N9_20260620_003657.csv",
+  "rows": 635,
+  "dun_with_hits": 35,
+  "tiers": [
+    "TIER1_ELECTION",
+    "TIER2_DUN_LOCAL",
+    "TIER3_LOCAL_ISSUE"
+  ]
+}

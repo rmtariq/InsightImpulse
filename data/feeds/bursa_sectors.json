@@ -1,0 +1,10 @@
+{
+  "updated": "2026-06-09",
+  "source": "Sample feed — replace with live Bursa sector data",
+  "sectors": [
+    {"name": "Technology", "status": "Support", "score": 78, "note": "Digital adoption and software services expanding"},
+    {"name": "Consumer", "status": "Monitor", "score": 58, "note": "Retail footfall sensitive to purchasing power"},
+    {"name": "Construction", "status": "Caution", "score": 49, "note": "Project cashflow and material cost pressure"},
+    {"name": "Industrial Products", "status": "Monitor", "score": 55, "note": "Input cost volatility remains elevated"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "state_id": "PRN_Johor",
+  "name": "PRN Johor 2026",
+  "dun_seats": 56,
+  "status": "skeleton",
+  "note": "Master dipindah dari prn_johor_2026. Crawl berita/socmed — belum setup penuh.",
+  "folders": {
+    "master": "Socmed master Johor",
+    "crawls/news": "Berita PRN Johor (future)",
+    "reports/dashboards": "Dashboard Johor (future)"
+  }
+}

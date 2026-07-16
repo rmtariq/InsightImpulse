@@ -1,0 +1,75 @@
+================================================================================
+🚀 INSIGHTPULSE - STEP-BY-STEP STARTUP GUIDE
+================================================================================
+
+STEP 1: OPEN TERMINAL
+--------------------------------------------------------------------------------
+Press: Cmd + Space
+Type: Terminal
+Press: Enter
+
+
+STEP 2: COPY AND PASTE THIS (ALL 3 LINES TOGETHER)
+--------------------------------------------------------------------------------
+
+cd /Users/rmtariq/Documents/InsightPulse && source NEImpulse/bin/activate && python web_backend/simple_app.py
+
+
+STEP 3: WAIT FOR THIS MESSAGE
+--------------------------------------------------------------------------------
+You will see lots of text. Wait until you see:
+
+    INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+
+This means the app is ready! ✅
+
+
+STEP 4: OPEN BROWSER
+--------------------------------------------------------------------------------
+Open Safari, Chrome, or any browser
+Type in address bar: localhost:8001
+Press Enter
+
+You should see InsightPulse homepage! 🎉
+
+
+TO STOP THE APP
+--------------------------------------------------------------------------------
+Go back to Terminal
+Press: Ctrl + C
+
+
+TROUBLESHOOTING
+--------------------------------------------------------------------------------
+
+Problem: "Connection refused" in browser
+Solution: Make sure Terminal shows "Uvicorn running on http://0.0.0.0:8001"
+          If not, wait longer (first time takes 1-2 minutes)
+
+Problem: "Port already in use"
+Solution: Run this first:
+          lsof -ti:8001 | xargs kill -9
+          Then try starting again
+
+Problem: Too many errors in Terminal
+Solution: Try restarting your computer, then follow steps again
+
+
+QUICK START (After first time)
+--------------------------------------------------------------------------------
+cd /Users/rmtariq/Documents/InsightPulse && source NEImpulse/bin/activate && python web_backend/simple_app.py
+
+Then wait for "Uvicorn running" message, then open localhost:8001
+
+
+IMPORTANT NOTES
+--------------------------------------------------------------------------------
+✅ Keep Terminal window OPEN while using the app
+✅ Don't close Terminal or the app will stop
+✅ First startup takes 1-2 minutes (loading AI models)
+✅ Next time will be faster (30-60 seconds)
+
+
+================================================================================
+Need help? Check HOW_TO_START.md for more details
+================================================================================

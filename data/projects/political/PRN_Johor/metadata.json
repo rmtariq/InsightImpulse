@@ -1,0 +1,125 @@
+{
+  "project_id": "PRN_Johor",
+  "name": "PRN Johor 2026",
+  "category": "political",
+  "client": "Internal · JITP 2026",
+  "keywords": [
+    "PRN Johor",
+    "PAS Johor",
+    "DUN Johor"
+  ],
+  "crawls": [
+    {
+      "id": "prn_johor_social_20260708_191011",
+      "file": "crawls/prn_johor_social_20260708_191011.csv",
+      "source_combined": "data/combined/Combined_facebook_tiktok_20260708_191011.csv",
+      "source_analyzed": "data/combined/Combined_facebook_tiktok_20260708_191011.csv",
+      "platforms": [
+        "facebook",
+        "tiktok"
+      ],
+      "query": "(\"Normala Sudirman\" OR Tenang OR N05) (PRN Johor OR PAS OR PN)",
+      "date_range": "7days",
+      "rows": 101,
+      "saved_at": "2026-07-08T19:10:11.469036"
+    },
+    {
+      "id": "prn_johor_social_20260708_193831",
+      "file": "crawls/prn_johor_social_20260708_193831.csv",
+      "source_combined": "data/combined/Combined_facebook_instagram_tiktok_x_20260708_193831.csv",
+      "source_analyzed": "data/combined/Combined_facebook_instagram_tiktok_x_20260708_193831.csv",
+      "platforms": [
+        "facebook",
+        "instagram",
+        "x",
+        "tiktok"
+      ],
+      "query": "(\"Cikgu Mala\" OR \"cg mala\" OR \"Normala Sudirman\" OR #CikguMala4Tenang OR normalasudirman) (\"N05 Tenang\" OR \"PRN Johor\")",
+      "date_range": "7days",
+      "rows": 85,
+      "saved_at": "2026-07-08T19:38:31.189775"
+    },
+    {
+      "id": "prn_johor_social_20260708_200201",
+      "file": "crawls/prn_johor_social_20260708_200201.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260708_200201.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260708_200201.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "2 post URLs (https://www.tiktok.com/@normalasudirman…)",
+      "date_range": "30days",
+      "rows": 51,
+      "saved_at": "2026-07-08T20:02:01.205712"
+    },
+    {
+      "id": "prn_johor_social_20260708_233617",
+      "file": "crawls/prn_johor_social_20260708_233617.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260708_233617.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260708_233617.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "3 post URLs (https://www.tiktok.com/@anuarhayan…)",
+      "date_range": "30days",
+      "rows": 84,
+      "saved_at": "2026-07-08T23:36:17.278657"
+    },
+    {
+      "id": "prn_johor_social_20260709_021015",
+      "file": "crawls/prn_johor_social_20260709_021015.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260709_021015.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260709_021015.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "3 post URLs (https://www.tiktok.com/@halimkepol…)",
+      "date_range": "30days",
+      "rows": 52,
+      "saved_at": "2026-07-09T02:10:15.483503"
+    },
+    {
+      "id": "prn_johor_social_20260709_022616",
+      "file": "crawls/prn_johor_social_20260709_022616.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260709_022616.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260709_022616.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "3 post URLs (https://www.tiktok.com/@mazlan.bujang2…)",
+      "date_range": "30days",
+      "rows": 97,
+      "saved_at": "2026-07-09T02:26:16.619281"
+    },
+    {
+      "id": "prn_johor_social_20260709_023359",
+      "file": "crawls/prn_johor_social_20260709_023359.csv",
+      "source_combined": "data/combined/Combined_tiktok_20260709_023359.csv",
+      "source_analyzed": "data/combined/Combined_tiktok_20260709_023359.csv",
+      "platforms": [
+        "tiktok"
+      ],
+      "query": "2 post URLs (https://www.tiktok.com/@awanganakjeram…)",
+      "date_range": "30days",
+      "rows": 51,
+      "saved_at": "2026-07-09T02:33:59.343235"
+    },
+    {
+      "id": "prn_johor_social_20260709_055350",
+      "file": "crawls/prn_johor_social_20260709_055350.csv",
+      "source_combined": "data/combined/Combined_facebook_tiktok_x_20260709_055350.csv",
+      "source_analyzed": "data/combined/Combined_facebook_tiktok_x_20260709_055350.csv",
+      "platforms": [
+        "facebook",
+        "x",
+        "tiktok"
+      ],
+      "query": "(\"Khirul Muntanazar\" OR \"Tiram\") (\"N40 Tiram\" OR \"PRN Johor\")",
+      "date_range": "30days",
+      "rows": 319,
+      "saved_at": "2026-07-09T05:53:50.702148"
+    }
+  ],
+  "masters": [],
+  "updated_at": "2026-07-09T05:53:50.702284"
+}

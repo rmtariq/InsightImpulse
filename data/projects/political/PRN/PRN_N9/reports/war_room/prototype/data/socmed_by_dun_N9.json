@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "state": "N9",
+    "generated": "2026-07-15 01:54:30",
+    "master_source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260702_153626.csv",
+    "state_rows_scanned": 1386,
+    "window_end_utc": "2026-06-21T13:02:21+00:00",
+    "headline_max_age_days": 90,
+    "window_24h_note": "24j = 24 jam sebelum tarikh crawl terakhir dalam master"
+  },
+  "byDun": {
+    "N01": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−52pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N02": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 25.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−71pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 585,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N03": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 33.3
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−85pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…njadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah.…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N04": {
+      "mentions_total": 5,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 20.0,
+      "pos_pct": 0.0,
+      "neu_pct": 80.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 80.0,
+        "menentang": 20.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 20.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−68pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 757,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 2,
+        "youtube": 1,
+        "facebook": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…geri Sembilan: Bakri tidak berhasrat pertahan DUN Klawang #BHnasional Namun Bakri akur jika pucuk pimpinan mahu beliau terus mempertahankan kerusi dimenangi sej…",
+      "top_snippet_date": "2026-06-06T05:20:52+00:00"
+    },
+    "N05": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 16.7
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−80pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Pekerjaan & ekonomi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…kum Wbt dan Salam sejahtera kepada seluruh rakyat Serting yang dikasihi sekalian. Alhamdulillah, pada detik ini, angin perpisahan membawa saya ke helaian baru y…",
+      "top_snippet_date": "2026-06-04T22:41:06+00:00"
+    },
+    "N06": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−93pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N07": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 33.3,
+      "neu_pct": 66.7,
+      "lean": {
+        "sokong": 33.3,
+        "atas_pagar": 66.7,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 33.3,
+        "happy": 16.7,
+        "fear": 16.7
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−58pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 2
+        },
+        {
+          "issue": "Pekerjaan & ekonomi",
+          "mentions": 1
+        },
+        {
+          "issue": "Pendidikan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 464,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "facebook": 2,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N08": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 50.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−32pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N09": {
+      "mentions_total": 10,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 10.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−80pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 3
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        },
+        {
+          "issue": "Pelancongan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 823,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 3,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…media rasmi Ahmad Shuaib Bin Ismail Umno cawangan Lenggeng Bandaraya Seremban luak Sungai ujong n9 8-6-2026 Kebangkitan Minang kabau hapuskan PKR Anwar Ibrahim…",
+      "top_snippet_date": "2026-06-08T12:47:34+00:00"
+    },
+    "N10": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−49pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N11": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Profil naratif socmed selari dengan demografi pengundi (DPI)",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N12": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−42pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N13": {
+      "mentions_total": 10,
+      "mentions_24h": 1,
+      "mentions_7d": 5,
+      "neg_pct": 0.0,
+      "pos_pct": 10.0,
+      "neu_pct": 90.0,
+      "lean": {
+        "sokong": 10.0,
+        "atas_pagar": 90.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 10.0,
+        "happy": 10.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 90.0,
+        "malay": 10.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−63pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        },
+        {
+          "issue": "Pelancongan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 15379,
+      "engagement_24h": 12539,
+      "platforms": {
+        "x": 4,
+        "facebook": 4,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "Berbaju Melayu putih, calon PN DUN Sikamat, Ahmad Raihan Muhamad Hilal tiba pada pukul 8.52 pagi di Dewan Komuniti Corul Heights bagi proses penamaan calon. Ahm…",
+      "top_snippet_date": "2026-06-20T14:55:55.832291+00:00"
+    },
+    "N14": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 25.0,
+      "neu_pct": 75.0,
+      "lean": {
+        "sokong": 25.0,
+        "atas_pagar": 75.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 25.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 75.0,
+        "malay": 25.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−51pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        },
+        {
+          "issue": "Kesihatan",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 547,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ijangka menjadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat da…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N15": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 25.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−83pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Pertanian & Felda",
+          "mentions": 1
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…an yang dijangka menjadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; S…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N16": {
+      "mentions_total": 16,
+      "mentions_24h": 1,
+      "mentions_7d": 4,
+      "neg_pct": 6.2,
+      "pos_pct": 18.8,
+      "neu_pct": 75.0,
+      "lean": {
+        "sokong": 18.8,
+        "atas_pagar": 75.0,
+        "menentang": 6.2
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "love": 12.5,
+        "fear": 6.2,
+        "happy": 6.2
+      },
+      "emotion_top": "love",
+      "demo_mix": {
+        "unknown": 93.8,
+        "malay": 6.2
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−89pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 6.2,
+      "top_issues": [
+        {
+          "issue": "Agama & institusi",
+          "mentions": 9
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 7
+        },
+        {
+          "issue": "Rasuah & tadbir urus",
+          "mentions": 4
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 29234,
+      "engagement_24h": 3950,
+      "platforms": {
+        "tiktok": 5,
+        "x": 5,
+        "facebook": 4,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…dat yang diadakan di Balairong Seri, Istana Besar Seri Menanti pada Khamis. #SinarHarian #BeritaTerkini #60Saat #TunkuZain #NegeriSembilan #Istana",
+      "top_snippet_date": "2026-06-11T16:35:59.454896+00:00"
+    },
+    "N17": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 33.3
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−82pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…gan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah. Pada PRN ke-15 yang lalu, DUN Juasseh dimena…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N18": {
+      "mentions_total": 8,
+      "mentions_24h": 1,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 12.5
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−67pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Agama & institusi",
+          "mentions": 2
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 28262,
+      "engagement_24h": 3950,
+      "platforms": {
+        "x": 4,
+        "youtube": 2,
+        "news": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…adisi yang diadakan di Istana Besar Seri Menanti, Kuala Pilah, Negeri Sembilan pada 29 Oktober 2009. Istiadat ini dimulakan dengan keberangkatan masuk DYMM Tuan…",
+      "top_snippet_date": "2026-06-20T13:23:16.044477+00:00"
+    },
+    "N19": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 16.7
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−79pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 16.7,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 3
+        },
+        {
+          "issue": "Rasuah & tadbir urus",
+          "mentions": 2
+        },
+        {
+          "issue": "Agama & institusi",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 975,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…si yang dibuat secara sendiri memecat undang luak johol telah ditolak keras oleh 3 ahli DKU iaitu Undang Johol, Tunku Besar Tampin dan Dato Syahbandar Sungei Uj…",
+      "top_snippet_date": "2026-06-06T23:50:53+00:00"
+    },
+    "N20": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 0.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 0.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Tiada data",
+      "emotion": {},
+      "emotion_top": null,
+      "demo_mix": {},
+      "demo_top": null,
+      "demo_insight": null,
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Tiada",
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N21": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 50.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−30pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N22": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−33pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N23": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−15pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N24": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−27pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N25": {
+      "mentions_total": 10,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 30.0,
+      "neu_pct": 70.0,
+      "lean": {
+        "sokong": 30.0,
+        "atas_pagar": 70.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "happy": 20.0,
+        "love": 10.0,
+        "fear": 10.0
+      },
+      "emotion_top": "happy",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−80pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 2
+        },
+        {
+          "issue": "Pekerjaan & ekonomi",
+          "mentions": 1
+        },
+        {
+          "issue": "Utiliti & internet",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 1141,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "news": 2,
+        "facebook": 2,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah. Pada PRN ke-15 yang lalu, DUN Juasseh dimenangi oleh Datin Seri Bibi Sharliza Mohd…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N26": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−84pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N27": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−58pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N28": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 50.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−89pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 357,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N29": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−25pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N30": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 50.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−26pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 129,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N31": {
+      "mentions_total": 13,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 7.7,
+      "neu_pct": 92.3,
+      "lean": {
+        "sokong": 7.7,
+        "atas_pagar": 92.3,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 7.7,
+        "happy": 7.7
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−79pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [
+        {
+          "issue": "Pelancongan",
+          "mentions": 3
+        },
+        {
+          "issue": "Jalan & pengangkutan",
+          "mentions": 1
+        },
+        {
+          "issue": "Perpaduan kaum",
+          "mentions": 1
+        }
+      ],
+      "confidence": "Sederhana",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 6453,
+      "engagement_24h": 0,
+      "platforms": {
+        "youtube": 5,
+        "x": 3,
+        "tiktok": 3,
+        "facebook": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "…itu lah aku jumpa balik dengan beliau Sewaktu PRK Bagan Pinang calon PAS Allahyarham Zulkifli Omar 2013 beliau hampir dicalonkan untuk bertanding di Chembong ta…",
+      "top_snippet_date": "2026-06-20T10:50:20.018383+00:00"
+    },
+    "N32": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 3,
+      "neg_pct": 16.7,
+      "pos_pct": 0.0,
+      "neu_pct": 83.3,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 83.3,
+        "menentang": 16.7
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 16.7,
+        "love": 16.7
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 83.3,
+        "malay": 16.7
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−48pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 1504,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "facebook": 2,
+        "instagram": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "…ERI SEMBILAN Spekulasi Aminuddin Berpindah Ke DUN Linggi Semakin Hangat SEREMBAN: Spekulasi mengenai kedudukan Menteri Besar Negeri Sembilan, Datuk Seri Aminudd…",
+      "top_snippet_date": "2026-06-15T02:56:21+00:00"
+    },
+    "N33": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−42pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N34": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 33.3
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−85pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 233,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N35": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−63pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N36": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "neu_pct": 100.0,
+      "lean": {
+        "sokong": 0.0,
+        "atas_pagar": 100.0,
+        "menentang": 0.0
+      },
+      "lean_label": "Majoriti Atas Pagar",
+      "emotion": {
+        "fear": 100.0
+      },
+      "emotion_top": "fear",
+      "demo_mix": {
+        "unknown": 100.0
+      },
+      "demo_top": "unknown",
+      "demo_insight": "Naratif socmed kurang Melayu (−42pp vs DPI) — campuran/unknown dominan",
+      "narrative_split_pct": 0.0,
+      "top_issues": [],
+      "confidence": "Rendah",
+      "sentiment_labeled_pct": 100.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    }
+  },
+  "rollup": {
+    "mentions_total_state": 1386,
+    "seats_with_mentions": 35,
+    "seats_with_recent_headline": 14,
+    "top_seats_24h": [
+      [
+        "N13",
+        1
+      ],
+      [
+        "N16",
+        1
+      ],
+      [
+        "N18",
+        1
+      ]
+    ],
+    "state_lean": {
+      "sokong": 9.1,
+      "atas_pagar": 75.8,
+      "menentang": 15.2
+    },
+    "state_emotion": {
+      "love": 6.5,
+      "happy": 5.1,
+      "anger": 4.4,
+      "fear": 2.3,
+      "sadness": 2.2,
+      "surprise": 0.6
+    },
+    "state_demo": {
+      "unknown": 92.7,
+      "malay": 4.0,
+      "urban": 3.3
+    },
+    "top_issues_state": [
+      {
+        "issue": "Perpaduan kaum",
+        "mentions": 196
+      },
+      {
+        "issue": "Agama & institusi",
+        "mentions": 82
+      },
+      {
+        "issue": "Pekerjaan & ekonomi",
+        "mentions": 40
+      },
+      {
+        "issue": "Pelancongan",
+        "mentions": 38
+      },
+      {
+        "issue": "Pendidikan",
+        "mentions": 35
+      },
+      {
+        "issue": "Rasuah & tadbir urus",
+        "mentions": 20
+      },
+      {
+        "issue": "Jalan & pengangkutan",
+        "mentions": 18
+      },
+      {
+        "issue": "Kos sara hidup",
+        "mentions": 14
+      }
+    ]
+  }
+}

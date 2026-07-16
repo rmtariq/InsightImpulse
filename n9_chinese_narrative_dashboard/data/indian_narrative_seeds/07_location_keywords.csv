@@ -1,0 +1,25 @@
+﻿state,district_or_cluster,search_aliases,state_aliases,use_for,verification_status,verified_on
+Negeri Sembilan,Seremban,Seremban|Sban|Seremban 2|S2|Ampangan|Senawang|Rasah|Rahang|Lobak,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Port Dickson,Port Dickson|PD|Lukut|Teluk Kemang|Si Rusa,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Nilai,Nilai|Bandar Baru Nilai|Mantin|Pajam|Labu,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Jempol,Jempol|Bandar Seri Jempol|Bahau|Kuala Klawang|Palong,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Tampin,Tampin|Gemas|Gemencheh,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Kuala Pilah,Kuala Pilah|Juasseh|Senaling,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Rembau,Rembau|Pedas|Kota,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Negeri Sembilan,Jelebu,Jelebu|Kuala Klawang|Pertang,N9|NS|Negri Sembilan,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Melaka,Melaka Tengah,Melaka Tengah|Bandar Melaka|Malacca City|Kubu|Bachang|Batu Berendam|Ayer Keroh|Bukit Beruang|Gajah Berang|Kampung Chetti,Melaka|Malacca,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Melaka,Alor Gajah,Alor Gajah|Masjid Tanah|Sungai Udang|Durian Tunggal|Pulau Sebang|Tampin Melaka,Melaka|Malacca,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Melaka,Jasin,Jasin|Merlimau|Bemban|Selandar|Asahan|Sungai Rambai,Melaka|Malacca,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Melaka,Hang Tuah Jaya,Hang Tuah Jaya|Ayer Keroh|Bukit Katil|Batu Berendam,Melaka|Malacca,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Johor Bahru,Johor Bahru|JB|Tebrau|Larkin|Kempas|Permas Jaya|Masai|Plentong,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Iskandar Puteri,Iskandar Puteri|Nusajaya|Gelang Patah|Skudai|Ulu Tiram,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Pasir Gudang,Pasir Gudang|Masai|Taman Rinting|Kota Masai,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Kulai,Kulai|Senai|Sedenak|Saleng,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Kluang,Kluang|Renggam|Layang-Layang|Paloh|Simpang Renggam,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Batu Pahat,Batu Pahat|BP|Yong Peng|Ayer Hitam|Parit Raja|Sri Gading,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Muar,Muar|Bandar Maharani|Bakri|Pagoh|Parit Jawa,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Tangkak,Tangkak|Ledang|Bukit Gambir|Sungai Mati,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Segamat,Segamat|Labis|Jementah|Chaah|Buloh Kasap,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Pontian,Pontian|Pekan Nanas|Benut|Kukup,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Kota Tinggi,Kota Tinggi|Pengerang|Bandar Penawar|Desaru,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16
+Johor,Mersing,Mersing|Endau|Jemaluang,Johor|Johore,"Search query, mentioned-location NER, hashtag matching and map aggregation",curated_seed,2026-06-16

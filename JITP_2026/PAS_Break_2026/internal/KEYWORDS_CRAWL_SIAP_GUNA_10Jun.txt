@@ -1,0 +1,130 @@
+═══════════════════════════════════════════════════════════════════
+InsightPulse — KEYWORDS SIAP GUNA (COPY & PASTE)
+Fasa 1: Impak PAS–Bersatu · PRN Johor/Melaka/NS
+Tarikh crawl: 10 Jun 2026 · Mula: 5:00–6:00 PM
+═══════════════════════════════════════════════════════════════════
+
+SETTING UI (SAMA UNTUK SEMUA SESI):
+  • Dataset size: 500
+  • Date range: Last 7 days
+  • Analysis: Sentiment + Emotion ON
+  • Jangan guna keyword terlalu panjang — 1 query per sesi
+
+───────────────────────────────────────────────────────────────────
+PLATFORM — PILIH MENGIKUT SESI (rujuk bawah)
+───────────────────────────────────────────────────────────────────
+  ✅ Facebook    — pengundi Melayu, komen panjang, PAS kuat
+  ✅ X (Twitter) — breaking news, media, politik elite
+  ✅ TikTok      — viral, muda, video reaction
+  ✅ Google News — headline & framing media rasmi
+  ⚡ Instagram   — optional (leaders, poster kempen)
+  ⚡ YouTube      — optional (ceramah — crawl lambat)
+  ❌ LinkedIn     — skip (kurang data politik BM)
+
+───────────────────────────────────────────────────────────────────
+CRAWL A · 5:00 PM · Perpisahan rasmi
+Platform: Facebook, X, Google News
+───────────────────────────────────────────────────────────────────
+PAS putus Bersatu OR PAS Bersatu berpisah OR Perikatan Nasional retak OR PN retak OR hubungan PAS Bersatu tamat
+
+───────────────────────────────────────────────────────────────────
+CRAWL B · 5:20 PM · Penyatuan ummah / khianat
+Platform: Facebook, X, TikTok
+───────────────────────────────────────────────────────────────────
+penyatuan ummah OR perpaduan Melayu OR PAS khianat OR Bersatu khianat OR ummah berpecah OR pengkhianat ummah
+
+───────────────────────────────────────────────────────────────────
+CRAWL C · 5:40 PM · PAS solo / bertindih kerusi
+Platform: Facebook, X
+───────────────────────────────────────────────────────────────────
+PAS solo OR PAS bergerak solo OR Bersatu tanding sendiri OR bertindih kerusi OR pecah undi OR dua logo
+
+───────────────────────────────────────────────────────────────────
+CRAWL D · 6:00 PM · Pimpinan & reaksi pemimpin
+Platform: X, Google News, Facebook
+───────────────────────────────────────────────────────────────────
+Abdul Hadi Awang Bersatu OR Muhyiddin Yassin PAS OR Takiyuddin Kamaruddin PN OR Ahmad Samsuri PAS OR Ahmad Fadhli Shaari PAS
+
+───────────────────────────────────────────────────────────────────
+CRAWL E · 6:20 PM · PRN Johor
+Platform: Facebook, X, TikTok
+───────────────────────────────────────────────────────────────────
+PRN Johor OR pilihanraya Johor OR DUN Johor OR PAS Johor OR Bersatu Johor OR PN Johor
+
+───────────────────────────────────────────────────────────────────
+CRAWL F · 6:40 PM · Melaka bertindih DUN
+Platform: Facebook, X
+───────────────────────────────────────────────────────────────────
+PRN Melaka OR DUN Melaka OR PAS Melaka OR Bersatu Melaka OR bertindih kerusi Melaka
+
+───────────────────────────────────────────────────────────────────
+CRAWL G · 7:00 PM · Negeri Sembilan — isu & plot
+Platform: Google News, X, Facebook
+───────────────────────────────────────────────────────────────────
+Negeri Sembilan PAS OR Negeri Sembilan Bersatu OR Aminuddin Harun OR plot SD Perikatan OR Seremban politik
+
+───────────────────────────────────────────────────────────────────
+CRAWL G2 · 7:15 PM · NS — SOLO vs MN vs PN (PENTING EXCO NS)
+Platform: Facebook, X, Google News
+───────────────────────────────────────────────────────────────────
+PAS Negeri Sembilan solo OR PAS NS Muafakat Nasional OR PAS NS Perikatan Nasional OR PAS NS gerak solo OR MN Negeri Sembilan OR PAS UMNO Negeri Sembilan
+
+Nota EXCO NS: Crawl ini khusus jawab — PAS di NS pergi solo, MN, kekal PN, atau kerjasama lain?
+
+───────────────────────────────────────────────────────────────────
+CRAWL G3 · 7:30 PM · NS — komuniti & kelebihan PAS (Melayu/Islam/Cina/India)
+Platform: Facebook, X
+───────────────────────────────────────────────────────────────────
+PAS Negeri Sembilan OR Islam Negeri Sembilan OR masyarakat Cina Negeri Sembilan OR masyarakat India Negeri Sembilan OR Seremban OR Port Dickson OR Jelebu OR Rembau
+
+Nota: Demografi = proxy dari bahasa (BM/EN/Mandarin/Tamil) + topik post — bukan census rasmi.
+
+───────────────────────────────────────────────────────────────────
+CRAWL H · 7:20 PM · (OPTIONAL) Influencer & media politik
+Platform: X, TikTok, Facebook
+───────────────────────────────────────────────────────────────────
+Keyword (pilih SATU query pendek):
+  MQA OR Meeracle OR Kopi Panas OR Ruang Bicara PAS
+ATAU:
+  influencer politik Malaysia PAS OR akaun pro PAS OR akaun pro Bersatu
+
+Nota: Influencer exact name kurang consistent — Crawl H optional jika masa ketat.
+
+═══════════════════════════════════════════════════════════════════
+CRAWL DIRECT URL — PIMPINAN & AKAUN RASMI (OPTIONAL · Crawl I)
+Mode UI: "Direct URL" (bukan keyword)
+Platform: Facebook, X, Instagram (ikut URL)
+Dataset: 200–300 per URL batch
+═══════════════════════════════════════════════════════════════════
+
+Salin URL ke field Direct URLs (satu per line jika UI support, atau batch):
+
+PARTI RASMI:
+  https://www.facebook.com/PASMalaysia
+  https://www.facebook.com/bersatuofficial
+  https://x.com/pasmy_
+  https://x.com/bersatu_OFFICIAL
+
+PIMPINAN (FB/X pages — verify URL masih aktif sebelum crawl):
+  https://www.facebook.com/abdhadiabdulhadi
+  https://x.com/abdulhadiawang
+
+NEGERI (Johor):
+  https://www.facebook.com/PASJohor
+  https://www.facebook.com/pasjohor  (dua variant — cuba yang live)
+
+Tips Direct URL:
+  • 1 crawl = max 3–5 URLs (elak timeout)
+  • Boleh buat Crawl I1 (PAS pages) + I2 (Bersatu pages) berasingan
+  • Hasil merge dengan Crawl A–H
+
+═══════════════════════════════════════════════════════════════════
+CHECKLIST SELEPAS CRAWL (10–11 Jun)
+═══════════════════════════════════════════════════════════════════
+  □ 7–9 fail CSV dalam data/smart_crawlers/
+  □ Merge → PAS_Break_Master_YYYYMMDD.csv
+  □ Dedup Platform + ID
+  □ Target: 3,000–4,500 rekod unik
+  □ Bagitahu pasukan analisis — proses insight 10–11 Jun
+
+═══════════════════════════════════════════════════════════════════

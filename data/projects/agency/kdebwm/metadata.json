@@ -1,0 +1,30 @@
+{
+  "project_id": "kdebwm",
+  "name": "KDEBWM Complaint Monitoring",
+  "category": "agency",
+  "client": "KDEBWM",
+  "keywords": [
+    "KDEBWM",
+    "complaint",
+    "DBKL"
+  ],
+  "crawls": [
+    {
+      "id": "kdebwm_master",
+      "label": "KDEBWM combined all platforms",
+      "rows": 2919,
+      "file": "master/KDEBWM_Master_20260608.csv",
+      "migrated_at": "2026-06-10"
+    }
+  ],
+  "masters": [
+    {
+      "file": "master/KDEBWM_Master_20260608.csv",
+      "rows": 2919,
+      "saved_at": "2026-06-10T22:12:26.851282",
+      "note": "migrated"
+    }
+  ],
+  "updated_at": "2026-06-10T22:12:26.851466",
+  "latest_master": "master/KDEBWM_Master_20260608.csv"
+}

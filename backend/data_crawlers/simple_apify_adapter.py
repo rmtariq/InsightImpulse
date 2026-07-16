@@ -22,12 +22,49 @@ import requests
 
 logger = logging.getLogger(__name__)
 
+# Auto-split profile/page direct URL crawls to avoid TikTok anti-bot and FB timeouts.
+PROFILE_BATCH_SIZES: Dict[str, int] = {
+    "tiktok": 3,
+    "facebook": 4,
+    "instagram": 4,
+}
+
+
+def _chunk_urls(urls: List[str], size: int):
+    """Yield URL sublists of at most ``size`` items."""
+    if size < 1:
+        size = 1
+    for i in range(0, len(urls), size):
+        yield urls[i : i + size]
+
+
+def _apify_run_id(run: Any) -> str:
+    if run is None:
+        return ""
+    if isinstance(run, dict):
+        return str(run.get("id") or "")
+    return str(getattr(run, "id", "") or "")
+
+
+def _apify_run_dataset_id(run: Any) -> str | None:
+    if run is None:
+        return None
+    if isinstance(run, dict):
+        return run.get("defaultDatasetId")
+    return getattr(run, "default_dataset_id", None) or getattr(run, "defaultDatasetId", None)
+
+
 try:
     from backend.utils.crawl_records import (
         normalize_crawl_date,
         flatten_crawl_records,
         fasa2_post_cap,
         effective_comments_per_post,
+        is_direct_post_url,
+        dedupe_crawl_records,
+        merge_crawl_records,
+        multipass_plan,
+        crawl_record_key,
     )
 except ImportError:
     from utils.crawl_records import (
@@ -35,7 +72,18 @@ except ImportError:
         flatten_crawl_records,
         fasa2_post_cap,
         effective_comments_per_post,
+        is_direct_post_url,
+        dedupe_crawl_records,
+        merge_crawl_records,
+        multipass_plan,
+        crawl_record_key,
     )
+
+FB_COMMENT_MULTIPASS_VIEWS = (
+    "RANKED_UNFILTERED",
+    "RANKED_THREADED",
+    "RECENT_ACTIVITY",
+)
 
 # Import AI Keyword Generator
 try:
@@ -411,6 +459,7 @@ class SimpleApifyAdapter:
 
         comments_per_item = _int(
             actor_input.get('commentsPerPost')
+            or actor_input.get('resultsLimit')
             or actor_input.get('maxComments')
             or actor_input.get('maxPostComments')
             or actor_input.get('max_replies')
@@ -618,6 +667,329 @@ class SimpleApifyAdapter:
         logger.info(f"✅ Apify Token: {'✓ Configured' if self.apify_token else '✗ Missing'}")
         logger.info(f"✅ SerpAPI Key: {'✓ Configured' if self.serpapi_key else '✗ Missing'}")
     
+    def _prepare_facebook_comments_actor_input(
+        self,
+        urls: List[str],
+        results_limit: int,
+        *,
+        include_nested: bool = True,
+        view_option: str = "RANKED_UNFILTERED",
+    ) -> Dict[str, Any]:
+        """Input schema for apify/facebook-comments-scraper (uses resultsLimit, not maxComments)."""
+        limit = max(1, min(int(results_limit or 100), 1000))
+        return {
+            "startUrls": [{"url": u} for u in urls],
+            "resultsLimit": limit,
+            "includeNestedComments": include_nested,
+            "viewOption": view_option,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY",
+            },
+        }
+
+    def _comment_budget_for_post(
+        self,
+        meta_count: int,
+        comments_per_post: int,
+        *,
+        cap: int = 1000,
+        floor: int = 25,
+    ) -> int:
+        """Per-post comment/reply budget from FB/IG metadata when available."""
+        target = meta_count if meta_count > 0 else comments_per_post
+        return max(floor, min(comments_per_post, target, cap))
+
+    def _prepare_instagram_comments_actor_input(
+        self,
+        urls: List[str],
+        results_limit: int,
+        *,
+        include_nested: bool = True,
+    ) -> Dict[str, Any]:
+        """apify/instagram-comment-scraper — resultsLimit per URL (not maxComments)."""
+        limit = max(1, min(int(results_limit or 50), 500))
+        return {
+            "directUrls": urls,
+            "resultsLimit": limit,
+            "includeNestedComments": include_nested,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY",
+            },
+        }
+
+    def _prepare_youtube_comments_actor_input(
+        self,
+        urls: List[str],
+        max_items: int,
+        *,
+        include_replies: bool = True,
+        sort: str = "top",
+    ) -> Dict[str, Any]:
+        """apidojo/youtube-comments-scraper — maxItems per video URL."""
+        cleaned: List[str] = []
+        for url in urls:
+            if "youtube.com/watch?v=" in url:
+                vid = url.split("v=")[1].split("&")[0]
+                cleaned.append(f"https://www.youtube.com/watch?v={vid}")
+            elif "youtu.be/" in url:
+                vid = url.split("youtu.be/")[1].split("?")[0]
+                cleaned.append(f"https://www.youtube.com/watch?v={vid}")
+            else:
+                cleaned.append(url)
+        limit = max(1, min(int(max_items or 50), 1000))
+        return {
+            "startUrls": cleaned,
+            "maxItems": limit,
+            "includeReplies": include_replies,
+            "sort": sort,
+        }
+
+    def _prepare_x_replies_actor_input(
+        self,
+        urls: List[str],
+        results_limit: int,
+    ) -> Dict[str, Any]:
+        """scraper_one/x-post-replies-scraper — resultsLimit per post (not maxRepliesPerPost)."""
+        limit = max(1, min(int(results_limit or 50), 500))
+        return {
+            "postUrls": urls,
+            "resultsLimit": limit,
+            "proxy": {
+                "useApifyProxy": True,
+                "apifyProxyGroups": ["RESIDENTIAL"],
+                "apifyProxyCountry": "MY",
+            },
+        }
+
+    def _prepare_tiktok_comments_actor_input(
+        self,
+        urls: List[str],
+        comments_per_post: int,
+        *,
+        max_replies: int = 20,
+    ) -> Dict[str, Any]:
+        """clockworks/tiktok-comments-scraper — full post comment depth."""
+        videos = [u for u in urls if "/video/" in u.lower()]
+        limit = max(1, min(int(comments_per_post or 50), 500))
+        return {
+            "postURLs": videos or urls,
+            "commentsPerPost": limit,
+            "maxRepliesPerComment": max_replies,
+            "proxyCountryCode": "MY",
+        }
+
+    def _prepare_comments_actor_input(
+        self,
+        platform: str,
+        urls: List[str],
+        budget: int,
+        *,
+        direct_post_mode: bool = False,
+        view_option: str = "RANKED_UNFILTERED",
+        include_nested: Optional[bool] = None,
+    ) -> Dict[str, Any]:
+        """Build Fasa-2 comment actor input with each platform's correct schema."""
+        platform = platform.lower()
+        if platform == "facebook":
+            return self._prepare_facebook_comments_actor_input(
+                urls,
+                budget,
+                include_nested=True if include_nested is None else include_nested,
+                view_option=view_option,
+            )
+        if platform == "instagram":
+            return self._prepare_instagram_comments_actor_input(
+                urls, budget, include_nested=direct_post_mode
+            )
+        if platform == "youtube":
+            return self._prepare_youtube_comments_actor_input(
+                urls, budget, include_replies=True
+            )
+        if platform in ("x", "twitter"):
+            return self._prepare_x_replies_actor_input(urls, budget)
+        if platform == "tiktok":
+            return self._prepare_tiktok_comments_actor_input(
+                urls, budget, max_replies=20 if direct_post_mode else 5
+            )
+        raise ValueError(f"No comment actor input schema for platform: {platform}")
+
+    async def _run_multipass_facebook_comments(
+        self,
+        post_url: str,
+        *,
+        comment_target: int,
+        comments_per_post: int,
+        include_nested: bool = True,
+        multipass: bool = True,
+        existing_comments: Optional[List[Dict]] = None,
+    ) -> tuple[List[Dict], Dict[str, Any]]:
+        """
+        Run multiple Apify comment passes with different viewOption.
+        Each pass merges only NEW rows — no duplicates.
+        """
+        actor_id = self.comments_actor_map.get("facebook", "apify/facebook-comments-scraper")
+        per_pass = 1000
+        target = max(50, int(comment_target or comments_per_post or per_pass))
+        passes = multipass_plan(target, per_pass=per_pass, max_passes=len(FB_COMMENT_MULTIPASS_VIEWS)) if multipass else 1
+
+        accumulated: List[Dict] = list(existing_comments or [])
+        stats = {
+            "target_comments": target,
+            "passes_planned": passes,
+            "passes_run": 0,
+            "added_total": 0,
+            "duplicates_skipped": 0,
+            "pass_details": [],
+        }
+
+        for pass_idx in range(passes):
+            unique_comments = [r for r in accumulated if (r.get("Type") or "").lower() == "comment"]
+            if len(unique_comments) >= target:
+                break
+
+            remaining = target - len(unique_comments)
+            budget = min(per_pass, max(100, remaining))
+            view = FB_COMMENT_MULTIPASS_VIEWS[pass_idx % len(FB_COMMENT_MULTIPASS_VIEWS)]
+            run_input = self._prepare_facebook_comments_actor_input(
+                [post_url],
+                budget,
+                include_nested=include_nested,
+                view_option=view,
+            )
+            logger.info(
+                f"   🔄 Multi-pass {pass_idx + 1}/{passes} [{view}] "
+                f"budget={budget} unique_so_far={len(unique_comments)}"
+            )
+            try:
+                raw = await self._run_apify_actor(actor_id, run_input, platform="facebook")
+                transformed = self._transform_results("facebook", raw, budget)
+            except Exception as err:
+                logger.error(f"❌ Multi-pass {pass_idx + 1} failed: {err}")
+                stats["pass_details"].append(
+                    {"pass": pass_idx + 1, "view": view, "error": str(err), "added": 0}
+                )
+                continue
+
+            accumulated, added, skipped = merge_crawl_records(accumulated, transformed)
+            stats["passes_run"] += 1
+            stats["added_total"] += added
+            stats["duplicates_skipped"] += skipped
+            stats["pass_details"].append(
+                {
+                    "pass": pass_idx + 1,
+                    "view": view,
+                    "retrieved": len(transformed),
+                    "added": added,
+                    "skipped_duplicates": skipped,
+                }
+            )
+            logger.info(
+                f"   ✅ Pass {pass_idx + 1}: +{added} new, {skipped} dupes skipped, "
+                f"total unique rows={len(accumulated)}"
+            )
+            if added == 0:
+                logger.info("   ⏹ No new comments on this pass — stopping multi-pass early")
+                break
+
+        stats["unique_comments"] = sum(
+            1 for r in accumulated if (r.get("Type") or "").lower() == "comment"
+        )
+        return accumulated, stats
+
+    async def _run_direct_post_comment_jobs(
+        self,
+        platform: str,
+        actor_id: str,
+        posts: List[Dict],
+        post_urls: List[str],
+        comments_per_post: int,
+        *,
+        comment_target_per_post: Optional[int] = None,
+        multipass_comments: bool = True,
+        include_nested_comments: bool = True,
+        existing_flat: Optional[List[Dict]] = None,
+    ) -> tuple[List[Dict], Dict[str, Any]]:
+        """Post URL Batch: one Apify comment job per post URL (all platforms)."""
+        url_meta: Dict[str, int] = {}
+        for post in posts:
+            u = post.get("URL") or post.get("url") or post.get("Post_URL")
+            if u:
+                url_meta[str(u)] = int(post.get("comments_count") or post.get("Comments") or 0)
+
+        cap = fasa2_post_cap(platform, len(post_urls))
+        targets = post_urls[:cap]
+        merge_stats: Dict[str, Any] = {"posts": len(targets), "multipass": multipass_comments}
+
+        logger.info(
+            f"📌 Direct Post mode [{platform}]: {len(targets)} separate comment jobs "
+            f"(target {comment_target_per_post or comments_per_post}/post, dedupe ON)"
+        )
+
+        all_records: List[Dict] = list(existing_flat or [])
+        total_added = 0
+        total_skipped = 0
+
+        for idx, url in enumerate(targets, 1):
+            meta = url_meta.get(url, 0)
+            target = comment_target_per_post or comments_per_post
+            if platform == "facebook" and (multipass_comments or (target and target > 1000)):
+                existing_for_url = [
+                    r for r in all_records
+                    if url in str(r.get("Parent_Post_URL") or r.get("URL") or "")
+                    or str(r.get("URL") or "").startswith(url.split("?")[0][:40])
+                ]
+                merged, pass_stats = await self._run_multipass_facebook_comments(
+                    url,
+                    comment_target=target,
+                    comments_per_post=comments_per_post,
+                    include_nested=include_nested_comments,
+                    multipass=multipass_comments,
+                    existing_comments=existing_for_url,
+                )
+                all_records, added, skipped = merge_crawl_records(all_records, merged)
+                total_added += added
+                total_skipped += skipped
+                merge_stats[f"post_{idx}"] = pass_stats
+                logger.info(
+                    f"   Job {idx}/{len(targets)} multipass done: +{added} new, "
+                    f"{skipped} dupes skipped"
+                )
+                continue
+
+            budget = self._comment_budget_for_post(meta, comments_per_post)
+            run_input = self._prepare_comments_actor_input(
+                platform,
+                [url],
+                budget,
+                direct_post_mode=True,
+                include_nested=include_nested_comments,
+            )
+            logger.info(
+                f"   Job {idx}/{len(targets)} [{platform}]: budget={budget} "
+                f"(platform shows {meta}) — {url[:72]}..."
+            )
+            try:
+                raw = await self._run_apify_actor(actor_id, run_input, platform=platform)
+                transformed = self._transform_results(platform, raw, budget)
+                all_records, added, skipped = merge_crawl_records(all_records, transformed)
+                total_added += added
+                total_skipped += skipped
+                logger.info(
+                    f"   Job {idx}/{len(targets)} retrieved {len(transformed)} rows "
+                    f"(+{added} new, {skipped} dupes skipped)"
+                )
+            except Exception as job_err:
+                logger.error(f"❌ [{platform}] comment job {idx}/{len(targets)} failed: {job_err}")
+
+        merge_stats["added_total"] = total_added
+        merge_stats["duplicates_skipped"] = total_skipped
+        merge_stats["unique_rows"] = len(all_records)
+        return all_records, merge_stats
+
     def _prepare_facebook_input(self, query: str, max_results: int, max_comments: int = 50, comment_sort: str = "top") -> Dict[str, Any]:
         """
         Prepare input for Facebook Search Actor (danek/facebook-search-ppr)
@@ -637,7 +1009,7 @@ class SimpleApifyAdapter:
         scroll_timeout = max(300, min(adjusted_max_posts * 5, 1800))
 
         input_data = {
-            "query": query,
+            "query": self._simplify_facebook_query(query),
             "search_type": "posts",
             "max_posts": adjusted_max_posts,
             "language": "ms",
@@ -1007,6 +1379,16 @@ class SimpleApifyAdapter:
 
             logger.info(f"🧵 Step 2/3: Preparing {len(post_urls)} post URLs for comment fetching...")
 
+            # Cost guard — deep-reply only top N posts (Threads is slow/expensive)
+            try:
+                from backend.data_crawlers.crawl_guard import THREADS_REPLY_POST_CAP
+            except ImportError:
+                from crawl_guard import THREADS_REPLY_POST_CAP
+            cap = min(fasa2_post_cap("threads", len(post_urls)), THREADS_REPLY_POST_CAP)
+            if len(post_urls) > cap:
+                logger.info(f"🛡️ Threads reply cap: {cap}/{len(post_urls)} posts (cost guard)")
+                post_urls = post_urls[:cap]
+
             # Step 2: Split URLs into batches of 20 (actor limit)
             BATCH_SIZE = 20
             url_batches = [post_urls[i:i + BATCH_SIZE] for i in range(0, len(post_urls), BATCH_SIZE)]
@@ -1231,16 +1613,23 @@ class SimpleApifyAdapter:
                 actor_input=actor_input,
             )
 
-            # Run the actor using official client
-            run = self.client.actor(actor_id).call(
-                run_input=actor_input,
-                timeout_secs=timeout_seconds
-            )
+            from datetime import timedelta
+            call_kw: dict = {"run_input": actor_input}
+            try:
+                run = self.client.actor(actor_id).call(
+                    **call_kw,
+                    timeout_secs=timeout_seconds,
+                )
+            except TypeError:
+                run = self.client.actor(actor_id).call(
+                    **call_kw,
+                    run_timeout=timedelta(seconds=timeout_seconds),
+                )
 
-            logger.info(f"✅ Actor run completed: {run['id']}")
+            logger.info(f"✅ Actor run completed: {_apify_run_id(run)}")
 
             # Get dataset ID
-            dataset_id = run.get("defaultDatasetId")
+            dataset_id = _apify_run_dataset_id(run)
             if not dataset_id:
                 logger.warning("⚠️ No dataset found in run")
                 return []
@@ -1283,6 +1672,10 @@ class SimpleApifyAdapter:
                     item.get('link') or item.get('webVideoUrl') or item.get('postPage') or
                     item.get('postUrl') or item.get('permalinkUrl') or ''
                 )
+
+                direct_video_url = self._extract_media_video_url(platform, item)
+                thumbnail_url = self._extract_media_thumbnail_url(platform, item)
+                media_type = 'video' if direct_video_url or self._looks_like_video_post(platform, item, post_url) else ''
 
                 # ===== DETERMINE TYPE (post vs comment) =====
                 # Check if this is a reply (marked by _scrape_threads_with_replies)
@@ -1327,6 +1720,12 @@ class SimpleApifyAdapter:
                     'sentiment_score': 0.0,
                     'total_engagement': engagement['total_engagement']
                 }
+                if direct_video_url:
+                    post_record['video_url'] = direct_video_url
+                if thumbnail_url:
+                    post_record['thumbnail_url'] = thumbnail_url
+                if media_type:
+                    post_record['media_type'] = media_type
 
                 transformed.append(post_record)
                 if is_reply:
@@ -1500,6 +1899,91 @@ class SimpleApifyAdapter:
                 return item['post'].get('text', '')
 
         return ''
+
+    def _first_media_url(self, value: Any) -> str:
+        if isinstance(value, str):
+            return value.strip()
+        if isinstance(value, list):
+            for entry in value:
+                if isinstance(entry, str) and entry.strip().startswith(('http://', 'https://')):
+                    return entry.strip()
+                if isinstance(entry, dict):
+                    for key in ('url', 'uri', 'downloadURL', 'download_url', 'file'):
+                        candidate = str(entry.get(key) or '').strip()
+                        if candidate.startswith(('http://', 'https://')):
+                            return candidate
+        if isinstance(value, dict):
+            for key in ('url', 'uri', 'downloadURL', 'download_url', 'file'):
+                candidate = str(value.get(key) or '').strip()
+                if candidate.startswith(('http://', 'https://')):
+                    return candidate
+        return ''
+
+    def _extract_media_video_url(self, platform: str, item: Dict) -> str:
+        video_files = item.get('video_files')
+        if isinstance(video_files, list):
+            best = ''
+            best_quality = -1
+            for entry in video_files:
+                if not isinstance(entry, dict):
+                    continue
+                candidate = self._first_media_url(entry)
+                if not candidate:
+                    continue
+                quality = self._safe_int(entry.get('quality') or entry.get('height'))
+                if quality >= best_quality:
+                    best = candidate
+                    best_quality = quality
+            if best:
+                return best
+
+        for field in ('video_url', 'webVideoUrl', 'downloadAddr', 'playAddr', 'video'):
+            candidate = self._first_media_url(item.get(field))
+            if candidate:
+                return candidate
+
+        video_meta = item.get('videoMeta')
+        if isinstance(video_meta, dict):
+            for key in ('downloadAddr', 'playAddr', 'videoUrl', 'url'):
+                candidate = self._first_media_url(video_meta.get(key))
+                if candidate:
+                    return candidate
+        return ''
+
+    def _extract_media_thumbnail_url(self, platform: str, item: Dict) -> str:
+        for field in ('thumbnail_url', 'video_thumbnail', 'thumbnail', 'cover', 'covers', 'image'):
+            candidate = self._first_media_url(item.get(field))
+            if candidate:
+                return candidate
+        return ''
+
+    def _looks_like_video_post(self, platform: str, item: Dict, post_url: str) -> bool:
+        if platform.lower() in {'youtube', 'tiktok'}:
+            return True
+        if item.get('video') or item.get('video_files') or item.get('video_view_count'):
+            return True
+        lowered = str(post_url).lower()
+        return any(token in lowered for token in ('/video/', '/videos/', 'watch?v=', 'youtu.be/', 'fb.watch'))
+
+    def _simplify_facebook_query(self, query: str) -> str:
+        """Facebook search often returns zero rows for very long OR strings."""
+        if ' OR ' not in query.upper():
+            return query
+        try:
+            from backend.data_crawlers.crawl_guard import split_or_keywords
+        except ImportError:
+            from crawl_guard import split_or_keywords
+        terms = split_or_keywords(query)
+        priority = []
+        for term in terms:
+            lowered = term.lower().strip('"')
+            if any(token in lowered for token in ('prn', 'negeri sembilan', 'n9', 'seremban', 'pas', 'dap', 'port dickson', 'jempol')):
+                priority.append(term)
+        picked = priority[:3] if priority else terms[:3]
+        simplified = ' OR '.join(picked)
+        if simplified != query:
+            logger.info(f"📘 Facebook: simplified OR query → {simplified}")
+        return simplified
 
     def _extract_post_id(self, platform: str, item: Dict) -> str:
         """Extract post ID based on platform-specific field names"""
@@ -2377,29 +2861,46 @@ class SimpleApifyAdapter:
             if since_date:
                 logger.info(f"📅 Crawling with date range: {since_date} → {until_date or 'now'}")
 
-            # 🔀 SMART MULTI-KEYWORD: Split OR queries and crawl each keyword in parallel
-            if " OR " in query or " or " in query:
-                import re as _re
-                sub_keywords = [k.strip() for k in _re.split(r'\s+OR\s+', query, flags=_re.IGNORECASE) if k.strip()]
-                if len(sub_keywords) > 1:
-                    logger.info(f"🔀 Smart Multi-Keyword detected: {len(sub_keywords)} keywords — crawling in PARALLEL")
-                    per_kw_size = max(100, dataset_size // len(sub_keywords))
+            # 🔀 OR queries: split ONLY short lists (≤5 terms). Long OR → one combined crawl.
+            try:
+                from backend.data_crawlers.crawl_guard import (
+                    should_split_or_query,
+                    split_or_keywords,
+                    guard_message,
+                    MAX_KEYWORD_BATCH_CONCURRENT,
+                )
+            except ImportError:
+                from crawl_guard import (
+                    should_split_or_query,
+                    split_or_keywords,
+                    guard_message,
+                    MAX_KEYWORD_BATCH_CONCURRENT,
+                )
 
-                    # Launch all keyword crawls concurrently
+            if " OR " in query.upper():
+                logger.info(f"🛡️ {guard_message(query)}")
+                if should_split_or_query(query):
+                    sub_keywords = split_or_keywords(query)
+                    per_kw_size = max(150, dataset_size // len(sub_keywords))
+                    sem = asyncio.Semaphore(MAX_KEYWORD_BATCH_CONCURRENT)
+
                     async def _crawl_one_keyword(kw: str) -> Dict:
-                        logger.info(f"  🔑 Crawling keyword: '{kw}' (size={per_kw_size})")
-                        return await self.crawl_with_strategy(
-                            platforms=platforms,
-                            query=kw,
-                            dataset_size=per_kw_size,
-                            analysis_type=analysis_type,
-                            since_date=since_date,
-                            until_date=until_date,
-                        )
+                        async with sem:
+                            logger.info(f"  🔑 Crawling keyword: '{kw[:80]}' (size={per_kw_size})")
+                            return await self.crawl_with_strategy(
+                                platforms=platforms,
+                                query=kw,
+                                dataset_size=per_kw_size,
+                                analysis_type=analysis_type,
+                                since_date=since_date,
+                                until_date=until_date,
+                            )
 
-                    kw_results = await asyncio.gather(*[_crawl_one_keyword(kw) for kw in sub_keywords], return_exceptions=True)
+                    kw_results = await asyncio.gather(
+                        *[_crawl_one_keyword(kw) for kw in sub_keywords],
+                        return_exceptions=True,
+                    )
 
-                    # Merge all keyword results
                     merged_results: Dict[str, List] = {}
                     total_posts_all = 0
                     total_comments_all = 0
@@ -2410,7 +2911,6 @@ class SimpleApifyAdapter:
                         for plat, posts in kr.get("results", {}).items():
                             if plat not in merged_results:
                                 merged_results[plat] = []
-                            # Deduplicate by ID
                             existing_ids = {p.get("id") or p.get("ID") for p in merged_results[plat]}
                             new_posts = [p for p in posts if (p.get("id") or p.get("ID")) not in existing_ids]
                             merged_results[plat].extend(new_posts)
@@ -2418,18 +2918,21 @@ class SimpleApifyAdapter:
                         total_comments_all += kr.get("summary", {}).get("total_comments", 0)
 
                     total_merged = sum(len(v) for v in merged_results.values())
-                    logger.info(f"✅ Smart Multi-Keyword merge complete: {total_merged} unique records across {len(merged_results)} platforms")
-
+                    logger.info(
+                        f"✅ Multi-Keyword merge: {total_merged} records "
+                        f"({len(sub_keywords)} terms, max {MAX_KEYWORD_BATCH_CONCURRENT} concurrent)"
+                    )
                     return {
-                        "strategy": {"mode": "multi_keyword_parallel", "keywords": sub_keywords},
+                        "strategy": {"mode": "multi_keyword_bounded", "keywords": sub_keywords},
                         "results": merged_results,
                         "summary": {
                             "total_posts": total_posts_all,
                             "total_comments": total_comments_all,
                             "total_results": total_merged,
                             "keywords_used": sub_keywords,
-                        }
+                        },
                     }
+                logger.info("🛡️ Long OR query → single combined Apify search (no 56-way split)")
 
             # 🎯 STEP 1: Calculate strategy
             # 🎯 STEP 1: Calculate strategy
@@ -2550,7 +3053,8 @@ class SimpleApifyAdapter:
         self,
         platform: str,
         posts: List[Dict],
-        comments_per_post: int
+        comments_per_post: int,
+        direct_post_mode: bool = False,
     ) -> List[Dict]:
         """
         🎯 Crawl comments for given posts using platform-specific comments actor
@@ -2662,9 +3166,24 @@ class SimpleApifyAdapter:
             logger.info(f"   Target: {comments_per_post} comments per post")
 
             # Prepare platform-specific input
-            all_records = []
-            if platform in ['x', 'twitter']:
-                # X replies actor (5 URLs per call) — top engagement posts only
+            all_records: List[Dict] = []
+
+            if direct_post_mode and post_urls:
+                flat_merged, _ = await self._run_direct_post_comment_jobs(
+                    platform=platform,
+                    actor_id=actor_id,
+                    posts=posts,
+                    post_urls=post_urls,
+                    comments_per_post=comments_per_post,
+                    existing_flat=None,
+                )
+                comments_data = [
+                    item for item in flat_merged
+                    if (item.get("Type") or "").lower() == "comment"
+                ]
+                posts_with_comments = self._attach_comments_to_posts(posts, comments_data, platform)
+                return posts_with_comments
+            elif platform in ['x', 'twitter']:
                 X_BATCH_SIZE = 5
                 X_MAX_URLS = fasa2_post_cap('x', len(post_urls))
                 target_urls = post_urls[:X_MAX_URLS]
@@ -2675,16 +3194,7 @@ class SimpleApifyAdapter:
                 )
                 for batch_idx in range(num_batches):
                     batch = target_urls[batch_idx * X_BATCH_SIZE:(batch_idx + 1) * X_BATCH_SIZE]
-                    run_input = {
-                        "postUrls": batch,
-                        "maxRepliesPerPost": comments_per_post,
-                        "sortBy": "top",
-                        "proxy": {
-                            "useApifyProxy": True,
-                            "apifyProxyGroups": ["RESIDENTIAL"],
-                            "apifyProxyCountry": "MY"
-                        }
-                    }
+                    run_input = self._prepare_x_replies_actor_input(batch, comments_per_post)
                     logger.info(f"   Batch {batch_idx + 1}/{num_batches}: {len(batch)} URLs")
                     try:
                         raw_x = await self._run_apify_actor(actor_id, run_input, platform='x')
@@ -2694,156 +3204,107 @@ class SimpleApifyAdapter:
                         logger.error(f"❌ X replies batch {batch_idx + 1} failed: {be}")
                         continue
             elif platform == 'facebook':
-                # Facebook comments actor — crawl top posts by URL (dynamic cap)
-                fb_cap = fasa2_post_cap('facebook', len(post_urls))
-                fb_post_urls = post_urls[:fb_cap]
-                run_input = {
-                    "startUrls": [{"url": url} for url in fb_post_urls],
-                    "maxComments": comments_per_post,
-                    "commentsMode": "RANKED_THREADED",
-                    "language": "ms-MY",
-                    "proxy": {
-                        "useApifyProxy": True,
-                        "apifyProxyGroups": ["RESIDENTIAL"],
-                        "apifyProxyCountry": "MY"
-                    }
-                }
+                fb_post_urls = post_urls[:fasa2_post_cap('facebook', len(post_urls))]
+                run_input = self._prepare_facebook_comments_actor_input(
+                    fb_post_urls, comments_per_post, include_nested=True
+                )
                 logger.info(f"🚀 Running comments actor: {actor_id}")
-                logger.info(f"   Posts: {len(fb_post_urls)}, Comments/post: {comments_per_post}")
-                if fb_post_urls:
-                    logger.info(f"📋 Sample post URLs (first 3):")
-                    for i, url in enumerate(fb_post_urls[:3], 1):
-                        logger.info(f"   {i}. {url}")
+                logger.info(f"   Posts: {len(fb_post_urls)}, resultsLimit: {comments_per_post}")
                 raw_fb = await self._run_apify_actor(actor_id, run_input, platform='facebook')
                 all_records.extend(raw_fb)
             elif platform == 'instagram':
-                # Instagram comments actor (apify/instagram-comment-scraper)
-                # NOTE: The actor does NOT return parent post URL in output, so we must track batches manually
                 IG_BATCH_SIZE = 10
                 IG_MAX_POSTS = fasa2_post_cap('instagram', len(post_urls))
                 target_urls = post_urls[:IG_MAX_POSTS]
-
                 num_batches = (len(target_urls) + IG_BATCH_SIZE - 1) // IG_BATCH_SIZE
-                logger.info(f"🚀 Running Instagram comments actor: {actor_id} in {num_batches} batches of {IG_BATCH_SIZE}")
-
-                # Track URL->comments mapping (since actor doesn't return parent URL)
-                url_to_batch_comments = {}
-
+                logger.info(
+                    f"🚀 Running Instagram comments actor: {actor_id} in {num_batches} batches"
+                )
                 for batch_idx in range(num_batches):
-                    batch_start = batch_idx * IG_BATCH_SIZE
-                    batch_end = min((batch_idx + 1) * IG_BATCH_SIZE, len(target_urls))
-                    batch = target_urls[batch_start:batch_end]
-
-                    run_input = {
-                        "directUrls": batch,  # ✅ FIXED: Actor expects 'directUrls' not 'postUrls'
-                        "maxComments": comments_per_post,
-                        "proxy": {
-                            "useApifyProxy": True,
-                            "apifyProxyGroups": ["RESIDENTIAL"],
-                            "apifyProxyCountry": "MY"
-                        }
-                    }
+                    batch = target_urls[
+                        batch_idx * IG_BATCH_SIZE:(batch_idx + 1) * IG_BATCH_SIZE
+                    ]
+                    run_input = self._prepare_instagram_comments_actor_input(
+                        batch, comments_per_post, include_nested=False
+                    )
                     logger.info(f"   Batch {batch_idx + 1}/{num_batches}: {len(batch)} post URLs")
                     try:
                         run = self.client.actor(actor_id).call(run_input=run_input)
-                        batch_count = 0
-
-                        # Collect comments from this batch
-                        batch_comments = []
-                        for item in self.client.dataset(run["defaultDatasetId"]).iterate_items():
-                            # ADD THE POST URL TO EACH COMMENT SO WE CAN MATCH IT LATER
-                            # The actor doesn't return parent URL, so we add it manually
-                            # Assume first comment is from first URL, distribute in order
-                            item['postUrl'] = batch[0] if batch else None  # Temporary - will refine below
-                            batch_comments.append(item)
-                            batch_count += 1
-
-                        # Map comments to the posts they belong to
-                        # Distribute comments across posts in the batch
-                        if batch_count > 0 and len(batch) > 0:
-                            comments_per_post_actual = max(1, batch_count // len(batch))
-                            comment_idx = 0
+                        batch_comments: List[Dict] = []
+                        dataset_id = _apify_run_dataset_id(run)
+                        if dataset_id:
+                            for item in self.client.dataset(dataset_id).iterate_items():
+                                batch_comments.append(item)
+                        if batch_comments and len(batch) == 1:
+                            for comment in batch_comments:
+                                comment["postUrl"] = batch[0]
+                        elif batch_comments and len(batch) > 1:
+                            per = max(1, len(batch_comments) // len(batch))
                             for url_idx, url in enumerate(batch):
-                                # Each post gets ~comments_per_post_actual comments
-                                comments_end = min(comment_idx + comments_per_post_actual + 1, batch_count)
-                                for comment in batch_comments[comment_idx:comments_end]:
-                                    comment['postUrl'] = url
-                                comment_idx = comments_end
-
+                                start = url_idx * per
+                                end = start + per if url_idx < len(batch) - 1 else len(batch_comments)
+                                for comment in batch_comments[start:end]:
+                                    comment["postUrl"] = url
                         all_records.extend(batch_comments)
-                        logger.info(f"   Batch {batch_idx + 1} retrieved {batch_count} records for {len(batch)} posts")
+                        logger.info(
+                            f"   Batch {batch_idx + 1} retrieved {len(batch_comments)} records"
+                        )
                     except Exception as be:
                         logger.error(f"❌ Instagram comments batch {batch_idx + 1} failed: {be}")
-                        continue
             elif platform == 'youtube':
-                # YouTube comments actor (apidojo/youtube-comments-scraper)
-                # Batch 10 videos at a time to stay within actor limits
                 YT_BATCH_SIZE = 10
-                YT_MAX_VIDEOS = 50  # crawl comments for up to 50 videos
-                target_urls = post_urls[:YT_MAX_VIDEOS]
-
-                # 🎯 CLEAN URLs: Remove query params except 'v' to avoid actor errors
-                cleaned_urls = []
+                target_urls = post_urls[:50]
+                cleaned = []
                 for url in target_urls:
-                    if 'youtube.com/watch?v=' in url:
-                        vid = url.split('v=')[1].split('&')[0]
-                        cleaned_urls.append(f"https://www.youtube.com/watch?v={vid}")
-                    elif 'youtu.be/' in url:
-                        vid = url.split('youtu.be/')[1].split('?')[0]
-                        cleaned_urls.append(f"https://www.youtube.com/watch?v={vid}")
+                    if "youtube.com/watch?v=" in url:
+                        vid = url.split("v=")[1].split("&")[0]
+                        cleaned.append(f"https://www.youtube.com/watch?v={vid}")
+                    elif "youtu.be/" in url:
+                        vid = url.split("youtu.be/")[1].split("?")[0]
+                        cleaned.append(f"https://www.youtube.com/watch?v={vid}")
                     else:
-                        cleaned_urls.append(url)
-
-                num_batches = (len(cleaned_urls) + YT_BATCH_SIZE - 1) // YT_BATCH_SIZE
-                logger.info(f"🚀 Running YouTube comments actor: {actor_id} in {num_batches} batches of {YT_BATCH_SIZE}")
+                        cleaned.append(url)
+                num_batches = (len(cleaned) + YT_BATCH_SIZE - 1) // YT_BATCH_SIZE
+                logger.info(f"🚀 Running YouTube comments actor: {actor_id} in {num_batches} batches")
                 for batch_idx in range(num_batches):
-                    batch = cleaned_urls[batch_idx * YT_BATCH_SIZE:(batch_idx + 1) * YT_BATCH_SIZE]
-                    run_input = {
-                        "startUrls": batch,
-                        "maxItems": comments_per_post * len(batch),  # total items for this batch
-                        "sort": "top",
-                        "includeReplies": False
-                    }
-                    logger.info(f"   Batch {batch_idx + 1}/{num_batches}: {len(batch)} video URLs")
+                    batch = cleaned[batch_idx * YT_BATCH_SIZE:(batch_idx + 1) * YT_BATCH_SIZE]
+                    run_input = self._prepare_youtube_comments_actor_input(
+                        batch, comments_per_post, include_replies=True
+                    )
                     try:
                         run = self.client.actor(actor_id).call(run_input=run_input)
                         batch_count = 0
-                        for item in self.client.dataset(run["defaultDatasetId"]).iterate_items():
-                            all_records.append(item)
-                            batch_count += 1
+                        dataset_id = _apify_run_dataset_id(run)
+                        if dataset_id:
+                            for item in self.client.dataset(dataset_id).iterate_items():
+                                all_records.append(item)
+                                batch_count += 1
                         logger.info(f"   Batch {batch_idx + 1} retrieved {batch_count} records")
                     except Exception as be:
                         logger.error(f"❌ YouTube comments batch {batch_idx + 1} failed: {be}")
-                        continue
             elif platform == 'tiktok':
                 TT_BATCH_SIZE = 10
-                TT_MAX_POSTS = 50
-                target_urls = [u for u in post_urls if '/video/' in u.lower()][:TT_MAX_POSTS]
+                target_urls = [u for u in post_urls if '/video/' in u.lower()][:50]
                 num_batches = max(1, (len(target_urls) + TT_BATCH_SIZE - 1) // TT_BATCH_SIZE)
-                logger.info(
-                    f"🚀 Running TikTok comments actor: {actor_id} in {num_batches} batches of {TT_BATCH_SIZE}"
-                )
+                logger.info(f"🚀 Running TikTok comments actor: {actor_id} in {num_batches} batches")
                 for batch_idx in range(num_batches):
                     batch = target_urls[batch_idx * TT_BATCH_SIZE:(batch_idx + 1) * TT_BATCH_SIZE]
                     if not batch:
                         continue
-                    run_input = {
-                        "postURLs": batch,
-                        "commentsPerPost": comments_per_post,
-                        "maxRepliesPerComment": 3,
-                        "proxyCountryCode": "MY",
-                    }
-                    logger.info(f"   Batch {batch_idx + 1}/{num_batches}: {len(batch)} video URLs")
+                    run_input = self._prepare_tiktok_comments_actor_input(
+                        batch, comments_per_post, max_replies=10
+                    )
                     try:
                         run = self.client.actor(actor_id).call(run_input=run_input)
                         batch_count = 0
-                        for item in self.client.dataset(run["defaultDatasetId"]).iterate_items():
-                            all_records.append(item)
-                            batch_count += 1
+                        dataset_id = _apify_run_dataset_id(run)
+                        if dataset_id:
+                            for item in self.client.dataset(dataset_id).iterate_items():
+                                all_records.append(item)
+                                batch_count += 1
                         logger.info(f"   Batch {batch_idx + 1} retrieved {batch_count} records")
                     except Exception as be:
                         logger.error(f"❌ TikTok comments batch {batch_idx + 1} failed: {be}")
-                        continue
             else:
                 logger.error(f"❌ Unknown platform: {platform}")
                 return posts
@@ -3232,29 +3693,21 @@ class SimpleApifyAdapter:
         posts_with_comments: List[Dict],
         existing_flat: Optional[List[Dict]] = None,
     ) -> List[Dict]:
-        """Merge flat post/comment rows with nested comment attachments."""
-        seen_ids = set()
-        flat: List[Dict] = []
-
-        def add_record(rec: Dict):
-            rid = rec.get('ID') or rec.get('id')
-            key = (rec.get('Type', 'post'), str(rid), rec.get('Text', '')[:40])
-            if key in seen_ids:
-                return
-            seen_ids.add(key)
-            flat.append({k: v for k, v in rec.items() if k != 'comments'})
-
-        if existing_flat:
-            for rec in existing_flat:
-                if (rec.get('Type') or 'post').lower() == 'comment':
-                    add_record(rec)
+        """Merge flat post/comment rows with nested comment attachments (deduped)."""
+        flat: List[Dict] = list(existing_flat or [])
 
         for post in posts_with_comments:
-            add_record(post)
-            for comment in post.get('comments') or []:
-                add_record(comment)
+            post_row = {k: v for k, v in post.items() if k != "comments"}
+            if not post_row.get("Type"):
+                post_row["Type"] = "post"
+            flat.append(post_row)
+            for comment in post.get("comments") or []:
+                c = dict(comment)
+                if not c.get("Type"):
+                    c["Type"] = "comment"
+                flat.append(c)
 
-        return flat
+        return dedupe_crawl_records(flat)
 
     async def _enrich_with_comments_if_sparse(
         self,
@@ -3262,6 +3715,10 @@ class SimpleApifyAdapter:
         records: List[Dict],
         comments_per_post: int,
         target_ratio: int = 3,
+        direct_post_mode: bool = False,
+        comment_target_per_post: Optional[int] = None,
+        multipass_comments: bool = True,
+        include_nested_comments: bool = True,
     ) -> List[Dict]:
         """Fasa 2: deep comment crawl when inline comment rows are sparse."""
         posts = [r for r in records if (r.get('Type') or 'post').lower() == 'post']
@@ -3269,26 +3726,74 @@ class SimpleApifyAdapter:
         if not posts:
             return records
 
-        if len(inline_comments) >= len(posts) * target_ratio:
+        expected_comments = sum(int(p.get('comments_count') or 0) for p in posts)
+        inline_ok = len(inline_comments) >= len(posts) * target_ratio
+        if direct_post_mode:
+            inline_ok = False
+        elif expected_comments and len(inline_comments) < max(expected_comments * 0.25, len(posts) * target_ratio):
+            inline_ok = False
+
+        if inline_ok:
             logger.info(
-                f"💬 {platform}: {len(inline_comments)} inline comments for {len(posts)} posts — skip Fasa 2"
+                f"💬 {platform}: {len(inline_comments)} inline comments for {len(posts)} posts "
+                f"(expected ~{expected_comments}) — skip Fasa 2"
             )
             return records
 
+        if direct_post_mode and expected_comments:
+            target = comment_target_per_post or comments_per_post
+            comments_per_post = min(
+                max(comments_per_post, target // max(1, len(posts))),
+                1000,
+            )
+
         actor_id = self.comments_actor_map.get(platform, platform)
         logger.info(
-            f"💬 {platform} Fasa 2: only {len(inline_comments)} inline comments for {len(posts)} posts — "
-            f"deep crawl via {actor_id}"
+            f"💬 {platform} Fasa 2: {len(inline_comments)} inline comments for {len(posts)} posts — "
+            f"deep crawl via {actor_id} (target {comment_target_per_post or comments_per_post}/post, dedupe ON)"
         )
         try:
+            if direct_post_mode:
+                post_urls: List[str] = []
+                for post in posts:
+                    url = (
+                        post.get("URL")
+                        or post.get("url")
+                        or post.get("Post_URL")
+                        or post.get("postUrl")
+                    )
+                    if url:
+                        post_urls.append(str(url))
+                merged, mp_stats = await self._run_direct_post_comment_jobs(
+                    platform=platform,
+                    actor_id=actor_id,
+                    posts=posts,
+                    post_urls=post_urls,
+                    comments_per_post=comments_per_post,
+                    comment_target_per_post=comment_target_per_post,
+                    multipass_comments=multipass_comments,
+                    include_nested_comments=include_nested_comments,
+                    existing_flat=records,
+                )
+                merged = dedupe_crawl_records(merged)
+                new_comments = len([r for r in merged if (r.get("Type") or "").lower() == "comment"])
+                logger.info(
+                    f"✅ {platform} direct post enrich: {new_comments} unique comment rows "
+                    f"(+{mp_stats.get('added_total', 0)} new, {mp_stats.get('duplicates_skipped', 0)} dupes skipped)"
+                )
+                self._last_multipass_stats = mp_stats
+                return merged
+
             posts_with_comments = await self._crawl_comments_for_posts(
                 platform=platform,
                 posts=posts,
                 comments_per_post=comments_per_post,
+                direct_post_mode=direct_post_mode,
             )
             merged = self._flatten_post_comment_records(posts_with_comments, existing_flat=records)
+            merged = dedupe_crawl_records(merged)
             new_comments = len([r for r in merged if (r.get('Type') or '').lower() == 'comment'])
-            logger.info(f"✅ {platform} Fasa 2 complete: {new_comments} total comment rows")
+            logger.info(f"✅ {platform} Fasa 2 complete: {new_comments} total unique comment rows")
             return merged
         except Exception as e:
             logger.error(f"❌ {platform} Fasa 2 failed: {e}")
@@ -3335,19 +3840,36 @@ class SimpleApifyAdapter:
         match = re.search(r'tiktok\.com/@([^/?#]+)', url, re.IGNORECASE)
         return match.group(1) if match else None
 
-    def _prepare_facebook_url_input(self, urls: List[str], max_posts: int = 100, max_comments: int = 50) -> Dict:
+    def _is_facebook_post_url(self, url: str) -> bool:
+        return is_direct_post_url(url)
+
+    def _prepare_facebook_url_input(
+        self,
+        urls: List[str],
+        max_posts: int = 100,
+        max_comments: int = 50,
+        direct_post_mode: bool = False,
+    ) -> Dict:
         """Facebook page/post direct URL crawl using apify/facebook-posts-scraper."""
         num_urls = max(1, len(urls))
-        if num_urls > 1:
+        all_post_urls = direct_post_mode or all(self._is_facebook_post_url(u) for u in urls)
+        if all_post_urls:
+            posts_per_url = 1
+            comments_per_post = min(max(max_comments, 100), 1000)
+        elif num_urls > 1:
             posts_per_url = max(10, min(80, int(max_posts / num_urls) + 10))
             comments_per_post = min(max_comments, 40 if num_urls > 5 else max_comments)
         else:
             posts_per_url = max_posts
             comments_per_post = max_comments
         scroll_timeout = max(300, min(posts_per_url * num_urls * 5, 1800))
+        logger.info(
+            f"📘 Facebook URL crawl: {num_urls} page(s) × resultsLimit={posts_per_url}, "
+            f"{comments_per_post} comments/post"
+        )
         return {
             "startUrls": [{"url": u} for u in urls],
-            "maxPosts": posts_per_url,
+            "resultsLimit": posts_per_url,
             "maxPostComments": comments_per_post,
             "maxReviewsPerPage": 0,
             "commentsMode": "RANKED_THREADED",
@@ -3359,10 +3881,20 @@ class SimpleApifyAdapter:
             }
         }
 
-    def _prepare_instagram_url_input(self, urls: List[str], max_posts: int = 50, max_comments: int = 30) -> Dict:
-        """Instagram profile/hashtag direct URL crawl."""
+    def _prepare_instagram_url_input(
+        self,
+        urls: List[str],
+        max_posts: int = 50,
+        max_comments: int = 30,
+        direct_post_mode: bool = False,
+    ) -> Dict:
+        """Instagram profile or single-post/reel direct URL crawl."""
         num_urls = max(1, len(urls))
-        if num_urls > 1:
+        post_urls = direct_post_mode or all(is_direct_post_url(u) for u in urls)
+        if post_urls:
+            posts_per_url = 1
+            comments_per_post = min(max(max_comments, 50), 500)
+        elif num_urls > 1:
             posts_per_url = max(10, min(60, int(max_posts / num_urls) + 10))
             comments_per_post = min(max_comments, 35 if num_urls > 5 else max_comments)
         else:
@@ -3471,11 +4003,12 @@ class SimpleApifyAdapter:
         max_comments: int = 30,
         since_date: str = None,
         until_date: str = None,
+        direct_post_mode: bool = False,
     ) -> Dict:
         """TikTok individual video URL crawl via clockworks/tiktok-scraper ``postURLs``."""
         buffer = self.calculate_smart_buffer(max_videos)
         adjusted_max_videos = max(1, int(max_videos * buffer))
-        adjusted_max_comments = max(1, int(max_comments * 1.2))
+        adjusted_max_comments = max(50, int(max_comments * 1.2)) if direct_post_mode else max(1, int(max_comments * 1.2))
         tt_scroll = max(180, min(adjusted_max_videos * 3, 900))
 
         videos: List[str] = []
@@ -3497,7 +4030,7 @@ class SimpleApifyAdapter:
             "shouldDownloadVideos": False,
             "shouldDownloadCovers": False,
             "shouldDownloadSlideshowImages": False,
-            "commentsPerPost": adjusted_max_comments,
+            "commentsPerPost": min(adjusted_max_comments, 500),
             "scrollTimeout": tt_scroll,
             "proxyCountryCode": "MY",
         }
@@ -3507,14 +4040,32 @@ class SimpleApifyAdapter:
             inp["newestPostDate"] = until_date[:10]
         return inp
 
-    def _prepare_twitter_url_input(self, urls: List[str], max_tweets: int = 100, max_replies: int = 30) -> Dict:
-        """X/Twitter profile direct URL crawl."""
+    def _prepare_twitter_url_input(
+        self,
+        urls: List[str],
+        max_tweets: int = 100,
+        max_replies: int = 30,
+        direct_post_mode: bool = False,
+    ) -> Dict:
+        """X/Twitter profile or single-post (/status/) direct URL crawl."""
+        status_urls = [u for u in urls if '/status/' in u.lower()]
+        if direct_post_mode or (status_urls and len(status_urls) == len(urls)):
+            return {
+                "startUrls": status_urls,
+                "maxItems": len(status_urls),
+                "proxy": {
+                    "useApifyProxy": True,
+                    "apifyProxyGroups": ["RESIDENTIAL"],
+                    "apifyProxyCountry": "MY",
+                },
+            }
+
         handles = []
         for u in urls:
             parts = u.rstrip('/').split('/')
             if parts:
                 handle = parts[-1].lstrip('@')
-                if handle:
+                if handle and handle.lower() != 'status':
                     handles.append(f"@{handle}")
         num_handles = max(1, len(handles) or len(urls))
         if num_handles > 1:
@@ -3571,10 +4122,22 @@ class SimpleApifyAdapter:
             }
         }
 
-    def _prepare_youtube_url_input(self, urls: List[str], max_videos: int = 50, max_comments: int = 30) -> Dict:
-        """YouTube channel/video direct URL crawl."""
+    def _prepare_youtube_url_input(
+        self,
+        urls: List[str],
+        max_videos: int = 50,
+        max_comments: int = 30,
+        direct_post_mode: bool = False,
+    ) -> Dict:
+        """YouTube channel or single-video direct URL crawl."""
         num_urls = max(1, len(urls))
-        if num_urls > 1:
+        video_urls = direct_post_mode or all(
+            is_direct_post_url(u) for u in urls
+        )
+        if video_urls:
+            videos_per_url = 1
+            comments_per_video = min(max(max_comments, 50), 500)
+        elif num_urls > 1:
             videos_per_url = max(5, min(40, int(max_videos / num_urls) + 5))
             comments_per_video = min(max_comments, 30 if num_urls > 3 else max_comments)
         else:
@@ -3586,7 +4149,7 @@ class SimpleApifyAdapter:
             "maxResults": videos_per_url,
             "scrapeComments": True,
             "maxComments": comments_per_video,
-            "scrapeChannelInfo": True,
+            "scrapeChannelInfo": not video_urls,
             "scrapeVideoStats": True,
             "scrollTimeout": scroll_timeout,
             "proxy": {
@@ -3626,13 +4189,22 @@ class SimpleApifyAdapter:
         max_posts: int = 100,
         max_comments: int = 50,
         since_date: str = None,
-        until_date: str = None
+        until_date: str = None,
+        direct_post_mode: bool = False,
+        comment_target_per_post: Optional[int] = None,
+        multipass_comments: bool = True,
+        include_nested_comments: bool = True,
     ) -> Dict[str, Any]:
         """
         Crawl a list of direct URLs across any supported platform.
         Auto-detects platform from URL and uses the appropriate actor.
         Returns same format as crawl_with_strategy for compatibility.
+
+        direct_post_mode: explicit post URLs — full comment budget per post, no page cap.
         """
+        if not direct_post_mode and urls and all(is_direct_post_url(u) for u in urls):
+            direct_post_mode = True
+            logger.info(f"📌 Auto-detected Direct Post URL batch ({len(urls)} posts)")
         # Group URLs by platform
         platform_urls: Dict[str, List[str]] = {}
         for url in urls:
@@ -3652,7 +4224,45 @@ class SimpleApifyAdapter:
         }
 
         all_results: Dict[str, List[Dict]] = {}
-        tasks = []
+        parallel_tasks = []
+        batch_info: List[Dict[str, Any]] = []
+
+        async def run_one(platform, actor_id, actor_input):
+            try:
+                raw = await self._run_apify_actor(actor_id, actor_input, platform)
+                transformed = self._transform_results(platform, raw, max_comments)
+                logger.info(f"✅ URL crawl {platform} ({actor_id}): {len(transformed)} results")
+                return platform, transformed
+            except Exception as e:
+                logger.error(f"❌ URL crawl failed for {platform} ({actor_id}): {e}")
+                return platform, []
+
+        async def run_profile_batches(
+            platform: str,
+            actor_id: str,
+            url_batches: List[List[str]],
+            build_input,
+        ) -> None:
+            """Run profile/page URL batches sequentially (anti-bot safe)."""
+            for idx, batch_urls in enumerate(url_batches, 1):
+                try:
+                    actor_input = build_input(batch_urls)
+                except ValueError as e:
+                    logger.error(f"❌ {platform} batch {idx} input invalid: {e}")
+                    continue
+                logger.info(
+                    f"📦 Auto-batch {idx}/{len(url_batches)} [{platform}]: "
+                    f"{len(batch_urls)} profile/page URL(s)"
+                )
+                _, results = await run_one(platform, actor_id, actor_input)
+                all_results.setdefault(platform, []).extend(results)
+                batch_info.append({
+                    "platform": platform,
+                    "batch": idx,
+                    "total_batches": len(url_batches),
+                    "urls": len(batch_urls),
+                    "records": len(results),
+                })
 
         for platform, p_urls in platform_urls.items():
             if platform == 'unknown':
@@ -3665,28 +4275,45 @@ class SimpleApifyAdapter:
                 video_urls = [u for u in p_urls if '/video/' in u.lower()]
 
                 if profile_urls:
-                    try:
-                        actor_input = self._prepare_tiktok_profile_direct_input(
-                            profile_urls, max_posts, max_comments, since_date, until_date
-                        )
+                    tt_batch_size = PROFILE_BATCH_SIZES.get('tiktok', 3)
+                    if len(profile_urls) > tt_batch_size and not direct_post_mode:
+                        batches = list(_chunk_urls(profile_urls, tt_batch_size))
                         logger.info(
-                            f"🚀 Launching URL crawl: tiktok-profiles | "
-                            f"actor=clockworks/tiktok-scraper | {len(profile_urls)} URLs"
+                            f"📦 Auto-splitting {len(profile_urls)} TikTok profiles into "
+                            f"{len(batches)} batches (max {tt_batch_size}/batch)"
                         )
-                        tasks.append(('tiktok', 'clockworks/tiktok-scraper', actor_input))
-                    except ValueError as e:
-                        logger.error(f"❌ TikTok profile URL input invalid: {e}")
+                        await run_profile_batches(
+                            'tiktok',
+                            'clockworks/tiktok-scraper',
+                            batches,
+                            lambda batch: self._prepare_tiktok_profile_direct_input(
+                                batch, max_posts, max_comments, since_date, until_date
+                            ),
+                        )
+                    else:
+                        try:
+                            actor_input = self._prepare_tiktok_profile_direct_input(
+                                profile_urls, max_posts, max_comments, since_date, until_date
+                            )
+                            logger.info(
+                                f"🚀 Launching URL crawl: tiktok-profiles | "
+                                f"actor=clockworks/tiktok-scraper | {len(profile_urls)} URLs"
+                            )
+                            parallel_tasks.append(('tiktok', 'clockworks/tiktok-scraper', actor_input))
+                        except ValueError as e:
+                            logger.error(f"❌ TikTok profile URL input invalid: {e}")
 
                 if video_urls:
                     try:
                         actor_input = self._prepare_tiktok_url_input(
-                            video_urls, max_posts, max_comments, since_date, until_date
+                            video_urls, max_posts, max_comments, since_date, until_date,
+                            direct_post_mode=direct_post_mode,
                         )
                         logger.info(
                             f"🚀 Launching URL crawl: tiktok-videos | "
                             f"actor=clockworks/tiktok-scraper | {len(video_urls)} URLs"
                         )
-                        tasks.append(('tiktok', 'clockworks/tiktok-scraper', actor_input))
+                        parallel_tasks.append(('tiktok', 'clockworks/tiktok-scraper', actor_input))
                     except ValueError as e:
                         logger.error(f"❌ TikTok video URL input invalid: {e}")
                 continue
@@ -3697,58 +4324,111 @@ class SimpleApifyAdapter:
 
             # Build platform-specific input
             if platform == 'facebook':
-                actor_input = self._prepare_facebook_url_input(p_urls, max_posts, max_comments)
+                is_page_batch = (
+                    not direct_post_mode
+                    and not all(self._is_facebook_post_url(u) for u in p_urls)
+                )
+                fb_batch_size = PROFILE_BATCH_SIZES.get('facebook', 4)
+                if is_page_batch and len(p_urls) > fb_batch_size:
+                    batches = list(_chunk_urls(p_urls, fb_batch_size))
+                    logger.info(
+                        f"📦 Auto-splitting {len(p_urls)} Facebook pages into "
+                        f"{len(batches)} batches (max {fb_batch_size}/batch)"
+                    )
+                    await run_profile_batches(
+                        'facebook',
+                        actor_id,
+                        batches,
+                        lambda batch: self._prepare_facebook_url_input(
+                            batch, max_posts, max_comments, direct_post_mode=direct_post_mode
+                        ),
+                    )
+                    continue
+                actor_input = self._prepare_facebook_url_input(
+                    p_urls, max_posts, max_comments, direct_post_mode=direct_post_mode
+                )
             elif platform == 'instagram':
-                actor_input = self._prepare_instagram_url_input(p_urls, max_posts, max_comments)
+                is_page_batch = (
+                    not direct_post_mode
+                    and not all(is_direct_post_url(u) for u in p_urls)
+                )
+                ig_batch_size = PROFILE_BATCH_SIZES.get('instagram', 4)
+                if is_page_batch and len(p_urls) > ig_batch_size:
+                    batches = list(_chunk_urls(p_urls, ig_batch_size))
+                    logger.info(
+                        f"📦 Auto-splitting {len(p_urls)} Instagram profiles into "
+                        f"{len(batches)} batches (max {ig_batch_size}/batch)"
+                    )
+                    await run_profile_batches(
+                        'instagram',
+                        actor_id,
+                        batches,
+                        lambda batch: self._prepare_instagram_url_input(
+                            batch, max_posts, max_comments, direct_post_mode=direct_post_mode
+                        ),
+                    )
+                    continue
+                actor_input = self._prepare_instagram_url_input(
+                    p_urls, max_posts, max_comments, direct_post_mode=direct_post_mode
+                )
             elif platform == 'x':
-                actor_input = self._prepare_twitter_url_input(p_urls, max_posts, max_comments)
+                actor_input = self._prepare_twitter_url_input(
+                    p_urls, max_posts, max_comments, direct_post_mode=direct_post_mode
+                )
             elif platform == 'threads':
                 actor_input = self._prepare_threads_url_input(p_urls, max_posts, max_comments)
             elif platform == 'youtube':
-                actor_input = self._prepare_youtube_url_input(p_urls, max_posts, max_comments)
+                actor_input = self._prepare_youtube_url_input(
+                    p_urls, max_posts, max_comments, direct_post_mode=direct_post_mode
+                )
             elif platform == 'linkedin':
                 actor_input = self._prepare_linkedin_url_input(p_urls, max_posts, max_comments)
             else:
                 continue
 
             logger.info(f"🚀 Launching URL crawl: {platform} | actor={actor_id} | {len(p_urls)} URLs")
-            tasks.append((platform, actor_id, actor_input))
+            parallel_tasks.append((platform, actor_id, actor_input))
 
-        # Run all platform crawls concurrently
-        async def run_one(platform, actor_id, actor_input):
-            try:
-                raw = await self._run_apify_actor(actor_id, actor_input, platform)
-                transformed = self._transform_results(platform, raw, max_comments)
-                logger.info(f"✅ URL crawl {platform} ({actor_id}): {len(transformed)} results")
-                return platform, transformed
-            except Exception as e:
-                logger.error(f"❌ URL crawl failed for {platform} ({actor_id}): {e}")
-                return platform, []
+        if parallel_tasks:
+            results_list = await asyncio.gather(*[run_one(p, a, i) for p, a, i in parallel_tasks])
+            for platform, results in results_list:
+                all_results.setdefault(platform, []).extend(results)
 
-        import asyncio
-        results_list = await asyncio.gather(*[run_one(p, a, i) for p, a, i in tasks])
-
-        for platform, results in results_list:
-            all_results.setdefault(platform, []).extend(results)
+        if batch_info:
+            logger.info(f"📦 Profile auto-batch summary: {batch_info}")
 
         # Fasa 2: deep comments when direct URL crawl returns posts-only
         enrich_config = {
-            'tiktok': {'ratio': 5, 'cap': 80},
-            'facebook': {'ratio': 2, 'cap': 40},
-            'instagram': {'ratio': 3, 'cap': 35},
-            'youtube': {'ratio': 2, 'cap': 50},
-            'x': {'ratio': 2, 'cap': 30},
-            'twitter': {'ratio': 2, 'cap': 30},
+            'tiktok': {'ratio': 5, 'cap': 500 if direct_post_mode else 80},
+            'facebook': {'ratio': 2, 'cap': 1000 if direct_post_mode else min(max_comments, 500)},
+            'instagram': {'ratio': 3, 'cap': 500 if direct_post_mode else 35},
+            'youtube': {'ratio': 2, 'cap': 500 if direct_post_mode else 50},
+            'x': {'ratio': 2, 'cap': 500 if direct_post_mode else 30},
+            'twitter': {'ratio': 2, 'cap': 500 if direct_post_mode else 30},
         }
+        multipass_stats: Dict[str, Any] = {}
         for platform, cfg in enrich_config.items():
             if all_results.get(platform):
+                cap = cfg['cap']
+                if direct_post_mode and comment_target_per_post:
+                    cap = max(cap, min(1000, comment_target_per_post))
                 all_results[platform] = await self._enrich_with_comments_if_sparse(
                     platform=platform,
                     records=all_results[platform],
-                    comments_per_post=effective_comments_per_post(platform, min(max_comments, cfg['cap'])),
+                    comments_per_post=effective_comments_per_post(
+                        platform, cap, direct_post_mode=direct_post_mode
+                    ),
                     target_ratio=cfg['ratio'],
+                    direct_post_mode=direct_post_mode,
+                    comment_target_per_post=comment_target_per_post,
+                    multipass_comments=multipass_comments,
+                    include_nested_comments=include_nested_comments,
                 )
-                all_results[platform] = flatten_crawl_records(all_results[platform])
+                all_results[platform] = dedupe_crawl_records(
+                    flatten_crawl_records(all_results[platform])
+                )
+                if getattr(self, "_last_multipass_stats", None):
+                    multipass_stats[platform] = self._last_multipass_stats
 
         total = sum(len(v) for v in all_results.values())
         total_posts = sum(
@@ -3771,9 +4451,21 @@ class SimpleApifyAdapter:
                 "total_posts": total_posts,
                 "total_comments": total_comments,
                 "crawl_mode": "direct_url",
-                "urls_crawled": urls
+                "direct_post_mode": direct_post_mode,
+                "comment_target_per_post": comment_target_per_post,
+                "multipass_comments": multipass_comments,
+                "include_nested_comments": include_nested_comments,
+                "multipass_stats": multipass_stats,
+                "urls_crawled": urls,
+                "profile_batches": batch_info,
             },
-            "strategy": {"mode": "direct_url"}
+            "strategy": {
+                "mode": "direct_url",
+                "direct_post_mode": direct_post_mode,
+                "comment_target_per_post": comment_target_per_post,
+                "multipass_comments": multipass_comments,
+                "profile_batches": batch_info,
+            }
         }
 
 

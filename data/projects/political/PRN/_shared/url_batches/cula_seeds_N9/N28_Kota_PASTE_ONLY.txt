@@ -1,0 +1,28 @@
+# CULA DIGITAL — N28 Kota (seed post URLs)
+# ==========================================================
+# Tier: WAJIB-PAS23 · Daerah: Rembau
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Kota (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N28
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Pekan Kota; Pedas
+# ISU TEMPATAN: luar bandar; Adat
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "agaknya di Kota ni PAS menang ok ke? tengok ramai bincang pasal luar bandar je"
+#   "korang area Pekan Kota — undi kali ni ikut parti ke ikut calon?"
+#   "siapa lagi kat Kota rasa luar bandar makin susah ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Kota atau Pekan Kota
+#   • Post sebut Kota atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

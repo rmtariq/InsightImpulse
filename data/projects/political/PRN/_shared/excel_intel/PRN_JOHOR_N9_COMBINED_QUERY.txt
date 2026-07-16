@@ -1,0 +1,8 @@
+# PRN Johor + Negeri Sembilan — SATU crawl (FASA 1)
+# Incremental: 7 hari sahaja (data lama sudah ada dari crawl sebelum)
+# Dashboard & presentation: BERASINGAN (FASA 2)
+# InsightPulse: Keyword Search · Social Listening · pas_break_2026
+# Platform: Facebook, Instagram, X, TikTok, News
+# Dataset: 2000–3000 · Date: Last 7 Days
+
+("PRN Johor" OR "PRN16" OR "PRN Negeri Sembilan" OR "PRN N9" OR "PRNN9" OR "Pilihan Raya Johor" OR "Pilihan Raya Negeri Sembilan" OR "DUN Johor" OR "DUN Negeri Sembilan" OR "ADUN Johor" OR "ADUN N9" OR "calon Johor" OR "calon N9" OR "bakal calon Johor" OR "bakal calon N9" OR "Perikatan Nasional" OR "PN solo" OR "PN sahaja" OR "Pakatan Harapan" OR "PH BN" OR "Madani" OR "Unity Government" OR "PAS solo" OR "PAS standalone" OR "PAS keluar PN" OR "PAS Bersatu pecah" OR "UMNO Johor" OR "UMNO N9" OR "Zahid Hamidi" OR "MUDA Johor" OR "MUDA N9" OR "DAP Johor" OR "DAP N9" OR "Amanah Johor" OR "Amanah N9" OR "Sultan Ibrahim" OR "TMJ" OR "Tunku Ismail" OR "Tuanku Muhriz" OR "Adat Perpatih" OR "Undang Yang Empat" OR "Malaysia Vision Valley" OR "MVV" OR "Port Dickson" OR "Seremban" OR "Iskandar" OR "MM2H" OR "pekerja Singapura" OR #prnjohor OR #prnn9 OR #prn16 OR #johormengundi OR #undin9 OR #negerisembilanmemilih OR #pilihanrayajohor OR #prnnegerisembilan) when:7d

@@ -1,0 +1,28 @@
+# CULA DIGITAL — N06 Palong (seed post URLs)
+# ==========================================================
+# Tier: IMBANG · Daerah: Jempol
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Palong (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N06
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: FELDA Palong; Bukit Palong
+# ISU TEMPATAN: FELDA; pekerja ladang; pemerolehan tanah
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "area Palong — BN ke PAS ke PH yg lebih sesuai kali ni?"
+#   "tengok FELDA Palong, ramai bincang pasal FELDA. korang macam mana?"
+#   "agaknya kerusi Palong flip ke kali ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Palong atau FELDA Palong
+#   • Post sebut Palong atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

@@ -1,0 +1,957 @@
+Platform,Type,ID,Text,URL,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,video_url,media_type,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,7659716945968729364,"Saya percaya manusia ialah makhluk yang suka berinteraksi. Setiap pertemuan membawa ruang untuk saling mengenali, mendengar, belajar dan memahami.
+
+Setiap insan yang ditemui memberikan nilai tambah dan pengajaran yang menjadikan diri saya lebih baik dari hari ke hari. 
+
+Terima kasih semua.
+
+Amin Sailan
+Calon No. 2
+N.16 Sungai Balang
+
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#khidmatuntuksemua
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659716945968729364,,,positive,2026-07-08 15:34:55.761071+00:00,46,0,2,425,0.9993993461132049,52,https://www.tiktok.com/@ustazamin_n16/video/7659716945968729364,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659716945968729364...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659716945968729364: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979978203773499,malay,Malay/Bumiputera,Unknown,0.0,happy,0.02706754580140114,0.025937683880329132,0.4354187250137329,0.019133448600769043,0.3840565085411072,0.032297372817993164
+tiktok,post,7659697987152596244,"Saya tak sangka, rupanya Puan Hajah Salamah yang mengenali saya ini berusia 94 tahun.
+
+Bila saya bertanya, ""Hajah kenal saya dari mana?"" Beliau tersenyum lalu menjawab, ""Saya tengok dalam surat khabar,"" sambil menunjukkan akhbar yang terselit kertas profile saya saya.
+
+MashaAllah, hebat sungguh ingatan Puan ni pada usia 94 tahun. Lebih mengharukan apabila mengetahui beliau masih rajin membaca Harakah.
+
+Terima kasih Hajah atas doa, sokongan dan semangat yang diberikan. Semoga Allah SWT terus mengurniakan kesihatan yang baik, umur yang diberkati serta melimpahkan rahmat-Nya kepada Hajah. Aamiin.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659697987152596244,,,positive,2026-07-08 15:34:56.086821+00:00,68,0,1,396,0.9820739924907684,72,https://www.tiktok.com/@ustazamin_n16/video/7659697987152596244,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659697987152596244...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659697987152596244: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9402466416358948,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.00849334429949522,0.03337150812149048,0.019107524305582047,0.025163328275084496,0.029039258137345314,0.8300878405570984
+tiktok,post,7659668707907489044,"Apabila wujud pembangkang yang kuat, kerajaan akan menjadi lebih telus, lebih bertanggungjawab dan lebih peka terhadap suara rakyat. Itulah komitmen kami jika kami diberi mandat untuk PRN kali ini demi masa depan Johor khususnya Sungai Balang yang lebih baik.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659668707907489044,,,positive,2026-07-08 15:34:56.419359+00:00,82,1,2,395,0.9743371069431304,88,https://www.tiktok.com/@ustazamin_n16/video/7659668707907489044,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659668707907489044...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659668707907489044: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9144570231437683,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03511496260762215,0.0398738719522953,0.6978210806846619,0.016684962436556816,0.1410994827747345,0.019329959526658058
+tiktok,post,7659651713581731093,"Sekitar kemeriahan suasana walkabout di Pasar Awam Parit Jawa. 
+
+Pasar Awam Parit Jawa merupakan antara pasar awam utama di pekan Parit Jawa dan menjadi tumpuan penduduk sekitar untuk mendapatkan hasil laut segar, sayur-sayuran, buah-buahan serta pelbagai barangan keperluan harian.
+
+Kedudukannya di pesisir Selat Melaka menjadikan pasar ini cukup terkenal dengan bekalan ikan, udang, ketam, sotong dan pelbagai hasil laut segar yang dibawa terus oleh nelayan tempatan. Inilah antara kekuatan ekonomi yang menjadi kebanggaan masyarakat Parit Jawa.
+
+Semoga setiap pertemuan ini menjadi langkah kecil untuk terus memahami keperluan rakyat dan berusaha memberikan yang terbaik buat Sungai Balang.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659651713581731093,,,positive,2026-07-08 15:34:56.731004+00:00,57,0,1,254,0.9993894577026367,60,https://www.tiktok.com/@ustazamin_n16/video/7659651713581731093,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659651713581731093...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659651713581731093: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979648590087891,malay,Malay/Bumiputera,Unknown,0.0,love,0.07667586207389832,0.02730591781437397,0.07990674674510956,0.04439269378781319,0.6179416179656982,0.02999371476471424
+tiktok,post,7659634895941078292,"Jika diberi peluang untuk berkhidmat, hasrat saya hanyalah ingin bersama-sama menjaga Sungai Balang agar terus menjadi tempat yang selesa untuk kita semua tinggal, aman untuk membesarkan keluarga, dan sejahtera untuk generasi akan datang.
+
+InsyaAllah, sedikit demi sedikit, kita usahakan bersama.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659634895941078292,,,positive,2026-07-08 15:34:57.044757+00:00,56,2,2,306,0.9993916571140289,63,https://www.tiktok.com/@ustazamin_n16/video/7659634895941078292,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659634895941078292...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659634895941078292: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979721903800964,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07675524801015854,0.04293122887611389,0.47042250633239746,0.03042188100516796,0.312272846698761,0.02069813571870327
+tiktok,post,7660173983014194453,"""Abang, jom kita jenguk Program Demo Sabun Basuh DIY petang ni..."" 😊
+
+Kalau isteri dah ajak, memang kena tunaikan. Barulah nampak macho, kan? 😄
+
+Alhamdulillah, petang tadi saya berpeluang menyantuni peserta Program Demo Sabun Basuh DIY.
+
+Program seperti ini mungkin nampak sederhana, tetapi manfaatnya besar. Wanita diberi ruang untuk belajar, berkongsi pengalaman, mengeratkan ukhwah, malah kemahiran yang dipelajari juga boleh membantu menjimatkan perbelanjaan rumah tangga dan berpotensi menjadi sumber pendapatan tambahan.
+
+Semoga lebih banyak program seperti ini dapat diteruskan demi melahirkan masyarakat yang lebih berilmu, berkemahiran dan sejahtera.
+
+Amin Sailan
+Calon No. 2
+N.16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660173983014194453,,,positive,2026-07-08 15:34:57.357905+00:00,7,0,0,43,0.9980525374412537,7,https://www.tiktok.com/@ustazamin_n16/video/7660173983014194453,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660173983014194453...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660173983014194453: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9935084581375122,malay,Malay/Bumiputera,Unknown,0.0,happy,0.024444248527288437,0.03418300300836563,0.7416657209396362,0.013676893897354603,0.11163194477558136,0.021276108920574188
+tiktok,post,7660157710935067925,"Setiap pertemuan hari ini menguatkan azam saya untuk terus memperjuangkan kebajikan rakyat, khususnya mereka yang sedang diuji dengan kesihatan. Semoga pada masa hadapan, lebih banyak kemudahan, bantuan dan perhatian dapat dinikmati oleh seluruh masyarakat.
+
+Pagi tadi saya berkesempatan turun bersama pasukan medik menziarahi Tuan Rahman, atau lebih dikenali sebagai Cikgu Rahman Siraj. Beliau kini diuji dengan penyakit strok dan dijaga penuh kasih sayang oleh isteri serta anaknya.
+
+Walaupun kehadiran kami tidak seberapa, kami tetap disambut dengan layanan yang begitu mesra, malah dijamu oleh tuan rumah. Inilah indahnya budi bahasa dan budaya masyarakat Johor yang sentiasa memuliakan tetamu, sesuatu yang amat saya kagumi.
+
+Semoga Allah SWT mengurniakan kesembuhan kepada Cikgu Rahman, menguatkan hati seluruh ahli keluarganya, serta mempermudahkan segala urusan mereka. Amin.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660157710935067925,,,positive,2026-07-08 15:34:57.938124+00:00,31,1,1,205,0.9993017494678497,35,https://www.tiktok.com/@ustazamin_n16/video/7660157710935067925,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660157710935067925...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660157710935067925: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9976724982261658,malay,Malay/Bumiputera,Unknown,0.0,love,0.06761477142572403,0.04888172820210457,0.0382251963019371,0.08499911427497864,0.6798060536384583,0.03920578584074974
+tiktok,post,7660135633737829652,"Saya percaya, sebuah masyarakat yang sejahtera bukan hanya diukur melalui pembangunan, tetapi juga melalui sejauh mana kita menjaga kebajikan mereka yang sakit, warga emas dan golongan yang memerlukan.
+
+Jika diberi mandat, inshaAllah saya akan berusaha menjadi suara kepada mereka, memperkukuh kebajikan dan memastikan tiada yang rasa dipinggirkan.
+
+Mohon doa agar segala usaha ini dipermudahkan. Dan jika tuan-tuan dan puan-puan yakin dengan hasrat ini, pada hari mengundi nanti berilah sokongan kepada Perikatan Nasional.
+
+Semoga Allah SWT mengurniakan kesembuhan dan kekuatan kepada semua yang sedang diuji.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660135633737829652,,,positive,2026-07-08 15:34:58.250839+00:00,37,2,1,234,0.9994066596031188,42,https://www.tiktok.com/@ustazamin_n16/video/7660135633737829652,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660135633737829652...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660135633737829652: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.998022198677063,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.04386579990386963,0.12355872988700867,0.03392673283815384,0.667132556438446,0.087711401283741,0.028240928426384926
+tiktok,post,7660131701636615445,"Apa kata mereka?
+
+AMIN SAILAN
+Calon No. 2
+N.16 Sungai Balang
+Perikatan Nasional
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660131701636615445,,,neutral,2026-07-08 15:34:58.577694+00:00,21,2,0,153,0.5,24,https://www.tiktok.com/@ustazamin_n16/video/7660131701636615445,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660131701636615445...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660131701636615445: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8496196866035461,english,Mixed/Urban,Unknown,0.0,love,0.06639296561479568,0.024249231442809105,0.09788131713867188,0.040801677852869034,0.49890923500061035,0.0252070352435112
+tiktok,post,7660106132735741204,"""Ustaz lupa ke gambar kami?"" 😄
+
+Bukan ustaz yang lupa, tapi team ustaz yang terlepas pandang nak muat naik gambar semalam.
+
+Nah, ini dia kenangan sewaktu walkabout di Pasar Petang Parit Bulat semalam. Terima kasih atas setiap sapaan dan senyuman yang diberikan. Sokongan tuan-tuan dan puan-puan menjadi kekuatan untuk saya terus berkhidmat dengan lebih bersungguh-sungguh.
+
+Sabtu nanti, pangkah Perikatan Nasional ya.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660106132735741204,,,positive,2026-07-08 15:34:58.880892+00:00,45,8,2,220,0.999391084909439,57,https://www.tiktok.com/@ustazamin_n16/video/7660106132735741204,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660106132735741204...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660106132735741204: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979702830314636,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.054284751415252686,0.10999380797147751,0.0162998978048563,0.17081686854362488,0.05430383235216141,0.4916536808013916
+tiktok,post,7660093329199287572,"G – GOVERNANS BERSIH, STABIL DAN TELUS
+
+Saya sedar kepercayaan rakyat bukan sesuatu yang mudah diperoleh, dan ia perlu dijaga dengan amanah serta tindakan yang konsisten.
+
+Dengan penuh rendah hati, saya akan berusaha memastikan pentadbiran yang bersih, telus dan adil, supaya setiap keputusan dibuat demi kebaikan rakyat dan pembangunan yang seimbang.
+
+InshaAllah, jika diberi amanah, saya akan terus mendengar pandangan, turun padang dan bekerja sebaik mungkin berlandaskan prinsip kejujuran, ketelusan dan keadilan untuk semua warga Sungai Balang.
+
+Bersama kita bina Sungai Balang yang lebih sejahtera.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660093329199287572,,,positive,2026-07-08 15:34:59.209700+00:00,31,0,0,174,0.9864532351493835,32,https://www.tiktok.com/@ustazamin_n16/video/7660093329199287572,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660093329199287572...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660093329199287572: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9548441171646118,malay,Malay/Bumiputera,Unknown,0.0,love,0.05320718139410019,0.04799395054578781,0.3803673982620239,0.03259385749697685,0.41794145107269287,0.023317214101552963
+tiktok,post,7660075152411053333,"N – NASIB GOLONGAN MUDA, WANITA DAN WARGA EMAS DIJAGA
+
+Sebuah masyarakat yang sejahtera ialah masyarakat yang tidak meninggalkan sesiapa di belakang.
+
+Golongan muda memerlukan peluang, wanita memerlukan sokongan untuk memperkasa keluarga dan ekonomi, manakala warga emas perlu terus disantuni dengan penuh kasih sayang.
+
+InshaAllah, saya mahu setiap lapisan masyarakat merasakan mereka sentiasa diberi perhatian sewajarnya.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660075152411053333,,,positive,2026-07-08 15:34:59.522594+00:00,39,0,2,163,0.9994103252887725,42,https://www.tiktok.com/@ustazamin_n16/video/7660075152411053333,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660075152411053333...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660075152411053333: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980344176292419,malay,Malay/Bumiputera,Unknown,0.0,love,0.052644744515419006,0.02975407801568508,0.051806412637233734,0.05313240736722946,0.7737094163894653,0.015203009359538555
+tiktok,post,7660067190502133012,"Sesungguhnya setiap ziarah kematian menjadi peringatan bahawa kehidupan di dunia ini hanyalah sementara, dan akhirnya kita semua akan kembali kepada-Nya.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660067190502133012,,,positive,2026-07-08 15:34:59.930184+00:00,23,0,0,148,0.9993267118930815,24,https://www.tiktok.com/@ustazamin_n16/video/7660067190502133012,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660067190502133012...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660067190502133012: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9977557063102722,malay,Malay/Bumiputera,Unknown,0.0,love,0.047569651156663895,0.03272034972906113,0.11545580625534058,0.05770816281437874,0.5518378615379333,0.027757903560996056
+tiktok,post,7660062012587773204,"Sebaik sahaja menerima khabar kematian, saya terus bergegas ke Bukit Mor untuk menziarahi keluarga yang ditimpa musibah.
+
+Alhamdulillah, Allah SWT mengizinkan saya hadir bagi memberikan penghormatan terakhir kepada Allahyarhamah Kamariah binti Md Noah serta menyampaikan ucapan takziah kepada seluruh ahli keluarga.
+
+Semoga Allah SWT mengampuni segala dosa arwah, melapangkan kuburnya, mengurniakan rahmat-Nya yang luas, dan menempatkannya dalam kalangan hamba-hamba yang beriman. Semoga keluarga yang ditinggalkan dikurniakan kekuatan, kesabaran dan ketabahan dalam menghadapi ujian ini.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660062012587773204,,,positive,2026-07-08 15:35:00.227391+00:00,19,0,1,191,0.9985508024692535,21,https://www.tiktok.com/@ustazamin_n16/video/7660062012587773204,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660062012587773204...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660062012587773204: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9951693415641785,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.031641602516174316,0.049666453152894974,0.011754765175282955,0.826444685459137,0.04159490391612053,0.023667385801672935
+tiktok,post,7660048433847258388,"A – AKSES INFRASTRUKTUR DAN KEMUDAHAN AWAM DITAMBAH BAIK
+
+Jalan yang baik, saliran yang terurus, lampu jalan yang mencukupi serta kemudahan awam yang selesa bukanlah kemewahan, tetapi keperluan rakyat.
+
+InshaAllah, setiap isu berkaitan infrastruktur akan terus diangkat dan diperjuangkan secara berperingkat agar kehidupan masyarakat menjadi lebih selesa, selamat dan berkualiti.
+
+Sedikit demi sedikit, kita bina Sungai Balang yang lebih baik untuk semua.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660048433847258388,,,positive,2026-07-08 15:35:00.547720+00:00,49,0,1,203,0.9994085371494292,52,https://www.tiktok.com/@ustazamin_n16/video/7660048433847258388,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660048433847258388...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660048433847258388: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980284571647644,malay,Malay/Bumiputera,Unknown,0.0,happy,0.07495677471160889,0.04990328103303909,0.7012020349502563,0.018912427127361298,0.10597553849220276,0.017544850707054138
+tiktok,post,7660034684822326548,"Terkejut saya dengan cara sapaan orang Sungai Balang hari ini.
+
+Walaupun cuaca agak mendung hari ini, suasana Pasar Pagi Rabu tetap meriah dengan orang ramai yang keluar mencari rezeki dan membeli keperluan harian.
+
+Terus terang, saya agak terkejut apabila beberapa orang datang menyapa, bersalaman malah ada yang memeluk saya sambil menyatakan sokongan kepada Perikatan Nasional. 
+
+Saya sedar harapan yang diletakkan itu bukan sesuatu yang kecil. Ia menjadi peringatan kepada saya bahawa masih banyak yang perlu dipelajari dan diusahakan demi memberikan khidmat yang terbaik kepada masyarakat.
+
+Mohon doakan agar sekiranya diberi kesempatan dan amanah, saya dapat melaksanakannya dengan penuh keikhlasan, istiqamah dan sebaik mungkin untuk seluruh warga Sungai Balang.
+
+Terima kasih atas layanan yang begitu baik pagi ini. Semoga Allah SWT memberkati rezeki semua para peniaga dan masyarakat di Pasar Pagi Parit Yusof.
+
+Jom Jaga Sungai Balang 🤝
+
+Undilah saya, Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660034684822326548,,,positive,2026-07-08 15:35:00.861262+00:00,38,0,0,196,0.9963291466236114,39,https://www.tiktok.com/@ustazamin_n16/video/7660034684822326548,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660034684822326548...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660034684822326548: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9877638220787048,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.007962233386933804,0.03091135434806347,0.015217513777315617,0.024621589109301567,0.018701869994401932,0.8624565601348877
+tiktok,post,7660021145923603732,"L – Ladang, Nelayan dan Petani Dibela
+
+Sungai Balang dibesarkan bersama hasil titik peluh nelayan, petani dan pengusaha ladang.
+
+Saya sedar mereka wajar diberi perhatian melalui kemudahan yang lebih baik, akses pasaran, bantuan peralatan serta infrastruktur yang menyokong pekerjaan mereka.
+
+InshaAllah, jika diberi amanah, saya akan terus berusaha memperjuangkan suara dan kebajikan mereka kerana merekalah antara tulang belakang ekonomi masyarakat kita.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660021145923603732,,,positive,2026-07-08 15:35:01.182324+00:00,41,0,1,192,0.9994098961353302,43,https://www.tiktok.com/@ustazamin_n16/video/7660021145923603732,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660021145923603732...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660021145923603732: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980329871177673,malay,Malay/Bumiputera,Unknown,0.0,love,0.03571045398712158,0.01938755437731743,0.09921254962682724,0.031773995608091354,0.7032980918884277,0.02656733989715576
+tiktok,post,7660000337020865812,"A – AGAMA DAN PENDIDIKAN DIPERKUKUHKAN 
+
+Masyarakat yang harmoni lahir daripada asas ilmu dan nilai agama yang kukuh.
+
+Agama bukan sahaja membentuk akhlak, malah mengeratkan silaturahim dan perpaduan dalam kalangan masyarakat. Pendidikan anak-anak perlu terus diberi perhatian, di samping memakmurkan masjid, surau, sekolah agama dan institusi pendidikan sebagai pusat membina insan.
+
+InshaAllah, usaha memperkukuh agama dan pendidikan akan terus menjadi keutamaan demi melahirkan generasi yang berilmu, berakhlak sekaligus melahirkan masyarakat yang lebih harmoni.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7660000337020865812,,,positive,2026-07-08 15:35:01.497853+00:00,53,0,2,194,0.9994082152843475,56,https://www.tiktok.com/@ustazamin_n16/video/7660000337020865812,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660000337020865812...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7660000337020865812: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980273842811584,malay,Malay/Bumiputera,Unknown,0.0,happy,0.08099613338708878,0.04975511133670807,0.4636751115322113,0.031207475811243057,0.3053969144821167,0.02172807790338993
+tiktok,post,7659988855021473044,"Selamat pagi dari Pasar Pagi Parit Yusof. ☀️
+
+Semoga setiap rezeki para peniaga terus diberkati dan Sungai Balang terus melangkah menjadi kawasan yang lebih sejahtera untuk kita semua.
+
+Jom pangkah Perikatan Nasional Sabtu ini!
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659988855021473044,,,positive,2026-07-08 15:35:01.812973+00:00,28,1,4,155,0.9993850409984588,34,https://www.tiktok.com/@ustazamin_n16/video/7659988855021473044,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659988855021473044...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659988855021473044: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979501366615295,malay,Malay/Bumiputera,Unknown,0.0,happy,0.046598128974437714,0.04707222431898117,0.6545843482017517,0.030297402292490005,0.16169095039367676,0.01984412781894207
+tiktok,post,7659974307623210260,"Betul ke warung-warung di Sungai Balang ni semuanya hidden gem?
+
+Setiap pagi saya singgah bersarapan di warung yang berbeza. Alhamdulillah, setiap satunya ada keistimewaan tersendiri. Makanannya sedap, suasananya tenang, dan yang paling menggembirakan ialah senyuman serta sapaan mesra daripada para pengunjung.
+
+Benda-benda kecil beginilah yang memberi semangat untuk memulakan hari. Semoga warung-warung tempatan di Sungai Balang terus maju dan menjadi pilihan ramai.
+
+Kalau terserempak dengan saya di mana-mana, jangan segan untuk menegur ya
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659974307623210260,,,positive,2026-07-08 15:35:02.160517+00:00,44,0,1,217,0.9994030654430388,47,https://www.tiktok.com/@ustazamin_n16/video/7659974307623210260,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659974307623210260...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659974307623210260: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980102181434631,malay,Malay/Bumiputera,Unknown,0.0,happy,0.06673777103424072,0.03983031585812569,0.36648860573768616,0.02674766257405281,0.3255777060985565,0.04314176365733147
+tiktok,post,7659966234338888981,"Assalamualaikum dan selamat pagi semua. 
+
+Setiap senyuman, setiap jabat tangan, dan setiap doa yang diberikan menjadi kekuatan buat saya untuk terus melangkah dan berkhidmat sebaik mungkin.
+
+Ini jadual pergerakan saya untuk hari ini. Jika terserempak, jangan segan untuk menegur dan menyapa. InsyaAllah, saya amat berbesar hati untuk bertemu dan berkenalan dengan anda semua.
+
+Jumpa nanti!
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659966234338888981,,,positive,2026-07-08 15:35:02.474202+00:00,22,0,1,160,0.9993987560272216,24,https://www.tiktok.com/@ustazamin_n16/video/7659966234338888981,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659966234338888981...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659966234338888981: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979958534240723,malay,Malay/Bumiputera,Unknown,0.0,love,0.052383165806531906,0.016162339597940445,0.04740620777010918,0.01885434240102768,0.5553209185600281,0.0432303361594677
+tiktok,post,7659943950689635605,"⏳ LAGI 3 HARI MENUJU HARI MENGUNDI
+
+Alhamdulillah, DUN Sungai Balang mencatatkan 100% kehadiran pengundi awal semalam. Tahniah dan terima kasih kepada semua anggota pasukan keselamatan yang telah menunaikan amanah sebagai pengundi.
+
+Di peringkat negeri pula, seramai 19,471 pengundi awal telah mengundi dengan peratusan keluar mengundi sebanyak 94.49%.
+
+Kini tiba giliran kita pula.
+
+🗳️ Lagi 3 hari, ayuh keluar mengundi dan tunaikan tanggungjawab anda. Setiap undi membawa harapan, setiap undi menentukan masa depan Sungai Balang.
+
+Jom Jaga Sungai Balang!
+
+Amin Sailan
+Calon No. 2 
+N.16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659943950689635605,,,positive,2026-07-08 15:35:02.785556+00:00,29,0,1,182,0.9991693556308745,31,https://www.tiktok.com/@ustazamin_n16/video/7659943950689635605,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659943950689635605...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659943950689635605: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9972311854362488,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.05034998431801796,0.03202086687088013,0.14992022514343262,0.03473999723792076,0.32176822423934937,0.03376911208033562
+tiktok,post,7659939748986866964,"G – GERAK KERJA BERINTEGRITI DAN BERAMANAH
+
+Kepercayaan masyarakat adalah tanggungjawab yang besar. Bagi saya, setiap amanah yang diberi mesti dijaga dengan penuh kejujuran, ketelusan dan komitmen. Bukan sekadar berkata-kata, tetapi membuktikannya melalui kerja yang konsisten dan hasil yang nyata.
+
+InshaAllah, jika diberikan mandat, saya akan berusaha menjadi wakil yang dekat dengan rakyat, peka terhadap masalah setempat dan melaksanakan tugas dengan penuh tanggungjawab.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659939748986866964,,,positive,2026-07-08 15:35:03.114952+00:00,32,0,2,156,0.9993939101696014,35,https://www.tiktok.com/@ustazamin_n16/video/7659939748986866964,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659939748986866964...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659939748986866964: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979797005653381,malay,Malay/Bumiputera,Unknown,0.0,love,0.047363054007291794,0.020991947501897812,0.12645705044269562,0.030123470351099968,0.6273201704025269,0.025038452818989754
+tiktok,post,7659938550741208341,"Tinta Dhuha Ustaz Amin Sailan
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659938550741208341,,,neutral,2026-07-08 15:35:03.474799+00:00,23,0,1,138,0.5,25,https://www.tiktok.com/@ustazamin_n16/video/7659938550741208341,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659938550741208341...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659938550741208341: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8482723832130432,english,Mixed/Urban,Unknown,0.0,love,0.054113030433654785,0.019789433106780052,0.09845226258039474,0.033378392457962036,0.6018587350845337,0.02451508864760399
+tiktok,post,7659817957270244629,"Alhamdulillah, malam ini saya berpeluang menunaikan solat Isyak berjemaah di Surau Al-Yakin, Parit Jawa Ulu.
+
+Seusai solat, saya mengambil kesempatan berbual dan mendengar sendiri pandangan penduduk tentang isu-isu yang mereka hadapi. Bagi saya, suara rakyat perlu didengar kerana merekalah yang lebih memahami keadaan di tempat sendiri.
+
+Antara perkara yang dibangkitkan ialah ketiadaan garisan jalan yang jelas, sekali gus menyukarkan pemanduan pada waktu malam. Keadaan ini bukan sahaja membahayakan pengguna jalan raya, malah dimaklumkan telah mengorbankan nyawa dalam beberapa kemalangan sebelum ini.
+
+Selain itu, penduduk juga mengadu tentang bekalan air yang sering tidak mencukupi, khususnya apabila tiba musim perayaan.
+
+InsyaAllah, sekiranya diberikan mandat untuk berkhidmat selepas PRN Johor ini, isu-isu ini akan saya bawa kepada pihak berkaitan dan saya akan berusaha sedaya upaya agar penyelesaiannya dapat dimulakan dalam tempoh 100 hari pertama perkhidmatan.
+
+Doakan agar segala urusan dipermudahkan demi kesejahteraan seluruh warga Sungai Balang.
+
+Amin Sailan
+Calon No. 2 
+N.16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659817957270244629,,,positive,2026-07-08 15:35:03.785676+00:00,39,0,1,204,0.9993982553482055,42,https://www.tiktok.com/@ustazamin_n16/video/7659817957270244629,video,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659817957270244629...: Failed to load video from https://www.tiktok.com/@ustazamin_n16/video/7659817957270244629: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9979941844940186,malay,Malay/Bumiputera,Unknown,0.0,anger,0.5874560475349426,0.15147963166236877,0.027226416394114494,0.13018161058425903,0.05926979333162308,0.014088641852140427
+tiktok,post,7659807945860975893,"Sementara menunggu masuk waktu Isyak tadi, saya mengambil kesempatan menziarahi seorang senior yang saya hormati dalam PAS kawasan Muar, Ustaz Khairul.
+
+Beliau merupakan antara insan yang banyak berjasa dalam menggerakkan perjuangan suatu ketika dahulu. Hari ini, walaupun diuji dengan masalah kesihatan, semangat untuk terus berbakti tetap tidak pernah padam.
+
+Kini beliau masih mencurahkan khidmat sebagai guru di SRAB Muar. Anak-anak beliau pula sentiasa setia membantu menguruskan segala pergerakan beliau. Melihat kasih sayang dan pengorbanan mereka benar-benar memberi pengajaran buat saya.
+
+Saya tidak mampu membalas segala jasa generasi terdahulu. Yang mampu hanyalah terus belajar daripada kesabaran, keikhlasan dan istiqamah mereka dalam berkhidmat.
+
+Semoga Allah SWT mengurniakan Ustaz Khairul kesihatan yang baik, mengangkat segala kesulitan yang dihadapi olehnya dan keluarganya, serta menerima segala amal dan pengorbanan beliau sebagai pahala yang berpanjangan. Amin Ya Rabbal 'Alamin.
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659807945860975893,,,positive,2026-07-08 15:35:04.110903+00:00,44,0,0,238,0.9991239011287689,46,https://www.tiktok.com/@ustazamin_n16/video/7659807945860975893,video,,positive,0.9970796704292297,malay,Malay/Bumiputera,Unknown,0.0,love,0.06448909640312195,0.06388376653194427,0.03079044073820114,0.16399334371089935,0.5702683925628662,0.060147449374198914
+tiktok,post,7659797287232720148,"B – BELIA DIPERKASA, PELUANG PEKERJAAN DIPERLUAS
+
+Anak muda bukan sekadar harapan masa depan, tetapi kekuatan Sungai Balang pada hari ini.
+
+Kita mahu lebih banyak peluang pekerjaan, latihan kemahiran, keusahawanan dan aktiviti yang membina supaya belia dapat membina kehidupan yang lebih baik tanpa perlu meninggalkan kampung halaman jika tidak perlu.
+
+InshaAllah, belia akan terus diberi perhatian kerana kemajuan Sungai Balang juga bergantung kepada kejayaan generasi mudanya.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659797287232720148,,,positive,2026-07-08 15:35:04.429145+00:00,30,0,0,165,0.9994102537631988,31,https://www.tiktok.com/@ustazamin_n16/video/7659797287232720148,video,,positive,0.9980341792106628,malay,Malay/Bumiputera,Unknown,0.0,love,0.04150800406932831,0.0618087574839592,0.21484898030757904,0.0486309789121151,0.5347753167152405,0.03110715001821518
+tiktok,post,7659777724596112660,"S – SEJAHTERA RAKYAT DIDAHULUKAN 
+
+Teras pertama yang saya bawakan dalam model S.G.B.A.L.A.N.G. untuk Sungai Balang yang lebih sejahtera ialah Sejahtera Rakyat Didahulukan.
+
+Bagi saya, kemajuan sesebuah kawasan bukan diukur pada bangunan yang tinggi semata-mata, tetapi apabila rakyatnya dapat hidup dengan lebih tenang, selesa dan sejahtera.
+InsyaAllah, jika diberi peluang berkhidmat, keutamaan saya ialah mendengar suara rakyat dan berusaha membantu menyelesaikan isu yang benar-benar dekat dengan kehidupan harian seperti kos sara hidup, kebajikan, pendidikan, peluang ekonomi dan keselamatan komuniti.
+
+Kerana bagi saya, apabila rakyat sejahtera, Sungai Balang juga akan terus maju.
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659777724596112660,,,positive,2026-07-08 15:35:04.742118+00:00,47,0,2,180,0.9994041919708252,50,https://www.tiktok.com/@ustazamin_n16/video/7659777724596112660,video,,positive,0.998013973236084,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04909581318497658,0.0433574840426445,0.5874082446098328,0.02753480151295662,0.23712939023971558,0.018273018300533295
+tiktok,post,7659771174062394645,"Pilihlah dengan baik agar 5 tahun akan datang pilihan itu membawa kemudahan bukan kesusahan, in shaAllah
+
+Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659771174062394645,,,positive,2026-07-08 15:35:05.044493+00:00,58,0,2,279,0.9993496716022491,62,https://www.tiktok.com/@ustazamin_n16/video/7659771174062394645,video,,positive,0.9978322386741638,malay,Malay/Bumiputera,Unknown,0.0,love,0.06397714465856552,0.029135964810848236,0.1793946921825409,0.03454349562525749,0.4942814111709595,0.026470603421330452
+tiktok,post,7659744800018664725,"Mengapa kita perlu terus memperjuangkan nasib masyarakat?
+
+Kerana perjuangan ini bukan hanya untuk hari ini, tetapi untuk generasi yang akan datang. Kita mahu mereka mewarisi sebuah masyarakat yang sejahtera, berakhlak dan mempunyai hala tuju.
+
+Merdeka bukan sekadar bebas melakukan apa sahaja tanpa batas. Merdeka yang sebenar ialah kebebasan yang dipandu oleh nilai dan syariat Islam, agar kehidupan menjadi lebih aman, adil dan diberkati.
+
+Semoga usaha kecil kita dengan turun mengundi kali ini menjadi bukti bahawa kita sedang berusaha untuk masa depan anak-anak kita yang lebih sejahtera. InshaAllah.
+
+Amin Sailan
+Calon No. 2 
+N.16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#JomJagaJohor
+#SungaiBalangSejahtera
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659744800018664725,,,positive,2026-07-08 15:35:05.400247+00:00,49,0,1,234,0.9994038701057433,52,https://www.tiktok.com/@ustazamin_n16/video/7659744800018664725,video,,positive,0.998012900352478,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04677616432309151,0.04604427143931389,0.6135808825492859,0.026366250589489937,0.21962153911590576,0.018320884555578232
+tiktok,post,7654529084344503572,"Kukuhkan PN dengan kemasukan 2 parti lagi
+
+#mersingsejahtera #pasmersing #BerkatPrihatinSejahtera",https://www.tiktok.com/@hakimyhussien/video/7654529084344503572,,,negative,2026-07-08 15:35:05.718331+00:00,328,9,11,4180,0.06666648834943772,389,https://www.tiktok.com/@hakimyhussien/video/7654529084344503572,video,,negative,0.777778372168541,multilingual,Unknown,Unknown,0.0,happy,0.05861165001988411,0.03885085880756378,0.38094449043273926,0.03424125164747238,0.36280176043510437,0.02656608633697033
+tiktok,post,7654504645343104277,"Lagu Mersing Sejahtera - Music Video Lyric by Abi Khaulah
+
+#BerkatPrihatinSejahtera #pasmersing #mersingsejahtera",https://www.tiktok.com/@hakimyhussien/video/7654504645343104277,,,neutral,2026-07-08 15:35:06.036353+00:00,523,43,38,3455,0.5,638,https://www.tiktok.com/@hakimyhussien/video/7654504645343104277,video,,neutral,0.868823766708374,english,Mixed/Urban,Unknown,0.0,love,0.054410431534051895,0.01914077252149582,0.08787581324577332,0.02833591029047966,0.6969568133354187,0.017712203785777092
+tiktok,post,7654154020759637269,Tak pelklah kalau dia lewat-lewatkan jugak kan?,https://www.tiktok.com/@hakimyhussien/video/7654154020759637269,,,negative,2026-07-08 15:35:06.354940+00:00,32,2,2,620,0.002864098548889138,42,https://www.tiktok.com/@hakimyhussien/video/7654154020759637269,video,,negative,0.9904530048370361,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.08492480218410492,0.07988763600587845,0.05244998633861542,0.0694909393787384,0.21697436273097992,0.24463564157485962
+tiktok,post,7653771435483155733,Walaun tak cerdik?,https://www.tiktok.com/@hakimyhussien/video/7653771435483155733,,,neutral,2026-07-08 15:35:06.675991+00:00,57,0,3,722,0.5,67,https://www.tiktok.com/@hakimyhussien/video/7653771435483155733,video,,neutral,0.8801996111869812,english,Mixed/Urban,Unknown,0.0,love,0.10732460021972656,0.09488941729068756,0.05842263251543045,0.14475545287132263,0.3402731716632843,0.057128190994262695
+tiktok,post,7653366611222498580,Tolong sat. Bagi diam sikit. Pelik-pelik je cadangan dia,https://www.tiktok.com/@hakimyhussien/video/7653366611222498580,,,positive,2026-07-08 15:35:06.982906+00:00,550,16,27,9154,0.9968783736228942,684,https://www.tiktok.com/@hakimyhussien/video/7653366611222498580,video,,positive,0.989594578742981,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.07479129731655121,0.012726124376058578,0.06838826835155487,0.017481239512562752,0.3797401785850525,0.022732360288500786
+tiktok,post,7653271717367926037,Jalan terus. Istiqamah bersama PAS.,https://www.tiktok.com/@hakimyhussien/video/7653271717367926037,,,neutral,2026-07-08 15:35:07.291654+00:00,534,26,61,3577,0.5,656,https://www.tiktok.com/@hakimyhussien/video/7653271717367926037,video,,neutral,0.8154330253601074,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.03845664858818054,0.00949177611619234,0.03688560053706169,0.010676121339201927,0.07452519237995148,0.017191288992762566
+tiktok,post,7653159463754550549,Jumpa esok di MAT PAS Kawasan Mersing,https://www.tiktok.com/@hakimyhussien/video/7653159463754550549,,,neutral,2026-07-08 15:35:07.603784+00:00,32,0,1,532,0.5,38,https://www.tiktok.com/@hakimyhussien/video/7653159463754550549,video,,neutral,0.865342378616333,english,Mixed/Urban,Unknown,0.0,love,0.06962139904499054,0.027882246300578117,0.06882255524396896,0.03236410766839981,0.5009444355964661,0.03630130738019943
+tiktok,post,7653077594132221204,"Kenyataan Media PN mengenai maklum balas daripada Jabatan Pendaftaran Pertubuhan Malaysia (ROS)
+
+#mersingsejahtera #pasmersing #BerkatPrihatinSejahtera",https://www.tiktok.com/@hakimyhussien/video/7653077594132221204,,,neutral,2026-07-08 15:35:07.973825+00:00,254,28,11,17400,0.5,467,https://www.tiktok.com/@hakimyhussien/video/7653077594132221204,video,,neutral,0.9977082014083862,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.0715569406747818,0.019056521356105804,0.1685355305671692,0.03359774127602577,0.20250168442726135,0.03055957332253456
+tiktok,post,7653022993802677524,"PAS Kuku Besi?
+
+#pasmersing #mersingsejahtera",https://www.tiktok.com/@hakimyhussien/video/7653022993802677524,,,neutral,2026-07-08 15:35:08.276499+00:00,182,9,14,2903,0.5,234,https://www.tiktok.com/@hakimyhussien/video/7653022993802677524,video,,neutral,0.8962022662162781,english,Mixed/Urban,Unknown,0.0,love,0.07212711870670319,0.03012719936668873,0.24589456617832184,0.03789215534925461,0.5132997632026672,0.01909557729959488
+tiktok,post,7652915437218417941,Merentas Desa sekolah,https://www.tiktok.com/@hakimyhussien/video/7652915437218417941,,,positive,2026-07-08 15:35:08.591863+00:00,42,7,4,774,0.8593914553523063,60,https://www.tiktok.com/@hakimyhussien/video/7652915437218417941,video,,positive,0.5313048511743546,multilingual,Unknown,Unknown,0.0,love,0.16946718096733093,0.13278476893901825,0.138680562376976,0.10233789682388306,0.1791321337223053,0.11277366429567337
+tiktok,post,7652364103746473237,"Dalam hati nak menangis juga bila melihat pakcik menangis. Tapi gagahkan untuk senyum supaya pakcik terus bersemangat dan kembali sihat. Saya doakan semua yang kita hadir siang tadi, diberi kesihatan yang baik. InsyaAllah. Amiin Ya Rabbal A'lamin.
+
+#PasMersing #ZiarahKasih #BerkatPrihatinSejahtera #MersingSejahtera",https://www.tiktok.com/@hakimyhussien/video/7652364103746473237,,,positive,2026-07-08 15:35:08.962619+00:00,66,0,3,772,0.9994034051895141,76,https://www.tiktok.com/@hakimyhussien/video/7652364103746473237,video,,positive,0.9980113506317139,malay,Malay/Bumiputera,Unknown,0.0,fear,0.05298347771167755,0.4014637768268585,0.22123903036117554,0.19221773743629456,0.07226715236902237,0.03812799230217934
+tiktok,post,7652203676617968916,Salam Ma'al Hijrah 1448H,https://www.tiktok.com/@hakimyhussien/video/7652203676617968916,,,neutral,2026-07-08 15:35:09.275793+00:00,12,0,0,265,0.5,14,https://www.tiktok.com/@hakimyhussien/video/7652203676617968916,video,,neutral,0.8763412833213806,english,Mixed/Urban,Unknown,0.0,love,0.06253421306610107,0.04711395129561424,0.1120757982134819,0.05762427672743797,0.5947137475013733,0.043562717735767365
+tiktok,post,7651518627329346836,Azlan Johar direhatkan daripada mengulas sukan,https://www.tiktok.com/@hakimyhussien/video/7651518627329346836,,,positive,2026-07-08 15:35:09.585264+00:00,115,5,8,2274,0.8221288397908211,150,https://www.tiktok.com/@hakimyhussien/video/7651518627329346836,video,,positive,0.40709613263607025,multilingual,Unknown,Unknown,0.0,love,0.07226147502660751,0.011958630755543709,0.07478182017803192,0.01898685097694397,0.6078161001205444,0.016257328912615776
+tiktok,post,7651487549810052372,YB Anthony Loke Undang Kelima? Perlekehkan sistem pentadbiran Negeri Sembilan?,https://www.tiktok.com/@hakimyhussien/video/7651487549810052372,,,neutral,2026-07-08 15:35:09.889829+00:00,29,2,1,755,0.5,39,https://www.tiktok.com/@hakimyhussien/video/7651487549810052372,video,,neutral,0.996813952922821,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.2508401572704315,0.030540142208337784,0.06919786334037781,0.1073584035038948,0.24961425364017487,0.03877931833267212
+tiktok,post,7651484145947872533,Tuduhan kepada Presiden PAS,https://www.tiktok.com/@hakimyhussien/video/7651484145947872533,,,negative,2026-07-08 15:35:10.210599+00:00,53,0,2,524,0.1775364115834236,60,https://www.tiktok.com/@hakimyhussien/video/7651484145947872533,video,,negative,0.40821196138858795,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.213842511177063,0.044622503221035004,0.12230467796325684,0.023987017571926117,0.2523937225341797,0.019178243353962898
+tiktok,post,7650700998440176916,Didikan ibubapa,https://www.tiktok.com/@hakimyhussien/video/7650700998440176916,,,neutral,2026-07-08 15:35:10.520758+00:00,29,0,2,314,0.5,34,https://www.tiktok.com/@hakimyhussien/video/7650700998440176916,video,,neutral,0.6671104431152344,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.12113236635923386,0.04065096005797386,0.08492031693458557,0.0253720972687006,0.32297348976135254,0.02472846955060959
+tiktok,post,7650402839230958869,PN milik siapa?,https://www.tiktok.com/@hakimyhussien/video/7650402839230958869,,,neutral,2026-07-08 15:35:10.836315+00:00,25,11,4,386,0.5,43,https://www.tiktok.com/@hakimyhussien/video/7650402839230958869,video,,neutral,0.8623864650726318,english,Mixed/Urban,Unknown,0.0,love,0.18969443440437317,0.06633201241493225,0.08730882406234741,0.03630994260311127,0.3729647994041443,0.032884810119867325
+tiktok,post,7650331806759161109,Cara mengira mengikut peredaran zaman,https://www.tiktok.com/@hakimyhussien/video/7650331806759161109,,,neutral,2026-07-08 15:35:11.147071+00:00,42,4,14,1396,0.5,73,https://www.tiktok.com/@hakimyhussien/video/7650331806759161109,video,,neutral,0.8149014115333557,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.017382709309458733,0.005877567920833826,0.02639741078019142,0.00706882169470191,0.06991628557443619,0.019097190350294113
+tiktok,post,7650319698386603284,Inilah dia cara ajak orang jadi baik. Terbaik pentadbiran kerajaan PAS Kelantan. Kawan saya tu tengah ceramah. Saja claim hehe 😁,https://www.tiktok.com/@hakimyhussien/video/7650319698386603284,,,negative,2026-07-08 15:35:11.463729+00:00,54,1,1,670,0.0004947423934936745,62,https://www.tiktok.com/@hakimyhussien/video/7650319698386603284,video,,negative,0.9983508586883545,malay,Malay/Bumiputera,Unknown,0.0,love,0.024589916691184044,0.007592522539198399,0.031532056629657745,0.01583694852888584,0.8701347708702087,0.012728799134492874
+tiktok,post,7650017229790104853,"Warung lama ni. Waktu sekolah darjah khas, kita dibenarkan keluar rehat sekejap. Jadi, antara warung roti canai yang kami pergi sini lah.
+
+#MersingSejahtera #PASMersing",https://www.tiktok.com/@hakimyhussien/video/7650017229790104853,,,positive,2026-07-08 15:35:11.777645+00:00,58,9,4,1040,0.9733426511287688,81,https://www.tiktok.com/@hakimyhussien/video/7650017229790104853,video,,positive,0.9111421704292297,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.1518491506576538,0.021535057574510574,0.05752239748835564,0.02535557746887207,0.28066766262054443,0.04134460911154747
+tiktok,post,7649368147849563412,Punca sebab PAS menghentikan kerjasama dengan BERSATU.,https://www.tiktok.com/@hakimyhussien/video/7649368147849563412,,,neutral,2026-07-08 15:35:12.092645+00:00,81,8,8,972,0.5,106,https://www.tiktok.com/@hakimyhussien/video/7649368147849563412,video,,neutral,0.7019632458686829,english,Mixed/Urban,Unknown,0.0,sadness,0.16736425459384918,0.11353746056556702,0.02211608551442623,0.2767150104045868,0.06903673708438873,0.1727302372455597
+tiktok,post,7649071493736959252,Akhirnya terjawab apa perkara besar 8 Jun 2026.,https://www.tiktok.com/@hakimyhussien/video/7649071493736959252,,,neutral,2026-07-08 15:35:12.397270+00:00,34,7,4,482,0.5,49,https://www.tiktok.com/@hakimyhussien/video/7649071493736959252,video,,neutral,0.903786838054657,english,Mixed/Urban,Unknown,0.0,happy,0.016970308497548103,0.29600951075553894,0.4546222686767578,0.018900204449892044,0.048800379037857056,0.12107880413532257
+tiktok,post,7659618744276225301,"Pagi ini, Saya berkesempatan hadir ke Balai Polis Parit Jawa bagi melihat sendiri perjalanan proses pengundian awal.
+
+Alhamdulillah, suasana berlangsung dengan baik, tertib dan lancar. Terima kasih kepada semua anggota keselamatan dan pengundi awal yang telah menunaikan tanggungjawab dengan penuh amanah.
+
+Jasa dan pengorbanan tuan-tuan dalam menjaga keamanan serta keselamatan masyarakat amat kami hargai. Dalam kesibukan bertugas, tanggungjawab sebagai pengundi tetap dilaksanakan demi masa depan Sungai Balang.
+
+Semoga segala urusan dipermudahkan, dan semoga Sungai Balang terus dipimpin dengan nilai amanah, prihatin dan kebersamaan.
+
+Undilah saya, Amin Sailan
+Calon No. 2 
+N16 Sungai Balang
+
+""Jom Jaga Sungai Balang""
+""Anak Muda, Jiwa Berkhidmat""
+
+#UstazAmin4SungaiBalang
+#AminSailan
+#CalonNo2
+#JomJagaJohor
+#SungaiBalangSejahtera",https://www.tiktok.com/@ustazamin_n16/video/7659618744276225301,,,positive,2026-07-08 15:35:12.715470+00:00,49,0,0,425,0.9994017779827118,53,https://www.tiktok.com/@ustazamin_n16/video/7659618744276225301,video,,positive,0.9980059266090393,malay,Malay/Bumiputera,Unknown,0.0,love,0.04665686562657356,0.02916792593896389,0.1814357489347458,0.032541219145059586,0.43171417713165283,0.03258189931511879
+tiktok,post,7657763541964950802,"Semoga Pakcik Mohd Bakirudin Haji Abdullah terus dikurniakan kesihatan yang baik, diberikan kekuatan, dipermudahkan segala urusan rawatan serta diangkat segala kesakitan yang sedang dialami.
+
+Mudah-mudahan Allah SWT mengurniakan kesembuhan dan memberkati usia beliau.
+
+#AnuarHayan #TerusBerbakti #MaharaniSejahtera #berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7657763541964950802,,,positive,2026-07-08 15:35:13.025458+00:00,118,4,6,1285,0.9994050860404968,140,https://www.tiktok.com/@anuarhayan/video/7657763541964950802,video,,positive,0.9980169534683228,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.03897857666015625,0.17390425503253937,0.023291101679205894,0.5650486350059509,0.022870974615216255,0.13821041584014893
+tiktok,post,7657762098952408327,"Salam takziah diucapkan kepada seluruh ahli keluarga Allahyarhamah Halimah binti Harun di Kampung Parit Bakar Tengah yang telah kembali ke rahmatullah.
+
+Semoga Allah SWT mengampunkan segala dosa Allahyarhamah, menerima segala amal kebajikannya serta menempatkannya dalam kalangan hamba-hamba-Nya yang beriman dan beramal soleh, insya-Allah. 
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan
+#TerusBerbakti
+#MaharaniSejahtera
+#berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7657762098952408327,,,positive,2026-07-08 15:35:13.332644+00:00,252,82,9,4353,0.9993884205818175,386,https://www.tiktok.com/@anuarhayan/video/7657762098952408327,video,,positive,0.9979614019393921,malay,Malay/Bumiputera,Unknown,0.0,happy,0.052391622215509415,0.05812111869454384,0.4468291103839874,0.05378836393356323,0.26793187856674194,0.029213834553956985
+tiktok,post,7657845553019112722,"Saya percaya pengalaman, ilmu dan kehidupan yang Allah pinjamkan kepada saya selama ini perlu saya fikirkan untuk dimanfaatkan dan kembali memberi kepada masyarakat.
+
+Sedikit kelebihan yang Allah pinjamkan kepada saya sebelum ini akan saya gunakan sebaiknya untuk kebaikkan masyarakat di Maharani.
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera
+#JomJagaMaharani 
+
+https://www.facebook.com/share/v/1cVzuqZFND/?mibextid=wwXIfr",https://www.tiktok.com/@anuarhayan/video/7657845553019112722,,,positive,2026-07-08 15:35:13.667021+00:00,128,12,3,1402,0.9993976116180419,157,https://www.tiktok.com/@anuarhayan/video/7657845553019112722,video,,positive,0.9979920387268066,malay,Malay/Bumiputera,Unknown,0.0,love,0.054099343717098236,0.033220332115888596,0.16198810935020447,0.04314227029681206,0.607940673828125,0.027002228423953056
+tiktok,post,7660157613992054024,"Pada PRN15 2022 yang lalu peratusan turun mengundi kurang memberangsangkan, hanya 55.8%. 
+
+Dikatakan faktor kestabilan ekonomi dan juga sosial ketika itu agak memberi cabaran kerana pasca covid19.
+
+Namun pada PRN16 kali ini saya melihat tiada cabaran besar untuk kita sama-sama menunaikan tanggungjawab sebagai warganegara.
+
+Terutama menjadikan diri kita sebahagian daripada mereka yang menyumbang kepada Maharani.
+
+Kepada anak-anak perantau saya merayu agar semua dapat pulang mengundi pada 11 Julai 2026 nanti.
+
+Kita sama-sama menjaga dan mengekalkan identiti maharani di bawah kepimpinan Perikatan Nasional. Jom Jaga Maharani, Jom Jaga Johor✊.
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7660157613992054024,,,positive,2026-07-08 15:35:13.992104+00:00,37,0,0,333,0.9991900622844696,40,https://www.tiktok.com/@anuarhayan/video/7660157613992054024,video,,positive,0.9973002076148987,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.020574066787958145,0.30397355556488037,0.08174342662096024,0.02451467514038086,0.030754083767533302,0.4643387496471405
+tiktok,post,7657409303162162439,"Pagi yok kita sarap..warong jagung Parit Amat
+
+#anuarhayan #perikatannasional #maharanisejahtera #terusberbakti #calonno1",https://www.tiktok.com/@anuarhayan/video/7657409303162162439,,,neutral,2026-07-08 15:35:14.300563+00:00,467,16,41,4184,0.5,565,https://www.tiktok.com/@anuarhayan/video/7657409303162162439,video,,neutral,0.8568533658981323,english,Mixed/Urban,Unknown,0.0,love,0.1106601282954216,0.030601993203163147,0.12172643095254898,0.03992093354463577,0.430389404296875,0.026571622118353844
+tiktok,post,7657373839487290631,"Kadang-kadang langkah terasa berat, tapi langkah yang paling berat itulah yang paling penting. 
+
+Jangan tunggu semuanya mudah, mula sekarang. Insya-Allah jalan akan terbuka luas selepasnya.
+
+Terus bergerak!
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan
+#TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera",https://www.tiktok.com/@anuarhayan/video/7657373839487290631,,,positive,2026-07-08 15:35:14.605041+00:00,146,7,6,1604,0.9994068741798401,175,https://www.tiktok.com/@anuarhayan/video/7657373839487290631,video,,positive,0.9980229139328003,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.10219888389110565,0.2528279721736908,0.02986711449921131,0.4780707359313965,0.07728338241577148,0.025080375373363495
+tiktok,post,7660142700632526088,"Apa Kata Cikgu Azizi: Espisod 1
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7660142700632526088,,,neutral,2026-07-08 15:35:14.917526+00:00,65,1,1,538,0.5,72,https://www.tiktok.com/@anuarhayan/video/7660142700632526088,video,,neutral,0.9096226096153259,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.026993602514266968,0.013055838644504547,0.05950389802455902,0.01832578331232071,0.21629348397254944,0.025054533034563065
+tiktok,post,7660099612912569608,"Team media saya pula ajak jadi food reviewer 😅
+
+Tak apalah… kita layan saja. Janji ada manfaat. Mana tahu video ini boleh jadi rujukan kepada yang bercadang singgah ke Muar. 
+
+Kalau datang ke Muar, jangan lupa pekena Mee Bandung Muar, asam pedas dan murtabak. Kesemua menu ni pula ada di DUN Maharani ni. 
+
+Yang menariknya, murtabak di sini memang ada identitinya yang tersendiri. Rasa dan cara penyediaannya memang lain daripada yang biasa kita jumpa di tempat lain.
+
+Kalau dah sampai Muar, jangan lepaskan peluang untuk mencubanya. Memang berbaloi !",https://www.tiktok.com/@anuarhayan/video/7660099612912569608,,,positive,2026-07-08 15:35:15.225910+00:00,64,7,0,610,0.9993821442127226,77,https://www.tiktok.com/@anuarhayan/video/7660099612912569608,video,,positive,0.9979404807090759,malay,Malay/Bumiputera,Unknown,0.0,love,0.08267967402935028,0.04244189336895943,0.038872819393873215,0.05404180288314819,0.5448038578033447,0.08115971833467484
+tiktok,post,7660099130101959954,"Setiap pertemuan pasti ada perpisahan.
+
+Dan setiap perpisahan pasti meninggalkan kenangan, memori dan pengalaman yang berbeza.
+
+Terus terang saya katakan, perpisahan kali ini cukup memberi kesan kepada saya. 
+
+Dalam tempoh berkempen ini, kami bukan sekadar menjadi rakan seperjuangan, bahkan sudah terasa seperti sebuah keluarga.
+
+Pagi ini saya meraikan kontinjen PAS Terengganu yang akan pulang ke negeri masing-masing setelah selesai menjalankan amanah membantu kempen di DUN Maharani.
+
+Terima kasih kerana sanggup meninggalkan keluarga, pekerjaan dan rutin harian demi datang membantu kami di sini. 
+
+Pengorbanan, tenaga, masa dan doa yang kalian berikan amat saya hargai dan tidak akan saya lupakan.
+
+Semoga segala penat lelah ini menjadi amal soleh di sisi Allah SWT.
+
+Semoga Allah SWT mengurniakan keselamatan dalam perjalanan pulang, melimpahkan rezeki yang berkat, memelihara ukhuwah yang terjalin dan membalas setiap pengorbanan kalian dengan sebaik-baik ganjaran.
+
+Terima kasih, Terengganu. Jasa kalian akan sentiasa saya kenang.",https://www.tiktok.com/@anuarhayan/video/7660099130101959954,,,positive,2026-07-08 15:35:15.640179+00:00,76,5,2,458,0.99936004281044,87,https://www.tiktok.com/@anuarhayan/video/7660099130101959954,video,,positive,0.9978668093681335,malay,Malay/Bumiputera,Unknown,0.0,love,0.031883228570222855,0.03309283033013344,0.05326453968882561,0.06143958494067192,0.7441065311431885,0.039735667407512665
+tiktok,post,7660098545243966738,"Ada orang bertanya kepada saya,
+
+“PAS bertanding 11 kerusi sahaja dalam PRN Johor kali ini. Bukan boleh bentuk kerajaan pun. Jadi nak jadi apa?”
+
+Memang benar, kita sedar dengan jumlah kerusi yang ditandingi, kita tidak mampu membentuk kerajaan. Namun, itu bukanlah fokus utama perjuangan kita pada hari ini.
+
+Fokus kita ialah memperkukuhkan perjuangan, memperluaskan dakwah, membina kefahaman masyarakat, melahirkan lebih ramai pendukung perjuangan serta membuktikan bahawa PAS sentiasa mampu berkhidmat kepada rakyat walau di mana kedudukannya.
+
+Dalam perjuangan, bukan semua hasil dapat dituai pada hari ini. Ada benih yang perlu ditanam, ada yang perlu disiram, dijaga dan dipelihara. Insya-Allah, suatu hari nanti hasilnya akan dapat dituai.
+
+Sebab itulah PAS sentiasa menekankan agenda dakwah dan tarbiah. Kita membina masyarakat sebelum membina kemenangan.
+
+Insya-Allah, dengan izin Allah SWT, apabila tiba masanya dan masyarakat memberikan kepercayaan, tidak mustahil PAS akan diberi peluang untuk menerajui Johor.
+
+Bagi kami, yang penting ialah terus istiqamah dalam perjuangan, terus berkhidmat kepada rakyat dan terus berusaha mencari keredaan Allah SWT, insya-Allah.",https://www.tiktok.com/@anuarhayan/video/7660098545243966738,,,negative,2026-07-08 15:35:15.948628+00:00,45,1,0,314,0.0004805624485015869,49,https://www.tiktok.com/@anuarhayan/video/7660098545243966738,video,,negative,0.9983981251716614,malay,Malay/Bumiputera,Unknown,0.0,love,0.04694005474448204,0.15778644382953644,0.12606756389141083,0.06038748845458031,0.31067657470703125,0.12736214697360992
+tiktok,post,7659993326099189000,"berbaki lagi 3 hari lagi..
+Ayuh kita nyatakan sokongan kepada Perikatan Nasional
+
+N15 Maharani",https://www.tiktok.com/@anuarhayan/video/7659993326099189000,,,negative,2026-07-08 15:35:16.303968+00:00,65,0,2,520,0.06504634022712708,72,https://www.tiktok.com/@anuarhayan/video/7659993326099189000,video,,negative,0.7831788659095764,malay,Malay/Bumiputera,Unknown,0.0,love,0.02831408753991127,0.014556357637047768,0.05467606335878372,0.016486089676618576,0.7822976112365723,0.017717456445097923
+tiktok,post,7659726783893245202,Berbaki 4 hari lagi,https://www.tiktok.com/@anuarhayan/video/7659726783893245202,,,neutral,2026-07-08 15:35:16.649213+00:00,62,0,4,732,0.5,73,https://www.tiktok.com/@anuarhayan/video/7659726783893245202,video,,neutral,0.8160533905029297,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.11303998529911041,0.03298570588231087,0.08759982138872147,0.023188067600131035,0.2968411147594452,0.0283372700214386
+tiktok,post,7659429685939539207,"Cikgu Aziz merupakan ADUN Maharani kedua  daripada PAS yang memenangi kerusi N15 ini selepas Allahyarham Dr Mohamad bin Taslim yang berjaya menawan Maharani sejak 2008.
+
+Kepimpinan Allahyarham Dr Mohamad telah berjaya meletakkan perjuangan PAS diterima masyarakat di Maharani. Ini dibuktikan dengan beliau berjaya mempertahankan kerusi Maharani selama 2 penggal berturut-turut.
+
+Sehinggalah pada PRN15, sekali lagi PAS menghantar wakil atas tiket Perikatan Nasional diwakili oleh Cikgu Abdul Aziz bin Talib. Sekali lagi wakil PAS dan Perikatan Nasional berjaya memenangi kerusi N15 ini.
+
+Kejayaan pentadbiran Cikgu Aziz sebagai ADUN yang dipilih rakyat boleh kita lihat atas kertas laporan ini. Dan sekarang baton Maharani telah dilepaskan dan diserah kepada saya.
+
+Insyaallah saya akan mempertahankan kerusi N15 Dun Maharani ini. 
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659429685939539207,,,positive,2026-07-08 15:35:16.957950+00:00,58,2,3,1128,0.99882572889328,74,https://www.tiktok.com/@anuarhayan/video/7659429685939539207,video,,positive,0.9960857629776001,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.03438990190625191,0.025017470121383667,0.08194778114557266,0.03218097239732742,0.3286716043949127,0.039080627262592316
+tiktok,post,7659394868476710152,"Esok, 7 Julai 2026, proses pengundian awal akan berlangsung melibatkan anggota Polis Diraja Malaysia (PDRM) dan petugas pilihan raya di DUN Maharani. 
+
+Proses pengundian akan diadakan di Dewan Taman Perumahan PDRM Muar. Insya-Allah, saya juga akan berada di sana untuk bertemu dan menyantuni para pengundi awal.
+
+Kepada semua pengundi awal, saya menyeru agar hadir lebih awal dan pastikan kad pengenalan dibawa bersama bagi melancarkan proses pengundian.
+
+Datanglah ke pusat mengundi dengan fikiran yang tenang dan buatlah pilihan yang terbaik demi masa depan DUN Maharani. 
+
+Pilihlah calon yang benar-benar bersedia untuk berkhidmat, mendengar suara rakyat dan memperjuangkan kepentingan semua.
+
+Saya dengan rendah hati merayu kepada seluruh pengundi awal di DUN Maharani agar memberikan peluang dan mandat kepada saya untuk berkhidmat. 
+
+Saya membawa misi yang besar untuk membangunkan Maharani yang lebih maju, sejahtera dan berdaya saing bukan sahaja para infra tetapi pada pembangunan rakyatnya. 
+
+Saya tekad untuk membangunkan modal insan dengan melahirkan masyarakat yang berilmu, berkemahiran, berakhlak dan mempunyai peluang untuk terus maju di DUN Maharani. 
+
+Saya yakin sudah tiba masanya untuk kita membawa perubahan. 
+
+Bersama kita jaga Maharani. Bersama kita jaga Johor.
+
+Terus Berbakti, Maharani Sejahtera.
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659394868476710152,,,positive,2026-07-08 15:35:17.261398+00:00,372,19,16,2470,0.9993288397789001,431,https://www.tiktok.com/@anuarhayan/video/7659394868476710152,video,,positive,0.9977627992630005,malay,Malay/Bumiputera,Unknown,0.0,happy,0.062445275485515594,0.04106946662068367,0.4440748691558838,0.0281198900192976,0.26896071434020996,0.027593687176704407
+tiktok,post,7659290004157500690,"Bismillahirrahmanirrahim. 
+
+Dengan izin Allah, kami melancarkan Halatuju Maharani Sejahtera daripada Perikatan Nasional N.15 Maharani yang kami namakan M.A.H.A.R.A.N.I.
+
+Merangkumi beberapa segmen yang melibatkan pendidikan, anak muda, hospitaliti, kebajikan dan ekonomi tempatan. Dari M.A.H.A.R.A.N.I untuk Maharani.
+
+Jom bersama kami realisasikan agenda ini demi kesinambungan Maharani yang lebih baik.
+
+Sekiranya Perikatan Nasional diberikan peluang sekali lagi di Maharani, Tawaran M.A.H.A.R.A.N.I ini akan diusaha dan diperjuangkan demi kepentingan penduduk Maharani yang saya kasihi.
+
+Maharani Sejahtera!
+
+---
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659290004157500690,,,positive,2026-07-08 15:35:17.578011+00:00,179,2,5,1420,0.9994057297706603,200,https://www.tiktok.com/@anuarhayan/video/7659290004157500690,video,,positive,0.9980190992355347,malay,Malay/Bumiputera,Unknown,0.0,love,0.07207752019166946,0.04470360651612282,0.03508616238832474,0.07506537437438965,0.6927127242088318,0.03348308801651001
+tiktok,post,7659217210044321042,"5 HARI LAGI
+
+Tahukah anda? Peratusan keluar mengundi untuk DUN N.15 Maharani pada Pilihan Raya Negeri (PRN) Johor Ke-15 (2022) adalah 55.8%.
+
+Mengambil kira kekangan semua faktor ketika itu yang masih dalam fasa pemulihan selepas serangan covid19, kemungkinan itu menjadi faktor utama peratusan keluar mengundi kurang memberangsangkan.
+
+Untuk PRN16 kali ini, saya menyeru kepada semua warga dan anak-anak Maharani yang merantau agar pulang mengundi menunaikan tanggungjawab sebagai rakyat Malaysia yang mengamalkan demokrasi.
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659217210044321042,,,negative,2026-07-08 15:35:17.920355+00:00,97,5,6,969,0.005885857343673695,117,https://www.tiktok.com/@anuarhayan/video/7659217210044321042,video,,negative,0.9803804755210876,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.09575781226158142,0.1897938847541809,0.06088247522711754,0.03518485277891159,0.042685702443122864,0.3744567334651947
+tiktok,post,7659056408566025490,"Kalau nak merasai asam pedas yang sedap di Muar, antara lokasi yang boleh anda singgah ialah Medan Selera Tanjung Emas. 
+
+Tadi saya singgah di sini sambil bertemu dan bersembang dengan masyarakat.
+
+Seronok dapat duduk bersembang, bertanya khabar dan mendengar pelbagai cerita. 
+
+Terima kasih kepada semua yang sudi menegur dan meluangkan masa untuk berbual. Semoga kita dapat bertemu lagi, insya-Allah.
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659056408566025490,,,positive,2026-07-08 15:35:18.211300+00:00,107,4,2,1130,0.9994001328945159,124,https://www.tiktok.com/@anuarhayan/video/7659056408566025490,video,,positive,0.99800044298172,malay,Malay/Bumiputera,Unknown,0.0,love,0.10615652799606323,0.05229886248707771,0.18937252461910248,0.04616275057196617,0.46346500515937805,0.04340635612607002
+tiktok,post,7659054512534998290,"‎إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+
+Hari ini saya turut hadir solat jenazah buat Allahyarham Haji Shahdan bin Shuib di Masjid Al Istiqamah, Kampung Parit Bulat.
+
+Allahyarham bukanlah orang asing bagi saya. Kampung Parit Bulat merupakan kampung halaman saya, dan Allahyarham merupakan antara insan yang cukup rapat serta banyak saya kenali sejak sekian lama.
+
+Pemergian beliau pastinya meninggalkan kesan yang mendalam buat keluarga, sahabat handai dan seluruh masyarakat yang mengenalinya.
+
+Marilah kita sama-sama mendoakan agar Allah SWT mengampunkan segala dosa Allahyarham, menerima segala amal kebajikannya, meluaskan kuburnya, menerangi alam barzakh serta menempatkannya dalam kalangan hamba-hamba-Nya yang beriman dan beramal soleh.
+
+Semoga seluruh ahli keluarga diberikan kekuatan, ketabahan dan kesabaran dalam menghadapi ujian ini.
+
+Al-Fatihah.",https://www.tiktok.com/@anuarhayan/video/7659054512534998290,,,positive,2026-07-08 15:35:18.554206+00:00,90,1,0,1122,0.999299943447113,102,https://www.tiktok.com/@anuarhayan/video/7659054512534998290,video,,positive,0.9976664781570435,malay,Malay/Bumiputera,Unknown,0.0,love,0.048890311270952225,0.06079802289605141,0.07436531037092209,0.1845063418149948,0.531559407711029,0.047284554690122604
+tiktok,post,7659055370635201810,"‎إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+
+Menziarahi kematian Allahyarhamah Zainon binti Abu di Kampung Parit Bergelen, Parit Yusof bagi menyampaikan salam takziah.
+
+Allahyarhamah merupakan sepupu kepada isteri saya. Pemergian beliau pastinya amat dirasai oleh seluruh ahli keluarga dan insan yang mengenalinya.
+
+Marilah kita sama-sama mendoakan agar Allah SWT mengampunkan segala dosa Allahyarhamah, menerima segala amal kebajikannya, meluaskan kuburnya, menerangi alam barzakh serta menempatkannya dalam kalangan hamba-hamba-Nya yang beriman.
+
+Semoga seluruh ahli keluarga diberikan kekuatan, ketabahan dan kesabaran dalam menghadapi ujian ini.
+
+Al-Fatihah.",https://www.tiktok.com/@anuarhayan/video/7659055370635201810,,,positive,2026-07-08 15:35:18.878802+00:00,85,63,2,1246,0.997887098789215,162,https://www.tiktok.com/@anuarhayan/video/7659055370635201810,video,,positive,0.9929569959640503,malay,Malay/Bumiputera,Unknown,0.0,sadness,0.04182739928364754,0.07491014152765274,0.029003050178289413,0.6345464587211609,0.13859328627586365,0.04044809937477112
+tiktok,post,7659014622468508946,"“Ustaz, semoga menang nanti.”
+
+“Ustaz, kalau Allah SWT takdirkan ustaz menang, jangan lupa kami.”
+
+“Ustaz, nanti tolong tengok-tengoklah kami peniaga di sini.”
+
+Itulah antara kata-kata yang saya terima ketika menyantuni para peniaga dan pengunjung di Pasar Tani Stadium Sultan Ibrahim, Muar pagi ini. 
+
+Sejujurnya, setiap ucapan itu saya anggap sebagai satu amanah. Di sebalik doa dan sokongan yang diberikan, terselit harapan agar seorang wakil rakyat sentiasa dekat dengan masyarakat, mendengar suara mereka dan tidak melupakan mereka selepas pilihan raya.
+
+Setiap kali bertemu masyarakat, saya juga akan menyebut bahawa saya datang membawa legasi khidmat yang telah dibina oleh mantan ADUN Maharani, Cikgu Haji Abdul Aziz bin Talib.
+
+Segala perkara yang baik telah beliau laksanakan akan saya teruskan, manakala apa yang masih boleh ditambah baik akan saya usahakan demi manfaat rakyat DUN Maharani.
+
+Namun, saya juga sedar bahawa setiap pemimpin perlu mempunyai misi dan matlamat sendiri. 
+
+Sekiranya diberikan mandat, saya ingin membawa DUN Maharani terus maju dengan mengutamakan kebajikan rakyat, pembangunan yang seimbang serta khidmat yang sentiasa dekat di hati masyarakat.
+
+Saya juga bukan orang luar. Saya anak jati Kampung Parit Bulat dan rumah saya juga berada di DUN Maharani. Sebab itu saya memahami denyut nadi masyarakat di sini kerana inilah tempat saya membesar dan inilah kampung halaman saya.
+
+Insya-Allah, saya akan terus bersama masyarakat, mendengar suara rakyat dan berusaha menjadi wakil rakyat yang sentiasa boleh didekati, bukan hanya ketika musim pilihan raya, tetapi sepanjang masa.
+
+Doakan saya. 
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7659014622468508946,,,negative,2026-07-08 15:35:19.191460+00:00,127,0,3,1103,0.00487082004547118,141,https://www.tiktok.com/@anuarhayan/video/7659014622468508946,video,,negative,0.9837639331817627,malay,Malay/Bumiputera,Unknown,0.0,love,0.030842546373605728,0.01602422632277012,0.033318910747766495,0.02993987686932087,0.7944542169570923,0.02784065157175064
+tiktok,post,7658967101000011016,"Sorotan video ketika saya menyantuni masyarakat di Pasar malam Parit Amat.
+
+Alhamdulillah, penerimaan daripada masyarakat cukup baik. Terima kasih kepada semua yang sudi bertegur sapa, bersalaman, berkongsi pandangan dan memberikan kata-kata semangat.
+
+Dalam kesempatan tersebut, saya juga menyeru seluruh pengundi agar keluar menunaikan tanggungjawab pada 11 Julai 2026.
+
+Setiap undi amat bermakna dalam menentukan masa depan DUN Maharani.
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7658967101000011016,,,positive,2026-07-08 15:35:19.508884+00:00,477,79,18,3849,0.9994033336639403,612,https://www.tiktok.com/@anuarhayan/video/7658967101000011016,video,,positive,0.9980111122131348,malay,Malay/Bumiputera,Unknown,0.0,love,0.04943684861063957,0.023661451414227486,0.0990273505449295,0.026293473318219185,0.5399487018585205,0.03739435598254204
+tiktok,post,7658881990338432274,"“Semoga ustaz menang je lah.”
+
+Terima kasih abang-abang rider penghantar makanan atas sokongan dan semangat yang diberikan kepada saya. 
+
+Insya-Allah, sama-sama kita mengundi calon nombor 1 dalam Pilihan Raya Negeri Johor DUN Maharani nanti. 
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7658881990338432274,,,positive,2026-07-08 15:35:19.846444+00:00,191,78,11,1719,0.9994020640850066,297,https://www.tiktok.com/@anuarhayan/video/7658881990338432274,video,,positive,0.9980068802833557,malay,Malay/Bumiputera,Unknown,0.0,love,0.029463786631822586,0.019364362582564354,0.13953374326229095,0.024943141266703606,0.6225427389144897,0.025902200490236282
+tiktok,post,7658841600440667399,"6 hari lagi menuju Pilihan Raya Negeri Johor.
+
+Buat seluruh pengundi DUN Maharani, inilah masanya untuk kita menentukan hala tuju DUN Maharani dan Negeri Johor bagi lima tahun akan datang.
+
+Kepada anak-anak Maharani yang berada di perantauan, saya merayu agar dapat pulang menunaikan tanggungjawab sebagai pengundi pada 11 Julai 2026.
+
+Satu undi anda amat bermakna. Jangan sia-siakan hak yang telah diberikan. Marilah kita bersama-sama keluar mengundi dan menentukan masa depan DUN Maharani.
+
+Bagi yang masih belum mengetahui lokasi pusat mengundi atau nombor saluran mengundi, bolehlah membuat semakan melalui pautan yang saya sertakan di ruangan bawah.
+
+https://mysprsemak.spr.gov.my/semakan/daftarPemilih
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7658841600440667399,,,positive,2026-07-08 15:35:20.206809+00:00,72,2,4,650,0.9961060047149657,84,https://www.tiktok.com/@anuarhayan/video/7658841600440667399,video,,positive,0.9870200157165527,malay,Malay/Bumiputera,Unknown,0.0,love,0.04684678465127945,0.04716312140226364,0.12192950397729874,0.036896102130413055,0.41444218158721924,0.038526542484760284
+tiktok,post,7658903381993360648,"Buat semua pengundi di DUN Maharani, bila masuk ke bilik mengundi nanti, jangan lupa…
+
+✅Pangkah Calon Nombor 1
+✅Pilih Ustaz Anuar Hayan
+
+Insya-Allah, setiap undi dan sokongan daripada anda amat bermakna buat masa depan DUN Maharani yang sejahtera. 
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera
+#BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7658903381993360648,,,positive,2026-07-08 15:35:20.583545+00:00,694,94,25,11600,0.998713719844818,929,https://www.tiktok.com/@anuarhayan/video/7658903381993360648,video,,positive,0.995712399482727,malay,Malay/Bumiputera,Unknown,0.0,love,0.07111645489931107,0.03792805224657059,0.25783348083496094,0.041054315865039825,0.48152485489845276,0.02545935846865177
+tiktok,post,7658839526248402194,"Dalam fasa pertengahan kempen pilihanraya ini agak mencabar kerana saya dan pasukan sedaya upaya memaksimumkan santunan kami kepada masyarakat Maharani.
+
+Jadual hari ini agak padat menyantuni pelbagai lapisan masyarakat dimulai dengan bersama-sama anak muda dalam tayangan big screen piala dunia.
+
+Saya berharap anda semua terus memberi sokongan yang padu kepada kami, doakan kami kekal semangat dan diberi kesihatan yang baik.
+
+ANUAR HAYAN
+Calon No.1
+N15 Maharani
+
+""Terus Berbakti, Maharani Sejahtera""
+
+#AnuarHayan #TerusBerbakti
+#MaharaniSejahtera #BerkatPrihatinSejahtera 
+#JomJagaMaharani",https://www.tiktok.com/@anuarhayan/video/7658839526248402194,,,positive,2026-07-08 15:35:20.889336+00:00,56,0,4,835,0.9994021356105804,68,https://www.tiktok.com/@anuarhayan/video/7658839526248402194,video,,positive,0.9980071187019348,malay,Malay/Bumiputera,Unknown,0.0,happy,0.03720545396208763,0.08416056632995605,0.6767355799674988,0.021643849089741707,0.09371830523014069,0.024870900437235832
+tiktok,post,7658119254784380168,"Sunset @ Muo
+
+#AnuarHayan #TerusBerbakti #MaharaniSejahtera #berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7658119254784380168,,,neutral,2026-07-08 15:35:21.226458+00:00,234,17,9,2051,0.5,280,https://www.tiktok.com/@anuarhayan/video/7658119254784380168,video,,neutral,0.8654700517654419,english,Mixed/Urban,Unknown,0.0,love,0.09997273236513138,0.03833233565092087,0.23352015018463135,0.04861149564385414,0.42205724120140076,0.02677321247756481
+tiktok,post,7658118789099343112,"MAXX SPORT ZONE
+Parit Bakar
+
+#AnuarHayan #TerusBerbakti #MaharaniSejahtera #berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7658118789099343112,,,neutral,2026-07-08 15:35:21.535810+00:00,48,6,4,692,0.5,64,https://www.tiktok.com/@anuarhayan/video/7658118789099343112,video,,neutral,0.8929237723350525,english,Mixed/Urban,Unknown,0.0,love,0.10294009000062943,0.03673249110579491,0.175247922539711,0.0518951341509819,0.4202674329280853,0.03131590783596039
+tiktok,post,7658118219579870471,"Semangat Orang Muda Muo
+
+#AnuarHayan #TerusBerbakti #MaharaniSejahtera #berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7658118219579870471,,,neutral,2026-07-08 15:35:21.869398+00:00,155,36,6,1506,0.5,212,https://www.tiktok.com/@anuarhayan/video/7658118219579870471,video,,neutral,0.8672734498977661,english,Mixed/Urban,Unknown,0.0,love,0.06936898827552795,0.040617406368255615,0.32757455110549927,0.03953694552183151,0.406583696603775,0.021741339936852455
+tiktok,post,7658107605981646098,,https://www.tiktok.com/@anuarhayan/video/7658107605981646098,,,neutral,2026-07-08 15:35:22.206514+00:00,97,2,8,1009,0.5,117,https://www.tiktok.com/@anuarhayan/video/7658107605981646098,video,,neutral,0.0,unknown,Unknown,,0.0,neutral,0.0,0.0,0.0,0.0,0.0,0.0
+tiktok,post,7658082840642358546,"Bersama-sama dr sam pengerusi Perikatan Nasional 
+
+#AnuarHayan #TerusBerbakti #MaharaniSejahtera #berkatprihatinsejahtera",https://www.tiktok.com/@anuarhayan/video/7658082840642358546,,,neutral,2026-07-08 15:35:22.506092+00:00,1702,49,45,15300,0.5,1949,https://www.tiktok.com/@anuarhayan/video/7658082840642358546,video,,neutral,0.9123579859733582,english,Mixed/Urban,Unknown,0.0,love,0.08430751413106918,0.035680655390024185,0.21687571704387665,0.04550960659980774,0.4035611152648926,0.0306271780282259
+tiktok,post,7657159905773669640,"Al fatihah dibaca, moga-moga Al Marhum ditempatkan di syurga allah bersama orang-orang yang soleh solehah, Aminnn..
+##anuarhayan #perikatannasional #maharanisejahtera #terusberbakti #calonno1",https://www.tiktok.com/@anuarhayan/video/7657159905773669640,,,neutral,2026-07-08 15:35:22.857634+00:00,117,1,1,1487,0.5,133,https://www.tiktok.com/@anuarhayan/video/7657159905773669640,video,,neutral,0.5581487417221069,english,Mixed/Urban,Unknown,0.0,love,0.06576913595199585,0.02654917910695076,0.1639890968799591,0.036012448370456696,0.6474876403808594,0.017187895253300667

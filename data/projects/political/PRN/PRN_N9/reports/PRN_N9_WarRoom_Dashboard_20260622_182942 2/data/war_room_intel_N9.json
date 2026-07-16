@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "generated": "2026-06-13 14:27",
+    "master_source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260612_031929.csv",
+    "mode": "lite",
+    "phases": [
+      "hari_ini",
+      "module_checklist",
+      "whatsapp"
+    ]
+  },
+  "hari_ini": {
+    "date": "2026-06-13",
+    "items": [
+      {
+        "id": "today_N05",
+        "kod_dun": "N05",
+        "kawasan": "Serting",
+        "kategori_pas": "defend",
+        "kategori_label": "Pertahan",
+        "action_text": "Crawl keyword: PRN N05 Serting — 2×/hari semasa kempen.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 70,
+        "mentions": 6,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 30593,
+        "pct_melayu": 79.5,
+        "cula_pct": 10.7,
+        "cula_pas_total": 3273,
+        "skt51": 10610,
+        "bkc_cula": -7337,
+        "jentera_status": "Jentera perlu diperkukuh",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -7,337 (SKT 10,610). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": "Mohd Fairuz Bin Mohd Isa"
+      },
+      {
+        "id": "today_N25",
+        "kod_dun": "N25",
+        "kawasan": "Paroi",
+        "kategori_pas": "defend",
+        "kategori_label": "Pertahan",
+        "action_text": "Crawl keyword: PRN N25 Paroi — 2×/hari semasa kempen.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 82,
+        "mentions": 10,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 64582,
+        "pct_melayu": 79.9,
+        "cula_pct": 5.06,
+        "cula_pas_total": 3268,
+        "skt51": 22397,
+        "bkc_cula": -19129,
+        "jentera_status": "Jentera perlu diperkukuh",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -19,129 (SKT 22,397). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": "Haji Kamarol Ridzuan Bin Mohd Zain"
+      },
+      {
+        "id": "today_N31",
+        "kod_dun": "N31",
+        "kawasan": "Bagan Pinang",
+        "kategori_pas": "defend",
+        "kategori_label": "Pertahan",
+        "action_text": "Crawl keyword: PRN N31 Bagan Pinang — 2×/hari semasa kempen.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 82,
+        "mentions": 13,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 27926,
+        "pct_melayu": 79.01,
+        "cula_pct": 2.42,
+        "cula_pas_total": 677,
+        "skt51": 9685,
+        "bkc_cula": -9008,
+        "jentera_status": "Jentera perlu diperkukuh",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -9,008 (SKT 9,685). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": "Ustaz Abdul Fatah Bin Zakaria"
+      },
+      {
+        "id": "today_N03",
+        "kod_dun": "N03",
+        "kawasan": "Sungai Lui",
+        "kategori_pas": "winnable",
+        "kategori_label": "Boleh Menang",
+        "action_text": "Pantau calon lawan (Mohd Nordin Hasim) — socmed & ceramah.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 51.0,
+        "mentions": 3,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 19711,
+        "pct_melayu": 84.83,
+        "cula_pct": 24.76,
+        "cula_pas_total": 4880,
+        "skt51": 6836,
+        "bkc_cula": -1956,
+        "jentera_status": "Asas cula kuat — perlu undi",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -1,956 (SKT 6,836). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": null
+      },
+      {
+        "id": "today_N09",
+        "kod_dun": "N09",
+        "kawasan": "Lenggeng",
+        "kategori_pas": "winnable",
+        "kategori_label": "Boleh Menang",
+        "action_text": "Pantau calon lawan (Mohd Fadli Che Me) — socmed & ceramah.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 50.5,
+        "mentions": 10,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 28671,
+        "pct_melayu": 79.57,
+        "cula_pct": 3.52,
+        "cula_pas_total": 1010,
+        "skt51": 9943,
+        "bkc_cula": -8933,
+        "jentera_status": "Jentera perlu diperkukuh",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -8,933 (SKT 9,943). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": null
+      },
+      {
+        "id": "today_N18",
+        "kod_dun": "N18",
+        "kawasan": "Pilah",
+        "kategori_pas": "winnable",
+        "kategori_label": "Boleh Menang",
+        "action_text": "Pantau calon lawan (Rafiei Mustapha) — socmed & ceramah.",
+        "action_type": "intel",
+        "action_source": "playbook",
+        "pas_win_prob": 38,
+        "mentions": 1,
+        "neg_pct": 0.0,
+        "alert_level": "ok",
+        "registered_voters_dpi": 17963,
+        "pct_melayu": 66.66,
+        "cula_pct": 1.93,
+        "cula_pas_total": 347,
+        "skt51": 6230,
+        "bkc_cula": -5883,
+        "jentera_status": "Jentera perlu diperkukuh",
+        "jentera_hint": "JENTERA: sahkan cula & daftar undi — BKC -5,883 (SKT 6,230). Fokus Bulan/Condong Bulan hari ini.",
+        "mn_calon": "Hamzah Bin Hassan"
+      }
+    ],
+    "alerts": [
+      {
+        "kod_dun": "N03",
+        "message": "Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.",
+        "severity": "warning"
+      },
+      {
+        "kod_dun": "N05",
+        "message": "Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.",
+        "severity": "warning"
+      },
+      {
+        "kod_dun": "N09",
+        "message": "Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.",
+        "severity": "warning"
+      }
+    ],
+    "media_alerts": [
+      {
+        "kod_dun": null,
+        "message": "Naratif split PAS/PN muncul dalam 1 artikel/komen media (Tier A)",
+        "severity": "watch",
+        "source": "media_tier_a"
+      },
+      {
+        "kod_dun": null,
+        "message": "Isu istana/institusi dalam 4 item media — pantau naratif",
+        "severity": "warning",
+        "source": "media_tier_a"
+      }
+    ],
+    "jentera_alerts": [
+      {
+        "kod_dun": "N25",
+        "message": "BKC cula -19,129 · cula 5.06% · Jentera perlu diperkukuh",
+        "severity": "critical"
+      },
+      {
+        "kod_dun": "N31",
+        "message": "BKC cula -9,008 · cula 2.42% · Jentera perlu diperkukuh",
+        "severity": "critical"
+      },
+      {
+        "kod_dun": "N09",
+        "message": "BKC cula -8,933 · cula 3.52% · Jentera perlu diperkukuh",
+        "severity": "critical"
+      },
+      {
+        "kod_dun": "N05",
+        "message": "BKC cula -7,337 · cula 10.7% · Jentera perlu diperkukuh",
+        "severity": "critical"
+      },
+      {
+        "kod_dun": "N18",
+        "message": "BKC cula -5,883 · cula 1.93% · Jentera perlu diperkukuh",
+        "severity": "critical"
+      },
+      {
+        "kod_dun": "N03",
+        "message": "BKC cula -1,956 · cula 24.76% · Asas cula kuat — perlu undi",
+        "severity": "warning"
+      }
+    ],
+    "dpi_as_of": "Disember 2025 (SPR DPI)",
+    "done_count_hint": 0
+  },
+  "socmed_rollups": {
+    "mention_volume_24h": null,
+    "neg_pct_avg": null,
+    "top_issues": [
+      {
+        "label": "Split PAS/PN",
+        "pct": 24
+      },
+      {
+        "label": "Institusi & Istana",
+        "pct": 24
+      },
+      {
+        "label": "Perkhidmatan Kerajaan Tempatan",
+        "pct": 18
+      }
+    ],
+    "source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260621_230150.csv"
+  }
+}

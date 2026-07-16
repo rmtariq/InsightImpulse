@@ -1,0 +1,17 @@
+{
+  "source": {
+    "N9_Melaka": "Laporan geolokasi kerusi pilihan raya Negeri Sembilan dan Melaka untuk war room.docx",
+    "Johor": "prn_johor_geolokasi_war_room.xlsx"
+  },
+  "generatedFrom": "build_warroom_geoloc_dataset.py",
+  "counts": {
+    "N9": 36,
+    "Melaka": 28,
+    "Johor": 56
+  },
+  "notes": {
+    "N9": "Geo rasmi/semi-rasmi + status war room React",
+    "Melaka": "Geo JAPERUN (readiness layer) — bukan PRN diwartakan setakat Jun 2026",
+    "Johor": "Geo proksi 56 kerusi (34 Tinggi, 21 Sederhana, 1 Rendah) — overlay GeoJohor sebelum lapangan"
+  }
+}

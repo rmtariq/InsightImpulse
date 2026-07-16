@@ -1,0 +1,612 @@
+{
+  "meta": {
+    "state": "N9",
+    "generated": "2026-06-22 18:29:14",
+    "master_source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260621_230150.csv",
+    "state_rows_scanned": 1386,
+    "window_end_utc": "2026-06-21T13:02:21+00:00",
+    "headline_max_age_days": 90,
+    "window_24h_note": "24j = 24 jam sebelum tarikh crawl terakhir dalam master"
+  },
+  "byDun": {
+    "N01": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N02": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 585,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N03": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…njadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah.…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N04": {
+      "mentions_total": 5,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 20.0,
+      "pos_pct": 0.0,
+      "engagement_total": 757,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 2,
+        "youtube": 1,
+        "facebook": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…geri Sembilan: Bakri tidak berhasrat pertahan DUN Klawang #BHnasional Namun Bakri akur jika pucuk pimpinan mahu beliau terus mempertahankan kerusi dimenangi sej…",
+      "top_snippet_date": "2026-06-06T05:20:52+00:00"
+    },
+    "N05": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…kum Wbt dan Salam sejahtera kepada seluruh rakyat Serting yang dikasihi sekalian. Alhamdulillah, pada detik ini, angin perpisahan membawa saya ke helaian baru y…",
+      "top_snippet_date": "2026-06-04T22:41:06+00:00"
+    },
+    "N06": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N07": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 33.3,
+      "engagement_total": 464,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "facebook": 2,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N08": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N09": {
+      "mentions_total": 10,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 823,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 3,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…media rasmi Ahmad Shuaib Bin Ismail Umno cawangan Lenggeng Bandaraya Seremban luak Sungai ujong n9 8-6-2026 Kebangkitan Minang kabau hapuskan PKR Anwar Ibrahim…",
+      "top_snippet_date": "2026-06-08T12:47:34+00:00"
+    },
+    "N10": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N11": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N12": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N13": {
+      "mentions_total": 10,
+      "mentions_24h": 1,
+      "mentions_7d": 5,
+      "neg_pct": 0.0,
+      "pos_pct": 10.0,
+      "engagement_total": 15379,
+      "engagement_24h": 12539,
+      "platforms": {
+        "x": 4,
+        "facebook": 4,
+        "youtube": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "Berbaju Melayu putih, calon PN DUN Sikamat, Ahmad Raihan Muhamad Hilal tiba pada pukul 8.52 pagi di Dewan Komuniti Corul Heights bagi proses penamaan calon. Ahm…",
+      "top_snippet_date": "2026-06-20T14:55:55.832291+00:00"
+    },
+    "N14": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 25.0,
+      "engagement_total": 547,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ijangka menjadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat da…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N15": {
+      "mentions_total": 4,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…an yang dijangka menjadi tumpuan itu termasuk DUN Juasseh; Ampangan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; S…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N16": {
+      "mentions_total": 16,
+      "mentions_24h": 1,
+      "mentions_7d": 4,
+      "neg_pct": 6.2,
+      "pos_pct": 18.8,
+      "engagement_total": 29234,
+      "engagement_24h": 3950,
+      "platforms": {
+        "tiktok": 5,
+        "x": 5,
+        "facebook": 4,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…dat yang diadakan di Balairong Seri, Istana Besar Seri Menanti pada Khamis. #SinarHarian #BeritaTerkini #60Saat #TunkuZain #NegeriSembilan #Istana",
+      "top_snippet_date": "2026-06-11T16:35:59.454896+00:00"
+    },
+    "N17": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 545,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1,
+        "facebook": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…gan; Sungai Lui; Klawang; Lenggeng; Seri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah. Pada PRN ke-15 yang lalu, DUN Juasseh dimena…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N18": {
+      "mentions_total": 8,
+      "mentions_24h": 1,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 28262,
+      "engagement_24h": 3950,
+      "platforms": {
+        "x": 4,
+        "youtube": 2,
+        "news": 1,
+        "tiktok": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…adisi yang diadakan di Istana Besar Seri Menanti, Kuala Pilah, Negeri Sembilan pada 29 Oktober 2009. Istiadat ini dimulakan dengan keberangkatan masuk DYMM Tuan…",
+      "top_snippet_date": "2026-06-20T13:23:16.044477+00:00"
+    },
+    "N19": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 1,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 975,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 4,
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…si yang dibuat secara sendiri memecat undang luak johol telah ditolak keras oleh 3 ahli DKU iaitu Undang Johol, Tunku Besar Tampin dan Dato Syahbandar Sungei Uj…",
+      "top_snippet_date": "2026-06-06T23:50:53+00:00"
+    },
+    "N20": {
+      "mentions_total": 0,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 0,
+      "engagement_24h": 0,
+      "platforms": {},
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N21": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 457,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N22": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N23": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N24": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N25": {
+      "mentions_total": 10,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 30.0,
+      "engagement_total": 1141,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "news": 2,
+        "facebook": 2,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "…ri Menanti, Senaling, Pilah, Johol, Linggi, Labu; Paroi; Sikamat dan Chennah. Pada PRN ke-15 yang lalu, DUN Juasseh dimenangi oleh Datin Seri Bibi Sharliza Mohd…",
+      "top_snippet_date": "2026-06-15T03:54:04+00:00"
+    },
+    "N26": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N27": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N28": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 357,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N29": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N30": {
+      "mentions_total": 2,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 129,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1,
+        "youtube": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N31": {
+      "mentions_total": 13,
+      "mentions_24h": 0,
+      "mentions_7d": 2,
+      "neg_pct": 0.0,
+      "pos_pct": 7.7,
+      "engagement_total": 6453,
+      "engagement_24h": 0,
+      "platforms": {
+        "youtube": 5,
+        "x": 3,
+        "tiktok": 3,
+        "facebook": 2
+      },
+      "alert_level": "ok",
+      "top_snippet": "…itu lah aku jumpa balik dengan beliau Sewaktu PRK Bagan Pinang calon PAS Allahyarham Zulkifli Omar 2013 beliau hampir dicalonkan untuk bertanding di Chembong ta…",
+      "top_snippet_date": "2026-06-20T10:50:20.018383+00:00"
+    },
+    "N32": {
+      "mentions_total": 6,
+      "mentions_24h": 0,
+      "mentions_7d": 3,
+      "neg_pct": 16.7,
+      "pos_pct": 0.0,
+      "engagement_total": 1504,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 3,
+        "facebook": 2,
+        "instagram": 1
+      },
+      "alert_level": "critical",
+      "top_snippet": "…ERI SEMBILAN Spekulasi Aminuddin Berpindah Ke DUN Linggi Semakin Hangat SEREMBAN: Spekulasi mengenai kedudukan Menteri Besar Negeri Sembilan, Datuk Seri Aminudd…",
+      "top_snippet_date": "2026-06-15T02:56:21+00:00"
+    },
+    "N33": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N34": {
+      "mentions_total": 3,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 233,
+      "engagement_24h": 0,
+      "platforms": {
+        "facebook": 2,
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N35": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    },
+    "N36": {
+      "mentions_total": 1,
+      "mentions_24h": 0,
+      "mentions_7d": 0,
+      "neg_pct": 0.0,
+      "pos_pct": 0.0,
+      "engagement_total": 128,
+      "engagement_24h": 0,
+      "platforms": {
+        "x": 1
+      },
+      "alert_level": "ok",
+      "top_snippet": "",
+      "top_snippet_date": null
+    }
+  },
+  "rollup": {
+    "mentions_total_state": 1386,
+    "seats_with_mentions": 35,
+    "seats_with_recent_headline": 14,
+    "top_seats_24h": [
+      [
+        "N13",
+        1
+      ],
+      [
+        "N16",
+        1
+      ],
+      [
+        "N18",
+        1
+      ]
+    ]
+  }
+}

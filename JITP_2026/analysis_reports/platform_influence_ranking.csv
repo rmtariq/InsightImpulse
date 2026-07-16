@@ -1,0 +1,4 @@
+platform,total_posts,total_engagement,avg_engagement,max_engagement,avg_sentiment_score,positive_posts,negative_posts
+youtube,12,281,23.416666666666668,71,0.07187051375706985,1,11
+x,10,79,7.9,34,0.3460002094507217,1,4
+facebook,2,0,0.0,0,0.5,0,0

@@ -1,0 +1,22 @@
+COMMAND JOHOR — NARATIF CINA & INDIA
+=====================================
+
+cd /Users/rmtariq/Documents/InsightPulse
+source NEImpulse/bin/activate
+
+# ── JOHOR PENUH (disyorkan PRN Johor) ─────────────────────────
+./scripts/update_narrative.sh johor
+
+# ── PAGI (3 negeri termasuk Johor) ────────────────────────────
+./scripts/update_narrative.sh pagi
+
+# ── CEPAT (publish tanpa crawl) ───────────────────────────────
+./scripts/update_narrative.sh semak
+
+# ── BUKA WAR ROOM ─────────────────────────────────────────────
+bash scripts/start_prn_warroom_prototype.sh
+
+# Johor Modul #6:
+# http://localhost:8080/?module=narrative&state=Johor
+
+# Hard refresh: Cmd+Shift+R

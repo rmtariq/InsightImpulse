@@ -1,0 +1,11 @@
+{
+  "state_id": "PRN_Melaka",
+  "name": "PRN Melaka 2026",
+  "dun_seats": 28,
+  "status": "skeleton",
+  "note": "Folder siap — tunggu crawl berita & socmed.",
+  "folders": {
+    "crawls/news": "Berita PRN Melaka (future)",
+    "reports/dashboards": "Dashboard Melaka (future)"
+  }
+}

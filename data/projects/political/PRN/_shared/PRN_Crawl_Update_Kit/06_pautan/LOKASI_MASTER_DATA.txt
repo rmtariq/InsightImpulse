@@ -1,0 +1,15 @@
+LOKASI DATA MASTER (repo — tidak disalin ke Desktop)
+=====================================================
+
+Master terkini (21 Jun):
+  data/combined/PRN_Johor_N9_master_20260621.csv  (4,347 rekod)
+
+Project copy:
+  data/projects/political/pas_break_2026/crawls/
+  data/projects/political/pas_break_2026/master/
+
+War room JSON:
+  data/projects/political/PRN/PRN_N9/reports/war_room/prototype/data/
+
+Excel intel:
+  data/projects/political/PRN/_shared/Terkini_20062026_PRN_N9_Johor_Melaka_Update_2026.xlsx

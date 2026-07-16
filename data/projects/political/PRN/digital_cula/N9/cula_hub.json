@@ -1,39 +1,39 @@
 {
   "meta": {
     "state": "N9",
-    "generated": "2026-06-17 22:19:26",
+    "generated": "2026-07-16 11:38:10",
     "dun_count": 36,
-    "submission_count": 3
+    "submission_count": 24
   },
   "summary": {
-    "verified_delta_total": 32,
-    "verified_delta_24h": 32,
+    "verified_delta_total": 270,
+    "verified_delta_24h": 0,
     "pending_count": 0,
     "rejected_count": 0,
-    "submission_count": 3
+    "submission_count": 24
   },
   "byDun": {
     "N01": {
       "name": "Chennah",
-      "verified_delta_total": 0,
+      "verified_delta_total": 68,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 90,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 21,
+        "condong": 20,
+        "atas_pagar": 16,
+        "dacing": 11
       },
       "baseline_cula_pas_total": 923,
       "baseline_cula_pct": 6.4,
       "registered_voters_dpi": 14427,
       "skt51": 5003,
-      "last_verified_at": null,
-      "digital_cula_total": 923,
-      "digital_cula_pct": 6.4,
-      "bkc_cula": -4080
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 991,
+      "digital_cula_pct": 6.87,
+      "bkc_cula": -4012
     },
     "N02": {
       "name": "Pertang",
@@ -59,11 +59,11 @@
     },
     "N03": {
       "name": "Sungai Lui",
-      "verified_delta_total": 0,
+      "verified_delta_total": 8,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 12,
       "breakdown": {
         "bulan": 0,
         "condong": 0,
@@ -74,10 +74,10 @@
       "baseline_cula_pct": 24.76,
       "registered_voters_dpi": 19711,
       "skt51": 6836,
-      "last_verified_at": null,
-      "digital_cula_total": 4880,
-      "digital_cula_pct": 24.76,
-      "bkc_cula": -1956
+      "last_verified_at": "2026-07-03 01:09:50",
+      "digital_cula_total": 4888,
+      "digital_cula_pct": 24.8,
+      "bkc_cula": -1948
     },
     "N04": {
       "name": "Klawang",
@@ -103,25 +103,25 @@
     },
     "N05": {
       "name": "Serting",
-      "verified_delta_total": 8,
-      "verified_delta_24h": 8,
+      "verified_delta_total": 24,
+      "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 15,
+      "rumah_dilawati_total": 45,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 4,
+        "condong": 6,
+        "atas_pagar": 4,
+        "dacing": 2
       },
       "baseline_cula_pas_total": 3273,
       "baseline_cula_pct": 10.7,
       "registered_voters_dpi": 30593,
       "skt51": 10610,
-      "last_verified_at": "2026-06-17 10:14:37",
-      "digital_cula_total": 3281,
-      "digital_cula_pct": 10.72,
-      "bkc_cula": -7329
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 3297,
+      "digital_cula_pct": 10.78,
+      "bkc_cula": -7313
     },
     "N06": {
       "name": "Palong",
@@ -169,11 +169,11 @@
     },
     "N08": {
       "name": "Bahau",
-      "verified_delta_total": 0,
+      "verified_delta_total": 10,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 17,
       "breakdown": {
         "bulan": 0,
         "condong": 0,
@@ -184,10 +184,10 @@
       "baseline_cula_pct": 4.0,
       "registered_voters_dpi": 25951,
       "skt51": 9000,
-      "last_verified_at": null,
-      "digital_cula_total": 1039,
-      "digital_cula_pct": 4.0,
-      "bkc_cula": -7961
+      "last_verified_at": "2026-07-03 01:09:50",
+      "digital_cula_total": 1049,
+      "digital_cula_pct": 4.04,
+      "bkc_cula": -7951
     },
     "N09": {
       "name": "Lenggeng",
@@ -213,25 +213,25 @@
     },
     "N10": {
       "name": "Nilai",
-      "verified_delta_total": 0,
+      "verified_delta_total": 32,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 50,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 8,
+        "condong": 12,
+        "atas_pagar": 6,
+        "dacing": 6
       },
       "baseline_cula_pas_total": 873,
       "baseline_cula_pct": 1.92,
       "registered_voters_dpi": 45487,
       "skt51": 15775,
-      "last_verified_at": null,
-      "digital_cula_total": 873,
-      "digital_cula_pct": 1.92,
-      "bkc_cula": -14902
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 905,
+      "digital_cula_pct": 1.99,
+      "bkc_cula": -14870
     },
     "N11": {
       "name": "Lobak",
@@ -433,25 +433,25 @@
     },
     "N20": {
       "name": "Labu",
-      "verified_delta_total": 0,
+      "verified_delta_total": 26,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 40,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 6,
+        "condong": 10,
+        "atas_pagar": 6,
+        "dacing": 4
       },
       "baseline_cula_pas_total": 1657,
       "baseline_cula_pct": 5.09,
       "registered_voters_dpi": 32575,
       "skt51": 11297,
-      "last_verified_at": null,
-      "digital_cula_total": 1657,
-      "digital_cula_pct": 5.09,
-      "bkc_cula": -9640
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 1683,
+      "digital_cula_pct": 5.17,
+      "bkc_cula": -9614
     },
     "N21": {
       "name": "Bukit Kepayang",
@@ -543,25 +543,25 @@
     },
     "N25": {
       "name": "Paroi",
-      "verified_delta_total": 24,
-      "verified_delta_24h": 24,
+      "verified_delta_total": 66,
+      "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 40,
+      "rumah_dilawati_total": 112,
       "breakdown": {
-        "bulan": 6,
-        "condong": 10,
-        "atas_pagar": 4,
-        "dacing": 4
+        "bulan": 16,
+        "condong": 28,
+        "atas_pagar": 12,
+        "dacing": 10
       },
       "baseline_cula_pas_total": 3268,
       "baseline_cula_pct": 5.06,
       "registered_voters_dpi": 64582,
       "skt51": 22397,
-      "last_verified_at": "2026-06-17 10:14:37",
-      "digital_cula_total": 3292,
-      "digital_cula_pct": 5.1,
-      "bkc_cula": -19105
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 3334,
+      "digital_cula_pct": 5.16,
+      "bkc_cula": -19063
     },
     "N26": {
       "name": "Chembong",
@@ -587,25 +587,25 @@
     },
     "N27": {
       "name": "Rantau",
-      "verified_delta_total": 0,
+      "verified_delta_total": 22,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 38,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 4,
+        "condong": 10,
+        "atas_pagar": 4,
+        "dacing": 4
       },
       "baseline_cula_pas_total": 419,
       "baseline_cula_pct": 1.21,
       "registered_voters_dpi": 34636,
       "skt51": 12012,
-      "last_verified_at": null,
-      "digital_cula_total": 419,
-      "digital_cula_pct": 1.21,
-      "bkc_cula": -11593
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 441,
+      "digital_cula_pct": 1.27,
+      "bkc_cula": -11571
     },
     "N28": {
       "name": "Kota",
@@ -697,25 +697,25 @@
     },
     "N32": {
       "name": "Linggi",
-      "verified_delta_total": 0,
+      "verified_delta_total": 14,
       "verified_delta_24h": 0,
       "pending_count": 0,
       "rejected_count": 0,
-      "rumah_dilawati_total": 0,
+      "rumah_dilawati_total": 28,
       "breakdown": {
-        "bulan": 0,
-        "condong": 0,
-        "atas_pagar": 0,
-        "dacing": 0
+        "bulan": 2,
+        "condong": 6,
+        "atas_pagar": 4,
+        "dacing": 2
       },
       "baseline_cula_pas_total": 1128,
       "baseline_cula_pct": 5.43,
       "registered_voters_dpi": 20768,
       "skt51": 7202,
-      "last_verified_at": null,
-      "digital_cula_total": 1128,
-      "digital_cula_pct": 5.43,
-      "bkc_cula": -6074
+      "last_verified_at": "2026-07-03 01:14:56",
+      "digital_cula_total": 1142,
+      "digital_cula_pct": 5.5,
+      "bkc_cula": -6060
     },
     "N33": {
       "name": "Sri Tanjung",

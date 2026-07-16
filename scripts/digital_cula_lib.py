@@ -371,18 +371,21 @@ def bulk_import(
     *,
     uploader: str,
     auto_verify: bool = True,
+    default_tarikh: str = "",
 ) -> dict:
     """Import many rows — default auto_verify (upload = sudah disemak HQ)."""
     if len(uploader.strip()) < 2:
         return {"ok": False, "error": "ID uploader HQ/PDM wajib.", "imported": 0, "errors": []}
 
+    fallback_tarikh = norm_date(default_tarikh) or now_myt().strftime("%Y-%m-%d")
     imported = 0
     errors: List[str] = []
     for item in items:
-        tarikh = norm_date(item.get("tarikh_lawatan")) or item.get("tarikh_lawatan")
+        tarikh = norm_date(item.get("tarikh_lawatan")) or fallback_tarikh
         payload = {
             **item,
             "tarikh_lawatan": tarikh,
+            "pelapor_id": str(item.get("pelapor_id") or uploader).strip(),
             "jenis_aktiviti": item.get("jenis_aktiviti") or "door_to_door",
             "reviewer_note": f"Batch upload by {uploader}",
         }
@@ -557,6 +560,14 @@ def rebuild_hub(state: str) -> dict:
     out.write_text(json.dumps(hub, ensure_ascii=False, indent=2), encoding="utf-8")
     proto = prototype_hub_path(state)
     proto.write_text(json.dumps(hub, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    try:
+        from cula_action_bridge import sync_cula_actions
+
+        sync_cula_actions(state, hub, rows)
+    except Exception as exc:
+        print(f"[cula_action_bridge] {state}: {exc}", file=__import__("sys").stderr)
+
     return hub
 
 

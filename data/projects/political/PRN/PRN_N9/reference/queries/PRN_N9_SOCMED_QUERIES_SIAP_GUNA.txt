@@ -1,0 +1,81 @@
+# PRN NEGERI SEMBILAN — QUERY SOCMED SIAP GUNA (InsightPulse App)
+# ./start_full_app.sh → browser → project: pas_break_2026
+# dataset_size: 2000 · date: 30 days
+# Platform: pilih ikut baris (news / facebook / x / tiktok)
+# Paste SATU query setiap crawl (rotate harian)
+
+# ═══════════════════════════════════════════════════════════════
+# A. QUERY UMUM NS (Isnin & Khamis — 1 crawl/hari)
+# Platform: news, facebook, x, tiktok
+# ═══════════════════════════════════════════════════════════════
+
+"PRN Negeri Sembilan" OR "pilihan raya negeri sembilan" OR #PRNNS OR #NegeriSembilan
+
+PAS OR PN OR "Perikatan Nasional" "Negeri Sembilan" OR #PASNS
+
+# ═══════════════════════════════════════════════════════════════
+# B. 6 KERUSI KRITIKAL — BY DUN + KAWASAN + LOKALITI
+# Rotate: 1 kerusi/hari (Selasa–Ahad)
+# Platform: news, facebook, x
+# ═══════════════════════════════════════════════════════════════
+
+# N05 SERTING (Pertahan · FELDA/Jempol)
+# Platform: news, facebook, x
+"N05" OR Serting OR Jempol OR "Mohd Fairuz" PAS "Negeri Sembilan"
+
+# N25 PAROI (Pertahan · bandar Seremban)
+"N25" OR Paroi OR "Kamarol Ridzuan" OR Rembau PRN
+
+# N31 BAGAN PINANG (Pertahan · Port Dickson)
+"N31" OR "Bagan Pinang" OR "Port Dickson" OR "Abdul Fatah" PAS
+
+# N03 SUNGAI LUI (Boleh Menang · Jelebu · majoriti 535)
+"N03" OR "Sungai Lui" OR Jelebu OR "Mohd Nordin Hasim" PAS
+
+# N09 LENGGENG (Boleh Menang · majoriti 685)
+"N09" OR Lenggeng OR Seremban OR "Mohd Fadli" PAS
+
+# N18 PILAH (Boleh Menang · Kuala Pilah)
+"N18" OR Pilah OR "Kuala Pilah" OR "Rafiei Mustapha" PAS
+
+# ═══════════════════════════════════════════════════════════════
+# C. ISU TEMPATAN (ikut kerusi — campur dalam post/crawl)
+# ═══════════════════════════════════════════════════════════════
+# N05: getah FELDA · harga komoditi · klinik desa
+# N25: kos hidup bandar · trafik Seremban · parking
+# N31: pelancongan PD · nelayan · ekonomi pantai
+# N03/N09/N18: kos sara hidup · banjir · infrastruktur
+
+# ═══════════════════════════════════════════════════════════════
+# D. DIRECT URL — FB/X/TikTok (Platform: facebook atau x atau tiktok)
+# Paste URL sahaja (satu per baris) — selepas penamaan kemaskini calon 2026
+# ═══════════════════════════════════════════════════════════════
+
+https://www.facebook.com/paspusat
+https://www.facebook.com/pasnegerisembilan
+https://www.facebook.com/UMNONegeriSembilan
+https://www.facebook.com/dapnegerisembilan
+https://www.facebook.com/anthonyloke
+https://www.facebook.com/aminuddinharun
+
+# TikTok handles (platform: tiktok)
+@abdulhadiawang
+@anthonyloke
+@muhyiddinyassin_tsmy
+
+# ═══════════════════════════════════════════════════════════════
+# JADUAL ROTATE MINGGUAN (cadangan)
+# ═══════════════════════════════════════════════════════════════
+# Isnin   → Query A (umum NS)
+# Selasa  → N05 Serting
+# Rabu    → N25 Paroi
+# Khamis  → Query A + berita multilingual (script terminal)
+# Jumaat  → N09 Lenggeng
+# Sabtu   → N03 Sungai Lui
+# Ahad    → N31 Bagan Pinang / N18 Pilah (alternate)
+
+# ═══════════════════════════════════════════════════════════════
+# CHINESE NARRATIVE (media Cina — Platform: news)
+# Fail penuh: PRN_Chinese_Narrative_queries.txt
+# ═══════════════════════════════════════════════════════════════
+"Sin Chew" OR "China Press" "Negeri Sembilan" OR 森美兰 PRN when:30d

@@ -1,0 +1,28 @@
+# CULA DIGITAL — N29 Chuah (seed post URLs)
+# ==========================================================
+# Tier: LAWAN · Daerah: Port Dickson
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Chuah (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N29
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Chuah; Pantai Chuah
+# ISU TEMPATAN: pelancongan; pantai; nelayan
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "korang Chuah — kestabilan ke perubahan yg korang nak?"
+#   "tengok isu pelancongan kat Chuah, ada calon yg boleh selesaikan ke?"
+#   "PRN kali ni Chuah — sokong status quo ke nak perubahan?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Chuah atau Chuah
+#   • Post sebut Chuah atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

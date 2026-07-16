@@ -1,0 +1,17 @@
+{
+  "state_id": "PRN_N9",
+  "name": "PRN Negeri Sembilan 2026",
+  "migrated_from": "pas_break_2026",
+  "migrated_at": "2026-06-13T13:37:52.738093",
+  "folders": {
+    "crawls/news": "Berita RSS + direct scrape",
+    "crawls/news_analyzed": "Tier A ML sentiment",
+    "crawls/chinese_news": "Berita Cina 3 negeri (filter NS)",
+    "crawls/adun_seeds": "ADUN social seed crawl",
+    "reference": "JSON ringkasan + queries",
+    "reports/dashboards": "Dashboard HTML",
+    "reports/war_room": "War Room + WhatsApp",
+    "reports/seats": "Analitik 36 kerusi SPR"
+  },
+  "daily_pipeline": "bash scripts/run_prn_n9_daily.sh"
+}

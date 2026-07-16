@@ -1,0 +1,4 @@
+platform,total_posts,avg_sentiment,total_engagement,positive_ratio,negative_ratio
+x,124,0.445,16664,19.4,32.3
+facebook,344,0.411,3294,9.9,30.8
+news,246,0.472,0,16.7,22.8

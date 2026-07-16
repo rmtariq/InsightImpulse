@@ -1,0 +1,55 @@
+{
+  "project_id": "Cina_Narative_2026",
+  "name": "Chinese_Response_Narative_Issues",
+  "category": "political",
+  "client": "PAS_Politics_News",
+  "keywords": [],
+  "crawls": [
+    {
+      "id": "chinese_response_narative_issu_news_20260705_174122",
+      "file": "crawls/chinese_response_narative_issu_news_20260705_174122.csv",
+      "source_combined": "data/combined/Combined_news_20260705_174122.csv",
+      "source_analyzed": "data/combined/Combined_news_20260705_174122.csv",
+      "platforms": [
+        "news"
+      ],
+      "query": "(\"罗盛年\" OR \"Shawn Loh\" OR \"Harakatdaily HD\" OR \"akaun palsu\" \"伊党\" OR \"fitnah\" \"PAS\" \"BN\" \"syurga\" OR \"heaven\" \"PAS\" \"Barisan Nasional\") when:7d",
+      "date_range": "7days",
+      "rows": 206,
+      "saved_at": "2026-07-05T17:41:22.175529"
+    },
+    {
+      "id": "chinese_response_narative_issu_social_20260705_175208",
+      "file": "crawls/chinese_response_narative_issu_social_20260705_175208.csv",
+      "source_combined": "data/combined/Combined_facebook_x_20260705_175208.csv",
+      "source_analyzed": "data/combined/Combined_facebook_x_20260705_175208.csv",
+      "platforms": [
+        "facebook",
+        "x"
+      ],
+      "query": "\"Harakatdaily\" OR \"Harakatdaily HD\" OR \"罗盛年\" OR \"Shawn Loh\" OR \"天堂味\" OR (\"PAS\" AND (\"BN\" OR \"国阵\") AND (\"syurga\" OR \"heaven\" OR \"天堂\"))",
+      "date_range": "7days",
+      "rows": 14,
+      "saved_at": "2026-07-05T17:52:08.034508"
+    },
+    {
+      "id": "chinese_response_narative_issu_hybrid_20260705_185056",
+      "file": "crawls/chinese_response_narative_issu_hybrid_20260705_185056.csv",
+      "source_combined": "data/combined/Combined_facebook_news_x_20260705_185056.csv",
+      "source_analyzed": "data/analyzed/Sentiment_Emotion_NEWS_20260705_185056.csv",
+      "platforms": [
+        "facebook",
+        "news",
+        "x"
+      ],
+      "query": "\"Harakatdaily\" OR \"Harakatdaily HD\" OR \"罗盛年\" OR \"Shawn Loh\" OR \"tak bau syurga\" OR \"天堂味\" OR \"akaun palsu\" OR (\"PAS\" AND \"BN\" AND (\"syurga\" OR \"heaven\" OR \"天堂\")) OR (\"伊党\" AND \"国阵\")",
+      "date_range": "7days",
+      "rows": 253,
+      "saved_at": "2026-07-05T18:50:56.000000",
+      "note": "Originally saved under pas_break_2026 — copied to this project"
+    }
+  ],
+  "masters": [],
+  "created_at": "2026-07-05T17:41:07.158623",
+  "updated_at": "2026-07-05T17:52:08.034581"
+}

@@ -1,0 +1,8 @@
+﻿#,Sumber_Data,Kaedah_Integrasi,Auth_Diperlukan,Masa_Setup,Keutamaan,Status,InsightPulse_Notes
+1,BNM OPR + Kadar Tukaran + Base Rate,fetch() terus dalam JS browser,Tiada,15 minit,Buat Dulu,Ready,"CORS-friendly, tiada key, terus dari browser"
+2,DOSM CPI N9 + GDP + MEI,fetch() JSON/CSV dari storage.dosm.gov.my,Tiada,20 minit,Buat Dulu,Ready,"Direct CSV boleh embed, ada filter state"
+3,PRN 2023 N9 Data,Data Raja ada dalam XLSX,Tiada,Siap,Done,Ready,Convert XLSX ke JSON untuk dashboard
+4,MIDA Pelaburan N9,data.gov.my API filter by state,Tiada,30 minit,Buat Kedua,Ready,"Aggregate tahunan, bukan real-time"
+5,Bursa Malaysia / KLCI,iTick free tier (token diperlukan),Token percuma,1 jam,Buat Kedua,Perlu Daftar,Alternatif: Yahoo Finance (tidak rasmi)
+6,MPOB Harga Sawit TBS,Manual download PDF + update bulanan,Tiada,1-2 jam,Buat Ketiga,Manual/Scrape,Tiada API. Cadang: Python script scheduled
+7,SME Corp Data N9,Hybrid: data.gov.my + formal request,Form permohonan,2-3 hari,Buat Ketiga,Terhad,Data terperinci perlukan kelulusan SME Corp

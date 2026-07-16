@@ -1,0 +1,79 @@
+================================================================
+N9 PRN — KEYWORD CRAWL PER-DUN (13 KERUSI PAS/PN) — FORMAT OR
+Agihan MN HQ: PAS/PN 13 (9 wajib + 4 berhasrat)
+Dijana: 2026-06-23 · untuk InsightPulse crawl
+================================================================
+
+CARA GUNA (PENTING — elak silap macam sebelum ini):
+  1. Tampal HANYA SATU baris query (satu DUN) ke dalam kotak "Search Query".
+     JANGAN tampal semua 13 sekali gus jadi satu blok berbilang baris.
+  2. Ulang untuk setiap DUN + setiap platform yang anda mahu.
+  3. Operator OR mesti HURUF BESAR. Frasa 2+ patah perkataan WAJIB dalam "petik".
+  4. maxItems cadangan: 50–100 per DUN per platform (kawal kos).
+  5. Keutamaan platform MY politik: Facebook > TikTok > X > YouTube > Instagram.
+
+KEUTAMAAN CRAWL (jika nak jimat — buat ikut turutan ini):
+  A. 4 BERHASRAT dulu (data paling kurang, paling perlu): Chennah, Sri Tanjung, Repah, Nilai
+  B. Kerusi PAS sedia ada (pertahan): Paroi, Bagan Pinang, Serting
+  C. Rebut PH Melayu-majoriti: Ampangan, Sikamat, Pilah, Klawang
+  D. Pertahan PN Bersatu: Labu, Gemas
+
+================================================================
+9 KERUSI WAJIB
+================================================================
+
+[N25] PAROI — P.Rembau · PAS (Kamarol Ridzuan Md Zain)
+"paroi" OR "dun paroi" OR "senawang" OR "kamarol ridzuan" OR "paroi seremban"
+
+[N31] BAGAN PINANG — P.Port Dickson · PAS (Abdul Fatah Zakaria)
+"bagan pinang" OR "teluk kemang" OR "si rusa" OR "port dickson" OR "abdul fatah zakaria"
+
+[N05] SERTING — P.Jempol · PAS (Mohd Fairuz Mohd Isa)
+"serting" OR "bandar baru serting" OR "dun serting" OR "mohd fairuz" OR "serting jempol"
+
+[N20] LABU — P.Rasah · Bersatu/PN (Mohamad Hanifah Abu Baker)
+"dun labu" OR "bandar enstek" OR "labu negeri sembilan" OR "labu seremban" OR "mohamad hanifah"
+
+[N34] GEMAS — P.Tampin · Bersatu/PN (Ridzuan Ahmad)
+"dun gemas" OR "gemas tampin" OR "pekan gemas" OR "gemas negeri sembilan" OR "ridzuan ahmad gemas"
+
+[N14] AMPANGAN — P.Seremban · PKR (Tengku Zamrah Tengku Sulaiman)
+"ampangan" OR "bandar baru ampangan" OR "dun ampangan" OR "tengku zamrah" OR "ampangan seremban"
+
+[N13] SIKAMAT — P.Seremban · PKR (Aminuddin Harun · MB)
+"sikamat" OR "dun sikamat" OR "aminuddin harun" OR "sikamat seremban"
+
+[N18] PILAH (KUALA PILAH) — P.Kuala Pilah · PKR (Noorzunita Begum)
+"kuala pilah" OR "dun pilah" OR "noorzunita" OR "pilah negeri sembilan"
+
+[N04] KLAWANG — P.Jelebu · Amanah/PH (Bakri Sawir)
+"klawang" OR "kuala klawang" OR "dun klawang" OR "bakri sawir" OR "klawang jelebu"
+
+================================================================
+4 KERUSI BERHASRAT (kubu PH — data paling perlu)
+================================================================
+
+[N33] SRI TANJUNG — P.Port Dickson · PKR (Rajasekaran Gunnasekaran)
+"sri tanjung" OR "dun sri tanjung" OR "sri tanjung port dickson" OR "rajasekaran"
+
+[N10] NILAI — P.Seremban · DAP (Arul Kumar Jambunathan)
+"bandar baru nilai" OR "dun nilai" OR "nilai negeri sembilan" OR "nilai impian" OR "arul kumar"
+
+[N01] CHENNAH — P.Jelebu · DAP  (** sahkan nama ADUN sebenar **)
+"chennah" OR "kampung chennah" OR "dun chennah" OR "chennah jelebu"
+
+[N36] REPAH — P.Tampin · DAP (Veerapan Superamaniam)
+"dun repah" OR "repah tampin" OR "pekan repah" OR "veerapan"
+
+================================================================
+NOTA KUALITI / GUARD
+================================================================
+- "nilai", "labu", "gemas", "repah", "pilah" = perkataan generik → SENGAJA
+  dipasangkan konteks (dun/bandar/parlimen/nama ADUN) supaya tak tangkap noise.
+- Nama ADUN diambil dari data dalaman — SAHKAN dahulu (terutama Chennah)
+  sebelum bergantung penuh pada padanan nama.
+- Selepas crawl: gabung ke master → bina semula socmed_by_dun_N9.json
+  (skrip: scripts/build_warroom_socmed_by_dun.py) untuk naikkan AP per-DUN.
+- Pilihan tambah konteks negeri (jika hasil terlalu luas): tambah AND "negeri sembilan"
+  pada query, cth:  ("dun gemas" OR "gemas tampin") AND "negeri sembilan"
+================================================================

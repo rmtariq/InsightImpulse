@@ -1,0 +1,52 @@
+NARATIF CINA & INDIA — JOHOR
+============================
+Modul War Room #6 · 56 DUN · PRN Johor
+
+CARA PALING MUDAH (dari folder ini)
+-----------------------------------
+  Double-click (atau terminal):
+
+    RUN_JOHOR_PENUH.command     ← crawl penuh Cina Johor + India + publish (~8 min)
+    RUN_JOHOR_PAGI.command      ← crawl pagi 3 negeri (termasuk Johor) + publish
+    RUN_JOHOR_SEMAK.command     ← publish sahaja (~30 saat, tanpa crawl baru)
+
+  Kemudian buka War Room:
+    http://localhost:8080/?module=narrative&state=Johor
+    Hard refresh: Cmd+Shift+R
+
+COMMAND MANUAL (salin-tampal)
+-----------------------------
+  cd /Users/rmtariq/Documents/InsightPulse
+  source NEImpulse/bin/activate
+
+  ./scripts/update_narrative.sh johor     ← DISYORKAN untuk PRN Johor
+  ./scripts/update_narrative.sh pagi      ← pagi (N9+Johor+Melaka)
+  ./scripts/update_narrative.sh semak     ← cepat, publish sahaja
+
+  bash scripts/start_prn_warroom_prototype.sh
+
+OUTPUT JOHOR
+------------
+  Crawl Cina Johor  : InsightPulse/data/.../PRN_Johor/crawls/chinese_news/
+  Crawl India Johor : InsightPulse/data/.../PRN_Johor/crawls/indian_narrative/
+  JSON War Room     : .../prototype/data/johor_narrative_community.json
+  Rujukan Johor     : .../PRN_Johor/reference/johor_narrative_warroom.json
+
+JADUAL CADANGAN PRN JOHOR
+--------------------------
+  Pagi   → RUN_JOHOR_PAGI.command
+  Petang → ./scripts/update_narrative.sh petang (dari InsightPulse)
+  Pre-briefing → RUN_JOHOR_PENUH.command
+
+WAR ROOM
+--------
+  Command Center → panel "Naratif Cina & India" (pilih negeri Johor)
+  Modul #6       → http://localhost:8080/?module=narrative&state=Johor
+
+NOTA
+----
+  • Percuma (Google News + RSS) — tiada kos Apify default
+  • venv: NEImpulse (auto dalam script .command)
+  • Semak P1 sebelum edar respons
+
+Rujuk juga: ../MULA_NARATIF.txt (N9 + Melaka)

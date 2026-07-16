@@ -1,0 +1,713 @@
+Platform,Type,ID,Text,URL,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,engagement_score,author,author_followers,sentiment_label,sentiment_confidence,detected_language,demographic,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+youtube,post,TkZJNjcIQ0Y,Video Korporat MARA Liner,https://www.youtube.com/watch?v=TkZJNjcIQ0Y,neutral,2022-09-15 07:42:13+00:00,17,0,0,953,0.5,26,17.953,,,neutral,0.805259108543396,english,Mixed/Urban,no_clear_emotion,0.05654763802886009,0.02294202148914337,0.04433498531579971,0.014906318858265877,0.10249927639961243,0.027352428063750267
+youtube,post,q5fui7PZHsg,MARA LINER RAH 5613 D3 SKSBUS,https://www.youtube.com/watch?v=q5fui7PZHsg,neutral,2022-04-16 22:19:20+00:00,7,0,0,686,0.5,13,7.686,,,neutral,0.8117824196815491,english,Mixed/Urban,love,0.08176111429929733,0.0295193400233984,0.05233669653534889,0.028074171394109726,0.6388524770736694,0.023205231875181198
+youtube,post,6CMYl3Omo6E,Maraliner Ekspres,https://www.youtube.com/watch?v=6CMYl3Omo6E,neutral,2022-05-06 11:12:31+00:00,1,0,0,162,0.5,2,1.162,,,neutral,0.842766284942627,english,Mixed/Urban,happy,0.07808154821395874,0.04173022881150246,0.35556507110595703,0.02545664645731449,0.26203539967536926,0.02815699577331543
+youtube,post,mPX76hSp_hw,MARA LINER SKSBUS @ KUALA PERLIS 29 JANUARI 2022,https://www.youtube.com/watch?v=mPX76hSp_hw,neutral,2022-02-05 11:38:17+00:00,39,0,0,3415,0.5,73,42.415,,,neutral,0.8895952105522156,english,Mixed/Urban,no_clear_emotion,0.048062942922115326,0.027577143162488937,0.09560931473970413,0.018671752884984016,0.19925473630428314,0.028569448739290237
+youtube,post,5Sg_UVRiW-A,"MARALINER, RY3565",https://www.youtube.com/watch?v=5Sg_UVRiW-A,neutral,2021-12-08 14:14:33+00:00,20,0,0,2014,0.5,40,22.014,,,neutral,0.8706873059272766,english,Mixed/Urban,love,0.09670938551425934,0.042672671377658844,0.06409946084022522,0.0334957055747509,0.6290938854217529,0.02450142428278923
+youtube,post,C1rZ_ksgEVQ,Maraliner Express Bus,https://www.youtube.com/watch?v=C1rZ_ksgEVQ,neutral,2016-04-11 03:41:24+00:00,12,0,0,2367,0.5,35,14.367,,,neutral,0.6977766156196594,english,Mixed/Urban,no_clear_emotion,0.10431326925754547,0.04191729798913002,0.10675415396690369,0.02749229036271572,0.34158238768577576,0.025425558909773827
+youtube,post,uUxCS0ZsxTc,"Jom layan bus mara liner 2022
+#fyp #viral #youtubeshorts",https://www.youtube.com/watch?v=uUxCS0ZsxTc,neutral,2022-07-20 01:46:46+00:00,71,0,24,8498,0.5,179,151.498,,,neutral,0.9061048626899719,english,Mixed/Urban,no_clear_emotion,0.027449939399957657,0.010654323734343052,0.043776024132966995,0.01669280230998993,0.14804890751838684,0.026582341641187668
+youtube,comment,Ugz7MM8KrPZvh7aOxQl4AaABAg,👍🏻👏🏻,,positive,,2,0,1,0,0.8714138269424438,211,,"{'id': 'UCvfaw7Zd2xJzSJxngRIFGkA', 'name': '@munismurthy3571', 'thumbnails': 'https://yt3.ggpht.com/qQLoUzt8gi49Kb7sD97eFuOSq0l0CAQbSMf6VuWq-YH7COTe0BLSs9Ke-gYziuMTfd3WSCBL=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.13103601336479187,0.05604543536901474,0.08854823559522629,0.03527796268463135,0.44959181547164917,0.023149855434894562
+youtube,comment,UgzMxxM-VY7wpa6yQph4AaABAg,"Kata Tpm, maraliner nak merentas pan borneo highway dlm masa terdekat.. so bro jgn lupa buat review swaktu kat sini nanti yer.. hehe. welcome..welcome",,positive,,1,0,0,0,0.902327162027359,100,,"{'id': 'UCDC4-cv_AhD4JkUEbOdXPsw', 'name': '@charmenneo1219', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lJzd5SmhltMTivwmLpzCkQ93k_H3dh4gYdEBVC180=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.67442387342453,english,Mixed/Urban,love,0.057357873767614365,0.015824539586901665,0.03029949776828289,0.024665527045726776,0.7554157376289368,0.021057281643152237
+youtube,comment,UgwNO544i2aMCD1tB6F4AaABAg,Wow,,positive,, ,0,0,0,0.901806616783142,0,,"{'id': 'UCM6skLsHQW1w_ZuHxDHQo4w', 'name': '@juenordin4024', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lcS3oqVpVDoiW2hFD9iEbJZVWM_iHcVtodMFWKve8=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.6726887226104736,multilingual,Unknown,love,0.14882826805114746,0.14016638696193695,0.1368977129459381,0.11766590178012848,0.16075503826141357,0.13498535752296448
+youtube,comment,UgyEtYtIjUVl_I5MCXt4AaABAg,"Selesa boskur..music kuat, slowkan sikit time bos bercakap tu baru cantik",,neutral,,2,0,1,0,0.5,211,,"{'id': 'UCgFHRohD_N8yGnWDzV4OREA', 'name': '@diadokmai', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kZ4M_M2mviZko8_erL8zL3yKJk8B0NHqAa4Vmw47ajuQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.7870518565177917,english,Mixed/Urban,happy,0.032540593296289444,0.25897377729415894,0.5320591330528259,0.012421365827322006,0.059459418058395386,0.052248694002628326
+youtube,comment,UgwqGKw2pwYkXmwuPZR4AaABAg,Ada Wi-Fi n USB charge tak bas ni,,negative,,1,0,0,0,0.06499077379703522,100,,"{'id': 'UC60IDyhTI4iDBuzCPCCxtmQ', 'name': '@moklilykelantan', 'thumbnails': 'https://yt3.ggpht.com/ijZ0b7xAuJITBsGVqgJgYkIPX1coz8a9_BzPY9HdaPG2zzlKMSwfGFtBYM6JN3KyvZO_YNH0wTA=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.7833640873432159,multilingual,Unknown,surprise,0.018542470410466194,0.08595544844865799,0.015420287847518921,0.033819787204265594,0.02960338443517685,0.7441344857215881
+youtube,comment,Ugw7_0f1vb28573n6SJ4AaABAg,"Suara tenggelam sikit bos. Pakai Bluetooth mic, baru cunnn bosskurrr...",,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCrIeyVkjgxUFjv3RZcUpxPA', 'name': '@nikmohdshaharuddinnikismai3370', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lkXIlINLDdn4AM_ss5decwdxbeafjfj79YpRWsHMrD6Ao=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.7765089273452759,english,Mixed/Urban,anger,0.8210845589637756,0.04070759564638138,0.045018263161182404,0.018649345263838768,0.031122813001275063,0.009831013157963753
+youtube,comment,UgwVlx6mL2Tr9R66mVB4AaABAg,Bas mara ni selalu tak on time dtg. Paling sedih pernah kena bas sptutnya dtg kul 7.30 tapi kul 10 malam pun tak sampai lagi.. saya nasihatkan  better cari bas lai,,negative,,1,0,1,0,0.00048276185989382103,111,,"{'id': 'UC7iSfCLAwLiYtli0buuMSDQ', 'name': '@mohamadsyafiqzufairy3214', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_leaiby0Ap9jiJ7uolrDXrz7kI1JKEiAQmBKnCz3O8_YtrP=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.998390793800354,malay,Malay/Bumiputera,sadness,0.017591549083590508,0.02952847070991993,0.007080749608576298,0.9078056216239929,0.015202970243990421,0.014418254606425762
+youtube,comment,Ugz-jCEeptSaM6Cg_gx4AaABAg,Bas dari kangar ke jb sama macam ni jugak kee,,neutral,,2,0,1,0,0.5,211,,"{'id': 'UC8D3G7sYbqfklm_24tCO8Dg', 'name': '@greenyswan', 'thumbnails': 'https://yt3.ggpht.com/vmK0h3v0U_w32VmpxM-YlaWb1GXCpWOjn6dNcbLaMhKtf5rZov6Bu8_FPOhqic3qV9fvqBjQ9FY=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8138901591300964,english,Mixed/Urban,no_clear_emotion,0.0448596216738224,0.010838649235665798,0.017572397366166115,0.02162960171699524,0.368569016456604,0.03882462903857231
+youtube,comment,UgzshqJEPvkgOKwfGwx4AaABAg,Bas ni pi mana?,,neutral,, ,0,0,0,0.5,0,,"{'id': 'UCbPywaEhNgFz2yRnZsJR68w', 'name': '@lostinalostin3781', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lyaiuXYGqiK40twps2s8Vk5qMh7quAwFBZp6Ys-VCDzlg=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.7150010466575623,english,Mixed/Urban,no_clear_emotion,0.08502288162708282,0.03672520071268082,0.10594730824232101,0.01940123736858368,0.2663760185241699,0.017660433426499367
+youtube,comment,UgxCSgEZjj5Myz02QFR4AaABAg,Skg ni dlm bas ade charging port jenis usb-c tak?,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UC2u_FyQJZuwmPXMSGs_mjJw', 'name': '@wanafifiwanahmad2904', 'thumbnails': 'https://yt3.ggpht.com/wTkcC0T9a_xX1L5mCj_fj4aOgQ8CTSgT24vnxwDE9GUsKalWRTHQHMXtO10fnwcoZcTaG9f7Ow=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8858495354652405,english,Mixed/Urban,surprise,0.012239033356308937,0.04994171857833862,0.01494181714951992,0.024901900440454483,0.033417683094739914,0.7775086760520935
+youtube,comment,Ugz7LN4TiHI-ngqs2ZZ4AaABAg,no tel ofis yang boleh di hubungi ..,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UC0_lQ5Aa78EHAEqcrBwHpaA', 'name': '@lilypadin4283', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lFievTz7ie5oUo4az8k-2er4SFOAICoByGf2EMb18=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.9907225370407104,malay,Malay/Bumiputera,surprise,0.07563082128763199,0.1413041651248932,0.03347201272845268,0.0629870668053627,0.2119319587945938,0.3592911958694458
+youtube,comment,UgxBBKgSlM7W082jeP94AaABAg,ada tandas tak,,neutral,,1,0,2,0,0.5,122,,"{'id': 'UCi44MxbdE3pV2M7t_nmKlLQ', 'name': '@bbyboss31', 'thumbnails': 'https://yt3.ggpht.com/w3OGZBd5TROsc5yhcnKRKPf6jwpPBuRi2GxRibybxNSjzNYj8Jog7RV_Fy4u82IM6cIdQ9DOgOg=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.9952458739280701,malay,Malay/Bumiputera,no_clear_emotion,0.13556915521621704,0.07306013256311417,0.1797856241464615,0.05382673442363739,0.22251318395137787,0.06239619106054306
+youtube,comment,UgzeSjRT8xPH5lvQEU54AaABAg,Xpuas tgok vedio dlm channel kite ni,,neutral,, ,0,0,0,0.5,0,,"{'id': 'UCM6skLsHQW1w_ZuHxDHQo4w', 'name': '@juenordin4024', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lcS3oqVpVDoiW2hFD9iEbJZVWM_iHcVtodMFWKve8=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8640686273574829,english,Mixed/Urban,anger,0.8264194130897522,0.04062977805733681,0.01370288711041212,0.02852475829422474,0.04533560574054718,0.012312203645706177
+youtube,post,eU_fu510MxA,REVIEW PENUH| MARA LINER EKSPRES | TMSBUS | VHU 6810 | TEMAN DESTINASI ANDA,https://www.youtube.com/watch?v=eU_fu510MxA,positive,2025-07-14 14:05:31+00:00,25,0,3,1021,0.9528953090310096,38,35.021,,,positive,0.8429843634366989,multilingual,Unknown,no_clear_emotion,0.07665804028511047,0.03547995910048485,0.07328791171312332,0.015359816141426563,0.11194426566362381,0.04050888866186142
+youtube,comment,Ugw-lad93ZpgfeUR2ZB4AaABAg,Body TMSBus berchassis M.A.N yang pertama di Malaysia.🚍,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UCsfwRkYTEG3inRgGO8MlyVw', 'name': '@AhmadZulIskandarAhmadAzh-be3ph', 'thumbnails': [{'url': 'https://yt3.ggpht.com/3v1HoKgdudxuxUiTn5OcA8i0lr5qHkiROgA4SS8e13TLYfy0PEm_vxh01dCnoMd8M4Op0fEA=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.9976824522018433,malay,Malay/Bumiputera,no_clear_emotion,0.04893897473812103,0.030840884894132614,0.1353977620601654,0.02487759105861187,0.16922655701637268,0.07718924432992935
+youtube,comment,UgxVT7Ky6ktvjiNIXcx4AaABAg,wah maraliner pulak😂😂,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UC_9prQQ4Ln4h_woBa1z8nKQ', 'name': '@limthengadam580', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_mvtZW_bmizYTle4jOpbCusA57Eg7hxZRUk6O9GuaMUo1g=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5837590098381042,english,Mixed/Urban,love,0.14700783789157867,0.07813157886266708,0.1147996112704277,0.05576511099934578,0.32758888602256775,0.05785675346851349
+youtube,post,kFf5hFG8uP4,Montaj Koporat 2016,https://www.youtube.com/watch?v=kFf5hFG8uP4,neutral,2016-05-16 01:22:48+00:00,62,0,5,17264,0.5,239,94.264,,,neutral,0.8695001602172852,english,Mixed/Urban,love,0.11704707145690918,0.040006544440984726,0.12629880011081696,0.02787083014845848,0.4405251741409302,0.021484198048710823
+youtube,comment,UgyJlHxxffaaiAopoTJ4AaABAg,aku keje pomennya sejak tahun 88....tahun 94 aku berenti.Masa tu nama KBM.Idup segan mati tak mau Nasib kerajaan bantu Duit tayar pon x lepeh.Sekarang dah swasta sepenuhnya .....aku rasa lepas ni melingkop la ...,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UC1HVgGOvykNu2FA598NdwtA', 'name': '@mohdhaidirbintalib5422', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lSZo2ZPe1vMsJ2AZFvinz9J1z74cYq1ZrH9UcAwJE=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8316867351531982,english,Mixed/Urban,fear,0.043821047991514206,0.793532133102417,0.016649408265948296,0.03433673083782196,0.022131668403744698,0.07277867943048477
+youtube,comment,Ugw6PF4WzHMJp4VzMgx4AaABAg,tempah tiket bas kl ke kedah pada 13-6-2018 pada jam pkul 10-00 mlm,,negative,,2,0,0,0,0.0501852661371231,200,,"{'id': 'UCesl9mCulYyQ48Z9-eZ1laQ', 'name': '@aqmalqawi5216', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nRchI9X_vLQ498L6hGoU7QcCpjS9BEhm6yztW2DUGKkrE=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.832715779542923,multilingual,Unknown,no_clear_emotion,0.029944948852062225,0.030693387612700462,0.037640634924173355,0.020996497943997383,0.10286333411931992,0.03372497856616974
+youtube,comment,Ugxk--gD09_g3zo2eyl4AaABAg,Maraliner ni dulu nama nya Mara Ekspress di bawah Kkmb kemudian di jual kepada Nadi Corp ditukarkan nama Transnasional Saya pun dah lupa bila Maraliner ditubuhkan kaunter tiket yang pertama di Hentian Duta masa itu Pengarah nya Haji Ibrahim dan pemandu nya adalah bekas pemandu Transnasional Selepas Hj Ibrahim  En Mohd Nor Abdullah pula jadi Pengarah Maraliner,,negative,,1,0,0,0,0.149523264169693,100,,"{'id': 'UCu2FbOjI4TWlNt0SeR33_Og', 'name': '@mohdradzi5306', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lAilFGOzqdPN5UgwfHVz3OoYkNCS_sbNIEnSUboOg=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.5015891194343567,malay,Malay/Bumiputera,surprise,0.03208031877875328,0.08590426295995712,0.020407408475875854,0.1451558619737625,0.16422854363918304,0.4434022903442383
+youtube,comment,UgwXm-QvPvRs_EQCDit4AaABAg,conten senyap...,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UCMCW_7bi4uzYIA7p2WavlSQ', 'name': '@pertamatv', 'thumbnails': [{'url': 'https://yt3.ggpht.com/WRBo65BkWAiz9FfghDNswhHjJ-WkqwG-1VPbwqBrjMVxWa-TSkIjSdsCfFxvAbmG8yeJg7vjsw=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.9968883395195007,malay,Malay/Bumiputera,no_clear_emotion,0.148747518658638,0.12643346190452576,0.12261536717414856,0.10132785141468048,0.1837209165096283,0.13142777979373932
+youtube,comment,Ugw46OB_O1MH02oBgkR4AaABAg,👍👍👍,,positive,,0,0,0,0,0.8714138269424438,0,,"{'id': 'UCboeFK0DWq9UNxwyQw7r1RA', 'name': '@SyedDefishing', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_n8is4aZdRv0KKtsMfPDoE9yyBrQScCYJO_RK0dAiiFIQ=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.12657804787158966,0.12375440448522568,0.12428445369005203,0.10698200762271881,0.19179889559745789,0.13497380912303925
+youtube,post,z1AKNZndBWc,MaraLiner Express MAN 19.350/VEL 2590,https://www.youtube.com/watch?v=z1AKNZndBWc,neutral,2023-07-24 14:23:29+00:00,2,0,0,332,0.5,5,2.332,,,neutral,0.9058067798614502,english,Mixed/Urban,love,0.06689722836017609,0.024515725672245026,0.06948112696409225,0.03324086591601372,0.5783408284187317,0.032606370747089386
+youtube,post,9_LBdliFhic,MaraLiner Kuala Nerang@Bonus Express Cosmic BQA 9999,https://www.youtube.com/watch?v=9_LBdliFhic,neutral,2023-01-31 12:51:03+00:00,8,0,0,1767,0.5,25,9.767,,,neutral,0.838426411151886,english,Mixed/Urban,love,0.09027016907930374,0.027212098240852356,0.0740838497877121,0.03534955531358719,0.5840803980827332,0.02392636053264141
+youtube,post,XbglX4rjuYM,"Melaka's public transportation system is evolving, and the new SBST Melaka buses are at the heart of this transformation. 
+
+In this video, we take you through the latest developments in Melaka's public transit, including the arrival of SBST Melaka buses, the LUGO app for real-time bus tracking, and flexible payment methods like Visa, DuitNow, and ManjaLink Card. 
+
+Learn how these changes are set to improve the commuting experience for both locals and tourists.
+
+We'll also explain why it's important to keep your ticket for insurance purposes, discuss the recommended payment options for group travel, and share tips on planning your journey with the LUGO app. 
+
+If you're interested in Melaka's public transportation or looking for travel advice, this video is for you.
+
+Don't forget to like, comment, and subscribe for more updates on Melaka's public transportation and other travel insights!
+
+#jomtaralets #SBSTMelaka",https://www.youtube.com/watch?v=XbglX4rjuYM,positive,2024-05-03 09:56:21+00:00,52,0,15,3745,0.9055547714233398,104,100.745,,,positive,0.6851825714111328,english,Mixed/Urban,happy,0.033594485372304916,0.030652649700641632,0.41973990201950073,0.02717525139451027,0.2932368218898773,0.04544223099946976
+youtube,comment,UgzGoaKsKjliP5tA9Rd4AaABAg,let's gooo! Melaka,,positive,, ,0,0,0,0.8933482840657234,0,,"{'id': 'UCFwz-4BjUS2bLGxUYKWktdg', 'name': '@angchihang1597', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lRcOrbNY-WSSi58QQQcmHmhRC8FJG3m8eeatS1XWQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.6444942802190781,multilingual,Unknown,love,0.03890647366642952,0.01693088747560978,0.15662433207035065,0.015826674178242683,0.6731662750244141,0.015046033076941967
+youtube,comment,UgwLufkXG_N3ykmncLZ4AaABAg,congratulation to helping to empove Melaka Public Transportation,,positive,,2,0,0,0,0.9755467116832732,200,,"{'id': 'UCWI4TruUL69du48Y_cq-PaA', 'name': '@WennyLee-v7v', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kyKYN6nMKhyF6lfsxaBhBggLTm_UXP4uFvN9PMRyshUwp-sjIgLnMzEEoqVfCofXlIcQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.9184890389442444,english,Mixed/Urban,love,0.04300665482878685,0.023921677842736244,0.2967539131641388,0.016786783933639526,0.37011757493019104,0.021539723500609398
+youtube,comment,UgwIDoEXZu0OWX9OvlR4AaABAg,"Great improvements, residents and travellers alike will surely find it attractive and support!",,positive,, ,0,0,0,0.993851500749588,0,,"{'id': 'UCmReXtnvx5NnODJnx2PdylQ', 'name': '@sarahwong5960', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_k1IKobUQAQjH3kzTf--_sBAzwyMXCg81U2uv9bmfEC3B8=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.9795050024986267,english,Mixed/Urban,happy,0.013994020409882069,0.02362186089158058,0.8747549057006836,0.007475754711776972,0.04639444500207901,0.017340723425149918
+youtube,comment,Ugw1Ig9y14UOPQdAfWN4AaABAg,"So far so good,pleasant drivers.
+We need more bus stops.",,positive,,2,0,0,0,0.9653219521045684,200,,"{'id': 'UC6iOZM_mw2YqCFzokCl5l6Q', 'name': '@sharonmajella349', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_labAnxi86Bg46IkmwlWo23ZEabd8x06TCHZGVXFxA=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.8844065070152283,english,Mixed/Urban,happy,0.021759947761893272,0.04200785979628563,0.7654821276664734,0.011775651946663857,0.11254790425300598,0.02442885749042034
+youtube,comment,UgzQc6H6Xvy-d-ug4Od4AaABAg,good luck-- the aircon in the terminal is very hotttttt i hope they can improve it,,positive,,1,0,0,0,0.9875079870223998,100,,"{'id': 'UCzAAu2ebWNG2PRRBNsrTzJw', 'name': '@garylim1122', 'thumbnails': 'https://yt3.ggpht.com/PBBF0-C9-xl-jXUn-WnLhR16JQRT20L6H1LZmQIGOPb00YdVx_kdwGofXBmWLt2AmYxOrQja=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.958359956741333,english,Mixed/Urban,love,0.10319715738296509,0.08822416514158249,0.06084625795483589,0.116032175719738,0.5221864581108093,0.057855311781167984
+youtube,comment,UgyZ8GkvsPNk0tMXqz54AaABAg,Everyday see on the road bang.hope next level apply livery simple like rapud is ok la.😏,,neutral,,1,0,0,0,0.5,100,,"{'id': 'UCN-7DmVnl8d3GbVXTccZo-Q', 'name': '@aszlanslatan27', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_nHNmhgK4mtwlkvbYzWQNsHe7dvV4nJKisK6SmVW8O7u9Pa8T0cWxyinae9f8_eisKzEw=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.5410555005073547,english,Mixed/Urban,happy,0.018849439918994904,0.03820989653468132,0.8271695971488953,0.010378741659224033,0.07219751924276352,0.01586858555674553
+youtube,comment,Ugz63GIx_0GPDLM5Z1t4AaABAg,Next Kuantan pulok..ganti rapidkuantan,,neutral,, ,0,0,0,0.5,0,,"{'id': 'UCOdOMAX9GQfYLnSPlicmZvQ', 'name': '@roslanjaafar4821', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_mE76ctUILo5BI02F9BAypuB5mIV_hJHEAuPVIe9Dk5w8E=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8115793466567993,english,Mixed/Urban,love,0.07001418620347977,0.03654653578996658,0.06066169962286949,0.04413199797272682,0.6478572487831116,0.03247681260108948
+youtube,comment,Ugw6spSecYKo1rVZ-9t4AaABAg,"""SBST Melaka"" the SBS Transit in Singapore be like:",,neutral,,1,0,2,0,0.5,122,,"{'id': 'UC0WiKJzf1jd2jnkcghfu1iA', 'name': '@image_file', 'thumbnails': 'https://yt3.ggpht.com/EOLgQWckR3xTmByji4Ng-5WxxptkG6a0dcY5sKcx-b-RtOkV10SxLgk29LbsacCy9jYGuQ7EsQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.924813449382782,english,Mixed/Urban,no_clear_emotion,0.03861072659492493,0.018152670934796333,0.07847273349761963,0.02120453305542469,0.12891443073749542,0.018776053562760353
+youtube,comment,UgwJoLt90bLSdqzq_TZ4AaABAg,"If there's ""SBST melaka"" then why not build mrt lah at melaka.",,neutral,,1,0,0,0,0.5,100,,"{'id': 'UC2MsWuv8XXUEYFzjBdSBEhQ', 'name': '@imfine-v3g', 'thumbnails': 'https://yt3.ggpht.com/txA9d2wFQ3tySKIigUweHlS0Sg7XBIoawCmLoLCQHvTi4lnK3ZLx8RLfqh0NYcOSKnjn9hOF=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.7510697841644287,english,Mixed/Urban,love,0.03618098422884941,0.018305281177163124,0.034828610718250275,0.018686024472117424,0.7443891167640686,0.04809281602501869
+youtube,comment,Ugy44YvokR8jZkZI_gJ4AaABAg,Sbst or sbs transit,,neutral,, ,0,0,0,0.5,0,,"{'id': 'UCS9EFUzPfU5gz8YAYfpHicw', 'name': '@Jolly2-j3v', 'thumbnails': 'https://yt3.ggpht.com/pXJjUVeczX1Br3nSxOQvVDkwFuk8lqygL-neK2pVXYo3L4IBVA4O4FZY3myB7T9hpF8eFv6Jd7s=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8572930097579956,english,Mixed/Urban,no_clear_emotion,0.06080931797623634,0.013983174227178097,0.03734767809510231,0.007471898570656776,0.05153505504131317,0.01663409173488617
+youtube,post,O2kUDCzpsA0,https://play.google.com/store/apps/de...,https://www.youtube.com/watch?v=O2kUDCzpsA0,neutral,2019-10-02 06:43:10+00:00,3,0,0,644,0.5,9,3.644,,,neutral,0.866102397441864,english,Mixed/Urban,surprise,0.0533745251595974,0.08858104050159454,0.0390351228415966,0.0688125342130661,0.197616308927536,0.29641011357307434
+youtube,post,wHNAaRTrVhY,MARA LINER Journey Planner Apps Commercial - By Meraq Mediawork,https://www.youtube.com/watch?v=wHNAaRTrVhY,neutral,2023-07-05 12:21:44+00:00,0,0,0,41,0.5,0,0.041,,,neutral,0.9187833666801453,english,Mixed/Urban,love,0.051728758960962296,0.020909834653139114,0.08454851806163788,0.028081659227609634,0.40461623668670654,0.02970062755048275
+youtube,post,2yG4yQoQ2As,"These photos were not created by me, it was created by MBTE. I made using Windows Movie Maker.",https://www.youtube.com/watch?v=2yG4yQoQ2As,neutral,2016-12-11 11:16:18+00:00,14,0,0,2395,0.5,37,16.395,,,neutral,0.8174183368682861,english,Mixed/Urban,no_clear_emotion,0.046337492763996124,0.026468392461538315,0.03156857192516327,0.022035721689462662,0.03266287222504616,0.0957045927643776
+youtube,post,eB_Osw0W-1k,BAS MARA LINER TANJONG MALIM,https://www.youtube.com/watch?v=eB_Osw0W-1k,neutral,2023-01-11 04:47:09+00:00,17,0,0,1888,0.5,35,18.888,,,neutral,0.7065718770027161,english,Mixed/Urban,love,0.10275951772928238,0.020345371216535568,0.05521775782108307,0.023111019283533096,0.56498783826828,0.018307436257600784
+youtube,post,pW1Yc5ag1I4,"Maraliner bus ticket online with redBus, Malaysia! Here's how to book in the most convenient way! In this video, learn about the unique features that will help you book your Maraliner bus ticket online with the redBus app. Learn more about Maraliner by visiting www.redbus.my or by downloading the app!
+
+About redBus:
+redBus is the world's largest online bus ticket booking service trusted by around 17 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes in Singapore and Malaysia.
+
+--------------------------------------------------------------------------------------------------------
+
+You can also view:
+redBus Homepage for Bus Tickets (English)
+https://www.redbus.my/bus/bus-online-...
+
+redBus Homepage for Bus Tickets (Malay)
+https://www.redbus.my/ms/bas/tiket-ba...
+
+Penang to Kuala Lumpur || How to Book a Bus Ticket Online with redBus, Malaysia
+https://www.redbus.my/bus-tickets/pen...
+
+Ipoh to Kuala Lumpur || How to Book a Bus Ticket Online with redBus, Malaysia
+https://www.redbus.my/bus-tickets/ipo...
+
+StarMart Express || How to Book a Bus Ticket Online with redBus, Malaysia
+https://www.redbus.my/travels/starmar...
+
+KKKL Express || How to Book a Bus Ticket Online with redBus, Malaysia
+https://www.redbus.my/travels/kkkl-ex...
+
+====================================================
+
+Follow us on our social media platforms: 
+▶ Like us on Facebook:   / redbus.my  
+▶ Tweet us on Twitter:    / redbus_my  
+▶ Visit our blog for travel tips and secrete destinations in Malaysia: https://blog.redbus.my/",https://www.youtube.com/watch?v=pW1Yc5ag1I4&t=1s,positive,2020-04-20 12:14:23+00:00,0,0,0,365,0.9350633263587951,3,0.365,,,positive,0.7835444211959839,english,Mixed/Urban,love,0.04456925392150879,0.04048172011971474,0.21218137443065643,0.035512179136276245,0.47651293873786926,0.04893755540251732
+youtube,post,K9UZY8cjBXw,MARA LINER - TEMAN DESTINASI ANDA! #VY5985,https://www.youtube.com/watch?v=K9UZY8cjBXw,neutral,2023-08-29 11:07:31+00:00,23,0,6,1295,0.5,41,42.295,,,neutral,0.6866794228553772,english,Mixed/Urban,love,0.06570465117692947,0.022383902221918106,0.05147845670580864,0.017733106389641762,0.7443078756332397,0.016774162650108337
+youtube,comment,UgzUEOvM8gXi8HU1ZQN4AaABAg,Bas ke rawang nmor brapa cik..dan prhentian bas ke rawang itu tggu kat mana ta cik,,neutral,,2,0,2,0,0.5,222,,"{'id': 'UCwG7xzvq-28MS6I6NlBtL7A', 'name': '@ernasinaga3388', 'thumbnails': 'https://yt3.ggpht.com/76HobfUbB2ygqP1CU-jzIApahnwZFUH5Z-PIl86W-TZBAjCLi1_-Ld6jghsStBLs_YYVB1gceQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8668298721313477,english,Mixed/Urban,no_clear_emotion,0.10917120426893234,0.027785934507846832,0.03182293474674225,0.022615671157836914,0.2678404748439789,0.02903870865702629
+youtube,comment,UgydxeqIN_13hKa09wF4AaABAg,3:16 The RTG INTCH To Your Be Like???,,neutral,,2,0,0,0,0.5,200,,"{'id': 'UCgzKPOKG4BMq4Dk1MRDZFZA', 'name': '@MobileBusSimulator2024', 'thumbnails': 'https://yt3.ggpht.com/vM0WotYgsEHy9EkgW1IUYh2iIdpjztukvanGIOaJzN1Iq1NJ1FenIWNW_bdyKYTGy06RdBCBhA=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.9470891356468201,english,Mixed/Urban,no_clear_emotion,0.019546769559383392,0.02364415116608143,0.06850942969322205,0.014491935260593891,0.17177121341228485,0.05447739362716675
+youtube,comment,UgxafX9mSBK1W81K6tl4AaABAg,Berchassis Hino RK1JSLL,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCsfwRkYTEG3inRgGO8MlyVw', 'name': '@AhmadZulIskandarAhmadAzh-be3ph', 'thumbnails': 'https://yt3.ggpht.com/3v1HoKgdudxuxUiTn5OcA8i0lr5qHkiROgA4SS8e13TLYfy0PEm_vxh01dCnoMd8M4Op0fEA=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.858745276927948,english,Mixed/Urban,no_clear_emotion,0.12305083870887756,0.03493499383330345,0.10516954213380814,0.03538454324007034,0.23711428046226501,0.03992379456758499
+youtube,post,sFzy3TC-Vqw,"jngn lupe like , subscribe, share and think noflication
+😘",https://www.youtube.com/watch?v=sFzy3TC-Vqw,neutral,2022-03-30 03:11:40+00:00,12,0,0,259,0.5,14,12.259,,,neutral,0.6040856242179871,english,Mixed/Urban,love,0.07394695281982422,0.04288532957434654,0.02390247769653797,0.03868318349123001,0.7456896305084229,0.025998180732131004
+youtube,post,HHlbIn3FY40,"I booked the bus from Larkin Bas Terminal to Mersing and it took around 2 hours 15mins to travel end to end. The bus arrived the lot before the stated timing and it departed 5 minutes behind schedule timing.
+
+I think there was a transfer of goods as it made a quick stop outside Larkin Terminal and one of the petrol kiosk along the way. 
+
+The traffic overall was relatively smooth
+
+0935 hrs: Larkin Bas Terminal (Scheduled 0930 hrs)
+1040 hrs: Kota Tinggi Bas Terminal (Scheduled 1030 hrs)
+1210 hrs: Mersing Bas Terminal (Scheduled 1145 hrs)
+
+RAH5409",https://www.youtube.com/watch?v=HHlbIn3FY40,neutral,2023-10-21 04:00:08+00:00,27,0,0,2519,0.5,52,29.519,,,neutral,0.8248980045318604,english,Mixed/Urban,happy,0.10382414609193802,0.0767538920044899,0.4471941888332367,0.033804431557655334,0.14917322993278503,0.021879959851503372
+youtube,post,i8t-IOraE0w,"I went to Masjid Al-Muktafi Billah Shah for Friday prayer and then, I saw this, one of the newest branch of Maraliner's double decker executive coaches. Therefore, I decided to capture videos of it leaving the mosque and follow it while recording along Jalan Kamaruddin until it stopped at the fueling station in Pasir Panjang.
+
+As always, hope you enjoy the video. Leave a like, comment and share this video. Also, subscribe and click the notification bell to not miss out any of my future videos. Stay tuned for upcoming videos.
+
+Video created on: 30/07/2021
+Video edited on: 31/07/2021
+
+Timestamps:
+
+00:00 - First Clip's Spotting Location
+00:13 - RAG 2061 Leaving the Mosque
+00:56 - Second Clip's Starting Location
+01:09 - Following RAG 2061 along the Road
+03:57 - Outro
+
+Video saving settings for Filmora X:
+
+Video Format: MP4
+Video Encoder: H.264
+Resolution: 1280x720
+Bitrate - 5000 kbps
+Framerate: 30 FPS
+Audio Encoder: AAC
+Audio Channel: Stereo
+Sample Rate: 48 kHz
+Audio Bitrate: 192 kbps
+
+""Community"" Facebook page :   / syahmischannel.syahmiasyraff.7  
+Official Facebook Page:   / syahmiasyraffchannel  
+Previous video:    • A Modern House near the Hotel - Constructi...  
+Next video:    • Excavating a Small Hole w/ CAT 430F2 Backh...",https://www.youtube.com/watch?v=i8t-IOraE0w,neutral,2021-07-31 07:06:30+00:00,46,0,8,5715,0.5,111,75.715,,,neutral,0.8000463843345642,english,Mixed/Urban,no_clear_emotion,0.09096764028072357,0.0363522544503212,0.07726024836301804,0.025437697768211365,0.06042455509305,0.03782046586275101
+youtube,comment,Ugwqhc_uwXPKb4gTuph4AaABAg,Mewah nampaknya,,negative,,1,0,0,0,0.1339782401919365,100,,"{'id': 'UC52kxDrG3e5z3wNK0hCWIDg', 'name': '@hayanizakaria3392', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kkfQf2XDnFSq51k9XPVGVxmP76KyVpw91kplSJnzU=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.5534058660268784,multilingual,Unknown,love,0.19042544066905975,0.09533454477787018,0.13430996239185333,0.07511543482542038,0.26518017053604126,0.06598863005638123
+youtube,comment,UgxDqAA8v219pCjRb4R4AaABAg,Terima kasih ikut belakang sy Hari jumaat,,positive,,3,0,0,0,0.8233369201421737,300,,"{'id': 'UCYmWaqCW-WZRBDMcQVNj1cw', 'name': '@baharuddinbidin5785', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lrHWTbFqZoDU9M3ff8W1iLLWIXHPXeSom1GjKU4xvUrnPxLAvT-ZnE0hGd6wW5uxS3EA=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.4111230671405792,multilingual,Unknown,love,0.01664452627301216,0.012211673893034458,0.03092207945883274,0.022659990936517715,0.7669315338134766,0.03606703504920006
+youtube,comment,Ugw6JW677GacJSRrtM14AaABAg,Ni kt.. bkit BESAR bus mra lner slalu kdg..is mnyak kat ptronas...wrna hjau kdg merah...,,neutral,,1,0,3,0,0.5,133,,"{'id': 'UCGEplkFMOiVVtKaHs6-gYNg', 'name': '@kibriali2654', 'thumbnails': [{'url': 'https://yt3.ggpht.com/jue1uTnojjNCjjnxvuzR2E06s1DmO93z4D8mT9vkTkEbIpHBoFz8-WoF0jcAYetHiRTzvcum=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8229334950447083,english,Mixed/Urban,love,0.052314724773168564,0.02367689274251461,0.055706728249788284,0.028660103678703308,0.495205283164978,0.03782961517572403
+youtube,comment,UgyH0GVYzq2To59FIW94AaABAg,Sya perminat bus dri 87.cdpbm..dkat dgn umah jrg tgokD3 ...ada brapa buah yek... J Nis ni,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UCGEplkFMOiVVtKaHs6-gYNg', 'name': '@kibriali2654', 'thumbnails': [{'url': 'https://yt3.ggpht.com/jue1uTnojjNCjjnxvuzR2E06s1DmO93z4D8mT9vkTkEbIpHBoFz8-WoF0jcAYetHiRTzvcum=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.9814434051513672,malay,Malay/Bumiputera,love,0.047598183155059814,0.028046052902936935,0.02169479802250862,0.036268528550863266,0.7594184875488281,0.03264361619949341
+youtube,post,RSYf2zfm-Ds,NAIK BUS MARALINER KE KOTA RAYA.‼️😅 BUS DI MALAYSIA,https://www.youtube.com/watch?v=RSYf2zfm-Ds,positive,2023-05-15 16:45:29+00:00,0,0,4,841,0.9057248279452323,12,12.841,,,positive,0.685749426484108,multilingual,Unknown,no_clear_emotion,0.04403696581721306,0.021629948168992996,0.06238607317209244,0.02167380601167679,0.2304299920797348,0.02885599620640278
+youtube,comment,UgzAqqTKTtKe1YZE5F54AaABAg,Mana tempat tu,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCFPLanWRXmQ654GSaIOw2Rw', 'name': '@YanieYanie-mo1ok', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nGcme0aUep4oXTMEZ96rOe2QLR4MfLi_qc3FWKofrzZxyQTLkT6aO53ObuurhWH70Sgg=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.6483889222145081,malay,Malay/Bumiputera,no_clear_emotion,0.21207264065742493,0.03755873069167137,0.10531046986579895,0.020295538008213043,0.2181997448205948,0.023663360625505447
+youtube,comment,UgyXDdoyZtgE5VrmxSB4AaABAg,"Bang, bantuan ah, kalai nak naik bas mara liner ni kan, bayar macam mana?",,neutral,,0,0,1,0,0.5,11,,"{'id': 'UCu-c7zO9mkS70nv82OsAMtg', 'name': '@starboy_02', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kHcCZHvMhtmdkuXT1BNdoQ5RUYeHE5uZ_VNyQvhJapJ5w=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.899539053440094,english,Mixed/Urban,love,0.10574565827846527,0.03008916974067688,0.03817923367023468,0.04635235294699669,0.6165953278541565,0.037139248102903366
+youtube,post,oHNqoEMOhb0,"Pada 16 Mac 2022, saya telah membeli tiket bas ekspres dari syarikat MARALINER di Melaka Sentral untuk menuju ke Terminal Bersepadu Selatan, Kuala Lumpur.
+
+Ini adalah pertama kali saya menaiki bas dua tingkat dari MARALINER. Harga tiketnya ialah RM13.50 ( termasuk insuran penumpang ).
+
+Kerusi dan kusyennya lebih selesa bagi perjalanan jauh atau yang tersekat di dalam kesesakan lebuhraya. Pada masa diskripsi ini ditaip, lebuhraya telah mula sesak di kawasan Pedas - Linggi (1.20 petang).
+
+#maraliner #basekspres #lebuhrayautaraselatan",https://www.youtube.com/watch?v=oHNqoEMOhb0,neutral,2022-03-16 05:51:37+00:00,11,0,0,2393,0.5,34,13.393,,,neutral,0.9976704716682434,malay,Malay/Bumiputera,anger,0.8267159461975098,0.04983749985694885,0.03623766079545021,0.017815547063946724,0.029258238151669502,0.00942134764045477
+youtube,post,k7phFfonTPc,"Review laporan dalam bentuk vedio pandek di MRO MERGONG
+#fyp #viral #youtubeshorts #fypシ #business #report #doa 
+#kedah",https://www.youtube.com/watch?v=k7phFfonTPc,neutral,2022-10-06 05:17:02+00:00,9,0,8,242,0.5,19,33.242,,,neutral,0.8761844038963318,english,Mixed/Urban,no_clear_emotion,0.02688414417207241,0.01280684769153595,0.043799541890621185,0.018045201897621155,0.10771677643060684,0.032317738980054855
+youtube,comment,UgwNnX5-P0iuXf5zZfh4AaABAg,Wow mantap! Padu!,,positive,,2,0,0,0,0.9470033004879951,200,,"{'id': 'UCgFHRohD_N8yGnWDzV4OREA', 'name': '@diadokmai', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kZ4M_M2mviZko8_erL8zL3yKJk8B0NHqAa4Vmw47ajuQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.8233443349599838,multilingual,Unknown,no_clear_emotion,0.07620976120233536,0.055091820657253265,0.08866651356220245,0.03389105573296547,0.34307023882865906,0.04821920767426491
+youtube,comment,UgwE7alt3TDEyCeT05p4AaABAg,Hadir,,neutral,,2,0,0,0,0.5,200,,"{'id': 'UCBTHzC-mruWZqJCisUORCwQ', 'name': '@aimanhaziqmohdjamil3249', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lImVEFshLCzwKPwsKil_wI44W3fLO5VgHisdM_-Jtm5ZMsPSMXFTRot9-tSU3zW38Ftw=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.4554196298122406,english,Mixed/Urban,anger,0.2641478180885315,0.13223513960838318,0.09245962649583817,0.07734550535678864,0.18391883373260498,0.08784879744052887
+youtube,comment,UgyZAotVyoctYCwdIlB4AaABAg,Terbaikkk En Khairul,,neutral,,1,0,0,0,0.5,100,,"{'id': 'UCs-_LZlTYxmB1rm84LGWaFg', 'name': '@muhammadaqilbinaizudin6683', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kPaaYRWHeH7kkrNlUyJg2kozFOaDQL64rJf3OSssf7oyGP=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.9688605666160583,malay,Malay/Bumiputera,love,0.18435439467430115,0.06734074652194977,0.14096155762672424,0.03745780885219574,0.4126383662223816,0.025019817054271698
+youtube,comment,UgxbJkr2TJJ5gWH4drB4AaABAg,Terbaik bos buat lagi video bas part repair n servis,,negative,,1,0,1,0,0.0012683451175689586,111,,"{'id': 'UCqDQWccDI5SWarRIRhbBGgg', 'name': '@azizulhakimmohdnoor6272', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kli0k3C-RDbTpqOliVbT34Ikn-oTv3_V2RCefRrDn7vl9ySG3kVOKW5vZSl9ROpKUKsg=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.9957721829414368,malay,Malay/Bumiputera,love,0.02441534586250782,0.020132651552557945,0.2631790041923523,0.01471913605928421,0.5723369121551514,0.026947086676955223
+youtube,comment,UgwjNfnQGr-gr2XuNYd4AaABAg,Bos ni belajaq ka mengajaq ni..hihu,,neutral,,2,0,1,0,0.5,211,,"{'id': 'UCgFHRohD_N8yGnWDzV4OREA', 'name': '@diadokmai', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kZ4M_M2mviZko8_erL8zL3yKJk8B0NHqAa4Vmw47ajuQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.6971648931503296,english,Mixed/Urban,surprise,0.02570601925253868,0.03610987588763237,0.023660195991396904,0.029389256611466408,0.22203853726387024,0.36314189434051514
+youtube,post,V7jTdq0-dgs,Created by InShot:https://inshotapp.page.link/YTShare,https://www.youtube.com/watch?v=V7jTdq0-dgs,neutral,2022-11-09 14:42:35+00:00,1,0,0,52,0.5,1,1.052,,,neutral,0.775229275226593,english,Mixed/Urban,surprise,0.023375844582915306,0.07112696766853333,0.04266785830259323,0.04892411828041077,0.0872473493218422,0.47045019268989563
+youtube,post,aRxkmggtdtU,This video created for educational purpose.,https://www.youtube.com/watch?v=aRxkmggtdtU,neutral,2021-07-10 15:58:36+00:00,0,0,0,35,0.5,0,0.035,,,neutral,0.776483952999115,english,Mixed/Urban,no_clear_emotion,0.025278525426983833,0.04203169047832489,0.2844076156616211,0.018566610291600227,0.11740566790103912,0.04488608241081238
+youtube,post,zCetVVkYnI4,RTG Corporate Video,https://www.youtube.com/watch?v=zCetVVkYnI4,neutral,2017-07-24 08:05:19+00:00,10,0,0,855,0.5,18,10.855,,,neutral,0.7588645815849304,english,Mixed/Urban,no_clear_emotion,0.10455761104822159,0.08464138209819794,0.0916099026799202,0.06123434007167816,0.23519182205200195,0.07772373408079147
+youtube,post,3s7FPl2OC1A,D3 MARA LINER RAH 5613 @KUALA PERLIS,https://www.youtube.com/watch?v=3s7FPl2OC1A,neutral,2022-05-22 04:11:46+00:00,27,0,2,2938,0.5,58,35.938,,,neutral,0.798407256603241,english,Mixed/Urban,love,0.08425623178482056,0.030610810965299606,0.07131721079349518,0.02866561897099018,0.44466254115104675,0.02804451622068882
+youtube,comment,Ugw3SpX_HEP8pvp_S7J4AaABAg,how to ride this bus as a foreigner,,negative,,1,0,1,0,0.14943437576293944,111,,"{'id': 'UCiNSfYnacKUnyWSceVN4Cag', 'name': '@arifinbali3757', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_k4JDgSU47rNHAYmMPI41OND3P5YcTP2nRaoTYtPHNXJQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.5018854141235352,english,Mixed/Urban,no_clear_emotion,0.029028750956058502,0.045748140662908554,0.03329279273748398,0.05592584237456322,0.02859947830438614,0.20443026721477509
+youtube,post,3qnF3qlbtaU,Departing from putrajaya central heading to pahang state,https://www.youtube.com/watch?v=3qnF3qlbtaU,neutral,2020-08-27 16:04:20+00:00,1,0,0,370,0.5,4,1.37,,,neutral,0.9018456935882568,english,Mixed/Urban,no_clear_emotion,0.06260453909635544,0.017461059615015984,0.10444997996091843,0.011722689494490623,0.06623364239931107,0.014814977534115314
+youtube,post,5B9gZKeajOg,"Maraliner MAN 24.460  RV3586 [SKSBus e128d] @ MBKT
+
+#maraliner 
+#man
+#manbus
+#man24460
+#mantruckandbus
+#busspotting
+#busenthusiast
+#sksbus
+#skse128d
+#rtgintech
+#badanbas
+#doubledeckerbus
+#bas2tingkat
+#basekspres 
+#expressbus
+#expressbusmalaysia 
+#mbte
+#hentianbasmajlisbandarayakualatrengganu",https://www.youtube.com/watch?v=5B9gZKeajOg,neutral,2020-07-14 07:44:25+00:00,20,0,0,1963,0.5,39,21.963,,,neutral,0.9976884126663208,malay,Malay/Bumiputera,love,0.11237156391143799,0.03102661855518818,0.07705819606781006,0.037854887545108795,0.5167377591133118,0.025353407487273216
+youtube,post,cL-4_4KrtuA,MARA Bus Transformation,https://www.youtube.com/watch?v=cL-4_4KrtuA,neutral,2018-03-29 09:10:31+00:00,37,0,2,3923,0.5,78,46.923,,,neutral,0.7295373678207397,english,Mixed/Urban,love,0.19091029465198517,0.1028674840927124,0.10171003639698029,0.07216839492321014,0.2730642557144165,0.05792864039540291
+youtube,comment,Ugyi2K5k36IxouJ88q94AaABAg,idup segan mati tak mau....,,neutral,,2,0,0,0,0.5,200,,"{'id': 'UC1HVgGOvykNu2FA598NdwtA', 'name': '@mohdhaidirbintalib5422', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lSZo2ZPe1vMsJ2AZFvinz9J1z74cYq1ZrH9UcAwJE=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8267799019813538,english,Mixed/Urban,sadness,0.053319111466407776,0.3670708239078522,0.01090311724692583,0.41090261936187744,0.01821466162800789,0.11360775679349899
+youtube,comment,UgyHt0o1S3NplxHY5qt4AaABAg,Ok  bosku  baik naik,,negative,,0,0,0,0,0.17910484671592714,0,,"{'id': 'UCx-XjITqZYmzeDv1GrGblSQ', 'name': '@nsrinfraarifin3044', 'thumbnails': [{'url': 'https://yt3.ggpht.com/-XBCcoiMBBrTf36wwqKfe5sC8JjZBqFvT8uslP0-IrGbOFgWVwlmz4focAPFRbx3aOTQCTMK=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.4029838442802429,multilingual,Unknown,love,0.16738443076610565,0.15603800117969513,0.13125409185886383,0.09226274490356445,0.21855291724205017,0.08643609285354614
+youtube,post,ck-_a2vJgRY,"Fasiliti Di Dalam Bas Double Decker Maraliner.
+Bantu Channel ini menyediakan content yang bermanafaat dengan tidak Skip Iklan serta Subscribe, Like, Share, Comment. Video lain yang lebih menarik boleh anda ikuti di    / @yachannel1939",https://www.youtube.com/watch?v=ck-_a2vJgRY,positive,2022-09-06 03:17:45+00:00,49,0,23,11111,0.9991782426834106,183,129.111,,,positive,0.9972608089447021,malay,Malay/Bumiputera,no_clear_emotion,0.054225996136665344,0.02163620851933956,0.0678829625248909,0.024291682988405228,0.16619934141635895,0.051488883793354034
+youtube,post,gGMxf7_a4hY,""" Jika kami mampu terbangkan anda pulang ke kampung di lebaran ini, kenapa pilih yang lain? MARALINER kan selesa...""
+
+SELAMAT HARI RAYA AIDILFITRI
+
+MAAF ZAHIR BATIN",https://www.youtube.com/watch?v=gGMxf7_a4hY,positive,2018-06-05 08:43:28+00:00,55,0,2,5208,0.9991120636463164,109,66.208,,,positive,0.9970402121543884,malay,Malay/Bumiputera,love,0.10233907401561737,0.03146708756685257,0.24705716967582703,0.027172651141881943,0.4940466582775116,0.02460361085832119
+youtube,comment,Ugxx8qSfg3tkVPm-tgB4AaABAg,Jom balik kampung raya ni dgn maraliner.,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UCyl0JLbxOzpYllb5PBc6f5Q', 'name': '@CEKUPALA', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nr9xE_2vBhbh6K--Fq-aive21XyEQnu2y02BiS_JoIPeuEzrRmJAz6CHewA8Z5_h4Pew=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8610727787017822,english,Mixed/Urban,love,0.030085813254117966,0.01511180680245161,0.08486785739660263,0.021885676309466362,0.5312063694000244,0.03860889747738838
+youtube,comment,Ugza5_ZRFbsuWAKEXIh4AaABAg,Ok,,positive,,2,0,0,0,0.907010594010353,200,,"{'id': 'UCKipTDftjBSSJl54tjnZt_w', 'name': '@iqbalirfan5032', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nmUYZ0qrf_7TfOn5o4qsdMdq0ZdAjU4CLwzj-YPHs=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.6900353133678436,multilingual,Unknown,love,0.17592325806617737,0.08659125119447708,0.128899484872818,0.04757596552371979,0.3093903660774231,0.05776738002896309
+youtube,post,wszrAZYORtY,"""Teman Destinasi Anda""
+
+Tribute to:
+
+00:00 - RY 3569
+01:11 - WC 5426 R
+02:32 - RW 3374 or RQ 5039
+02:52 - RW 7465
+03:32 - RQ 6584
+03:56 - RV 3586
+04:12 - RS 302
+05:02 - VBJ 4139
+05:42 - RY 3562
+06:06 - VBJ 4139(?)
+06:18 - (Unknown number plate)
+
+And all of the captains who are involved in these source videos.
+
+This video is a compilation of all of my recorded footages of Maraliner coaches as of the release of my last bus spotting video at Marang back in 1st April. And no, the one in the thumbnail is not included in the video as I've never recorded the footage of it before
+
+As always, hope you enjoy the video. Leave a like, comment and share this video. Also, subscribe and click the notification bell to not miss out any of my future videos. Stay tuned for upcoming videos.
+
+Video created on: (Based on source videos)
+Video edited on: 29/04/2021
+
+06:33 - Outro
+
+SOURCES:
+
+   • Bus Spotting at MBKT Bus Station 2   - Bus Spotting at MBKT Bus Station 2
+   • Bus Spotting at MBKT Bus Station 6   - Bus Spotting at MBKT Bus Station 6
+   • Double Deckers Only Vol. 2 (sort of) - Bus...   - Double Deckers Only Vol. 2 (sort of) - Bus Spotting at MBKT Bus Station 8
+   • Departure Chaos - Bus Spotting at MBKT Bus...   - Departure Chaos - Bus Spotting at MBKT Bus Station 10
+   • Bus Spotting at Hentian Bas Marang   - Bus Spotting at Hentian Bas Marang
+   • Bus Spotting on Malaysian Highways   - Bus Spotting on Malaysian Highways
+   • Bus Spotting at Ukir Square Bus Terminal, ...   - Bus Spotting at Ukir Square Bus Terminal, Sungai Petani, Kedah
+   • Bus Spotting at MBKT Bus Station 11   - Bus Spotting at MBKT Bus Station 11
+   • Nighttime Bus Spotting at Hentian Bas Marang   - Nighttime Bus Spotting at Hentian Bas Marang
+
+Video saving settings for Filmora X:
+
+Video Format: MP4
+Video Encoder: H.264
+Resolution: 1280x720
+Bitrate - 5000 kbps
+Framerate: 30 FPS
+Audio Encoder: AAC
+Audio Channel: Stereo
+Sample Rate: 48 kHz
+Audio Bitrate: 192 kbps
+
+""Community"" Facebook page :   / syahmischannel.syahmiasyraff.7  
+Official Facebook Page:   / syahmiasyraffchannel  
+Previous video:    • Freezer Burn (60fps Revisit) - Left 4 Dead...  
+Next video:    • Arena of The Dead 2 (Survivor Buff Mutatio...",https://www.youtube.com/watch?v=wszrAZYORtY,neutral,2021-04-30 15:41:01+00:00,40,0,8,3064,0.5,78,67.064,,,neutral,0.8964794278144836,english,Mixed/Urban,no_clear_emotion,0.02696591056883335,0.011279268190264702,0.02541411481797695,0.009296699427068233,0.05066810920834541,0.03303614258766174
+youtube,comment,UgwM3i6_Z3A6a9kymmt4AaABAg,What makes Maraliner so special?,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UCrcgNUQll76YOhp0cnG0Ltw', 'name': '@mustansirdohadwala8168', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_mh4e11Jh0zyPY-oXdxOWi8m8zvfPWrpUp20byIibyXcsZu=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5391685962677002,english,Mixed/Urban,happy,0.021321486681699753,0.05144250765442848,0.504401445388794,0.01905086822807789,0.2641753554344177,0.09916350990533829
+youtube,comment,Ugw3KFuSls5aLmRlU3l4AaABAg,Perkhidmatan bas paling lama di Msia,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UC52kxDrG3e5z3wNK0hCWIDg', 'name': '@hayanizakaria3392', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kkfQf2XDnFSq51k9XPVGVxmP76KyVpw91kplSJnzU=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8409565687179565,english,Mixed/Urban,love,0.03744924068450928,0.012364359572529793,0.061576586216688156,0.020965946838259697,0.4387799799442291,0.03282473236322403
+youtube,comment,UgwU-PWkB4icoTlM9Ux4AaABAg,Ingat bussid HAHAHAHAHH,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UC4ozZwZ_6aMGi-JcUDY13YQ', 'name': '@amknockv2754', 'thumbnails': [{'url': 'https://yt3.ggpht.com/KhcDS18iL1iAbY5CUq9rnJeWAzTYHqsvAD6a8cjPVYyhfgYDI7mAqi2k-t2nlexFH_W9pDUbLQ=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5279216766357422,english,Mixed/Urban,love,0.06176380440592766,0.03220751881599426,0.022441305220127106,0.0393475741147995,0.7189046740531921,0.05110760033130646
+youtube,comment,UgwtWadJZ2FITJLe4qB4AaABAg,VBU4139....,,negative,,0,0,0,0,0.15309982895851135,0,,"{'id': 'UCKbc0sTLXZEmE4CeeEQSWtg', 'name': '@wanzhafran7480', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kj3nHRzDQVZtSRZZijpVi9mQwCRPpmQgtRuqolZ-zcBw=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.48966723680496216,multilingual,Unknown,no_clear_emotion,0.15212911367416382,0.06310661882162094,0.06288021057844162,0.04414857551455498,0.21401435136795044,0.045318350195884705
+youtube,comment,UgzPSciYOIAxPKLU8UN4AaABAg,0:30 sape bawak bas trans tu setahu sy trans dh lama tutup,,negative,,0,0,2,0,0.0007325291633605846,22,,"{'id': 'UCNYCE_RZUPbyNnSxyvTNcnw', 'name': '@cruellllla', 'thumbnails': [{'url': 'https://yt3.ggpht.com/KbqkgEMqPtFE82YVvM9Mg66D62caa-W-Znsjxe5q9Iy8G3B9wW-3Pivsl1-ukmPOH-XH4CRC=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.9975582361221313,malay,Malay/Bumiputera,no_clear_emotion,0.05864720419049263,0.021781757473945618,0.018183687701821327,0.027529064565896988,0.3007359802722931,0.08828026056289673
+youtube,comment,UgyEPSdaaLwiDk2IBoJ4AaABAg,Lain kali tulis destinasi bas itu,,neutral,,0,0,0,0,0.5,0,,"{'id': 'UC4GuOYfps5L1qDUFnzIm_GA', 'name': '@vekeneshwaranbalakrishnan2965', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nPFZnBnH5BkjDSbBMzoQUgISN1fsChABeXU9Yx1s4=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.7781279683113098,english,Mixed/Urban,no_clear_emotion,0.038048822432756424,0.012940800748765469,0.01687082089483738,0.0176873616874218,0.2542102634906769,0.09446067363023758
+youtube,post,XnSvnDnnpG8,"Coach Builder:RTG Interc
+Chassis type: MAN 19.350 RR8
+Jenama seat:Orient",https://www.youtube.com/watch?v=XnSvnDnnpG8,neutral,2022-02-18 02:03:55+00:00,69,0,10,11077,0.5,189,110.077,,,neutral,0.918013870716095,english,Mixed/Urban,no_clear_emotion,0.04171571880578995,0.015788163989782333,0.0664394348859787,0.018788406625390053,0.1209852546453476,0.027345867827534676
+youtube,post,F9JD10nSgEA,"Zaman bas tambang di Langkawi telahpun kembali, kali ini, dengan kenderaan kuasa elektrik, kerjasama Maraliner, TNB dan SKSBus.
+
+The first public transport bus service in Langkawi in recent times, runs purely on electric power, touted as being in line with green initiatives and the island's low carbon aspirations.
+
+Dari/From Kuah: 0610, 1130, 1750 (5:50pm)
+Dari/From PadangMatsirat: 0700, 1320, 1915
+Tambang/Fare: Dewasa/Adult RM3, Kanak2/Child RM1.50 (Kuah-PdgMatsirat)
+
+Laluan/Route 022: Kuah-PadangMatsirat 
+MaraLiner depot - TamanBerlian - TamanMahsuri - PadangPasir - PokokAsam - Kelibang - Sungai Menghulu - Bukit Tekuh - Mata Air - Makam Mahsuri - Kampung Teluk - Kampung Baru - Ulu Melaka - Bukit Kemboja - Yooi - Padang Matsirat Roundabout - Padang Matsirat town - Petronas Padang Matsirat - SM Padang Masirat secondary school
+
+Langkawi Life is a video series showcasing everyday experiences and activities in Langkawi.",https://www.youtube.com/watch?v=F9JD10nSgEA,neutral,2023-05-14 10:17:54+00:00,64,0,27,3422,0.5,125,148.422,,,neutral,0.9045746922492981,english,Mixed/Urban,love,0.08110153675079346,0.020909521728754044,0.13400356471538544,0.02854863554239273,0.5179038643836975,0.02562807686626911
+youtube,comment,UgyFr5D4PFWEgOXRgJx4AaABAg,Looking forward to higher frequency and more routes. Keep it up,,positive,,9,0,1,0,0.9902864873409271,911,,"{'id': 'UCYeQCH_ro0v2DBO1tbdOlNA', 'name': '@islandstay7238', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kwKfbw5CK-sc9QNm-rcH23DfuHgkYtqd6O88NZig_D-Q=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.9676216244697571,english,Mixed/Urban,happy,0.019952215254306793,0.049745552241802216,0.8311750888824463,0.00783337652683258,0.03310650587081909,0.024720873683691025
+youtube,comment,Ugz2EBtagBwAJNWTunR4AaABAg,Hope there will be more routes,,neutral,,8,0,1,0,0.5,811,,"{'id': 'UCjkkIl4eyCIWISZ7Zypwd8w', 'name': '@elstudio6819', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_kSZfCwL3dDUIad8U7lo8YhdotXcfC99Og6SSGrf9g=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5648947358131409,english,Mixed/Urban,happy,0.019720153883099556,0.08347582817077637,0.7722078561782837,0.013185624964535236,0.04752813279628754,0.038954317569732666
+youtube,comment,UgzBr38EEW9I0RCuuv54AaABAg,Thank you,,neutral,,2,0,0,0,0.5,200,,"{'id': 'UCC90Ed-m6R4VoxMXP9vjz6w', 'name': '@TourismLangkawi', 'thumbnails': [{'url': 'https://yt3.ggpht.com/agc6ZHLX4w6xqV3QHrYGVLfkCo41YDPsqMBITGquN74cJJGu1JU7_sVcfgNe_RHr65zr17a8=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5145004987716675,english,Mixed/Urban,no_clear_emotion,0.16895277798175812,0.11298540979623795,0.11407516896724701,0.08075276762247086,0.19720907509326935,0.11472299695014954
+youtube,comment,UgzmPCzbqfhmGOWVKeF4AaABAg,Wow awesome. Thanks for sharing,,positive,,4,0,1,0,0.9157186806201935,411,,"{'id': 'UCEJ1CDyS6ofH7vFXgex_ZpA', 'name': '@travelatmalaysiawithazmils', 'thumbnails': [{'url': 'https://yt3.ggpht.com/-Iuj06uL-kWC48AuG1NHutmkyjeZoObDNhiTjs8AGpQP5yVcX6T8MsYl4-pg56HwSFA3vS4UZ84=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.7190622687339783,english,Mixed/Urban,no_clear_emotion,0.09477788209915161,0.0598418265581131,0.06896629929542542,0.022782517597079277,0.23522381484508514,0.05346594378352165
+youtube,comment,Ugx-eUKV4FpuXuewBY14AaABAg,"Well done,  🎉",,positive,,2,0,1,0,0.9938154697418212,211,,"{'id': 'UC_Qlt8zHiOtoDbYDrp5n3ww', 'name': '@lesterlee.official', 'thumbnails': [{'url': 'https://yt3.ggpht.com/geA1G1juraDE4_vkz9ap5VzQVmdWfxTl10uWpk5SBoaY5YHTnFNBvZYEi7b3N7Psf2j_mW3pKQ=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.9793848991394043,english,Mixed/Urban,love,0.14108633995056152,0.14610768854618073,0.13269533216953278,0.10466605424880981,0.18034963309764862,0.13695189356803894
+youtube,comment,UgwCJqi8PphyxpFusNV4AaABAg,"i go there b4,wish can go again",,neutral,,1,0,0,0,0.5,100,,"{'id': 'UCAJK-8_ppXonLZktn0X4s2Q', 'name': '@DESPARADO-ek1xl', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nZAu6CNvgm-JpBK4Fvb4J43W9ahyyxv8UD5UBhmyUbeRMORs1BrrOoUhSF1HHip9sZUg=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.5966639518737793,english,Mixed/Urban,happy,0.025399016216397285,0.06513483822345734,0.7105045914649963,0.014784176833927631,0.09679387509822845,0.032816674560308456
+youtube,post,TvtxAqNBzOE,Konvoi MaraLiner di Alor Setar,https://www.youtube.com/watch?v=TvtxAqNBzOE,neutral,2022-07-23 13:51:10+00:00,2,0,0,341,0.5,5,2.341,,,neutral,0.8919045925140381,english,Mixed/Urban,love,0.08127371966838837,0.016580447554588318,0.07759800553321838,0.022472208365797997,0.58758944272995,0.01775224506855011
+youtube,post,_QiAF4vbpDM,Teman Tv Mara Liner Rancangan TV di dalam Bas Mara Liner Teman Destinasi Anda,https://www.youtube.com/watch?v=_QiAF4vbpDM,neutral,2008-01-17 10:11:10+00:00,1,0,0,825,0.5,9,1.825,,,neutral,0.9054268598556519,english,Mixed/Urban,love,0.04237154498696327,0.01833978109061718,0.028358004987239838,0.03224119544029236,0.8256901502609253,0.018883347511291504
+youtube,post,-7E9-6yY3Eo,#MaraLiner #BasEkspres #D3 #SKSBUS #BasMalaysia #Bas #Bis #Bus #TerminalAmanJaya #TerminalMeruRaya #IpohPerak #BasIpoh #Scania #ScaniaMalaysia #busenthusiast  #mrbusyeobdm  #legasibasmalaysia  #buses  #peminatbas,https://www.youtube.com/watch?v=-7E9-6yY3Eo,neutral,2023-04-03 03:26:37+00:00,15,0,8,1361,0.5,36,40.361,,,neutral,0.9977189898490906,malay,Malay/Bumiputera,love,0.09210104495286942,0.04066561162471771,0.09916952252388,0.03355615586042404,0.43520528078079224,0.027202755212783813
+youtube,comment,Ugxtb4ziN5gQmuxptEV4AaABAg,👌👍,,positive,,1,0,1,0,0.8714138269424438,111,,"{'id': 'UCBTEO4BLamCztXQgb7T-1LQ', 'name': '@masrulshariff', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_nQnix-VeJ6EdB4XIG9FFgrkb8_vpSDP2Ft1Cp8cNbPAPogyXsBLaYw96po1fV2IWNUFw=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.5713794231414795,multilingual,Unknown,love,0.16052211821079254,0.05389990657567978,0.10087531059980392,0.03487111255526543,0.3091576099395752,0.0316271036863327
+youtube,comment,UgxWFkqUwFzrs63OnmB4AaABAg,Dah naik...terbaik,,positive,,1,0,1,0,0.99817436337471,111,,"{'id': 'UC-T-lDMxCgERBI4hBLni9Gg', 'name': '@zahariahmohdkhalil1137', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lJ0Grb_AinIb3ygGDHBUPgU-vZtV7qYZ_o8WEP1tI=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,positive,0.9939145445823669,malay,Malay/Bumiputera,love,0.15633340179920197,0.060595013201236725,0.12550050020217896,0.04770166054368019,0.3056758940219879,0.04868129640817642
+youtube,comment,Ugxrhj5yGmsuCzJof4N4AaABAg,Kedua-duanya laluan Kuantan-K.Perlis-Kuantan tu boss. Kalau pagi dari Kuala Perlis-Ktn d jangka tiba d Ipoh dlm pkui 3 lebih mcmtu. Begitu jugak sebaliknya dari Kuantan-K. Perlis x silap 9am tiba d  Ipoh lebih kurang 3.45pm mctu la.,,negative,,1,0,1,0,0.07802463769912718,111,,"{'id': 'UCRAbUlAxAucua2jpJLTzDFg', 'name': '@khairulshahfree6406', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_ksQQl2B9h3YStUGVnbkEBwQ17nquLWhFzYP0HbtW3Fg4xF0T91e_MyLGpXuaKOx1LlOQ=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.7399178743362427,multilingual,Unknown,no_clear_emotion,0.1634349673986435,0.024814940989017487,0.03229334205389023,0.0193290114402771,0.0730302631855011,0.029462922364473343
+youtube,comment,UgwJV6xPMGJwryAhgMR4AaABAg,Sdp x naik bas dua tinggt ni,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCJKamd1j9ELrxzwph_RU-qQ', 'name': '@brohakim88', 'thumbnails': [{'url': 'https://yt3.ggpht.com/s8Jq5wN0IYCCb2V7vs1oJFfn7xSQ9540kuKj_mgQwUqjyVBWb4mOSAlNjIvT33fclkJIRKCGeQ=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.9104456901550293,english,Mixed/Urban,surprise,0.012515083886682987,0.03567032516002655,0.010454081930220127,0.03458687290549278,0.021204926073551178,0.8345239162445068
+youtube,post,3265kPAYO-0,"Ikuti perkembangan semasa yang sahih di semua pautan media sosial rasmi Berita RTM: 
+
+Portal Rasmi Berita RTM
+https://berita.rtm.gov.my
+
+Twitter Rasmi Berita RTM
+  / beritartm  
+
+Facebook Rasmi Berita RTM
+  / beritartm  
+
+Instagram Rasmi Berita RTM
+  / beritartm  
+
+Youtube Rasmi Berita RTM
+Main channel:
+   / beritartmbes  
+Backup channel:
+   / saluranberitartm123  
+
+TikTok Rasmi Berita RTM
+  / beritartm  
+
+Terima kasih rakyat Malaysia kerana sentiasa setia bersama kami.
+
+""YANG SAHIH DI BERITA RTM""",https://www.youtube.com/watch?v=3265kPAYO-0,positive,2023-06-01 01:57:33+00:00,1,0,0,328,0.9993670880794525,4,1.328,,,positive,0.997890293598175,malay,Malay/Bumiputera,love,0.04016556590795517,0.023046180605888367,0.03628469258546829,0.05643977224826813,0.40043115615844727,0.09918960928916931
+youtube,post,iBU9u68aYl4,"Pusat Pemberian Vaksin (PPV) Bergerak MARA Liner di Orang Asli One Stop Centre (OAOSC), Sungai Siput, Perak.
+
+#kplb #luarbandarsejahtera",https://www.youtube.com/watch?v=iBU9u68aYl4,neutral,2021-06-27 07:15:02+00:00,0,0,0,38,0.5,0,0.038,,,neutral,0.9065743088722229,english,Mixed/Urban,no_clear_emotion,0.09320729225873947,0.04093563184142113,0.1008552759885788,0.046064138412475586,0.21500371396541595,0.048265330493450165
+youtube,post,Ew_cjDuAaMs,MaraLiner VHK 7825,https://www.youtube.com/watch?v=Ew_cjDuAaMs,neutral,2022-08-31 00:55:02+00:00,5,0,0,1379,0.5,18,6.379,,,neutral,0.9168668985366821,english,Mixed/Urban,love,0.10532126575708389,0.038702789694070816,0.07327630370855331,0.0372282974421978,0.5962179899215698,0.028600359335541725
+youtube,post,28Fc9sywCVY,"Maraliner MAN24.460 RQ5203 for northern sector at Terminal Bas Bersepadu Selatan
+
+#sksbus
+#manbus
+#mantruckandbus
+#man24460",https://www.youtube.com/watch?v=28Fc9sywCVY,neutral,2017-12-24 03:48:16+00:00,10,0,0,1817,0.5,28,11.817,,,neutral,0.8835780024528503,english,Mixed/Urban,no_clear_emotion,0.14702138304710388,0.03857887163758278,0.0910792276263237,0.045267678797245026,0.22310282289981842,0.033312782645225525
+youtube,post,YvjBoj4xHHs,"Alhmdulilah bekesempatan bersama sama otai di bengkel mara mergong MRO dalam menjalani prktikal SIP selama 3minggu
+Utk makluman seme bengkel ini merupakan salah satu bengel kenderaan perdagangan yg paling sibuk di kedah
+Kenderaan bus mara liner semuanya diservis disini
+Jom layan channel kite
+#viral #fyp #bus",https://www.youtube.com/watch?v=YvjBoj4xHHs,negative,2022-08-04 04:32:21+00:00,25,0,11,1111,0.1152375116944313,47,59.111,,,negative,0.6158749610185623,multilingual,Unknown,no_clear_emotion,0.07064729928970337,0.03185394033789635,0.056877993047237396,0.037835948169231415,0.1833958625793457,0.06050213426351547
+youtube,comment,UgxUAI-HxCgcwo_9BpR4AaABAg,TQ support kami Team MaraLiner Mergong....,,neutral,,3,0,0,0,0.5,300,,"{'id': 'UCl0BH0-YNiq9J2_FpTAWuTA', 'name': '@mohamadfauzibinmohamad4510', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_m2tSBx18Gllhy_pmviqt_pMeHYm6wfSqWPsL38Whar_g=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.7375365495681763,english,Mixed/Urban,love,0.04656550660729408,0.01268876250833273,0.046556148678064346,0.01919727958738804,0.7466990947723389,0.01329683419317007
+youtube,comment,Ugxm6qccu1h8ZympcGp4AaABAg,INTRO PADU boskurr!! Cameraman ok dh tu haha,,positive,,3,0,0,0,0.9360872507095337,300,,"{'id': 'UCgFHRohD_N8yGnWDzV4OREA', 'name': '@diadokmai', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kZ4M_M2mviZko8_erL8zL3yKJk8B0NHqAa4Vmw47ajuQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.7869575023651123,english,Mixed/Urban,love,0.03495820239186287,0.01506142970174551,0.06266402453184128,0.01397230289876461,0.6447227001190186,0.024135058745741844
+youtube,comment,UgzTKph3rR-VPVGAlhl4AaABAg,ni tmpt aku bljr jd pomen.. 1st giat mara.. jentera brt prdagangan...,,neutral,,5,0,2,0,0.5,522,,"{'id': 'UCOlWXTJqjHrqOxSNsgSysiQ', 'name': '@shahrizan2318', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_nt5mp4et-Cs85M65X6YkTGSme8O007r-i533LuBMM=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.859000027179718,english,Mixed/Urban,no_clear_emotion,0.026203108951449394,0.016140466555953026,0.013199945911765099,0.02430713176727295,0.30772581696510315,0.10358686745166779
+youtube,comment,UgxMS6o2qjo8_UNcRAN4AaABAg,Hadir support,,neutral,,2,0,0,0,0.5,200,,"{'id': 'UCvyXJmlkcOqWcpQJousnkDw', 'name': '@muhammadfirdaus8500', 'thumbnails': 'https://yt3.ggpht.com/ojTJp_T59rhtWs7QdJhOZo3jR8IOL3PE2Nloj9aSZfWCzEkxXiO2xxfUQ8-X_X4FM909AzBs=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.5972722172737122,english,Mixed/Urban,no_clear_emotion,0.07354883849620819,0.03566095978021622,0.12206820398569107,0.017433516681194305,0.2593495845794678,0.03084157034754753
+youtube,comment,UgwDSWO5n0hg7h6sg4Z4AaABAg,The best bos maraliner,,positive,,1,0,0,0,0.8668951630592345,100,,"{'id': 'UCHQAg-oFGMhQRvmmSHAzlMA', 'name': '@yasserpinto5143', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lNkoaUTFA3Gg2DysCMiPjodgaxL9FFQYrzjuQZdOo=s88-c-k-c0x00ffffff-no-rj'}",0.0,positive,0.5563172101974487,english,Mixed/Urban,no_clear_emotion,0.12916089594364166,0.03204198181629181,0.09865375608205795,0.022188149392604828,0.3168899714946747,0.02342887595295906
+youtube,comment,Ugy9y5BFKqmBswsip7R4AaABAg,"Assalamualaikum abg..nk tanya..maaf kalau mengganggu..Kalau nk jadi pomen kn, berapa tahun boleh jadi pandai sikit?Sbb saya tngk mcm bkn senang nk tau bab2 enjin n servis tu..",,negative,,1,0,2,0,0.001968044042587269,122,,"{'id': 'UCPsaVnHUaNKj7zU3sSI4FgQ', 'name': '@muhammadkhairilfikri97anua33', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_meZQDvkVwIytlz05tUr4sKYRoxduo30MYm6fDWZDFwo5Dx5x44u4bpmQY2f_R4uW4yGQ=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.9934398531913757,malay,Malay/Bumiputera,anger,0.7323101162910461,0.02391071431338787,0.03518742695450783,0.013300703838467598,0.12245064228773117,0.012066580355167389
+youtube,post,zKvSkNj9W4s,"Layan trip balik kampung mertua.
+
+Body RTG ni not bad lah cuma dari segi berat bas tu beza dalam 1 tan berbanding body SKSBUS.
+
+Body ringan pickup berdesup la.
+
+Cuma yang aku tak suka bila bunyian bracket tv di dek atas tu menggangu feel layan trip.
+
+Jangan lupa #subscribes #shares #like #comment #notification and #follow channel aku untuk cerita bas yang lain.",https://www.youtube.com/watch?v=zKvSkNj9W4s,neutral,2021-03-02 11:28:50+00:00,24,0,12,1784,0.5,53,61.784,,,neutral,0.7752487063407898,english,Mixed/Urban,anger,0.8005162477493286,0.03536544367671013,0.019015004858374596,0.024873463436961174,0.0812709704041481,0.008378511294722557
+youtube,comment,Ugwy3ncBH4cIfrXqjwZ4AaABAg,Engine man kuat bunyi tak?,,neutral,, ,0,0,0,0.5,0,,"{'id': 'UCZiY7l9ZFdhVwrMLtzIAvDw', 'name': '@far640', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lAy9fvGMdUZvD5MbForIYpSwtHYivSGQDId_2QNws=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.856529712677002,english,Mixed/Urban,no_clear_emotion,0.12055891752243042,0.04421138018369675,0.1393258422613144,0.026479562744498253,0.29827681183815,0.023632394149899483
+youtube,comment,UgwnYVVzsc_3-pHwA-R4AaABAg,interview pemandu bang,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCMCW_7bi4uzYIA7p2WavlSQ', 'name': '@pertamatv', 'thumbnails': 'https://yt3.ggpht.com/WRBo65BkWAiz9FfghDNswhHjJ-WkqwG-1VPbwqBrjMVxWa-TSkIjSdsCfFxvAbmG8yeJg7vjsw=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.9010458588600159,english,Mixed/Urban,no_clear_emotion,0.08987686038017273,0.05974452942609787,0.06536311656236649,0.03937399014830589,0.10052523761987686,0.0767672061920166
+youtube,comment,Ugz7GU5rxqq0BtKRp_t4AaABAg,body rtg ni memang lawa,,negative,, ,0,1,0,0.13047797083854676,11,,"{'id': 'UCMCW_7bi4uzYIA7p2WavlSQ', 'name': '@pertamatv', 'thumbnails': 'https://yt3.ggpht.com/WRBo65BkWAiz9FfghDNswhHjJ-WkqwG-1VPbwqBrjMVxWa-TSkIjSdsCfFxvAbmG8yeJg7vjsw=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.5650734305381775,multilingual,Unknown,love,0.09855148196220398,0.02269969880580902,0.06623678654432297,0.039751533418893814,0.6590834856033325,0.024105200543999672
+youtube,comment,Ugx-kXu-R-CjlAEeIVJ4AaABAg,We want NAEILA story.....,,neutral,,1,0,2,0,0.5,122,,"{'id': 'UCC3iKUuNO8S2a90uMhGJ6NA', 'name': '@zulkifliahmad7481', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lqp1TM9Di2AsYLEDjrwuXjmLbArZhF3VlGKetyNwk=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8019653558731079,english,Mixed/Urban,love,0.037500061094760895,0.057093121111392975,0.12989380955696106,0.03899677097797394,0.6761379837989807,0.027387354522943497
+youtube,comment,UgzYAsWsB4N2ezpz3jB4AaABAg,kota tinggi ni....,,neutral,, ,0,1,0,0.5,11,,"{'id': 'UCpsHXurE_0XJiNWl22dXKVA', 'name': '@nurulnadia9673', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kZ8Fj5qKmOgJjfYTIRcasSAcB19yilUOwM6FCQeCI=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8599478602409363,english,Mixed/Urban,love,0.15481843054294586,0.07637092471122742,0.05945858731865883,0.03381601721048355,0.31948375701904297,0.04116540029644966
+youtube,comment,UgzyotaloyJubom_pzd4AaABAg,"Model e128d paling selesa walaupun body berat, kuat minyak, tpi langgar lubang pon senyap. D3 langgar strip pon dh bunyi kuk kuk kuk...",,negative,, ,0,1,0,0.13872983157634736,11,,"{'id': 'UCoNoONm9QnwhVWkInUsVX0w', 'name': '@muhammadsyawaladam8767', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_lAvtqnOCBXqxvI_5baoTvFPyVfnkA3LnnMdusQ6wdG6VY=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.5375672280788422,multilingual,Unknown,anger,0.4856680929660797,0.019890429452061653,0.05040322616696358,0.02271207422018051,0.22724145650863647,0.02003149688243866
+youtube,post,aWp61kg-8h4,MARA LINER D3 SKSBUS Powered By SCANIA,https://www.youtube.com/watch?v=aWp61kg-8h4,neutral,2021-11-13 01:55:34+00:00,8,0,0,581,0.5,13,8.581,,,neutral,0.7876110076904297,english,Mixed/Urban,love,0.04685010015964508,0.04880814626812935,0.08743026852607727,0.023990143090486526,0.5082306265830994,0.06377886235713959
+youtube,post,w6KFfoG7jkA,"GBEM - Plusliner, Ekspres Mutiara, Aerocity, Pancaran Matahari, Super Nice & Maraliner",https://www.youtube.com/watch?v=w6KFfoG7jkA,neutral,2021-10-26 04:51:02+00:00,11,0,0,480,0.5,15,11.48,,,neutral,0.6157431602478027,english,Mixed/Urban,love,0.04090096428990364,0.02894708141684532,0.2753678560256958,0.01596057415008545,0.5026940107345581,0.02546742744743824
+youtube,post,OP3uVBJtzNw,REVIEW BAS WARISAN MALAYSIA  #BasJohor #UDJA452s,https://www.youtube.com/watch?v=OP3uVBJtzNw,positive,2023-09-03 14:02:16+00:00,26,0,8,1804,0.8483966335654258,52,51.804,,,positive,0.49465544521808624,multilingual,Unknown,no_clear_emotion,0.05388181656599045,0.019949767738580704,0.0928877517580986,0.028450358659029007,0.38876208662986755,0.024094749242067337
+youtube,comment,UgxYwmju5IxKOZMKBiN4AaABAg,Seperti Bas KKKL Express,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCsfwRkYTEG3inRgGO8MlyVw', 'name': '@AhmadZulIskandarAhmadAzh-be3ph', 'thumbnails': [{'url': 'https://yt3.ggpht.com/3v1HoKgdudxuxUiTn5OcA8i0lr5qHkiROgA4SS8e13TLYfy0PEm_vxh01dCnoMd8M4Op0fEA=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8460866212844849,english,Mixed/Urban,love,0.17892126739025116,0.057585760951042175,0.09667391330003738,0.028983889147639275,0.39183303713798523,0.02269466407597065
+youtube,comment,UgwoDAkwH8RW7wRLLdR4AaABAg,UD pakai air suspension ka?,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCZiY7l9ZFdhVwrMLtzIAvDw', 'name': '@far640', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_lAy9fvGMdUZvD5MbForIYpSwtHYivSGQDId_2QNws=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.8185386657714844,english,Mixed/Urban,no_clear_emotion,0.06104421243071556,0.024579524993896484,0.02130652777850628,0.025110313668847084,0.271986722946167,0.09041924774646759
+youtube,comment,Ugza-z8utjooS4Mld2h4AaABAg,Bas persiaran Malaysia terbaik bossku 😊😊😊 volvo bas🎉dari hong yi holiday,,negative,,1,0,1,0,0.1587741047143936,111,,"{'id': 'UCqN5Wu9DeIIQCyILSNVEwig', 'name': '@sonwong1032', 'thumbnails': [{'url': 'https://yt3.ggpht.com/ytc/AIdro_mQUvAKf0Emh_vpu-PenWntpMPn8M4YdiJLb13CKC0=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,negative,0.4707529842853546,malay,Malay/Bumiputera,love,0.04017144814133644,0.018720053136348724,0.1021013855934143,0.015683365985751152,0.7076394557952881,0.01673762872815132
+youtube,comment,UgztQyII3AFCUydtMtt4AaABAg,Enjin Nissan UD JA,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCsfwRkYTEG3inRgGO8MlyVw', 'name': '@AhmadZulIskandarAhmadAzh-be3ph', 'thumbnails': [{'url': 'https://yt3.ggpht.com/3v1HoKgdudxuxUiTn5OcA8i0lr5qHkiROgA4SS8e13TLYfy0PEm_vxh01dCnoMd8M4Op0fEA=s88-c-k-c0x00ffffff-no-rj', 'width': 88, 'height': 88}]}",0.0,neutral,0.7969020009040833,english,Mixed/Urban,no_clear_emotion,0.10320644825696945,0.03676476329565048,0.11190148442983627,0.029495395720005035,0.33198902010917664,0.021865328773856163
+youtube,post,vgSiLPWp0-Q,"Sani Express,MaraLiner,Queen Express&Persada",https://www.youtube.com/watch?v=vgSiLPWp0-Q,positive,2022-11-24 12:09:50+00:00,5,0,0,201,0.9180051386356354,7,5.201,,,positive,0.7266837954521179,multilingual,Unknown,love,0.11173444986343384,0.023831762373447418,0.06148691475391388,0.027239246293902397,0.481773316860199,0.02184250019490719
+youtube,post,wq_jq8cDbpg,"Snapshot beberapa fleet MARA Liner semasa dalam proses pembinaan SKSBUS Model E128DD.
+
+Menggunakan cesi MAN 24.460 HOCLN R40.
+
+Juga disisipkan beberapa gambar pembinaan bas syarikat lain yang ada semasa foto di ambil.
+
+Jangan lupa #subscribes #share #like #comment #PaeEsmaniakthVlog untuk snapshot bas yang lain pula.
+
+Terima kasih pada yang telah sudi menjadi rakan subscribers 👍👍👍👍👍",https://www.youtube.com/watch?v=wq_jq8cDbpg,neutral,2021-03-09 15:11:55+00:00,45,0,8,4659,0.5,99,73.659,,,neutral,0.8378223180770874,malay,Malay/Bumiputera,no_clear_emotion,0.025492671877145767,0.01578550599515438,0.03808515891432762,0.022960137575864792,0.17660202085971832,0.06429705023765564
+youtube,comment,UgwElCVpSDj4I8P5T2R4AaABAg,"Bus yang perjalanan jauh harus di perluaskan sleeper bus yang ada di luar negara seperti di indonesia,india, American dan banyak lagi negara perluaskan sleeper bus.malaysia juga ada bus yang macam ni.bagi percubahan 1 atau dua buah bua di malaysia.pasti ada sambutan yang hangat.badan juga tak terlalu penat di baringkan jalan jauh harus cuba mana mana syarikat untuk keselesaan untuk semua.boleh lihat di YouTube cantik dan selesa.",,negative,,1,0,1,0,0.005908566713333119,111,,"{'id': 'UCFJ5O3IGyFew-3PVmy_lpdA', 'name': '@kamsanibinothman453', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_l0-93o-N4jweYv7-bzEspdpjpNmkF1pKsdg14yNPPlM54RTS3m4MWNNzI-8fBIvT4zFA=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.9803047776222229,malay,Malay/Bumiputera,love,0.09051114320755005,0.18626496195793152,0.1716698408126831,0.031141608953475952,0.3719569146633148,0.05289403721690178
+youtube,comment,Ugw3A0sohOfsQ23HdjJ4AaABAg,Tempat yg ni kat mana boss,,negative,, ,0,1,0,0.14416460394859312,11,,"{'id': 'UCm4HdEw0DND4IT0jz9p1tQw', 'name': '@mohamedshafee4199', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_kJgQvtS3j_2tmu0ZmyA_sB7GAQUdK6SDAH6PNusHDF1E-n=s88-c-k-c0x00ffffff-no-rj'}",0.0,negative,0.5194513201713562,multilingual,Unknown,no_clear_emotion,0.05046439543366432,0.014419381506741047,0.0833488404750824,0.018886776641011238,0.15357430279254913,0.01897730678319931
+youtube,comment,Ugwek5CHf92ilT-JYi54AaABAg,bang buh suara baru ngam...video durasi 10 minit ok dah...tahniah,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCMCW_7bi4uzYIA7p2WavlSQ', 'name': '@pertamatv', 'thumbnails': 'https://yt3.ggpht.com/WRBo65BkWAiz9FfghDNswhHjJ-WkqwG-1VPbwqBrjMVxWa-TSkIjSdsCfFxvAbmG8yeJg7vjsw=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8657402992248535,english,Mixed/Urban,no_clear_emotion,0.021571502089500427,0.09006495773792267,0.24507023394107819,0.01413742545992136,0.15580208599567413,0.14824609458446503
+youtube,comment,Ugw0bd8N2jT9C-fO4Ul4AaABAg,Berapa lama tempoh sesebuah body bas tu nak siap bos..,,neutral,,1,0,1,0,0.5,111,,"{'id': 'UCdulYI3VVbB3Pepudy3rwnQ', 'name': '@MuhammadFikriGhani', 'thumbnails': 'https://yt3.ggpht.com/ytc/AIdro_mkBz5McKszZF5-tVV-lwaNnxZ6R8GzV7KIQt7HUDLJgw=s88-c-k-c0x00ffffff-no-rj'}",0.0,neutral,0.8354153037071228,english,Mixed/Urban,surprise,0.020947067067027092,0.06838604807853699,0.017217742279171944,0.044884923845529556,0.08283481746912003,0.611863374710083
+youtube,post,2Ca9TpuIfVY,REVIEW BAS HIGER LUTFIE HOLIDAY #BKW2834,https://www.youtube.com/watch?v=2Ca9TpuIfVY,positive,2023-09-06 05:08:16+00:00,16,0,2,823,0.867734283208847,26,22.823,,,positive,0.5591142773628235,multilingual,Unknown,no_clear_emotion,0.04892776906490326,0.029076823964715004,0.24926508963108063,0.023329997435212135,0.30826854705810547,0.029871352016925812
+youtube,post,_BoLVgVoomQ,"As the title suggests, I went to Kuantan, Pahang to have a morning bus spotting session at Terminal Sentral Kuantan. 14+ minutes worth of footage and some bloopers in the end.
+
+As always, hope you enjoy the video. Leave a like, comment and share this video. Also, subscribe and click the notification bell to not miss out any of my future videos. Stay tuned for upcoming videos.
+
+Video created on: 13/11/2021
+Video edited on: 14/11/2021
+
+Timestamps:
+
+00:00 - Introduction
+00:56 - StarMart Express KEU 6666: Arriving at Departure Lobby
+01:21 - Mayang Sari Express JTV 3200: Departing
+02:00 - Mayang Sari Express JTX 1800: Departing
+02:32 - Maraliner VBE 1276: Arriving at Departure Lobby
+02:54 - Maraliner RAG 4054: Arriving at Departure Lobby
+03:27 - Maraliner VBE 1276 & StarMart Express KEU 6666: Departing
+04:27 - Super Nice Grassland Express PPA 8966: Departing
+04:55 - Maraliner RAG 4054: Departing
+05:56 - Sani Express BMU 5073: Arriving at Departure Lobby
+06:44 - Pancaran Matahari Express BPM 8888: Arriving
+07:20 - Pancaran Matahari Express BPM 8888: Leaving Arrival Lobby
+07:59 - Plusliner VDJ 3253: Arriving at Departure Lobby
+08:38 - Mayang Sari Express JRQ 8100 & Sani Express BMU 5073: Departing
+10:00 - Pancaran Matahari Express BPM 8888: Leaving Arrival Lobby (cont.)
+10:20 - LA Holidays VEF 189: Heading towards Departure Lobby
+11:41 - Plusliner VDJ 3253: Departing
+12:41 - Mayang Sari Express JRL 8900 & Maraliner VAP 4326: Arriving at Arrival Lobby & Departure Lobby (respectively)
+13:19 - LA Holidays VEF 189 & Maraliner VAP 4326: Departing
+14:25 - Bloopers/Outtakes
+14:55 - Outro
+
+Video saving settings for Filmora X:
+
+Video Format: MP4
+Video Encoder: H.264
+Resolution: 1280x720
+Bitrate - 7500 kbps
+Framerate: 30 FPS
+Audio Encoder: AAC
+Audio Channel: Stereo
+Sample Rate: 48 kHz
+Audio Bitrate: 192 kbps
+
+""Community"" Facebook page :   / syahmischannel.syahmiasyraff.7  
+Official Facebook Page:   / syahmiasyraffchannel  
+Previous video:    • SP-R .208 & AX-50 - Left 4 Dead 2 Weapon M...  
+Next video:    • Heavy Haulage w/ DAF 2021 Reworked XG+ 6x4...",https://www.youtube.com/watch?v=_BoLVgVoomQ&t=152s,neutral,2021-11-14 10:53:01+00:00,101,0,13,10557,0.5,219,150.557,,,neutral,0.6304537653923035,english,Mixed/Urban,no_clear_emotion,0.05140364542603493,0.024309121072292328,0.06368473917245865,0.03328141197562218,0.190212219953537,0.027465619146823883
+youtube,post,3cWQBdrq34E,#VasebayTravel #E5Modulr #SKSBUS #325H #BasPersiaran #basmalaysia  #bis  #busenthusiast  #peminatbas  #mrbusyeobdm  #legasibasmalaysia  #bas  #bus #BasTerengganu #stadiumperak #WorldBus #WorldBuses #Buses,https://www.youtube.com/watch?v=3cWQBdrq34E,negative,2023-03-18 09:30:40+00:00,17,0,4,944,0.17274464070796966,30,29.944,,,negative,0.42418453097343445,multilingual,Unknown,love,0.11802060157060623,0.039338357746601105,0.08197885751724243,0.045196741819381714,0.462524950504303,0.03316471353173256
+youtube,post,CuyBVk_3NwU,"Sumbangan untuk bantuan makanan boleh terus bank-in ke akaun di bawah
+MAYBANK Premier Mudharabah Account
+5560 1111 6920
+Mohd Rasyid Bin Chu Meaan
+
+Semoga semua di murahkan rezeki dan sihat selalu..
+
+Jom support page saya dengan like, share dan follow..
+
+FACEBOOK
+  / mrcm25225  
+YOUTUBE
+   / @mrcm25225  
+DISCORD
+  / discord",https://www.youtube.com/watch?v=CuyBVk_3NwU,positive,2021-12-16 16:22:37+00:00,9,0,3,370,0.999326604604721,15,18.37,,,positive,0.9977553486824036,malay,Malay/Bumiputera,love,0.09354904294013977,0.050119999796152115,0.29580599069595337,0.04021620750427246,0.3210225999355316,0.04553357511758804
+youtube,post,GCr_F13WIN0,"ROSE MALAYSIA
+JSR9919
+HINO RK
+E128
+SKSBUS 
+
+#buses  #basmalaysia  #mrbusyeobdm  #bis  #bus  #legasibasmalaysia  #peminatbas  #busenthusiast",https://www.youtube.com/watch?v=GCr_F13WIN0,neutral,2023-05-20 08:58:36+00:00,8,0,4,422,0.5,16,20.422,,,neutral,0.9977127313613892,malay,Malay/Bumiputera,love,0.089145727455616,0.027400625869631767,0.08212293684482574,0.029334116727113724,0.5130046010017395,0.02336113713681698
+youtube,post,4SD0PZoSxXU,Perjalanan dengan bas ekspress,https://www.youtube.com/watch?v=4SD0PZoSxXU,neutral,2023-02-09 20:15:27+00:00,14,0,2,1906,0.5,35,21.906,,,neutral,0.9977046847343445,malay,Malay/Bumiputera,love,0.21966412663459778,0.03490273281931877,0.07865304499864578,0.023372117429971695,0.33291831612586975,0.019773971289396286
+youtube,post,lGgALB4Kl9U,"Syarikat bas awam henti-henti City Liner menamatkan operasi ..... enam dari tujuh laluannya di Kedah dan  Pulau Pinang  bermula SEMALAM. 
+
+Menurut Exco Pengangkutan Negeri Kedah, Azman Nasruddin, penamatan operasi berkenaan berikutan syarikat bas itu tidak mampu lagi menanggung kerugian ekoran kekurangan penumpang.",https://www.youtube.com/watch?v=lGgALB4Kl9U,negative,2018-07-17 05:31:20+00:00,33,0,2,56827,0.02614292353391645,603,95.827,,,negative,0.9128569215536118,multilingual,Unknown,anger,0.33020511269569397,0.2732902765274048,0.03814062103629112,0.22215190529823303,0.05187085270881653,0.027975518256425858
+youtube,post,DRXDOJrMIq4,"Stesen Bas Kuala Nerang,Kedah",https://www.youtube.com/watch?v=DRXDOJrMIq4,neutral,2022-08-09 14:20:14+00:00,12,0,0,1652,0.5,28,13.652,,,neutral,0.9977001547813416,malay,Malay/Bumiputera,no_clear_emotion,0.16962087154388428,0.03468820080161095,0.09645115584135056,0.03165107220411301,0.2496165782213211,0.03189484402537346
+youtube,post,bFYosBejhLo,"Group members:
+1.NUR ATIQAH HIDAYATI BINTI MOHAMAD NAZRI (2019298306)
+
+2.AIMAN NURHAKIM BIN GHAZAL (2019225246)
+
+3.MUHAMMAD AFIF HAIKAL BIN AMIRSHAHRUL (2019277336)
+
+4.MOHAMMAD FAEZ BIN RAHIM (2019687242)",https://www.youtube.com/watch?v=bFYosBejhLo,neutral,2021-07-30 02:59:33+00:00,1,0,0,26,0.5,1,1.026,,,neutral,0.841275155544281,english,Mixed/Urban,love,0.0658596009016037,0.03825404867529869,0.0915214866399765,0.03239910304546356,0.4494251310825348,0.038061436265707016
+youtube,post,GwYzSyT1mIg,"REVIEW BAS SHAHANA TRAVEL SILVERBUS TCIE SL900 VS HINO RK8JSKA #YohanCoachBuilder
+
+#buses  #basmalaysia  #legasibasmalaysia  #mrbusyeobdm  #bis  #bus  #busenthusiast  #peminatbas  #baspersiaran  #ShahanaTravel #Silverbus #HinoRK8",https://www.youtube.com/watch?v=GwYzSyT1mIg,neutral,2023-05-21 14:56:52+00:00,26,0,4,1375,0.5,43,39.375,,,neutral,0.9977197051048279,malay,Malay/Bumiputera,no_clear_emotion,0.0808052346110344,0.029465630650520325,0.07762764394283295,0.03050202690064907,0.2527048885822296,0.03181655332446098
+youtube,post,mHuXyFAFxuw,"After Butterworth, Penang, we went further north to have a bus spotting session at Terminal Shahab Perdana, located at Alor Setar, Kedah. In this video, since the session took place in the evening, there were not many coaches shown in action (only six, in fact) and the rest involved mini buses and city buses. Nevertheless, it was an interesting experience, at least.
+
+Timestamp legend:
+
+(A) - Individual A (Myself)
+(B) - Individual B
+
+As always, hope you enjoy the video. Leave a like, comment and share this video. Also, subscribe and click the notification bell to not miss out any of my future videos. Stay tuned for upcoming videos.
+
+Video created on: 11/07/2022
+Video edited on: 02/08/2022
+
+Timestamps:
+
+00:00 - Introduction and Location Overview (B) (Details in the timestamps part of the description)
+00:22 - Clip No. 1 (A)
+ㄴ Maraliner (Mini Bus) VDY 2726: Arriving
+00:28 - Clip No. 2 (A)
+ㄴ Maraliner (City Bus) W 3352 V: Arriving
+00:40 - Clip No. 3 (A), (B)
+ㄴ AeroCity Express MDH 8228: Leaving the Terminal
+01:44 - Clip No. 4 (A)
+ㄴ MyBAS (Cityliner) VDJ 3212: Arriving
+02:08 - Clip No. 5 (A)
+ㄴ InterCity Coach DCU 8833: Arriving
+02:39 - Clip No. 6 (B)
+ㄴ MyBAS (Cityliner) VDJ 3212: Departing
+02:59 - Clip No. 7 (B)
+ㄴ Maraliner (City Bus) W 3356 V: Departing
+03:07 - Clip No. 8 (B)
+ㄴ InterCity Coach DCU 8833: Departing
+03:24 - Clip No. 9 (A)
+ㄴ KPB Ekspres KEU 5815: Arriving
+04:10 - Clip No. 10 (A), (B)
+ㄴ Maraliner (Mini Bus) VDP 4317: Arriving
+ㄴ MyBAS (Maraliner) RP 1724: Arriving
+04:39 - Clip No. 11 (B)
+ㄴ Maraliner (Mini Bus) VDP 4317: Departing
+04:52 - Clip No. 12 (B)
+ㄴ Maraliner (Mini Bus) VDY 2726: Departing
+05:04 - Clip No. 13 (B)
+ㄴ KPB Ekspres KEU 5815: Departing
+ㄴ Pancaran Matahari Express BMC 8888: Leaving the Depot
+05:34 - Clip No. 14 (A)
+ㄴ Maraliner (Mini Bus) VAA 2385: Arriving
+06:00 - Clip No. 15 (A)
+ㄴ Super Nice Grassland Express PPV 2966: Arriving
+06:24 - Clip No. 16 (B)
+ㄴ Sani Express VDT 5008: Arriving
+06:34 - Clip No. 17 (B)
+ㄴ Super Nice Grassland Express PPV 2966: Departing
+06:42 - Closing Shots feat. Pancaran Matahari Express coaches (B)
+06:59 - Outro
+
+Video saving settings for Filmora X:
+
+Video Format: MP4
+Video Encoder: H.264
+Resolution: 1280x720
+Bitrate - 7500 kbps
+Framerate: 30 FPS
+Audio Encoder: AAC
+Audio Channel: Stereo
+Sample Rate: 48 kHz
+Audio Bitrate: 192 kbps
+
+""Community"" Facebook page :   / syahmischannel.syahmiasyraff.7  
+Official Facebook Page:   / syahmiasyraffchannel  
+Previous video:    • Sunrise Carnival - Left 4 Dead 2 Custom Ca...  
+Next video:    • QJY-88 LMG - Left 4 Dead 2 Weapon Mod Game...",https://www.youtube.com/watch?v=mHuXyFAFxuw,neutral,2022-08-02 16:14:53+00:00,42,0,3,3470,0.5,79,54.47,,,neutral,0.5048830509185791,english,Mixed/Urban,no_clear_emotion,0.02599206566810608,0.02703825943171978,0.09873111546039581,0.015840215608477592,0.0806286409497261,0.04247653856873512
+youtube,post,x11V4Yx1gR0,"Kadang2 kita cuma berpeluang naik bus skrg kita dpt mengetahui dengan lebih dekat cara bus diservis terutamanya berkaitan servis asas penukaran mintak enjin
+#fyp #viral #youtubeshorts",https://www.youtube.com/watch?v=x11V4Yx1gR0,negative,2022-07-22 07:51:35+00:00,27,0,7,1137,0.1432474136352539,45,49.137,,,negative,0.5225086212158203,multilingual,Unknown,surprise,0.02591644413769245,0.04773460701107979,0.03212050721049309,0.06042264774441719,0.20484590530395508,0.42821624875068665
+youtube,post,b55bmzg4pUE,Bas Scania double deck butterwoth pineng,https://www.youtube.com/watch?v=b55bmzg4pUE,neutral,2022-11-21 11:48:57+00:00,6,0,2,44,0.5,8,12.044,,,neutral,0.8537231087684631,english,Mixed/Urban,love,0.09870949387550354,0.019585030153393745,0.08083713799715042,0.022369366139173508,0.5341094136238098,0.018252775073051453
+youtube,post,Nm8VbH8ylOo,#basmalaysia  #legasibasmalaysia  #mrbusyeobdm  #bas  #bis  #bus  #shlcoach  #yutong  #yutongbus  #plazatolipoh #buses  #busenthusiast  #peminatbas,https://www.youtube.com/watch?v=Nm8VbH8ylOo,neutral,2023-02-11 15:16:40+00:00,9,0,2,604,0.5,17,15.604,,,neutral,0.9977158308029175,malay,Malay/Bumiputera,love,0.11867615580558777,0.025834176689386368,0.08983929455280304,0.027736039832234383,0.5263350605964661,0.02078554593026638
+youtube,post,fPVjM0CD8cU,"Syarikat pengangkutan bas awam negara, MARA Liner Sdn Bhd tidak bercadang untuk menghentikan perkhidmatan bas henti-henti di kawasan yang tidak bersifat komersil di seluruh negara khususnya di Kedah. 
+
+Sebaliknya beberapa langkah akan dilaksanakan bagi mengurangkan kos operasi di kawasan terbabit.",https://www.youtube.com/watch?v=fPVjM0CD8cU,negative,2016-08-02 10:21:52+00:00,4,0,0,225,0.006197082996368397,6,4.225,,,negative,0.979343056678772,malay,Malay/Bumiputera,fear,0.30657628178596497,0.4896854758262634,0.03814317286014557,0.03184933215379715,0.0368521548807621,0.035294998437166214
+youtube,post,00esndTq5GE,"ETS2 MALAYSIA MOD SKSBUS D3
+MARALINER
+
+URUSAN PEMBELIAN SKIN DAN MOD
+
+MOD BY RIDH (019-644 3003)
+SKIN BY XCITENNIE_ZR (013-283 3755)
+
+https://malayanmods.xyz/​
+
+jgn lupa subscribe channel
+
+https://www.youtube.com/channel/UCP17...
+
+https://www.youtube.com/channel/UCK5u...
+
+https://www.youtube.com/channel/UCOFb...
+
+follower jugk Instagram 
+
+  / bussid_malaysia...​  
+
+Facebook page 
+
+  / xcitenniezr  
+
+Facebook page
+
+  / ets2-malaysia-bus-skin-by-zr-design-112000...  
+
+#sksbus
+#maraliner
+#D3
+#1KCreator
+#ets2
+#e128d
+#ets2
+#bussid
+#ridhmodbulider
+#xcitenniezr
+#scania
+#sksbus
+#liverybus
+#modmalaysia
+#sksbus
+#1KCreator
+#1KCreator",https://www.youtube.com/watch?v=00esndTq5GE,neutral,2021-05-11 14:45:19+00:00,86,0,32,4975,0.5,167,186.975,,,neutral,0.8602494597434998,english,Mixed/Urban,love,0.13877072930335999,0.06375403702259064,0.07862939685583115,0.0685802549123764,0.3968268930912018,0.05378632992506027
+youtube,post,CNyaq0o2JDs,"Review selepas membuat proses penukaran tayar akibat tayar makan tepi 
+Pemandu mendakwa tayar x grip pd jalan keutamaan penumpang diutamakan
+#fyp #viral #bus",https://www.youtube.com/watch?v=CNyaq0o2JDs,negative,2022-08-08 11:54:05+00:00,103,0,4,10946,0.07673796862363816,216,125.946,,,negative,0.7442067712545395,multilingual,Unknown,no_clear_emotion,0.18477895855903625,0.17387360334396362,0.031929705291986465,0.09230709820985794,0.11859643459320068,0.07370815426111221
+youtube,post,XH4lMmy5FnU,MaraLiner Express VAP 4326/RTG Intech Model,https://www.youtube.com/watch?v=XH4lMmy5FnU,neutral,2023-05-02 13:36:15+00:00,6,0,0,792,0.5,13,6.792,,,neutral,0.8984898924827576,english,Mixed/Urban,love,0.058358173817396164,0.02455214597284794,0.05783015862107277,0.023954318836331367,0.5276865363121033,0.029674042016267776
+youtube,post,7tnddPLz8tw,BAS CYBERJAYA  TMSBUS,https://www.youtube.com/watch?v=7tnddPLz8tw,negative,2022-05-29 12:18:50+00:00,6,0,0,360,0.10898271650075911,9,6.36,,,negative,0.6367242783308029,multilingual,Unknown,love,0.16420266032218933,0.04545213282108307,0.10353703796863556,0.03850436955690384,0.3899335265159607,0.030848124995827675
+youtube,post,gzSf1mDg7tc,"Sambungan PART TWO BAS MARALINER ! Pelbagai karenah penumpang yang ada dalam perjalanan  kali bas ini... i Jaka memandu di dalam EURO TRUCK SIMULATOR dan ditemani seorang isteri.. Penumpang penuh dan laluan pulak nak memasuki jalan mencabar ! Anda dah ready untuk PART 2 yang akan datang? Komen geng !
+
+#Janganserioussangatbrader
+
+PERHATIAN , Apa yang berlaku ini adalah semuanya rekaan semata-semata dan tidak ada kena mengena dengan yang mati ataupun yang hidup. Semuanya adalah hiburan semata-mata dan untuk tontonan anda. Jika ada , itu adalah secara kebetulan sahaja. Maafkan saya jika ada pihak yang berasa kurang senang dengan apa yang saya lakukan.
+
+Untuk Catalog baju dan Order sila tekan link dibawah :-
+https://wa.link/l3nxoi 
+
+Tapi jangan dilupa untuk KOMEN , LIKE dan SHARE !! 
+
+Terima kasih semua yang terlibat !
+
+▪️ Link kesemua PLATFORM JAKA GamingZ termasuk group telegram !
+https://linktr.ee/JAKAGamingZ
+
+▪️Link Menjadi Backbones J Familia: 
+business.facebook.com/becomesupporter/473540960081235/
+
+▪️Discord Jaka GamingZ : https://discord.gg/N6DT92XU
+
+▪️Tiktok : https://vt.tiktok.com/ZGJkpxXg6/
+
+▪️Youtube : https://youtube.com/channel/UCov5V7J8...
+
+Terima Kasih
+
+#LORIMALAYSIA #HABIDMK #SCANIA #SCANIA4SEREIS #SCANIAHABIDMK  #ETS2MAP #MAPETS2 #DOWNLOADMAP #GTAVMALAYSIA #FACEBOOK #STAR #KEMALANGAN #TERBALIK #LORITERBALIK #KEMALANGANLORI #LORILAMA #MINYAKKELAPASAWIT #HABIDMK #LOWLOADER #HABIDMKLOWLOADER #LOADER #EXCAVATOR #TIONGSOON #1AXLE #HELLTRUCKERS #HAZLAN KASSIM #TTK #TTKSAWIT #TANGKISAWIT #MINYAKSAWIT #KELAPASAWIT #LORIHINO #KEPALAHINO #HINO #KARGOPAPAN #MUATANBATU #HINOSHOPPE #HINO500 #SHOPPE #KARGOPAPAN #TONGIKAN #VOLVOFMX #SCANIAR #SIDELOADER #NESPALM #TIPPER #SCANIA #HEAVYDUTY #KTMB #LOADKERETAPI #TRAIN #SPECIALOAD #HINOPROFIA #SIDECURTAIN #TIONGSOON #BASURI #TELOLET #TENONET  #LORISIMEN #VOLVO #KAKIKARGOPAPAN #TIONGNAM #SCANIATIONGNAM  #SIDECURTAINTIONGNAM #DANGEROUSROAD #KARGOPAPAN #VOLVOF10 #VOLVO #BAS #MERCEDES #KEPALAKASUT #GASLPG #SCANIALPG #AIW #SCANIA #SYARIKATAIW #SIDECURTAINAIW #FUSO #FUSOSUPERGREAT #WAJAPOLIS #POLISMALAYSIA #TOWINGKERETAPOLIS #ISUZUNPR #ISUZUTOWING#VOLVOFH12 #VOLVO #ISUZUNPRPRO #ISUZUNPR #ISUZU3TAN #LORI3TAN #LORIGAS #FOODPANDA #LORIHINO #HINOKEPALAPETAK #BALAK #BALAKLEBIHMUTAN #MUATANBERAT #BALAKBERAT #STINJAU #KLB #KP312 #DRB #DRBHICOM #VOLVOFM #KONSORTIUM #LOGISTIK  #THAILAND #THAILOOK #LORITHAI #THAITRUCKKERS #KONTENA #3AXLE #BALAK #LORIBALAK #LORIKAYUBALAK #MUATANBESAR #LORIVOLVO #LORIKEPALAKASUT #MERCEDES  #MARALINER #BASMARALINER #BASMALAYSIA #BUSMALAYSIA #BASMARALINER #GAMEBAS #GAMEBASMALAYSIA #BASSIMULATOR",https://www.youtube.com/watch?v=gzSf1mDg7tc,positive,2022-12-29 12:30:16+00:00,62,0,3,2121,0.882310301065445,86,73.121,,,positive,0.6077010035514832,malay,Malay/Bumiputera,sadness,0.03743261098861694,0.07196937501430511,0.006878898479044437,0.8084372282028198,0.022276846691966057,0.033256806433200836
+youtube,post,TjJwZD21Q7M,REVIEW BAS MAYFLOWER CAR RENTAL #VKN7889,https://www.youtube.com/watch?v=TjJwZD21Q7M,neutral,2023-09-25 08:36:19+00:00,34,0,6,985,0.5,49,52.985,,,neutral,0.8984543681144714,english,Mixed/Urban,no_clear_emotion,0.034244999289512634,0.022593451663851738,0.22684891521930695,0.01821184903383255,0.11534968763589859,0.03766416385769844
+youtube,post,Y6-7LXtI0c8,"In the spirit of celebrating Malaysia's independence in August, Mara and the Health Ministry have decorated their vehicles with stickers promoting the Negaraku campaign.",https://www.youtube.com/watch?v=Y6-7LXtI0c8,positive,2017-06-14 13:11:00+00:00,5,0,0,710,0.9332493126392364,12,5.71,,,positive,0.7774977087974548,english,Mixed/Urban,happy,0.030018476769328117,0.04543682560324669,0.5676787495613098,0.022652097046375275,0.24388130009174347,0.0335441529750824
+youtube,post,_TXJFXawhQs,"MARA Liner Sdn. Bhd. tetap berpegang kepada agenda melaksanakan tanggungjawab sosial kepada rakyat walaupun berdepan pandemik Covid-19.
+
+#mara #amanahrakyat #maraprihatin #maraliner",https://www.youtube.com/watch?v=_TXJFXawhQs,positive,2021-10-02 12:00:37+00:00,36,0,1,2764,0.8855101853609084,64,41.764,,,positive,0.6183672845363617,multilingual,Unknown,love,0.06792158633470535,0.014199892058968544,0.05473994463682175,0.030374698340892792,0.7103400826454163,0.01845262013375759
+youtube,post,BDB1rbgmGMM,"REVIEW BAS DEVAR BROTHERS #NewHupLee #Hino 
+
+#worldbuses  #legasibasmalaysia  #buses  #busenthusiast  #bis  #peminatbas  #mrbusyeobdm",https://www.youtube.com/watch?v=BDB1rbgmGMM,neutral,2023-07-16 14:15:36+00:00,27,0,4,1838,0.5,49,40.838,,,neutral,0.9180150628089905,english,Mixed/Urban,love,0.07666514813899994,0.025726318359375,0.0937003567814827,0.032105013728141785,0.39519691467285156,0.025502566248178482
+youtube,post,dliLSAyAXNQ,"Preview cara servis air cond katanya xsejuk jom bersama2 kami
+#youtube #youtubeshorts #viral #fyp #fyp #fypシ #business #bus #diy",https://www.youtube.com/watch?v=dliLSAyAXNQ,neutral,2022-12-16 02:23:08+00:00,3,0,2,86,0.5,5,9.086,,,neutral,0.8902067542076111,english,Mixed/Urban,anger,0.568301260471344,0.07862768322229385,0.0771142840385437,0.0370275154709816,0.11992427706718445,0.030008967965841293
+youtube,post,kMkGY0dfe6o,"Ikuti perkembangan semasa yang sahih di semua pautan media sosial rasmi Berita RTM: 
+
+Portal Rasmi Berita RTM
+https://berita.rtm.gov.my
+
+Twitter Rasmi Berita RTM
+  / beritartm  
+
+Facebook Rasmi Berita RTM
+  / beritartm  
+
+Instagram Rasmi Berita RTM
+  / beritartm  
+
+Youtube Rasmi Berita RTM
+   / beritartmbes  
+
+Terima kasih rakyat Malaysia kerana sentiasa setia bersama kami.
+
+""YANG SAHIH DI BERITA RTM""",https://www.youtube.com/watch?v=kMkGY0dfe6o,positive,2021-10-02 12:40:21+00:00,12,0,0,1055,0.9993853271007538,22,13.055,,,positive,0.997951090335846,malay,Malay/Bumiputera,love,0.035021860152482986,0.018638569861650467,0.03134094178676605,0.05711694806814194,0.5199140310287476,0.08521432429552078
+youtube,post,U7ntEIABmKs,Buy ticket bus at www.eticketing.my,https://www.youtube.com/watch?v=U7ntEIABmKs,neutral,2020-04-07 06:13:42+00:00,6,0,0,497,0.5,10,6.497,,,neutral,0.8834452033042908,english,Mixed/Urban,no_clear_emotion,0.07661674916744232,0.053316760808229446,0.05474119633436203,0.03535027056932449,0.2682094871997833,0.09768308699131012
+youtube,post,_Hc9v2j9y0s,MALAYSIA BUS REVIEW- IFTITAH HOLIDAY #WMA2704 #BASJOHOR,https://www.youtube.com/watch?v=_Hc9v2j9y0s,neutral,2023-10-08 06:06:35+00:00,8,0,2,687,0.5,16,14.687,,,neutral,0.8543986082077026,english,Mixed/Urban,no_clear_emotion,0.054788973182439804,0.020709268748760223,0.10250822454690933,0.02631336823105812,0.37515026330947876,0.022208649665117264
+youtube,post,ksqEHURvNWM,BAS EKSPRES - MARA LINER #VHK7816 #TMSBus #MAN,https://www.youtube.com/watch?v=ksqEHURvNWM,neutral,2022-11-22 09:38:33+00:00,7,0,0,664,0.5,13,7.664,,,neutral,0.9152977466583252,english,Mixed/Urban,love,0.12953327596187592,0.05283232778310776,0.10253075510263443,0.05467589199542999,0.3686439096927643,0.041347015649080276
+youtube,post,2A125bITV_w,"GBEM - Pancaran Matahari, Ekspres Perdana, Billion Stars, Maraliner
+Sila subscribe & tekan button loceng untuk dapatkan notification.",https://www.youtube.com/watch?v=2A125bITV_w,neutral,2021-10-27 06:54:58+00:00,6,0,0,349,0.5,9,6.349,,,neutral,0.8947944641113281,english,Mixed/Urban,no_clear_emotion,0.03350042924284935,0.03577279672026634,0.026495864614844322,0.05649346113204956,0.17967437207698822,0.2553258538246155
+youtube,post,t4SoWs-U_-8,"KERJA SAMA DGN PEMANDU BAS YANG BUKAN KALENG KALENG. REDAH SETIAP LALUAN DAN KERJASAMA BANTUAN DALAM PROJEK KALI INI. 
+
+BUKAN SEKADAR PANDUAAN BIASA. SETIAP LOKASI SUSAH PAYAH, SEMPIT DAN MENCABAR MEREKA TEMPOH JUGA. PENGALAMAN DAN KEMAHIRAN MEMANG HEBAT. 
+
+SERONOK KERJASAMA DENGAN PEMANDU BAS MARALINER ABG DIN MARA DAN CHE DIN YG PERAMAH, SPORTING DAN MESRA.
+
+#MARALINER #MARATRAVEL #BASEXPRESS #MARALINEREXPRES #DRIVERBAS #EXPRESSBUS #MARA #PERSONALITYPRODUCTION",https://www.youtube.com/watch?v=t4SoWs-U_-8,neutral,2021-03-09 07:03:52+00:00,14,0,12,1040,0.5,36,51.04,,,neutral,0.6590154767036438,malay,Malay/Bumiputera,no_clear_emotion,0.23205684125423431,0.10466986149549484,0.06162699684500694,0.0421389676630497,0.08336450159549713,0.04252996668219566
+youtube,post,TaJ-wGYQ2TY,BAS DUA TINGKAT MARA LINER,https://www.youtube.com/watch?v=TaJ-wGYQ2TY,neutral,2019-07-07 00:50:08+00:00,69,0,3,10443,0.5,176,88.443,,,neutral,0.7330873012542725,english,Mixed/Urban,no_clear_emotion,0.09993746131658554,0.021920468658208847,0.04037712141871452,0.01660642959177494,0.1504170000553131,0.02194151282310486
+youtube,post,fzEfoNofKzY,"Pernah tengok bas MARA LINER ? Okay kali ni Jaka memandu di dalam EURO TRUCK SIMULATOR dan ditemani seorang isteri.. Penumpang penuh dan laluan pulak nak memasuki jalan mencabar ! Anda dah ready untuk PART 2 yang akan datang? Komen geng !
+
+#Janganserioussangatbrader
+
+PERHATIAN , Apa yang berlaku ini adalah semuanya rekaan semata-semata dan tidak ada kena mengena dengan yang mati ataupun yang hidup. Semuanya adalah hiburan semata-mata dan untuk tontonan anda. Jika ada , itu adalah secara kebetulan sahaja. Maafkan saya jika ada pihak yang berasa kurang senang dengan apa yang saya lakukan.
+
+Untuk Catalog baju dan Order sila tekan link dibawah :-
+https://wa.link/l3nxoi 
+
+Tapi jangan dilupa untuk KOMEN , LIKE dan SHARE !! 
+
+Terima kasih semua yang terlibat !
+
+▪️ Link kesemua PLATFORM JAKA GamingZ termasuk group telegram !
+https://linktr.ee/JAKAGamingZ
+
+▪️Link Menjadi Backbones J Familia: 
+business.facebook.com/becomesupporter/473540960081235/
+
+▪️Discord Jaka GamingZ : https://discord.gg/N6DT92XU
+
+▪️Tiktok : https://vt.tiktok.com/ZGJkpxXg6/
+
+▪️Youtube : https://youtube.com/channel/UCov5V7J84LD1PhoyGmra8Zg
+
+Terima Kasih
+
+#LORIMALAYSIA #HABIDMK #SCANIA #SCANIA4SEREIS #SCANIAHABIDMK  #ETS2MAP #MAPETS2 #DOWNLOADMAP #GTAVMALAYSIA #FACEBOOK #STAR #KEMALANGAN #TERBALIK #LORITERBALIK #KEMALANGANLORI #LORILAMA #MINYAKKELAPASAWIT #HABIDMK #LOWLOADER #HABIDMKLOWLOADER #LOADER #EXCAVATOR #TIONGSOON #1AXLE #HELLTRUCKERS #HAZLAN KASSIM #TTK #TTKSAWIT #TANGKISAWIT #MINYAKSAWIT #KELAPASAWIT #LORIHINO #KEPALAHINO #HINO #KARGOPAPAN #MUATANBATU #HINOSHOPPE #HINO500 #SHOPPE #KARGOPAPAN #TONGIKAN #VOLVOFMX #SCANIAR #SIDELOADER #NESPALM #TIPPER #SCANIA #HEAVYDUTY #KTMB #LOADKERETAPI #TRAIN #SPECIALOAD #HINOPROFIA #SIDECURTAIN #TIONGSOON #BASURI #TELOLET #TENONET  #LORISIMEN #VOLVO #KAKIKARGOPAPAN #TIONGNAM #SCANIATIONGNAM  #SIDECURTAINTIONGNAM #DANGEROUSROAD #KARGOPAPAN #VOLVOF10 #VOLVO #BAS #MERCEDES #KEPALAKASUT #GASLPG #SCANIALPG #AIW #SCANIA #SYARIKATAIW #SIDECURTAINAIW #FUSO #FUSOSUPERGREAT #WAJAPOLIS #POLISMALAYSIA #TOWINGKERETAPOLIS #ISUZUNPR #ISUZUTOWING#VOLVOFH12 #VOLVO #ISUZUNPRPRO #ISUZUNPR #ISUZU3TAN #LORI3TAN #LORIGAS #FOODPANDA #LORIHINO #HINOKEPALAPETAK #BALAK #BALAKLEBIHMUTAN #MUATANBERAT #BALAKBERAT #STINJAU #KLB #KP312 #DRB #DRBHICOM #VOLVOFM #KONSORTIUM #LOGISTIK  #THAILAND #THAILOOK #LORITHAI #THAITRUCKKERS #KONTENA #3AXLE #BALAK #LORIBALAK #LORIKAYUBALAK #MUATANBESAR #LORIVOLVO #LORIKEPALAKASUT #MERCEDES  #MARALINER #BASMARALINER #BASMALAYSIA #BUSMALAYSIA #BASMARALINER #GAMEBAS #GAMEBASMALAYSIA #BASSIMULATOR",https://www.youtube.com/watch?v=fzEfoNofKzY,negative,2022-12-28 02:30:26+00:00,161,0,11,10238,0.005146944522857688,274,204.238,,,negative,0.9828435182571411,malay,Malay/Bumiputera,sadness,0.0480450838804245,0.08135431259870529,0.007248396519571543,0.7996618747711182,0.017607633024454117,0.029262948781251907
+youtube,post,AFNcFCRhFcg,"Sri Maju, Mayang Sari, KKKL, Arwana, Queen Express, Mara Liner, KPB Ekspres",https://www.youtube.com/watch?v=AFNcFCRhFcg,positive,2020-08-20 09:40:51+00:00,14,0,2,1727,0.928883820772171,33,21.727,,,positive,0.7629460692405701,multilingual,Unknown,love,0.05907527357339859,0.015981920063495636,0.03979482874274254,0.02748025953769684,0.7428421378135681,0.01602908968925476
+youtube,post,wHvFiX39PG0,"Route T54 bound for TBS- S.Alam & Klang.
+[ Scania K410  Sksbus D3  DDN6655 ]
+
+#konsortiumemutiara
+#emutiaraexpress
+#emutiara 
+#mutiaraexpress
+#scania
+#scaniabus
+#scaniaecolution
+#scaniamalaysia
+#sksbus
+#sksbusd3 
+#basekspres 
+#expressbus 
+#duoaxlebus
+#expressbusmalaysia 
+#bas2tingkat
+#twindexbus
+#doubledeckerbus
+#busspotting
+#busenthusiast
+#hentianbasmajlisbandarayakualatrengganu
+#mbte",https://www.youtube.com/watch?v=wHvFiX39PG0,neutral,2020-07-14 05:48:20+00:00,22,0,0,3331,0.5,55,25.331,,,neutral,0.9072341322898865,english,Mixed/Urban,love,0.11829127371311188,0.032374244183301926,0.08332481235265732,0.032239895313978195,0.408610999584198,0.026418572291731834

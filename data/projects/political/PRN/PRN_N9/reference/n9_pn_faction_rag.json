@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "N9 PRN — Pemetaan Faksi PN / Pecah Undi (RAG Corpus)",
+    "updated": "2026-06-24",
+    "scope": "PRN Negeri Sembilan 2026 · 7 Blok Senario PAS N9 HQ",
+    "sources": [
+      "PAS N9 HQ WhatsApp (7 blok · Jun 2026)",
+      "FMT: Wawasan + Pejuang diterima PN (22 Jun 2026)",
+      "SPR Helaian Mata PRN 2023 (36 DUN)",
+      "InsightPulse master crawl (socmed mentions)"
+    ],
+    "disclaimer": "Pemetaan operasi war room — bukan polling SPR. Kemaskini apabila keputusan rasmi PN/MN/N9 berubah."
+  },
+  "blocs": {
+    "1_pas_solo": {
+      "id": "pas_solo",
+      "label": "PAS Solo",
+      "leaders": ["Abdul Hadi Awang", "PAS N9"],
+      "in_pn_team": false,
+      "split_risk": "pecah undi Melayu vs UMNO/BN jika tiada MN"
+    },
+    "2_umno_bn_solo": {
+      "id": "umno_solo",
+      "label": "UMNO/BN Solo",
+      "leaders": ["UMNO N9", "Wanita/ Pemuda BN"],
+      "in_pn_team": false,
+      "split_risk": "pecah undi Melayu vs PAS jika tiada MN"
+    },
+    "3_mn": {
+      "id": "mn",
+      "label": "MN (PAS+UMNO)",
+      "default": true,
+      "composition": "PAS/PN 13 kerusi + UMNO/BN 23 kerusi (arahan HQ)",
+      "in_pn_team": true,
+      "note": "Senario utama N9 — elak 3 penjuru Melayu"
+    },
+    "4_team_pn": {
+      "id": "pn",
+      "label": "Team PN",
+      "short_label": "PN (PAS+Pejuang+Wawasan+…)",
+      "in_pn_team": true,
+      "split_from_pn": false,
+      "components": [
+        {
+          "party": "PAS",
+          "role": "Teras PN · presiden PAS Abdul Hadi",
+          "bloc7": 4
+        },
+        {
+          "party": "Pejuang",
+          "leaders": ["Mukhriz Mahathir"],
+          "advisors": ["Tun Dr Mahathir Mohamad"],
+          "note": "Mahathir bukan lagi Bersatu — penasihat Pejuang · diterima komponen PN Jun 2026",
+          "bloc7": 4,
+          "not_in": ["bersatu_muhyiddin"]
+        },
+        {
+          "party": "Parti Wawasan Negara",
+          "alias": "Wawasan (ex Parti Cinta Malaysia)",
+          "leaders": ["Datuk Seri Hamzah Zainudin"],
+          "note": "Hamzah = presiden Wawasan · reset dari faction Bersatu · DALAM Team PN — bukan slider #7",
+          "bloc7": 4,
+          "not_in": ["bersatu_muhyiddin"]
+        },
+        {
+          "party": "Gerakan",
+          "role": "Komponen PN",
+          "bloc7": 4
+        },
+        {
+          "party": "Parti Rakyat India Malaysia",
+          "role": "Komponen PN",
+          "bloc7": 4
+        }
+      ],
+      "crawl_keywords": ["PN N9", "Pejuang PN", "Wawasan PN", "Mahathir penasihat", "Hamzah Wawasan"]
+    },
+    "5_ph": {
+      "id": "ph",
+      "label": "PH (Madani)",
+      "leaders": ["Aminuddin Harun (MB)", "PKR", "DAP", "Amanah"],
+      "in_pn_team": false
+    },
+    "6_bersama": {
+      "id": "bersama",
+      "label": "Bersama (Rafizi)",
+      "leaders": ["Rafizi Ramli"],
+      "slider": "bersamaPct",
+      "split_from": "PH",
+      "default_pct": 3,
+      "max_pct": 15,
+      "note": "Pecah undi pro-reformis dari PH — bukan sekutu PN"
+    },
+    "7_bersatu_faction": {
+      "id": "bersatu",
+      "label": "Bersatu (Muhyiddin · Azmin)",
+      "short_label": "Bersatu solo — risiko pecah PN",
+      "leaders": ["Tan Sri Muhyiddin Yassin", "Datuk Seri Azmin Ali"],
+      "slider": "bersatuPct",
+      "split_from": "PN/MN pool (undi PN 2023)",
+      "default_pct": 2,
+      "max_pct": 12,
+      "in_pn_team": "rasmi ya · kemelut PAS–Bersatu Jun 2026",
+      "split_risk": "tinggi jika Bersatu bertanding solo / 3 penjuru",
+      "explicitly_not": [
+        "Tun Dr Mahathir (Pejuang · Team PN #4)",
+        "Hamzah Zainudin (Presiden Wawasan · Team PN #4)",
+        "Mukhriz / Pejuang (Team PN #4)"
+      ],
+      "crawl_keywords": ["Muhyiddin", "Azmin Ali", "Bersatu solo", "Bersatu vs PAS", "Bersatu vs PN"],
+      "exclude_crawl": ["Mahathir Bersatu", "Hamzah Bersatu pecah"]
+    }
+  },
+  "faction_matrix": {
+    "team_pn": ["PAS", "Pejuang", "Wawasan", "Gerakan", "PRIM"],
+    "mn_gabungan": ["PAS/PN side", "UMNO/BN side"],
+    "pecah_ph": ["Bersama"],
+    "pecah_pn_risk": ["Bersatu Muhyiddin/Azmin"]
+  },
+  "news_anchors": [
+    {
+      "date": "2026-06-22",
+      "headline": "Wawasan + Pejuang diterima masuk PN",
+      "detail": "Hamzah (Wawasan) + Pejuang (Mahathir/Mukhriz) komponen baharu; mesyuarat MT PN tidak bincang keahlian Bersatu; kemelut PAS–Bersatu",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/06/22/mesyuarat-tergempar-pn-tak-bincang-keahlian-bersatu"
+    }
+  ]
+}

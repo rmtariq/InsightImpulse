@@ -1,0 +1,13 @@
+PAUTAN PANTAS PRN COMMAND CENTRE
+================================
+
+Crawl backend     : http://localhost:8001
+War Room          : http://localhost:8080/
+Modul Naratif #6  : http://localhost:8080/?module=narrative
+Digital Culaan    : http://localhost:8080/?module=cula
+
+SPR rasmi         : https://spr.gov.my
+UndiInfo          : https://undiinfo.spr.gov.my
+
+Repo InsightPulse : /Users/rmtariq/Documents/InsightPulse
+Kit folder (ini)  : /Users/rmtariq/Desktop/PRN_Johor_N9_Crawl_Update_Kit

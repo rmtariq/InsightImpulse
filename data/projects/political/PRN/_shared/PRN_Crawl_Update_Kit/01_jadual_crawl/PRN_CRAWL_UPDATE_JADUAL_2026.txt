@@ -1,0 +1,379 @@
+================================================================================
+PRN JOHOR + NEGERI SEMBILAN — JADUAL CRAWL & KEMASKINI DATA
+InsightPulse Command Centre | Projek: pas_break_2026
+Disediakan: 21 Jun 2026 | Rujukan kalendar: SPR (KM Bil. 18/2026)
+================================================================================
+
+TUJUAN
+------
+Fail ini = panduan operasi crawl berulang (2–3 kali SEBELUM penamaan calon,
+2–3 kali SELEPAS nama calon rasmi, kemudian intensif sehingga undi awal &
+hari mengundi). Ikut langkah yang sama seperti crawl 20–21 Jun 2026.
+
+Command Centre (selepas setiap crawl siap):
+  http://localhost:8080/                    ← War Room
+  http://localhost:8080/insightpulse/prn-monitoring/  ← PRN Intel
+  Backend crawl: http://localhost:8001
+
+
+================================================================================
+A. KALENDAR RASMI PRN (SPR — disahkan 20 Jun 2026)
+================================================================================
+
+JOHOR (56 DUN)
+  Dibubarkan     : 1 Jun 2026
+  Penamaan calon : 27 Jun 2026 (Sabtu)
+  Undi awal      : 7 Jul 2026 (Selasa)
+  Hari mengundi  : 11 Jul 2026 (Sabtu)
+
+NEGERI SEMBILAN (36 DUN)
+  Dibubarkan     : 5 Jun 2026
+  Penamaan calon : 18 Jul 2026 (Sabtu)
+  Undi awal      : 28 Jul 2026 (Selasa)
+  Hari mengundi  : 1 Ogos 2026 (Sabtu)
+
+MELAKA (28 DUN) — WATCH MODE sahaja (belum bubar setakat 20 Jun)
+  Monitor berita negeri; crawl penuh selepas tarikh rasmi diumum SPR.
+
+
+================================================================================
+B. REKOD CRAWL SUDAH SIAP (20–21 JUN 2026) ✅
+================================================================================
+
+20 JUN 2026
+-----------
+  • Import Excel intel: Terkini_20062026_PRN_N9_Johor_Melaka_Update_2026.xlsx
+  • PRN Intel manifest dikemaskini (120 DUN, 551 query template, 236 URL)
+  • War room prototype sync
+
+21 JUN 2026 — CRAWL PENUH BATCH 1–6 + BERITA
+---------------------------------------------
+  Mod      : Direct URL (Batch 1–5) + Keyword+News (Batch 6)
+  Date     : Last 7 Days
+  Dataset  : 1500–2000
+  Project  : pas_break_2026
+  Strategy : 30:70 posts:comments
+
+  | Batch | Fail paste | Rekod | Nota |
+  |-------|------------|-------|------|
+  | 1 Parti/pemimpin | url_batches/01_parti_rasmi_pemimpin_PASTE_ONLY.txt | 849 | ✅ |
+  | 2 Hashtag/search | url_batches/02_search_hashtag_queries_PASTE_ONLY.txt | 121 | partial |
+  | 3 FB profil | url_batches/03_facebook_profil_halaman_kumpulan_PASTE_ONLY.txt | 284 | ✅ |
+  | 4 IG/TikTok/X | url_batches/04_instagram_tiktok_x_profil_PASTE_ONLY.txt | 2,324 | ✅ |
+  | 5 YT+Threads | url_batches/05_youtube_threads_PASTE_ONLY.txt | 13 | YT only |
+  | 6 Berita core | Keyword+News (lihat Query Berita #1) | 208 | ✅ |
+  | 6+ Star/MK/Sinar | Query Berita #2 | 402 | subset |
+  | 6+ Cina | Query Berita #3 | 488 | subset |
+  | 6+ Parti broad | Query Berita #4 | 756 | ✅ guna fail ini |
+
+  MASTER GABUNGAN:
+    data/combined/PRN_Johor_N9_master_20260621.csv  →  4,347 rekod (unique)
+    data/projects/political/pas_break_2026/master/PRN_Johor_N9_master_20260621.csv
+
+  WAR ROOM DIKEMASKINI:
+    bash scripts/start_prn_warroom_prototype.sh
+    → N9: 115 rows matched, 12/36 kerusi ada mention
+    → Johor: 562 rows matched, 37/56 kerusi ada mention
+
+  ⛔ JANGAN ULANG: Batch 3 duplicate (120430), news subset (131408/131700/131748)
+
+
+================================================================================
+C. SETTING STANDARD (SETIAP CRAWL)
+================================================================================
+
+SOCIAL (Batch 1–5)
+  Mod           : Direct URL Crawl
+  Date Range    : Last 7 Days  (Fasa kempen: tukar ke Last 3 Days)
+  Dataset Size  : 1500–2000
+  Analysis      : Social Listening
+  Project       : pas_break_2026
+  Platform      : Auto (ikut URL batch)
+  Urutan batch  : 1 → 3 → 4 → 2 → 5  (satu batch, tunggu siap, baru seterusnya)
+
+BERITA (Batch 6)
+  Mod           : Keyword Search  ← BUKAN Direct URL
+  Platform      : ✅ News sahaja
+  Date Range    : Last 7 Days
+  Dataset Size  : 1500–2000
+  Project       : pas_break_2026
+
+QUERY BERITA (copy-paste — 4 run berasingan, atau run #4 sahaja jika singkat)
+  #1 Core PRN:
+  ("PRN Johor" OR "PRN16" OR "pilihan raya Johor" OR "DUN Johor" OR "PRN N9" OR "PRN Negeri Sembilan" OR "PRNN9" OR "Negeri Sembilan mengundi") when:7d
+
+  #2 Star/MK/Sinar:
+  site:thestar.com.my OR site:malaysiakini.com OR site:sinarharian.com.my ("PRN Johor" OR "PRN Negeri Sembilan") when:7d
+
+  #3 Cina:
+  site:chinapress.com.my OR site:sinchew.com.my (森美兰 OR 柔佛 OR PRN) when:7d
+
+  #4 Parti broad (paling lengkap — 756 artikel 21 Jun):
+  PAS OR UMNO OR DAP OR PN ("Negeri Sembilan" OR Johor) PRN when:7d
+
+LOKASI FAIL BATCH:
+  data/projects/political/PRN/_shared/url_batches/
+  README: url_batches/README.txt
+
+
+================================================================================
+D. FASA 1 — SEBELUM PENAMAAN CALON (2–3 CRAWL LAGI)
+================================================================================
+
+Objektif: baseline coalition, isu hangat, spekulasi calon, media tone.
+Fokus    : Batch 1, 3, 4 + Berita #1 & #4. Batch 2 optional (partial).
+
+──────────────────────────────────────────────────────────────────────────────
+CRAWL #1 ✅ SUDAH SIAP — 21 Jun 2026
+──────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────
+CRAWL #2 — CADANGAN: 24 Jun 2026 (Selasa)
+──────────────────────────────────────────────────────────────────────────────
+  Fokus Johor (T-3 penamaan 27 Jun):
+    • Batch 1 + 3 + 4 (Direct URL)
+    • Berita: Query #1 + #4, when:7d
+    • Keyword backup (FB/TikTok search blocked): 
+      "PRN Johor" OR "BN Johor" OR "PN Johor" OR "PH Johor" when:7d
+  Anggaran masa: 2–3 jam
+
+──────────────────────────────────────────────────────────────────────────────
+CRAWL #3 — CADANGAN: 26 Jun 2026 (Khamis, EVE penamaan Johor)
+──────────────────────────────────────────────────────────────────────────────
+  Fokus Johor + spekulasi calon:
+    • Batch 1 + 4 (profil pemimpin + IG/X)
+    • Berita: 
+      "penamaan calon" OR "senarai calon" OR "calon rasmi" Johor when:7d
+    • Dataset: 2000
+  Selepas siap → combine master + update war room
+
+──────────────────────────────────────────────────────────────────────────────
+CRAWL #4 — CADANGAN: 5 Jul 2026 (Sabtu) — PRE-PENAMAAN N9
+──────────────────────────────────────────────────────────────────────────────
+  Fokus Negeri Sembilan (T-13 penamaan 18 Jul):
+    • Batch 1 + 3 + 4 (full social)
+    • Berita #1 + #2 + #4
+    • Keyword N9:
+      "PRN Negeri Sembilan" OR "PRNN9" OR "DUN N9" OR "N. Sembilan mengundi" when:7d
+
+──────────────────────────────────────────────────────────────────────────────
+CRAWL #5 — CADANGAN: 15 Jul 2026 (Selasa) — EVE penamaan N9
+──────────────────────────────────────────────────────────────────────────────
+  Fokus N9 spekulasi calon + isu tempatan:
+    • Batch 1 + 4
+    • Berita:
+      "penamaan calon" OR "senarai calon" "Negeri Sembilan" when:7d
+    • Dataset: 2000
+
+
+================================================================================
+E. FASA 2 — SELEPAS PENAMAAN CALON (2–3 CRAWL + NAMA CALON)
+================================================================================
+
+⚠️ TRIGGER: Dapat senarai calon rasmi SPR untuk SEMUA kerusi DUN.
+Sumber     : https://spr.gov.my | https://undiinfo.spr.gov.my
+Kemaskini  : Excel Terkini.xlsx (sheet calon) → import_prn_excel_intel.py
+
+JOHOR — selepas 27 Jun 2026 (56 calon)
+──────────────────────────────────────
+  CRAWL #J1 (28–29 Jun): CALON JOHOR — FULL
+    Mod A — Keyword per calon (disyorkan):
+      "[Nama Calon]" OR "[Nama Calon]" "[Kerusi DUN]" when:14d
+      Contoh: "Onn Hafiz" OR "Onn Hafiz Ghazi" "Kempas" when:14d
+    Mod B — Direct URL profil calon (jika ada dalam Excel URL Sources)
+    Mod C — Script 56 DUN (adapt dari N9):
+      python3 scripts/crawl_prn_n9_36dun_insightpulse.py  ← N9 sahaja sekarang
+      → Johor: guna Query Templates sheet (TIER2_DUN_LOCAL) dari Excel
+    Platform : FB + IG + X + TikTok + News
+    Date     : Last 14 Days
+    Dataset  : 1000–1500 per negeri
+
+  CRAWL #J2 (3 Jul): CALON + ISU KERUSI PANAS
+    • 7 kerusi marginal Johor (contoh: Puteri Wangsa, Kempas, Skudai — ikut Excel)
+    • Query: "[Calon A]" OR "[Calon B]" "[Nama kerusi]" when:7d
+    • Batch 4 profil calon IG/X/TikTok
+
+  CRAWL #J3 (5 Jul): SNAPSHOT PRE-UNDI AWAL
+    • Ulang Batch 1–5 (7 hari) + Berita #4
+    • Combine master → update war room
+    • Date: Last 3 Days untuk kerusi Tier-1
+
+NEGERI SEMBILAN — selepas 18 Jul 2026 (36 calon)
+──────────────────────────────────────────────────
+  CRAWL #N1 (19–20 Jul): CALON N9 — 36 DUN
+    python3 scripts/crawl_prn_n9_36dun_insightpulse.py
+    (--code N05 untuk test 1 kerusi dahulu)
+    Platform: facebook, instagram, x, tiktok, news
+    Date: 14days | Dataset: 800–1200 per kerusi
+
+  CRAWL #N2 (22 Jul): CALON + 23 KERUSI SASARAN PAS
+    • Fokus 16 wajib + 7 imbang (rujuk war room pas_target_23_N9.json)
+    • Keyword: "[Calon PAS]" OR "[Calon BN/PH]" "[Nama DUN]" when:7d
+
+  CRAWL #N3 (25 Jul): SNAPSHOT PRE-UNDI AWAL N9
+    • Full batch 1–5 + berita
+    • Date: Last 3 Days
+
+
+================================================================================
+F. FASA 3 — KEMPEN PANAS → UNDI AWAL → HARI MENGUNDI
+================================================================================
+
+JOHOR
+─────
+  6–7 Jul (UNDI AWAL Johor)
+    • Tier-1 kerusi: crawl HARIAN (Last 1 Day, News when:1d)
+    • Keyword: "undi awal" OR "early voting" Johor when:1d
+    • Monitor sentiment negatif ≥15% per kerusi (war room alert)
+
+  8–10 Jul (3 hari sebelum mengundi)
+    • Crawl #J-K1 (8 Jul): Full refresh 7 hari, semua batch
+    • Crawl #J-K2 (10 Jul): Last 3 Days, fokus 10 kerusi swing
+    • Berita hourly check: Query #4 when:1d
+
+  11 Jul — HARI MENGUNDI Johor
+    • Pagi: crawl Last 1 Day (06:00, 10:00)
+    • Petang: crawl Last 1 Day (14:00, 18:00) — keluar mengundi, queue, cuaca
+    • Keyword: "PRN Johor" OR "mengundi Johor" OR "keluar undi" when:1d
+    • JANGAN combine dengan N9 pada hari yang sama — kekalkan master berasingan
+
+NEGERI SEMBILAN
+──────────────
+  26–28 Jul (UNDI AWAL N9)
+    • Crawl harian Tier-1 (16 kerusi wajib PAS + 7 imbang)
+    • Keyword: "undi awal" "Negeri Sembilan" when:1d
+
+  29 Jul – 31 Jul (3 hari sebelum mengundi)
+    • Crawl #N-K1 (29 Jul): Full refresh
+    • Crawl #N-K2 (31 Jul): Last 3 Days, 36 DUN
+
+  1 Ogos — HARI MENGUNDI N9
+    • Sama pattern Johor: crawl 4x sehari (06/10/14/18)
+    • Keyword: "PRN N9" OR "mengundi Negeri Sembilan" when:1d
+
+
+================================================================================
+G. SELEPAS SETIAP CRAWL — LANGKAH WAJIB (COPY-PASTE)
+================================================================================
+
+1) Tunggu task siap di http://localhost:8001 (status: completed)
+
+2) Gabung semua Combined_* hari itu → master baru:
+   cd /Users/rmtariq/Documents/InsightPulse
+   # Ganti YYYYMMDD dengan tarikh crawl
+   NEImpulse/bin/python3 - <<'PY'
+   import pandas as pd
+   from pathlib import Path
+   from datetime import datetime, timezone, timedelta
+   ROOT = Path(".")
+   MYT = timezone(timedelta(hours=8))
+   TS = datetime.now(MYT).strftime("%Y%m%d")
+   # Senaraikan fail Combined hari ini (social + news)
+   files = sorted((ROOT/"data/combined").glob(f"Combined_*_{TS}_*.csv"))
+   # ATAU gabung dengan master lama + fail baru
+   prev = ROOT/"data/combined/PRN_Johor_N9_master_20260621.csv"
+   parts = [pd.read_csv(prev, low_memory=False)] if prev.exists() else []
+   parts += [pd.read_csv(f, low_memory=False) for f in files]
+   df = pd.concat(parts, ignore_index=True)
+   df["_key"] = df["Platform"].astype(str)+"_"+df["ID"].astype(str)
+   df = df.drop_duplicates(subset=["_key"], keep="last").drop(columns=["_key"])
+   out = ROOT/f"data/combined/PRN_Johor_N9_master_{TS}.csv"
+   df.to_csv(out, index=False, encoding="utf-8")
+   print(f"✅ {out} ({len(df):,} rows)")
+   PY
+
+3) Wire ke war room + rebuild:
+   TS=$(date +%Y%m%d_%H%M%S)
+   cp data/combined/PRN_Johor_N9_master_YYYYMMDD.csv \
+      data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_${TS}.csv
+   cp data/combined/PRN_Johor_N9_master_YYYYMMDD.csv \
+      data/projects/political/PRN/PRN_Johor/master/PRN_Johor_Master_${TS}.csv
+   bash scripts/start_prn_warroom_prototype.sh
+
+4) Refresh browser: Cmd+Shift+R pada http://localhost:8080/
+
+
+================================================================================
+H. CADANGAN SETERUSNYA (PRIORITI OPERASI)
+================================================================================
+
+SEGERA (22–26 Jun)
+  [1] Crawl #2 (24 Jun) + #3 (26 Jun) — Johor pre-penamaan
+  [2] Sediakan template keyword calon (56 Johor) — kosongkan nama, isi selepas 27 Jun
+  [3] Backup Batch 2 via Keyword mode (FB/TikTok search)
+
+SELEPAS PENAMAAN JOHOR (27 Jun)
+  [4] Import calon rasmi → Excel → import_prn_excel_intel.py
+  [5] Crawl #J1–J3 dengan nama calon (56 DUN)
+  [6] Update war room — Johor headlines 37→56 kerusi target
+
+SELEPAS PENAMAAN N9 (18 Jul)
+  [7] crawl_prn_n9_36dun_insightpulse.py (36 kerusi)
+  [8] Crawl #N1–N3 + kemaskini pas_target_23
+
+SEPANJANG KEMPEN
+  [9] Tier-1 kerusi (marginal + sasaran PAS): crawl 2–3x seminggu
+  [10] Tier-2: crawl mingguan
+  [11] Berita: Query #4 minimum setiap crawl; when:1d pada 3 hari akhir
+
+UNDI AWAL & HARI MENGUNDI
+  [12] Johor 7 Jul + 11 Jul — intensif harian
+  [13] N9 28 Jul + 1 Ogos — intensif harian
+  [14] Simpan snapshot master harian (audit trail)
+
+PENAMBAHBAIKAN SISTEM (optional)
+  [15] Wire PRN_Johor_N9_master_*.csv terus ke build script (elak rename manual)
+  [16] Script crawl_prn_johor_56dun_insightpulse.py (mirror N9)
+  [17] Auto-merge + war room trigger selepas task completed
+
+
+================================================================================
+I. CHECKLIST RINGKAS SETIAP CRAWL
+================================================================================
+
+  [ ] Backend jalan (localhost:8001)
+  [ ] Satu batch pada satu masa
+  [ ] Batch 6 = Keyword+News (BUKAN Direct URL)
+  [ ] Task completed — semak rekod > 0
+  [ ] Combine master CSV
+  [ ] Wire PAS_Break_Master + PRN_Johor_Master
+  [ ] bash scripts/start_prn_warroom_prototype.sh
+  [ ] Hard refresh browser
+  [ ] Catat tarikh + rekod dalam log di bawah
+
+
+================================================================================
+J. LOG CRAWL (ISI MANUAL)
+================================================================================
+
+| Tarikh | Crawl# | Fasa | Rekod | Master file | War room | Catatan |
+|--------|--------|------|-------|-------------|----------|---------|
+| 21 Jun | #1 | Pre-penamaan | 4,347 | PRN_Johor_N9_master_20260621.csv | ✅ | Batch 1-6 + berita |
+| 24 Jun | #2 | Pre-penamaan Johor | | | | |
+| 26 Jun | #3 | Eve penamaan Johor | | | | |
+| 27 Jun | — | PENAMAAN JOHOR | | | | Isi nama calon |
+| 28 Jun | #J1 | Post-penamaan Johor | | | | |
+| 5 Jul | #4 | Pre-penamaan N9 | | | | |
+| 15 Jul | #5 | Eve penamaan N9 | | | | |
+| 18 Jul | — | PENAMAAN N9 | | | | Isi nama calon |
+| 19 Jul | #N1 | Post-penamaan N9 | | | | 36 DUN script |
+| 7 Jul | — | UNDI AWAL JOHOR | | | | |
+| 11 Jul | — | HARI MENGUNDI JOHOR | | | | |
+| 28 Jul | — | UNDI AWAL N9 | | | | |
+| 1 Ogo | — | HARI MENGUNDI N9 | | | | |
+
+
+================================================================================
+K. RUJUKAN FAIL & URL
+================================================================================
+
+  URL batches     : data/projects/political/PRN/_shared/url_batches/
+  Excel intel     : data/projects/political/PRN/_shared/Terkini_20062026_PRN_N9_Johor_Melaka_Update_2026.xlsx
+  Master terkini  : data/combined/PRN_Johor_N9_master_20260621.csv
+  War room data   : data/projects/political/PRN/PRN_N9/reports/war_room/prototype/data/
+  SPR rasmi       : https://spr.gov.my
+  UndiInfo        : https://undiinfo.spr.gov.my
+
+================================================================================
+TAMAT — kemaskini fail ini selepas setiap crawl atau bila SPR umum tarikh/calon baru
+================================================================================

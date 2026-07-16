@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated": "2026-06-13 14:27",
-    "master_source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260612_031929.csv",
+    "generated": "2026-07-12 15:15",
+    "master_source": "data/projects/political/pas_break_2026/master/PAS_Break_Master_EXCO_Analyzed_20260702_153626.csv",
     "mode": "lite",
     "phases": [
       "hari_ini",
@@ -10,7 +10,7 @@
     ]
   },
   "hari_ini": {
-    "date": "2026-06-13",
+    "date": "2026-07-12",
     "items": [
       {
         "id": "today_N05",
@@ -18,8 +18,8 @@
         "kawasan": "Serting",
         "kategori_pas": "defend",
         "kategori_label": "Pertahan",
-        "action_text": "Crawl keyword: PRN N05 Serting — 2×/hari semasa kempen.",
-        "action_type": "intel",
+        "action_text": "Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.",
+        "action_type": "digital",
         "action_source": "playbook",
         "pas_win_prob": 70,
         "mentions": 0,
@@ -41,8 +41,8 @@
         "kawasan": "Paroi",
         "kategori_pas": "defend",
         "kategori_label": "Pertahan",
-        "action_text": "Crawl keyword: PRN N25 Paroi — 2×/hari semasa kempen.",
-        "action_type": "intel",
+        "action_text": "Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.",
+        "action_type": "digital",
         "action_source": "playbook",
         "pas_win_prob": 82,
         "mentions": 0,
@@ -64,8 +64,8 @@
         "kawasan": "Bagan Pinang",
         "kategori_pas": "defend",
         "kategori_label": "Pertahan",
-        "action_text": "Crawl keyword: PRN N31 Bagan Pinang — 2×/hari semasa kempen.",
-        "action_type": "intel",
+        "action_text": "Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.",
+        "action_type": "digital",
         "action_source": "playbook",
         "pas_win_prob": 82,
         "mentions": 0,
@@ -87,8 +87,8 @@
         "kawasan": "Sungai Lui",
         "kategori_pas": "winnable",
         "kategori_label": "Boleh Menang",
-        "action_text": "Pantau calon lawan (Mohd Nordin Hasim) — socmed & ceramah.",
-        "action_type": "intel",
+        "action_text": "Frame: perubahan mampu milik — Majoriti sempit vs status quo.",
+        "action_type": "komunikasi",
         "action_source": "playbook",
         "pas_win_prob": 51.0,
         "mentions": 0,
@@ -110,8 +110,8 @@
         "kawasan": "Lenggeng",
         "kategori_pas": "winnable",
         "kategori_label": "Boleh Menang",
-        "action_text": "Pantau calon lawan (Mohd Fadli Che Me) — socmed & ceramah.",
-        "action_type": "intel",
+        "action_text": "Frame: perubahan mampu milik — Bandar Lenggeng vs status quo.",
+        "action_type": "komunikasi",
         "action_source": "playbook",
         "pas_win_prob": 50.5,
         "mentions": 0,
@@ -133,8 +133,8 @@
         "kawasan": "Pilah",
         "kategori_pas": "winnable",
         "kategori_label": "Boleh Menang",
-        "action_text": "Pantau calon lawan (Rafiei Mustapha) — socmed & ceramah.",
-        "action_type": "intel",
+        "action_text": "Frame: perubahan mampu milik — Pilah tradisi vs status quo.",
+        "action_type": "komunikasi",
         "action_source": "playbook",
         "pas_win_prob": 38,
         "mentions": 0,
@@ -289,7 +289,7 @@
       "note": "pasWinProb + BKC cula — bukan polling"
     }
   ],
-  "whatsapp_digest": "PRN N9 — Tindakan 2026-06-13\n📅 SPR: penamaan 18 Jul 2026 · mengundi 1 Ogo 2026\n\nPERTAHAN\n• N05: Crawl keyword: PRN N05 Serting — 2×/hari semasa kempen. [BKC -7,337]\n• N25: Crawl keyword: PRN N25 Paroi — 2×/hari semasa kempen. [BKC -19,129]\n• N31: Crawl keyword: PRN N31 Bagan Pinang — 2×/hari semasa kempen. [BKC -9,008]\n\nBOLEH MENANG\n• N03: Pantau calon lawan (Mohd Nordin Hasim) — socmed & ceramah. [cula 24.76% BKC -1,956]\n• N09: Pantau calon lawan (Mohd Fadli Che Me) — socmed & ceramah. [cula 3.52% BKC -8,933]\n• N18: Pantau calon lawan (Rafiei Mustapha) — socmed & ceramah. [cula 1.93% BKC -5,883]\n\n⚠️ N03: Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.\n⚠️ N05: Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.\n⚠️ N09: Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.\n📰 Media: Naratif split PAS/PN muncul dalam 1 artikel/komen media (Tier A)\n📰 Media: Isu istana/institusi dalam 4 item media — pantau naratif\n\nReply DONE bila siap.",
+  "whatsapp_digest": "PRN N9 — Tindakan 2026-07-12\n📅 SPR: penamaan 18 Jul 2026 · mengundi 1 Ogo 2026\n\nPERTAHAN\n• N05: Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran  [BKC -7,337]\n• N25: Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran  [BKC -19,129]\n• N31: Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran  [BKC -9,008]\n\nBOLEH MENANG\n• N03: Frame: perubahan mampu milik — Majoriti sempit vs status quo. [cula 24.76% BKC -1,956]\n• N09: Frame: perubahan mampu milik — Bandar Lenggeng vs status quo. [cula 3.52% BKC -8,933]\n• N18: Frame: perubahan mampu milik — Pilah tradisi vs status quo. [cula 1.93% BKC -5,883]\n\n⚠️ N03: Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.\n⚠️ N05: Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.\n⚠️ N09: Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.\n📰 Media: Naratif split PAS/PN muncul dalam 1 artikel/komen media (Tier A)\n📰 Media: Isu istana/institusi dalam 4 item media — pantau naratif\n\nReply DONE bila siap.",
   "category_meta": {
     "defend": {
       "label": "Pertahan",
@@ -828,7 +828,7 @@
       "severity": "warning",
       "message": "Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.",
       "recommended_action": "Koordinasi war room — elak pecah undi; intel calon lawan.",
-      "detected_at": "2026-06-13 14:27",
+      "detected_at": "2026-07-12 15:15",
       "auto_fired": true
     },
     {
@@ -840,7 +840,7 @@
       "severity": "warning",
       "message": "Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.",
       "recommended_action": "Koordinasi war room — elak pecah undi; intel calon lawan.",
-      "detected_at": "2026-06-13 14:27",
+      "detected_at": "2026-07-12 15:15",
       "auto_fired": true
     },
     {
@@ -852,7 +852,7 @@
       "severity": "warning",
       "message": "Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.",
       "recommended_action": "Koordinasi war room — elak pecah undi; intel calon lawan.",
-      "detected_at": "2026-06-13 14:27",
+      "detected_at": "2026-07-12 15:15",
       "auto_fired": true
     },
     {
@@ -864,7 +864,7 @@
       "severity": "warning",
       "message": "Isu istana/institusi dalam 4 item media — pantau naratif",
       "recommended_action": "Semak panel Media Tone dashboard; sediakan counter-narrative jika perlu.",
-      "detected_at": "2026-06-13 14:27",
+      "detected_at": "2026-07-12 15:15",
       "auto_fired": true,
       "source_layer": "media_and_comments"
     },
@@ -877,7 +877,7 @@
       "severity": "watch",
       "message": "Media tone 40.0% negatif (60 artikel direct Tier A)",
       "recommended_action": "Review headline negatif; koordinasi mesej komunikasi.",
-      "detected_at": "2026-06-13 14:27",
+      "detected_at": "2026-07-12 15:15",
       "auto_fired": true,
       "source_layer": "media_and_comments"
     }
@@ -8087,7 +8087,7 @@
     ]
   },
   "briefing": {
-    "generated_at": "2026-06-13T14:27:04",
+    "generated_at": "2026-07-12T15:15:04",
     "source": "rule_based",
     "model": "template",
     "executive_summary": "War Room N9 — 3 kerusi Pertahan, 3 Boleh Menang, 5 isyarat aktif. Tiada alert kritikal sentiment. Model ramalan = rule-based, bukan polling.",
@@ -8131,7 +8131,7 @@
       "proposal": "Koordinasi war room — elak pecah undi; intel calon lawan.",
       "context": "Risiko 3 penjuru tinggi — N03. Pantau overlap calon PAS/PN/BN.",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "crawl_trigger"
     },
     {
@@ -8142,7 +8142,7 @@
       "proposal": "Koordinasi war room — elak pecah undi; intel calon lawan.",
       "context": "Risiko 3 penjuru tinggi — N05. Pantau overlap calon PAS/PN/BN.",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "crawl_trigger"
     },
     {
@@ -8153,7 +8153,7 @@
       "proposal": "Koordinasi war room — elak pecah undi; intel calon lawan.",
       "context": "Risiko 3 penjuru tinggi — N09. Pantau overlap calon PAS/PN/BN.",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "crawl_trigger"
     },
     {
@@ -8164,7 +8164,7 @@
       "proposal": "Semak panel Media Tone dashboard; sediakan counter-narrative jika perlu.",
       "context": "Isu istana/institusi dalam 4 item media — pantau naratif",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "crawl_trigger"
     },
     {
@@ -8175,7 +8175,7 @@
       "proposal": "Review headline negatif; koordinasi mesej komunikasi.",
       "context": "Media tone 40.0% negatif (60 artikel direct Tier A)",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "crawl_trigger"
     },
     {
@@ -8186,7 +8186,7 @@
       "proposal": "Micro-content isu Majoriti sempit & Swing Melayu — 4 post/minggu FB + TikTok @calon.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8197,7 +8197,7 @@
       "proposal": "Testimoni pengundi swing (video 60s) — 2/minggu.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8208,7 +8208,7 @@
       "proposal": "Boost post kawasan majoriti ≤999 undi — budget terhad.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8219,7 +8219,7 @@
       "proposal": "Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8230,7 +8230,7 @@
       "proposal": "3 video TikTok/minggu isu tempatan: FELDA/getah.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8241,7 +8241,7 @@
       "proposal": "Balas komen negatif ≤4 jam; escalate ke war room jika viral >5k views.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8252,7 +8252,7 @@
       "proposal": "Micro-content isu Bandar Lenggeng & Kos hidup — 4 post/minggu FB + TikTok @calon.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8263,7 +8263,7 @@
       "proposal": "Testimoni pengundi swing (video 60s) — 2/minggu.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8274,7 +8274,7 @@
       "proposal": "Boost post kawasan majoriti ≤999 undi — budget terhad.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8285,7 +8285,7 @@
       "proposal": "Micro-content isu Pilah tradisi & PH marginal — 4 post/minggu FB + TikTok @calon.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8296,7 +8296,7 @@
       "proposal": "Testimoni pengundi swing (video 60s) — 2/minggu.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8307,7 +8307,7 @@
       "proposal": "Boost post kawasan majoriti ≤999 undi — budget terhad.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8318,7 +8318,7 @@
       "proposal": "Post FB/TikTok harian dari halaman calon/ADUN — highlight projek selesai & kehadiran ADUN.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8329,7 +8329,7 @@
       "proposal": "3 video TikTok/minggu isu tempatan: Kos sara hidup bandar.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     },
     {
@@ -8340,7 +8340,7 @@
       "proposal": "Balas komen negatif ≤4 jam; escalate ke war room jika viral >5k views.",
       "context": "Priority P1 · 3–7×/minggu",
       "status": "pending_approval",
-      "created_at": "2026-06-13T14:27:04",
+      "created_at": "2026-07-12T15:15:04",
       "source": "playbook"
     }
   ]

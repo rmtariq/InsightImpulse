@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-07-12T15:15:03.675520",
+  "totals": {
+    "records": 278,
+    "posts": 271,
+    "comments": 7,
+    "likes": 198,
+    "shares": 31,
+    "views": 11286,
+    "engagement": 380
+  },
+  "platform": {
+    "news": 259,
+    "x": 19
+  },
+  "sentiment": {
+    "neutral": 147,
+    "negative": 72,
+    "positive": 59
+  },
+  "narrative": {
+    "chinese_script_rows": 5,
+    "johor_related": 68,
+    "pas_bn_mentions": 80,
+    "harakat_syurga_cluster": 3,
+    "dap_ph_mentions": 25,
+    "core_issue_pct": 1.1
+  },
+  "insights": {
+    "chinese_cares_syurga": true,
+    "chinese_focus_pas_bn": true,
+    "malay_backlash_syurga": 0
+  },
+  "top_chinese": [
+    {
+      "text": "节录：柔佛国阵领袖的态度傲慢，对政治情势的评估过度乐观，想不到翁哈菲兹的大臣光环那么容易剥落，更没料想到伊党和卜艾的政治动作会为国阵选情带来困难。\n#星洲日报 #sinchew\n冯振豪：到底国阵跟伊党的关系如何，翁哈菲兹及其他国阵领袖都说不清楚。 【有理论政】\nhttps://t.co/BPlwMjrSlp",
+      "eng": 10,
+      "sent": "neutral"
+    },
+    {
+      "text": "柔佛州选掀“巫伊合作”争议！伊党领袖公开为国阵站台，马华帆加兰州议席候选人傅庆隆同框画面曝光。张念群质问：“如果真的没有合作，为何不离席？”\nhttps://t.co/dmrIdEX7GD",
+      "eng": 7,
+      "sent": "neutral"
+    },
+    {
+      "text": "伊党署理主席端依布拉欣呼吁伊党党员及支持者，在国盟没有上阵的柔佛州议席，把选票投给巫统或国阵候选人。但是土团党宣传主任顿费沙却唱反调，敦促国盟不要号召支持者在国盟没有上阵的州议席改投国阵，因为这等同于支持希盟-国阵联邦团结政府。\n#星洲日报 #sinchew\nhttps://t.co/9rGHAjrfNb https://t.co/DnDdtMILIQ",
+      "eng": 6,
+      "sent": "neutral"
+    },
+    {
+      "text": "他指出，虽然伊党领导层已表态支持国阵，但仍须主动接触、争取及说服选民支持。\n#星洲日报 #sinchew\nhttps://t.co/bdAMgTO3x8 https://t.co/k1xENOBFJ4",
+      "eng": 5,
+      "sent": "neutral"
+    },
+    {
+      "text": "【柔佛州选】伊党领袖为峇株国阵竞选活动站台　翁哈菲兹：惊讶且感动 | 国内 https://t.co/WPOzjwovmg",
+      "eng": 3,
+      "sent": "positive"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+🚀 Starting InsightPulse Backend...
+
+🧹 Cleaning up existing processes...
+✅ Found .env file
+✅ Python found: /Users/rmtariq/Documents/InsightPulse/NEImpulse/bin/python
+
+🔍 Verifying environment variables...
+APIFY_API_TOKEN: ✅ SET
+SERPAPI_KEY: ✅ SET
+
+✅ All environment variables loaded successfully!
+
+🌟 Starting backend server on http://0.0.0.0:8001
+
+✅ Backend started with PID: 34032
+📝 Logs: backend.log
+
+⏳ Waiting for backend to initialize...
+✅ Backend is healthy and ready!
+
+🎉 InsightPulse is running at: http://localhost:8001
+
+📊 To view logs: tail -f backend.log
+🛑 To stop: pkill -f 'uvicorn.*simple_app'

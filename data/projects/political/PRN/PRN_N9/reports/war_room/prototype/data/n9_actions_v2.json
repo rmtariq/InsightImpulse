@@ -1,0 +1,1329 @@
+{
+  "meta": {
+    "state": "N9",
+    "generated": "2026-07-05 02:47:16",
+    "version": "2.0",
+    "principle": "Mudah isi data · mudah baca dashboard · mudah ambil tindakan",
+    "job_sync": "2026-07-05 02:47:16",
+    "job3_sync": "2026-07-07 20:18:44",
+    "pengundiMacSync": "2026-07-15 13:08:32",
+    "narrativeSync": "2026-07-15 13:08:32"
+  },
+  "actions": [
+    {
+      "id": "ACT-N9-001",
+      "title": "Sahkan cula dan daftar undi di N25 Paroi",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Ketua Operasi DUN",
+      "due": "Hari ini 18:00",
+      "dun": "N25",
+      "seat": "Paroi",
+      "locality": "Paroi / Ampangan",
+      "reason": "Kerusi pertahanan PAS dengan peluang tinggi, tetapi data cula 24j tiada kemas kini.",
+      "evidence": [
+        "Peluang menang tinggi dalam model N9",
+        "Tiada kemas kini cula 24 jam",
+        "Kerusi pertahanan mesti kekal dalam zon selamat"
+      ],
+      "recommended_steps": [
+        "Hubungi ketua PDM dan sahkan rumah yang belum dilawati.",
+        "Hantar pasukan door-to-door ke lokaliti Condong Bulan.",
+        "Kemaskan senarai atas pagar untuk follow-up malam ini."
+      ],
+      "impact_metric": "Tambah sekurang-kurangnya 30 rumah disahkan hari ini"
+    },
+    {
+      "id": "ACT-N9-002",
+      "title": "Gerakkan lawatan minimum 20 rumah di N10 Nilai",
+      "category": "lapangan",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Koordinator Lapangan",
+      "due": "Esok 12:00",
+      "dun": "N10",
+      "seat": "Nilai",
+      "locality": "Bandar Baru Nilai",
+      "reason": "Kerusi sasaran menang tetapi model masih rendah; perlu baca ground truth dengan cepat.",
+      "evidence": [
+        "Kategori sasaran menang",
+        "Kawasan bercampur dan sensitif isu kos sara hidup",
+        "Perlu input lapangan sebelum action digital diperbesarkan"
+      ],
+      "recommended_steps": [
+        "Tetapkan 2 PDM untuk door-to-door pagi.",
+        "Kumpul isu utama dalam 5 kategori sahaja.",
+        "Hantar ringkasan kepada Action Center sebelum 12:00."
+      ],
+      "impact_metric": "20 rumah/PDM dan 1 ringkasan isu lokaliti"
+    },
+    {
+      "id": "ACT-N9-003",
+      "title": "Sediakan respons ringkas isu Split PAS/PN",
+      "category": "rapid_response",
+      "priority": "p2",
+      "status": "sedang_dibuat",
+      "owner": "Comms Lead",
+      "due": "Malam ini",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "locality": "Semua platform",
+      "reason": "Isu Split PAS/PN muncul sebagai isu panas tertinggi dalam heatmap semasa.",
+      "evidence": [
+        "Top issue 24%",
+        "Berpotensi mengganggu naratif MN dan path to majority",
+        "Perlu satu bahasa mesej untuk jentera dan penyokong"
+      ],
+      "recommended_steps": [
+        "Sediakan 3 talking points BM ringkas.",
+        "Edarkan kepada ketua DUN sebelum 21:00.",
+        "Pantau reaksi digital selepas respons pertama."
+      ],
+      "impact_metric": "Talking points siap dan diedarkan kepada semua ketua DUN"
+    },
+    {
+      "id": "ACT-N9-004",
+      "title": "Naikkan pulse digital lokaliti untuk N13 Sikamat",
+      "category": "digital",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "Digital Ops",
+      "due": "48 jam",
+      "dun": "N13",
+      "seat": "Sikamat",
+      "locality": "Sikamat / Seremban",
+      "reason": "Engagement ada, tetapi perlu signal lokaliti yang lebih spesifik sebelum tindakan lapangan.",
+      "evidence": [
+        "Mention 24j wujud dalam socmed by DUN",
+        "Kerusi sasaran rapat",
+        "Perlu bezakan isu tempatan vs isu negeri"
+      ],
+      "recommended_steps": [
+        "Daftar 2 seed Facebook lokaliti.",
+        "Daftar 1 seed TikTok isu kos sara hidup.",
+        "Crawl selepas 24 jam dan semak issue cluster."
+      ],
+      "impact_metric": "3 seed direkod dan 1 crawl siap"
+    },
+    {
+      "id": "ACT-N9-005",
+      "title": "Rancang dialog komuniti kecil di N31 Bagan Pinang",
+      "category": "program",
+      "priority": "p3",
+      "status": "baru",
+      "owner": "Program Ops",
+      "due": "Minggu ini",
+      "dun": "N31",
+      "seat": "Bagan Pinang",
+      "locality": "Port Dickson",
+      "reason": "Kerusi pertahanan PAS; program kecil lebih sesuai untuk pengukuhan penyokong dan follow-up.",
+      "evidence": [
+        "Kerusi pertahanan",
+        "Kawasan pelancongan dan komuniti pekerja",
+        "Perlu follow-up selepas aktiviti lapangan"
+      ],
+      "recommended_steps": [
+        "Tetapkan lokaliti dan owner program.",
+        "Kumpul 20 nama jemputan komuniti.",
+        "Selepas program, masukkan cula follow-up dalam 24 jam."
+      ],
+      "impact_metric": "1 program kecil + 20 follow-up direkod"
+    },
+    {
+      "id": "ACT-N9-J1-001",
+      "title": "Echo poll Pengundi Malaysia (89.4% · 1,882 eng)",
+      "category": "digital",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Comms PAS N9",
+      "due": "48 jam",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "locality": "Semua platform",
+      "reason": "1 post · 531 komen · 89.4% sokong MN — #3 MN +3pp scenario.",
+      "evidence": [
+        "226 komen A/B jelas",
+        "1,051 likes · 50 shares",
+        "Engagement 1,882"
+      ],
+      "recommended_steps": [
+        "Edar 3 mesej ringkas BM (poll + footnote bukan SPR).",
+        "Pisahkan naratif poll dari debat istana/adat.",
+        "Pantau komen tolak (B) dan balas dengan sopan."
+      ],
+      "impact_metric": "Mesej diedar ke 20 ketua kerusi MN",
+      "job_id": "JOB-N9-01"
+    },
+    {
+      "id": "ACT-N9-J2-001",
+      "title": "Brief ketua 20 kerusi MN: garis «poll MN + hormat adat»",
+      "category": "rapid_response",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Comms HQ",
+      "due": "Hari ini",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "locality": "WhatsApp HQ",
+      "reason": "K3 54% neg · K5 4,562 rekod · ML flag N05/N19.",
+      "evidence": [
+        "5 keyword crawl siap K1–K5",
+        "10 DUN zon Undang micro-target",
+        "7-bloc MN +5pp istana legacy"
+      ],
+      "recommended_steps": [
+        "Hantar 1-pager doc WhatsApp (DO/DON'T adat).",
+        "JANGAN serang MB guna «penderhaka Undang».",
+        "Monitor K2/K3 daily — spike >60% neg → alert."
+      ],
+      "impact_metric": "Brief diedar ke 20 ketua kerusi MN",
+      "job_id": "JOB-N9-02"
+    },
+    {
+      "id": "ACT-N9-J2-002",
+      "title": "Monitor monarki/adat — 10 DUN zon Undang",
+      "category": "digital",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Digital War Room",
+      "due": "2× sehari",
+      "dun": "N19",
+      "seat": "Johol",
+      "locality": "Jelebu · Johol · Rembau · Tampin",
+      "reason": "Micro-target soft comms sahaja — bukan 32 DUN.",
+      "evidence": [
+        "K5 421,763 engagement",
+        "N19 pasWinProb 38%",
+        "N05 pertahan tipis +843"
+      ],
+      "recommended_steps": [
+        "Check pulse PULSE-N9-K2/K3/K5 setiap pagi & petang.",
+        "Soft touch N19, N03, N05 — elak provokasi.",
+        "Log spike ke Action Center."
+      ],
+      "impact_metric": "2 laporan monitor/hari untuk 10 DUN Undang",
+      "job_id": "JOB-N9-02"
+    },
+    {
+      "id": "ACT-N9-J2-003",
+      "title": "Siap 1-pager edukasi adat N9 (bukan serangan parti)",
+      "category": "rapid_response",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "Comms + legal adat",
+      "due": "48 jam",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "locality": "HQ",
+      "reason": "Counter frame K4 (adat+DAP) dengan edukasi, bukan debat kasar.",
+      "evidence": [
+        "K4 48% neg · 2,838 rekod",
+        "PH #5 -2pp poll + -5pp istana"
+      ],
+      "recommended_steps": [
+        "Draft fakta Undang 4, DKU, peranan YDPB.",
+        "Review legal/adat.",
+        "Edar ke ketua DUN zon Undang."
+      ],
+      "impact_metric": "1-pager siap + diedar",
+      "job_id": "JOB-N9-02"
+    },
+    {
+      "id": "ACT-N9-J3-001",
+      "title": "Review isu Shawn Loh / China Press — asingkan signal komuniti Cina sebenar",
+      "category": "rapid_response",
+      "priority": "p2",
+      "status": "baru",
+      "owner": "Digital War Room",
+      "due": "24 jam",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "locality": "Chinese media / social",
+      "reason": "Targeted crawl: 459 records · 271 posts · 188 comments · 3,886,097 engagement.",
+      "evidence": [
+        "TikTok engagement 3,872,516",
+        "X engagement 13,581",
+        "Chinese-labeled rows 10 · engagement 7"
+      ],
+      "recommended_steps": [
+        "Open top_posts_by_engagement.csv and filter Malaysia-relevant posts.",
+        "Separate TikTok global China noise vs local Chinese voter signal.",
+        "Prepare short response only if local Chinese-media traction is confirmed."
+      ],
+      "impact_metric": "Validated issue brief with top 10 relevant posts",
+      "job_id": "JOB-N9-03"
+    },
+    {
+      "id": "ACT-N9I-016",
+      "title": "Other — NS-N21",
+      "category": "naratif",
+      "priority": "p3",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N21",
+      "seat": "Seremban",
+      "locality": "Komuniti indian",
+      "reason": "MIC staying with BN pays off with haul of 4 seats. After a clean sweep of the seats it contested, BN's Indian component ",
+      "evidence": [
+        "Naratif indian live",
+        "DUN N21"
+      ],
+      "recommended_steps": [
+        "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9I-028",
+      "title": "Tamil Education — NS-N21",
+      "category": "naratif",
+      "priority": "p3",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N21",
+      "seat": "Seremban",
+      "locality": "Komuniti indian",
+      "reason": "SJKT West Country (Timur) Celebrates International Success at Innovation World Cup 2026. SJKT West Country (Timur) Celeb",
+      "evidence": [
+        "Naratif indian live",
+        "DUN N21"
+      ],
+      "recommended_steps": [
+        "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9I-022",
+      "title": "Public Safety — NS-N21",
+      "category": "naratif",
+      "priority": "p3",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N21",
+      "seat": "Seremban",
+      "locality": "Komuniti indian",
+      "reason": "Pembinaan ECRL didakwa ancam nyawa: Penduduk Mutiara Gombak fail saman RM1.3 juta. Gombak: Penduduk Taman Mutiara Gombak",
+      "evidence": [
+        "Naratif indian live",
+        "DUN N21"
+      ],
+      "recommended_steps": [
+        "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9I-013",
+      "title": "Misinformation — NS-N21",
+      "category": "naratif",
+      "priority": "p3",
+      "status": "baru",
+      "owner": "Fact Checking",
+      "due": "Hari ini",
+      "dun": "N21",
+      "seat": "Seremban",
+      "locality": "Komuniti indian",
+      "reason": "“Says Who? Where's The Source?” MMC Rolls Out New Campaign To Battle Fake News During Elections. “Says Who? Where's The ",
+      "evidence": [
+        "Naratif indian live",
+        "DUN N21"
+      ],
+      "recommended_steps": [
+        "Jangan respons serta-merta. Sahkan dakwaan melalui sekurang-kurangnya dua sumber yang boleh dipercayai dan rekodkan bukti sebelum menyediakan pembetulan.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9C-115",
+      "title": "SME and Business — NS-N08",
+      "category": "naratif",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N08",
+      "seat": "Bahau",
+      "locality": "Komuniti chinese",
+      "reason": "马口小贩反映市议会执法太严，生意难做。 #Bahau",
+      "evidence": [
+        "Naratif chinese live",
+        "DUN N08"
+      ],
+      "recommended_steps": [
+        "Sediakan maklumat lesen, geran, bantuan digitalisasi, kos pematuhan dan saluran penyelesaian masalah peniaga.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9C-120",
+      "title": "SME and Business — NS-N18",
+      "category": "naratif",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N18",
+      "seat": "N18",
+      "locality": "Komuniti chinese",
+      "reason": "马口小贩反映市议会执法太严，生意难做。 DAP Negeri Sembilan perlu fokus perkhidmatan tempatan di Lobak.",
+      "evidence": [
+        "Naratif chinese live",
+        "DUN N18"
+      ],
+      "recommended_steps": [
+        "Sediakan maklumat lesen, geran, bantuan digitalisasi, kos pematuhan dan saluran penyelesaian masalah peniaga.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9C-055",
+      "title": "Employment — NS-N11",
+      "category": "naratif",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N11",
+      "seat": "N11",
+      "locality": "Komuniti chinese",
+      "reason": "年轻首投族更关注就业和房价。 #Lobak",
+      "evidence": [
+        "Naratif chinese live",
+        "DUN N11"
+      ],
+      "recommended_steps": [
+        "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    },
+    {
+      "id": "ACT-N9C-005",
+      "title": "Candidate Performance — NS-N22",
+      "category": "naratif",
+      "priority": "p1",
+      "status": "baru",
+      "owner": "Communications",
+      "due": "Hari ini",
+      "dun": "N22",
+      "seat": "N22",
+      "locality": "Komuniti chinese",
+      "reason": "假消息说某候选人退选，请勿转发。 #Rasah",
+      "evidence": [
+        "Naratif chinese live",
+        "DUN N22"
+      ],
+      "recommended_steps": [
+        "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan.",
+        "Kelulusan pengurus komunikasi sebelum siar."
+      ],
+      "impact_metric": "1 respons disahkan + 1 saluran komuniti",
+      "source": "narrative_community"
+    }
+  ],
+  "pulseDigital": [
+    {
+      "id": "PULSE-N9-SHAWN-LOH-CHINAPRESS",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "platform": "Multi",
+      "stimulus": "Shawn Loh / China Press / Harakahdaily smear issue",
+      "status": "crawl_done",
+      "sentiment_summary": "Neg 184 · Neutral 221 · Pos 54",
+      "emotion_summary": "Anger / controversy signal — validate relevance manually",
+      "issue_cluster": "China Press / Chinese media narrative",
+      "posts": 271,
+      "comments": 188,
+      "records": 459,
+      "engagement": 3886097,
+      "confidence": 0.62,
+      "recommended_action": "Review top TikTok/X posts; isolate Malaysia/Chinese community relevance before briefing.",
+      "job_id": "JOB-N9-03",
+      "report_dir": "reports/20260707_201045_Shawn Loh OR Loh Sheng Nian OR 罗盛年 OR 中国报 OR China",
+      "platform_counts": {
+        "x": 245,
+        "news": 144,
+        "tiktok": 70
+      },
+      "engagement_by_platform": {
+        "news": 0,
+        "tiktok": 3872516,
+        "x": 13581
+      }
+    },
+    {
+      "id": "PULSE-N9-PM-POLL",
+      "dun": "N9",
+      "seat": "Negeri Sembilan",
+      "platform": "Facebook",
+      "stimulus": "Post Pengundi Malaysia — poll MN vs PH (A/B komen)",
+      "status": "crawl_done",
+      "sentiment_summary": "~89.4% sokong MN · 10.6% tolak",
+      "emotion_summary": "Galvanize · debat · Pro-PAS",
+      "issue_cluster": "Gabungan MN vs PH",
+      "posts": 1,
+      "comments": 531,
+      "likes": 1051,
+      "shares": 50,
+      "engagement": 1882,
+      "confidence": 0.85,
+      "recommended_action": "Echo poll di group kempen · pisahkan dari debat istana · jangan over-claim SPR.",
+      "job_id": "JOB-N9-01",
+      "url": "https://www.facebook.com/story.php?story_fbid=1579205333771288&id=100050455091322"
+    },
+    {
+      "id": "PULSE-N9-K1",
+      "dun": "N9",
+      "seat": "Zon Undang",
+      "platform": "Multi",
+      "stimulus": "Monarki luas",
+      "status": "crawl_done",
+      "sentiment_summary": "28.3% neg · 13.9% pos",
+      "emotion_summary": "Mixed",
+      "issue_cluster": "Monarki & Adat",
+      "posts": 714,
+      "records": 714,
+      "engagement": 29410,
+      "confidence": 0.78,
+      "recommended_action": "Monitor",
+      "job_id": "JOB-N9-02",
+      "platforms": {
+        "facebook": 344,
+        "news": 246,
+        "x": 124
+      }
+    },
+    {
+      "id": "PULSE-N9-K2",
+      "dun": "N9",
+      "seat": "Zon Undang",
+      "platform": "Multi",
+      "stimulus": "Mukhriz vs Undang",
+      "status": "crawl_done",
+      "sentiment_summary": "52.4% neg · 5.7% pos",
+      "emotion_summary": "Polarizing",
+      "issue_cluster": "Monarki & Adat",
+      "posts": 1040,
+      "records": 1040,
+      "engagement": 20992,
+      "confidence": 0.78,
+      "recommended_action": "Alert P1 — elak politisasi istana",
+      "job_id": "JOB-N9-02",
+      "platforms": {
+        "facebook": 1019,
+        "news": 13,
+        "x": 8
+      }
+    },
+    {
+      "id": "PULSE-N9-K3",
+      "dun": "N9",
+      "seat": "Zon Undang",
+      "platform": "Multi",
+      "stimulus": "Undang 4 vs MB",
+      "status": "crawl_done",
+      "sentiment_summary": "53.5% neg · 6.2% pos",
+      "emotion_summary": "Polarizing",
+      "issue_cluster": "Monarki & Adat",
+      "posts": 2024,
+      "records": 2024,
+      "engagement": 35050,
+      "confidence": 0.78,
+      "recommended_action": "Alert P1 — elak politisasi istana",
+      "job_id": "JOB-N9-02",
+      "platforms": {
+        "facebook": 2009,
+        "news": 15
+      }
+    },
+    {
+      "id": "PULSE-N9-K4",
+      "dun": "N9",
+      "seat": "Zon Undang",
+      "platform": "Multi",
+      "stimulus": "Adat + DAP",
+      "status": "crawl_done",
+      "sentiment_summary": "47.9% neg · 9.4% pos",
+      "emotion_summary": "Mixed",
+      "issue_cluster": "Monarki & Adat",
+      "posts": 2838,
+      "records": 2838,
+      "engagement": 78882,
+      "confidence": 0.78,
+      "recommended_action": "Monitor",
+      "job_id": "JOB-N9-02",
+      "platforms": {
+        "facebook": 2766,
+        "x": 36,
+        "news": 36
+      }
+    },
+    {
+      "id": "PULSE-N9-K5",
+      "dun": "N9",
+      "seat": "Zon Undang",
+      "platform": "Multi",
+      "stimulus": "Batch C09",
+      "status": "crawl_done",
+      "sentiment_summary": "41.9% neg · 11.7% pos",
+      "emotion_summary": "Mixed",
+      "issue_cluster": "Monarki & Adat",
+      "posts": 4562,
+      "records": 4562,
+      "engagement": 421763,
+      "confidence": 0.78,
+      "recommended_action": "Monitor",
+      "job_id": "JOB-N9-02",
+      "platforms": {
+        "facebook": 4350,
+        "x": 112,
+        "news": 100
+      }
+    },
+    {
+      "id": "PULSE-N9-001",
+      "dun": "N13",
+      "seat": "Sikamat",
+      "platform": "Facebook",
+      "stimulus": "Soalan kos sara hidup lokaliti",
+      "status": "crawl_due",
+      "sentiment_summary": "Mixed, condong negatif",
+      "emotion_summary": "Risau · marah kecil · mahu penjelasan",
+      "issue_cluster": "Kos sara hidup",
+      "engagement": 128,
+      "confidence": 0.72,
+      "recommended_action": "Buat post penjelasan bantuan kos sara hidup dan semak respons 24 jam."
+    },
+    {
+      "id": "PULSE-N9-002",
+      "dun": "N10",
+      "seat": "Nilai",
+      "platform": "TikTok",
+      "stimulus": "Video pendek isu kerja dan sewa rumah",
+      "status": "posted",
+      "sentiment_summary": "Negatif ringan",
+      "emotion_summary": "Bimbang · skeptikal",
+      "issue_cluster": "Ekonomi & pekerjaan",
+      "engagement": 96,
+      "confidence": 0.66,
+      "recommended_action": "Uji satu Reels/TikTok respons dengan CTA hadir dialog lokaliti."
+    },
+    {
+      "id": "PULSE-N9-003",
+      "dun": "N25",
+      "seat": "Paroi",
+      "platform": "Facebook",
+      "stimulus": "Post santai isu perkhidmatan tempatan",
+      "status": "url_registered",
+      "sentiment_summary": "Neutral",
+      "emotion_summary": "Ingin maklum balas",
+      "issue_cluster": "Perkhidmatan kerajaan tempatan",
+      "engagement": 74,
+      "confidence": 0.61,
+      "recommended_action": "Kumpul komen khusus dan jadikan checklist lawatan PDM."
+    }
+  ],
+  "programOps": [
+    {
+      "id": "PROG-N9-001",
+      "title": "Dialog komuniti kecil — kos sara hidup",
+      "dun": "N10",
+      "seat": "Nilai",
+      "owner": "Program Ops",
+      "date": "Dalam 7 hari",
+      "status": "rancang",
+      "target": "30 peserta lokaliti, 10 follow-up atas pagar"
+    },
+    {
+      "id": "PROG-N9-002",
+      "title": "Ziarah tokoh komuniti",
+      "dun": "N25",
+      "seat": "Paroi",
+      "owner": "Ketua DUN",
+      "date": "48 jam",
+      "status": "rancang",
+      "target": "5 tokoh komuniti + 1 catatan isu utama"
+    },
+    {
+      "id": "PROG-N9-003",
+      "title": "Ceramah kelompok + follow-up cula",
+      "dun": "N31",
+      "seat": "Bagan Pinang",
+      "owner": "Program Ops",
+      "date": "Minggu ini",
+      "status": "rancang",
+      "target": "20 hadirin disahkan dan follow-up 24 jam"
+    }
+  ],
+  "dailyBriefing": {
+    "headline": "Shawn Loh/China Press crawl siap: 459 records · 3,886,097 engagement; perlu tapis relevance Chinese community.",
+    "what_changed": [
+      "Job 3 Shawn Loh/China Press: 271 posts · 188 comments · 3,886,097 engagement.",
+      "Job 1: 1 post · 531 komen · 1,051 likes · 1,882 eng · 89.4% sokong MN.",
+      "Job 2: K1–K5 · 586,097 eng (overlap) · K5 4,562 rekod · K3 neg 54%.",
+      "7-bloc scenario nudges dikemaskini (#3 MN +3pp poll · #5 PH -2pp).",
+      "ML Analytics: seat risk N05/N19 + prescriptive job actions."
+    ],
+    "next_24h": [
+      "Validate top 10 engagement posts: local Chinese community vs global China/TikTok noise.",
+      "Brief 20 ketua kerusi MN — garis poll + hormat adat.",
+      "Echo poll PM (89.4%) · 1,882 engagement.",
+      "Monitor K2/K3/K5 — alert jika neg >60%."
+    ],
+    "risk": "Politikkan istana (K3 54% neg) atau over-claim poll tanpa cula lapangan."
+  },
+  "jobExercises": [
+    {
+      "id": "JOB-N9-PENGUNDI-4",
+      "title": "Pengundi MY · 4 Post URL Batch (Mac1+Mac2)",
+      "status": "siap",
+      "stats": {
+        "posts": 4,
+        "comments": 7019,
+        "engagement": 29892,
+        "likes": 22210,
+        "sokong_bn_pn_pct": 75.9
+      },
+      "insight": "4 post viral · 7,019 komen · 29,892 engagement · Poll PH vs BN+PN: B 75.9%",
+      "posts": [
+        {
+          "id": "POST-1",
+          "title": "Dua parti keramat terbesar bekerjasama di N9 — Kembalikan kuasa Melayu Islam",
+          "url": "https://www.facebook.com/ustazahasmakhusinoriginal/posts/pfbid02wai7Txzb1LyN3tJLQRhZxWnRQD7CxBDW1sToYX4QfNpubCFjdHRcTif9cpuABuSnl",
+          "crawled_comments": 3075,
+          "fb_comments_meta": 3710,
+          "coverage_pct": 82.9,
+          "likes": 14579,
+          "shares": 196,
+          "negative_pct": 65.7,
+          "positive_pct": 21.9,
+          "analytics_line": "3,075 komen crawled (82.9% FB) · 14,579 likes · 196 shares · Sentimen 65.7% neg / 21.9% pos · Emosi Love 50.2%",
+          "insight": "Post **paling viral** (14.6K likes). Setuju ~69.0% vs tidak 271 — base Melayu-Islam **engaged** (Love 50.2%) walaupun sentiment negatif tinggi (debate panas). Frame 'dua parti keramat' = kod MN; pushback dari anti-BN dan skeptikal PAS murni.",
+          "insight_exco": "",
+          "tindakan_72j": [
+            "Guna influencer selari Ustazah Asmak — konsisten, elak over-promise gabungan rasmi",
+            "Rapid response: bezakan 'kerjasama rakyat Melayu' vs 'gabungan parti'",
+            "Jangan biarkan negatif dibaca sebagai anti-MN — siarkan testimoni setuju"
+          ],
+          "tema_komen": "mn_gabungan (1130), melayu_islam (899), skeptikal (62), tolak_ph_dap (33)",
+          "impak_bloc": "MN +2pp · PAS Solo +1pp"
+        },
+        {
+          "id": "POST-2",
+          "title": "Majoriti Melayu sokong UMNO & PAS kerjasama — selamatkan Adat Pepatih",
+          "url": "https://www.facebook.com/PengundiMY/posts/pfbid02gAw8bLF3EDx3pv2p4X8isX9xU8W6SrcXJ1GKHU6ygRCj2cm9x1MEDekNtc6sKSW6l",
+          "crawled_comments": 1532,
+          "fb_comments_meta": 1561,
+          "coverage_pct": 98.1,
+          "likes": 3372,
+          "shares": 176,
+          "negative_pct": 59.3,
+          "positive_pct": 23.0,
+          "analytics_line": "1,532 komen crawled (98.1% FB) · 3,372 likes · 176 shares · Sentimen 59.3% neg / 23.0% pos · Emosi Love 46.6%",
+          "insight": "Coverage **98%** — data paling lengkap untuk frame **Adat Pepatih**. Setuju ~63.2% — komen sebut Hadi/Zahid, target N9 BN+PAS. Negatif = politicking dalaman (Johor/Gerakan), bukan reject adat.",
+          "insight_exco": "",
+          "tindakan_72j": [
+            "Couple MN dengan adat + Undang — elak sentuh sensitif MB vs Undang-4",
+            "Waar room message: 'selamatkan Adat Pepatih' = hook Melayu tradisional N9",
+            "Monitor Zahid vs Hadi narrative — satu suara sahaja di digital"
+          ],
+          "tema_komen": "mn_gabungan (603), melayu_islam (337), adat_istana (59), sokong_bn_pn (42)",
+          "impak_bloc": "MN +3pp (adat frame)"
+        },
+        {
+          "id": "POST-3",
+          "title": "PRN N9: PH vs BN+PN (N9 ≠ Johor)",
+          "url": "https://www.facebook.com/PengundiMY/posts/pfbid02VT6JLaRQw47MfdvZwYTiKZmDUD8mtEEFibu7npVFZ3B5xAoa8WDiZQWmiRN34EJ2l",
+          "crawled_comments": 881,
+          "fb_comments_meta": 899,
+          "coverage_pct": 98.0,
+          "likes": 421,
+          "shares": 97,
+          "negative_pct": 41.1,
+          "positive_pct": 41.5,
+          "analytics_line": "881 komen crawled (98.0% FB) · 421 likes · 97 shares · Sentimen 41.1% neg / 41.5% pos · Emosi Love 31.7%",
+          "insight": "Undian eksplisit: BN+PN **75.9%** vs PH **24.1%** (202 B vs 64 A). Frame 'N9 ≠ Johor' berkesan — komen pro-MN/anti-PH dominan. PH perlu counter-narrative khusus N9 (bukan copy Selangor/Johor).",
+          "insight_exco": "",
+          "tindakan_72j": [
+            "MN: tekankan perbezaan N9 — adat, MN pragmatik, bukan model Johor",
+            "PH: elak debat DAP frontal; fokus ekonomi + kestabilan negeri",
+            "Digital: boost komen B dengan testimoni Undang/adat (selari Post 2)"
+          ],
+          "tema_komen": "mn_gabungan (118), melayu_islam (40), sokong_bn_pn (35), tolak_ph_dap (35)",
+          "impak_bloc": "MN/PN +3pp · PH -2pp"
+        },
+        {
+          "id": "POST-4",
+          "title": "PAS & UMNO akan kerjasama di PRN Negeri Sembilan",
+          "url": "https://www.facebook.com/PengundiMY/posts/pfbid02dpkQEc65Yw6qqHRs7Se38QkTrR48Pmpd5KBscVx6wPEKRS7i4UDQb1X6tts1UMd8l",
+          "crawled_comments": 1531,
+          "fb_comments_meta": 1575,
+          "coverage_pct": 97.2,
+          "likes": 3838,
+          "shares": 194,
+          "negative_pct": 53.6,
+          "positive_pct": 30.3,
+          "analytics_line": "1,531 komen crawled (97.2% FB) · 3,838 likes · 194 shares · Sentimen 53.6% neg / 30.3% pos · Emosi Love 48.1%",
+          "insight": "Soalan direct — **1125 komen neutral** (wait-and-see). Setuju ~62.6% — pengundi **boleh terima** PAS+UMNO tetapi tunggu bukti (seat deal, manifesto). Engagement tinggi, commitment rendah.",
+          "insight_exco": "",
+          "tindakan_72j": [
+            "Perlu proof point: contoh kerusi, calon, atau statement bersama",
+            "Convert neutral → setuju dengan fakta (bukan slogan)",
+            "Elak ulang Post 1/2 — fokus 'bagaimana' bukan 'setuju tak'"
+          ],
+          "tema_komen": "mn_gabungan (587), melayu_islam (405), sokong_bn_pn (25), tolak_ph_dap (23)",
+          "impak_bloc": "MN +1pp (belum fully committed)"
+        }
+      ]
+    },
+    {
+      "id": "JOB-N9-01",
+      "title": "Pengundi Malaysia Poll — MN vs PH",
+      "status": "siap",
+      "completed_at": "2026-07-05",
+      "type": "cula_digital_poll",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/story.php?story_fbid=1579205333771288&id=100050455091322",
+      "posts": 1,
+      "comments": 531,
+      "likes": 1051,
+      "shares": 50,
+      "engagement": 1882,
+      "stats": {
+        "posts": 1,
+        "sokong_mn_pct": 89.4,
+        "tolak_pct": 10.6,
+        "comments": 531,
+        "likes": 1051,
+        "shares": 50,
+        "engagement": 1882,
+        "decided_ab": 226
+      },
+      "bloc7_nudge": {
+        "mn": 3,
+        "ph": -2
+      },
+      "insight": "1 post · 531 komen · 1,882 eng · ~89.4% sokong MN",
+      "pptx": "Pengundi_Malaysia_Poll_N9_Insight_Tindakan.pptx",
+      "report_dir": "reports/20260705_000328_httpswwwfacebookcomstoryphpstory_fbid1579205333771",
+      "synced_at": "2026-07-05 02:47"
+    },
+    {
+      "id": "JOB-N9-02",
+      "title": "Monarki & Adat N9 — Keyword K1–K5",
+      "status": "siap",
+      "completed_at": "2026-07-05",
+      "type": "keyword_crawl",
+      "platform": "FB + X + News",
+      "posts_total_overlap": 11178,
+      "records_total_overlap": 11178,
+      "engagement_total_overlap": 586097,
+      "keywords": [
+        {
+          "id": "K1",
+          "label": "Monarki luas",
+          "posts": 714,
+          "records": 714,
+          "neg_pct": 28.3,
+          "engagement": 29410,
+          "platforms": {
+            "facebook": 344,
+            "news": 246,
+            "x": 124
+          }
+        },
+        {
+          "id": "K2",
+          "label": "Mukhriz vs Undang",
+          "posts": 1040,
+          "records": 1040,
+          "neg_pct": 52.4,
+          "engagement": 20992,
+          "platforms": {
+            "facebook": 1019,
+            "news": 13,
+            "x": 8
+          }
+        },
+        {
+          "id": "K3",
+          "label": "Undang 4 vs MB",
+          "posts": 2024,
+          "records": 2024,
+          "neg_pct": 53.5,
+          "engagement": 35050,
+          "platforms": {
+            "facebook": 2009,
+            "news": 15
+          }
+        },
+        {
+          "id": "K4",
+          "label": "Adat + DAP",
+          "posts": 2838,
+          "records": 2838,
+          "neg_pct": 47.9,
+          "engagement": 78882,
+          "platforms": {
+            "facebook": 2766,
+            "x": 36,
+            "news": 36
+          }
+        },
+        {
+          "id": "K5",
+          "label": "Batch C09",
+          "posts": 4562,
+          "records": 4562,
+          "neg_pct": 41.9,
+          "engagement": 421763,
+          "platforms": {
+            "facebook": 4350,
+            "x": 112,
+            "news": 100
+          }
+        }
+      ],
+      "stats": {
+        "keywords": 5,
+        "records_k5": 4562,
+        "posts_k5": 4562,
+        "neg_pct_peak": 53.5,
+        "neg_peak_kw": "K3",
+        "engagement_k5": 421763,
+        "engagement_overlap": 586097,
+        "undang_dun": [
+          "N03",
+          "N05",
+          "N06",
+          "N18",
+          "N19",
+          "N25",
+          "N26",
+          "N27",
+          "N34",
+          "N35"
+        ]
+      },
+      "bloc7_nudge": {
+        "mn": 5,
+        "ph": -5,
+        "pas_solo": 4,
+        "hung": 1
+      },
+      "insight": "K5 421,763 eng · overlap K1–K5 586,097 eng",
+      "pptx": "MN_N9_Strategic_Brief_Monarki_Poll_Insight_Tindakan.pptx",
+      "report_dir": "reports/20260705_015017_adat perpatih OR undang OR tuanku muhriz negeri se",
+      "synced_at": "2026-07-05 02:47"
+    },
+    {
+      "id": "JOB-N9-03",
+      "title": "Shawn Loh / China Press / Harakahdaily issue crawl",
+      "status": "siap",
+      "completed_at": "2026-07-07",
+      "type": "targeted_issue_crawl",
+      "platform": "Facebook + X + TikTok + News",
+      "query": "\"Shawn Loh\" OR \"Loh Sheng Nian\" OR \"罗盛年\" OR \"中国报\" OR \"China Press\" OR \"不投国阵闻不到天堂味\" OR \"Harakahdaily\"",
+      "records": 459,
+      "posts": 271,
+      "comments": 188,
+      "engagement": 3886097,
+      "platform_counts": {
+        "x": 245,
+        "news": 144,
+        "tiktok": 70
+      },
+      "engagement_by_platform": {
+        "news": 0,
+        "tiktok": 3872516,
+        "x": 13581
+      },
+      "sentiment": {
+        "neutral": 221,
+        "negative": 184,
+        "positive": 54
+      },
+      "demographic": {
+        "Mixed/Urban": 238,
+        "Malay/Bumiputera": 136,
+        "Unknown": 75,
+        "Chinese": 10
+      },
+      "chinese_rows": 10,
+      "chinese_engagement": 7,
+      "report_dir": "reports/20260707_201045_Shawn Loh OR Loh Sheng Nian OR 罗盛年 OR 中国报 OR China",
+      "combined_csv": "data/combined/Combined_facebook_news_tiktok_x_20260707_201045.csv",
+      "synced_at": "2026-07-07 20:18:44",
+      "insight": "Targeted issue crawl siap. Engagement tinggi datang hampir semua dari TikTok; signal Chinese-labeled direct masih kecil (10 rows, 7 engagement)."
+    }
+  ],
+  "jobCrawlMetrics": {
+    "meta": {
+      "generated": "2026-07-05 02:47:16",
+      "state": "N9",
+      "jobs": 2
+    },
+    "totals": {
+      "posts_job1": 1,
+      "comments_job1": 531,
+      "engagement_job1": 1882,
+      "records_job2_overlap": 11178,
+      "engagement_job2_overlap": 586097,
+      "records_job2_k5": 4562,
+      "engagement_job2_k5": 421763
+    },
+    "job1": {
+      "id": "JOB-N9-01",
+      "title": "Pengundi Malaysia Poll",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/story.php?story_fbid=1579205333771288&id=100050455091322",
+      "posts": 1,
+      "comments": 531,
+      "likes": 1051,
+      "shares": 50,
+      "engagement": 1882,
+      "sokong_mn_pct": 89.4,
+      "tolak_pct": 10.6,
+      "decided_ab": 226,
+      "sentiment": {
+        "positive": 191,
+        "neutral": 118,
+        "negative": 222
+      }
+    },
+    "job2": {
+      "id": "JOB-N9-02",
+      "title": "Monarki & Adat K1–K5",
+      "keywords": [
+        {
+          "id": "K1",
+          "label": "Monarki luas",
+          "posts": 714,
+          "records": 714,
+          "engagement": 29410,
+          "neg_pct": 28.3,
+          "pos_pct": 13.9,
+          "neu_pct": 57.8,
+          "platforms": {
+            "facebook": 344,
+            "news": 246,
+            "x": 124
+          }
+        },
+        {
+          "id": "K2",
+          "label": "Mukhriz vs Undang",
+          "posts": 1040,
+          "records": 1040,
+          "engagement": 20992,
+          "neg_pct": 52.4,
+          "pos_pct": 5.7,
+          "neu_pct": 41.9,
+          "platforms": {
+            "facebook": 1019,
+            "news": 13,
+            "x": 8
+          }
+        },
+        {
+          "id": "K3",
+          "label": "Undang 4 vs MB",
+          "posts": 2024,
+          "records": 2024,
+          "engagement": 35050,
+          "neg_pct": 53.5,
+          "pos_pct": 6.2,
+          "neu_pct": 40.4,
+          "platforms": {
+            "facebook": 2009,
+            "news": 15
+          }
+        },
+        {
+          "id": "K4",
+          "label": "Adat + DAP",
+          "posts": 2838,
+          "records": 2838,
+          "engagement": 78882,
+          "neg_pct": 47.9,
+          "pos_pct": 9.4,
+          "neu_pct": 42.7,
+          "platforms": {
+            "facebook": 2766,
+            "x": 36,
+            "news": 36
+          }
+        },
+        {
+          "id": "K5",
+          "label": "Batch C09",
+          "posts": 4562,
+          "records": 4562,
+          "engagement": 421763,
+          "neg_pct": 41.9,
+          "pos_pct": 11.7,
+          "neu_pct": 46.4,
+          "platforms": {
+            "facebook": 4350,
+            "x": 112,
+            "news": 100
+          }
+        }
+      ]
+    },
+    "bloc7_effects": {
+      "source": "Job 1 Poll + Job 2 Monarki K1–K5",
+      "updated": "2026-07-05 02:47",
+      "nudges_pp": {
+        "mn": 3,
+        "ph": -2,
+        "pas_solo": 1,
+        "umno_solo": -1,
+        "pn": 1,
+        "pn_plus": 1,
+        "bersama": 0,
+        "hung": 1
+      },
+      "effects": [
+        {
+          "bloc_id": "mn",
+          "label": "#3 MN ★",
+          "nudge_pp": 3,
+          "sign": "+3",
+          "reason": "Job 1 poll ~89.4% sokong MN lawan PH"
+        },
+        {
+          "bloc_id": "ph",
+          "label": "#5 PH",
+          "nudge_pp": -2,
+          "sign": "-2",
+          "reason": "Job 1 poll tolak PH + Job 2 K3 54% neg MB/adat"
+        },
+        {
+          "bloc_id": "pas_solo",
+          "label": "#1 PAS Solo",
+          "nudge_pp": 1,
+          "sign": "+1",
+          "reason": "Job 1 mobilize Pro-PAS · Job 2 krisis adat segmen Melayu-Islam"
+        },
+        {
+          "bloc_id": "umno_solo",
+          "label": "#2 UMNO Solo",
+          "nudge_pp": -1,
+          "sign": "-1",
+          "reason": "Job 2 istana — UMNO dalam kerajaan negeri N9"
+        },
+        {
+          "bloc_id": "pn",
+          "label": "#4 PN",
+          "nudge_pp": 1,
+          "sign": "+1",
+          "reason": "Job 1 signal gabungan anti-PH"
+        },
+        {
+          "bloc_id": "pn_plus",
+          "label": "#7 PN+",
+          "nudge_pp": 1,
+          "sign": "+1",
+          "reason": "Job 1 signal gabungan anti-PH"
+        },
+        {
+          "bloc_id": "hung",
+          "label": "Risiko tiada majoriti",
+          "nudge_pp": 1,
+          "sign": "+1",
+          "reason": "Job 2 polarisasi K3 54% — risiko tiada majoriti"
+        }
+      ],
+      "crawlAdjustments": [
+        "Job 1 Poll: MN lawan PH ~89.4% (226 komen A/B) → #3 MN (+3pp)",
+        "Job 1 Poll: Tolak PH ~10.6% → #5 PH (-2pp)",
+        "Job 2 K5: 4,562 rekod · 421,763 engagement · neg 42%",
+        "Job 2 K3 puncak: Undang 4 vs MB 54% neg → elak politisasi istana",
+        "MN (#3): Istana/adat handled well → laluan MN Melayu rural (+5pp legacy + +3pp poll)",
+        "PH (#5): Frame adat+DAP K4 + MB zone → (-2pp poll + -5pp istana legacy)",
+        "PAS Solo (#1): Anti-PH poll + adat segmen (+1pp + +4pp legacy)",
+        "Risiko hung: K3 polarisasi → (+1pp jika mishandle adat)"
+      ],
+      "mn_expected_seats_baseline": 22.9,
+      "note": "Nudges = penyesuaian P(majoriti) bar · bukan kerusi automatik · overlap K1–K5"
+    },
+    "ml_impact": {
+      "updated": "2026-07-05 02:47",
+      "summary": "Job 1: 1 post · 531 komen · 1,882 eng · 89.4% sokong MN | Job 2: 5 KW · 11,178 rekod · 586,097 eng",
+      "job1_poll": {
+        "posts": 1,
+        "comments": 531,
+        "likes": 1051,
+        "shares": 50,
+        "engagement": 1882,
+        "sokong_mn_pct": 89.4,
+        "tolak_pct": 10.6,
+        "decided_ab": 226,
+        "sentiment": {
+          "positive": 191,
+          "neutral": 118,
+          "negative": 222
+        }
+      },
+      "job2_monarki": {
+        "keywords": 5,
+        "total_records_overlap": 11178,
+        "total_engagement_overlap": 586097,
+        "k5_records": 4562,
+        "k5_engagement": 421763,
+        "peak_neg_kw": "K3",
+        "peak_neg_pct": 53.5,
+        "per_keyword": [
+          {
+            "id": "K1",
+            "label": "Monarki luas",
+            "posts": 714,
+            "records": 714,
+            "engagement": 29410,
+            "neg_pct": 28.3,
+            "pos_pct": 13.9,
+            "platforms": {
+              "facebook": 344,
+              "news": 246,
+              "x": 124
+            }
+          },
+          {
+            "id": "K2",
+            "label": "Mukhriz vs Undang",
+            "posts": 1040,
+            "records": 1040,
+            "engagement": 20992,
+            "neg_pct": 52.4,
+            "pos_pct": 5.7,
+            "platforms": {
+              "facebook": 1019,
+              "news": 13,
+              "x": 8
+            }
+          },
+          {
+            "id": "K3",
+            "label": "Undang 4 vs MB",
+            "posts": 2024,
+            "records": 2024,
+            "engagement": 35050,
+            "neg_pct": 53.5,
+            "pos_pct": 6.2,
+            "platforms": {
+              "facebook": 2009,
+              "news": 15
+            }
+          },
+          {
+            "id": "K4",
+            "label": "Adat + DAP",
+            "posts": 2838,
+            "records": 2838,
+            "engagement": 78882,
+            "neg_pct": 47.9,
+            "pos_pct": 9.4,
+            "platforms": {
+              "facebook": 2766,
+              "x": 36,
+              "news": 36
+            }
+          },
+          {
+            "id": "K5",
+            "label": "Batch C09",
+            "posts": 4562,
+            "records": 4562,
+            "engagement": 421763,
+            "neg_pct": 41.9,
+            "pos_pct": 11.7,
+            "platforms": {
+              "facebook": 4350,
+              "x": 112,
+              "news": 100
+            }
+          }
+        ]
+      },
+      "ml_flags": {
+        "socmed_neg_boost": "Undang-zone DUN — monitor, bukan auto-flip",
+        "feature_impact": "scenario_pas_pn · pct_melayu · socmed_neg_pct · socmed_engagement",
+        "cv_accuracy_rf": "~94%",
+        "mn_bloc_expected": "~22.9 kerusi (majoriti 19)"
+      },
+      "seat_risk": [
+        {
+          "code": "N05",
+          "risk": "critical",
+          "action": "JANGAN campur adat · pertahan MN murni (+843 tipis)"
+        },
+        {
+          "code": "N19",
+          "risk": "high",
+          "action": "Monitor spike · soft touch zon Undang"
+        },
+        {
+          "code": "N03",
+          "risk": "medium",
+          "action": "Neutral istana · jangan provokasi"
+        },
+        {
+          "code": "N14",
+          "risk": "medium",
+          "action": "JANGAN serang via adat · fokus flip muafakat"
+        }
+      ],
+      "prescriptive_additions": [
+        {
+          "rank": 0,
+          "urgency": "immediate",
+          "domain": "job2_monarki",
+          "title": "Monitor adat N19/N05 — K3 54% neg",
+          "detail": "Job 2 crawl 4,562 rekod · elak politisasi istana · ML pasWinProb N05 70% N19 38%",
+          "entity": "N19",
+          "score": 0.95,
+          "ml_support": "job_crawl+pasWinProb"
+        },
+        {
+          "rank": 0,
+          "urgency": "immediate",
+          "domain": "job1_poll",
+          "title": "Echo poll MN 89.4% — 1,882 engagement",
+          "detail": "531 komen · 226 A/B jelas · pisah dari debat istana",
+          "entity": "N9",
+          "score": 0.92,
+          "ml_support": "poll_signal"
+        }
+      ]
+    },
+    "pengundiMac4Posts": {
+      "posts": 4,
+      "comments": 7019,
+      "engagement": 29892,
+      "likes": 22210,
+      "shares": 663,
+      "sokong_bn_pn_pct": 75.9,
+      "master_csv": "data/combined/Combined_facebook_MAC1_MAC2_master_20260715_015148.csv",
+      "updated": "2026-07-15 13:08:32"
+    }
+  }
+}

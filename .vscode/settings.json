@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+  "python.defaultInterpreterPath": "${workspaceFolder}/NEImpulse/bin/python",
+  "python.terminal.activateEnvironment": true
 }

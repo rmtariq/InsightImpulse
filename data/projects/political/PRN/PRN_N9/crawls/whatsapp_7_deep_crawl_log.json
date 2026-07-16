@@ -1,0 +1,47 @@
+{
+  "at": "2026-07-02T15:04:11.675152",
+  "results": [
+    {
+      "i": 1,
+      "url": "https://www.facebook.com/story.php?story_fbid=1320631416888667&id=100068254643233",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102fef4d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 2,
+      "url": "https://www.facebook.com/story.php?story_fbid=1471472861680849&id=100064544482323",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102fcfc50>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 3,
+      "url": "https://www.facebook.com/story.php?story_fbid=1326587592942741&id=100067745385121",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1030c8550>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 4,
+      "url": "https://www.facebook.com/story.php?story_fbid=1340236754887686&id=100067041223091",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1030c0d60>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 5,
+      "url": "https://www.facebook.com/story.php?story_fbid=915512231558505&id=100092992087495",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1030c15b0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 6,
+      "url": "https://www.facebook.com/story.php?story_fbid=1417756590397446&id=100064893548554",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1030631d0>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    },
+    {
+      "i": 7,
+      "url": "https://www.facebook.com/story.php?story_fbid=1444357214402285&id=100064840594592",
+      "status": "error",
+      "error": "HTTPConnectionPool(host='localhost', port=8001): Max retries exceeded with url: /analyze_async (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10305f130>: Failed to establish a new connection: [Errno 61] Connection refused'))"
+    }
+  ]
+}

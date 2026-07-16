@@ -1,0 +1,325 @@
+================================================================================
+PRN CHINESE NARRATIVE — BORANG CRAWL A TO Z (LENGKAP)
+Negeri Sembilan · Johor · Melaka  |  17 Crawl  |  InsightPulse App
+================================================================================
+Rujukan Excel : PRN_ChineseNarrative_Keywords_2026.xlsx
+Projek        : pas_break_2026
+Dataset       : 2,000  |  Tarikh: Last 30 Days
+================================================================================
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN A — SEBELUM MULA (BUAT SEKALI SAHAJA)
+████████████████████████████████████████████████████████████████████████████████
+
+A1. Buka Terminal, jalankan InsightPulse:
+
+    cd /Users/rmtariq/Documents/InsightPulse
+    ./start_full_app.sh
+
+A2. Browser auto buka (atau pergi http://localhost:8000)
+
+A3. Di form "Start New Analysis":
+    • Klik butang biru  →  Keyword Search   (JANGAN Direct URL Crawl)
+    • Project / Client  →  pilih  pas_break_2026
+
+A4. RULES (ingat sepanjang sesi):
+    ✓ SATU crawl = SATU query di bawah (salin baris QUERY sahaja)
+    ✗ JANGAN paste seluruh fail / seluruh sheet Excel sekaligus
+    ✓ Selesai satu crawl → tunggu siap → mula crawl seterusnya
+    ✓ Untuk setiap crawl: UNtick semua platform dulu, kemudian tick ikut arahan
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN B — TETAPAN SAMA (ULANG SETIAP CRAWL)
+████████████████████████████████████████████████████████████████████████████████
+
+Isi / pilih INI untuk SETIAP crawl (01–17):
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │ Mod Crawl       │ Keyword Search                                        │
+  │ Analysis Type   │ Social Listening                                      │
+  │ Dataset Size    │ 2,000 results (Trend Analysis)                        │
+  │ Date Range      │ Last 30 Days — Trend Bulanan                          │
+  │ Project/Client  │ pas_break_2026                                        │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+Platform — tick HANYA yang dinyatakan per crawl:
+  [ ] Facebook   [ ] Instagram   [ ] X (Twitter)   [ ] TikTok
+  [ ] YouTube    [ ] Google        [ ] News          [ ] LinkedIn
+  [ ] Threads    [ ] Lowyat        [ ] Shopee        [ ] Lazada
+
+Nota: Untuk crawl ini, JANGAN tick Instagram / TikTok / YouTube / Threads
+      melainkan dinyatakan (tiada crawl dalam senarai ini perlukan platform itu).
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN C — 17 CRAWL (SALIN & TAMPAL SATU-SATU)
+Susunan: PRIORITI TINGGI dulu → Sederhana → Rendah → Cross-state
+████████████████████████████████████████████████████████████████████████████████
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 01 / 17  │  S2B2  │  Bandar Johor (JB/Skudai/Stulang)  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Johor
+Jenis    : seat_bandar
+Platform : [X] News   [X] Facebook   [X] X (Twitter)
+
+Search Query — salin baris ini sahaja:
+Johor Bahru OR Skudai OR Stulang calon OR PRN "Johor" when:30d
+
+→ Klik Start Analysis → tunggu siap → terus Crawl 02
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 02 / 17  │  S3B2  │  Bandar Melaka (Bandar Hilir)  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Melaka
+Jenis    : seat_bandar
+Platform : [X] News   [X] Facebook   [X] X (Twitter)
+
+Search Query:
+Melaka OR "Bandar Hilir" calon OR PRN "Melaka" when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 03 / 17  │  S1B2  │  Bandar NS (Seremban/Nilai)  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Negeri Sembilan
+Jenis    : seat_bandar
+Platform : [X] News   [X] Facebook   [X] X (Twitter)
+
+Search Query:
+Seremban OR Nilai calon OR PRN "Negeri Sembilan" when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 04 / 17  │  S2A1  │  Media Cina Johor  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Johor
+Jenis    : media_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Johor OR 柔佛 when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 05 / 17  │  S3A1  │  Media Cina Melaka  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Melaka
+Jenis    : media_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Melaka OR 马六甲 when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 06 / 17  │  S1A1  │  Media Cina NS  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Negeri Sembilan
+Jenis    : media_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Negeri Sembilan OR 森美兰 when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 07 / 17  │  S2B1  │  DAP/PH Johor  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Johor
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+DAP OR "Pakatan Harapan" "Johor" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 08 / 17  │  S3B1  │  DAP/PH Melaka  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Melaka
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+DAP OR "Pakatan Harapan" "Melaka" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 09 / 17  │  S1B1  │  DAP/PH NS  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Negeri Sembilan
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+DAP OR "Pakatan Harapan" "Negeri Sembilan" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 10 / 17  │  S2B3  │  MCA/BN Johor  │  PRIORITI SEDERHANA
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Johor
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+MCA OR "Barisan Nasional" "Johor" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 11 / 17  │  S3B3  │  MCA/BN Melaka  │  PRIORITI SEDERHANA
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Melaka
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+MCA OR "Barisan Nasional" "Melaka" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 12 / 17  │  S1B3  │  MCA/BN NS  │  PRIORITI SEDERHANA
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Negeri Sembilan
+Jenis    : party_official
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+MCA OR "Barisan Nasional" "Negeri Sembilan" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 13 / 17  │  S2A2  │  Proxy BM Johor  │  PRIORITI RENDAH
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Johor
+Jenis    : proxy_about_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"pengundi Cina" OR "komuniti Cina" "Johor" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 14 / 17  │  S3A2  │  Proxy BM Melaka  │  PRIORITI RENDAH
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Melaka
+Jenis    : proxy_about_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"pengundi Cina" OR "komuniti Cina" "Melaka" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 15 / 17  │  S1A2  │  Proxy BM NS  │  PRIORITI RENDAH
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : Negeri Sembilan
+Jenis    : proxy_about_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"pengundi Cina" OR "komuniti Cina" "Negeri Sembilan" PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 16 / 17  │  SX1  │  Media Cina — 3 Negeri (Cross)  │  PRIORITI TINGGI
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : 3 Negeri (Cross)
+Jenis    : media_chinese
+Platform : [X] News   [ ] Facebook   [ ] X (Twitter)
+
+Search Query:
+"Sin Chew" OR "China Press" ("Negeri Sembilan" OR Johor OR Melaka) PRN when:30d
+
+
+────────────────────────────────────────────────────────────────────────────────
+CRAWL 17 / 17  │  SX2  │  Pengundi Cina — 3 Negeri (Cross)  │  PRIORITI RENDAH
+────────────────────────────────────────────────────────────────────────────────
+Negeri   : 3 Negeri (Cross)
+Jenis    : proxy_about_chinese
+Platform : [X] News   [X] Facebook   [ ] X (Twitter)
+
+Search Query:
+"pengundi Cina" ("Negeri Sembilan" OR Johor OR Melaka) when:30d
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN D — SELEPAS SEMUA 17 CRAWL SELESAI
+████████████████████████████████████████████████████████████████████████████████
+
+D1. Bina semula dataset dashboard (Terminal):
+
+    cd /Users/rmtariq/Documents/InsightPulse
+    python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+D2. Buka dashboard:
+
+    cd n9_chinese_narrative_dashboard
+    source venv/bin/activate
+    streamlit run app.py
+
+D3. Di sidebar dashboard → pilih Negeri:
+    • Johor
+    • Melaka
+    • Negeri Sembilan
+
+D4. Semak data masuk — filter ikut negeri, platform, isu.
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN E — CRAWL BERITA PERCUMA (OPTIONAL, TANPA APIFY)
+████████████████████████████████████████████████████████████████████████████████
+
+Jalankan di Terminal (percuma, RSS/news sahaja):
+
+    cd /Users/rmtariq/Documents/InsightPulse
+    python3 scripts/crawl_prn_chinese_news.py --negeri johor
+    python3 scripts/crawl_prn_chinese_news.py --negeri melaka
+    python3 scripts/crawl_prn_chinese_news.py --negeri negeri_sembilan
+    python3 scripts/crawl_prn_chinese_news.py --negeri all
+    python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+
+████████████████████████████████████████████████████████████████████████████████
+BAHAGIAN F — CHECKLIST CEPAT (TICK BILA SIAP)
+████████████████████████████████████████████████████████████████████████████████
+
+  [ ] A — InsightPulse dibuka, projek pas_break_2026 dipilih
+  [ ] 01 S2B2  Bandar Johor
+  [ ] 02 S3B2  Bandar Melaka
+  [ ] 03 S1B2  Bandar NS
+  [ ] 04 S2A1  Media Cina Johor
+  [ ] 05 S3A1  Media Cina Melaka
+  [ ] 06 S1A1  Media Cina NS
+  [ ] 07 S2B1  DAP/PH Johor
+  [ ] 08 S3B1  DAP/PH Melaka
+  [ ] 09 S1B1  DAP/PH NS
+  [ ] 10 S2B3  MCA/BN Johor
+  [ ] 11 S3B3  MCA/BN Melaka
+  [ ] 12 S1B3  MCA/BN NS
+  [ ] 13 S2A2  Proxy BM Johor
+  [ ] 14 S3A2  Proxy BM Melaka
+  [ ] 15 S1A2  Proxy BM NS
+  [ ] 16 SX1   Media Cina 3 negeri
+  [ ] 17 SX2   Pengundi Cina 3 negeri
+  [ ] D — build_prn_chinese_dashboard_dataset.py dijalankan
+  [ ] D — Dashboard Streamlit dibuka & negeri disemak
+
+
+████████████████████████████████████████████████████████████████████████████████
+RINGKASAN MASA (ANGGARAN)
+████████████████████████████████████████████████████████████████████████████████
+
+  • 1 crawl @ 2,000 results ≈ 20–35 minit
+  • 17 crawl ≈ 6–10 jam (boleh pecah 2–3 hari: Tinggi hari 1, selebihnya hari 2–3)
+  • Minimum wajib (9 crawl Tinggi tanpa SX): Crawl 01–09 + 16 ≈ 5–7 jam
+
+
+================================================================================
+TAMAT — simpan fail ini & Excel bersebelahan untuk rujukan Stream ID
+================================================================================

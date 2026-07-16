@@ -363,9 +363,22 @@ class AnalysisRequest(BaseModel):
     # 🌐 DIRECT URL CRAWL MODE
     crawl_mode: str = "keyword"  # "keyword" or "direct_url"
     direct_urls: Optional[List[str]] = None  # e.g. ["https://facebook.com/PASJohor", "https://instagram.com/pasjohor"]
+    direct_url_target: str = "auto"  # auto | page | post — post = keep full post + all comments (WhatsApp batch)
+    comment_target_per_post: Optional[int] = None  # Post URL Batch: e.g. 3000 comments per post (multi-pass)
+    multipass_comments: bool = True  # Run multiple Apify passes with dedupe (Facebook)
+    include_nested_comments: bool = True  # Include reply threads in comment crawl
 
     # 📁 PROJECT STORAGE — promotes combined CSV to data/projects/{category}/{id}/
     project_id: Optional[str] = None  # e.g. "pas_break_2026", "smebank"
+    processing: Optional[str] = None  # on-prem-nemotron | cloud-openai | cloud-super | rule-based
+    multimodal: bool = False  # Enables media→text routing for runs that use the external router
+
+    # 🔀 UNIFIED DATA PLATFORM — crawl + upload + external feeds
+    data_source_mode: str = "social_crawl"  # social_crawl | upload | feed | hybrid
+    upload_ids: Optional[List[str]] = None
+    feed_ids: Optional[List[str]] = None
+    dataset_type: Optional[str] = "generic_csv"
+    skip_crawl: bool = False
 
 class CreateProjectRequest(BaseModel):
     name: str
@@ -434,24 +447,34 @@ async def initialize_models():
         logger.info(f"✅ Loaded {len(sentiment_pipelines)} sentiment models: {list(sentiment_pipelines.keys())}")
 
         # Initialize emotion model (rmtariq/multilingual-emotion-classifier)
+        # NOTE: This is a SentencePiece (XLM-R) model. Converting its slow tokenizer
+        # to a "fast" (Rust) tokenizer can segfault on some setups, killing the whole
+        # process. Force use_fast=False to skip the conversion, and make the entire
+        # emotion init non-fatal — emotion analysis has a graceful fallback if missing.
         logger.info(f"😊 Loading emotion model: {EMOTION_MODEL}")
         try:
-            emotion_tokenizer = AutoTokenizer.from_pretrained(
-                EMOTION_MODEL,
-                token=HF_TOKEN,
-                model_max_length=512
-            )
-        except Exception as te:
-            logger.warning(f"⚠️ Failed to load emotion tokenizer: {te}")
+            try:
+                emotion_tokenizer = AutoTokenizer.from_pretrained(
+                    EMOTION_MODEL,
+                    token=HF_TOKEN,
+                    model_max_length=512,
+                    use_fast=False
+                )
+            except Exception as te:
+                logger.warning(f"⚠️ Failed to load emotion tokenizer: {te}")
+                emotion_tokenizer = None
 
-        emotion_pipeline = pipeline(
-            "text-classification",
-            model=EMOTION_MODEL,
-            tokenizer=emotion_tokenizer or EMOTION_MODEL,
-            token=HF_TOKEN,
-            top_k=None  # Return all scores
-        )
-        logger.info("✅ Emotion model loaded successfully!")
+            emotion_pipeline = pipeline(
+                "text-classification",
+                model=EMOTION_MODEL,
+                tokenizer=emotion_tokenizer or EMOTION_MODEL,
+                token=HF_TOKEN,
+                top_k=None  # Return all scores
+            )
+            logger.info("✅ Emotion model loaded successfully!")
+        except Exception as ee:
+            emotion_pipeline = None
+            logger.warning(f"⚠️ Emotion model unavailable — continuing without it: {ee}")
 
         # Initialize Batch Sentiment Processor (using Malay model as primary)
         if BATCH_PROCESSOR_AVAILABLE:
@@ -1392,6 +1415,53 @@ def apply_crawl_date_filter(df: pd.DataFrame, date_filter: Dict[str, Any]) -> pd
     return filtered
 
 
+def apply_crawl_date_filter_for_request(
+    df: pd.DataFrame,
+    date_filter: Dict[str, Any],
+    request: "AnalysisRequest",
+) -> pd.DataFrame:
+    """Apply date filter — keep post+comment bundles for keyword search and direct post URLs."""
+    from backend.utils.crawl_records import (
+        keep_direct_post_bundle_rows,
+        keep_post_date_filtered_bundle_rows,
+        resolve_direct_url_target,
+        sanitize_direct_urls,
+    )
+
+    if df.empty:
+        return df
+
+    if request.crawl_mode == "direct_url" and request.direct_urls:
+        cleaned = sanitize_direct_urls(request.direct_urls)
+        target = resolve_direct_url_target(cleaned, request.direct_url_target or "auto")
+        if target == "post":
+            kept = keep_direct_post_bundle_rows(df)
+            posts_n = (kept["Type"].str.lower() == "post").sum() if "Type" in kept.columns else 0
+            comments_n = (kept["Type"].str.lower() == "comment").sum() if "Type" in kept.columns else 0
+            logger.info(
+                f"📅 Direct Post URL mode: {len(df)} → {len(kept)} rows "
+                f"({posts_n} posts + {comments_n} comments, date filter skipped for explicit URLs)"
+            )
+            return kept
+
+    # Keyword search (default): filter posts by date, retain linked comments
+    if request.crawl_mode in (None, "keyword", "keyword_search"):
+        before = len(df)
+        kept = keep_post_date_filtered_bundle_rows(df, date_filter)
+        posts_before = (df["Type"].str.lower() == "post").sum() if "Type" in df.columns else before
+        posts_after = (kept["Type"].str.lower() == "post").sum() if "Type" in kept.columns else len(kept)
+        comments_before = (df["Type"].str.lower() == "comment").sum() if "Type" in df.columns else 0
+        comments_after = (kept["Type"].str.lower() == "comment").sum() if "Type" in kept.columns else 0
+        logger.info(
+            f"📅 Keyword bundle date filter: {before} → {len(kept)} records "
+            f"({posts_before}→{posts_after} posts, {comments_before}→{comments_after} comments, "
+            f"{date_filter['start_iso'][:10]} to {date_filter['end_iso'][:10]})"
+        )
+        return kept
+
+    return apply_crawl_date_filter(df, date_filter)
+
+
 def get_analysis_focus_config(request: AnalysisRequest) -> Dict[str, Any]:
     """
     Get analysis focus configuration for intelligent prioritization
@@ -1702,8 +1772,18 @@ def analyze_sentiment_trends_over_time(df: pd.DataFrame) -> Dict[str, Any]:
 
     try:
         # Convert Date column to datetime
+        df = df.copy()
         df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
         df = df.dropna(subset=['Date'])
+
+        # Coerce numeric columns — some platforms return engagement/score as strings,
+        # which breaks numpy sum/mean with "int + str" TypeError. Force numeric.
+        if 'sentiment_score' not in df.columns:
+            df['sentiment_score'] = 0.0
+        if 'total_engagement' not in df.columns:
+            df['total_engagement'] = 0
+        df['sentiment_score'] = pd.to_numeric(df['sentiment_score'], errors='coerce')
+        df['total_engagement'] = pd.to_numeric(df['total_engagement'], errors='coerce').fillna(0)
 
         if len(df) < 2:
             return {"error": "Insufficient data for trend analysis"}
@@ -1850,6 +1930,8 @@ def process_platform_data(df: pd.DataFrame, platform: str, query: str = "") -> D
         df['sentiment_confidence'] = 0.0
         df['detected_language'] = 'unknown'  # 🌍 NEW: Language detection
         df['demographic'] = 'Unknown'        # 🌍 NEW: Demographic group
+        df['author_demographic'] = ''
+        df['author_demo_confidence'] = 0.0
         df['emotion_primary'] = 'neutral'
         df['emotion_anger'] = 0.0
         df['emotion_fear'] = 0.0
@@ -1872,7 +1954,16 @@ def process_platform_data(df: pd.DataFrame, platform: str, query: str = "") -> D
 
                 # 🌍 Save language and demographic info
                 df.at[idx, 'detected_language'] = sentiment_result.get('detected_language', 'unknown')
-                df.at[idx, 'demographic'] = sentiment_result.get('demographic', 'Unknown')
+                text_demo = sentiment_result.get('demographic', 'Unknown')
+                author = str(df.at[idx, 'author']) if 'author' in df.columns and pd.notna(df.at[idx, 'author']) else ''
+                try:
+                    from backend.utils.malaysian_name_demographics import merge_demographic
+                    final_demo, author_demo, name_conf = merge_demographic(text_demo, author)
+                    df.at[idx, 'demographic'] = final_demo
+                    df.at[idx, 'author_demographic'] = author_demo
+                    df.at[idx, 'author_demo_confidence'] = round(name_conf, 3)
+                except Exception:
+                    df.at[idx, 'demographic'] = text_demo
 
                 # 🎯 HYBRID APPROACH (OPTION 3): Confidence-based scoring
                 # Negative: 0.0 (high confidence) → 0.3 (low confidence)
@@ -1958,7 +2049,9 @@ def process_platform_data(df: pd.DataFrame, platform: str, query: str = "") -> D
                     # Average engagement for this demographic
                     demo_engagement = 0
                     if 'total_engagement' in demo_df.columns:
-                        demo_engagement = int(demo_df['total_engagement'].sum())
+                        demo_engagement = int(
+                            pd.to_numeric(demo_df['total_engagement'], errors='coerce').fillna(0).sum()
+                        )
 
                     demographic_breakdown[demographic] = {
                         "total_posts": demo_posts,
@@ -1991,6 +2084,7 @@ def process_platform_data(df: pd.DataFrame, platform: str, query: str = "") -> D
 
             insights["custom_emotions"] = {
                 "primary_emotion": primary_emotion,
+                "confidence": round(avg_emotions[primary_emotion], 3),
                 "emotion_distribution": {k: round(v, 3) for k, v in avg_emotions.items()},
                 "model_used": emotion_results[0]['model']
             }
@@ -2338,6 +2432,98 @@ async def process_nlp_input(request: dict):
         raise HTTPException(status_code=500, detail=f"NLP processing failed: {str(e)}")
 
 # 🎯 NEW: Background task function for long-running analysis
+async def run_unified_analysis_task(task_id: str, request: AnalysisRequest):
+    """Process upload/feed/hybrid packages — optional social crawl merge."""
+    global _active_task_id
+    _active_task_id = task_id
+    try:
+        from backend.platform.unified_ingest import (
+            build_unified_insights,
+            load_feed_data,
+            load_upload_meta,
+        )
+
+        analysis_tasks[task_id]["status"] = "running"
+        task_log(task_id, f"🔀 Unified analysis mode: {request.data_source_mode}")
+
+        upload_summaries = []
+        for uid in request.upload_ids or []:
+            meta = load_upload_meta(uid)
+            if meta:
+                upload_summaries.append(meta)
+                task_log(task_id, f"📂 Upload loaded: {meta.get('filename')} ({meta.get('rows', 0)} rows)")
+
+        feed_bundle = load_feed_data(request.feed_ids or [])
+        if feed_bundle.get("feeds"):
+            task_log(task_id, f"📈 Feeds attached: {', '.join(f['id'] for f in feed_bundle['feeds'])}")
+
+        crawl_result = None
+        run_crawl = (
+            request.data_source_mode in ("social_crawl", "hybrid")
+            and not request.skip_crawl
+            and (request.query or request.direct_urls)
+            and (
+                request.platforms
+                or (request.crawl_mode == "direct_url" and request.direct_urls)
+            )
+        )
+
+        if run_crawl:
+            task_log(task_id, "🕷️ Running social crawl as part of unified package...")
+            crawl_result = await analyze_data_core(request, task_id)
+        else:
+            task_log(task_id, "⏭️ Skipping crawl — upload/feed only package")
+
+        unified = build_unified_insights(
+            analysis_type=request.analysis_type,
+            data_source_mode=request.data_source_mode,
+            upload_summaries=upload_summaries,
+            feed_bundle=feed_bundle,
+            crawl_result=crawl_result,
+            project_id=request.project_id,
+        )
+
+        if crawl_result:
+            result = {**crawl_result, **unified}
+        else:
+            result = {
+                "analysis_type": request.analysis_type,
+                "query": request.query or "Unified data package",
+                "platforms": request.platforms or [],
+                "total_data_points": sum(u.get("rows", 0) for u in upload_summaries),
+                "summary": {
+                    "total_records": sum(u.get("rows", 0) for u in upload_summaries),
+                    "platforms_analyzed": len(request.platforms or []),
+                },
+                "key_insights": unified["key_insights"],
+                "recommendations": unified["recommendations"],
+                **unified,
+            }
+
+        analysis_tasks[task_id]["status"] = "completed"
+        analysis_tasks[task_id]["result"] = result
+        analysis_tasks[task_id]["progress"] = {"stage": "completed", "message": "Unified analysis completed"}
+        task_log(task_id, "🎉 Unified analysis completed")
+
+    except Exception as e:
+        analysis_tasks[task_id]["status"] = "failed"
+        analysis_tasks[task_id]["error"] = str(e)
+        analysis_tasks[task_id]["progress"] = {"stage": "failed", "message": str(e)}
+        task_log(task_id, f"❌ Unified analysis failed: {e}")
+    finally:
+        _active_task_id = None
+
+
+def _uses_unified_pipeline(request: AnalysisRequest) -> bool:
+    if request.data_source_mode != "social_crawl":
+        return True
+    if request.upload_ids or request.feed_ids:
+        return True
+    if request.skip_crawl:
+        return True
+    return False
+
+
 async def run_analysis_task(task_id: str, request: AnalysisRequest):
     """
     Run analysis as a background task and update status in analysis_tasks dict
@@ -2359,6 +2545,17 @@ async def run_analysis_task(task_id: str, request: AnalysisRequest):
             "365days": "Last 1 year", "1year": "Last 1 year", "custom": "Custom date range"
         }.get(request.date_range, request.date_range)
         task_log(task_id, f"📊 Dataset size: {request.dataset_size or request.max_results} results | {_date_label}")
+        try:
+            from backend.data_crawlers.crawl_guard import or_keyword_count, guard_message, MAX_OR_KEYWORD_SPLIT
+            task_log(task_id, f"🛡️ {guard_message(request.query or '')}")
+            if or_keyword_count(request.query or "") > MAX_OR_KEYWORD_SPLIT:
+                task_log(
+                    task_id,
+                    f"💡 Long OR query → 1 combined crawl (~30-45 min). "
+                    f"For per-DUN gaps use scripts/crawl_prn_gap_seats.py",
+                )
+        except Exception:
+            pass
 
         # Call the actual analyze function
         result = await analyze_data_core(request, task_id)
@@ -2406,10 +2603,10 @@ async def analyze_data_async(request: AnalysisRequest, background_tasks: Backgro
         "dataset_size": request.dataset_size or request.max_results
     }
 
-    # Add task to background
-    background_tasks.add_task(run_analysis_task, task_id, request)
+    runner = run_unified_analysis_task if _uses_unified_pipeline(request) else run_analysis_task
+    background_tasks.add_task(runner, task_id, request)
 
-    logger.info(f"🎯 Analysis task {task_id} queued for query: {request.query}")
+    logger.info(f"🎯 Analysis task {task_id} queued for query: {request.query} mode={request.data_source_mode}")
     logger.info(f"📊 Platforms: {request.platforms}, Dataset: {request.dataset_size or request.max_results}")
 
     # Return task_id immediately
@@ -2435,7 +2632,7 @@ async def get_task_status(task_id: str):
         "task_id": task_id,
         "status": task["status"],  # queued, running, completed, failed
         "progress": task["progress"],
-        "result": task["result"] if task["status"] == "completed" else None,
+        "result": task["result"] if task["status"] == "completed" else task.get("partial_result"),
         "error": task["error"] if task["status"] == "failed" else None,
         "created_at": task["created_at"],
         "logs": task.get("logs", [])[-40:]  # return last 40 log lines
@@ -2473,12 +2670,43 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                 "platforms_done": platforms_done
             }
 
+    def update_partial_counts(posts: int = 0, comments: int = 0, platform: Optional[str] = None):
+        """Expose live crawl counts to the polling UI before task completes."""
+        if not task_id or task_id not in analysis_tasks:
+            return
+        partial = analysis_tasks[task_id].setdefault("partial_result", {
+            "total_posts_analyzed": 0,
+            "total_comments_analyzed": 0,
+            "platform_breakdown": {},
+        })
+        if platform:
+            pb = partial.setdefault("platform_breakdown", {})
+            entry = pb.setdefault(platform, {"posts_count": 0, "comments_count": 0})
+            entry["posts_count"] = posts
+            entry["comments_count"] = comments
+        partial["total_posts_analyzed"] = posts if platform is None else sum(
+            p.get("posts_count", 0) for p in partial.get("platform_breakdown", {}).values()
+        )
+        partial["total_comments_analyzed"] = comments if platform is None else sum(
+            p.get("comments_count", 0) for p in partial.get("platform_breakdown", {}).values()
+        )
+
     logger.info(f"🔍 Starting PERFECT analysis for query: {request.query}")
     logger.info(f"📊 Platforms: {request.platforms}")
     logger.info(f"🎯 Analysis depth: {request.analysis_depth}")
     logger.info(f"🎯 Analysis focus: {request.analysis_focus}")
     logger.info(f"📅 Date range: {request.date_range}")
     logger.info(f"💬 Comment sampling: {request.comment_sampling}")
+    multimodal_enabled = bool(request.multimodal or request.analysis_type == "multimodal_video_text")
+    if request.analysis_type == "social_listening" and request.analysis_type != "multimodal_video_text":
+        if multimodal_enabled:
+            logger.info(
+                "🎞️ Multimodal auto-disabled for Social Listening "
+                "(use Analysis Type 'Multimodal Video + Text' to enable)"
+            )
+        multimodal_enabled = False
+    if multimodal_enabled:
+        logger.info("🎞️ Multimodal media routing enabled for this run")
 
     update_progress("initializing", f"Starting analysis for {len(request.platforms)} platforms...")
 
@@ -2536,15 +2764,54 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
             try:
                 # 🌐 DIRECT URL MODE — crawl specific pages/profiles
                 if request.crawl_mode == "direct_url" and request.direct_urls:
-                    update_progress("crawling", f"Crawling {len(request.direct_urls)} direct URL(s)...", 0)
-                    logger.info(f"🌐 Direct URL crawl mode: {request.direct_urls}")
-                    strategy_result = await adapter.crawl_direct_urls(
-                        urls=request.direct_urls,
-                        max_posts=max(50, effective_dataset_size // 10),
-                        max_comments=max(30, effective_dataset_size // 20),
-                        since_date=date_filter["start_iso"][:10],
-                        until_date=date_filter["end_iso"][:10]
+                    from backend.utils.crawl_records import resolve_direct_url_target, sanitize_direct_urls
+
+                    direct_urls_clean = sanitize_direct_urls(request.direct_urls)
+                    direct_url_target = resolve_direct_url_target(
+                        direct_urls_clean, request.direct_url_target or "auto"
                     )
+                    direct_post_mode = direct_url_target == "post"
+                    num_urls = max(1, len(direct_urls_clean))
+
+                    comment_target = request.comment_target_per_post
+                    if direct_post_mode and not comment_target:
+                        comment_target = effective_dataset_size
+
+                    if direct_post_mode:
+                        if num_urls == 1:
+                            per_post_budget = min(1000, max(500, comment_target or effective_dataset_size))
+                        else:
+                            per_post_budget = min(
+                                1000,
+                                max(100, (comment_target or effective_dataset_size) // num_urls),
+                            )
+                        crawl_max_comments = per_post_budget
+                        crawl_since = None
+                        crawl_until = None
+                        logger.info(
+                            f"📌 Direct Post URL batch: {num_urls} posts, "
+                            f"target {comment_target or crawl_max_comments}/post, "
+                            f"multipass={request.multipass_comments}, dedupe ON"
+                        )
+                    else:
+                        crawl_max_comments = max(30, effective_dataset_size // 20)
+                        crawl_since = date_filter["start_iso"][:10]
+                        crawl_until = date_filter["end_iso"][:10]
+
+                    update_progress("crawling", f"Crawling {len(direct_urls_clean)} direct URL(s)...", 0)
+                    logger.info(f"🌐 Direct URL crawl mode ({direct_url_target}): {direct_urls_clean}")
+                    strategy_result = await adapter.crawl_direct_urls(
+                        urls=direct_urls_clean,
+                        max_posts=max(50, effective_dataset_size // 10),
+                        max_comments=crawl_max_comments,
+                        since_date=crawl_since,
+                        until_date=crawl_until,
+                        direct_post_mode=direct_post_mode,
+                        comment_target_per_post=comment_target if direct_post_mode else None,
+                        multipass_comments=request.multipass_comments,
+                        include_nested_comments=request.include_nested_comments,
+                    )
+                    request.direct_urls = direct_urls_clean
                 else:
                     update_progress("crawling", f"Fetching data from {', '.join(request.platforms).upper()}...", 0)
                     # 🎯 Use new strategy-based crawling with comments
@@ -2623,12 +2890,19 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
 
         # Process results and broadcast status (for both strategy and traditional)
         from backend.utils.crawl_records import flatten_crawl_records
-        for platform, results in real_time_data_dict.items():
+        for idx, (platform, results) in enumerate(real_time_data_dict.items(), start=1):
+            update_progress(
+                "crawling",
+                f"Processing {platform.upper()} results ({idx}/{len(real_time_data_dict)})...",
+                idx,
+            )
+            task_log(task_id, f"📦 Processing {platform.upper()} crawl results...")
             if results:
                 flat = flatten_crawl_records(results)
                 real_time_data[platform] = flat
                 posts_n = sum(1 for r in flat if str(r.get("Type", "post")).lower() == "post")
                 comments_n = sum(1 for r in flat if str(r.get("Type", "post")).lower() == "comment")
+                update_partial_counts(posts_n, comments_n, platform)
                 logger.info(
                     f"✅ Got {len(flat)} flat records from {platform} "
                     f"({posts_n} posts + {comments_n} comments)"
@@ -2759,9 +3033,15 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
     platform_data = {}
     session_analyzed_files: Dict[str, Path] = {}
 
-    for platform in request.platforms:
+    for idx, platform in enumerate(request.platforms, start=1):
         logger.info(f"📱 Collecting data from {platform}...")
-        update_progress("sentiment_analysis", f"Analysing {platform.upper()} data — sentiment + emotions...", len(request.platforms))
+        update_progress(
+            "sentiment_analysis",
+            f"Analysing {platform.upper()} data — sentiment + emotions ({idx}/{len(request.platforms)})...",
+            idx,
+        )
+        if task_id:
+            task_log(task_id, f"💬 Sentiment analysis: {platform.upper()} ({idx}/{len(request.platforms)})")
 
         # Use real-time data if available, otherwise load from files
         if platform in real_time_data:
@@ -2784,7 +3064,9 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                     session_started_at=crawl_session_started_at,
                 )
 
-                if df.empty and raw_filepath.exists():
+                # Avoid stale data/raw/*.csv from prior runs (e.g. wrong calon/query)
+                use_raw_fallback = request.crawl_mode not in (None, "keyword", "keyword_search")
+                if df.empty and use_raw_fallback and raw_filepath.exists():
                     logger.info(f"📂 Reading RAW data from: {raw_filepath}")
                     df = pd.read_csv(raw_filepath)
                     logger.info(f"📊 Loaded {len(df)} records from RAW file")
@@ -2794,11 +3076,30 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
                     logger.info(f"📊 Loaded {len(df)} records from real-time crawl (in-memory)")
 
                 if not df.empty:
-                    df = apply_crawl_date_filter(df, date_filter)
+                    df = apply_crawl_date_filter_for_request(df, date_filter, request)
+
+                if multimodal_enabled and not df.empty:
+                    try:
+                        from scripts.multimodal_router import route_items  # noqa: WPS433
+
+                        logger.info(f"🎞️ Routing {platform} media through Nemotron multimodal NIMs (background thread)...")
+                        routed_records = await asyncio.to_thread(
+                            route_items,
+                            df.to_dict(orient="records"),
+                            merge_text=True,
+                            limit=int(os.getenv("NIM_MULTIMODAL_MAX_ROWS", "0") or 0),
+                        )
+                        df = pd.DataFrame(routed_records)
+                        routed_ok = int(df.get("derived_text", pd.Series(dtype=str)).astype(str).str.len().gt(0).sum()) if "derived_text" in df.columns else 0
+                        routed_err = int(df.get("derived_error", pd.Series(dtype=str)).astype(str).str.len().gt(0).sum()) if "derived_error" in df.columns else 0
+                        logger.info(f"🎞️ Multimodal routing complete: {routed_ok} derived, {routed_err} errors")
+                    except Exception as media_err:
+                        logger.warning(f"⚠️ Multimodal routing skipped for {platform}: {media_err}")
 
                 # Count posts and comments
                 posts_count = len(df[df['Type'] == 'post']) if 'Type' in df.columns else len(df)
                 comments_count = len(df[df['Type'] == 'comment']) if 'Type' in df.columns else 0
+                update_partial_counts(posts_count, comments_count, platform)
                 logger.info(f"📊 RAW data: {posts_count} posts + {comments_count} comments")
 
                 # 🤖 STEP 2: Process with sentiment/emotion analysis
@@ -3135,6 +3436,11 @@ async def analyze_data_core(request: AnalysisRequest, task_id: Optional[str] = N
     analysis_results = {
         "analysis_type": request.analysis_type,
         "query": request.query,
+        "processing": request.processing,
+        "multimodal": request.multimodal,
+        "crawl_mode": request.crawl_mode,
+        "direct_url_target": getattr(request, "direct_url_target", "auto"),
+        "direct_urls": request.direct_urls if request.crawl_mode == "direct_url" else None,
         "platforms_analyzed": request.platforms,
         "total_data_points": total_data_points,
         "analysis_timestamp": datetime.now().isoformat(),
@@ -3547,6 +3853,117 @@ async def analyze_kdebwm_complaints(request: KDEBWMAnalysisRequest):
         raise HTTPException(status_code=500, detail=f"KDEBWM Analysis error: {str(e)}")
 
 
+@app.get("/api/analysis/types")
+async def api_analysis_types():
+    from backend.platform.unified_ingest import list_analysis_types
+    return {"success": True, "types": list_analysis_types()}
+
+
+@app.get("/api/data/templates")
+async def api_list_templates():
+    from backend.platform.unified_ingest import list_templates
+    return {"success": True, "templates": list_templates()}
+
+
+@app.get("/api/data/templates/{template_id}")
+async def api_download_template(template_id: str):
+    from backend.platform.unified_ingest import template_path
+    from fastapi.responses import FileResponse
+    try:
+        path = template_path(template_id)
+        return FileResponse(path, filename=path.name, media_type="text/csv")
+    except (ValueError, FileNotFoundError) as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@app.get("/api/data/feeds")
+async def api_list_feeds():
+    from backend.platform.unified_ingest import list_feeds
+    return {"success": True, "feeds": list_feeds()}
+
+
+@app.get("/api/ml/predict/prn_n9")
+async def api_ml_predict_prn_n9(refresh: bool = False):
+    """Run SVM + Random Forest + Decision Tree on 36 N9 DUN seats."""
+    from backend.ml.predictive_engine import run_prn_n9_ml, PRN_N9_ML_OUTPUT
+
+    try:
+        if not refresh and PRN_N9_ML_OUTPUT.exists():
+            cached = json.loads(PRN_N9_ML_OUTPUT.read_text(encoding="utf-8"))
+            cached["source"] = "cache"
+            return {"success": True, "result": cached}
+
+        result = run_prn_n9_ml(write_output=True)
+        result["source"] = "fresh"
+        return {"success": result.get("success", False), "result": result}
+    except Exception as e:
+        logger.error(f"ML PRN N9 error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/ml/predict")
+async def api_ml_predict(request: dict):
+    """
+    Generic ML predict — analysis_type + optional upload_ids.
+    Body: { "analysis_type": "portfolio_intelligence", "upload_ids": ["abc123"], "project_id": "PRN_N9" }
+    """
+    from backend.platform.unified_ingest import load_upload_meta
+    from backend.ml.predictive_engine import run_ml_analysis, run_prn_n9_ml, run_portfolio_ml, load_upload_rows
+
+    analysis_type = request.get("analysis_type") or "social_listening"
+    project_id = request.get("project_id")
+    upload_ids = request.get("upload_ids") or []
+
+    try:
+        if analysis_type == "prn_n9" or (project_id and "N9" in str(project_id).upper()):
+            result = run_prn_n9_ml(write_output=True)
+            return {"success": True, "result": result}
+
+        upload_summaries = []
+        for uid in upload_ids:
+            meta = load_upload_meta(uid)
+            if meta:
+                upload_summaries.append(meta)
+
+        if analysis_type in ("portfolio_intelligence", "sme_insights") and upload_summaries:
+            u = upload_summaries[0]
+            result = run_portfolio_ml(load_upload_rows(u), u.get("columns"))
+            return {"success": True, "result": result}
+
+        result = run_ml_analysis(
+            analysis_type=analysis_type,
+            upload_summaries=upload_summaries,
+            project_id=project_id,
+        )
+        return {"success": True, "result": result}
+    except Exception as e:
+        logger.error(f"ML predict error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/api/data/upload")
+async def api_data_upload(
+    file: UploadFile = File(...),
+    dataset_type: str = "generic_csv",
+    project_id: Optional[str] = None,
+):
+    from backend.platform.unified_ingest import save_upload
+    try:
+        content = await file.read()
+        if not file.filename:
+            raise HTTPException(status_code=400, detail="Filename required")
+        ext = Path(file.filename).suffix.lower()
+        if ext not in (".csv", ".json", ".xlsx", ".xls"):
+            raise HTTPException(status_code=400, detail="Supported: CSV, JSON, Excel (save as CSV preferred)")
+        meta = await save_upload(content, file.filename, dataset_type, project_id)
+        return {"success": True, "upload": meta}
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Upload error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.post("/api/upload-csv")
 async def upload_csv_file(file: UploadFile = File(...)):
     """
@@ -3586,6 +4003,16 @@ async def upload_csv_file(file: UploadFile = File(...)):
 async def analyze_csv_page():
     """Serve the CSV analysis page"""
     return FileResponse("web_backend/static/analyze_csv.html")
+
+
+@app.get("/crawl-live")
+async def crawl_live_page():
+    """Live crawl monitor (Batch 7 / any task_id via ?task=...)"""
+    path = Path(__file__).parent / "static" / "crawl_live.html"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="crawl_live.html not found")
+    return FileResponse(path)
+
 
 if __name__ == "__main__":
     import uvicorn

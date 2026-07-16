@@ -1,0 +1,17 @@
+# Backup Keyword Search (bila Direct URL batch search gagal)
+# Platform: tick FB / IG / TikTok / X mengikut keperluan
+
+# Johor broad
+("PRN Johor" OR "PRN16" OR "DUN Johor") (PAS OR UMNO OR DAP OR PN OR BN OR PH) when:7d
+
+# N9 broad
+("PRN Negeri Sembilan" OR "PRNN9" OR "DUN N9") (PAS OR UMNO OR DAP OR PN OR BN OR PH) when:7d
+
+# Per kerusi (contoh — ganti nama)
+("Calon A" OR "Calon B" OR "Calon C") ("Puteri Wangsa" OR "N41" OR "PRN Johor") when:14d
+
+# --- IMPLISIT PAS (tanpa perkataan "solo") ---
+"suka pas" OR "pas terbaik" OR "all out pas" OR "teguh pas" OR "panah pas" OR #panahpas "Negeri Sembilan"
+
+# --- UMDAP / anti-UMNO+DAP (Melayu-Islam discourse) ---
+umdap OR "umno dap" OR "umno dan dap" OR "kerajaan perpaduan" dap "Negeri Sembilan"

@@ -1,0 +1,258 @@
+================================================================================
+PROSES PENJANAAN DASHBOARD + LAPORAN TINDAKAN
+PRN Naratif Berbahasa Cina — Negeri Sembilan · Johor · Melaka
+================================================================================
+
+Ringkasan: Crawl data → Gabung dataset → Dashboard (semak) → Laporan PDF/DOCX
+Semua langkah MANUAL — anda jalankan & pantau sendiri.
+
+Folder projek:
+  /Users/rmtariq/Documents/InsightPulse
+
+
+================================================================================
+ALIRAN PENUH (4 LANGKAH)
+================================================================================
+
+  ┌──────────┐    ┌──────────┐    ┌──────────────┐    ┌─────────────────┐
+  │ 1. CRAWL │ →  │ 2. BUILD │ →  │ 3. DASHBOARD │ →  │ 4. LAPORAN      │
+  │   data   │    │  dataset │    │   semak      │    │   PDF + DOCX    │
+  └──────────┘    └──────────┘    └──────────────┘    └─────────────────┘
+
+
+================================================================================
+LANGKAH 0 — SETUP (SEKALI SAHAJA)
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  # Python venv dashboard (jika belum ada)
+  cd n9_chinese_narrative_dashboard
+  python3 -m venv .venv
+  .venv/bin/pip install -r requirements.txt
+  cd ..
+
+  # Excel keyword (optional — script auto baca jika wujud)
+  ~/Downloads/PRN_ChineseNarrative_Keywords_2026.xlsx
+
+
+================================================================================
+LANGKAH 1 — CRAWL DATA
+================================================================================
+
+PILIHAN A — Berita percuma (disyorkan · tiada kos Apify)
+────────────────────────────────────────────────────────
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  ./scripts/run_prn_chinese_manual.sh morning     # batch pagi (6 query)
+  ./scripts/run_prn_chinese_manual.sh midday      # batch tengah hari
+  ./scripts/run_prn_chinese_manual.sh evening     # batch petang
+  ./scripts/run_prn_chinese_manual.sh news        # semua 17 query berita
+
+  Pantau terminal: +N artikel setiap query
+  Output: data/projects/political/PRN/PRN_N9/crawls/chinese_news/
+          (dan folder negeri Johor/Melaka jika ada)
+
+
+PILIHAN B — InsightPulse UI (FB / X / News — salin query)
+────────────────────────────────────────────────────────
+
+  Panduan salin-tampal:
+    reference/CRAWL_INSIGHTPULSE_SALIN_TAMPAL.txt
+
+  Tetapan InsightPulse (sama setiap crawl):
+    Mod Crawl      → Keyword Search
+    Analysis Type  → Social Listening
+    Dataset Size   → 2,000
+    Date Range     → Last 30 Days
+    Project        → PAS-Bersatu Split · PRN Johor/Melaka/NS
+
+  ATAU jalankan full app:
+    ./start_full_app.sh
+
+
+PILIHAN C — Socmed via script (KOS APIFY · hanya bila sengaja)
+────────────────────────────────────────────────────────
+
+  ./scripts/run_prn_chinese_manual.sh morning socmed
+
+  Pastikan .env ada APIFY_API_TOKEN jika guna Apify.
+
+
+================================================================================
+LANGKAH 2 — BINA DATASET DASHBOARD (WAJIB selepas crawl)
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  ./scripts/run_prn_chinese_manual.sh rebuild
+
+  ATAU:
+  python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+  Output utama:
+    n9_chinese_narrative_dashboard/data/prn_chinese_narrative_posts_3negeri.csv
+
+  Semak terminal — bilangan rekod per negeri (contoh):
+    Negeri Sembilan    308
+    Johor              151
+    Melaka              79
+
+
+================================================================================
+LANGKAH 3 — BUKA DASHBOARD (semak & ambil keputusan)
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse/n9_chinese_narrative_dashboard
+  .venv/bin/streamlit run app.py
+
+  Browser: http://localhost:8501
+  (port lain jika 8501 sibuk — ikut mesej terminal)
+
+  TINDAKAN DALAM DASHBOARD:
+  ─────────────────────────
+  1. Sidebar → pilih SATU negeri (N9 / Johor / Melaka)
+  2. Halaman Ringkasan Eksekutif — semak KPI & status
+  3. Analisis Isu / Risiko — kenal pasti isu P1
+  4. Tindakan Strategik — matriks keutamaan & pasukan
+  5. Pusat Tindak Balas — draf respons (dashboard sahaja, bukan laporan)
+  6. Sidebar → "Jana laporan negeri ini" (optional shortcut)
+
+  Peranan sidebar (demo): Analyst · Communications · Management
+
+
+================================================================================
+LANGKAH 4 — JANA LAPORAN TINDAKAN (PDF + DOCX per negeri)
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  # Semua 3 negeri
+  ./scripts/run_prn_chinese_manual.sh reports
+
+  ATAU:
+  n9_chinese_narrative_dashboard/.venv/bin/python3 \
+    scripts/generate_prn_chinese_narrative_reports.py
+
+  # Satu negeri sahaja
+  python3 scripts/generate_prn_chinese_narrative_reports.py --negeri johor
+  python3 scripts/generate_prn_chinese_narrative_reports.py --negeri melaka
+  python3 scripts/generate_prn_chinese_narrative_reports.py --negeri n9
+
+  # Rebuild dataset + laporan sekali gus
+  python3 scripts/generate_prn_chinese_narrative_reports.py --rebuild-data
+
+  OUTPUT (2 jenis × 3 negeri):
+    data/projects/political/pas_break_2026/reports/chinese_narrative/
+      PRN_Executive_{negeri}_YYYYMMDD_HHMMSS.pdf/.docx   ← 4 ms + cover
+      PRN_Lampiran_{negeri}_YYYYMMDD_HHMMSS.pdf/.docx    ← analitik penuh
+      README_LAPORAN.md
+
+  KANDUNGAN LAPORAN EKSEKUTIF (maks. 4 ms + cover):
+  ────────────────────────────────────────────────────
+  • Cover — tajuk, negeri, tempoh, versi, UNTUK KEGUNAAN DALAMAN
+  • Ms 1: Ringkasan Eksekutif (8 KPI, 2 carta, 3 bahagian bullet)
+  • Ms 2: Lima Isu Utama (Belum Diklasifikasikan dikecualikan)
+  • Ms 3: Papan Tindakan (maks. 6 tindakan dengan KPI)
+  • Ms 4: Risiko, Pengesahan, Pelan Masa, Sign-off
+
+  LAMPIRAN: petikan penuh, jadual, metodologi, brief
+
+  Opsyen:
+    python3 scripts/generate_prn_chinese_narrative_reports.py --executive-only
+    python3 scripts/generate_prn_chinese_narrative_reports.py --appendix-only
+
+
+================================================================================
+JADUAL HARIAN CADANGAN (2–3 sesi)
+================================================================================
+
+  MASA          TINDAKAN                              COMMAND
+  ─────────────────────────────────────────────────────────────────────────
+  Pagi          Crawl berita batch pagi               ./scripts/run_prn_chinese_manual.sh morning
+  Tengah hari   Crawl batch tengah hari (optional)    ./scripts/run_prn_chinese_manual.sh midday
+  Petang        Crawl batch petang                    ./scripts/run_prn_chinese_manual.sh evening
+  Selepas crawl Rebuild dataset                       ./scripts/run_prn_chinese_manual.sh rebuild
+  Semak         Buka dashboard                        streamlit run app.py
+  Edar          Jana laporan 3 negeri                 ./scripts/run_prn_chinese_manual.sh reports
+
+
+================================================================================
+CHECKLIST HARIAN (TICK MANUAL)
+================================================================================
+
+  Tarikh: ___________
+
+  CRAWL
+  [ ] Sesi berita: __ morning / __ midday / __ evening / __ news
+  [ ] Socmed (optional): __ skip / __ stream _______
+  [ ] Excel keyword dikemas kini (jika perlu)
+
+  DASHBOARD
+  [ ] rebuild dataset selesai
+  [ ] Dashboard dibuka — negeri disemak: __ N9 __ Johor __ Melaka
+  [ ] Isu P1 hari ini: _________________________________
+
+  LAPORAN
+  [ ] Laporan PDF/DOCX dijana (3 negeri / __ satu negeri)
+  [ ] Fail disimpan / diedar: __ EXCO __ War Room __ WhatsApp
+  [ ] Tindakan P1 di-assign: Pasukan _______ Tarikh _______
+
+  SUSULAN 72J
+  [ ] Checklist 72j dalam laporan ditandakan
+  [ ] Crawl + laporan semula: ___________
+
+
+================================================================================
+COMMAND PANTAS (COPY-PASTE)
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  ./scripts/run_prn_chinese_manual.sh morning
+  ./scripts/run_prn_chinese_manual.sh rebuild
+  ./scripts/run_prn_chinese_manual.sh reports
+
+  cd n9_chinese_narrative_dashboard && .venv/bin/streamlit run app.py
+
+  # Senarai stream keyword
+  ./scripts/run_prn_chinese_manual.sh list
+
+  # Bantuan
+  ./scripts/run_prn_chinese_manual.sh help
+
+
+================================================================================
+RUJUKAN FAIL LAIN
+================================================================================
+
+  CRAWL_INSIGHTPULSE_SALIN_TAMPAL.txt   — query salin-tampal InsightPulse
+  CRAWL_MANUAL_ARAHAN.txt               — arahan crawl penuh + slot batch
+  CRAWL_INSIGHTPULSE_A_TO_Z_LENGKAP.txt — senarai lengkap 17 stream
+  README_LAPORAN.md                     — indeks laporan terkini (auto jana)
+
+
+================================================================================
+MASALAH BIASA
+================================================================================
+
+  python-docx tidak dipasang
+    → cd n9_chinese_narrative_dashboard && .venv/bin/pip install -r requirements.txt
+
+  Dataset kosong selepas rebuild
+    → Pastikan crawl selesai; semak folder chinese_news/
+
+  zsh error dengan # di hujung baris
+    → Jangan letak # selepas command; guna baris berasingan untuk komen
+
+  Socmed x402 / payment error
+    → Guna --news-only atau pastikan APIFY_API_TOKEN dalam .env
+
+  Dashboard port sibuk
+    → streamlit run app.py --server.port 8502
+
+
+================================================================================
+TAMAT — InsightPulse · PRN Chinese Narrative Monitoring
+================================================================================

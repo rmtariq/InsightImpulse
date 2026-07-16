@@ -1,0 +1,4 @@
+platform,total_posts,avg_sentiment,total_engagement,positive_ratio,negative_ratio
+instagram,1127,0.703,42494,55.7,9.9
+facebook,83,0.321,3776,12.0,50.6
+threads,161,0.352,1076,11.8,43.5

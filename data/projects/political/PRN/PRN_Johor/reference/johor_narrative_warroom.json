@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "mode": "live",
+    "generated_at": "2026-07-15 01:54:27",
+    "source_csv": "n9_chinese_narrative_dashboard/data/prn_chinese_narrative_posts_3negeri.csv",
+    "indian_crawl": "data/projects/political/PRN/PRN_N9/crawls/indian_narrative/PRN_Indian_Narrative_20260712_154043.csv",
+    "total_rows": 2148,
+    "state_focus": "Johor"
+  },
+  "Johor": {
+    "label": "Johor",
+    "dun": 56,
+    "chinese": {
+      "posts": 237,
+      "neg": 15,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "indian": {
+      "posts": 359,
+      "neg": 0,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "issues": {
+      "chinese": [
+        [
+          "Other",
+          50
+        ],
+        [
+          "Cost of Living",
+          11
+        ],
+        [
+          "DAP Performance",
+          6
+        ],
+        [
+          "Candidate Performance",
+          5
+        ]
+      ],
+      "indian": [
+        [
+          "Other",
+          66
+        ],
+        [
+          "Candidate Performance",
+          7
+        ],
+        [
+          "Housing",
+          6
+        ],
+        [
+          "DAP Performance",
+          6
+        ]
+      ]
+    },
+    "actions": [
+      {
+        "id": "ACT-JOC-030",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "DAP Performance — JHR-N14",
+        "body": "DAP Johor perlu fokus perkhidmatan bandar. #Muar",
+        "meta": [
+          "JHR-N14",
+          "Chinese online media",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-JOC-037",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Local Government Services — JHR-N18",
+        "body": "Chinese community in Johor discusses local council performance. — Batu Pahat",
+        "meta": [
+          "JHR-N18",
+          "X",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-JOC-017",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Cost of Living — JHR-N18",
+        "body": "士古来工厂区物价上涨，商家叫苦。 PRN Johor: komuniti Cina bincang kos sara hidup di JB.",
+        "meta": [
+          "JHR-N18",
+          "Instagram",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Sediakan penerangan dasar, bantuan yang tersedia, saluran permohonan dan data kos sara hidup yang disahkan."
+      },
+      {
+        "id": "ACT-JOC-036",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Local Government Services — JHR-N14",
+        "body": "Chinese community in Johor discusses local council performance. — Muar",
+        "meta": [
+          "JHR-N14",
+          "Facebook",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-JOI-016",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N48",
+        "body": "Johor’s tale of two margins: BN’s Permas towers at 29,505, Pakatan’s Simpang Jeram clings on by 170. JOHOR BAHRU, July 1",
+        "meta": [
+          "JHR-N48",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-JOI-010",
+        "p": "p3",
+        "comm": "indian",
+        "title": "MCA Relevance — JHR-N48",
+        "body": "Anwar takes thinly-veiled dig at MCA in Johor campaign. Anwar takes thinly-veiled dig at MCA in Johor campaign&nbsp;&nbs",
+        "meta": [
+          "JHR-N48",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-JOI-012",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N09",
+        "body": "Johor polls: PH lodges police report over vandalised campaign materials in Kluang. Johor polls: PH lodges police report ",
+        "meta": [
+          "JHR-N09",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-JOI-018",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N49",
+        "body": "Kerja, gaji dan kebergantungan kepada Singapura jadi isu utama di Skudai. Kerja, gaji dan kebergantungan kepada Singapur",
+        "meta": [
+          "JHR-N49",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      }
+    ],
+    "samples": {
+      "chinese": [
+        {
+          "text": "Chinese community in Johor discusses local council performance. — Batu Pahat",
+          "sent": "neg",
+          "meta": "Batu Pahat · X · 5877 engagement"
+        },
+        {
+          "text": "Kerajaan Johor perlu tangani isu trafik Skudai. (Muar)",
+          "sent": "neg",
+          "meta": "Muar · TikTok · 5661 engagement"
+        },
+        {
+          "text": "Kerajaan Johor perlu tangani isu trafik Skudai. (Johor Bahru)",
+          "sent": "neu",
+          "meta": "Johor Bahru · TikTok · 5542 engagement"
+        }
+      ],
+      "indian": [
+        {
+          "text": "Youth vs veteran in Johor polls: Felicia Poh, 28, wins Penggaram; Samsolbari, 65, holds Semarang. JOHOR BAHRU, July 12 &mdash; At just 28, Felicia Poh Rui Ling became the youngest successful candidate in the 16th Johor...",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        },
+        {
+          "text": "Johor polls early voting turnout reaches 38.64pc as of 10am. JOHOR BAHRU, July 7 &mdash; Early voting turnout for the Johor state election reached 38.64 per cent by 10am today.The E...",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        },
+        {
+          "text": "16th Johor state polls swing into full gear tomorrow with nomination day. 16th Johor state polls swing into full gear tomorrow with nomination day&nbsp;&nbsp;KLSE Screener",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        }
+      ]
+    },
+    "responses": {
+      "chinese": {
+        "bm": "Kerajaan Johor komited menyokong perniagaan kecil.",
+        "zh": "柔佛州政府支持小贩与中小企业。"
+      },
+      "indian": {
+        "bm": "Isu pekerjaan dan komuniti India dipantau rapat.",
+        "ta": "வேலைவாய்ப்பு பிரச்சினைகள் கண்காணிக்கப்படுகின்றன."
+      }
+    },
+    "dunRows": [
+      [
+        "JHR-N48",
+        "Johor Bahru",
+        "Pantau",
+        "Other",
+        "Negatif"
+      ],
+      [
+        "JHR-N49",
+        "Skudai",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ],
+      [
+        "JHR-N14",
+        "Muar",
+        "Pantau",
+        "Other",
+        "Negatif"
+      ],
+      [
+        "JHR-N09",
+        "Kluang",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ]
+    ]
+  }
+}

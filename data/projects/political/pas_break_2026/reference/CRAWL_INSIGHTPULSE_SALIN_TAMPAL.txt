@@ -1,0 +1,122 @@
+================================================================================
+CRAWL INSIGHTPULSE — SALIN & TAMPAL (MUDAH)
+PRN Naratif Berbahasa Cina — N9 · Johor · Melaka
+================================================================================
+
+TETAPAN SAMA UNTUK SETIAP CRAWL (jangan ubah):
+  Mod Crawl      → Keyword Search
+  Analysis Type  → Social Listening
+  Dataset Size   → 2,000 results
+  Date Range     → Last 30 Days
+  Project        → PAS-Bersatu Split · PRN Johor/Melaka/NS
+
+PENTING:
+  • SATU crawl = SATU query di bawah (copy baris QUERY sahaja)
+  • JANGAN paste seluruh fail sekaligus
+  • Selesai satu crawl → mula crawl seterusnya
+
+================================================================================
+CRAWL 1 — JOHOR (Bandar — PRIORITI MULA DI SINI)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [X] X (Twitter)
+
+QUERY (copy baris ini sahaja):
+Johor Bahru OR Skudai OR Stulang calon OR PRN "Johor" when:30d
+
+================================================================================
+CRAWL 2 — MELAKA (Bandar)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [X] X (Twitter)
+
+QUERY:
+Melaka OR "Bandar Hilir" calon OR PRN "Melaka" when:30d
+
+================================================================================
+CRAWL 3 — NEGERI SEMBILAN (Bandar)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [X] X (Twitter)
+
+QUERY:
+Seremban OR Nilai calon OR PRN "Negeri Sembilan" when:30d
+
+================================================================================
+CRAWL 4 — JOHOR (Media Cina)
+================================================================================
+Platform tick:  [X] News   [ ] Facebook   [ ] X
+
+QUERY:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Johor OR 柔佛 when:30d
+
+================================================================================
+CRAWL 5 — MELAKA (Media Cina)
+================================================================================
+Platform tick:  [X] News   [ ] Facebook   [ ] X
+
+QUERY:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Melaka OR 马六甲 when:30d
+
+================================================================================
+CRAWL 6 — NEGERI SEMBILAN (Media Cina)
+================================================================================
+Platform tick:  [X] News   [ ] Facebook   [ ] X
+
+QUERY:
+"Sin Chew" OR "China Press" OR "星洲日报" OR "中国报" Negeri Sembilan OR 森美兰 when:30d
+
+================================================================================
+CRAWL 7 — JOHOR (DAP/PH)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [ ] X
+
+QUERY:
+DAP OR "Pakatan Harapan" "Johor" PRN when:30d
+
+================================================================================
+CRAWL 8 — MELAKA (DAP/PH)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [ ] X
+
+QUERY:
+DAP OR "Pakatan Harapan" "Melaka" PRN when:30d
+
+================================================================================
+CRAWL 9 — NEGERI SEMBILAN (DAP/PH)
+================================================================================
+Platform tick:  [X] News   [X] Facebook   [ ] X
+
+QUERY:
+DAP OR "Pakatan Harapan" "Negeri Sembilan" PRN when:30d
+
+================================================================================
+SELEPAS SEMUA CRAWL SELESAI — DASHBOARD + LAPORAN
+================================================================================
+
+  cd /Users/rmtariq/Documents/InsightPulse
+
+  LANGKAH 1 — Gabung data
+  ./scripts/run_prn_chinese_manual.sh rebuild
+
+  LANGKAH 2 — Dashboard (semak negeri)
+  cd n9_chinese_narrative_dashboard
+  .venv/bin/streamlit run app.py
+  Sidebar → pilih Negeri (Johor / Melaka / Negeri Sembilan)
+
+  LANGKAH 3 — Laporan tindakan PDF/DOCX (3 negeri)
+  cd /Users/rmtariq/Documents/InsightPulse
+  ./scripts/run_prn_chinese_manual.sh reports
+
+  Output laporan:
+    data/projects/political/pas_break_2026/reports/chinese_narrative/
+
+  Panduan penuh:
+    reference/PROSES_DASHBOARD_DAN_LAPORAN.txt
+
+================================================================================
+CRAWL PERCUMA (BERITA) — TANPA INSIGHTPULSE
+================================================================================
+  python3 scripts/crawl_prn_chinese_news.py --negeri johor
+  python3 scripts/crawl_prn_chinese_news.py --negeri melaka
+  python3 scripts/crawl_prn_chinese_news.py --negeri all
+  python3 scripts/build_prn_chinese_dashboard_dataset.py
+
+================================================================================

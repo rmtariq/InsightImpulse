@@ -1,0 +1,256 @@
+# =============================================================
+# InsightPulse — N9 CRAWL (sedia paste)  ·  PRN Negeri Sembilan
+# =============================================================
+# Tujuan : naik taraf data AP (atas pagar) per-DUN — naikkan
+#          bilangan mention/DUN supaya keyakinan Rendah(?) -> Sederhana/Tinggi
+# Strategi: CRAWL UMUM (keyword + URL di bawah) -> ANALISIS TERPERINCI
+#          (re-tag offline guna 16-isu + lokaliti + nama ADUN, percuma)
+# Tag projek : PRN-N9-Phase1
+# Tetapan    : Last 7 Days · 100 posts/URL (atau 100 results/keyword)
+# Anggaran   : Semua platform ~RM44  |  X-sahaja ~RM12  (pilot)
+# NOTA: InsightPulse skip baris bermula '#'. Paste sahaja seluruh fail.
+#       URL ROYAL/ADAT (tz.n9 / Tuanku Muhriz): tag do_not_train=true.
+#       PDPA: anonymise komen pengguna biasa.
+# =============================================================
+
+
+# =============================================================
+# BAHAGIAN A — KEYWORD SEARCH (29 query umum)
+# Platform: X, FB, TikTok, YouTube (ikut lajur)
+# =============================================================
+
+# --- Negeri (recall tertinggi) — X, FB, TikTok, YouTube ---
+negeri sembilan
+prn negeri sembilan
+prn n9
+dun negeri sembilan
+pilihan raya negeri sembilan
+
+# --- Daerah / Parlimen (jaring DUN kecil) — X, FB ---
+seremban
+nilai
+port dickson
+bahau
+kuala pilah
+tampin
+rembau
+jelebu
+jempol
+gemas
+senawang
+mantin
+
+# --- Parti / Gabungan — X, FB, YouTube ---
+pas negeri sembilan
+bn negeri sembilan
+ph negeri sembilan
+pn negeri sembilan
+muafakat nasional n9
+
+# --- Tokoh negeri (heavyweight) — X, FB ---
+aminuddin harun
+tok mat negeri sembilan
+jalaluddin alias
+
+# --- Isu SEMASA (tukar ikut trend) — X, TikTok ---
+kos sara hidup negeri sembilan
+banjir negeri sembilan
+air negeri sembilan
+subsidi diesel negeri sembilan
+
+
+# =============================================================
+# BAHAGIAN B — DIRECT URL (N9-relevan sahaja, ~96 URL)
+# =============================================================
+
+# ---- NEWS MALAY (15) ----
+https://www.bharian.com.my
+https://www.sinarharian.com.my
+https://www.hmetro.com.my
+https://www.utusan.com.my
+https://www.mstar.com.my
+https://www.kosmo.com.my
+https://www.malaysiakini.com/my
+https://www.berita.rtm.gov.my
+https://www.bernama.com/bm
+https://www.astroawani.com
+https://www.tv3.com.my
+https://www.themalaysianreserve.com
+https://www.freemalaysiatoday.com/category/bahasa
+https://www.malaymail.com
+https://says.com
+
+# ---- NEWS CHINESE (12) ----
+https://www.sinchew.com.my
+https://www.chinapress.com.my
+https://www.orientaldaily.com.my
+https://www.nanyang.com
+https://www.guangming.com.my
+https://www.kwongwah.com.my
+https://www.seehua.com
+https://www.enanyang.my
+https://news.seehua.com
+https://www.facebook.com/sinchewdaily
+https://www.facebook.com/chinapressmy
+https://www.facebook.com/orientaldailynews
+
+# ---- NEWS TAMIL / INDIA (6) ----
+https://www.tamilnesan.com.my
+https://makkalosai.com.my
+https://www.malaysianindian.com
+https://www.facebook.com/makkalosai
+https://www.facebook.com/tamilnesannews
+https://www.facebook.com/MalaysianIndianNewsTV
+
+# ---- NEWS ENGLISH (8) ----
+https://www.thestar.com.my
+https://www.nst.com.my
+https://www.theedgemalaysia.com
+https://www.freemalaysiatoday.com
+https://www.themalaysianinsight.com
+https://malaysianow.com
+https://www.codeblue.galencentre.org
+https://www.scmp.com/topics/malaysia
+
+# ---- N9 PORTAL RASMI & KOMUNITI (4) ----
+https://ns.gov.my
+https://www.facebook.com/seremban.online
+https://www.facebook.com/N9portalrasmi
+https://www.facebook.com/InfoNegeriSembilan
+
+# ---- FACEBOOK PARTI RASMI (12) ----
+https://www.facebook.com/umno.org.my
+https://www.facebook.com/MyPasMalaysia
+https://www.facebook.com/PartiBersatuMalaysia
+https://www.facebook.com/PartiKEADILANRakyat
+https://www.facebook.com/dapmalaysia
+https://www.facebook.com/AmanahMalaysia
+https://www.facebook.com/MUDAmalaysia
+https://www.facebook.com/PNRasmi
+https://www.facebook.com/PakatanHarapanRasmi
+https://www.facebook.com/MCAOfficial
+https://www.facebook.com/MICparti
+https://www.facebook.com/GerakanRasmi
+
+# ---- FACEBOOK TOKOH N9 + NASIONAL RELEVAN (10) ----
+https://www.facebook.com/AminuddinHarun
+https://www.facebook.com/jalaluddinalias
+https://www.facebook.com/anwaribrahim
+https://www.facebook.com/ahmadzahidofficial
+https://www.facebook.com/HadiAwang
+https://www.facebook.com/tuanibrahimtuanman
+https://www.facebook.com/muhyiddinyassinofficial
+https://www.facebook.com/limguaneng
+https://www.facebook.com/Saifuddinabd
+https://www.facebook.com/RafiziRamli
+
+# ---- X LIVE SEARCH N9-SPECIFIC (6) ----
+https://x.com/search?q=PRN%20N9&f=live
+https://x.com/search?q=PRN%20Negeri%20Sembilan&f=live
+https://x.com/search?q=%23undin9&f=live
+https://x.com/search?q=RON95%20subsidi&f=live
+https://x.com/search?q=Adat%20Perpatih&f=live
+https://x.com/search?q=Tuanku%20Muhriz&f=live
+
+# ---- X AKAUN POLITIK + N9 (8) ----
+https://x.com/dsaminuddin
+https://x.com/anwaribrahim
+https://x.com/DrZahidHamidi
+https://x.com/MuhyiddinYassin
+https://x.com/RafiziRamli
+https://x.com/malaysiakini
+https://x.com/staronline
+https://x.com/fmtoday
+
+# ---- TIKTOK HASHTAGS N9 (7) ----
+https://www.tiktok.com/tag/prnn9
+https://www.tiktok.com/tag/undin9
+https://www.tiktok.com/tag/pilihanrayanegeri
+https://www.tiktok.com/tag/negerisembilan
+https://www.tiktok.com/tag/politikmalaysia
+https://www.tiktok.com/tag/malaysiamadani
+https://www.tiktok.com/tag/perpaduanummah
+
+# ---- TIKTOK AKAUN PEMIMPIN/PARTI (8) ----
+https://www.tiktok.com/@ahmadzahidhamidi
+https://www.tiktok.com/@anwaribrahim
+https://www.tiktok.com/@hadiawang
+https://www.tiktok.com/@muhyiddinyassin
+https://www.tiktok.com/@umnoofficial
+https://www.tiktok.com/@dapofficial
+https://www.tiktok.com/@bersatuofficial
+https://www.tiktok.com/@pasofficial
+
+# ---- YOUTUBE CHANNELS (10) ----
+https://www.youtube.com/@AstroAwani
+https://www.youtube.com/@bernamatv
+https://www.youtube.com/@bharianmy
+https://www.youtube.com/@sinarharian
+https://www.youtube.com/@malaysiakini
+https://www.youtube.com/@fmtoday
+https://www.youtube.com/@TVSinChew
+https://www.youtube.com/@chinapressmy
+https://www.youtube.com/@orientaldailymy
+https://www.youtube.com/@MalaysianIndian
+
+# ---- INSTAGRAM (6) ----
+https://www.instagram.com/anwaribrahim
+https://www.instagram.com/ahmadzahidhamidi
+https://www.instagram.com/aminuddin.harun.10
+https://www.instagram.com/dapmalaysia
+https://www.instagram.com/umnoonline
+https://www.instagram.com/sinchewdaily
+
+# ---- THREADS (5) ----
+https://www.threads.net/@anwaribrahim
+https://www.threads.net/@malaysiakini
+https://www.threads.net/@dapmalaysia
+https://www.threads.net/@thestaronline
+https://www.threads.net/@umnoonline
+
+
+# =============================================================
+# BAHAGIAN C — N9 LOCAL (per-daerah, DUN, ADUN, FELDA, royal) (23)
+# =============================================================
+
+# ---- N9 · PER-DAERAH NEWS & KOMUNITI (6) ----
+https://www.facebook.com/groups/N.Sembilan/
+https://www.facebook.com/negeriSembilainfokini/
+https://www.facebook.com/groups/serembankarthiben/
+https://www.facebook.com/p/Pusat-Khidmat-Parlimen-Jempol-P127-100064718231007/
+https://www.facebook.com/pknns/
+https://www.facebook.com/chhsban/
+
+# ---- N9 · DUN COMMUNITY & DAERAH (3) ----
+https://www.facebook.com/groups/904933056270538/
+https://www.facebook.com/klinikpenawarns.my/
+https://www.facebook.com/ijmseremban2/
+
+# ---- N9 · POLITIK INFLUENCERS & ADUN (3) ----
+https://www.facebook.com/arul.jambunathan/
+https://www.facebook.com/beritaks/
+https://x.com/dsaminuddin
+
+# ---- N9 · ROYAL / ADAT PERPATIH WATCH (2) [do_not_train=true] ----
+https://www.instagram.com/tz.n9/
+https://www.facebook.com/groups/925453278347475/
+
+# ---- N9 · FELDA / KOMUNITI LUAR BANDAR (1) ----
+https://www.facebook.com/groups/461729267900126/
+
+# ---- N9 · UNIVERSITI (2) ----
+https://x.com/usim
+https://www.facebook.com/INTI.edu/
+
+
+# =============================================================
+# LANGKAH SELEPAS CRAWL
+#   1. Export CSV hasil crawl dari InsightPulse
+#   2. Letak di master crawl N9 (folder pas_break / master)
+#   3. Jalankan: python3 scripts/build_warroom_production_bundle.py
+#      -> auto re-tag per-DUN (16-isu + lokaliti) + kira semula AP
+#   4. Hard refresh dashboard -> chip AP kelabu(?) bertukar padat
+#
+# SASARAN KEYAKINAN (per DUN):
+#   Rendah(?) = 1-7 mention  |  Sederhana = >=8  |  Tinggi = >=30
+# =============================================================

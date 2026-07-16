@@ -1,0 +1,28 @@
+# CULA DIGITAL — N17 Senaling (seed post URLs)
+# ==========================================================
+# Tier: IMBANG · Daerah: Kuala Pilah
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Senaling (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N17
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Senaling; Terachi
+# ISU TEMPATAN: luar bandar; pertanian; Adat Perpatih
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "area Senaling — BN ke PAS ke PH yg lebih sesuai kali ni?"
+#   "tengok Senaling, ramai bincang pasal luar bandar. korang macam mana?"
+#   "agaknya kerusi Senaling flip ke kali ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Senaling atau Senaling
+#   • Post sebut Senaling atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

@@ -1,0 +1,28 @@
+# CULA DIGITAL — N31 Bagan Pinang (seed post URLs)
+# ==========================================================
+# Tier: WAJIB-PAS23 · Daerah: Port Dickson
+#
+# ALIRAN (sama semua 36 DUN):
+#   1. Post santai di kumpulan/halaman TEMATAN Bagan Pinang (bukan page parti rasmi)
+#   2. Biar 2–3 hari — biar komen organik masuk
+#   3. Salin URL post (bukan profil) ke bawah
+#   4. Crawl: python3 scripts/crawl_cula_seed_batches_n9.py --code N31
+#      atau InsightPulse Direct URL → paste URL dari fail ini
+#
+# LOKASI / LANDMARK: Pengkalan Tentera; Si Rusa
+# ISU TEMPATAN: tentera; askar; veteran
+#
+# CONTOH GAYA POST (santai, bukan formal):
+#   "agaknya di Bagan Pinang ni PAS menang ok ke? tengok ramai bincang pasal tentera je"
+#   "korang area Pengkalan Tentera — undi kali ni ikut parti ke ikut calon?"
+#   "siapa lagi kat Bagan Pinang rasa tentera makin susah ni?"
+#
+# KRITERIA URL TEMATAN:
+#   • Kumpulan FB / TikTok / Threads warga Bagan Pinang atau Pengkalan Tentera
+#   • Post sebut Bagan Pinang atau isu tempatan dalam teks/komen
+#   • Bukan URL profil/halaman — hanya URL POST spesifik
+#
+# LOG SEED (pasukan isi bila hantar):
+# seed_date | platform | group/page | post_url | nota
+#
+# PASTE URL POST DI BAWAH:

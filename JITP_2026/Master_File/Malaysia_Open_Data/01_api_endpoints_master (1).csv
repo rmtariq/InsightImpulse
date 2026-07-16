@@ -1,0 +1,30 @@
+﻿ID,Sumber,Kategori,Method,Base_URL,Endpoint,Params_Contoh,Auth_Required,Format,Kemas_Kini,Nota
+1a,BNM OpenAPI,OPR,GET,https://apikijangportal.bnm.gov.my,/opr,-,Tiada,JSON,Harian,Header: Accept: application/vnd.BNM.API.v1+json
+1b,BNM OpenAPI,Kadar Tukaran,GET,https://apikijangportal.bnm.gov.my,/exchange-rate/{currency},"currency=USD,SGD,EUR",Tiada,JSON,Harian,ISO 4217 currency code
+1c,BNM OpenAPI,Base Rate,GET,https://apikijangportal.bnm.gov.my,/base-rate,-,Tiada,JSON,Bulanan,BLR/BR bank-bank utama
+1d,BNM OpenAPI,Kijang Emas,GET,https://apikijangportal.bnm.gov.my,/kijang-emas,-,Tiada,JSON,Harian,Harga emas BNM
+1e,BNM OpenAPI,USD/MYR Reference,GET,https://apikijangportal.bnm.gov.my,/usdmyr-reference-rate,-,Tiada,JSON,Harian,Reference rate rasmi
+1f,BNM OpenAPI,Interbank Swap,GET,https://apikijangportal.bnm.gov.my,/interbank-swap,-,Tiada,JSON,Harian,-
+2a,OpenDOSM,CPI Negeri N9,GET,https://api.data.gov.my/data-catalogue,?id=cpi_state&filter=state__icontains=Negeri+Sembilan,limit=100&sort=-date,Tiada,JSON,Bulanan,13 kumpulan CPI mengikut negeri
+2b,OpenDOSM,CPI Nasional,GET,https://api.data.gov.my/data-catalogue,?id=cpi_headline,limit=24&sort=-date,Tiada,JSON,Bulanan,Benchmark nasional
+2c,OpenDOSM,GDP/KDNK,GET,https://api.data.gov.my/data-catalogue,?id=gdp_lookup,limit=20&sort=-date,Tiada,JSON,Suku tahun,KDNK nasional; negeri = tahunan sahaja
+2d,OpenDOSM,MEI Indicators CSV,GET (CSV),https://storage.dosm.gov.my,/mei/mei.csv,-,Tiada,CSV,Bulanan,Leading/lagging/coincidence indicators
+2e,OpenDOSM,CPI State Direct,GET (CSV),https://storage.dosm.gov.my,/cpi/cpi_2d_state.parquet,-,Tiada,Parquet,Bulanan,Parse dengan pandas
+3a,data.gov.my (MIDA),Pelaburan Pembuatan,GET,https://api.data.gov.my/data-catalogue,?id=manufacturing_approved_state,filter=state=Negeri Sembilan&limit=50,Tiada,JSON,Tahunan,Projek diluluskan per negeri
+3b,data.gov.my (MIDA),Pelaburan Perkhidmatan,GET,https://api.data.gov.my/data-catalogue,?id=services_approved,filter=state=Negeri Sembilan,Tiada,JSON,Tahunan,-
+3c,data.gov.my (MIDA),Pekerjaan Diciptakan,GET,https://api.data.gov.my/data-catalogue,?id=mfg_job_industry,filter=state=Negeri Sembilan,Tiada,JSON,Tahunan,-
+3d,data.gov.my (MIDA),Archive Download,Web Download,https://archive.data.gov.my/data/en_US/organization/,mida?res_format=XLSX,-,Tiada,XLSX/CSV,Tahunan,Manual download dari portal
+4a,iTick API (Free),KLCI Index,GET,https://api-free.itick.org,/indices/quote?symbol=KLCI&region=MY,-,Token free tier,JSON,Real-time,Free tier - terhad requests
+4b,iTick API (Free),Stock Quote Bursa,GET,https://api-free.itick.org,/stock/quote,symbol=MAY (Maybank),Token free tier,JSON,Real-time,Guna ticker Bursa Malaysia
+4c,iTick API (Free),Historical OHLCV,GET,https://api-free.itick.org,/stock/kline,symbol=&period=1D&startTime=&endTime=,Token free tier,JSON,Harian,-
+4d,Yahoo Finance (Unofficial),KLCI Sejarah,GET,https://query1.finance.yahoo.com/v8/finance/chart/,%5EKLSE?range=1mo&interval=1d,-,Tiada,JSON,Harian,TIDAK RASMI - testing sahaja
+5a,MPOB BEPI,Harga CPO Bulanan,Web Scrape,https://bepi.mpob.gov.my,/index.php/monthly-release,-,Tiada,PDF/HTML,Bulanan,Tiada REST API rasmi
+5b,MPOB Price Portal,Harga TBS PDF,GET PDF,https://price.mpob.gov.my/pdf/monthly/release/,{YYYY-MM-01},2026-06-01,Tiada,PDF,Bulanan,Perlu parse PDF
+5c,OpenDOSM (CPO),Pengeluaran CPO,GET (CSV),https://storage.dosm.gov.my,/ipi/ipi_2d.csv,Filter: Palm oil,Tiada,CSV,Bulanan,Data pengeluaran bukan harga
+5d,Barchart (MPOB),MPOB Commercial Feed,GET,https://www.barchart.com/solutions/,data/market/CSTATS_MPOB,-,Berbayar,JSON/FTP,Real-time,Commercial - ada kos
+6a,data.gov.my (SME),Program SME Corp,GET,https://api.data.gov.my/data-catalogue,?id=sme_programmes&limit=100,-,Tiada,JSON,Tahunan,Aggregate nasional
+6b,OpenDOSM Business,Demografi Perniagaan N9,GET,https://api.data.gov.my/data-catalogue,?id=business_demography_state,filter=state=Negeri Sembilan,Tiada,JSON,Tahunan,Bukan SME spesifik
+6c,DOSM Business CSV,Pendaftaran Perniagaan,GET (CSV),https://storage.dosm.gov.my/business/,business_demography.csv,-,Tiada,CSV,Tahunan,Parse dengan pandas/PapaParse
+6d,SME Corp (Formal),Data Terperinci SME,Form Request,https://smecorp.gov.my,request-for-sme-corp-malaysia-data,-,Form + Kelulusan,Excel/PDF,On Request,Email: comms@smecorp.gov.my
+7a,Data Raja (Local),PRN N9 2023 DUN,Local File,n9_prn_social_media_crawler_seed_list.xlsx,-,-,Tiada,XLSX,Static,"36 DUN, incumbents, parties, majorities"
+7b,SPR (Manual),Keputusan PRN Rasmi,Web,https://www.spr.gov.my,/result,-,Tiada,Web/PDF,Per PRN,Download selepas keputusan rasmi

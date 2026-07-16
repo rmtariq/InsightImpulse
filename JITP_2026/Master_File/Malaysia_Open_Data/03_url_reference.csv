@@ -1,0 +1,26 @@
+﻿Sumber,Fungsi,URL_Penuh,Format_Response,Contoh_Field
+BNM OpenAPI Portal,Dokumentasi API,https://apikijangportal.bnm.gov.my,Web Portal,-
+BNM OPR,OPR semasa,https://apikijangportal.bnm.gov.my/opr,JSON,"date, opr_rate"
+BNM Exchange Rate USD,USD/MYR,https://apikijangportal.bnm.gov.my/exchange-rate/USD?session=1130&quote=rm,JSON,"buying_rate, selling_rate, middle_rate"
+BNM Exchange Rate SGD,SGD/MYR,https://apikijangportal.bnm.gov.my/exchange-rate/SGD?session=1130&quote=rm,JSON,"buying_rate, selling_rate, middle_rate"
+BNM Base Rate,Kadar asas bank,https://apikijangportal.bnm.gov.my/base-rate,JSON,"bank_name, base_rate, base_lending_rate"
+BNM Kijang Emas,Harga emas,https://apikijangportal.bnm.gov.my/kijang-emas,JSON,"buying_price, selling_price"
+OpenDOSM CPI N9,CPI bulanan N9,https://api.data.gov.my/data-catalogue?id=cpi_state&filter=state__icontains=Negeri+Sembilan&limit=100&sort=-date,JSON,"date, state, division, index"
+OpenDOSM CPI National,CPI nasional,https://api.data.gov.my/data-catalogue?id=cpi_headline&limit=24&sort=-date,JSON,"date, cpi, inflation_rate"
+OpenDOSM GDP,KDNK Malaysia,https://api.data.gov.my/data-catalogue?id=gdp_lookup&limit=20&sort=-date,JSON,"date, gdp, growth"
+OpenDOSM MEI CSV,Economic Indicators,https://storage.dosm.gov.my/mei/mei.csv,CSV,"date, leading, coincident, lagging"
+OpenDOSM CPI State Parquet,CPI semua negeri,https://storage.dosm.gov.my/cpi/cpi_2d_state.parquet,Parquet,Guna pandas untuk baca
+DOSM Business Demography CSV,Demografi perniagaan,https://storage.dosm.gov.my/business/business_demography.csv,CSV,"state, year, category, count"
+data.gov.my MIDA Manufacturing,Pelaburan pembuatan,https://api.data.gov.my/data-catalogue?id=manufacturing_approved_state&filter=state__icontains=Negeri+Sembilan&limit=50,JSON,"year, state, projects, investment_rm"
+data.gov.my SME Programmes,Program SME,https://api.data.gov.my/data-catalogue?id=sme_programmes&limit=100,JSON,"programme, sector, beneficiaries"
+data.gov.my Business N9,Demografi perniagaan N9,https://api.data.gov.my/data-catalogue?id=business_demography_state&filter=state__icontains=Negeri+Sembilan&limit=50,JSON,"state, year, size_category, count"
+MIDA Archive Download,Download manual MIDA,https://archive.data.gov.my/data/en_US/organization/malaysian-investment-development-authority-mida?res_format=XLSX,XLSX/CSV,Manual download
+iTick Docs,Dokumentasi iTick,https://docs.itick.org/en/api-url,Web Docs,-
+iTick KLCI Quote,KLCI real-time,https://api-free.itick.org/indices/quote?symbol=KLCI&region=MY,JSON,"symbol, close, change, changePct"
+Yahoo Finance KLCI (Unofficial),KLCI sejarah testing,https://query1.finance.yahoo.com/v8/finance/chart/%5EKLSE?range=1mo&interval=1d,JSON,"timestamp, close, volume"
+MPOB BEPI Monthly,Harga sawit bulanan,https://bepi.mpob.gov.my/index.php/monthly-release,HTML/PDF,Manual scrape/download
+MPOB Price PDF 2026-06,Contoh PDF Jun 2026,https://price.mpob.gov.my/pdf/monthly/release/2026-06-01,PDF,"CPO price, TBS price per state"
+SME Corp Data Request,Permohonan data SME,https://smecorp.gov.my/index.php/en/resources/2020-02-14-08-25-09/request-for-sme-corp-malaysia-data,Form,Email: comms@smecorp.gov.my
+developer.data.gov.my,Dokumentasi API,https://developer.data.gov.my,Web Docs,-
+OpenDOSM Dashboards,Dashboard DOSM rasmi,https://open.dosm.gov.my/dashboard,Web,-
+BNM FMIP OPR History,Sejarah OPR,https://financialmarkets.bnm.gov.my/data-download-opr,Web/Excel,Manual download

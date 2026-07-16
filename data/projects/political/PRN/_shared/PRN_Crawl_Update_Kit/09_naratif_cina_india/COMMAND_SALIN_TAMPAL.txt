@@ -1,0 +1,24 @@
+COMMAND SALIN-TAMPAL — NARATIF CINA & INDIA
+============================================
+
+cd /Users/rmtariq/Documents/InsightPulse
+
+# ── HARIAN (2×) ──────────────────────────────────────────────
+./scripts/update_narrative.sh pagi
+./scripts/update_narrative.sh petang
+
+# ── CEPAT (data sedia crawl) ─────────────────────────────────
+./scripts/update_narrative.sh
+
+# ── PENUH (mingguan / pre-briefing) ──────────────────────────
+./scripts/update_narrative.sh penuh
+./scripts/update_narrative.sh laporan
+
+# ── JOHOR (pariti N9 — semua stream Cina Johor) ───────────────
+./scripts/update_narrative.sh johor
+
+# ── BUKA WAR ROOM → pilih negeri Johor ───────────────────────
+bash scripts/start_prn_warroom_prototype.sh
+# http://localhost:8080/?module=narrative&state=Johor
+
+# Hard refresh browser: Cmd+Shift+R

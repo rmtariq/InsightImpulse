@@ -1,0 +1,540 @@
+Platform,Type,ID,Text,Parent_Post_URL,Parent_Post_ID,Sentiment,Date,likes,shares,comments_count,views,sentiment_score,total_engagement,URL,video_url,media_type,engagement_score,author,author_followers,derived_error,sentiment_label,sentiment_confidence,detected_language,demographic,author_demographic,author_demo_confidence,emotion_primary,emotion_anger,emotion_fear,emotion_happy,emotion_sadness,emotion_love,emotion_surprise
+tiktok,post,7621905543061327124,"ADZAN KURDI X ASJAL RUWHI VERSI FULL🙌🏻
+banyak yang request minta fullnya disini🙏🏻
+#asjalruwhi #adzanviral #adzanmerdu #muslim #fyp",,,neutral,2026-07-08 18:55:34.370245+00:00,236500,8477,2562,4200000,0.5,289539,https://www.tiktok.com/@ahmd_dhafa_az/video/7621905543061327124,https://www.tiktok.com/@ahmd_dhafa_az/video/7621905543061327124,video,265340.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ahmd_dhafa_az/video/7621905543061327124...: Failed to load video from https://www.tiktok.com/@ahmd_dhafa_az/video/7621905543061327124: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.949350893497467,malay,Malay/Bumiputera,Unknown,0.0,love,0.11386749148368835,0.10963035374879837,0.049349345266819,0.09948907047510147,0.5415685176849365,0.03851747512817383
+tiktok,post,7422661292579638536,"এই কথাটা যতবারই শুনি 
+ ততবারি চোখে পানি চলে আসে।
+🎙️ Mijanur rohman ajhari 
+#মিজানুর_রহমান_আজহারী #tiktokbangladesh🇧🇩 #foruyou #fyp #islamic_video @TikTok @For You",,,neutral,2026-07-08 18:55:41.838654+00:00,178000,13500,3531,1300000,0.5,208031,https://www.tiktok.com/@ababeel_tv_24/video/7422661292579638536,https://www.tiktok.com/@ababeel_tv_24/video/7422661292579638536,video,216893.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ababeel_tv_24/video/7422661292579638536...: Failed to load video from https://www.tiktok.com/@ababeel_tv_24/video/7422661292579638536: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.7895972728729248,english,Mixed/Urban,Unknown,0.0,love,0.0497087687253952,0.029051415622234344,0.03996461629867554,0.053057387471199036,0.6728374361991882,0.04480036720633507
+tiktok,post,7567419281919511864,#burçlar #fall #zenginlik #bollukbereket #tarot,,,neutral,2026-07-08 18:55:54.006258+00:00,78800,15400,18200,753000,0.5,119930,https://www.tiktok.com/@zaru.bilge/video/7567419281919511864,https://www.tiktok.com/@zaru.bilge/video/7567419281919511864,video,164953.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@zaru.bilge/video/7567419281919511864...: Failed to load video from https://www.tiktok.com/@zaru.bilge/video/7567419281919511864: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8647816777229309,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.09792231023311615,0.033284444361925125,0.08636780828237534,0.036401018500328064,0.29129600524902344,0.03648696094751358
+tiktok,post,7623774021167041813,"Petronas berkata walaupun Malaysia merupakan negara pengeluar minyak, negara ini masih terkesan kerana hampir 40 peratus keperluan minyak mentah negara melalui Selat Hormuz.
+
+#beritaviral #beritasemasa #trendingnewsmalaysia #viralnews #malaysiatribune #petronas",,,negative,2026-07-08 18:55:49.808822+00:00,56600,22700,1567,1700000,0.003962445259094227,97867,https://www.tiktok.com/@malaysiatribune/video/7623774021167041813,https://www.tiktok.com/@malaysiatribune/video/7623774021167041813,video,108401.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@malaysiatribune/video/7623774021167041813...: Failed to load video from https://www.tiktok.com/@malaysiatribune/video/7623774021167041813: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9867918491363525,malay,Malay/Bumiputera,Unknown,0.0,love,0.02230517379939556,0.033197470009326935,0.059822287410497665,0.02848602831363678,0.3452494442462921,0.2470977008342743
+tiktok,post,7658428168046480648,Ağzı açık ayran delisi gibi bakmak bu olsa gerek ulen dayko sen bizi güldürdün ya ALLAH ta seni güldürsün🤣🤣🤣🤣🤣,,,negative,2026-07-08 18:56:02.263863+00:00,27700,32400,1328,1700000,0.10278787314891816,78428,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,video,98184.0,,,"HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Read timed out. (read timeout=300)",negative,0.6573737561702728,multilingual,Unknown,Unknown,0.0,love,0.04731879383325577,0.02917577140033245,0.05178900063037872,0.03231428191065788,0.734921395778656,0.02436443418264389
+tiktok,comment,7658611622814434055,Amcam sizce hangi partiye oy vermiştir 😅,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,7658428168046480648,negative,2026-07-04 10:04:45+00:00,625,0,83,0,0.10527501851320267,791,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,,,,akin_dilaver,0.0,,negative,0.6490832716226578,multilingual,Unknown,Unknown,0.25,love,0.03875012695789337,0.02492997981607914,0.04052817448973656,0.04251561313867569,0.5282483100891113,0.06579954922199249
+tiktok,comment,7658600830497932033,adam gariban dalga geçmeyin..,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,7658428168046480648,negative,2026-07-04 09:23:39+00:00,334,0,9,0,0.14521986097097397,352,https://www.tiktok.com/@ayaz.rzgar37/video/7658428168046480648,,,,emr2323,0.0,,negative,0.5159337967634201,multilingual,Unknown,Unknown,0.25,anger,0.2236785590648651,0.14614392817020416,0.04317176342010498,0.05565910413861275,0.21376752853393555,0.10694727301597595
+tiktok,post,7651195483825769735,"13.06.2026...
+LEPAS RNR BANJARAN TITIWANGSA MENGHALA KE TASIK BANDING...",,,neutral,2026-07-08 18:55:38.537413+00:00,66700,1252,3577,1400000,0.5,85529,https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,video,81335.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735...: Failed to load video from https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.9027015566825867,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.08445590734481812,0.029631342738866806,0.045549675822257996,0.017635585740208626,0.09079748392105103,0.03730879724025726
+tiktok,comment,7651549662436819733,"terima kasih tuan..kerana bantu, ni adik saya..masa kejadian berlaku saya pun buntu dan risau kerana berada jauh di kampung ..sedang bersiap nk gerak ke tmpt tu, Allah hantarkan abg dan family utk bantu..syukran..moga Allah balas jasa baik abg sekeluarga..insha Allah..",https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,7651195483825769735,positive,2026-06-15 09:20:49+00:00,4788,0,33,0,0.999401170015335,4854,https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,,,,mh_shoppe,0.0,,positive,0.9980039000511169,malay,Malay/Bumiputera,Unknown,0.25,fear,0.1366605907678604,0.5936575531959534,0.025391381233930588,0.03756003454327583,0.08260707557201385,0.0395549051463604
+tiktok,comment,7651570946592080647,dia dok mana..kalau tak silap dia bagi tau dia nak pi kerja di Kelantan.,https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,7651195483825769735,negative,2026-06-15 10:43:19+00:00,596,0,0,0,0.000495779514312733,596,https://www.tiktok.com/@rescue0l95440532/video/7651195483825769735,,,,rescue0l95440532,0.0,,negative,0.9983474016189575,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.05104202404618263,0.041509635746479034,0.021944915875792503,0.08173166960477829,0.2636040449142456,0.215142160654068
+tiktok,post,7655309122665024800,"-Resul'ü Ekrem Aleyhissalatu Vesselam ve onun ümmeti 
+#islamic_video #allah❤️ #namaz #huzur #keşfetteyizzz",,,positive,2026-07-08 18:55:54.970760+00:00,48200,2298,932,512700,0.8755302667617797,56557,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,video,56104.7,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800...: Failed to load video from https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.5851008892059326,english,Mixed/Urban,Unknown,0.0,love,0.07727999240159988,0.028852930292487144,0.07934928685426712,0.042861003428697586,0.5865519642829895,0.02900002896785736
+tiktok,comment,7656417340410610440,arada bu yurumu beğenin tekrar aklıma gelsin,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,7655309122665024800,positive,2026-06-28 12:09:47+00:00,361,0,1,0,0.8594839066267013,363,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,,,,kerem.56721,0.0,,positive,0.5316130220890045,multilingual,Unknown,Unknown,0.25,love,0.0530858039855957,0.03814880549907684,0.0329938568174839,0.03467072919011116,0.6962865591049194,0.08043745905160904
+tiktok,comment,7656494641193681686,♥️,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,7655309122665024800,positive,2026-06-28 17:09:49+00:00,19,0,0,0,0.8858568966388702,19,https://www.tiktok.com/@huzur.kapis1/video/7655309122665024800,,,,huzur.kapis1,0.0,,positive,0.6195229887962341,multilingual,Unknown,Unknown,0.25,love,0.11354613304138184,0.07307533174753189,0.057745885103940964,0.06563854217529297,0.5403386950492859,0.053585171699523926
+tiktok,post,7600429633418382599,"Bu ülkede hapishane yok 🚫
+Ordu yok ❌
+Hatta polis bile yok 😳
+
+Ama buna rağmen,
+Avrupa’nın en zengin 💰
+ve en gelişmiş 🌍 ülkelerinden biri.
+
+⏳ Ortalama yaşam süresi 85 yıl
+⚔️ Bin yıldır tek bir savaş bile yok
+🏔️ İspanya ile Fransa arasında,
+Pireneler’in kalbinde gizli bir ülke…
+
+Evet, burası Andorra 🇦🇩
+
+💸 Vergi cenneti
+🏠 Yaşam maliyeti düşük
+❤️ İnsanları sıcak kanlı,
+misafirperverlik ise gerçekten üst seviye
+
+Peki sen?
+Andorra’da yaşamak ister miydin? 🤔👇
+Yorumlara yaz, fikrini görelim 💬  🔔 Böyle ilginç ülkeler, kültürler ve şaşırtan bilgiler için
+takip etmeyi unutma.  
+
+‼️İçerikte kullanılan materyaller bilgilendirme amaçlıdır, telif hakkı ihlali amacı taşımaz. Talep edilirse kaldırılır.
+
+‼️the materials used in this content are for informational purposes only and are not intended for copyright infringement. They will be removed upon request.
+
+#andorra 
+#keşfet 
+#travel 
+#didyouknow 
+#ExploreMore",,,neutral,2026-07-08 18:56:03.223783+00:00,32700,3258,469,1400000,0.5,50427,https://www.tiktok.com/@bir_dunya_seyahat/video/7600429633418382599,https://www.tiktok.com/@bir_dunya_seyahat/video/7600429633418382599,video,42023.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@bir_dunya_seyahat/video/7600429633418382599...: Failed to load video from https://www.tiktok.com/@bir_dunya_seyahat/video/7600429633418382599: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.768789529800415,english,Mixed/Urban,Unknown,0.0,surprise,0.01801970601081848,0.027477150782942772,0.030699295923113823,0.01864076778292656,0.1082344576716423,0.4768562912940979
+tiktok,post,7643500994956922133,"Zilhicce'nin en kıymetli, duaların en makbul olduğu o mübarek güne, Arife gününe kavuşmanın tarifsiz huzurunu yaşıyoruz. Bugün, ellerimizi semaya açıp kalbimizden geçenleri Rabbimize fısıldama, eksiklerimiz için af dileme ve ruhumuzu yenileme vaktidir. ""Duaların en hayırlısı Arife günü yapılan duadır"" sırrına mazhar olabilmek ümidiyle; bu feyizli günde kendimiz, ailemiz ve tüm insanlık için sağlık, barış ve merhamet diliyoruz. Rabbim ettiğimiz tüm duaları ve içimizden geçen samimi niyetleri dergâh-ı izzetinde kabul eylesin. 🤲🏻✨
+Yarın idrak edeceğimiz Kurban Bayramı öncesinde, niyet ettiğimiz kurbanların ve yapacağımız ibadetlerin bizi O'na daha da yakınlaştırmasını temenni ediyorum. Kırgınlıkların yerini muhabbete bıraktığı, sevgi ve yardımlaşmanın hanelerimizden eksik olmadığı, sevdiklerimizle omuz omuza vereceğimiz bereketli bir bayram sabahına uyanmak duasıyla... Şimdiden hepimizin Arife günü mübarek olsun! 🕊️🕋 #ArifeGünü #KurbanBayramı #Dua #Huzur #keşfet",,,neutral,2026-07-08 18:55:45.335132+00:00,17500,6015,3576,317400,0.5,30265,https://www.tiktok.com/@duaileislammm/video/7643500994956922133,https://www.tiktok.com/@duaileislammm/video/7643500994956922133,video,40575.4,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@duaileislammm/video/7643500994956922133...: Failed to load video from https://www.tiktok.com/@duaileislammm/video/7643500994956922133: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8465408682823181,english,Mixed/Urban,Unknown,0.0,happy,0.042823709547519684,0.0834466964006424,0.5578461289405823,0.02898184210062027,0.23332493007183075,0.02081744372844696
+tiktok,post,7647644176070348040,"Bazı dualar vardır, kalpten çıktığı için kalbe ulaşır… Bu videoda yıllardır umre hasretiyle yaşayan kıymetli bir büyüğümüzün içten duasına şahit olacaksınız. Yoldan geçen gençlere dua ederken dilinden şu sözler dökülüyor:
+
+“Lebbeyk Allahümme Lebbeyk. Lebbeyke lâ şerîke leke lebbeyk. İnnel hamde ve’n-ni’mete leke vel mülk. Lâ şerîke lek.”
+
+Anlamı: “Buyur Allah’ım, buyur! Senin hiçbir ortağın yoktur, buyur! Hamd de nimet de mülk de yalnızca Senindir. Senin hiçbir ortağın yoktur.”
+
+Rabbim bu güzel amcamıza ve umre hasreti çeken tüm kardeşlerimize en kısa zamanda Beytullah’ı görmeyi nasip eylesin. Âmin.
+
+#Umre #Lebbeyk #Dua #Kabe #Amin",,,positive,2026-07-08 18:55:45.730185+00:00,31000,1337,1346,422900,0.8512024164199828,37912,https://www.tiktok.com/@efekocx/video/7647644176070348040,https://www.tiktok.com/@efekocx/video/7647644176070348040,video,38134.9,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@efekocx/video/7647644176070348040...: Failed to load video from https://www.tiktok.com/@efekocx/video/7647644176070348040: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.5040080547332764,multilingual,Unknown,Unknown,0.0,love,0.030648207291960716,0.02793111838400364,0.11190436035394669,0.029647858813405037,0.6710334420204163,0.038263339549303055
+tiktok,post,7631590230327397650,#CapCut  video lama tapi baru sekarang ak upload keseruan kak lala sama dek valen #valenda7 #sahabatvalenbangkalan,,,negative,2026-07-08 18:55:48.549644+00:00,35900,504,213,539500,0.15362694561481474,42012,https://www.tiktok.com/@kurnia07_3/video/7631590230327397650,https://www.tiktok.com/@kurnia07_3/video/7631590230327397650,video,38086.5,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@kurnia07_3/video/7631590230327397650...: Failed to load video from https://www.tiktok.com/@kurnia07_3/video/7631590230327397650: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.4879101812839508,multilingual,Unknown,Unknown,0.0,love,0.02918066270649433,0.024154186248779297,0.023931194096803665,0.034475233405828476,0.6470178961753845,0.08608780801296234
+tiktok,comment,7650495541319254801,Owhhh iniii juleee,https://www.tiktok.com/@kurnia07_3/video/7631590230327397650,7631590230327397650,negative,2026-06-12 13:10:39+00:00,739,0,17,0,0.18275278061628342,773,https://www.tiktok.com/@kurnia07_3/video/7631590230327397650,,,,auliac35,0.0,,negative,0.3908240646123886,multilingual,Unknown,Unknown,0.25,love,0.056994933634996414,0.028857098892331123,0.04191172868013382,0.02838606759905815,0.7655144333839417,0.01714934967458248
+tiktok,post,7590304952367451412,মাইকের জন্য রেগে গেলেন জন কল্যান পার্টির নেতা খাইরুল #khairuldewan #খাইরুলদেওয়ান #foryou #tiktokviral,,,neutral,2026-07-08 18:55:36.261146+00:00,30300,2047,699,914200,0.5,42188,https://www.tiktok.com/@kmkhairuldewan12/video/7590304952367451412,https://www.tiktok.com/@kmkhairuldewan12/video/7590304952367451412,video,37405.2,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@kmkhairuldewan12/video/7590304952367451412...: Failed to load video from https://www.tiktok.com/@kmkhairuldewan12/video/7590304952367451412: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.7049987316131592,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.06095895171165466,0.01672443188726902,0.07012248039245605,0.02828887663781643,0.36733803153038025,0.026648208498954773
+tiktok,post,7449235242084306184,"Tiramisu Viral but make it 4 flavours ! 🤩 Ada peniaga yang jual tepi jalan atau popup booth kat sini? 🙋🏻‍♀️ Korang boleh masuk dalam list siap2 jual Tiramisu berbagai flavour ni untuk tambah menu jualan 😋
+
+Kak D ajar cara buat dalam loyang dan dalam bekas macamni jugak tau, dua dua nampak menarik tapi ada juga customer yang suka lagi dalam bekas lagi mudah nak makan kan 🥰
+
+Resepi kak D ni memang approved kalau nak jual tepi jalan sebab boleh tahan suhu luar 
+
+Siapa nak join belajar full resepi? #tiramisu #misu #tiramisurecipe",,,positive,2026-07-08 18:55:26.964696+00:00,18800,4132,160,725800,0.9994086086750029,30350,https://www.tiktok.com/@mimpicakes/video/7449235242084306184,https://www.tiktok.com/@mimpicakes/video/7449235242084306184,video,28269.8,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mimpicakes/video/7449235242084306184...: Failed to load video from https://www.tiktok.com/@mimpicakes/video/7449235242084306184: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9980286955833435,malay,Malay/Bumiputera,Unknown,0.0,love,0.03521466627717018,0.015307016670703888,0.2046169936656952,0.016467377543449402,0.5282862782478333,0.04052470251917839
+tiktok,post,7349843459039071493,#thr #gaji13 #tniindonesia🇮🇩 #tni #bravo #bravotni #banggadengantni,,,negative,2026-07-08 18:55:42.497553+00:00,15800,2333,1552,576900,0.14534033685922623,25454,https://www.tiktok.com/@info_sekitarr/video/7349843459039071493,https://www.tiktok.com/@info_sekitarr/video/7349843459039071493,video,25698.9,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@info_sekitarr/video/7349843459039071493...: Failed to load video from https://www.tiktok.com/@info_sekitarr/video/7349843459039071493: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.5155322104692459,multilingual,Unknown,Unknown,0.0,love,0.10008808225393295,0.0314311645925045,0.05516919121146202,0.03781677037477493,0.682295560836792,0.017358435317873955
+tiktok,post,7542597546359803144,Bertaraf ❤️‍🔥 #heijan #muti #canbaywolker #bertaraf #keşfet,,,positive,2026-07-08 18:55:59.427074+00:00,21300,753,60,921600,0.9489581167697906,31329,https://www.tiktok.com/@rozerapfm/video/7542597546359803144,https://www.tiktok.com/@rozerapfm/video/7542597546359803144,video,23907.6,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@rozerapfm/video/7542597546359803144...: Failed to load video from https://www.tiktok.com/@rozerapfm/video/7542597546359803144: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.8298603892326355,english,Mixed/Urban,Unknown,0.0,love,0.04877373203635216,0.01806039549410343,0.05699877068400383,0.016768518835306168,0.7060588002204895,0.01549256406724453
+tiktok,post,7359583097169415442,"Tunku Panglima Johor Tunku Abdul Rahman Ibrahim dismissed rumours of third-party involvement in the Pasir Gudang Circuit’s redevelopment, affirming their sole focus on transforming it into an international-grade track and establishing a grassroots academy.
+
+#tunkupanglimajohor  #tunkuabdulrahmanhassanaljefri  #tunkuabdulrahman  #pasirgudangcircuit  #johormotorsport  #motorsport  #motorsportmalaysia  #motorsportsracing  #newsattiktok  #beritatiktok  #beritaditiktok  #trendingnewsmalaysia  #beritaterkini",,,neutral,2026-07-08 18:55:29.529888+00:00,15400,1276,322,667700,0.5,23675,https://www.tiktok.com/@scoopdotmy/video/7359583097169415442,https://www.tiktok.com/@scoopdotmy/video/7359583097169415442,video,19585.7,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@scoopdotmy/video/7359583097169415442...: Failed to load video from https://www.tiktok.com/@scoopdotmy/video/7359583097169415442: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8802477717399597,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.06804578751325607,0.032781459391117096,0.11849455535411835,0.03411044552922249,0.22050230205059052,0.031269364058971405
+tiktok,post,7605556409685724436,"Ramai yang tanya apa dokumen perlu ada jika rtk 3.0 dibuka? 
+
+Jangan lupa save dan share video nie kepada kawan - kawan anda!
+#rtk #callingvisa #permit",,,positive,2026-07-08 18:55:52.092595+00:00,10200,3758,387,403000,0.999181193113327,18375,https://www.tiktok.com/@fowexnetwork/video/7605556409685724436,https://www.tiktok.com/@fowexnetwork/video/7605556409685724436,video,19280.0,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@fowexnetwork/video/7605556409685724436...: Failed to load video from https://www.tiktok.com/@fowexnetwork/video/7605556409685724436: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.9972706437110901,malay,Malay/Bumiputera,Unknown,0.0,love,0.050033971667289734,0.03573642671108246,0.03220050409436226,0.060938723385334015,0.5999357104301453,0.08890243619680405
+tiktok,post,7639318749945908487,"📹 SEMAKAN, RAYUAN DAN PERMOHONAN BAHARU SISTEM BANTUAN KASIH JOHOR
+
+Semakan, rayuan dan permohonan baharu Bantuan Kasih Johor (BKJ) Fasa 4 boleh dibuat menerusi Sistem Bantuan Kasih Johor di laman sesawang https://bkj.johor.gov.my mulai esok, 14 Mei 2026. Disertakan panduan semakan, rayuan dan permohonan baharu BKJ bagi memudahkan urusan pemohon. Jangan lupa 'like', 'comment' dan 'share' setiap 'posting' di semua platform Media Digital Johor.
+
+#JohorSafeZone
+#SistemBantuanKasihJohor
+#BKJFasa4
+#SuriRumah
+#WargaEmas",,,positive,2026-07-08 18:55:33.341922+00:00,5158,5316,449,265200,0.838747364282608,13575,https://www.tiktok.com/@mediadigitaljohor/video/7639318749945908487,https://www.tiktok.com/@mediadigitaljohor/video/7639318749945908487,video,17402.2,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@mediadigitaljohor/video/7639318749945908487...: Failed to load video from https://www.tiktok.com/@mediadigitaljohor/video/7639318749945908487: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.4624912142753601,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.028541037812829018,0.03222793713212013,0.03937208652496338,0.0296689011156559,0.13278080523014069,0.09698984026908875
+tiktok,post,7309951161824578822,#yengegeldi #yengegeldi27 #huzurbulanlar #huzurbulanlarhüseyinhocam ##keşfetedüş #kşf #fytp #fypシ゚ ##virall,,,neutral,2026-07-08 18:55:43.126207+00:00,12300,1883,173,704700,0.5,21403,https://www.tiktok.com/@serbest_magazin1/video/7309951161824578822,https://www.tiktok.com/@serbest_magazin1/video/7309951161824578822,video,17289.7,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@serbest_magazin1/video/7309951161824578822...: Failed to load video from https://www.tiktok.com/@serbest_magazin1/video/7309951161824578822: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8888640403747559,english,Mixed/Urban,Unknown,0.0,love,0.10188338905572891,0.04174382984638214,0.0975031852722168,0.03786524012684822,0.49834272265434265,0.030061593279242516
+tiktok,post,7657020760506076436,#rekkaciq😂🗿 #rekomendasi #creatorsearchinsights #repost #rekkkkkkkk🤍✈️✈️,,,neutral,2026-07-08 18:55:53.374523+00:00,8522,3034,647,297700,0.5,15180,https://www.tiktok.com/@_melek__092/video/7657020760506076436,https://www.tiktok.com/@_melek__092/video/7657020760506076436,video,16828.7,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@_melek__092/video/7657020760506076436...: Failed to load video from https://www.tiktok.com/@_melek__092/video/7657020760506076436: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",neutral,0.8237004280090332,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.05578000098466873,0.020150931552052498,0.08222353458404541,0.022015666589140892,0.23616527020931244,0.030966157093644142
+tiktok,comment,7657151308419334933,"борганда хайит байрам
+чикганда янги йил байрам 😅",https://www.tiktok.com/@_melek__092/video/7657020760506076436,7657020760506076436,negative,2026-06-30 11:37:59+00:00,214,0,16,0,0.13014409840106964,246,https://www.tiktok.com/@_melek__092/video/7657020760506076436,,,,merinos690,0.0,,negative,0.5661863386631012,multilingual,Unknown,Unknown,0.25,love,0.079795703291893,0.018077820539474487,0.052251871675252914,0.022653646767139435,0.6679092645645142,0.018510054796934128
+tiktok,comment,7657022396168717076,albatta uyga borganimda☺️,https://www.tiktok.com/@_melek__092/video/7657020760506076436,7657020760506076436,positive,2026-06-30 03:27:20+00:00,3,0,3,0,0.9454159557819366,9,https://www.tiktok.com/@_melek__092/video/7657020760506076436,,,,user5016539543745,0.0,,positive,0.8180531859397888,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.025488071143627167,0.11494132876396179,0.06226877123117447,0.01411652285605669,0.049646202474832535,0.3146122694015503
+tiktok,post,7564276604013235474,Replying to @aman._cr7#malaysiatiktok🇲🇾 #malaysiatiktok #malaysiatiktok🇲🇾❤️✌️,,,negative,2026-07-08 18:56:00.681248+00:00,10800,1732,611,219100,0.09383227676153183,15334,https://www.tiktok.com/@tareqfit/video/7564276604013235474,https://www.tiktok.com/@tareqfit/video/7564276604013235474,video,16316.1,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@tareqfit/video/7564276604013235474...: Failed to load video from https://www.tiktok.com/@tareqfit/video/7564276604013235474: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.6872257441282272,multilingual,Unknown,Unknown,0.0,love,0.0475371778011322,0.022162914276123047,0.027677828446030617,0.028334878385066986,0.7761743068695068,0.021669505164027214
+tiktok,post,7622237710039780616,Kenapa harga diesel di negara jiran lagi murah daripada Malaysia sedangkan malaysia adalah negara pengeluar minyak,,,negative,2026-07-08 18:55:42.809365+00:00,6045,3597,642,125400,0.0004899680614471325,11538,https://www.tiktok.com/@ahheng0230/video/7622237710039780616,https://www.tiktok.com/@ahheng0230/video/7622237710039780616,video,15290.4,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ahheng0230/video/7622237710039780616...: Failed to load video from https://www.tiktok.com/@ahheng0230/video/7622237710039780616: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983667731285095,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.03100169077515602,0.06579051911830902,0.02429320476949215,0.10325611382722855,0.18988467752933502,0.38336193561553955
+tiktok,post,7658901592237690130,"💚Bersangka baik Dgn ALLAH..
+🕊️ALLAH sebaik2 Pendengar & Maha mengetahui..",,,positive,2026-07-08 18:56:00.999293+00:00,9910,2151,40,65700,0.9265489041805267,12758,https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,video,14397.7,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@ida.cjseven/video/7658901592237690130...: Failed to load video from https://www.tiktok.com/@ida.cjseven/video/7658901592237690130: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.7551630139350891,multilingual,Unknown,Unknown,0.0,love,0.03290748968720436,0.023255877196788788,0.0900568962097168,0.02169683575630188,0.7791441679000854,0.019891109317541122
+tiktok,comment,7659006823223640848,tkde butang repost lah kak,https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,7658901592237690130,neutral,2026-07-05 11:38:17+00:00,5,0,4,0,0.5,13,https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,,,,biawak.kudung,0.0,,neutral,0.8382326364517212,english,Mixed/Urban,Unknown,0.25,fear,0.1091977059841156,0.4136165976524353,0.022753339260816574,0.05463175103068352,0.12741342186927795,0.18559817969799042
+tiktok,comment,7659115384424170247,"Aah xda awak..sbb ni akaun baru..akaun lama xley buka,tiktok kalau akaun baru mmg xda button repost😕😕",https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,7658901592237690130,negative,2026-07-05 18:39:41+00:00,2,0,0,0,0.1058339685201645,2,https://www.tiktok.com/@ida.cjseven/video/7658901592237690130,,,,ida.cjseven,0.0,,negative,0.647220104932785,multilingual,Unknown,Unknown,0.25,anger,0.2718462347984314,0.24069227278232574,0.022935299202799797,0.04489154741168022,0.1277194768190384,0.16638454794883728
+tiktok,post,7657073099208150292,“Apa Kena PRN Johor dengan DS Najib Razak? “ #mohamadhasan #barisannasional #prnjohor #ngakorming #letakjawatan,,,positive,2026-07-08 18:55:25.629510+00:00,9497,1305,672,194500,0.8299941048026085,13419,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,video,14317.5,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292...: Failed to load video from https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",positive,0.43331368267536163,multilingual,Unknown,Unknown,0.0,love,0.05772208422422409,0.013919229619204998,0.048589371144771576,0.030842993408441544,0.545775294303894,0.02405054122209549
+tiktok,comment,7657101709308085000,Ak harap bn menang besar.. Ak nk tengok dia letak jawatan ke tak,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,7657073099208150292,negative,2026-06-30 08:25:34+00:00,520,0,19,0,0.03283373862504957,558,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,,,,shaipullah,0.0,,negative,0.890554204583168,multilingual,Unknown,Unknown,0.25,love,0.034902870655059814,0.11232471466064453,0.20299075543880463,0.03348160535097122,0.2487953156232834,0.1551794707775116
+tiktok,comment,7657100303707341575,aku org pas..tp aku sokong tok mat,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,7657073099208150292,neutral,2026-06-30 08:20:03+00:00,190,0,4,0,0.5,198,https://www.tiktok.com/@demirakyatchannel/video/7657073099208150292,,,,ibrahimsaad646,0.0,,neutral,0.8398284316062927,english,Mixed/Urban,Unknown,0.25,love,0.04511801898479462,0.01288542989641428,0.062434419989585876,0.015324199572205544,0.797274649143219,0.01530742272734642
+tiktok,post,7649365029799644436,"""Krisis takhta Negeri Sembilan."" Korang dengar tapi tak faham? Ni breakdown mudah. 👇
+
+📌 Apa yang berlaku?
+Pada 19 April 2026, Undang Yang Empat — pembesar adat tertinggi N9 — buat pengisytiharan menurunkan DYMM Tuanku Muhriz sebagai Yang di-Pertuan Besar, dan masyhurkan Tunku Nadzaruddin sebagai pengganti.
+
+📌 Kenapa kontroversi?
+Kerajaan Negeri tidak iktiraf pengisytiharan itu. Sebabnya, salah seorang Undang yang mengetuai upacara — Datuk Mubarak Dohak — telah dilucutkan jawatannya sebelum itu.
+
+📌 Apa kata Undang-Undang Tubuh?
+✅ Perkara 10(1): Undang Yang Empat berkuasa lucutkan YDP Besar
+✅ Perkara 29: Keputusan sah jika 3 Undang setuju
+❓ Tapi adakah Undang yang sudah dilucutkan masih ada kuasa?
+
+Itu yang dipertikai sekarang. 5 Mei 2026 — kes dibawa ke mahkamah.
+
+Negeri Sembilan ada Adat Perpatih — sistem unik di dunia. Kita kena hormat & faham, bukan judge dari luar. 🙏
+
+#NegeriSembilan #AdatPerpatih #BeritaTerkini #TikTokMalaysia #ViralMalaysia",,,negative,2026-07-08 18:55:41.528719+00:00,10000,1120,147,188400,0.000506114959716808,13151,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,video,12869.4,,,"omni request failed: HTTP 500 model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning url=https://integrate.api.nvidia.com/v1/chat/completions body={""error"":{""message"":""Exception: Failed to load video from https://www.tiktok.com/@asyraafontok/video/7649365029799644436...: Failed to load video from https://www.tiktok.com/@asyraafontok/video/7649365029799644436: Could not open video stream\n"",""type"":""Internal Server Error"",""code"":500}}",negative,0.9983129501342773,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.04394664987921715,0.048608601093292236,0.03076089732348919,0.04321818798780441,0.11959630995988846,0.26228535175323486
+tiktok,comment,7649593144946524948,alang2 aku jela jadi raja,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,7649365029799644436,neutral,2026-06-10 02:48:48+00:00,504,0,9,0,0.5,522,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,,,,imfahrz,0.0,,neutral,0.7994064092636108,english,Mixed/Urban,Unknown,0.25,love,0.019708119332790375,0.016531025990843773,0.07394004613161087,0.013942630961537361,0.6369972825050354,0.03926519304513931
+tiktok,comment,7649542405285593864,masalahnya mmg undang yg empat berkuasa untuk melantik kan?,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,7649365029799644436,negative,2026-06-09 23:31:50+00:00,46,0,6,0,0.0004840850830077903,58,https://www.tiktok.com/@asyraafontok/video/7649365029799644436,,,,gepukontop1,0.0,,negative,0.9983863830566406,malay,Malay/Bumiputera,Unknown,0.25,love,0.12450379133224487,0.04223734512925148,0.03395586833357811,0.025996597483754158,0.658022940158844,0.017267102375626564
+tiktok,post,7659371757769493781,#creatorsearchinsights #toptiktokvideos,,,neutral,2026-07-08 18:55:37.587955+00:00,6626,2579,99,334500,0.5,12649,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,video,12415.5,,,,neutral,0.8473966121673584,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.08747351169586182,0.05987110361456871,0.1576370745897293,0.04860250651836395,0.26158690452575684,0.05638162046670914
+tiktok,comment,7659615553270874900,JPJ tidak ada hak cek dokumen orang salah kerja jpj cume cek kendaraan sahaja...,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,7659371757769493781,negative,2026-07-07 03:00:36+00:00,53,0,8,0,0.043821680545806874,69,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,,,,kapten.bulattt999,0.0,,negative,0.853927731513977,multilingual,Unknown,Unknown,0.25,anger,0.3403075337409973,0.052212826907634735,0.03048621118068695,0.22494764626026154,0.2790372967720032,0.02369135245680809
+tiktok,comment,7659526178025620242,not enough money ready,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,7659371757769493781,neutral,2026-07-06 21:13:45+00:00,10,0,2,0,0.5,14,https://www.tiktok.com/@gggggghgggnnnnnnnnnnn/video/7659371757769493781,,,,priya.jann,0.0,,neutral,0.7159273028373718,english,Indian,Indian,0.85,fear,0.04709506034851074,0.48766008019447327,0.31358423829078674,0.04568156599998474,0.05160019174218178,0.029751669615507126
+tiktok,post,7616203744480333077,"Harga Minyak Naik 60 sen dan 80 sen. 
+
+Anwar Ibrahim tegur PMX.",,,negative,2026-07-08 18:55:44.992397+00:00,5136,2140,895,183300,0.07537822723388671,10004,https://www.tiktok.com/@uwaisilqrani/video/7616203744480333077,https://www.tiktok.com/@uwaisilqrani/video/7616203744480333077,video,12284.3,,,,negative,0.7487392425537109,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.011710764840245247,0.005064120516180992,0.026311153545975685,0.007514295168220997,0.04453691467642784,0.02877729758620262
+tiktok,post,7628941006859259154,"Sindorov tarix yozdi: endi jahon tojiga kurashadi
+
+🏆 20 yoshli Javohir Sindorov FIDE Nomzodlar turniri–2026 g‘olibiga aylandi. U Anish Giri bilan durang o‘ynab, 9,5 ochko bilan muddatidan oldin chempionlikni qo‘lga kiritdi.
+
+♟ Endi u jahon chempionligi uchun amaldagi chempion Gukesh Dommaraju**ga qarshi bahs olib boradi. Ushbu super duel noyabr–dekabr oylarida bo‘lib o‘tishi kutilmoqda.
+
+💰 Sindorov allaqachon katta mukofotni “naqd” qildi: turnirning o‘zidan kamida **165 ming yevro (70 ming + 95 ming bonus). Eng katta pul esa oldinda — jahon toji uchun bahsda u natijadan qat’i nazar taxminan 1 mln $+ ishlab topadi.
+
+🚀 Umumiy hisobda Sindorovning daromadi 1,3 mln dollardan oshishi mumkin. Bu O‘zbekiston shaxmati tarixidagi eng katta yutuqlardan biri.",,,neutral,2026-07-08 18:56:02.593637+00:00,10500,396,148,275700,0.5,13801,https://www.tiktok.com/@qisqasitv/video/7628941006859259154,https://www.tiktok.com/@qisqasitv/video/7628941006859259154,video,12011.7,,,,neutral,0.8451248407363892,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.015334183350205421,0.023406310006976128,0.050115033984184265,0.011357426643371582,0.05951666459441185,0.033082783222198486
+tiktok,post,7657513370505071892,"THỨC KHUYA, LÀM CA ĐÊM",,,positive,2026-07-08 18:55:48.866894+00:00,3166,3510,240,181700,0.9075564861297607,8733,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,video,11087.7,,,,positive,0.6918549537658691,multilingual,Unknown,Unknown,0.0,love,0.10481160134077072,0.03772405534982681,0.07130472362041473,0.03482576832175255,0.5599146485328674,0.025394003838300705
+tiktok,comment,7657747679666520840,2 tuần ngày 2 tuần đêm gần 3 năm mỗi lần chuyển ca là nỗi ám ảnh 😳😳,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,7657513370505071892,neutral,2026-07-02 02:12:23+00:00,47,0,28,0,0.5,103,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,,,,ng.trang1997,0.0,,neutral,0.8301955461502075,english,Chinese,Chinese,0.82,no_clear_emotion,0.14938025176525116,0.054338980466127396,0.07758588343858719,0.05198007822036743,0.2617120146751404,0.03925617039203644
+tiktok,comment,7657811106753659668,Ca đêm gần 8 năm rồi 🥺🥺🥺,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,7657513370505071892,neutral,2026-07-02 06:18:25+00:00,7,0,21,0,0.5,49,https://www.tiktok.com/@kiralabojapan0/video/7657513370505071892,,,,xuantu1209,0.0,,neutral,0.5407158732414246,english,Mixed/Urban,Unknown,0.25,no_clear_emotion,0.0820244625210762,0.06634899228811264,0.11848665773868561,0.03777766600251198,0.08703508228063583,0.06282328069210052
+tiktok,post,7378726813779954949,#voiceeffects duet dadakan bareng bestiee @gatchaaa___ 🫵🏻👋🫡 #fyp #bermuara #rizkyfebian #mahaliniraharja,,,positive,2026-07-08 18:55:47.294871+00:00,7761,190,139,614200,0.8904329419136047,14232,https://www.tiktok.com/@fajarnurdiansyah/video/7378726813779954949,https://www.tiktok.com/@fajarnurdiansyah/video/7378726813779954949,video,9172.2,,,,positive,0.6347764730453491,malay,Malay/Bumiputera,Unknown,0.0,love,0.09906145185232162,0.0268374215811491,0.06365082412958145,0.034764766693115234,0.6358055472373962,0.0224967859685421
+tiktok,post,7585920443266223381,"Ternayata Menteri Ini Yang Jebloskan NU Ke Tambang. Sementara Luhut Tidak Setuju Ormas Dapat Konsesi Tambang.
+
+#YenniWahid #luhutbinsarpandjaitan #bahlillahadalia #pbnu #nahdatululamaindonesia",,,negative,2026-07-08 18:55:31.330646+00:00,5100,676,395,583600,0.0005216181278228649,12007,https://www.tiktok.com/@updateinfonusantara/video/7585920443266223381,https://www.tiktok.com/@updateinfonusantara/video/7585920443266223381,video,8220.6,,,,negative,0.9982612729072571,malay,Malay/Bumiputera,Unknown,0.0,anger,0.5264909267425537,0.1929415762424469,0.09129232168197632,0.03710959479212761,0.0799703449010849,0.023870566859841347
+tiktok,post,7621250687715822870,"KUIZI 57
+##kuiz #57 #islam #dituri",,,neutral,2026-07-08 18:55:53.042076+00:00,4160,1452,79,91000,0.5,6601,https://www.tiktok.com/@bekimalimi/video/7621250687715822870,https://www.tiktok.com/@bekimalimi/video/7621250687715822870,video,7392.0,,,,neutral,0.912691593170166,english,Mixed/Urban,Unknown,0.0,love,0.054128263145685196,0.03119622729718685,0.07968862354755402,0.02820259891450405,0.5183062553405762,0.025871196761727333
+tiktok,comment,7653855933064725280,Ta baft zoti Hallall zoti na Baft prej te Mir e Amin,https://www.tiktok.com/@bekimalimi/video/7621250687715822870,7621250687715822870,neutral,2026-06-21 14:30:25+00:00,1,0,0,0,0.5,1,https://www.tiktok.com/@bekimalimi/video/7621250687715822870,,,,hmz5269,0.0,,neutral,0.9110645055770874,english,Mixed/Urban,Unknown,0.25,love,0.05305913835763931,0.029534827917814255,0.0664159432053566,0.04087706282734871,0.7366381287574768,0.02274996042251587
+tiktok,post,7657432119521660168,"N40 Tiram, undilah calon nombor 4, @USTAZ KHIR   
+
+“Jom Jaga Tiram”
+“Demi Tiram Yang Sejahtera”
+
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera",,,neutral,2026-07-08 18:55:22.002439+00:00,4611,437,465,34200,0.5,5855,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,video,6914.2,,,,neutral,0.9087560176849365,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.07424989342689514,0.03313584253191948,0.13152314722537994,0.0387687124311924,0.33525997400283813,0.03658356890082359
+tiktok,comment,7660184829291954962,muga Bangsa Johor memilih ust Khir. calon Pas PN di N40 Tiram,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,7657432119521660168,neutral,2026-07-08 15:49:31+00:00,0,0,0,0,0.5,0,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,,,,its_kai81,0.0,,neutral,0.9088444709777832,english,Mixed/Urban,Unknown,0.25,love,0.03942367807030678,0.01416873186826706,0.06982985883951187,0.023648004978895187,0.45125842094421387,0.0213578250259161
+tiktok,comment,7660149669411095316,Sebagai pengundi atas pagar pilihan terbaik untuk PRN dijohor kali ini tumpuan saya tetap terarah kepada calon PERIKATAN NASIONAL.,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,7657432119521660168,positive,2026-07-08 13:37:32+00:00,0,0,0,0,0.9993999540805816,0,https://www.tiktok.com/@muslimat_tebrau/video/7657432119521660168,,,,jking9811,0.0,,positive,0.9979998469352722,malay,Malay/Bumiputera,Unknown,0.25,no_clear_emotion,0.018521012738347054,0.009373895823955536,0.06425319612026215,0.01220785640180111,0.41142770648002625,0.028696715831756592
+tiktok,post,7615161010646830356,#creatorsearchinsights #fore #tranding #viralvideo #foryoupage - ভাই রাল করে দাও ইরানের শিয়াদের নিয়ে আলোচনা শুনুন সায়েক আহমমদুলা 🤲।,,,neutral,2026-07-08 18:55:55.658635+00:00,3861,981,50,188200,0.5,6774,https://www.tiktok.com/@theummahofthelastprophe/video/7615161010646830356,https://www.tiktok.com/@theummahofthelastprophe/video/7615161010646830356,video,6161.2,,,,neutral,0.8977149128913879,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.05508172884583473,0.017732156440615654,0.0648297443985939,0.030730240046977997,0.31921738386154175,0.027414662763476372
+tiktok,post,7615645351910968592,"Zaman ve mekan, Big Bang ile var edilen ""mahluk"" boyutlardır. Bilimsel olarak zamanın bir başlangıcı varsa, Yaratan bu sistemin içinde hapsolamaz. Allah zamandan ve mekandan münezzehtir; çünkü O, nedenselliğe bağlı bir parça değil, sistemin mutlak kurucusudur. 🌌✨ #planckuzunluğu #ömeratillaergi #gevhernisar",,,neutral,2026-07-08 18:55:46.983046+00:00,4090,721,118,108300,0.5,6012,https://www.tiktok.com/@gevhernisar/video/7615645351910968592,https://www.tiktok.com/@gevhernisar/video/7615645351910968592,video,5994.3,,,,neutral,0.7693892121315002,english,Mixed/Urban,Unknown,0.0,love,0.09048745781183243,0.060087528079748154,0.17871898412704468,0.024465657770633698,0.3460688292980194,0.04246768727898598
+tiktok,post,7649048272199257357,20-year-old putra tri ramadani won the men’s lead world cup at prague. it was only his 2nd ever world cup final. his brother was the first indonesian to ever make a lead final (jakarta 2022). adam ondra and sorato anraku both made the final and neither medaled. anraku is 0-for-2 in lead world cups this year despite winning every boulder #climbing #lead #worldcup #adamondra #worldclimbing,,,positive,2026-07-08 18:55:36.909040+00:00,5001,108,29,104600,0.890571129322052,6184,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,video,5408.6,,,,positive,0.6352370977401733,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.020879052579402924,0.035934098064899445,0.09021782875061035,0.01817518286406994,0.0762145072221756,0.038829218596220016
+tiktok,comment,7649457520230892310,Believe me or not....Adam doesn't care if end's first or last 😉But for the other climbers well done 🥳Those lead routes wasn't easy at all,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,7649048272199257357,positive,2026-06-09 18:02:14+00:00,14,0,0,0,0.9427830636501312,14,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,,,,zdenek2026,0.0,,positive,0.8092768788337708,english,Mixed/Urban,Unknown,0.25,fear,0.02361224964261055,0.8319799304008484,0.05822604149580002,0.025463681668043137,0.01607515849173069,0.028951371088624
+tiktok,comment,7649943581885235975,Bravo Indonesia..!!! Keep up the good work,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,7649048272199257357,positive,2026-06-11 01:28:28+00:00,82,0,0,0,0.9952981770038605,82,https://www.tiktok.com/@sendhangboarding/video/7649048272199257357,,,,mardiano74,0.0,,positive,0.9843272566795349,english,Mixed/Urban,Unknown,0.25,happy,0.029943935573101044,0.033168599009513855,0.6178696155548096,0.015272779390215874,0.1826651394367218,0.025177471339702606
+tiktok,post,7623421458039033108,beltoli soleman lengta dohai #viral #trending #viralsong #viralmusic #funnyvideo,,,positive,2026-07-08 18:55:42.189462+00:00,1957,1297,61,239300,0.8488022863864898,5708,https://www.tiktok.com/@md_towshis_khan/video/7623421458039033108,https://www.tiktok.com/@md_towshis_khan/video/7623421458039033108,video,4973.3,,,,positive,0.49600762128829956,english,Mixed/Urban,Unknown,0.0,love,0.06778592616319656,0.014791497029364109,0.0566379651427269,0.02596133202314377,0.6820521950721741,0.01812254823744297
+tiktok,post,7591830505461648648,"✨ Asian Mashita – Curated Asian Dining Experience di JB ✨
+
+Ini pengalaman Asian comfort food yang curated dari pelbagai negara Asia dalam satu ruang premium & selesa 🍽️
+
+🇹🇭 🇲🇾 🇮🇩 🇯🇵 🇮🇳
+Menu Asian ikonik, sesuai untuk semua.
+
+🕰️ Operation Hour:
+11:30AM – 10:30PM (Daily)
+
+📍 Location:
+GF-02, Wisma OKA
+Jalan Setia Tropika 1/21
+
+#AsianMashita #AsianFoodJB #SetiaTropika #JohorFoodie #JBFoodHunt",,,neutral,2026-07-08 18:55:40.570575+00:00,1123,1798,36,91300,0.5,3870,https://www.tiktok.com/@atiqakhir/video/7591830505461648648,https://www.tiktok.com/@atiqakhir/video/7591830505461648648,video,4918.3,,,,neutral,0.7623093724250793,english,Mixed/Urban,Unknown,0.0,love,0.08226212859153748,0.029051264747977257,0.12254241853952408,0.03513431176543236,0.5256898999214172,0.03199571371078491
+tiktok,post,7631132646654872848,"Laluan terhalang kepada semua jenis kenderaan berikutan paras air yang tinggi.
+
+#banjir",,,positive,2026-07-08 18:55:25.981662+00:00,1705,1218,61,154100,0.910066157579422,4525,https://www.tiktok.com/@vocket/video/7631132646654872848,https://www.tiktok.com/@vocket/video/7631132646654872848,video,4478.1,,,,positive,0.70022052526474,malay,Malay/Bumiputera,Unknown,0.0,anger,0.7552226781845093,0.025991443544626236,0.038603175431489944,0.021275147795677185,0.06317512691020966,0.01221222523599863
+tiktok,post,7597400505131765012,"Kenanglah kebaikan orang
+#foryou #fyp #quotes #motivation #alhamdulillah",,,positive,2026-07-08 18:55:48.240253+00:00,1647,1276,8,102100,0.9350549399852752,3952,https://www.tiktok.com/@eriksusanto1605/video/7597400505131765012,https://www.tiktok.com/@eriksusanto1605/video/7597400505131765012,video,4325.1,,,,positive,0.7835164666175842,english,Mixed/Urban,Unknown,0.0,love,0.0320613794028759,0.012303312309086323,0.06875371932983398,0.01943397894501686,0.794563889503479,0.012915217317640781
+tiktok,post,7548447498356952376,"Menurut info KH.Muhammad Muthohar Adalah sosok muliya yang memberi nama ""Rahmatulloh fikri""
+
+KH.Muhammad Muthohar adalah sosok ulama Zuhud,sepuh,kharismatik
+Suami dari Nyai fadhilah cucu dari Mbah kh.abdul wahab Gubugsari Pegandon - Kendal,bernama kecil ""jamhari"" seorang santri Lirboyo zaman mbah kh.abdul karim yang erat kaitannya dengan ""SEJARAH BERDIRINYA MADRASAH HIDAYATUL MUBTADI'IN (MHM) LIRBOYO""
+
+KH.Abdul Wahab Gubugsari.
+Kyai Haji Abdul Wahab Jamhari merupakan keturunan dari KH Abdullah bin KH.Abdus Salam bin Ahmad bin Kongsi dan garis keturunannya sampai pada Sunan Abinawa, yang dimakamkan di Desa Pekuncen Kec. Pegandon.
+Menurut mbah Haysim (KH.Hasyim Asy'ari) didalam kitab beliau ""Adabul'alim Wal-Muta'alim"", Pangeran benowo mempunyai nama arab yaitu Abdul Halim Bin Abdurrohman Bin Abdulloh Bin Abdul Aziz Bin Abdul Fatah, Kalau menurut sejarah, beliau adalah putra dari pada Jaka Tingkir raja pajang. Wallohu a'lam.
+
+KH.Muthohar Termasuk Ulama Sepuh Yang Berguru kepada ulama - ulama senior di tanah jawa di antaranya ;
+KH.Muslih mranggen,KH.Yasin Bareng Jekulo Kudus,Kiai Ma'shum Lasem,Kiai Bisri Leteh rembang,KH.Musyafa',KH.Ridhwan,Dll.
+رَبِّ فَانْفَعْنَا بِبَرْكَتِهِم # وَاهْدِنَا الْحُسْنَى بِحُرْمَتِهِمْ
+امين...امين....امين.....
+#sejarahkiairahmatullohfikri #khmuthohar #asalusulkiairahmatullohfikri #khabdulwahabgubugsari #kiairahmatullohfikri",,,negative,2026-07-08 18:55:56.649703+00:00,3619,183,83,34200,0.003386557102203369,4227,https://www.tiktok.com/@kiairahmatullohfikri/video/7548447498356952376,https://www.tiktok.com/@kiairahmatullohfikri/video/7548447498356952376,video,4268.2,,,,negative,0.9887114763259888,malay,Malay/Bumiputera,Unknown,0.0,love,0.10340629518032074,0.03223567083477974,0.10160069167613983,0.0411914587020874,0.4712575674057007,0.031420718878507614
+tiktok,post,7658925372720893205,“Gaýdyp bararyn” aýdymyñ doly mp3 görnüşi -ulgamda.com - da bardyr. Alyp dinlap bilersiñiz. #ozgeyurdageldim #dasaryyurt #turkey #russia #dubai,,,neutral,2026-07-08 18:56:04.180836+00:00,2124,391,371,51100,0.5,3397,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,video,4070.1,,,,neutral,0.8663628101348877,english,Mixed/Urban,Unknown,0.0,love,0.09607043862342834,0.03771968185901642,0.06510570645332336,0.031389202922582626,0.5670064091682434,0.02298893593251705
+tiktok,comment,7659030414212530964,sagbol bagsym dasry ýurdakylaram ýatlýannyz ucun isinde ustunlik,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,7658925372720893205,neutral,2026-07-05 13:09:59+00:00,6,0,2,0,0.5,10,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,,,,dowran.perren,0.0,,neutral,0.7555853128433228,english,Mixed/Urban,Unknown,0.25,love,0.13848115503787994,0.03038259781897068,0.07166013866662979,0.022247420623898506,0.6289853453636169,0.012378387153148651
+tiktok,comment,7659048470335374100,Enshalla şeyle bolsun. Sizem Jan saglyk bilen dolanyp gelin,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,7658925372720893205,neutral,2026-07-05 14:20:00+00:00,8,0,0,0,0.5,8,https://www.tiktok.com/@maksathudayberdiyew96/video/7658925372720893205,,,,maksathudayberdiyew96,0.0,,neutral,0.8308915495872498,english,Mixed/Urban,Unknown,0.25,love,0.05805561691522598,0.01589975133538246,0.05295141413807869,0.016831085085868835,0.6696126461029053,0.015890518203377724
+tiktok,post,7659232080257322258,"Nak bawak pulang pekerja Malaysia di Singapore ke Johor? 
+
+⸻
+
+N.40 Tiram, 𝐌𝐄𝐒𝐓𝐈 𝐏𝐈𝐋𝐈𝐇 𝐍𝐎.𝟒 @USTAZ KHIR 
+
+“Jom Jaga Tiram”
+“Demi Tiram Yang Sejahtera”
+
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera",,,neutral,2026-07-08 18:55:22.329606+00:00,2499,133,416,52300,0.5,3571,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,video,4065.3,,,,neutral,0.9891996383666992,malay,Malay/Bumiputera,Unknown,0.0,surprise,0.009020763449370861,0.03570757061243057,0.01670478656888008,0.03235238417983055,0.04003109782934189,0.7815778851509094
+tiktok,comment,7659937613282132757,naikan gaji guru pasti dulu boleh?,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,7659232080257322258,negative,2026-07-07 23:50:41+00:00,29,0,10,0,0.13176289200782776,49,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,,,,cikgufirdauspauzi,0.0,,negative,0.5607903599739075,multilingual,Unknown,Unknown,0.25,love,0.026756491512060165,0.1763383150100708,0.04252708703279495,0.02889993228018284,0.39965367317199707,0.23523518443107605
+tiktok,comment,7660175115330536213,DSAI ..THE WORLD LEADER,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,7659232080257322258,positive,2026-07-08 15:11:56+00:00,3,0,0,0,0.8977128148078918,3,https://www.tiktok.com/@muslimat_tebrau/video/7659232080257322258,,,,wan.muhamad45,0.0,,positive,0.6590427160263062,english,Malay/Bumiputera,Malay/Bumiputera,0.74,no_clear_emotion,0.015269797295331955,0.012683190405368805,0.07824301719665527,0.013693146407604218,0.11994331330060959,0.04005520045757294
+tiktok,post,7587452519304023316,"TITAH ADENDUM: TINDAKAN TERRIRUDIN NAFI, KEMUDIAN AKUI BERI KESAN
+
+PERSOALAN besar yang perlu dibangkitkan, siapa yang kecilkan kuasa Yang di-Pertuan Agong?
+
+#Berita757
+#RakyatKeutamaanKami",,,negative,2026-07-08 18:55:43.747062+00:00,2114,569,98,104200,0.0005455613136291504,3823,https://www.tiktok.com/@berita757_official/video/7587452519304023316,https://www.tiktok.com/@berita757_official/video/7587452519304023316,video,3650.2,,,,negative,0.9981814622879028,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.05771183967590332,0.0678630918264389,0.0510062612593174,0.038911398500204086,0.09084242582321167,0.14270006120204926
+tiktok,post,7656637226482158866,"📹 INISIATIF PERUMAHAN KASIH JOHOR, IMPIAN MASA DEPAN BANGSA JOHOR
+
+Kerajaan Negeri terus memperkukuh agenda perumahan rakyat menerusi inisiatif Perumahan Kasih Johor bagi membantu lebih ramai Bangsa Johor memiliki kediaman yang selesa, selamat dan mampu dimiliki. Merangkumi Bantuan Beli Rumah Pertama, Bantuan Masuk Rumah Pertama dan Bantuan Sewa Rumah, inisiatif ini mencerminkan komitmen Kerajaan Negeri dalam menjaga kesejahteraan rakyat serta meringankan beban kos sara hidup masa kini.
+
+#VideoMDJ
+#PerumahanKasihJohor
+#BantuanBeliRumahPertama
+#BantuanMasukRumahPertama
+#BantuanSewaRumah",,,positive,2026-07-08 18:55:29.191971+00:00,2033,481,125,176400,0.9993972182273865,4403,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,video,3546.4,,,,positive,0.9979907274246216,malay,Malay/Bumiputera,Unknown,0.0,happy,0.15196771919727325,0.06139368191361427,0.34258243441581726,0.04385033994913101,0.289781391620636,0.026956500485539436
+tiktok,comment,7656668016654025492,Announcement Fasa 5 bila ya,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,7656637226482158866,negative,2026-06-29 04:22:33+00:00,4,0,3,0,0.1613789901137352,10,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,,,,rosemira293,0.0,,negative,0.462070032954216,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.011415577493607998,0.04459567740559578,0.17650598287582397,0.012896198779344559,0.04278276860713959,0.1220272034406662
+tiktok,comment,7656678383238365970,tak paham laa..bantuan yg nie mcm mane...orang beli rumah kerajaan bagi duit one off ke??😳,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,7656637226482158866,neutral,2026-06-29 05:02:52+00:00,1,0,6,0,0.5,13,https://www.tiktok.com/@mediadigitaljohor/video/7656637226482158866,,,,mould923,0.0,,neutral,0.8437747955322266,english,Mixed/Urban,Unknown,0.25,surprise,0.027258533984422684,0.12141896039247513,0.012481859885156155,0.06241275742650032,0.02160090021789074,0.7065520286560059
+tiktok,post,7448978086848187654,"#TTPetualangPro Cukup seru banget sih ini, apalagi kalo emng kalian suka sama per lego an, dijamin betah! Cek juga suka ada promo But 2 get 1 sama pake kode “AGUNGN24” Buat diskon sampe 8% !
+#YourWorldOfJoy #Malaysia #JohorBahru #Singapore #Legoland #solotrip",,,neutral,2026-07-08 18:55:36.579035+00:00,2479,216,44,135500,0.5,4094,https://www.tiktok.com/@agungnazarpras/video/7448978086848187654,https://www.tiktok.com/@agungnazarpras/video/7448978086848187654,video,3178.5,,,,neutral,0.7122688889503479,english,Mixed/Urban,Unknown,0.0,love,0.20941062271595,0.03090614080429077,0.11865268647670746,0.020518045872449875,0.47246694564819336,0.02500983141362667
+tiktok,post,7657549651695963410,pemain baru JDT #jdt #shahabzahedi  #jdt🔵🔴 #johordarultakzim #luaskankuasamujohor,,,neutral,2026-07-08 18:55:29.834678+00:00,2855,58,21,56900,0.5,3503,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,video,3090.9,,,,neutral,0.9075046181678772,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.08635513484477997,0.07334635406732559,0.06470349431037903,0.03826918825507164,0.09736476838588715,0.05832746624946594
+tiktok,comment,7657559598434845460,bang. pre season bila start,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,7657549651695963410,positive,2026-07-01 14:02:34+00:00,9,0,6,0,0.8315617084503173,21,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,,,,.khurasan.fh.kitchen,0.0,,positive,0.4385390281677246,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.06879769265651703,0.07947611808776855,0.233988955616951,0.037888020277023315,0.15757352113723755,0.05036182329058647
+tiktok,comment,7657555034407158548,padu ni bos,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,7657549651695963410,neutral,2026-07-01 13:44:44+00:00,11,0,0,0,0.5,11,https://www.tiktok.com/@bolayaauww8/video/7657549651695963410,,,,aamla572,0.0,,neutral,0.6974221467971802,english,Mixed/Urban,Unknown,0.25,love,0.1915324628353119,0.12029261887073517,0.1274392157793045,0.08087915182113647,0.19783657789230347,0.0947440043091774
+tiktok,post,7534199251576917253,"Saying JazakaAllahu Khairan
+
+#sunnah #madina #deen #salafi #quran #islamic_video #muslim",,,neutral,2026-07-08 18:55:56.024021+00:00,2379,271,12,10400,0.5,2766,https://www.tiktok.com/@authenticmanhaj/video/7534199251576917253,https://www.tiktok.com/@authenticmanhaj/video/7534199251576917253,video,2967.4,,,,neutral,0.8960508704185486,english,Mixed/Urban,Unknown,0.0,love,0.06972329318523407,0.025094760581851006,0.047569893300533295,0.033516496419906616,0.7318606376647949,0.017452124506235123
+tiktok,post,7658833288743800072,"ft:France 1-0 Paraguay 🤷
+adakah info ngopiii ketuaa😅
+
+#fypシ #prediksibola #worldcup #tiktoklive #livehighlights",,,neutral,2026-07-08 18:55:40.881416+00:00,1885,304,95,66400,0.5,2948,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,video,2844.4,,,,neutral,0.8599170446395874,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.029952522367239,0.03628384694457054,0.03551875799894333,0.020341582596302032,0.11806202679872513,0.046910401433706284
+tiktok,comment,7659180746682254098,gagal jj dah,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,7658833288743800072,negative,2026-07-05 22:53:17+00:00,2,0,2,0,0.03190927505493163,6,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,,,,lassolopo,0.0,,negative,0.8936357498168945,multilingual,Unknown,Unknown,0.25,love,0.1649681031703949,0.09270279109477997,0.0951545313000679,0.06264940649271011,0.3484388291835785,0.05415993928909302
+tiktok,comment,7658836905555706631,ada info ngopi kah ketua😅,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,7658833288743800072,negative,2026-07-05 00:39:02+00:00,13,0,4,0,0.15181612372398376,21,https://www.tiktok.com/@malaubadrian/video/7658833288743800072,,,,malaubadrian,0.0,,negative,0.49394625425338745,multilingual,Unknown,Unknown,0.25,no_clear_emotion,0.013098019175231457,0.02835310809314251,0.016735387966036797,0.021121837198734283,0.15848936140537262,0.3803945779800415
+tiktok,post,7574980615414680850,"Masih ingat kejadian viral waktu itu? 
+#berita #bom #densus88",,,negative,2026-07-08 18:56:01.320527+00:00,2176,110,66,217200,0.046785378456115745,4524,https://www.tiktok.com/@temanggung_kota_tembakau/video/7574980615414680850,https://www.tiktok.com/@temanggung_kota_tembakau/video/7574980615414680850,video,2811.2,,,,negative,0.8440487384796143,multilingual,Unknown,Unknown,0.0,surprise,0.036274950951337814,0.05063442513346672,0.024230344220995903,0.06762608885765076,0.32574933767318726,0.3815503418445587
+tiktok,post,7657874770482056468,"আহ..!কথাগুলো কলিজায় লাগছে খায়রুল 🥺😭😭
+
+#foryoupage #bdbangladesh #জনকল্যান_পার্টি #khairuldewan #viraltiktok",,,neutral,2026-07-08 18:55:37.899091+00:00,2014,123,107,17000,0.5,2414,https://www.tiktok.com/@kmkhairuldewan12/video/7657874770482056468,https://www.tiktok.com/@kmkhairuldewan12/video/7657874770482056468,video,2598.0,,,,neutral,0.5128874778747559,english,Mixed/Urban,Unknown,0.0,love,0.14297933876514435,0.05592077970504761,0.03194301947951317,0.07550764828920364,0.5373875498771667,0.0342799611389637
+tiktok,post,7642245910914682132,"​Ayette geçen ""sağır, dilsiz ve kör"" ifadeleri fiziksel bir engeli değil, kalbi ve zihni bir mühürlenmeyi ifade eder:
+​Sağırdırlar: Hakikati, doğruyu ve ilahi mesajı işitirler ama üzerinde düşünmezler; sanki hiç duymamış gibidirler.
+​Dilsizdirler: Gerçeği itiraf edemezler, doğruyu konuşmazlar ve hidayet yolunda soru sorup hakikati aramazlar.
+​Kördürler: Allah’ın varlığına ve birliğine dair çevrelerindeki açık kanıtları (ayetleri) görecek basiretten yoksundurlar.
+​2. İstidadın Kaybedilmesi
+​Bu insanlar başlangıçta bu özelliklere sahip değillerdi. Ancak kendi iradeleriyle ısrarla yanlışı seçmeleri, kibirleri ve menfaatlerine düşkünlükleri nedeniyle, doğruyu ayırt etme yeteneklerini (fıtratlarını) köreltmişlerdir. Işığı gördükten sonra ona sırt çevirdikleri için artık karanlığa mahkum olmuşlardır.
+​3. ""Artık Dönmezler"" İfadesi
+​Ayeti trajik kılan kısım sonudur. ""Dönmezler"" ifadesi, içine düştükleri bu inat ve körlük halinin onları bir kısır döngüye soktuğunu belirtir. Hakikate giden yolları (görme, işitme, konuşma) kendi elleriyle kapattıkları için, çıkış yolunu bulup eski hallerine veya doğru yola rücu etmeleri artık çok zordur.
+​Özetle:
+Bakara 18, elindeki imkanları ve aklını kötüye kullanarak hakikate karşı gözünü, kulağını ve kalbini kapatanların durumunu anlatır. Bu, sadece o dönemdeki münafıklar için değil, her dönemde elindeki bilgi ve ışığa rağmen kasten karanlığı seçen her insan için bir uyarı niteliğindedir.
+
+#kuranmeali #quran #islam #namaz #din",,,neutral,2026-07-08 18:55:51.766041+00:00,2365,76,6,27700,0.5,2724,https://www.tiktok.com/@ayetdinliyoruz/video/7642245910914682132,https://www.tiktok.com/@ayetdinliyoruz/video/7642245910914682132,video,2562.7,,,,neutral,0.8806928992271423,english,Mixed/Urban,Unknown,0.0,fear,0.15813575685024261,0.46796804666519165,0.03161673992872238,0.15395338833332062,0.02586519904434681,0.09107501804828644
+tiktok,post,7458229408382553349,Viral Mobil RI 36 || Clear Bukan Menteri ATR/BPN Nusron Wahid #viralvideo #nusronwahid #menteriatrbpn #video #videoviral #fypage #fyppppppppppppppppppppppp #fypシ゚viral #tiktokrahmatsahid #rahmatsahid,,,neutral,2026-07-08 18:55:49.491677+00:00,1063,67,236,267100,0.5,4037,https://www.tiktok.com/@rahmat.sahid/video/7458229408382553349,https://www.tiktok.com/@rahmat.sahid/video/7458229408382553349,video,2172.1,,,,neutral,0.929334282875061,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.16058693826198578,0.03310515731573105,0.0831342563033104,0.028658734634518623,0.12114428728818893,0.035151250660419464
+tiktok,post,7628069684125928712,Pusat oleh oleh haji dan juga umroh sudah lengkap di jkt pusat mall thamrin city #oleholehumrohhaji #oleholehhajiumroh #kurma #oleholehumroh #pusatoleholeh,,,positive,2026-07-08 18:55:46.344240+00:00,1392,134,117,137000,0.8891242384910583,3013,https://www.tiktok.com/@pasarkurma/video/7628069684125928712,https://www.tiktok.com/@pasarkurma/video/7628069684125928712,video,2148.0,,,,positive,0.6304141283035278,malay,Malay/Bumiputera,Unknown,0.0,love,0.07599223405122757,0.03132152557373047,0.107588991522789,0.034783679991960526,0.4921197295188904,0.029983075335621834
+tiktok,post,7560723236535684360,"Crown Prince of Pahang and Johor, family 
+
+#pahang #pahangroyalfamily #kesultananpahang #royalfamily #tunkuazizah #tengkuampuanpahang #tengkuhassanal #family #johor #malaysia #CrownPrince #royalcouple #tmj",,,neutral,2026-07-08 18:55:35.315092+00:00,1697,62,35,134500,0.5,3139,https://www.tiktok.com/@angel.king404/video/7560723236535684360,https://www.tiktok.com/@angel.king404/video/7560723236535684360,video,2060.5,,,,neutral,0.9052287340164185,english,Mixed/Urban,Unknown,0.0,love,0.052920397371053696,0.022271204739809036,0.24628600478172302,0.018953682854771614,0.48669901490211487,0.017499513924121857
+tiktok,post,7644006002139991314,"Sebelum mengawali kegiatan perpanjangan kerja sama antara Pemerintah Kabupaten Blora dan UIN Gus Dur Pekalongan, saya mengajak Bapak Rektor, Prof. Dr. H. Zaenal Mustakim, untuk sarapan bersama.
+
+Berhubung beliau juga sedang pulang kampung, hidangan Sego Pecel Godhong Jati di Warung Mak Tirah menjadi menu wajib. Sajian kuliner lokal yang rasanya selalu sukses membangkitkan memori masa kecil di Blora. Momen silaturahmi ini menjadi semakin spesial karena kebetulan hari ini Prof. Zaenal sedang bersuka cita merayakan hari ulang tahunnya.
+
+Sugeng ambal warsa, Prof. Zaenal! Semoga senantiasa diparingi kesehatan, kelancaran dalam memimpin UIN Gus Dur, dan semoga perpanjangan kerja sama kita hari ini membawa berkah kemajuan untuk pendidikan warga Blora.
+
+@Pemkab Blora @UIN Gus Dur Pekalongan 
+
+#uingusdur #pekalongan #blora #ariefrohman #bupatiblora",,,positive,2026-07-08 18:55:55.272813+00:00,754,222,229,40100,0.9993937313556671,1606,https://www.tiktok.com/@ariefrohman838/video/7644006002139991314,https://www.tiktok.com/@ariefrohman838/video/7644006002139991314,video,1925.1,,,,positive,0.9979791045188904,malay,Malay/Bumiputera,Unknown,0.0,love,0.04074089601635933,0.030801523476839066,0.09385016560554504,0.04027726501226425,0.6846431493759155,0.04098343104124069
+tiktok,post,7614458390600764679,"*Menuju Haul ke-II ALM. KH. Zubair Muntashor & Halal Bihalal Internasional Hisan ke-XVII** 🌿
+
+Dalam rangka mengenang, mendoakan, dan meneladani perjuangan ALM. KH. Zubair Muntashor, Pondok Pesantren Nurul Cholil mengundang seluruh Santri Alumni dan Simpatisan Pondok Pesantren Nurul Cholil untuk hadir dalam rangkaian acara Haul & Halal Bihalal yang dirangkai dengan **Pengajian Umum**.
+
+InsyaAllah akan dilaksanakan pada:
+🗓 Rabu, 25 Maret 2026
+⏰ Pukul 08.00 WIB – selesai
+📍 Lapangan Kolombia, Kembang Jeruk, Banyuates, Sampang
+
+🎤 **Muballigh:** KH. Musleh Adnan
+
+Momentum penuh keberkahan ini menjadi ajang mempererat ukhuwah, memperkuat silaturahmi, serta meneguhkan nilai-nilai perjuangan para masyayikh.
+
+✨ Terbuka untuk umum. Mari hadir dan ajak keluarga serta sahabat untuk bersama-sama meraih keberkahan.",,,positive,2026-07-08 18:55:53.697919+00:00,1508,92,13,17600,0.9991003334522246,1789,https://www.tiktok.com/@hisanofficial_/video/7614458390600764679,https://www.tiktok.com/@hisanofficial_/video/7614458390600764679,video,1748.6,,,,positive,0.9970011115074158,malay,Malay/Bumiputera,Unknown,0.0,love,0.05709254741668701,0.046401914209127426,0.12771321833133698,0.05753915011882782,0.5472556352615356,0.049413181841373444
+tiktok,post,7658648843256352018,"Jom jaga Johor
+ayoh bangsa Johor
+pastikan kuasa politik dipimpin oleh Islam",,,neutral,2026-07-08 18:55:27.290989+00:00,1021,139,76,9533,0.5,1331,https://www.tiktok.com/@man.intan5/video/7658648843256352018,https://www.tiktok.com/@man.intan5/video/7658648843256352018,video,1536.533,,,,neutral,0.7592947483062744,english,Mixed/Urban,Unknown,0.0,love,0.04164927825331688,0.013775595463812351,0.12022176384925842,0.01892765797674656,0.6766420006752014,0.017146360129117966
+tiktok,post,7576280701490695442,"Kh. Maimoen Zubaer mendoakan Kh.Miftahul Ahyar jadi Rois A'am PBNU
+#jagakyai 
+#kyainusantara 
+#pbnu 
+#nahdlatululama",,,neutral,2026-07-08 18:55:54.639326+00:00,1207,21,6,18600,0.5,1420,https://www.tiktok.com/@lokajaya4804/video/7576280701490695442,https://www.tiktok.com/@lokajaya4804/video/7576280701490695442,video,1285.6,,,,neutral,0.8190841674804688,english,Mixed/Urban,Unknown,0.0,love,0.06441452354192734,0.06375791877508163,0.11395697295665741,0.06471186131238937,0.6233523488044739,0.019687477499246597
+tiktok,post,7659583637934902550,Askhir kaisay Babar Azam har bar kaptani Kay liye man jata hai / aour har 2 maheenay Baad pcb ko Babar Azam hi Nazar aata hai askhir ya Kahani hai kaya #babarazam #pakistancricket #pakistancricket #viral_video,,,neutral,2026-07-08 18:55:46.648345+00:00,1121,4,27,7303,0.5,1225,https://www.tiktok.com/@aaedits69/video/7659583637934902550,https://www.tiktok.com/@aaedits69/video/7659583637934902550,video,1217.303,,,,neutral,0.8786797523498535,english,Mixed/Urban,Unknown,0.0,love,0.03764212131500244,0.07355114072561264,0.03209008276462555,0.0362924188375473,0.39955011010169983,0.09146032482385635
+tiktok,post,7647838044543782165,MUROTTAL SANTAI ¦ DALAM 01.00 MENIT  ¦ #murottal #murottalquran #alquran #jiharkah #القران_الكريم,,,neutral,2026-07-08 18:55:56.966700+00:00,1008,24,8,11300,0.5,1153,https://www.tiktok.com/@rofiq_ash/video/7647838044543782165,https://www.tiktok.com/@rofiq_ash/video/7647838044543782165,video,1091.3,,,,neutral,0.9251625537872314,english,Mixed/Urban,Unknown,0.0,love,0.04729558899998665,0.016339261084794998,0.09924672544002533,0.018020208925008774,0.5290604829788208,0.01914425939321518
+tiktok,post,7657718477347720466,"Walkabout Pasar Kampung Cahaya Baru.
+
+N40 Tiram, undilah calon nombor 4, Ustaz Khir.
+
+“Jom Jaga Tiram”
+“Demi Tiram Yang Sejahtera”
+
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera",,,neutral,2026-07-08 18:55:26.323437+00:00,823,60,40,6699,0.5,989,https://www.tiktok.com/@ustaz_khir/video/7657718477347720466,https://www.tiktok.com/@ustaz_khir/video/7657718477347720466,video,1069.699,,,,neutral,0.8944988250732422,english,Mixed/Urban,Unknown,0.0,love,0.08478571474552155,0.03248216211795807,0.21888893842697144,0.0381348617374897,0.3147168755531311,0.030688973143696785
+tiktok,post,7657462660618784008,"Ramai boss!
+
+Doakan kami ya. 🤲😄
+
+@USTAZ KHIR @Muslimat PAS Tebrau @PAS JOHOR",,,positive,2026-07-08 18:55:35.004685+00:00,783,22,57,4124,0.8782296106219292,903,https://www.tiktok.com/@ameerah_tebrau/video/7657462660618784008,https://www.tiktok.com/@ameerah_tebrau/video/7657462660618784008,video,1002.124,,,,positive,0.5940987020730972,multilingual,Unknown,Unknown,0.0,love,0.060061413794755936,0.022335626184940338,0.05071805417537689,0.03366033360362053,0.7005361318588257,0.026599902659654617
+tiktok,post,7334573514944466181,"walihtiltamil kutub imtihan wisuda Al Qur'an binadzor, Al imriti,alfiyah Ibnu Malik pondok pesantren Mambaul ulum gayau sakti seputih agung Lampung Tengah ...!",,,neutral,2026-07-08 18:56:04.508370+00:00,726,35,19,26800,0.5,1048,https://www.tiktok.com/@deva_epok/video/7334573514944466181,https://www.tiktok.com/@deva_epok/video/7334573514944466181,video,879.8,,,,neutral,0.8251647353172302,english,Mixed/Urban,Unknown,0.0,love,0.12467364966869354,0.03985239937901497,0.12564387917518616,0.03819188103079796,0.3649660646915436,0.028312813490629196
+tiktok,post,7658865403027918100,memang udah jelas IQ78😆#fffffffffffffffffffffffffyyyyyyyyyyyyypp #fffffffffffyyyyyyyyyyyppppppppppppppp #fyptiktokmalaysia🇲🇾 #fyp🇮🇩🇲🇾 #fffyyyppp🔥🔥🔥,,,neutral,2026-07-08 18:55:49.182922+00:00,550,35,82,10400,0.5,771,https://www.tiktok.com/@nurulsukaketawa94/video/7658865403027918100,https://www.tiktok.com/@nurulsukaketawa94/video/7658865403027918100,video,876.4,,,,neutral,0.9970856308937073,malay,Malay/Bumiputera,Unknown,0.0,love,0.03831375017762184,0.03399351239204407,0.06006813049316406,0.02249322645366192,0.7546069622039795,0.019537081941962242
+tiktok,post,7331967738132401413,"barokah dari muthola'ah kitab 
+
+#mutholaahkitab #dawuhguru #dawuhkyai #dawuhulama #khabdulazizmanshur #pptarbiyatunnasyiin #fyp #fyppppppppppppppppppppppp #mutholaah",,,neutral,2026-07-08 18:55:32.355408+00:00,623,64,3,19400,0.5,884,https://www.tiktok.com/@santri.0mahan/video/7331967738132401413,https://www.tiktok.com/@santri.0mahan/video/7331967738132401413,video,779.4,,,,neutral,0.8442427515983582,english,Mixed/Urban,Unknown,0.0,love,0.10487914085388184,0.03652697056531906,0.14090560376644135,0.04147918522357941,0.394754558801651,0.030529683455824852
+tiktok,post,7658476398327106824,"terima Allah kerana menghadirkn org baik, sungguh, aku tdak bisa mmbalas jaga dn kebaikan ini, InshaAllah aku akan trus dgn prjuangan ini. #SoloEmpire #Masdy #tiktokviral #sarawaktiktok",,,positive,2026-07-08 18:55:41.192125+00:00,433,28,30,34600,0.9994069814682006,837,https://www.tiktok.com/@pendetaagung02/video/7658476398327106824,https://www.tiktok.com/@pendetaagung02/video/7658476398327106824,video,613.6,,,,positive,0.998023271560669,malay,Malay/Bumiputera,Unknown,0.0,fear,0.05377994477748871,0.3547017276287079,0.027801861986517906,0.14079757034778595,0.23284484446048737,0.14308162033557892
+tiktok,post,7659638936846830869,"Calon N40 Tiram
+Ustaz Khir
+Undilah Calon No.4
+Undilah Perikatan Nasional",,,neutral,2026-07-08 18:55:23.273462+00:00,396,25,26,3465,0.5,481,https://www.tiktok.com/@pas_johor/video/7659638936846830869,https://www.tiktok.com/@pas_johor/video/7659638936846830869,video,527.465,,,,neutral,0.8598209023475647,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.010874218307435513,0.007819057442247868,0.017847396433353424,0.00890626385807991,0.060562651604413986,0.019995322450995445
+tiktok,post,7659219852816616725,"Ingat pengundi #tiram pangkah calon 4 #ustazkhir sama-sama kita #jomjagatiram di #prnjohor
+
+#fypmalaysia",,,neutral,2026-07-08 18:55:16.863433+00:00,304,72,23,1283,0.5,411,https://www.tiktok.com/@pas_johor_bahru/video/7659219852816616725,https://www.tiktok.com/@pas_johor_bahru/video/7659219852816616725,video,518.283,,,,neutral,0.8823942542076111,english,Mixed/Urban,Unknown,0.0,love,0.056592728942632675,0.026697546243667603,0.023489873856306076,0.03461165353655815,0.7223590612411499,0.043562743812799454
+tiktok,post,7657801867589618962,"DUN Tiram Undi Calon No. 4!
+
+ 
+N40 Tiram, undilah calon nombor 4, @USTAZ KHIR 
+
+“Jom Jaga Tiram”
+“Demi Tiram Yang Sejahtera”
+
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera @Ameerah Tebrau @DMPNJ💚",,,neutral,2026-07-08 18:55:13.494915+00:00,295,68,27,1660,0.5,406,https://www.tiktok.com/@muslimat_tebrau/video/7657801867589618962,https://www.tiktok.com/@muslimat_tebrau/video/7657801867589618962,video,513.66,,,,neutral,0.9015501737594604,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.08427348732948303,0.033816516399383545,0.09960098564624786,0.04017876461148262,0.2723334729671478,0.03487624600529671
+tiktok,post,7436323329360907537,"adi kalau proses pengajuan KPRmu normal tanpa hambatan, Akad KPR bisa dilakukan dalam waktu 3 minggu-1 bulan sejak dokumen lengkap kamu berikan ke pihak bank.  
+
+Ajukan KPR dan Take Over KPRmu di: https://kpracademy.com/apply
+
+#pengajuankpr #kprrumah #tipskpr #biayakpr #belirumah #punyarumahsendiri #rumahidaman #rumahimpian",,,neutral,2026-07-08 18:55:32.672541+00:00,235,58,40,29700,0.5,630,https://www.tiktok.com/@kpracademy/video/7436323329360907537,https://www.tiktok.com/@kpracademy/video/7436323329360907537,video,500.7,,,,neutral,0.9973459243774414,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.041981782764196396,0.07629876583814621,0.06676656752824783,0.043344300240278244,0.16380643844604492,0.12121699005365372
+tiktok,post,7659044803404893461,#TiramSejahtera #BerkatPrihatinSejahtera #UstazKhir #KekalPrihatin,,,neutral,2026-07-08 18:55:25.212038+00:00,316,33,37,1623,0.5,402,https://www.tiktok.com/@ameerah_tebrau/video/7659044803404893461,https://www.tiktok.com/@ameerah_tebrau/video/7659044803404893461,video,494.623,,,,neutral,0.9165199995040894,english,Mixed/Urban,Unknown,0.0,love,0.08728034794330597,0.028283309191465378,0.13879147171974182,0.043208397924900055,0.5057106018066406,0.029289867728948593
+tiktok,post,7524511961027988737,"PRN dah dekat. Warisan acah -acah pejuang MA63 dah mari semula. wal hal sebelum ni Warisan gagal kerana terlalu pro Tun Mahathir. Saman Petronas pun tumpang GPS Sarawak. Kerajaan Sarawak belanja berjuta bayar peguam lawan. Shafie menangguk diair keruh. Sarawak menang dia  acah acah buat. wal hal menurut pemimpin Sarawak, Shafie penakut..terus ikut Tun M..",,,negative,2026-07-08 18:55:34.686674+00:00,97,78,71,6204,0.0004998028278350719,308,https://www.tiktok.com/@sabahkini2/video/7524511961027988737,https://www.tiktok.com/@sabahkini2/video/7524511961027988737,video,472.204,,,,negative,0.9983339905738831,malay,Malay/Bumiputera,Unknown,0.0,anger,0.311838835477829,0.05948315188288689,0.09892430901527405,0.04020743817090988,0.23811031877994537,0.026690317317843437
+tiktok,post,7657045756955626770,"Ada yang sama? Atau nggak setuju nih sama prediksi gue.. tulis aja di komentar
+#worldcup2026 #pialadunia2026 #live #jadwalbola #prediksibola",,,positive,2026-07-08 18:56:00.368535+00:00,225,44,21,76400,0.9627743363380432,1054,https://www.tiktok.com/@gelar.giocatore/video/7657045756955626770,https://www.tiktok.com/@gelar.giocatore/video/7657045756955626770,video,452.4,,,,positive,0.875914454460144,malay,Malay/Bumiputera,Unknown,0.0,love,0.08129994571208954,0.0286999624222517,0.06432219594717026,0.028348129242658615,0.4828070402145386,0.07823700457811356
+tiktok,post,7616243970196262165,"Harga minyak dunia naik sebab konflik Timur Tengah, tetapi Malaysia ada kelebihan kerana kita bukan sekadar pengguna minyak, kita juga pengeluar minyak. Sebab itu kerajaan masih mampu lindungi rakyat melalui subsidi seperti RON95 RM1.99 walaupun harga pasaran jauh lebih tinggi. ⛽🇲🇾",,,negative,2026-07-08 18:55:54.320256+00:00,310,27,22,6408,0.0004805624485015869,423,https://www.tiktok.com/@unniebersamarakyat/video/7616243970196262165,https://www.tiktok.com/@unniebersamarakyat/video/7616243970196262165,video,436.408,,,,negative,0.9983981251716614,malay,Malay/Bumiputera,Unknown,0.0,love,0.13912831246852875,0.035226140171289444,0.06978622078895569,0.08082405477762222,0.5532094240188599,0.02205350250005722
+tiktok,post,7658611384447536404,"PERMOHONAN RAYUAN BANTUAN KASIH JOHOR (BKJ) FASA 4
+
+Belum sempat membuat permohonan atau permohonan anda sebelum ini tidak berjaya?
+
+Jangan risau, Rayuan Bantuan Kasih Johor (BKJ) Fasa 4 kini boleh dibuat di Bilik Gerakan Barisan Nasional N46 Perling.
+
+📍 Alamat: 183, Jalan Simbang,
+Taman Perling,
+81200 Johor Bahru, Johor.
+
+Sekiranya anda memerlukan bantuan untuk proses rayuan, hadir terus ke lokasi kami. Petugas kami sedia membantu memudahkan urusan anda.
+
+📌 Datang awal dan pastikan anda membawa kad pengenalan asal bersama 
+
+#CapCut #viralvideo #tiktok #pemudamicjohor #fypシ゚viral",,,positive,2026-07-08 18:55:32.036185+00:00,250,60,14,7079,0.9979407429695129,394,https://www.tiktok.com/@mohan.arunachalam/video/7658611384447536404,https://www.tiktok.com/@mohan.arunachalam/video/7658611384447536404,video,419.079,,,,positive,0.9931358098983765,malay,Malay/Bumiputera,Unknown,0.0,fear,0.03974512219429016,0.5118842124938965,0.019525717943906784,0.08837789297103882,0.07491633296012878,0.20573072135448456
+tiktok,post,7656478055891815688,"Nasihat Buat Anak Muda
+
+Terima kasih YB Ustaz Idris bin Ahmad atas sokongan kepada Ustaz Khir, Calon Perikatan Nasional N.40 Tiram.
+
+Ayuh warga Tiram, 11 Julai nanti, pangkah No. 4!
+
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera",,,negative,2026-07-08 18:55:24.895484+00:00,276,29,18,2598,0.14039385616779326,348,https://www.tiktok.com/@ustaz_khir/video/7656478055891815688,https://www.tiktok.com/@ustaz_khir/video/7656478055891815688,video,390.598,,,,negative,0.5320204794406891,multilingual,Unknown,Unknown,0.0,no_clear_emotion,0.034407924860715866,0.018904807046055794,0.10010924190282822,0.027472661808133125,0.2427142858505249,0.03112844005227089
+tiktok,post,7604656621117066503,"Apabila fakta tidak memihak kepada mereka, emosi dimanipulasi untuk menang naratif. #perangnaratif",,,negative,2026-07-08 18:55:37.263984+00:00,212,21,40,5008,0.0004805266857147439,323,https://www.tiktok.com/@ustazos2/video/7604656621117066503,https://www.tiktok.com/@ustazos2/video/7604656621117066503,video,379.008,,,,negative,0.9983982443809509,malay,Malay/Bumiputera,Unknown,0.0,anger,0.49739739298820496,0.30074188113212585,0.038251470774412155,0.019479360431432724,0.033814236521720886,0.024357089772820473
+tiktok,post,7629277717917093138,"🇲🇾 JB One-Day Trip: 6 Must-Try Food & Café Spots‼️ 柔佛新山一日游，别错过这六家好打卡又好吃的café~ 
+
+📍 Nimmies Pastry Cafe
+📍 171, Jln Beringin, Taman Melodies, 80250 Johor Bahru, Johor Darul Ta'zim
+⏰ 8AM – 11PM
+
+📍 Famosa Seafood Mount Austin
+📍 11, Jalan Austin Heights 8/3, Taman Austin Heights, 81100 Johor Bahru, Johor Darul Ta'zim
+⏰ 3PM – 3AM
+
+📍 Hiap Joo Bakery & Biscuit Factory
+📍 13, Jalan Tan Hiok Nee, Bandar Johor Bahru, 80000 Johor Bahru, Johor Darul Ta'zim
+⏰7.30AM – 5PM
+
+📍 Eden by Wizards
+📍 19, Jln Tiong Emas, Kawasan Perindustrian Tiong Nam Tebrau 3, 81100 Johor Bahru, Johor
+⏰ 10AM – 10PM
+
+📍 MY KOL CAFE
+📍 92, Jln Beringin, Taman Melodies, 80250 Johor Bahru, Johor Darul Ta'zim
+⏰ 8AM – 8PM
+
+📍 SUGAR LIPS PERMAS CITY
+📍 LG-14, Blok A, Permas City, Kawasan Perdagangan Permas Utara, Jalan Permas Utara, Bandar Baru Permas Jaya, 81750 Masai, Johor Darul Ta'zim
+⏰ 1 – 11PM (Thurs & Fri Closed)
+
+ #Food #malaysia #johorbahru #jb #cafe",,,neutral,2026-07-08 18:55:39.925723+00:00,83,139,1,7952,0.5,302,https://www.tiktok.com/@foodstampsg/video/7629277717917093138,https://www.tiktok.com/@foodstampsg/video/7629277717917093138,video,371.952,,,,neutral,0.743614137172699,english,Mixed/Urban,Unknown,0.0,love,0.1252179890871048,0.04132887348532677,0.07380612939596176,0.04946039244532585,0.5246313214302063,0.037970129400491714
+tiktok,post,7437314373791518008,"بسم الله الرحمن الرحيم
+JAZAKALLOH kHOIRUN"" adalah ungkapan terima kasih yang berarti ""semoga Allah membalas kebaikanmu"". Ungkapan ini berasal dari bahasa Arab dan merupakan bentuk doa yang baik. 
+Kata
+Arti
+Jazaa (جَزَ)
+Semoga memberi, menambahkan, membalas
+Ka (ك)
+Kalian
+Allah (اللهُ)
+Allah
+Khairan (خَيْرًا)
+Kebaikan
+Pengucapan ""Jazakallah khairan"" berbeda-beda tergantung peruntukannya:
+Jazakallah khairan: Diucapkan kepada orang laki-laki
+Jazakillah khairan: Diucapkan kepada orang perempuan
+Jazakumullah khairan: Diucapkan kepada orang dengan jumlah banyak 
+""Jazakallah khairan"" bisa diucapkan setelah seseorang mendapat ucapan ""tabarakallah"" yang berarti ""semoga Allah memberkahimu"". 
+Jika yang mengucapkan ""Jazakallah khairan katsiran"" adalah perempuan, maka jawabannya adalah ""wa iyyaki"" (وَاِيَّاكِ). Jika yang mengucapkan adalah laki-laki, jawabannya Bu juga ""wa iyyaka"" (وَاِيَّاكَ). Kedua jawaban ini memiliki arti yang sama, yaitu ""dan kebaikan untukmu juga"".
+CHAGEUR~BAGEUR",,,positive,2026-07-08 18:55:39.575022+00:00,126,76,15,41600,0.9994083940982819,633,https://www.tiktok.com/@assoethea/video/7437314373791518008,https://www.tiktok.com/@assoethea/video/7437314373791518008,video,364.6,,,,positive,0.9980279803276062,malay,Malay/Bumiputera,Unknown,0.0,love,0.03738095611333847,0.04720244184136391,0.10348234325647354,0.04768090322613716,0.6671382784843445,0.031866103410720825
+tiktok,post,7658909160213400850,".... dan berat bertambah 😬
+
+#N40TIRAM #USTAZKHIR #prnjohor #johorrr",,,neutral,2026-07-08 18:55:18.150387+00:00,258,7,30,1813,0.5,313,https://www.tiktok.com/@kayulalang/video/7658909160213400850,https://www.tiktok.com/@kayulalang/video/7658909160213400850,video,363.813,,,,neutral,0.8079475164413452,english,Mixed/Urban,Unknown,0.0,love,0.11167348921298981,0.044574957340955734,0.07277326285839081,0.044714685529470444,0.5327611565589905,0.029499635100364685
+tiktok,post,7659451795705646356,"Alhamdulillah, malam ini saya berkesempatan hadir memberikan sokongan dan semangat kepada calon N.40 DUN Tiram, Ustaz Khir, dalam satu ceramah kelompok.
+
+Ceramah tersebut telah disampaikan oleh Menteri Besar Kelantan, YAB Datuk Mohd Nassuruddin Daud, bersama YB Senator Nik Abduh Nik Abdul Aziz.
+Turut hadir ialah Yang Berbahagia Datuk Ustaz Husin Awang, Pesuruhjaya PAS Terengganu, Datuk Mahfuz Muhammad, Pesuruhjaya PAS Johor, serta barisan pimpinan PAS Johor.
+
+Alhamdulillah, sambutan daripada penduduk setempat amat menggalakkan dan penuh semangat.
+
+Semoga Allah SWT mengurniakan kemenangan kepada Ustaz Khir dalam Pilihan Raya Kecil DUN Tiram, insya-Allah.",,,positive,2026-07-08 18:55:14.057674+00:00,327,2,6,2201,0.9994010269641875,357,https://www.tiktok.com/@shukriramliofficial/video/7659451795705646356,https://www.tiktok.com/@shukriramliofficial/video/7659451795705646356,video,351.201,,,,positive,0.9980034232139587,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.05453479662537575,0.03663566708564758,0.24798177182674408,0.020626680925488472,0.10334747284650803,0.04140038788318634
+tiktok,post,7656718839970925832,#CapCut #prnjohor #n01 #segamat #fypシ,,,neutral,2026-07-08 18:55:34.051689+00:00,179,32,29,8814,0.5,328,https://www.tiktok.com/@benzfairus/video/7656718839970925832,https://www.tiktok.com/@benzfairus/video/7656718839970925832,video,338.814,,,,neutral,0.9152240753173828,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.08787748962640762,0.046243615448474884,0.05846603959798813,0.04445940628647804,0.2951526939868927,0.06254982203245163
+tiktok,post,7611868819539234069,"perbedaan puasa Zaman dulu dan zaman sekarang 
+#uas #ustadzabdulsomad #ustadabdulsomad",,,neutral,2026-07-08 18:55:30.194838+00:00,232,20,4,14900,0.5,405,https://www.tiktok.com/@ghirahakhirzaman/video/7611868819539234069,https://www.tiktok.com/@ghirahakhirzaman/video/7611868819539234069,video,298.9,,,,neutral,0.9943800568580627,malay,Malay/Bumiputera,Unknown,0.0,love,0.050860676914453506,0.016344783827662468,0.06352923810482025,0.03141367435455322,0.5078781247138977,0.02633463405072689
+tiktok,post,7657807865620516117,"Marilah undi N40 Tiram Ustaz Khir Muntanazar Ismail sebagai calon Perikatan Nasional/Pas 💪🏻
+#UstazKhir
+#KekalPrihatin
+#TiramSejahtera
+#BerkatPrihatinSejahtera",,,neutral,2026-07-08 18:55:17.835428+00:00,144,56,7,1006,0.5,217,https://www.tiktok.com/@ameerah_tebrau/video/7657807865620516117,https://www.tiktok.com/@ameerah_tebrau/video/7657807865620516117,video,278.006,,,,neutral,0.6367232203483582,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.03581970930099487,0.02032620832324028,0.1345990151166916,0.024280773475766182,0.28645843267440796,0.02637607976794243
+tiktok,post,7659161935732329749,"Ayuh pengundi #tiram pangkah #ustazkhir calon no 4 di #prnjohor
+
+#jomjagajohor
+#fypmalaysia",,,neutral,2026-07-08 18:55:28.882616+00:00,163,10,31,672,0.5,210,https://www.tiktok.com/@pas_johor_bahru/video/7659161935732329749,https://www.tiktok.com/@pas_johor_bahru/video/7659161935732329749,video,276.672,,,,neutral,0.8454166054725647,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.05130897834897041,0.0161097701638937,0.049558255821466446,0.021465817466378212,0.3829994201660156,0.019101692363619804
+tiktok,post,7654924591160200469,"Tempat pelaksanaan  Muktamar ke-35 Nahdlatul Ulama hingga kini belum juga diputuskan. Kondisi ini memantik kekhawatiran dari berbagai pihak, termasuk pengasuh Pondok Pesantren  Denanyar,Jombang, KH Abdussalam Shohib atau Gus Salam. 
+Kyai muda cucu KH Bisri Syansuri ini menilai, dengan waktu pelaksanaan yang semakin dekat, ketidakpastian lokasi berpotensi membuat agenda besar organisasi tersebut mundur dari jadwal yang telah disepakati.
+
+Dalam situasi normal, penentuan lokasi muktamar biasanya dilakukan melalui rapat gabungan di lingkungan PBNU. Namun menurut Gus Salam, mekanisme tersebut tidak berjalan sebagaimana mestinya karena rapat yang digelar tidak menghasilkan keputusan final. 
+
+Bahkan, keputusan sempat dilimpahkan ke forum Munas-Konbes NU 2026 di Pondok Pesantren Al Falah Kediri, tetapi juga tidak menemukan titik temu.
+
+Situasi yang berlarut ini, menurutnya, sangat berisiko terhadap jadwal pelaksanaan muktamar yang sudah disepakati, yakni pada 1 hingga 5 Agustus 2026. Ia mengingatkan bahwa PWNU telah memberikan ultimatum kepada PBNU, bahwa jika hingga batas waktu tersebut muktamar tidak terlaksana, maka akan diajukan mosi tidak percaya kepada PBNU.
+
+Terkait kemungkinan lokasi di pesantren seperti Lirboyo Kediri, Gus Salam menilai semua aspirasi harus dihormati, termasuk usulan dari berbagai daerah seperti NTB, DKI Jakarta, dan Cirebon. 
+
+Namun ia menegaskan bahwa keputusan ideal tetap harus melalui mekanisme organisasi yang sah, baik musyawarah mufakat maupun voting jika diperlukan, agar tidak menimbulkan polemik berkepanjangan di internal NU.",,,negative,2026-07-08 18:55:51.414002+00:00,189,11,14,11800,0.0008008003234863392,332,https://www.tiktok.com/@tv.one.jombang/video/7654924591160200469,https://www.tiktok.com/@tv.one.jombang/video/7654924591160200469,video,264.8,,,,negative,0.9973306655883789,malay,Malay/Bumiputera,Unknown,0.0,anger,0.5126239657402039,0.26366493105888367,0.0682821273803711,0.022677753120660782,0.031853653490543365,0.03160913661122322
+tiktok,post,7577178797536038152,"Buanyak banget yang nanya teh nuril, kantor Dinar Khoirur Rooziqiin di mana??? 
+
+Naaah di video ini aq jawab pertanyaan teman-teman. Disclaimer dulu ya: Membeli emas dinar KR di kantor wajib menginfokan nama mitra resmi yang mengajak dan merekomendasikan hijrah finansial ke emas dinar KR. Sebutin nama aku boleh nuril wr536 🫰. Semoga bermanfaat 🙏😊🥰🤗. 
+
+#kantordkri #kunjungan #dinarkr #hijrah #finansial",,,neutral,2026-07-08 18:55:58.781936+00:00,119,45,14,6143,0.5,239,https://www.tiktok.com/@nur.dinarkr/video/7577178797536038152,https://www.tiktok.com/@nur.dinarkr/video/7577178797536038152,video,257.143,,,,neutral,0.8310756087303162,malay,Malay/Bumiputera,Unknown,0.0,love,0.0679902583360672,0.036024149507284164,0.06389585882425308,0.03226212412118912,0.4541915953159332,0.06744828820228577
+tiktok,post,7622319260198620436,"nuklir Iran yg no 3 ,no 1 negara lainya pun Lom pernah lihat #fypppp #sorotan_viral #semuaorang",,,neutral,2026-07-08 18:55:44.368980+00:00,198,9,1,23900,0.5,447,https://www.tiktok.com/@mustaponya/video/7622319260198620436,https://www.tiktok.com/@mustaponya/video/7622319260198620436,video,242.9,,,,neutral,0.8176926374435425,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.02052205055952072,0.019027186557650566,0.03939663618803024,0.020662007853388786,0.18155509233474731,0.16994032263755798
+tiktok,post,7659919612192115976,"Munajat sentiasa diteruskan.
+
+Semoga @USTAZ KHIR diberikan kemenangan pada 11 Julai 2026 ini. 
+
+Kepada Allah kita berserah. 🤲
+
+#UstazKhir #KekalPrihatin #TiramSejahtera #BerkatPrihatinSejahtera",,,positive,2026-07-08 18:55:19.396938+00:00,178,11,6,1000,0.9992839574813842,205,https://www.tiktok.com/@muslimat_tebrau/video/7659919612192115976,https://www.tiktok.com/@muslimat_tebrau/video/7659919612192115976,video,219.0,,,,positive,0.9976131916046143,malay,Malay/Bumiputera,Unknown,0.0,love,0.04025469720363617,0.038833409547805786,0.28497326374053955,0.025073889642953873,0.4199775159358978,0.028136778622865677
+tiktok,post,7658311869832170772,"Teruskan Perjuangan Al Fadhil Ustaz Khir (Calon PN N40 DUN Tiram)! 💪
+
+Sepanjang empat hari saya berada di DUN Tiram membantu Al Fadhil Ustaz Khir, saya dapat melihat sendiri keperibadian beliau sebagai seorang pemimpin yang benar-benar dekat di hati rakyat.
+
+Beliau sentiasa turun bertemu masyarakat tanpa mengira latar belakang, mendengar setiap keluhan dengan penuh perhatian, serta memberikan respons yang positif, tenang dan berhemah. Dalam setiap pertemuan, Ustaz Khir tidak mudah melatah atau terburu-buru apabila dikritik sebaliknya beliau memilih untuk mendengar, memahami dan mencari jalan penyelesaian terbaik demi kepentingan rakyat.
+
+Keperibadian inilah yang mencerminkan nilai Al-Qawiy iaitu seorang pemimpin yang kompeten, berkemampuan dan bersedia memikul amanah dengan penuh tanggungjawab. Dalam masa yang sama, sifat Al-Amin turut terserlah melalui integriti, kejujuran dan amanah yang menjadi pegangan beliau dalam berkhidmat kepada masyarakat.
+
+Dalam tekanan kos sara hidup yang menjadi keresahan utama rakyat DUN Tiram terutama anak muda, DUN Tiram memerlukan seorang wakil rakyat yang bukan sekadar pandai berbicara, tetapi mampu bekerja, mendengar dan membawa suara rakyat dengan penuh hikmah dan berkesan.
+
+Saya yakin pengundi DUN Tiram merupakan pengundi yang bijaksana. Dengan menilai keperibadian, integriti dan kemampuan calon, saya percaya mereka akan membuat pilihan yang terbaik demi masa depan DUN Tiram.
+
+Undilah Al Fadhil Ustaz Khir calon.No.4 sebagai Wakil Rakyat DUN Tiram. Bersama kita bina Tiram yang lebih sejahtera.
+
+""Jom Jaga Tiram""
+
+#UstazKhir 
+#n40duntiram 
+#TiramSejahtera 
+#JomJagaJohor",,,positive,2026-07-08 18:55:20.395642+00:00,146,8,10,1373,0.9809808135032654,177,https://www.tiktok.com/@haziqasyraf91/video/7658311869832170772,https://www.tiktok.com/@haziqasyraf91/video/7658311869832170772,video,193.373,,,,positive,0.9366027116775513,malay,Malay/Bumiputera,Unknown,0.0,happy,0.04948010668158531,0.03757547214627266,0.4041137993335724,0.027297334745526314,0.3551501929759979,0.03021903522312641
+tiktok,post,7602946772872301832,Malaysia to singapore 🇲🇾🇸🇬//last but not least !! #studytour #fypシ #4u #vlog #withfriends,,,neutral,2026-07-08 18:55:40.235837+00:00,141,6,7,4429,0.5,198,https://www.tiktok.com/@3ynn66/video/7602946772872301832,https://www.tiktok.com/@3ynn66/video/7602946772872301832,video,178.429,,,,neutral,0.708928644657135,english,Mixed/Urban,Unknown,0.0,love,0.03868198022246361,0.014240486547350883,0.0548265315592289,0.02602098509669304,0.6481568813323975,0.01699450984597206
+tiktok,post,7328434069065305376,"Haram Street en Malaisie, rien de halal dans la rue ! #halal #nonhalal #haram #kualalumpur #malaysia #malaisie #fyp #muslim",,,negative,2026-07-08 18:55:24.566616+00:00,46,16,27,6783,0.0005097091197967529,156,https://www.tiktok.com/@chezbrams/video/7328434069065305376,https://www.tiktok.com/@chezbrams/video/7328434069065305376,video,165.783,,,,negative,0.9983009696006775,malay,Malay/Bumiputera,Unknown,0.0,love,0.13382497429847717,0.03283388167619705,0.08388011157512665,0.03835572302341461,0.5144487023353577,0.035310063511133194
+tiktok,post,7603276197228858631,"Khoirul Anam (28), petugas satuan pengamanan (satpam) yang bertugas di BRI Kantor Cabang Tanjung Priok, Jakarta Utara, berhasil mencatatkan namanya dalam Museum Rekor Dunia Indonesia (MURI) sebagai satpam dengan karya ilmiah terbanyak. Prestasi ini diraihnya setelah berhasil mempublikasikan 13 karya ilmiah di jurnal nasional dan internasional  yang menjadi sebuah pencapaian luar biasa di luar perannya sebagai penjaga keamanan.
+
+Dalam kesehariannya, Khoirul tidak hanya fokus pada tugas jaga, tetapi juga berjuang meraih pendidikan tinggi. Ia menyelesaikan S2 Manajemen di Universitas Dirgantara Marsekal Suryadarma, serta memiliki dua gelar Sarjana (S1) dari Universitas Pamulang dan STIT Bustanul Ulum Lampung Tengah.
+
+#THEOG #OGNews #KhoirulAnam #Satpam #RekorMuri
+
+Sumber: tribunnews.com
+SumberVisual: TikTok/Tukang Lari, Instagram/khoirula6_86",,,neutral,2026-07-08 18:55:33.021924+00:00,111,9,7,8632,0.5,213,https://www.tiktok.com/@theogidn/video/7603276197228858631,https://www.tiktok.com/@theogidn/video/7603276197228858631,video,158.632,,,,neutral,0.9674994349479675,malay,Malay/Bumiputera,Unknown,0.0,no_clear_emotion,0.05274854227900505,0.035955723375082016,0.09099874645471573,0.0361679308116436,0.17223183810710907,0.04533993452787399
+tiktok,post,7658204781910969621,"Alhamdulillah, pagi kelmarin saya berkesempatan menemani Ustaz Khir, Calon PN di DUN Tiram menziarahi pemimpin masyarakat di Taman Bukit Tiram.
+
+#ustazkhir #kekalprihatin #n40duntiram #JomJagaJohor #TiramSejahtera",,,neutral,2026-07-08 18:55:19.089982+00:00,116,9,6,1456,0.5,145,https://www.tiktok.com/@haziqasyraf91/video/7658204781910969621,https://www.tiktok.com/@haziqasyraf91/video/7658204781910969621,video,153.456,,,,neutral,0.5920025706291199,english,Mixed/Urban,Unknown,0.0,no_clear_emotion,0.031908899545669556,0.030729684978723526,0.05318639427423477,0.0334947369992733,0.3020985722541809,0.23674383759498596
+tiktok,post,7658217639776406792,"PRN JOHOR.
+#undilahperikatannasional 
+#paspn💚💙 
+#jomjagajohor",,,positive,2026-07-08 18:55:23.581419+00:00,124,5,4,1283,0.8741711378097534,145,https://www.tiktok.com/@nazri_ahmad_/video/7658217639776406792,https://www.tiktok.com/@nazri_ahmad_/video/7658217639776406792,video,147.283,,,,positive,0.5805704593658447,english,Mixed/Urban,Unknown,0.0,love,0.0805169939994812,0.020749511197209358,0.037831973284482956,0.031154291704297066,0.7118539810180664,0.017782559618353844
+tiktok,post,7659035027455495431,"“Dengan latar belakang pendidikan agama yang kukuh, pengalaman politik yang luas serta hubungan yang erat dengan masyarakat setempat, saya menyeru seluruh pengundi di N40 DUN Tiram agar memberikan peluang kepada Al-Fadhil Ustaz Khir untuk berkhidmat sebagai wakil rakyat pada PRNJ-16 ini.”
+
+Undilah Calon No 4 | Ustaz Khir
+N18 DUN Tiram
+
+#JomJagaJohor
+#BerkatPrihatinSejahtera
+#JomJagaTiram",,,positive,2026-07-08 18:55:24.250982+00:00,125,0,6,615,0.9993945002555846,137,https://www.tiktok.com/@mohdfirdausjaffar/video/7659035027455495431,https://www.tiktok.com/@mohdfirdausjaffar/video/7659035027455495431,video,143.615,,,,positive,0.9979816675186157,malay,Malay/Bumiputera,Unknown,0.0,love,0.06297406554222107,0.020983805879950523,0.06538010388612747,0.0240333192050457,0.7142421007156372,0.023425575345754623
+tiktok,post,7659458754827521288,"N.40 for Calon N0.4 @USTAZ KHIR Insyaa Allah 💪🏻 
+
+#UstazKhir  #PerikatanNasional #DUNTiram #PRN16 #JomJagaJohor",,,positive,2026-07-08 18:55:20.694769+00:00,107,5,6,662,0.8572681605815887,124,https://www.tiktok.com/@nikabdullahrozali/video/7659458754827521288,https://www.tiktok.com/@nikabdullahrozali/video/7659458754827521288,video,135.662,,,,positive,0.5242272019386292,english,Mixed/Urban,Unknown,0.0,love,0.05894860625267029,0.044488511979579926,0.18296155333518982,0.026320669800043106,0.46877413988113403,0.025767827406525612
+tiktok,post,7660090814227303700,"Ustaz Khirul Muntanazar atau Ustaz Khir adalah Naib Ketua Dewan Ulama PAS Pusat.
+
+Saya mengenali beliau sejak di bangku sekolah lagi. 
+
+Ustaz Khir adalah merupakan Calon Nombor 4 dalam kertas undi untuk PRN Johor bagi N40 Tiram.
+
+#PerikatanNasional
+#UstazKhir
+#JomJagaTiram
+#JomJagaJohor
+#BerkatPrihatinSejahtera",,,neutral,2026-07-08 18:55:14.664553+00:00,95,8,4,506,0.5,112,https://www.tiktok.com/@ustaz.idrisahmad/video/7660090814227303700,https://www.tiktok.com/@ustaz.idrisahmad/video/7660090814227303700,video,123.506,,,,neutral,0.5391536355018616,malay,Malay/Bumiputera,Unknown,0.0,love,0.016155188903212547,0.008014693856239319,0.0226591806858778,0.02117753215134144,0.5730893015861511,0.06671222299337387

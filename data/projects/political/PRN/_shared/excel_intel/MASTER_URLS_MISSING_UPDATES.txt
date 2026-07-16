@@ -1,0 +1,213 @@
+# =============================================================
+# MASTER_URLS — UPDATES YANG TIADA (vs Excel manifest 2026-06-20)
+# Tambah ke MASTER_URLS v2 → jadi ~269 URLs (+66)
+# =============================================================
+
+# ---- NASIONAL / CROSS-STATE (26) ----
+# news_national · Malaysiakini BM
+https://www.malaysiakini.com/ms
+
+# news_national · Harakah Daily
+https://harakahdaily.net
+
+# news_national · Sinar Plus
+https://sinarplus.com
+
+# tiktok_hashtag · #pilihanrayaumum
+https://www.tiktok.com/tag/pilihanrayaumum
+
+# tiktok_hashtag · #undi18
+https://www.tiktok.com/tag/undi18
+
+# tiktok_hashtag · #ceramahpolitik
+https://www.tiktok.com/tag/ceramahpolitik
+
+# tiktok_hashtag · #politikbersih
+https://www.tiktok.com/tag/politikbersih
+
+# tiktok_hashtag · #ron95
+https://www.tiktok.com/tag/ron95
+
+# tiktok_hashtag · #sarahidup
+https://www.tiktok.com/tag/sarahidup
+
+# tiktok_hashtag · #subsidi
+https://www.tiktok.com/tag/subsidi
+
+# youtube_channel · RTM Klik
+https://www.youtube.com/@RTMKlik
+
+# youtube_channel · FMT
+https://www.youtube.com/@FreeMalaysiaToday
+
+# youtube_channel · Harakah Daily TV
+https://www.youtube.com/@HarakahDailyTV
+
+# youtube_channel · DAP Malaysia
+https://www.youtube.com/@DAPmalaysia
+
+# youtube_channel · UMNO Online TV
+https://www.youtube.com/@UMNOOnlineTV
+
+# youtube_channel · Buletin TV3
+https://www.youtube.com/@buletintv3
+
+# spr_main · Suruhanjaya Pilihan Raya
+https://www.spr.gov.my
+
+# spr_results · SPR Keputusan PR
+https://www.spr.gov.my/ms/pilihan-raya/keputusan-pilihan-raya
+
+# spr_dunia · Dunia Baru SPR
+https://duniabaru.spr.gov.my
+
+# ngo · Undi.info
+https://undi.info
+
+# ngo · Tindak Malaysia
+https://www.tindakmalaysia.org
+
+# ngo · Bersih 2.0
+https://bersih.org
+
+# ngo · SUARAM
+https://www.suaram.net
+
+# election_calendar · SPR PRN Johor & Negeri Sembilan 2026 key dates
+https://spr.gov.my/wp-content/uploads/2026/06/KM-BIL-18_2026-MESYUARAT-KHAS-PRU-DEWAN-NEGERI-JOHOR-NEGERI-SEMBILAN-KE-16-1.pdf
+
+# flood_reference · Public InfoBanjir JPS
+https://publicinfobanjir.water.gov.my/
+
+# tourism_policy · MOTAC
+https://www.motac.gov.my/
+
+
+# ---- NEGERI SEMBILAN (16) ----
+# news_state · Malaysiakini — N9
+https://www.malaysiakini.com/category/news/state/negeri-sembilan
+
+# tiktok_hashtag · #prnnegerisembilan
+https://www.tiktok.com/tag/prnnegerisembilan
+
+# tiktok_hashtag · #yamtuanku
+https://www.tiktok.com/tag/yamtuanku
+
+# tiktok_hashtag · #adatperpatih
+https://www.tiktok.com/tag/adatperpatih
+
+# x_search · PRN N9 hashtag
+https://x.com/search?q=%23PRNN9&f=live
+
+# x_search · YAM Tuanku Muhriz
+https://x.com/search?q=YAM%20Tuanku%20Muhriz&f=live
+
+# state_election_office · Pejabat Pilihan Raya Negeri Sembilan
+https://ppn.spr.gov.my/nsembilan/
+
+# local_authority · Majlis Bandaraya Seremban
+https://www.mbs.gov.my/ms
+
+# local_authority · Majlis Perbandaran Port Dickson
+https://mppd.gov.my/
+
+# local_authority · Majlis Perbandaran Jempol
+https://www.mdjl.gov.my/
+
+# local_authority · Majlis Daerah Jelebu
+https://mdjelebu.gov.my/
+
+# local_authority · Majlis Daerah Kuala Pilah
+https://mdkp.gov.my/
+
+# local_authority · Majlis Daerah Rembau
+https://www.mdr.gov.my/ms/
+
+# local_authority · Majlis Daerah Tampin
+https://www.mdtampin.gov.my/
+
+# water · Syarikat Air Negeri Sembilan
+https://www.sainswater.com/
+
+# state_media · Negeri Kita
+https://negerikita.org/
+
+
+# ---- JOHOR (24) ----
+# news_state · Malaysiakini — Johor
+https://www.malaysiakini.com/category/news/state/johor
+
+# news_state · Johor Now
+https://www.johornow.com
+
+# tiktok_hashtag · #sultanjohor
+https://www.tiktok.com/tag/sultanjohor
+
+# tiktok_hashtag · #tmjofficial
+https://www.tiktok.com/tag/tmjofficial
+
+# tiktok_hashtag · #tunkuismail
+https://www.tiktok.com/tag/tunkuismail
+
+# x_search · PRN Johor hashtag
+https://x.com/search?q=%23PRNJohor&f=live
+
+# x_search · Sultan Johor titah
+https://x.com/search?q=Sultan%20Johor%20titah&f=live
+
+# x_search · TMJ Tunku Ismail
+https://x.com/search?q=TMJ%20Johor&f=live
+
+# state_portal · Portal Kerajaan Johor
+https://www.johor.gov.my
+
+# dun_portal · Dewan Negeri Johor
+https://dewannegeri.johor.gov.my
+
+# palace · Royal Press Office Johor
+https://www.facebook.com/RoyalPressOffice
+
+# state_election_office · Pejabat Pilihan Raya Negeri Johor
+https://ppn.spr.gov.my/johor/
+
+# local_authority · Majlis Bandaraya Johor Bahru
+https://www.mbjb.gov.my/
+
+# local_authority · Majlis Bandaraya Iskandar Puteri
+https://www.mbip.gov.my/
+
+# local_authority · Majlis Bandaraya Pasir Gudang
+https://www.mbpg.gov.my/
+
+# local_authority · Majlis Perbandaran Batu Pahat
+https://www.mpbp.gov.my/
+
+# local_authority · Majlis Perbandaran Kluang
+https://www.mpkluang.gov.my/
+
+# local_authority · Majlis Perbandaran Muar
+https://www.mpmuar.gov.my/
+
+# local_authority · Majlis Perbandaran Segamat
+https://mpsegamat.gov.my/
+
+# local_authority · Majlis Perbandaran Kulai
+https://mpku.gov.my/
+
+# local_authority · Majlis Perbandaran Pontian
+https://www.mdpontian.gov.my/
+
+# state_campaign · Tourism Johor / Visit Johor 2026
+https://tourism.johor.gov.my/
+
+# official_public_account · Official site of the Regent of Johor
+https://tunkuismail.com/en/
+
+# official_portal · Royal Johor
+https://royal.johor.my/
+
+
+# =============================================================
+# NOTA: 79 kerusi DUN (gap) PERLU KEYWORD CRAWL — bukan URL
+# Rujuk: PRN_GAP_CRAWL_N9_JOHOR.json / PRN_GAP_CRAWL_QUERIES.txt
+# =============================================================

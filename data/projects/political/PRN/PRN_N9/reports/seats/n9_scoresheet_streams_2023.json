@@ -1,0 +1,1311 @@
+{
+  "N01": {
+    "file": "HelaianMata N.01 CHENNAH.pdf",
+    "registered": 14554,
+    "ballotsA": 9705,
+    "validTotal": 9576,
+    "rejected": 115,
+    "candVotes": [
+      3688,
+      5888
+    ],
+    "numCands": 2,
+    "namesRaw": "ROSMADI BIN ARIF LOKE SIEW FOOK",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 5888,
+    "runnerVotes": 3688,
+    "majority": 2200,
+    "turnoutPct": 66.7,
+    "spoiltPct": 1.19,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        1599,
+        1936
+      ],
+      "Cina": [
+        1723,
+        3816
+      ]
+    },
+    "code": "N01",
+    "nameFromFile": "N.01 CHENNAH"
+  },
+  "N02": {
+    "file": "HelaianMata N.02 PERTANG.pdf",
+    "registered": 12897,
+    "ballotsA": 8572,
+    "validTotal": 8478,
+    "rejected": 83,
+    "candVotes": [
+      5634,
+      2844
+    ],
+    "numCands": 2,
+    "namesRaw": "JALALUDDIN BIN ALIAS CIKGU AMIR",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 5634,
+    "runnerVotes": 2844,
+    "majority": 2790,
+    "turnoutPct": 66.5,
+    "spoiltPct": 0.97,
+    "streamsByType": {
+      "Awal": [
+        271,
+        194
+      ],
+      "Melayu/Campuran": [
+        2320,
+        1664
+      ],
+      "Cina": [
+        2962,
+        934
+      ]
+    },
+    "code": "N02",
+    "nameFromFile": "N.02 PERTANG"
+  },
+  "N03": {
+    "file": "HelaianMata N.03 SUNGAI LUI.pdf",
+    "registered": 20206,
+    "ballotsA": 13616,
+    "validTotal": 13343,
+    "rejected": 255,
+    "candVotes": [
+      6939,
+      6404
+    ],
+    "numCands": 2,
+    "namesRaw": "MOHD. RAZI BIN MOHD. ALI NORDIN HASIM",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 6939,
+    "runnerVotes": 6404,
+    "majority": 535,
+    "turnoutPct": 67.4,
+    "spoiltPct": 1.88,
+    "streamsByType": {
+      "Awal": [
+        188,
+        311
+      ],
+      "Melayu/Campuran": [
+        5307,
+        5074
+      ],
+      "India/Ladang": [
+        1104,
+        509
+      ]
+    },
+    "code": "N03",
+    "nameFromFile": "N.03 SUNGAI LUI"
+  },
+  "N04": {
+    "file": "HelaianMata N.04 KLAWANG.pdf",
+    "registered": 13163,
+    "ballotsA": 9073,
+    "validTotal": 8983,
+    "rejected": 80,
+    "candVotes": [
+      364,
+      4021,
+      4598
+    ],
+    "numCands": 3,
+    "namesRaw": "ANGAH SAIFUL DANNI RAIS BAKRI SAWIR",
+    "winnerCol": 2,
+    "runnerCol": 1,
+    "winnerVotes": 4598,
+    "runnerVotes": 4021,
+    "majority": 577,
+    "turnoutPct": 68.9,
+    "spoiltPct": 0.88,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        280,
+        2795,
+        2366
+      ],
+      "India/Ladang": [
+        75,
+        1051,
+        2082
+      ]
+    },
+    "code": "N04",
+    "nameFromFile": "N.04 KLAWANG"
+  },
+  "N05": {
+    "file": "HelaianMata N.05 SERTING.pdf",
+    "registered": 30287,
+    "ballotsA": 19957,
+    "validTotal": 19781,
+    "rejected": 140,
+    "candVotes": [
+      10312,
+      9469
+    ],
+    "numCands": 2,
+    "namesRaw": "USTAZ FAIRUZ MUHAMAD ZAMRI OMAR",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 10312,
+    "runnerVotes": 9469,
+    "majority": 843,
+    "turnoutPct": 65.9,
+    "spoiltPct": 0.7,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        8285,
+        5918
+      ],
+      "Cina": [
+        514,
+        2096
+      ],
+      "India/Ladang": [
+        1169,
+        1107
+      ]
+    },
+    "code": "N05",
+    "nameFromFile": "N.05 SERTING"
+  },
+  "N06": {
+    "file": "HelaianMata N.06 PALONG.pdf",
+    "registered": 23494,
+    "ballotsA": 15458,
+    "validTotal": 15316,
+    "rejected": 121,
+    "candVotes": [
+      7376,
+      7940
+    ],
+    "numCands": 2,
+    "namesRaw": "NOOR AZUAN MUSTAPHA BIN NAGOOR",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 7940,
+    "runnerVotes": 7376,
+    "majority": 564,
+    "turnoutPct": 65.8,
+    "spoiltPct": 0.78,
+    "streamsByType": {
+      "Pos": [
+        414,
+        584
+      ],
+      "Melayu/Campuran": [
+        6877,
+        7264
+      ]
+    },
+    "code": "N06",
+    "nameFromFile": "N.06 PALONG"
+  },
+  "N07": {
+    "file": "HelaianMata N.07 JERAM PADANG.pdf",
+    "registered": 16332,
+    "ballotsA": 10358,
+    "validTotal": 10231,
+    "rejected": 115,
+    "candVotes": [
+      5462,
+      4769
+    ],
+    "numCands": 2,
+    "namesRaw": "MOHD ZAIDY ABDUL KADIR SURASH A/L SREENIVASAN",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 5462,
+    "runnerVotes": 4769,
+    "majority": 693,
+    "turnoutPct": 63.4,
+    "spoiltPct": 1.11,
+    "streamsByType": {
+      "India/Ladang": [
+        3328,
+        2682
+      ],
+      "Melayu/Campuran": [
+        1976,
+        1871
+      ]
+    },
+    "code": "N07",
+    "nameFromFile": "N.07 JERAM PADANG"
+  },
+  "N08": {
+    "file": "HelaianMata N.08 BAHAU.pdf",
+    "registered": 25769,
+    "ballotsA": 15617,
+    "validTotal": 15470,
+    "rejected": 132,
+    "candVotes": [
+      3531,
+      11939
+    ],
+    "numCands": 2,
+    "namesRaw": "P. M. KUMAR TEO KOK SEONG",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 11939,
+    "runnerVotes": 3531,
+    "majority": 8408,
+    "turnoutPct": 60.6,
+    "spoiltPct": 0.85,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        2557,
+        4432
+      ],
+      "Cina": [
+        600,
+        7188
+      ]
+    },
+    "code": "N08",
+    "nameFromFile": "N.08 BAHAU"
+  },
+  "N09": {
+    "file": "HelaianMata N.09 LENGGENG.pdf",
+    "registered": 27386,
+    "ballotsA": 20014,
+    "validTotal": 19799,
+    "rejected": 170,
+    "candVotes": [
+      404,
+      9355,
+      10040
+    ],
+    "numCands": 3,
+    "namesRaw": "ZUL AZKI MAT SULOP HAJI FADLI CHE ME HJ ASNA",
+    "winnerCol": 2,
+    "runnerCol": 1,
+    "winnerVotes": 10040,
+    "runnerVotes": 9355,
+    "majority": 685,
+    "turnoutPct": 73.1,
+    "spoiltPct": 0.85,
+    "streamsByType": {
+      "Awal": [
+        1,
+        29,
+        25
+      ],
+      "Cina": [
+        105,
+        1874,
+        3227
+      ],
+      "Melayu/Campuran": [
+        293,
+        7324,
+        6664
+      ]
+    },
+    "code": "N09",
+    "nameFromFile": "N.09 LENGGENG"
+  },
+  "N10": {
+    "file": "HelaianMata N.10 NILAI.pdf",
+    "registered": 42168,
+    "ballotsA": 29091,
+    "validTotal": 28864,
+    "rejected": 203,
+    "candVotes": [
+      8244,
+      1430,
+      57,
+      19133
+    ],
+    "numCands": 4,
+    "namesRaw": "GAN CHEE BIOW OMAR BIN MOHD ISA YESSU J.ARUL KUMAR",
+    "winnerCol": 3,
+    "runnerCol": 0,
+    "winnerVotes": 19133,
+    "runnerVotes": 8244,
+    "majority": 10889,
+    "turnoutPct": 69.0,
+    "spoiltPct": 0.7,
+    "streamsByType": {
+      "Awal": [
+        205,
+        30,
+        0,
+        130
+      ],
+      "Melayu/Campuran": [
+        3906,
+        595,
+        32,
+        8936
+      ],
+      "Cina": [
+        4060,
+        782,
+        25,
+        9945
+      ]
+    },
+    "code": "N10",
+    "nameFromFile": "N.10 NILAI"
+  },
+  "N11": {
+    "file": "HelaianMata N.11 LOBAK.pdf",
+    "registered": 23193,
+    "ballotsA": 15321,
+    "validTotal": 15210,
+    "rejected": 99,
+    "candVotes": [
+      853,
+      14357
+    ],
+    "numCands": 2,
+    "namesRaw": "NG SOON LEAN CHEW SEH YONG",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 14357,
+    "runnerVotes": 853,
+    "majority": 13504,
+    "turnoutPct": 66.1,
+    "spoiltPct": 0.65,
+    "streamsByType": {
+      "Pos": [
+        276,
+        2272
+      ],
+      "Cina": [
+        366,
+        7859
+      ],
+      "India/Ladang": [
+        200,
+        4156
+      ]
+    },
+    "code": "N11",
+    "nameFromFile": "N.11 LOBAK"
+  },
+  "N12": {
+    "file": "HelaianMata N.12 TEMIANG.pdf",
+    "registered": 13085,
+    "ballotsA": 9069,
+    "validTotal": 8992,
+    "rejected": 63,
+    "candVotes": [
+      5710,
+      640,
+      2642
+    ],
+    "numCands": 3,
+    "namesRaw": "NG CHIN TSAI QUSYAIRY AHMAD CHUA ENG PU",
+    "winnerCol": 0,
+    "runnerCol": 2,
+    "winnerVotes": 5710,
+    "runnerVotes": 2642,
+    "majority": 3068,
+    "turnoutPct": 69.3,
+    "spoiltPct": 0.7,
+    "streamsByType": {
+      "Awal": [
+        199,
+        116,
+        634
+      ],
+      "Melayu/Campuran": [
+        5477,
+        517,
+        1966
+      ]
+    },
+    "code": "N12",
+    "nameFromFile": "N.12 TEMIANG"
+  },
+  "N13": {
+    "file": "HelaianMata N.13 SIKAMAT.pdf",
+    "registered": 32343,
+    "ballotsA": 23444,
+    "validTotal": 23220,
+    "rejected": 157,
+    "candVotes": [
+      10068,
+      12730,
+      83,
+      339
+    ],
+    "numCands": 4,
+    "namesRaw": "RAIHAN HILAL AMINUDDIN HARUN BUJANG BIN ABU MOHAMMED HAFIZ (TOK MERAH)",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 12730,
+    "runnerVotes": 10068,
+    "majority": 2662,
+    "turnoutPct": 72.5,
+    "spoiltPct": 0.67,
+    "streamsByType": {
+      "Awal": [
+        1570,
+        1632,
+        14,
+        57
+      ],
+      "Melayu/Campuran": [
+        7873,
+        9239,
+        61,
+        261
+      ],
+      "Cina": [
+        387,
+        1591,
+        7,
+        16
+      ]
+    },
+    "code": "N13",
+    "nameFromFile": "N.13 SIKAMAT"
+  },
+  "N14": {
+    "file": "HelaianMata N.14 AMPANGAN.pdf",
+    "registered": 20992,
+    "ballotsA": 14963,
+    "validTotal": 14858,
+    "rejected": 79,
+    "candVotes": [
+      6054,
+      5725,
+      3079
+    ],
+    "numCands": 3,
+    "namesRaw": "TENGKU ZAMRAH BINTI TENGKU SULAIMAN MUHAMMAD GHAZALI BIN ZAINAL ABIDIN DATO' DR MOHAMAD RAFIE BIN AB MALEK",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 6054,
+    "runnerVotes": 5725,
+    "majority": 329,
+    "turnoutPct": 71.3,
+    "spoiltPct": 0.53,
+    "streamsByType": {
+      "Pos": [
+        806,
+        146,
+        137
+      ],
+      "Melayu/Campuran": [
+        5189,
+        5485,
+        2903
+      ]
+    },
+    "code": "N14",
+    "nameFromFile": "N.14 AMPANGAN"
+  },
+  "N15": {
+    "file": "HelaianMata N.15 JUASSEH.pdf",
+    "registered": 13408,
+    "ballotsA": 9122,
+    "validTotal": 9020,
+    "rejected": 87,
+    "candVotes": [
+      4471,
+      4549
+    ],
+    "numCands": 2,
+    "namesRaw": "EDDIN SYAZLEE BIN SHITH PUAN SRI BIBI SHARLIZA",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 4549,
+    "runnerVotes": 4471,
+    "majority": 78,
+    "turnoutPct": 68.0,
+    "spoiltPct": 0.96,
+    "streamsByType": {
+      "Pos": [
+        219,
+        297
+      ],
+      "Melayu/Campuran": [
+        3391,
+        2894
+      ],
+      "Cina": [
+        663,
+        1211
+      ]
+    },
+    "code": "N15",
+    "nameFromFile": "N.15 JUASSEH"
+  },
+  "N16": {
+    "file": "HelaianMata N.16 SERI MENANTI.pdf",
+    "registered": 10045,
+    "ballotsA": 7128,
+    "validTotal": 7052,
+    "rejected": 69,
+    "candVotes": [
+      3711,
+      3341
+    ],
+    "numCands": 2,
+    "namesRaw": "USTAZ SUFIAN MARADZI JAMALI BIN SALAM",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 3711,
+    "runnerVotes": 3341,
+    "majority": 370,
+    "turnoutPct": 71.0,
+    "spoiltPct": 0.97,
+    "streamsByType": {
+      "Awal": [
+        15,
+        8
+      ],
+      "Melayu/Campuran": [
+        3651,
+        3288
+      ]
+    },
+    "code": "N16",
+    "nameFromFile": "N.16 SERI MENANTI"
+  },
+  "N17": {
+    "file": "HelaianMata N.17 SENALING.pdf",
+    "registered": 9886,
+    "ballotsA": 6852,
+    "validTotal": 6786,
+    "rejected": 53,
+    "candVotes": [
+      3724,
+      3062
+    ],
+    "numCands": 2,
+    "namesRaw": "ISMAIL LASIM AMRINA BINTI MOHD KHALID",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 3724,
+    "runnerVotes": 3062,
+    "majority": 662,
+    "turnoutPct": 69.3,
+    "spoiltPct": 0.77,
+    "streamsByType": {
+      "Pos": [
+        179,
+        114
+      ],
+      "Melayu/Campuran": [
+        2660,
+        2505
+      ],
+      "India/Ladang": [
+        820,
+        384
+      ]
+    },
+    "code": "N17",
+    "nameFromFile": "N.17 SENALING"
+  },
+  "N18": {
+    "file": "HelaianMata N.18 PILAH.pdf",
+    "registered": 17692,
+    "ballotsA": 11493,
+    "validTotal": 11365,
+    "rejected": 103,
+    "candVotes": [
+      5143,
+      6222
+    ],
+    "numCands": 2,
+    "namesRaw": "CIKGU RAFIEI NOORZUNITA BEGUM MOHD IBRAHIM",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 6222,
+    "runnerVotes": 5143,
+    "majority": 1079,
+    "turnoutPct": 65.0,
+    "spoiltPct": 0.9,
+    "streamsByType": {
+      "Awal": [
+        206,
+        90
+      ],
+      "Melayu/Campuran": [
+        3603,
+        4746
+      ],
+      "Cina": [
+        1141,
+        1221
+      ]
+    },
+    "code": "N18",
+    "nameFromFile": "N.18 PILAH"
+  },
+  "N19": {
+    "file": "HelaianMata N.19 JOHOL.pdf",
+    "registered": 12313,
+    "ballotsA": 8412,
+    "validTotal": 8339,
+    "rejected": 66,
+    "candVotes": [
+      5228,
+      3111
+    ],
+    "numCands": 2,
+    "namesRaw": "HJ SAIFUL YAZAN SULAIMAN HJ KAMARUDIN TAHIR",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 5228,
+    "runnerVotes": 3111,
+    "majority": 2117,
+    "turnoutPct": 68.3,
+    "spoiltPct": 0.79,
+    "streamsByType": {
+      "Awal": [
+        16,
+        2
+      ],
+      "Melayu/Campuran": [
+        2504,
+        1864
+      ],
+      "Cina": [
+        2515,
+        1138
+      ]
+    },
+    "code": "N19",
+    "nameFromFile": "N.19 JOHOL"
+  },
+  "N20": {
+    "file": "HelaianMata N.20 LABU.pdf",
+    "registered": 30478,
+    "ballotsA": 21873,
+    "validTotal": 21682,
+    "rejected": 159,
+    "candVotes": [
+      11661,
+      10021
+    ],
+    "numCands": 2,
+    "namesRaw": "ANIP ABU BAKER HJ ISMAIL BIN AHMAD",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 11661,
+    "runnerVotes": 10021,
+    "majority": 1640,
+    "turnoutPct": 71.8,
+    "spoiltPct": 0.73,
+    "streamsByType": {
+      "India/Ladang": [
+        2443,
+        2211
+      ],
+      "Melayu/Campuran": [
+        7443,
+        5857
+      ],
+      "Cina": [
+        1697,
+        1867
+      ]
+    },
+    "code": "N20",
+    "nameFromFile": "N.20 LABU"
+  },
+  "N21": {
+    "file": "HelaianMata N.21 BUKIT KEPAYANG.pdf",
+    "registered": 46229,
+    "ballotsA": 30664,
+    "validTotal": 30489,
+    "rejected": 107,
+    "candVotes": [
+      4942,
+      921,
+      24626
+    ],
+    "numCands": 3,
+    "namesRaw": "SUBRAMANIAM A/L PURUSHOTHAMA AHMAD ZAMALI MOHAMAD NICOLE TAN LEE KOON",
+    "winnerCol": 2,
+    "runnerCol": 0,
+    "winnerVotes": 24626,
+    "runnerVotes": 4942,
+    "majority": 19684,
+    "turnoutPct": 66.3,
+    "spoiltPct": 0.35,
+    "streamsByType": {
+      "Awal": [
+        371,
+        42,
+        191
+      ],
+      "Melayu/Campuran": [
+        3043,
+        547,
+        14010
+      ],
+      "Cina": [
+        1459,
+        308,
+        9379
+      ],
+      "India/Ladang": [
+        14,
+        9,
+        893
+      ]
+    },
+    "code": "N21",
+    "nameFromFile": "N.21 BUKIT KEPAYANG"
+  },
+  "N22": {
+    "file": "HelaianMata N.22 RAHANG.pdf",
+    "registered": 20182,
+    "ballotsA": 13476,
+    "validTotal": 13304,
+    "rejected": 152,
+    "candVotes": [
+      9868,
+      3436
+    ],
+    "numCands": 2,
+    "namesRaw": "SIAU MEOW KONG LEE BOON SHIAN",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 9868,
+    "runnerVotes": 3436,
+    "majority": 6432,
+    "turnoutPct": 66.8,
+    "spoiltPct": 1.13,
+    "streamsByType": {
+      "Awal": [
+        217,
+        1009
+      ],
+      "Melayu/Campuran": [
+        7249,
+        2118
+      ],
+      "Cina": [
+        2319,
+        82
+      ]
+    },
+    "code": "N22",
+    "nameFromFile": "N.22 RAHANG"
+  },
+  "N23": {
+    "file": "HelaianMata N.23 MAMBAU.pdf",
+    "registered": 28952,
+    "ballotsA": 19456,
+    "validTotal": 19301,
+    "rejected": 135,
+    "candVotes": [
+      17039,
+      163,
+      2099
+    ],
+    "numCands": 3,
+    "namesRaw": "YAP YEW WENG KUMARAVEL A/L RAMIAH SATHES KUMAR NILAMEHAM",
+    "winnerCol": 0,
+    "runnerCol": 2,
+    "winnerVotes": 17039,
+    "runnerVotes": 2099,
+    "majority": 14940,
+    "turnoutPct": 67.2,
+    "spoiltPct": 0.69,
+    "streamsByType": {
+      "Cina": [
+        8439,
+        75,
+        708
+      ],
+      "Melayu/Campuran": [
+        8480,
+        86,
+        1353
+      ]
+    },
+    "code": "N23",
+    "nameFromFile": "N.23 MAMBAU"
+  },
+  "N24": {
+    "file": "HelaianMata N.24 SEREMBAN JAYA.pdf",
+    "registered": 32290,
+    "ballotsA": 21664,
+    "validTotal": 21457,
+    "rejected": 171,
+    "candVotes": [
+      17080,
+      4377
+    ],
+    "numCands": 2,
+    "namesRaw": "P.GUNA GARY LEE",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 17080,
+    "runnerVotes": 4377,
+    "majority": 12703,
+    "turnoutPct": 67.1,
+    "spoiltPct": 0.79,
+    "streamsByType": {
+      "Pos": [
+        2030,
+        69
+      ],
+      "Cina": [
+        7477,
+        1341
+      ],
+      "Melayu/Campuran": [
+        7459,
+        2897
+      ]
+    },
+    "code": "N24",
+    "nameFromFile": "N.24 SEREMBAN JAYA"
+  },
+  "N25": {
+    "file": "HelaianMata N.25 PAROI.pdf",
+    "registered": 60704,
+    "ballotsA": 43475,
+    "validTotal": 43085,
+    "rejected": 299,
+    "candVotes": [
+      944,
+      18301,
+      23840
+    ],
+    "numCands": 3,
+    "namesRaw": "SYAKIR FITRI NORWANI AHMAT HJ KAMAROL RIDZUAN",
+    "winnerCol": 2,
+    "runnerCol": 1,
+    "winnerVotes": 23840,
+    "runnerVotes": 18301,
+    "majority": 5539,
+    "turnoutPct": 71.6,
+    "spoiltPct": 0.69,
+    "streamsByType": {
+      "Awal": [
+        2,
+        42,
+        261
+      ],
+      "Melayu/Campuran": [
+        629,
+        11945,
+        14658
+      ],
+      "India/Ladang": [
+        287,
+        5814,
+        8019
+      ]
+    },
+    "code": "N25",
+    "nameFromFile": "N.25 PAROI"
+  },
+  "N26": {
+    "file": "HelaianMata N.26 CHEMBONG.pdf",
+    "registered": 25625,
+    "ballotsA": 18389,
+    "validTotal": 18187,
+    "rejected": 163,
+    "candVotes": [
+      6926,
+      11261
+    ],
+    "numCands": 2,
+    "namesRaw": "BAKLY BIN BABA DATO' HAJI ZAIFULBAHRI BIN HAJI IDRIS",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 11261,
+    "runnerVotes": 6926,
+    "majority": 4335,
+    "turnoutPct": 71.8,
+    "spoiltPct": 0.89,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        4915,
+        7227
+      ],
+      "Cina": [
+        1826,
+        3669
+      ]
+    },
+    "code": "N26",
+    "nameFromFile": "N.26 CHEMBONG"
+  },
+  "N27": {
+    "file": "HelaianMata N.27 RANTAU.pdf",
+    "registered": 32890,
+    "ballotsA": 23834,
+    "validTotal": 23634,
+    "rejected": 161,
+    "candVotes": [
+      6677,
+      16957
+    ],
+    "numCands": 2,
+    "namesRaw": "ROZMAL BIN MALAKAN TOK MAT",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 16957,
+    "runnerVotes": 6677,
+    "majority": 10280,
+    "turnoutPct": 72.5,
+    "spoiltPct": 0.68,
+    "streamsByType": {
+      "Awal": [
+        457,
+        414
+      ],
+      "Melayu/Campuran": [
+        2826,
+        6457
+      ],
+      "India/Ladang": [
+        3045,
+        8966
+      ],
+      "Cina": [
+        123,
+        803
+      ]
+    },
+    "code": "N27",
+    "nameFromFile": "N.27 RANTAU"
+  },
+  "N28": {
+    "file": "HelaianMata N.28 KOTA.pdf",
+    "registered": 16510,
+    "ballotsA": 11723,
+    "validTotal": 11603,
+    "rejected": 96,
+    "candVotes": [
+      5869,
+      5734
+    ],
+    "numCands": 2,
+    "namesRaw": "SUHAIMI BIN AINI SHUKRI BIN SHUKOR",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 5869,
+    "runnerVotes": 5734,
+    "majority": 135,
+    "turnoutPct": 71.0,
+    "spoiltPct": 0.82,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        4661,
+        4931
+      ],
+      "Cina": [
+        1142,
+        734
+      ]
+    },
+    "code": "N28",
+    "nameFromFile": "N.28 KOTA"
+  },
+  "N29": {
+    "file": "HelaianMata N.29 CHUAH.pdf",
+    "registered": 15095,
+    "ballotsA": 10159,
+    "validTotal": 10046,
+    "rejected": 101,
+    "candVotes": [
+      1874,
+      8172
+    ],
+    "numCands": 2,
+    "namesRaw": "TANG JAY SON YEW BOON LYE",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 8172,
+    "runnerVotes": 1874,
+    "majority": 6298,
+    "turnoutPct": 67.3,
+    "spoiltPct": 1.0,
+    "streamsByType": {
+      "India/Ladang": [
+        225,
+        1569
+      ],
+      "Cina": [
+        1108,
+        5195
+      ],
+      "Melayu/Campuran": [
+        507,
+        1364
+      ]
+    },
+    "code": "N29",
+    "nameFromFile": "N.29 CHUAH"
+  },
+  "N30": {
+    "file": "HelaianMata N.30 LUKUT.pdf",
+    "registered": 26806,
+    "ballotsA": 17418,
+    "validTotal": 17257,
+    "rejected": 145,
+    "candVotes": [
+      3561,
+      13696
+    ],
+    "numCands": 2,
+    "namesRaw": "S. RAGU CHOO KEN HWA",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 13696,
+    "runnerVotes": 3561,
+    "majority": 10135,
+    "turnoutPct": 65.0,
+    "spoiltPct": 0.83,
+    "streamsByType": {
+      "Awal": [
+        14,
+        8
+      ],
+      "Melayu/Campuran": [
+        955,
+        3330
+      ],
+      "India/Ladang": [
+        1900,
+        6890
+      ],
+      "Cina": [
+        659,
+        3408
+      ]
+    },
+    "code": "N30",
+    "nameFromFile": "N.30 LUKUT"
+  },
+  "N31": {
+    "file": "HelaianMata N.31 BAGAN PINANG.pdf",
+    "registered": 27790,
+    "ballotsA": 21031,
+    "validTotal": 18416,
+    "rejected": 2585,
+    "candVotes": [
+      10921,
+      7495
+    ],
+    "numCands": 2,
+    "namesRaw": "USTAZ FATAH NAJIB TAN SRI ISA",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 10921,
+    "runnerVotes": 7495,
+    "majority": 3426,
+    "turnoutPct": 75.7,
+    "spoiltPct": 12.31,
+    "streamsByType": {
+      "Awal": [
+        2154,
+        770
+      ],
+      "Melayu/Campuran": [
+        6221,
+        4793
+      ],
+      "India/Ladang": [
+        669,
+        1240
+      ]
+    },
+    "code": "N31",
+    "nameFromFile": "N.31 BAGAN PINANG"
+  },
+  "N32": {
+    "file": "HelaianMata N.32 LINGGI.pdf",
+    "registered": 20696,
+    "ballotsA": 14551,
+    "validTotal": 14203,
+    "rejected": 98,
+    "candVotes": [
+      7832,
+      6371
+    ],
+    "numCands": 2,
+    "namesRaw": "DATUK MOHD FAIZAL RAMLI ZAMRI BIN MD SAID",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 7832,
+    "runnerVotes": 6371,
+    "majority": 1461,
+    "turnoutPct": 70.3,
+    "spoiltPct": 0.69,
+    "streamsByType": {
+      "Awal": [
+        492,
+        1307
+      ],
+      "Melayu/Campuran": [
+        4634,
+        2854
+      ],
+      "India/Ladang": [
+        1104,
+        977
+      ],
+      "Cina": [
+        1395,
+        885
+      ]
+    },
+    "code": "N32",
+    "nameFromFile": "N.32 LINGGI"
+  },
+  "N33": {
+    "file": "HelaianMata N.33 SRI TANJUNG.pdf",
+    "registered": 19431,
+    "ballotsA": 12599,
+    "validTotal": 12482,
+    "rejected": 98,
+    "candVotes": [
+      4243,
+      8239
+    ],
+    "numCands": 2,
+    "namesRaw": "ZABIDI BIN ARIFFIN DR.RAJA",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 8239,
+    "runnerVotes": 4243,
+    "majority": 3996,
+    "turnoutPct": 64.8,
+    "spoiltPct": 0.78,
+    "streamsByType": {
+      "Awal": [
+        222,
+        96
+      ],
+      "Melayu/Campuran": [
+        3057,
+        4988
+      ],
+      "India/Ladang": [
+        886,
+        3112
+      ]
+    },
+    "code": "N33",
+    "nameFromFile": "N.33 SRI TANJUNG"
+  },
+  "N34": {
+    "file": "HelaianMata N.34 GEMAS.pdf",
+    "registered": 29648,
+    "ballotsA": 20453,
+    "validTotal": 20186,
+    "rejected": 251,
+    "candVotes": [
+      11653,
+      8533
+    ],
+    "numCands": 2,
+    "namesRaw": "HAJI RIDZUAN AHMAD ABD RAZAK BIN AB SAID",
+    "winnerCol": 0,
+    "runnerCol": 1,
+    "winnerVotes": 11653,
+    "runnerVotes": 8533,
+    "majority": 3120,
+    "turnoutPct": 69.0,
+    "spoiltPct": 1.23,
+    "streamsByType": {
+      "Awal": [
+        2745,
+        1056
+      ],
+      "Melayu/Campuran": [
+        7091,
+        5660
+      ],
+      "India/Ladang": [
+        1023,
+        1468
+      ]
+    },
+    "code": "N34",
+    "nameFromFile": "N.34 GEMAS"
+  },
+  "N35": {
+    "file": "HelaianMata N.35 GEMENCHEH.pdf",
+    "registered": 24602,
+    "ballotsA": 15519,
+    "validTotal": 15376,
+    "rejected": 123,
+    "candVotes": [
+      6471,
+      8905
+    ],
+    "numCands": 2,
+    "namesRaw": "USTAZ TENGKU SUHAIMIZAN BIZAR (HAI)",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 8905,
+    "runnerVotes": 6471,
+    "majority": 2434,
+    "turnoutPct": 63.1,
+    "spoiltPct": 0.79,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        4280,
+        4837
+      ],
+      "Cina": [
+        1809,
+        3160
+      ],
+      "India/Ladang": [
+        85,
+        557
+      ]
+    },
+    "code": "N35",
+    "nameFromFile": "N.35 GEMENCHEH"
+  },
+  "N36": {
+    "file": "HelaianMata N.36 REPAH.pdf",
+    "registered": 27284,
+    "ballotsA": 17277,
+    "validTotal": 17064,
+    "rejected": 193,
+    "candVotes": [
+      5557,
+      11507
+    ],
+    "numCands": 2,
+    "namesRaw": "ELAINE YONG LI YI VEERAPAN A/L SUPERAMANIAM",
+    "winnerCol": 1,
+    "runnerCol": 0,
+    "winnerVotes": 11507,
+    "runnerVotes": 5557,
+    "majority": 5950,
+    "turnoutPct": 63.3,
+    "spoiltPct": 1.12,
+    "streamsByType": {
+      "Melayu/Campuran": [
+        4034,
+        8434
+      ],
+      "India/Ladang": [
+        958,
+        2071
+      ],
+      "Cina": [
+        319,
+        824
+      ]
+    },
+    "code": "N36",
+    "nameFromFile": "N.36 REPAH"
+  }
+}
