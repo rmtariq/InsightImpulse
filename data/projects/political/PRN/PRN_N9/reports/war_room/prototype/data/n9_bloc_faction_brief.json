@@ -1,0 +1,67 @@
+{
+  "generated": "2026-06-25 18:10:00",
+  "source": "hq_brief",
+  "executive_summary": "Dua varian PN: #4 Team PN (PAS+Pejuang+Wawasan+Gerakan+PRIM) tanpa Bersatu; #7 Team PN penuh + Bersatu — bloc SPR PN 2023. Bukan Bersatu solo — kedua-dua lawan PH dalam model 2-penjuru.",
+  "bloc_labels": {
+    "pas_solo": "PAS Solo",
+    "umno_solo": "UMNO/BN Solo",
+    "mn": "MN (PAS+UMNO)",
+    "pn": "PN (PAS+Pejuang+Wawasan+Gerakan · tanpa Bersatu)",
+    "ph": "PH (Madani)",
+    "bersama": "Bersama",
+    "pn_plus": "PN (PAS+Pejuang+Wawasan+Gerakan + Bersatu + …)"
+  },
+  "team_pn_roster": [
+    "PAS",
+    "Pejuang",
+    "Wawasan",
+    "Gerakan",
+    "PRIM"
+  ],
+  "team_pn_bullet": [
+    "PAS",
+    "Pejuang",
+    "Wawasan",
+    "Gerakan",
+    "PRIM"
+  ],
+  "team_pn_plus_roster": [
+    "PAS",
+    "Pejuang",
+    "Wawasan",
+    "Gerakan",
+    "PRIM",
+    "Bersatu"
+  ],
+  "team_pn_plus_bullet": [
+    "PAS",
+    "Pejuang",
+    "Wawasan",
+    "Gerakan",
+    "PRIM",
+    "Bersatu"
+  ],
+  "pn_excludes": [
+    "Bersatu (hanya dalam varian #7 — bukan #4)"
+  ],
+  "slider_hints": {
+    "bersamaPct": {
+      "label": "Bersama",
+      "default": 3,
+      "crawl_posts_n9": 13
+    }
+  },
+  "crawl_mentions_n9": {
+    "bersama_rafizi": 13,
+    "team_pn_pejuang_wawasan": 10,
+    "mn_muafakat": 91
+  },
+  "war_room_actions": [
+    "Crawl Batch 8: Batch A Bersama · Batch C Team PN (PAS+Pejuang+Wawasan+Gerakan)",
+    "Brief lapangan: #4 tanpa Bersatu vs #7 dengan Bersatu — jangan kelirukan dengan Bersatu solo",
+    "Monitor kemelut 3 penjuru — fokus elak pecah undi Melayu via MN"
+  ],
+  "n9_ops_note": "36 DUN N9 — #4 penalti jentera Bersatu (−2%/−7% di kerusi Bersatu 2023). #7 = bloc SPR PN penuh.",
+  "confidence_note": "Bukan polling — SPR 2023 + model + crawl socmed hybrid.",
+  "rag_version": "2026-06-25"
+}

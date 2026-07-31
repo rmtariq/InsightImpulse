@@ -1,0 +1,107 @@
+{
+  "verdict": "BUKAN solo penuh",
+  "formula": "Logo bulan PAS sendiri + runding seat-sharing dengan Bersatu / Wawasan / Berjasa",
+  "deadline": "2026-07-18",
+  "deadline_label": "18 Julai 2026 — penamaan calon",
+  "official_statement": {
+    "id": "official_hadi_sidang_media_n9_20260712",
+    "status": "statement_captured_pending_engagement",
+    "title": "Sidang Media: Pilihan Raya Negeri Sembilan",
+    "speaker": "Presiden PAS · Tuan Guru Abdul Hadi Awang",
+    "url": "https://www.youtube.com/watch?v=0qSESgWMoG8",
+    "upload_date": "20260712",
+    "views": 118,
+    "likes": 14,
+    "comments": 1,
+    "engagement_note": "Post baharu — jangan guna engagement/comments untuk sentimen lagi",
+    "key_points": [
+      "Kerjasama dengan UMNO sedang dibincang — digambarkan positif",
+      "Konteks: Bersatu tarik diri → ruang kerjasama dengan UMNO dibuka",
+      "Kerangka kerusi disebut: UMNO ~14, PN/blok ~5; baki (dari PKR/DAP dsb) dibahagi ikut kewajaran",
+      "PAS mungkin kurangkan bilangan kerusi ditanding — pembahagian ikut kewajaran",
+      "5 kerusi PN: 3 PAS + 2 Bersatu — 2 Bersatu mungkin ditukar/dinilai semula (PAS atau UMNO)",
+      "Jawatan MB: PAS 'tak ada masalah'",
+      "LOGO: masing-masing guna logo sendiri; PAS belum putus PN vs logo PAS — masih dalam perbincangan",
+      "Keputusan akhir / kejutan mungkin semasa malam penamaan calon"
+    ],
+    "match": [
+      "Logo sendiri masih terbuka (PAS vs PN) — elak isu watikah",
+      "Seat-sharing / pembahagian kerusi ditekan (bukan solo penuh)",
+      "Deadline penamaan calon sebagai titik keputusan"
+    ],
+    "tension": [
+      "Sidang condong kerjasama UMNO; halatuju dalaman sebelumnya tekan sekutu pembangkang (Bersatu/Wawasan/Berjasa) dan elak undi BN",
+      "Perlu clarify HQ: 'kerjasama UMNO' = seat deal rasmi vs isyarat media sahaja"
+    ],
+    "cina_india_now": "Tiada sebutan langsung Cina/India dalam transcript auto-caption.",
+    "cina_india_risk": "Framing 'pemimpin Islam/Melayu macam Johor' boleh diguna lawan untuk takutkan pengundi Cina/India jika dipetik tanpa konteks perkhidmatan.",
+    "followup_due": "2026-07-14 13:07",
+    "transcript_quality": "Auto-caption YouTube — sahkan manual sebelum quote rasmi"
+  },
+  "johor_lesson": {
+    "headline": "PRN Johor: PAS 0/11 kerusi · PN 0/56 keseluruhan",
+    "punca": [
+      "PAS–Bersatu berkempen berasingan (isu logo/watikah PN dengan SPR) — jentera pecah",
+      "Bukan senama: dua 'blok' bertembung → pengundi keliru, undi pecah",
+      "PAS suruh penyokong undi BN di kerusi PN tak tanding — tolong parti lawan sendiri"
+    ],
+    "takeaway": "Masalah teknikal logo/watikah + pecah undi dalaman lebih merosakkan daripada isu 'simbol PN' di mata Cina/India."
+  },
+  "n9_recommendation": {
+    "do": [
+      "PAS guna logo bulan sendiri — elak isu SPR/pertikaian tandatangan seperti Johor",
+      "WAJIB runding & bahagi kerusi dengan Bersatu, Wawasan, Berjasa sebelum 18 Julai",
+      "Jangan lawan sesama sendiri di kerusi yang sama",
+      "Di kerusi PAS tak tanding: sokong calon sekutu (bukan BN)"
+    ],
+    "dont": [
+      "Solo penuh tanpa seat-sharing (ulang Johor)",
+      "Suruh penyokong undi BN sebagai 'jalan singkat'",
+      "Biarkan dua calon 'blok pembangkang' bertembung di DUN sama"
+    ],
+    "why_own_logo_ok": [
+      "Elak terus isu SPR / watikah seperti Johor",
+      "Cina & India tak fokus simbol logo — mereka risau kenyataan/rhetorik PAS",
+      "Logo bulan dikenali jelas oleh pengundi tradisional PAS"
+    ]
+  },
+  "cina_india_grounding": {
+    "data_label": "649 posts N9 · ~522K engagement · 1 Mei – 12 Jul 2026",
+    "chinese": {
+      "posts": 157,
+      "neg_pct": 30,
+      "boycott_risk": "medium",
+      "top_issue": "Cost of Living (19%)",
+      "insight": "Komuniti Cina N9 fokus kos hidup, SME & perkhidmatan PBT — bukan logo parti. Negatif 30% · risiko soft abstention di Seremban/Nilai/Lobak jika rhetorik agama/perkauman diulang (senjata DAP seperti di Johor)."
+    },
+    "indian": {
+      "posts": 271,
+      "top_issue": "Other (31%)",
+      "insight": "Komuniti India N9 pragmatik: SJKT, pekerjaan, prestasi parti. Faktor PAS muncul dalam corpus tetapi respons terbaik = perkhidmatan, bukan teologi."
+    },
+    "messaging_rule": "Simbol (bulan vs telefon vs PN) hampir tidak material kepada Cina/India. Yang merosakkan = kenyataan awam yang boleh diframing sebagai takutkan minoriti."
+  },
+  "seat_focus": {
+    "priority": "Kerusi majoriti tipis + kerusi UMNO (realistik tambah kerusi)",
+    "avoid": "Jangan utamakan pecah kubu kuat DAP sebagai strategi utama",
+    "mn20_note": "Selaras War Room: 20 kerusi sasaran MN — push ABC, maintain D"
+  },
+  "ops_now": [
+    "Pantau status rundingan seat-sharing harian hingga 18 Julai",
+    "Siapkan mesej rasmi jentera: kekal dalam blok pembangkang / sekutu — BUKAN undi BN",
+    "Track sentimen Cina/India harian (kini ~649 posts, ~522K engagement)",
+    "Jaga kenyataan awam — elak rhetorik perkauman/agama yang jadi senjata DAP",
+    "Arahan undi bertulis untuk setiap DUN: siapa calon kita / siapa sekutu / siapa lawan"
+  ],
+  "warroom_signal": {
+    "mn_vs_solo_pct": 68,
+    "headline": "MN kekal laluan utama",
+    "ringkasan": "Data CULA + ML: kekalkan naratif MN (bukan debat solo). MN jelas 68% vs Solo · Pro-PAS 48.0% · Labu sokong PAS 76.5%. Model majoriti: MN (PAS+BN) lead 66%."
+  },
+  "sources": [
+    "Ulasan strategi pasca-PRN Johor (PAS 0/11, PN 0/56) — Jul 2026",
+    "Crawl naratif Cina & India N9 (analyze_naratif_agentic)",
+    "War Room n9_daily_ops.json (MN vs Solo)",
+    "Sidang Media Presiden PAS N9 (YouTube 0qSESgWMoG8, 12 Jul 2026) — statement only"
+  ]
+}

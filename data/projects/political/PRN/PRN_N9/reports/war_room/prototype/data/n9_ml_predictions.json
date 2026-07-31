@@ -1,0 +1,654 @@
+{
+  "success": true,
+  "domain": "prn_n9_seat_competition",
+  "generated_at": "2026-07-12T15:19:14.283320",
+  "analytics_tier": "predictive",
+  "label_definition": "competitive seat = kategoriPas defend/winnable/tough OR pasWinProb≥35",
+  "disclaimer": "Bukan polling SPR. Model tabular hibrid — 36 DUN, guna CV. Sahkan dengan lapangan.",
+  "descriptive": {
+    "seats_total": 36,
+    "competitive_seats": 12,
+    "pas_win_prob": {
+      "label": "pasWinProb",
+      "count": 36,
+      "mean": 27.375,
+      "std": 19.096,
+      "min": 15.0,
+      "max": 82.0,
+      "median": 15.0
+    },
+    "majority": {
+      "label": "majority2023",
+      "count": 36,
+      "mean": 4571.139,
+      "std": 4864.814,
+      "min": 78.0,
+      "max": 19684.0,
+      "median": 2726.0
+    },
+    "socmed_neg_pct": {
+      "label": "socmed_neg_pct",
+      "count": 36,
+      "mean": 1.192,
+      "std": 4.302,
+      "min": 0.0,
+      "max": 20.0,
+      "median": 0.0
+    }
+  },
+  "predictive": {
+    "status": "ok",
+    "n_samples": 36,
+    "n_positive": 12,
+    "n_negative": 24,
+    "feature_names": [
+      "majority_norm",
+      "pct_melayu",
+      "pct_cina",
+      "pct_india",
+      "youth_pct",
+      "cula_pct",
+      "bkc_modal",
+      "news_mentions",
+      "socmed_neg_pct",
+      "socmed_mentions",
+      "socmed_engagement",
+      "socmed_oppose_lean",
+      "scenario_pas_pn"
+    ],
+    "models": {
+      "svm": {
+        "cv_accuracy_mean": 0.861,
+        "cv_accuracy_std": 0.091,
+        "cv_f1_mean": 0.76,
+        "train_accuracy": 1.0,
+        "train_f1": 1.0,
+        "top_features": null
+      },
+      "random_forest": {
+        "cv_accuracy_mean": 0.943,
+        "cv_accuracy_std": 0.07,
+        "cv_f1_mean": 0.867,
+        "train_accuracy": 1.0,
+        "train_f1": 1.0,
+        "top_features": [
+          [
+            "scenario_pas_pn",
+            0.3253
+          ],
+          [
+            "pct_melayu",
+            0.1342
+          ],
+          [
+            "pct_cina",
+            0.1157
+          ],
+          [
+            "bkc_modal",
+            0.106
+          ],
+          [
+            "youth_pct",
+            0.0647
+          ],
+          [
+            "pct_india",
+            0.0552
+          ],
+          [
+            "majority_norm",
+            0.0438
+          ],
+          [
+            "socmed_engagement",
+            0.0433
+          ]
+        ]
+      },
+      "decision_tree": {
+        "cv_accuracy_mean": 0.886,
+        "cv_accuracy_std": 0.107,
+        "cv_f1_mean": 0.827,
+        "train_accuracy": 1.0,
+        "train_f1": 1.0,
+        "top_features": [
+          [
+            "scenario_pas_pn",
+            0.8462
+          ],
+          [
+            "bkc_modal",
+            0.1538
+          ],
+          [
+            "majority_norm",
+            0.0
+          ],
+          [
+            "pct_melayu",
+            0.0
+          ],
+          [
+            "pct_cina",
+            0.0
+          ],
+          [
+            "pct_india",
+            0.0
+          ],
+          [
+            "youth_pct",
+            0.0
+          ],
+          [
+            "cula_pct",
+            0.0
+          ]
+        ]
+      }
+    },
+    "ensemble": {
+      "method": "mean_probability",
+      "probabilities": [
+        0.0906,
+        0.8362,
+        0.8509,
+        0.0972,
+        0.9482,
+        0.157,
+        0.1379,
+        0.0926,
+        0.9096,
+        0.0921,
+        0.0395,
+        0.0486,
+        0.242,
+        0.1235,
+        0.151,
+        0.1341,
+        0.1465,
+        0.8453,
+        0.8607,
+        0.8893,
+        0.0457,
+        0.0397,
+        0.0355,
+        0.051,
+        0.9217,
+        0.1428,
+        0.741,
+        0.1205,
+        0.0301,
+        0.0876,
+        0.9141,
+        0.1172,
+        0.0519,
+        0.8749,
+        0.7628,
+        0.0413
+      ],
+      "predictions": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "seat_predictions": [
+    {
+      "code": "N05",
+      "name": "Serting",
+      "kategoriPas": "defend",
+      "pasWinProb": 70,
+      "majority": 843,
+      "ml_competitive_prob": 0.9482,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 70
+    },
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "kategoriPas": "defend",
+      "pasWinProb": 82,
+      "majority": 5539,
+      "ml_competitive_prob": 0.9217,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 82
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "kategoriPas": "defend",
+      "pasWinProb": 82,
+      "majority": 3426,
+      "ml_competitive_prob": 0.9141,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 82
+    },
+    {
+      "code": "N09",
+      "name": "Lenggeng",
+      "kategoriPas": "winnable",
+      "pasWinProb": 50.5,
+      "majority": 685,
+      "ml_competitive_prob": 0.9096,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 50.5
+    },
+    {
+      "code": "N20",
+      "name": "Labu",
+      "kategoriPas": "tough",
+      "pasWinProb": 42,
+      "majority": 1640,
+      "ml_competitive_prob": 0.8893,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 42
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "kategoriPas": "tough",
+      "pasWinProb": 42,
+      "majority": 3120,
+      "ml_competitive_prob": 0.8749,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 42
+    },
+    {
+      "code": "N19",
+      "name": "Johol",
+      "kategoriPas": "tough",
+      "pasWinProb": 38,
+      "majority": 2117,
+      "ml_competitive_prob": 0.8607,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 38
+    },
+    {
+      "code": "N03",
+      "name": "Sungai Lui",
+      "kategoriPas": "winnable",
+      "pasWinProb": 51.0,
+      "majority": 535,
+      "ml_competitive_prob": 0.8509,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 51.0
+    },
+    {
+      "code": "N18",
+      "name": "Pilah",
+      "kategoriPas": "winnable",
+      "pasWinProb": 38,
+      "majority": 1079,
+      "ml_competitive_prob": 0.8453,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 38
+    },
+    {
+      "code": "N02",
+      "name": "Pertang",
+      "kategoriPas": "tough",
+      "pasWinProb": 38,
+      "majority": 2790,
+      "ml_competitive_prob": 0.8362,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 38
+    },
+    {
+      "code": "N35",
+      "name": "Gemencheh",
+      "kategoriPas": "tough",
+      "pasWinProb": 38,
+      "majority": 2434,
+      "ml_competitive_prob": 0.7628,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 38
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "kategoriPas": "tough",
+      "pasWinProb": 28,
+      "majority": 10280,
+      "ml_competitive_prob": 0.741,
+      "ml_competitive_flag": 1,
+      "rule_pas_prob": 28
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 2662,
+      "ml_competitive_prob": 0.242,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N06",
+      "name": "Palong",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 564,
+      "ml_competitive_prob": 0.157,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N15",
+      "name": "Juasseh",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 78,
+      "ml_competitive_prob": 0.151,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N17",
+      "name": "Senaling",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 662,
+      "ml_competitive_prob": 0.1465,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 4335,
+      "ml_competitive_prob": 0.1428,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N07",
+      "name": "Jeram Padang",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 693,
+      "ml_competitive_prob": 0.1379,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N16",
+      "name": "Seri Menanti",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 370,
+      "ml_competitive_prob": 0.1341,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 329,
+      "ml_competitive_prob": 0.1235,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 135,
+      "ml_competitive_prob": 0.1205,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N32",
+      "name": "Linggi",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 1461,
+      "ml_competitive_prob": 0.1172,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 577,
+      "ml_competitive_prob": 0.0972,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N08",
+      "name": "Bahau",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 28,
+      "majority": 8408,
+      "ml_competitive_prob": 0.0926,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 28
+    },
+    {
+      "code": "N10",
+      "name": "Nilai",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 10889,
+      "ml_competitive_prob": 0.0921,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N01",
+      "name": "Chennah",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 2200,
+      "ml_competitive_prob": 0.0906,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 28,
+      "majority": 10135,
+      "ml_competitive_prob": 0.0876,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 28
+    },
+    {
+      "code": "N33",
+      "name": "Sri Tanjung",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 3996,
+      "ml_competitive_prob": 0.0519,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N24",
+      "name": "Seremban Jaya",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 12703,
+      "ml_competitive_prob": 0.051,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N12",
+      "name": "Temiang",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 3068,
+      "ml_competitive_prob": 0.0486,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 19684,
+      "ml_competitive_prob": 0.0457,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N36",
+      "name": "Repah",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 5950,
+      "ml_competitive_prob": 0.0413,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N22",
+      "name": "Rahang",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 6432,
+      "ml_competitive_prob": 0.0397,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 13504,
+      "ml_competitive_prob": 0.0395,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 14940,
+      "ml_competitive_prob": 0.0355,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    },
+    {
+      "code": "N29",
+      "name": "Chuah",
+      "kategoriPas": "not_priority",
+      "pasWinProb": 15,
+      "majority": 6298,
+      "ml_competitive_prob": 0.0301,
+      "ml_competitive_flag": 0,
+      "rule_pas_prob": 15
+    }
+  ],
+  "prescriptive_actions": [
+    {
+      "rank": 1,
+      "urgency": "immediate",
+      "domain": "prn_n9",
+      "title": "Gerakkan jentera & digital ke N05 · Serting",
+      "detail": "ML ensemble 95% competitive · kategori defend · majoriti 843 · rule pasWinProb 70%",
+      "entity": "N05",
+      "score": 0.948,
+      "ml_support": "svm+random_forest+decision_tree"
+    },
+    {
+      "rank": 2,
+      "urgency": "immediate",
+      "domain": "prn_n9",
+      "title": "Gerakkan jentera & digital ke N25 · Paroi",
+      "detail": "ML ensemble 92% competitive · kategori defend · majoriti 5539 · rule pasWinProb 82%",
+      "entity": "N25",
+      "score": 0.922,
+      "ml_support": "svm+random_forest+decision_tree"
+    },
+    {
+      "rank": 3,
+      "urgency": "immediate",
+      "domain": "prn_n9",
+      "title": "Gerakkan jentera & digital ke N31 · Bagan Pinang",
+      "detail": "ML ensemble 91% competitive · kategori defend · majoriti 3426 · rule pasWinProb 82%",
+      "entity": "N31",
+      "score": 0.914,
+      "ml_support": "svm+random_forest+decision_tree"
+    },
+    {
+      "rank": 4,
+      "urgency": "immediate",
+      "domain": "prn_n9",
+      "title": "Gerakkan jentera & digital ke N09 · Lenggeng",
+      "detail": "ML ensemble 91% competitive · kategori winnable · majoriti 685 · rule pasWinProb 50.5%",
+      "entity": "N09",
+      "score": 0.91,
+      "ml_support": "svm+random_forest+decision_tree"
+    },
+    {
+      "rank": 5,
+      "urgency": "immediate",
+      "domain": "prn_n9",
+      "title": "Gerakkan jentera & digital ke N20 · Labu",
+      "detail": "ML ensemble 89% competitive · kategori tough · majoriti 1640 · rule pasWinProb 42%",
+      "entity": "N20",
+      "score": 0.889,
+      "ml_support": "svm+random_forest+decision_tree"
+    }
+  ],
+  "model_summary": {
+    "algorithms": [
+      "SVM (RBF)",
+      "Random Forest",
+      "Decision Tree"
+    ],
+    "ensemble": "mean probability",
+    "n_features": 13
+  }
+}

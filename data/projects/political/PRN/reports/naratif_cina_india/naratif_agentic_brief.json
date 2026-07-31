@@ -1,0 +1,51 @@
+{
+  "executive_summary_ms": "Negeri Sembilan: komuniti Cina menekankan Cost of Living (19%), SME dan perkhidmatan PBT (30% negatif) — risiko soft abstention di kerusi bandar (Seremban, Nilai, Lobak). Komuniti India (271 posts) fokus SJKT, pekerjaan dan isu parti; sokongan PH pragmatik jika perkhidmatan disampaikan. Prioriti PAS/PN/MN: fakta bantuan + lawatan ground N9, elak retorik agama.",
+  "n9": {
+    "chinese": {
+      "support_ph_assessment": "PH base kuat tapi kos hidup erode trust",
+      "boycott_risk": "medium",
+      "pas_pn_mn_perception": "PAS factor dipantau — fokus perkhidmatan, bukan teologi",
+      "playable_narratives": [
+        "Perkhidmatan tempatan Seremban (trafik & parkir)",
+        "SME Jelebu/Nilai — bantuan kos operasi",
+        "Kestabilan negeri — elak pecah undi"
+      ],
+      "actions_p1": [
+        "Respons aduan kos hidup/SME dengan data exco N9 (BM+中文)",
+        "Ground team Seremban/Nilai — dialog peniaga Cina"
+      ],
+      "actions_p2": [
+        "Lawatan DUN bandar Cina N10/N11/N12/N28"
+      ]
+    },
+    "indian": {
+      "support_ph_assessment": "SJKT & pekerjaan — PH deliver = kekal",
+      "boycott_risk": "low",
+      "pas_pn_mn_perception": "Neutral — fokus perkhidmatan",
+      "playable_narratives": [
+        "SJKT guru kekurangan",
+        "Port Dickson pekerjaan"
+      ],
+      "actions_p1": [
+        "Koordinasi pendidikan SJKT — BM+Tamil update"
+      ],
+      "actions_p2": [
+        "Pantau PN strategy mentions — counter pecah undi"
+      ]
+    }
+  },
+  "coalition_priorities": [
+    "N9: counter kos hidup Cina dengan fakta bantuan negeri",
+    "Seremban/Nilai: perkhidmatan PBT (trafik, parkir) — 48 jam response",
+    "India N9: SJKT + pekerjaan — bukan agama",
+    "Elak ulang retorik syurga/Harakat di N9",
+    "Muafakat 1-vs-1 kerusi Melayu sasaran MN"
+  ],
+  "do_not_do": [
+    "Debat agama/syurga dengan komuniti Cina N9",
+    "Abaikan isu tempat letak kereta & trafik Seremban",
+    "Fokus berlebihan pada isu agama di kerusi India N9"
+  ],
+  "confidence": "medium",
+  "llm_provider": "rule_based_fallback"
+}

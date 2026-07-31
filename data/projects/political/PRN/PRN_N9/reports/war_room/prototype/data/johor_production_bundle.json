@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "mode": "production",
+    "state": "Johor",
+    "generated": "2026-07-15 01:54:44",
+    "sources": {
+      "geo": "data/projects/political/PRN/PRN_N9/reports/war_room/prototype/data/warroom_dun_Johor.json",
+      "socmed": "prototype/data/socmed_by_dun_Johor.json"
+    }
+  },
+  "seatCount": 56,
+  "headlineSummary": {
+    "verified": 6,
+    "weak": 0,
+    "none": 50
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "meta": {
+    "generated": "2026-07-15 01:54:40",
+    "sourceCsv": "data/combined/Combined_facebook_20260702_204813.csv",
+    "batch": "cula_digital_whatsapp_7posts_20260702",
+    "totalRows": 533,
+    "totalPosts": 7,
+    "totalComments": 526,
+    "totalEngagement": 2302,
+    "note": "Semua komen termasuk Tidak Jelas — dipecahkan via cula_assumption (sentiment+emotion).",
+    "labelling": "3-tier: Jelas + Debat→condong + Tidak Jelas→assumption"
+  },
+  "stateRollup": {
+    "mnVsSolo": {
+      "posts": 6,
+      "commentsTotal": 458,
+      "commentsKeyword": 158,
+      "commentsReported": 458,
+      "buckets": {
+        "MN": 67,
+        "Solo": 31,
+        "Pro-PAS": 34,
+        "Pro-PH": 26
+      },
+      "bucketsExpanded": {
+        "MN": 67,
+        "Solo": 31,
+        "Pro-PAS": 220,
+        "Pro-PH": 89,
+        "Masih Tidak Jelas": 51
+      },
+      "pct": {
+        "MN": 42.4,
+        "Solo": 19.6,
+        "Pro-PAS": 21.5,
+        "Pro-PH": 16.5
+      },
+      "pctExpanded": {
+        "MN": 14.6,
+        "Solo": 6.8,
+        "Pro-PAS": 48.0,
+        "Pro-PH": 19.4,
+        "Masih Tidak Jelas": 11.1
+      },
+      "tidakJelasResolved": 300,
+      "engagement": 1846,
+      "insight": "MN 67 · Solo 31 · Pro-PAS 220 · Pro-PH 89 · Masih 51 (semua komen).",
+      "insightKeyword": "MN 68% vs Solo 32% (keyword jelas+debat)."
+    },
+    "pasLabu": {
+      "posts": 1,
+      "commentsTotal": 68,
+      "commentsKeyword": 33,
+      "commentsReported": 68,
+      "buckets": {
+        "Sokong PAS": 28,
+        "Tak Sokong PAS": 5
+      },
+      "bucketsExpanded": {
+        "Sokong PAS": 52,
+        "Tak Sokong PAS": 7,
+        "Masih Tidak Jelas": 9
+      },
+      "pct": {
+        "Sokong PAS": 84.8,
+        "Tak Sokong PAS": 15.2
+      },
+      "pctExpanded": {
+        "Sokong PAS": 76.5,
+        "Tak Sokong PAS": 10.3,
+        "Masih Tidak Jelas": 13.2
+      },
+      "tidakJelasResolved": 35,
+      "engagement": 456,
+      "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+      "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat)."
+    }
+  },
+  "byPost": [
+    {
+      "postId": "1340236754887686",
+      "page": "PAS DUN Kota",
+      "url": "https://www.facebook.com/PASDUNKota/posts/pfbid0382VSvQGqEkKxBj8P4eWc5QNacfg6sYoBFr2n6puMNoYGZ7C99Xp4X8btbSjRBLS7l",
+      "primaryDun": "N28",
+      "relatedDuns": [],
+      "district": "Rembau",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 4,
+      "engagement": 16,
+      "likes": 10,
+      "buckets": {
+        "MN": 3,
+        "Solo": 0,
+        "Pro-PAS": 0,
+        "Pro-PH": 0,
+        "reported_total": 3,
+        "tidakJelas": 1
+      },
+      "bucketsExpanded": {
+        "MN": 3,
+        "Solo": 0,
+        "Pro-PAS": 0,
+        "Pro-PH": 0,
+        "Masih Tidak Jelas": 1,
+        "reported_total": 4,
+        "tidakJelasResolved": 1
+      },
+      "assumption": {
+        "MN": 3,
+        "Assume→Masih Tidak Jelas": 1
+      },
+      "demographic": {
+        "malay": 75,
+        "unknown": 25
+      },
+      "sentiment": {
+        "positive": 75,
+        "neutral": 25
+      },
+      "emotionTop": "love",
+      "insight": "MN 3 · Solo 0 · Pro-PAS 0 · Pro-PH 0 · Masih 1 (semua komen).",
+      "insightKeyword": "MN 100% vs Solo 0% (keyword jelas+debat)."
+    },
+    {
+      "postId": "915512231558505",
+      "page": "Inche Curry",
+      "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0cVroFPRHyrqZgsL61pj3ihMxtHJGPXYuCtHnoR5E7Ti26643mg51A3xuQPJ73pHwl&id=100092992087495",
+      "primaryDun": "N26",
+      "relatedDuns": [
+        "N27"
+      ],
+      "district": "Rembau",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 56,
+      "engagement": 288,
+      "likes": 169,
+      "buckets": {
+        "MN": 13,
+        "Solo": 10,
+        "Pro-PAS": 2,
+        "Pro-PH": 1,
+        "reported_total": 26,
+        "tidakJelas": 30
+      },
+      "bucketsExpanded": {
+        "MN": 13,
+        "Solo": 10,
+        "Pro-PAS": 22,
+        "Pro-PH": 8,
+        "Masih Tidak Jelas": 3,
+        "reported_total": 56,
+        "tidakJelasResolved": 30
+      },
+      "assumption": {
+        "Assume→Soft Pro-PAS/Pro-post": 20,
+        "MN": 13,
+        "Solo": 10,
+        "Assume→Soft Kritik/Lawan": 7,
+        "Assume→Masih Tidak Jelas": 3,
+        "Pro-PAS": 2,
+        "Pro-PH": 1
+      },
+      "demographic": {
+        "malay": 68,
+        "chinese": 4,
+        "indian": 4,
+        "unknown": 25
+      },
+      "sentiment": {
+        "positive": 39,
+        "neutral": 32,
+        "negative": 29
+      },
+      "emotionTop": "love",
+      "insight": "MN 13 · Solo 10 · Pro-PAS 22 · Pro-PH 8 · Masih 3 (semua komen).",
+      "insightKeyword": "MN 57% vs Solo 43% (keyword jelas+debat)."
+    },
+    {
+      "postId": "1444357214402285",
+      "page": "PAS Kawasan Rasah (soalan Labu)",
+      "url": "https://www.facebook.com/paskawasanrasah/posts/pfbid027DRUQGt8YZ78htXU5Kp3eE6vjM8g861LKzvPQ1K77zPicqqteT5T3KjsQD5PdGTLl",
+      "primaryDun": "N20",
+      "relatedDuns": [],
+      "district": "Seremban",
+      "issue": "PAS Labu",
+      "question": "Agak-agak kalau PAS letak calon di DUN Labu , Warga Labu akan undi PAS??",
+      "commentsCrawled": 68,
+      "engagement": 456,
+      "likes": 203,
+      "buckets": {
+        "Sokong PAS": 28,
+        "Tak Sokong PAS": 5,
+        "reported_total": 33,
+        "tidakJelas": 35
+      },
+      "bucketsExpanded": {
+        "Sokong PAS": 52,
+        "Tak Sokong PAS": 7,
+        "Masih Tidak Jelas": 9,
+        "reported_total": 68,
+        "tidakJelasResolved": 35
+      },
+      "assumption": {
+        "Sokong PAS": 28,
+        "Assume→Condong Sokong PAS": 24,
+        "Assume→Masih Tidak Jelas": 9,
+        "Tak Sokong PAS": 5,
+        "Assume→Condong Tak Sokong/Kritik": 2
+      },
+      "demographic": {
+        "malay": 81,
+        "chinese": 7,
+        "unknown": 12
+      },
+      "sentiment": {
+        "neutral": 75,
+        "positive": 15,
+        "negative": 10
+      },
+      "emotionTop": "love",
+      "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+      "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat)."
+    },
+    {
+      "postId": "1326587592942741",
+      "page": "PAS Chembong",
+      "url": "https://www.facebook.com/PASChembong/posts/pfbid02mrQyZ23UgpiqWWmaUo887eh688WwPVkZiWctrdGVmJJdGQe2h1aP1Naizb6wfi7Cl",
+      "primaryDun": "N26",
+      "relatedDuns": [],
+      "district": "Rembau",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 13,
+      "engagement": 38,
+      "likes": 13,
+      "buckets": {
+        "MN": 6,
+        "Solo": 0,
+        "Pro-PAS": 2,
+        "Pro-PH": 0,
+        "reported_total": 8,
+        "tidakJelas": 5
+      },
+      "bucketsExpanded": {
+        "MN": 6,
+        "Solo": 0,
+        "Pro-PAS": 6,
+        "Pro-PH": 1,
+        "Masih Tidak Jelas": 0,
+        "reported_total": 13,
+        "tidakJelasResolved": 5
+      },
+      "assumption": {
+        "MN": 6,
+        "Assume→Soft Pro-PAS/Pro-post": 4,
+        "Pro-PAS": 2,
+        "Assume→Soft Kritik/Lawan": 1
+      },
+      "demographic": {
+        "malay": 85,
+        "indian": 8,
+        "unknown": 8
+      },
+      "sentiment": {
+        "positive": 77,
+        "negative": 15,
+        "neutral": 8
+      },
+      "emotionTop": "love",
+      "insight": "MN 6 · Solo 0 · Pro-PAS 6 · Pro-PH 1 (semua komen).",
+      "insightKeyword": "MN 100% vs Solo 0% (keyword jelas+debat)."
+    },
+    {
+      "postId": "1471472861680849",
+      "page": "Pemuda PAS Rembau",
+      "url": "https://www.facebook.com/pemudapasrembau/posts/pfbid0M8hqZcnLUxBETvTWKpVw1wdkY3YTDQi5ucQ7CLiyJM72LvUKgGYtZhdTKmFmo9orl",
+      "primaryDun": "N27",
+      "relatedDuns": [
+        "N26"
+      ],
+      "district": "Rembau",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 49,
+      "engagement": 220,
+      "likes": 124,
+      "buckets": {
+        "MN": 8,
+        "Solo": 6,
+        "Pro-PAS": 1,
+        "Pro-PH": 0,
+        "reported_total": 15,
+        "tidakJelas": 34
+      },
+      "bucketsExpanded": {
+        "MN": 8,
+        "Solo": 6,
+        "Pro-PAS": 21,
+        "Pro-PH": 11,
+        "Masih Tidak Jelas": 3,
+        "reported_total": 49,
+        "tidakJelasResolved": 34
+      },
+      "assumption": {
+        "Assume→Soft Pro-PAS/Pro-post": 20,
+        "Assume→Soft Kritik/Lawan": 11,
+        "MN": 8,
+        "Solo": 6,
+        "Assume→Masih Tidak Jelas": 3,
+        "Pro-PAS": 1
+      },
+      "demographic": {
+        "malay": 86,
+        "chinese": 2,
+        "indian": 2,
+        "unknown": 10
+      },
+      "sentiment": {
+        "positive": 43,
+        "neutral": 31,
+        "negative": 27
+      },
+      "emotionTop": "love",
+      "insight": "MN 8 · Solo 6 · Pro-PAS 21 · Pro-PH 11 · Masih 3 (semua komen).",
+      "insightKeyword": "MN 57% vs Solo 43% (keyword jelas+debat)."
+    },
+    {
+      "postId": "1417756590397446",
+      "page": "PAS Kawasan Port Dickson",
+      "url": "https://www.facebook.com/pasportdickson/posts/pfbid02rRaP16YGmWMt5ESbrXSLGSVTYuEFFmtaHA2zNj9X7oQSjpdgJQ4T5hmEWNd3ZMudl",
+      "primaryDun": "N33",
+      "relatedDuns": [
+        "N29",
+        "N30",
+        "N31",
+        "N32"
+      ],
+      "district": "Port Dickson",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 25,
+      "engagement": 127,
+      "likes": 76,
+      "buckets": {
+        "MN": 5,
+        "Solo": 4,
+        "Pro-PAS": 2,
+        "Pro-PH": 2,
+        "reported_total": 13,
+        "tidakJelas": 12
+      },
+      "bucketsExpanded": {
+        "MN": 5,
+        "Solo": 4,
+        "Pro-PAS": 11,
+        "Pro-PH": 4,
+        "Masih Tidak Jelas": 1,
+        "reported_total": 25,
+        "tidakJelasResolved": 12
+      },
+      "assumption": {
+        "Assume→Soft Pro-PAS/Pro-post": 9,
+        "MN": 5,
+        "Solo": 4,
+        "Assume→Soft Kritik/Lawan": 2,
+        "Pro-PAS": 2,
+        "Pro-PH": 2,
+        "Assume→Masih Tidak Jelas": 1
+      },
+      "demographic": {
+        "malay": 64,
+        "chinese": 8,
+        "unknown": 28
+      },
+      "sentiment": {
+        "positive": 56,
+        "neutral": 36,
+        "negative": 8
+      },
+      "emotionTop": "love",
+      "insight": "MN 5 · Solo 4 · Pro-PAS 11 · Pro-PH 4 · Masih 1 (semua komen).",
+      "insightKeyword": "MN 56% vs Solo 44% (keyword jelas+debat)."
+    },
+    {
+      "postId": "1320631416888667",
+      "page": "PAS Rembau",
+      "url": "https://www.facebook.com/PASRembau/posts/pfbid022A5rBufUwb6yJveLMcUhPvEa1sKUEiqc22HX6NyxiXaSRazu5eUsPCfQHqVwi7THl",
+      "primaryDun": "N27",
+      "relatedDuns": [
+        "N26",
+        "N28"
+      ],
+      "district": "Rembau",
+      "issue": "MN vs Solo",
+      "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+      "commentsCrawled": 311,
+      "engagement": 1157,
+      "likes": 283,
+      "buckets": {
+        "MN": 32,
+        "Solo": 11,
+        "Pro-PAS": 27,
+        "Pro-PH": 23,
+        "reported_total": 93,
+        "tidakJelas": 218
+      },
+      "bucketsExpanded": {
+        "MN": 32,
+        "Solo": 11,
+        "Pro-PAS": 160,
+        "Pro-PH": 65,
+        "Masih Tidak Jelas": 43,
+        "reported_total": 311,
+        "tidakJelasResolved": 218
+      },
+      "assumption": {
+        "Assume→Soft Pro-PAS/Pro-post": 133,
+        "Assume→Masih Tidak Jelas": 43,
+        "Assume→Soft Kritik/Lawan": 42,
+        "MN": 32,
+        "Pro-PAS": 27,
+        "Pro-PH": 23,
+        "Solo": 11
+      },
+      "demographic": {
+        "malay": 76,
+        "chinese": 5,
+        "indian": 2,
+        "unknown": 17
+      },
+      "sentiment": {
+        "neutral": 43,
+        "positive": 30,
+        "negative": 27
+      },
+      "emotionTop": "love",
+      "insight": "MN 32 · Solo 11 · Pro-PAS 160 · Pro-PH 65 · Masih 43 (semua komen).",
+      "insightKeyword": "MN 74% vs Solo 26% (keyword jelas+debat)."
+    }
+  ],
+  "byDun": {
+    "N20": {
+      "posts": [
+        {
+          "postId": "1444357214402285",
+          "page": "PAS Kawasan Rasah (soalan Labu)",
+          "url": "https://www.facebook.com/paskawasanrasah/posts/pfbid027DRUQGt8YZ78htXU5Kp3eE6vjM8g861LKzvPQ1K77zPicqqteT5T3KjsQD5PdGTLl",
+          "primaryDun": "N20",
+          "relatedDuns": [],
+          "district": "Seremban",
+          "issue": "PAS Labu",
+          "question": "Agak-agak kalau PAS letak calon di DUN Labu , Warga Labu akan undi PAS??",
+          "commentsCrawled": 68,
+          "engagement": 456,
+          "likes": 203,
+          "buckets": {
+            "Sokong PAS": 28,
+            "Tak Sokong PAS": 5,
+            "reported_total": 33,
+            "tidakJelas": 35
+          },
+          "bucketsExpanded": {
+            "Sokong PAS": 52,
+            "Tak Sokong PAS": 7,
+            "Masih Tidak Jelas": 9,
+            "reported_total": 68,
+            "tidakJelasResolved": 35
+          },
+          "assumption": {
+            "Sokong PAS": 28,
+            "Assume→Condong Sokong PAS": 24,
+            "Assume→Masih Tidak Jelas": 9,
+            "Tak Sokong PAS": 5,
+            "Assume→Condong Tak Sokong/Kritik": 2
+          },
+          "demographic": {
+            "malay": 81,
+            "chinese": 7,
+            "unknown": 12
+          },
+          "sentiment": {
+            "neutral": 75,
+            "positive": 15,
+            "negative": 10
+          },
+          "emotionTop": "love",
+          "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+          "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat)."
+        }
+      ],
+      "mnVsSolo": null,
+      "pasLabu": {
+        "posts": 1,
+        "commentsReported": 68,
+        "commentsKeyword": 33,
+        "buckets": {
+          "Sokong PAS": 28,
+          "Tak Sokong PAS": 5,
+          "reported_total": 33,
+          "tidakJelas": 35
+        },
+        "bucketsExpanded": {
+          "Sokong PAS": 52,
+          "Tak Sokong PAS": 7,
+          "Masih Tidak Jelas": 9,
+          "reported_total": 68,
+          "tidakJelasResolved": 35
+        },
+        "engagement": 456,
+        "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+        "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat)."
+      }
+    },
+    "N26": {
+      "posts": [
+        {
+          "postId": "915512231558505",
+          "page": "Inche Curry",
+          "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0cVroFPRHyrqZgsL61pj3ihMxtHJGPXYuCtHnoR5E7Ti26643mg51A3xuQPJ73pHwl&id=100092992087495",
+          "primaryDun": "N26",
+          "relatedDuns": [
+            "N27"
+          ],
+          "district": "Rembau",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 56,
+          "engagement": 288,
+          "likes": 169,
+          "buckets": {
+            "MN": 13,
+            "Solo": 10,
+            "Pro-PAS": 2,
+            "Pro-PH": 1,
+            "reported_total": 26,
+            "tidakJelas": 30
+          },
+          "bucketsExpanded": {
+            "MN": 13,
+            "Solo": 10,
+            "Pro-PAS": 22,
+            "Pro-PH": 8,
+            "Masih Tidak Jelas": 3,
+            "reported_total": 56,
+            "tidakJelasResolved": 30
+          },
+          "assumption": {
+            "Assume→Soft Pro-PAS/Pro-post": 20,
+            "MN": 13,
+            "Solo": 10,
+            "Assume→Soft Kritik/Lawan": 7,
+            "Assume→Masih Tidak Jelas": 3,
+            "Pro-PAS": 2,
+            "Pro-PH": 1
+          },
+          "demographic": {
+            "malay": 68,
+            "chinese": 4,
+            "indian": 4,
+            "unknown": 25
+          },
+          "sentiment": {
+            "positive": 39,
+            "neutral": 32,
+            "negative": 29
+          },
+          "emotionTop": "love",
+          "insight": "MN 13 · Solo 10 · Pro-PAS 22 · Pro-PH 8 · Masih 3 (semua komen).",
+          "insightKeyword": "MN 57% vs Solo 43% (keyword jelas+debat)."
+        },
+        {
+          "postId": "1326587592942741",
+          "page": "PAS Chembong",
+          "url": "https://www.facebook.com/PASChembong/posts/pfbid02mrQyZ23UgpiqWWmaUo887eh688WwPVkZiWctrdGVmJJdGQe2h1aP1Naizb6wfi7Cl",
+          "primaryDun": "N26",
+          "relatedDuns": [],
+          "district": "Rembau",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 13,
+          "engagement": 38,
+          "likes": 13,
+          "buckets": {
+            "MN": 6,
+            "Solo": 0,
+            "Pro-PAS": 2,
+            "Pro-PH": 0,
+            "reported_total": 8,
+            "tidakJelas": 5
+          },
+          "bucketsExpanded": {
+            "MN": 6,
+            "Solo": 0,
+            "Pro-PAS": 6,
+            "Pro-PH": 1,
+            "Masih Tidak Jelas": 0,
+            "reported_total": 13,
+            "tidakJelasResolved": 5
+          },
+          "assumption": {
+            "MN": 6,
+            "Assume→Soft Pro-PAS/Pro-post": 4,
+            "Pro-PAS": 2,
+            "Assume→Soft Kritik/Lawan": 1
+          },
+          "demographic": {
+            "malay": 85,
+            "indian": 8,
+            "unknown": 8
+          },
+          "sentiment": {
+            "positive": 77,
+            "negative": 15,
+            "neutral": 8
+          },
+          "emotionTop": "love",
+          "insight": "MN 6 · Solo 0 · Pro-PAS 6 · Pro-PH 1 (semua komen).",
+          "insightKeyword": "MN 100% vs Solo 0% (keyword jelas+debat)."
+        }
+      ],
+      "mnVsSolo": {
+        "posts": 2,
+        "commentsReported": 69,
+        "commentsKeyword": 34,
+        "buckets": {
+          "MN": 19,
+          "Solo": 10,
+          "Pro-PAS": 4,
+          "Pro-PH": 1,
+          "reported_total": 34,
+          "tidakJelas": 35
+        },
+        "bucketsExpanded": {
+          "MN": 19,
+          "Solo": 10,
+          "Pro-PAS": 28,
+          "Pro-PH": 9,
+          "Masih Tidak Jelas": 3,
+          "reported_total": 69,
+          "tidakJelasResolved": 35
+        },
+        "engagement": 326,
+        "insight": "MN 19 · Solo 10 · Pro-PAS 28 · Pro-PH 9 · Masih 3 (semua komen).",
+        "insightKeyword": "MN 66% vs Solo 34% (keyword jelas+debat)."
+      },
+      "pasLabu": null
+    },
+    "N27": {
+      "posts": [
+        {
+          "postId": "1471472861680849",
+          "page": "Pemuda PAS Rembau",
+          "url": "https://www.facebook.com/pemudapasrembau/posts/pfbid0M8hqZcnLUxBETvTWKpVw1wdkY3YTDQi5ucQ7CLiyJM72LvUKgGYtZhdTKmFmo9orl",
+          "primaryDun": "N27",
+          "relatedDuns": [
+            "N26"
+          ],
+          "district": "Rembau",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 49,
+          "engagement": 220,
+          "likes": 124,
+          "buckets": {
+            "MN": 8,
+            "Solo": 6,
+            "Pro-PAS": 1,
+            "Pro-PH": 0,
+            "reported_total": 15,
+            "tidakJelas": 34
+          },
+          "bucketsExpanded": {
+            "MN": 8,
+            "Solo": 6,
+            "Pro-PAS": 21,
+            "Pro-PH": 11,
+            "Masih Tidak Jelas": 3,
+            "reported_total": 49,
+            "tidakJelasResolved": 34
+          },
+          "assumption": {
+            "Assume→Soft Pro-PAS/Pro-post": 20,
+            "Assume→Soft Kritik/Lawan": 11,
+            "MN": 8,
+            "Solo": 6,
+            "Assume→Masih Tidak Jelas": 3,
+            "Pro-PAS": 1
+          },
+          "demographic": {
+            "malay": 86,
+            "chinese": 2,
+            "indian": 2,
+            "unknown": 10
+          },
+          "sentiment": {
+            "positive": 43,
+            "neutral": 31,
+            "negative": 27
+          },
+          "emotionTop": "love",
+          "insight": "MN 8 · Solo 6 · Pro-PAS 21 · Pro-PH 11 · Masih 3 (semua komen).",
+          "insightKeyword": "MN 57% vs Solo 43% (keyword jelas+debat)."
+        },
+        {
+          "postId": "1320631416888667",
+          "page": "PAS Rembau",
+          "url": "https://www.facebook.com/PASRembau/posts/pfbid022A5rBufUwb6yJveLMcUhPvEa1sKUEiqc22HX6NyxiXaSRazu5eUsPCfQHqVwi7THl",
+          "primaryDun": "N27",
+          "relatedDuns": [
+            "N26",
+            "N28"
+          ],
+          "district": "Rembau",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 311,
+          "engagement": 1157,
+          "likes": 283,
+          "buckets": {
+            "MN": 32,
+            "Solo": 11,
+            "Pro-PAS": 27,
+            "Pro-PH": 23,
+            "reported_total": 93,
+            "tidakJelas": 218
+          },
+          "bucketsExpanded": {
+            "MN": 32,
+            "Solo": 11,
+            "Pro-PAS": 160,
+            "Pro-PH": 65,
+            "Masih Tidak Jelas": 43,
+            "reported_total": 311,
+            "tidakJelasResolved": 218
+          },
+          "assumption": {
+            "Assume→Soft Pro-PAS/Pro-post": 133,
+            "Assume→Masih Tidak Jelas": 43,
+            "Assume→Soft Kritik/Lawan": 42,
+            "MN": 32,
+            "Pro-PAS": 27,
+            "Pro-PH": 23,
+            "Solo": 11
+          },
+          "demographic": {
+            "malay": 76,
+            "chinese": 5,
+            "indian": 2,
+            "unknown": 17
+          },
+          "sentiment": {
+            "neutral": 43,
+            "positive": 30,
+            "negative": 27
+          },
+          "emotionTop": "love",
+          "insight": "MN 32 · Solo 11 · Pro-PAS 160 · Pro-PH 65 · Masih 43 (semua komen).",
+          "insightKeyword": "MN 74% vs Solo 26% (keyword jelas+debat)."
+        }
+      ],
+      "mnVsSolo": {
+        "posts": 2,
+        "commentsReported": 360,
+        "commentsKeyword": 108,
+        "buckets": {
+          "MN": 40,
+          "Solo": 17,
+          "Pro-PAS": 28,
+          "Pro-PH": 23,
+          "reported_total": 108,
+          "tidakJelas": 252
+        },
+        "bucketsExpanded": {
+          "MN": 40,
+          "Solo": 17,
+          "Pro-PAS": 181,
+          "Pro-PH": 76,
+          "Masih Tidak Jelas": 46,
+          "reported_total": 360,
+          "tidakJelasResolved": 252
+        },
+        "engagement": 1377,
+        "insight": "MN 40 · Solo 17 · Pro-PAS 181 · Pro-PH 76 · Masih 46 (semua komen).",
+        "insightKeyword": "MN 70% vs Solo 30% (keyword jelas+debat)."
+      },
+      "pasLabu": null
+    },
+    "N28": {
+      "posts": [
+        {
+          "postId": "1340236754887686",
+          "page": "PAS DUN Kota",
+          "url": "https://www.facebook.com/PASDUNKota/posts/pfbid0382VSvQGqEkKxBj8P4eWc5QNacfg6sYoBFr2n6puMNoYGZ7C99Xp4X8btbSjRBLS7l",
+          "primaryDun": "N28",
+          "relatedDuns": [],
+          "district": "Rembau",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 4,
+          "engagement": 16,
+          "likes": 10,
+          "buckets": {
+            "MN": 3,
+            "Solo": 0,
+            "Pro-PAS": 0,
+            "Pro-PH": 0,
+            "reported_total": 3,
+            "tidakJelas": 1
+          },
+          "bucketsExpanded": {
+            "MN": 3,
+            "Solo": 0,
+            "Pro-PAS": 0,
+            "Pro-PH": 0,
+            "Masih Tidak Jelas": 1,
+            "reported_total": 4,
+            "tidakJelasResolved": 1
+          },
+          "assumption": {
+            "MN": 3,
+            "Assume→Masih Tidak Jelas": 1
+          },
+          "demographic": {
+            "malay": 75,
+            "unknown": 25
+          },
+          "sentiment": {
+            "positive": 75,
+            "neutral": 25
+          },
+          "emotionTop": "love",
+          "insight": "MN 3 · Solo 0 · Pro-PAS 0 · Pro-PH 0 · Masih 1 (semua komen).",
+          "insightKeyword": "MN 100% vs Solo 0% (keyword jelas+debat)."
+        }
+      ],
+      "mnVsSolo": {
+        "posts": 1,
+        "commentsReported": 4,
+        "commentsKeyword": 3,
+        "buckets": {
+          "MN": 3,
+          "Solo": 0,
+          "Pro-PAS": 0,
+          "Pro-PH": 0,
+          "reported_total": 3,
+          "tidakJelas": 1
+        },
+        "bucketsExpanded": {
+          "MN": 3,
+          "Solo": 0,
+          "Pro-PAS": 0,
+          "Pro-PH": 0,
+          "Masih Tidak Jelas": 1,
+          "reported_total": 4,
+          "tidakJelasResolved": 1
+        },
+        "engagement": 16,
+        "insight": "MN 3 · Solo 0 · Pro-PAS 0 · Pro-PH 0 · Masih 1 (semua komen).",
+        "insightKeyword": "MN 100% vs Solo 0% (keyword jelas+debat)."
+      },
+      "pasLabu": null
+    },
+    "N33": {
+      "posts": [
+        {
+          "postId": "1417756590397446",
+          "page": "PAS Kawasan Port Dickson",
+          "url": "https://www.facebook.com/pasportdickson/posts/pfbid02rRaP16YGmWMt5ESbrXSLGSVTYuEFFmtaHA2zNj9X7oQSjpdgJQ4T5hmEWNd3ZMudl",
+          "primaryDun": "N33",
+          "relatedDuns": [
+            "N29",
+            "N30",
+            "N31",
+            "N32"
+          ],
+          "district": "Port Dickson",
+          "issue": "MN vs Solo",
+          "question": "PRN Nismilan, Korang Pilih yang Mana?\nA: MN (PN+BN)\nB: Go Solo!!\nYang Ponting PH Kalah, Hilang Deposit!",
+          "commentsCrawled": 25,
+          "engagement": 127,
+          "likes": 76,
+          "buckets": {
+            "MN": 5,
+            "Solo": 4,
+            "Pro-PAS": 2,
+            "Pro-PH": 2,
+            "reported_total": 13,
+            "tidakJelas": 12
+          },
+          "bucketsExpanded": {
+            "MN": 5,
+            "Solo": 4,
+            "Pro-PAS": 11,
+            "Pro-PH": 4,
+            "Masih Tidak Jelas": 1,
+            "reported_total": 25,
+            "tidakJelasResolved": 12
+          },
+          "assumption": {
+            "Assume→Soft Pro-PAS/Pro-post": 9,
+            "MN": 5,
+            "Solo": 4,
+            "Assume→Soft Kritik/Lawan": 2,
+            "Pro-PAS": 2,
+            "Pro-PH": 2,
+            "Assume→Masih Tidak Jelas": 1
+          },
+          "demographic": {
+            "malay": 64,
+            "chinese": 8,
+            "unknown": 28
+          },
+          "sentiment": {
+            "positive": 56,
+            "neutral": 36,
+            "negative": 8
+          },
+          "emotionTop": "love",
+          "insight": "MN 5 · Solo 4 · Pro-PAS 11 · Pro-PH 4 · Masih 1 (semua komen).",
+          "insightKeyword": "MN 56% vs Solo 44% (keyword jelas+debat)."
+        }
+      ],
+      "mnVsSolo": {
+        "posts": 1,
+        "commentsReported": 25,
+        "commentsKeyword": 13,
+        "buckets": {
+          "MN": 5,
+          "Solo": 4,
+          "Pro-PAS": 2,
+          "Pro-PH": 2,
+          "reported_total": 13,
+          "tidakJelas": 12
+        },
+        "bucketsExpanded": {
+          "MN": 5,
+          "Solo": 4,
+          "Pro-PAS": 11,
+          "Pro-PH": 4,
+          "Masih Tidak Jelas": 1,
+          "reported_total": 25,
+          "tidakJelasResolved": 12
+        },
+        "engagement": 127,
+        "insight": "MN 5 · Solo 4 · Pro-PAS 11 · Pro-PH 4 · Masih 1 (semua komen).",
+        "insightKeyword": "MN 56% vs Solo 44% (keyword jelas+debat)."
+      },
+      "pasLabu": null
+    }
+  }
+}

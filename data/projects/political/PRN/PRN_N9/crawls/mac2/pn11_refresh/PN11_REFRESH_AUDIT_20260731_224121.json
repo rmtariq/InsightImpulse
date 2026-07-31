@@ -1,0 +1,14 @@
+{
+  "merged_at": "2026-07-31T22:41:21.835169+08:00",
+  "source_dir": "/private/tmp/ampangan_import_only",
+  "duns": {
+    "N14": {
+      "new_rows": 332,
+      "master_rows": 1896,
+      "note": "master(1840) + refresh(332) → 1896",
+      "files": [
+        "prn_n9_social_N14_Ampangan_20260731.csv"
+      ]
+    }
+  }
+}

@@ -197,6 +197,8 @@ def list_projects(active_only: bool = True) -> List[Dict[str, Any]]:
             "category": cat,
             "label": _project_label(pid, meta),
             "path": f"data/projects/{cat}/{pid}/",
+            "processing": meta.get("processing", "on-prem-nemotron"),
+            "multimodal": bool(meta.get("multimodal", False)),
         })
     out.sort(key=lambda x: x["name"].lower())
     return out
@@ -243,6 +245,8 @@ def register_project(
         "client": client.strip(),
         "master_prefix": prefix,
         "default_keywords": default_keywords or [],
+        "processing": "on-prem-nemotron" if category == "political" else "cloud-openai",
+        "multimodal": category == "political",
         "active": True,
     }
     registry.setdefault("projects", {})[pid] = entry

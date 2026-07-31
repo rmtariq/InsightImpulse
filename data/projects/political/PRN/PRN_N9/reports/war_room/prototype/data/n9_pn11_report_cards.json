@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "title": "Report Card Prestasi · 11 Calon PN",
+    "state": "N9",
+    "pn_seats": 11,
+    "bn_seats": 25,
+    "generated_at": "2026-07-31 22:42 MYT",
+    "source": [
+      "n9_pn11_nomination_ops.json",
+      "warroom_dun_N9_production.json",
+      "n9_pn_candidates_official_11.json"
+    ],
+    "scoring_note": "Skor ops-first: tier readiness + delta winProb + sentiment + visibility + incumbent + SPR defense"
+  },
+  "headline": "Report Card PN 11 · 4/11 grade A–B · 6 perlu dorong (stretch/lemah)",
+  "ringkasan": "Kad prestasi calon untuk edaran war room & jentera. Tier A (Serting/Paroi/Bagan Pinang) mesti kekal kukuh; Tier D fokus framing perkhidmatan — elak retorik agama 72 jam pertama.",
+  "counts": {
+    "grades": {
+      "A": 4,
+      "C": 1,
+      "D": 3,
+      "E": 3
+    },
+    "strong_ab": 4,
+    "watch": 6,
+    "incumbent": 4
+  },
+  "cards": [
+    {
+      "code": "N25",
+      "name": "Paroi",
+      "candidate": "Kamarol Ridzuan Mohd Zain",
+      "party": "PAS",
+      "incumbent": true,
+      "tier": "A",
+      "tier_label": "JANGAN GAGAL",
+      "color": "hijau",
+      "strategy": "Pertahan kuat — jentera penuh, elak complacency",
+      "pasWinProb": 82,
+      "pasSoloWinProb": 81.3,
+      "pasMnWinProb": 91.2,
+      "sentiment": 55.0,
+      "socmedMentions": 1488,
+      "socmedNegPct": 14.7,
+      "demo": {
+        "malay": 79.9,
+        "chinese": 6.82,
+        "indian": 13.27
+      },
+      "issues": [
+        "Kos sara hidup bandar",
+        "Trafik Seremban"
+      ],
+      "advice": [
+        "Penamaan Paroi: foto rasmi + poster digital siap 1 jam selepas penamaan",
+        "Pantau AP socmed; balas split PAS/PN dengan 'satu undi PN'"
+      ],
+      "sample_bm": "Paroi teruskan dengan Kamarol Ridzuan. Satu undi PN — jangan pecah undi.",
+      "hashtags": "#PNBest #N25Paroi #KamarolRidzuan #PRNN9",
+      "status_nomination": "siap_penamaan",
+      "action": "Kerusi PAS — pertahan kritikal. Selamat (3K+). Ramalan menang 82%.",
+      "score": 100,
+      "grade": "A",
+      "grade_label": "Kukuh · jangan gagal",
+      "momentum": "Menaik",
+      "dims": {
+        "winnability": 82.0,
+        "sentiment": 55.0,
+        "visibility": 1488,
+        "ground_readiness": 78,
+        "incumbent_edge": 8
+      },
+      "spr_majority": 5539,
+      "spr_verdict": "Pertahan PN/PAS (+5,539)",
+      "turnout_2023": 71.6
+    },
+    {
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "candidate": "Abdul Fatah Zakaria",
+      "party": "PAS",
+      "incumbent": true,
+      "tier": "A",
+      "tier_label": "JANGAN GAGAL",
+      "color": "hijau",
+      "strategy": "Pertahan kuat — jentera penuh, elak complacency",
+      "pasWinProb": 82,
+      "pasSoloWinProb": 81.1,
+      "pasMnWinProb": 91.4,
+      "sentiment": 59.0,
+      "socmedMentions": 1197,
+      "socmedNegPct": 20.3,
+      "demo": {
+        "malay": 79.01,
+        "chinese": 12.08,
+        "indian": 8.91
+      },
+      "issues": [
+        "Pelancongan PD",
+        "Nelayan"
+      ],
+      "advice": [
+        "Penamaan Bagan Pinang: serlahkan rekod penyandang",
+        "Komuniti pesisir/PD — isu ekonomi tempatan, bukan nasional"
+      ],
+      "sample_bm": "Bagan Pinang: Abdul Fatah Zakaria — khidmat berterusan untuk rakyat setempat. Undi PN.",
+      "hashtags": "#PNBest #N31BaganPinang #AbdFatah #PRNN9",
+      "status_nomination": "siap_penamaan",
+      "action": "Kerusi PAS — pertahan kritikal. Selamat (3K+). Ramalan menang 82%.",
+      "score": 100,
+      "grade": "A",
+      "grade_label": "Kukuh · jangan gagal",
+      "momentum": "Menaik",
+      "dims": {
+        "winnability": 82.0,
+        "sentiment": 59.0,
+        "visibility": 1197,
+        "ground_readiness": 78,
+        "incumbent_edge": 8
+      },
+      "spr_majority": 3426,
+      "spr_verdict": "Pertahan PN/PAS (+3,426)",
+      "turnout_2023": 75.7
+    },
+    {
+      "code": "N05",
+      "name": "Serting",
+      "candidate": "Mohd Fairuz Mohd Isa",
+      "party": "PAS",
+      "incumbent": true,
+      "tier": "A",
+      "tier_label": "JANGAN GAGAL",
+      "color": "hijau",
+      "strategy": "Pertahan kuat — jentera penuh, elak complacency",
+      "pasWinProb": 70,
+      "pasSoloWinProb": 70.9,
+      "pasMnWinProb": 82.2,
+      "sentiment": 56.0,
+      "socmedMentions": 809,
+      "socmedNegPct": 15.8,
+      "demo": {
+        "malay": 79.5,
+        "chinese": 12.57,
+        "indian": 7.93
+      },
+      "issues": [
+        "FELDA/getah",
+        "Akses klinik"
+      ],
+      "advice": [
+        "Penamaan: pastikan borang + saksi + deposit siap sebelum 10 pagi",
+        "Jangan kurang staf di pusat operasi — jentera penuh H-15"
+      ],
+      "sample_bm": "Mohd Fairuz Mohd Isa teruskan khidmat di Serting. Undi PN — elak pecah undi, jaga kestabilan setempat.",
+      "hashtags": "#PNBest #N05Serting #FairuzIsa #PRNN9",
+      "status_nomination": "siap_penamaan",
+      "action": "Kerusi PAS — pertahan kritikal. Marginal (500–999). Ramalan menang 70%.",
+      "score": 100,
+      "grade": "A",
+      "grade_label": "Kukuh · jangan gagal",
+      "momentum": "Menaik",
+      "dims": {
+        "winnability": 70.0,
+        "sentiment": 56.0,
+        "visibility": 809,
+        "ground_readiness": 78,
+        "incumbent_edge": 8
+      },
+      "spr_majority": 843,
+      "spr_verdict": "Pertahan PN/PAS tipis (+843)",
+      "turnout_2023": 65.9
+    },
+    {
+      "code": "N34",
+      "name": "Gemas",
+      "candidate": "Ridzuan Ahmad",
+      "party": "WAWASAN",
+      "incumbent": true,
+      "tier": "B",
+      "tier_label": "PERTAHAN + PUSH",
+      "color": "hijau",
+      "strategy": "Penyandang WAWASAN — pastikan keluar undi Melayu/kampung",
+      "pasWinProb": 42,
+      "pasSoloWinProb": 61.3,
+      "pasMnWinProb": 71.5,
+      "sentiment": 55.0,
+      "socmedMentions": 1505,
+      "socmedNegPct": 23.9,
+      "demo": {
+        "malay": 85.0,
+        "chinese": 10.39,
+        "indian": 4.6
+      },
+      "issues": [
+        "FELDA Gemas",
+        "Komuter NS-Johor"
+      ],
+      "advice": [
+        "Penamaan Gemas: WAWASAN + PN branding selari (bukan logo bercanggah)",
+        "Kampung/estate: keluar undi + pengangkutan hari undi"
+      ],
+      "sample_bm": "Gemas bersama Ridzuan Ahmad (WAWASAN/PN). Keluar undi — jaga masa depan setempat.",
+      "hashtags": "#PNBest #N34Gemas #RidzuanAhmad #Wawasan #PRNN9",
+      "status_nomination": "siap_penamaan",
+      "action": "Lawan kuat — asas PN/PAS ada. Selamat (3K+). Ramalan PAS 42%.",
+      "score": 89.9,
+      "grade": "A",
+      "grade_label": "Kukuh · pertahan",
+      "momentum": "Stabil",
+      "dims": {
+        "winnability": 42.0,
+        "sentiment": 55.0,
+        "visibility": 1505,
+        "ground_readiness": 62,
+        "incumbent_edge": 8
+      },
+      "spr_majority": 3120,
+      "spr_verdict": "Pertahan PN/PAS (+3,120)",
+      "turnout_2023": 69.0
+    },
+    {
+      "code": "N14",
+      "name": "Ampangan",
+      "candidate": "Mohamad Rafie Ab Malek",
+      "party": "PAS",
+      "incumbent": false,
+      "tier": "B",
+      "tier_label": "PERTAHAN + PUSH",
+      "color": "kuning",
+      "strategy": "Muafakat tip — galakan undi PN, elak pecah undi BN",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 28.0,
+      "pasMnWinProb": 72.5,
+      "sentiment": 48.0,
+      "socmedMentions": 1896,
+      "socmedNegPct": 20.1,
+      "demo": {
+        "malay": 76.46,
+        "chinese": 16.74,
+        "indian": 6.75
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Ampangan: mesej muafakat — undi PN = elak pecah undi Melayu",
+        "Elak serang BN di kerusi ini; fokus PH/DAP"
+      ],
+      "sample_bm": "Ampangan: Mohamad Rafie Ab Malek — undi PN, elak pecah undi. Fokus prestasi PH, bukan serang BN.",
+      "hashtags": "#PNBest #N14Ampangan #Rafie #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 67.5,
+      "grade": "C",
+      "grade_label": "Bersaing · perlu push",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 48.0,
+        "visibility": 1896,
+        "ground_readiness": 62,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 329,
+      "spr_verdict": "Flip muafakat kuat (+2,750 vs PH)",
+      "turnout_2023": 71.3
+    },
+    {
+      "code": "N04",
+      "name": "Klawang",
+      "candidate": "Danni Rais",
+      "party": "WAWASAN",
+      "incumbent": false,
+      "tier": "C",
+      "tier_label": "BATTLE",
+      "color": "kuning",
+      "strategy": "WAWASAN rebut — fokus isu tempatan + ground 72j",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 28.0,
+      "pasMnWinProb": 68.9,
+      "sentiment": 47.0,
+      "socmedMentions": 1031,
+      "socmedNegPct": 14.2,
+      "demo": {
+        "malay": 67.85,
+        "chinese": 28.64,
+        "indian": 3.49
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Klawang: Danni Rais · WAWASAN — perkenalkan calon 48j selepas penamaan",
+        "Isu tempatan (bukan slogan nasional)"
+      ],
+      "sample_bm": "Kenali Danni Rais — calon WAWASAN/PN untuk Klawang. Isu tempatan, solusi setempat.",
+      "hashtags": "#PNBest #N04Klawang #DanniRais #Wawasan #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 55.4,
+      "grade": "D",
+      "grade_label": "Lemah · perlu dorong",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 47.0,
+        "visibility": 1031,
+        "ground_readiness": 50,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 577,
+      "spr_verdict": "Sukar flip (muafakat -213)",
+      "turnout_2023": 68.9
+    },
+    {
+      "code": "N13",
+      "name": "Sikamat",
+      "candidate": "Razali Abu Samah",
+      "party": "WAWASAN",
+      "incumbent": false,
+      "tier": "C",
+      "tier_label": "BATTLE",
+      "color": "oren",
+      "strategy": "Profil keselamatan/polis — mesej kestabilan, elak isu kaum",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 28.0,
+      "pasMnWinProb": 67.6,
+      "sentiment": 45.0,
+      "socmedMentions": 1393,
+      "socmedNegPct": 39.8,
+      "demo": {
+        "malay": 73.23,
+        "chinese": 19.99,
+        "indian": 6.73
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Sikamat: profil Datuk Razali (bekas TKP Melaka) = kestabilan/keselamatan",
+        "Elak isu kaum; fokus trafik/bandar/perkhidmatan"
+      ],
+      "sample_bm": "Sikamat: Razali Abu Samah — pengalaman keselamatan, fokus kestabilan & perkhidmatan.",
+      "hashtags": "#PNBest #N13Sikamat #RazaliAbuSamah #Wawasan #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 55.1,
+      "grade": "D",
+      "grade_label": "Lemah · perlu dorong",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 45.0,
+        "visibility": 1393,
+        "ground_readiness": 50,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 2662,
+      "spr_verdict": "Sangat sukar (muafakat -2,662)",
+      "turnout_2023": 72.5
+    },
+    {
+      "code": "N30",
+      "name": "Lukut",
+      "candidate": "Sathes Kumar Nilameham",
+      "party": "MIPP",
+      "incumbent": false,
+      "tier": "D",
+      "tier_label": "STRETCH",
+      "color": "merah",
+      "strategy": "MIPP · komuniti India — SJKT/pekerjaan BM+Tamil, lawatan kuil/kilang",
+      "pasWinProb": 28,
+      "pasSoloWinProb": 12.0,
+      "pasMnWinProb": 49.7,
+      "sentiment": 43.0,
+      "socmedMentions": 1340,
+      "socmedNegPct": 36.5,
+      "demo": {
+        "malay": 26.03,
+        "chinese": 49.13,
+        "indian": 24.81
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Lukut: Sathes Kumar · MIPP — saluran India utama PN",
+        "SJKT + pekerjaan BM+Tamil; lawatan kuil/kilang Isnin–Rabu"
+      ],
+      "sample_bm": "Lukut: Sathes Kumar (MIPP/PN) — SJKT, pekerjaan & komuniti. Suara anda didengar.",
+      "hashtags": "#PNBest #N30Lukut #SathesKumar #MIPP #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 28%.",
+      "score": 46.5,
+      "grade": "D",
+      "grade_label": "Stretch · framing perkhidmatan",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 28.0,
+        "sentiment": 43.0,
+        "visibility": 1340,
+        "ground_readiness": 38,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 10135,
+      "spr_verdict": "Sangat sukar (muafakat -10,135)",
+      "turnout_2023": 65.0
+    },
+    {
+      "code": "N21",
+      "name": "Bukit Kepayang",
+      "candidate": "Lee Boon Shian",
+      "party": "GERAKAN",
+      "incumbent": false,
+      "tier": "D",
+      "tier_label": "STRETCH",
+      "color": "merah",
+      "strategy": "GERAKAN bandar Cina — SME/PBT BM+中文, counter DAP prestasi",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 12.0,
+      "pasMnWinProb": 49.4,
+      "sentiment": 54.0,
+      "socmedMentions": 1443,
+      "socmedNegPct": 24.4,
+      "demo": {
+        "malay": 29.76,
+        "chinese": 50.71,
+        "indian": 19.44
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Bukit Kepayang: Lee Boon Shian · GERAKAN — wajah Cina bandar",
+        "SME/PBT/lesen: data + saluran aduan, elak serang kaum"
+      ],
+      "sample_bm": "Bukit Kepayang: Lee Boon Shian (GERAKAN/PN) — bantu peniaga & perkhidmatan majlis.",
+      "hashtags": "#PNBest #N21BukitKepayang #LeeBoonShian #Gerakan #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 44.2,
+      "grade": "E",
+      "grade_label": "Stretch · framing perkhidmatan",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 54.0,
+        "visibility": 1443,
+        "ground_readiness": 38,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 19684,
+      "spr_verdict": "Sangat sukar (muafakat -19,684)",
+      "turnout_2023": 66.3
+    },
+    {
+      "code": "N23",
+      "name": "Mambau",
+      "candidate": "Erik Michael",
+      "party": "WAWASAN",
+      "incumbent": false,
+      "tier": "D",
+      "tier_label": "STRETCH",
+      "color": "merah",
+      "strategy": "WAWASAN bandar — ekonomi + trafik, elak confrontasi kaum",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 10.9,
+      "pasMnWinProb": 48.5,
+      "sentiment": 52.0,
+      "socmedMentions": 1059,
+      "socmedNegPct": 28.1,
+      "demo": {
+        "malay": 15.11,
+        "chinese": 60.88,
+        "indian": 23.93
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Mambau: Erik Michael · WAWASAN — perkenalan agresif 72j",
+        "Ekonomi/trafik bandar; elak debat agama"
+      ],
+      "sample_bm": "Mambau: Erik Michael (WAWASAN/PN) — ekonomi & trafik setempat, solusi praktikal.",
+      "hashtags": "#PNBest #N23Mambau #ErikMichael #Wawasan #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 44.0,
+      "grade": "E",
+      "grade_label": "Stretch · framing perkhidmatan",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 52.0,
+        "visibility": 1059,
+        "ground_readiness": 38,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 14940,
+      "spr_verdict": "Sangat sukar (muafakat -14,940)",
+      "turnout_2023": 67.2
+    },
+    {
+      "code": "N11",
+      "name": "Lobak",
+      "candidate": "Kumar S. Paramasivam",
+      "party": "PAS",
+      "incumbent": false,
+      "tier": "D",
+      "tier_label": "STRETCH",
+      "color": "merah",
+      "strategy": "Bandar Cina/India — kos hidup + perkhidmatan, elak retorik agama",
+      "pasWinProb": 15,
+      "pasSoloWinProb": 10.8,
+      "pasMnWinProb": 47.4,
+      "sentiment": 49.0,
+      "socmedMentions": 1085,
+      "socmedNegPct": 5.5,
+      "demo": {
+        "malay": 6.72,
+        "chinese": 72.57,
+        "indian": 20.69
+      },
+      "issues": [
+        "Kos sara hidup / ekonomi mikro",
+        "Infrastruktur & perkhidmatan awam"
+      ],
+      "advice": [
+        "Lobak: Dr P. Kumar (PAS) — framing perkhidmatan + kos hidup, BUKAN agama",
+        "Helaian BM+中文+Tamil; FB Live Q&A 20 min"
+      ],
+      "sample_bm": "Lobak: Dr P. Kumar — fokus kos sara hidup & perkhidmatan. Undi = perkhidmatan.",
+      "hashtags": "#PNBest #N11Lobak #DrKumar #PRNN9",
+      "status_nomination": "perlu_penamaan",
+      "action": "Bukan fokus utama PAS. Ramalan PAS 15%.",
+      "score": 43.6,
+      "grade": "E",
+      "grade_label": "Stretch · framing perkhidmatan",
+      "momentum": "Perlu dorong",
+      "dims": {
+        "winnability": 15.0,
+        "sentiment": 49.0,
+        "visibility": 1085,
+        "ground_readiness": 38,
+        "incumbent_edge": 0
+      },
+      "spr_majority": 13504,
+      "spr_verdict": "Sangat sukar (muafakat -13,504)",
+      "turnout_2023": 66.1
+    }
+  ]
+}

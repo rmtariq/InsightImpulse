@@ -1,0 +1,531 @@
+{
+  "generated_at": "2026-07-13 01:08:46",
+  "coalition": "PAS · PN · MN (Muafakat Nasional)",
+  "focus": "Negeri Sembilan",
+  "purpose": "Cadangan tindakan operasi untuk mengurus naratif komuniti Cina & India di Negeri Sembilan — setiap item menerangkan APA, MENGAPA, BAGAIMANA, dan MESEJ yang hendak disampaikan.",
+  "tone_rules": [
+    "Fokus perkhidmatan, ekonomi, kestabilan — bukan teologi atau agama.",
+    "Jangan ulang isu syurga/Harakat — gunakan media Cina sebagai semakan fakta.",
+    "Jawab kebimbangan 巫伊/MN dengan ketelusan: stabil negeri, bukan pakatan sulit.",
+    "Setiap asset utama: BM + 中文 (Cina) dan/atau Tamil (India).",
+    "Elak serangan perkauman; serang prestasi & penyelesaian konkrit."
+  ],
+  "do_not_do": [
+    "Debat agama/syurga dengan komuniti Cina N9",
+    "Abaikan isu tempat letak kereta & trafik Seremban",
+    "Fokus berlebihan pada isu agama di kerusi India N9"
+  ],
+  "coalition_priorities": [
+    "N9: counter kos hidup Cina dengan fakta bantuan negeri",
+    "Seremban/Nilai: perkhidmatan PBT (trafik, parkir) — 48 jam response",
+    "India N9: SJKT + pekerjaan — bukan agama",
+    "Elak ulang retorik syurga/Harakat di N9",
+    "Muafakat 1-vs-1 kerusi Melayu sasaran MN"
+  ],
+  "executive_summary": "Negeri Sembilan: komuniti Cina menekankan Cost of Living (19%), SME dan perkhidmatan PBT (30% negatif) — risiko soft abstention di kerusi bandar (Seremban, Nilai, Lobak). Komuniti India (271 posts) fokus SJKT, pekerjaan dan isu parti; sokongan PH pragmatik jika perkhidmatan disampaikan. Prioriti PAS/PN/MN: fakta bantuan + lawatan ground N9, elak retorik agama.",
+  "n9": {
+    "priority_actions": [
+      {
+        "id": "N9-P1-01",
+        "priority": "P1 — MESTI DILAKSANAKAN MINGGU INI",
+        "title": "Jawab kos hidup & SME Seremban/Jelebu dengan data exco",
+        "what": "Terbitkan helaian bantuan aktif (negeri + persekutuan) BM+中文 dalam 48 jam — khusus peniaga Nilai, Seremban, Jelebu.",
+        "why": "N9 Cina = negatif tertinggi pada kos hidup/SME. Ini risiko abstention utama — bukan boycott eksplisit.",
+        "how_steps": [
+          "Exco ekonomi kumpul senarai bantuan SMI/peniaga kecil yang masih aktif.",
+          "Poster A3 di persatuan peniaga Seremban + Nilai.",
+          "Live FB 20 minit Q&A BM+中文 — exco atau calon dengan data, bukan slogan."
+        ],
+        "message": {
+          "bm": "Aduan kos sara hidup & SME di Jelebu/Seremban kami rakam. Helaian bantuan aktif BM+中文 dalam 48 jam. Undi = perkhidmatan, bukan drama.",
+          "zh": "芙蓉及汝来商家关注生活成本。48小时内发布中英对照援助清单。投票要看服务，不是口水战。",
+          "ta": ""
+        },
+        "channel": "FB Live + poster persatuan peniaga + WhatsApp",
+        "owner": "Exco + calon N10 Nilai, N28 Seremban Kota, N13 Sikamat",
+        "deadline": "48 jam",
+        "kpi": "Helaian diedar; ≥15 peniaga mendaftar follow-up",
+        "duns": [
+          "N10 Nilai",
+          "N11 Lobak",
+          "N28 Seremban Kota",
+          "N13 Sikamat",
+          "N06 Palong"
+        ],
+        "community": "chinese",
+        "issue": "Cost of Living / SME and Business"
+      },
+      {
+        "id": "N9-P1-02",
+        "priority": "P1 — MESTI DILAKSANAKAN MINGGU INI",
+        "title": "Tindakan trafik & parking bandar Seremban",
+        "what": "Umumkan mesyuarat MBSA + peniaga minggu ini; pos kemas kini tarikh & tindakan interim.",
+        "why": "Trafik/parking berulang dalam crawl N9 — isu mudah difahami & boleh tunjuk 'kami urus'.",
+        "how_steps": [
+          "Dapatkan tarikh mesyuarat disahkan dari MBSA.",
+          "Pos BM+中文: 'Kesesakan & parking — mesyuarat [tarikh]'.",
+          "Kumpul foto lokasi parking bermasalah (3 titik) untuk laporan calon."
+        ],
+        "message": {
+          "bm": "Kesesakan & parking di bandar Seremban isu berulang. Pasukan tempatan sedang susun mesyuarat dengan MBSA & peniaga — kemas kini minggu ini.",
+          "zh": "芙蓉市区交通与停车问题，州团队本周与市议会及商家开会跟进。",
+          "ta": ""
+        },
+        "channel": "FB Group merchant Seremban + poster premis",
+        "owner": "Calon N28/N21 + MBSA liaison",
+        "deadline": "7 hari",
+        "kpi": "Mesyuarat dijalankan; minit ringkas diedar BM+中文",
+        "duns": [
+          "N28 Seremban Kota",
+          "N21 Bukit Kepayang",
+          "N24 Seremban Jaya",
+          "N11 Lobak"
+        ],
+        "community": "chinese",
+        "issue": "Road and Traffic"
+      },
+      {
+        "id": "N9-P1-03",
+        "priority": "P1 — MESTI DILAKSANAKAN MINGGU INI",
+        "title": "Kemas kini SJKT — status guru & peruntukan BM+Tamil",
+        "what": "Nota rasmi: bilangan kekosongan guru, tarikh pengisian, peruntukan tahun semasa — BM+Tamil.",
+        "why": "India N9 pragmatik: SJKT & pekerjaan. Jika PH/MN tunjuk delivery, sokongan kekal.",
+        "how_steps": [
+          "Dapatkan angka dari JPN N9 / exco pendidikan.",
+          "Edar ke group ibu bapa SJKT Port Dickson, Seremban, Nilai.",
+          "Elak politikkan agama — fokus bilik darjah & guru."
+        ],
+        "message": {
+          "bm": "Isu guru SJKT & pendidikan Tamil masih panas di N9. Kami sediakan kemas kini BM+Tamil status pengisian & peruntukan — fakta sahaja.",
+          "zh": "",
+          "ta": "SJKT ஆசிரியர் பற்றாக்குறை — தமிழ்+BM அதிகாரப்பூர்வ புதுப்பிப்பு விரைவில்."
+        },
+        "channel": "WhatsApp ibu bapa SJKT + FB Tamil",
+        "owner": "Exco pendidikan + calon N25 Paroi, N31 Bagan Pinang",
+        "deadline": "5 hari",
+        "kpi": "Nota BM+Tamil diedar ke ≥10 group SJKT",
+        "duns": [
+          "N25 Paroi",
+          "N31 Bagan Pinang",
+          "N10 Nilai",
+          "N13 Sikamat"
+        ],
+        "community": "indian",
+        "issue": "Chinese Education / Employment"
+      },
+      {
+        "id": "N9-P1-04",
+        "priority": "P1 — MESTI DILAKSANAKAN MINGGU INI",
+        "title": "Pantau & counter strategi PN 'pecah undi' di kerusi campuran",
+        "what": "HQ sediakan skrip jawapan BM: Muafakat 1-vs-1 kerusi Melayu, fokus perkhidmatan di kerusi campuran.",
+        "why": "Crawl menyebut strategi PN — perlu jawapan awal sebelum frame DAP/PH menguasai naratif.",
+        "how_steps": [
+          "Monitor mention 'pecah undi' / '三分票' dalam group Cina.",
+          "Skrip 3 ayat: stabil negeri, fakta, undi = perkhidmatan.",
+          "Jangan serang peribadi calon PH — serang prestasi & penyelesaian."
+        ],
+        "message": {
+          "bm": "Tiada pakatan sulit. Ada kestabilan negeri supaya undi tidak pecah. Fakta di meja — bukan rumor.",
+          "zh": "没有秘密协议。只有州选稳定，避免分裂投票。事实为主。",
+          "ta": "ரகசிய கூட்டணி இல்லை. நிலைத்தன்மை மற்றும் உண்மைகள் மட்டும்."
+        },
+        "channel": "FB + WhatsApp + media Cina",
+        "owner": "Operasi N9 + media team",
+        "deadline": "48 jam",
+        "kpi": "Counter-post dalam 24j selepas naratif PN viral",
+        "duns": [
+          "N10 Nilai",
+          "N28 Seremban Kota",
+          "N27 Rantau",
+          "N06 Palong"
+        ],
+        "community": "chinese",
+        "issue": "Gerakan and PN / PH-BN Relationship"
+      },
+      {
+        "id": "N9-P2-01",
+        "priority": "P2 — SUSULAN 7–14 HARI",
+        "title": "Lawatan DUN bandar Cina — N06 Palong, N10 Nilai",
+        "what": "Walkabout bertemu peniaga & persatuan — bawa helaian bantuan, rekod aduan 7 hari.",
+        "why": "Ground presence kurang naratif negatif abstention — 'mereka dengar'.",
+        "how_steps": [
+          "Agenda 2 jam: pasar + 3 kedai kecil + 1 persatuan.",
+          "Setiap aduan dapat nombor rujukan.",
+          "Pos foto BM+中文 dalam 24 jam selepas lawatan."
+        ],
+        "message": {
+          "bm": "Lawatan perkhidmatan: kami dengar aduan peniaga Palong/Nilai. Setiap kes dapat nombor rujukan follow-up.",
+          "zh": "服务走访：我们听取巴珑/芙蓉商家诉求。每个案件都有跟进编号。",
+          "ta": ""
+        },
+        "channel": "Ground + FB post-event",
+        "owner": "Calon N06 + N10 + sukarelawan",
+        "deadline": "14 hari",
+        "kpi": "≥20 aduan direkod; ≥50% dijawab dalam 7 hari",
+        "duns": [
+          "N06 Palong",
+          "N10 Nilai"
+        ],
+        "community": "chinese",
+        "issue": "DAP Performance / Local Government Services"
+      },
+      {
+        "id": "N9-P2-02",
+        "priority": "P2 — SUSULAN 7–14 HARI",
+        "title": "Pekerjaan & ekonomi Port Dickson — komuniti India",
+        "what": "Sesi ringkas pelancongan/pekerjaan PD: fakta peluang kerja, kemahiran, SJKT berhampiran.",
+        "why": "Port Dickson (N31) — India + pelancongan; isu pekerjaan muncul dalam crawl.",
+        "how_steps": [
+          "Jumpa persatuan nelayan/pekerja pelancongan BM+Tamil.",
+          "Edar infografik pekerjaan 3 bullet."
+        ],
+        "message": {
+          "bm": "Port Dickson: peluang pekerjaan & kemahiran untuk komuniti India. Fakta dari agensi negeri — bukan janji kosong.",
+          "zh": "",
+          "ta": "போர்ட் டிக்சன்: வேலைவாய்ப்பு & திறன் மேம்பாடு — அதிகாரப்பூர்வ தகவலுடன்."
+        },
+        "channel": "Lawatan PD + FB Tamil",
+        "owner": "Calon N31 + agensi kerja negeri",
+        "deadline": "14 hari",
+        "kpi": "≥1 sesi komuniti; infografik diedar",
+        "duns": [
+          "N31 Bagan Pinang",
+          "N32 Linggi"
+        ],
+        "community": "indian",
+        "issue": "Employment"
+      }
+    ],
+    "dun_matrix": [
+      {
+        "dun_code": "N01",
+        "dun_name": "Chennah",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N01 Chennah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N01 Chennah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N02",
+        "dun_name": "Pertang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N02 Pertang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N02 Pertang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N03",
+        "dun_name": "Sungai Lui",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N03 Sungai Lui] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N03 Sungai Lui] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N04",
+        "dun_name": "Klawang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N04 Klawang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N04 Klawang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N05",
+        "dun_name": "Serting",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N05 Serting] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N05 Serting] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N06",
+        "dun_name": "Palong",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N06 Palong] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+        "indian_action": "[N06 Palong] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Perkhidmatan bandar"
+      },
+      {
+        "dun_code": "N07",
+        "dun_name": "Jeram Padang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N07 Jeram Padang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N07 Jeram Padang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N08",
+        "dun_name": "Bahau",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N08 Bahau] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+        "indian_action": "[N08 Bahau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Perkhidmatan bandar"
+      },
+      {
+        "dun_code": "N09",
+        "dun_name": "Lenggeng",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N09 Lenggeng] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N09 Lenggeng] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N10",
+        "dun_name": "Nilai",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N10 Nilai] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N10 Nilai] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N11",
+        "dun_name": "Lobak",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N11 Lobak] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N11 Lobak] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N12",
+        "dun_name": "Temiang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N12 Temiang] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N12 Temiang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N13",
+        "dun_name": "Sikamat",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N13 Sikamat] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+        "indian_action": "[N13 Sikamat] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N14",
+        "dun_name": "Ampangan",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N14 Ampangan] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+        "indian_action": "[N14 Ampangan] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Perkhidmatan bandar"
+      },
+      {
+        "dun_code": "N15",
+        "dun_name": "Juasseh",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N15 Juasseh] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N15 Juasseh] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N16",
+        "dun_name": "Seri Menanti",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N16 Seri Menanti] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N16 Seri Menanti] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N17",
+        "dun_name": "Senaling",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N17 Senaling] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N17 Senaling] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N18",
+        "dun_name": "Kuala Pilah",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N18 Kuala Pilah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N18 Kuala Pilah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N19",
+        "dun_name": "Johol",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N19 Johol] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N19 Johol] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N20",
+        "dun_name": "Labu",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N20 Labu] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N20 Labu] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N21",
+        "dun_name": "Bukit Kepayang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N21 Bukit Kepayang] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N21 Bukit Kepayang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N22",
+        "dun_name": "Rahang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N22 Rahang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N22 Rahang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N23",
+        "dun_name": "Mambau",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N23 Mambau] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N23 Mambau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N24",
+        "dun_name": "Seremban Jaya",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N24 Seremban Jaya] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N24 Seremban Jaya] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N25",
+        "dun_name": "Paroi",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N25 Paroi] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N25 Paroi] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N26",
+        "dun_name": "Chembong",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N26 Chembong] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N26 Chembong] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N27",
+        "dun_name": "Rantau",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N27 Rantau] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.",
+        "indian_action": "[N27 Rantau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Perkhidmatan bandar"
+      },
+      {
+        "dun_code": "N28",
+        "dun_name": "Seremban Kota",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N28 Seremban Kota] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N28 Seremban Kota] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N29",
+        "dun_name": "Chuah",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N29 Chuah] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N29 Chuah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N30",
+        "dun_name": "Lukut",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N30 Lukut] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.",
+        "indian_action": "[N30 Lukut] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P1",
+        "primary_issue": "Kos hidup / SME"
+      },
+      {
+        "dun_code": "N31",
+        "dun_name": "Bagan Pinang",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N31 Bagan Pinang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N31 Bagan Pinang] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N32",
+        "dun_name": "Linggi",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N32 Linggi] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N32 Linggi] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N33",
+        "dun_name": "Sri Tanjung",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N33 Sri Tanjung] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N33 Sri Tanjung] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.",
+        "priority": "P1",
+        "primary_issue": "SJKT / Pekerjaan"
+      },
+      {
+        "dun_code": "N34",
+        "dun_name": "Gemas",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N34 Gemas] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N34 Gemas] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N35",
+        "dun_name": "Gemencheh",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N35 Gemencheh] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N35 Gemencheh] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      },
+      {
+        "dun_code": "N36",
+        "dun_name": "Repah",
+        "state": "Negeri Sembilan",
+        "chinese_action": "[N36 Repah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.",
+        "indian_action": "[N36 Repah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.",
+        "priority": "P2",
+        "primary_issue": "Outreach minoriti / keluar undi"
+      }
+    ],
+    "stats_note": "Data tapis: Cina 157 posts (30% negatif); India 271 posts (0% negatif)."
+  },
+  "filter_stats": {
+    "filtered_rows": 649,
+    "raw_rows": 1353
+  }
+}

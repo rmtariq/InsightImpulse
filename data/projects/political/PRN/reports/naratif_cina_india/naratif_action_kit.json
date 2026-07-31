@@ -1,0 +1,154 @@
+{
+  "generated_at": "2026-07-06 21:36:40",
+  "coalition": "PAS · PN · MN (Muafakat Nasional)",
+  "tone_rules": [
+    "Fokus perkhidmatan, ekonomi, kestabilan — bukan teologi atau agama",
+    "Jangan ulang isu syurga/Harakat — gunakan Shawn Loh/China Press sebagai fakta sahaja",
+    "Jawab 巫伊 dengan ketelusan: stabil negeri, bukan pakatan sulit",
+    "BM + 中文 + Tamil dalam setiap asset utama",
+    "Elak serangan perkauman; serang prestasi & penyelesaian konkrit"
+  ],
+  "johor": {
+    "chinese": {
+      "facebook": [
+        {
+          "title": "Johor stabil — peniaga kecil didahulukan",
+          "bm": "Kos sara hidup & trafik JB/Skudai memang isu sebenar. Kami dengar. Senarai bantuan negeri + perkhidmatan bandar dikemas kini. Stabiliti Johor = perniagaan boleh merancang. #PRNJohor",
+          "zh": "柔佛要稳定，小贩和中小企业才能安心做生意。州政府整理生活成本援助与市区交通服务清单。#柔佛州选",
+          "cta": "PM untuk helaian BM+中文",
+          "hashtags": "#PRNJohor #柔佛州选 #新山 #士古来"
+        },
+        {
+          "title": "Ketelusan — bukan kerjasama sulit",
+          "bm": "Soalan komuniti Cina: adakah ada 'pakatan tersembunyi'? Jawapan kami: kestabilan negeri & elak pecah undi. Fakta di meja — bukan rumor WhatsApp.",
+          "zh": "华人社区关心：有没有“秘密协议”？我们的立场：州选稳定、避免分裂投票。事实摆在桌面，不是谣言。",
+          "cta": "Kongsi ke group merchant JB",
+          "hashtags": "#Johor #国阵 #稳定"
+        }
+      ],
+      "poster": {
+        "headline_bm": "JOHOR STABIL · PENIAGA DIDAHULUKAN",
+        "headline_zh": "柔佛稳定 · 商家优先",
+        "sub_bm": "Bantuan kos sara hidup · Trafik & perkhidmatan bandar · Fakta disahkan",
+        "sub_zh": "生活援助 · 市区交通与服务 · 经核实的信息",
+        "footer": "PAS · PN · MN — Muafakat untuk Johor"
+      },
+      "tiktok_prompt": "30s vertical video, Johor PRN. Scene 1: busy Skudai street market. Malay presenter + Chinese subtitle. Script BM: 'Kami dengar isu kos & trafik.' Scene 2: infographic overlay — 3 bullet bantuan negeri. Scene 3: CTA 'Stabiliti = perniagaan boleh merancang.' Tone: calm, factual, no religion.",
+      "whatsapp_forward": "📋 Helaian BM+中文: Bantuan kos sara hidup & perkhidmatan bandar Johor (Skudai/JB). Stabiliti negeri — bukan rumor. [pautan]"
+    },
+    "indian": {
+      "facebook": [
+        {
+          "title": "Segamat Hospital — kami dengar",
+          "bm": "Kekurangan doktor di Hospital Segamat dirakam. Pasukan negeri sedang susun jawapan fakta + langkah interim. Pekerjaan & kesihatan komuniti India kekal keutamaan.",
+          "ta": "சிகாமாத் மருத்துவமனையில் மருத்துவர் பற்றாக்குறை குறித்து கேள்விகள் உள்ளன. மாநில அ팀் உறுதிப்படுத்தப்பட்ட தகவலுடன் பதிலளிக்கிறது.",
+          "cta": "Share di group kilang Kluang/Batu Pahat",
+          "hashtags": "#Johor #Segamat #SJKT"
+        }
+      ],
+      "poster": {
+        "headline_bm": "PEKERJAAN & KESIHATAN · JOHOR",
+        "headline_ta": "வேலைவாய்ப்பு & சுகாதாரம்",
+        "sub_bm": "Kilang selatan · Hospital · Perkhidmatan disahkan",
+        "footer": "PAS · PN · MN"
+      },
+      "tiktok_prompt": "35s Tamil+BM factory worker POV, Kluang/Batu Pahat. Show hospital queue cutaway. Voiceover: pekerjaan & perubatan komuniti. End card: 'Fakta dari kerajaan negeri — bukan spekulasi.'"
+    },
+    "punjabi": {
+      "note": "Komuniti Punjabi kecil di Johor (Kulai, JB) — guna BM+English, elak politik agama",
+      "facebook": [
+        {
+          "bm": "Kepada sahabat komuniti Punjabi di Johor: isu pekerjaan, perniagaan kecil & keselamatan kejiranan — kami sedia dengar di pejabat khidmat.",
+          "en": "To our Punjabi friends in Johor: jobs, small business & neighbourhood safety — service centre open for verified assistance."
+        }
+      ]
+    }
+  },
+  "n9": {
+    "chinese": {
+      "facebook": [
+        {
+          "title": "Kos hidup Seremban — jawapan konkrit",
+          "bm": "Aduan kos sara hidup & SME di Jelebu/Seremban kami rakam. Helaian bantuan aktif (negeri + persekutuan) BM+中文 dalam 48 jam. Undi = perkhidmatan, bukan drama.",
+          "zh": "芙蓉及汝来商家关注生活成本。48小时内发布中英对照援助清单。投票要看服务，不是口水战。",
+          "cta": "Tag persatuan peniaga NS",
+          "hashtags": "#PRNN9 #森美兰 #芙蓉"
+        },
+        {
+          "title": "Trafik Seremban — kami ambil serius",
+          "bm": "Kesesakan & parking di bandar Seremban isu berulang. Pasukan tempatan sedang susun mesyuarat dengan MBSA & peniaga — kemas kini minggu ini.",
+          "zh": "芙蓉市区交通与停车问题，州团队本周与市议会及商家开会跟进。",
+          "cta": "Share di group merchant Seremban",
+          "hashtags": "#Seremban #交通"
+        }
+      ],
+      "poster": {
+        "headline_bm": "NEGERI SEMBILAN · KOS HIDUP & PERKHIDMATAN",
+        "headline_zh": "森美兰 · 生活成本与服务",
+        "sub_bm": "Bantuan disahkan · SME · Trafik Seremban",
+        "sub_zh": "核实援助 · 中小企业 · 芙蓉交通",
+        "footer": "PAS · PN · MN"
+      },
+      "tiktok_prompt": "40s Seremban night market. Chinese auntie voiceover (subtitle BM+中文). Topic: kos hidup & parking. Show 3 verified aid bullets. Avoid attacking DAP personally — focus 'penyelesaian konkrit'."
+    },
+    "indian": {
+      "facebook": [
+        {
+          "title": "SJKT — guru & masa depan anak",
+          "bm": "Isu guru SJKT & pendidikan Tamil masih panas di N9. Kami sediakan kemas kini BM+Tamil status pengisian & peruntukan — fakta sahaja.",
+          "ta": "SJKT ஆசிரியர் பற்றாக்குறை — தமிழ்+BM அதிகாரப்பூர்வ புதுப்பிப்பு விரைவில்.",
+          "cta": "Forward ke group SJKT parents Port Dickson/Seremban",
+          "hashtags": "#SJKT #N9 #PortDickson"
+        }
+      ],
+      "poster": {
+        "headline_bm": "PENDIDIKAN TAMIL · PEKERJAAN",
+        "headline_ta": "தமிழ் கல்வி · வேலைவாய்ப்பு",
+        "sub_bm": "SJKT · Port Dickson · Fakta disahkan",
+        "footer": "PAS · PN · MN"
+      },
+      "tiktok_prompt": "30s SJKT classroom B-roll + parent interview Tamil. Message: pendidikan & pekerjaan anak India N9. Calm tone, no communal bait."
+    },
+    "punjabi": {
+      "note": "Punjabi Sikh komuniti di Seremban/KL fringe — fokus perniagaan & keselamatan",
+      "facebook": [
+        {
+          "bm": "Komuniti Punjabi N9: kos operasi kedai & keselamatan kawasan perniagaan — hubungi pejabat khidmat untuk senarai bantuan disahkan.",
+          "en": "N9 Punjabi business community: operating costs & safety — contact service office for verified aid list."
+        }
+      ]
+    }
+  },
+  "counter_narratives": {
+    "dap_hidden_pact": {
+      "bm": "Tiada pakatan sulit. Ada kestabilan negeri supaya undi tidak pecah. Fakta di meja.",
+      "zh": "没有秘密协议。只有州选稳定，避免分裂投票。事实为主。",
+      "ta": "ரகசிய கூட்டணி இல்லை. நிலைத்தன்மை மற்றும் உண்மைகள் மட்டும்."
+    },
+    "harakat_fake_news": {
+      "bm": "Berita palsu Harakatdaily disahkan media Cina (China Press). Jangan kongsi tanpa semak.",
+      "zh": "Harakatdaily假新闻已被中国报澄清。请勿转发未经核实内容。",
+      "do_not": "Jangan debat syurga — redirect ke fakta Shawn Loh"
+    },
+    "abstention_risk": {
+      "bm": "Duduk rumah = undi PH/BN tanpa usaha. Jika mahu perubahan perkhidmatan — keluar undi, pilih kestabilan.",
+      "zh": "不投票等于把结果交给别人。要改善服务，就要出来投票，选择稳定。"
+    }
+  },
+  "video_prompts_capcut": [
+    {
+      "name": "Template A — 3 fakta 30s",
+      "prompt": "CapCut template: 3 slides. Slide1 hook question in BM+中文. Slide2 3 bullet facts with icons. Slide3 CTA vote for stability. Music: neutral corporate. No flags drama."
+    },
+    {
+      "name": "Template B — Calon di pasar",
+      "prompt": "Handheld market walk, Skudai/Seremban. Calon dengar peniaga. Subtitle trilingual. End: 'Kami dengar. Kami urus.'"
+    },
+    {
+      "name": "Template C — Infografik animasi",
+      "prompt": "Motion graphic: kos hidup comparison chart (verified sources only). BM voiceover + 中文 subtitles. Brand colors: blue/green calm."
+    }
+  ],
+  "llm_provider": "rule_based_professional",
+  "source_brief": "data/projects/political/PRN/reports/naratif_cina_india/naratif_agentic_brief.json"
+}

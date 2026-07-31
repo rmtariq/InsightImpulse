@@ -1,0 +1,428 @@
+{
+  "generated_at": "2026-07-15 01:54:46",
+  "mn20_codes": [
+    "N02",
+    "N03",
+    "N05",
+    "N06",
+    "N07",
+    "N09",
+    "N14",
+    "N15",
+    "N16",
+    "N17",
+    "N19",
+    "N20",
+    "N25",
+    "N26",
+    "N27",
+    "N28",
+    "N31",
+    "N32",
+    "N34",
+    "N35"
+  ],
+  "mn_majority": 19,
+  "keputusan": {
+    "headline": "MN kekal laluan utama",
+    "ringkasan": "Data CULA + ML: kekalkan naratif MN (bukan debat solo). MN jelas 68% vs Solo · Pro-PAS 48.0% · Labu sokong PAS 76.5%. Model majoriti: MN (PAS+BN) lead 66%.",
+    "mn_vs_solo_pct": 68,
+    "labu_sokong_pct": 76.5,
+    "coalition_lead": "MN (PAS+BN)",
+    "coalition_lead_pct": 66
+  },
+  "kpi": {
+    "sasaran_mn": 20,
+    "push_abc": 11,
+    "maintain_d": 9,
+    "formula": "80% tenaga → 11 kerusi push · 20% → 9 maintain"
+  },
+  "kumpulan": {
+    "defend": {
+      "meta": {
+        "id": "A",
+        "label": "JANGAN GAGAL",
+        "effort": "Tinggi",
+        "hari_ini": "Jentera penuh — jangan kurang staf"
+      },
+      "seats": [
+        {
+          "code": "N05",
+          "name": "Serting",
+          "kumpulan": "A",
+          "kumpulan_label": "JANGAN GAGAL",
+          "peluang_ml_pct": 95,
+          "model_pas_pct": 70,
+          "majoriti_2023": 843,
+          "hari_ini": "Jentera penuh — jangan kurang staf",
+          "tindakan_ringkas": "N05 Serting: Jentera penuh — jangan kurang staf (peluang ML 95% · model PAS 70%)"
+        },
+        {
+          "code": "N25",
+          "name": "Paroi",
+          "kumpulan": "A",
+          "kumpulan_label": "JANGAN GAGAL",
+          "peluang_ml_pct": 92,
+          "model_pas_pct": 82,
+          "majoriti_2023": 5539,
+          "hari_ini": "Jentera penuh — jangan kurang staf",
+          "tindakan_ringkas": "N25 Paroi: Jentera penuh — jangan kurang staf (peluang ML 92% · model PAS 82%)"
+        },
+        {
+          "code": "N31",
+          "name": "Bagan Pinang",
+          "kumpulan": "A",
+          "kumpulan_label": "JANGAN GAGAL",
+          "peluang_ml_pct": 91,
+          "model_pas_pct": 82,
+          "majoriti_2023": 3426,
+          "hari_ini": "Jentera penuh — jangan kurang staf",
+          "tindakan_ringkas": "N31 Bagan Pinang: Jentera penuh — jangan kurang staf (peluang ML 91% · model PAS 82%)"
+        }
+      ]
+    },
+    "winnable": {
+      "meta": {
+        "id": "B",
+        "label": "PUSH MENANG",
+        "effort": "Tinggi",
+        "hari_ini": "Digital + ground — kejar undi"
+      },
+      "seats": [
+        {
+          "code": "N03",
+          "name": "Sungai Lui",
+          "kumpulan": "B",
+          "kumpulan_label": "PUSH MENANG",
+          "peluang_ml_pct": 85,
+          "model_pas_pct": 51.0,
+          "majoriti_2023": 535,
+          "hari_ini": "Digital + ground — kejar undi",
+          "tindakan_ringkas": "N03 Sungai Lui: Digital + ground — kejar undi (peluang ML 85% · model PAS 51.0%)"
+        },
+        {
+          "code": "N09",
+          "name": "Lenggeng",
+          "kumpulan": "B",
+          "kumpulan_label": "PUSH MENANG",
+          "peluang_ml_pct": 91,
+          "model_pas_pct": 50.5,
+          "majoriti_2023": 685,
+          "hari_ini": "Digital + ground — kejar undi",
+          "tindakan_ringkas": "N09 Lenggeng: Digital + ground — kejar undi (peluang ML 91% · model PAS 50.5%)"
+        }
+      ]
+    },
+    "tough": {
+      "meta": {
+        "id": "C",
+        "label": "JUJUR & TIPIS",
+        "effort": "Sederhana",
+        "hari_ini": "Kempen minimum konsisten"
+      },
+      "seats": [
+        {
+          "code": "N02",
+          "name": "Pertang",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 84,
+          "model_pas_pct": 38,
+          "majoriti_2023": 2790,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N02 Pertang: Kempen minimum konsisten (peluang ML 84% · model PAS 38%)"
+        },
+        {
+          "code": "N19",
+          "name": "Johol",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 86,
+          "model_pas_pct": 38,
+          "majoriti_2023": 2117,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N19 Johol: Kempen minimum konsisten (peluang ML 86% · model PAS 38%)"
+        },
+        {
+          "code": "N20",
+          "name": "Labu",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 89,
+          "model_pas_pct": 42,
+          "majoriti_2023": 1640,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N20 Labu: Kempen minimum konsisten (peluang ML 89% · model PAS 42%)"
+        },
+        {
+          "code": "N27",
+          "name": "Rantau",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 74,
+          "model_pas_pct": 28,
+          "majoriti_2023": 10280,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N27 Rantau: Kempen minimum konsisten (peluang ML 74% · model PAS 28%)"
+        },
+        {
+          "code": "N34",
+          "name": "Gemas",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 87,
+          "model_pas_pct": 42,
+          "majoriti_2023": 3120,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N34 Gemas: Kempen minimum konsisten (peluang ML 87% · model PAS 42%)"
+        },
+        {
+          "code": "N35",
+          "name": "Gemencheh",
+          "kumpulan": "C",
+          "kumpulan_label": "JUJUR & TIPIS",
+          "peluang_ml_pct": 76,
+          "model_pas_pct": 38,
+          "majoriti_2023": 2434,
+          "hari_ini": "Kempen minimum konsisten",
+          "tindakan_ringkas": "N35 Gemencheh: Kempen minimum konsisten (peluang ML 76% · model PAS 38%)"
+        }
+      ]
+    },
+    "not_priority": {
+      "meta": {
+        "id": "D",
+        "label": "MAINTAIN MN",
+        "effort": "Rendah",
+        "hari_ini": "WhatsApp + monitor sahaja"
+      },
+      "seats": [
+        {
+          "code": "N06",
+          "name": "Palong",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 16,
+          "model_pas_pct": 15,
+          "majoriti_2023": 564,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N06 Palong: WhatsApp + monitor sahaja (peluang ML 16% · model PAS 15%)"
+        },
+        {
+          "code": "N07",
+          "name": "Jeram Padang",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 14,
+          "model_pas_pct": 15,
+          "majoriti_2023": 693,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N07 Jeram Padang: WhatsApp + monitor sahaja (peluang ML 14% · model PAS 15%)"
+        },
+        {
+          "code": "N14",
+          "name": "Ampangan",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 12,
+          "model_pas_pct": 15,
+          "majoriti_2023": 329,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N14 Ampangan: WhatsApp + monitor sahaja (peluang ML 12% · model PAS 15%)"
+        },
+        {
+          "code": "N15",
+          "name": "Juasseh",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 15,
+          "model_pas_pct": 15,
+          "majoriti_2023": 78,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N15 Juasseh: WhatsApp + monitor sahaja (peluang ML 15% · model PAS 15%)"
+        },
+        {
+          "code": "N16",
+          "name": "Seri Menanti",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 13,
+          "model_pas_pct": 15,
+          "majoriti_2023": 370,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N16 Seri Menanti: WhatsApp + monitor sahaja (peluang ML 13% · model PAS 15%)"
+        },
+        {
+          "code": "N17",
+          "name": "Senaling",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 15,
+          "model_pas_pct": 15,
+          "majoriti_2023": 662,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N17 Senaling: WhatsApp + monitor sahaja (peluang ML 15% · model PAS 15%)"
+        },
+        {
+          "code": "N26",
+          "name": "Chembong",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 14,
+          "model_pas_pct": 15,
+          "majoriti_2023": 4335,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N26 Chembong: WhatsApp + monitor sahaja (peluang ML 14% · model PAS 15%)"
+        },
+        {
+          "code": "N28",
+          "name": "Kota",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 12,
+          "model_pas_pct": 15,
+          "majoriti_2023": 135,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N28 Kota: WhatsApp + monitor sahaja (peluang ML 12% · model PAS 15%)"
+        },
+        {
+          "code": "N32",
+          "name": "Linggi",
+          "kumpulan": "D",
+          "kumpulan_label": "MAINTAIN MN",
+          "peluang_ml_pct": 12,
+          "model_pas_pct": 15,
+          "majoriti_2023": 1461,
+          "hari_ini": "WhatsApp + monitor sahaja",
+          "tindakan_ringkas": "N32 Linggi: WhatsApp + monitor sahaja (peluang ML 12% · model PAS 15%)"
+        }
+      ]
+    }
+  },
+  "tindakan_72jam": [
+    {
+      "kesukaran": "segera",
+      "label": "ML Segera",
+      "teks": "Hari ini: gerak jentera + digital ke N31 Bagan Pinang — N31 Bagan Pinang: Jentera penuh — jangan kurang staf (peluang ML 91% · model PAS 82%)"
+    },
+    {
+      "kesukaran": "segera",
+      "label": "ML Segera",
+      "teks": "Hari ini: gerak jentera + digital ke N25 Paroi — N25 Paroi: Jentera penuh — jangan kurang staf (peluang ML 92% · model PAS 82%)"
+    },
+    {
+      "kesukaran": "segera",
+      "label": "ML Segera",
+      "teks": "Hari ini: gerak jentera + digital ke N05 Serting — N05 Serting: Jentera penuh — jangan kurang staf (peluang ML 95% · model PAS 70%)"
+    },
+    {
+      "kesukaran": "mudah",
+      "label": "Mudah",
+      "teks": "Semua admin FB: skrip sama — 'pilih MN (A), elak pecah undi, PH kalah'."
+    },
+    {
+      "kesukaran": "mudah",
+      "label": "Mudah",
+      "teks": "N20 Labu: gerak 'Labu for PAS' — sokongan digital 76.5%."
+    },
+    {
+      "kesukaran": "sederhana",
+      "label": "Sederhana",
+      "teks": "N26/N27 Rembau: balas 30 komen Pro-PH dengan fakta tempatan."
+    },
+    {
+      "kesukaran": "sukar",
+      "label": "Sukar",
+      "teks": "Selaraskan MN dengan UMNO/BN — elak isu Perpaduan kaum pecah momentum."
+    }
+  ],
+  "ml_actions_top5": [
+    {
+      "rank": 1,
+      "urgency": "immediate",
+      "code": "N05",
+      "name": "Serting",
+      "title_bm": "Hari ini: gerak jentera + digital ke N05 Serting",
+      "detail_bm": "N05 Serting: Jentera penuh — jangan kurang staf (peluang ML 95% · model PAS 70%)"
+    },
+    {
+      "rank": 2,
+      "urgency": "immediate",
+      "code": "N25",
+      "name": "Paroi",
+      "title_bm": "Hari ini: gerak jentera + digital ke N25 Paroi",
+      "detail_bm": "N25 Paroi: Jentera penuh — jangan kurang staf (peluang ML 92% · model PAS 82%)"
+    },
+    {
+      "rank": 3,
+      "urgency": "immediate",
+      "code": "N31",
+      "name": "Bagan Pinang",
+      "title_bm": "Hari ini: gerak jentera + digital ke N31 Bagan Pinang",
+      "detail_bm": "N31 Bagan Pinang: Jentera penuh — jangan kurang staf (peluang ML 91% · model PAS 82%)"
+    },
+    {
+      "rank": 4,
+      "urgency": "immediate",
+      "code": "N09",
+      "name": "Lenggeng",
+      "title_bm": "Hari ini: gerak jentera + digital ke N09 Lenggeng",
+      "detail_bm": "N09 Lenggeng: Digital + ground — kejar undi (peluang ML 91% · model PAS 50.5%)"
+    },
+    {
+      "rank": 5,
+      "urgency": "immediate",
+      "code": "N20",
+      "name": "Labu",
+      "title_bm": "Hari ini: gerak jentera + digital ke N20 Labu",
+      "detail_bm": "N20 Labu: Kempen minimum konsisten (peluang ML 89% · model PAS 42%)"
+    }
+  ],
+  "fokus_kawasan": [
+    {
+      "code": "N20",
+      "name": "Labu",
+      "sebab": "Labu: sokongan PAS digital",
+      "peluang_ml_pct": 89
+    },
+    {
+      "code": "N27",
+      "name": "Rantau",
+      "sebab": "Rantau: kritik panas",
+      "peluang_ml_pct": 74
+    },
+    {
+      "code": "N26",
+      "name": "Chembong",
+      "sebab": "Chembong: balas kritik",
+      "peluang_ml_pct": 14
+    },
+    {
+      "code": "N28",
+      "name": "Kota",
+      "sebab": "Kota: ulang poll",
+      "peluang_ml_pct": 12
+    },
+    {
+      "code": "N33",
+      "name": "Sri Tanjung",
+      "sebab": "PD: naikkan volume",
+      "peluang_ml_pct": 5
+    }
+  ],
+  "model_cv": {
+    "svm": {
+      "accuracy": 0.861,
+      "f1": 0.76
+    },
+    "random_forest": {
+      "accuracy": 0.943,
+      "f1": 0.867
+    },
+    "decision_tree": {
+      "accuracy": 0.886,
+      "f1": 0.827
+    }
+  },
+  "disclaimer": "Satu fail untuk Command Center + ML panel — refresh selepas crawl & build_n9_ml_predictions.py"
+}

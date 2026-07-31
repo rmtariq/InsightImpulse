@@ -1,0 +1,9 @@
+rule_id,rule_name,condition,threshold,enabled,notes
+R1,Volume +50%,growth_percentage > 50,50,True,In-dashboard only
+R2,Negatif >65%,negative_pct > 65,65,True,
+R3,Misinfo engagement,misinfo_engagement > 1000,1000,True,
+R4,Race/religion High/Critical,"risk_level in High,Critical AND issue Race and Religion",0,True,
+R5,Complaint 3+ sources,same issue 3 sources,3,True,
+R6,SLA breach,open complaint > SLA days,14,True,
+R7,High-risk institution mention,candidate/institution in high risk,0,True,
+R8,Duplicate text burst,identical text multiple accounts,3,True,

@@ -1,0 +1,1623 @@
+{
+  "N01": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 14554,
+    "turnoutPct": 66.7,
+    "validVotes": 9576,
+    "rejected": 115,
+    "spoiltPct": 1.19,
+    "numCandidates": 2,
+    "candidateNames": "ROSMADI BIN ARIF LOKE SIEW FOOK",
+    "blocVotes": {
+      "PH": 5888,
+      "PN": 3688,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 2200,
+    "majorityPct": 23.0,
+    "muafakatPnBn": 3688,
+    "muafakatVsPh": -2200,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -2,200)",
+    "streams": {
+      "melayu": {
+        "PH": 1936,
+        "PN": 1599,
+        "BN": 0,
+        "total": 3535
+      },
+      "cina": {
+        "PH": 3816,
+        "PN": 1723,
+        "BN": 0,
+        "total": 5539
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: PH +3,816 · Melayu: PH 1,936"
+  },
+  "N02": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 12897,
+    "turnoutPct": 66.5,
+    "validVotes": 8478,
+    "rejected": 83,
+    "spoiltPct": 0.97,
+    "numCandidates": 2,
+    "candidateNames": "JALALUDDIN BIN ALIAS CIKGU AMIR",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 2844,
+      "BN": 5634,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 2790,
+    "majorityPct": 32.9,
+    "muafakatPnBn": 8478,
+    "muafakatVsPh": 8478,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+8,478)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 1664,
+        "BN": 2320,
+        "total": 3984
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 934,
+        "BN": 2962,
+        "total": 3896
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 194,
+        "BN": 271,
+        "total": 465
+      }
+    },
+    "leakNote": "Cina: BN +2,962 · Melayu: BN 2,320"
+  },
+  "N03": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 20206,
+    "turnoutPct": 67.4,
+    "validVotes": 13343,
+    "rejected": 255,
+    "spoiltPct": 1.88,
+    "numCandidates": 2,
+    "candidateNames": "MOHD. RAZI BIN MOHD. ALI NORDIN HASIM",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 6404,
+      "BN": 6939,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 535,
+    "majorityPct": 4.0,
+    "muafakatPnBn": 13343,
+    "muafakatVsPh": 13343,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+13,343)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 5074,
+        "BN": 5307,
+        "total": 10381
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 509,
+        "BN": 1104,
+        "total": 1613
+      },
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 311,
+        "BN": 188,
+        "total": 499
+      }
+    },
+    "leakNote": "Ladang/India: PN +509 · Melayu: BN 5,307"
+  },
+  "N04": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 13163,
+    "turnoutPct": 68.9,
+    "validVotes": 8983,
+    "rejected": 80,
+    "spoiltPct": 0.88,
+    "numCandidates": 3,
+    "candidateNames": "ANGAH SAIFUL DANNI RAIS BAKRI SAWIR",
+    "blocVotes": {
+      "PH": 4598,
+      "PN": 4021,
+      "BN": 364,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 577,
+    "majorityPct": 6.4,
+    "muafakatPnBn": 4385,
+    "muafakatVsPh": -213,
+    "verdictKey": "SUKAR",
+    "verdictLabel": "Sukar flip (muafakat -213)",
+    "streams": {
+      "melayu": {
+        "PH": 2366,
+        "PN": 2795,
+        "BN": 280,
+        "total": 5441
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 2082,
+        "PN": 1051,
+        "BN": 75,
+        "total": 3208
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PH +1,031 · Melayu: PN 2,795"
+  },
+  "N05": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 30287,
+    "turnoutPct": 65.9,
+    "validVotes": 19781,
+    "rejected": 140,
+    "spoiltPct": 0.7,
+    "numCandidates": 2,
+    "candidateNames": "USTAZ FAIRUZ MUHAMAD ZAMRI OMAR",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 10312,
+      "BN": 9469,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PN",
+    "majorityOfficial": 843,
+    "majorityPct": 4.3,
+    "muafakatPnBn": 19781,
+    "muafakatVsPh": 19781,
+    "verdictKey": "PERTAHAN_RAPAT",
+    "verdictLabel": "Pertahan PN/PAS tipis (+843)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 8285,
+        "BN": 5918,
+        "total": 14203
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 514,
+        "BN": 2096,
+        "total": 2610
+      },
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 1169,
+        "BN": 1107,
+        "total": 2276
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PN +1,169 · Cina: BN +2,096"
+  },
+  "N06": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 23494,
+    "turnoutPct": 65.8,
+    "validVotes": 15316,
+    "rejected": 121,
+    "spoiltPct": 0.78,
+    "numCandidates": 2,
+    "candidateNames": "NOOR AZUAN MUSTAPHA BIN NAGOOR",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 7376,
+      "BN": 7940,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 564,
+    "majorityPct": 3.7,
+    "muafakatPnBn": 15316,
+    "muafakatVsPh": 15316,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+15,316)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 6877,
+        "BN": 7264,
+        "total": 14141
+      },
+      "cina": null,
+      "indiaLadang": null,
+      "pos": {
+        "PH": 0,
+        "PN": 414,
+        "BN": 584,
+        "total": 998
+      },
+      "awal": null
+    },
+    "leakNote": "Melayu: BN 7,264"
+  },
+  "N07": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 16332,
+    "turnoutPct": 63.4,
+    "validVotes": 10231,
+    "rejected": 115,
+    "spoiltPct": 1.11,
+    "numCandidates": 2,
+    "candidateNames": "MOHD ZAIDY ABDUL KADIR SURASH A/L SREENIVASAN",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 4769,
+      "BN": 5462,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 693,
+    "majorityPct": 6.8,
+    "muafakatPnBn": 10231,
+    "muafakatVsPh": 10231,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+10,231)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 1871,
+        "BN": 1976,
+        "total": 3847
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 2682,
+        "BN": 3328,
+        "total": 6010
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PN +2,682 · Melayu: BN 1,976"
+  },
+  "N08": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 25769,
+    "turnoutPct": 60.6,
+    "validVotes": 15470,
+    "rejected": 132,
+    "spoiltPct": 0.85,
+    "numCandidates": 2,
+    "candidateNames": "P. M. KUMAR TEO KOK SEONG",
+    "blocVotes": {
+      "PH": 11939,
+      "PN": 3531,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 8408,
+    "majorityPct": 54.4,
+    "muafakatPnBn": 3531,
+    "muafakatVsPh": -8408,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -8,408)",
+    "streams": {
+      "melayu": {
+        "PH": 4432,
+        "PN": 2557,
+        "BN": 0,
+        "total": 6989
+      },
+      "cina": {
+        "PH": 7188,
+        "PN": 600,
+        "BN": 0,
+        "total": 7788
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: PH +7,188 · Melayu: PH 4,432"
+  },
+  "N09": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 27386,
+    "turnoutPct": 73.1,
+    "validVotes": 19799,
+    "rejected": 170,
+    "spoiltPct": 0.85,
+    "numCandidates": 3,
+    "candidateNames": "ZUL AZKI MAT SULOP HAJI FADLI CHE ME HJ ASNA",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 9355,
+      "BN": 10040,
+      "Bebas": 404
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 685,
+    "majorityPct": 3.5,
+    "muafakatPnBn": 19395,
+    "muafakatVsPh": 19395,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+19,395)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 7324,
+        "BN": 6664,
+        "total": 14281
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 1874,
+        "BN": 3227,
+        "total": 5206
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 29,
+        "BN": 25,
+        "total": 55
+      }
+    },
+    "leakNote": "Cina: BN +3,227 · Melayu: PN 7,324"
+  },
+  "N10": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 42168,
+    "turnoutPct": 69.0,
+    "validVotes": 28864,
+    "rejected": 203,
+    "spoiltPct": 0.7,
+    "numCandidates": 4,
+    "candidateNames": "GAN CHEE BIOW OMAR BIN MOHD ISA YESSU J.ARUL KUMAR",
+    "blocVotes": {
+      "PH": 19133,
+      "PN": 8244,
+      "BN": 1430,
+      "Bebas": 57
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 10889,
+    "majorityPct": 37.7,
+    "muafakatPnBn": 9674,
+    "muafakatVsPh": -9459,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -9,459)",
+    "streams": {
+      "melayu": {
+        "PH": 8936,
+        "PN": 3906,
+        "BN": 595,
+        "total": 13469
+      },
+      "cina": {
+        "PH": 9945,
+        "PN": 4060,
+        "BN": 782,
+        "total": 14812
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 130,
+        "PN": 205,
+        "BN": 30,
+        "total": 365
+      }
+    },
+    "leakNote": "Cina: PH +9,163 · Melayu: PH 8,936"
+  },
+  "N11": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 23193,
+    "turnoutPct": 66.1,
+    "validVotes": 15210,
+    "rejected": 99,
+    "spoiltPct": 0.65,
+    "numCandidates": 2,
+    "candidateNames": "NG SOON LEAN CHEW SEH YONG",
+    "blocVotes": {
+      "PH": 14357,
+      "PN": 0,
+      "BN": 853,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 13504,
+    "majorityPct": 88.8,
+    "muafakatPnBn": 853,
+    "muafakatVsPh": -13504,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -13,504)",
+    "streams": {
+      "melayu": null,
+      "cina": {
+        "PH": 7859,
+        "PN": 0,
+        "BN": 366,
+        "total": 8225
+      },
+      "indiaLadang": {
+        "PH": 4156,
+        "PN": 0,
+        "BN": 200,
+        "total": 4356
+      },
+      "pos": {
+        "PH": 2272,
+        "PN": 0,
+        "BN": 276,
+        "total": 2548
+      },
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PH +4,156 · Cina: PH +7,493"
+  },
+  "N12": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 13085,
+    "turnoutPct": 69.3,
+    "validVotes": 8992,
+    "rejected": 63,
+    "spoiltPct": 0.7,
+    "numCandidates": 3,
+    "candidateNames": "NG CHIN TSAI QUSYAIRY AHMAD CHUA ENG PU",
+    "blocVotes": {
+      "PH": 5710,
+      "PN": 640,
+      "BN": 2642,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 3068,
+    "majorityPct": 34.1,
+    "muafakatPnBn": 3282,
+    "muafakatVsPh": -2428,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -2,428)",
+    "streams": {
+      "melayu": {
+        "PH": 5477,
+        "PN": 517,
+        "BN": 1966,
+        "total": 7960
+      },
+      "cina": null,
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 199,
+        "PN": 116,
+        "BN": 634,
+        "total": 949
+      }
+    },
+    "leakNote": "Melayu: PH 5,477"
+  },
+  "N13": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 32343,
+    "turnoutPct": 72.5,
+    "validVotes": 23220,
+    "rejected": 157,
+    "spoiltPct": 0.67,
+    "numCandidates": 4,
+    "candidateNames": "RAIHAN HILAL AMINUDDIN HARUN BUJANG BIN ABU MOHAMMED HAFIZ (TOK MERAH)",
+    "blocVotes": {
+      "PH": 12730,
+      "PN": 10068,
+      "BN": 0,
+      "Bebas": 422
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 2662,
+    "majorityPct": 11.5,
+    "muafakatPnBn": 10068,
+    "muafakatVsPh": -2662,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -2,662)",
+    "streams": {
+      "melayu": {
+        "PH": 9239,
+        "PN": 7873,
+        "BN": 0,
+        "total": 17434
+      },
+      "cina": {
+        "PH": 1591,
+        "PN": 387,
+        "BN": 0,
+        "total": 2001
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 1632,
+        "PN": 1570,
+        "BN": 0,
+        "total": 3273
+      }
+    },
+    "leakNote": "Cina: PH +1,591 · Melayu: PH 9,239"
+  },
+  "N14": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 20992,
+    "turnoutPct": 71.3,
+    "validVotes": 14858,
+    "rejected": 79,
+    "spoiltPct": 0.53,
+    "numCandidates": 3,
+    "candidateNames": "TENGKU ZAMRAH BINTI TENGKU SULAIMAN MUHAMMAD GHAZALI BIN ZAINAL ABIDIN DATO' DR MOHAMAD RAFIE BIN AB MALEK",
+    "blocVotes": {
+      "PH": 6054,
+      "PN": 5725,
+      "BN": 3079,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 329,
+    "majorityPct": 2.2,
+    "muafakatPnBn": 8804,
+    "muafakatVsPh": 2750,
+    "verdictKey": "FLIP_KUAT",
+    "verdictLabel": "Flip muafakat kuat (+2,750 vs PH)",
+    "streams": {
+      "melayu": {
+        "PH": 5189,
+        "PN": 5485,
+        "BN": 2903,
+        "total": 13577
+      },
+      "cina": null,
+      "indiaLadang": null,
+      "pos": {
+        "PH": 806,
+        "PN": 146,
+        "BN": 137,
+        "total": 1089
+      },
+      "awal": null
+    },
+    "leakNote": "Melayu: PN 5,485"
+  },
+  "N15": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 13408,
+    "turnoutPct": 68.0,
+    "validVotes": 9020,
+    "rejected": 87,
+    "spoiltPct": 0.96,
+    "numCandidates": 2,
+    "candidateNames": "EDDIN SYAZLEE BIN SHITH PUAN SRI BIBI SHARLIZA",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 4471,
+      "BN": 4549,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 78,
+    "majorityPct": 0.9,
+    "muafakatPnBn": 9020,
+    "muafakatVsPh": 9020,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+9,020)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 3391,
+        "BN": 2894,
+        "total": 6285
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 663,
+        "BN": 1211,
+        "total": 1874
+      },
+      "indiaLadang": null,
+      "pos": {
+        "PH": 0,
+        "PN": 219,
+        "BN": 297,
+        "total": 516
+      },
+      "awal": null
+    },
+    "leakNote": "Cina: BN +1,211 · Melayu: PN 3,391"
+  },
+  "N16": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 10045,
+    "turnoutPct": 71.0,
+    "validVotes": 7052,
+    "rejected": 69,
+    "spoiltPct": 0.97,
+    "numCandidates": 2,
+    "candidateNames": "USTAZ SUFIAN MARADZI JAMALI BIN SALAM",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 3341,
+      "BN": 3711,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 370,
+    "majorityPct": 5.2,
+    "muafakatPnBn": 7052,
+    "muafakatVsPh": 7052,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+7,052)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 3288,
+        "BN": 3651,
+        "total": 6939
+      },
+      "cina": null,
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 8,
+        "BN": 15,
+        "total": 23
+      }
+    },
+    "leakNote": "Melayu: BN 3,651"
+  },
+  "N17": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 9886,
+    "turnoutPct": 69.3,
+    "validVotes": 6786,
+    "rejected": 53,
+    "spoiltPct": 0.77,
+    "numCandidates": 2,
+    "candidateNames": "ISMAIL LASIM AMRINA BINTI MOHD KHALID",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 3062,
+      "BN": 3724,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 662,
+    "majorityPct": 9.8,
+    "muafakatPnBn": 6786,
+    "muafakatVsPh": 6786,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+6,786)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 2505,
+        "BN": 2660,
+        "total": 5165
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 384,
+        "BN": 820,
+        "total": 1204
+      },
+      "pos": {
+        "PH": 0,
+        "PN": 114,
+        "BN": 179,
+        "total": 293
+      },
+      "awal": null
+    },
+    "leakNote": "Melayu: BN 2,660"
+  },
+  "N18": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 17692,
+    "turnoutPct": 65.0,
+    "validVotes": 11365,
+    "rejected": 103,
+    "spoiltPct": 0.9,
+    "numCandidates": 2,
+    "candidateNames": "CIKGU RAFIEI NOORZUNITA BEGUM MOHD IBRAHIM",
+    "blocVotes": {
+      "PH": 6222,
+      "PN": 5143,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 1079,
+    "majorityPct": 9.5,
+    "muafakatPnBn": 5143,
+    "muafakatVsPh": -1079,
+    "verdictKey": "SUKAR",
+    "verdictLabel": "Sukar flip (muafakat -1,079)",
+    "streams": {
+      "melayu": {
+        "PH": 4746,
+        "PN": 3603,
+        "BN": 0,
+        "total": 8349
+      },
+      "cina": {
+        "PH": 1221,
+        "PN": 1141,
+        "BN": 0,
+        "total": 2362
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 90,
+        "PN": 206,
+        "BN": 0,
+        "total": 296
+      }
+    },
+    "leakNote": "Cina: PH +1,221 · Melayu: PH 4,746"
+  },
+  "N19": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 12313,
+    "turnoutPct": 68.3,
+    "validVotes": 8339,
+    "rejected": 66,
+    "spoiltPct": 0.79,
+    "numCandidates": 2,
+    "candidateNames": "HJ SAIFUL YAZAN SULAIMAN HJ KAMARUDIN TAHIR",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 3111,
+      "BN": 5228,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 2117,
+    "majorityPct": 25.4,
+    "muafakatPnBn": 8339,
+    "muafakatVsPh": 8339,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+8,339)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 1864,
+        "BN": 2504,
+        "total": 4368
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 1138,
+        "BN": 2515,
+        "total": 3653
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 2,
+        "BN": 16,
+        "total": 18
+      }
+    },
+    "leakNote": "Cina: BN +2,515 · Melayu: BN 2,504"
+  },
+  "N20": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 30478,
+    "turnoutPct": 71.8,
+    "validVotes": 21682,
+    "rejected": 159,
+    "spoiltPct": 0.73,
+    "numCandidates": 2,
+    "candidateNames": "ANIP ABU BAKER HJ ISMAIL BIN AHMAD",
+    "blocVotes": {
+      "PH": 10021,
+      "PN": 11661,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PN",
+    "majorityOfficial": 1640,
+    "majorityPct": 7.6,
+    "muafakatPnBn": 11661,
+    "muafakatVsPh": 1640,
+    "verdictKey": "PERTAHAN",
+    "verdictLabel": "Pertahan PN/PAS (+1,640)",
+    "streams": {
+      "melayu": {
+        "PH": 5857,
+        "PN": 7443,
+        "BN": 0,
+        "total": 13300
+      },
+      "cina": {
+        "PH": 1867,
+        "PN": 1697,
+        "BN": 0,
+        "total": 3564
+      },
+      "indiaLadang": {
+        "PH": 2211,
+        "PN": 2443,
+        "BN": 0,
+        "total": 4654
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: PH +1,867 · Melayu: PN 7,443"
+  },
+  "N21": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 46229,
+    "turnoutPct": 66.3,
+    "validVotes": 30489,
+    "rejected": 107,
+    "spoiltPct": 0.35,
+    "numCandidates": 3,
+    "candidateNames": "SUBRAMANIAM A/L PURUSHOTHAMA AHMAD ZAMALI MOHAMAD NICOLE TAN LEE KOON",
+    "blocVotes": {
+      "PH": 24626,
+      "PN": 4942,
+      "BN": 0,
+      "Bebas": 921
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 19684,
+    "majorityPct": 64.6,
+    "muafakatPnBn": 4942,
+    "muafakatVsPh": -19684,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -19,684)",
+    "streams": {
+      "melayu": {
+        "PH": 14010,
+        "PN": 3043,
+        "BN": 0,
+        "total": 17600
+      },
+      "cina": {
+        "PH": 9379,
+        "PN": 1459,
+        "BN": 0,
+        "total": 11146
+      },
+      "indiaLadang": {
+        "PH": 893,
+        "PN": 14,
+        "BN": 0,
+        "total": 916
+      },
+      "pos": null,
+      "awal": {
+        "PH": 191,
+        "PN": 371,
+        "BN": 0,
+        "total": 604
+      }
+    },
+    "leakNote": "Ladang/India: PH +879 · Cina: PH +9,379"
+  },
+  "N22": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 20182,
+    "turnoutPct": 66.8,
+    "validVotes": 13304,
+    "rejected": 152,
+    "spoiltPct": 1.13,
+    "numCandidates": 2,
+    "candidateNames": "SIAU MEOW KONG LEE BOON SHIAN",
+    "blocVotes": {
+      "PH": 9868,
+      "PN": 0,
+      "BN": 3436,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 6432,
+    "majorityPct": 48.3,
+    "muafakatPnBn": 3436,
+    "muafakatVsPh": -6432,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -6,432)",
+    "streams": {
+      "melayu": {
+        "PH": 7249,
+        "PN": 0,
+        "BN": 2118,
+        "total": 9367
+      },
+      "cina": {
+        "PH": 2319,
+        "PN": 0,
+        "BN": 82,
+        "total": 2401
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": {
+        "PH": 217,
+        "PN": 0,
+        "BN": 1009,
+        "total": 1226
+      }
+    },
+    "leakNote": "Cina: PH +2,237 · Melayu: PH 7,249"
+  },
+  "N23": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 28952,
+    "turnoutPct": 67.2,
+    "validVotes": 19301,
+    "rejected": 135,
+    "spoiltPct": 0.69,
+    "numCandidates": 3,
+    "candidateNames": "YAP YEW WENG KUMARAVEL A/L RAMIAH SATHES KUMAR NILAMEHAM",
+    "blocVotes": {
+      "PH": 17039,
+      "PN": 2099,
+      "BN": 0,
+      "Bebas": 163
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 14940,
+    "majorityPct": 77.4,
+    "muafakatPnBn": 2099,
+    "muafakatVsPh": -14940,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -14,940)",
+    "streams": {
+      "melayu": {
+        "PH": 8480,
+        "PN": 1353,
+        "BN": 0,
+        "total": 9919
+      },
+      "cina": {
+        "PH": 8439,
+        "PN": 708,
+        "BN": 0,
+        "total": 9222
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: PH +8,439 · Melayu: PH 8,480"
+  },
+  "N24": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 32290,
+    "turnoutPct": 67.1,
+    "validVotes": 21457,
+    "rejected": 171,
+    "spoiltPct": 0.79,
+    "numCandidates": 2,
+    "candidateNames": "P.GUNA GARY LEE",
+    "blocVotes": {
+      "PH": 17080,
+      "PN": 0,
+      "BN": 4377,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 12703,
+    "majorityPct": 59.2,
+    "muafakatPnBn": 4377,
+    "muafakatVsPh": -12703,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -12,703)",
+    "streams": {
+      "melayu": {
+        "PH": 7459,
+        "PN": 0,
+        "BN": 2897,
+        "total": 10356
+      },
+      "cina": {
+        "PH": 7477,
+        "PN": 0,
+        "BN": 1341,
+        "total": 8818
+      },
+      "indiaLadang": null,
+      "pos": {
+        "PH": 2030,
+        "PN": 0,
+        "BN": 69,
+        "total": 2099
+      },
+      "awal": null
+    },
+    "leakNote": "Cina: PH +6,136 · Melayu: PH 7,459"
+  },
+  "N25": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 60704,
+    "turnoutPct": 71.6,
+    "validVotes": 43085,
+    "rejected": 299,
+    "spoiltPct": 0.69,
+    "numCandidates": 3,
+    "candidateNames": "SYAKIR FITRI NORWANI AHMAT HJ KAMAROL RIDZUAN",
+    "blocVotes": {
+      "PH": 18301,
+      "PN": 23840,
+      "BN": 0,
+      "Bebas": 944
+    },
+    "winnerBloc2023": "PN",
+    "majorityOfficial": 5539,
+    "majorityPct": 12.9,
+    "muafakatPnBn": 23840,
+    "muafakatVsPh": 5539,
+    "verdictKey": "PERTAHAN",
+    "verdictLabel": "Pertahan PN/PAS (+5,539)",
+    "streams": {
+      "melayu": {
+        "PH": 11945,
+        "PN": 14658,
+        "BN": 0,
+        "total": 27232
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 5814,
+        "PN": 8019,
+        "BN": 0,
+        "total": 14120
+      },
+      "pos": null,
+      "awal": {
+        "PH": 42,
+        "PN": 261,
+        "BN": 0,
+        "total": 305
+      }
+    },
+    "leakNote": "Ladang/India: PN +2,205 · Melayu: PN 14,658"
+  },
+  "N26": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 25625,
+    "turnoutPct": 71.8,
+    "validVotes": 18187,
+    "rejected": 163,
+    "spoiltPct": 0.89,
+    "numCandidates": 2,
+    "candidateNames": "BAKLY BIN BABA DATO' HAJI ZAIFULBAHRI BIN HAJI IDRIS",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 6926,
+      "BN": 11261,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 4335,
+    "majorityPct": 23.8,
+    "muafakatPnBn": 18187,
+    "muafakatVsPh": 18187,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+18,187)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 4915,
+        "BN": 7227,
+        "total": 12142
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 1826,
+        "BN": 3669,
+        "total": 5495
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: BN +3,669 · Melayu: BN 7,227"
+  },
+  "N27": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 32890,
+    "turnoutPct": 72.5,
+    "validVotes": 23634,
+    "rejected": 161,
+    "spoiltPct": 0.68,
+    "numCandidates": 2,
+    "candidateNames": "ROZMAL BIN MALAKAN TOK MAT",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 6677,
+      "BN": 16957,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 10280,
+    "majorityPct": 43.5,
+    "muafakatPnBn": 23634,
+    "muafakatVsPh": 23634,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+23,634)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 2826,
+        "BN": 6457,
+        "total": 9283
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 123,
+        "BN": 803,
+        "total": 926
+      },
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 3045,
+        "BN": 8966,
+        "total": 12011
+      },
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 457,
+        "BN": 414,
+        "total": 871
+      }
+    },
+    "leakNote": "Ladang/India: PN +3,045 · Cina: BN +803"
+  },
+  "N28": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 16510,
+    "turnoutPct": 71.0,
+    "validVotes": 11603,
+    "rejected": 96,
+    "spoiltPct": 0.82,
+    "numCandidates": 2,
+    "candidateNames": "SUHAIMI BIN AINI SHUKRI BIN SHUKOR",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 5734,
+      "BN": 5869,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 135,
+    "majorityPct": 1.2,
+    "muafakatPnBn": 11603,
+    "muafakatVsPh": 11603,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+11,603)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 4931,
+        "BN": 4661,
+        "total": 9592
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 734,
+        "BN": 1142,
+        "total": 1876
+      },
+      "indiaLadang": null,
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: BN +1,142 · Melayu: PN 4,931"
+  },
+  "N29": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 15095,
+    "turnoutPct": 67.3,
+    "validVotes": 10046,
+    "rejected": 101,
+    "spoiltPct": 1.0,
+    "numCandidates": 2,
+    "candidateNames": "TANG JAY SON YEW BOON LYE",
+    "blocVotes": {
+      "PH": 8172,
+      "PN": 0,
+      "BN": 1874,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 6298,
+    "majorityPct": 62.7,
+    "muafakatPnBn": 1874,
+    "muafakatVsPh": -6298,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -6,298)",
+    "streams": {
+      "melayu": {
+        "PH": 1364,
+        "PN": 0,
+        "BN": 507,
+        "total": 1871
+      },
+      "cina": {
+        "PH": 5195,
+        "PN": 0,
+        "BN": 1108,
+        "total": 6303
+      },
+      "indiaLadang": {
+        "PH": 1569,
+        "PN": 0,
+        "BN": 225,
+        "total": 1794
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PH +1,569 · Cina: PH +4,087"
+  },
+  "N30": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 26806,
+    "turnoutPct": 65.0,
+    "validVotes": 17257,
+    "rejected": 145,
+    "spoiltPct": 0.83,
+    "numCandidates": 2,
+    "candidateNames": "S. RAGU CHOO KEN HWA",
+    "blocVotes": {
+      "PH": 13696,
+      "PN": 3561,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 10135,
+    "majorityPct": 58.7,
+    "muafakatPnBn": 3561,
+    "muafakatVsPh": -10135,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -10,135)",
+    "streams": {
+      "melayu": {
+        "PH": 3330,
+        "PN": 955,
+        "BN": 0,
+        "total": 4285
+      },
+      "cina": {
+        "PH": 3408,
+        "PN": 659,
+        "BN": 0,
+        "total": 4067
+      },
+      "indiaLadang": {
+        "PH": 6890,
+        "PN": 1900,
+        "BN": 0,
+        "total": 8790
+      },
+      "pos": null,
+      "awal": {
+        "PH": 8,
+        "PN": 14,
+        "BN": 0,
+        "total": 22
+      }
+    },
+    "leakNote": "Ladang/India: PH +4,990 · Cina: PH +3,408"
+  },
+  "N31": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 27790,
+    "turnoutPct": 75.7,
+    "validVotes": 18416,
+    "rejected": 2585,
+    "spoiltPct": 12.31,
+    "numCandidates": 2,
+    "candidateNames": "USTAZ FATAH NAJIB TAN SRI ISA",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 10921,
+      "BN": 7495,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PN",
+    "majorityOfficial": 3426,
+    "majorityPct": 18.6,
+    "muafakatPnBn": 18416,
+    "muafakatVsPh": 18416,
+    "verdictKey": "PERTAHAN",
+    "verdictLabel": "Pertahan PN/PAS (+3,426)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 6221,
+        "BN": 4793,
+        "total": 11014
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 669,
+        "BN": 1240,
+        "total": 1909
+      },
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 2154,
+        "BN": 770,
+        "total": 2924
+      }
+    },
+    "leakNote": "Ladang/India: PN +669 · Melayu: PN 6,221"
+  },
+  "N32": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 20696,
+    "turnoutPct": 70.3,
+    "validVotes": 14203,
+    "rejected": 98,
+    "spoiltPct": 0.69,
+    "numCandidates": 2,
+    "candidateNames": "DATUK MOHD FAIZAL RAMLI ZAMRI BIN MD SAID",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 6371,
+      "BN": 7832,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 1461,
+    "majorityPct": 10.3,
+    "muafakatPnBn": 14203,
+    "muafakatVsPh": 14203,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+14,203)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 2854,
+        "BN": 4634,
+        "total": 7488
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 885,
+        "BN": 1395,
+        "total": 2280
+      },
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 977,
+        "BN": 1104,
+        "total": 2081
+      },
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 1307,
+        "BN": 492,
+        "total": 1799
+      }
+    },
+    "leakNote": "Ladang/India: PN +977 · Cina: BN +1,395"
+  },
+  "N33": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 19431,
+    "turnoutPct": 64.8,
+    "validVotes": 12482,
+    "rejected": 98,
+    "spoiltPct": 0.78,
+    "numCandidates": 2,
+    "candidateNames": "ZABIDI BIN ARIFFIN DR.RAJA",
+    "blocVotes": {
+      "PH": 8239,
+      "PN": 4243,
+      "BN": 0,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 3996,
+    "majorityPct": 32.0,
+    "muafakatPnBn": 4243,
+    "muafakatVsPh": -3996,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -3,996)",
+    "streams": {
+      "melayu": {
+        "PH": 4988,
+        "PN": 3057,
+        "BN": 0,
+        "total": 8045
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 3112,
+        "PN": 886,
+        "BN": 0,
+        "total": 3998
+      },
+      "pos": null,
+      "awal": {
+        "PH": 96,
+        "PN": 222,
+        "BN": 0,
+        "total": 318
+      }
+    },
+    "leakNote": "Ladang/India: PH +2,226 · Melayu: PH 4,988"
+  },
+  "N34": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 29648,
+    "turnoutPct": 69.0,
+    "validVotes": 20186,
+    "rejected": 251,
+    "spoiltPct": 1.23,
+    "numCandidates": 2,
+    "candidateNames": "HAJI RIDZUAN AHMAD ABD RAZAK BIN AB SAID",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 11653,
+      "BN": 8533,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PN",
+    "majorityOfficial": 3120,
+    "majorityPct": 15.5,
+    "muafakatPnBn": 20186,
+    "muafakatVsPh": 20186,
+    "verdictKey": "PERTAHAN",
+    "verdictLabel": "Pertahan PN/PAS (+3,120)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 7091,
+        "BN": 5660,
+        "total": 12751
+      },
+      "cina": null,
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 1023,
+        "BN": 1468,
+        "total": 2491
+      },
+      "pos": null,
+      "awal": {
+        "PH": 0,
+        "PN": 2745,
+        "BN": 1056,
+        "total": 3801
+      }
+    },
+    "leakNote": "Ladang/India: PN +1,023 · Melayu: PN 7,091"
+  },
+  "N35": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 24602,
+    "turnoutPct": 63.1,
+    "validVotes": 15376,
+    "rejected": 123,
+    "spoiltPct": 0.79,
+    "numCandidates": 2,
+    "candidateNames": "USTAZ TENGKU SUHAIMIZAN BIZAR (HAI)",
+    "blocVotes": {
+      "PH": 0,
+      "PN": 6471,
+      "BN": 8905,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "BN",
+    "majorityOfficial": 2434,
+    "majorityPct": 15.8,
+    "muafakatPnBn": 15376,
+    "muafakatVsPh": 15376,
+    "verdictKey": "MUAFakat_KUAT",
+    "verdictLabel": "Muafakat PN+BN vs PH (+15,376)",
+    "streams": {
+      "melayu": {
+        "PH": 0,
+        "PN": 4280,
+        "BN": 4837,
+        "total": 9117
+      },
+      "cina": {
+        "PH": 0,
+        "PN": 1809,
+        "BN": 3160,
+        "total": 4969
+      },
+      "indiaLadang": {
+        "PH": 0,
+        "PN": 85,
+        "BN": 557,
+        "total": 642
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Cina: BN +3,160 · Melayu: BN 4,837"
+  },
+  "N36": {
+    "source": "SPR Helaian Mata PRN 2023 (Borang 760)",
+    "registered": 27284,
+    "turnoutPct": 63.3,
+    "validVotes": 17064,
+    "rejected": 193,
+    "spoiltPct": 1.12,
+    "numCandidates": 2,
+    "candidateNames": "ELAINE YONG LI YI VEERAPAN A/L SUPERAMANIAM",
+    "blocVotes": {
+      "PH": 11507,
+      "PN": 0,
+      "BN": 5557,
+      "Bebas": 0
+    },
+    "winnerBloc2023": "PH",
+    "majorityOfficial": 5950,
+    "majorityPct": 34.9,
+    "muafakatPnBn": 5557,
+    "muafakatVsPh": -5950,
+    "verdictKey": "SANGAT_SUKAR",
+    "verdictLabel": "Sangat sukar (muafakat -5,950)",
+    "streams": {
+      "melayu": {
+        "PH": 8434,
+        "PN": 0,
+        "BN": 4034,
+        "total": 12468
+      },
+      "cina": {
+        "PH": 824,
+        "PN": 0,
+        "BN": 319,
+        "total": 1143
+      },
+      "indiaLadang": {
+        "PH": 2071,
+        "PN": 0,
+        "BN": 958,
+        "total": 3029
+      },
+      "pos": null,
+      "awal": null
+    },
+    "leakNote": "Ladang/India: PH +2,071 · Cina: PH +505"
+  }
+}

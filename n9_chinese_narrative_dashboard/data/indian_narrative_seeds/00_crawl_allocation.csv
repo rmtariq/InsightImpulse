@@ -1,0 +1,7 @@
+﻿source_category,target_percent,daily_target_if_total_1000,minimum_unique_sources_per_day,recommended_frequency,crawl_scope,default_comment_limit,recency_window_days,priority,notes
+Facebook pages dan groups tempatan,30,300,30,Every 4 hours,Posts + captions + top comments + latest comments + replies,100,14,P1,"Utamakan group/page setempat mengikut bandar, daerah, SJKT, kuil, NGO dan komuniti."
+TikTok tempatan dan komen,25,250,25,Every 3 hours,Videos + captions + hashtags + top comments + latest comments,150,7,P1,Gunakan carian lokasi + Tamil/Malaysian Indian + isu. Crawl komen kerana isu sebenar sering muncul di komen.
+Media Tamil dan komen,20,200,10,Every 2 hours,Articles/videos + comments + shares/engagement where available,100,30,P1,"Gabungkan media nasional Tamil, portal digital, YouTube dan kandungan Tamil rasmi."
+"NGO, SJKT, kuil dan persatuan",10,100,15,Twice daily,Announcements + events + complaints + comments,50,30,P2,Senarai SJKT menggunakan data rasmi KPM Januari 2020; URL sosial sekolah perlu ditemui dan disahkan.
+Wakil rakyat serta agensi rasmi,10,100,15,Every 4 hours,Announcements + public comments + service disruptions + assistance programmes,75,30,P1,Gunakan portal/akaun rasmi; pemetaan wakil rakyat dibuat berasaskan kerusi supaya tidak bergantung pada nama yang boleh berubah.
+"YouTube, forum dan berita umum",5,50,8,Every 6 hours,Videos/articles/threads + comments,100,30,P3,"Digunakan untuk naratif panjang, isu silang komuniti dan validation silang platform."

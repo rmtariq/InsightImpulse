@@ -1,0 +1,25 @@
+﻿field_name,data_type,required,description,example
+source_category,string,yes,Six crawl categories defined in allocation file,TikTok tempatan dan komen
+platform,string,yes,"Facebook, TikTok, Website, YouTube, Reddit, News",Facebook
+source_url,string,conditional,Verified public source URL; blank for discovery seeds,https://makkalosai.com.my/
+discovery_query,string,conditional,Search query to resolve page/group/account URL,site:facebook.com/groups Seremban Tamil Indian
+state,string,yes,"Negeri Sembilan, Melaka or Johor",Johor
+district_or_town,string,recommended,Local geographic unit,Kluang
+language_focus,string,yes,Expected content languages,Tamil|Malay|English
+verification_status,string,yes,"verified_url, official_verified, discovery_seed, needs_live_check",discovery_seed
+post_id,string,yes after crawl,Platform post/video/article identifier,abc123
+content_original,text,yes after crawl,Original content,...
+content_translated_ms,text,recommended,Malay translation for Tamil/English content,...
+published_at,datetime,yes after crawl,Original publication timestamp,2026-06-16T08:00:00+08:00
+mentioned_location_raw,string,recommended,Location phrase extracted from content/comments,near Kluang town
+state_normalized,string,recommended,Normalized state,Johor
+district_normalized,string,recommended,Normalized district/town,Kluang
+location_source,string,recommended,"geotag, mentioned_text, hashtag, profile, page_location, inferred",mentioned_text
+location_confidence,integer 0-100,recommended,Confidence of location inference,75
+issue_category,string,yes after analysis,Mapped issue category,Pekerjaan dan gaji
+narrative_label,string,yes after analysis,Human-readable narrative cluster,Peluang kerja belia India tidak diketahui
+sentiment,string,yes after analysis,"positive, neutral, negative",negative
+emotion,string,recommended,"anger, concern, disappointment, hope, etc.",concern
+engagement_total,integer,recommended,likes + comments + shares + other available engagement,1540
+action_required,boolean,yes after analysis,Whether communication/operational action is needed,true
+recommended_action_type,string,recommended,"SOCIAL_MEDIA, FACT_CHECK, COMMUNITY_ENGAGEMENT, OPERATIONAL, MONITORING",OPERATIONAL

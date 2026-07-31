@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="ms"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Naratif Cina & India · Negeri Sembilan · Agentic Intel</title>
+<style>
+:root { --bg:#0b1220; --card:#151f32; --border:#2a3650; --text:#e8edf5; --muted:#93a4bd;
+  --rose:#fb7185; --purple:#c084fc; --blue:#60a5fa; --green:#34d399; --amber:#fbbf24; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family: system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+.wrap { max-width:1400px; margin:0 auto; padding:24px 20px 48px; }
+h1 { font-size:1.5rem; }
+.sub { color:var(--muted); margin:6px 0 16px; font-size:0.88rem; }
+.pill { display:inline-block; background:var(--card); border:1px solid var(--border); border-radius:999px; padding:5px 11px; font-size:0.75rem; margin:0 6px 6px 0; }
+.data-meta { background:rgba(52,211,153,.08); border:1px solid rgba(52,211,153,.25); border-radius:10px;
+  padding:10px 14px; margin:10px 0 14px; font-size:0.84rem; color:var(--text); line-height:1.5; }
+.data-meta strong { color:var(--green); }
+.tabs { display:flex; gap:8px; margin:16px 0; flex-wrap:wrap; }
+.tab-btn { background:var(--card); border:1px solid var(--border); color:var(--muted); padding:10px 18px;
+  border-radius:10px; cursor:pointer; font-size:0.88rem; font-weight:600; }
+.tab-btn.active { background:rgba(52,211,153,.15); border-color:var(--green); color:var(--green); }
+.tab-panel.hidden { display:none; }
+.ai-box { background:rgba(52,211,153,.1); border:1px solid rgba(52,211,153,.3); border-radius:12px; padding:16px; margin-bottom:18px; }
+.ai-box h2 { color:var(--green); font-size:1rem; margin-bottom:8px; }
+.grid { display:grid; grid-template-columns:1fr; gap:18px; align-items:start; }
+.panel { background:var(--card); border:1px solid var(--border); border-radius:14px; overflow:visible; }
+.head { padding:14px 16px; border-bottom:1px solid var(--border); }
+.head.j { border-top:4px solid var(--blue); }
+.head.n { border-top:4px solid var(--green); }
+.comm-grid { display:grid; grid-template-columns:1fr 1fr; gap:0; }
+@media(max-width:900px){ .comm-grid { grid-template-columns:1fr; } }
+.comm { background:var(--card); padding:16px 18px; border-right:1px solid var(--border); min-width:0; }
+.comm:last-child { border-right:none; }
+@media(max-width:900px){ .comm { border-right:none; border-bottom:1px solid var(--border); } .comm:last-child { border-bottom:none; } }
+.comm.ch h3 { color:var(--rose); font-size:0.95rem; margin-bottom:8px; }
+.comm.in h3 { color:var(--purple); font-size:0.95rem; margin-bottom:8px; }
+.kpi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:8px 0 10px; }
+.kpi { background:#0b1220; border:1px solid var(--border); border-radius:8px; padding:10px 8px; min-width:0; overflow:visible; }
+.kpi label { font-size:0.6rem; color:var(--muted); text-transform:uppercase; display:block; }
+.kpi strong { font-size:1.1rem; display:block; word-break:break-word; overflow:visible; white-space:normal; }
+h4 { font-size:0.68rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin:14px 0 8px; }
+.issue-row { display:grid; grid-template-columns:minmax(88px,120px) 1fr 42px; gap:8px; align-items:center;
+  font-size:0.8rem; margin-bottom:6px; }
+.issue-name { line-height:1.3; word-break:break-word; }
+.issue-pct { text-align:right; white-space:nowrap; font-size:0.82rem; }
+.bar-wrap { min-width:40px; }
+.bar { height:8px; background:#0b1220; border-radius:4px; overflow:hidden; }
+.bar span { display:block; height:100%; min-width:2px; background:linear-gradient(90deg,var(--green),var(--blue)); }
+.assess { font-size:0.84rem; color:var(--muted); margin:6px 0; line-height:1.5; word-wrap:break-word; overflow-wrap:anywhere; }
+ul { padding-left:18px; font-size:0.84rem; }
+ul.actions li { color:var(--green); margin-bottom:8px; line-height:1.45; }
+ul.samples li { margin-bottom:10px; line-height:1.45; word-wrap:break-word; }
+.tag { font-size:0.6rem; padding:2px 6px; border-radius:4px; background:#334155; margin-right:6px; vertical-align:middle; }
+.muted { color:var(--muted); }
+.orig { display:block; margin-top:4px; font-size:0.78rem; color:var(--amber); font-style:italic; }
+footer { margin-top:20px; color:var(--muted); font-size:0.72rem; }
+/* Action tab */
+.action-intro .doc-links { margin-top:8px; font-size:0.82rem; color:var(--green); }
+.rules-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
+@media(max-width:800px){ .rules-grid { grid-template-columns:1fr; } }
+.rules-panel { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px; }
+.rules-panel h4 { margin-top:0; }
+.rules-panel ul.green li { color:var(--green); }
+.rules-panel.warn-panel { border-color:rgba(251,113,133,.3); }
+.rules-panel ul.red li { color:var(--rose); }
+.state-actions { display:flex; flex-direction:column; gap:24px; }
+.state-block { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px; }
+.state-block.n { border-top:4px solid var(--green); }
+.state-block.j { border-top:4px solid var(--blue); }
+.state-block h2 { font-size:1.1rem; margin-bottom:8px; }
+.stats-note { font-size:0.82rem; color:var(--muted); margin-bottom:14px; }
+.action-card { background:#0b1220; border:1px solid var(--border); border-radius:12px; margin-bottom:14px; overflow:hidden; }
+.action-card.p1 { border-left:4px solid var(--rose); }
+.action-card.p2 { border-left:4px solid var(--amber); }
+.action-head { padding:14px 16px; border-bottom:1px solid var(--border); }
+.action-head h3 { font-size:0.95rem; margin:6px 0 4px; }
+.pri-tag { font-size:0.65rem; font-weight:700; padding:3px 8px; border-radius:6px; text-transform:uppercase; }
+.pri-tag.p1 { background:rgba(251,113,133,.2); color:var(--rose); }
+.pri-tag.p2 { background:rgba(251,191,36,.2); color:var(--amber); }
+.act-meta { font-size:0.72rem; color:var(--muted); }
+.action-body { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:14px 16px; }
+@media(max-width:800px){ .action-body { grid-template-columns:1fr; } }
+.action-col h5 { font-size:0.68rem; color:var(--muted); text-transform:uppercase; margin:10px 0 6px; }
+.action-col h5:first-child { margin-top:0; }
+.action-col .why { color:var(--amber); font-size:0.85rem; }
+ol.how { padding-left:18px; font-size:0.84rem; }
+ol.how li { margin-bottom:6px; }
+.msg-box { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:10px; font-size:0.84rem; }
+.msg-box .lbl { font-size:0.62rem; background:#334155; padding:2px 6px; border-radius:4px; margin-right:6px; }
+.msg-box .lbl.zh { background:rgba(251,113,133,.2); }
+.msg-box .lbl.ta { background:rgba(192,132,252,.2); }
+.act-footer { margin-top:12px; font-size:0.8rem; color:var(--muted); }
+.act-footer p { margin:4px 0; }
+.dun-wrap { margin-top:24px; }
+.dun-wrap h3 { font-size:1rem; margin-bottom:6px; }
+.dun-note { font-size:0.82rem; color:var(--muted); margin-bottom:10px; }
+.dun-scroll { overflow-x:auto; }
+.dun-table { width:100%; border-collapse:collapse; font-size:0.78rem; min-width:900px; }
+.dun-table th, .dun-table td { border:1px solid var(--border); padding:8px; text-align:left; vertical-align:top; }
+.dun-table th { background:#0b1220; color:var(--muted); font-size:0.68rem; text-transform:uppercase; }
+.dun-table .act-cell { max-width:280px; line-height:1.45; }
+.pri-sm { font-size:0.65rem; font-weight:700; padding:2px 6px; border-radius:4px; }
+.pri-sm.p1 { background:rgba(251,113,133,.2); color:var(--rose); }
+.pri-sm.p2 { background:rgba(251,191,36,.2); color:var(--amber); }
+.n9-targets { margin-top:18px; }
+.targets-inner { padding:14px 16px 18px; }
+.targets-table { min-width:1400px; }
+.targets-table tr.st-kosong td { opacity:0.92; }
+.targets-table tr.st-kosong td.act-ch, .targets-table tr.st-kosong td.act-in, .targets-table tr.st-kosong td.fokus-cell { background:rgba(52,211,153,.06); opacity:1; }
+.targets-table tr.st-thin td { background:rgba(251,191,36,.04); }
+.pri-sm.ok { background:rgba(52,211,153,.2); color:var(--green); }
+.src-badge { display:inline-block; font-size:0.6rem; font-weight:700; padding:2px 6px; border-radius:4px; margin-top:4px; }
+.src-badge.tpl { background:rgba(148,163,184,.25); color:#cbd5e1; }
+.src-badge.crawl_tpl { background:rgba(56,189,248,.2); color:#7dd3fc; }
+.src-badge.thin { background:rgba(251,191,36,.2); color:var(--amber); }
+.fokus-cell { min-width:160px; line-height:1.4; }
+.fokus-cell small { color:var(--muted); }
+.act-ch { border-left:2px solid rgba(251,113,133,.35); }
+.act-in { border-left:2px solid rgba(192,132,252,.35); }
+.intel-cell { color:var(--muted); max-width:140px; }
+.sample-cell { max-width:180px; font-size:0.72rem; }
+.muted-lbl { color:#64748b; font-style:italic; }
+</style></head><body><div class="wrap">
+<h1>Naratif Cina & India · Negeri Sembilan · Agentic Intel</h1>
+<p class="sub">Fokus N9 sahaja · Data ditapis (isu actionable) · RAG + LLM · Untuk PAS / PN / MN</p>
+<span class="pill">Dijana: 2026-07-13 01:08:46</span>
+<span class="pill">Tapis N9: 649 / 1353 rows</span>
+<span class="pill">LLM: rule_based_fallback · medium</span>
+
+<div class="data-meta">
+  <strong>Data Negeri Sembilan:</strong> 649 posts · ~522K engagement · 1 Mei – 12 Jul 2026<br/>
+  <strong>Sumber:</strong> Chinese news crawl · Indian RSS · FB/IG/TikTok/X · 36 DUN N9
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" data-tab="intel">📊 Intel Naratif N9</button>
+  <button class="tab-btn" data-tab="halatuju">🧭 Halatuju Strategi N9</button>
+  <button class="tab-btn" data-tab="actions">📋 Cadangan Tindakan N9</button>
+</div>
+
+<div id="tab-intel" class="tab-panel">
+<div class="ai-box">
+  <h2>🤖 Executive Summary (Agentic AI) — Negeri Sembilan</h2>
+  <p>Negeri Sembilan: komuniti Cina menekankan Cost of Living (19%), SME dan perkhidmatan PBT (30% negatif) — risiko soft abstention di kerusi bandar (Seremban, Nilai, Lobak). Komuniti India (271 posts) fokus SJKT, pekerjaan dan isu parti; sokongan PH pragmatik jika perkhidmatan disampaikan. Prioriti PAS/PN/MN: fakta bantuan + lawatan ground N9, elak retorik agama.</p>
+  <h4 style="margin-top:12px">Keutamaan Koalisi Minggu Ini (N9)</h4>
+  <ul><li>N9: counter kos hidup Cina dengan fakta bantuan negeri</li><li>Seremban/Nilai: perkhidmatan PBT (trafik, parkir) — 48 jam response</li><li>India N9: SJKT + pekerjaan — bukan agama</li><li>Elak ulang retorik syurga/Harakat di N9</li><li>Muafakat 1-vs-1 kerusi Melayu sasaran MN</li></ul>
+  <h4>Jangan Buat</h4>
+  <ul style="color:var(--rose)"><li>Debat agama/syurga dengan komuniti Cina N9</li><li>Abaikan isu tempat letak kereta & trafik Seremban</li><li>Fokus berlebihan pada isu agama di kerusi India N9</li></ul>
+</div>
+
+<div class="grid">
+  <div class="panel"><div class="head n"><h2>Negeri Sembilan · 36 DUN</h2></div>
+    <div class="comm-grid">
+      <div class="comm ch"><h3>🇨🇳 Cina</h3>
+        <div class="kpi-grid">
+          <div class="kpi"><label>Posts (tapis)</label><strong>157</strong></div>
+          <div class="kpi"><label>Negatif</label><strong>30%</strong></div>
+          <div class="kpi"><label>Boikot</label><strong>medium</strong></div>
+        </div>
+        <p class='assess'><strong>PH:</strong> PH base kuat tapi kos hidup erode trust</p>
+        <p class='assess'><strong>PAS/PN/MN:</strong> PAS factor dipantau — fokus perkhidmatan, bukan teologi</p>
+        <h4>Isu actionable</h4><div class='issue-row'><span class='issue-name' title='Cost of Living'>Kos hidup</span><div class='bar-wrap'><div class='bar'><span style='width:19%'></span></div></div><strong class='issue-pct'>19%</strong></div><div class='issue-row'><span class='issue-name' title='SME and Business'>SME & perniagaan</span><div class='bar-wrap'><div class='bar'><span style='width:13%'></span></div></div><strong class='issue-pct'>13%</strong></div><div class='issue-row'><span class='issue-name' title='Local Government Services'>Perkhidmatan PBT</span><div class='bar-wrap'><div class='bar'><span style='width:11%'></span></div></div><strong class='issue-pct'>11%</strong></div><div class='issue-row'><span class='issue-name' title='Other'>Lain-lain</span><div class='bar-wrap'><div class='bar'><span style='width:10%'></span></div></div><strong class='issue-pct'>10%</strong></div><div class='issue-row'><span class='issue-name' title='PAS Factor'>Faktor PAS</span><div class='bar-wrap'><div class='bar'><span style='width:9%'></span></div></div><strong class='issue-pct'>9%</strong></div>
+        <h4>Naratif boleh dimainkan</h4><ul><li>Perkhidmatan tempatan Seremban (trafik & parkir)</li><li>SME Jelebu/Nilai — bantuan kos operasi</li><li>Kestabilan negeri — elak pecah undi</li></ul>
+        <h4>Tindakan (rule_based_fallback)</h4><ul class="actions"><li>Respons aduan kos hidup/SME dengan data exco N9 (BM+中文)</li><li>Ground team Seremban/Nilai — dialog peniaga Cina</li><li>Lawatan DUN bandar Cina N10/N11/N12/N28</li></ul>
+        <h4>Bukti (RAG sample · BM)</h4><ul class="samples"><li><span class='tag negative'>negative</span><strong>Musim pelancongan Port Dickson — peniaga tempatan harap kerajaan negeri lebih promosi. (Lukut)</strong><br/><span class='orig'>Asal: 波德申旅游季，本地商家希望州政府多宣传。 #Lukut</span><br/><small>Lukut · Facebook</small></li><li><span class='tag neutral'>neutral</span><strong>PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi. (Seremban)</strong><br/><span class='orig'>Asal: 森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 #Seremban</span><br/><small>Seremban · Chinese online media</small></li><li><span class='tag neutral'>neutral</span><strong>Kesesakan trafik di pusat bandar Seremban kecewakan penduduk.</strong><br/><span class='orig'>Asal: Traffic congestion in Seremban city centre frustrates residents. — Jelebu</span><br/><small>Jelebu · Chinese online media</small></li><li><span class='tag negative'>negative</span><strong>Kawasan kilang Nilai — harga barang naik, pemilik PKS merungut; komuniti Cina prihatin kos sara hidup. (Jelebu)</strong><br/><span class='orig'>Asal: 汝来工厂区物价上涨，中小企业老板叫苦。华社关注生活费。 #Jelebu</span><br/><small>Jelebu · Facebook</small></li><li><span class='tag neutral'>neutral</span><strong>PRN Negeri Sembilan hampir — kesesakan trafik di Seremban teruk, tempat letak kereta tidak mencukupi.</strong><br/><span class='orig'>Asal: 森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.</span><br/><small>Jelebu · Chinese online media</small></li></ul></div>
+      <div class="comm in"><h3>🇮🇳 India</h3>
+        <div class="kpi-grid">
+          <div class="kpi"><label>Posts (tapis)</label><strong>271</strong></div>
+          <div class="kpi"><label>Negatif</label><strong>0%</strong></div>
+          <div class="kpi"><label>Boikot</label><strong>low</strong></div>
+        </div>
+        <p class='assess'><strong>PH:</strong> SJKT & pekerjaan — PH deliver = kekal</p>
+        <p class='assess'><strong>PAS/PN/MN:</strong> Neutral — fokus perkhidmatan</p>
+        <h4>Isu actionable</h4><div class='issue-row'><span class='issue-name' title='Other'>Lain-lain</span><div class='bar-wrap'><div class='bar'><span style='width:31%'></span></div></div><strong class='issue-pct'>31%</strong></div><div class='issue-row'><span class='issue-name' title='DAP Performance'>Prestasi DAP</span><div class='bar-wrap'><div class='bar'><span style='width:18%'></span></div></div><strong class='issue-pct'>18%</strong></div><div class='issue-row'><span class='issue-name' title='PAS Factor'>Faktor PAS</span><div class='bar-wrap'><div class='bar'><span style='width:16%'></span></div></div><strong class='issue-pct'>16%</strong></div><div class='issue-row'><span class='issue-name' title='Gerakan and PN'>Gerakan & PN</span><div class='bar-wrap'><div class='bar'><span style='width:8%'></span></div></div><strong class='issue-pct'>8%</strong></div><div class='issue-row'><span class='issue-name' title='Housing'>Perumahan</span><div class='bar-wrap'><div class='bar'><span style='width:7%'></span></div></div><strong class='issue-pct'>7%</strong></div>
+        <h4>Naratif boleh dimainkan</h4><ul><li>SJKT guru kekurangan</li><li>Port Dickson pekerjaan</li></ul>
+        <h4>Tindakan (rule_based_fallback)</h4><ul class="actions"><li>Koordinasi pendidikan SJKT — BM+Tamil update</li><li>Pantau PN strategy mentions — counter pecah undi</li></ul>
+        <h4>Bukti (RAG sample · BM)</h4><ul class="samples"><li><span class='tag nan'>nan</span><strong>Johor polls disappointment for Pakatan, but Loke vows fresh push ahead of Negeri Sembilan election. JELEBU, July 12 &mdash; Pakatan Harapan (PH) respects the decision of voters in the 16th Johor State Election which was...</strong><br/><small>Jelebu · Indian online media</small></li><li><span class='tag nan'>nan</span><strong>Anwar: Govt approved RM6b in loans, guarantees to help SMEs cope with war fallout. KUALA LUMPUR, July 7 &mdash; The government has approved up to RM6 billion in loans and guarantees to small and medium e...</strong><br/><small>Seremban · Indian online media</small></li><li><span class='tag nan'>nan</span><strong>Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah. Pakatan targets at least 20 seats in Negeri Sembilan state election, Anthony Loke to defend Chennah&nbsp;&nbsp;Malay Mail</strong><br/><small>Seremban · Indian online media</small></li><li><span class='tag nan'>nan</span><strong>Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?. Umno’s Negeri Sembilan plot, Bersatu’s U-turn and PAS’s silence?&nbsp;&nbsp;Free Malaysia Today</strong><br/><small>Seremban · Indian online media</small></li><li><span class='tag nan'>nan</span><strong>Negeri Sembilan DAP to bank on incumbents for state polls. Negeri Sembilan DAP to bank on incumbents for state polls&nbsp;&nbsp;Free Malaysia Today</strong><br/><small>Seremban · Indian online media</small></li></ul></div>
+    </div></div>
+</div>
+
+
+<div class="panel n9-targets">
+  <div class="head n"><h2>🎯 N9 · 20 Kerusi Sasaran MN — Intel + Tindakan Ground</h2></div>
+  <div class="targets-inner">
+    <p class="dun-note">
+      <strong>Intel (kiri):</strong> data crawl media/FB · <strong>Tindakan (kanan):</strong> checklist ground team — sentiasa ada walaupun kosong.<br/>
+      <span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span> = ada data + cadangan &nbsp;
+      <span class="src-badge tpl">TEMPLATE</span> = tiada crawl, ikut cadangan operasi (15 kerusi).<br/>
+      Total Cina crawl: <strong>180 posts</strong> · Refresh crawl: <code>update_narrative.sh pagi</code>
+    </p>
+    <div class="dun-scroll">
+      <table class="dun-table targets-table">
+        <thead><tr>
+          <th>DUN</th><th>Nama</th><th>Data</th><th>Cina</th><th>India</th><th>Neg%</th>
+          <th>Isu crawl</th><th>Fokus operasi</th><th>Tindakan Cina</th><th>Tindakan India</th><th>Sample crawl</th>
+        </tr></thead>
+        <tbody><tr class="st-ok">
+          <td><strong>N10</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Nilai</td>
+          <td><span class="pri-sm ok">OK</span><br/><span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span></td>
+          <td>18</td>
+          <td>5</td>
+          <td>56%</td>
+          <td class="intel-cell">Kos hidup</td>
+          <td class="fokus-cell"><strong>Bandar Cina — counter abstention</strong><br/><small>SJKT / Pekerjaan</small></td>
+          <td class="act-cell act-ch">🇨🇳 Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell act-in">🇮🇳 Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+          <td class="intel-cell sample-cell">汝来工厂区物价上涨，中小企业老板叫苦。华社关注生活费。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.</td>
+        </tr><tr class="st-ok">
+          <td><strong>N28</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Seremban Kota</td>
+          <td><span class="pri-sm ok">OK</span><br/><span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span></td>
+          <td>107</td>
+          <td>265</td>
+          <td>24%</td>
+          <td class="intel-cell">Kos hidup</td>
+          <td class="fokus-cell"><strong>Bandar Cina — counter abstention</strong><br/><small>Kos hidup / SME</small></td>
+          <td class="act-cell act-ch">🇨🇳 Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell">伊党因素让部分选民担忧。 #Lobak</td>
+        </tr><tr class="st-ok">
+          <td><strong>N08</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Bahau</td>
+          <td><span class="pri-sm ok">OK</span><br/><span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span></td>
+          <td>25</td>
+          <td>0</td>
+          <td>52%</td>
+          <td class="intel-cell">SME & perniagaan</td>
+          <td class="fokus-cell"><strong>Campuran — lawatan peniaga + data exco</strong><br/><small>Perkhidmatan bandar</small></td>
+          <td class="act-cell act-ch">🇨🇳 Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell">波德申旅游季，本地商家希望州政府多宣传。 #Bahau</td>
+        </tr><tr class="st-ok">
+          <td><strong>N13</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Sikamat</td>
+          <td><span class="pri-sm ok">OK</span><br/><span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span></td>
+          <td>20</td>
+          <td>2</td>
+          <td>35%</td>
+          <td class="intel-cell">Kos hidup</td>
+          <td class="fokus-cell"><strong>Campuran — lawatan peniaga + data exco</strong><br/><small>SJKT / Pekerjaan</small></td>
+          <td class="act-cell act-ch">🇨🇳 Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell act-in">🇮🇳 Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+          <td class="intel-cell sample-cell">森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 PRN Negeri Sembilan: pengundi Cina di Seremban bincang isu kos sara hidup.</td>
+        </tr><tr class="st-p1">
+          <td><strong>N06</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Palong</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Campuran — lawatan peniaga + data exco</strong><br/><small>Perkhidmatan bandar</small></td>
+          <td class="act-cell act-ch">🇨🇳 Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N02</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Pertang</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N03</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Sungai Lui</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N05</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Serting</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N07</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Jeram Padang</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N09</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Lenggeng</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N14</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Ampangan</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Campuran — lawatan peniaga + data exco</strong><br/><small>Perkhidmatan bandar</small></td>
+          <td class="act-cell act-ch">🇨🇳 Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N15</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Juasseh</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N16</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Seri Menanti</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N17</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Senaling</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N19</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Johol</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N20</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Labu</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N25</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Paroi</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Bandar Cina — counter abstention</strong><br/><small>SJKT / Pekerjaan</small></td>
+          <td class="act-cell act-ch">🇨🇳 Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell act-in">🇮🇳 Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-p1">
+          <td><strong>N27</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Rantau</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Campuran — lawatan peniaga + data exco</strong><br/><small>Perkhidmatan bandar</small></td>
+          <td class="act-cell act-ch">🇨🇳 Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr><tr class="st-ok">
+          <td><strong>N31</strong><br/><span class="pri-sm p1">P1</span></td>
+          <td>Port Dickson</td>
+          <td><span class="pri-sm ok">OK</span><br/><span class="src-badge crawl_tpl">CRAWL + TEMPLATE</span></td>
+          <td>10</td>
+          <td>1</td>
+          <td>40%</td>
+          <td class="intel-cell">Kos hidup</td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>SJKT / Pekerjaan</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+          <td class="intel-cell sample-cell">年轻首投族更关注就业和房价。 #Port Dickson</td>
+        </tr><tr class="st-p1">
+          <td><strong>N35</strong><br/><span class="pri-sm p2">P2</span></td>
+          <td>Gemencheh</td>
+          <td><span class="pri-sm p1">Kosong</span><br/><span class="src-badge tpl">TEMPLATE</span></td>
+          <td>0</td>
+          <td>0</td>
+          <td>—</td>
+          <td class="intel-cell"><span class='muted-lbl'>Tiada crawl</span></td>
+          <td class="fokus-cell"><strong>Melayu majoriti — ground utama; Cina sentuhan minimum</strong><br/><small>Outreach minoriti / keluar undi</small></td>
+          <td class="act-cell act-ch">🇨🇳 Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell act-in">🇮🇳 Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+          <td class="intel-cell sample-cell"><span class='muted-lbl'>—</span></td>
+        </tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div id="tab-halatuju" class="tab-panel hidden">
+  <div class="ai-box" style="border-color:rgba(251,191,36,.4);background:rgba(251,191,36,.08)">
+    <h2 style="color:var(--amber)">Halatuju Strategi N9 — Logo PAS + Seat-Sharing</h2>
+    <p><strong>Verdict:</strong> <span style="color:var(--amber)">BUKAN solo penuh</span> —
+    Logo bulan PAS sendiri + runding seat-sharing dengan Bersatu / Wawasan / Berjasa</p>
+    <p style="margin-top:8px"><strong>Deadline genting:</strong>
+      <span style="color:var(--rose)">18 Julai 2026 — penamaan calon</span>
+      — rundingan seat-sharing WAJIB selesai sebelum penamaan calon.
+    </p>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px;border-color:rgba(56,189,248,.45)">
+    <div class="head n"><h2>0. Kenyataan rasmi — Sidang Media Presiden (12 Jul)</h2></div>
+    <div style="padding:14px 16px">
+      <p><strong>Presiden PAS · Tuan Guru Abdul Hadi Awang</strong> ·
+        <a href="https://www.youtube.com/watch?v=0qSESgWMoG8" target="_blank" rel="noopener">Sidang Media: Pilihan Raya Negeri Sembilan</a></p>
+      <p class="data-meta" style="margin:8px 0">
+        Status: <strong style="color:var(--amber)">statement_captured_pending_engagement</strong> ·
+        118 views · 14 likes · 1 comments ·
+        Follow-up: 2026-07-14 13:07
+      </p>
+      <p style="font-size:0.82rem;color:var(--muted);margin:0 0 10px">Post baharu — jangan guna engagement/comments untuk sentimen lagi
+        · Auto-caption YouTube — sahkan manual sebelum quote rasmi</p>
+      <h4>Poin utama (auto-caption — sahkan sebelum quote)</h4>
+      <ul><li>Kerjasama dengan UMNO sedang dibincang — digambarkan positif</li><li>Konteks: Bersatu tarik diri → ruang kerjasama dengan UMNO dibuka</li><li>Kerangka kerusi disebut: UMNO ~14, PN/blok ~5; baki (dari PKR/DAP dsb) dibahagi ikut kewajaran</li><li>PAS mungkin kurangkan bilangan kerusi ditanding — pembahagian ikut kewajaran</li><li>5 kerusi PN: 3 PAS + 2 Bersatu — 2 Bersatu mungkin ditukar/dinilai semula (PAS atau UMNO)</li><li>Jawatan MB: PAS 'tak ada masalah'</li><li>LOGO: masing-masing guna logo sendiri; PAS belum putus PN vs logo PAS — masih dalam perbincangan</li><li>Keputusan akhir / kejutan mungkin semasa malam penamaan calon</li></ul>
+      <div class="grid" style="grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+        <div>
+          <h4 style="color:var(--emerald)">Selaras Halatuju</h4>
+          <ul><li>Logo sendiri masih terbuka (PAS vs PN) — elak isu watikah</li><li>Seat-sharing / pembahagian kerusi ditekan (bukan solo penuh)</li><li>Deadline penamaan calon sebagai titik keputusan</li></ul>
+        </div>
+        <div>
+          <h4 style="color:var(--rose)">Tegangan / clarify HQ</h4>
+          <ul><li>Sidang condong kerjasama UMNO; halatuju dalaman sebelumnya tekan sekutu pembangkang (Bersatu/Wawasan/Berjasa) dan elak undi BN</li><li>Perlu clarify HQ: 'kerjasama UMNO' = seat deal rasmi vs isyarat media sahaja</li></ul>
+        </div>
+      </div>
+      <p style="margin-top:12px;padding:10px;border-radius:8px;background:#0b1220;border:1px solid var(--border)">
+        <strong>Cina/India:</strong> Tiada sebutan langsung Cina/India dalam transcript auto-caption.
+        <br/><span style="color:var(--amber)">Framing 'pemimpin Islam/Melayu macam Johor' boleh diguna lawan untuk takutkan pengundi Cina/India jika dipetik tanpa konteks perkhidmatan.</span>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="kpi-grid" style="grid-template-columns:repeat(4,1fr);margin-bottom:16px">
+    <div class="kpi"><label>Crawl N9 (tapis)</label><strong>649 posts N9</strong></div>
+    <div class="kpi"><label>Cina · negatif</label><strong>30%</strong>
+      <span style="font-size:0.72rem;color:var(--muted);display:block">157 posts · boikot medium</span></div>
+    <div class="kpi"><label>India · posts</label><strong>271</strong>
+      <span style="font-size:0.72rem;color:var(--muted);display:block">Top: Other (31%)</span></div>
+    <div class="kpi"><label>War Room · MN vs Solo</label><strong>68%</strong><span style="font-size:0.72rem;color:var(--muted);display:block;margin-top:4px">MN kekal laluan utama</span></div>
+  </div>
+
+  <div class="grid" style="grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+    <div class="panel">
+      <div class="head n"><h2>1. Lesson Johor — jangan ulang</h2></div>
+      <div style="padding:14px 16px">
+        <p><strong>PRN Johor: PAS 0/11 kerusi · PN 0/56 keseluruhan</strong></p>
+        <h4>Punca sebenar (bukan semata undi Melayu)</h4>
+        <ul><li>PAS–Bersatu berkempen berasingan (isu logo/watikah PN dengan SPR) — jentera pecah</li><li>Bukan senama: dua 'blok' bertembung → pengundi keliru, undi pecah</li><li>PAS suruh penyokong undi BN di kerusi PN tak tanding — tolong parti lawan sendiri</li></ul>
+        <p class="assess" style="margin-top:10px;color:var(--amber)">Masalah teknikal logo/watikah + pecah undi dalaman lebih merosakkan daripada isu 'simbol PN' di mata Cina/India.</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="head n"><h2>2. Cadangan N9 — BUKAN solo</h2></div>
+      <div style="padding:14px 16px">
+        <h4>Buat</h4><ul class="actions"><li>PAS guna logo bulan sendiri — elak isu SPR/pertikaian tandatangan seperti Johor</li><li>WAJIB runding & bahagi kerusi dengan Bersatu, Wawasan, Berjasa sebelum 18 Julai</li><li>Jangan lawan sesama sendiri di kerusi yang sama</li><li>Di kerusi PAS tak tanding: sokong calon sekutu (bukan BN)</li></ul>
+        <h4>Jangan</h4><ul style="color:var(--rose)"><li>Solo penuh tanpa seat-sharing (ulang Johor)</li><li>Suruh penyokong undi BN sebagai 'jalan singkat'</li><li>Biarkan dua calon 'blok pembangkang' bertembung di DUN sama</li></ul>
+        <h4>Kenapa logo bulan sendiri OK</h4><ul><li>Elak terus isu SPR / watikah seperti Johor</li><li>Cina & India tak fokus simbol logo — mereka risau kenyataan/rhetorik PAS</li><li>Logo bulan dikenali jelas oleh pengundi tradisional PAS</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:16px">
+    <div class="head n"><h2>3. Implikasi Cina &amp; India (data crawl)</h2></div>
+    <div style="padding:14px 16px">
+      <p class="data-meta" style="margin:0 0 12px">649 posts N9 · ~522K engagement · 1 Mei – 12 Jul 2026</p>
+      <div class="comm-grid">
+        <div class="comm ch">
+          <h3>Cina N9</h3>
+          <p class="assess">Isu #1: <strong>Cost of Living (19%)</strong></p>
+          <p>Komuniti Cina N9 fokus kos hidup, SME & perkhidmatan PBT — bukan logo parti. Negatif 30% · risiko soft abstention di Seremban/Nilai/Lobak jika rhetorik agama/perkauman diulang (senjata DAP seperti di Johor).</p>
+        </div>
+        <div class="comm in">
+          <h3>India N9</h3>
+          <p class="assess">Isu #1: <strong>Other (31%)</strong></p>
+          <p>Komuniti India N9 pragmatik: SJKT, pekerjaan, prestasi parti. Faktor PAS muncul dalam corpus tetapi respons terbaik = perkhidmatan, bukan teologi.</p>
+        </div>
+      </div>
+      <p style="margin-top:14px;padding:12px;border-radius:8px;background:#0b1220;border:1px solid var(--border)">
+        <strong>Peraturan mesej:</strong> Simbol (bulan vs telefon vs PN) hampir tidak material kepada Cina/India. Yang merosakkan = kenyataan awam yang boleh diframing sebagai takutkan minoriti.
+      </p>
+    </div>
+  </div>
+
+  <div class="grid" style="grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">
+    <div class="panel">
+      <div class="head n"><h2>4. Fokus kerusi</h2></div>
+      <div style="padding:14px 16px">
+        <p><strong>Utama:</strong> Kerusi majoriti tipis + kerusi UMNO (realistik tambah kerusi)</p>
+        <p style="color:var(--rose);margin-top:8px"><strong>Elak:</strong> Jangan utamakan pecah kubu kuat DAP sebagai strategi utama</p>
+        <p class="muted" style="margin-top:8px">Selaras War Room: 20 kerusi sasaran MN — push ABC, maintain D</p>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="head n"><h2>5. Apa kita buat sekarang</h2></div>
+      <div style="padding:14px 16px">
+        <ul class="actions"><li>Pantau status rundingan seat-sharing harian hingga 18 Julai</li><li>Siapkan mesej rasmi jentera: kekal dalam blok pembangkang / sekutu — BUKAN undi BN</li><li>Track sentimen Cina/India harian (kini ~649 posts, ~522K engagement)</li><li>Jaga kenyataan awam — elak rhetorik perkauman/agama yang jadi senjata DAP</li><li>Arahan undi bertulis untuk setiap DUN: siapa calon kita / siapa sekutu / siapa lawan</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="head n"><h2>Sumber &amp; asas</h2></div>
+    <div style="padding:14px 16px">
+      <ul class="muted"><li>Ulasan strategi pasca-PRN Johor (PAS 0/11, PN 0/56) — Jul 2026</li><li>Crawl naratif Cina & India N9 (analyze_naratif_agentic)</li><li>War Room n9_daily_ops.json (MN vs Solo)</li><li>Sidang Media Presiden PAS N9 (YouTube 0qSESgWMoG8, 12 Jul 2026) — statement only</li></ul>
+      <p class="muted" style="margin-top:10px;font-size:0.78rem">
+        Nota: Cadangan operasi berasaskan data crawl + lesson Johor — bukan polling SPR.
+         War Room: Data CULA + ML: kekalkan naratif MN (bukan debat solo). MN jelas 68% vs Solo · Pro-PAS 48.0% · Labu sokong PAS 76.5%. Model majoriti: MN (PAS+BN) lead 66%.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+    <div id="tab-actions" class="tab-panel hidden">
+      <div class="ai-box action-intro">
+        <h2>📋 Cadangan Tindakan Operasi — Negeri Sembilan</h2>
+        <p>Cadangan tindakan operasi untuk mengurus naratif komuniti Cina & India di Negeri Sembilan — setiap item menerangkan APA, MENGAPA, BAGAIMANA, dan MESEJ yang hendak disampaikan.</p>
+        <p class="doc-links">
+          📄 DOCX N9: <code>naratif_cadangan_tindakan_n9.docx</code>
+        </p>
+      </div>
+
+      <div class="rules-grid">
+        <div class="rules-panel"><h4>Peraturan nada (WAJIB)</h4><ul><li>Fokus perkhidmatan, ekonomi, kestabilan — bukan teologi atau agama.</li><li>Jangan ulang isu syurga/Harakat — gunakan media Cina sebagai semakan fakta.</li><li>Jawab kebimbangan 巫伊/MN dengan ketelusan: stabil negeri, bukan pakatan sulit.</li><li>Setiap asset utama: BM + 中文 (Cina) dan/atau Tamil (India).</li><li>Elak serangan perkauman; serang prestasi & penyelesaian konkrit.</li></ul></div>
+        <div class="rules-panel"><h4>Keutamaan koalisi</h4><ul class="green"><li>N9: counter kos hidup Cina dengan fakta bantuan negeri</li><li>Seremban/Nilai: perkhidmatan PBT (trafik, parkir) — 48 jam response</li><li>India N9: SJKT + pekerjaan — bukan agama</li><li>Elak ulang retorik syurga/Harakat di N9</li><li>Muafakat 1-vs-1 kerusi Melayu sasaran MN</li></ul></div>
+        <div class="rules-panel warn-panel"><h4>Jangan buat</h4><ul class="red"><li>Debat agama/syurga dengan komuniti Cina N9</li><li>Abaikan isu tempat letak kereta & trafik Seremban</li><li>Fokus berlebihan pada isu agama di kerusi India N9</li></ul></div>
+      </div>
+
+      <div class="state-actions">
+        <div class="state-block n">
+          <h2>Negeri Sembilan · Tindakan Keutamaan</h2>
+          <p class="stats-note">Data tapis: Cina 157 posts (30% negatif); India 271 posts (0% negatif).</p>
+          
+    <div class="action-card p1">
+      <div class="action-head">
+        <span class="pri-tag p1">P1 — MESTI DILAKSANAKAN MINGGU INI</span>
+        <h3>Jawab kos hidup & SME Seremban/Jelebu dengan data exco</h3>
+        <span class="act-meta">N9-P1-01 · CHINESE · Cost of Living / SME and Business</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>Terbitkan helaian bantuan aktif (negeri + persekutuan) BM+中文 dalam 48 jam — khusus peniaga Nilai, Seremban, Jelebu.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">N9 Cina = negatif tertinggi pada kos hidup/SME. Ini risiko abstention utama — bukan boycott eksplisit.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Exco ekonomi kumpul senarai bantuan SMI/peniaga kecil yang masih aktif.</li><li>Poster A3 di persatuan peniaga Seremban + Nilai.</li><li>Live FB 20 minit Q&A BM+中文 — exco atau calon dengan data, bukan slogan.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Aduan kos sara hidup & SME di Jelebu/Seremban kami rakam. Helaian bantuan aktif BM+中文 dalam 48 jam. Undi = perkhidmatan, bukan drama.</p><p><span class='lbl zh'>中文</span>芙蓉及汝来商家关注生活成本。48小时内发布中英对照援助清单。投票要看服务，不是口水战。</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> FB Live + poster persatuan peniaga + WhatsApp</p>
+            <p><strong>Pemilik:</strong> Exco + calon N10 Nilai, N28 Seremban Kota, N13 Sikamat</p>
+            <p><strong>Tarikh akhir:</strong> 48 jam</p>
+            <p><strong>DUN sasaran:</strong> N10 Nilai, N11 Lobak, N28 Seremban Kota, N13 Sikamat, N06 Palong</p>
+            <p><strong>KPI:</strong> Helaian diedar; ≥15 peniaga mendaftar follow-up</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-card p1">
+      <div class="action-head">
+        <span class="pri-tag p1">P1 — MESTI DILAKSANAKAN MINGGU INI</span>
+        <h3>Tindakan trafik & parking bandar Seremban</h3>
+        <span class="act-meta">N9-P1-02 · CHINESE · Road and Traffic</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>Umumkan mesyuarat MBSA + peniaga minggu ini; pos kemas kini tarikh & tindakan interim.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">Trafik/parking berulang dalam crawl N9 — isu mudah difahami & boleh tunjuk 'kami urus'.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Dapatkan tarikh mesyuarat disahkan dari MBSA.</li><li>Pos BM+中文: 'Kesesakan & parking — mesyuarat [tarikh]'.</li><li>Kumpul foto lokasi parking bermasalah (3 titik) untuk laporan calon.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Kesesakan & parking di bandar Seremban isu berulang. Pasukan tempatan sedang susun mesyuarat dengan MBSA & peniaga — kemas kini minggu ini.</p><p><span class='lbl zh'>中文</span>芙蓉市区交通与停车问题，州团队本周与市议会及商家开会跟进。</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> FB Group merchant Seremban + poster premis</p>
+            <p><strong>Pemilik:</strong> Calon N28/N21 + MBSA liaison</p>
+            <p><strong>Tarikh akhir:</strong> 7 hari</p>
+            <p><strong>DUN sasaran:</strong> N28 Seremban Kota, N21 Bukit Kepayang, N24 Seremban Jaya, N11 Lobak</p>
+            <p><strong>KPI:</strong> Mesyuarat dijalankan; minit ringkas diedar BM+中文</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-card p1">
+      <div class="action-head">
+        <span class="pri-tag p1">P1 — MESTI DILAKSANAKAN MINGGU INI</span>
+        <h3>Kemas kini SJKT — status guru & peruntukan BM+Tamil</h3>
+        <span class="act-meta">N9-P1-03 · INDIAN · Chinese Education / Employment</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>Nota rasmi: bilangan kekosongan guru, tarikh pengisian, peruntukan tahun semasa — BM+Tamil.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">India N9 pragmatik: SJKT & pekerjaan. Jika PH/MN tunjuk delivery, sokongan kekal.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Dapatkan angka dari JPN N9 / exco pendidikan.</li><li>Edar ke group ibu bapa SJKT Port Dickson, Seremban, Nilai.</li><li>Elak politikkan agama — fokus bilik darjah & guru.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Isu guru SJKT & pendidikan Tamil masih panas di N9. Kami sediakan kemas kini BM+Tamil status pengisian & peruntukan — fakta sahaja.</p><p><span class='lbl ta'>தமிழ்</span>SJKT ஆசிரியர் பற்றாக்குறை — தமிழ்+BM அதிகாரப்பூர்வ புதுப்பிப்பு விரைவில்.</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> WhatsApp ibu bapa SJKT + FB Tamil</p>
+            <p><strong>Pemilik:</strong> Exco pendidikan + calon N25 Paroi, N31 Bagan Pinang</p>
+            <p><strong>Tarikh akhir:</strong> 5 hari</p>
+            <p><strong>DUN sasaran:</strong> N25 Paroi, N31 Bagan Pinang, N10 Nilai, N13 Sikamat</p>
+            <p><strong>KPI:</strong> Nota BM+Tamil diedar ke ≥10 group SJKT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-card p1">
+      <div class="action-head">
+        <span class="pri-tag p1">P1 — MESTI DILAKSANAKAN MINGGU INI</span>
+        <h3>Pantau & counter strategi PN 'pecah undi' di kerusi campuran</h3>
+        <span class="act-meta">N9-P1-04 · CHINESE · Gerakan and PN / PH-BN Relationship</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>HQ sediakan skrip jawapan BM: Muafakat 1-vs-1 kerusi Melayu, fokus perkhidmatan di kerusi campuran.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">Crawl menyebut strategi PN — perlu jawapan awal sebelum frame DAP/PH menguasai naratif.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Monitor mention 'pecah undi' / '三分票' dalam group Cina.</li><li>Skrip 3 ayat: stabil negeri, fakta, undi = perkhidmatan.</li><li>Jangan serang peribadi calon PH — serang prestasi & penyelesaian.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Tiada pakatan sulit. Ada kestabilan negeri supaya undi tidak pecah. Fakta di meja — bukan rumor.</p><p><span class='lbl zh'>中文</span>没有秘密协议。只有州选稳定，避免分裂投票。事实为主。</p><p><span class='lbl ta'>தமிழ்</span>ரகசிய கூட்டணி இல்லை. நிலைத்தன்மை மற்றும் உண்மைகள் மட்டும்.</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> FB + WhatsApp + media Cina</p>
+            <p><strong>Pemilik:</strong> Operasi N9 + media team</p>
+            <p><strong>Tarikh akhir:</strong> 48 jam</p>
+            <p><strong>DUN sasaran:</strong> N10 Nilai, N28 Seremban Kota, N27 Rantau, N06 Palong</p>
+            <p><strong>KPI:</strong> Counter-post dalam 24j selepas naratif PN viral</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-card p2">
+      <div class="action-head">
+        <span class="pri-tag p2">P2 — SUSULAN 7–14 HARI</span>
+        <h3>Lawatan DUN bandar Cina — N06 Palong, N10 Nilai</h3>
+        <span class="act-meta">N9-P2-01 · CHINESE · DAP Performance / Local Government Services</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>Walkabout bertemu peniaga & persatuan — bawa helaian bantuan, rekod aduan 7 hari.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">Ground presence kurang naratif negatif abstention — 'mereka dengar'.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Agenda 2 jam: pasar + 3 kedai kecil + 1 persatuan.</li><li>Setiap aduan dapat nombor rujukan.</li><li>Pos foto BM+中文 dalam 24 jam selepas lawatan.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Lawatan perkhidmatan: kami dengar aduan peniaga Palong/Nilai. Setiap kes dapat nombor rujukan follow-up.</p><p><span class='lbl zh'>中文</span>服务走访：我们听取巴珑/芙蓉商家诉求。每个案件都有跟进编号。</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> Ground + FB post-event</p>
+            <p><strong>Pemilik:</strong> Calon N06 + N10 + sukarelawan</p>
+            <p><strong>Tarikh akhir:</strong> 14 hari</p>
+            <p><strong>DUN sasaran:</strong> N06 Palong, N10 Nilai</p>
+            <p><strong>KPI:</strong> ≥20 aduan direkod; ≥50% dijawab dalam 7 hari</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="action-card p2">
+      <div class="action-head">
+        <span class="pri-tag p2">P2 — SUSULAN 7–14 HARI</span>
+        <h3>Pekerjaan & ekonomi Port Dickson — komuniti India</h3>
+        <span class="act-meta">N9-P2-02 · INDIAN · Employment</span>
+      </div>
+      <div class="action-body">
+        <div class="action-col">
+          <h5>Apa yang perlu dilakukan</h5>
+          <p>Sesi ringkas pelancongan/pekerjaan PD: fakta peluang kerja, kemahiran, SJKT berhampiran.</p>
+          <h5>Mengapa penting (intel crawl)</h5>
+          <p class="why">Port Dickson (N31) — India + pelancongan; isu pekerjaan muncul dalam crawl.</p>
+          <h5>Bagaimana — langkah operasi</h5>
+          <ol class="how"><li>Jumpa persatuan nelayan/pekerja pelancongan BM+Tamil.</li><li>Edar infografik pekerjaan 3 bullet.</li></ol>
+        </div>
+        <div class="action-col">
+          <h5>Mesej yang hendak disampaikan</h5>
+          <div class="msg-box"><p><span class='lbl'>BM</span>Port Dickson: peluang pekerjaan & kemahiran untuk komuniti India. Fakta dari agensi negeri — bukan janji kosong.</p><p><span class='lbl ta'>தமிழ்</span>போர்ட் டிக்சன்: வேலைவாய்ப்பு & திறன் மேம்பாடு — அதிகாரப்பூர்வ தகவலுடன்.</p></div>
+          <div class="act-footer">
+            <p><strong>Saluran:</strong> Lawatan PD + FB Tamil</p>
+            <p><strong>Pemilik:</strong> Calon N31 + agensi kerja negeri</p>
+            <p><strong>Tarikh akhir:</strong> 14 hari</p>
+            <p><strong>DUN sasaran:</strong> N31 Bagan Pinang, N32 Linggi</p>
+            <p><strong>KPI:</strong> ≥1 sesi komuniti; infografik diedar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+          
+    <div class="dun-wrap">
+      <h3>Jadual Cadangan Semua DUN — Negeri Sembilan · 36 DUN</h3>
+      <p class="dun-note">Checklist operasi calon & ground team. Setiap DUN ada cadangan minimum Cina + India.</p>
+      <div class="dun-scroll">
+        <table class="dun-table">
+          <thead><tr>
+            <th>DUN</th><th>Nama</th><th>Pri</th><th>Isu</th><th>Tindakan Cina</th><th>Tindakan India</th>
+          </tr></thead>
+          <tbody><tr>
+          <td><strong>N01</strong></td>
+          <td>Chennah</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N01 Chennah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N01 Chennah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N02</strong></td>
+          <td>Pertang</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N02 Pertang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N02 Pertang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N03</strong></td>
+          <td>Sungai Lui</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N03 Sungai Lui] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N03 Sungai Lui] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N04</strong></td>
+          <td>Klawang</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N04 Klawang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N04 Klawang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N05</strong></td>
+          <td>Serting</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N05 Serting] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N05 Serting] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N06</strong></td>
+          <td>Palong</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Perkhidmatan bandar</td>
+          <td class="act-cell">[N06 Palong] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell">[N06 Palong] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N07</strong></td>
+          <td>Jeram Padang</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N07 Jeram Padang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N07 Jeram Padang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N08</strong></td>
+          <td>Bahau</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Perkhidmatan bandar</td>
+          <td class="act-cell">[N08 Bahau] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell">[N08 Bahau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N09</strong></td>
+          <td>Lenggeng</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N09 Lenggeng] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N09 Lenggeng] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N10</strong></td>
+          <td>Nilai</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N10 Nilai] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N10 Nilai] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N11</strong></td>
+          <td>Lobak</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N11 Lobak] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N11 Lobak] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N12</strong></td>
+          <td>Temiang</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N12 Temiang] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N12 Temiang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N13</strong></td>
+          <td>Sikamat</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N13 Sikamat] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell">[N13 Sikamat] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N14</strong></td>
+          <td>Ampangan</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Perkhidmatan bandar</td>
+          <td class="act-cell">[N14 Ampangan] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell">[N14 Ampangan] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N15</strong></td>
+          <td>Juasseh</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N15 Juasseh] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N15 Juasseh] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N16</strong></td>
+          <td>Seri Menanti</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N16 Seri Menanti] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N16 Seri Menanti] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N17</strong></td>
+          <td>Senaling</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N17 Senaling] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N17 Senaling] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N18</strong></td>
+          <td>Kuala Pilah</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N18 Kuala Pilah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N18 Kuala Pilah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N19</strong></td>
+          <td>Johol</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N19 Johol] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N19 Johol] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N20</strong></td>
+          <td>Labu</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N20 Labu] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N20 Labu] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N21</strong></td>
+          <td>Bukit Kepayang</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N21 Bukit Kepayang] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N21 Bukit Kepayang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N22</strong></td>
+          <td>Rahang</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N22 Rahang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N22 Rahang] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N23</strong></td>
+          <td>Mambau</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N23 Mambau] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N23 Mambau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N24</strong></td>
+          <td>Seremban Jaya</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N24 Seremban Jaya] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N24 Seremban Jaya] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N25</strong></td>
+          <td>Paroi</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N25 Paroi] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N25 Paroi] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N26</strong></td>
+          <td>Chembong</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N26 Chembong] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N26 Chembong] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N27</strong></td>
+          <td>Rantau</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Perkhidmatan bandar</td>
+          <td class="act-cell">[N27 Rantau] Lawatan peniaga; poster trafik/perkhidmatan jika bandar; jawab DAP prestasi dengan data exco.</td>
+          <td class="act-cell">[N27 Rantau] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N28</strong></td>
+          <td>Seremban Kota</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N28 Seremban Kota] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N28 Seremban Kota] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N29</strong></td>
+          <td>Chuah</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N29 Chuah] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N29 Chuah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N30</strong></td>
+          <td>Lukut</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>Kos hidup / SME</td>
+          <td class="act-cell">[N30 Lukut] Helaian bantuan SME/kos hidup BM+中文; FB Live/Q&A 20 min; counter abstention: undi = perkhidmatan.</td>
+          <td class="act-cell">[N30 Lukut] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N31</strong></td>
+          <td>Bagan Pinang</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N31 Bagan Pinang] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N31 Bagan Pinang] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N32</strong></td>
+          <td>Linggi</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N32 Linggi] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N32 Linggi] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N33</strong></td>
+          <td>Sri Tanjung</td>
+          <td><span class="pri-sm p1">P1</span></td>
+          <td>SJKT / Pekerjaan</td>
+          <td class="act-cell">[N33 Sri Tanjung] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N33 Sri Tanjung] Kemas kini SJKT/pekerjaan BM+Tamil; group ibu bapa & kilang; fakta guru/hospital — bukan politik agama.</td>
+        </tr><tr>
+          <td><strong>N34</strong></td>
+          <td>Gemas</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N34 Gemas] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N34 Gemas] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N35</strong></td>
+          <td>Gemencheh</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N35 Gemencheh] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N35 Gemencheh] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr><tr>
+          <td><strong>N36</strong></td>
+          <td>Repah</td>
+          <td><span class="pri-sm p2">P2</span></td>
+          <td>Outreach minoriti / keluar undi</td>
+          <td class="act-cell">[N36 Repah] Komuniti Cina minoriti: edar helaian ringkas; ingatkan keluar undi untuk kestabilan perkhidmatan tempatan.</td>
+          <td class="act-cell">[N36 Repah] Sambung komuniti India melalui kuil/masjid; edar nota pekerjaan BM+Tamil; rekod aduan 7 hari follow-up.</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+        </div>
+      </div>
+    </div>
+
+<footer>InsightPulse Agentic · Refresh: NEImpulse/bin/python scripts/analyze_naratif_agentic.py --rebuild</footer>
+</div>
+<script>
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+    btn.classList.add('active');
+    const map = {intel:'tab-intel', halatuju:'tab-halatuju', actions:'tab-actions'};
+    const id = map[btn.dataset.tab] || 'tab-intel';
+    document.getElementById(id).classList.remove('hidden');
+  });
+});
+</script>
+</body></html>

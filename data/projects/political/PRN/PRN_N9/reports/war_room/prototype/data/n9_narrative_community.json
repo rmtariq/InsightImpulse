@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "mode": "live",
+    "generated_at": "2026-07-15 01:54:27",
+    "source_csv": "n9_chinese_narrative_dashboard/data/prn_chinese_narrative_posts_3negeri.csv",
+    "indian_crawl": "data/projects/political/PRN/PRN_N9/crawls/indian_narrative/PRN_Indian_Narrative_20260712_154043.csv",
+    "total_rows": 2148
+  },
+  "N9": {
+    "label": "Negeri Sembilan",
+    "dun": 36,
+    "chinese": {
+      "posts": 288,
+      "neg": 17,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "indian": {
+      "posts": 805,
+      "neg": 0,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "issues": {
+      "chinese": [
+        [
+          "Other",
+          29
+        ],
+        [
+          "DAP Performance",
+          13
+        ],
+        [
+          "Cost of Living",
+          10
+        ],
+        [
+          "PAS Factor",
+          7
+        ]
+      ],
+      "indian": [
+        [
+          "Other",
+          73
+        ],
+        [
+          "DAP Performance",
+          7
+        ],
+        [
+          "PAS Factor",
+          6
+        ],
+        [
+          "Gerakan and PN",
+          3
+        ]
+      ]
+    },
+    "actions": [
+      {
+        "id": "ACT-N9C-115",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "SME and Business — NS-N08",
+        "body": "马口小贩反映市议会执法太严，生意难做。 #Bahau",
+        "meta": [
+          "NS-N08",
+          "Chinese online media",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Sediakan maklumat lesen, geran, bantuan digitalisasi, kos pematuhan dan saluran penyelesaian masalah peniaga."
+      },
+      {
+        "id": "ACT-N9C-120",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "SME and Business — NS-N18",
+        "body": "马口小贩反映市议会执法太严，生意难做。 DAP Negeri Sembilan perlu fokus perkhidmatan tempatan di Lobak.",
+        "meta": [
+          "NS-N18",
+          "Chinese online media",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Sediakan maklumat lesen, geran, bantuan digitalisasi, kos pematuhan dan saluran penyelesaian masalah peniaga."
+      },
+      {
+        "id": "ACT-N9C-055",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Employment — NS-N11",
+        "body": "年轻首投族更关注就业和房价。 #Lobak",
+        "meta": [
+          "NS-N11",
+          "YouTube",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-N9C-005",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Candidate Performance — NS-N22",
+        "body": "假消息说某候选人退选，请勿转发。 #Rasah",
+        "meta": [
+          "NS-N22",
+          "Community pages",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-N9I-016",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — NS-N21",
+        "body": "MIC staying with BN pays off with haul of 4 seats. After a clean sweep of the seats it contested, BN's Indian component ",
+        "meta": [
+          "NS-N21",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-N9I-028",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Tamil Education — NS-N21",
+        "body": "SJKT West Country (Timur) Celebrates International Success at Innovation World Cup 2026. SJKT West Country (Timur) Celeb",
+        "meta": [
+          "NS-N21",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-N9I-022",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Public Safety — NS-N21",
+        "body": "Pembinaan ECRL didakwa ancam nyawa: Penduduk Mutiara Gombak fail saman RM1.3 juta. Gombak: Penduduk Taman Mutiara Gombak",
+        "meta": [
+          "NS-N21",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-N9I-013",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Misinformation — NS-N21",
+        "body": "“Says Who? Where's The Source?” MMC Rolls Out New Campaign To Battle Fake News During Elections. “Says Who? Where's The ",
+        "meta": [
+          "NS-N21",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Fact Checking",
+        "response": "Jangan respons serta-merta. Sahkan dakwaan melalui sekurang-kurangnya dua sumber yang boleh dipercayai dan rekodkan bukti sebelum menyediakan pembetulan."
+      }
+    ],
+    "samples": {
+      "chinese": [
+        {
+          "text": "波德申旅游季，本地商家希望州政府多宣传。 #Lukut",
+          "sent": "neg",
+          "meta": "Lukut · Facebook · 5690 engagement"
+        },
+        {
+          "text": "森美兰州选临近，芙蓉市区塞车问题又严重了，停车位不够。 #Seremban",
+          "sent": "neu",
+          "meta": "Seremban · Chinese online media · 5550 engagement"
+        },
+        {
+          "text": "Traffic congestion in Seremban city centre frustrates residents. — Jelebu",
+          "sent": "neu",
+          "meta": "Jelebu · Chinese online media · 5332 engagement"
+        }
+      ],
+      "indian": [
+        {
+          "text": "Johor polls disappointment for Pakatan, but Loke vows fresh push ahead of Negeri Sembilan election. JELEBU, July 12 &mdash; Pakatan Harapan (PH) respects the decision of voters in the 16th Johor State Election which was...",
+          "sent": "neu",
+          "meta": "Jelebu · Indian online media"
+        },
+        {
+          "text": "Shop/Retail Space for Rent in Seremban, Negeri Sembilan by MING MING. Shop/Retail Space for Rent in Seremban, Negeri Sembilan by MING MING&nbsp;&nbsp;EdgeProp",
+          "sent": "neu",
+          "meta": "Seremban · Indian online media"
+        },
+        {
+          "text": "Anthony Loke says he is ready to face challengers in Chennah as Negeri Sembilan state election looms. Anthony Loke says he is ready to face challengers in Chennah as Negeri Sembilan state election looms&nbsp;&nbsp;Malay Mail",
+          "sent": "neu",
+          "meta": "Seremban · Indian online media"
+        }
+      ]
+    },
+    "responses": {
+      "chinese": {
+        "bm": "Kerajaan Negeri Sembilan komited memperkukuh perkhidmatan dan memastikan polisi sara hidup kekal mampu milik.",
+        "zh": "森州政府致力于改善民生与营商环境，我们将与社区代表直接对话。"
+      },
+      "indian": {
+        "bm": "Kerajaan Negeri Sembilan sedang pantau isu komuniti India/Tamil dan komited memastikan keperluan pendidikan serta ekonomi dipenuhi.",
+        "ta": "நெகரி செம்பிலான் அரசு SJKT மற்றும் வேலைவாய்ப்பு குறித்து கவனம் செலுத்தி வருகிறது."
+      }
+    },
+    "dunRows": [
+      [
+        "NS-N21",
+        "Seremban",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ],
+      [
+        "NS-N02",
+        "Jelebu",
+        "Pantau",
+        "Cost of Living",
+        "Negatif"
+      ],
+      [
+        "NS-N08",
+        "Bahau",
+        "Pantau",
+        "Cost of Living",
+        "Negatif"
+      ],
+      [
+        "NS-N10",
+        "Nilai",
+        "Pantau",
+        "Other",
+        "Negatif"
+      ]
+    ]
+  },
+  "Johor": {
+    "label": "Johor",
+    "dun": 56,
+    "chinese": {
+      "posts": 237,
+      "neg": 15,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "indian": {
+      "posts": 359,
+      "neg": 0,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "issues": {
+      "chinese": [
+        [
+          "Other",
+          50
+        ],
+        [
+          "Cost of Living",
+          11
+        ],
+        [
+          "DAP Performance",
+          6
+        ],
+        [
+          "Candidate Performance",
+          5
+        ]
+      ],
+      "indian": [
+        [
+          "Other",
+          66
+        ],
+        [
+          "Candidate Performance",
+          7
+        ],
+        [
+          "Housing",
+          6
+        ],
+        [
+          "DAP Performance",
+          6
+        ]
+      ]
+    },
+    "actions": [
+      {
+        "id": "ACT-JOC-030",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "DAP Performance — JHR-N14",
+        "body": "DAP Johor perlu fokus perkhidmatan bandar. #Muar",
+        "meta": [
+          "JHR-N14",
+          "Chinese online media",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-JOC-037",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Local Government Services — JHR-N18",
+        "body": "Chinese community in Johor discusses local council performance. — Batu Pahat",
+        "meta": [
+          "JHR-N18",
+          "X",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-JOC-017",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Cost of Living — JHR-N18",
+        "body": "士古来工厂区物价上涨，商家叫苦。 PRN Johor: komuniti Cina bincang kos sara hidup di JB.",
+        "meta": [
+          "JHR-N18",
+          "Instagram",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Sediakan penerangan dasar, bantuan yang tersedia, saluran permohonan dan data kos sara hidup yang disahkan."
+      },
+      {
+        "id": "ACT-JOC-036",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Local Government Services — JHR-N14",
+        "body": "Chinese community in Johor discusses local council performance. — Muar",
+        "meta": [
+          "JHR-N14",
+          "Facebook",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-JOI-016",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N48",
+        "body": "Johor’s tale of two margins: BN’s Permas towers at 29,505, Pakatan’s Simpang Jeram clings on by 170. JOHOR BAHRU, July 1",
+        "meta": [
+          "JHR-N48",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-JOI-010",
+        "p": "p3",
+        "comm": "indian",
+        "title": "MCA Relevance — JHR-N48",
+        "body": "Anwar takes thinly-veiled dig at MCA in Johor campaign. Anwar takes thinly-veiled dig at MCA in Johor campaign&nbsp;&nbs",
+        "meta": [
+          "JHR-N48",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-JOI-012",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N09",
+        "body": "Johor polls: PH lodges police report over vandalised campaign materials in Kluang. Johor polls: PH lodges police report ",
+        "meta": [
+          "JHR-N09",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-JOI-018",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — JHR-N49",
+        "body": "Kerja, gaji dan kebergantungan kepada Singapura jadi isu utama di Skudai. Kerja, gaji dan kebergantungan kepada Singapur",
+        "meta": [
+          "JHR-N49",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      }
+    ],
+    "samples": {
+      "chinese": [
+        {
+          "text": "Chinese community in Johor discusses local council performance. — Batu Pahat",
+          "sent": "neg",
+          "meta": "Batu Pahat · X · 5877 engagement"
+        },
+        {
+          "text": "Kerajaan Johor perlu tangani isu trafik Skudai. (Muar)",
+          "sent": "neg",
+          "meta": "Muar · TikTok · 5661 engagement"
+        },
+        {
+          "text": "Kerajaan Johor perlu tangani isu trafik Skudai. (Johor Bahru)",
+          "sent": "neu",
+          "meta": "Johor Bahru · TikTok · 5542 engagement"
+        }
+      ],
+      "indian": [
+        {
+          "text": "Youth vs veteran in Johor polls: Felicia Poh, 28, wins Penggaram; Samsolbari, 65, holds Semarang. JOHOR BAHRU, July 12 &mdash; At just 28, Felicia Poh Rui Ling became the youngest successful candidate in the 16th Johor...",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        },
+        {
+          "text": "Johor polls early voting turnout reaches 38.64pc as of 10am. JOHOR BAHRU, July 7 &mdash; Early voting turnout for the Johor state election reached 38.64 per cent by 10am today.The E...",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        },
+        {
+          "text": "16th Johor state polls swing into full gear tomorrow with nomination day. 16th Johor state polls swing into full gear tomorrow with nomination day&nbsp;&nbsp;KLSE Screener",
+          "sent": "neu",
+          "meta": "Johor Bahru · Indian online media"
+        }
+      ]
+    },
+    "responses": {
+      "chinese": {
+        "bm": "Kerajaan Johor komited menyokong perniagaan kecil.",
+        "zh": "柔佛州政府支持小贩与中小企业。"
+      },
+      "indian": {
+        "bm": "Isu pekerjaan dan komuniti India dipantau rapat.",
+        "ta": "வேலைவாய்ப்பு பிரச்சினைகள் கண்காணிக்கப்படுகின்றன."
+      }
+    },
+    "dunRows": [
+      [
+        "JHR-N48",
+        "Johor Bahru",
+        "Pantau",
+        "Other",
+        "Negatif"
+      ],
+      [
+        "JHR-N49",
+        "Skudai",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ],
+      [
+        "JHR-N14",
+        "Muar",
+        "Pantau",
+        "Other",
+        "Negatif"
+      ],
+      [
+        "JHR-N09",
+        "Kluang",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ]
+    ]
+  },
+  "Melaka": {
+    "label": "Melaka",
+    "dun": 28,
+    "chinese": {
+      "posts": 88,
+      "neg": 25,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "indian": {
+      "posts": 39,
+      "neg": 0,
+      "topIssue": "Other",
+      "delta": "0"
+    },
+    "issues": {
+      "chinese": [
+        [
+          "Other",
+          36
+        ],
+        [
+          "Cost of Living",
+          19
+        ],
+        [
+          "Local Government Services",
+          14
+        ],
+        [
+          "Chinese Education",
+          11
+        ]
+      ],
+      "indian": [
+        [
+          "Other",
+          79
+        ],
+        [
+          "PAS Factor",
+          15
+        ],
+        [
+          "DAP Performance",
+          3
+        ],
+        [
+          "Tamil Education",
+          3
+        ]
+      ]
+    },
+    "actions": [
+      {
+        "id": "ACT-MEC-039",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Other — MLK-N12",
+        "body": "Chinese community in Melaka discusses heritage tourism and local services. — Klebang",
+        "meta": [
+          "MLK-N12",
+          "X",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-MEC-043",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Other — MLK-N14",
+        "body": "Kerajaan Melaka perlu fokus perkhidmatan Bandar Hilir. (Hang Tuah Jaya)",
+        "meta": [
+          "MLK-N14",
+          "Facebook",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-MEC-033",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Local Government Services — MLK-N14",
+        "body": "Bandar Hilir 停车位不足，居民投诉。 #Hang",
+        "meta": [
+          "MLK-N14",
+          "YouTube",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-MEC-037",
+        "p": "p1",
+        "comm": "chinese",
+        "title": "Other — MLK-N12",
+        "body": "Chinese community in Melaka discusses heritage tourism and local services. — Klebang",
+        "meta": [
+          "MLK-N12",
+          "Facebook",
+          "Sentimen: Negative",
+          "Due: Hari ini"
+        ],
+        "team": "Communications",
+        "response": "Risiko kritikal — wajib semakan undang-undang/komunikasi, lampiran bukti dan kelulusan pengurus sebelum sebarang tindakan."
+      },
+      {
+        "id": "ACT-MEI-003",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — MLK-N16",
+        "body": "Melaka teliti kaedah tangani banjir berulang di Tanjung Minyak - Ab Rauf. Melaka: Kerajaan Melaka akan mengkaji kaedah t",
+        "meta": [
+          "MLK-N16",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      },
+      {
+        "id": "ACT-MEI-004",
+        "p": "p3",
+        "comm": "indian",
+        "title": "PAS Factor — MLK-N16",
+        "body": "'Kami mohon sukarelawan bantu bersihkan rumah banjir lumpur,'  - Mangsa banjir. MELAKA: Penduduk yang terjejas akibat ba",
+        "meta": [
+          "MLK-N16",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-MEI-001",
+        "p": "p3",
+        "comm": "indian",
+        "title": "DAP Performance — MLK-N16",
+        "body": "Pemaju disaran sedia lif di bangunan kedai tiga tingkat di Melaka. MELAKA: Kerajaan negeri bercadang memperkenalkan dasa",
+        "meta": [
+          "MLK-N16",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Kenal pasti kebimbangan sebenar di sebalik naratif, semak fakta dan sediakan penjelasan dasar serta kedudukan rasmi tanpa menyerang kaum, agama atau individu."
+      },
+      {
+        "id": "ACT-MEI-002",
+        "p": "p3",
+        "comm": "indian",
+        "title": "Other — MLK-N01",
+        "body": "Jasin MP Zulkifli injured in crash near Alor Gajah. Jasin MP Zulkifli injured in crash near Alor Gajah&nbsp;&nbsp;Free M",
+        "meta": [
+          "MLK-N01",
+          "Indian online media",
+          "Sentimen: Neutral",
+          "Due: Monitor"
+        ],
+        "team": "Communications",
+        "response": "Teruskan pemantauan; tiada tindakan operasi segera diperlukan setelah semakan awal."
+      }
+    ],
+    "samples": {
+      "chinese": [
+        {
+          "text": "Chinese community in Melaka discusses heritage tourism and local services. — Klebang",
+          "sent": "neg",
+          "meta": "Klebang · X · 5877 engagement"
+        },
+        {
+          "text": "Bandar Hilir 停车位不足，居民投诉。 PRN Melaka: pengundi Cina bincang isu pelancongan dan kos sara hidup.",
+          "sent": "neu",
+          "meta": "Klebang · YouTube · 5801 engagement"
+        },
+        {
+          "text": "Kerajaan Melaka perlu fokus perkhidmatan Bandar Hilir. (Bandar Hilir)",
+          "sent": "neu",
+          "meta": "Bandar Hilir · TikTok · 5542 engagement"
+        }
+      ],
+      "indian": [
+        {
+          "text": "'Kami mohon sukarelawan bantu bersihkan rumah banjir lumpur,'  - Mangsa banjir. MELAKA: Penduduk yang terjejas akibat banjir lumpur di negeri ini, kini giat membersihkan kediaman masing-masing selepas air mulai surut, namun berharap lebih ramai sukarelawan tampil membantu kerja p",
+          "sent": "neu",
+          "meta": "Melaka · Indian online media"
+        },
+        {
+          "text": "First robotic throat cancer surgery in Southern Malaysia successfully performed at Pantai Hospital Melaka | Sinar Daily. First robotic throat cancer surgery in Southern Malaysia successfully performed at Pantai Hospital Melaka | Sinar Daily&nbsp;&nbsp;Sinar Daily",
+          "sent": "neu",
+          "meta": "Melaka · Indian online media"
+        },
+        {
+          "text": "Melaka: Student who was allegedly bullied chases schoolmate with box cutter. Melaka: Student who was allegedly bullied chases schoolmate with box cutter&nbsp;&nbsp;Newswav",
+          "sent": "neu",
+          "meta": "Melaka · Indian online media"
+        }
+      ]
+    },
+    "responses": {
+      "chinese": {
+        "bm": "Melaka komited memacu pelancongan dan SME.",
+        "zh": "马六甲致力于推动旅游与中小企业发展。"
+      },
+      "indian": {
+        "bm": "Isu komuniti dipantau dengan sensitiviti.",
+        "ta": "சமூக விவகாரங்கள் கவனத்துடன் கண்காணிக்கப்படுகின்றன."
+      }
+    },
+    "dunRows": [
+      [
+        "MLK-N16",
+        "Melaka",
+        "Pantau",
+        "Other",
+        "Neutral"
+      ],
+      [
+        "MLK-N14",
+        "Hang Tuah Jaya",
+        "Pantau",
+        "Cost of Living",
+        "Negatif"
+      ],
+      [
+        "MLK-N08",
+        "Jasin",
+        "Pantau",
+        "Cost of Living",
+        "Negatif"
+      ],
+      [
+        "MLK-N13",
+        "Bukit Katil",
+        "Pantau",
+        "Cost of Living",
+        "Neutral"
+      ]
+    ]
+  }
+}

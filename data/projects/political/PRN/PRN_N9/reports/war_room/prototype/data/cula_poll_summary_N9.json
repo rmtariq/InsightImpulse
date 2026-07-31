@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "generated": "2026-07-15 01:54:40",
+    "sourceCsv": "data/combined/Combined_facebook_20260702_204813.csv",
+    "batch": "cula_digital_whatsapp_7posts_20260702",
+    "totalRows": 533,
+    "totalPosts": 7,
+    "totalComments": 526,
+    "totalEngagement": 2302,
+    "note": "Semua komen termasuk Tidak Jelas — dipecahkan via cula_assumption (sentiment+emotion).",
+    "labelling": "3-tier: Jelas + Debat→condong + Tidak Jelas→assumption"
+  },
+  "mnVsSolo": {
+    "headline": "MN 67 · Solo 31 · Pro-PAS 220 · Pro-PH 89 · 6 post · 458 komen",
+    "headlineKeyword": "MN 67 · Solo 31 (keyword sahaja)",
+    "pct": {
+      "MN": 14.6,
+      "Solo": 6.8,
+      "Pro-PAS": 48.0,
+      "Pro-PH": 19.4,
+      "Masih Tidak Jelas": 11.1
+    },
+    "pctKeyword": {
+      "MN": 42.4,
+      "Solo": 19.6,
+      "Pro-PAS": 21.5,
+      "Pro-PH": 16.5
+    },
+    "bucketsExpanded": {
+      "MN": 67,
+      "Solo": 31,
+      "Pro-PAS": 220,
+      "Pro-PH": 89,
+      "Masih Tidak Jelas": 51
+    },
+    "bucketsKeyword": {
+      "MN": 67,
+      "Solo": 31,
+      "Pro-PAS": 34,
+      "Pro-PH": 26
+    },
+    "tidakJelasResolved": 300,
+    "insight": "MN 67 · Solo 31 · Pro-PAS 220 · Pro-PH 89 · Masih 51 (semua komen).",
+    "insightKeyword": "MN 68% vs Solo 32% (keyword jelas+debat).",
+    "engagement": 1846,
+    "commentsTotal": 458
+  },
+  "pasLabu": {
+    "headline": "Sokong 52 · Tak 7 · Masih 9 · 1 post",
+    "headlineKeyword": "Sokong 28 · Tak 5 (keyword sahaja)",
+    "pct": {
+      "Sokong PAS": 76.5,
+      "Tak Sokong PAS": 10.3,
+      "Masih Tidak Jelas": 13.2
+    },
+    "pctKeyword": {
+      "Sokong PAS": 84.8,
+      "Tak Sokong PAS": 15.2
+    },
+    "bucketsExpanded": {
+      "Sokong PAS": 52,
+      "Tak Sokong PAS": 7,
+      "Masih Tidak Jelas": 9
+    },
+    "bucketsKeyword": {
+      "Sokong PAS": 28,
+      "Tak Sokong PAS": 5
+    },
+    "tidakJelasResolved": 35,
+    "insight": "Sokong PAS 76% vs tak 10% · 9 masih tidak jelas (semua komen).",
+    "insightKeyword": "Sokong PAS 85% vs tak 15% (keyword jelas+debat).",
+    "engagement": 456,
+    "commentsTotal": 68
+  },
+  "dunsWithData": [
+    "N20",
+    "N26",
+    "N27",
+    "N28",
+    "N33"
+  ]
+}

@@ -1,0 +1,1363 @@
+{
+  "generated": "2026-06-21 23:33:48",
+  "rules": [
+    "Keyword kurator per kerusi — tiada auto-split generik (johor/bukit/raja/kota)",
+    "row_matches_seat + score_headline untuk tapisan",
+    "Headline UI hanya papar quality=verified"
+  ],
+  "matching": {
+    "N9": {
+      "state": "N9",
+      "totals": {
+        "seats": 36,
+        "with_matches": 35,
+        "bad_ratio_high": 3,
+        "snippet_leak": 15
+      },
+      "seats": [
+        {
+          "code": "N01",
+          "name": "Chennah",
+          "keywords": [
+            "chennah",
+            "kampung chennah",
+            "n01"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N02",
+          "name": "Pertang",
+          "keywords": [
+            "pertang",
+            "simpang pertang",
+            "n02"
+          ],
+          "matches": 4,
+          "bad": 1,
+          "bad_ratio": 0.25,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N03",
+          "name": "Sungai Lui",
+          "keywords": [
+            "sungai lui",
+            "sg lui",
+            "sg. lui",
+            "n03"
+          ],
+          "matches": 3,
+          "bad": 1,
+          "bad_ratio": 0.33,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N04",
+          "name": "Klawang",
+          "keywords": [
+            "klawang",
+            "kuala klawang",
+            "n04"
+          ],
+          "matches": 5,
+          "bad": 1,
+          "bad_ratio": 0.2,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N05",
+          "name": "Serting",
+          "keywords": [
+            "serting",
+            "bandar baru serting",
+            "n05"
+          ],
+          "matches": 6,
+          "bad": 3,
+          "bad_ratio": 0.5,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Assalamualaikum dan Salam Sejahtera,\nUntuk makluman semua,\n\nJEMPUTAN KE PROGRAM CERAMAH UMUM :\nSELAMATKAN MALAYSIA.\n\n📅 T"
+          }
+        },
+        {
+          "code": "N06",
+          "name": "Palong",
+          "keywords": [
+            "palong",
+            "pusat bandar palong",
+            "n06"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N07",
+          "name": "Jeram Padang",
+          "keywords": [
+            "jeram padang",
+            "n07"
+          ],
+          "matches": 6,
+          "bad": 1,
+          "bad_ratio": 0.17,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N08",
+          "name": "Bahau",
+          "keywords": [
+            "bahau",
+            "n08"
+          ],
+          "matches": 2,
+          "bad": 1,
+          "bad_ratio": 0.5,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N09",
+          "name": "Lenggeng",
+          "keywords": [
+            "lenggeng",
+            "n09"
+          ],
+          "matches": 10,
+          "bad": 2,
+          "bad_ratio": 0.2,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Kenyataan media rasmi \nAhmad Shuaib Bin Ismail \nUmno cawangan Lenggeng Bandaraya Seremban luak Sungai ujong n9 9-6-2026\n"
+          }
+        },
+        {
+          "code": "N10",
+          "name": "Nilai",
+          "keywords": [
+            "nilai",
+            "bandar baru nilai",
+            "dun nilai",
+            "n10"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N11",
+          "name": "Lobak",
+          "keywords": [
+            "lobak",
+            "kampung lobak",
+            "dun lobak",
+            "n11"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N12",
+          "name": "Temiang",
+          "keywords": [
+            "temiang",
+            "jalan temiang",
+            "n12"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N13",
+          "name": "Sikamat",
+          "keywords": [
+            "sikamat",
+            "n13"
+          ],
+          "matches": 10,
+          "bad": 1,
+          "bad_ratio": 0.1,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N14",
+          "name": "Ampangan",
+          "keywords": [
+            "ampangan",
+            "bandar baru ampangan",
+            "n14"
+          ],
+          "matches": 4,
+          "bad": 1,
+          "bad_ratio": 0.25,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N15",
+          "name": "Juasseh",
+          "keywords": [
+            "juasseh",
+            "n15"
+          ],
+          "matches": 4,
+          "bad": 1,
+          "bad_ratio": 0.25,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N16",
+          "name": "Seri Menanti",
+          "keywords": [
+            "seri menanti",
+            "n16"
+          ],
+          "matches": 16,
+          "bad": 3,
+          "bad_ratio": 0.19,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "SERI MENANTI, 11 Jun – Putera kedua Yang di-Pertuan Besar Negeri Sembilan, Tunku Zain Al-’Abidin Tuanku Muhriz, dimasyhu"
+          }
+        },
+        {
+          "code": "N17",
+          "name": "Senaling",
+          "keywords": [
+            "senaling",
+            "pekan senaling",
+            "n17"
+          ],
+          "matches": 3,
+          "bad": 1,
+          "bad_ratio": 0.33,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N18",
+          "name": "Pilah",
+          "keywords": [
+            "kuala pilah",
+            "dun pilah",
+            "n18"
+          ],
+          "matches": 8,
+          "bad": 3,
+          "bad_ratio": 0.38,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N19",
+          "name": "Johol",
+          "keywords": [
+            "johol",
+            "dun johol",
+            "n19"
+          ],
+          "matches": 6,
+          "bad": 1,
+          "bad_ratio": 0.17,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N20",
+          "name": "Labu",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N21",
+          "name": "Bukit Kepayang",
+          "keywords": [
+            "bukit kepayang",
+            "kepayang",
+            "n21"
+          ],
+          "matches": 2,
+          "bad": 1,
+          "bad_ratio": 0.5,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N22",
+          "name": "Rahang",
+          "keywords": [
+            "rahang",
+            "n22"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N23",
+          "name": "Mambau",
+          "keywords": [
+            "mambau",
+            "n23"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N24",
+          "name": "Seremban Jaya",
+          "keywords": [
+            "seremban jaya",
+            "taman seremban jaya",
+            "n24"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N25",
+          "name": "Paroi",
+          "keywords": [
+            "paroi",
+            "senawang",
+            "n25"
+          ],
+          "matches": 10,
+          "bad": 4,
+          "bad_ratio": 0.4,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Negeri Sembilan to get new RM140 mil JPJ complex in Senawang. Negeri Sembilan to get new RM140 mil JPJ complex in Senawa"
+          }
+        },
+        {
+          "code": "N26",
+          "name": "Chembong",
+          "keywords": [
+            "chembong",
+            "rembau chembong",
+            "n26"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N27",
+          "name": "Rantau",
+          "keywords": [
+            "rantau",
+            "n27"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N28",
+          "name": "Kota",
+          "keywords": [
+            "seremban kota",
+            "dun kota",
+            "kerusi kota",
+            "n28"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N29",
+          "name": "Chuah",
+          "keywords": [
+            "chuah",
+            "bukit pelandok",
+            "n29"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N30",
+          "name": "Lukut",
+          "keywords": [
+            "lukut",
+            "n30"
+          ],
+          "matches": 2,
+          "bad": 1,
+          "bad_ratio": 0.5,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N31",
+          "name": "Bagan Pinang",
+          "keywords": [
+            "bagan pinang",
+            "port dickson",
+            "si rusa",
+            "teluk kemang",
+            "n31"
+          ],
+          "matches": 13,
+          "bad": 11,
+          "bad_ratio": 0.85,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Tahniah kepada seluruh kepimpinan dan ahli yang bekerja dengan sepenuh hati dalam menggerakkan agenda parti sebagai sebu"
+          }
+        },
+        {
+          "code": "N32",
+          "name": "Linggi",
+          "keywords": [
+            "linggi",
+            "dun linggi",
+            "n32"
+          ],
+          "matches": 6,
+          "bad": 1,
+          "bad_ratio": 0.17,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N33",
+          "name": "Sri Tanjung",
+          "keywords": [
+            "sri tanjung",
+            "dun sri tanjung",
+            "n33"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N34",
+          "name": "Gemas",
+          "keywords": [
+            "gemas",
+            "dun gemas",
+            "n34"
+          ],
+          "matches": 3,
+          "bad": 2,
+          "bad_ratio": 0.67,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N35",
+          "name": "Gemencheh",
+          "keywords": [
+            "gemencheh",
+            "n35"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        },
+        {
+          "code": "N36",
+          "name": "Repah",
+          "keywords": [
+            "repah",
+            "dun repah",
+            "tampin",
+            "n36"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Pembubaran Dewan Undangan Negeri (DUN) Negeri Sembilan mungkin berlaku namun tidak mudah kerana bergantung kepada perken"
+          }
+        }
+      ]
+    },
+    "Johor": {
+      "state": "Johor",
+      "totals": {
+        "seats": 56,
+        "with_matches": 32,
+        "bad_ratio_high": 14,
+        "snippet_leak": 25
+      },
+      "seats": [
+        {
+          "code": "N01",
+          "name": "Buloh Kasap",
+          "keywords": [
+            "buloh kasap",
+            "pekan buloh kasap",
+            "n01"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Ahli Dewan Undangan Negeri (ADUN) Rengit, Datuk Mohd Puad Zarkashi hari ini dilantik sebagai Speaker, pada sesi Persidan"
+          }
+        },
+        {
+          "code": "N02",
+          "name": "Jementah",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N03",
+          "name": "Pemanis",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N04",
+          "name": "Kemelah",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N05",
+          "name": "Tenang",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N06",
+          "name": "Bekok",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N07",
+          "name": "Bukit Kepong",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N08",
+          "name": "Bukit Pasir",
+          "keywords": [
+            "bukit pasir",
+            "pekan bukit pasir",
+            "n08"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Alhamdulillah, berkesempatan menghadiri Rumah Terbuka Aidilfitri PAS Johor yang berlangsung di Bukit Pasir hari ini.\n\nMa"
+          }
+        },
+        {
+          "code": "N09",
+          "name": "Gambir",
+          "keywords": [
+            "gambir",
+            "bukit gambir",
+            "dun gambir",
+            "n09"
+          ],
+          "matches": 6,
+          "bad": 6,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Ayuh Bangsa Johor !!!\n\nBersama-sama kita menyaksikan Majlis Pengumuman Calon Pakatan Harapan bagi PRN Johor Ke-16.\n\n📅 22"
+          }
+        },
+        {
+          "code": "N10",
+          "name": "Tangkak",
+          "keywords": [
+            "tangkak",
+            "bandar tangkak",
+            "dun tangkak",
+            "n10"
+          ],
+          "matches": 13,
+          "bad": 13,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "🏡 MY HOMESTORY TANGKAK\n\n一站式高端家居定制中心\n\n家，不只是一个居住的空间，更是承载梦想、幸福与回忆的地方。\n\nMyHomeStory Tangkak 致力于为客户打造兼具品质、美学与实用性的理想家居空间。从设计规划"
+          }
+        },
+        {
+          "code": "N11",
+          "name": "Serom",
+          "keywords": [
+            "serom",
+            "pekan serom",
+            "dun serom",
+            "n11"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Berada di Tangkak, Johor hari ini, bagi memberikan sokongan buat para jentera Barisan Nasional Parlimen Ledang yang akan"
+          }
+        },
+        {
+          "code": "N12",
+          "name": "Bentayan",
+          "keywords": [
+            "bentayan",
+            "bandar muar",
+            "dun bentayan",
+            "n12"
+          ],
+          "matches": 1,
+          "bad": 0,
+          "bad_ratio": 0.0,
+          "status": "ok",
+          "sample_bad": null
+        },
+        {
+          "code": "N13",
+          "name": "Simpang Jeram",
+          "keywords": [
+            "simpang jeram",
+            "n13"
+          ],
+          "matches": 3,
+          "bad": 3,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Pilihanraya kecil Parlimen Pulai dan Dun Simpang Jeram boleh menjadi isyarat rakyat menolak pemimpin yang berbohong, kat"
+          }
+        },
+        {
+          "code": "N14",
+          "name": "Bukit Naning",
+          "keywords": [
+            "bukit naning",
+            "n14"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "RT @DrZalihaMustafa: JENTERA PARTI SIAP SIAGA HADAPI PRN JOHOR\n\nHari ini saya turun ke beberapa lokasi di DUN Bukit Nani"
+          }
+        },
+        {
+          "code": "N15",
+          "name": "Maharani",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N16",
+          "name": "Sungai Balang",
+          "keywords": [
+            "sungai balang",
+            "pekan sungai balang",
+            "n16"
+          ],
+          "matches": 2,
+          "bad": 1,
+          "bad_ratio": 0.5,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "RT @DrZalihaMustafa: JENTERA PARTI SIAP SIAGA HADAPI PRN JOHOR\n\nHari ini saya turun ke beberapa lokasi di DUN Bukit Nani"
+          }
+        },
+        {
+          "code": "N17",
+          "name": "Semerah",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N18",
+          "name": "Sri Medan",
+          "keywords": [
+            "sri medan",
+            "pekan sri medan",
+            "n18"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Jom kita jengah sekejap KEJOHANAN BOLA JARING Sempena SUKAN BANGSA JOHOR DUN SRI MEDAN 2026….\n\nAlhamdullilah…. Ramai yg "
+          }
+        },
+        {
+          "code": "N19",
+          "name": "Yong Peng",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N20",
+          "name": "Semarang",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N21",
+          "name": "Parit Yaani",
+          "keywords": [
+            "parit yaani",
+            "pekan parit yaani",
+            "n21"
+          ],
+          "matches": 9,
+          "bad": 9,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Amanah eyes return to Parit Yaani, Kota Iskandar in Johor polls. Amanah eyes return to Parit Yaani, Kota Iskandar in Joh"
+          }
+        },
+        {
+          "code": "N22",
+          "name": "Parit Raja",
+          "keywords": [
+            "parit raja",
+            "pekan parit raja",
+            "n22"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Isu Ajaran Sesat Di Parit Raja, Kerajaan Johor Tegas Tiada Kompromi\nhttps://t.co/rg7iz4BDDj"
+          }
+        },
+        {
+          "code": "N23",
+          "name": "Penggaram",
+          "keywords": [
+            "penggaram",
+            "bandar penggaram",
+            "batu pahat",
+            "n23"
+          ],
+          "matches": 34,
+          "bad": 34,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "JOHOR BAHRU, 8 Jun – Timbalan Ketua Angkatan Muda Keadilan (AMK) Johor, Sharwin Subramani berkata pengaruh Perdana Mente"
+          }
+        },
+        {
+          "code": "N24",
+          "name": "Senggarang",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N25",
+          "name": "Rengit",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N26",
+          "name": "Machap",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N27",
+          "name": "Layang-Layang",
+          "keywords": [
+            "layang-layang",
+            "layang layang",
+            "pekan layang",
+            "n27"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "𝐍𝐎𝐓𝐈𝐒 𝐏𝐄𝐌𝐀𝐊𝐋𝐔𝐌𝐀𝐍\n\n𝐊𝐄𝐌𝐀𝐒𝐊𝐈𝐍𝐈 𝐓𝐀𝐑𝐈𝐊𝐇 𝐒𝐄𝐑𝐀𝐇𝐀𝐍 𝐁𝐀𝐍𝐓𝐔𝐀𝐍 𝐊𝐀𝐒𝐈𝐇 𝐉𝐎𝐇𝐎𝐑 𝐖𝐀𝐑𝐆𝐀 𝐄𝐌𝐀𝐒 𝐃𝐔𝐍 𝐉𝐎𝐇𝐎𝐑 𝐉𝐀𝐘𝐀 & 𝐃𝐔𝐍 𝐏𝐄𝐑𝐌𝐀𝐒\n\nSebagaimana maklu"
+          }
+        },
+        {
+          "code": "N28",
+          "name": "Mengkibol",
+          "keywords": [
+            "mengkibol",
+            "kluang barat",
+            "dun mengkibol",
+            "n28"
+          ],
+          "matches": 8,
+          "bad": 7,
+          "bad_ratio": 0.88,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "18/06/2026 Majlis Pengumuman Calon Pakatan Harapan Mengkibol  N28，Jalan Ismail, Kluang, Johor #PRNJohor #ChuPohYee #meng"
+          }
+        },
+        {
+          "code": "N29",
+          "name": "Mahkota",
+          "keywords": [
+            "mahkota",
+            "bandar kluang",
+            "dun mahkota",
+            "n29"
+          ],
+          "matches": 8,
+          "bad": 8,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Terus terang.\n\nDulu Onn Hafiz merayu kpd DAP bantu berkempen utk calon BN di PRK N29 Mahkota. \n\nNamun kini sikap kesombo"
+          }
+        },
+        {
+          "code": "N30",
+          "name": "Paloh",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N31",
+          "name": "Kahang",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N32",
+          "name": "Endau",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N33",
+          "name": "Tenggaroh",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N34",
+          "name": "Panti",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N35",
+          "name": "Pasir Raja",
+          "keywords": [
+            "pasir raja",
+            "kampung pasir raja",
+            "n35"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Alhamdulillah, berkesempatan menyaksikan pertandingan Futsal sempena Sukan Bangsa Johor 2026 DUN Pasir Raja yang berlang"
+          }
+        },
+        {
+          "code": "N36",
+          "name": "Sedili",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N37",
+          "name": "Johor Lama",
+          "keywords": [
+            "johor lama",
+            "kampung johor lama",
+            "n37"
+          ],
+          "matches": 4,
+          "bad": 4,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Anak-Anak Yatim, OKU dan Asnaf diraikan dalam Majlis Santunan Kasih Ramadan Bersama Anak Yatim, Asnaf dan OKU Majlis Per"
+          }
+        },
+        {
+          "code": "N38",
+          "name": "Penawar",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N39",
+          "name": "Tanjung Surat",
+          "keywords": [
+            "tanjung surat",
+            "n39"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Penyampaian Pertandingan Video Kreatif Bantuan Bilik Guru Johor DUN Tanjung Surat💥\n\nTahniah kepada semua pemenang...\n\n@O"
+          }
+        },
+        {
+          "code": "N40",
+          "name": "Tiram",
+          "keywords": [
+            "tiram",
+            "ulu tiram",
+            "dun tiram",
+            "n40"
+          ],
+          "matches": 19,
+          "bad": 19,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "RT @bernamadotcom: Wira insiden tembakan di Balai Polis Ulu Tiram, Johor, Koperal Mohd Khairul Azhar Abbi Paisa memimpin"
+          }
+        },
+        {
+          "code": "N41",
+          "name": "Puteri Wangsa",
+          "keywords": [
+            "puteri wangsa",
+            "bandar puteri wangsa",
+            "n41"
+          ],
+          "matches": 31,
+          "bad": 31,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Kenyataan Media\nPuteri Wangsa Akan Dipertahankan, Tawar Generasi Pemimpin Baharu Johor https://t.co/PyhPXqu9H5"
+          }
+        },
+        {
+          "code": "N42",
+          "name": "Johor Jaya",
+          "keywords": [
+            "johor jaya",
+            "taman johor jaya",
+            "n42"
+          ],
+          "matches": 36,
+          "bad": 36,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Kita Bangsa Johor Tidak Kira Agama, Bangsa, Latar Belakang - Onn Hafiz \n\nOleh Mynewshub \n\nJOHOR BAHRU - Menteri Besar Jo"
+          }
+        },
+        {
+          "code": "N43",
+          "name": "Permas",
+          "keywords": [
+            "permas",
+            "permas jaya",
+            "bandar baru permas",
+            "n43"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "state_wide",
+            "sample": "Usai sesi menghadap, saya telah bersama rakyat dan pemimpin masyarakat untuk makan tengah hari di Gerai Juadah Hari Raya"
+          }
+        },
+        {
+          "code": "N44",
+          "name": "Larkin",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N45",
+          "name": "Stulang",
+          "keywords": [
+            "stulang",
+            "dun stulang",
+            "n45"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "全场最“年轻”的，非Uncle Lee莫属。\n\n高龄86岁他，只要上天作美，他都会日行至少2万步。\n\n每天清晨，他还会到大丰花园Kasa 6 路的运动场上，和大家一起做早操。\n\n在这个充满正能量的生活气场，每天一早都能看到大家做早操，说说笑"
+          }
+        },
+        {
+          "code": "N46",
+          "name": "Perling",
+          "keywords": [
+            "perling",
+            "taman perling",
+            "dun perling",
+            "n46"
+          ],
+          "matches": 2,
+          "bad": 1,
+          "bad_ratio": 0.5,
+          "status": "ok",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Donut Q Berries Bakery memang lembut, tak tipu. Pastry dia yang lain pon sedap juga tau, dan harga pon boleh tahan murah"
+          }
+        },
+        {
+          "code": "N47",
+          "name": "Kempas",
+          "keywords": [
+            "kempas",
+            "dun kempas",
+            "n47"
+          ],
+          "matches": 1,
+          "bad": 0,
+          "bad_ratio": 0.0,
+          "status": "ok",
+          "sample_bad": null
+        },
+        {
+          "code": "N48",
+          "name": "Skudai",
+          "keywords": [
+            "skudai",
+            "bandar skudai",
+            "dun skudai",
+            "n48"
+          ],
+          "matches": 1,
+          "bad": 1,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "DAP menyatakan hasrat untuk bertanding di 17 kerusi Dewan Undangan Negeri (DUN) pada Pilihan Raya Negeri (PRN) Johor ata"
+          }
+        },
+        {
+          "code": "N49",
+          "name": "Kota Iskandar",
+          "keywords": [
+            "kota iskandar",
+            "n49"
+          ],
+          "matches": 8,
+          "bad": 8,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Pengerusi Barisan Nasional (BN), Ahmad Zahid Hamidi berkata gabungan itu bersedia berdepan Pakatan Harapan (PH) dalam Pi"
+          }
+        },
+        {
+          "code": "N50",
+          "name": "Bukit Permai",
+          "keywords": [
+            "bukit permai",
+            "dun bukit permai",
+            "kulai",
+            "n50"
+          ],
+          "matches": 13,
+          "bad": 12,
+          "bad_ratio": 0.92,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Setiausaha Agung DAP, Anthony Loke mengumumkan empat lagi calon DAP Johor yang bakal bertanding di PRU15.\n\nCalon-calon y"
+          }
+        },
+        {
+          "code": "N51",
+          "name": "Bukit Batu",
+          "keywords": [
+            "bukit batu",
+            "dun bukit batu",
+            "n51"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "DAP menyatakan hasrat untuk bertanding di 17 kerusi Dewan Undangan Negeri (DUN) pada Pilihan Raya Negeri (PRN) Johor ata"
+          }
+        },
+        {
+          "code": "N52",
+          "name": "Senai",
+          "keywords": [
+            "senai",
+            "bandar senai",
+            "dun senai",
+            "n52"
+          ],
+          "matches": 5,
+          "bad": 4,
+          "bad_ratio": 0.8,
+          "status": "review",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "𝗣𝗲𝗻𝗴𝘂𝗺𝘂𝗺𝗮𝗻 𝗖𝗮𝗹𝗼𝗻 𝗣𝗮𝗸𝗮𝘁𝗮𝗻 𝗛𝗮𝗿𝗮𝗽𝗮𝗻 𝗗𝗨𝗡 𝗕𝘂𝗸𝗶𝘁 𝗣𝗲𝗿𝗺𝗮𝗶 𝗱𝗮𝗻 𝗗𝗨𝗡 𝗦𝗲𝗻𝗮𝗶\n\nSetiausaha Agung DAP, Anthony Loke akan mengumumkan cal"
+          }
+        },
+        {
+          "code": "N53",
+          "name": "Benut",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N54",
+          "name": "Pulai Sebatang",
+          "keywords": [
+            "pulai sebatang",
+            "n54"
+          ],
+          "matches": 2,
+          "bad": 2,
+          "bad_ratio": 1.0,
+          "status": "fail",
+          "sample_bad": {
+            "verdict": "irrelevant",
+            "sample": "Replying to @mamatfairuz79Senarai Ahli Dewan Undangan Negeri (ADUN) Pulai Sebatang dari 1986 hingga 2026.\n#prnjohor #dun"
+          }
+        },
+        {
+          "code": "N55",
+          "name": "Pekan Nanas",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        },
+        {
+          "code": "N56",
+          "name": "Kukup",
+          "matches": 0,
+          "bad": 0,
+          "status": "ok"
+        }
+      ]
+    }
+  },
+  "production_headlines": {
+    "N9": {
+      "counts": {
+        "verified": 14,
+        "none": 22,
+        "leak": 0
+      },
+      "leaks": []
+    },
+    "Johor": {
+      "counts": {
+        "verified": 6,
+        "none": 50,
+        "leak": 0
+      },
+      "leaks": []
+    }
+  }
+}

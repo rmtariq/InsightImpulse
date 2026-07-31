@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>InsightPulse — Crawl Live Monitor</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a2332;
+      --border: #2d3a4f;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --green: #22c55e;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --purple: #a855f7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    h1 { font-size: 1.25rem; font-weight: 700; }
+    .sub { color: var(--muted); font-size: 0.85rem; margin-top: 4px; }
+    header {
+      display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start;
+      justify-content: space-between; margin-bottom: 20px;
+    }
+    .badge {
+      display: inline-block; padding: 4px 12px; border-radius: 999px;
+      font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+    }
+    .badge.running { background: rgba(59,130,246,.2); color: var(--blue); }
+    .badge.completed { background: rgba(34,197,94,.2); color: var(--green); }
+    .badge.failed { background: rgba(239,68,68,.2); color: var(--red); }
+    .badge.queued { background: rgba(245,158,11,.2); color: var(--amber); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 16px;
+    }
+    .card h2 { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 12px; }
+    .progress-wrap { margin: 12px 0; }
+    .progress-bar {
+      height: 8px; background: #243044; border-radius: 4px; overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; background: linear-gradient(90deg, var(--blue), var(--purple));
+      width: 0%; transition: width .5s ease;
+    }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 12px; }
+    .stat { background: #121a26; border-radius: 8px; padding: 10px; text-align: center; }
+    .stat .val { font-size: 1.1rem; font-weight: 700; }
+    .stat .lbl { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
+    #logBox {
+      font-family: "SF Mono", Menlo, Monaco, monospace;
+      font-size: 0.72rem; line-height: 1.5;
+      background: #0a0e14; border-radius: 8px; padding: 12px;
+      height: 420px; overflow-y: auto; white-space: pre-wrap; word-break: break-word;
+      border: 1px solid var(--border);
+    }
+    .log-line { margin-bottom: 2px; }
+    .log-ts { color: #6b7280; }
+    .log-info { color: #93c5fd; }
+    .log-warn { color: #fcd34d; }
+    .log-ok { color: #86efac; }
+    .log-err { color: #fca5a5; }
+    .runs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .run-btn {
+      background: #243044; border: 1px solid var(--border); color: var(--text);
+      padding: 4px 10px; border-radius: 6px; font-size: 0.75rem; cursor: pointer;
+    }
+    .run-btn.active { border-color: var(--blue); background: rgba(59,130,246,.15); }
+    input[type=text] {
+      width: 100%; background: #121a26; border: 1px solid var(--border);
+      color: var(--text); padding: 8px 10px; border-radius: 8px; font-size: 0.8rem;
+      margin-top: 8px;
+    }
+    .footer { margin-top: 16px; font-size: 0.75rem; color: var(--muted); text-align: center; }
+    a { color: var(--blue); }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>🔴 Crawl Live Monitor — Batch 7</h1>
+      <p class="sub">Auto-refresh setiap 3 saat · data dari InsightPulse backend</p>
+    </div>
+    <div>
+      <span id="statusBadge" class="badge queued">connecting</span>
+      <div class="sub" id="lastPoll" style="margin-top:6px;text-align:right">—</div>
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Progress</h2>
+      <div id="stageMsg" style="font-size:0.95rem;font-weight:600">Memuatkan...</div>
+      <div id="stageDetail" class="sub" style="margin-top:4px">—</div>
+      <div class="progress-wrap">
+        <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="val" id="elapsed">0s</div><div class="lbl">Masa</div></div>
+        <div class="stat"><div class="val" id="platforms">—</div><div class="lbl">Platform</div></div>
+        <div class="stat"><div class="val" id="logCount">0</div><div class="lbl">Log lines</div></div>
+      </div>
+      <h2 style="margin-top:16px">Task ID</h2>
+      <input type="text" id="taskInput" placeholder="task uuid..." />
+      <div class="runs" id="runButtons"></div>
+    </div>
+
+    <div class="card">
+      <h2>Live Log (backend → browser)</h2>
+      <div id="logBox"></div>
+    </div>
+  </div>
+
+  <p class="footer">
+    Buka: <a href="http://localhost:8001/">localhost:8001</a> ·
+    War Room: <a href="http://localhost:8080/">localhost:8080</a> ·
+    Refresh manual: Cmd+Shift+R
+  </p>
+
+  <script>
+    const API = "http://localhost:8001";
+    const BATCH7_RUNS = {
+      A: { id: "2566cc32-78e6-4631-a327-18c815835aba", label: "Run A — PAS implisit N9 ✅" },
+      B: { id: "47602874-e014-4a5c-9d9a-3bc53b3fc249", label: "Run B — PAS implisit Johor ✅" },
+      C: { id: "2d5abc00-0c46-4398-b773-80cee89be920", label: "Run C — UMDAP N9 🔄" },
+    };
+    const params = new URLSearchParams(location.search);
+    let taskId = params.get("task") || BATCH7_RUNS.C.id;
+    let startTime = Date.now();
+    let lastLogLen = 0;
+    let pollTimer = null;
+
+    const $ = (id) => document.getElementById(id);
+
+    function renderRunButtons() {
+      const box = $("runButtons");
+      box.innerHTML = "";
+      Object.entries(BATCH7_RUNS).forEach(([k, v]) => {
+        const b = document.createElement("button");
+        b.className = "run-btn" + (v.id === taskId ? " active" : "");
+        b.textContent = k + ": " + v.label.split("—")[1]?.trim() || v.label;
+        b.onclick = () => { taskId = v.id; $("taskInput").value = taskId; startTime = Date.now(); lastLogLen = 0; $("logBox").innerHTML = ""; poll(); };
+        box.appendChild(b);
+      });
+    }
+
+    function pctFromStage(stage, prog) {
+      const map = { queued: 5, initializing: 8, starting: 10, nlp_processing: 15, crawling: 45, sentiment_analysis: 80, generating_insights: 92, completed: 100, failed: 0 };
+      if (stage === "crawling" && prog?.platforms_total) {
+        const done = prog.platforms_done || 0;
+        return 15 + Math.round((done / prog.platforms_total) * 55);
+      }
+      for (const [k, v] of Object.entries(map)) if ((stage || "").includes(k)) return v;
+      return 20;
+    }
+
+    function classifyLog(line) {
+      if (/error|failed|❌/i.test(line)) return "log-err";
+      if (/warn|⚠/i.test(line)) return "log-warn";
+      if (/✅|complete|success|scraped/i.test(line)) return "log-ok";
+      return "log-info";
+    }
+
+    function appendLogs(lines) {
+      const box = $("logBox");
+      lines.forEach((line) => {
+        const div = document.createElement("div");
+        div.className = "log-line " + classifyLog(line);
+        const ts = new Date().toLocaleTimeString("en-GB");
+        div.innerHTML = `<span class="log-ts">[${ts}]</span> ${escapeHtml(line)}`;
+        box.appendChild(div);
+      });
+      box.scrollTop = box.scrollHeight;
+    }
+
+    function escapeHtml(s) {
+      return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+    }
+
+    async function poll() {
+      $("lastPoll").textContent = "Poll: " + new Date().toLocaleTimeString("en-GB");
+      const elapsed = Math.floor((Date.now() - startTime) / 1000);
+      const m = Math.floor(elapsed / 60);
+      $("elapsed").textContent = m > 0 ? `${m}m ${elapsed % 60}s` : `${elapsed}s`;
+
+      try {
+        const r = await fetch(`${API}/task_status/${taskId}`, { signal: AbortSignal.timeout(120000) });
+        if (!r.ok) throw new Error("Task " + r.status + " — mungkin siap atau backend sibuk");
+        const data = await r.json();
+        const st = data.status || "?";
+        const prog = data.progress || {};
+        const badge = $("statusBadge");
+        badge.textContent = st;
+        badge.className = "badge " + (st === "running" ? "running" : st === "completed" ? "completed" : st === "failed" ? "failed" : "queued");
+
+        $("stageMsg").textContent = prog.message || st;
+        $("stageDetail").textContent = "Stage: " + (prog.stage || "—");
+        const pct = pctFromStage(prog.stage, prog);
+        $("progressFill").style.width = pct + "%";
+        $("platforms").textContent = prog.platforms_total
+          ? `${prog.platforms_done || 0}/${prog.platforms_total}` : "FB+TT";
+
+        const logs = data.logs || [];
+        $("logCount").textContent = logs.length;
+        if (logs.length > lastLogLen) {
+          appendLogs(logs.slice(lastLogLen));
+          lastLogLen = logs.length;
+        }
+
+        if (st === "completed") {
+          appendLogs(["✅ TASK SIAP — CSV dalam data/combined/ atau data/analyzed/"]);
+          clearInterval(pollTimer);
+        } else if (st === "failed") {
+          appendLogs(["❌ GAGAL: " + (data.error || "unknown")]);
+          clearInterval(pollTimer);
+        }
+      } catch (e) {
+        $("statusBadge").textContent = "backend busy";
+        $("statusBadge").className = "badge running";
+        $("stageMsg").textContent = "Backend sedang crawl (normal — tunggu)";
+        $("stageDetail").textContent = String(e.message || e);
+        appendLogs(["⏳ Backend sibuk — masih crawl Apify TikTok/FB... (tunggu 30-60s)"]);
+      }
+    }
+
+    $("taskInput").value = taskId;
+    $("taskInput").addEventListener("change", (e) => {
+      taskId = e.target.value.trim();
+      startTime = Date.now(); lastLogLen = 0; $("logBox").innerHTML = "";
+      renderRunButtons(); poll();
+    });
+
+    renderRunButtons();
+    poll();
+    pollTimer = setInterval(poll, 3000);
+  </script>
+</body>
+</html>

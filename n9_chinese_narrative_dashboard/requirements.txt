@@ -1,0 +1,12 @@
+streamlit>=1.32.0
+pandas>=2.1.0
+numpy>=1.26.0
+plotly>=5.18.0
+wordcloud>=1.9.3
+jieba>=0.42.1
+openpyxl>=3.1.2
+python-dotenv>=1.0.0
+deep-translator>=1.11.4
+python-docx>=1.1.0
+reportlab>=4.0.0
+matplotlib>=3.8.0

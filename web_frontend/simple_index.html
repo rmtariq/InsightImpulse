@@ -1696,15 +1696,69 @@
                 <i class="bi bi-graph-up-arrow" style="font-size: 3rem; opacity: 0.9;"></i>
             </div>
             <h1 class="mb-2">InsightPulse</h1>
-            <p class="mb-0" style="opacity: 0.9;">Social Media Analytics Platform</p>
-            <small style="opacity: 0.7;">🇲🇾 Supports Malay & English Analysis</small>
+            <p class="mb-0" style="opacity: 0.9;">Intelligence Platform — Social · Market · Operational Data</p>
+            <small style="opacity: 0.7;">🇲🇾 Socmed · News · Upload · BNM · Bursa · DOSM · Field Data</small>
         </div>
         
         <!-- Analysis Form -->
         <div class="analysis-card">
             <h3 class="mb-4">Start New Analysis</h3>
 
-            <!-- Crawl Mode Toggle -->
+            <!-- Data Source Mode -->
+            <div class="form-section mb-3 p-3 rounded" style="background:#f8fafc;border:1px solid #e2e8f0;">
+                <label class="form-label fw-bold">Data Source Mode</label>
+                <div class="d-flex gap-2 flex-wrap mb-2">
+                    <button type="button" id="btnSourceSocialCrawl" class="btn btn-primary btn-sm px-3" onclick="IPPlatform.setDataSourceMode('social_crawl')">Social Crawl</button>
+                    <button type="button" id="btnSourceUpload" class="btn btn-outline-primary btn-sm px-3" onclick="IPPlatform.setDataSourceMode('upload')">Upload Data</button>
+                    <button type="button" id="btnSourceFeed" class="btn btn-outline-primary btn-sm px-3" onclick="IPPlatform.setDataSourceMode('feed')">Connect Feed</button>
+                    <button type="button" id="btnSourceHybrid" class="btn btn-outline-success btn-sm px-3" onclick="IPPlatform.setDataSourceMode('hybrid')">Hybrid Mix</button>
+                </div>
+                <small id="dataSourceHelp" class="text-muted d-block mb-2">Collect live data from selected social/news/marketplace platforms.</small>
+                <div id="packageSummary" class="mb-0"></div>
+            </div>
+
+            <!-- Upload Data Panel -->
+            <div class="form-section" id="uploadDataSection" style="display:none;">
+                <label class="form-label fw-bold">Upload Structured / Semi-structured Data</label>
+                <div class="row g-2 mb-2">
+                    <div class="col-md-6">
+                        <label class="form-label small mb-0">Dataset Type</label>
+                        <select class="form-select form-select-sm" id="datasetType">
+                            <option value="field_cula">Field Report (Cula / Lapangan)</option>
+                            <option value="borrower_list">Borrower / Portfolio List</option>
+                            <option value="complaint_log">Complaint / Aduan Log</option>
+                            <option value="economic_csv">Economic Indicator CSV</option>
+                            <option value="generic_csv">Generic CSV (auto-detect)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 d-flex align-items-end gap-2 flex-wrap">
+                        <a class="btn btn-outline-secondary btn-sm" href="/api/data/templates/field_cula" download>Template Cula</a>
+                        <a class="btn btn-outline-secondary btn-sm" href="/api/data/templates/borrower_list" download>Template Borrower</a>
+                        <a class="btn btn-outline-secondary btn-sm" href="/api/data/templates/complaint_log" download>Template Aduan</a>
+                    </div>
+                </div>
+                <input type="file" class="form-control" id="dataUploadInput" accept=".csv,.json,.xlsx,.xls" multiple>
+                <small class="text-muted d-block mt-1">CSV preferred. Excel → Save As CSV. Minimum cula: dun, kawasan, rumah, cula.</small>
+                <div id="uploadPreview" class="mt-2"></div>
+            </div>
+
+            <!-- Connect Feed Panel -->
+            <div class="form-section" id="connectFeedSection" style="display:none;">
+                <label class="form-label fw-bold">Connect External Feeds</label>
+                <div class="d-flex flex-wrap gap-3">
+                    <label class="form-check"><input class="form-check-input feed-check" type="checkbox" value="bnm"> Bank Negara (OPR, NPL, SME lending)</label>
+                    <label class="form-check"><input class="form-check-input feed-check" type="checkbox" value="bursa"> Bursa Malaysia (sector outlook)</label>
+                    <label class="form-check"><input class="form-check-input feed-check" type="checkbox" value="dosm"> DOSM (CPI, retail, employment)</label>
+                </div>
+                <small class="text-muted d-block mt-1">Sample feeds included — replace with live API/CSV sync in production.</small>
+            </div>
+
+            <!-- Hybrid Summary -->
+            <div class="form-section alert alert-success py-2" id="hybridSummarySection" style="display:none;font-size:0.9em;">
+                <strong>Hybrid Intelligence:</strong> combine social crawl + uploaded files + macro feeds for the most complete advisory output.
+            </div>
+
+            <div id="crawlModeSection">
             <div class="form-section">
                 <label class="form-label">Mod Crawl / Crawl Mode</label>
                 <div class="d-flex gap-2" style="flex-wrap:wrap;">
@@ -1716,27 +1770,71 @@
                         onclick="setCrawlMode('direct_url')" style="border-radius:20px; font-weight:600;">
                         <i class="bi bi-link-45deg me-1"></i> Direct URL Crawl
                     </button>
+                    <button type="button" id="btnModePost" class="btn btn-outline-success btn-sm px-4 py-2"
+                        onclick="setCrawlMode('direct_url_post')" style="border-radius:20px; font-weight:600;">
+                        <i class="bi bi-chat-square-text me-1"></i> Post URL Batch
+                    </button>
                 </div>
                 <small class="text-muted mt-1 d-block">
                     <b>Keyword Search</b> — cari berdasarkan kata kunci.<br>
-                    <b>Direct URL Crawl</b> — crawl terus halaman/profil FB, IG, TikTok, YouTube, X, Threads, LinkedIn.
+                    <b>Direct URL Crawl</b> — halaman/profil FB, IG, TikTok, dll (date range apply).<br>
+                    <b>Post URL Batch</b> — paste link post WhatsApp (contoh poll PRN): ambil <b>post + semua komen + engagement</b>, tanpa buang post lama.
                 </small>
             </div>
+            </div><!-- /crawlModeSection -->
 
             <!-- URL Input (shown only in Direct URL mode) -->
             <div class="form-section" id="urlInputSection" style="display:none;">
                 <label for="directUrlInput" class="form-label">
                     <i class="bi bi-link-45deg me-1"></i>
-                    Masukkan URL Halaman / Profil
+                    <span id="directUrlInputLabel">Masukkan URL Halaman / Profil</span>
                 </label>
                 <textarea
                     class="form-control"
                     id="directUrlInput"
-                    rows="4"
+                    rows="6"
                     placeholder="Masukkan satu URL setiap baris, contoh:&#10;https://www.facebook.com/PASJohor&#10;https://www.instagram.com/pas_johor&#10;https://www.tiktok.com/@pas_official&#10;https://www.youtube.com/@PASMalaysia"
                     style="font-size:0.88em; font-family:monospace;"
                 ></textarea>
                 <small class="text-muted mt-1 d-block" id="urlPlatformDetect"></small>
+                <div class="mt-2 p-2 rounded" id="postBatchHint" style="display:none; background:#ecfdf5; border:1px solid #86efac; font-size:0.82em;">
+                    <b>Post URL Batch:</b> paste <b>semua post URL sekali</b> (FB, IG, X, TikTok, YouTube, Threads, LinkedIn).
+                    Sistem auto-split <b>1 post = 1 job</b>, collect <b>post + komen + likes/shares/views</b>.
+                    Multi-pass + dedupe — data baru sahaja ditambah, tiada duplicate.
+                </div>
+                <div class="mt-2 p-3 rounded" id="postBatchOptions" style="display:none; background:#f8fafc; border:1px solid #cbd5e1; font-size:0.85em;">
+                    <div class="row g-2 align-items-end">
+                        <div class="col-md-4">
+                            <label for="commentTargetPerPost" class="form-label mb-1"><b>Sasaran komen / post</b></label>
+                            <select class="form-select form-select-sm" id="commentTargetPerPost">
+                                <option value="500">500</option>
+                                <option value="1000">1,000</option>
+                                <option value="2000">2,000</option>
+                                <option value="3000" selected>3,000</option>
+                                <option value="5000">5,000</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="multipassComments" checked>
+                                <label class="form-check-label" for="multipassComments">
+                                    Multi-pass crawl (dedupe ON)
+                                </label>
+                            </div>
+                            <div class="form-check mt-1">
+                                <input class="form-check-input" type="checkbox" id="includeNestedComments" checked>
+                                <label class="form-check-label" for="includeNestedComments">
+                                    Sertakan reply / nested comments
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <small class="text-muted d-block">
+                                Facebook: hingga 5 pass × 1000 komen. Pass seterusnya hanya tambah komen <b>baru</b> — duplicate auto-skip.
+                            </small>
+                        </div>
+                    </div>
+                </div>
                 <div class="mt-2 p-2 rounded" style="background:#f0f7ff; border:1px solid #b8d4f5; font-size:0.82em;">
                     <b>Platform yang disokong:</b>
                     <span class="badge bg-primary me-1">Facebook</span>
@@ -1764,18 +1862,42 @@
             <div class="form-section">
                 <label for="analysisType" class="form-label">Analysis Type</label>
                 <select class="form-select" id="analysisType">
-                    <option value="social_listening">🎧 Social Listening</option>
-                    <option value="sme_insights">🏪 SME Insights</option>
-                    <option value="issue_detection">🚨 Issue Detection</option>
-                    <option value="competitor_analysis">🔍 Competitor Analysis</option>
-                    <option value="product_intelligence">📦 Product Intelligence</option>
-                    <option value="market_research">📊 Market Research</option>
-                    <option value="brand_monitoring">🛡️ Brand Monitoring</option>
+                    <option value="social_listening">Social Listening</option>
+                    <option value="multimodal_video_text">Multimodal Video + Text</option>
+                    <option value="sme_insights">SME Insights</option>
+                    <option value="issue_detection">Issue Detection</option>
+                    <option value="competitor_analysis">Competitor Analysis</option>
+                    <option value="product_intelligence">Product Intelligence</option>
+                    <option value="market_research">Market Research</option>
+                    <option value="brand_monitoring">Brand Monitoring</option>
+                    <option value="portfolio_intelligence">Portfolio Intelligence (EWS)</option>
+                    <option value="field_operations">Field Operations / Cula</option>
+                    <option value="economy_outlook">Policy & Economy Outlook</option>
+                    <option value="public_complaint">Public Complaint Monitor</option>
                 </select>
+                <small id="analysisTypeHelp" class="text-muted d-block mt-2">Select analysis type to see recommended data sources and actions.</small>
+            </div>
+
+            <!-- Nemotron Processing -->
+            <div class="form-section">
+                <label for="processingMode" class="form-label">Processing</label>
+                <select class="form-select" id="processingMode">
+                    <option value="on-prem-nemotron" selected>On-Prem (Nemotron)</option>
+                    <option value="cloud-openai">Cloud API (OpenAI)</option>
+                    <option value="cloud-super">Cloud Burst (Nemotron Super)</option>
+                    <option value="rule-based">Rule-Based Fallback</option>
+                </select>
+                <div class="form-check mt-2">
+                    <input class="form-check-input" type="checkbox" id="enableMultimodal">
+                    <label class="form-check-label" for="enableMultimodal">
+                        Enable multimodal media routing (video/image/audio → text)
+                    </label>
+                </div>
+                <small class="text-muted d-block mt-2">For PRN/government work, on-prem keeps LLM processing inside your own NIM stack.</small>
             </div>
             
             <!-- Platform Selection -->
-            <div class="form-section">
+            <div class="form-section" id="platformSection">
                 <label class="form-label">Select Platforms</label>
                 <div class="platform-grid">
                     <div class="platform-item" onclick="togglePlatform('facebook')">
@@ -2091,32 +2213,132 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Chart.js for Professional Line Charts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="/frontend/js/insightpulse-platform.js"></script>
+    <script src="/frontend/js/insightpulse-form-state.js"></script>
     
     <script>
         // ── Crawl Mode helpers ──────────────────────────────────────────────
         window._crawlMode = 'keyword';
+        window._directUrlTarget = 'page'; // page | post
+
+        function syncMultimodalCheckbox() {
+            const analysisType = document.getElementById('analysisType')?.value || 'social_listening';
+            const mm = document.getElementById('enableMultimodal');
+            if (!mm) return;
+            if (analysisType === 'social_listening') {
+                mm.checked = false;
+                mm.disabled = true;
+                mm.title = 'Multimodal is off for Social Listening (use Multimodal Video + Text analysis type instead)';
+            } else if (analysisType === 'multimodal_video_text') {
+                mm.checked = true;
+                mm.disabled = true;
+                mm.title = 'Multimodal enabled for this analysis type';
+            } else {
+                mm.disabled = false;
+                mm.title = '';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const at = document.getElementById('analysisType');
+            if (at) {
+                at.addEventListener('change', syncMultimodalCheckbox);
+                syncMultimodalCheckbox();
+            }
+        });
+
+        function isPostUrl(url) {
+            const u = url.toLowerCase();
+            if (u.includes('facebook.com') || u.includes('fb.com')) {
+                return ['/share/p/', '/share/v/', 'story.php', 'pfbid', '/posts/'].some(m => u.includes(m));
+            }
+            if (u.includes('instagram.com')) {
+                return ['/p/', '/reel/', '/tv/'].some(m => u.includes(m));
+            }
+            if (u.includes('twitter.com') || u.includes('x.com')) {
+                return u.includes('/status/');
+            }
+            if (u.includes('tiktok.com')) {
+                return u.includes('/video/');
+            }
+            if (u.includes('youtube.com') || u.includes('youtu.be')) {
+                return u.includes('watch?v=') || u.includes('youtu.be/') || u.includes('/shorts/');
+            }
+            if (u.includes('threads.net')) {
+                return u.includes('/post/');
+            }
+            if (u.includes('linkedin.com')) {
+                return u.includes('/feed/update/') || u.includes('urn:li:activity');
+            }
+            return false;
+        }
+
+        function countProfilePageUrls(urls) {
+            if (window._directUrlTarget === 'post') return 0;
+            return urls.filter(u => u.startsWith('http') && !isPostUrl(u)).length;
+        }
+
+        function confirmLargeProfileBatch(profileCount) {
+            const ttBatch = 3;
+            const estBatches = Math.ceil(profileCount / ttBatch);
+            return window.confirm(
+                profileCount + ' URL profil/halaman dikesan.\n\n' +
+                'InsightPulse akan auto-split kepada ~' + estBatches + ' batch ' +
+                '(3 TikTok / 4 FB per batch) untuk elak platform block.\n\n' +
+                'Tip: Keyword Search lebih sesuai untuk coverage 11 calon serentak.\n\n' +
+                'Teruskan crawl?'
+            );
+        }
 
         function setCrawlMode(mode) {
-            window._crawlMode = mode;
+            window._crawlMode = (mode === 'direct_url_post') ? 'direct_url' : mode;
+            window._directUrlTarget = (mode === 'direct_url_post') ? 'post' : 'page';
             const btnKw  = document.getElementById('btnModeKeyword');
             const btnUrl = document.getElementById('btnModeUrl');
+            const btnPost = document.getElementById('btnModePost');
             const kwSec  = document.getElementById('keywordInputSection');
             const urlSec = document.getElementById('urlInputSection');
-            if (mode === 'direct_url') {
+            const urlLabel = document.getElementById('directUrlInputLabel');
+            const postHint = document.getElementById('postBatchHint');
+            const postOpts = document.getElementById('postBatchOptions');
+            const urlTA = document.getElementById('directUrlInput');
+
+            [btnKw, btnUrl, btnPost].forEach(b => {
+                b.classList.remove('btn-primary', 'btn-success');
+                b.classList.add('btn-outline-primary');
+            });
+            btnPost.classList.remove('btn-outline-primary');
+            btnPost.classList.add('btn-outline-success');
+
+            if (mode === 'direct_url' || mode === 'direct_url_post') {
                 btnKw.classList.remove('btn-primary');
                 btnKw.classList.add('btn-outline-primary');
-                btnUrl.classList.remove('btn-outline-primary');
-                btnUrl.classList.add('btn-primary');
+                if (mode === 'direct_url_post') {
+                    btnPost.classList.remove('btn-outline-success');
+                    btnPost.classList.add('btn-success');
+                } else {
+                    btnUrl.classList.remove('btn-outline-primary');
+                    btnUrl.classList.add('btn-primary');
+                }
                 kwSec.style.display  = 'none';
                 urlSec.style.display = 'block';
+                postHint.style.display = mode === 'direct_url_post' ? 'block' : 'none';
+                if (postOpts) postOpts.style.display = mode === 'direct_url_post' ? 'block' : 'none';
+                urlLabel.textContent = mode === 'direct_url_post'
+                    ? 'Masukkan URL Post (satu per baris — WhatsApp poll links)'
+                    : 'Masukkan URL Halaman / Profil';
+                if (urlTA && mode === 'direct_url_post') {
+                    urlTA.placeholder = 'Paste post URLs (one per line), any platform:\nhttps://www.facebook.com/share/p/...\nhttps://www.instagram.com/p/...\nhttps://x.com/user/status/...\nhttps://www.tiktok.com/@user/video/...\nhttps://www.youtube.com/watch?v=...';
+                }
             } else {
-                btnUrl.classList.remove('btn-primary');
-                btnUrl.classList.add('btn-outline-primary');
                 btnKw.classList.remove('btn-outline-primary');
                 btnKw.classList.add('btn-primary');
                 urlSec.style.display = 'none';
                 kwSec.style.display  = 'block';
+                postHint.style.display = 'none';
+                if (postOpts) postOpts.style.display = 'none';
             }
+            if (window.IPFormState) IPFormState.saveFormState();
         }
 
         function detectPlatformFromUrl(url) {
@@ -2133,7 +2355,7 @@
 
         // Live URL detection preview
         document.addEventListener('DOMContentLoaded', function() {
-            loadProjectDropdown('pas_break_2026');
+            loadProjectDropdown('PRN_N9');
             const urlTA = document.getElementById('directUrlInput');
             if (urlTA) {
                 urlTA.addEventListener('input', function() {
@@ -2144,9 +2366,22 @@
                         if (p) detected[p] = (detected[p] || 0) + 1;
                     });
                     const preview = document.getElementById('urlPlatformDetect');
+                    const postCount = lines.filter(isPostUrl).length;
+                    const profileCount = countProfilePageUrls(lines);
                     if (Object.keys(detected).length > 0) {
-                        preview.innerHTML = '🔍 Detected: ' + Object.entries(detected)
+                        let html = '🔍 Detected: ' + Object.entries(detected)
                             .map(([p,n]) => `<b>${p}</b> (${n} URL)`).join(', ');
+                        if (postCount > 0 && postCount === lines.length) {
+                            html += ' · <span style="color:#059669"><b>Post URL Batch</b> — full comments mode</span>';
+                            window._directUrlTarget = 'post';
+                        } else if (postCount > 0) {
+                            html += ` · ${postCount}/${lines.length} post URLs`;
+                        }
+                        if (profileCount > 5 && window._directUrlTarget !== 'post') {
+                            const batches = Math.ceil(profileCount / 3);
+                            html += ` · <span style="color:#b45309"><b>⚠️ ${profileCount} profil</b> — auto-split ~${batches} batch</span>`;
+                        }
+                        preview.innerHTML = html;
                         preview.style.color = '#0d6efd';
                     } else {
                         preview.innerHTML = '';
@@ -2161,6 +2396,7 @@
             try {
                 const res = await fetch('http://localhost:8001/api/projects');
                 const data = await res.json();
+                window._ipProjects = data.projects || [];
                 sel.innerHTML = '<option value="">— Staging only (data/combined) —</option>';
                 (data.projects || []).forEach(p => {
                     const opt = document.createElement('option');
@@ -2168,7 +2404,11 @@
                     opt.textContent = p.label;
                     sel.appendChild(opt);
                 });
-                if (selectId) sel.value = selectId;
+                if (window.IPFormState) {
+                    IPFormState.restoreFormState(selectId || 'PRN_N9');
+                } else if (selectId) {
+                    sel.value = selectId;
+                }
                 const catSel = document.getElementById('newProjectCategory');
                 if (catSel && data.categories) {
                     catSel.innerHTML = '';
@@ -2238,6 +2478,7 @@
             } else {
                 platformItem.classList.remove('selected');
             }
+            if (window.IPFormState) IPFormState.saveFormState();
         }
 
         function setExample(exampleQuery) {
@@ -2343,6 +2584,13 @@
         });
 
         async function startAnalysis() {
+            if (window.IPFormState) IPFormState.saveFormState();
+            const dataMode = (window.IPPlatform && IPPlatform.state.dataSourceMode) || 'social_crawl';
+            if (window.IPPlatform) {
+                const ok = await IPPlatform.validateBeforeStart(dataMode);
+                if (!ok) return;
+            }
+
             // Determine crawl mode
             const crawlMode = window._crawlMode || 'keyword';
             const analysisType = document.getElementById('analysisType').value;
@@ -2356,8 +2604,9 @@
 
             let query = '';
             let directUrls = [];
+            const skipCrawlOnly = dataMode === 'upload' || dataMode === 'feed';
 
-            if (crawlMode === 'direct_url') {
+            if (!skipCrawlOnly && crawlMode === 'direct_url') {
                 // Parse URLs from textarea
                 const rawUrls = document.getElementById('directUrlInput').value.trim();
                 directUrls = rawUrls.split('\n').map(u => u.trim()).filter(u =>
@@ -2367,13 +2616,21 @@
                     alert('Sila masukkan sekurang-kurangnya satu URL untuk Direct URL Crawl.');
                     return;
                 }
+                if (window._directUrlTarget !== 'post') {
+                    const profileCount = countProfilePageUrls(directUrls);
+                    if (profileCount > 5 && !confirmLargeProfileBatch(profileCount)) {
+                        return;
+                    }
+                }
                 // Auto-select matching platforms from URLs
                 directUrls.forEach(url => {
                     const p = detectPlatformFromUrl(url);
                     if (p && !platforms.includes(p)) platforms.push(p);
                 });
-                query = directUrls[0]; // use first URL as display query
-            } else {
+                query = directUrls.length === 1
+                    ? directUrls[0]
+                    : `${directUrls.length} post URLs (${directUrls[0].slice(0, 48)}…)`;
+            } else if (!skipCrawlOnly) {
                 query = document.getElementById('analysisQuery').value.trim();
                 if (!query) {
                     alert('Sila masukkan kata kunci / query untuk dianalisis.');
@@ -2383,6 +2640,9 @@
                     alert('Sila pilih sekurang-kurangnya satu platform.');
                     return;
                 }
+            } else {
+                query = document.getElementById('analysisQuery')?.value.trim()
+                    || `${analysisType} unified package ${new Date().toISOString().slice(0, 10)}`;
             }
             
             // Show loading
@@ -2393,10 +2653,14 @@
             document.getElementById('crawlProgressBar').style.width = '3%';
             document.getElementById('crawlProgressPct').textContent = '0%';
             document.getElementById('crawlMainTitle').textContent = crawlMode === 'direct_url'
-                ? `Direct URL Crawl — ${directUrls.length} URL(s)...`
+                ? (window._directUrlTarget === 'post'
+                    ? `Post URL Batch — ${directUrls.length} post(s)...`
+                    : `Direct URL Crawl — ${directUrls.length} URL(s)...`)
                 : 'Crawling & Analyzing Data...';
             document.getElementById('crawlSubTitle').textContent = crawlMode === 'direct_url'
-                ? `Crawling halaman/profil terus dari ${platforms.join(', ').toUpperCase()}...`
+                ? (window._directUrlTarget === 'post'
+                    ? `Crawling post + komen penuh dari ${platforms.join(', ').toUpperCase()}...`
+                    : `Crawling halaman/profil terus dari ${platforms.join(', ').toUpperCase()}...`)
                 : 'Connecting to crawl engine...';
             document.getElementById('crawlElapsedBadge').textContent = '0s';
             document.getElementById('crawlPostsCount').textContent = '0';
@@ -2427,19 +2691,32 @@
                         query: query,
                         platforms: platforms,
                         analysis_type: analysisType,
+                        processing: document.getElementById('processingMode') ? document.getElementById('processingMode').value : 'on-prem-nemotron',
+                        multimodal: analysisType === 'multimodal_video_text',
                         dataset_size: maxResults,
                         max_results: maxResults,
                         date_range: document.getElementById('dateRange') ? document.getElementById('dateRange').value : '30days',
                         include_sentiment: true,
                         include_trends: true,
                         malaysian_context: true,
-                        use_crawl_strategy: true,
+                        use_crawl_strategy: !skipCrawlOnly,
                         crawl_mode: crawlMode,
                         direct_urls: directUrls.length > 0 ? directUrls : null,
+                        direct_url_target: window._directUrlTarget || 'auto',
+                        comment_target_per_post: (window._directUrlTarget === 'post' && document.getElementById('commentTargetPerPost'))
+                            ? parseInt(document.getElementById('commentTargetPerPost').value, 10) || null
+                            : null,
+                        multipass_comments: document.getElementById('multipassComments')
+                            ? document.getElementById('multipassComments').checked
+                            : true,
+                        include_nested_comments: document.getElementById('includeNestedComments')
+                            ? document.getElementById('includeNestedComments').checked
+                            : true,
                         project_id: (() => {
                             const el = document.getElementById('projectId');
                             return el && el.value ? el.value : null;
-                        })()
+                        })(),
+                        ...(window.IPPlatform ? IPPlatform.buildExtraPayload(dataMode) : {})
                     })
                 });
 
@@ -2455,6 +2732,7 @@
 
                 // ── Crawl Progress UI helpers ──────────────────────────────
                 const crawlStartTime = Date.now();
+                const minProgressDisplayMs = 3500;
                 let elapsedTimer = null;
                 let platformStates = {};   // { platform: 'waiting'|'running'|'done'|'error' }
                 let postsTotal = 0, commentsTotal = 0;
@@ -2549,7 +2827,9 @@
                 let lastRealPct = 3;
                 let lastStage = '';
                 let pollCount = 0;
+                let pollFailures = 0;
                 const maxPolls = 360;
+                const maxPollFailures = 20;
 
                 // Stage timeline (estimated pct ranges per stage)
                 const stageTimeline = [
@@ -2624,6 +2904,7 @@
 
                         const status = await statusResponse.json();
                         pollCount++;
+                        pollFailures = 0;
 
                         const stage = status.progress?.stage || '';
                         const msg   = status.progress?.message || '';
@@ -2702,7 +2983,8 @@
                                 comments += p?.comments_count || p?.total_comments || 0;
                             });
                             if (posts + comments === 0 && status.result.total_posts_analyzed) {
-                                posts = status.result.total_posts_analyzed;
+                                posts = status.result.total_posts_analyzed || 0;
+                                comments = status.result.total_comments_analyzed || 0;
                             }
                             if (posts + comments > 0) {
                                 document.getElementById('crawlPostsCount').textContent    = posts.toLocaleString();
@@ -2725,10 +3007,12 @@
                             document.getElementById('crawlMainTitle').textContent = '✅ Analysis Complete!';
                             document.getElementById('crawlSubTitle').textContent = 'Loading your results...';
                             crawlLog(`🎉 Done! Loading dashboard...`);
+                            const finishAt = Date.now();
+                            const waitMs = Math.max(0, minProgressDisplayMs - (finishAt - crawlStartTime));
                             setTimeout(() => {
                                 document.getElementById('loadingSection').style.display = 'none';
                                 displayResults(status.result);
-                            }, 900);
+                            }, Math.max(waitMs, 900));
 
                         } else if (status.status === 'failed') {
                             clearInterval(elapsedTimer);
@@ -2748,12 +3032,18 @@
                         }
 
                     } catch (pollError) {
-                        clearInterval(elapsedTimer);
-                        clearInterval(animTicker);
-                        logTimers.forEach(t => clearTimeout(t));
-                        console.error('Polling error:', pollError);
-                        document.getElementById('loadingSection').style.display = 'none';
-                        alert(`Error: ${pollError.message}\n\nAnalysis may still be running in background. Check backend logs.`);
+                        pollFailures++;
+                        console.warn(`Polling error (${pollFailures}/${maxPollFailures}):`, pollError);
+                        if (pollFailures >= maxPollFailures) {
+                            clearInterval(elapsedTimer);
+                            clearInterval(animTicker);
+                            logTimers.forEach(t => clearTimeout(t));
+                            document.getElementById('loadingSection').style.display = 'none';
+                            alert(`Error: ${pollError.message}\n\nAnalysis may still be running in background. Check backend logs.`);
+                        } else {
+                            crawlLog(`⚠️ Connection hiccup — retrying (${pollFailures}/${maxPollFailures})...`);
+                            setTimeout(pollStatus, 5000);
+                        }
                     }
                 };
 
@@ -2854,6 +3144,10 @@
                 html += '</div>';
 
                 resultsSection.innerHTML = html;
+                if (results.unified && window.IPPlatform) {
+                    const card = resultsSection.querySelector('.result-card');
+                    if (card) IPPlatform.renderUnifiedResults(results, card);
+                }
                 resultsSection.style.display = 'block';
                 resultsSection.scrollIntoView({ behavior: 'smooth' });
 
@@ -2939,6 +3233,12 @@
             };
 
             const config = typeConfig[analysisType] || typeConfig['social_listening'];
+            const queryLabel = (results.direct_urls && results.direct_urls.length > 1)
+                ? `${results.direct_urls.length} post URLs`
+                : (results.query || 'N/A');
+            const crawlBadge = results.direct_url_target === 'post'
+                ? '<span class="badge me-2" style="background:rgba(16,185,129,0.35)!important;color:white!important;border:1px solid rgba(255,255,255,0.3);font-weight:600;"><i class="bi bi-chat-square-text"></i> Post URL Batch</span>'
+                : '';
 
             return `
                 <div class="analysis-header p-4 rounded-top" style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white;">
@@ -2949,8 +3249,9 @@
                             </h3>
                             <p class="mb-2" style="color: white !important; text-shadow: 0 1px 2px rgba(0,0,0,0.3); font-weight: 500;">${config.subtitle}</p>
                             <div class="analysis-meta">
+                                ${crawlBadge}
                                 <span class="badge me-2" style="background: rgba(255,255,255,0.2) !important; color: white !important; border: 1px solid rgba(255,255,255,0.3); font-weight: 600;">
-                                    <i class="fas fa-search" style="color: white;"></i> "${results.query}"
+                                    <i class="fas fa-search" style="color: white;"></i> "${queryLabel}"
                                 </span>
                                 <span class="badge me-2" style="background: rgba(255,255,255,0.2) !important; color: white !important; border: 1px solid rgba(255,255,255,0.3); font-weight: 600;">
                                     <i class="fas fa-database" style="color: white;"></i> ${results.total_data_points.toLocaleString()} data points
@@ -2972,6 +3273,11 @@
         }
 
         function getCustomModelsSection(customSentiment, customEmotions) {
+            const emoDist = customEmotions?.emotion_distribution || {};
+            const primaryEmo = customEmotions?.primary_emotion || 'neutral';
+            const emoPct = Math.round(
+                (customEmotions?.confidence ?? emoDist[primaryEmo] ?? 0) * 100
+            );
             return `
                 <div class="custom-models-section p-4 bg-light border-bottom">
                     <div class="row">
@@ -3015,8 +3321,8 @@
                                         <div class="emotion-icon-large">
                                             ${getEmotionEmoji(customEmotions.primary_emotion)}
                                         </div>
-                                        <div class="emotion-percentage">${Math.round(customEmotions.confidence * 100)}%</div>
-                                        <div class="emotion-label">${customEmotions.primary_emotion.toUpperCase()}</div>
+                                        <div class="emotion-percentage">${emoPct}%</div>
+                                        <div class="emotion-label">${primaryEmo.replace(/_/g, ' ').toUpperCase()}</div>
                                     </div>
                                 </div>
                             </div>
